@@ -16,16 +16,10 @@
     },
     {
       "aspects": [
-        "backrooms",
-        "shiny"
+        "shiny",
+        "backrooms"
       ],
-      "texture": "cobbleeffort:textures/pokemon/backrooms/0920_lokix/lokix_backrooms_shiny.png",
-      "layers": [
-        {
-          "name": "emissive",
-          "enabled": false
-        }
-      ]
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0920_lokix/lokix_shiny_backrooms.png"
     }
   ]
 }

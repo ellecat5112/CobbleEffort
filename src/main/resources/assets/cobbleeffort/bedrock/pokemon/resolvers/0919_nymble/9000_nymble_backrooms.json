@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:nymble",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0919_nymble/nymble_backrooms.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0919_nymble/nymble_shiny_backrooms.png"
+    }
+  ]
+}

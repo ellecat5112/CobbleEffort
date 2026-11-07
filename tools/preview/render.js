@@ -1,23 +1,30 @@
 const { chromium } = require('playwright');
 // Usage: npm install, serve this folder (python3 -m http.server 8765 --bind 127.0.0.1), then
 //   node render.js <cobblemon>/common/src/main/resources ../../src/main/resources out
+// Renders every species in manifest.json (written by generate_backrooms.py): original vs. Still Life.
 const fs = require('fs'), path = require('path');
 const [ref, mod, outDir] = process.argv.slice(2);
-const cfg = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'backrooms_species.json')));
+const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, 'manifest.json')));
+const texPath = (root, id) => { const [ns, p] = id.split(':'); return path.join(root, 'assets', ns, p); };
+const modelsRoot = path.join(ref, 'assets/cobblemon/bedrock/pokemon/models');
+const findModel = (id) => {
+  const want = id.split(':')[1] + '.json';
+  const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) { const r = walk(p); if (r) return r; } else if (e.name === want) return p; } };
+  return walk(modelsRoot);
+};
 (async () => {
   const browser = await chromium.launch({ args: ['--use-gl=swiftshader', '--enable-unsafe-swiftshader'] });
   const page = await browser.newPage();
-  page.on('console', m => console.log('page:', m.text()));
   await page.goto('http://127.0.0.1:8765/index.html');
   await page.waitForFunction(() => window.ready);
   fs.mkdirSync(outDir, { recursive: true });
-  const yaw = Number(process.env.YAW || 0);
-  for (const e of cfg.species) {
-    const geo = JSON.parse(fs.readFileSync(path.join(ref, 'assets/cobblemon/bedrock/pokemon/models', e.folder, e.species + '.geo.json')));
-    for (const [tag, file] of [['orig', path.join(ref, 'assets/cobblemon/textures/pokemon', e.folder, e.species + '.png')],
-                               ['still', path.join(mod, 'assets/cobbleeffort/textures/pokemon/backrooms', e.folder, e.species + '_backrooms.png')]]) {
+  for (const e of manifest) {
+    const geo = JSON.parse(fs.readFileSync(findModel(e.model)));
+    for (const [tag, file] of [['orig', texPath(ref, e.original)], ['still', texPath(mod, e.still_life)]]) {
       const url = 'data:image/png;base64,' + fs.readFileSync(file).toString('base64');
-      const png = await page.evaluate(([g, u, y]) => window.renderModel(g, u, 320, y), [geo, url, yaw]);
+      const png = await page.evaluate(([g, u]) => window.renderModel(g, u, 320, 0), [geo, url]);
       fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }

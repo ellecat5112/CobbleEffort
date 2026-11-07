@@ -10,14 +10,16 @@ plaster/clay finish, drained colour, smeared features and extra eyes.
 The script reads the original textures from a Cobblemon source checkout (or an
 extracted Cobblemon jar) and writes:
 
-  * the retextured PNGs
+  * the retextured PNGs for every species in each listed species' WHOLE
+    evolutionary line (pre-evolutions, evolutions and branches)
   * a resolver per species (assets/cobbleeffort/bedrock/pokemon/resolvers)
   * the cosmetic-item, species-feature and species-feature-assignment data files
 
 Usage:
     python3 tools/generate_backrooms.py --cobblemon <path-to-cobblemon-assets-root>
 
-where <path> is the directory that contains `assets/cobblemon/...` (for a
+where <path> is the directory that contains `assets/cobblemon/...` and
+`data/cobblemon/...` (for a
 Cobblemon source checkout: common/src/main/resources; for a jar: the folder
 you extracted it into).
 
@@ -30,6 +32,7 @@ import colorsys
 import hashlib
 import json
 import random
+import shutil
 from pathlib import Path
 
 from PIL import Image
@@ -199,57 +202,230 @@ def resolve_path(assets_root: Path, identifier: str) -> Path:
     return assets_root / "assets" / ns / path
 
 
+# ---------------------------------------------------------------------------------------------
+# Evolutionary lines
+#
+# Collection rule: a cosmetic never covers just one stage. Every species listed in the config
+# pulls in its whole evolutionary family (pre-evolutions, evolutions and branches), read from
+# Cobblemon's species data. A family is the connected group of species linked by
+# "preEvolution"/"evolutions", forms included.
+# ---------------------------------------------------------------------------------------------
+
+def load_species(cobblemon: Path) -> dict[str, dict]:
+    species = {}
+    for f in (cobblemon / "data" / "cobblemon" / "species").glob("*/*.json"):
+        species[f.stem] = json.loads(f.read_text())
+    if not species:
+        raise SystemExit(f"No species data under {cobblemon}/data/cobblemon/species")
+    return species
+
+
+def species_id(ref: str) -> str:
+    """'cobblemon:rattata alolan' / 'rattata form=alolan' -> 'rattata'."""
+    return ref.split()[0].split(":")[-1].lower()
+
+
+def evolution_families(species: dict[str, dict], extra_links: list[list[str]]) -> dict[str, set[str]]:
+    adj: dict[str, set[str]] = {n: set() for n in species}
+
+    def link(a: str, b: str):
+        if a in adj and b in adj:
+            adj[a].add(b)
+            adj[b].add(a)
+
+    for name, data in species.items():
+        for block in [data] + data.get("forms", []):
+            if block.get("preEvolution"):
+                link(name, species_id(block["preEvolution"]))
+            for evo in block.get("evolutions", []):
+                if evo.get("result"):
+                    link(name, species_id(evo["result"]))
+    for a, b in extra_links:
+        link(a, b)
+
+    families = {}
+    for name in species:
+        if name in families:
+            continue
+        seen, stack = set(), [name]
+        while stack:
+            cur = stack.pop()
+            if cur not in seen:
+                seen.add(cur)
+                stack.extend(adj[cur])
+        for member in seen:
+            families[member] = seen
+    return families
+
+
+# ---------------------------------------------------------------------------------------------
+# Resolvers
+# ---------------------------------------------------------------------------------------------
+
+def load_resolvers(cobblemon: Path) -> dict[str, tuple[str, list[dict]]]:
+    """species -> (resolver folder, merged variations in Cobblemon's load order)."""
+    sets: dict[str, list[tuple[int, str, dict]]] = {}
+    root = cobblemon / "assets" / "cobblemon" / "bedrock" / "pokemon" / "resolvers"
+    for f in sorted(root.rglob("*.json")):
+        data = json.loads(f.read_text())
+        name = data.get("species", data.get("name", "")).split(":")[-1]
+        sets.setdefault(name, []).append((data.get("order", 0), f.parent.name, data))
+    out = {}
+    for name, entries in sets.items():
+        entries.sort(key=lambda e: e[0])
+        out[name] = (entries[0][1], [v for e in entries for v in e[2].get("variations", [])])
+    return out
+
+
+def cosmetic_aspects(cobblemon: Path) -> set[str]:
+    """Aspects that only ever come from another cosmetic item. A Pokémon wearing our item can't have them."""
+    aspects = set()
+    for f in (cobblemon / "data" / "cobblemon" / "cosmetic_items").glob("*.json"):
+        for item in json.loads(f.read_text()).get("cosmeticItems", []):
+            aspects.update(item.get("aspects", []))
+    return aspects
+
+
+class Retexturer:
+    def __init__(self, cobblemon: Path, out_root: Path):
+        self.cobblemon = cobblemon
+        self.out_root = out_root
+        self.done: dict[tuple[str, str], str] = {}
+
+    def __call__(self, src_id: str, eyes_id: str | None, seed: int) -> str:
+        key = (src_id, eyes_id or "")
+        if key in self.done:
+            return self.done[key]
+        ns, path = src_id.split(":", 1)
+        rel = Path(path).relative_to("textures/pokemon") if path.startswith("textures/pokemon/") else Path(ns) / path
+        out_rel = rel.with_name(f"{rel.stem}_{ASPECT}.png")
+        src = resolve_path(self.cobblemon, src_id)
+        if not src.exists():
+            raise SystemExit(f"Missing source texture {src_id} ({src})")
+        base = Image.open(src)
+        eyes = None
+        if eyes_id:
+            eye_path = resolve_path(self.cobblemon, eyes_id)
+            if eye_path.exists():
+                eyes = Image.open(eye_path)
+                # only trust the eye mask when it was painted for the same UV layout
+                if eyes.width * base.height != eyes.height * base.width:
+                    eyes = None
+        img = still_life(base, eyes, seed, shiny="shiny" in rel.stem)
+        dest = self.out_root / out_rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        img.save(dest, optimize=True)
+        new_id = f"{MOD_ID}:textures/pokemon/{ASPECT}/{out_rel.as_posix()}"
+        self.done[key] = new_id
+        return new_id
+
+    def supplier(self, tex, eyes_id: str | None, seed: int):
+        """Static texture id, or an animated supplier {"frames": [...], ...}."""
+        if isinstance(tex, str):
+            return self(tex, eyes_id, seed)
+        if isinstance(tex, dict) and "frames" in tex:
+            return {**tex, "frames": [self(f, eyes_id, seed) for f in tex["frames"]]}
+        return tex
+
+
+def eye_mask_for(variation_aspects: set[str], alpha_layers: list[tuple[set[str], str]]) -> str | None:
+    """Pick the alpha-eyes texture Cobblemon would overlay on this variation (most specific match)."""
+    wanted = variation_aspects - {"shiny"}
+    best = None
+    for aspects, tex in alpha_layers:
+        if aspects <= wanted and (best is None or len(aspects) > len(best[0])):
+            best = (aspects, tex)
+    return best[1] if best else None
+
+
+def still_life_variations(name: str, variations: list[dict], skip: set[str], retex: Retexturer) -> list[dict]:
+    """Mirror every vanilla variation with the Still Life aspect added.
+
+    Cobblemon picks the last matching variation for each property, so copying the vanilla list in order,
+    each with "backrooms" added, keeps the vanilla logic (shiny, gender, regional forms, model swaps)
+    while every texture is swapped for its Still Life version.
+    """
+    seed = seed_for(name)
+    alpha_layers = [
+        (set(v.get("aspects", [])) - {"alpha_eyes"}, layer["texture"])
+        for v in variations if "alpha_eyes" in v.get("aspects", [])
+        for layer in v.get("layers", []) if isinstance(layer.get("texture"), str)
+    ]
+    out = []
+    for v in variations:
+        aspects = list(v.get("aspects", []))
+        if "alpha_eyes" in aspects or skip.intersection(aspects):
+            continue
+        if "texture" not in v and not v.get("layers"):
+            continue
+        copy = {"aspects": aspects + [ASPECT]}
+        if "condition" in v:
+            copy["condition"] = v["condition"]
+        eyes = eye_mask_for(set(aspects), alpha_layers)
+        if "texture" in v:
+            copy["texture"] = retex.supplier(v["texture"], eyes, seed)
+        layers = []
+        for layer in v.get("layers") or []:
+            if layer.get("emissive"):
+                layers.append({"name": layer["name"], "enabled": False})   # Still Lifes do not glow
+            elif "texture" in layer:
+                layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed)})
+        if layers:
+            copy["layers"] = layers
+        out.append(copy)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--cobblemon", required=True, type=Path,
-                    help="directory containing assets/cobblemon (e.g. cobblemon/common/src/main/resources)")
+                    help="Cobblemon resources root, containing assets/cobblemon and data/cobblemon "
+                         "(e.g. cobblemon/common/src/main/resources or an extracted Cobblemon jar)")
     args = ap.parse_args()
 
     config = json.loads(CONFIG.read_text())
-    species_list = config["species"]
+    species = load_species(args.cobblemon)
+    families = evolution_families(species, config.get("extra_links", []))
+    resolvers = load_resolvers(args.cobblemon)
+    skip = cosmetic_aspects(args.cobblemon)
+
+    members: set[str] = set()
+    print("Evolutionary lines:")
+    for pick in config["lines"]:
+        if pick not in species:
+            raise SystemExit(f"Unknown species in config: {pick}")
+        family = sorted(families[pick], key=lambda n: species[n]["nationalPokedexNumber"])
+        missing = [n for n in family if n not in resolvers]
+        if missing:
+            raise SystemExit(f"{pick}: no Cobblemon model for {missing}. The whole line must be retexturable.")
+        print(f"  {pick:12s} -> {', '.join(family)}")
+        members.update(family)
+    ordered = sorted(members, key=lambda n: species[n]["nationalPokedexNumber"])
+
     out_tex_root = RES / "assets" / MOD_ID / "textures" / "pokemon" / ASPECT
     out_res_root = RES / "assets" / MOD_ID / "bedrock" / "pokemon" / "resolvers"
-
-    for entry in species_list:
-        folder, name = entry["folder"], entry["species"]
-        base_tex = f"cobblemon:textures/pokemon/{folder}/{name}.png"
-        shiny_tex = f"cobblemon:textures/pokemon/{folder}/{name}_shiny.png"
-        alpha_tex = resolve_path(args.cobblemon, f"cobblemon:textures/pokemon/{folder}/{name}_alpha.png")
-        eyes = Image.open(alpha_tex) if alpha_tex.exists() else None
-        seed = seed_for(name)
-
-        tex_dir = out_tex_root / folder
-        tex_dir.mkdir(parents=True, exist_ok=True)
-        variations = []
-        for shiny, src_id in ((False, base_tex), (True, shiny_tex)):
-            src_path = resolve_path(args.cobblemon, src_id)
-            if not src_path.exists():
-                continue
-            img = still_life(Image.open(src_path), eyes, seed, shiny)
-            file_name = f"{name}_{ASPECT}{'_shiny' if shiny else ''}.png"
-            img.save(tex_dir / file_name, optimize=True)
-            variation = {
-                "aspects": [ASPECT, "shiny"] if shiny else [ASPECT],
-                "texture": f"{MOD_ID}:textures/pokemon/{ASPECT}/{folder}/{file_name}",
-            }
-            # Still Lifes do not glow: switch off any emissive layers the original has.
-            if entry.get("disable_layers"):
-                variation["layers"] = [{"name": n, "enabled": False} for n in entry["disable_layers"]]
-            variations.append(variation)
-
+    for generated in (out_tex_root, out_res_root):
+        if generated.exists():
+            shutil.rmtree(generated)   # outputs are fully regenerated, so no stale files are left behind
+    retex = Retexturer(args.cobblemon, out_tex_root)
+    manifest = []
+    for name in ordered:
+        folder, variations = resolvers[name]
+        mirrored = still_life_variations(name, variations, skip, retex)
         res_dir = out_res_root / folder
         res_dir.mkdir(parents=True, exist_ok=True)
-        resolver = {
+        write_json(res_dir / f"9000_{name}_{ASPECT}.json", {
             "species": f"cobblemon:{name}",
             # Cobblemon sorts resolver files by "order" and the last matching variation wins,
             # so a high order keeps the Still Life texture on top of every vanilla variation.
             "order": 9000,
-            "variations": variations,
-        }
-        (res_dir / f"9000_{name}_{ASPECT}.json").write_text(json.dumps(resolver, indent=2) + "\n")
-        print(f"  {name}: {len(variations)} textures")
+            "variations": mirrored,
+        })
+        base = next(v for v in variations if not v.get("aspects") and "model" in v)
+        manifest.append({"species": name, "folder": folder, "model": base["model"],
+                         "original": base["texture"], "still_life": mirrored[0]["texture"]})
+    write_json(Path(__file__).resolve().parent / "preview" / "manifest.json", manifest)
 
-    names = [e["species"] for e in species_list]
     data = RES / "data" / MOD_ID
     write_json(data / "species_features" / f"{FEATURE_NAME}.json", {
         "keys": [ASPECT],
@@ -258,18 +434,18 @@ def main():
         "default": False,
     })
     write_json(data / "species_feature_assignments" / f"{FEATURE_NAME}.json", {
-        "pokemon": names,
+        "pokemon": ordered,
         "features": [FEATURE_NAME],
     })
     write_json(data / "cosmetic_items" / f"{ASPECT}.json", {
-        "pokemon": names,
+        "pokemon": ordered,
         "cosmeticItems": [{"consumedItem": f"#{MOD_ID}:{ASPECT}_cosmetics", "aspects": [ASPECT]}],
     })
     write_json(data / "tags" / "item" / f"{ASPECT}_cosmetics.json", {
         "replace": False,
         "values": config["cosmetic_items"],
     })
-    print(f"Generated {len(species_list)} Still Lifes.")
+    print(f"Generated {len(ordered)} Still Lifes from {len(config['lines'])} lines, {len(retex.done)} textures.")
 
 
 def write_json(path: Path, obj):

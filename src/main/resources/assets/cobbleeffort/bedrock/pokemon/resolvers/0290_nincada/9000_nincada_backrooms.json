@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:nincada",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0290_nincada/nincada_backrooms.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort:textures/pokemon/backrooms/0290_nincada/nincada_transparency_backrooms.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0290_nincada/nincada_shiny_backrooms.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort:textures/pokemon/backrooms/0290_nincada/nincada_shiny_transparency_backrooms.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

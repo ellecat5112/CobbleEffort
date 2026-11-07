@@ -1,86 +1,27 @@
 {
-  "_comment": "Species in the Backrooms collection. 'folder' is the Cobblemon texture/resolver folder. Picked with random.Random('kane-pixels-level-0').sample() from the 683 species whose model never changes with aspects, so a texture override is always UV-safe.",
+  "_comment": "Backrooms collection. Each name in 'lines' brings in its WHOLE evolutionary line (pre-evolutions, evolutions and branches), worked out from Cobblemon's species data. Never list single stages by hand. The 18 lines were picked with random.Random('kane-pixels-level-0').sample() from species whose model never changes with aspects. 'extra_links' joins species Cobblemon's evolution data does not link, as [a, b] pairs.",
   "cosmetic_items": [
     "minecraft:yellow_carpet"
   ],
-  "species": [
-    {
-      "folder": "0082_magneton",
-      "species": "magneton"
-    },
-    {
-      "folder": "0138_omanyte",
-      "species": "omanyte"
-    },
-    {
-      "folder": "0292_shedinja",
-      "species": "shedinja"
-    },
-    {
-      "folder": "0324_torkoal",
-      "species": "torkoal"
-    },
-    {
-      "folder": "0348_armaldo",
-      "species": "armaldo"
-    },
-    {
-      "folder": "0362_glalie",
-      "species": "glalie"
-    },
-    {
-      "folder": "0394_prinplup",
-      "species": "prinplup"
-    },
-    {
-      "folder": "0522_blitzle",
-      "species": "blitzle"
-    },
-    {
-      "folder": "0617_accelgor",
-      "species": "accelgor"
-    },
-    {
-      "folder": "0662_fletchinder",
-      "species": "fletchinder"
-    },
-    {
-      "folder": "0685_slurpuff",
-      "species": "slurpuff"
-    },
-    {
-      "folder": "0699_aurorus",
-      "species": "aurorus"
-    },
-    {
-      "folder": "0716_xerneas",
-      "species": "xerneas"
-    },
-    {
-      "folder": "0844_sandaconda",
-      "species": "sandaconda"
-    },
-    {
-      "folder": "0850_sizzlipede",
-      "species": "sizzlipede",
-      "disable_layers": [
-        "emissive"
-      ]
-    },
-    {
-      "folder": "0861_grimmsnarl",
-      "species": "grimmsnarl"
-    },
-    {
-      "folder": "0920_lokix",
-      "species": "lokix",
-      "disable_layers": [
-        "emissive"
-      ]
-    },
-    {
-      "folder": "0943_mabosstiff",
-      "species": "mabosstiff"
-    }
-  ]
+  "lines": [
+    "magneton",
+    "omanyte",
+    "shedinja",
+    "torkoal",
+    "armaldo",
+    "glalie",
+    "prinplup",
+    "blitzle",
+    "accelgor",
+    "fletchinder",
+    "slurpuff",
+    "aurorus",
+    "xerneas",
+    "sandaconda",
+    "sizzlipede",
+    "grimmsnarl",
+    "lokix",
+    "mabosstiff"
+  ],
+  "extra_links": []
 }
