@@ -37,7 +37,8 @@ val jar by tasks.registering(Jar::class) {
     description = "Packages the mod jar (Fabric + NeoForge)."
     archiveBaseName.set(modId)
     archiveVersion.set("$modVersion+$minecraftVersion")
-    destinationDirectory.set(layout.buildDirectory.dir("libs"))
+    // Intermediate output: the jar is shipped inside a zip (see distZip below).
+    destinationDirectory.set(layout.buildDirectory.dir("tmp/jar"))
     from(processResources)
     from("LICENSE") { rename { "LICENSE_$modId" } }
     manifest {
@@ -47,6 +48,15 @@ val jar by tasks.registering(Jar::class) {
             "Implementation-Version" to modVersion,
         )
     }
+}
+
+// Every jar we produce is delivered compressed: build/libs/<name>.zip containing <name>.jar.
+val distZip by tasks.registering(Zip::class) {
+    group = "build"
+    description = "Wraps the mod jar in a zip."
+    archiveFileName.set(jar.flatMap { it.archiveFileName }.map { it.removeSuffix(".jar") + ".zip" })
+    destinationDirectory.set(layout.buildDirectory.dir("libs"))
+    from(jar)
 }
 
 val validateData by tasks.registering {
@@ -78,4 +88,4 @@ val validateData by tasks.registering {
 }
 
 tasks.named("check") { dependsOn(validateData) }
-tasks.named("assemble") { dependsOn(jar) }
+tasks.named("assemble") { dependsOn(distZip) }

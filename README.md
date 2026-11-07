@@ -66,7 +66,7 @@ with a datapack (`data/cobbleeffort/tags/item/backrooms_cosmetics.json`).
 ## Building
 
 ```
-./gradlew build        # -> build/libs/cobbleeffort-<version>+1.21.1.jar  (also runs validateData)
+./gradlew build        # -> build/libs/cobbleeffort-<version>+1.21.1.zip  (contains the .jar; also runs validateData)
 ```
 
 `validateData` checks that every JSON file parses and every texture a resolver points to exists.
