@@ -1,0 +1,16 @@
+{
+  // Shown in the mod list / pack screen
+  "name": "CobbleEffort Example",
+  // Resource namespace for all your Pokemon (lowercase, a-z 0-9 _). Species ids become cobbleeffort_example:<name>
+  "namespace": "cobbleeffort_example",
+  "version": "1.0.0",
+  "author": "CobbleEffort",
+  "description": "Custom Pokemon made with CobbleEffort",
+  // First Pokedex number handed out automatically (skips any you set by hand)
+  "dex_start": 2000,
+  // Minecraft 1.21.1 values (Cobblemon 1.6/1.7). max_format keeps newer versions happy too.
+  "pack_format": { "data": 48, "resource": 34 },
+  "max_format": 999,
+  // What to build: "jar" (drop-in mod for Fabric + NeoForge), "datapack", "resourcepack"
+  "outputs": ["jar", "datapack", "resourcepack"]
+}

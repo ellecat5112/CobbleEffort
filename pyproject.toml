@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cobbleeffort"
+version = "1.0.0"
+description = "Plug-and-play custom Pokemon generator for the Cobblemon Minecraft mod"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+preview = ["pillow"]
+
+[project.scripts]
+cobbleeffort = "cobbleeffort.cli:main"
+
+[tool.setuptools]
+packages = ["cobbleeffort"]

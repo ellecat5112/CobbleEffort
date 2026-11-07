@@ -1,0 +1,29 @@
+{
+  // A fire pup. Everything not listed here is filled in automatically.
+  "name": "Emberpup",
+  "types": "fire",
+  "dex_entry": "Its tail flame flickers brightly when it is happy and sputters when it sulks.",
+  "stats": [45, 60, 40, 55, 45, 70],          // hp atk def spa spd spe
+  "abilities": ["blaze", "h:flashfire"],
+  "moves": {
+    "1": "tackle, growl",
+    "5": "ember",
+    "12": "bite",
+    "18": "flame wheel",
+    "26": "fire fang",
+    "egg": ["howl", "morning sun"],
+    "tm": "auto"
+  },
+  "evolutions": ["blazehound @ level 32"],
+  "egg_groups": ["field"],
+  "experience_group": "medium_slow",
+  "drops": ["minecraft:blaze_powder 0-1", "cobblemon:charcoal_stick 5%"],
+  "spawn": {
+    "biomes": ["savanna", "badlands", "#minecraft:is_nether"],
+    "rarity": "uncommon",
+    "levels": "5-25",
+    "weight": 6,
+    "sky": true
+  },
+  "shiny": { "hue": 200, "saturation": 1.1 }
+}

@@ -1,0 +1,19 @@
+{
+  // Wing bones were detected, so it's a flier: it gets hover/fly poses and air animations.
+  "name": "Skylark",
+  "types": "normal/flying",
+  "dex_entry": "It sings at sunrise from the highest branch it can find.",
+  "bst": 300,
+  "spread": "fast",
+  "abilities": ["keeneye", "tangledfeet", "h:bigpecks"],
+  "gender": "50%",
+  "egg_groups": ["flying"],
+  "catch_rate": 255,
+  "spawn": [
+    { "biomes": ["forest", "plains"], "rarity": "common", "levels": "2-15", "time": "day", "weight": 10 },
+    { "biomes": ["forest"], "rarity": "rare", "levels": "10-20", "time": "night", "weight": 2 }
+  ],
+  // swap exact colours instead of hue-shifting everything
+  "shiny": { "palette": { "#4678dc": "#e0b040", "#3a63b4": "#b88c30" }, "tolerance": 30 },
+  "animation": { "energy": 1.2 }
+}
