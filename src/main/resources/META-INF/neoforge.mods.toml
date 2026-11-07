@@ -1,0 +1,31 @@
+# Content-only mod: "lowcodefml" lets NeoForge load a mod that has no Java classes.
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MPL-2.0"
+issueTrackerURL = "https://github.com/ellecat5112/CobbleEffort/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+authors = "ellecat5112"
+logoFile = "assets/${mod_id}/icon.png"
+description = '''
+Extra cosmetic forms for Cobblemon.
+Collection #1, Backrooms: 18 Pokémon as "Still Life" copies from the Backrooms.
+Put one Yellow Carpet in a supported Pokémon's cosmetic slot.
+'''
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_range_neoforge}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "cobblemon"
+type = "required"
+versionRange = "${cobblemon_range_neoforge}"
+ordering = "AFTER"
+side = "BOTH"

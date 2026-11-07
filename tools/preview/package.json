@@ -1,0 +1,9 @@
+{
+  "name": "cobbleeffort-preview",
+  "private": true,
+  "description": "Renders Cobblemon models with original vs. CobbleEffort textures (headless Chromium + three.js).",
+  "dependencies": {
+    "three": "0.160.0",
+    "playwright": "^1.40.0"
+  }
+}

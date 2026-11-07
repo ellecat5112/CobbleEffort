@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:sizzlipede",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0850_sizzlipede/sizzlipede_backrooms.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "backrooms",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0850_sizzlipede/sizzlipede_backrooms_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Extra cosmetic forms for Cobblemon. Collection #1, Backrooms: 18 Pokémon as 'Still Life' copies from the Backrooms. Give one Yellow Carpet in its cosmetic slot.",
+  "authors": ["ellecat5112"],
+  "contact": {
+    "sources": "https://github.com/ellecat5112/CobbleEffort",
+    "issues": "https://github.com/ellecat5112/CobbleEffort/issues"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/${mod_id}/icon.png",
+  "environment": "*",
+  "depends": {
+    "minecraft": "${minecraft_range_fabric}",
+    "cobblemon": "${cobblemon_range_fabric}"
+  }
+}

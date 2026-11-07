@@ -1,0 +1,82 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script>
+<style>body{margin:0;background:#222}</style></head><body>
+<script type="module">
+import * as THREE from 'three';
+const rad = d => d * Math.PI / 180;
+window.renderModel = async (geo, texUrl, size, yaw) => {
+  const g = geo['minecraft:geometry'][0];
+  const TW = g.description.texture_width, TH = g.description.texture_height;
+  const tex = await new THREE.TextureLoader().loadAsync(texUrl);
+  tex.magFilter = THREE.NearestFilter; tex.minFilter = THREE.NearestFilter; tex.colorSpace = THREE.SRGBColorSpace;
+  const mat = new THREE.MeshLambertMaterial({ map: tex, transparent: false, alphaTest: 0.1, side: THREE.DoubleSide });
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x3a3a3a);
+  scene.add(new THREE.AmbientLight(0xfff6d8, 1.5));
+  const dl = new THREE.DirectionalLight(0xfffbe8, 1.6); dl.position.set(0.4, 1, 0.8); scene.add(dl);
+  const root = new THREE.Group(); scene.add(root);
+  const groups = {}, pivots = {};
+  const P = v => new THREE.Vector3(-(v?.[0] ?? 0), v?.[1] ?? 0, v?.[2] ?? 0);
+  for (const b of g.bones) { pivots[b.name] = P(b.pivot); }
+  for (const b of g.bones) {
+    const grp = new THREE.Group();
+    const r = b.rotation || [0, 0, 0];
+    grp.rotation.set(rad(-r[0]), rad(-r[1]), rad(r[2]), 'ZYX');
+    groups[b.name] = grp;
+  }
+  for (const b of g.bones) {
+    const grp = groups[b.name];
+    const parentPivot = b.parent ? pivots[b.parent] : new THREE.Vector3();
+    grp.position.copy(pivots[b.name]).sub(parentPivot);
+    (b.parent && groups[b.parent] ? groups[b.parent] : root).add(grp);
+    for (const c of (b.cubes || [])) {
+      const inf = c.inflate || 0;
+      const [sx, sy, sz] = c.size;
+      const geom = new THREE.BoxGeometry(Math.max(sx + 2 * inf, 0.001), Math.max(sy + 2 * inf, 0.001), Math.max(sz + 2 * inf, 0.001));
+      // faces order: +x(east),-x(west),+y(up),-y(down),+z(south),-z(north) in flipped (Blockbench) space
+      let faces;
+      if (Array.isArray(c.uv)) {
+        const [u, v] = c.uv, w = sx, h = sy, d = sz;
+        faces = [[u, v + d, d, h], [u + d + w, v + d, d, h], [u + d, v, w, d], [u + d + w, v + d, w, -d], [u + 2 * d + w, v + d, w, h], [u + d, v + d, w, h]];
+        if (c.mirror) { faces = [faces[1], faces[0], faces[2], faces[3], faces[4], faces[5]].map(f => [f[0] + f[2], f[1], -f[2], f[3]]); }
+      } else {
+        const names = ['east', 'west', 'up', 'down', 'south', 'north'];
+        faces = names.map(n => { const f = c.uv?.[n]; return f ? [f.uv[0], f.uv[1], f.uv_size[0], f.uv_size[1]] : null; });
+      }
+      const uv = geom.attributes.uv;
+      faces.forEach((f, i) => {
+        if (!f) { for (let k = 0; k < 4; k++) uv.setXY(i * 4 + k, 0, 0); return; }
+        const [u, v, w, h] = f;
+        const u0 = u / TW, u1 = (u + w) / TW, v0 = 1 - v / TH, v1 = 1 - (v + h) / TH;
+        uv.setXY(i * 4 + 0, u0, v0); uv.setXY(i * 4 + 1, u1, v0); uv.setXY(i * 4 + 2, u0, v1); uv.setXY(i * 4 + 3, u1, v1);
+      });
+      const mesh = new THREE.Mesh(geom, mat);
+      const o = c.origin;
+      const center = new THREE.Vector3(-(o[0] + sx / 2), o[1] + sy / 2, o[2] + sz / 2);
+      if (c.rotation) {
+        const cg = new THREE.Group();
+        const cp = P(c.pivot);
+        cg.position.copy(cp).sub(pivots[b.name]);
+        cg.rotation.set(rad(-c.rotation[0]), rad(-c.rotation[1]), rad(c.rotation[2]), 'ZYX');
+        mesh.position.copy(center).sub(cp);
+        cg.add(mesh); grp.add(cg);
+      } else {
+        mesh.position.copy(center).sub(pivots[b.name]);
+        grp.add(mesh);
+      }
+    }
+  }
+  root.rotation.y = rad(yaw);
+  root.updateMatrixWorld(true);
+  const box = new THREE.Box3().setFromObject(root);
+  const c = box.getCenter(new THREE.Vector3()), s = box.getSize(new THREE.Vector3());
+  const ext = Math.max(s.x, s.y, s.z) * 0.62;
+  const cam = new THREE.OrthographicCamera(-ext, ext, ext, -ext, -1000, 1000);
+  cam.position.set(c.x - 35, c.y + 15, c.z - 60); cam.lookAt(c);
+  const r = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+  r.setSize(size, size); r.outputColorSpace = THREE.SRGBColorSpace;
+  r.render(scene, cam); const out = r.domElement.toDataURL("image/png"); r.dispose(); r.forceContextLoss(); return out;
+  return r.domElement.toDataURL('image/png');
+};
+window.ready = true;
+</script></body></html>

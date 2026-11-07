@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:lokix",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0920_lokix/lokix_backrooms.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "backrooms",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/0920_lokix/lokix_backrooms_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}
