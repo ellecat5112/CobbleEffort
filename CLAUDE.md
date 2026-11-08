@@ -26,7 +26,7 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   `FRAMES`/`FPS`). `layer` is False for body textures, "emissive" or "plain" for layers. Optional
   `EXTRA_LAYERS` (list of {name, emissive, translucent, frames, fps}) + `extra_layer(name, base, eyes, seed, shiny,
   frame) -> Image | None` adds style-owned layers (named `cobbleeffort_<name>`), e.g. Christmas lights.
-- Shared helpers: `styles/_horror.py` (Halloween), `styles/_festive.py` (Christmas).
+- Shared helpers: `styles/_horror.py` (Halloween), `styles/_festive.py` (Christmas), `styles/_spring.py` (Easter).
 - Regenerate: `python3 tools/generate.py --cobblemon <cobblemon>/common/src/main/resources build [collection]`
   (needs `assets/cobblemon` + `data/cobblemon/species` + `data/cobblemon/cosmetic_items`).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.

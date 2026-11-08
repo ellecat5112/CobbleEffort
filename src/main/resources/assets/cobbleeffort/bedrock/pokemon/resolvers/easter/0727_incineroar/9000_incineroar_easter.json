@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:incineroar",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_emissive_shiny_easter.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

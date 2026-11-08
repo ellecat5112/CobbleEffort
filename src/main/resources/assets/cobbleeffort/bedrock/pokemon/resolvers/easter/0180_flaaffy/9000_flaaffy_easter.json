@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:flaaffy",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0180_flaaffy/flaaffy_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0180_flaaffy/flaaffy_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0180_flaaffy/flaaffy_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0180_flaaffy/flaaffy_shiny_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

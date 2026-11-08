@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:mareep",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0179_mareep/mareep_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0179_mareep/mareep_emissive_easter.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0179_mareep/mareep_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0179_mareep/mareep_shiny_emissive_easter.png"
+        }
+      ]
+    }
+  ]
+}

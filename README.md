@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -199,6 +199,36 @@ The four costume lines were chosen by request; the other 14 were picked with
 
 Give a supported Pokémon a **Snowball** as its cosmetic item. With commands: `/pokegive snorlax christmas`,
 `/pokegive turtwig christmas shiny`. Pack makers can extend the item tag `#cobbleeffort:christmas_cosmetics`.
+
+## Collection #5: Easter
+
+18 evolutionary lines (**38 Pokémon**). Two of them have their own costume:
+
+| Line | Look |
+|------|------|
+| **Togepi → Togetic → Togekiss** | **Easter egg**: the white shell and body become a hand-painted egg with pastel bands of solid colour, zigzags, polka dots and white pin-stripes. Togepi's red and blue triangles are repainted raspberry and periwinkle as part of the decoration. Shiny: a **golden Fabergé egg** set with ruby, sapphire, emerald and pearl |
+| **Buneary → Lopunny** | **Easter Bunny**: soft white bunny fur with a lavender shadow, pastel-pink fluffy ears, spring daisies and a painted-egg ribbon. Shiny: a **chocolate bunny** in milk and white chocolate with a dark drizzle and gold-foil trim |
+
+The other 16 lines get the **Pastel** look: every colour becomes its soft pastel version, plus a hand-painted
+zigzag ribbon like the decoration round an Easter egg and little spring daisies. Shiny: **chocolate** with rainbow
+candy sprinkles.
+
+Jigglypuff (incl. Igglybuff, Wigglytuff) · Diglett → Dugtrio · Aerodactyl · Chinchou → Lanturn ·
+Mareep → Flaaffy → Ampharos · Smeargle · Slakoth → Vigoroth → Slaking · Latias · Drifloon → Drifblim ·
+Roggenrola → Boldore → Gigalith · Litten → Torracat → Incineroar · Cutiefly → Ribombee · Snom → Frosmoth ·
+Eternatus · Wattrel → Kilowattrel · Finizen → Palafin
+
+Togepi and Lopunny were chosen by request. The other 16 were picked with `generate.py pick --count 16 --seed easter-2027`
+from the 361 remaining eligible lines.
+
+![Original vs. Easter](docs/easter_preview.png)
+
+![Easter eggs and bunnies, normal and shiny](docs/easter_specials.png)
+
+### How to get one
+
+Give a supported Pokémon an **Egg** as its cosmetic item. With commands: `/pokegive togepi easter`,
+`/pokegive lopunny easter shiny`. Pack makers can extend the item tag `#cobbleeffort:easter_cosmetics`.
 
 ## Requirements & versions
 

@@ -1,0 +1,34 @@
+{
+  "_comment": "Easter collection. Each name in 'lines' brings in its WHOLE evolutionary line. Requested by name: Togepi line as Easter eggs, Lopunny line as the Easter rabbit. The other 16 were picked with `generate.py pick --count 16 --seed easter-2027` (random lines no other collection uses).",
+  "aspect": "easter",
+  "feature": "easter_pastel",
+  "style": "easter",
+  "cosmetic_items": [
+    "minecraft:egg"
+  ],
+  "lines": [
+    "togepi",
+    "lopunny",
+    "jigglypuff",
+    "diglett",
+    "aerodactyl",
+    "chinchou",
+    "mareep",
+    "smeargle",
+    "slakoth",
+    "latias",
+    "drifloon",
+    "roggenrola",
+    "litten",
+    "cutiefly",
+    "snom",
+    "eternatus",
+    "wattrel",
+    "finizen"
+  ],
+  "line_styles": {
+    "togepi": "easter_egg",
+    "lopunny": "easter_bunny"
+  },
+  "extra_links": []
+}

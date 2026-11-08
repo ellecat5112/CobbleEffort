@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:snom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0872_snom/snom_easter.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/easter/0872_snom/snom_transparency_easter.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0872_snom/snom_shiny_easter.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/easter/0872_snom/snom_transparency_shiny_easter.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    }
+  ]
+}

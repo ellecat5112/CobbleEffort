@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:chinchou",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_emissive_easter.png",
+          "emissive": "true"
+        },
+        {
+          "name": "emissive2",
+          "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_emissive_easter.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_shiny_emissive_easter.png",
+          "emissive": "true"
+        },
+        {
+          "name": "emissive2",
+          "texture": "cobbleeffort:textures/pokemon/easter/0170_chinchou/chinchou_shiny_emissive_easter.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

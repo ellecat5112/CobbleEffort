@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:torracat",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0726_torracat/torracat_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0726_torracat/torracat_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0726_torracat/torracat_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0726_torracat/torracat_emissive_shiny_easter.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

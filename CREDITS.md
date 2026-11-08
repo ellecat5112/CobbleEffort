@@ -21,6 +21,10 @@ made by the Cobblemon team and contributors.
   remapped to a Christmas palette; snow, snowflakes and light garlands added, with an extra emissive layer of
   twinkling bulbs; the Snorlax, Turtwig, Trubbish and Phantump lines repainted as Santa Claus, Christmas trees,
   wrapped gifts and Krampus.
+* **Easter** (`tools/styles/easter*.py`, `_spring.py`; textures under `.../pokemon/easter/`): colours turned
+  pastel (or chocolate for shinies); painted-egg bands, zigzag ribbons, daisies and sprinkles added; the Togepi
+  line repainted as Easter eggs (golden Fabergé for shinies) and the Lopunny line as the Easter Bunny (a chocolate
+  bunny for shinies).
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

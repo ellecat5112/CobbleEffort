@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:ampharos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_shiny_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_shiny_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
