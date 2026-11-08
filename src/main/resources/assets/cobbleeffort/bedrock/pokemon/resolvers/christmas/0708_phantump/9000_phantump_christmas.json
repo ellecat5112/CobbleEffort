@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:phantump",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_emissives_christmas.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glare",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_christmas_glare.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_shiny_emissives_christmas.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glare",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0708_phantump/phantump_shiny_christmas_glare.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

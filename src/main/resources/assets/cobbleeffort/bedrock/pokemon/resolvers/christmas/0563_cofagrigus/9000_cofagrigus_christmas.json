@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:cofagrigus",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_emissive_christmas.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_emissive_christmas.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/0563_cofagrigus/cofagrigus_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,10 @@ made by the Cobblemon team and contributors.
   `.../pokemon/halloween/`): colours darkened and mottled; wounds, stitches, lumps, blood splatters and drips,
   extra eyes and toothed mouths painted on and animated across 4 frames; the Charmander line repainted as bone,
   ribs and rotting flesh, with its flame layer recoloured pink.
+* **Christmas** (`tools/styles/christmas*.py`, `_festive.py`; textures under `.../pokemon/christmas/`): colours
+  remapped to a Christmas palette; snow, snowflakes and light garlands added, with an extra emissive layer of
+  twinkling bulbs; the Snorlax, Turtwig, Trubbish and Phantump lines repainted as Santa Claus, Christmas trees,
+  wrapped gifts and Krampus.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

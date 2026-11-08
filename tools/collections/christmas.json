@@ -1,0 +1,36 @@
+{
+  "_comment": "Christmas collection. Each name in 'lines' brings in its WHOLE evolutionary line. Requested by name: Snorlax line as Santa Claus, Turtwig line as Christmas trees, Trubbish line as Christmas gifts, Phantump line as Krampus. The other 14 were picked with `generate.py pick --count 14 --seed christmas-2026` (random lines no other collection uses).",
+  "aspect": "christmas",
+  "feature": "christmas_festive",
+  "style": "christmas",
+  "cosmetic_items": [
+    "minecraft:snowball"
+  ],
+  "lines": [
+    "snorlax",
+    "turtwig",
+    "trubbish",
+    "phantump",
+    "weedle",
+    "mankey",
+    "shellder",
+    "girafarig",
+    "pineco",
+    "heracross",
+    "makuhita",
+    "spiritomb",
+    "skorupi",
+    "sewaddle",
+    "yamask",
+    "larvesta",
+    "litleo",
+    "dreepy"
+  ],
+  "line_styles": {
+    "snorlax": "christmas_santa",
+    "turtwig": "christmas_tree",
+    "trubbish": "christmas_gift",
+    "phantump": "christmas_krampus"
+  },
+  "extra_links": []
+}

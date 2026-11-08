@@ -26,7 +26,7 @@ const findModel = (id) => {
     const dataUrl = f => 'data:image/png;base64,' + fs.readFileSync(f).toString('base64');
     for (const [tag, root, key] of [['orig', ref, 'original'], ['new', mod, 'retextured']]) {
       const url = dataUrl(texPath(root, e[key]));
-      const layers = (e.layers || []).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
+      const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
       const png = await page.evaluate(([g, u, ls, sz]) => window.renderModel(g, u, sz, 0, ls), [geo, url, layers, size]);
       fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }

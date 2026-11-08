@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:heracross",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_transparency_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:spiritomb",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_emissive_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_transparency_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "christmas"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_shiny_emissive_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/0442_spiritomb/spiritomb_shiny_transparency_christmas.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

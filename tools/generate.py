@@ -210,9 +210,42 @@ class Retexturer:
         self.done[key] = new_id
         return new_id
 
+    def extra(self, src_tex, eyes_id: str | None, seed: int, style, spec: dict):
+        """A layer the style adds on top of the body (spec from style.EXTRA_LAYERS), or None if it has nothing to draw.
+
+        style.extra_layer(name, base, eyes, seed, shiny, frame) -> Image | None
+        """
+        src_id = src_tex["frames"][0] if isinstance(src_tex, dict) else src_tex
+        frames = spec.get("frames", 1)
+        ids = []
+        for i in range(frames):
+            key = ("extra", src_id, eyes_id or "", style.__name__, spec["name"], i)
+            if key not in self.done:
+                ns, path = src_id.split(":", 1)
+                rel = Path(path).relative_to("textures/pokemon") if path.startswith("textures/pokemon/") else Path(ns) / path
+                base = Image.open(resolve_path(self.cobblemon, src_id))
+                eyes = None
+                if eyes_id and resolve_path(self.cobblemon, eyes_id).exists():
+                    eyes = Image.open(resolve_path(self.cobblemon, eyes_id))
+                    if eyes.width * base.height != eyes.height * base.width:
+                        eyes = None
+                img = style.extra_layer(spec["name"], base, eyes, seed, "shiny" in rel.stem, i)
+                if img is None:
+                    self.done[key] = None
+                else:
+                    out_rel = rel.with_name(f"{rel.stem}_{self.aspect}_{spec['name']}" + (f"_{i}" if frames > 1 else "") + ".png")
+                    dest = self.out_root / out_rel
+                    dest.parent.mkdir(parents=True, exist_ok=True)
+                    img.save(dest, optimize=True)
+                    self.done[key] = f"{MOD_ID}:textures/pokemon/{self.aspect}/{out_rel.as_posix()}"
+            if self.done[key] is None:
+                return None
+            ids.append(self.done[key])
+        return ids[0] if frames == 1 else {"frames": ids, "fps": spec.get("fps", 6), "loop": True}
+
     @property
     def count(self) -> int:
-        return len(self.done)
+        return sum(1 for v in self.done.values() if v)
 
     def supplier(self, tex, eyes_id: str | None, seed: int, style, layer: str | bool = False):
         """Static texture id, or an animated supplier {"frames": [...], ...}."""
@@ -261,8 +294,9 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
         copy = {"aspects": aspects + [aspect]}
         if "condition" in v:
             copy["condition"] = v["condition"]
+        eyes = eye_mask_for(set(aspects), alpha_layers)
         if "texture" in v:
-            copy["texture"] = retex.supplier(v["texture"], eye_mask_for(set(aspects), alpha_layers), seed, style)
+            copy["texture"] = retex.supplier(v["texture"], eyes, seed, style)
         layers = []
         for layer in v.get("layers") or []:
             if layer.get("emissive") and style.EMISSIVE == "disable":
@@ -270,6 +304,13 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
             elif "texture" in layer:
                 kind = "emissive" if layer.get("emissive") else "plain"
                 layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed, style, layer=kind)})
+        if "texture" in v:
+            for spec in getattr(style, "EXTRA_LAYERS", []):
+                tex = retex.extra(v["texture"], eyes, seed, style, spec)
+                # the layer is always declared, so a variation without lights also switches off inherited ones
+                layers.append({"name": f"{MOD_ID}_{spec['name']}", "texture": tex, "emissive": spec.get("emissive", False),
+                               "translucent": spec.get("translucent", True)} if tex else
+                              {"name": f"{MOD_ID}_{spec['name']}", "enabled": False})
         if layers:
             copy["layers"] = layers
         out.append(copy)
@@ -329,10 +370,13 @@ def build_collection(cob: Cobblemon, cfg: dict):
         first = lambda t: t["frames"][0] if isinstance(t, dict) else t
         mirrored_base = mirrored[0]
         layers = []
-        for orig, new in zip(base.get("layers") or [], mirrored_base.get("layers") or []):
-            if "texture" in orig and new.get("enabled", True) and "texture" in new:
-                layers.append({"original": first(orig["texture"]), "retextured": first(new["texture"]),
-                               "emissive": bool(orig.get("emissive"))})
+        vanilla_layers = {l["name"]: l for l in base.get("layers") or []}
+        for new in mirrored_base.get("layers") or []:
+            orig = vanilla_layers.get(new["name"], {})
+            if new.get("enabled", True) and "texture" in new or "texture" in orig:
+                layers.append({"original": first(orig["texture"]) if "texture" in orig else None,
+                               "retextured": first(new["texture"]) if new.get("enabled", True) and "texture" in new else None,
+                               "emissive": bool(new.get("emissive", orig.get("emissive")))})
         manifest.append({"species": name, "folder": folder, "model": base["model"],
                          "original": first(base["texture"]), "retextured": first(mirrored_base["texture"]),
                          "layers": layers})

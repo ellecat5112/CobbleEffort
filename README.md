@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -168,6 +168,38 @@ existing models.
 Give a supported Pokémon a **Carved Pumpkin** as its cosmetic item. With commands: `/pokegive charmander halloween`,
 `/pokegive tarountula halloween shiny`. Pack makers can extend the item tag `#cobbleeffort:halloween_cosmetics`.
 
+## Collection #4: Christmas
+
+18 evolutionary lines (**40 Pokémon**). Four of them have their own costume:
+
+| Line | Look |
+|------|------|
+| **Munchlax → Snorlax** | **Santa Claus**: red suit, a red coat front with white fur trim, a black belt with a gold buckle, and a white fluffy beard and cuffs. Shiny: an old-world **Father Christmas** in green |
+| **Turtwig → Grotle → Torterra** | **Christmas tree**: every leafy part becomes a pine tree hung with baubles and gold tinsel, wound with **twinkling fairy lights**, and topped with snow. Shiny: a white **flocked** tree |
+| **Trubbish → Garbodor** | **Christmas gift**: wrapped in candy-stripe paper with a green satin ribbon, a bow and a gift tag. Shiny: gold foil with a red ribbon |
+| **Phantump → Trevenant** | **Krampus**: shaggy black goat fur, ridged ram's horns, **red eyes that glow in the dark**, a long red tongue, and iron chains hung with gold bells. Shiny: a white-furred Krampus with gold horns |
+
+The other 14 lines get the **Festive** look: a Christmas palette (crimson, gold, pine, icy blue, berry, with snowy
+whites), snow settled on top of every surface, snowflakes, and strings of **fairy lights that glow in the dark and
+twinkle**. Shiny: **Frosted** (silver, ice and snow).
+
+Weedle → Kakuna → Beedrill · Mankey → Primeape → Annihilape · Shellder → Cloyster · Girafarig → Farigiraf ·
+Pineco → Forretress · Heracross · Makuhita → Hariyama · Spiritomb · Skorupi → Drapion ·
+Sewaddle → Swadloon → Leavanny · Yamask (incl. Galarian) → Cofagrigus / Runerigus · Larvesta → Volcarona ·
+Litleo → Pyroar · Dreepy → Drakloak → Dragapult
+
+The four costume lines were chosen by request; the other 14 were picked with
+`generate.py pick --count 14 --seed christmas-2026` from the 377 remaining eligible lines.
+
+![Original vs. Christmas](docs/christmas_preview.png)
+
+![Twinkling lights](docs/christmas_lights.gif)
+
+### How to get one
+
+Give a supported Pokémon a **Snowball** as its cosmetic item. With commands: `/pokegive snorlax christmas`,
+`/pokegive turtwig christmas shiny`. Pack makers can extend the item tag `#cobbleeffort:christmas_cosmetics`.
+
 ## Requirements & versions
 
 | | |
@@ -194,7 +226,8 @@ Give a supported Pokémon a **Carved Pumpkin** as its cosmetic item. With comman
 
 Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic item, `lines`, optional
 `line_styles` to give one line its own look) plus a texture style in `tools/styles/<style>.py`. A style can set
-`FRAMES`/`FPS` to make every texture an animation (Halloween does). Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
+`FRAMES`/`FPS` to make every texture an animation (Halloween does), and `EXTRA_LAYERS` + `extra_layer()` to add
+its own layers on top of the body, such as Christmas's glowing, twinkling fairy lights. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
 
 ```
 pip install pillow

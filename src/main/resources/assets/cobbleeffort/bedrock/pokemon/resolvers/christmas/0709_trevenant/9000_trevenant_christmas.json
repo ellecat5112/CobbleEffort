@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:trevenant",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_emissive_christmas.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glare",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_christmas_glare.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_shiny_emissive_christmas.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glare",
+          "texture": "cobbleeffort:textures/pokemon/christmas/0709_trevenant/trevenant_shiny_christmas_glare.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

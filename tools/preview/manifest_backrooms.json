@@ -131,7 +131,13 @@
     "model": "cobblemon:magnezone.geo",
     "original": "cobblemon:textures/pokemon/0462_magnezone/magnezone.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0462_magnezone/magnezone_backrooms.png",
-    "layers": []
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0462_magnezone/magnezone_emissive.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ]
   },
   {
     "species": "froslass",
@@ -259,7 +265,13 @@
     "model": "cobblemon:sizzlipede.geo",
     "original": "cobblemon:textures/pokemon/0850_sizzlipede/sizzlipede.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0850_sizzlipede/sizzlipede_backrooms.png",
-    "layers": []
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0850_sizzlipede/sizzlipede_emissive.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ]
   },
   {
     "species": "centiskorch",
@@ -267,7 +279,13 @@
     "model": "cobblemon:centiskorch.geo",
     "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0851_centiskorch/centiskorch_backrooms.png",
-    "layers": []
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_emissive.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ]
   },
   {
     "species": "impidimp",
@@ -299,7 +317,13 @@
     "model": "cobblemon:nymble.geo",
     "original": "cobblemon:textures/pokemon/0919_nymble/nymble.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0919_nymble/nymble_backrooms.png",
-    "layers": []
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0919_nymble/nymble_emissive.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ]
   },
   {
     "species": "lokix",
@@ -307,7 +331,13 @@
     "model": "cobblemon:lokix.geo",
     "original": "cobblemon:textures/pokemon/0920_lokix/lokix.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0920_lokix/lokix_backrooms.png",
-    "layers": []
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0920_lokix/lokix_emissive.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ]
   },
   {
     "species": "maschiff",
