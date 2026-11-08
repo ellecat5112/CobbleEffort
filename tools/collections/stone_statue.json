@@ -1,5 +1,5 @@
 {
-  "_comment": "Stone Statue collection: Pok\u00e9mon as solid stone statues. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed stone-statue-2026` (random lines no other collection uses).",
+  "_comment": "Stone Statue collection: Pokémon as solid stone statues. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed stone-statue-2026` (random lines no other collection uses).",
   "aspect": "stone_statue",
   "feature": "stone_statue",
   "style": "stone_statue",
@@ -28,5 +28,17 @@
     "tadbulb",
     "capsakid"
   ],
-  "extra_links": []
+  "extra_links": [],
+  "readme": {
+    "number": 8,
+    "title": "Stone Statues",
+    "example": "aron",
+    "summary": "Pokemon turned into solid, weathered stone statues.",
+    "looks": [
+      "granite-grey stone with the markings kept as carved relief",
+      "stone grain, speckles, chisel strokes, chipped edges, cracks and the odd patch of moss and lichen",
+      "blank carved eyes; no glow (flames become carved stone)",
+      "shiny: polished white marble with grey veins and gold-leaf eyes"
+    ]
+  }
 }

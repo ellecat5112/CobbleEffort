@@ -1,5 +1,5 @@
 {
-  "_comment": "Ice Sculpture collection: Pok\u00e9mon carved from ice. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed ice-sculpture-2026` (random lines no other collection uses).",
+  "_comment": "Ice Sculpture collection: Pokémon carved from ice. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed ice-sculpture-2026` (random lines no other collection uses).",
   "aspect": "ice_sculpture",
   "feature": "ice_sculpture",
   "style": "ice_sculpture",
@@ -28,5 +28,17 @@
     "fuecoco",
     "toedscool"
   ],
-  "extra_links": []
+  "extra_links": [],
+  "readme": {
+    "number": 7,
+    "title": "Ice Sculptures",
+    "example": "axew",
+    "summary": "Pokemon carved out of a block of ice.",
+    "looks": [
+      "clear glacier-ice blues mapped from the Pokemon's own light and shade, so every marking is chiselled in",
+      "faceted chisel planes, refracting light streaks, hairline cracks, trapped air bubbles and a frosted rim",
+      "glints that twinkle and glow in the dark; glowing parts turn to an icy cyan glow",
+      "shiny: Aurora Ice, shimmering teal to violet"
+    ]
+  }
 }

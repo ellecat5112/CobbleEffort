@@ -186,6 +186,34 @@ class Cobblemon:
                 families[member] = fam
         return families
 
+    def stages(self, family) -> list[list[str]]:
+        """A family as evolution stages, babies first: the longest evolution chain leading to each member."""
+        evolves_to: dict[str, set[str]] = {n: set() for n in family}
+        for n in family:
+            data = self.species[n]
+            for block in [data] + data.get("forms", []):
+                if block.get("preEvolution") and self.species_id(block["preEvolution"]) in family:
+                    evolves_to[self.species_id(block["preEvolution"])].add(n)
+                for evo in block.get("evolutions", []):
+                    if evo.get("result") and self.species_id(evo["result"]) in family:
+                        evolves_to[n].add(self.species_id(evo["result"]))
+            for pre in data.get("_added_pre", []):
+                if self.species_id(pre) in family:
+                    evolves_to[self.species_id(pre)].add(n)
+            for evo in data.get("_added_evolutions", []):
+                if evo.get("result") and self.species_id(evo["result"]) in family:
+                    evolves_to[n].add(self.species_id(evo["result"]))
+        depth = {n: 0 for n in family}
+        for _ in family:                                  # longest path (families are tiny)
+            for a, outs in evolves_to.items():
+                for b in outs:
+                    if b != a and depth[b] < depth[a] + 1 <= len(family):
+                        depth[b] = depth[a] + 1
+        out: dict[int, list[str]] = {}
+        for n in sorted(family, key=self.dex):
+            out.setdefault(depth[n], []).append(n)
+        return [out[d] for d in sorted(out)]
+
     def retexturable(self, family) -> bool:
         return all(
             n in self.resolvers and self.species[n].get("implemented", True)
@@ -827,6 +855,19 @@ def build_collection(cob: Cobblemon, cfg: dict):
         ordered.append(a["species"])
     check_launch_safe(cob.stack, out_res_root)
     write_json(TOOLS / "preview" / f"manifest_{aspect}.json", manifest)
+    # the player README in the release zip (tools/make_readme.py) lists every line with display names
+    def display(n):
+        name = cob.species[n].get("name", n)
+        name = name.title() if name == name.lower() else name
+        if n in cob.stack.painted:
+            name += f" ({cob.stack.by_id[cob.stack.painted[n]['mod']].name.replace('Cobblemon ', '')})"
+        return name
+    write_json(TOOLS / "readme" / f"{cfg['name']}.json", {
+        "pokemon": len(ordered),
+        # each line as its evolution stages, e.g. [["Snorunt"], ["Glalie", "Froslass"]]
+        "lines": [[[display(n) for n in stage] for stage in cob.stages(families[pick])] for pick in cfg["lines"]]
+                 + [[[a["species"].title()]] for a in addons],
+    })
 
     data = RES / "data" / MOD_ID
     write_json(data / "species_features" / f"{feature}.json", {
@@ -882,6 +923,8 @@ def cmd_build(cob: Cobblemon, names: list[str]):
     for cfg in every:
         if not names or cfg["name"] in names:
             build_collection(cob, cfg)
+    import make_readme
+    make_readme.main()
 
 
 def cmd_pick(cob: Cobblemon, count: int, seed: str):

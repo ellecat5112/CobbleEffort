@@ -30,5 +30,27 @@
     "togepi": "easter_egg",
     "lopunny": "easter_bunny"
   },
-  "extra_links": []
+  "extra_links": [],
+  "readme": {
+    "number": 5,
+    "title": "Easter",
+    "example": "togepi",
+    "summary": "An Easter egg, the Easter Bunny, and a Pastel look for the rest.",
+    "looks": [
+      "Pastel: every colour turned to its soft pastel version, a painted zigzag ribbon and little spring daisies",
+      "shiny: chocolate with rainbow candy sprinkles"
+    ],
+    "specials": [
+      {
+        "line": "Togepi > Togetic > Togekiss",
+        "look": "Easter egg: a hand-painted egg with pastel bands, zigzags, polka dots and pin-stripes",
+        "shiny": "a golden Faberge egg set with jewels"
+      },
+      {
+        "line": "Buneary > Lopunny",
+        "look": "Easter Bunny: soft white fur, pastel-pink fluffy ears, spring daisies and a painted-egg ribbon",
+        "shiny": "a chocolate bunny with gold-foil trim"
+      }
+    ]
+  }
 }

@@ -55,6 +55,9 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   (needs `assets/cobblemon` incl. posers/animations + `data/cobblemon`, the compat jars in `tools/compat/jars/`
   (Lost Lore: a directory of its `common/src/main/resources`), and Cobblemon's Kotlin sources next to the resources
   for converting Kotlin posers). The output is deterministic, so check reruns with md5.
+- Release zips also contain `README.txt`, the player guide (`dist/README.txt`, written by `tools/make_readme.py` at
+  the end of every `generate.py build` from each config's `readme` block and `tools/readme/<name>.json`). A new
+  collection needs a `readme` block (number, title, example, summary, looks, optional specials/warning).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;

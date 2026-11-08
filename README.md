@@ -416,8 +416,11 @@ instead.
 ## Building
 
 ```
-./gradlew build        # -> build/libs/cobbleeffort-<version>+1.21.1.zip  (contains the .jar; also runs validateData)
+./gradlew build        # -> build/libs/cobbleeffort-<version>+1.21.1.zip  (the .jar + README.txt; also runs validateData)
 ```
+
+The zip's `README.txt` is a player guide listing every collection, its cosmetic item, its command and its Pokémon.
+It is generated (`dist/README.txt`, by `tools/make_readme.py`) from the collection configs' `readme` blocks.
 
 `validateData` checks that every JSON file parses, that every texture a resolver points to exists, and that every
 pinned `cobbleeffort:` model, poser and animation group exists.

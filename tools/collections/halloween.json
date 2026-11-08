@@ -29,5 +29,26 @@
   "line_styles": {
     "charmander": "halloween_skeleton"
   },
-  "extra_links": []
+  "extra_links": [],
+  "readme": {
+    "number": 3,
+    "title": "Halloween (Nightmare)",
+    "example": "charmander",
+    "warning": "CONTENT WARNING: blood, gore, rotting flesh, wounds and body horror. If you don't want it, just never use the Carved Pumpkin cosmetic.",
+    "summary": "Pokemon turned into nightmares, with animated textures (4 frames).",
+    "looks": [
+      "darkened, bruise-purple and rot-green skin with grime, lumps, torn raw patches and crude stitches",
+      "blood splatters with creeping drips",
+      "lots of extra, misplaced, bloodshot eyes (darting, blinking, weeping blood)",
+      "mouths full of jagged bloody teeth that gnash open and shut",
+      "shiny: a pale corpse, so the blood stands out more; glowing parts turn ghost-green"
+    ],
+    "specials": [
+      {
+        "line": "Charmander > Charmeleon > Charizard",
+        "look": "Bone-Rot: skeletons with flesh rotting off the bones, an exposed rib cage, hollow eye sockets with a pink ember, and the tail fire burning pink",
+        "shiny": "charred black bones"
+      }
+    ]
+  }
 }

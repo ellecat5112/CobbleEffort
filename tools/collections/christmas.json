@@ -32,5 +32,38 @@
     "trubbish": "christmas_gift",
     "phantump": "christmas_krampus"
   },
-  "extra_links": []
+  "extra_links": [],
+  "readme": {
+    "number": 4,
+    "title": "Christmas",
+    "example": "snorlax",
+    "summary": "Christmas costumes for four lines and a Festive look for the rest.",
+    "looks": [
+      "Festive: a Christmas palette (crimson, gold, pine, icy blue, berry), snow settled on top, snowflakes",
+      "strings of fairy lights that glow in the dark and twinkle",
+      "shiny: Frosted, in silver, ice and snow"
+    ],
+    "specials": [
+      {
+        "line": "Munchlax > Snorlax",
+        "look": "Santa Claus: red suit with white fur trim, black belt with a gold buckle, white beard",
+        "shiny": "an old-world Father Christmas in green"
+      },
+      {
+        "line": "Turtwig > Grotle > Torterra",
+        "look": "Christmas tree: pine needles, baubles, gold tinsel, twinkling fairy lights and snow",
+        "shiny": "a white flocked tree"
+      },
+      {
+        "line": "Trubbish > Garbodor",
+        "look": "Christmas gift: candy-stripe wrapping paper, a green satin ribbon, a bow and a gift tag",
+        "shiny": "gold foil with a red ribbon"
+      },
+      {
+        "line": "Phantump > Trevenant",
+        "look": "Krampus: shaggy black goat fur, ram's horns, red eyes that glow in the dark, iron chains with gold bells",
+        "shiny": "white fur and gold horns"
+      }
+    ]
+  }
 }
