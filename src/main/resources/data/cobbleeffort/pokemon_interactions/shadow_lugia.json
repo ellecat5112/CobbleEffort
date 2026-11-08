@@ -1,0 +1,66 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "lugia"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobbleeffort:shadow",
+      "cooldown": "20",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:echo_shard"
+        },
+        {
+          "variant": "properties",
+          "target": "shadow=false"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item",
+          "amount": 1
+        },
+        {
+          "variant": "script",
+          "script": "q.pokemon.apply('shadow=true');"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:block.sculk_shrieker.shriek"
+        }
+      ]
+    },
+    {
+      "grouping": "cobbleeffort:purify",
+      "cooldown": "20",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:golden_apple"
+        },
+        {
+          "variant": "properties",
+          "target": "shadow=true"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "shrink_item",
+          "amount": 1
+        },
+        {
+          "variant": "script",
+          "script": "q.pokemon.apply('shadow=false');"
+        },
+        {
+          "variant": "play_sound",
+          "sound": "minecraft:block.beacon.activate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "portraitScale": 0.64,
+  "portraitTranslation": [
+    0,
+    4.53,
+    0
+  ],
+  "profileScale": 0.29,
+  "profileTranslation": [
+    0,
+    1.8,
+    0
+  ],
+  "rootBone": "origindragon",
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 30, -30, 45, -45)",
+        "q.bedrock('ce_origindragon', 'ground_idle')"
+      ]
+    },
+    "walk": {
+      "poseName": "walk",
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 30, -30, 45, -45)",
+        "q.bedrock('ce_origindragon', 'ground_idle')",
+        "q.biped_walk(0.6, 0.9, 'leg_left', 'leg_right')"
+      ]
+    },
+    "hover": {
+      "poseName": "hover",
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 30, -30, 45, -45)",
+        "q.bedrock('ce_origindragon', 'air_idle')"
+      ]
+    },
+    "fly": {
+      "poseName": "fly",
+      "poseTypes": [
+        "FLY",
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head', 1, 1, 30, -30, 45, -45)",
+        "q.bedrock('ce_origindragon', 'air_fly')"
+      ]
+    }
+  }
+}

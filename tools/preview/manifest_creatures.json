@@ -1,0 +1,73 @@
+[
+  {
+    "species": "ironboulder",
+    "folder": "1022_ironboulder",
+    "model": "cobbleeffort:ironboulder.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/1022_ironboulder/ironboulder.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/1022_ironboulder/ironboulder_emissive.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "celesteela",
+    "folder": "0797_celesteela",
+    "model": "cobbleeffort:celesteela.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/0797_celesteela/celesteela.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/0797_celesteela/celesteela_emissive.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "origindragon",
+    "folder": "2001_origindragon",
+    "model": "cobbleeffort:origindragon.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon_emissive.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mewtwo_armored",
+    "folder": "0150_mewtwo",
+    "model": "cobbleeffort:mewtwo_armored.geo",
+    "original": "cobblemon:textures/pokemon/0150_mewtwo/mewtwo.png",
+    "original_model": "cobblemon:mewtwo.geo",
+    "retextured": "cobbleeffort:textures/pokemon/0150_mewtwo/mewtwo_armored.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/0150_mewtwo/mewtwo_armored_emissive.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lugia_shadow",
+    "folder": "0249_lugia",
+    "model": "cobblemon:lugia.geo",
+    "original": "cobblemon:textures/pokemon/0249_lugia/lugia.png",
+    "retextured": "cobbleeffort:textures/pokemon/0249_lugia/lugia_shadow.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/0249_lugia/lugia_shadow_eyes.png",
+        "emissive": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort-lugia-1",
+      "pokemon": "lugia",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "cobbleeffort-lugia-shadow-1",
+      "pokemon": "lugia shadow",
+      "presets": [],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "isThundering": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:origindragon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobbleeffort:origindragon",
+      "model": "cobbleeffort:origindragon.geo",
+      "texture": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon_emissive.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/2001_origindragon/origindragon_emissive_shiny.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}
