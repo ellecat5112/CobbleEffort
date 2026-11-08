@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:beedrill",
+      "model": "cobblemon:beedrill.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0015_beedrill/beedrill_christmas.png",
       "layers": [
         {
@@ -40,6 +42,69 @@
               "cobbleeffort:textures/pokemon/christmas/0015_beedrill/beedrill_shiny_christmas_lights_1.png",
               "cobbleeffort:textures/pokemon/christmas/0015_beedrill/beedrill_shiny_christmas_lights_2.png",
               "cobbleeffort:textures/pokemon/christmas/0015_beedrill/beedrill_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "christmas"
+      ],
+      "poser": "cobblemon:beedrill_mega",
+      "model": "cobblemon:beedrillmega.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrill_emissive_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrill_shiny_emissive_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_shiny_christmas_lights_3.png"
             ],
             "fps": 3,
             "loop": true

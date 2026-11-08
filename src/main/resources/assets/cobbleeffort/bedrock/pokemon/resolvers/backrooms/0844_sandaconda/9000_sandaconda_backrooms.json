@@ -6,6 +6,8 @@
       "aspects": [
         "backrooms"
       ],
+      "poser": "cobblemon:sandaconda",
+      "model": "cobblemon:sandaconda.geo",
       "texture": "cobbleeffort:textures/pokemon/backrooms/0844_sandaconda/sandaconda_backrooms.png"
     },
     {
@@ -14,6 +16,23 @@
         "backrooms"
       ],
       "texture": "cobbleeffort:textures/pokemon/backrooms/0844_sandaconda/sandaconda_shiny_backrooms.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "backrooms"
+      ],
+      "poser": "cobblemon:sandacondagmax",
+      "model": "cobblemon:sandaconda_gigantamax.geo",
+      "texture": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0844_sandaconda/sandaconda_gigantamax_backrooms.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0844_sandaconda/sandaconda_gigantamax_shiny_backrooms.png"
     }
   ]
 }

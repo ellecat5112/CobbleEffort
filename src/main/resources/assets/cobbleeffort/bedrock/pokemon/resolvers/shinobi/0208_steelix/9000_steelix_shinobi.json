@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:steelix",
+      "model": "cobblemon:steelix_male.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0208_steelix/steelix_shinobi.png",
       "layers": [
         {
@@ -32,6 +34,7 @@
         "female",
         "shinobi"
       ],
+      "model": "cobblemon:steelix_female.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0208_steelix/steelix_shinobi.png",
       "layers": [
         {
@@ -50,6 +53,242 @@
       "layers": [
         {
           "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0208_steelix/steelix_mega_shinobi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0208_steelix/steelix_mega_emissive_shinobi.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0208_steelix/steelix_mega_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_male.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_male.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal_shiny_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "female",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_female.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/steelix.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "mega_y",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_mega.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-mega_y",
+        "crystal",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_mega.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "female",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_female.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/steelix_shiny.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/crystal/steelix_crystal_shiny_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "mega_y",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_mega.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega_shiny_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-mega_y",
+        "crystal",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:steelix_crystal_mega.geo",
+      "poser": "cobblemon:steelix_crystal",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0208_steelix/mega/steelix_crystal_mega_shiny_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
           "enabled": false
         }
       ]

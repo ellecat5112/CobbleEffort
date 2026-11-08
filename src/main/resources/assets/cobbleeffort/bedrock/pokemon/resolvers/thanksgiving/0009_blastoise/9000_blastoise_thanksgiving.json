@@ -6,6 +6,8 @@
       "aspects": [
         "thanksgiving"
       ],
+      "poser": "cobblemon:blastoise",
+      "model": "cobblemon:blastoise.geo",
       "texture": "cobbleeffort:textures/pokemon/thanksgiving/0009_blastoise/blastoise_thanksgiving.png"
     },
     {
@@ -14,6 +16,263 @@
         "thanksgiving"
       ],
       "texture": "cobbleeffort:textures/pokemon/thanksgiving/0009_blastoise/blastoise_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "thanksgiving"
+      ],
+      "poser": "cobblemon:blastoise_mega",
+      "model": "cobblemon:blastoise_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_thanksgiving.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_emissive_thanksgiving.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "thanksgiving"
+      ],
+      "poser": "cobblemon:blastoisegmax",
+      "model": "cobblemon:gmaxblastoise.geo",
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_thanksgiving.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_emissive_thanksgiving.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "clone",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise.geo",
+      "poser": "cobblemon:blastoise",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise.geo",
+      "poser": "cobblemon:blastoise",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_mega.geo",
+      "poser": "cobblemon:blastoise_mega",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_clone_gmax.geo",
+      "poser": "cobblemon:blastoisegmax",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_clone_gmax.geo",
+      "poser": "cobblemon:blastoisegmax",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_mega.geo",
+      "poser": "cobblemon:blastoise_mega",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_mega.geo",
+      "poser": "cobblemon:blastoise_mega",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_clone_gmax.geo",
+      "poser": "cobblemon:blastoisegmax",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_clone_gmax.geo",
+      "poser": "cobblemon:blastoisegmax",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise_mega.geo",
+      "poser": "cobblemon:blastoise_mega",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
     }
   ]
 }

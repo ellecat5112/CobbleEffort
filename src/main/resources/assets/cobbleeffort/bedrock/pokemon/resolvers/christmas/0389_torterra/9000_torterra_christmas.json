@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:torterra",
+      "model": "cobblemon:torterra.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0389_torterra/torterra_christmas.png",
       "layers": [
         {
@@ -51,9 +53,49 @@
     },
     {
       "aspects": [
+        "mega_e",
+        "christmas"
+      ],
+      "model": "cobblemon:torterramega.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
         "tree-swamp",
         "christmas"
       ],
+      "model": "cobblemon:torterra_swamp.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0389_torterra/torterra_swamp_christmas.png",
       "layers": [
         {
@@ -92,6 +134,7 @@
         "tree-azalea",
         "christmas"
       ],
+      "model": "cobblemon:torterra_azalea.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0389_torterra/torterra_azalea_christmas.png",
       "layers": [
         {

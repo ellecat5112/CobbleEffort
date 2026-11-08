@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:mamoswine",
+      "model": "cobblemon:mamoswine_male.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0473_mamoswine/mamoswine_shinobi.png",
       "layers": [
         {
@@ -30,6 +32,13 @@
           "translucent": true
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shinobi"
+      ],
+      "model": "cobblemon:mamoswine_female.geo"
     }
   ]
 }

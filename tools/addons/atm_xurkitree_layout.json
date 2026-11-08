@@ -1,0 +1,12656 @@
+{
+ "source": "xurkitree.geo.json",
+ "texture_width": 512,
+ "texture_height": 512,
+ "cubes": [
+  {
+   "bone": "tail_1",
+   "ancestry": [
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    254,
+    185
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -0.00406,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tail_1",
+   "ancestry": [
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    152
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -0.00406,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tail_1",
+   "ancestry": [
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    156
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -0.00406,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_7",
+   "ancestry": [
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    160
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    7.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_7",
+   "ancestry": [
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    164
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    7.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_7",
+   "ancestry": [
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    168
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    7.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_8",
+   "ancestry": [
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    172
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    15.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_8",
+   "ancestry": [
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    202,
+    257
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    15.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_8",
+   "ancestry": [
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    222,
+    257
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    15.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_8",
+   "ancestry": [
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    116,
+    172
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    23.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_8",
+   "ancestry": [
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    177
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    22.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_center_1",
+   "ancestry": [
+    "glow_center_1",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    155,
+    282
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    23.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_center_1",
+   "ancestry": [
+    "glow_center_1",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    287
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    22.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    108,
+    187
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    42.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    80,
+    258
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    43.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    94,
+    258
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    24.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": [
+    0,
+    0,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    142,
+    260
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    35.94594,
+    72.775,
+    0.89899
+   ],
+   "rotation": [
+    0,
+    -5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    162,
+    260
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    35.94594,
+    72.775,
+    2.89899
+   ],
+   "rotation": [
+    0,
+    5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    182,
+    260
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    35.94594,
+    74.775,
+    1.89899
+   ],
+   "rotation": [
+    0,
+    0,
+    15
+   ]
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    116,
+    182
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    32.46453,
+    76.81148,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    95
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    32.48831,
+    70.69081,
+    3.58243
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    91
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    32.48831,
+    70.69081,
+    0.20743
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    211
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    24.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": [
+    0,
+    -5,
+    15
+   ]
+  },
+  {
+   "bone": "arm_left_9",
+   "ancestry": [
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    215
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    24.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": [
+    0,
+    5,
+    15
+   ]
+  },
+  {
+   "bone": "glow_center_2",
+   "ancestry": [
+    "glow_center_2",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    155,
+    282
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    43.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_center_2",
+   "ancestry": [
+    "glow_center_2",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    287
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    42.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_10",
+   "ancestry": [
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    219
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    44.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_10",
+   "ancestry": [
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    223
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    44.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_10",
+   "ancestry": [
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    227
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    44.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_11",
+   "ancestry": [
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    231
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    52.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_11",
+   "ancestry": [
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    242,
+    260
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    52.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_11",
+   "ancestry": [
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    247
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    52.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_12",
+   "ancestry": [
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    251
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    60.99594,
+    74.775,
+    1.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_12",
+   "ancestry": [
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    260,
+    255
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    60.99594,
+    72.775,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_12",
+   "ancestry": [
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    202,
+    261
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    60.99594,
+    72.775,
+    0.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    222,
+    261
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    68.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    218,
+    199
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    67.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    220,
+    178
+   ],
+   "size": [
+    3,
+    4,
+    4
+   ],
+   "origin": [
+    69.20812,
+    72.8,
+    0.86181
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    84
+   ],
+   "size": [
+    5,
+    5,
+    10
+   ],
+   "origin": [
+    72.075,
+    74.8,
+    -2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    130,
+    159
+   ],
+   "size": [
+    5,
+    3,
+    0
+   ],
+   "origin": [
+    76.27297,
+    70.8,
+    2.89493
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    172,
+    200
+   ],
+   "size": [
+    5,
+    3,
+    0
+   ],
+   "origin": [
+    76.77297,
+    75.8,
+    0.39493
+   ],
+   "rotation": [
+    -30,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    152
+   ],
+   "size": [
+    5,
+    3,
+    0
+   ],
+   "origin": [
+    76.77297,
+    75.8,
+    5.60507
+   ],
+   "rotation": [
+    30,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "tip_plug",
+   "ancestry": [
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    114
+   ],
+   "size": [
+    5,
+    5,
+    6
+   ],
+   "origin": [
+    72.075,
+    69.8,
+    0
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_center_3",
+   "ancestry": [
+    "glow_center_3",
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    155,
+    282
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    68.49594,
+    72.275,
+    0.39899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_center_3",
+   "ancestry": [
+    "glow_center_3",
+    "tip_plug",
+    "arm_left_12",
+    "arm_left_11",
+    "arm_left_10",
+    "arm_left_9",
+    "arm_left_8",
+    "arm_left_7",
+    "tail_1",
+    "tail_rotation",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    287
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    67.99594,
+    77.275,
+    2.89899
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_1",
+   "ancestry": [
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    91
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    4.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_1",
+   "ancestry": [
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    94,
+    262
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    4.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_1",
+   "ancestry": [
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    95
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    4.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_2",
+   "ancestry": [
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    99
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    12.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_2",
+   "ancestry": [
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    103
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    12.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_2",
+   "ancestry": [
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    107
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    12.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_2",
+   "ancestry": [
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    189
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    20.025,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_1_sec_2",
+   "ancestry": [
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    162,
+    223
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    19.525,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_3",
+   "ancestry": [
+    "glow_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    20.025,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_3",
+   "ancestry": [
+    "glow_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    19.525,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_3",
+   "ancestry": [
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    111
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    21.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_3",
+   "ancestry": [
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    199
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    21.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_3",
+   "ancestry": [
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    259
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    21.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_2",
+   "ancestry": [
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    114,
+    263
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    29.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_2",
+   "ancestry": [
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    262,
+    263
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    29.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_2",
+   "ancestry": [
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    65
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    29.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_4",
+   "ancestry": [
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    69
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    37.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_4",
+   "ancestry": [
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    73
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    37.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_4",
+   "ancestry": [
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    77
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    37.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_4",
+   "ancestry": [
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    81
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    44.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_4",
+   "ancestry": [
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    236,
+    191
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    44.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_1",
+   "ancestry": [
+    "glow_left_1",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    44.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_1",
+   "ancestry": [
+    "glow_left_1",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    44.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    134,
+    264
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    46.025,
+    74.625,
+    2
+   ],
+   "rotation": [
+    0,
+    0,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    138
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    56.975,
+    72.625,
+    1
+   ],
+   "rotation": [
+    0,
+    -5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    142
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    56.975,
+    72.625,
+    3
+   ],
+   "rotation": [
+    0,
+    5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    146
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    56.975,
+    74.625,
+    2
+   ],
+   "rotation": [
+    0,
+    0,
+    15
+   ]
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    114,
+    258
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    53.49359,
+    76.66148,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    270,
+    120
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    53.51737,
+    70.54081,
+    3.68344
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    271
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    53.51737,
+    70.54081,
+    0.30844
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    154,
+    264
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    46.025,
+    72.625,
+    3
+   ],
+   "rotation": [
+    0,
+    -5,
+    15
+   ]
+  },
+  {
+   "bone": "arm_left_5",
+   "ancestry": [
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    174,
+    264
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    46.025,
+    72.625,
+    1
+   ],
+   "rotation": [
+    0,
+    5,
+    15
+   ]
+  },
+  {
+   "bone": "arm_left_hand",
+   "ancestry": [
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    44,
+    244
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    64.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_hand",
+   "ancestry": [
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    235
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    64.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_hand",
+   "ancestry": [
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    236,
+    268
+   ],
+   "size": [
+    2,
+    4,
+    4
+   ],
+   "origin": [
+    66.525,
+    72.575,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_2",
+   "ancestry": [
+    "glow_left_2",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    64.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_2",
+   "ancestry": [
+    "glow_left_2",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    64.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_4_sec_1",
+   "ancestry": [
+    "arm_left_finger_4_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    50,
+    244
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    67.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_9",
+   "ancestry": [
+    "arm_left_finger_1_sec_9",
+    "arm_left_finger_4_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    54,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    62.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_10",
+   "ancestry": [
+    "arm_left_finger_1_sec_10",
+    "arm_left_finger_1_sec_9",
+    "arm_left_finger_4_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    58,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    57.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_3_sec_1",
+   "ancestry": [
+    "arm_left_finger_3_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    62,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    75.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_4",
+   "ancestry": [
+    "arm_left_finger_1_sec_4",
+    "arm_left_finger_3_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    66,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    80.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_7",
+   "ancestry": [
+    "arm_left_finger_1_sec_7",
+    "arm_left_finger_1_sec_4",
+    "arm_left_finger_3_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    70,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    85.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_5_sec_1",
+   "ancestry": [
+    "arm_left_finger_5_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    74,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    68.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_12",
+   "ancestry": [
+    "arm_left_finger_1_sec_12",
+    "arm_left_finger_5_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    63.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_13",
+   "ancestry": [
+    "arm_left_finger_1_sec_13",
+    "arm_left_finger_1_sec_12",
+    "arm_left_finger_5_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    116,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    58.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_6_sec_1",
+   "ancestry": [
+    "arm_left_finger_6_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    120,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    68.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_8",
+   "ancestry": [
+    "arm_left_finger_1_sec_8",
+    "arm_left_finger_6_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    124,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    63.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_11",
+   "ancestry": [
+    "arm_left_finger_1_sec_11",
+    "arm_left_finger_1_sec_8",
+    "arm_left_finger_6_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    128,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    58.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_2_sec_1",
+   "ancestry": [
+    "arm_left_finger_2_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    220,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    75.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_5",
+   "ancestry": [
+    "arm_left_finger_1_sec_5",
+    "arm_left_finger_2_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    224,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    80.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_6",
+   "ancestry": [
+    "arm_left_finger_1_sec_6",
+    "arm_left_finger_1_sec_5",
+    "arm_left_finger_2_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    228,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    85.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_1",
+   "ancestry": [
+    "arm_left_finger_1_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    232,
+    271
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    76.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_2",
+   "ancestry": [
+    "arm_left_finger_1_sec_2",
+    "arm_left_finger_1_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    270,
+    272
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    81.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_left_finger_1_sec_3",
+   "ancestry": [
+    "arm_left_finger_1_sec_3",
+    "arm_left_finger_1_sec_2",
+    "arm_left_finger_1_sec_1",
+    "arm_left_hand",
+    "arm_left_5",
+    "arm_left_4",
+    "arm_left_2",
+    "arm_left_3",
+    "arm_left_1_sec_2",
+    "arm_left_1_sec_1",
+    "arm_left_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    274,
+    124
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    68.525,
+    86.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_1",
+   "ancestry": [
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    203
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -12.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_1",
+   "ancestry": [
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    264,
+    207
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -12.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_1",
+   "ancestry": [
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    236,
+    264
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -12.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_2",
+   "ancestry": [
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    265
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -20.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_2",
+   "ancestry": [
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    0
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -20.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_2",
+   "ancestry": [
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    4
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -20.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_2",
+   "ancestry": [
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    8
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -22.025,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_1_sec_2",
+   "ancestry": [
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    268
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -22.525,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_4",
+   "ancestry": [
+    "glow_left_4",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -21.975,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_4",
+   "ancestry": [
+    "glow_left_4",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -22.475,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_3",
+   "ancestry": [
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    18
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -29.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_3",
+   "ancestry": [
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    22
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -29.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_3",
+   "ancestry": [
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    26
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -29.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_2",
+   "ancestry": [
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    30
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -37.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_2",
+   "ancestry": [
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    34
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -37.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_2",
+   "ancestry": [
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    38
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -37.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_4",
+   "ancestry": [
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    42
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -45.025,
+    74.625,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_4",
+   "ancestry": [
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    46
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -45.025,
+    72.625,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_4",
+   "ancestry": [
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    50
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -45.025,
+    72.625,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_4",
+   "ancestry": [
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    266,
+    54
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -46.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_4",
+   "ancestry": [
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    106,
+    270
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -47.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_5",
+   "ancestry": [
+    "glow_left_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -46.575,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_5",
+   "ancestry": [
+    "glow_left_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -47.075,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    94,
+    266
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -54.025,
+    74.625,
+    2
+   ],
+   "rotation": [
+    0,
+    0,
+    15
+   ]
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    267
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -64.975,
+    72.625,
+    1
+   ],
+   "rotation": [
+    0,
+    5,
+    15
+   ]
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    20,
+    267
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -64.975,
+    72.625,
+    3
+   ],
+   "rotation": [
+    0,
+    -5,
+    15
+   ]
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    40,
+    267
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -64.975,
+    74.625,
+    2
+   ],
+   "rotation": [
+    0,
+    0,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    12,
+    271
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    -57.49359,
+    76.66148,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    24,
+    271
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    -57.51737,
+    70.54081,
+    3.68344
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    36,
+    271
+   ],
+   "size": [
+    4,
+    2,
+    2
+   ],
+   "origin": [
+    -57.51737,
+    70.54081,
+    0.30844
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    60,
+    267
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -54.025,
+    72.625,
+    3
+   ],
+   "rotation": [
+    0,
+    5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_right_5",
+   "ancestry": [
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    114,
+    267
+   ],
+   "size": [
+    8,
+    2,
+    2
+   ],
+   "origin": [
+    -54.025,
+    72.625,
+    1
+   ],
+   "rotation": [
+    0,
+    -5,
+    -15
+   ]
+  },
+  {
+   "bone": "arm_right_hand",
+   "ancestry": [
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    48,
+    271
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -67.025,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_hand",
+   "ancestry": [
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    256,
+    267
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -66.525,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_hand",
+   "ancestry": [
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    269
+   ],
+   "size": [
+    2,
+    4,
+    4
+   ],
+   "origin": [
+    -68.525,
+    72.575,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_6",
+   "ancestry": [
+    "glow_left_6",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    308,
+    185
+   ],
+   "size": [
+    2,
+    5,
+    5
+   ],
+   "origin": [
+    -66.575,
+    72.125,
+    0.5
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_left_6",
+   "ancestry": [
+    "glow_left_6",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    280,
+    295
+   ],
+   "size": [
+    3,
+    6,
+    0
+   ],
+   "origin": [
+    -67.075,
+    77.125,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_4_sec_1",
+   "ancestry": [
+    "arm_right_finger_4_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    274,
+    131
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    67.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_9",
+   "ancestry": [
+    "arm_right_finger_1_sec_9",
+    "arm_right_finger_4_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    274,
+    176
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    62.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_10",
+   "ancestry": [
+    "arm_right_finger_1_sec_10",
+    "arm_right_finger_1_sec_9",
+    "arm_right_finger_4_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    206,
+    274
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    57.675,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_3_sec_1",
+   "ancestry": [
+    "arm_right_finger_3_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    274
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    75.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_4",
+   "ancestry": [
+    "arm_right_finger_1_sec_4",
+    "arm_right_finger_3_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    214,
+    274
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    80.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_7",
+   "ancestry": [
+    "arm_right_finger_1_sec_7",
+    "arm_right_finger_1_sec_4",
+    "arm_right_finger_3_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    274
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    85.67119,
+    1.23223
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_5_sec_1",
+   "ancestry": [
+    "arm_right_finger_5_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    252,
+    274
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    68.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_12",
+   "ancestry": [
+    "arm_right_finger_1_sec_12",
+    "arm_right_finger_5_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    274,
+    272
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    63.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_13",
+   "ancestry": [
+    "arm_right_finger_1_sec_13",
+    "arm_right_finger_1_sec_12",
+    "arm_right_finger_5_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    58.675,
+    1
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_6_sec_1",
+   "ancestry": [
+    "arm_right_finger_6_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    4,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    68.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_8",
+   "ancestry": [
+    "arm_right_finger_1_sec_8",
+    "arm_right_finger_6_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    8,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    63.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_11",
+   "ancestry": [
+    "arm_right_finger_1_sec_11",
+    "arm_right_finger_1_sec_8",
+    "arm_right_finger_6_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    12,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    58.675,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_2_sec_1",
+   "ancestry": [
+    "arm_right_finger_2_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    16,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    75.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_5",
+   "ancestry": [
+    "arm_right_finger_1_sec_5",
+    "arm_right_finger_2_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    20,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    80.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_6",
+   "ancestry": [
+    "arm_right_finger_1_sec_6",
+    "arm_right_finger_1_sec_5",
+    "arm_right_finger_2_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    24,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    85.575,
+    3
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_1",
+   "ancestry": [
+    "arm_right_finger_1_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    28,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    76.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_2",
+   "ancestry": [
+    "arm_right_finger_1_sec_2",
+    "arm_right_finger_1_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    32,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    81.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "arm_right_finger_1_sec_3",
+   "ancestry": [
+    "arm_right_finger_1_sec_3",
+    "arm_right_finger_1_sec_2",
+    "arm_right_finger_1_sec_1",
+    "arm_right_hand",
+    "arm_right_5",
+    "arm_right_4",
+    "arm_right_2",
+    "arm_right_3",
+    "arm_right_1_sec_2",
+    "arm_right_1_sec_1",
+    "arm_right_1",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    36,
+    275
+   ],
+   "size": [
+    0,
+    5,
+    2
+   ],
+   "origin": [
+    -68.525,
+    86.575,
+    2
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    0
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    30,
+    84
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    58,
+    84
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    86,
+    84
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    30,
+    98
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    58,
+    98
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball",
+   "ancestry": [
+    "ball",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    86,
+    98
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone20",
+   "ancestry": [
+    "bone20",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    186,
+    99
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone20",
+   "ancestry": [
+    "bone20",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    116,
+    186
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone22",
+   "ancestry": [
+    "bone22",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    126
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone22",
+   "ancestry": [
+    "bone22",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    135
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone21",
+   "ancestry": [
+    "bone21",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    138,
+    186
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone21",
+   "ancestry": [
+    "bone21",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    160,
+    186
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone7",
+   "ancestry": [
+    "bone7",
+    "bone6",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    187
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone7",
+   "ancestry": [
+    "bone7",
+    "bone6",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    36,
+    187
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone5",
+   "ancestry": [
+    "bone5",
+    "bone4",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    54,
+    187
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone5",
+   "ancestry": [
+    "bone5",
+    "bone4",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    72,
+    187
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone17",
+   "ancestry": [
+    "bone17",
+    "bone16",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    90,
+    187
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone17",
+   "ancestry": [
+    "bone17",
+    "bone16",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    190,
+    108
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone19",
+   "ancestry": [
+    "bone19",
+    "bone18",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    192
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone19",
+   "ancestry": [
+    "bone19",
+    "bone18",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    192,
+    121
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone13",
+   "ancestry": [
+    "bone13",
+    "bone12",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    192,
+    134
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone13",
+   "ancestry": [
+    "bone13",
+    "bone12",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    192,
+    147
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone15",
+   "ancestry": [
+    "bone15",
+    "bone14",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    182,
+    192
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone15",
+   "ancestry": [
+    "bone15",
+    "bone14",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    0
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone11",
+   "ancestry": [
+    "bone11",
+    "bone10",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    13
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone11",
+   "ancestry": [
+    "bone11",
+    "bone10",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    26
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone9",
+   "ancestry": [
+    "bone9",
+    "bone8",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    39
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone9",
+   "ancestry": [
+    "bone9",
+    "bone8",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    52
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone",
+   "ancestry": [
+    "bone",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    99
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone",
+   "ancestry": [
+    "bone",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    130,
+    171
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone3",
+   "ancestry": [
+    "bone3",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    141
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone3",
+   "ancestry": [
+    "bone3",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    142,
+    84
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone2",
+   "ancestry": [
+    "bone2",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    142,
+    93
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone2",
+   "ancestry": [
+    "bone2",
+    "head_quirk",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    142,
+    102
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    28
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    99
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    0
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    14
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    28,
+    112
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    28
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball2",
+   "ancestry": [
+    "ball2",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    42
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone23",
+   "ancestry": [
+    "bone23",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    200
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone23",
+   "ancestry": [
+    "bone23",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    40,
+    200
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone24",
+   "ancestry": [
+    "bone24",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    144
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone24",
+   "ancestry": [
+    "bone24",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    150
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone25",
+   "ancestry": [
+    "bone25",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    62,
+    200
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone25",
+   "ancestry": [
+    "bone25",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    84,
+    200
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone27",
+   "ancestry": [
+    "bone27",
+    "bone26",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    200,
+    192
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone27",
+   "ancestry": [
+    "bone27",
+    "bone26",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    202,
+    160
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone29",
+   "ancestry": [
+    "bone29",
+    "bone28",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    202,
+    173
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone29",
+   "ancestry": [
+    "bone29",
+    "bone28",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    205
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone31",
+   "ancestry": [
+    "bone31",
+    "bone30",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    172,
+    205
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone31",
+   "ancestry": [
+    "bone31",
+    "bone30",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    190,
+    205
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone33",
+   "ancestry": [
+    "bone33",
+    "bone32",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    208,
+    95
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone33",
+   "ancestry": [
+    "bone33",
+    "bone32",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    208,
+    108
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone35",
+   "ancestry": [
+    "bone35",
+    "bone34",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    208,
+    205
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone35",
+   "ancestry": [
+    "bone35",
+    "bone34",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    209
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone37",
+   "ancestry": [
+    "bone37",
+    "bone36",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    36,
+    209
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone37",
+   "ancestry": [
+    "bone37",
+    "bone36",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    54,
+    209
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone39",
+   "ancestry": [
+    "bone39",
+    "bone38",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    72,
+    209
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone39",
+   "ancestry": [
+    "bone39",
+    "bone38",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    90,
+    209
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone41",
+   "ancestry": [
+    "bone41",
+    "bone40",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    65
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone41",
+   "ancestry": [
+    "bone41",
+    "bone40",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    78
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone42",
+   "ancestry": [
+    "bone42",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    148,
+    171
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone42",
+   "ancestry": [
+    "bone42",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    166,
+    171
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone43",
+   "ancestry": [
+    "bone43",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    153
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone43",
+   "ancestry": [
+    "bone43",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    26,
+    154
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone44",
+   "ancestry": [
+    "bone44",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    52,
+    154
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone44",
+   "ancestry": [
+    "bone44",
+    "head_blackening",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    78,
+    154
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    56
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    112
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    56
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    70
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    84,
+    112
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    112
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball3",
+   "ancestry": [
+    "ball3",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    113
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone45",
+   "ancestry": [
+    "bone45",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    108,
+    210
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone45",
+   "ancestry": [
+    "bone45",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    121
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone46",
+   "ancestry": [
+    "bone46",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    104,
+    154
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone46",
+   "ancestry": [
+    "bone46",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    159
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone47",
+   "ancestry": [
+    "bone47",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    130,
+    210
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone47",
+   "ancestry": [
+    "bone47",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    130
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone49",
+   "ancestry": [
+    "bone49",
+    "bone48",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    139
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone49",
+   "ancestry": [
+    "bone49",
+    "bone48",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    152,
+    210
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone51",
+   "ancestry": [
+    "bone51",
+    "bone50",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    212,
+    0
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone51",
+   "ancestry": [
+    "bone51",
+    "bone50",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    212,
+    13
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone53",
+   "ancestry": [
+    "bone53",
+    "bone52",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    212,
+    26
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone53",
+   "ancestry": [
+    "bone53",
+    "bone52",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    212,
+    39
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone55",
+   "ancestry": [
+    "bone55",
+    "bone54",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    212,
+    52
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone55",
+   "ancestry": [
+    "bone55",
+    "bone54",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    218
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone57",
+   "ancestry": [
+    "bone57",
+    "bone56",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    170,
+    218
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone57",
+   "ancestry": [
+    "bone57",
+    "bone56",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    218,
+    186
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone59",
+   "ancestry": [
+    "bone59",
+    "bone58",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    188,
+    218
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone59",
+   "ancestry": [
+    "bone59",
+    "bone58",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    206,
+    218
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone61",
+   "ancestry": [
+    "bone61",
+    "bone60",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    108,
+    219
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone61",
+   "ancestry": [
+    "bone61",
+    "bone60",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    126,
+    219
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone63",
+   "ancestry": [
+    "bone63",
+    "bone62",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    220,
+    152
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone63",
+   "ancestry": [
+    "bone63",
+    "bone62",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    220,
+    165
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone64",
+   "ancestry": [
+    "bone64",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    26,
+    172
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone64",
+   "ancestry": [
+    "bone64",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    44,
+    172
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone65",
+   "ancestry": [
+    "bone65",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    130,
+    162
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone65",
+   "ancestry": [
+    "bone65",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    156,
+    162
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone66",
+   "ancestry": [
+    "bone66",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    26,
+    163
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone66",
+   "ancestry": [
+    "bone66",
+    "head_blackening2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    52,
+    163
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    0
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    114,
+    84
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    114,
+    98
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    28,
+    126
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    126
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    84,
+    126
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball4",
+   "ancestry": [
+    "ball4",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    126
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone67",
+   "ancestry": [
+    "bone67",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    222
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone67",
+   "ancestry": [
+    "bone67",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    40,
+    222
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone68",
+   "ancestry": [
+    "bone68",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    78,
+    163
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone68",
+   "ancestry": [
+    "bone68",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    104,
+    163
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone69",
+   "ancestry": [
+    "bone69",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    62,
+    222
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone69",
+   "ancestry": [
+    "bone69",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    84,
+    222
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone71",
+   "ancestry": [
+    "bone71",
+    "bone70",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    144,
+    223
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone71",
+   "ancestry": [
+    "bone71",
+    "bone70",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    224,
+    218
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone73",
+   "ancestry": [
+    "bone73",
+    "bone72",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    226,
+    91
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone73",
+   "ancestry": [
+    "bone73",
+    "bone72",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    226,
+    104
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone75",
+   "ancestry": [
+    "bone75",
+    "bone74",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    226,
+    199
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone75",
+   "ancestry": [
+    "bone75",
+    "bone74",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    228,
+    65
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone77",
+   "ancestry": [
+    "bone77",
+    "bone76",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    228,
+    78
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone77",
+   "ancestry": [
+    "bone77",
+    "bone76",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    228,
+    139
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone79",
+   "ancestry": [
+    "bone79",
+    "bone78",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    230,
+    0
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone79",
+   "ancestry": [
+    "bone79",
+    "bone78",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    230,
+    13
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone81",
+   "ancestry": [
+    "bone81",
+    "bone80",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    230,
+    26
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone81",
+   "ancestry": [
+    "bone81",
+    "bone80",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    230,
+    39
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone83",
+   "ancestry": [
+    "bone83",
+    "bone82",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    230,
+    52
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone83",
+   "ancestry": [
+    "bone83",
+    "bone82",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    231
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone85",
+   "ancestry": [
+    "bone85",
+    "bone84",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    231
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone85",
+   "ancestry": [
+    "bone85",
+    "bone84",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    36,
+    231
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone86",
+   "ancestry": [
+    "bone86",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    62,
+    172
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone86",
+   "ancestry": [
+    "bone86",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    80,
+    172
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone87",
+   "ancestry": [
+    "bone87",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    166,
+    126
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone87",
+   "ancestry": [
+    "bone87",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    166,
+    135
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone88",
+   "ancestry": [
+    "bone88",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    166,
+    144
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone88",
+   "ancestry": [
+    "bone88",
+    "head_blackening3",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    166,
+    153
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    28
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    127
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    0
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    14
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    28,
+    140
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    28
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball5",
+   "ancestry": [
+    "ball5",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    42
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone89",
+   "ancestry": [
+    "bone89",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    54,
+    231
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone89",
+   "ancestry": [
+    "bone89",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    76,
+    231
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone90",
+   "ancestry": [
+    "bone90",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    168
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone90",
+   "ancestry": [
+    "bone90",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    0
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone91",
+   "ancestry": [
+    "bone91",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    162,
+    231
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone91",
+   "ancestry": [
+    "bone91",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    184,
+    231
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone93",
+   "ancestry": [
+    "bone93",
+    "bone92",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    206,
+    231
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone93",
+   "ancestry": [
+    "bone93",
+    "bone92",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    224,
+    231
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone95",
+   "ancestry": [
+    "bone95",
+    "bone94",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    98,
+    232
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone95",
+   "ancestry": [
+    "bone95",
+    "bone94",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    116,
+    232
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone97",
+   "ancestry": [
+    "bone97",
+    "bone96",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    232,
+    117
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone97",
+   "ancestry": [
+    "bone97",
+    "bone96",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    134,
+    236
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone99",
+   "ancestry": [
+    "bone99",
+    "bone98",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    236,
+    178
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone99",
+   "ancestry": [
+    "bone99",
+    "bone98",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    238,
+    152
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone101",
+   "ancestry": [
+    "bone101",
+    "bone100",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    238,
+    165
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone101",
+   "ancestry": [
+    "bone101",
+    "bone100",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    54,
+    240
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone103",
+   "ancestry": [
+    "bone103",
+    "bone102",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    72,
+    240
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone103",
+   "ancestry": [
+    "bone103",
+    "bone102",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    152,
+    240
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone105",
+   "ancestry": [
+    "bone105",
+    "bone104",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    170,
+    240
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone105",
+   "ancestry": [
+    "bone105",
+    "bone104",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    188,
+    240
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone107",
+   "ancestry": [
+    "bone107",
+    "bone106",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    242,
+    212
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone107",
+   "ancestry": [
+    "bone107",
+    "bone106",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    242,
+    225
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone108",
+   "ancestry": [
+    "bone108",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    98,
+    172
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone108",
+   "ancestry": [
+    "bone108",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    177
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone109",
+   "ancestry": [
+    "bone109",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    9
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone109",
+   "ancestry": [
+    "bone109",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    18
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone110",
+   "ancestry": [
+    "bone110",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    27
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone110",
+   "ancestry": [
+    "bone110",
+    "head_glowup",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    36
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    56
+   ],
+   "size": [
+    14,
+    14,
+    14
+   ],
+   "origin": [
+    -6.89974,
+    74.77733,
+    -3.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    56,
+    140
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    -5.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    56
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    89.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    70
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    73.77733,
+    -3.99787
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    84,
+    140
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    2.60026,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    112,
+    140
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -14.39974,
+    75.77733,
+    1.75213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "ball6",
+   "ancestry": [
+    "ball6",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    112
+   ],
+   "size": [
+    12,
+    12,
+    2
+   ],
+   "origin": [
+    -5.89974,
+    75.77733,
+    10.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone111",
+   "ancestry": [
+    "bone111",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    232,
+    130
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone111",
+   "ancestry": [
+    "bone111",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    242,
+    238
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    15.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone112",
+   "ancestry": [
+    "bone112",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    45
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone112",
+   "ancestry": [
+    "bone112",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    54
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    69.87733,
+    -0.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone113",
+   "ancestry": [
+    "bone113",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    244
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone113",
+   "ancestry": [
+    "bone113",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    22,
+    244
+   ],
+   "size": [
+    11,
+    9,
+    0
+   ],
+   "origin": [
+    -3.39974,
+    77.77733,
+    -8.99787
+   ],
+   "rotation": [
+    90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone115",
+   "ancestry": [
+    "bone115",
+    "bone114",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    244,
+    91
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone115",
+   "ancestry": [
+    "bone115",
+    "bone114",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    244,
+    104
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.63476,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone117",
+   "ancestry": [
+    "bone117",
+    "bone116",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    244,
+    191
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone117",
+   "ancestry": [
+    "bone117",
+    "bone116",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    206,
+    244
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.83527,
+    85.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone119",
+   "ancestry": [
+    "bone119",
+    "bone118",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    224,
+    244
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone119",
+   "ancestry": [
+    "bone119",
+    "bone118",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    90,
+    245
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone121",
+   "ancestry": [
+    "bone121",
+    "bone120",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    108,
+    245
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone121",
+   "ancestry": [
+    "bone121",
+    "bone120",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    246,
+    65
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    -1.99787
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone123",
+   "ancestry": [
+    "bone123",
+    "bone122",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    246,
+    78
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone123",
+   "ancestry": [
+    "bone123",
+    "bone122",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    246,
+    139
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone125",
+   "ancestry": [
+    "bone125",
+    "bone124",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    242,
+    247
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone125",
+   "ancestry": [
+    "bone125",
+    "bone124",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    0
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    64.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone127",
+   "ancestry": [
+    "bone127",
+    "bone126",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    13
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone127",
+   "ancestry": [
+    "bone127",
+    "bone126",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    26
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    -9.39974,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone129",
+   "ancestry": [
+    "bone129",
+    "bone128",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    39
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone129",
+   "ancestry": [
+    "bone129",
+    "bone128",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    248,
+    52
+   ],
+   "size": [
+    9,
+    13,
+    0
+   ],
+   "origin": [
+    0.60026,
+    85.77733,
+    8.00213
+   ],
+   "rotation": [
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "bone": "bone130",
+   "ancestry": [
+    "bone130",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    184,
+    162
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone130",
+   "ancestry": [
+    "bone130",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    184,
+    177
+   ],
+   "size": [
+    9,
+    15,
+    0
+   ],
+   "origin": [
+    -4.39974,
+    89.77733,
+    3.00213
+   ],
+   "rotation": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "bone": "bone131",
+   "ancestry": [
+    "bone131",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    63
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone131",
+   "ancestry": [
+    "bone131",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    72
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    -21.39974,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "bone132",
+   "ancestry": [
+    "bone132",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    81
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "bone132",
+   "ancestry": [
+    "bone132",
+    "head_glowup2",
+    "realhead",
+    "head",
+    "body_top_position",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    168,
+    90
+   ],
+   "size": [
+    13,
+    9,
+    0
+   ],
+   "origin": [
+    8.60026,
+    77.77733,
+    3.00213
+   ],
+   "rotation": [
+    -90,
+    0,
+    0
+   ]
+  },
+  {
+   "bone": "leg_left_sec_1",
+   "ancestry": [
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    124,
+    195
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    0,
+    61.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_2",
+   "ancestry": [
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    32,
+    253
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    0,
+    51.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_2",
+   "ancestry": [
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    182,
+    253
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    49.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_2",
+   "ancestry": [
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    158,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    49.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_6",
+   "ancestry": [
+    "glow_right_6",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    49.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_6",
+   "ancestry": [
+    "glow_right_6",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    49.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_3",
+   "ancestry": [
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    140,
+    195
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    0,
+    38.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_4",
+   "ancestry": [
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    48,
+    253
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    0,
+    28.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_4",
+   "ancestry": [
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    254,
+    124
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    26.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_4",
+   "ancestry": [
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    170,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    26.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_5",
+   "ancestry": [
+    "glow_right_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    26.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_5",
+   "ancestry": [
+    "glow_right_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    26.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_5",
+   "ancestry": [
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    156,
+    195
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    0,
+    15.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_6",
+   "ancestry": [
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    64,
+    253
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    0,
+    5.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_left",
+   "ancestry": [
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    226,
+    212
+   ],
+   "size": [
+    4,
+    2,
+    4
+   ],
+   "origin": [
+    0,
+    1.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_left",
+   "ancestry": [
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    254,
+    131
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    3.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_left",
+   "ancestry": [
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    182,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    3.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_right_back_1",
+   "ancestry": [
+    "foot_right_back_1",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    210,
+    155
+   ],
+   "size": [
+    2,
+    2,
+    2
+   ],
+   "origin": [
+    1,
+    1.63479,
+    4.90091
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_right_back_2",
+   "ancestry": [
+    "foot_right_back_2",
+    "foot_right_back_1",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    172,
+    195
+   ],
+   "size": [
+    2,
+    2,
+    3
+   ],
+   "origin": [
+    1,
+    1.23479,
+    7.57591
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_right_back_2",
+   "ancestry": [
+    "foot_right_back_2",
+    "foot_right_back_1",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    40,
+    275
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    2,
+    1.23479,
+    10.57591
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_7_foot",
+   "ancestry": [
+    "leg_left_sec_7_foot",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    270,
+    115
+   ],
+   "size": [
+    4,
+    2,
+    3
+   ],
+   "origin": [
+    0,
+    1.65,
+    -2.11681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_7_foot2",
+   "ancestry": [
+    "leg_left_sec_7_foot2",
+    "leg_left_sec_7_foot",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    270,
+    267
+   ],
+   "size": [
+    4,
+    2,
+    3
+   ],
+   "origin": [
+    0,
+    2.25876,
+    -5.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_7_foot3",
+   "ancestry": [
+    "leg_left_sec_7_foot3",
+    "leg_left_sec_7_foot2",
+    "leg_left_sec_7_foot",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    254,
+    178
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    2.33376,
+    -9.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_7_foot3",
+   "ancestry": [
+    "leg_left_sec_7_foot3",
+    "leg_left_sec_7_foot2",
+    "leg_left_sec_7_foot",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    92,
+    275
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    3.5,
+    2.20876,
+    -12.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_left_sec_7_foot3",
+   "ancestry": [
+    "leg_left_sec_7_foot3",
+    "leg_left_sec_7_foot2",
+    "leg_left_sec_7_foot",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    98,
+    275
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    0.5,
+    2.20876,
+    -12.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_4",
+   "ancestry": [
+    "glow_right_4",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    2,
+    3.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_4",
+   "ancestry": [
+    "glow_right_4",
+    "feet_left",
+    "leg_left_sec_6",
+    "leg_left_sec_5",
+    "leg_left_sec_4",
+    "leg_left_sec_3",
+    "leg_left_sec_2",
+    "leg_left_sec_1",
+    "rotateleg_left",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -0.5,
+    3.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_1",
+   "ancestry": [
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    65
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    -4,
+    61.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_2",
+   "ancestry": [
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    126,
+    249
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    -4,
+    51.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_2",
+   "ancestry": [
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    244,
+    204
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    49.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_2",
+   "ancestry": [
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    80,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    49.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_1",
+   "ancestry": [
+    "glow_right_1",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    49.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_1",
+   "ancestry": [
+    "glow_right_1",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    49.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_3",
+   "ancestry": [
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    194,
+    80
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    -4,
+    38.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_4",
+   "ancestry": [
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    0,
+    253
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    -4,
+    28.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_4",
+   "ancestry": [
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    250,
+    117
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    26.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_4",
+   "ancestry": [
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    134,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    26.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_2",
+   "ancestry": [
+    "glow_right_2",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    26.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_2",
+   "ancestry": [
+    "glow_right_2",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    26.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_5",
+   "ancestry": [
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    108,
+    195
+   ],
+   "size": [
+    4,
+    11,
+    4
+   ],
+   "origin": [
+    -4,
+    15.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_6",
+   "ancestry": [
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    16,
+    253
+   ],
+   "size": [
+    4,
+    10,
+    4
+   ],
+   "origin": [
+    -4,
+    5.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_right",
+   "ancestry": [
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    142,
+    253
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    3.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_right",
+   "ancestry": [
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    146,
+    268
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    3.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "feet_right",
+   "ancestry": [
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    202,
+    186
+   ],
+   "size": [
+    4,
+    2,
+    4
+   ],
+   "origin": [
+    -4,
+    1.65,
+    0.88319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_3",
+   "ancestry": [
+    "glow_right_3",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    57,
+    375
+   ],
+   "size": [
+    0,
+    3,
+    6
+   ],
+   "origin": [
+    -2,
+    3.15,
+    -5.61681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "glow_right_3",
+   "ancestry": [
+    "glow_right_3",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    221,
+    311
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    3.65,
+    0.38319
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_7_foot",
+   "ancestry": [
+    "leg_right_sec_7_foot",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    206,
+    269
+   ],
+   "size": [
+    4,
+    2,
+    3
+   ],
+   "origin": [
+    -4,
+    1.65,
+    -2.11681
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_7_foot2",
+   "ancestry": [
+    "leg_right_sec_7_foot2",
+    "leg_right_sec_7_foot",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    92,
+    270
+   ],
+   "size": [
+    4,
+    2,
+    3
+   ],
+   "origin": [
+    -4,
+    2.25876,
+    -5.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_7_foot3",
+   "ancestry": [
+    "leg_right_sec_7_foot3",
+    "leg_right_sec_7_foot2",
+    "leg_right_sec_7_foot",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    162,
+    253
+   ],
+   "size": [
+    5,
+    2,
+    5
+   ],
+   "origin": [
+    -4.5,
+    2.33376,
+    -9.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_7_foot3",
+   "ancestry": [
+    "leg_right_sec_7_foot3",
+    "leg_right_sec_7_foot2",
+    "leg_right_sec_7_foot",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    90,
+    240
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    -3.5,
+    2.20876,
+    -12.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "leg_right_sec_7_foot3",
+   "ancestry": [
+    "leg_right_sec_7_foot3",
+    "leg_right_sec_7_foot2",
+    "leg_right_sec_7_foot",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    80,
+    253
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    -0.5,
+    2.20876,
+    -12.32346
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_left_back_1",
+   "ancestry": [
+    "foot_left_back_1",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    18,
+    183
+   ],
+   "size": [
+    2,
+    2,
+    2
+   ],
+   "origin": [
+    -3,
+    1.63479,
+    4.90091
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_left_back_2",
+   "ancestry": [
+    "foot_left_back_2",
+    "foot_left_back_1",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    130,
+    154
+   ],
+   "size": [
+    2,
+    2,
+    3
+   ],
+   "origin": [
+    -3,
+    1.23479,
+    7.57591
+   ],
+   "rotation": null
+  },
+  {
+   "bone": "foot_left_back_2",
+   "ancestry": [
+    "foot_left_back_2",
+    "foot_left_back_1",
+    "feet_right",
+    "leg_right_sec_6",
+    "leg_right_sec_5",
+    "leg_right_sec_4",
+    "leg_right_sec_3",
+    "leg_right_sec_2",
+    "leg_right_sec_1",
+    "rotateleg_right",
+    "legs",
+    "main_body",
+    "xurkitree"
+   ],
+   "uv": [
+    274,
+    183
+   ],
+   "size": [
+    0,
+    2,
+    3
+   ],
+   "origin": [
+    -2,
+    1.23479,
+    10.57591
+   ],
+   "rotation": null
+  }
+ ]
+}

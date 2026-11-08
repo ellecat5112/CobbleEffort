@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:pidgeot",
+      "model": "cobblemon:pidgeot.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0018_pidgeot/pidgeot_stone_statue.png"
     },
     {
@@ -14,6 +16,23 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0018_pidgeot/pidgeot_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "stone_statue"
+      ],
+      "poser": "cobblemon:pidgeot_mega",
+      "model": "cobblemon:pidgeot_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0018_pidgeot/pidgeot_mega_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0018_pidgeot/pidgeot_mega_shiny_stone_statue.png"
     }
   ]
 }

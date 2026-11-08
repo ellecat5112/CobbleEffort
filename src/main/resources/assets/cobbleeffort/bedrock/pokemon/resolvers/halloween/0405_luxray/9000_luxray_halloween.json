@@ -6,6 +6,8 @@
       "aspects": [
         "halloween"
       ],
+      "poser": "cobblemon:luxray",
+      "model": "cobblemon:luxray_male.geo",
       "texture": {
         "frames": [
           "cobbleeffort:textures/pokemon/halloween/0405_luxray/luxray_halloween_0.png",
@@ -64,6 +66,81 @@
             "loop": true
           },
           "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "halloween"
+      ],
+      "model": "cobblemon:luxray_female.geo"
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "halloween"
+      ],
+      "model": "cobblemon:luxraymega.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_emissive_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_emissive_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_emissive_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_emissive_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_emissive_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_emissive_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_emissive_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_shiny_emissive_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": true
         }
       ]
     }

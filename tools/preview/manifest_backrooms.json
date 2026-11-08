@@ -102,6 +102,16 @@
     "layers": []
   },
   {
+    "species": "glalie",
+    "folder": "0362_glalie",
+    "model": "cobblemon:glalie_mega.geo",
+    "original": "cobblemon:textures/pokemon/0362_glalie/megaglalie.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0362_glalie/megaglalie_backrooms.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "piplup",
     "folder": "0393_piplup",
     "model": "cobblemon:piplup.geo",
@@ -146,6 +156,16 @@
     "original": "cobblemon:textures/pokemon/0478_froslass/froslass.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0478_froslass/froslass_backrooms.png",
     "layers": []
+  },
+  {
+    "species": "froslass",
+    "folder": "0478_froslass",
+    "model": "cobblemon:froslass_mega.geo",
+    "original": "cobblemon:textures/pokemon/0478_froslass/froslass_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0478_froslass/froslass_mega_backrooms.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "blitzle",
@@ -238,10 +258,20 @@
   {
     "species": "xerneas",
     "folder": "0716_xerneas",
+    "model": "cobblemon:xerneas_neutral.geo",
+    "original": "cobblemon:textures/pokemon/0716_xerneas/xerneas_neutral.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0716_xerneas/xerneas_neutral_backrooms.png",
+    "layers": []
+  },
+  {
+    "species": "xerneas",
+    "folder": "0716_xerneas",
     "model": "cobblemon:xerneas.geo",
     "original": "cobblemon:textures/pokemon/0716_xerneas/xerneas.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0716_xerneas/xerneas_backrooms.png",
-    "layers": []
+    "layers": [],
+    "form": "active-mode",
+    "mod": "Mega Showdown"
   },
   {
     "species": "silicobra",
@@ -258,6 +288,16 @@
     "original": "cobblemon:textures/pokemon/0844_sandaconda/sandaconda.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0844_sandaconda/sandaconda_backrooms.png",
     "layers": []
+  },
+  {
+    "species": "sandaconda",
+    "folder": "0844_sandaconda",
+    "model": "cobblemon:sandaconda_gigantamax.geo",
+    "original": "cobblemon:textures/pokemon/0844_sandaconda/sandaconda_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0844_sandaconda/sandaconda_gigantamax_backrooms.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
   },
   {
     "species": "sizzlipede",
@@ -288,6 +328,16 @@
     ]
   },
   {
+    "species": "centiskorch",
+    "folder": "0851_centiskorch",
+    "model": "cobblemon:centiskorch_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_backrooms.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "impidimp",
     "folder": "0859_impidimp",
     "model": "cobblemon:impidimp.geo",
@@ -310,6 +360,16 @@
     "original": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0861_grimmsnarl/grimmsnarl_backrooms.png",
     "layers": []
+  },
+  {
+    "species": "grimmsnarl",
+    "folder": "0861_grimmsnarl",
+    "model": "cobblemon:grimmsnarl_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0861_grimmsnarl/grimmsnarl_gmax_backrooms.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
   },
   {
     "species": "nymble",
@@ -354,5 +414,14 @@
     "original": "cobblemon:textures/pokemon/0943_mabosstiff/mabosstiff.png",
     "retextured": "cobbleeffort:textures/pokemon/backrooms/0943_mabosstiff/mabosstiff_backrooms.png",
     "layers": []
+  },
+  {
+    "species": "xerfawn",
+    "folder": "painted_xerfawn",
+    "model": "cobblemon:xerfawn.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/backrooms/painted/xerfawn/xerfawn_backrooms.png",
+    "layers": [],
+    "painted_from": "baby_legends"
   }
 ]

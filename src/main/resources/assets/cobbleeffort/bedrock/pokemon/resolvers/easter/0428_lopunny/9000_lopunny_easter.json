@@ -6,6 +6,8 @@
       "aspects": [
         "easter"
       ],
+      "poser": "cobblemon:lopunny",
+      "model": "cobblemon:lopunny.geo",
       "texture": "cobbleeffort:textures/pokemon/easter/0428_lopunny/lopunny_easter.png"
     },
     {
@@ -14,6 +16,22 @@
         "easter"
       ],
       "texture": "cobbleeffort:textures/pokemon/easter/0428_lopunny/lopunny_shiny_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "easter"
+      ],
+      "model": "cobblemon:lopunny_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0428_lopunny/lopunny_mega_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_easter.png"
     }
   ]
 }

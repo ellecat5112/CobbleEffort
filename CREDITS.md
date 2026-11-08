@@ -2,7 +2,8 @@
 
 ## Cobblemon assets (modified)
 
-Every texture under `src/main/resources/assets/cobbleeffort/textures/pokemon/` is an **adaptation** of a texture
+Every texture under `src/main/resources/assets/cobbleeffort/textures/pokemon/` (except the `compat/` folders
+described further down, and the Xurkitree addon textures, which are original) is an **adaptation** of a texture
 from [Cobblemon](https://gitlab.com/cable-mc/cobblemon) (tag `1.8.4`, `common/src/main/resources/assets/cobblemon/textures/pokemon/`),
 made by the Cobblemon team and contributors.
 
@@ -46,14 +47,49 @@ e.g. `assets/cobblemon/bedrock/pokemon/models/0082_magneton/license`):
 The adapted textures are shared under those same terms. **No commercial use.**
 
 The `docs/*_preview.png` images show Cobblemon models rendered with both the original and the adapted
-textures, and are covered by the same terms.
+textures, and are covered by the same terms. `docs/compat_forms_preview.png` also shows Mega Showdown's models and
+textures (CC BY-NC-SA 4.0) and the painted Baby Legends members (no Baby Legends texture is shown).
 
-## Other mods' models (addon lines)
+## Mega Showdown assets (modified): CC BY-NC-SA 4.0
 
-* **Xurkitree as Sasuke** is made for the Xurkitree model from **Cobblemon Ultra-Beasts** by BileulDevs
-  (<https://github.com/BileulDevs/cobblemon-ultra-beasts>). That model and its textures are **not** included in
-  CobbleEffort. Only its UV layout (cube positions, no art) is stored in `tools/addons/ultrabeasts_xurkitree_layout.json`
-  so an original texture can be painted to fit it. The cosmetic works only with Ultra-Beasts installed.
+Textures under `src/main/resources/assets/cobbleeffort/textures/pokemon/<aspect>/compat/mega_showdown/` are
+**adaptations** of textures from [Mega Showdown](https://github.com/yajatkaul/CobblemonMegaShowdown) by yajatkaul and
+contributors (version 1.3.3 for Cobblemon 1.8.4 / Minecraft 1.21.1). These are its mega, Gigantamax, Eternamax and
+mode forms, plus the Cobblemon textures it replaces. They were changed by the same collection styles as above.
+Mega Showdown's assets are licensed under the
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0** licence
+(<https://creativecommons.org/licenses/by-nc-sa/4.0/>), and these adapted textures are shared under that same
+licence. **No commercial use.**
+
+## Mega Showdown: Extra Megas assets (modified)
+
+Textures under `.../<aspect>/compat/msdextramegas/` are adaptations of textures from **MSD Extra Megas**
+(<https://modrinth.com/mod/msd-extra-megas>), released under the Unlicense. Changed by the collection styles as above.
+
+## Vendored Cobblemon models, posers and animations
+
+**Cobblemon: AllTheMons x Mega Showdown** replaces some of Cobblemon's models, posers and animations with its own.
+The cosmetic textures are painted for Cobblemon's models, so unmodified copies of Cobblemon's files for those
+Pokémon are included under `src/main/resources/assets/cobbleeffort/bedrock/pokemon/{models,posers,animations}/<aspect>/`.
+Animation groups are renamed `ce_<name>` because Cobblemon keys animation groups by file name. Some posers are JSON
+conversions of Cobblemon's Kotlin posers (`tools/kotlin_poser.py`). These copies are covered by Cobblemon's terms:
+CC BY-NC 3.0 for the models and animations, MPL-2.0 for the code the posers were converted from.
+
+## Other mods (referenced, never copied)
+
+* **Xurkitree as Sasuke** is made for the Xurkitree model shipped by **Cobblemon: AllTheMons x Mega Showdown**
+  (<https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown>) and by **Cobblemon Ultra-Beasts** by BileulDevs
+  (<https://github.com/BileulDevs/cobblemon-ultra-beasts>). Neither model nor any of their textures is included in
+  CobbleEffort. Only the UV layouts (cube positions, no art) are stored in `tools/addons/atm_xurkitree_layout.json` and
+  `tools/addons/ultrabeasts_xurkitree_layout.json`, so an original texture can be painted to fit either.
+* **Cobblemon Baby Legends** (All Rights Reserved): the cosmetic textures for **Xerfawn** and **Latot** are painted
+  from scratch (`tools/painter.py`) onto the UV layout of that mod's models, in colours taken from Cobblemon's Xerneas,
+  Latios and Latias textures (so they are Cobblemon adaptations, CC BY-NC 3.0). No Baby Legends texture is read or
+  included.
+* **Cobblemon: AllTheMons x Mega Showdown** (ALLTHEMONS LICENSE v3.2) and **Cobblemon Lost Lore** (Lvnatic's General
+  License 1.3): their forms are only referenced by id in "passthrough" resolver entries, so they show unchanged under
+  a cosmetic. None of their files is included or modified.
+* The generator reads these mods' jars locally at build time (`tools/compat/`, gitignored). They are never committed.
 
 ## Code and data
 

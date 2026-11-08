@@ -1,0 +1,22 @@
+{
+  "_comment": "The mod stack CobbleEffort is built to run alongside. The generator reads each source (a jar, or a directory of resources) from tools/compat/jars/ (gitignored: other mods' files are never committed). Mods are listed bottom to top: a later mod's files win over an earlier one's. 'derivatives' says whether the licence allows adapted textures: true -> their forms get our retextured cosmetic; false -> their art is never read or changed, their forms are passed through untouched (the cosmetic steps aside), and Cobblemon's models are vendored when they overwrite one the cosmetic uses.",
+  "mods": [
+    {"id": "mega_showdown", "name": "Mega Showdown", "source": "mega_showdown-*.jar", "licence": "CC BY-NC-SA 4.0",
+     "derivatives": true, "url": "https://github.com/yajatkaul/CobblemonMegaShowdown"},
+    {"id": "msdextramegas", "name": "Mega Showdown: Extra Megas", "source": "msdextramegas-*.jar", "licence": "Unlicense",
+     "derivatives": true, "url": "https://modrinth.com/mod/msd-extra-megas"},
+    {"id": "megashowdownores", "name": "Mega Showdown Ores", "source": "megashowdownores-*.jar", "licence": "CC0 1.0",
+     "derivatives": true, "url": "https://modrinth.com/mod/mega-showdown-ores"},
+    {"id": "baby_legends", "name": "Cobblemon Baby Legends", "source": "baby-legends-cobblemon-*.jar", "licence": "All Rights Reserved",
+     "derivatives": false, "url": "https://modrinth.com/mod/baby-legends-cobblemon"},
+    {"id": "atm_x_msd", "name": "Cobblemon: AllTheMons x Mega Showdown", "source": "ATM_x_MSD_*.jar", "licence": "ALLTHEMONS LICENSE v3.2",
+     "derivatives": false, "url": "https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown"},
+    {"id": "lost_lore", "name": "Cobblemon: Lost Lore", "source": "lost_lore*", "licence": "Lvnatic's General License 1.3",
+     "derivatives": false, "url": "https://github.com/Lvnatic-T/Lost-Lore"}
+  ],
+  "_painted_comment": "Family members modelled only by a mod whose art can't be adapted. The generator reads just the UV layout of their model (no texture pixels) and paints an original base in the evolved form's Cobblemon colours (palette_from: aspect -> species, '' = default), then applies the collection's style.",
+  "painted": {
+    "xerfawn": {"mod": "baby_legends", "palette_from": {"": "xerneas"}},
+    "latot": {"mod": "baby_legends", "palette_from": {"": "latios", "female": "latias"}}
+  }
+}

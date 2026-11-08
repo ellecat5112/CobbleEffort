@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:toxtricity_amped",
+      "model": "cobblemon:toxtricity_amped.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_shinobi.png",
       "layers": [
         {
@@ -56,6 +58,8 @@
         "low_key-form",
         "shinobi"
       ],
+      "poser": "cobblemon:toxtricity_lowkey",
+      "model": "cobblemon:toxtricity_lowkey.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_shinobi.png",
       "layers": [
         {
@@ -96,6 +100,41 @@
           },
           "emissive": true
         },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shinobi"
+      ],
+      "poser": "cobblemon:toxtricitygmax",
+      "model": "cobblemon:toxtricity_gigantamax.geo",
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_emissive_1_shinobi.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_shinobi.png",
+      "layers": [
         {
           "name": "cobbleeffort_eyeshine",
           "enabled": false

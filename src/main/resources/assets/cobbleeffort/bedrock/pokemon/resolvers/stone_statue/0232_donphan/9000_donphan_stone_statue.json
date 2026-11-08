@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:donphan",
+      "model": "cobblemon:donphan_male.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0232_donphan/donphan_stone_statue.png"
     },
     {
@@ -14,6 +16,13 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0232_donphan/donphan_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "stone_statue"
+      ],
+      "model": "cobblemon:donphan_female.geo"
     }
   ]
 }

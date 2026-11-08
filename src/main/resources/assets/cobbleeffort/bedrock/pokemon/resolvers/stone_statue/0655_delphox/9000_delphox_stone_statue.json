@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:delphox",
+      "model": "cobblemon:delphox.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0655_delphox/delphox_stone_statue.png",
       "layers": [
         {
@@ -20,6 +22,35 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0655_delphox/delphox_shiny_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "stone_statue"
+      ],
+      "poser": "cobblemon:delphoxmega",
+      "model": "cobblemon:delphoxmega.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0655_delphox/delphox_mega_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0655_delphox/delphox_mega_shiny_stone_statue.png",
       "layers": [
         {
           "name": "emissive",

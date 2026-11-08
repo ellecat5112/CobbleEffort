@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:copperajah",
+      "model": "cobblemon:copperajah.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shinobi.png",
       "layers": [
         {
@@ -28,6 +30,35 @@
           "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shiny_shinobi_eyeshine.png",
           "emissive": true,
           "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shinobi"
+      ],
+      "poser": "cobblemon:copperajahgmax",
+      "model": "cobblemon:gmax_copperajah.geo",
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0879_copperajah/gmax_copperajah_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0879_copperajah/gmax_copperajah_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
         }
       ]
     }

@@ -6,11 +6,22 @@ const fs = require('fs'), path = require('path');
 const [ref, mod, outDir, manifestFile = 'manifest_backrooms.json'] = process.argv.slice(2);
 const size = Number(process.env.SIZE || 320);  // render size in px
 const manifest = JSON.parse(fs.readFileSync(path.resolve(__dirname, manifestFile)));
-const texPath = (root, id) => { const [ns, p] = id.split(':'); return path.join(root, 'assets', ns, p); };
+// EXTRA_ROOTS (":"-separated resource roots, top-most first) are other mods' extracted jars, e.g. Mega Showdown for
+// its megas or Baby Legends for a painted member's model. Read for previews only, never shipped.
+const extraRoots = (process.env.EXTRA_ROOTS || '').split(':').filter(Boolean);
+const texPath = (root, id) => {
+  const [ns, p] = id.split(':');
+  for (const r of (root === ref ? [...extraRoots, ref] : [root])) {
+    const f = path.join(r, 'assets', ns, p);
+    if (fs.existsSync(f)) return f;
+  }
+  throw new Error('texture not found: ' + id);
+};
 const yaw = Number(process.env.YAW || 0);       // turn the model (degrees)
 // model folders: Cobblemon's, this mod's, plus EXTRA_MODEL_ROOTS (":"-separated) for other mods' models,
 // e.g. an addon line's model (read for previews only, never shipped)
-const cobblemonModels = [path.join(ref, 'assets/cobblemon/bedrock/pokemon/models'),
+const cobblemonModels = [...extraRoots.map(r => path.join(r, 'assets/cobblemon/bedrock/pokemon/models')),
+                         path.join(ref, 'assets/cobblemon/bedrock/pokemon/models'),
                          ...(process.env.EXTRA_MODEL_ROOTS || '').split(':').filter(Boolean)];
 const modModels = [path.join(mod, 'assets/cobbleeffort/bedrock/pokemon/models')];
 const findModel = (id) => {
@@ -38,7 +49,7 @@ const findModel = (id) => {
       const url = dataUrl(texPath(root, e[key]));
       const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
       const png = await page.evaluate(([g, u, ls, sz, yw]) => window.renderModel(g, u, sz, yw, ls), [geo, url, layers, size, yaw]);
-      fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
+      fs.writeFileSync(path.join(outDir, `${e.species}${e.form ? '_' + e.form : ''}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }
   await browser.close();

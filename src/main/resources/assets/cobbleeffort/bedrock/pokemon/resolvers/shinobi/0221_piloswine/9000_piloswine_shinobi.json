@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:piloswine",
+      "model": "cobblemon:piloswine_male.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0221_piloswine/piloswine_shinobi.png",
       "layers": [
         {
@@ -26,6 +28,13 @@
           "enabled": false
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shinobi"
+      ],
+      "model": "cobblemon:piloswine_female.geo"
     }
   ]
 }

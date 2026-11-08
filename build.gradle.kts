@@ -41,6 +41,8 @@ val jar by tasks.registering(Jar::class) {
     destinationDirectory.set(layout.buildDirectory.dir("tmp/jar"))
     from(processResources)
     from("LICENSE") { rename { "LICENSE_$modId" } }
+    // attribution and licences of the adapted art (Cobblemon CC BY-NC 3.0, Mega Showdown CC BY-NC-SA 4.0) travel with it
+    from("CREDITS.md") { rename { "CREDITS_$modId.md" } }
     manifest {
         attributes(
             "Specification-Title" to modName,
@@ -79,10 +81,30 @@ val validateData by tasks.registering {
             is Map<*, *> -> (t["frames"] as? List<*>)?.map { it.toString() } ?: emptyList()
             else -> emptyList()
         }
+        // vendored models / posers / animation groups (see Vendor in tools/generate.py), found by file name
+        val bedrock = resDir.resolve("assets/$modId/bedrock/pokemon")
+        fun namesIn(kind: String, suffix: String) = bedrock.resolve(kind).takeIf { it.isDirectory }?.walkTopDown()
+            ?.filter { it.isFile && it.name.endsWith(suffix) }?.map { it.name.removeSuffix(suffix) }?.toSet() ?: emptySet()
+        val models = namesIn("models", ".json")
+        val posers = namesIn("posers", ".json")
+        val groups = namesIn("animations", ".animation.json")
+        bedrock.resolve("posers").takeIf { it.isDirectory }?.walkTopDown()?.filter { it.isFile && it.extension == "json" }?.forEach { f ->
+            Regex("""bedrock\w*\(\s*'(ce_\w+)'""").findAll(f.readText()).forEach {
+                if (it.groupValues[1] !in groups) throw GradleException("${f.name} uses missing animation group ${it.groupValues[1]}")
+            }
+        }
+        var pinned = 0
         resolvers.walkTopDown().filter { it.isFile && it.extension == "json" }.forEach { f ->
             @Suppress("UNCHECKED_CAST")
             val json = slurper.parse(f) as Map<String, Any?>
             (json["variations"] as List<Map<String, Any?>>).forEach { v ->
+                (v["model"] as? String)?.split(":", limit = 2)?.let { (ns, name) ->
+                    if (ns == modId && name !in models) throw GradleException("${f.name} references missing model ${v["model"]}")
+                    pinned++
+                }
+                (v["poser"] as? String)?.split(":", limit = 2)?.let { (ns, name) ->
+                    if (ns == modId && name !in posers) throw GradleException("${f.name} references missing poser ${v["poser"]}")
+                }
                 val layers = (v["layers"] as? List<*>)?.mapNotNull { (it as? Map<*, *>)?.get("texture") } ?: emptyList()
                 (listOf(v["texture"]) + layers).flatMap(::texturesOf).forEach { tex ->
                     val (ns, path) = tex.split(":", limit = 2)
@@ -93,7 +115,8 @@ val validateData by tasks.registering {
                 }
             }
         }
-        println("validateData: $count JSON files OK, all $textures resolver texture references present.")
+        println("validateData: $count JSON files OK, all $textures resolver texture references present, $pinned model pins OK" +
+                " (${models.size} vendored models, ${posers.size} posers, ${groups.size} animation groups).")
     }
 }
 

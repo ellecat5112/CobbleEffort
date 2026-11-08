@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:corviknight",
+      "model": "cobblemon:corviknight.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0823_corviknight/corviknight_stone_statue.png"
     },
     {
@@ -14,6 +16,23 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0823_corviknight/corviknight_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "stone_statue"
+      ],
+      "poser": "cobblemon:corviknight_gmax",
+      "model": "cobblemon:gmax_corviknight.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0823_corviknight/corviknight_gmax_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gmax",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0823_corviknight/corviknight_gmax_shiny_stone_statue.png"
     }
   ]
 }

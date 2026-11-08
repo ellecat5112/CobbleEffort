@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobbleeffort:coalossal",
+      "model": "cobbleeffort:coalossal.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0839_coalossal/coalossal_stone_statue.png",
       "layers": [
         {
@@ -20,6 +22,23 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0839_coalossal/coalossal_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "stone_statue"
+      ],
+      "poser": "cobblemon:coalossalgmax",
+      "model": "cobblemon:gmax_coalossal.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0839_coalossal/gmax_coalossal_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_stone_statue.png"
     }
   ]
 }

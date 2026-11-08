@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:annihilape",
+      "model": "cobblemon:annihilape.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0979_annihilape/annihilape_christmas.png",
       "layers": [
         {
@@ -50,6 +52,68 @@
               "cobbleeffort:textures/pokemon/christmas/0979_annihilape/annihilape_shiny_christmas_lights_1.png",
               "cobbleeffort:textures/pokemon/christmas/0979_annihilape/annihilape_shiny_christmas_lights_2.png",
               "cobbleeffort:textures/pokemon/christmas/0979_annihilape/annihilape_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "christmas"
+      ],
+      "model": "cobblemon:annihilapemega.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_emissive_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_emissive_shiny_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_christmas_lights_3.png"
             ],
             "fps": 3,
             "loop": true

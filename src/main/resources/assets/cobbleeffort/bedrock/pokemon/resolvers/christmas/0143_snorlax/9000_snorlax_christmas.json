@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:snorlax",
+      "model": "cobblemon:snorlax.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0143_snorlax/snorlax_christmas.png"
     },
     {
@@ -14,6 +16,112 @@
         "christmas"
       ],
       "texture": "cobbleeffort:textures/pokemon/christmas/0143_snorlax/snorlax_shiny_christmas.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "christmas"
+      ],
+      "poser": "cobblemon:snorlaxgmax",
+      "model": "cobblemon:snorlax_gigantamax.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0143_snorlax/snorlax_gigantamax_christmas.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0143_snorlax/snorlax_gigantamax_shiny_christmas.png"
+    },
+    {
+      "aspects": [
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax.geo",
+      "poser": "cobblemon:snorlax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax.geo",
+      "poser": "cobblemon:snorlax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_shiny.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax_snowman_gigantamax.geo",
+      "poser": "cobblemon:snorlax_snowman_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-gmax",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax_snowman_gigantamax.geo",
+      "poser": "cobblemon:snorlax_snowman_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax_snowman_gigantamax.geo",
+      "poser": "cobblemon:snorlax_snowman_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-gmax",
+        "shiny",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:snorlax_snowman_gigantamax.geo",
+      "poser": "cobblemon:snorlax_snowman_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0143_snorlax/snorlax_snowman_gigantamax_emissive.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

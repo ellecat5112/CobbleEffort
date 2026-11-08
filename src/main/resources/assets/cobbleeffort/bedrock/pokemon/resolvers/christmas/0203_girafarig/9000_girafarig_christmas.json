@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:girafarig",
+      "model": "cobblemon:girafarig_male.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0203_girafarig/girafarig_christmas.png",
       "layers": [
         {
@@ -48,6 +50,13 @@
           "translucent": true
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "christmas"
+      ],
+      "model": "cobblemon:girafarig_female.geo"
     }
   ]
 }

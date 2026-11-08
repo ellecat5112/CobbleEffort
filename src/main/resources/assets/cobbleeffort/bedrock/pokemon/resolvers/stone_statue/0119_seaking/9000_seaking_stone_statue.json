@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:seaking",
+      "model": "cobblemon:seaking_male.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0119_seaking/seaking_stone_statue.png"
     },
     {
@@ -14,6 +16,13 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0119_seaking/seaking_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "stone_statue"
+      ],
+      "model": "cobblemon:seaking_female.geo"
     }
   ]
 }

@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:pyroar_male",
+      "model": "cobblemon:pyroar_male.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0668_pyroar/pyroar_male_christmas.png",
       "layers": [
         {
@@ -54,6 +56,8 @@
         "female",
         "christmas"
       ],
+      "poser": "cobblemon:pyroar_female",
+      "model": "cobblemon:pyroar_female.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0668_pyroar/pyroar_female_christmas.png",
       "layers": [
         {
@@ -89,6 +93,57 @@
               "cobbleeffort:textures/pokemon/christmas/0668_pyroar/pyroar_female_shiny_christmas_lights_1.png",
               "cobbleeffort:textures/pokemon/christmas/0668_pyroar/pyroar_female_shiny_christmas_lights_2.png",
               "cobbleeffort:textures/pokemon/christmas/0668_pyroar/pyroar_female_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "christmas"
+      ],
+      "poser": "cobblemon:pyroar_mega",
+      "model": "cobblemon:pyroar_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_shiny_christmas_lights_3.png"
             ],
             "fps": 3,
             "loop": true

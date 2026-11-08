@@ -6,6 +6,8 @@
       "aspects": [
         "easter"
       ],
+      "poser": "cobblemon:aerodactyl",
+      "model": "cobblemon:aerodactyl.geo",
       "texture": "cobbleeffort:textures/pokemon/easter/0142_aerodactyl/aerodactyl_easter.png"
     },
     {
@@ -14,6 +16,22 @@
         "easter"
       ],
       "texture": "cobbleeffort:textures/pokemon/easter/0142_aerodactyl/aerodactyl_shiny_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "easter"
+      ],
+      "model": "cobblemon:aerodactyl_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0142_aerodactyl/aerodactylmega_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0142_aerodactyl/aerodactylmega_shiny_easter.png"
     }
   ]
 }

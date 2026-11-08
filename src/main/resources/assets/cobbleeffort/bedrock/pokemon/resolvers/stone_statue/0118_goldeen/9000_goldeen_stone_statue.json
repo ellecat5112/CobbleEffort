@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:goldeen",
+      "model": "cobblemon:goldeen_male.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0118_goldeen/goldeen_stone_statue.png"
     },
     {
@@ -14,6 +16,13 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0118_goldeen/goldeen_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "stone_statue"
+      ],
+      "model": "cobblemon:goldeen_female.geo"
     }
   ]
 }

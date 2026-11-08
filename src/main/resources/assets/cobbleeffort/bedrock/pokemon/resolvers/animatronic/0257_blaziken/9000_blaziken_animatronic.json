@@ -6,6 +6,8 @@
       "aspects": [
         "animatronic"
       ],
+      "poser": "cobblemon:blaziken",
+      "model": "cobblemon:blaziken_male.geo",
       "texture": "cobbleeffort:textures/pokemon/animatronic/0257_blaziken/blaziken_animatronic.png",
       "layers": [
         {
@@ -28,6 +30,48 @@
           "texture": "cobbleeffort:textures/pokemon/animatronic/0257_blaziken/blaziken_shiny_animatronic_eyeshine.png",
           "emissive": true,
           "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "animatronic"
+      ],
+      "model": "cobblemon:blaziken_female.geo"
+    },
+    {
+      "aspects": [
+        "mega",
+        "animatronic"
+      ],
+      "poser": "cobblemon:blaziken_mega",
+      "model": "cobblemon:blaziken_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0257_blaziken/blaziken_mega_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0257_blaziken/blaziken_mega_emissive_animatronic.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0257_blaziken/blaziken_mega_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
         }
       ]
     }

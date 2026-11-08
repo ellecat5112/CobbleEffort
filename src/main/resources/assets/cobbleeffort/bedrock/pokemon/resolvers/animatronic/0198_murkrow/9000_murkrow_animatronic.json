@@ -6,6 +6,8 @@
       "aspects": [
         "animatronic"
       ],
+      "poser": "cobblemon:murkrow",
+      "model": "cobblemon:murkrow_male.geo",
       "texture": "cobbleeffort:textures/pokemon/animatronic/0198_murkrow/murkrow_animatronic.png",
       "layers": [
         {
@@ -15,6 +17,13 @@
           "translucent": true
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "animatronic"
+      ],
+      "model": "cobblemon:murkrow_female.geo"
     },
     {
       "aspects": [

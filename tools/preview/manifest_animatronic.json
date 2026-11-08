@@ -196,6 +196,22 @@
     ]
   },
   {
+    "species": "blaziken",
+    "folder": "0257_blaziken",
+    "model": "cobblemon:blaziken_mega.geo",
+    "original": "cobblemon:textures/pokemon/0257_blaziken/blaziken_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0257_blaziken/blaziken_mega_animatronic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0257_blaziken/blaziken_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0257_blaziken/blaziken_mega_emissive_animatronic.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "honchkrow",
     "folder": "0430_honchkrow",
     "model": "cobblemon:honchkrow.geo",
@@ -332,14 +348,18 @@
     "folder": "0531_audino",
     "model": "cobblemon:audino.geo",
     "original": "cobblemon:textures/pokemon/0531_audino/audino.png",
-    "retextured": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_animatronic.png",
-    "layers": [
-      {
-        "original": null,
-        "retextured": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_animatronic_eyeshine.png",
-        "emissive": true
-      }
-    ]
+    "retextured": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_animatronic.png",
+    "layers": []
+  },
+  {
+    "species": "audino",
+    "folder": "0531_audino",
+    "model": "cobblemon:audino_mega.geo",
+    "original": "cobblemon:textures/pokemon/0531_audino/audino_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_mega_animatronic.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "sandile",
@@ -538,6 +558,16 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "ursaluna",
+    "folder": "0901_ursaluna",
+    "model": "cobblemon:bloodmoonursaluna.geo",
+    "original": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon.png",
+    "retextured": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0901_ursaluna/ursaluna_bloodmoon_animatronic.png",
+    "layers": [],
+    "form": "bloodmoon",
+    "mod": "Mega Showdown"
   },
   {
     "species": "fidough",

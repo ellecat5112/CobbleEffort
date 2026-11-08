@@ -42,6 +42,27 @@
     ]
   },
   {
+    "species": "beedrill",
+    "folder": "0015_beedrill",
+    "model": "cobblemon:beedrillmega.geo",
+    "original": "cobblemon:textures/pokemon/0015_beedrill/beedrillmega.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0015_beedrill/beedrill_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrill_emissive_christmas.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0015_beedrill/beedrillmega_christmas_lights_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "mankey",
     "folder": "0056_mankey",
     "model": "cobblemon:mankey.geo",
@@ -106,6 +127,16 @@
     "layers": []
   },
   {
+    "species": "snorlax",
+    "folder": "0143_snorlax",
+    "model": "cobblemon:snorlax_gigantamax.geo",
+    "original": "cobblemon:textures/pokemon/0143_snorlax/snorlax_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0143_snorlax/snorlax_gigantamax_christmas.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "girafarig",
     "folder": "0203_girafarig",
     "model": "cobblemon:girafarig_male.geo",
@@ -165,6 +196,27 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "heracross",
+    "folder": "0214_heracross",
+    "model": "cobblemon:heracross_mega.geo",
+    "original": "cobblemon:textures/pokemon/0214_heracross/heracross_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0214_heracross/heracross_transparency_mega.png",
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_transparency_mega_christmas.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas_lights_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "makuhita",
@@ -235,6 +287,22 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "torterra",
+    "folder": "0389_torterra",
+    "model": "cobblemon:torterramega.geo",
+    "original": "cobblemon:textures/pokemon/0389_torterra/torterra_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0389_torterra/torterra_mega_christmas_lights_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
   },
   {
     "species": "spiritomb",
@@ -393,6 +461,16 @@
     "layers": []
   },
   {
+    "species": "garbodor",
+    "folder": "0569_garbodor",
+    "model": "cobblemon:gmax_garbodor.geo",
+    "original": "cobblemon:textures/pokemon/0569_garbodor/gmax_garbodor.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0569_garbodor/gmax_garbodor_christmas.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "larvesta",
     "folder": "0636_larvesta",
     "model": "cobblemon:larvesta.geo",
@@ -447,6 +525,22 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "pyroar",
+    "folder": "0668_pyroar",
+    "model": "cobblemon:pyroar_mega.geo",
+    "original": "cobblemon:textures/pokemon/0668_pyroar/pyroar_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0668_pyroar/pyroar_mega_christmas_lights_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "phantump",
@@ -565,6 +659,27 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "annihilape",
+    "folder": "0979_annihilape",
+    "model": "cobblemon:annihilapemega.geo",
+    "original": "cobblemon:textures/pokemon/0979_annihilape/annihilape_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0979_annihilape/annihilape_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_emissive_christmas.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/christmas/compat/msdextramegas/0979_annihilape/annihilape_mega_christmas_lights_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
   },
   {
     "species": "farigiraf",

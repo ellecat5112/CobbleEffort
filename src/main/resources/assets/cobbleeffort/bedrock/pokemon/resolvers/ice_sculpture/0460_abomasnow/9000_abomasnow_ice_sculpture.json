@@ -6,6 +6,8 @@
       "aspects": [
         "ice_sculpture"
       ],
+      "poser": "cobblemon:abomasnow",
+      "model": "cobblemon:abomasnow_male.geo",
       "texture": "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_ice_sculpture.png",
       "layers": [
         {
@@ -54,6 +56,8 @@
         "female",
         "ice_sculpture"
       ],
+      "poser": "cobblemon:abomasnow",
+      "model": "cobblemon:abomasnow_female.geo",
       "texture": "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_ice_sculpture.png",
       "layers": [
         {
@@ -89,6 +93,57 @@
               "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_shiny_ice_sculpture_glints_1.png",
               "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_shiny_ice_sculpture_glints_2.png",
               "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_shiny_ice_sculpture_glints_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "ice_sculpture"
+      ],
+      "poser": "cobblemon:abomasnow_mega",
+      "model": "cobblemon:abomasnow_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_ice_sculpture.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glints",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_ice_sculpture_glints_0.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_ice_sculpture_glints_1.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_ice_sculpture_glints_2.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_ice_sculpture_glints_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "ice_sculpture"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_shiny_ice_sculpture.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glints",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_shiny_ice_sculpture_glints_0.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_shiny_ice_sculpture_glints_1.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_shiny_ice_sculpture_glints_2.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/compat/mega_showdown/0460_abomasnow/abomasnow_mega_shiny_ice_sculpture_glints_3.png"
             ],
             "fps": 4,
             "loop": true

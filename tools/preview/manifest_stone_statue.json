@@ -24,6 +24,16 @@
     "layers": []
   },
   {
+    "species": "pidgeot",
+    "folder": "0018_pidgeot",
+    "model": "cobblemon:pidgeot_mega.geo",
+    "original": "cobblemon:textures/pokemon/0018_pidgeot/pidgeot_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0018_pidgeot/pidgeot_mega_stone_statue.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "goldeen",
     "folder": "0118_goldeen",
     "model": "cobblemon:goldeen_male.geo",
@@ -138,6 +148,16 @@
     "layers": []
   },
   {
+    "species": "aggron",
+    "folder": "0306_aggron",
+    "model": "cobblemon:aggron_mega.geo",
+    "original": "cobblemon:textures/pokemon/0306_aggron/aggron_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0306_aggron/aggron_mega_stone_statue.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "trapinch",
     "folder": "0328_trapinch",
     "model": "cobblemon:trapinch.geo",
@@ -236,6 +256,22 @@
     ]
   },
   {
+    "species": "delphox",
+    "folder": "0655_delphox",
+    "model": "cobblemon:delphoxmega.geo",
+    "original": "cobblemon:textures/pokemon/0655_delphox/delphox_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0655_delphox/delphox_mega_stone_statue.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/blank.png",
+        "retextured": null,
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "rowlet",
     "folder": "0722_rowlet",
     "model": "cobblemon:rowlet.geo",
@@ -284,6 +320,16 @@
     "layers": []
   },
   {
+    "species": "corviknight",
+    "folder": "0823_corviknight",
+    "model": "cobblemon:gmax_corviknight.geo",
+    "original": "cobblemon:textures/pokemon/0823_corviknight/corviknight_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0823_corviknight/corviknight_gmax_stone_statue.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "rolycoly",
     "folder": "0837_rolycoly",
     "model": "cobblemon:rolycoly.geo",
@@ -324,6 +370,16 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "coalossal",
+    "folder": "0839_coalossal",
+    "model": "cobblemon:gmax_coalossal.geo",
+    "original": "cobblemon:textures/pokemon/0839_coalossal/gmax_coalossal.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0839_coalossal/gmax_coalossal_stone_statue.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
   },
   {
     "species": "stonjourner",
@@ -397,5 +453,15 @@
     "original": "cobblemon:textures/pokemon/0952_scovillain/scovillain.png",
     "retextured": "cobbleeffort:textures/pokemon/stone_statue/0952_scovillain/scovillain_stone_statue.png",
     "layers": []
+  },
+  {
+    "species": "scovillain",
+    "folder": "0952_scovillain",
+    "model": "cobblemon:scovillain_mega.geo",
+    "original": "cobblemon:textures/pokemon/0952_scovillain/scovillain_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0952_scovillain/scovillain_mega_stone_statue.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   }
 ]

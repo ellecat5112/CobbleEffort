@@ -4,14 +4,19 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
 
+**Built for a mod stack (since v0.10.0).** CobbleEffort is made to run alongside Mega Showdown (+ Extra Megas,
+Ores), Cobblemon: AllTheMons x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments,
+the Fully Hisuian Starters resource pack and the Poke Costumes data pack. Megas, Gigantamax and other new forms keep
+the cosmetic, and other mods' model replacements don't break it. See [Compatibility](#compatibility).
+
 ## Collection #1: Backrooms (Still Lifes)
 
-18 evolutionary lines (**40 Pokémon**) re-imagined as **Still Lifes** from Kane Pixels' *Backrooms*. A Still Life is an imperfect
+18 evolutionary lines (**41 Pokémon**) re-imagined as **Still Lifes** from Kane Pixels' *Backrooms*. A Still Life is an imperfect
 copy of something real that the Backrooms rebuilt from memory. Here that means:
 
 * colour drained into a sallow **plaster / wet-clay** palette, lit by Level 0's mono-yellow fluorescent light
@@ -38,7 +43,7 @@ Shiny Pokémon get their own Still Life, built from the shiny texture so a faint
 | Fletchling | Fletchling → Fletchinder → Talonflame |
 | Swirlix | Swirlix → Slurpuff |
 | Amaura | Amaura → Aurorus |
-| Xerneas | Xerneas |
+| Xerneas | Xerfawn (Baby Legends), Xerneas |
 | Silicobra | Silicobra → Sandaconda |
 | Sizzlipede | Sizzlipede → Centiskorch |
 | Impidimp | Impidimp → Morgrem → Grimmsnarl |
@@ -46,7 +51,7 @@ Shiny Pokémon get their own Still Life, built from the shiny texture so a faint
 | Maschiff | Maschiff → Mabosstiff |
 
 The 18 lines were picked at random (`random.Random("kane-pixels-level-0").sample(...)`) and then expanded to
-their full evolutionary families from Cobblemon's species data. Torkoal and Xerneas have no evolutions.
+their full evolutionary families from Cobblemon's species data. Torkoal has no evolutions; Xerneas' line includes Baby Legends' Xerfawn.
 
 ### How to get one
 
@@ -202,7 +207,7 @@ Give a supported Pokémon a **Snowball** as its cosmetic item. With commands: `/
 
 ## Collection #5: Easter
 
-18 evolutionary lines (**38 Pokémon**). Two of them have their own costume:
+18 evolutionary lines (**40 Pokémon**). Two of them have their own costume:
 
 | Line | Look |
 |------|------|
@@ -214,7 +219,7 @@ zigzag ribbon like the decoration round an Easter egg and little spring daisies.
 candy sprinkles.
 
 Jigglypuff (incl. Igglybuff, Wigglytuff) · Diglett → Dugtrio · Aerodactyl · Chinchou → Lanturn ·
-Mareep → Flaaffy → Ampharos · Smeargle · Slakoth → Vigoroth → Slaking · Latias · Drifloon → Drifblim ·
+Mareep → Flaaffy → Ampharos · Smeargle · Slakoth → Vigoroth → Slaking · Latot (Baby Legends) → Latias / Latios · Drifloon → Drifblim ·
 Roggenrola → Boldore → Gigalith · Litten → Torracat → Incineroar · Cutiefly → Ribombee · Snom → Frosmoth ·
 Eternatus · Wattrel → Kilowattrel · Finizen → Palafin
 
@@ -337,7 +342,7 @@ Give a supported Pokémon **Stone, Smooth Stone or Chiseled Stone Bricks** as it
 | Line | Look | Shiny |
 |------|------|-------|
 | **Vulpix → Ninetales** (incl. Alolan) | **Kurama**, the Nine-Tails: orange fox fur, black eye markings and ear tips, red slit eyes, and an orange chakra glow flickering on every edge | **Kurama Link Mode**: gold with black seal lines |
-| **Xurkitree** ⚠️ *needs the Cobblemon Ultra-Beasts mod* | **Sasuke Uchiha**: spiky blue-black star "hair", glowing Sharingan eyes, the Uchiha crest on the back, navy sleeves and trousers with white shin wraps, a purple rope belt, and **Chidori** lightning crackling on both claws (glowing, animated) | Rinnegan purple, with purple-black lightning |
+| **Xurkitree** ⚠️ *needs AllTheMons x Mega Showdown (or Cobblemon Ultra-Beasts) for its model* | **Sasuke Uchiha**: spiky blue-black star "hair", glowing Sharingan eyes, the Uchiha crest on the back, navy sleeves and trousers with white shin wraps, a purple rope belt, and **Chidori** lightning crackling on both claws (glowing, animated) | Rinnegan purple, with purple-black lightning |
 
 The other 16 lines each get one look:
 
@@ -354,10 +359,10 @@ The other 16 lines each get one look:
 (each with its whole evolutionary line). Vulpix was chosen by request. The other 16 were picked with
 `generate.py pick --count 16 --seed naruto-shippuden`.
 
-**About Xurkitree:** Cobblemon 1.8.4 has no Xurkitree model, so the Sasuke look is made for the model from
-**Cobblemon Ultra-Beasts** (by BileulDevs). CobbleEffort doesn't include that model or any of that mod's art: the
-Sasuke texture is painted from scratch onto the model's UV layout, and the cosmetic switches on whenever
-Ultra-Beasts is installed too. Without Ultra-Beasts it does nothing.
+**About Xurkitree:** Cobblemon 1.8.4 has no Xurkitree model. **Cobblemon: AllTheMons x Mega Showdown** ships one,
+and so does **Cobblemon Ultra-Beasts** (by BileulDevs). ATM's is the same model with a few small glow bulbs added.
+CobbleEffort doesn't include either model or any of their art: the Sasuke texture is painted from scratch onto the
+union of both UV layouts, so it fits whichever one is installed. Without either mod it does nothing.
 
 ![Kurama and Sasuke](docs/naruto_kurama_sasuke.png)
 
@@ -367,6 +372,27 @@ Ultra-Beasts is installed too. Without Ultra-Beasts it does nothing.
 
 Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With commands: `/pokegive vulpix shinobi`,
 `/pokegive xurkitree shinobi shiny`. Pack makers can extend the item tag `#cobbleeffort:shinobi_cosmetics`.
+
+## Compatibility
+
+CobbleEffort is built to be used alongside this mod stack, and every update is generated against it:
+
+| Mod | What CobbleEffort does with it |
+|-----|--------------------------------|
+| **Mega Showdown** | Every mega, Gigantamax, Eternamax and mode form (e.g. Mega Charizard X/Y, Gmax Snorlax, Xerneas' active mode) of a Pokémon in a collection gets its own cosmetic texture, adapted from Mega Showdown's (CC BY-NC-SA 4.0). Where Mega Showdown replaces a Cobblemon model or texture (Audino, Latias, Xerneas…), the cosmetic follows its version |
+| **Mega Showdown: Extra Megas** | Its megas (Torterra, Luxray, Gogoat, Annihilape…) get cosmetic textures too |
+| **Mega Showdown Ores** | Nothing to change (no Pokémon visuals) |
+| **AllTheMons x Mega Showdown** | It replaces some Cobblemon models (Absol, Typhlosion, Rolycoly line, Bounsweet line, Frosmoth, Runerigus, Incineroar…). A cosmetic texture is painted for Cobblemon's model, so CobbleEffort ships Cobblemon's model, poser and animations for those Pokémon under its own name and the cosmetic uses them. ATM's own forms show unchanged under the cosmetic (its licence doesn't allow recoloured copies). Also provides Xurkitree's model for the Sasuke cosmetic |
+| **Cobblemon Baby Legends** | Its babies join their legendary's evolutionary line: Xerfawn (→ Xerneas) is in Backrooms, Latot (→ Latias / Latios) in Easter. Its art is All Rights Reserved, so their cosmetic textures are painted from scratch on the model's UV layout, in the evolved form's colours |
+| **Cobblemon Lost Lore** | Its forms on collection Pokémon (snowman Snorlax/Munchlax, crystal Onix/Steelix, clone Charmander/Squirtle lines, coloured Kecleon) show unchanged under the cosmetic, since its licence doesn't allow modified copies |
+| **Legendary Monuments**, **Fully Hisuian Starters**, **Poke Costumes** | No conflicts known. Not yet checked against their files |
+
+How it works: every cosmetic variation pins the model and poser it was painted for, so another mod replacing the
+base model at a lower resolver order can't put the cosmetic texture on the wrong model. Forms added by mods whose
+licence doesn't allow adapted art get a "passthrough" copy that restores exactly what the game shows without the
+cosmetic. The cosmetic steps aside in that form rather than looking broken.
+
+![Mega Showdown forms and Baby Legends babies, original vs. cosmetic](docs/compat_forms_preview.png)
 
 ## Requirements & versions
 
@@ -388,7 +414,8 @@ Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With command
 ./gradlew build        # -> build/libs/cobbleeffort-<version>+1.21.1.zip  (contains the .jar; also runs validateData)
 ```
 
-`validateData` checks that every JSON file parses and every texture a resolver points to exists.
+`validateData` checks that every JSON file parses, that every texture a resolver points to exists, and that every
+pinned `cobbleeffort:` model, poser and animation group exists.
 
 ### Regenerating / adding collections
 
@@ -398,6 +425,10 @@ Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic
 its own layers on top of the body, such as Christmas's glowing, twinkling fairy lights. A style that sets
 `WANTS_HINTS` is told where the model's head front/top and torso front faces are in the texture (read from the
 `.geo.json`). FNAF uses this to put Freddy's hat on top of his head and Chica's bib on her chest. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
+
+The generator reads the mod stack from `tools/compat/mods.json`. Put each mod's jar (or a directory of its
+resources) in `tools/compat/jars/`, which is gitignored: other mods' files are never committed. Pass `--no-compat`
+to build against Cobblemon alone.
 
 ```
 pip install pillow
@@ -435,6 +466,9 @@ These hold for every collection, now and in future:
 3. **No overlap.** A species belongs to at most one collection, and each collection has its own cosmetic item.
    The generator refuses to build otherwise.
 4. **Releases are zips.** `./gradlew build` puts the jar inside `build/libs/<name>.zip`.
+5. **Built for the mod stack.** Families include other mods' pre-evolutions and evolutions. Other mods' forms are
+   retextured where their licence allows, and passed through otherwise. Models are pinned (and vendored when a mod
+   overwrites one). See [Compatibility](#compatibility).
 
 ## How it works (for future collections)
 

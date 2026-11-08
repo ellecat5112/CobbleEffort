@@ -6,6 +6,8 @@
       "aspects": [
         "halloween"
       ],
+      "poser": "cobbleeffort:absol",
+      "model": "cobbleeffort:absol.geo",
       "texture": {
         "frames": [
           "cobbleeffort:textures/pokemon/halloween/0359_absol/absol_halloween_0.png",
@@ -28,6 +30,76 @@
           "cobbleeffort:textures/pokemon/halloween/0359_absol/absol_shiny_halloween_1.png",
           "cobbleeffort:textures/pokemon/halloween/0359_absol/absol_shiny_halloween_2.png",
           "cobbleeffort:textures/pokemon/halloween/0359_absol/absol_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "mega",
+        "halloween"
+      ],
+      "poser": "cobblemon:absol_mega",
+      "model": "cobblemon:absol_mega.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "halloween"
+      ],
+      "poser": "cobblemon:absol_mega_z",
+      "model": "cobblemon:absol_mega_z.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_shiny_halloween_3.png"
         ],
         "fps": 5,
         "loop": true

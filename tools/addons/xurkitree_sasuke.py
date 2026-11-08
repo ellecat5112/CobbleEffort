@@ -1,10 +1,11 @@
 """
 Addon line: Xurkitree as Sasuke Uchiha (Naruto collection).
 
-Cobblemon 1.8.4 has no Xurkitree model; the Cobblemon Ultra-Beasts mod provides one. This builder paints an
-ORIGINAL texture onto that model's UV layout (tools/addons/ultrabeasts_xurkitree_layout.json, extracted with
-extract_layout.py; no pixels of the other mod's textures are used). The resolver only swaps the texture and layers,
-so the cosmetic works whenever Ultra-Beasts is installed alongside CobbleEffort, and does nothing otherwise.
+Cobblemon 1.8.4 has no Xurkitree model. Cobblemon: AllTheMons x Mega Showdown ships one (cobblemon:xurkitree.geo),
+and so does Cobblemon Ultra-Beasts; ATM's is Ultra-Beasts' model plus small glow bulbs, on the same UV map. This
+builder paints an ORIGINAL texture onto the union of both UV layouts (tools/addons/atm_xurkitree_layout.json and
+ultrabeasts_xurkitree_layout.json, extracted with extract_layout.py; no pixels of either mod's textures are used), so
+it fits whichever of the two is installed. The resolver only swaps the texture and layers.
 
 Design:
 * head ball: the face on the front plate, pale, with glowing Sharingan eyes (red, black pupil, tomoe);
@@ -23,7 +24,7 @@ from pathlib import Path
 
 from PIL import Image
 
-LAYOUT = Path(__file__).resolve().parent / "ultrabeasts_xurkitree_layout.json"
+LAYOUTS = [Path(__file__).resolve().parent / n for n in ("atm_xurkitree_layout.json", "ultrabeasts_xurkitree_layout.json")]
 SPECIES = "xurkitree"
 FOLDER = "addon_xurkitree"
 
@@ -46,6 +47,8 @@ def faces(c):
 
 def kind(c):
     a, bone = c["ancestry"], c["bone"]
+    if bone.startswith("glow_"):
+        return "hand"        # ATM's little glow bulbs crackle with Chidori too
     if "realhead" in a:
         return "head"
     if any(x.endswith("_hand") or "finger" in x or x == "tip_plug" for x in a):
@@ -63,8 +66,22 @@ def kind(c):
     return "arm"
 
 
+def load_layout():
+    """The union of the layouts: every cube of either model, once."""
+    layouts = [json.loads(p.read_text()) for p in LAYOUTS]
+    assert len({(l["texture_width"], l["texture_height"]) for l in layouts}) == 1
+    cubes, seen = [], set()
+    for l in layouts:
+        for c in l["cubes"]:
+            key = (tuple(c["uv"]), tuple(c["size"]), tuple(c["origin"]))
+            if key not in seen:
+                seen.add(key)
+                cubes.append(c)
+    return {"texture_width": layouts[0]["texture_width"], "texture_height": layouts[0]["texture_height"], "cubes": cubes}
+
+
 def paint(shiny: bool, out_root: Path, aspect: str, mod_id: str):
-    lay = json.loads(LAYOUT.read_text())
+    lay = load_layout()
     W, H = lay["texture_width"], lay["texture_height"]
     P = PALETTES[shiny]
     rng = random.Random(f"{mod_id}:{aspect}:{SPECIES}:{shiny}")
@@ -184,5 +201,5 @@ def build(out_tex_root: Path, aspect: str, mod_id: str):
     entry = {"species": SPECIES, "folder": FOLDER, "model": "cobblemon:xurkitree.geo", "original": None,
              "retextured": tex("xurkitree_sasuke"),
              "layers": [{"original": None, "retextured": variations[0]["layers"][1]["texture"]["frames"][0], "emissive": True}],
-             "addon": "Cobblemon Ultra-Beasts"}
+             "addon": "Cobblemon: AllTheMons x Mega Showdown / Cobblemon Ultra-Beasts"}
     return variations, entry

@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:heracross",
+      "model": "cobblemon:heracross_male.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_christmas.png",
       "layers": [
         {
@@ -45,6 +47,69 @@
               "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_1.png",
               "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_2.png",
               "cobbleeffort:textures/pokemon/christmas/0214_heracross/heracross_shiny_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "christmas"
+      ],
+      "model": "cobblemon:heracross_female.geo"
+    },
+    {
+      "aspects": [
+        "mega",
+        "christmas"
+      ],
+      "model": "cobblemon:heracross_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": false,
+          "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_transparency_mega_christmas.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_christmas_lights_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "christmas"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_shiny_christmas.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_lights",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_shiny_christmas_lights_0.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_shiny_christmas_lights_1.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_shiny_christmas_lights_2.png",
+              "cobbleeffort:textures/pokemon/christmas/compat/mega_showdown/0214_heracross/heracross_mega_shiny_christmas_lights_3.png"
             ],
             "fps": 3,
             "loop": true

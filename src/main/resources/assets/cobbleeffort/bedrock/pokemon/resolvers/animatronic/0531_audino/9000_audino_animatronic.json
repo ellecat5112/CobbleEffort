@@ -6,13 +6,13 @@
       "aspects": [
         "animatronic"
       ],
-      "texture": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_animatronic.png",
+      "poser": "cobblemon:audino",
+      "model": "cobblemon:audino.geo",
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_animatronic.png",
       "layers": [
         {
           "name": "cobbleeffort_eyeshine",
-          "texture": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_animatronic_eyeshine.png",
-          "emissive": true,
-          "translucent": true
+          "enabled": false
         }
       ]
     },
@@ -21,13 +21,40 @@
         "shiny",
         "animatronic"
       ],
-      "texture": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_shiny_animatronic.png",
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_shiny_animatronic.png",
       "layers": [
         {
           "name": "cobbleeffort_eyeshine",
-          "texture": "cobbleeffort:textures/pokemon/animatronic/0531_audino/audino_shiny_animatronic_eyeshine.png",
-          "emissive": true,
-          "translucent": true
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "animatronic"
+      ],
+      "poser": "cobblemon:audino_mega",
+      "model": "cobblemon:audino_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_mega_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0531_audino/audino_mega_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
         }
       ]
     }

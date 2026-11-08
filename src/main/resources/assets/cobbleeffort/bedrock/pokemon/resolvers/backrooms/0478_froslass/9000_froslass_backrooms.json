@@ -6,6 +6,8 @@
       "aspects": [
         "backrooms"
       ],
+      "poser": "cobblemon:froslass",
+      "model": "cobblemon:froslass.geo",
       "texture": "cobbleeffort:textures/pokemon/backrooms/0478_froslass/froslass_backrooms.png"
     },
     {
@@ -14,6 +16,23 @@
         "backrooms"
       ],
       "texture": "cobbleeffort:textures/pokemon/backrooms/0478_froslass/froslass_shiny_backrooms.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "backrooms"
+      ],
+      "poser": "cobblemon:froslass_mega",
+      "model": "cobblemon:froslass_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0478_froslass/froslass_mega_backrooms.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "backrooms"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/backrooms/compat/mega_showdown/0478_froslass/froslass_mega_shiny_backrooms.png"
     }
   ]
 }

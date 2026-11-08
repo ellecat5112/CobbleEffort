@@ -6,6 +6,8 @@
       "aspects": [
         "halloween"
       ],
+      "poser": "cobblemon:charmander",
+      "model": "cobblemon:charmander.geo",
       "texture": {
         "frames": [
           "cobbleeffort:textures/pokemon/halloween/0004_charmander/charmander_halloween_0.png",
@@ -58,6 +60,59 @@
               "cobbleeffort:textures/pokemon/halloween/0004_charmander/charmander_shiny_flame2_halloween.png",
               "cobbleeffort:textures/pokemon/halloween/0004_charmander/charmander_shiny_flame3_halloween.png",
               "cobbleeffort:textures/pokemon/halloween/0004_charmander/charmander_shiny_flame4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "halloween"
+      ],
+      "model": "cobblemon:charmander.geo",
+      "poser": "cobblemon:charmander",
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame1.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame2.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame3.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charmander.geo",
+      "poser": "cobblemon:charmander",
+      "texture": "cobblemon:textures/pokemon/0004_charmander/charmander_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame1.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame2.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame3.png",
+              "cobblemon:textures/pokemon/0004_charmander/charmander_shiny_flame4.png"
             ],
             "fps": 10,
             "loop": true

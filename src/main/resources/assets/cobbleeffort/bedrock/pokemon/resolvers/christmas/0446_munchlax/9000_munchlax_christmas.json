@@ -6,6 +6,8 @@
       "aspects": [
         "christmas"
       ],
+      "poser": "cobblemon:munchlax",
+      "model": "cobblemon:munchlax.geo",
       "texture": "cobbleeffort:textures/pokemon/christmas/0446_munchlax/munchlax_christmas.png"
     },
     {
@@ -14,6 +16,25 @@
         "christmas"
       ],
       "texture": "cobbleeffort:textures/pokemon/christmas/0446_munchlax/munchlax_shiny_christmas.png"
+    },
+    {
+      "aspects": [
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:munchlax.geo",
+      "poser": "cobblemon:munchlax",
+      "texture": "cobblemon:textures/pokemon/0446_munchlax/munchlax_snowman.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snowman",
+        "christmas"
+      ],
+      "model": "cobblemon:munchlax.geo",
+      "poser": "cobblemon:munchlax",
+      "texture": "cobblemon:textures/pokemon/0446_munchlax/munchlax_snowman_shiny.png"
     }
   ]
 }

@@ -24,12 +24,54 @@
     "layers": []
   },
   {
+    "species": "blastoise",
+    "folder": "0009_blastoise",
+    "model": "cobblemon:blastoise_mega.geo",
+    "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_thanksgiving.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_emissive_thanksgiving.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "blastoise",
+    "folder": "0009_blastoise",
+    "model": "cobblemon:gmaxblastoise.geo",
+    "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_thanksgiving.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_emissive_thanksgiving.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "meowth",
     "folder": "0052_meowth",
     "model": "cobblemon:meowth.geo",
     "original": "cobblemon:textures/pokemon/0052_meowth/meowth.png",
     "retextured": "cobbleeffort:textures/pokemon/thanksgiving/0052_meowth/meowth_thanksgiving.png",
     "layers": []
+  },
+  {
+    "species": "meowth",
+    "folder": "0052_meowth",
+    "model": "cobblemon:meowth_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0052_meowth/meowth_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0052_meowth/meowth_gmax_thanksgiving.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
   },
   {
     "species": "persian",
@@ -102,6 +144,16 @@
     "original": "cobblemon:textures/pokemon/0373_salamence/salamence.png",
     "retextured": "cobbleeffort:textures/pokemon/thanksgiving/0373_salamence/salamence_thanksgiving.png",
     "layers": []
+  },
+  {
+    "species": "salamence",
+    "folder": "0373_salamence",
+    "model": "cobblemon:salamencemega.geo",
+    "original": "cobblemon:textures/pokemon/0373_salamence/salamence_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0373_salamence/salamence_mega_thanksgiving.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "croagunk",

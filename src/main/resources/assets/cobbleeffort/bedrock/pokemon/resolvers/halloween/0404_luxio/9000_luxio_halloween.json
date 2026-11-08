@@ -6,6 +6,8 @@
       "aspects": [
         "halloween"
       ],
+      "poser": "cobblemon:luxio",
+      "model": "cobblemon:luxio_male.geo",
       "texture": {
         "frames": [
           "cobbleeffort:textures/pokemon/halloween/0404_luxio/luxio_halloween_0.png",
@@ -66,6 +68,13 @@
           "translucent": false
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "halloween"
+      ],
+      "model": "cobblemon:luxio_female.geo"
     }
   ]
 }

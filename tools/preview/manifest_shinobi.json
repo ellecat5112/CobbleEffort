@@ -191,6 +191,22 @@
     "layers": []
   },
   {
+    "species": "steelix",
+    "folder": "0208_steelix",
+    "model": "cobblemon:steelix_mega.geo",
+    "original": "cobblemon:textures/pokemon/0208_steelix/steelix_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0208_steelix/steelix_mega_shinobi.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0208_steelix/steelix_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0208_steelix/steelix_mega_emissive_shinobi.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "swinub",
     "folder": "0220_swinub",
     "model": "cobblemon:swinub.geo",
@@ -321,6 +337,22 @@
     ]
   },
   {
+    "species": "toxtricity",
+    "folder": "0849_toxtricity",
+    "model": "cobblemon:toxtricity_gigantamax.geo",
+    "original": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shinobi.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0849_toxtricity/toxtricity_gigantamax_emissive_1.png",
+        "retextured": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_emissive_1_shinobi.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "cufant",
     "folder": "0878_cufant",
     "model": "cobblemon:cufant.geo",
@@ -347,6 +379,16 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "copperajah",
+    "folder": "0879_copperajah",
+    "model": "cobblemon:gmax_copperajah.geo",
+    "original": "cobblemon:textures/pokemon/0879_copperajah/gmax_copperajah.png",
+    "retextured": "cobbleeffort:textures/pokemon/shinobi/compat/mega_showdown/0879_copperajah/gmax_copperajah_shinobi.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
   },
   {
     "species": "rellor",
@@ -455,6 +497,6 @@
         "emissive": true
       }
     ],
-    "addon": "Cobblemon Ultra-Beasts"
+    "addon": "Cobblemon: AllTheMons x Mega Showdown / Cobblemon Ultra-Beasts"
   }
 ]

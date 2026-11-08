@@ -42,6 +42,59 @@
     ]
   },
   {
+    "species": "charizard",
+    "folder": "0006_charizard",
+    "model": "cobblemon:charizard_mega_y.geo",
+    "original": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_y.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_halloween_0.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0006_charizard/y_eyes_glow.png",
+        "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_halloween_0.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+        "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow_halloween.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_y",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "charizard",
+    "folder": "0006_charizard",
+    "model": "cobblemon:charizard_mega_x.geo",
+    "original": "cobblemon:textures/pokemon/0006_charizard/megacharizardx.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_halloween_0.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0006_charizard/x_glow.png",
+        "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/x_glow_halloween.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_x",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "charizard",
+    "folder": "0006_charizard",
+    "model": "cobblemon:charizard_gigantamax.geo",
+    "original": "cobblemon:textures/pokemon/0006_charizard/charizard_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_halloween_0.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+        "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/gmaxflames/flames_1_halloween.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "koffing",
     "folder": "0109_koffing",
     "model": "cobblemon:koffing.geo",
@@ -96,6 +149,26 @@
     "layers": []
   },
   {
+    "species": "absol",
+    "folder": "0359_absol",
+    "model": "cobblemon:absol_mega.geo",
+    "original": "cobblemon:textures/pokemon/0359_absol/absol_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_halloween_0.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "absol",
+    "folder": "0359_absol",
+    "model": "cobblemon:absol_mega_z.geo",
+    "original": "cobblemon:textures/pokemon/0359_absol/absol_mega_z.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0359_absol/absol_mega_z_halloween_0.png",
+    "layers": [],
+    "form": "mega_z",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "shinx",
     "folder": "0403_shinx",
     "model": "cobblemon:shinx_male.geo",
@@ -136,6 +209,22 @@
         "emissive": true
       }
     ]
+  },
+  {
+    "species": "luxray",
+    "folder": "0405_luxray",
+    "model": "cobblemon:luxraymega.geo",
+    "original": "cobblemon:textures/pokemon/0405_luxray/luxray_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_halloween_0.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0405_luxray/luxray_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/halloween/compat/msdextramegas/0405_luxray/luxray_mega_emissive_halloween_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
   },
   {
     "species": "mismagius",

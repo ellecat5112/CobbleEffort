@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:latios",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "easter"
+      ],
+      "poser": "cobblemon:latios",
+      "model": "cobblemon:latios2.geo",
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/latios_easter.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/latios_shiny_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "easter"
+      ],
+      "poser": "cobblemon:mega_latios",
+      "model": "cobblemon:mega_latios.geo",
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/megalatios_easter.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/megalatios_shiny_easter.png"
+    }
+  ]
+}

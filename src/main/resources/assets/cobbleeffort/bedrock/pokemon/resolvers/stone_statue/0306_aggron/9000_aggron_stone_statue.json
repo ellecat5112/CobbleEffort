@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:aggron",
+      "model": "cobblemon:aggron.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0306_aggron/aggron_stone_statue.png"
     },
     {
@@ -14,6 +16,22 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0306_aggron/aggron_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "stone_statue"
+      ],
+      "model": "cobblemon:aggron_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0306_aggron/aggron_mega_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0306_aggron/aggron_mega_shiny_stone_statue.png"
     }
   ]
 }

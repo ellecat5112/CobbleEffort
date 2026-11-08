@@ -6,6 +6,8 @@
       "aspects": [
         "easter"
       ],
+      "poser": "cobblemon:ampharos",
+      "model": "cobblemon:ampharos.geo",
       "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_easter.png",
       "layers": [
         {
@@ -27,6 +29,38 @@
           "name": "emissive",
           "emissive": true,
           "texture": "cobbleeffort:textures/pokemon/easter/0181_ampharos/ampharos_shiny_emissive_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "easter"
+      ],
+      "model": "cobblemon:ampharos_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_mega_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_emissive_mega_easter.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "easter"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_easter.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_shiny_emissive_mega_easter.png",
+          "emissive": true,
           "translucent": true
         }
       ]

@@ -6,6 +6,8 @@
       "aspects": [
         "stone_statue"
       ],
+      "poser": "cobblemon:scovillain",
+      "model": "cobblemon:scovillain.geo",
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0952_scovillain/scovillain_stone_statue.png"
     },
     {
@@ -14,6 +16,23 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0952_scovillain/scovillain_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "stone_statue"
+      ],
+      "poser": "cobblemon:scovillain_mega",
+      "model": "cobblemon:scovillain_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0952_scovillain/scovillain_mega_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/compat/mega_showdown/0952_scovillain/scovillain_mega_shiny_stone_statue.png"
     }
   ]
 }

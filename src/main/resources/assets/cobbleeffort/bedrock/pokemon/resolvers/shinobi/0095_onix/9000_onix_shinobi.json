@@ -6,6 +6,8 @@
       "aspects": [
         "shinobi"
       ],
+      "poser": "cobblemon:onix",
+      "model": "cobblemon:onix.geo",
       "texture": "cobbleeffort:textures/pokemon/shinobi/0095_onix/onix_shinobi.png",
       "layers": [
         {
@@ -21,6 +23,97 @@
       ],
       "texture": "cobbleeffort:textures/pokemon/shinobi/0095_onix/onix_shiny_shinobi.png",
       "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shinobi"
+      ],
+      "model": "cobblemon:onix.geo",
+      "poser": "cobblemon:onix",
+      "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:onix.geo",
+      "poser": "cobblemon:onix",
+      "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_translucent_shiny.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shinier",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:onix.geo",
+      "poser": "cobblemon:onix",
+      "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_shinier_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crystal",
+        "shiniest",
+        "shiny",
+        "shinobi"
+      ],
+      "model": "cobblemon:onix.geo",
+      "poser": "cobblemon:onix",
+      "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_shiniest.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_shiniest_translucent.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0095_onix/onix_crystal_shiniest_emissive.png",
+          "translucent": true,
+          "emissive": true
+        },
         {
           "name": "cobbleeffort_eyeshine",
           "enabled": false

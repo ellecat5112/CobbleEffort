@@ -6,6 +6,8 @@
       "aspects": [
         "easter"
       ],
+      "poser": "cobbleeffort:incineroar",
+      "model": "cobbleeffort:incineroar.geo",
       "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_easter.png",
       "layers": [
         {
@@ -27,6 +29,811 @@
           "name": "emissive",
           "emissive": true,
           "texture": "cobbleeffort:textures/pokemon/easter/0727_incineroar/incineroar_emissive_shiny_easter.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "champion-costume",
+        "easter"
+      ],
+      "model": "cobblemon:champion_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/champion_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/champion_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "royal_mask-costume",
+        "easter"
+      ],
+      "model": "cobblemon:royal_mask_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/royal_mask_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer-costume",
+        "easter"
+      ],
+      "model": "cobblemon:summer_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/summer_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dancer-costume",
+        "easter"
+      ],
+      "model": "cobblemon:zootopia_dancer_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/zootopia_dancer_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "1pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "trans_pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar_trans.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_trans.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ace_pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar_ace.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_ace.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bi_pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_bi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pan_pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_pan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tekken-costume",
+        "easter"
+      ],
+      "model": "cobblemon:tekken_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/tekken_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "team_skull-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_skull_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_skull_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/team_skull_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "astronaut-costume",
+        "easter"
+      ],
+      "model": "cobblemon:astronaut_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/astronaut_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "band-costume",
+        "easter"
+      ],
+      "model": "cobblemon:band_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/band_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bionicle-costume",
+        "easter"
+      ],
+      "model": "cobblemon:bionicle_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/bionicle_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/bionicle_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cafe-costume",
+        "easter"
+      ],
+      "model": "cobblemon:cafe_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/cafe_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "detective-costume",
+        "easter"
+      ],
+      "model": "cobblemon:detective_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/detective_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/detective_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "el_brave-costume",
+        "easter"
+      ],
+      "model": "cobblemon:el_brave_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/el_brave_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/el_brave_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rival-costume",
+        "easter"
+      ],
+      "model": "cobblemon:rivals_of_aether_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/rivals_of_aether_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "santa-costume",
+        "easter"
+      ],
+      "model": "cobblemon:santa_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/santa_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "team_rocket-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_rocket_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_rocket_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "team_rainbow_anime-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_rocket_anime_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_rocket_anime_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "team_magma-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_magma_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_magma_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "team_magma_oras-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_oras_magma_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_oras_magma_incineroar.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "champion-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:champion_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/champion_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/champion_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "royal_mask-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:royal_mask_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/royal_mask_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "summer-costume",
+        "easter"
+      ],
+      "model": "cobblemon:summer_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/summer_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dancer-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:zootopia_dancer_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/zootopia_dancer_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "1pride-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "trans_pride-costume",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar_trans.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_trans_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ace_pride-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar_ace.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_ace_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bi_pride-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_bi_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pan_pride-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:pride_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/pride_incineroar_pan_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tekken-costume",
+        "easter"
+      ],
+      "model": "cobblemon:tekken_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/tekken_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "team_skull-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_skull_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_skull_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/team_skull_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "astronaut-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:astronaut_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/astronaut_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "band-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:band_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/band_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bionicle-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:bionicle_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/bionicle_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/bionicle_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cafe-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:cafe_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/cafe_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/main_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "detective-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:detective_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/detective_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/detective_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "el_brave-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:el_brave_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/el_brave_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0727_incineroar/el_brave_incineroar_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rival-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:rivals_of_aether_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/rivals_of_aether_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "santa-costume",
+        "shiny",
+        "easter"
+      ],
+      "model": "cobblemon:santa_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/santa_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "team_rocket-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_rocket_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_rocket_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "team_rainbow_anime-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_rocket_anime_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_rocket_anime_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "team_magma-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_magma_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_magma_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "team_magma_oras-costume",
+        "easter"
+      ],
+      "model": "cobblemon:team_oras_magma_incineroar.geo",
+      "poser": "cobblemon:incineroar",
+      "texture": "cobblemon:textures/pokemon/0727_incineroar/team_oras_magma_incineroar_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/blank.png",
           "translucent": true
         }
       ]

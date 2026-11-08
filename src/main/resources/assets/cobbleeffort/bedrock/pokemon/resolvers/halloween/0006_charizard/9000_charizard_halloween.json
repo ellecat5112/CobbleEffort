@@ -6,6 +6,8 @@
       "aspects": [
         "halloween"
       ],
+      "poser": "cobblemon:charizard",
+      "model": "cobblemon:charizard.geo",
       "texture": {
         "frames": [
           "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_halloween_0.png",
@@ -64,6 +66,655 @@
           },
           "emissive": true,
           "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "halloween"
+      ],
+      "poser": "cobblemon:charizard_mega_y",
+      "model": "cobblemon:charizard_mega_y.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_mega_y_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_shiny_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_shiny_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_shiny_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_eyes_glow_shiny_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/y_glow4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_x.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/x_glow_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/x_glow2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/x_glow3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/x_glow4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/megacharizardx_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "gmax",
+        "halloween"
+      ],
+      "poser": "cobblemon:charizard_gigantamax",
+      "model": "cobblemon:charizard_gigantamax.geo",
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/gmaxflames/flames_1_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/gmaxflames/flames_2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/gmaxflames/flames_3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/gmaxflames/flames_4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/compat/mega_showdown/0006_charizard/charizard_gigantamax_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "clone",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame1.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame2.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame3.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame1.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame2.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame3.png",
+              "cobblemon:textures/pokemon/0006_charizard/charizard_flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega_x",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_x.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_x_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/x_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega_y",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_y_clone.geo",
+      "poser": "cobblemon:charizard_mega_y",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_y_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/y_eyes_glow.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_clone_gmax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone_gmax.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_clone_gmax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone_gmax.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega_x",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_x.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_x_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/x_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega_y",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_y_clone.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_y_clone.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/y_eyes_glow.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega_x",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_x.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_x_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/x_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega_y",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_y_clone.geo",
+      "poser": "cobblemon:charizard_mega_y",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_y_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/y_eyes_glow_shiny.png",
+          "emissive": true,
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_clone_gmax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_clone_gmax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega_x",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_x.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_x_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/x_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/x_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega_y",
+        "shiny",
+        "halloween"
+      ],
+      "model": "cobblemon:charizard_mega_y_clone.geo",
+      "poser": "cobblemon:charizard",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_mega_y_clone_shiny.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/y_glow.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow2.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow3.png",
+              "cobblemon:textures/pokemon/0006_charizard/y_glow4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "eyes",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/y_eyes_glow_shiny.png",
+          "emissive": true,
+          "translucent": false
         }
       ]
     }

@@ -6,6 +6,8 @@
       "aspects": [
         "animatronic"
       ],
+      "poser": "cobblemon:combusken",
+      "model": "cobblemon:combusken_male.geo",
       "texture": "cobbleeffort:textures/pokemon/animatronic/0256_combusken/combusken_animatronic.png",
       "layers": [
         {
@@ -30,6 +32,13 @@
           "translucent": true
         }
       ]
+    },
+    {
+      "aspects": [
+        "female",
+        "animatronic"
+      ],
+      "model": "cobblemon:combusken_female.geo"
     }
   ]
 }

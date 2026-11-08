@@ -6,6 +6,8 @@
       "aspects": [
         "thanksgiving"
       ],
+      "poser": "cobblemon:wartortle",
+      "model": "cobblemon:wartortle.geo",
       "texture": "cobbleeffort:textures/pokemon/thanksgiving/0008_wartortle/wartortle_thanksgiving.png"
     },
     {
@@ -14,6 +16,25 @@
         "thanksgiving"
       ],
       "texture": "cobbleeffort:textures/pokemon/thanksgiving/0008_wartortle/wartortle_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "clone",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:wartortle.geo",
+      "poser": "cobblemon:wartortle",
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png"
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:wartortle.geo",
+      "poser": "cobblemon:wartortle",
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone_shiny.png"
     }
   ]
 }

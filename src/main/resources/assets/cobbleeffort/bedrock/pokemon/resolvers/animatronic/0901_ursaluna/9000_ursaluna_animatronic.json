@@ -6,6 +6,8 @@
       "aspects": [
         "animatronic"
       ],
+      "poser": "cobblemon:ursaluna",
+      "model": "cobblemon:ursaluna.geo",
       "texture": "cobbleeffort:textures/pokemon/animatronic/0901_ursaluna/ursaluna_animatronic.png",
       "layers": [
         {
@@ -28,6 +30,35 @@
           "texture": "cobbleeffort:textures/pokemon/animatronic/0901_ursaluna/ursaluna_shiny_animatronic_eyeshine.png",
           "emissive": true,
           "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bloodmoon",
+        "animatronic"
+      ],
+      "poser": "cobblemon:bloodmoonursaluna",
+      "model": "cobblemon:bloodmoonursaluna.geo",
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0901_ursaluna/ursaluna_bloodmoon_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bloodmoon",
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/compat/mega_showdown/0901_ursaluna/ursaluna_bloodmoon_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
         }
       ]
     }

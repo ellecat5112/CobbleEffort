@@ -40,6 +40,16 @@
     "layers": []
   },
   {
+    "species": "aerodactyl",
+    "folder": "0142_aerodactyl",
+    "model": "cobblemon:aerodactyl_mega.geo",
+    "original": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactylmega.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0142_aerodactyl/aerodactylmega_easter.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "chinchou",
     "folder": "0170_chinchou",
     "model": "cobblemon:chinchou.geo",
@@ -144,6 +154,22 @@
     ]
   },
   {
+    "species": "ampharos",
+    "folder": "0181_ampharos",
+    "model": "cobblemon:ampharos_mega.geo",
+    "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_mega_easter.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos_emissive_mega.png",
+        "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0181_ampharos/ampharos_emissive_mega_easter.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "smeargle",
     "folder": "0235_smeargle",
     "model": "cobblemon:smeargle.geo",
@@ -184,10 +210,38 @@
   {
     "species": "latias",
     "folder": "0380_latias",
-    "model": "cobblemon:latias.geo",
+    "model": "cobblemon:latias2.geo",
     "original": "cobblemon:textures/pokemon/0380_latias/latias.png",
-    "retextured": "cobbleeffort:textures/pokemon/easter/0380_latias/latias_easter.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0380_latias/latias_easter.png",
     "layers": []
+  },
+  {
+    "species": "latias",
+    "folder": "0380_latias",
+    "model": "cobblemon:mega_latias.geo",
+    "original": "cobblemon:textures/pokemon/0380_latias/megalatias.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0380_latias/megalatias_easter.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "latios",
+    "folder": "0381_latios",
+    "model": "cobblemon:latios2.geo",
+    "original": "cobblemon:textures/pokemon/0381_latios/latios.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/latios_easter.png",
+    "layers": []
+  },
+  {
+    "species": "latios",
+    "folder": "0381_latios",
+    "model": "cobblemon:mega_latios.geo",
+    "original": "cobblemon:textures/pokemon/0381_latios/megalatios.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0381_latios/megalatios_easter.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "drifloon",
@@ -220,6 +274,16 @@
     "original": "cobblemon:textures/pokemon/0428_lopunny/lopunny.png",
     "retextured": "cobbleeffort:textures/pokemon/easter/0428_lopunny/lopunny_easter.png",
     "layers": []
+  },
+  {
+    "species": "lopunny",
+    "folder": "0428_lopunny",
+    "model": "cobblemon:lopunny_mega.geo",
+    "original": "cobblemon:textures/pokemon/0428_lopunny/lopunny_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0428_lopunny/lopunny_mega_easter.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
   },
   {
     "species": "togekiss",
@@ -347,6 +411,22 @@
     ]
   },
   {
+    "species": "eternatus",
+    "folder": "0890_eternatus",
+    "model": "cobblemon:eternamax_eternatus.geo",
+    "original": "cobblemon:textures/pokemon/0890_eternatus/eternamax_eternatus.png",
+    "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0890_eternatus/eternamax_eternatus_easter.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0890_eternatus/eternamax_eternatus_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/easter/compat/mega_showdown/0890_eternatus/eternamax_eternatus_emissive_easter.png",
+        "emissive": true
+      }
+    ],
+    "form": "eternamax",
+    "mod": "Mega Showdown"
+  },
+  {
     "species": "wattrel",
     "folder": "0940_wattrel",
     "model": "cobblemon:wattrel.geo",
@@ -383,5 +463,14 @@
     "original": "cobblemon:textures/pokemon/0964_palafin/palafin_zero.png",
     "retextured": "cobbleeffort:textures/pokemon/easter/0964_palafin/palafin_zero_easter.png",
     "layers": []
+  },
+  {
+    "species": "latot",
+    "folder": "painted_latot",
+    "model": "cobblemon:latot.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/easter/painted/latot/latot_easter.png",
+    "layers": [],
+    "painted_from": "baby_legends"
   }
 ]
