@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:shuckle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "ice_sculpture"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glints",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture_glints_0.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture_glints_1.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture_glints_2.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture_glints_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ice_sculpture"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_shiny_ice_sculpture.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glints",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_shiny_ice_sculpture_glints_0.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_shiny_ice_sculpture_glints_1.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_shiny_ice_sculpture_glints_2.png",
+              "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_shiny_ice_sculpture_glints_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

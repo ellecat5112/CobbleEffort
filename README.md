@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -266,6 +266,38 @@ Teddiursa, Torchic and Sandile were chosen by request. The other 15 were picked 
 Give a supported Pokémon a **Clock** (the night shift, 12 to 6 AM) as its cosmetic item. With commands:
 `/pokegive teddiursa animatronic`, `/pokegive sandile animatronic shiny`. Pack makers can extend the item tag
 `#cobbleeffort:animatronic_cosmetics`.
+
+## Collection #7: Ice Sculptures
+
+18 evolutionary lines (**42 Pokémon**) carved out of a block of ice:
+
+* recoloured in clear **glacier-ice blues**, mapped from each Pokémon's own light and shade, so every marking
+  is still there, chiselled into the ice
+* **faceted chisel planes** that each catch the light differently, **light streaks** refracting through,
+  hairline **cracks** and trapped **air bubbles**
+* a **frosted rim** along every edge, and **eyes carved** as deeper-blue hollows
+* a layer of **glints that twinkle and glow in the dark** (4-frame emissive layer)
+* glowing parts (Crocalor's and Skeledirge's fire, for example) turn into an **icy cyan glow**
+* shiny: **Aurora Ice**, the same sculpture shimmering teal-to-violet like the northern lights
+
+Zubat → Golbat → Crobat · Oddish → Gloom → Vileplume / Bellossom · Drowzee → Hypno · Lickitung → Lickilicky ·
+Shuckle · Whismur → Loudred → Exploud · Cranidos → Rampardos · Hippopotas → Hippowdon · Snover → Abomasnow ·
+Axew → Fraxure → Haxorus · Skiddo → Gogoat · Dedenne · Poipole → Naganadel · Sobble → Drizzile → Inteleon ·
+Wooloo → Dubwool · Sprigatito → Floragato → Meowscarada · Fuecoco → Crocalor → Skeledirge · Toedscool → Toedscruel
+
+Picked with `generate.py pick --count 18 --seed ice-sculpture-2026` from the 327 remaining eligible lines.
+
+![Original vs. ice sculpture](docs/ice_sculpture_preview.png)
+
+![Normal and shiny Aurora Ice](docs/ice_sculpture_closeup.png)
+
+![Twinkling glints](docs/ice_sculpture_glints.gif)
+
+### How to get one
+
+Give a supported Pokémon **Ice, Packed Ice or Blue Ice** as its cosmetic item. With commands:
+`/pokegive axew ice_sculpture`, `/pokegive sprigatito ice_sculpture shiny`. Pack makers can extend the item tag
+`#cobbleeffort:ice_sculpture_cosmetics`.
 
 ## Requirements & versions
 

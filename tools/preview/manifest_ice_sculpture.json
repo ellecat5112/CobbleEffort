@@ -1,0 +1,550 @@
+[
+  {
+    "species": "zubat",
+    "folder": "0041_zubat",
+    "model": "cobblemon:zubat_male.geo",
+    "original": "cobblemon:textures/pokemon/0041_zubat/zubat.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0041_zubat/zubat_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "golbat",
+    "folder": "0042_golbat",
+    "model": "cobblemon:golbat_male.geo",
+    "original": "cobblemon:textures/pokemon/0042_golbat/golbat.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0042_golbat/golbat_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0042_golbat/golbat_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "oddish",
+    "folder": "0043_oddish",
+    "model": "cobblemon:oddish.geo",
+    "original": "cobblemon:textures/pokemon/0043_oddish/oddish.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0043_oddish/oddish_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0043_oddish/oddish_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gloom",
+    "folder": "0044_gloom",
+    "model": "cobblemon:gloom_male.geo",
+    "original": "cobblemon:textures/pokemon/0044_gloom/gloom.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0044_gloom/gloom_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0044_gloom/gloom_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "vileplume",
+    "folder": "0045_vileplume",
+    "model": "cobblemon:vileplume_male.geo",
+    "original": "cobblemon:textures/pokemon/0045_vileplume/vileplume.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0045_vileplume/vileplume_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0045_vileplume/vileplume_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "drowzee",
+    "folder": "0096_drowzee",
+    "model": "cobblemon:drowzee.geo",
+    "original": "cobblemon:textures/pokemon/0096_drowzee/drowzee.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0096_drowzee/drowzee_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0096_drowzee/drowzee_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "hypno",
+    "folder": "0097_hypno",
+    "model": "cobblemon:hypno_male.geo",
+    "original": "cobblemon:textures/pokemon/0097_hypno/hypno.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0097_hypno/hypno_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0097_hypno/hypno_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lickitung",
+    "folder": "0108_lickitung",
+    "model": "cobblemon:lickitung.geo",
+    "original": "cobblemon:textures/pokemon/0108_lickitung/lickitung.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0108_lickitung/lickitung_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0108_lickitung/lickitung_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crobat",
+    "folder": "0169_crobat",
+    "model": "cobblemon:crobat.geo",
+    "original": "cobblemon:textures/pokemon/0169_crobat/crobat.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0169_crobat/crobat_ice_sculpture.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0169_crobat/crobat_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0169_crobat/crobat_emissive_ice_sculpture.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0169_crobat/crobat_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bellossom",
+    "folder": "0182_bellossom",
+    "model": "cobblemon:bellossom.geo",
+    "original": "cobblemon:textures/pokemon/0182_bellossom/bellossom.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0182_bellossom/bellossom_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0182_bellossom/bellossom_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shuckle",
+    "folder": "0213_shuckle",
+    "model": "cobblemon:shuckle.geo",
+    "original": "cobblemon:textures/pokemon/0213_shuckle/shuckle.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0213_shuckle/shuckle_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "whismur",
+    "folder": "0293_whismur",
+    "model": "cobblemon:whismur.geo",
+    "original": "cobblemon:textures/pokemon/0293_whismur/whismur.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0293_whismur/whismur_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "loudred",
+    "folder": "0294_loudred",
+    "model": "cobblemon:loudred.geo",
+    "original": "cobblemon:textures/pokemon/0294_loudred/loudred.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0294_loudred/loudred_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0294_loudred/loudred_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "exploud",
+    "folder": "0295_exploud",
+    "model": "cobblemon:exploud.geo",
+    "original": "cobblemon:textures/pokemon/0295_exploud/exploud.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0295_exploud/exploud_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "cranidos",
+    "folder": "0408_cranidos",
+    "model": "cobblemon:cranidos.geo",
+    "original": "cobblemon:textures/pokemon/0408_cranidos/cranidos.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0408_cranidos/cranidos_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0408_cranidos/cranidos_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rampardos",
+    "folder": "0409_rampardos",
+    "model": "cobblemon:rampardos.geo",
+    "original": "cobblemon:textures/pokemon/0409_rampardos/rampardos.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0409_rampardos/rampardos_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "hippopotas",
+    "folder": "0449_hippopotas",
+    "model": "cobblemon:hippopotas.geo",
+    "original": "cobblemon:textures/pokemon/0449_hippopotas/hippopotas_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0449_hippopotas/hippopotas_male_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0449_hippopotas/hippopotas_male_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "hippowdon",
+    "folder": "0450_hippowdon",
+    "model": "cobblemon:hippowdon.geo",
+    "original": "cobblemon:textures/pokemon/0450_hippowdon/hippowdon_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0450_hippowdon/hippowdon_male_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0450_hippowdon/hippowdon_male_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "snover",
+    "folder": "0459_snover",
+    "model": "cobblemon:snover_male.geo",
+    "original": "cobblemon:textures/pokemon/0459_snover/snover.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0459_snover/snover_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0459_snover/snover_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "abomasnow",
+    "folder": "0460_abomasnow",
+    "model": "cobblemon:abomasnow_male.geo",
+    "original": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0460_abomasnow/abomasnow_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lickilicky",
+    "folder": "0463_lickilicky",
+    "model": "cobblemon:lickilicky.geo",
+    "original": "cobblemon:textures/pokemon/0463_lickilicky/lickilicky.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0463_lickilicky/lickilicky_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "axew",
+    "folder": "0610_axew",
+    "model": "cobblemon:axew.geo",
+    "original": "cobblemon:textures/pokemon/0610_axew/axew.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0610_axew/axew_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0610_axew/axew_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fraxure",
+    "folder": "0611_fraxure",
+    "model": "cobblemon:fraxure.geo",
+    "original": "cobblemon:textures/pokemon/0611_fraxure/fraxure.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0611_fraxure/fraxure_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0611_fraxure/fraxure_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "haxorus",
+    "folder": "0612_haxorus",
+    "model": "cobblemon:haxorus.geo",
+    "original": "cobblemon:textures/pokemon/0612_haxorus/haxorus.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0612_haxorus/haxorus_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0612_haxorus/haxorus_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skiddo",
+    "folder": "0672_skiddo",
+    "model": "cobblemon:skiddo.geo",
+    "original": "cobblemon:textures/pokemon/0672_skiddo/skiddo.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0672_skiddo/skiddo_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0672_skiddo/skiddo_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gogoat",
+    "folder": "0673_gogoat",
+    "model": "cobblemon:gogoat.geo",
+    "original": "cobblemon:textures/pokemon/0673_gogoat/gogoat.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0673_gogoat/gogoat_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "dedenne",
+    "folder": "0702_dedenne",
+    "model": "cobblemon:dedenne.geo",
+    "original": "cobblemon:textures/pokemon/0702_dedenne/dedenne.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0702_dedenne/dedenne_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0702_dedenne/dedenne_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poipole",
+    "folder": "0803_poipole",
+    "model": "cobblemon:poipole.geo",
+    "original": "cobblemon:textures/pokemon/0803_poipole/poipole.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0803_poipole/poipole_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0803_poipole/poipole_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "naganadel",
+    "folder": "0804_naganadel",
+    "model": "cobblemon:naganadel.geo",
+    "original": "cobblemon:textures/pokemon/0804_naganadel/naganadel.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0804_naganadel/naganadel_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "sobble",
+    "folder": "0816_sobble",
+    "model": "cobblemon:sobble.geo",
+    "original": "cobblemon:textures/pokemon/0816_sobble/sobble.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0816_sobble/sobble_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "drizzile",
+    "folder": "0817_drizzile",
+    "model": "cobblemon:drizzile.geo",
+    "original": "cobblemon:textures/pokemon/0817_drizzile/drizzile.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0817_drizzile/drizzile_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0817_drizzile/drizzile_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "inteleon",
+    "folder": "0818_inteleon",
+    "model": "cobblemon:inteleon.geo",
+    "original": "cobblemon:textures/pokemon/0818_inteleon/inteleon.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0818_inteleon/inteleon_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "wooloo",
+    "folder": "0831_wooloo",
+    "model": "cobblemon:wooloo.geo",
+    "original": "cobblemon:textures/pokemon/0831_wooloo/wooloo.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0831_wooloo/wooloo_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0831_wooloo/wooloo_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dubwool",
+    "folder": "0832_dubwool",
+    "model": "cobblemon:dubwool.geo",
+    "original": "cobblemon:textures/pokemon/0832_dubwool/dubwool.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0832_dubwool/dubwool_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0832_dubwool/dubwool_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sprigatito",
+    "folder": "0906_sprigatito",
+    "model": "cobblemon:sprigatito.geo",
+    "original": "cobblemon:textures/pokemon/0906_sprigatito/sprigatito.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0906_sprigatito/sprigatito_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0906_sprigatito/sprigatito_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "floragato",
+    "folder": "0907_floragato",
+    "model": "cobblemon:floragato.geo",
+    "original": "cobblemon:textures/pokemon/0907_floragato/floragato.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0907_floragato/floragato_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0907_floragato/floragato_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "meowscarada",
+    "folder": "0908_meowscarada",
+    "model": "cobblemon:meowscarada.geo",
+    "original": "cobblemon:textures/pokemon/0908_meowscarada/meowscarada.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0908_meowscarada/meowscarada_ice_sculpture.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0908_meowscarada/meowscarada_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fuecoco",
+    "folder": "0909_fuecoco",
+    "model": "cobblemon:fuecoco.geo",
+    "original": "cobblemon:textures/pokemon/0909_fuecoco/fuecoco.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0909_fuecoco/fuecoco_ice_sculpture.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0909_fuecoco/fuecoco_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0909_fuecoco/fuecoco_emissive_ice_sculpture.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0909_fuecoco/fuecoco_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crocalor",
+    "folder": "0910_crocalor",
+    "model": "cobblemon:crocalor.geo",
+    "original": "cobblemon:textures/pokemon/0910_crocalor/crocalor.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0910_crocalor/crocalor_ice_sculpture.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0910_crocalor/crocalor_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0910_crocalor/crocalor_emissive_ice_sculpture.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0910_crocalor/crocalor_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skeledirge",
+    "folder": "0911_skeledirge",
+    "model": "cobblemon:skeledirge.geo",
+    "original": "cobblemon:textures/pokemon/0911_skeledirge/skeledirge.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0911_skeledirge/skeledirge_ice_sculpture.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0911_skeledirge/skeledirge_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0911_skeledirge/skeledirge_emissive_ice_sculpture.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0911_skeledirge/skeledirge_ice_sculpture_glints_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "toedscool",
+    "folder": "0948_toedscool",
+    "model": "cobblemon:toedscool.geo",
+    "original": "cobblemon:textures/pokemon/0948_toedscool/toedscool.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0948_toedscool/toedscool_ice_sculpture.png",
+    "layers": []
+  },
+  {
+    "species": "toedscruel",
+    "folder": "0949_toedscruel",
+    "model": "cobblemon:toedscruel.geo",
+    "original": "cobblemon:textures/pokemon/0949_toedscruel/toedscruel.png",
+    "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0949_toedscruel/toedscruel_ice_sculpture.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0949_toedscruel/toedscruel_transparency.png",
+        "retextured": "cobbleeffort:textures/pokemon/ice_sculpture/0949_toedscruel/toedscruel_transparency_ice_sculpture.png",
+        "emissive": false
+      }
+    ]
+  }
+]

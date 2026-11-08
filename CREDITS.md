@@ -29,6 +29,9 @@ made by the Cobblemon team and contributors.
   colours remapped per look (classic, withered, toy, springtrap, nightmare, funtime, scrap); felt, seams, rivets,
   grime, endoskeleton tears, teeth and glowing eyes added; the Teddiursa, Torchic and Sandile lines repainted after
   Freddy, Chica and Foxy.
+* **Ice Sculptures** (`tools/styles/ice_sculpture.py`; textures under `.../pokemon/ice_sculpture/`): colours remapped
+  to an ice palette by lightness; facets, refraction streaks, cracks, bubbles and a frosted rim added; eyes darkened;
+  an extra emissive layer of twinkling glints; shinies tinted teal-to-violet.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
