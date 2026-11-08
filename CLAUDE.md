@@ -19,18 +19,6 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
    the bare jar is only an intermediate in `build/tmp/jar/`. Hand users the zip, never a loose jar.
 5. Generated textures are adaptations of Cobblemon assets (CC BY-NC 3.0): keep `CREDITS.md` accurate; non-commercial.
 
-## New Pokémon / forms ("creatures")
-
-- Live in `tools/creatures/`: `modelkit.py` (model builder: bones, cubes, `chain()` for curving limbs, auto box-UV,
-  pixel painting, animation/poser writers), one module per creature, `data.py` (forms, features, interactions,
-  fossil, spawns, lang), and `build.py` (runs it all). Don't hand-edit their outputs; change the module and rebuild.
-- New models: `SPECIES`, `DEX_FOLDER`, `GROUP` (unique animation group, `ce_<name>`), `build()`, `animations()`,
-  `shiny_recolour()`, optional `FLIES`/`WALK`. Forms on Cobblemon models: `build_form(cob_root, A, NS)`.
-- Everything must be obtainable in survival without commands: an item interaction, a fossil recipe or a spawn.
-- Animation loops are 24 s; sine speeds must divide into that (15, 30, 45, 60, 90, 120, 180, 240 °/s).
-- Bedrock gotchas found here: rotation z = `side * angle` leans a +y chain outward; animation rotations add to the rest pose.
-- Check every model by rendering it (`tools/preview/`, with `YAW=` and `SIZE=`) before shipping.
-
 ## Workflow
 
 - Collections: `tools/collections/<name>.json` (aspect, feature, style, cosmetic_items, lines, optional `line_styles`)

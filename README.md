@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · plus **new Pokémon & forms**: Armored Mewtwo, Shadow Lugia, Origin Dragon, Celesteela, Iron Boulder.
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -230,34 +230,6 @@ from the 361 remaining eligible lines.
 Give a supported Pokémon an **Egg** as its cosmetic item. With commands: `/pokegive togepi easter`,
 `/pokegive lopunny easter shiny`. Pack makers can extend the item tag `#cobbleeffort:easter_cosmetics`.
 
-## New Pokémon & forms (update 6)
-
-Five additions with new models, all obtainable in survival:
-
-| | What it is | How to get it |
-|---|---|---|
-| **Armored Mewtwo** | A real **Armored form** of Mewtwo (Psychic; HP 106 / Atk 110 / Def 140 / SpA 134 / SpD 120 / Spe 70; Pressure, hidden ability Battle Armor). Cobblemon's Mewtwo model with slate armour: a visor helmet with glowing purple eye slits, big curling red horns, a chest plate with a red stripe, shoulder pads, and bracers and knees with glowing teal crystals | **Right-click your own Mewtwo while holding a Netherite Chestplate.** The chestplate is used up and the change is permanent, like an evolution |
-| **Shadow Lugia** | Lugia as in *Pokémon XD*: deep indigo body, pale grey belly, near-black spines, red eyes that glow in the dark, and a faint purple Shadow aura (same stats as Lugia) | **Right-click your own Lugia with an Echo Shard** to turn it Shadow, or a **Golden Apple** to purify it. Also spawns wild, ultra-rarely, in **deep oceans during thunderstorms** |
-| **Origin Dragon** | A new fan-made legendary: Kyurem, Reshiram and Zekrom fused. Dragon/Ice, 750 BST, Turboblaze / Teravolt / hidden Pressure. It learns everything the three dragons can. Three heads (Reshiram white with blue eyes, Kyurem grey with an ice crest, Zekrom black with red eyes and a gold crown), a black chest with a gold gem, and wings fringed with white feathers | **Revive it in Cobblemon's Fossil Restoration Machine from a Dragon Egg, a Nether Star and a Heavy Core** |
-| **Celesteela** | Cobblemon has its data but no model. Now modelled: banded bamboo arm-tubes in an A-frame, glowing mint thrusters, a stepped green-and-white body and an antenna spire | Ultra-rare wild spawn in **The End** (levels 60–70) |
-| **Iron Boulder** | Cobblemon has its data but no model. Now modelled: grey armoured body, black head with a white face and orange visor, glowing orange crescent blades, black ear tufts, orange-banded legs and a blade tail | Ultra-rare wild spawn on **mountains and peaks at night** (levels 60–70) |
-
-Because Cobblemon 1.8.4 gives **Mewtwo and Lugia** no spawns at all, this update adds them too: Mewtwo deep
-underground in the dark (below y = −16), and Lugia in deep oceans at night. Both are ultra-rare and level 70.
-
-![New Pokémon](docs/creatures_preview.png)
-
-Notes:
-* **How they were made:** the models are built in code by `tools/creatures/` (Armored Mewtwo and Shadow Lugia
-  start from Cobblemon's own Mewtwo and Lugia models). They follow Cobblemon's blocky style, but they're simpler than
-  Cobblemon's hand-made models, and their animations are basic: idle bob, sway, wing flaps, and Cobblemon's
-  built-in walk cycles.
-* **Shinies:** Iron Boulder (gunmetal with cyan blades), Celesteela (silver and rose) and Origin Dragon (navy and
-  silver) use shiny palettes of my own choosing. Shiny Armored Mewtwo and Shiny Shadow Lugia build on Cobblemon's shiny textures.
-* **One per world:** the Dragon Egg only drops once per world (from the first Ender Dragon), so normally there's one
-  Origin Dragon per world.
-* Commands work as usual: `/pokegive mewtwo armored`, `/pokegive lugia shadow`, `/pokegive origindragon`.
-
 ## Requirements & versions
 
 | | |
@@ -299,17 +271,6 @@ python3 tools/generate.py --cobblemon cobblemon/common/src/main/resources pick -
 its first column into a new config's `lines`. Each species has a fixed seed per collection, so reruns give
 byte-identical output, and each collection's generated folders are wiped and rebuilt on every run.
 `tools/preview/` renders original vs. retextured models in headless Chromium (three.js) for a quick look.
-
-### Building the new Pokémon
-
-```
-python3 tools/creatures/build.py --cobblemon cobblemon/common/src/main/resources            # everything
-python3 tools/creatures/build.py --cobblemon cobblemon/common/src/main/resources celesteela # one model
-```
-
-Each creature is a module in `tools/creatures/` (built on `modelkit.py`). It writes the model, normal, shiny and
-glow textures, poser, animations and resolver. `data.py` writes the gameplay data: forms, features, interactions,
-the fossil recipe, spawns and names.
 
 ### Collection rules
 

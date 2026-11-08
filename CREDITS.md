@@ -35,16 +35,6 @@ The adapted textures are shared under those same terms. **No commercial use.**
 The `docs/*_preview.png` images show Cobblemon models rendered with both the original and the adapted
 textures, and are covered by the same terms.
 
-## New Pokémon models (update 6)
-
-* **Armored Mewtwo** and **Shadow Lugia** are built on Cobblemon's own Mewtwo and Lugia models and textures
-  (CC BY-NC 3.0, see above). Armour pieces are added to the Mewtwo model (`tools/creatures/armored_mewtwo.py`), and the
-  Lugia texture is recoloured, with glow layers added (`tools/creatures/shadow_lugia.py`). Same licence terms apply.
-* **Celesteela**, **Iron Boulder** and **Origin Dragon** are new models and textures made for this mod
-  (`tools/creatures/`), designed after the official Pokémon designs. The Origin Dragon is a fan concept (a fusion of
-  Kyurem, Reshiram and Zekrom), not an official Pokémon.
-* Species data for Celesteela and Iron Boulder is Cobblemon's own; this mod only switches them on and adds spawns.
-
 ## Code and data
 
 The build scripts, generator, data and resolver JSON are licensed under the

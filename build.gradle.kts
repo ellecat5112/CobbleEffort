@@ -79,17 +79,10 @@ val validateData by tasks.registering {
             is Map<*, *> -> (t["frames"] as? List<*>)?.map { it.toString() } ?: emptyList()
             else -> emptyList()
         }
-        // models and posers this mod ships, by Cobblemon's ids: "<ns>:<file>.geo" and "<ns>:<file>"
-        val models = resDir.resolve("assets/$modId/bedrock/pokemon/models").walkTopDown()
-            .filter { it.isFile && it.name.endsWith(".geo.json") }.map { "$modId:" + it.name.removeSuffix(".json") }.toSet()
-        val posers = resDir.resolve("assets/$modId/bedrock/pokemon/posers").walkTopDown()
-            .filter { it.isFile && it.extension == "json" }.map { "$modId:" + it.nameWithoutExtension }.toSet()
         resolvers.walkTopDown().filter { it.isFile && it.extension == "json" }.forEach { f ->
             @Suppress("UNCHECKED_CAST")
             val json = slurper.parse(f) as Map<String, Any?>
             (json["variations"] as List<Map<String, Any?>>).forEach { v ->
-                (v["model"] as? String)?.let { if (it.startsWith("$modId:") && it !in models) throw GradleException("${f.name} references missing model $it") }
-                (v["poser"] as? String)?.let { if (it.startsWith("$modId:") && it !in posers) throw GradleException("${f.name} references missing poser $it") }
                 val layers = (v["layers"] as? List<*>)?.mapNotNull { (it as? Map<*, *>)?.get("texture") } ?: emptyList()
                 (listOf(v["texture"]) + layers).flatMap(::texturesOf).forEach { tex ->
                     val (ns, path) = tex.split(":", limit = 2)
@@ -100,7 +93,7 @@ val validateData by tasks.registering {
                 }
             }
         }
-        println("validateData: $count JSON files OK, all $textures resolver texture references and every model/poser present.")
+        println("validateData: $count JSON files OK, all $textures resolver texture references present.")
     }
 }
 
