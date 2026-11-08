@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:cherrim",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0421_cherrim/cherrim_overcast_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0421_cherrim/cherrim_overcast_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0421_cherrim/cherrim_sunshine_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0421_cherrim/cherrim_sunshine_shiny_stone_statue.png"
+    }
+  ]
+}

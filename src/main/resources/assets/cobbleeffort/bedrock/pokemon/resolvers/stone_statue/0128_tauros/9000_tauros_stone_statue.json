@@ -1,0 +1,92 @@
+{
+  "species": "cobblemon:tauros",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "paldean",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_combat_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "paldean",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_combat_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "paldean",
+        "blaze-breed",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_blaze_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "blaze-breed",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_blaze_shiny_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_aqua_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0128_tauros/tauros_paldean_aqua_shiny_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

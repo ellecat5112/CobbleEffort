@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:qwilfish",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0211_qwilfish/qwilfish_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0211_qwilfish/qwilfish_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0211_qwilfish/qwilfish_hisuian_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0211_qwilfish/qwilfish_hisuian_shiny_stone_statue.png"
+    }
+  ]
+}

@@ -372,7 +372,7 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
         layers = []
         for layer in v.get("layers") or []:
             if layer.get("emissive") and style.EMISSIVE == "disable":
-                layers.append({"name": layer["name"], "enabled": False})
+                layers.append({"name": layer.get("name", ""), "enabled": False})   # Cobblemon defaults a missing name to ""
             elif "texture" in layer:
                 kind = "emissive" if layer.get("emissive") else "plain"
                 layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed, style, layer=kind)})
@@ -443,9 +443,9 @@ def build_collection(cob: Cobblemon, cfg: dict):
         first = lambda t: t["frames"][0] if isinstance(t, dict) else t
         mirrored_base = mirrored[0]
         layers = []
-        vanilla_layers = {l["name"]: l for l in base.get("layers") or []}
+        vanilla_layers = {l.get("name", ""): l for l in base.get("layers") or []}
         for new in mirrored_base.get("layers") or []:
-            orig = vanilla_layers.get(new["name"], {})
+            orig = vanilla_layers.get(new.get("name", ""), {})
             if new.get("enabled", True) and "texture" in new or "texture" in orig:
                 layers.append({"original": first(orig["texture"]) if "texture" in orig else None,
                                "retextured": first(new["texture"]) if new.get("enabled", True) and "texture" in new else None,

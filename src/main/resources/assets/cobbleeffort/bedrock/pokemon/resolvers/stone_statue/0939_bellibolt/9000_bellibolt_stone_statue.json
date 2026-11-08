@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:bellibolt",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0939_bellibolt/bellibolt_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "transparent",
+          "texture": "cobbleeffort:textures/pokemon/stone_statue/0939_bellibolt/bellibolt_transparency_stone_statue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0939_bellibolt/bellibolt_shiny_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "transparent",
+          "texture": "cobbleeffort:textures/pokemon/stone_statue/0939_bellibolt/bellibolt_transparency_shiny_stone_statue.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

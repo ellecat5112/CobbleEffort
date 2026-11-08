@@ -32,6 +32,9 @@ made by the Cobblemon team and contributors.
 * **Ice Sculptures** (`tools/styles/ice_sculpture.py`; textures under `.../pokemon/ice_sculpture/`): colours remapped
   to an ice palette by lightness; facets, refraction streaks, cracks, bubbles and a frosted rim added; eyes darkened;
   an extra emissive layer of twinkling glints; shinies tinted teal-to-violet.
+* **Stone Statues** (`tools/styles/stone_statue.py`; textures under `.../pokemon/stone_statue/`): colours remapped to
+  stone by lightness; grain, speckles, chisel strokes, weathered edges, cracks, moss and lichen added; shinies remapped
+  to veined white marble with gilded eyes.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

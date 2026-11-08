@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:cyndaquil",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0155_cyndaquil/cyndaquil_stone_statue.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stone_statue"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stone_statue/0155_cyndaquil/cyndaquil_shiny_stone_statue.png"
+    }
+  ]
+}

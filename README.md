@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -298,6 +298,37 @@ Picked with `generate.py pick --count 18 --seed ice-sculpture-2026` from the 327
 Give a supported Pokémon **Ice, Packed Ice or Blue Ice** as its cosmetic item. With commands:
 `/pokegive axew ice_sculpture`, `/pokegive sprigatito ice_sculpture shiny`. Pack makers can extend the item tag
 `#cobbleeffort:ice_sculpture_cosmetics`.
+
+## Collection #8: Stone Statues
+
+18 evolutionary lines (**41 Pokémon**) turned into solid stone statues:
+
+* **granite-grey stone**, mapped from each Pokémon's own light and shade, so its markings remain as carved relief
+* mottled **stone grain** with speckles and fine **chisel strokes**
+* **weathering**: sunlit top edges, shadowed undersides, small chips, dark **cracks** and the odd patch of
+  **moss and lichen**
+* **blank, carved eyes**, like a real statue
+* **no glow**: flames, lights and other glowing parts are turned off or turned to stone (Quilava's and
+  Typhlosion's flames become carved stone flames)
+* shiny: polished white **marble** with flowing grey veins and **gold-leaf eyes**
+
+Pidgey → Pidgeotto → Pidgeot · Goldeen → Seaking · Tauros (incl. Paldean breeds) · Cyndaquil → Quilava → Typhlosion
+(incl. Hisuian) · Qwilfish → Overqwil · Phanpy → Donphan · Aron → Lairon → Aggron · Trapinch → Vibrava → Flygon ·
+Cherubi → Cherrim · Deerling → Sawsbuck (all seasons) · Fennekin → Braixen → Delphox · Rowlet → Dartrix → Decidueye ·
+Rookidee → Corvisquire → Corviknight · Rolycoly → Carkol → Coalossal · Stonjourner · Regidrago ·
+Tadbulb → Bellibolt · Capsakid → Scovillain
+
+Picked with `generate.py pick --count 18 --seed stone-statue-2026` from the 309 remaining eligible lines.
+
+![Original vs. stone statue](docs/stone_statue_preview.png)
+
+![Stone and shiny marble](docs/stone_statue_closeup.png)
+
+### How to get one
+
+Give a supported Pokémon **Stone, Smooth Stone or Chiseled Stone Bricks** as its cosmetic item. With commands:
+`/pokegive aron stone_statue`, `/pokegive fennekin stone_statue shiny`. Pack makers can extend the item tag
+`#cobbleeffort:stone_statue_cosmetics`.
 
 ## Requirements & versions
 

@@ -1,0 +1,32 @@
+{
+  "_comment": "Stone Statue collection: Pok\u00e9mon as solid stone statues. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed stone-statue-2026` (random lines no other collection uses).",
+  "aspect": "stone_statue",
+  "feature": "stone_statue",
+  "style": "stone_statue",
+  "cosmetic_items": [
+    "minecraft:stone",
+    "minecraft:smooth_stone",
+    "minecraft:chiseled_stone_bricks"
+  ],
+  "lines": [
+    "pidgey",
+    "goldeen",
+    "tauros",
+    "cyndaquil",
+    "qwilfish",
+    "phanpy",
+    "aron",
+    "trapinch",
+    "cherubi",
+    "deerling",
+    "fennekin",
+    "rowlet",
+    "rookidee",
+    "rolycoly",
+    "stonjourner",
+    "regidrago",
+    "tadbulb",
+    "capsakid"
+  ],
+  "extra_links": []
+}
