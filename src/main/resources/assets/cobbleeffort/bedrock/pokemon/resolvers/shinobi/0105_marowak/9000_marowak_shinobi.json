@@ -1,0 +1,78 @@
+{
+  "species": "cobblemon:marowak",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_shinobi.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_emissive_shinobi.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_emissive_shinobi.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0105_marowak/marowak_alolan_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

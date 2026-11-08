@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:xurkitree",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_chidori",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_chidori_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_chidori_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_chidori_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_chidori_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shinobi",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_chidori",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_shiny_chidori_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_shiny_chidori_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_shiny_chidori_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/addon_xurkitree/xurkitree_sasuke_shiny_chidori_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

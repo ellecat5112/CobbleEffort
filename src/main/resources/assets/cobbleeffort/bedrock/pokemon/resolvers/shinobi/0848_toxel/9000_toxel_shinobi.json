@@ -1,0 +1,57 @@
+{
+  "species": "cobblemon:toxel",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive2_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive3_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive2_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0848_toxel/toxel_emissive3_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

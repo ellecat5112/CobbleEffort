@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:noctowl",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0164_noctowl/noctowl_shinobi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0164_noctowl/noctowl_emissive_shinobi.png",
+          "emissive": "true"
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0164_noctowl/noctowl_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0164_noctowl/noctowl_shiny_emissive_shinobi.png",
+          "emissive": "true"
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

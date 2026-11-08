@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:onix",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0095_onix/onix_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0095_onix/onix_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

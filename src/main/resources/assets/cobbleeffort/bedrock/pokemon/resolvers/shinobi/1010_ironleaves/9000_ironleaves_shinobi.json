@@ -1,0 +1,49 @@
+{
+  "species": "cobblemon:ironleaves",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/1010_ironleaves/ironleaves_shinobi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/1010_ironleaves/ironleaves_emissive_shinobi.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sleep",
+        "shinobi"
+      ],
+      "layers": [
+        {
+          "name": "sleep",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/1010_ironleaves/ironleaves_sleep_shinobi.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/1010_ironleaves/ironleaves_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

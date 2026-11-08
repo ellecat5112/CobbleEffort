@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -330,6 +330,44 @@ Give a supported Pokémon **Stone, Smooth Stone or Chiseled Stone Bricks** as it
 `/pokegive aron stone_statue`, `/pokegive fennekin stone_statue shiny`. Pack makers can extend the item tag
 `#cobbleeffort:stone_statue_cosmetics`.
 
+## Collection #9: Naruto / Naruto Shippuden / Boruto (Shinobi)
+
+18 evolutionary lines (**35 Pokémon, plus Xurkitree**) as shinobi. Two of them are characters:
+
+| Line | Look | Shiny |
+|------|------|-------|
+| **Vulpix → Ninetales** (incl. Alolan) | **Kurama**, the Nine-Tails: orange fox fur, black eye markings and ear tips, red slit eyes, and an orange chakra glow flickering on every edge | **Kurama Link Mode**: gold with black seal lines |
+| **Xurkitree** ⚠️ *needs the Cobblemon Ultra-Beasts mod* | **Sasuke Uchiha**: spiky blue-black star "hair", glowing Sharingan eyes, the Uchiha crest on the back, navy sleeves and trousers with white shin wraps, a purple rope belt, and **Chidori** lightning crackling on both claws (glowing, animated) | Rinnegan purple, with purple-black lightning |
+
+The other 16 lines each get one look:
+
+| Look | What it is | Lines |
+|------|------------|-------|
+| **Akatsuki** | black cloak with red, white-edged clouds; glowing Sharingan eyes | Venonat, Swinub, Cetoddle |
+| **Leaf Shinobi** | navy-toned uniform, olive flak vest with scroll pockets, Leaf forehead protector | Onix, Mantine, Iron Leaves |
+| **ANBU** | grey armour, white porcelain mask with red markings | Voltorb, Solrock |
+| **Sage Mode** | orange sage pigment, glowing toad eyes, red cloak hem with black flames | Cubone, Popplio |
+| **Uzumaki** | Naruto's orange and black, whisker marks, red swirl, forehead protector | Hoothoot, Toxel |
+| **Byakugan** | pale lavender robes, pupil-less glowing eyes, bulging veins | Spinarak, Cufant |
+| **Karma** (Boruto) | a bold black Karma seal and one glowing blue Jōgan eye | Dunsparce, Rellor |
+
+(each with its whole evolutionary line). Vulpix was chosen by request. The other 16 were picked with
+`generate.py pick --count 16 --seed naruto-shippuden`.
+
+**About Xurkitree:** Cobblemon 1.8.4 has no Xurkitree model, so the Sasuke look is made for the model from
+**Cobblemon Ultra-Beasts** (by BileulDevs). CobbleEffort doesn't include that model or any of that mod's art: the
+Sasuke texture is painted from scratch onto the model's UV layout, and the cosmetic switches on whenever
+Ultra-Beasts is installed too. Without Ultra-Beasts it does nothing.
+
+![Kurama and Sasuke](docs/naruto_kurama_sasuke.png)
+
+![Original vs. shinobi](docs/naruto_preview.png)
+
+### How to get one
+
+Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With commands: `/pokegive vulpix shinobi`,
+`/pokegive xurkitree shinobi shiny`. Pack makers can extend the item tag `#cobbleeffort:shinobi_cosmetics`.
+
 ## Requirements & versions
 
 | | |
@@ -373,6 +411,15 @@ python3 tools/generate.py --cobblemon cobblemon/common/src/main/resources pick -
 its first column into a new config's `lines`. Each species has a fixed seed per collection, so reruns give
 byte-identical output, and each collection's generated folders are wiped and rebuilt on every run.
 `tools/preview/` renders original vs. retextured models in headless Chromium (three.js) for a quick look.
+
+### Addon lines (Pokémon modelled by another mod)
+
+A collection can list `addon_lines` for Pokémon Cobblemon doesn't model but another mod does (Xurkitree, from
+Cobblemon Ultra-Beasts). The model's UV layout, with no art, is extracted with
+`python3 -I tools/addons/extract_layout.py <their .geo.json> tools/addons/<name>_layout.json`. A builder in
+`tools/addons/` then paints an original texture onto it. The resolver only swaps textures and layers, so the
+cosmetic is active only when that mod is installed. To preview it, pass the other mod's model folder with
+`EXTRA_MODEL_ROOTS=...`.
 
 ### Collection rules
 

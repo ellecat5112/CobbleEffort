@@ -31,6 +31,13 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so
   don't locate a face from the eye mask; use the hints.
+- `addon_lines` in a collection config: cosmetics for Pokémon modelled by another mod (e.g. Xurkitree from Cobblemon
+  Ultra-Beasts). Never copy or recolour another mod's art unless its licence allows it. Extract only the UV layout
+  (`tools/addons/extract_layout.py`, run with `python3 -I` from outside their checkout) and paint an original texture in a
+  builder (`tools/addons/<name>.py`: `build(out_tex_root, aspect, mod_id) -> (variations, manifest_entry)`).
+  Disable their glow layers by name if the texture changes.
+- The user also plays with Mega Showdown, Cobblemon: AllTheMons, Legendary Monuments, Cobblemon Lost Lore and
+  Cobblemon Ultra-Beasts (public on GitHub); check those mods when a requested Pokémon isn't modelled by Cobblemon.
 - Regenerate: `python3 tools/generate.py --cobblemon <cobblemon>/common/src/main/resources build [collection]`
   (needs `assets/cobblemon` + `data/cobblemon/species` + `data/cobblemon/cosmetic_items`).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.

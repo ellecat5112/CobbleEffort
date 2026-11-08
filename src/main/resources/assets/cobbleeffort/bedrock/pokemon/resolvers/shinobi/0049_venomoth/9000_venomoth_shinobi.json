@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:venomoth",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0049_venomoth/venomoth_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0049_venomoth/venomoth_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0049_venomoth/venomoth_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0049_venomoth/venomoth_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

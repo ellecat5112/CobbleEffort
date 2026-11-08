@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:primarina",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0730_primarina/primarina_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0730_primarina/primarina_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0730_primarina/primarina_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0730_primarina/primarina_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

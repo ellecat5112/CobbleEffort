@@ -1,0 +1,45 @@
+{
+  "species": "cobblemon:rabsca",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_shinobi.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_emissive_shinobi.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_transparency_shinobi.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0954_rabsca/rabsca_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

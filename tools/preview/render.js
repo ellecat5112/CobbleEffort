@@ -7,13 +7,22 @@ const [ref, mod, outDir, manifestFile = 'manifest_backrooms.json'] = process.arg
 const size = Number(process.env.SIZE || 320);  // render size in px
 const manifest = JSON.parse(fs.readFileSync(path.resolve(__dirname, manifestFile)));
 const texPath = (root, id) => { const [ns, p] = id.split(':'); return path.join(root, 'assets', ns, p); };
-const modelsRoot = path.join(ref, 'assets/cobblemon/bedrock/pokemon/models');
+const yaw = Number(process.env.YAW || 0);       // turn the model (degrees)
+// model folders: Cobblemon's, this mod's, plus EXTRA_MODEL_ROOTS (":"-separated) for other mods' models,
+// e.g. an addon line's model (read for previews only, never shipped)
+const cobblemonModels = [path.join(ref, 'assets/cobblemon/bedrock/pokemon/models'),
+                         ...(process.env.EXTRA_MODEL_ROOTS || '').split(':').filter(Boolean)];
+const modModels = [path.join(mod, 'assets/cobbleeffort/bedrock/pokemon/models')];
 const findModel = (id) => {
   const want = id.split(':')[1] + '.json';
   const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) {
     const p = path.join(d, e.name);
     if (e.isDirectory()) { const r = walk(p); if (r) return r; } else if (e.name === want) return p; } };
-  return walk(modelsRoot);
+  for (const r of (id.startsWith('cobbleeffort:') ? modModels : cobblemonModels)) {
+    const found = fs.existsSync(r) && walk(r);
+    if (found) return found;
+  }
+  throw new Error('model not found: ' + id);
 };
 (async () => {
   const browser = await chromium.launch({ args: ['--use-gl=swiftshader', '--enable-unsafe-swiftshader'] });
@@ -25,9 +34,10 @@ const findModel = (id) => {
     const geo = JSON.parse(fs.readFileSync(findModel(e.model)));
     const dataUrl = f => 'data:image/png;base64,' + fs.readFileSync(f).toString('base64');
     for (const [tag, root, key] of [['orig', ref, 'original'], ['new', mod, 'retextured']]) {
+      if (!e[key]) continue;   // e.g. an addon line has no Cobblemon original
       const url = dataUrl(texPath(root, e[key]));
       const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
-      const png = await page.evaluate(([g, u, ls, sz]) => window.renderModel(g, u, sz, 0, ls), [geo, url, layers, size]);
+      const png = await page.evaluate(([g, u, ls, sz, yw]) => window.renderModel(g, u, sz, yw, ls), [geo, url, layers, size, yaw]);
       fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }

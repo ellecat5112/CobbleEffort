@@ -1,0 +1,55 @@
+{
+  "_comment": "Naruto / Naruto Shippuden / Boruto collection: shinobi forms. Each name in 'lines' brings in its WHOLE evolutionary line. Requested by name: Vulpix line (Ninetales) as Kurama; Xurkitree as Sasuke, an addon line because Cobblemon has no Xurkitree model and the Cobblemon Ultra-Beasts mod provides it (see addon_lines). The other 16 lines were picked with `generate.py pick --count 16 --seed naruto-shippuden` and dealt round-robin one look each: akatsuki, leaf_shinobi, anbu, sage_mode, uzumaki, byakugan, karma.",
+  "aspect": "shinobi",
+  "feature": "shinobi_naruto",
+  "style": "naruto_leaf_shinobi",
+  "cosmetic_items": [
+    "minecraft:flint"
+  ],
+  "lines": [
+    "vulpix",
+    "venonat",
+    "onix",
+    "voltorb",
+    "cubone",
+    "hoothoot",
+    "spinarak",
+    "dunsparce",
+    "swinub",
+    "mantine",
+    "solrock",
+    "popplio",
+    "toxel",
+    "cufant",
+    "rellor",
+    "cetoddle",
+    "ironleaves"
+  ],
+  "line_styles": {
+    "vulpix": "naruto_kurama",
+    "venonat": "naruto_akatsuki",
+    "onix": "naruto_leaf_shinobi",
+    "voltorb": "naruto_anbu",
+    "cubone": "naruto_sage_mode",
+    "hoothoot": "naruto_uzumaki",
+    "spinarak": "naruto_byakugan",
+    "dunsparce": "naruto_karma",
+    "swinub": "naruto_akatsuki",
+    "mantine": "naruto_leaf_shinobi",
+    "solrock": "naruto_anbu",
+    "popplio": "naruto_sage_mode",
+    "toxel": "naruto_uzumaki",
+    "cufant": "naruto_byakugan",
+    "rellor": "naruto_karma",
+    "cetoddle": "naruto_akatsuki",
+    "ironleaves": "naruto_leaf_shinobi"
+  },
+  "addon_lines": [
+    {
+      "species": "xurkitree",
+      "builder": "xurkitree_sasuke",
+      "requires": "Cobblemon Ultra-Beasts (provides the Xurkitree model)"
+    }
+  ],
+  "extra_links": []
+}

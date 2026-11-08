@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:toxtricity",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_emissive2_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_amped_emissive2_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "low_key-form",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_emissive2_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "low_key-form",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_emissive1_shinobi.png",
+              "cobbleeffort:textures/pokemon/shinobi/0849_toxtricity/toxtricity_lowkey_emissive2_shinobi.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

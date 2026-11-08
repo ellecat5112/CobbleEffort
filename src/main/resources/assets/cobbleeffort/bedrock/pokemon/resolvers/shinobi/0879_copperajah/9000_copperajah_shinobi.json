@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:copperajah",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/shinobi/0879_copperajah/copperajah_shiny_shinobi_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

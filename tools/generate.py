@@ -182,6 +182,12 @@ class Geometry:
         u, v = uv
         return {"front": (u + d, v + d, w, h), "top": (u + d, v, w, d), "area": w * h}
 
+    @staticmethod
+    def _net(cube):
+        """The whole box-UV net of a cube: (u, v, width, height)."""
+        w, h, d = (abs(int(round(v))) for v in cube["size"])
+        return (cube["uv"][0], cube["uv"][1], 2 * (w + d), d + h)
+
     def _best(self, bones, words):
         best = None
         for b in bones:
@@ -211,6 +217,8 @@ class Geometry:
                     "head_front": head["front"] if head else None,
                     "head_top": head["top"] if head else None,
                     "torso_front": torso["front"] if torso else None,
+                    "ears": [self._net(c) for b in g["bones"] if "ear" in b["name"] and not b["name"].startswith("locator")
+                             and "eye" not in b["name"] for c in b.get("cubes", []) if isinstance(c.get("uv"), list)],
                 }
         return self.cache[model_id]
 
@@ -418,6 +426,9 @@ def build_collection(cob: Cobblemon, cfg: dict):
         print(f"  {pick:12s} -> {', '.join(family)}" + (f"  [{look}]" if look else ""))
         members.update(family)
     ordered = sorted(members, key=cob.dex)
+    addons = cfg.get("addon_lines", [])
+    for a in addons:
+        print(f"  {a['species']:12s} -> {a['species']}  [addon: {a['builder']}; needs {a['requires']}]")
 
     out_tex_root = RES / "assets" / MOD_ID / "textures" / "pokemon" / aspect
     out_res_root = RES / "assets" / MOD_ID / "bedrock" / "pokemon" / "resolvers" / aspect
@@ -453,6 +464,15 @@ def build_collection(cob: Cobblemon, cfg: dict):
         manifest.append({"species": name, "folder": folder, "model": base["model"],
                          "original": first(base["texture"]), "retextured": first(mirrored_base["texture"]),
                          "layers": layers})
+    # addon lines: the model comes from another mod; the builder paints our texture from scratch onto its UV layout
+    for a in addons:
+        builder = importlib.import_module(f"addons.{a['builder']}")
+        variations, entry = builder.build(out_tex_root, aspect, MOD_ID)
+        write_json(out_res_root / f"addon_{a['species']}" / f"{RESOLVER_ORDER}_{a['species']}_{aspect}.json", {
+            "species": f"cobblemon:{a['species']}", "order": RESOLVER_ORDER, "variations": variations,
+        })
+        manifest.append(entry)
+        ordered.append(a["species"])
     write_json(TOOLS / "preview" / f"manifest_{aspect}.json", manifest)
 
     data = RES / "data" / MOD_ID
@@ -469,7 +489,8 @@ def build_collection(cob: Cobblemon, cfg: dict):
     write_json(data / "tags" / "item" / f"{aspect}_cosmetics.json", {
         "replace": False, "values": cfg["cosmetic_items"],
     })
-    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines'])} lines, {retex.count} textures.")
+    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines']) + len(addons)} lines, {retex.count} textures"
+          + (f" (+ {len(addons)} addon line)" if addons else "") + ".")
 
 
 def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):
@@ -482,6 +503,9 @@ def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):
             for n in fam[pick]:
                 if owner.setdefault(n, cfg["name"]) != cfg["name"]:
                     raise SystemExit(f"{n} is in both {owner[n]} and {cfg['name']}")
+        for a in cfg.get("addon_lines", []):
+            if owner.setdefault(a["species"], cfg["name"]) != cfg["name"]:
+                raise SystemExit(f"{a['species']} is in both {owner[a['species']]} and {cfg['name']}")
         for item in cfg["cosmetic_items"]:
             if items.setdefault(item, cfg["name"]) != cfg["name"]:
                 raise SystemExit(f"{item} is the cosmetic item of both {items[item]} and {cfg['name']}")

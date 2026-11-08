@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:vulpix",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_chakra",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shinobi_chakra_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shinobi_chakra_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shinobi_chakra_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shinobi_chakra_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_chakra",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shiny_shinobi_chakra_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shiny_shinobi_chakra_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shiny_shinobi_chakra_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_shiny_shinobi_chakra_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_chakra",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shinobi_chakra_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shinobi_chakra_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shinobi_chakra_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shinobi_chakra_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "shinobi"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shiny_shinobi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_chakra",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shiny_shinobi_chakra_0.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shiny_shinobi_chakra_1.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shiny_shinobi_chakra_2.png",
+              "cobbleeffort:textures/pokemon/shinobi/0037_vulpix/vulpix_alolan_shiny_shinobi_chakra_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

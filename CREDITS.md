@@ -35,6 +35,9 @@ made by the Cobblemon team and contributors.
 * **Stone Statues** (`tools/styles/stone_statue.py`; textures under `.../pokemon/stone_statue/`): colours remapped to
   stone by lightness; grain, speckles, chisel strokes, weathered edges, cracks, moss and lichen added; shinies remapped
   to veined white marble with gilded eyes.
+* **Naruto** (`tools/styles/naruto_*.py`, `_shinobi.py`; textures under `.../pokemon/shinobi/`): colours remapped per
+  look; clouds, flak vests, forehead protectors, masks, sage pigment, flame hems, whiskers, swirls, veins, Karma
+  seals and glowing eyes added; the Vulpix line repainted as Kurama with a flickering chakra layer.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
@@ -44,6 +47,13 @@ The adapted textures are shared under those same terms. **No commercial use.**
 
 The `docs/*_preview.png` images show Cobblemon models rendered with both the original and the adapted
 textures, and are covered by the same terms.
+
+## Other mods' models (addon lines)
+
+* **Xurkitree as Sasuke** is made for the Xurkitree model from **Cobblemon Ultra-Beasts** by BileulDevs
+  (<https://github.com/BileulDevs/cobblemon-ultra-beasts>). That model and its textures are **not** included in
+  CobbleEffort. Only its UV layout (cube positions, no art) is stored in `tools/addons/ultrabeasts_xurkitree_layout.json`
+  so an original texture can be painted to fit it. The cosmetic works only with Ultra-Beasts installed.
 
 ## Code and data
 
@@ -58,6 +68,9 @@ The build scripts, generator, data and resolver JSON are licensed under the
 
 * **Five Nights at Freddy's** by Scott Cawthon inspired collection #6 (fan work; no art or assets from the games
   are used).
+
+* **Naruto**, **Naruto Shippuden** and **Boruto** by Masashi Kishimoto (and Mikio Ikemoto / Ukyo Kodachi) inspired
+  collection #9 (fan work; no art from the series is used).
 
 Pokémon and all related names are trademarks of Nintendo, Game Freak and The Pokémon Company.
 CobbleEffort is not affiliated with or endorsed by them, the Cobblemon team, or Kane Parsons / A24.
