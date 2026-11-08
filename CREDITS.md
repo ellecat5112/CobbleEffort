@@ -75,6 +75,12 @@ Animation groups are renamed `ce_<name>` because Cobblemon keys animation groups
 conversions of Cobblemon's Kotlin posers (`tools/kotlin_poser.py`). These copies are covered by Cobblemon's terms:
 CC BY-NC 3.0 for the models and animations, MPL-2.0 for the code the posers were converted from.
 
+A few **Mega Showdown** models, posers and animations (Mega Absol / Mega Absol Z, Gmax Garbodor, Gmax Coalossal,
+Bloodmoon Ursaluna, Xerneas' neutral mode) are copied, unmodified apart from renamed animation groups, into the same
+folders. A resolver may only name models that always exist, so these copies ensure CobbleEffort never depends on
+another mod being installed. They remain under Mega Showdown's **CC BY-NC-SA 4.0** licence, credited to yajatkaul
+and contributors.
+
 ## Other mods (referenced, never copied)
 
 * **Xurkitree as Sasuke** is made for the Xurkitree model shipped by **Cobblemon: AllTheMons x Mega Showdown**

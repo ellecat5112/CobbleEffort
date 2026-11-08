@@ -27,6 +27,7 @@ import hashlib
 import importlib
 import json
 import random
+import re
 import shutil
 from pathlib import Path
 
@@ -426,9 +427,23 @@ class Vendor:
         self.base = RES / "assets" / MOD_ID / "bedrock" / "pokemon"
         self.done: dict[str, str] = {}
         self.vendored: list[tuple[str, str]] = []   # (kind, name) for the summary / credits
+        self.foreign_overwritten: set[str] = set()  # models vendored because a no-derivatives mod overwrote them
         # Cobblemon's Kotlin sources, when --cobblemon is a checkout's common/src/main/resources
         kotlin = stack.layers[0].path.parent / "kotlin"
         self.kotlin = kotlin if kotlin.is_dir() else None
+        self._inbuilt = None
+
+    def safe_poser(self, poser_id: str) -> bool:
+        """Defined by Cobblemon itself (JSON or Kotlin), so it exists whatever else is installed."""
+        ns, name = poser_id.split(":", 1)
+        if any(l.id == "cobblemon" for l, _ in self.stack.posers.get((ns, name), [])):
+            return True
+        if ns == "cobblemon" and self.kotlin:
+            if self._inbuilt is None:
+                repo = next(self.kotlin.rglob("VaryingModelRepository.kt"), None)
+                self._inbuilt = set(re.findall(r'inbuilt\("([^"]+)"', repo.read_text())) if repo else set()
+            return name in self._inbuilt
+        return False
 
     def wipe(self):
         for kind in ("models", "posers", "animations"):
@@ -442,15 +457,27 @@ class Vendor:
         dest.write_bytes(data)
 
     def model(self, model_id: str | None) -> str | None:
+        """A model id that is GUARANTEED to exist at launch. Cobblemon loads every model a resolver names during
+        the startup resource reload and stops loading if one is missing (the game hangs on the Mojang screen), so a
+        resolver may only name Cobblemon's own models or files shipped in this jar. Anything else (overwritten by a
+        mod whose art can't be adapted, or only provided by another mod) is vendored."""
         if not model_id or model_id in self.done:
             return self.done.get(model_id, model_id)
         ns, name = model_id.split(":", 1)
         entries = self.stack.models.get((ns, name))
+        cobblemon_has = any(layer.id == "cobblemon" for layer, _ in entries or [])
         new = model_id
-        if self.stack.overwritten(entries):
-            layer, rel = self.stack.model(model_id)
+        if ns == MOD_ID:
+            pass
+        elif self.stack.overwritten(entries) or not cobblemon_has:
+            hit = self.stack.model(model_id)
+            if hit is None:
+                raise SystemExit(f"model {model_id} is not in any adaptable layer; it can't be pinned safely")
+            layer, rel = hit
             self._write("models", f"{name}.json", layer.read(rel))
             new = f"{MOD_ID}:{name}"
+            if self.stack.overwritten(entries):
+                self.foreign_overwritten.add(model_id)
             self.vendored.append(("model", f"{model_id} ({layer.name})"))
         self.done[model_id] = new
         return new
@@ -458,7 +485,11 @@ class Vendor:
     def poser(self, poser_id: str | None, model_id: str | None) -> str | None:
         """The poser goes with the model: vendored (with its overwritten animation groups) only when the model it
         animates was vendored. A mod that re-ships a poser for an unchanged model keeps its version."""
-        if not poser_id or self.model(model_id) == model_id:
+        if not poser_id:
+            return poser_id
+        if poser_id.split(":", 1)[0] != MOD_ID and not self.safe_poser(poser_id):
+            pass                                        # only another mod defines it: ship a copy
+        elif self.model(model_id) and model_id not in self.foreign_overwritten:
             return poser_id
         if poser_id in self.done:
             return self.done[poser_id]
@@ -478,7 +509,9 @@ class Vendor:
         if text is None:
             print(f"    ! {model_id} was vendored but poser {poser_id} has no JSON or Kotlin source to vendor; left as is")
         else:
-            groups = {g for g in poser_groups(text) if self.stack.overwritten(self.stack.anims.get(g))}
+            # rename groups another mod overwrote, and copy groups only another mod provides
+            groups = {g for g in poser_groups(text) if self.stack.overwritten(self.stack.anims.get(g))
+                      or not any(l.id == "cobblemon" for l, _ in self.stack.anims.get(g, []))}
             renames = {g: f"ce_{g}" for g in groups}
             for g in sorted(groups):
                 alayer, arel = self.stack.anim(g)
@@ -496,7 +529,7 @@ class Vendor:
 
 def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[str],
                       retex: Retexturer, style, geometry: "Geometry | None" = None,
-                      vendor: "Vendor | None" = None) -> list[dict]:
+                      vendor: "Vendor | None" = None, pin: bool = False) -> list[dict]:
     """Mirror every variation (Cobblemon's and those of mods whose art may be adapted) with the collection aspect added.
 
     Cobblemon picks the last matching variation for each property, so copying the list in order, each with the
@@ -521,13 +554,16 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
         copy = {"aspects": aspects + [aspect]}
         if "condition" in v:
             copy["condition"] = v["condition"]
-        if "poser" in v:
-            copy["poser"] = vendor.poser(v["poser"], model) if vendor else v["poser"]
-        if "model" in v:
-            copy["model"] = vendor.model(v["model"]) if vendor else v["model"]
-            if vendor and copy["model"] != v["model"] and "poser" not in v:
-                # the model is vendored but its poser is inherited: pin the vendored poser too
-                copy["poser"] = vendor.poser(resolved(variations, index, "poser"), model)
+        if pin and vendor:
+            # pinned only for species where another mod would otherwise swap the model under our texture, and
+            # only ever to model ids that exist at launch (Vendor.model)
+            if "poser" in v:
+                copy["poser"] = vendor.poser(v["poser"], v.get("model", model))
+            if "model" in v:
+                copy["model"] = vendor.model(v["model"])
+                if v["model"] in vendor.foreign_overwritten and "poser" not in v:
+                    # the model is vendored but its poser is inherited: pin the vendored poser too
+                    copy["poser"] = vendor.poser(resolved(variations, index, "poser"), model)
         layer_of = getattr(retex, "layer_of", None)
         other_mod = layer_of is not None and layer_of(v) != "cobblemon"
         eyes = eye_mask_for(set(aspects), model, alpha_layers, same_model_only=other_mod)
@@ -551,6 +587,36 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
             copy["layers"] = layers
         out.append(copy)
     return out
+
+
+def needs_pin(cob: "Cobblemon", name: str, variations: list[dict]) -> bool:
+    """True when a mod whose art can't be adapted would put a different model under one of our textures: it
+    overwrites a model file we rely on, or its resolvers resolve another model for one of our aspect sets."""
+    pairs = cob.effective.get(name, [])
+    for i, v in enumerate(variations):
+        aspects = set(v.get("aspects", []))
+        mine = resolved(variations, i, "model")
+        if mine and cob.stack.overwritten(cob.stack.models.get(tuple(mine.split(":", 1)))):
+            return True
+        theirs = resolved_state(pairs, aspects).get("model")
+        if theirs and mine and theirs != mine:
+            return True
+    return False
+
+
+def check_launch_safe(stack: "Stack", res_root: Path):
+    """Every model a resolver names must exist at launch, or Cobblemon's resource reload stops (the game hangs on
+    the loading screen): only Cobblemon's own models and files in this jar are allowed."""
+    ours = {f.name[:-len(".json")] for f in (RES / "assets" / MOD_ID / "bedrock" / "pokemon" / "models").rglob("*.json")}
+    for f in res_root.rglob("*.json"):
+        for v in json.loads(f.read_text()).get("variations", []):
+            m = v.get("model")
+            if not m:
+                continue
+            ns, n = m.split(":", 1)
+            ok = n in ours if ns == MOD_ID else any(l.id == "cobblemon" for l, _ in stack.models.get((ns, n), []))
+            if not ok:
+                raise SystemExit(f"{f.relative_to(ROOT)} names model {m}, which may not exist at launch")
 
 
 def resolved_state(pairs: list[tuple[dict, object]], aspects: set[str]) -> dict:
@@ -581,7 +647,9 @@ def passthrough_variations(pairs: list[tuple[dict, object]], mirrored_sets: set[
         seen.add(aspects)
         state = resolved_state(pairs, set(aspects))
         names = {l.get("name", "") for l in state["layers"]}
-        copy = {"aspects": sorted(aspects) + [aspect], **{k: state[k] for k in ("model", "poser", "texture") if k in state}}
+        # texture and layers only: their model comes from their own variation, and naming a model another mod or
+        # pack provides would stop the game loading whenever that mod/pack isn't active
+        copy = {"aspects": sorted(aspects) + [aspect], **({"texture": state["texture"]} if "texture" in state else {})}
         layers = state["layers"] + [{"name": n, "enabled": False} for n in sorted(touched_layers - names)]
         if layers:
             copy["layers"] = layers
@@ -689,7 +757,7 @@ def build_collection(cob: Cobblemon, cfg: dict):
     geometry = Geometry(cob.stack)
     manifest = []
     first = lambda t: t["frames"][0] if isinstance(t, dict) else t
-    stats = {"compat_forms": 0, "passthrough": 0}
+    stats = {"compat_forms": 0, "passthrough": 0, "pinned": 0}
     for name in ordered:
         seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
         style = style_of.get(name, default_style)
@@ -700,10 +768,16 @@ def build_collection(cob: Cobblemon, cfg: dict):
             manifest.append(entry)
             continue
         folder, variations = cob.resolvers[name]
-        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects_for(name), retex, style, geometry, vendor)
+        pin = needs_pin(cob, name, variations)
+        stats["pinned"] += pin
+        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects_for(name), retex, style, geometry,
+                                     vendor, pin)
         touched = {l.get("name", "") for c in mirrored for l in c.get("layers", [])}
-        passthrough = passthrough_variations(cob.effective.get(name, []), {frozenset(v.get("aspects", [])) for v in variations},
-                                             aspect, cob.cosmetic_aspects_for(name), touched)
+        # with pinned models a passthrough can't restore another mod's model (it may not be loaded), so on those
+        # species the cosmetic simply shows on its own model in their forms
+        passthrough = [] if pin else passthrough_variations(
+            cob.effective.get(name, []), {frozenset(v.get("aspects", [])) for v in variations},
+            aspect, cob.cosmetic_aspects_for(name), touched)
         stats["passthrough"] += len(passthrough)
         write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
             "species": f"cobblemon:{name}",
@@ -751,6 +825,7 @@ def build_collection(cob: Cobblemon, cfg: dict):
         })
         manifest.append(entry)
         ordered.append(a["species"])
+    check_launch_safe(cob.stack, out_res_root)
     write_json(TOOLS / "preview" / f"manifest_{aspect}.json", manifest)
 
     data = RES / "data" / MOD_ID
@@ -769,7 +844,8 @@ def build_collection(cob: Cobblemon, cfg: dict):
     })
     print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines']) + len(addons)} lines, {retex.count} textures"
           + (f" (+ {len(addons)} addon line)" if addons else "")
-          + f"; {stats['compat_forms']} other-mod forms retextured, {stats['passthrough']} passed through"
+          + f"; {stats['compat_forms']} other-mod forms retextured, {stats['passthrough']} passed through,"
+          f" {stats['pinned']} species pinned"
           + (f"; vendored: {', '.join(f'{k} {n}' for k, n in vendor.vendored)}" if vendor.vendored else "") + ".")
 
 

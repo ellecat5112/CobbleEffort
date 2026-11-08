@@ -389,10 +389,13 @@ CobbleEffort is built to be used alongside this mod stack, and every update is g
 | **Fully Hisuian Starters** (resource pack) | Its Hisui-bias Cyndaquil/Quilava, Oshawott/Dewott and Rowlet/Dartrix (`region-bias-hisui`) show unchanged under the cosmetic (no licence is given, so its art isn't adapted). Cyndaquil, Quilava, Rowlet and Dartrix are in collections |
 | **Poke Costumes** (data pack) | Its costume forms (Rowlet, Magneton, Krookodile, Gengar…) show unchanged under the cosmetic. Its cosmetic items don't clash with ours. It replaces Cobblemon's Black Glasses item list, which the generator follows |
 
-How it works: every cosmetic variation pins the model and poser it was painted for, so another mod replacing the
-base model at a lower resolver order can't put the cosmetic texture on the wrong model. Forms added by mods whose
-licence doesn't allow adapted art get a "passthrough" copy that restores exactly what the game shows without the
-cosmetic. The cosmetic steps aside in that form rather than looking broken.
+How it works: a resolver may only name models that exist whatever is installed, either Cobblemon's own or copies
+shipped in CobbleEffort. Cobblemon loads every named model at startup, and a missing one stops the game on the
+loading screen (v0.10.0 and v0.10.1 had this bug). Where a mod whose art can't be adapted would put a different model
+under a cosmetic texture, that species' cosmetic variations pin their model (shipping a copy when needed). Elsewhere
+the cosmetic only swaps textures. Forms added by those mods get a "passthrough" entry (texture and layers only) that
+restores what the game shows without the cosmetic. On the few pinned species the cosmetic shows on its own model
+instead.
 
 ![Mega Showdown forms and Baby Legends babies, original vs. cosmetic](docs/compat_forms_preview.png)
 

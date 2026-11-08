@@ -25,7 +25,11 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
    user for any that are missing, and never commit them). It merges species data (other mods' pre-evolutions and evolutions
    join families), retextures forms from `derivatives: true` mods, passes through forms from the others, pins
    model+poser on every copy, and vendors Cobblemon's model/poser/animations when a no-derivatives mod overwrites
-   them. Members modelled only by a no-derivatives mod go under `painted` in mods.json. When a mod is added to the
+   them. Members modelled only by a no-derivatives mod go under `painted` in mods.json.
+   **Never name a model another mod/pack provides** in a resolver: Cobblemon loads every named model at startup and the
+   game hangs on the Mojang loading screen if one is missing (data packs' and disabled resource packs' assets never
+   load). Only `cobblemon:` models Cobblemon ships, or `cobbleeffort:` copies (Vendor), are allowed. Posers too (they're
+   resolved at render time). The generator (`check_launch_safe`) and `validateData` enforce it. When a mod is added to the
    stack, add it to mods.json and rebuild everything.
 
 ## Workflow

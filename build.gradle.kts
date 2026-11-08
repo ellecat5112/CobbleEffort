@@ -99,6 +99,9 @@ val validateData by tasks.registering {
             val json = slurper.parse(f) as Map<String, Any?>
             (json["variations"] as List<Map<String, Any?>>).forEach { v ->
                 (v["model"] as? String)?.split(":", limit = 2)?.let { (ns, name) ->
+                    // Cobblemon loads every named model at startup and the game hangs on the loading screen if one
+                    // is missing, so only Cobblemon's own models or ones shipped here may be named
+                    if (ns != modId && ns != "cobblemon") throw GradleException("${f.name} names another mod's model ${v["model"]}")
                     if (ns == modId && name !in models) throw GradleException("${f.name} references missing model ${v["model"]}")
                     pinned++
                 }
