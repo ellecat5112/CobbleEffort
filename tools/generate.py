@@ -163,20 +163,29 @@ class Cobblemon:
 # ---------------------------------------------------------------------------------------------
 
 class Retexturer:
-    def __init__(self, cobblemon: Path, aspect: str, style, out_root: Path):
+    """Writes retextured PNGs. Styles expose:
+
+    retexture(base, eyes, seed, shiny, frame=0, layer=False) -> Image
+              layer is False for a body texture, "emissive" for a glowing layer, "plain" for any other layer
+    EMISSIVE  "disable" | "retexture"
+    FRAMES    optional, >1 turns every static texture into an animation of that many frames
+    FPS       optional, frames per second for those animations
+    """
+
+    def __init__(self, cobblemon: Path, aspect: str, out_root: Path):
         self.cobblemon = cobblemon
         self.aspect = aspect
-        self.style = style
         self.out_root = out_root
-        self.done: dict[tuple[str, str], str] = {}
+        self.done: dict[tuple, str] = {}
 
-    def __call__(self, src_id: str, eyes_id: str | None, seed: int) -> str:
-        key = (src_id, eyes_id or "")
+    def __call__(self, src_id: str, eyes_id: str | None, seed: int, style, layer: str | bool = False,
+                 frame: int = 0, suffix: str = "") -> str:
+        key = (src_id, eyes_id or "", style.__name__, layer, frame, suffix)
         if key in self.done:
             return self.done[key]
         ns, path = src_id.split(":", 1)
         rel = Path(path).relative_to("textures/pokemon") if path.startswith("textures/pokemon/") else Path(ns) / path
-        out_rel = rel.with_name(f"{rel.stem}_{self.aspect}.png")
+        out_rel = rel.with_name(f"{rel.stem}_{self.aspect}{suffix}.png")
         src = resolve_path(self.cobblemon, src_id)
         if not src.exists():
             raise SystemExit(f"Missing source texture {src_id} ({src})")
@@ -189,7 +198,11 @@ class Retexturer:
                 # only trust the eye mask when it was painted for the same UV layout
                 if eyes.width * base.height != eyes.height * base.width:
                     eyes = None
-        img = self.style.retexture(base, eyes, seed, shiny="shiny" in rel.stem)
+        shiny = "shiny" in rel.stem
+        if frame or layer:
+            img = style.retexture(base, eyes, seed, shiny, frame=frame, layer=layer)
+        else:
+            img = style.retexture(base, eyes, seed, shiny)
         dest = self.out_root / out_rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         img.save(dest, optimize=True)
@@ -197,12 +210,21 @@ class Retexturer:
         self.done[key] = new_id
         return new_id
 
-    def supplier(self, tex, eyes_id: str | None, seed: int):
+    @property
+    def count(self) -> int:
+        return len(self.done)
+
+    def supplier(self, tex, eyes_id: str | None, seed: int, style, layer: str | bool = False):
         """Static texture id, or an animated supplier {"frames": [...], ...}."""
+        frames = getattr(style, "FRAMES", 1)
         if isinstance(tex, str):
-            return self(tex, eyes_id, seed)
+            if frames <= 1:
+                return self(tex, eyes_id, seed, style, layer)
+            return {"frames": [self(tex, eyes_id, seed, style, layer, i, f"_{i}") for i in range(frames)],
+                    "fps": getattr(style, "FPS", 6), "loop": True}
         if isinstance(tex, dict) and "frames" in tex:
-            return {**tex, "frames": [self(f, eyes_id, seed) for f in tex["frames"]]}
+            return {**tex, "frames": [self(f, eyes_id, seed, style, layer, i % max(1, frames))
+                                      for i, f in enumerate(tex["frames"])]}
         return tex
 
 
@@ -217,7 +239,7 @@ def eye_mask_for(variation_aspects: set[str], alpha_layers: list[tuple[set[str],
 
 
 def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[str],
-                      retex: Retexturer, emissive: str) -> list[dict]:
+                      retex: Retexturer, style) -> list[dict]:
     """Mirror every vanilla variation with the collection aspect added.
 
     Cobblemon picks the last matching variation for each property, so copying the vanilla list in order,
@@ -240,13 +262,14 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
         if "condition" in v:
             copy["condition"] = v["condition"]
         if "texture" in v:
-            copy["texture"] = retex.supplier(v["texture"], eye_mask_for(set(aspects), alpha_layers), seed)
+            copy["texture"] = retex.supplier(v["texture"], eye_mask_for(set(aspects), alpha_layers), seed, style)
         layers = []
         for layer in v.get("layers") or []:
-            if layer.get("emissive") and emissive == "disable":
+            if layer.get("emissive") and style.EMISSIVE == "disable":
                 layers.append({"name": layer["name"], "enabled": False})
             elif "texture" in layer:
-                layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed)})
+                kind = "emissive" if layer.get("emissive") else "plain"
+                layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed, style, layer=kind)})
         if layers:
             copy["layers"] = layers
         out.append(copy)
@@ -259,8 +282,15 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
 
 def build_collection(cob: Cobblemon, cfg: dict):
     aspect, feature = cfg["aspect"], cfg["feature"]
-    style = importlib.import_module(f"styles.{cfg['style']}")
+    default_style = importlib.import_module(f"styles.{cfg['style']}")
     families = cob.families(cfg["extra_links"])
+    # optional per-line looks, e.g. {"charmander": "halloween_skeleton"}; applies to the whole line
+    style_of: dict[str, object] = {}
+    for pick, name in cfg.get("line_styles", {}).items():
+        if pick not in cfg["lines"]:
+            raise SystemExit(f"{cfg['name']}: line_styles names {pick}, which is not in lines")
+        for member in families[pick]:
+            style_of[member] = importlib.import_module(f"styles.{name}")
 
     members: set[str] = set()
     print(f"[{cfg['name']}] evolutionary lines:")
@@ -271,7 +301,8 @@ def build_collection(cob: Cobblemon, cfg: dict):
         missing = [n for n in family if n not in cob.resolvers]
         if missing:
             raise SystemExit(f"{pick}: no Cobblemon model for {missing}. The whole line must be retexturable.")
-        print(f"  {pick:12s} -> {', '.join(family)}")
+        look = cfg.get("line_styles", {}).get(pick)
+        print(f"  {pick:12s} -> {', '.join(family)}" + (f"  [{look}]" if look else ""))
         members.update(family)
     ordered = sorted(members, key=cob.dex)
 
@@ -280,12 +311,13 @@ def build_collection(cob: Cobblemon, cfg: dict):
     for generated in (out_tex_root, out_res_root):
         if generated.exists():
             shutil.rmtree(generated)   # this collection's outputs are fully regenerated: no stale files
-    retex = Retexturer(cob.root, aspect, style, out_tex_root)
+    retex = Retexturer(cob.root, aspect, out_tex_root)
     manifest = []
     for name in ordered:
         folder, variations = cob.resolvers[name]
         seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
-        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style.EMISSIVE)
+        style = style_of.get(name, default_style)
+        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style)
         write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
             "species": f"cobblemon:{name}",
             # Cobblemon sorts resolver files by "order" and the last matching variation wins,
@@ -294,8 +326,16 @@ def build_collection(cob: Cobblemon, cfg: dict):
             "variations": mirrored,
         })
         base = next(v for v in variations if not v.get("aspects") and "model" in v)
+        first = lambda t: t["frames"][0] if isinstance(t, dict) else t
+        mirrored_base = mirrored[0]
+        layers = []
+        for orig, new in zip(base.get("layers") or [], mirrored_base.get("layers") or []):
+            if "texture" in orig and new.get("enabled", True) and "texture" in new:
+                layers.append({"original": first(orig["texture"]), "retextured": first(new["texture"]),
+                               "emissive": bool(orig.get("emissive"))})
         manifest.append({"species": name, "folder": folder, "model": base["model"],
-                         "original": base["texture"], "retextured": mirrored[0]["texture"]})
+                         "original": first(base["texture"]), "retextured": first(mirrored_base["texture"]),
+                         "layers": layers})
     write_json(TOOLS / "preview" / f"manifest_{aspect}.json", manifest)
 
     data = RES / "data" / MOD_ID
@@ -312,7 +352,7 @@ def build_collection(cob: Cobblemon, cfg: dict):
     write_json(data / "tags" / "item" / f"{aspect}_cosmetics.json", {
         "replace": False, "values": cfg["cosmetic_items"],
     })
-    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines'])} lines, {len(retex.done)} textures.")
+    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines'])} lines, {retex.count} textures.")
 
 
 def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):

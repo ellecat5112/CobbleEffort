@@ -1,0 +1,71 @@
+{
+  "species": "cobblemon:charizard",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame1_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame1_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame2_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame3_halloween.png",
+              "cobbleeffort:textures/pokemon/halloween/0006_charizard/charizard_flame4_halloween.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

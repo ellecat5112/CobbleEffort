@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -110,6 +110,64 @@ modelled in Cobblemon and not already in another collection.
 Give a supported Pokémon one **Pumpkin Pie** as its cosmetic item. With commands: `/pokegive miltank thanksgiving`,
 `/pokegive squirtle thanksgiving shiny`. Pack makers can extend the item tag `#cobbleeffort:thanksgiving_cosmetics`.
 
+## Collection #3: Halloween (Nightmare) ⚠️ gore
+
+> **Content warning:** this collection is deliberately horrific. It has blood, gore, rotting flesh, wounds and
+> body horror. Players who don't want it simply never use the Carved Pumpkin cosmetic.
+
+18 evolutionary lines (**33 Pokémon**) turned into nightmares. These are **animated textures** (4 frames, 5 fps):
+
+* colour drained and darkened, mottled with **bruise-purple and rot-green**, grime along every edge
+* swollen **bruised lumps**, **torn patches of raw flesh**, some crudely **stitched** shut
+* **blood splatters** with drips running down, and a drop that creeps further each frame
+* **lots of extra, misplaced eyes**: bloodshot, with darting pupils, some blinking, some weeping blood
+* the Pokémon's own eyes turn blood red, and **misplaced copies** of them grow elsewhere on the body
+* **mouths full of jagged, yellowed, bloody teeth that gnash** open and shut
+* shiny → **pale corpse**: cold grey-blue skin, so the blood stands out more
+* glowing parts become a sickly **ghost-green**. Full-body glow layers (Shinx line) keep only their hottest spots,
+  so they don't hide the gore
+
+**Charmander line ("Bone-Rot"):** Charmander, Charmeleon and Charizard are **skeletons with flesh rotting off the
+bones**: cracked ivory bone, an exposed **rib cage** where the belly was, ragged rotting flesh with blood, ichor and
+maggots, hollow eye sockets with a flickering pink ember, a gnashing skeletal grin, and the tail fire burning
+**pink**. Shiny Charmanders have charred black bones.
+
+![Original vs. Nightmare](docs/halloween_preview.png)
+
+![Gnashing animation](docs/halloween_animation.gif)
+
+| Line | Pokémon |
+|------|---------|
+| **Charmander** (Bone-Rot) | Charmander → Charmeleon → Charizard |
+| Koffing | Koffing → Weezing (incl. Galarian) |
+| Sentret | Sentret → Furret |
+| Misdreavus | Misdreavus → Mismagius |
+| Absol | Absol |
+| Shinx | Shinx → Luxio → Luxray |
+| Glameow | Glameow → Purugly |
+| Timburr | Timburr → Gurdurr → Conkeldurr |
+| Sigilyph | Sigilyph |
+| Ducklett | Ducklett → Swanna |
+| Pancham | Pancham → Pangoro |
+| Comfey | Comfey |
+| Komala | Komala |
+| Dracovish | Dracovish |
+| Tarountula | Tarountula → Spidops |
+| Nacli | Nacli → Naclstack → Garganacl |
+| Klawf | Klawf |
+| Veluza | Veluza |
+
+The Charmander line was chosen by request. The other 17 were picked with
+`generate.py pick --count 17 --seed halloween-2026` from the 398 remaining eligible lines.
+
+Models aren't changed (this mod only retextures). The deformities, extra eyes and mouths are painted onto the
+existing models.
+
+### How to get one
+
+Give a supported Pokémon a **Carved Pumpkin** as its cosmetic item. With commands: `/pokegive charmander halloween`,
+`/pokegive tarountula halloween shiny`. Pack makers can extend the item tag `#cobbleeffort:halloween_cosmetics`.
+
 ## Requirements & versions
 
 | | |
@@ -134,8 +192,9 @@ Give a supported Pokémon one **Pumpkin Pie** as its cosmetic item. With command
 
 ### Regenerating / adding collections
 
-Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic item, `lines`) plus a texture
-style in `tools/styles/<style>.py`. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
+Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic item, `lines`, optional
+`line_styles` to give one line its own look) plus a texture style in `tools/styles/<style>.py`. A style can set
+`FRAMES`/`FPS` to make every texture an animation (Halloween does). Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
 
 ```
 pip install pillow

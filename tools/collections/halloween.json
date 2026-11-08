@@ -1,0 +1,33 @@
+{
+  "_comment": "Halloween collection: 'Nightmare' forms. Each name in 'lines' brings in its WHOLE evolutionary line. Charmander's line was requested by name (skeletal 'Bone-Rot' look, pink fire); the other 17 were picked with `generate.py pick --count 17 --seed halloween-2026` (random lines no other collection uses).",
+  "aspect": "halloween",
+  "feature": "halloween_nightmare",
+  "style": "halloween",
+  "cosmetic_items": [
+    "minecraft:carved_pumpkin"
+  ],
+  "lines": [
+    "charmander",
+    "koffing",
+    "sentret",
+    "misdreavus",
+    "absol",
+    "shinx",
+    "glameow",
+    "timburr",
+    "sigilyph",
+    "ducklett",
+    "pancham",
+    "comfey",
+    "komala",
+    "dracovish",
+    "tarountula",
+    "nacli",
+    "klawf",
+    "veluza"
+  ],
+  "line_styles": {
+    "charmander": "halloween_skeleton"
+  },
+  "extra_links": []
+}

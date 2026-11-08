@@ -4,6 +4,7 @@ const { chromium } = require('playwright');
 // Renders every species in a manifest written by tools/generate.py: original vs. retextured.
 const fs = require('fs'), path = require('path');
 const [ref, mod, outDir, manifestFile = 'manifest_backrooms.json'] = process.argv.slice(2);
+const size = Number(process.env.SIZE || 320);  // render size in px
 const manifest = JSON.parse(fs.readFileSync(path.resolve(__dirname, manifestFile)));
 const texPath = (root, id) => { const [ns, p] = id.split(':'); return path.join(root, 'assets', ns, p); };
 const modelsRoot = path.join(ref, 'assets/cobblemon/bedrock/pokemon/models');
@@ -22,9 +23,11 @@ const findModel = (id) => {
   fs.mkdirSync(outDir, { recursive: true });
   for (const e of manifest) {
     const geo = JSON.parse(fs.readFileSync(findModel(e.model)));
-    for (const [tag, file] of [['orig', texPath(ref, e.original)], ['new', texPath(mod, e.retextured)]]) {
-      const url = 'data:image/png;base64,' + fs.readFileSync(file).toString('base64');
-      const png = await page.evaluate(([g, u]) => window.renderModel(g, u, 320, 0), [geo, url]);
+    const dataUrl = f => 'data:image/png;base64,' + fs.readFileSync(f).toString('base64');
+    for (const [tag, root, key] of [['orig', ref, 'original'], ['new', mod, 'retextured']]) {
+      const url = dataUrl(texPath(root, e[key]));
+      const layers = (e.layers || []).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
+      const png = await page.evaluate(([g, u, ls, sz]) => window.renderModel(g, u, sz, 0, ls), [geo, url, layers, size]);
       fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }

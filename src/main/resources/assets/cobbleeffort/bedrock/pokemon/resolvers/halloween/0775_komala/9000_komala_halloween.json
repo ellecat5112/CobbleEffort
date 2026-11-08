@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:komala",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0775_komala/komala_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    }
+  ]
+}

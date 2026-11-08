@@ -56,7 +56,8 @@ def value_noise(w: int, h: int, cell: int, rng: random.Random):
     return out
 
 
-def retexture(base: Image.Image, eyes: Image.Image | None, seed: int, shiny: bool) -> Image.Image:
+def retexture(base: Image.Image, eyes: Image.Image | None, seed: int, shiny: bool,
+              frame: int = 0, layer: bool = False) -> Image.Image:
     rng = random.Random(seed)
     base = base.convert("RGBA")
     w, h = base.size

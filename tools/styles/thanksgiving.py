@@ -102,7 +102,8 @@ def recolour(r: int, g: int, b: int, shiny: bool):
     return tuple(int(max(0, min(255, c))) for c in out)
 
 
-def retexture(base: Image.Image, eyes: Image.Image | None, seed: int, shiny: bool) -> Image.Image:
+def retexture(base: Image.Image, eyes: Image.Image | None, seed: int, shiny: bool,
+              frame: int = 0, layer: bool = False) -> Image.Image:
     rng = random.Random(seed)
     base = base.convert("RGBA")
     w, h = base.size

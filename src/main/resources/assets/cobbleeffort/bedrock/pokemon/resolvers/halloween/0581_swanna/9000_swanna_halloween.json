@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:swanna",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    },
+    {
+      "aspects": [
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0581_swanna/swanna_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      }
+    }
+  ]
+}

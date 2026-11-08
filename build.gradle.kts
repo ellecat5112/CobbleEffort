@@ -72,18 +72,28 @@ val validateData by tasks.registering {
             count++
         }
         val resolvers = resDir.resolve("assets/$modId/bedrock/pokemon/resolvers")
+        var textures = 0
+        // a texture is either "ns:path" or an animation {"frames": ["ns:path", ...], ...}
+        fun texturesOf(t: Any?): List<String> = when (t) {
+            is String -> listOf(t)
+            is Map<*, *> -> (t["frames"] as? List<*>)?.map { it.toString() } ?: emptyList()
+            else -> emptyList()
+        }
         resolvers.walkTopDown().filter { it.isFile && it.extension == "json" }.forEach { f ->
             @Suppress("UNCHECKED_CAST")
             val json = slurper.parse(f) as Map<String, Any?>
             (json["variations"] as List<Map<String, Any?>>).forEach { v ->
-                val tex = v["texture"] as? String ?: return@forEach
-                val (ns, path) = tex.split(":", limit = 2)
-                if (ns == modId && !resDir.resolve("assets/$ns/$path").isFile) {
-                    throw GradleException("${f.name} references missing texture $tex")
+                val layers = (v["layers"] as? List<*>)?.mapNotNull { (it as? Map<*, *>)?.get("texture") } ?: emptyList()
+                (listOf(v["texture"]) + layers).flatMap(::texturesOf).forEach { tex ->
+                    val (ns, path) = tex.split(":", limit = 2)
+                    if (ns == modId && !resDir.resolve("assets/$ns/$path").isFile) {
+                        throw GradleException("${f.name} references missing texture $tex")
+                    }
+                    textures++
                 }
             }
         }
-        println("validateData: $count JSON files OK, resolver textures present.")
+        println("validateData: $count JSON files OK, all $textures resolver texture references present.")
     }
 }
 

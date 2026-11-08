@@ -4,7 +4,7 @@
 <script type="module">
 import * as THREE from 'three';
 const rad = d => d * Math.PI / 180;
-window.renderModel = async (geo, texUrl, size, yaw) => {
+window.renderModel = async (geo, texUrl, size, yaw, layers = []) => {
   const g = geo['minecraft:geometry'][0];
   const TW = g.description.texture_width, TH = g.description.texture_height;
   const tex = await new THREE.TextureLoader().loadAsync(texUrl);
@@ -65,6 +65,18 @@ window.renderModel = async (geo, texUrl, size, yaw) => {
         grp.add(mesh);
       }
     }
+  }
+  // Cobblemon layers redraw the whole model with another (mostly transparent) texture on top
+  const bodyOnly = root.clone();
+  for (const layer of layers) {
+    const lt = await new THREE.TextureLoader().loadAsync(layer.url);
+    lt.magFilter = THREE.NearestFilter; lt.minFilter = THREE.NearestFilter; lt.colorSpace = THREE.SRGBColorSpace;
+    const opts = { map: lt, transparent: true, alphaTest: 0.05, depthWrite: false, side: THREE.DoubleSide,
+                   polygonOffset: true, polygonOffsetFactor: -1, polygonOffsetUnits: -1 };
+    const lm = layer.emissive ? new THREE.MeshBasicMaterial(opts) : new THREE.MeshLambertMaterial(opts);
+    const copy = bodyOnly.clone();
+    copy.traverse(o => { if (o.isMesh) o.material = lm; });
+    root.add(copy); copy.position.set(0, 0, 0); copy.rotation.set(0, 0, 0);
   }
   root.rotation.y = rad(yaw);
   root.updateMatrixWorld(true);

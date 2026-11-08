@@ -13,6 +13,10 @@ made by the Cobblemon team and contributors.
   located with Cobblemon's `*_alpha.png` eye masks.
 * **Thanksgiving** (`tools/styles/thanksgiving.py`, textures under `.../pokemon/thanksgiving/`): colours remapped to
   an autumn harvest palette; edge "glaze" darkening and small maple-leaf stamps added; eyes left as in the original.
+* **Halloween** (`tools/styles/halloween.py`, `halloween_skeleton.py`, `_horror.py`; textures under
+  `.../pokemon/halloween/`): colours darkened and mottled; wounds, stitches, lumps, blood splatters and drips,
+  extra eyes and toothed mouths painted on and animated across 4 frames; the Charmander line repainted as bone,
+  ribs and rotting flesh, with its flame layer recoloured pink.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

@@ -1,0 +1,71 @@
+{
+  "species": "cobblemon:shinx",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_shiny_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_shiny_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_shiny_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/0403_shinx/shinx_emissive_shiny_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

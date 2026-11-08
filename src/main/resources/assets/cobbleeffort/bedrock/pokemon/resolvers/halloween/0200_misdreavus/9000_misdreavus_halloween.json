@@ -1,0 +1,71 @@
+{
+  "species": "cobblemon:misdreavus",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "halloween"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_shiny_halloween_0.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_shiny_halloween_1.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_shiny_halloween_2.png",
+          "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_shiny_halloween_3.png"
+        ],
+        "fps": 5,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/0200_misdreavus/misdreavus_emissive_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
