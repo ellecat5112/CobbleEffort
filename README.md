@@ -4,6 +4,8 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon).
+
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
 
@@ -63,6 +65,51 @@ menu while holding the carpet and choose the cosmetic slot). Take the carpet bac
 **Pack makers:** the accepted items come from the item tag `#cobbleeffort:backrooms_cosmetics`. Add items to it
 with a datapack (`data/cobbleeffort/tags/item/backrooms_cosmetics.json`).
 
+## Collection #2: Thanksgiving (Harvest)
+
+18 more evolutionary lines (**37 Pokémon**) dressed for a Thanksgiving table:
+
+* colours moved onto a **harvest palette** that keeps the original markings readable: deep reds become cranberry,
+  pinks peach, oranges pumpkin, yellows maize gold, greens sage, blues and cyans chestnut and toasted squash,
+  purples plum
+* greys, whites and blacks turned into warm neutrals: **pie-crust cream, cinnamon, dark roast**
+* a golden-brown **roast glaze** along the edges of each painted area
+* a few **fallen maple leaves** (pumpkin, amber, gold) stuck to the fur
+* **eyes keep their original colours**, so every Pokémon still looks like itself
+* **shiny → golden harvest**: everything pulled toward honey-gold
+* glowing parts keep glowing, recoloured like candlelight
+
+![Original vs. Harvest](docs/thanksgiving_preview.png)
+
+| Line | Pokémon |
+|------|---------|
+| Squirtle | Squirtle → Wartortle → Blastoise |
+| Meowth | Meowth (incl. Alolan & Galarian) → Persian / Perrserker |
+| Porygon | Porygon → Porygon2 → Porygon-Z |
+| Corsola | Corsola (incl. Galarian) → Cursola |
+| Miltank | Miltank |
+| Kecleon | Kecleon |
+| Bagon | Bagon → Shelgon → Salamence |
+| Croagunk | Croagunk → Toxicroak |
+| Carnivine | Carnivine |
+| Munna | Munna → Musharna |
+| Tirtouga | Tirtouga → Carracosta |
+| Ferroseed | Ferroseed → Ferrothorn |
+| Mienfoo | Mienfoo → Mienshao |
+| Grubbin | Grubbin → Charjabug → Vikavolt |
+| Bounsweet | Bounsweet → Steenee → Tsareena |
+| Pyukumuku | Pyukumuku |
+| Squawkabilly | Squawkabilly (all four plumages) |
+| Wiglett | Wiglett → Wugtrio |
+
+Picked with `generate.py pick --count 18 --seed thanksgiving-2026`: 18 random lines out of the 417 that are fully
+modelled in Cobblemon and not already in another collection.
+
+### How to get one
+
+Give a supported Pokémon one **Pumpkin Pie** as its cosmetic item. With commands: `/pokegive miltank thanksgiving`,
+`/pokegive squirtle thanksgiving shiny`. Pack makers can extend the item tag `#cobbleeffort:thanksgiving_cosmetics`.
+
 ## Requirements & versions
 
 | | |
@@ -85,48 +132,55 @@ with a datapack (`data/cobbleeffort/tags/item/backrooms_cosmetics.json`).
 
 `validateData` checks that every JSON file parses and every texture a resolver points to exists.
 
-### Regenerating / adding species
+### Regenerating / adding collections
 
-The textures, resolvers and data files are all generated from `tools/backrooms_species.json`. Its `lines` list
-names **one** species per evolutionary line, and the generator brings in the rest:
+Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic item, `lines`) plus a texture
+style in `tools/styles/<style>.py`. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
 
 ```
 pip install pillow
 git clone --depth 1 --branch 1.8.4 https://gitlab.com/cable-mc/cobblemon.git
-python3 tools/generate_backrooms.py --cobblemon cobblemon/common/src/main/resources
+python3 tools/generate.py --cobblemon cobblemon/common/src/main/resources build              # every collection
+python3 tools/generate.py --cobblemon cobblemon/common/src/main/resources build thanksgiving # just one
+python3 tools/generate.py --cobblemon cobblemon/common/src/main/resources pick --count 18 --seed <text>
 ```
 
-Add any member of a line to `lines` (e.g. `"pichu"` brings in Pichu, Pikachu and Raichu) and rerun. Each species
-has its own fixed seed, so reruns give byte-identical output. Generated folders are wiped and rebuilt on every run.
-`tools/preview/` renders original vs. Still Life models in headless Chromium (three.js) for a quick look.
+`pick` randomly chooses new evolutionary lines that are fully modelled and not used by any collection yet. Put
+its first column into a new config's `lines`. Each species has a fixed seed per collection, so reruns give
+byte-identical output, and each collection's generated folders are wiped and rebuilt on every run.
+`tools/preview/` renders original vs. retextured models in headless Chromium (three.js) for a quick look.
 
 ### Collection rules
 
 These hold for every collection, now and in future:
 
-1. **Whole evolutionary lines only.** Config files list lines, never single stages. `generate_backrooms.py`
-   works out the family (pre-evolutions, evolutions, branches, forms' evolution links) from Cobblemon's
-   `data/cobblemon/species`, and **stops with an error** if any member of a line has no Cobblemon model to retexture.
-   Evolutions Cobblemon's data doesn't link can be joined with `extra_links`.
+1. **Whole evolutionary lines only.** Configs list lines, never single stages. The generator works out each family
+   (pre-evolutions, evolutions, branches, forms' evolution links) from Cobblemon's `data/cobblemon/species`, and
+   **stops with an error** if any member of a line has no Cobblemon model to retexture. Evolutions Cobblemon's data
+   doesn't link can be joined with `extra_links`.
 2. **Every vanilla variation is mirrored.** For each species, every variation in Cobblemon's resolver
-   (shiny, gender, regional forms, model swaps, animated textures, extra layers) is copied with the cosmetic aspect added
-   and its textures retextured. So the form keeps working through evolution, gender, regional and shiny changes.
-3. **Releases are zips.** `./gradlew build` puts the jar inside `build/libs/<name>.zip`.
+   (shiny, gender, regional forms, model swaps, animated textures, extra layers) is copied with the cosmetic aspect
+   added and its textures retextured. So the form keeps working through evolution, gender, regional and shiny changes.
+3. **No overlap.** A species belongs to at most one collection, and each collection has its own cosmetic item.
+   The generator refuses to build otherwise.
+4. **Releases are zips.** `./gradlew build` puts the jar inside `build/libs/<name>.zip`.
 
 ## How it works (for future collections)
 
+Per collection (`<aspect>` = `backrooms`, `thanksgiving`, …):
+
 | File | Purpose |
 |------|---------|
-| `data/cobbleeffort/cosmetic_items/backrooms.json` | Yellow Carpet in the cosmetic slot → aspect `backrooms` |
-| `data/cobbleeffort/species_features/backrooms_still_life.json` | flag feature `backrooms` (for `/pokegive … backrooms`) |
-| `data/cobbleeffort/species_feature_assignments/backrooms_still_life.json` | which species get the flag |
-| `data/cobbleeffort/tags/item/backrooms_cosmetics.json` | items accepted for the cosmetic |
-| `assets/cobbleeffort/bedrock/pokemon/resolvers/<species>/9000_*_backrooms.json` | `order: 9000` copies of every vanilla variation with the aspect added |
-| `assets/cobbleeffort/textures/pokemon/backrooms/<species>/` | the Still Life textures |
+| `data/cobbleeffort/cosmetic_items/<aspect>.json` | the collection's item in the cosmetic slot → aspect `<aspect>` |
+| `data/cobbleeffort/species_features/<feature>.json` | flag feature (for `/pokegive … <aspect>`) |
+| `data/cobbleeffort/species_feature_assignments/<feature>.json` | which species get the flag |
+| `data/cobbleeffort/tags/item/<aspect>_cosmetics.json` | items accepted for the cosmetic |
+| `assets/cobbleeffort/bedrock/pokemon/resolvers/<aspect>/<species>/9000_*.json` | `order: 9000` copies of every vanilla variation with the aspect added |
+| `assets/cobbleeffort/textures/pokemon/<aspect>/<species>/` | the retextured textures |
 
 Cobblemon merges every resolver file for a species, sorted by `order`, and the **last** matching variation wins.
-So the high order, combined with mirroring the vanilla variations in order, puts the right Still Life texture on top
-in every combination (base, shiny, female, regional…) without touching Cobblemon's files.
+So the high order, combined with mirroring the vanilla variations in order, puts the right texture on top in every
+combination (base, shiny, female, regional…) without touching Cobblemon's files.
 
 ## Credits & licence
 

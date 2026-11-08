@@ -6,9 +6,13 @@ Every texture under `src/main/resources/assets/cobbleeffort/textures/pokemon/` i
 from [Cobblemon](https://gitlab.com/cable-mc/cobblemon) (tag `1.8.4`, `common/src/main/resources/assets/cobblemon/textures/pokemon/`),
 made by the Cobblemon team and contributors.
 
-**Changes made:** `tools/generate_backrooms.py` turned the originals into "Still Life" versions. It remapped the
-colours to a plaster/clay palette, added stain, grain, seam and row-shift effects, and repainted, duplicated and
-smeared the eyes, which it locates with Cobblemon's `*_alpha.png` eye masks.
+**Changes made:** `tools/generate.py` transforms the originals with one style per collection:
+
+* **Backrooms** (`tools/styles/backrooms.py`, textures under `.../pokemon/backrooms/`): colours remapped to a
+  plaster/clay palette; stain, grain, seam and row-shift effects added; eyes repainted, duplicated and smeared,
+  located with Cobblemon's `*_alpha.png` eye masks.
+* **Thanksgiving** (`tools/styles/thanksgiving.py`, textures under `.../pokemon/thanksgiving/`): colours remapped to
+  an autumn harvest palette; edge "glaze" darkening and small maple-leaf stamps added; eyes left as in the original.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
@@ -16,8 +20,8 @@ e.g. `assets/cobblemon/bedrock/pokemon/models/0082_magneton/license`):
 <https://creativecommons.org/licenses/by-nc/3.0/>.
 The adapted textures are shared under those same terms. **No commercial use.**
 
-The `docs/backrooms_preview.png` image shows Cobblemon models rendered with both the original and the adapted
-textures, and is covered by the same terms.
+The `docs/*_preview.png` images show Cobblemon models rendered with both the original and the adapted
+textures, and are covered by the same terms.
 
 ## Code and data
 

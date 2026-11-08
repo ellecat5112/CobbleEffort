@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:munna",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0517_munna/munna_thanksgiving.png",
+      "layers": [
+        {
+          "name": "translucency",
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0517_munna/munna_transparency_thanksgiving.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0517_munna/munna_shiny_thanksgiving.png"
+    }
+  ]
+}

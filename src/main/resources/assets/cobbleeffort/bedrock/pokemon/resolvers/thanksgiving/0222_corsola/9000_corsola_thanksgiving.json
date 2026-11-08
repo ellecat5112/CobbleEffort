@@ -1,0 +1,64 @@
+{
+  "species": "cobblemon:corsola",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "galarian",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_thanksgiving.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_emissive_thanksgiving.png",
+          "translucent": true
+        },
+        {
+          "name": "ectoplasm",
+          "emissive": false,
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_ectoplasm_thanksgiving.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_shiny_thanksgiving.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_emissive_shiny_thanksgiving.png",
+          "translucent": true
+        },
+        {
+          "name": "ectoplasm",
+          "emissive": false,
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0222_corsola/corsola_galarian_ectoplasm_shiny_thanksgiving.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    }
+  ]
+}

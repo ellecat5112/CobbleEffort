@@ -1,10 +1,10 @@
 const { chromium } = require('playwright');
 // Usage: npm install, serve this folder (python3 -m http.server 8765 --bind 127.0.0.1), then
-//   node render.js <cobblemon>/common/src/main/resources ../../src/main/resources out
-// Renders every species in manifest.json (written by generate_backrooms.py): original vs. Still Life.
+//   node render.js <cobblemon>/common/src/main/resources ../../src/main/resources out manifest_<aspect>.json
+// Renders every species in a manifest written by tools/generate.py: original vs. retextured.
 const fs = require('fs'), path = require('path');
-const [ref, mod, outDir] = process.argv.slice(2);
-const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, 'manifest.json')));
+const [ref, mod, outDir, manifestFile = 'manifest_backrooms.json'] = process.argv.slice(2);
+const manifest = JSON.parse(fs.readFileSync(path.resolve(__dirname, manifestFile)));
 const texPath = (root, id) => { const [ns, p] = id.split(':'); return path.join(root, 'assets', ns, p); };
 const modelsRoot = path.join(ref, 'assets/cobblemon/bedrock/pokemon/models');
 const findModel = (id) => {
@@ -22,7 +22,7 @@ const findModel = (id) => {
   fs.mkdirSync(outDir, { recursive: true });
   for (const e of manifest) {
     const geo = JSON.parse(fs.readFileSync(findModel(e.model)));
-    for (const [tag, file] of [['orig', texPath(ref, e.original)], ['still', texPath(mod, e.still_life)]]) {
+    for (const [tag, file] of [['orig', texPath(ref, e.original)], ['new', texPath(mod, e.retextured)]]) {
       const url = 'data:image/png;base64,' + fs.readFileSync(file).toString('base64');
       const png = await page.evaluate(([g, u]) => window.renderModel(g, u, 320, 0), [geo, url]);
       fs.writeFileSync(path.join(outDir, `${e.species}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));

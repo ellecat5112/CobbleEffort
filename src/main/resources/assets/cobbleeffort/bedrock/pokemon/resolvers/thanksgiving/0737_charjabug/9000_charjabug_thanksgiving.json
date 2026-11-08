@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:charjabug",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0737_charjabug/charjabug_thanksgiving.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0737_charjabug/charjabug_emissive_thanksgiving.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "thanksgiving"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/thanksgiving/0737_charjabug/charjabug_shiny_thanksgiving.png"
+    }
+  ]
+}

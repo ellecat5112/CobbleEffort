@@ -1,0 +1,379 @@
+#!/usr/bin/env python3
+"""
+CobbleEffort collection generator.
+
+Every collection lives in tools/collections/<name>.json and has a texture style in
+tools/styles/<style>.py. For each collection this script writes:
+
+  * retextured PNGs for every species in each listed species' WHOLE evolutionary line
+    (pre-evolutions, evolutions and branches)
+  * an order-9000 resolver per species that mirrors every vanilla variation with the
+    collection's aspect added
+  * the cosmetic-item, item-tag, species-feature and species-feature-assignment data files
+  * tools/preview/manifest_<aspect>.json for the preview renderer
+
+Usage:
+    python3 tools/generate.py --cobblemon <resources-root> build [collection ...]
+    python3 tools/generate.py --cobblemon <resources-root> pick --count 18 --seed <text>
+
+<resources-root> contains assets/cobblemon and data/cobblemon (a Cobblemon source checkout's
+common/src/main/resources, or an extracted Cobblemon jar). Output is deterministic: every
+species has a fixed seed per collection, so reruns are byte-identical.
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import importlib
+import json
+import random
+import shutil
+from pathlib import Path
+
+from PIL import Image
+
+TOOLS = Path(__file__).resolve().parent
+ROOT = TOOLS.parent
+RES = ROOT / "src" / "main" / "resources"
+COLLECTIONS = TOOLS / "collections"
+MOD_ID = "cobbleeffort"
+RESOLVER_ORDER = 9000
+
+
+def resolve_path(assets_root: Path, identifier: str) -> Path:
+    ns, path = identifier.split(":", 1)
+    return assets_root / "assets" / ns / path
+
+
+def write_json(path: Path, obj):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(obj, indent=2) + "\n")
+
+
+def load_collection(name: str) -> dict:
+    cfg = json.loads((COLLECTIONS / f"{name}.json").read_text())
+    cfg.setdefault("extra_links", [])
+    cfg["name"] = name
+    return cfg
+
+
+def all_collections() -> list[str]:
+    return sorted(p.stem for p in COLLECTIONS.glob("*.json"))
+
+
+# ---------------------------------------------------------------------------------------------
+# Cobblemon data
+# ---------------------------------------------------------------------------------------------
+
+class Cobblemon:
+    def __init__(self, root: Path):
+        self.root = root
+        self.species = self._load_species()
+        self.resolvers = self._load_resolvers()
+        self.cosmetic_aspects = self._load_cosmetic_aspects()
+
+    def _load_species(self) -> dict[str, dict]:
+        species = {}
+        for f in (self.root / "data" / "cobblemon" / "species").glob("*/*.json"):
+            species[f.stem] = json.loads(f.read_text())
+        if not species:
+            raise SystemExit(f"No species data under {self.root}/data/cobblemon/species")
+        return species
+
+    def _load_resolvers(self) -> dict[str, tuple[str, list[dict]]]:
+        """species -> (resolver folder, merged variations in Cobblemon's load order)."""
+        sets: dict[str, list[tuple[int, str, dict]]] = {}
+        root = self.root / "assets" / "cobblemon" / "bedrock" / "pokemon" / "resolvers"
+        for f in sorted(root.rglob("*.json")):
+            data = json.loads(f.read_text())
+            name = data.get("species", data.get("name", "")).split(":")[-1]
+            sets.setdefault(name, []).append((data.get("order", 0), f.parent.name, data))
+        out = {}
+        for name, entries in sets.items():
+            entries.sort(key=lambda e: e[0])
+            out[name] = (entries[0][1], [v for e in entries for v in e[2].get("variations", [])])
+        return out
+
+    def _load_cosmetic_aspects(self) -> set[str]:
+        """Aspects that only ever come from another cosmetic item. A Pokémon wearing ours can't have them."""
+        aspects = set()
+        for f in (self.root / "data" / "cobblemon" / "cosmetic_items").glob("*.json"):
+            for item in json.loads(f.read_text()).get("cosmeticItems", []):
+                aspects.update(item.get("aspects", []))
+        return aspects
+
+    def dex(self, name: str) -> int:
+        return self.species[name]["nationalPokedexNumber"]
+
+    # -----------------------------------------------------------------------------------------
+    # Evolutionary lines
+    #
+    # Collection rule: a cosmetic never covers just one stage. A family is the connected group of
+    # species linked by "preEvolution"/"evolutions" (forms included), plus a collection's extra_links.
+    # -----------------------------------------------------------------------------------------
+
+    @staticmethod
+    def species_id(ref: str) -> str:
+        """'cobblemon:rattata alolan' / 'rattata form=alolan' -> 'rattata'."""
+        return ref.split()[0].split(":")[-1].lower()
+
+    def families(self, extra_links: list[list[str]]) -> dict[str, frozenset[str]]:
+        adj: dict[str, set[str]] = {n: set() for n in self.species}
+
+        def link(a: str, b: str):
+            if a in adj and b in adj:
+                adj[a].add(b)
+                adj[b].add(a)
+
+        for name, data in self.species.items():
+            for block in [data] + data.get("forms", []):
+                if block.get("preEvolution"):
+                    link(name, self.species_id(block["preEvolution"]))
+                for evo in block.get("evolutions", []):
+                    if evo.get("result"):
+                        link(name, self.species_id(evo["result"]))
+        for a, b in extra_links:
+            link(a, b)
+
+        families: dict[str, frozenset[str]] = {}
+        for name in self.species:
+            if name in families:
+                continue
+            seen, stack = set(), [name]
+            while stack:
+                cur = stack.pop()
+                if cur not in seen:
+                    seen.add(cur)
+                    stack.extend(adj[cur])
+            fam = frozenset(seen)
+            for member in fam:
+                families[member] = fam
+        return families
+
+    def retexturable(self, family) -> bool:
+        return all(
+            n in self.resolvers and self.species[n].get("implemented", True)
+            and any(not v.get("aspects") and "model" in v and "texture" in v for v in self.resolvers[n][1])
+            for n in family
+        )
+
+
+# ---------------------------------------------------------------------------------------------
+# Texturing and resolvers
+# ---------------------------------------------------------------------------------------------
+
+class Retexturer:
+    def __init__(self, cobblemon: Path, aspect: str, style, out_root: Path):
+        self.cobblemon = cobblemon
+        self.aspect = aspect
+        self.style = style
+        self.out_root = out_root
+        self.done: dict[tuple[str, str], str] = {}
+
+    def __call__(self, src_id: str, eyes_id: str | None, seed: int) -> str:
+        key = (src_id, eyes_id or "")
+        if key in self.done:
+            return self.done[key]
+        ns, path = src_id.split(":", 1)
+        rel = Path(path).relative_to("textures/pokemon") if path.startswith("textures/pokemon/") else Path(ns) / path
+        out_rel = rel.with_name(f"{rel.stem}_{self.aspect}.png")
+        src = resolve_path(self.cobblemon, src_id)
+        if not src.exists():
+            raise SystemExit(f"Missing source texture {src_id} ({src})")
+        base = Image.open(src)
+        eyes = None
+        if eyes_id:
+            eye_path = resolve_path(self.cobblemon, eyes_id)
+            if eye_path.exists():
+                eyes = Image.open(eye_path)
+                # only trust the eye mask when it was painted for the same UV layout
+                if eyes.width * base.height != eyes.height * base.width:
+                    eyes = None
+        img = self.style.retexture(base, eyes, seed, shiny="shiny" in rel.stem)
+        dest = self.out_root / out_rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        img.save(dest, optimize=True)
+        new_id = f"{MOD_ID}:textures/pokemon/{self.aspect}/{out_rel.as_posix()}"
+        self.done[key] = new_id
+        return new_id
+
+    def supplier(self, tex, eyes_id: str | None, seed: int):
+        """Static texture id, or an animated supplier {"frames": [...], ...}."""
+        if isinstance(tex, str):
+            return self(tex, eyes_id, seed)
+        if isinstance(tex, dict) and "frames" in tex:
+            return {**tex, "frames": [self(f, eyes_id, seed) for f in tex["frames"]]}
+        return tex
+
+
+def eye_mask_for(variation_aspects: set[str], alpha_layers: list[tuple[set[str], str]]) -> str | None:
+    """Pick the alpha-eyes texture Cobblemon would overlay on this variation (most specific match)."""
+    wanted = variation_aspects - {"shiny"}
+    best = None
+    for aspects, tex in alpha_layers:
+        if aspects <= wanted and (best is None or len(aspects) > len(best[0])):
+            best = (aspects, tex)
+    return best[1] if best else None
+
+
+def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[str],
+                      retex: Retexturer, emissive: str) -> list[dict]:
+    """Mirror every vanilla variation with the collection aspect added.
+
+    Cobblemon picks the last matching variation for each property, so copying the vanilla list in order,
+    each with the aspect added, keeps the vanilla logic (shiny, gender, regional forms, model swaps) while
+    every texture is swapped for the collection's version.
+    """
+    alpha_layers = [
+        (set(v.get("aspects", [])) - {"alpha_eyes"}, layer["texture"])
+        for v in variations if "alpha_eyes" in v.get("aspects", [])
+        for layer in v.get("layers", []) if isinstance(layer.get("texture"), str)
+    ]
+    out = []
+    for v in variations:
+        aspects = list(v.get("aspects", []))
+        if "alpha_eyes" in aspects or skip.intersection(aspects):
+            continue
+        if "texture" not in v and not v.get("layers"):
+            continue
+        copy = {"aspects": aspects + [aspect]}
+        if "condition" in v:
+            copy["condition"] = v["condition"]
+        if "texture" in v:
+            copy["texture"] = retex.supplier(v["texture"], eye_mask_for(set(aspects), alpha_layers), seed)
+        layers = []
+        for layer in v.get("layers") or []:
+            if layer.get("emissive") and emissive == "disable":
+                layers.append({"name": layer["name"], "enabled": False})
+            elif "texture" in layer:
+                layers.append({**layer, "texture": retex.supplier(layer["texture"], None, seed)})
+        if layers:
+            copy["layers"] = layers
+        out.append(copy)
+    return out
+
+
+# ---------------------------------------------------------------------------------------------
+# Commands
+# ---------------------------------------------------------------------------------------------
+
+def build_collection(cob: Cobblemon, cfg: dict):
+    aspect, feature = cfg["aspect"], cfg["feature"]
+    style = importlib.import_module(f"styles.{cfg['style']}")
+    families = cob.families(cfg["extra_links"])
+
+    members: set[str] = set()
+    print(f"[{cfg['name']}] evolutionary lines:")
+    for pick in cfg["lines"]:
+        if pick not in cob.species:
+            raise SystemExit(f"Unknown species in {cfg['name']}: {pick}")
+        family = sorted(families[pick], key=cob.dex)
+        missing = [n for n in family if n not in cob.resolvers]
+        if missing:
+            raise SystemExit(f"{pick}: no Cobblemon model for {missing}. The whole line must be retexturable.")
+        print(f"  {pick:12s} -> {', '.join(family)}")
+        members.update(family)
+    ordered = sorted(members, key=cob.dex)
+
+    out_tex_root = RES / "assets" / MOD_ID / "textures" / "pokemon" / aspect
+    out_res_root = RES / "assets" / MOD_ID / "bedrock" / "pokemon" / "resolvers" / aspect
+    for generated in (out_tex_root, out_res_root):
+        if generated.exists():
+            shutil.rmtree(generated)   # this collection's outputs are fully regenerated: no stale files
+    retex = Retexturer(cob.root, aspect, style, out_tex_root)
+    manifest = []
+    for name in ordered:
+        folder, variations = cob.resolvers[name]
+        seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
+        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style.EMISSIVE)
+        write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
+            "species": f"cobblemon:{name}",
+            # Cobblemon sorts resolver files by "order" and the last matching variation wins,
+            # so a high order keeps this collection's textures on top of every vanilla variation.
+            "order": RESOLVER_ORDER,
+            "variations": mirrored,
+        })
+        base = next(v for v in variations if not v.get("aspects") and "model" in v)
+        manifest.append({"species": name, "folder": folder, "model": base["model"],
+                         "original": base["texture"], "retextured": mirrored[0]["texture"]})
+    write_json(TOOLS / "preview" / f"manifest_{aspect}.json", manifest)
+
+    data = RES / "data" / MOD_ID
+    write_json(data / "species_features" / f"{feature}.json", {
+        "keys": [aspect], "type": "flag", "isAspect": True, "default": False,
+    })
+    write_json(data / "species_feature_assignments" / f"{feature}.json", {
+        "pokemon": ordered, "features": [feature],
+    })
+    write_json(data / "cosmetic_items" / f"{aspect}.json", {
+        "pokemon": ordered,
+        "cosmeticItems": [{"consumedItem": f"#{MOD_ID}:{aspect}_cosmetics", "aspects": [aspect]}],
+    })
+    write_json(data / "tags" / "item" / f"{aspect}_cosmetics.json", {
+        "replace": False, "values": cfg["cosmetic_items"],
+    })
+    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines'])} lines, {len(retex.done)} textures.")
+
+
+def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):
+    """Collections must not share species or cosmetic items."""
+    owner: dict[str, str] = {}
+    items: dict[str, str] = {}
+    for cfg in cfgs:
+        fam = cob.families(cfg["extra_links"])
+        for pick in cfg["lines"]:
+            for n in fam[pick]:
+                if owner.setdefault(n, cfg["name"]) != cfg["name"]:
+                    raise SystemExit(f"{n} is in both {owner[n]} and {cfg['name']}")
+        for item in cfg["cosmetic_items"]:
+            if items.setdefault(item, cfg["name"]) != cfg["name"]:
+                raise SystemExit(f"{item} is the cosmetic item of both {items[item]} and {cfg['name']}")
+
+
+def cmd_build(cob: Cobblemon, names: list[str]):
+    every = [load_collection(n) for n in all_collections()]
+    check_no_overlap(cob, every)
+    for cfg in every:
+        if not names or cfg["name"] in names:
+            build_collection(cob, cfg)
+
+
+def cmd_pick(cob: Cobblemon, count: int, seed: str):
+    """Randomly pick `count` new evolutionary lines that no collection uses yet."""
+    families = cob.families([])
+    taken = set()
+    for name in all_collections():
+        cfg = load_collection(name)
+        fam = cob.families(cfg["extra_links"])
+        for pick in cfg["lines"]:
+            taken |= fam[pick]
+    pool = sorted({fam for fam in families.values() if not fam & taken and cob.retexturable(fam)},
+                  key=lambda f: min(cob.dex(n) for n in f))
+    rng = random.Random(seed)
+    chosen = rng.sample(pool, count)
+    for fam in sorted(chosen, key=lambda f: min(cob.dex(n) for n in f)):
+        family = sorted(fam, key=cob.dex)
+        print(f"{family[0]:12s} {', '.join(family)}")
+    print(f"(picked {count} of {len(pool)} eligible lines with seed {seed!r})")
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--cobblemon", required=True, type=Path,
+                    help="Cobblemon resources root containing assets/cobblemon and data/cobblemon")
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    b = sub.add_parser("build", help="generate collections (all by default)")
+    b.add_argument("collections", nargs="*")
+    p = sub.add_parser("pick", help="randomly pick new evolutionary lines no collection uses yet")
+    p.add_argument("--count", type=int, default=18)
+    p.add_argument("--seed", required=True)
+    args = ap.parse_args()
+    cob = Cobblemon(args.cobblemon)
+    if args.cmd == "build":
+        cmd_build(cob, args.collections)
+    else:
+        cmd_pick(cob, args.count, args.seed)
+
+
+if __name__ == "__main__":
+    main()
