@@ -159,6 +159,63 @@ class Cobblemon:
 
 
 # ---------------------------------------------------------------------------------------------
+# Geometry hints: where a model's head and torso faces sit in its texture
+# ---------------------------------------------------------------------------------------------
+
+class Geometry:
+    """Reads Cobblemon .geo.json models to tell styles where the head's front/top faces and the torso's
+    front face are in the texture (in geo UV units; styles scale to the real texture size via tex_size).
+    Many Cobblemon models have their eyes as separate little cubes, so a face can't be found from the eyes."""
+
+    def __init__(self, root: Path):
+        self.root = root
+        self.cache: dict[str, dict | None] = {}
+        self.files = {f.name[:-len(".json")]: f for f in
+                      (root / "assets" / "cobblemon" / "bedrock" / "pokemon" / "models").rglob("*.geo.json")}
+
+    @staticmethod
+    def _box(cube):
+        uv = cube.get("uv")
+        if not isinstance(uv, list):
+            return None
+        w, h, d = (abs(int(round(v))) for v in cube["size"])
+        u, v = uv
+        return {"front": (u + d, v + d, w, h), "top": (u + d, v, w, d), "area": w * h}
+
+    def _best(self, bones, words):
+        best = None
+        for b in bones:
+            name = b["name"]
+            if name.startswith("locator") or not any(wd in name for wd in words):
+                continue
+            for c in b.get("cubes", []):
+                box = self._box(c)
+                if box and (best is None or box["area"] > best["area"]):
+                    best = box
+        return best
+
+    def hints(self, model_id: str | None):
+        if not model_id:
+            return None
+        if model_id not in self.cache:
+            f = self.files.get(model_id.split(":")[-1])
+            if f is None:
+                self.cache[model_id] = None
+            else:
+                g = json.loads(f.read_text())["minecraft:geometry"][0]
+                head = self._best(g["bones"], ("head",))
+                torso = self._best(g["bones"], ("torso", "body", "chest", "belly"))
+                d = g["description"]
+                self.cache[model_id] = {
+                    "tex_size": (d["texture_width"], d["texture_height"]),
+                    "head_front": head["front"] if head else None,
+                    "head_top": head["top"] if head else None,
+                    "torso_front": torso["front"] if torso else None,
+                }
+        return self.cache[model_id]
+
+
+# ---------------------------------------------------------------------------------------------
 # Texturing and resolvers
 # ---------------------------------------------------------------------------------------------
 
@@ -177,10 +234,14 @@ class Retexturer:
         self.aspect = aspect
         self.out_root = out_root
         self.done: dict[tuple, str] = {}
+        self.hints = None   # geometry hints for the variation being mirrored (styles opt in with WANTS_HINTS)
+
+    def _hint_kw(self, style):
+        return {"hints": self.hints} if getattr(style, "WANTS_HINTS", False) else {}
 
     def __call__(self, src_id: str, eyes_id: str | None, seed: int, style, layer: str | bool = False,
                  frame: int = 0, suffix: str = "") -> str:
-        key = (src_id, eyes_id or "", style.__name__, layer, frame, suffix)
+        key = (src_id, eyes_id or "", style.__name__, layer, frame, suffix, repr(self._hint_kw(style)))
         if key in self.done:
             return self.done[key]
         ns, path = src_id.split(":", 1)
@@ -200,9 +261,9 @@ class Retexturer:
                     eyes = None
         shiny = "shiny" in rel.stem
         if frame or layer:
-            img = style.retexture(base, eyes, seed, shiny, frame=frame, layer=layer)
+            img = style.retexture(base, eyes, seed, shiny, frame=frame, layer=layer, **self._hint_kw(style))
         else:
-            img = style.retexture(base, eyes, seed, shiny)
+            img = style.retexture(base, eyes, seed, shiny, **self._hint_kw(style))
         dest = self.out_root / out_rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         img.save(dest, optimize=True)
@@ -219,7 +280,7 @@ class Retexturer:
         frames = spec.get("frames", 1)
         ids = []
         for i in range(frames):
-            key = ("extra", src_id, eyes_id or "", style.__name__, spec["name"], i)
+            key = ("extra", src_id, eyes_id or "", style.__name__, spec["name"], i, repr(self._hint_kw(style)))
             if key not in self.done:
                 ns, path = src_id.split(":", 1)
                 rel = Path(path).relative_to("textures/pokemon") if path.startswith("textures/pokemon/") else Path(ns) / path
@@ -229,7 +290,7 @@ class Retexturer:
                     eyes = Image.open(resolve_path(self.cobblemon, eyes_id))
                     if eyes.width * base.height != eyes.height * base.width:
                         eyes = None
-                img = style.extra_layer(spec["name"], base, eyes, seed, "shiny" in rel.stem, i)
+                img = style.extra_layer(spec["name"], base, eyes, seed, "shiny" in rel.stem, i, **self._hint_kw(style))
                 if img is None:
                     self.done[key] = None
                 else:
@@ -271,8 +332,18 @@ def eye_mask_for(variation_aspects: set[str], alpha_layers: list[tuple[set[str],
     return best[1] if best else None
 
 
+def model_for(variations: list[dict], index: int) -> str | None:
+    """The model Cobblemon would use for variation[index]: the last variation up to it whose aspects it has."""
+    want = set(variations[index].get("aspects", []))
+    model = None
+    for v in variations[:index + 1]:
+        if "model" in v and set(v.get("aspects", [])) <= want:
+            model = v["model"]
+    return model
+
+
 def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[str],
-                      retex: Retexturer, style) -> list[dict]:
+                      retex: Retexturer, style, geometry: "Geometry | None" = None) -> list[dict]:
     """Mirror every vanilla variation with the collection aspect added.
 
     Cobblemon picks the last matching variation for each property, so copying the vanilla list in order,
@@ -285,7 +356,8 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
         for layer in v.get("layers", []) if isinstance(layer.get("texture"), str)
     ]
     out = []
-    for v in variations:
+    for index, v in enumerate(variations):
+        retex.hints = geometry.hints(model_for(variations, index)) if geometry else None
         aspects = list(v.get("aspects", []))
         if "alpha_eyes" in aspects or skip.intersection(aspects):
             continue
@@ -353,12 +425,13 @@ def build_collection(cob: Cobblemon, cfg: dict):
         if generated.exists():
             shutil.rmtree(generated)   # this collection's outputs are fully regenerated: no stale files
     retex = Retexturer(cob.root, aspect, out_tex_root)
+    geometry = Geometry(cob.root)
     manifest = []
     for name in ordered:
         folder, variations = cob.resolvers[name]
         seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
         style = style_of.get(name, default_style)
-        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style)
+        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style, geometry)
         write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
             "species": f"cobblemon:{name}",
             # Cobblemon sorts resolver files by "order" and the last matching variation wins,

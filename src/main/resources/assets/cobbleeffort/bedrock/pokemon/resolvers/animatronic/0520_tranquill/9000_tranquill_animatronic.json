@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:tranquill",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0520_tranquill/tranquill_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0520_tranquill/tranquill_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0520_tranquill/tranquill_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0520_tranquill/tranquill_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_comment": "Five Nights at Freddy's (1-6) collection: animatronic forms. Each name in 'lines' brings in its WHOLE evolutionary line. Requested by name: Teddiursa line as Classic Freddy, Torchic line as Classic Chica, Sandile line as Classic Foxy. The other 15 were picked with `generate.py pick --count 15 --seed fnaf-1987` and dealt round-robin one look per game: FNAF1 classic, FNAF2 withered + toy, FNAF3 springtrap, FNAF4 nightmare, FNAF5 funtime, FNAF6 scrap.",
+  "aspect": "animatronic",
+  "feature": "animatronic_fnaf",
+  "style": "fnaf_classic",
+  "cosmetic_items": [
+    "minecraft:clock"
+  ],
+  "lines": [
+    "teddiursa",
+    "torchic",
+    "sandile",
+    "seel",
+    "horsea",
+    "sunkern",
+    "murkrow",
+    "unown",
+    "finneon",
+    "patrat",
+    "pidove",
+    "audino",
+    "maractus",
+    "zorua",
+    "gothita",
+    "vanillite",
+    "helioptile",
+    "fidough"
+  ],
+  "line_styles": {
+    "teddiursa": "fnaf_freddy",
+    "torchic": "fnaf_chica",
+    "sandile": "fnaf_foxy",
+    "seel": "fnaf_classic",
+    "horsea": "fnaf_withered",
+    "sunkern": "fnaf_toy",
+    "murkrow": "fnaf_springtrap",
+    "unown": "fnaf_nightmare",
+    "finneon": "fnaf_funtime",
+    "patrat": "fnaf_scrap",
+    "pidove": "fnaf_classic",
+    "audino": "fnaf_withered",
+    "maractus": "fnaf_toy",
+    "zorua": "fnaf_springtrap",
+    "gothita": "fnaf_nightmare",
+    "vanillite": "fnaf_funtime",
+    "helioptile": "fnaf_scrap",
+    "fidough": "fnaf_classic"
+  },
+  "extra_links": []
+}

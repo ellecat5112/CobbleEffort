@@ -1,0 +1,45 @@
+{
+  "species": "cobblemon:patrat",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_emissive_animatronic.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_shiny_emissive_animatronic.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0504_patrat/patrat_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

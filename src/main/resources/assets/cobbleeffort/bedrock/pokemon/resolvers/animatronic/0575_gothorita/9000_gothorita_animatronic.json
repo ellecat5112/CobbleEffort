@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:gothorita",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0575_gothorita/gothorita_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0575_gothorita/gothorita_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0575_gothorita/gothorita_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0575_gothorita/gothorita_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

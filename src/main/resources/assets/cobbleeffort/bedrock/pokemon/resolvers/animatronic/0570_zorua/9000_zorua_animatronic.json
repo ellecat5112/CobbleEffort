@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:zorua",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_hisuian_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_hisuian_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_hisuian_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0570_zorua/zorua_hisuian_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

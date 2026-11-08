@@ -25,6 +25,10 @@ made by the Cobblemon team and contributors.
   pastel (or chocolate for shinies); painted-egg bands, zigzag ribbons, daisies and sprinkles added; the Togepi
   line repainted as Easter eggs (golden Fabergé for shinies) and the Lopunny line as the Easter Bunny (a chocolate
   bunny for shinies).
+* **Five Nights at Freddy's** (`tools/styles/fnaf_*.py`, `_animatronic.py`; textures under `.../pokemon/animatronic/`):
+  colours remapped per look (classic, withered, toy, springtrap, nightmare, funtime, scrap); felt, seams, rivets,
+  grime, endoskeleton tears, teeth and glowing eyes added; the Teddiursa, Torchic and Sandile lines repainted after
+  Freddy, Chica and Foxy.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
@@ -45,6 +49,9 @@ The build scripts, generator, data and resolver JSON are licensed under the
 * **CobblemonMoreCosmetics** (Archaeus) set the "more cosmetic forms through the cosmetic slot" model this mod follows.
 * **The Backrooms** by Kane Parsons (Kane Pixels) is the source of the Still Lifes and the Level 0 look. This is fan
   work; no footage or art from the series is used.
+
+* **Five Nights at Freddy's** by Scott Cawthon inspired collection #6 (fan work; no art or assets from the games
+  are used).
 
 Pokémon and all related names are trademarks of Nintendo, Game Freak and The Pokémon Company.
 CobbleEffort is not affiliated with or endorsed by them, the Cobblemon team, or Kane Parsons / A24.

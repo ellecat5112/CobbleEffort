@@ -1,0 +1,45 @@
+{
+  "species": "cobblemon:finneon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_emissive_animatronic.png"
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_shiny_emissive_animatronic.png"
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0456_finneon/finneon_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

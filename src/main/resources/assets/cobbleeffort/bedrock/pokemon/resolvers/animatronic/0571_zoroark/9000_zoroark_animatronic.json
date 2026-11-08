@@ -1,0 +1,88 @@
+{
+  "species": "cobblemon:zoroark",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_emissive_animatronic.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive2",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_emissive2_animatronic.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "animatronic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_shiny_animatronic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_shiny_emissive_animatronic.png",
+          "emissive": true
+        },
+        {
+          "name": "emissive2",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_shiny_emissive2_animatronic.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/animatronic/0571_zoroark/zoroark_hisuian_shiny_animatronic_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

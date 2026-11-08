@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon).
+**Collections so far:** #1 Backrooms (40 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (38 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -230,6 +230,43 @@ from the 361 remaining eligible lines.
 Give a supported Pokémon an **Egg** as its cosmetic item. With commands: `/pokegive togepi easter`,
 `/pokegive lopunny easter shiny`. Pack makers can extend the item tag `#cobbleeffort:easter_cosmetics`.
 
+## Collection #6: Five Nights at Freddy's (Animatronics)
+
+18 evolutionary lines (**40 Pokémon**) rebuilt as pizzeria animatronics, with **eyes that glow in the dark**
+(an extra emissive layer). Three of them are the classic cast:
+
+| Line | Look | Shiny |
+|------|------|-------|
+| **Teddiursa → Ursaring → Ursaluna** | **Classic Freddy**: brown felt bear, pale muzzle, black top hat, bow tie, animatronic grin, glowing blue eyes | **Golden Freddy** |
+| **Torchic → Combusken → Blaziken** | **Classic Chica**: yellow felt chicken, orange beak and feet, the "LET'S EAT!!!" bib, teeth, glowing violet eyes | **Toy Chica**: brighter, with rosy cheeks |
+| **Sandile → Krokorok → Krookodile** | **Classic Foxy**: rust-red fox suit torn open to the metal endoskeleton, eye patch with strap, sharp teeth, one glowing amber eye | **Mangle**: white and pink |
+
+The other 15 lines each wear the look of one game (dealt round-robin):
+
+| Game | Look | Lines |
+|------|------|-------|
+| FNAF 1 | **Classic**: worn felt, stitched seams, rivets, square teeth, white pinprick eyes | Seel, Pidove, Fidough |
+| FNAF 2 | **Withered**: faded, filthy, torn to the endoskeleton and wires, one eye dark | Horsea, Audino |
+| FNAF 2 | **Toy**: glossy plastic, brighter colours, rosy cheeks, shiny eyes | Sunkern, Maractus |
+| FNAF 3 | **Springtrap**: rotten olive-yellow suit, stains, wires | Murkrow, Zorua |
+| FNAF 4 | **Nightmare**: near-black, jagged tears lined with teeth, red pinprick eyes | Unown, Gothita |
+| FNAF 5 | **Funtime**: white glossy plating, pink/purple panels, faceplate seams, rosy cheeks | Finneon, Vanillite |
+| FNAF 6 | **Scrap**: rusted and patched with mismatched panels, burns and wires | Patrat, Helioptile |
+
+(each with its whole evolutionary line). Shinies of the generic looks are **Golden** animatronics.
+
+Teddiursa, Torchic and Sandile were chosen by request. The other 15 were picked with `generate.py pick --count 15 --seed fnaf-1987`.
+
+![Freddy, Chica and Foxy](docs/fnaf_characters.png)
+
+![Original vs. animatronic](docs/fnaf_preview.png)
+
+### How to get one
+
+Give a supported Pokémon a **Clock** (the night shift, 12 to 6 AM) as its cosmetic item. With commands:
+`/pokegive teddiursa animatronic`, `/pokegive sandile animatronic shiny`. Pack makers can extend the item tag
+`#cobbleeffort:animatronic_cosmetics`.
+
 ## Requirements & versions
 
 | | |
@@ -257,7 +294,9 @@ Give a supported Pokémon an **Egg** as its cosmetic item. With commands: `/poke
 Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic item, `lines`, optional
 `line_styles` to give one line its own look) plus a texture style in `tools/styles/<style>.py`. A style can set
 `FRAMES`/`FPS` to make every texture an animation (Halloween does), and `EXTRA_LAYERS` + `extra_layer()` to add
-its own layers on top of the body, such as Christmas's glowing, twinkling fairy lights. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
+its own layers on top of the body, such as Christmas's glowing, twinkling fairy lights. A style that sets
+`WANTS_HINTS` is told where the model's head front/top and torso front faces are in the texture (read from the
+`.geo.json`). FNAF uses this to put Freddy's hat on top of his head and Chica's bib on her chest. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
 
 ```
 pip install pillow
