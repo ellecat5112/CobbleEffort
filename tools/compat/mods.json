@@ -12,7 +12,13 @@
     {"id": "atm_x_msd", "name": "Cobblemon: AllTheMons x Mega Showdown", "source": "ATM_x_MSD_*.jar", "licence": "ALLTHEMONS LICENSE v3.2",
      "derivatives": false, "url": "https://github.com/Lvnatic-T/AllTheMons-x-Mega-Showdown"},
     {"id": "lost_lore", "name": "Cobblemon: Lost Lore", "source": "lost_lore*", "licence": "Lvnatic's General License 1.3",
-     "derivatives": false, "url": "https://github.com/Lvnatic-T/Lost-Lore"}
+     "derivatives": false, "url": "https://github.com/Lvnatic-T/Lost-Lore"},
+    {"id": "legendarymonuments", "name": "Legendary Monuments", "source": "legendarymonuments-*.jar", "licence": "All Rights Reserved",
+     "derivatives": false, "url": "https://modrinth.com/mod/legendary-monuments"},
+    {"id": "pokecostume", "name": "Poke Costumes (data pack)", "source": "PokeCostume_*.zip", "licence": "none stated",
+     "derivatives": false, "url": "https://modrinth.com/datapack/poke-costume"},
+    {"id": "fully_hisuian_starters", "name": "Fully Hisuian Starters (resource pack)", "source": "Fully_Hisuian_Starters_*.zip",
+     "licence": "none stated", "derivatives": false, "url": "https://modrinth.com/resourcepack/fully-hisuian-starters"}
   ],
   "_painted_comment": "Family members modelled only by a mod whose art can't be adapted. The generator reads just the UV layout of their model (no texture pixels) and paints an original base in the evolved form's Cobblemon colours (palette_from: aspect -> species, '' = default), then applies the collection's style.",
   "painted": {

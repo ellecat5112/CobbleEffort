@@ -34,6 +34,26 @@
         "fps": 5,
         "loop": true
       }
+    },
+    {
+      "aspects": [
+        "cosmetic_item-black_glasses",
+        "halloween"
+      ],
+      "layers": [
+        {
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/halloween/0675_pangoro/pangoro_serenaglasses_halloween_0.png",
+              "cobbleeffort:textures/pokemon/halloween/0675_pangoro/pangoro_serenaglasses_halloween_1.png",
+              "cobbleeffort:textures/pokemon/halloween/0675_pangoro/pangoro_serenaglasses_halloween_2.png",
+              "cobbleeffort:textures/pokemon/halloween/0675_pangoro/pangoro_serenaglasses_halloween_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          }
+        }
+      ]
     }
   ]
 }

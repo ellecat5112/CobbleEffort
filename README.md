@@ -11,7 +11,7 @@ evolution and branch of that Pokémon gets it too. The generator enforces this (
 
 **Built for a mod stack (since v0.10.0).** CobbleEffort is made to run alongside Mega Showdown (+ Extra Megas,
 Ores), Cobblemon: AllTheMons x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments,
-the Fully Hisuian Starters resource pack and the Poke Costumes data pack. Megas, Gigantamax and other new forms keep
+the Fully Hisuian Starters resource pack and the Poke Costumes data pack (all checked against their files). Megas, Gigantamax and other new forms keep
 the cosmetic, and other mods' model replacements don't break it. See [Compatibility](#compatibility).
 
 ## Collection #1: Backrooms (Still Lifes)
@@ -385,7 +385,9 @@ CobbleEffort is built to be used alongside this mod stack, and every update is g
 | **AllTheMons x Mega Showdown** | It replaces some Cobblemon models (Absol, Typhlosion, Rolycoly line, Bounsweet line, Frosmoth, Runerigus, Incineroar…). A cosmetic texture is painted for Cobblemon's model, so CobbleEffort ships Cobblemon's model, poser and animations for those Pokémon under its own name and the cosmetic uses them. ATM's own forms show unchanged under the cosmetic (its licence doesn't allow recoloured copies). Also provides Xurkitree's model for the Sasuke cosmetic |
 | **Cobblemon Baby Legends** | Its babies join their legendary's evolutionary line: Xerfawn (→ Xerneas) is in Backrooms, Latot (→ Latias / Latios) in Easter. Its art is All Rights Reserved, so their cosmetic textures are painted from scratch on the model's UV layout, in the evolved form's colours |
 | **Cobblemon Lost Lore** | Its forms on collection Pokémon (snowman Snorlax/Munchlax, crystal Onix/Steelix, clone Charmander/Squirtle lines, coloured Kecleon) show unchanged under the cosmetic, since its licence doesn't allow modified copies |
-| **Legendary Monuments**, **Fully Hisuian Starters**, **Poke Costumes** | No conflicts known. Not yet checked against their files |
+| **Legendary Monuments** | Nothing to change: it adds structures, items and NPCs but no Pokémon models or forms (checked against 8.2) |
+| **Fully Hisuian Starters** (resource pack) | Its Hisui-bias Cyndaquil/Quilava, Oshawott/Dewott and Rowlet/Dartrix (`region-bias-hisui`) show unchanged under the cosmetic (no licence is given, so its art isn't adapted). Cyndaquil, Quilava, Rowlet and Dartrix are in collections |
+| **Poke Costumes** (data pack) | Its costume forms (Rowlet, Magneton, Krookodile, Gengar…) show unchanged under the cosmetic. Its cosmetic items don't clash with ours. It replaces Cobblemon's Black Glasses item list, which the generator follows |
 
 How it works: every cosmetic variation pins the model and poser it was painted for, so another mod replacing the
 base model at a lower resolver order can't put the cosmetic texture on the wrong model. Forms added by mods whose

@@ -16,6 +16,63 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0722_rowlet/rowlet_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_hisui_bias.geo",
+      "poser": "cobblemon:rowlet_hisui_bias",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_hisui_bias.png"
+    },
+    {
+      "aspects": [
+        "duo",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_duo.geo",
+      "poser": "cobblemon:rowlet_duo",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_duo.png"
+    },
+    {
+      "aspects": [
+        "ash",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_ash.geo",
+      "poser": "cobblemon:rowlet_ash",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/ash_rowlet.png"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shiny",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_hisui_bias.geo",
+      "poser": "cobblemon:rowlet_hisui_bias",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_hisui_bias_shiny.png"
+    },
+    {
+      "aspects": [
+        "duo",
+        "shiny",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_duo.geo",
+      "poser": "cobblemon:rowlet_duo",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_duo_shiny.png"
+    },
+    {
+      "aspects": [
+        "ash",
+        "shiny",
+        "stone_statue"
+      ],
+      "model": "cobblemon:rowlet_ash.geo",
+      "poser": "cobblemon:rowlet_ash",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/ash_rowlet_shiny.png"
     }
   ]
 }

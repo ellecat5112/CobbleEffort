@@ -19,12 +19,29 @@
     },
     {
       "aspects": [
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0007_squirtle/squirtle_triangleglasses_thanksgiving.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
         "clone",
         "thanksgiving"
       ],
       "model": "cobblemon:squirtle.geo",
       "poser": "cobblemon:squirtle",
-      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone.png"
+      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        }
+      ]
     },
     {
       "aspects": [
@@ -34,7 +51,13 @@
       ],
       "model": "cobblemon:squirtle.geo",
       "poser": "cobblemon:squirtle",
-      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone_shiny.png"
+      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        }
+      ]
     }
   ]
 }

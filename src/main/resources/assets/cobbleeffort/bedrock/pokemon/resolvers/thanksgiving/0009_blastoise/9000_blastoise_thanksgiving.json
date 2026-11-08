@@ -19,6 +19,17 @@
     },
     {
       "aspects": [
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0009_blastoise/blastoise_triangleglasses_thanksgiving.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
         "mega",
         "thanksgiving"
       ],
@@ -40,6 +51,18 @@
         "thanksgiving"
       ],
       "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_shiny_thanksgiving.png"
+    },
+    {
+      "aspects": [
+        "mega",
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/compat/mega_showdown/0009_blastoise/blastoise_mega_triangleglasses_thanksgiving.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -75,6 +98,10 @@
       "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone.png",
       "layers": [
         {
+          "name": "",
+          "enabled": false
+        },
+        {
           "name": "emissive",
           "enabled": false
         },
@@ -95,6 +122,33 @@
       "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_shiny.png",
       "layers": [
         {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:blastoise.geo",
+      "poser": "cobblemon:blastoise",
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_triangleglasses.png"
+        },
+        {
           "name": "emissive",
           "enabled": false
         },
@@ -120,6 +174,10 @@
           "emissive": true
         },
         {
+          "name": "",
+          "enabled": false
+        },
+        {
           "name": "glow",
           "enabled": false
         }
@@ -139,6 +197,10 @@
           "name": "glow",
           "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
           "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
         },
         {
           "name": "emissive",
@@ -162,6 +224,10 @@
           "emissive": true
         },
         {
+          "name": "",
+          "enabled": false
+        },
+        {
           "name": "emissive",
           "enabled": false
         }
@@ -177,6 +243,10 @@
       "poser": "cobblemon:blastoise_mega",
       "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega.png",
       "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
         {
           "name": "emissive",
           "enabled": false
@@ -204,6 +274,10 @@
           "emissive": true
         },
         {
+          "name": "",
+          "enabled": false
+        },
+        {
           "name": "glow",
           "enabled": false
         }
@@ -224,6 +298,10 @@
           "name": "glow",
           "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
           "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
         },
         {
           "name": "emissive",
@@ -248,6 +326,10 @@
           "emissive": true
         },
         {
+          "name": "",
+          "enabled": false
+        },
+        {
           "name": "emissive",
           "enabled": false
         }
@@ -264,6 +346,10 @@
       "poser": "cobblemon:blastoise_mega",
       "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega_shiny.png",
       "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
         {
           "name": "emissive",
           "enabled": false

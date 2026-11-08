@@ -19,12 +19,29 @@
     },
     {
       "aspects": [
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/thanksgiving/0008_wartortle/wartortle_triangleglasses_thanksgiving.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
         "clone",
         "thanksgiving"
       ],
       "model": "cobblemon:wartortle.geo",
       "poser": "cobblemon:wartortle",
-      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png"
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        }
+      ]
     },
     {
       "aspects": [
@@ -34,7 +51,28 @@
       ],
       "model": "cobblemon:wartortle.geo",
       "poser": "cobblemon:wartortle",
-      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone_shiny.png"
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-black_glasses",
+        "thanksgiving"
+      ],
+      "model": "cobblemon:wartortle.geo",
+      "poser": "cobblemon:wartortle",
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_triangleglasses.png"
+        }
+      ]
     }
   ]
 }

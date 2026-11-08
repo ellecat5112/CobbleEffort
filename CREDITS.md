@@ -86,9 +86,11 @@ CC BY-NC 3.0 for the models and animations, MPL-2.0 for the code the posers were
   from scratch (`tools/painter.py`) onto the UV layout of that mod's models, in colours taken from Cobblemon's Xerneas,
   Latios and Latias textures (so they are Cobblemon adaptations, CC BY-NC 3.0). No Baby Legends texture is read or
   included.
-* **Cobblemon: AllTheMons x Mega Showdown** (ALLTHEMONS LICENSE v3.2) and **Cobblemon Lost Lore** (Lvnatic's General
-  License 1.3): their forms are only referenced by id in "passthrough" resolver entries, so they show unchanged under
-  a cosmetic. None of their files is included or modified.
+* **Cobblemon: AllTheMons x Mega Showdown** (ALLTHEMONS LICENSE v3.2), **Cobblemon Lost Lore** (Lvnatic's General
+  License 1.3), **Fully Hisuian Starters** by its author and **Poke Costumes** by RedRibbon (no licence stated): their
+  forms are only referenced by id in "passthrough" resolver entries, so they show unchanged under a cosmetic. None of
+  their files is included or modified.
+* **Legendary Monuments** by JorgaoMC (All Rights Reserved) is read only to confirm it doesn't touch Pokémon visuals.
 * The generator reads these mods' jars locally at build time (`tools/compat/`, gitignored). They are never committed.
 
 ## Code and data

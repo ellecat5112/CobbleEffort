@@ -117,13 +117,20 @@ class Cobblemon:
             out[name] = (folder, [v for e in entries for v in e[2].get("variations", [])])
         return out, layer_of
 
-    def _load_cosmetic_aspects(self) -> set[str]:
-        """Aspects that only ever come from another cosmetic item (any mod's). A Pokémon wearing ours can't have them."""
-        aspects = set()
+    def _load_cosmetic_aspects(self) -> dict[str, set[str]]:
+        """species -> aspects that only ever come from another cosmetic item (any mod's) for that species. A Pokémon
+        wearing ours can't have them. Per species: Poke Costumes' Glaceon "summer" costume must not hide Deerling's
+        "summer" season."""
+        aspects: dict[str, set[str]] = {}
         for rel, layer in self.stack.files(r"data/[^/]+/cosmetic_items/.+\.json").items():
-            for item in layer.json(rel).get("cosmeticItems", []):
-                aspects.update(item.get("aspects", []))
+            data = layer.json(rel)
+            found = {a for item in data.get("cosmeticItems", []) for a in item.get("aspects", [])}
+            for name in data.get("pokemon", []):
+                aspects.setdefault(self.species_id(name), set()).update(found)
         return aspects
+
+    def cosmetic_aspects_for(self, name: str) -> set[str]:
+        return self.cosmetic_aspects.get(name, set())
 
     def dex(self, name: str) -> int:
         return self.species[name]["nationalPokedexNumber"]
@@ -687,16 +694,16 @@ def build_collection(cob: Cobblemon, cfg: dict):
         seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
         style = style_of.get(name, default_style)
         if name not in cob.resolvers:
-            variations, entry = painted_variations(cob, name, aspect, seed, style, retex, geometry, cob.cosmetic_aspects)
+            variations, entry = painted_variations(cob, name, aspect, seed, style, retex, geometry, cob.cosmetic_aspects_for(name))
             write_json(out_res_root / entry["folder"] / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
                 "species": f"cobblemon:{name}", "order": RESOLVER_ORDER, "variations": variations})
             manifest.append(entry)
             continue
         folder, variations = cob.resolvers[name]
-        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects, retex, style, geometry, vendor)
+        mirrored = mirror_variations(variations, aspect, seed, cob.cosmetic_aspects_for(name), retex, style, geometry, vendor)
         touched = {l.get("name", "") for c in mirrored for l in c.get("layers", [])}
         passthrough = passthrough_variations(cob.effective.get(name, []), {frozenset(v.get("aspects", [])) for v in variations},
-                                             aspect, cob.cosmetic_aspects, touched)
+                                             aspect, cob.cosmetic_aspects_for(name), touched)
         stats["passthrough"] += len(passthrough)
         write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
             "species": f"cobblemon:{name}",

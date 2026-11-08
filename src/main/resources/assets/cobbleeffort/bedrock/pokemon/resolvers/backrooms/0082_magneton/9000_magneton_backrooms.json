@@ -16,6 +16,25 @@
         "backrooms"
       ],
       "texture": "cobbleeffort:textures/pokemon/backrooms/0082_magneton/magneton_shiny_backrooms.png"
+    },
+    {
+      "aspects": [
+        "iono",
+        "backrooms"
+      ],
+      "model": "cobblemon:magneton_iono.geo",
+      "poser": "cobblemon:magneton",
+      "texture": "cobblemon:textures/pokemon/0082_magneton/magneton_iono.png"
+    },
+    {
+      "aspects": [
+        "iono",
+        "shiny",
+        "backrooms"
+      ],
+      "model": "cobblemon:magneton_iono.geo",
+      "poser": "cobblemon:magneton",
+      "texture": "cobblemon:textures/pokemon/0082_magneton/magneton_iono_shiny.png"
     }
   ]
 }

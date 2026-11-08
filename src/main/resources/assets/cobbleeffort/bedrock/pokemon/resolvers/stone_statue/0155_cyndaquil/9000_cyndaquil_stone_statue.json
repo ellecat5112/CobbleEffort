@@ -22,6 +22,41 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0155_cyndaquil/cyndaquil_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "stone_statue"
+      ],
+      "model": "cobblemon:cyndaquil_hisui_bias.geo",
+      "poser": "cobblemon:cyndaquil",
+      "texture": "cobblemon:textures/pokemon/0155_cyndaquil/cyndaquil_hisui_bias.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0155_cyndaquil/cyndaquil_hisui_bias_emissives.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shiny",
+        "stone_statue"
+      ],
+      "model": "cobblemon:cyndaquil_hisui_bias.geo",
+      "poser": "cobblemon:cyndaquil",
+      "texture": "cobblemon:textures/pokemon/0155_cyndaquil/cyndaquil_hisui_bias_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0155_cyndaquil/cyndaquil_hisui_bias_shiny_emissives.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
     }
   ]
 }

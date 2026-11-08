@@ -16,6 +16,25 @@
         "stone_statue"
       ],
       "texture": "cobbleeffort:textures/pokemon/stone_statue/0723_dartrix/dartrix_shiny_stone_statue.png"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "stone_statue"
+      ],
+      "model": "cobblemon:dartrix_hisui_bias.geo",
+      "poser": "cobblemon:dartrix_hisui_bias",
+      "texture": "cobblemon:textures/pokemon/0723_dartrix/dartrix_hisui_bias.png"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shiny",
+        "stone_statue"
+      ],
+      "model": "cobblemon:dartrix_hisui_bias.geo",
+      "poser": "cobblemon:dartrix_hisui_bias",
+      "texture": "cobblemon:textures/pokemon/0723_dartrix/dartrix_hisui_bias_shiny.png"
     }
   ]
 }
