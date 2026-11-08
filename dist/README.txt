@@ -2,10 +2,10 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 9 collections of cosmetic forms (349 Pokemon) to Cobblemon. Each form is a new
-look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
-has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
-regional forms, megas and shinies (shinies get their own version).
+CobbleEffort adds 9 collections of cosmetic forms (349 Pokemon) to Cobblemon, plus 1 new Pokemon.
+Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
+lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
+through evolution, gender, regional forms, megas and shinies (shinies get their own version).
 
 INSTALL
 -------
@@ -402,6 +402,20 @@ Pokemon (each line is a whole evolutionary family):
   - Cetoddle > Cetitan
   - Iron Leaves
   - Xurkitree
+
+====================================================================================================
+NEW POKEMON
+====================================================================================================
+Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get them:
+
+#1022 IRON BOULDER  (Rock / Psychic, Quark Drive)
+  A stone-and-steel paradox with its great blade-horns; it lowers them to charge in battle, rears up
+  to cry and slashes down with Mighty Cleave. Shiny: electric-cyan accents and navy plates.
+  * A roaming legendary: it can appear anywhere on the overworld surface, very rarely, at level
+    70-75. Thunderstorms make it much likelier (Quark Drive / Electric Terrain).
+  * Moves, stats, typing and ability are the official Scarlet/Violet ones (Mighty Cleave at level
+    56).
+  * Commands: /pokespawn ironboulder or /pokegive ironboulder (add 'shiny' for the shiny).
 
 ====================================================================================================
 WORKS WITH

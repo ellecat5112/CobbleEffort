@@ -37,7 +37,8 @@ window.renderModel = async (geo, texUrl, size, yaw, layers = []) => {
       let faces;
       if (Array.isArray(c.uv)) {
         const [u, v] = c.uv, w = sx, h = sy, d = sz;
-        faces = [[u, v + d, d, h], [u + d + w, v + d, d, h], [u + d, v, w, d], [u + d + w, v + d, w, -d], [u + 2 * d + w, v + d, w, h], [u + d, v + d, w, h]];
+        // vanilla box UV: the top's columns run from min x and its rows from max z (bottom row meets the front); same for the bottom
+        faces = [[u, v + d, d, h], [u + d + w, v + d, d, h], [u + d + w, v + d, -w, -d], [u + d + 2 * w, v, -w, d], [u + 2 * d + w, v + d, w, h], [u + d, v + d, w, h]];
         if (c.mirror) { faces = [faces[1], faces[0], faces[2], faces[3], faces[4], faces[5]].map(f => [f[0] + f[2], f[1], -f[2], f[3]]); }
       } else {
         const names = ['east', 'west', 'up', 'down', 'south', 'north'];

@@ -58,6 +58,11 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
 - Release zips also contain `README.txt`, the player guide (`dist/README.txt`, written by `tools/make_readme.py` at
   the end of every `generate.py build` from each config's `readme` block and `tools/readme/<name>.json`). A new
   collection needs a `readme` block (number, title, example, summary, looks, optional specials/warning).
+- New Pokémon (species Cobblemon has data for but no model): one builder per species in `tools/models/<name>.py`
+  using `tools/models/_voxel.py` (OBJ/mesh -> voxels -> boxes -> box-UV texture; Cobblemon only supports box UV, laid
+  out as vanilla's ModelPart). Commit the voxels npz, not the source mesh. All ids in the cobbleeffort namespace, the
+  animation group `cobbleeffort_<name>`; `species_additions` sets `implemented`; spawns in `spawn_pool_world`.
+  Never copy another pack's model/art without a licence or written permission (the user's own models are fine).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;

@@ -373,6 +373,26 @@ union of both UV layouts, so it fits whichever one is installed. Without either 
 Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With commands: `/pokegive vulpix shinobi`,
 `/pokegive xurkitree shinobi shiny`. Pack makers can extend the item tag `#cobbleeffort:shinobi_cosmetics`.
 
+## New Pokémon: Iron Boulder (#1022)
+
+Cobblemon has Iron Boulder's data but no model, so it was one of the last two empty Pokédex spots (with Celesteela).
+CobbleEffort gives it a model, converted from ellecat5112's model (made with Tripo AI), with animations for idle,
+walking, battle stance, sleep, cry, physical/special/status moves and fainting.
+
+* **Game-accurate**: Rock/Psychic, Quark Drive, Scarlet/Violet base stats and learnset (Mighty Cleave at 56),
+  catch rate 10. That's Cobblemon's own data; CobbleEffort marks it implemented and sizes it at 1.5 m.
+* **Roaming legendary**: it can turn up anywhere on the overworld surface (any biome), very rarely, at level
+  70-75; thunderstorms make it much likelier. (Cobblemon has no true roaming mechanic and this mod has no code, so
+  "roaming" means a rare spawn that can happen anywhere.)
+* Shiny: electric-cyan accents and navy plates.
+* Commands: `/pokespawn ironboulder`, `/pokegive ironboulder shiny`.
+
+![Iron Boulder, normal and shiny](docs/ironboulder_preview.png)
+
+Built by `tools/models/ironboulder.py` (voxelize the mesh, merge into boxes, paint a box-UV texture, write the
+animations, poser, resolver, `species_additions` and `spawn_pool_world`). The voxels are committed
+(`tools/models/ironboulder_voxels.npz`), so rebuilding doesn't need the 140 MB source mesh.
+
 ## Compatibility
 
 CobbleEffort is built to be used alongside this mod stack, and every update is generated against it:

@@ -43,7 +43,8 @@ def main():
     out = []
     rule = "=" * WIDTH
     out += [rule, "CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon".center(WIDTH), rule, ""]
-    out.append(wrap(f"CobbleEffort adds {len(cols)} collections of cosmetic forms ({total} Pokemon) to Cobblemon. "
+    out.append(wrap(f"CobbleEffort adds {len(cols)} collections of cosmetic forms ({total} Pokemon) to Cobblemon"
+                    + (f", plus {len(list((TOOLS / 'readme').glob('_new_*.json')))} new Pokemon" if list((TOOLS / 'readme').glob('_new_*.json')) else "") + ". "
                     "Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary "
                     "lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays "
                     "through evolution, gender, regional forms, megas and shinies (shinies get their own version)."))
@@ -87,6 +88,15 @@ def main():
                 out.append(wrap(f"Shiny: {sp['shiny']}", "      "))
         out += ["", "Pokemon (each line is a whole evolutionary family):"]
         out += [wrap(" > ".join(" / ".join(stage) for stage in line), "      ", "  - ") for line in info["lines"]]
+    new = [json.loads(f.read_text()) for f in sorted((TOOLS / "readme").glob("_new_*.json"))]
+    if new:
+        out += ["", rule, "NEW POKEMON", rule]
+        out.append(wrap("Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get "
+                        "them:"))
+        for p in sorted(new, key=lambda p: p["dex"]):
+            out += ["", f"#{p['dex']:04d} {p['name'].upper()}  ({p['types']}, {p['ability']})"]
+            out.append(wrap(p["look"], "  ", "  "))
+            out += [wrap(t, "    ", "  * ") for t in p["how"]]
     out += ["", rule, "WORKS WITH", rule]
     out.append(wrap("CobbleEffort is built to run alongside Mega Showdown (+ Extra Megas, Ores), Cobblemon: AllTheMons "
                     "x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments, the Fully "
