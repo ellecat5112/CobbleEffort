@@ -402,3 +402,13 @@ def at_nearest(nearest, fn):
     def f(i, j, k):
         return fn(int(nearest[0, i, j, k]), int(nearest[1, i, j, k]), int(nearest[2, i, j, k]))
     return f
+
+
+def keep_largest(solid):
+    """Only the biggest connected piece (drops loose bits a generated mesh may carry, e.g. a stray ball or bar)."""
+    from scipy import ndimage
+    lab, n = ndimage.label(solid)
+    if n <= 1:
+        return solid
+    sizes = ndimage.sum(solid, lab, range(1, n + 1))
+    return lab == (int(np.argmax(sizes)) + 1)

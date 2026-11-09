@@ -67,7 +67,8 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   size and fits the chat upload limit). Commit the voxels npz, not the source mesh. All ids in the cobbleeffort namespace, the
   animation group `cobbleeffort_<name>`; `species_additions` sets `implemented`; spawns in `spawn_pool_world`.
   Never copy another pack's model/art without a licence or written permission (the user's own models are fine).
-  Cobblemon-style cleanup (all builders): `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
+  Cobblemon-style cleanup (all builders): `vx.keep_largest` drops loose bits a generated mesh carries (not for
+  models made of separate pieces, e.g. Celesteela), `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
   piece), `vx.fit_bone_boxes` (fewer, chunkier boxes) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
 - Custom megas (`tools/models/megas.py`, config in its MEGAS dict): Mega Showdown reads megas from

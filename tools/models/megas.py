@@ -606,7 +606,7 @@ def build_model(sp):
     cfg = MEGAS[sp]
     d = np.load(HERE / f"mega_{sp}_voxels.npz")
     solid, lo = d["solid"], d["lo"]
-    solid = vx.smooth(solid)                       # Cobblemon-style: rounder shapes, no voxel specks
+    solid = vx.keep_largest(vx.smooth(solid))      # Cobblemon-style shapes; no loose floating bits
     bone, names, legs = segment(sp, solid, lo)
     piv = pivots(bone, names, lo, solid)
     boxes = vx.fit_bone_boxes(bone, len(names))
