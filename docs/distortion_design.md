@@ -63,6 +63,15 @@ Mew: the unborn, in a translucent veined orb (the placenta, a pulsing translucen
 front as the umbilical cord. Mewtwo: the bodybuilder, Conkeldurr's arm geometry (from Cobblemon's model) fitted to its
 joints in translucent pink, bulked chest and thighs. Mega Mewtwo needs a Mega Stone, so it doesn't distort.
 
+## Gen 2 legendary and mythical Pokémon
+
+By the chart, with themed looks: Raikou a sandstorm (Ground), Entei a lionfish (Water: striped spines, pearl crest),
+Suicune a weeping willow (Grass: vine ribbons, wisteria mane), Lugia a storm at night (Dark/Electric: RECOLOUR
+"negative", electric plates), Ho-Oh an aurora (Water/Electric: GLOW_DST), Celebi an ember sprite (Dark/Fire). Raikou,
+Entei and Suicune are Mega Showdown's models. Celebi is modelled only by AllTheMons x Mega Showdown (no derivatives):
+an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_celebi_layout.json`, from
+`tools/addons/extract_layout.py`, no art read), set by texture alone so the resolver names no model.
+
 ## Second set: every starter line (Gen 1-9)
 
 Water starters distort into plant-inspired forms, grass starters into natural disasters, fire starters into sea life

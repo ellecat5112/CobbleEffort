@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["futuresight"], {num: -31187, name: "Dark Sight", type: "Dark", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["futuresight"], {num: -31189, name: "Dark Sight", type: "Dark", isNonstandard: null, zMove: undefined, maxMove: undefined})

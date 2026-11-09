@@ -95,7 +95,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; the Gen 1 legendaries + Mew; every starter line
+  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; the Gen 1 and Gen 2 legendaries and mythicals; every starter line
   Gen 1-9 (STARTER_LINES), no stone megas/primals; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
   water -> plant-inspired, grass -> natural disasters, fire -> sea life (the user's direction; Squirtle prototaxites,
   Bulbasaur raging flames, Charmander mermaid). One module per line in `tools/parts/<first stage>.py` (LINE, build(kit),
@@ -120,6 +120,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   tables in the engine and move_twins.json {"default", "species"}): Mew and Mewtwo Normal/Fighting (Mew: placenta orb +
   umbilical tail; Mewtwo: translucent pink Conkeldurr arms + bulk). Parts may use RECOLOUR "keep", kit.rotate_bone,
   kit.bulk, translucent non-emissive layers (Membrane, Muscle); the kit widens the texture when a part needs it.
+  RECOLOUR "negative" (Lugia). A Pokémon modelled only by a no-derivatives mod (Celebi: ATM x MSD) gets an ADDON module:
+  paint(layout, shiny) on its extracted UV layout (`parts/layouts/`), texture-only resolver (names no model).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

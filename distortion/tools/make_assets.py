@@ -70,7 +70,9 @@ STARTER_NUMS = [1, 4, 7, 152, 155, 158, 252, 255, 258, 387, 390, 393, 495, 498, 
 # mythical Pokémon, then every starter line
 DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus",
                "articuno": "0144_articuno", "zapdos": "0145_zapdos", "moltres": "0146_moltres",
-               "mewtwo": "0150_mewtwo", "mew": "0151_mew"}
+               "mewtwo": "0150_mewtwo", "mew": "0151_mew",
+               "raikou": "0243_raikou", "entei": "0244_entei", "suicune": "0245_suicune",
+               "lugia": "0249_lugia", "hooh": "0250_hooh", "celebi": "0251_celebi"}
 # specialised distortions (the user's designs): these don't follow the chart; every form gets these types
 TYPE_OVERRIDES = {"mew": ["normal", "fighting"], "mewtwo": ["normal", "fighting"]}
 for _line, _num in zip(STARTER_LINES, STARTER_NUMS):
@@ -398,6 +400,9 @@ def looks():
 
     for sp, folder in DISTORTABLE.items():
         module = partlib.module_for(sp)
+        if module is not None and getattr(module, "ADDON", None):
+            addon_look(sp, folder, module)
+            continue
         prefix = f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/"
         paths = sorted({n for z in zips for n in names[z] if n.startswith(prefix) and n.endswith(".json")})
         resolvers = sorted(((json.loads(read(n)), n) for n in paths), key=lambda r: (r[0].get("order", 0), r[1]))
@@ -435,6 +440,10 @@ def looks():
             rc = getattr(module, "RECOLOUR", None) if module else None
             if rc == "keep":
                 return img.convert("RGBA")                      # a specialised distortion keeps its colours
+            if rc == "negative":                                # a photographic negative (Lugia: white turns black)
+                a = np.array(img.convert("RGBA"))
+                a[..., :3] = 255 - a[..., :3]
+                return Image.fromarray(a, "RGBA")
             if not rc:
                 return recolour(img)
             dst = rc.get("dst_shiny", rc["dst"] + 35) if shiny else rc["dst"]
@@ -545,6 +554,26 @@ def looks():
                    {"species": f"cobblemon:{sp}", "order": 9100, "variations": out})
         n_kits = len({k for k in kits.values() if k})
         print(f"{sp}: {len(out)} variations, {len(done)} textures" + (f", {n_kits} distorted model(s)" if n_kits else ""))
+
+
+def addon_look(sp, folder, module):
+    """A Pokémon modelled only by another mod whose art can't be adapted (no-derivatives): an original texture painted
+    onto that model's UV layout (extracted with tools/addons/extract_layout.py, no art read), set by texture alone, so
+    the resolver names no model (it's launch-safe without that mod; with it, the distorted look shows)."""
+    layout = json.loads((HERE / "parts" / module.ADDON["layout"]).read_text())
+    out = []
+    for shiny in (False, True):
+        body, glow = module.paint(layout, shiny)
+        stem = f"textures/pokemon/{folder}/distorted_{sp}{'_shiny' if shiny else ''}"
+        save_png(RES / "assets" / MOD / f"{stem}.png", body)
+        w = {"aspects": (["shiny"] if shiny else []) + ["distorted"], "texture": f"{MOD}:{stem}.png"}
+        if glow is not None:
+            save_png(RES / "assets" / MOD / f"{stem}_glow.png", glow)
+            w["layers"] = [{"name": "cobbleeffort_glow", "emissive": True, "texture": f"{MOD}:{stem}_glow.png"}]
+        out.append(w)
+    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder / f"9100_{sp}_distorted.json",
+               {"species": f"cobblemon:{sp}", "order": 9100, "variations": out})
+    print(f"{sp}: {len(out)} variations, painted on {module.ADDON['source']}'s UV layout")
 
 
 def pad(img, factor, width=None):

@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:celebi",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0251_celebi/distorted_celebi.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0251_celebi/distorted_celebi_glow.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0251_celebi/distorted_celebi_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0251_celebi/distorted_celebi_shiny_glow.png"
+        }
+      ]
+    }
+  ]
+}

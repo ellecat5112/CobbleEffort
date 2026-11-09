@@ -8,7 +8,8 @@ A TEST BUILD. What's in it:
   - The Distortion Band and the Distortion Crystal (one crystal for every Pokemon), in the "Distortion" creative tab.
   - A "Distortion" accessory slot (open your Accessories screen); the band goes there.
   - Distorted forms for Giratina, Dialga, Palkia and Arceus (including the Origin forms and every Arceus plate type),
-    NEW: the Gen 1 legendary and mythical Pokemon (Articuno, Zapdos, Moltres, Mewtwo, Mew), and every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
+    the Gen 1 legendary and mythical Pokemon (Articuno, Zapdos, Moltres, Mewtwo, Mew), NEW: the Gen 2 ones (Raikou,
+    Entei, Suicune, Lugia, Ho-Oh, Celebi), and every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
     and Decidueye and Greninja's Bond form). Each line has its own distorted look:
       water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
     (see STARTERS below).
@@ -21,7 +22,8 @@ A TEST BUILD. What's in it:
 
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
-  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, the Gen 1 legendaries and Mew,
+  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, the Gen 1 and 2 legendaries and
+     mythicals,
      any starter or its evolutions).
      Arceus doesn't need it: it distorts with its plate (it can only hold one item, and the plates are its power).
   3. In battle, pick "Fight": a Distort button appears next to the back button. Click it (the move tiles switch to
@@ -65,6 +67,18 @@ GEN 1 LEGENDARY AND MYTHICAL POKEMON
   Moltres   Fire/Flying -> Water/Electric: a tidal wave, its flames turned to water.
   (Galarian Articuno, Zapdos and Moltres distort too: Dark/Electric, Psychic/Electric, Fairy/Electric. Mega Mewtwo
   can't: it needs a Mega Stone.)
+
+GEN 2 LEGENDARY AND MYTHICAL POKEMON
+  Raikou    Electric -> Ground: a sandstorm. Desert-tan fur, a billowing dust-cloud mane, a stone tail.
+  Entei     Fire -> Water: a lionfish. Sea blue, its mane striped venomous lionfish spines, a pearl crest and mask.
+  Suicune   Water -> Grass: a weeping willow. Green, its ribbons willow vines, its mane wisteria, a leaf crest.
+  Lugia     Psychic/Flying -> Dark/Electric: a storm at night. A photographic negative of itself (black where it was
+            white), lightning crackling along its back plates.
+  Ho-Oh     Fire/Flying -> Water/Electric: an aurora over the sea. Sea blue, its glowing flames aurora green-teal.
+  Celebi    Psychic/Grass -> Dark/Fire: an ember sprite. Charcoal skin, an ash face with glowing ember eyes, a
+            smouldering crest, ember wings, burning antenna tips. (Celebi's model comes from AllTheMons x Mega
+            Showdown: with that mod installed you see this look; it's an original texture made for its model.)
+  (Raikou, Entei and Suicune use Mega Showdown's models.)
 
 STARTERS (the distorted looks)
   Grass starters, natural disasters:
@@ -113,8 +127,8 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
-  New in this build: Mew (the orb and the cord: do they sit right while it floats and animates?), Mewtwo (the arms
-  and bulk), the legendary birds.
+  New in this build: the Gen 2 legendaries and Celebi (with AllTheMons x Mega Showdown). From 0.7.0: Mew (the orb
+  and the cord: do they sit right while it floats and animates?), Mewtwo (the arms and bulk), the legendary birds.
   New in this build: distort, then press Distort again on a later turn to revert, and again to re-distort. Dynamax
   or Gigantamax a distorted Pokemon (it should stay distorted, with the distorted look). Ash-Greninja: a distorted
   Greninja with Battle Bond (and high friendship) knocking a Pokemon out.

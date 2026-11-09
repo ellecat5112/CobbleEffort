@@ -206,20 +206,27 @@ class LavaRock:
 
 
 class Glow:
-    """A molten, glowing surface (a crater's lava): the body dark red, the layer bright and pulsing."""
+    """A molten, glowing surface (a crater's lava): the body dark red, the layer bright and pulsing. Another palette
+    (hot core first, darkest last) makes other glows: ELECTRIC for crackling lightning."""
 
-    def __init__(self, layer):
+    def __init__(self, layer, palette=None):
         self.layer = layer
+        self.palette = palette or Flame.PALETTE
 
     def paint(self, ctx, rects, size, reskin):
         frames = len(ctx.layers[self.layer])
+        p = self.palette[ctx.shiny]
         for face, X, Y, s, t, x, y, w, h in _iter(rects):
             if not _solid_alpha(ctx, X, Y, reskin):
                 continue
-            ctx.put(X, Y, Flame.PALETTE[ctx.shiny][3])
+            ctx.put(X, Y, p[3])
             for f in range(frames):
                 k = _hash(X, Y, f, 21)
-                ctx.glow(self.layer, f, X, Y, Flame.PALETTE[ctx.shiny][0 if k > 0.8 else 1 if k > 0.35 else 2])
+                ctx.glow(self.layer, f, X, Y, p[0 if k > 0.8 else 1 if k > 0.35 else 2])
+
+
+ELECTRIC = {False: [(255, 255, 230), (255, 236, 96), (240, 190, 40), (60, 50, 30)],
+            True: [(240, 255, 255), (120, 230, 255), (60, 150, 240), (30, 40, 70)]}
 
 
 class Cutout:
@@ -515,3 +522,18 @@ class Placenta:
             base = (150, 40, 60) if not ctx.shiny else (90, 60, 160)
             c = (110, 120, 200) if vessel else shade(base, 0.85 + 0.35 * (1 - r) + 0.1 * _hash(X, Y))
             ctx.put(X, Y, c)
+
+
+
+class Stripes:
+    """Bold bands across a part (a reskin keeping its silhouette): a lionfish's striped spines."""
+
+    def __init__(self, normal, shiny, width=2):
+        self.c, self.width = {False: normal, True: shiny}, width
+
+    def paint(self, ctx, rects, size, reskin):
+        for face, X, Y, s, t, x, y, w, h in _iter(rects):
+            if ctx.body[X, Y][3] == 0:
+                continue
+            a, b = self.c[ctx.shiny]
+            ctx.put(X, Y, shade(a if (y // self.width) % 2 == 0 else b, LIGHT[face]))
