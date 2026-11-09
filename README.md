@@ -6,8 +6,8 @@ each form is a new texture applied through Cobblemon's own cosmetic-slot and asp
 
 **Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon).
 
-**Creative tab (since v0.15.1):** everything the mod uses (each collection's cosmetic items and the custom mega
-stones) is in the **CobbleEffort** tab of the creative inventory. The stones show there when Mega Showdown is installed.
+**Creative tab (since v0.15.1):** every collection's cosmetic items are in the **CobbleEffort** tab of the creative
+inventory.
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -406,46 +406,6 @@ Give a supported Pokémon a **Light Blue, Pink or White Banner** (the flag's col
 commands: `/pokegive togedemaru trans_pride`, `/pokegive emolga trans_pride shiny`. Pack makers can extend the item
 tag `#cobbleeffort:trans_pride_cosmetics`.
 
-## Custom Mega Evolutions (with Mega Showdown)
-
-Ten Ancient Pokémon (nine Paradox Pokémon and Koraidon) get their own Mega Evolutions through **Mega Showdown**, from ellecat5112's models
-(made with Tripo AI, untextured, so they're painted here), each with a glow layer and animations for idle, walking
-(or floating), battle stance, sleep, cry, physical/special/status moves and fainting. The base forms come from
-Cobblemon (Walking Wake), Mega Showdown (Koraidon) and Cobblemon: AllTheMons x Mega Showdown (the rest).
-
-| Mega | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |
-|------|-------|---------|----------------------------------|-------|------|
-| Mega Great Tusk | Ground / Fighting | Tough Claws | 115 / 171 / 161 / 53 / 73 / 97 | Great Tuskite | blue-grey stone-brick hide bristling with crimson crystals, great curled ivory tusks and claws, navy wrist bands, yellow eyes |
-| Mega Scream Tail | Fairy / Psychic | Magic Bounce | 115 / 65 / 129 / 95 / 145 / 121 | Scream Tailite | pink with a pale belly, a swirl on its forehead and tail, black inner ears, golden eyes |
-| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | massive (about 6½ blocks tall): a cute minty lizard with big yellow eyes carrying a towering cream prototaxite trunk with pink growth rings and glowing yellow shelf fungi, under a huge round red cap with white spots |
-| Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | a purple hat and dress, a teal feathered mane with lilac tips, orange horns, orange and magenta bead strands, a magenta collar, red claws |
-| Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | wings from dark red to orange to gold with teal edges and glowing green spots, white fluff, a yellow chest, a red crest with gold horns |
-| Mega Sandy Shocks | Electric / Ground | Magnet Pull | 85 / 81 / 127 / 161 / 105 / 111 | Sandy Shockite | a light blue-grey armoured dome on four magnet arches with red and blue ends, iron-spiked balls on top, arms and feet, a dark purple-trimmed face with one glowing yellow eye, yellow shoulder discs, gears |
-| Mega Roaring Moon | Dragon / Dark | Intimidate | 105 / 179 / 91 / 55 / 121 / 139 | Roaring Moonite | a ring of red wing membrane with glowing pink spots and light-blue spikes, a light blue body with red chevrons, a black and yellow chest, a white horn, a red-and-white tail, yellow eyes |
-| Mega Koraidon | Fighting / Dragon | Drought | 100 / 175 / 135 / 85 / 120 / 155 | Koraidonite | red with tan armour plates, spikes and antennae, navy-to-blue feathered wings with magenta tips and tan stripes, a navy tail with a tan underside |
-| Mega Walking Wake | Water / Dragon | Drizzle | 99 / 83 / 111 / 165 / 103 / 129 | Walking Wakite | a purple mane streaked with red, orange and yellow flames, a teal head and legs, a yellow crest, a white muzzle and claws |
-| Mega Raging Bolt | Electric / Dragon | Electric Surge | 125 / 73 / 111 / 177 / 109 / 95 | Raging Boltite | a swirling purple storm-cloud mane with lilac streamers, a teal face, a yellow body with dark chevrons and a pale belly, a teal segmented tail ending in a spiked ball with glowing yellow tips |
-
-Each mega adds 100 base stats. The colours follow ellecat5112's reference pictures; shinies are a hue shift of them.
-
-**Getting a stone:** craft it: a Mega Showdown Mega Stone in the middle, a Diamond below, and themed items around
-it (the recipes are in the zip's README). Then do it the Mega Showdown way: the Pokémon holds the stone, you wear a
-Mega Bracelet, and you press Mega Evolve in battle.
-
-![The paradox megas, normal and shiny](docs/paradox_megas_preview.png)
-
-**Hand-built models (since v0.15.2):** Mega Brute Bonnet is built by hand from boxes the way Cobblemon's models are
-(`tools/models/hand_brutebonnet.py` with `tools/models/_boxmodel.py`): named bones, boxes in several sizes placed by
-coordinate, rounded parts from crossed boxes, flat planes for light details, and clean painted textures with soft
-shading. The other megas will move to this too.
-
-How it works without code: Mega Showdown reads megas from data (`data/<ns>/mega_showdown/mega/*.json`), Showdown
-items from `data/<ns>/mega_showdown/showdown/held_items/*.js`, and treats any item stack carrying its components
-`mega_showdown:registry_type_component: "mega"` and `mega_showdown:registry_location_component: <mega id>` as that
-mega's stone. So each stone is an amethyst shard with those components (plus a name, lore and `custom_model_data`
-for its own icon), made by a crafting recipe. The "Mega" forms are added with `species_additions`.
-Built by `tools/models/megas.py`.
-
 ## New Pokémon
 
 Cobblemon has data for Iron Boulder and Celesteela but no models, so they were the last two empty Pokédex spots in
@@ -618,7 +578,7 @@ name is given in both (checked against the 1.21.1 mappings), so the same class w
 `fabric/CobbleEffortFabric` (the `main` entrypoint in `fabric.mod.json`) and `neoforge/CobbleEffortNeoForge`
 (`@Mod`, `javafml`) start it. They compile against the JDK plus stand-ins for four loader types (`src/stubs/java`,
 never packaged). Its items come from `cobbleeffort_creative_tab.json`, written by `tools/make_creative_tab.py`
-(run by `generate.py build` and `megas.py`). Any failure only logs a `[CobbleEffort]` line and leaves the tab out.
+(run by `generate.py build`). Any failure only logs a `[CobbleEffort]` line and leaves the tab out.
 
 Cobblemon merges every resolver file for a species, sorted by `order`, and the **last** matching variation wins.
 So the high order, combined with mirroring the vanilla variations in order, puts the right texture on top in every

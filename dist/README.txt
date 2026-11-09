@@ -21,9 +21,8 @@ In survival: give a supported Pokemon the collection's item as its COSMETIC ITEM
 any Cobblemon cosmetic (hold the item, open the Pokemon's interaction menu and put it in the
 cosmetic slot). Take the item back to remove the look. A Pokemon can wear one cosmetic at a time.
 
-In creative: every item this mod uses (each collection's cosmetic items and the custom mega stones)
-is in the CobbleEffort tab of the creative inventory. The mega stones only show there when Mega
-Showdown is installed.
+In creative: every collection's cosmetic items are in the CobbleEffort tab of the creative
+inventory.
 
 With commands (creative / operators): /pokegive <pokemon> <form>, for example /pokegive snorlax
 christmas or /pokegive snorlax christmas shiny. The <form> word for each collection is listed below.
@@ -468,99 +467,6 @@ Pokemon Cobblemon has data for but no model, now with a model, animations and a 
   * Moves, stats, typing and ability are the official Scarlet/Violet ones (Mighty Cleave at level
     56).
   * Commands: /pokespawn ironboulder or /pokegive ironboulder (add 'shiny' for the shiny).
-
-====================================================================================================
-CUSTOM MEGA EVOLUTIONS (needs Mega Showdown)
-====================================================================================================
-10 Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold the mega
-stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms come from Cobblemon,
-Mega Showdown and Cobblemon: AllTheMons x Mega Showdown.
-
-MEGA GREAT TUSK  (Ground / Fighting, Tough Claws)
-  Stats: HP 115  Atk 171  Def 161  SpA 53  SpD 73  Spe 97  (total 670)
-  Stone: Great Tuskite, crafted like this:
-      [bpb]
-      [kek]
-      [.d.]
-      b = Bone Block, p = Packed Mud, k = Brown Terracotta, e = Mega Stone (Mega Showdown's), d =
-      Diamond
-
-MEGA SCREAM TAIL  (Fairy / Psychic, Magic Bounce)
-  Stats: HP 115  Atk 65  Def 129  SpA 95  SpD 145  Spe 121  (total 670)
-  Stone: Scream Tailite, crafted like this:
-      [wpw]
-      [kek]
-      [.d.]
-      w = Pink Wool, p = Pink Petals, k = Amethyst Shard, e = Mega Stone (Mega Showdown's), d =
-      Diamond
-
-MEGA BRUTE BONNET  (Grass / Dark, Strong Jaw)
-  Stats: HP 111  Atk 167  Def 129  SpA 79  SpD 129  Spe 55  (total 670)
-  Stone: Brute Bonnetite, crafted like this:
-      [rmr]
-      [kek]
-      [.d.]
-      r = Red Mushroom Block, m = Moss Block, k = Brown Mushroom, e = Mega Stone (Mega Showdown's),
-      d = Diamond
-
-MEGA FLUTTER MANE  (Ghost / Fairy, Levitate)
-  Stats: HP 55  Atk 55  Def 65  SpA 175  SpD 165  Spe 155  (total 670)
-  Stone: Flutter Manite, crafted like this:
-      [mjm]
-      [kek]
-      [.d.]
-      m = Phantom Membrane, j = Echo Shard, k = Purple Dye, e = Mega Stone (Mega Showdown's), d =
-      Diamond
-
-MEGA SLITHER WING  (Bug / Fighting, Moxie)
-  Stats: HP 85  Atk 175  Def 99  SpA 85  SpD 125  Spe 101  (total 670)
-  Stone: Slither Wingite, crafted like this:
-      [sbs]
-      [kek]
-      [.d.]
-      s = String, b = Blaze Powder, k = Orange Dye, e = Mega Stone (Mega Showdown's), d = Diamond
-
-MEGA SANDY SHOCKS  (Electric / Ground, Magnet Pull)
-  Stats: HP 85  Atk 81  Def 127  SpA 161  SpD 105  Spe 111  (total 670)
-  Stone: Sandy Shockite, crafted like this:
-      [ili]
-      [kek]
-      [.d.]
-      i = Iron Ingot, l = Lodestone, k = Redstone, e = Mega Stone (Mega Showdown's), d = Diamond
-
-MEGA ROARING MOON  (Dragon / Dark, Intimidate)
-  Stats: HP 105  Atk 179  Def 91  SpA 55  SpD 121  Spe 139  (total 690)
-  Stone: Roaring Moonite, crafted like this:
-      [opo]
-      [kek]
-      [.d.]
-      o = Crying Obsidian, p = Phantom Membrane, k = Red Dye, e = Mega Stone (Mega Showdown's), d =
-      Diamond
-
-MEGA KORAIDON  (Fighting / Dragon, Drought)
-  Stats: HP 100  Atk 175  Def 135  SpA 85  SpD 120  Spe 155  (total 770)
-  Stone: Koraidonite, crafted like this:
-      [sbs]
-      [kek]
-      [.d.]
-      s = Sunflower, b = Blaze Rod, k = Red Dye, e = Mega Stone (Mega Showdown's), d = Diamond
-
-MEGA WALKING WAKE  (Water / Dragon, Drizzle)
-  Stats: HP 99  Atk 83  Def 111  SpA 165  SpD 103  Spe 129  (total 690)
-  Stone: Walking Wakite, crafted like this:
-      [pnp]
-      [kek]
-      [.d.]
-      p = Prismarine Shard, n = Nautilus Shell, k = Purple Dye, e = Mega Stone (Mega Showdown's), d
-      = Diamond
-
-MEGA RAGING BOLT  (Electric / Dragon, Electric Surge)
-  Stats: HP 125  Atk 73  Def 111  SpA 177  SpD 109  Spe 95  (total 690)
-  Stone: Raging Boltite, crafted like this:
-      [lyl]
-      [kek]
-      [.d.]
-      l = Lightning Rod, y = Yellow Dye, k = Cyan Dye, e = Mega Stone (Mega Showdown's), d = Diamond
 
 ====================================================================================================
 WORKS WITH

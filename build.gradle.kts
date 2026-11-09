@@ -24,7 +24,7 @@ val expandProps = mapOf(
     "cobblemon_range_neoforge" to property("cobblemon_range_neoforge"),
 )
 
-val processResources by tasks.registering(Copy::class) {
+val processResources by tasks.registering(Sync::class) {      // Sync: files removed from the sources leave the jar too
     from("src/main/resources")
     into(layout.buildDirectory.dir("resources"))
     inputs.properties(expandProps)

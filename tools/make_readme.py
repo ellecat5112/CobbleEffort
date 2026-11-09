@@ -59,9 +59,8 @@ def main():
                     "as any Cobblemon cosmetic (hold the item, open the Pokemon's interaction menu and put it in the "
                     "cosmetic slot). Take the item back to remove the look. A Pokemon can wear one cosmetic at a time."))
     out.append("")
-    out.append(wrap("In creative: every item this mod uses (each collection's cosmetic items and the custom mega "
-                    "stones) is in the CobbleEffort tab of the creative inventory. The mega stones only show there "
-                    "when Mega Showdown is installed."))
+    out.append(wrap("In creative: every collection's cosmetic items are in the CobbleEffort tab of the creative "
+                    "inventory."))
     out.append("")
     out.append(wrap("With commands (creative / operators): /pokegive <pokemon> <form>, for example "
                     "/pokegive snorlax christmas or /pokegive snorlax christmas shiny. The <form> word for each "
@@ -101,24 +100,6 @@ def main():
             out += ["", f"#{p['dex']:04d} {p['name'].upper()}  ({p['types']}, {p['ability']})"]
             out.append(wrap(p["look"], "  ", "  "))
             out += [wrap(t, "    ", "  * ") for t in p["how"]]
-    megas_file = TOOLS / "readme" / "_megas.json"
-    if megas_file.exists():
-        megas = json.loads(megas_file.read_text())
-        out += ["", rule, "CUSTOM MEGA EVOLUTIONS (needs Mega Showdown)", rule]
-        out.append(wrap(f"{len(megas)} Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: "
-                        "hold the mega stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms "
-                        "come from Cobblemon, Mega Showdown and Cobblemon: AllTheMons x Mega Showdown."))
-        stat_names = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"]
-        for sp, m in megas.items():
-            out += ["", f"MEGA {m['display'].upper()}  ({' / '.join(t.title() for t in m['types'])}, "
-                        f"{m.get('ability_name', m['ability'])})"]
-            out.append("  Stats: " + "  ".join(f"{n} {v}" for n, v in zip(stat_names, m["stats"])) + f"  (total {sum(m['stats'])})")
-            r = m["recipe"]
-            legend = ", ".join(f"{c} = {item_name(i)}" + (" (Mega Showdown's)" if i.startswith("mega_showdown:") else "")
-                               for c, i in r["key"].items())
-            out.append(f"  Stone: {m['stone_name']}, crafted like this:")
-            out += [f"      [{row.replace(' ', '.')}]" for row in r["pattern"]]
-            out.append(wrap(legend, "      ", "      "))
     out += ["", rule, "WORKS WITH", rule]
     out.append(wrap("CobbleEffort is built to run alongside Mega Showdown (+ Extra Megas, Ores), Cobblemon: AllTheMons "
                     "x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments, the Fully "

@@ -412,22 +412,3 @@ def keep_largest(solid):
         return solid
     sizes = ndimage.sum(solid, lab, range(1, n + 1))
     return lab == (int(np.argmax(sizes)) + 1)
-
-
-def strip_base(solid, drop: float = 0.45):
-    """Cut off a display stand under the feet (a generated figurine's plinth): the lowest rows while their filled area
-    is a big slab, until it drops below `drop` of that slab; then keep the largest piece and drop the model to y = 0."""
-    area = solid.sum(axis=(0, 2)).astype(float)
-    if not area.any():
-        return solid
-    base = area[: max(1, len(area) // 10)].max()
-    top = 0
-    while top < len(area) - 1 and area[top] >= drop * base:
-        top += 1
-    out = solid.copy()
-    out[:, :top, :] = False
-    out = keep_largest(out)
-    ys = np.nonzero(out.any(axis=(0, 2)))[0]
-    if len(ys) and ys[0] > 0:
-        out = np.concatenate([out[:, ys[0]:, :], np.zeros_like(out[:, : ys[0], :])], axis=1)
-    return out

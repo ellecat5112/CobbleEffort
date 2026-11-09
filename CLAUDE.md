@@ -71,25 +71,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   models made of separate pieces, e.g. Celesteela), `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
   piece), `vx.fit_bone_boxes` (fewer, chunkier boxes) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
-- **Models are hand-built from boxes like real Cobblemon entities** (the user rejected voxel conversions of their
-  meshes as "3D renders of pixel art"): `tools/models/hand_<species>.py` with `tools/models/_boxmodel.py` (bones with
-  pivots; boxes of several sizes placed by coordinate, front = -z; `round_box` = two crossed boxes for rounded parts;
-  zero-thickness planes for fins/ears/crests; shaders paint each texel from its model-space position, clean flat
-  colours + soft baked shading, no noise). Use the user's mesh only as a guide for proportions and their reference
-  pictures for colours. megas.py uses a hand module automatically when one exists (its SCALE, HITBOX, SHINY_HUE).
-- Custom megas (`tools/models/megas.py`, config in its MEGAS dict): Mega Showdown reads megas from
-  `data/<ns>/mega_showdown/mega/*.json` and Showdown items from `data/<ns>/mega_showdown/showdown/held_items/*.js`; any
-  item stack with components `mega_showdown:registry_type_component: "mega"` + `mega_showdown:registry_location_component:
-  <ns>:<id>` is that stone (no code needed). Stones are amethyst shards with those components + custom_model_data
-  (icons via overrides in `assets/minecraft/models/item/amethyst_shard.json`), made by recipes. The "Mega" form goes in
-  `species_additions` (forms append), the look in a resolver with aspect "mega". Base forms must exist in the stack.
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
 - Creative tab (the only code, `src/main/java`): Minecraft has no data-driven tabs, so `CreativeTab.java` builds one by
   reflection with every Minecraft name given twice (Mojang for NeoForge, intermediary for Fabric; check new ones against
   the 1.21.1 mappings), started by `fabric/CobbleEffortFabric` (entrypoint) and `neoforge/CobbleEffortNeoForge` (`@Mod`,
   `javafml`). It compiles against the JDK plus `src/stubs/java` (loader stand-ins, never packaged), and every failure
-  only logs. Its items: `cobbleeffort_creative_tab.json` from `tools/make_creative_tab.py` (run by `generate.py build`
-  and `megas.py`), so new collections' items and new mega stones join the tab automatically. Keep any further code
+  only logs. Its items: `cobbleeffort_creative_tab.json` from `tools/make_creative_tab.py` (run by `generate.py build`),
+  so new collections' items join the tab automatically. Keep any further code
   this way (no loader-specific builds).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;

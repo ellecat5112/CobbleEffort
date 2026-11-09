@@ -12,8 +12,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * The "CobbleEffort" creative inventory tab: every item the mod uses (the cosmetic items of each collection and the
- * custom mega stones), read from {@code cobbleeffort_creative_tab.json} (written by tools/make_creative_tab.py).
+ * The "CobbleEffort" creative inventory tab: every item the mod uses (the cosmetic items of each collection), read from {@code cobbleeffort_creative_tab.json} (written by tools/make_creative_tab.py).
  *
  * <p>CobbleEffort is one jar for Fabric and NeoForge, so this class is compiled against nothing but the JDK and
  * reaches Minecraft by reflection: Fabric runs on intermediary names, NeoForge on Mojang's, and every name below is
@@ -172,14 +171,9 @@ public final class CreativeTab {
         return out;
     }
 
-    /** A short name for the log: the mega stone's id, or the item id. */
+    /** A short name for the log: the item id. */
     private static String label(Object json) {
         String text = String.valueOf(json);
-        int at = text.indexOf("registry_location_component");
-        if (at >= 0) {
-            int start = text.indexOf("\"", text.indexOf(':', at) + 1) + 1;
-            return text.substring(start, text.indexOf('"', start));
-        }
         int id = text.indexOf("\"id\":\"");
         return id >= 0 ? text.substring(id + 6, text.indexOf('"', id + 6)) : text;
     }
@@ -220,14 +214,14 @@ public final class CreativeTab {
                     if (stack.isPresent()) {
                         accept.invoke(output, stack.get());
                     } else {
-                        skipped.add(label(json));               // e.g. a mega stone without Mega Showdown installed
+                        skipped.add(label(json));               // e.g. an item from a mod that isn't installed
                     }
                 } catch (Throwable t) {
                     skipped.add(label(json) + " (" + t + ")");
                 }
             }
             if (!skipped.isEmpty() && !warned) {
-                log("creative tab left out " + skipped.size() + " item(s) this game can't make (is Mega Showdown installed?): " + skipped, null);
+                log("creative tab left out " + skipped.size() + " item(s) this game can't make: " + skipped, null);
             }
         } catch (Throwable t) {
             if (!warned) log("creative tab contents", t);
