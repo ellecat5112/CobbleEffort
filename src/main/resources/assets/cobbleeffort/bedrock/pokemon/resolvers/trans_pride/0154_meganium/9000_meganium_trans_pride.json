@@ -1,0 +1,80 @@
+{
+  "species": "cobblemon:meganium",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_shiny_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_shiny_trans_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_shiny_trans_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_shiny_trans_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0154_meganium/meganium_shiny_trans_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_shiny_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_shiny_trans_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_shiny_trans_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_shiny_trans_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/trans_pride/compat/mega_showdown/0154_meganium/meganium_mega_shiny_trans_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

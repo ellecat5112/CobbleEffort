@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:ceruledge",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "trans_pride"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_1_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_2_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_3_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_4_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_5_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_6_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_7_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_8_trans_pride.png"
+        ],
+        "fps": 8,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_1_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_2_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_3_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_4_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_5_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_6_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_7_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_emissive_8_trans_pride.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "trans_pride"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_1_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_2_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_3_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_4_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_5_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_6_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_7_trans_pride.png",
+          "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_8_trans_pride.png"
+        ],
+        "fps": 8,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_1_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_2_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_3_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_4_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_5_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_6_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_7_trans_pride.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_emissive_8_trans_pride.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_1_trans_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_1_trans_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_1_trans_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0937_ceruledge/ceruledge_shiny_1_trans_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

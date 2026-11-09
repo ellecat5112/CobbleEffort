@@ -1,0 +1,43 @@
+{
+  "_comment": "Trans Pride collection: Pokémon wearing the transgender pride flag. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed trans-pride-2026` (random lines no other collection uses).",
+  "aspect": "trans_pride",
+  "feature": "trans_pride",
+  "style": "trans_pride",
+  "cosmetic_items": [
+    "minecraft:light_blue_banner",
+    "minecraft:pink_banner",
+    "minecraft:white_banner"
+  ],
+  "lines": [
+    "growlithe",
+    "chikorita",
+    "larvitar",
+    "zigzagoon",
+    "lunatone",
+    "shuppet",
+    "bronzor",
+    "azelf",
+    "panpour",
+    "tympole",
+    "emolga",
+    "cobalion",
+    "thundurus",
+    "stufful",
+    "togedemaru",
+    "dhelmise",
+    "lechonk",
+    "charcadet"
+  ],
+  "readme": {
+    "number": 10,
+    "title": "Trans Pride",
+    "example": "togedemaru",
+    "summary": "Pokemon wearing the transgender pride flag.",
+    "looks": [
+      "the flag's five stripes (light blue, pink, white, pink, light blue) run across the whole body, head to toe, lined up across every part of the model",
+      "each stripe keeps the Pokemon's own shading, markings and outlines, and the eyes keep their colours",
+      "glowing parts glow in the flag's colours",
+      "shiny: pastel glitter, plus sparkles that twinkle and glow in the dark"
+    ]
+  }
+}

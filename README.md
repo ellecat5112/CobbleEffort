@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -373,6 +373,36 @@ union of both UV layouts, so it fits whichever one is installed. Without either 
 Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With commands: `/pokegive vulpix shinobi`,
 `/pokegive xurkitree shinobi shiny`. Pack makers can extend the item tag `#cobbleeffort:shinobi_cosmetics`.
 
+## Collection #10: Trans Pride
+
+18 evolutionary lines (**34 Pokémon**) wearing the transgender pride flag:
+
+* the flag's five stripes (light blue, pink, white, pink, light blue) run across the **whole body from head to toe**.
+  The generator works out how high on the model every texture pixel sits, so a stripe lines up across head, arms,
+  body and legs instead of following the texture layout
+* each stripe keeps the Pokémon's own light and shade, so markings, fur and plating still read, and outlines stay dark
+* the eyes keep their own colours
+* glowing parts (Charcadet's line, Lunatone's eyes…) glow in the flag's colours
+* megas (Mega Tyranitar, Mega Banette, Mega Meganium) wear it too
+* shiny: pastel glitter over the stripes, plus a layer of sparkles that twinkle and glow in the dark
+
+Growlithe → Arcanine (incl. Hisuian) · Chikorita → Bayleef → Meganium · Larvitar → Pupitar → Tyranitar ·
+Zigzagoon → Linoone → Obstagoon (incl. Galarian) · Lunatone · Shuppet → Banette · Bronzor → Bronzong · Azelf ·
+Panpour → Simipour · Tympole → Palpitoad → Seismitoad · Emolga · Cobalion · Thundurus · Stufful → Bewear ·
+Togedemaru · Dhelmise · Lechonk → Oinkologne · Charcadet → Armarouge / Ceruledge
+
+Picked with `generate.py pick --count 18 --seed trans-pride-2026` from the 307 remaining eligible lines.
+
+![Original vs. trans pride](docs/trans_pride_preview.png)
+
+![Shinies: glitter and sparkles](docs/trans_pride_shiny.png)
+
+### How to get one
+
+Give a supported Pokémon a **Light Blue, Pink or White Banner** (the flag's colours) as its cosmetic item. With
+commands: `/pokegive togedemaru trans_pride`, `/pokegive emolga trans_pride shiny`. Pack makers can extend the item
+tag `#cobbleeffort:trans_pride_cosmetics`.
+
 ## New Pokémon
 
 Cobblemon has data for Iron Boulder and Celesteela but no models, so they were the last two empty Pokédex spots in
@@ -474,7 +504,9 @@ Each collection is a config in `tools/collections/<name>.json` (aspect, cosmetic
 `FRAMES`/`FPS` to make every texture an animation (Halloween does), and `EXTRA_LAYERS` + `extra_layer()` to add
 its own layers on top of the body, such as Christmas's glowing, twinkling fairy lights. A style that sets
 `WANTS_HINTS` is told where the model's head front/top and torso front faces are in the texture (read from the
-`.geo.json`). FNAF uses this to put Freddy's hat on top of his head and Chica's bib on her chest. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
+`.geo.json`). FNAF uses this to put Freddy's hat on top of his head and Chica's bib on her chest. A style that sets
+`WANTS_HEIGHTS` gets the height on the model of every texture pixel, which Trans Pride uses to run the flag's stripes
+across the whole body. Everything under `assets/cobbleeffort` and `data/cobbleeffort` is generated:
 
 The generator reads the mod stack from `tools/compat/mods.json`. Put each mod's jar (or a directory of its
 resources) in `tools/compat/jars/`, which is gitignored: other mods' files are never committed. Pass `--no-compat`

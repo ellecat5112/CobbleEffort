@@ -39,6 +39,9 @@ made by the Cobblemon team and contributors.
 * **Naruto** (`tools/styles/naruto_*.py`, `_shinobi.py`; textures under `.../pokemon/shinobi/`): colours remapped per
   look; clouds, flak vests, forehead protectors, masks, sage pigment, flame hems, whiskers, swirls, veins, Karma
   seals and glowing eyes added; the Vulpix line repainted as Kurama with a flickering chakra layer.
+* **Trans Pride** (`tools/styles/trans_pride.py`; textures under `.../pokemon/trans_pride/`): recoloured into the
+  transgender pride flag's five stripes by height on the model, keeping the original's shading, outlines and eyes;
+  shinies get pastel glitter and an extra emissive layer of twinkling sparkles.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
@@ -123,6 +126,8 @@ The build scripts, generator, data and resolver JSON are licensed under the
 
 * **Five Nights at Freddy's** by Scott Cawthon inspired collection #6 (fan work; no art or assets from the games
   are used).
+
+* The **transgender pride flag** was designed by Monica Helms (1999) and inspired collection #10.
 
 * **Naruto**, **Naruto Shippuden** and **Boruto** by Masashi Kishimoto (and Mikio Ikemoto / Ukyo Kodachi) inspired
   collection #9 (fan work; no art from the series is used).

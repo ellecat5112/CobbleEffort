@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 9 collections of cosmetic forms (349 Pokemon) to Cobblemon, plus 2 new Pokemon.
+CobbleEffort adds 10 collections of cosmetic forms (383 Pokemon) to Cobblemon, plus 2 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -26,16 +26,17 @@ christmas or /pokegive snorlax christmas shiny. The <form> word for each collect
 
 AT A GLANCE
 -----------
-  #  Collection                          Cosmetic item                                 Form word
-  1  Backrooms                           Yellow Carpet                                 backrooms
-  2  Thanksgiving                        Pumpkin Pie                                   thanksgiving
-  3  Halloween                           Carved Pumpkin                                halloween
-  4  Christmas                           Snowball                                      christmas
-  5  Easter                              Egg                                           easter
-  6  Five Nights at Freddy's             Clock                                         animatronic
-  7  Ice Sculptures                      Ice, Packed Ice or Blue Ice                   ice_sculpture
-  8  Stone Statues                       Stone, Smooth Stone or Chiseled Stone Bricks  stone_statue
-  9  Naruto / Naruto Shippuden / Boruto  Flint                                         shinobi
+  #   Collection                          Cosmetic item                                   Form word
+  1   Backrooms                           Yellow Carpet                                   backrooms
+  2   Thanksgiving                        Pumpkin Pie                                     thanksgiving
+  3   Halloween                           Carved Pumpkin                                  halloween
+  4   Christmas                           Snowball                                        christmas
+  5   Easter                              Egg                                             easter
+  6   Five Nights at Freddy's             Clock                                           animatronic
+  7   Ice Sculptures                      Ice, Packed Ice or Blue Ice                     ice_sculpture
+  8   Stone Statues                       Stone, Smooth Stone or Chiseled Stone Bricks    stone_statue
+  9   Naruto / Naruto Shippuden / Boruto  Flint                                           shinobi
+  10  Trans Pride                         Light Blue Banner, Pink Banner or White Banner  trans_pride
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -402,6 +403,42 @@ Pokemon (each line is a whole evolutionary family):
   - Cetoddle > Cetitan
   - Iron Leaves
   - Xurkitree
+
+====================================================================================================
+#10  TRANS PRIDE  (34 Pokemon)
+====================================================================================================
+Pokemon wearing the transgender pride flag.
+
+Cosmetic item: Light Blue Banner, Pink Banner or White Banner
+Command:       /pokegive togedemaru trans_pride   (add 'shiny' for the shiny version)
+
+The look:
+  * the flag's five stripes (light blue, pink, white, pink, light blue) run across the whole body,
+    head to toe, lined up across every part of the model
+  * each stripe keeps the Pokemon's own shading, markings and outlines, and the eyes keep their
+    colours
+  * glowing parts glow in the flag's colours
+  * shiny: pastel glitter, plus sparkles that twinkle and glow in the dark
+
+Pokemon (each line is a whole evolutionary family):
+  - Growlithe > Arcanine
+  - Chikorita > Bayleef > Meganium
+  - Larvitar > Pupitar > Tyranitar
+  - Zigzagoon > Linoone > Obstagoon
+  - Lunatone
+  - Shuppet > Banette
+  - Bronzor > Bronzong
+  - Azelf
+  - Panpour > Simipour
+  - Tympole > Palpitoad > Seismitoad
+  - Emolga
+  - Cobalion
+  - Thundurus
+  - Stufful > Bewear
+  - Togedemaru
+  - Dhelmise
+  - Lechonk > Oinkologne
+  - Charcadet > Armarouge / Ceruledge
 
 ====================================================================================================
 NEW POKEMON

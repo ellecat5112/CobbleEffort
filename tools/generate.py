@@ -31,6 +31,7 @@ import re
 import shutil
 from pathlib import Path
 
+import numpy as np
 from PIL import Image
 
 from kotlin_poser import convert as kotlin_convert, find_model_class
@@ -273,6 +274,46 @@ class Geometry:
             self.cache[key] = self.from_geo(g) if g else None
         return self.cache[key]
 
+    def heights(self, model_id: str | None, derivative_only: bool = True):
+        """For styles with WANTS_HEIGHTS: the height of every texel on the model, 0 (lowest) to 1 (highest), as a
+        float array the size of the model's texture (geo UV units; NaN where no cube face uses the texel). Rest pose,
+        bone and cube rotations ignored. Lets a style paint bands that run across the whole body."""
+        if not model_id:
+            return None
+        key = ("heights", model_id, derivative_only)
+        if key not in self.cache:
+            g = self.stack.geometry(model_id, derivative_only)
+            self.cache[key] = self.heights_from_geo(g) if g else None
+        return self.cache[key]
+
+    @staticmethod
+    def heights_from_geo(g):
+        d = g["description"]
+        W, H = int(d["texture_width"]), int(d["texture_height"])
+        out = np.full((H, W), np.nan, np.float32)
+
+        def put(v0, v1, u0, u1, val):
+            v0, v1, u0, u1 = max(0, v0), min(H, v1), max(0, u0), min(W, u1)
+            if v1 > v0 and u1 > u0:
+                out[v0:v1, u0:u1] = val if np.isscalar(val) else val[:v1 - v0, None]
+        for b in g["bones"]:
+            for c in b.get("cubes", []):
+                uv = c.get("uv")
+                if not isinstance(uv, list):
+                    continue
+                w, h, dd = (abs(int(round(v))) for v in c["size"])
+                u, v = int(uv[0]), int(uv[1])
+                y0 = c["origin"][1]
+                y1 = y0 + c["size"][1]
+                put(v, v + dd, u + dd, u + dd + w, y1)                      # up
+                put(v, v + dd, u + dd + w, u + dd + 2 * w, y0)              # down
+                rows = y1 - (np.arange(h) + 0.5) * (c["size"][1] / max(h, 1))
+                put(v + dd, v + dd + h, u, u + 2 * dd + 2 * w, rows)       # the four sides
+        if np.all(np.isnan(out)):
+            return None
+        lo, hi = np.nanmin(out), np.nanmax(out)
+        return (out - lo) / max(hi - lo, 1e-6)
+
     def from_geo(self, g):
         head = self._best(g["bones"], ("head",))
         torso = self._best(g["bones"], ("torso", "body", "chest", "belly"))
@@ -313,12 +354,24 @@ class Retexturer:
         self.done: dict[tuple, str] = {}
         self.virtual: dict[str, Image.Image] = {}
         self.hints = None   # geometry hints for the variation being mirrored (styles opt in with WANTS_HINTS)
+        self.heights = None     # texel height map of that variation's model (styles opt in with WANTS_HEIGHTS)
+        self.heights_key = None
 
     def add_virtual(self, src_id: str, img: Image.Image):
         self.virtual[src_id] = img
 
     def _hint_kw(self, style):
-        return {"hints": self.hints} if getattr(style, "WANTS_HINTS", False) else {}
+        kw = {}
+        if getattr(style, "WANTS_HINTS", False):
+            kw["hints"] = self.hints
+        if getattr(style, "WANTS_HEIGHTS", False):
+            kw["heights"] = self.heights
+        return kw
+
+    def _kw_key(self, style):
+        """Cache key part for the geometry a style is given (the height map is keyed by its model)."""
+        return (repr(self.hints) if getattr(style, "WANTS_HINTS", False) else "",
+                self.heights_key if getattr(style, "WANTS_HEIGHTS", False) else "")
 
     def _source(self, src_id: str):
         """(image, output rel path without the aspect suffix)."""
@@ -347,7 +400,7 @@ class Retexturer:
 
     def __call__(self, src_id: str, eyes_id: str | None, seed: int, style, layer: str | bool = False,
                  frame: int = 0, suffix: str = "") -> str:
-        key = (src_id, eyes_id or "", style.__name__, layer, frame, suffix, repr(self._hint_kw(style)))
+        key = (src_id, eyes_id or "", style.__name__, layer, frame, suffix, self._kw_key(style))
         if key in self.done:
             return self.done[key]
         base, rel = self._source(src_id)
@@ -374,7 +427,7 @@ class Retexturer:
         frames = spec.get("frames", 1)
         ids = []
         for i in range(frames):
-            key = ("extra", src_id, eyes_id or "", style.__name__, spec["name"], i, repr(self._hint_kw(style)))
+            key = ("extra", src_id, eyes_id or "", style.__name__, spec["name"], i, self._kw_key(style))
             if key not in self.done:
                 base, rel = self._source(src_id)
                 eyes = self._eyes(eyes_id, base)
@@ -574,6 +627,8 @@ def mirror_variations(variations: list[dict], aspect: str, seed: int, skip: set[
     for index, v in enumerate(variations):
         model = model_for(variations, index)
         retex.hints = geometry.hints(model) if geometry else None
+        retex.heights = geometry.heights(model) if geometry else None
+        retex.heights_key = model
         aspects = list(v.get("aspects", []))
         if "alpha_eyes" in aspects or skip.intersection(aspects):
             continue
@@ -699,6 +754,8 @@ def painted_variations(cob: Cobblemon, name: str, aspect: str, seed: int, style,
     base = next(v for v, _ in pairs if not v.get("aspects") and "model" in v)
     geo = cob.stack.geometry(base["model"], derivative_only=False)    # UV layout only: no texture of theirs is read
     retex.hints = geometry.from_geo(geo)
+    retex.heights = geometry.heights_from_geo(geo)
+    retex.heights_key = base["model"]
     their_layers = sorted({l.get("name", "") for v, _ in pairs for l in v.get("layers") or []})
     out = []
     for v, _ in pairs:

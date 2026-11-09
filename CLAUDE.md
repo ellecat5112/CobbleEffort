@@ -43,7 +43,9 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   `styles/_animatronic.py` (FNAF; one thin `fnaf_<look>.py` module per look).
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so
-  don't locate a face from the eye mask; use the hints.
+  don't locate a face from the eye mask; use the hints. `WANTS_HEIGHTS = True` passes `heights=` (a float array the
+  size of the model's texture in geo UV units: each texel's height on the model, 0 bottom to 1 top, NaN if unused),
+  for effects that must line up across the whole body (Trans Pride's flag stripes).
 - `addon_lines` in a collection config: cosmetics for Pokémon modelled by another mod (e.g. Xurkitree from ATM x MSD /
   Ultra-Beasts). Never copy or recolour another mod's art unless its licence allows it. Extract only the UV layout
   (`tools/addons/extract_layout.py`, run with `python3 -I` from outside their checkout) and paint an original texture in a

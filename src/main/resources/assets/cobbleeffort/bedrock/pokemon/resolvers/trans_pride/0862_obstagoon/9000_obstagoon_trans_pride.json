@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:obstagoon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "trans_pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_shiny_trans_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_shiny_trans_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_shiny_trans_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_shiny_trans_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/trans_pride/0862_obstagoon/obstagoon_shiny_trans_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
