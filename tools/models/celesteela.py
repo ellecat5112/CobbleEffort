@@ -4,8 +4,9 @@ Celesteela (#797): a new Pokémon model for CobbleEffort, built from ellecat5112
 
 Cobblemon 1.8.4 has Celesteela's species data (Steel/Flying, Beast Boost, Ultra Sun/Moon stats and learnset, a flier
 that can't walk) but no model, so it's unimplemented. The source mesh is untextured, so this script paints it:
-green bamboo segments with darker nodes, white plates and thruster housings, a white head cone with a dark visor,
-glowing eyes and a red mouth marking, and thruster nozzles with an animated glow (emissive layer).
+in the scheme of the user's reference picture: pale sea-green arm shafts with white straps and a glowing gold tip
+panel, bright cyan frills over dark teal nozzle clusters with glowing cyan rims, a striped sage-and-mint cloak with a
+white segmented spine, dark teal plates, and a white segmented head spire (emissive layer for the glows).
 
   assets/cobbleeffort/bedrock/pokemon/models/0797_celesteela/celesteela.geo.json
   assets/cobbleeffort/textures/pokemon/0797_celesteela/celesteela[_shiny].png + celesteela_glow_<n>.png
@@ -48,19 +49,25 @@ HEAD_FROM = 27                 # the head cone starts at this height
 GLOW_FRAMES = 3
 
 BONES = ["body", "head", "arm_left", "arm_right"]
-# colour roles
-GREEN, GREEN_D, GREEN_L, WHITE, WHITE_S, DARK, RED, NOZZLE, VISOR, EYE = range(10)
+# colour roles (scheme from the user's reference picture: pale sea-green, white straps, cyan frills, dark teal nozzles)
+(SHAFT, SHAFT_L, BAND, FRILL, FRILL_L, NOZZLE, RIM, TIP, CLOAK_A, CLOAK_B, CLOAK_C, SPINE, SPINE_D, PANEL, HEAD,
+ HEAD_RING, EYE) = range(17)
 PALETTES = {
-    "normal": {GREEN: (78, 152, 84), GREEN_D: (46, 104, 58), GREEN_L: (128, 192, 112), WHITE: (234, 238, 230),
-               WHITE_S: (188, 197, 190), DARK: (46, 50, 58), RED: (204, 56, 52), NOZZLE: (92, 44, 24),
-               VISOR: (34, 38, 46), EYE: (250, 228, 150)},
-    # shiny (CobbleEffort's take): brass and gold bamboo on pale silver
-    "shiny": {GREEN: (196, 158, 64), GREEN_D: (148, 108, 40), GREEN_L: (232, 202, 110), WHITE: (232, 232, 240),
-              WHITE_S: (186, 186, 202), DARK: (54, 50, 64), RED: (90, 140, 220), NOZZLE: (40, 70, 110),
-              VISOR: (36, 34, 52), EYE: (170, 230, 255)},
+    "normal": {SHAFT: (108, 180, 170), SHAFT_L: (138, 202, 192), BAND: (238, 244, 242), FRILL: (84, 212, 214),
+               FRILL_L: (150, 236, 234), NOZZLE: (30, 58, 60), RIM: (96, 226, 232), TIP: (236, 196, 52),
+               CLOAK_A: (190, 222, 210), CLOAK_B: (128, 182, 174), CLOAK_C: (218, 238, 228), SPINE: (240, 244, 242),
+               SPINE_D: (176, 190, 188), PANEL: (46, 110, 112), HEAD: (238, 242, 240), HEAD_RING: (120, 170, 170),
+               EYE: (120, 236, 240)},
+    # shiny (CobbleEffort's take): pearl-white shafts with rose-gold frills and warm orange glow
+    "shiny": {SHAFT: (214, 210, 222), SHAFT_L: (232, 228, 238), BAND: (250, 246, 236), FRILL: (226, 150, 132),
+              FRILL_L: (244, 196, 178), NOZZLE: (60, 44, 58), RIM: (255, 168, 90), TIP: (255, 228, 140),
+              CLOAK_A: (230, 220, 228), CLOAK_B: (204, 190, 206), CLOAK_C: (244, 236, 238), SPINE: (252, 250, 246),
+              SPINE_D: (206, 196, 200), PANEL: (128, 76, 96), HEAD: (250, 248, 246), HEAD_RING: (200, 160, 170),
+              EYE: (255, 190, 120)},
 }
-GLOW = {"normal": {"nozzle": (255, 150, 40), "eye": (255, 236, 160)},
-        "shiny": {"nozzle": (110, 200, 255), "eye": (190, 240, 255)}}
+GLOW_ROLES = {RIM: "rim", TIP: "tip", EYE: "eye"}
+GLOW = {"normal": {"rim": (96, 230, 236), "tip": (255, 214, 70), "eye": (140, 240, 244)},
+        "shiny": {"rim": (255, 170, 90), "tip": (255, 232, 150), "eye": (255, 196, 130)}}
 
 
 def parts(solid, lo):
@@ -81,78 +88,83 @@ def parts(solid, lo):
 
 
 def paint_roles(solid, bone, lo):
-    """Colour role and glow kind (0 none, 1 nozzle, 2 eye) of every voxel."""
+    """Colour role of every voxel (glowing roles are listed in GLOW_ROLES)."""
     X, Y, Z = solid.shape
-    role = np.full(solid.shape, GREEN, int)
-    glow = np.zeros(solid.shape, int)
+    role = np.full(solid.shape, CLOAK_A, int)
     i, j, k = np.indices(solid.shape)
-    cx = -lo[0]                                            # grid x of the model's centre line
-    # front surface: the lowest k (the model faces -z) of each (i, j) column
+    cx = -lo[0]                                            # grid x of the centre line
     front = np.full((X, Y), 10 ** 6)
     for a, b, c in zip(*np.nonzero(solid)):
         front[a, b] = min(front[a, b], c)
-    above_open = solid & ~np.pad(solid, ((0, 0), (0, 1), (0, 0)))[:, 1:, :]
-
-    body = bone == 0
-    role[body] = GREEN
-    role[body & (j % 6 == 5)] = GREEN_D                                    # bamboo nodes
-    role[body & above_open & (role == GREEN)] = GREEN_L
     on_front = np.zeros(solid.shape, bool)
     for a, b, c in zip(*np.nonzero(solid)):
         on_front[a, b, c] = c <= front[a, b] + 1
-    panel = body & on_front & (np.abs(i - cx) <= 4) & (j >= 3) & (j <= 18)
-    role[panel] = WHITE
-    role[panel & (np.abs(i - cx) == 4)] = WHITE_S
-    role[body & (j <= 1)] = WHITE_S
+    top_open = solid & ~np.pad(solid, ((0, 0), (0, 1), (0, 0)))[:, 1:, :]
+    body, head = bone == 0, bone == 1
+    centre = np.argwhere(body).mean(0)
 
-    head = bone == 1
-    role[head] = WHITE
-    role[head & (j < HEAD_FROM + 2)] = GREEN_D                             # collar
-    face = head & on_front
-    role[face & ((j == 34) | (j == 35))] = VISOR
-    eyes = face & ((j == 34) | (j == 35)) & (np.abs(np.abs(i - cx) - 2) <= 0)
+    # the cloak: vertical stripes around the body, lighter towards the hem
+    ang = np.arctan2(k - centre[2], i - centre[0])
+    stripe = (np.floor((ang + math.pi) / (2 * math.pi) * 21).astype(int)) % 3
+    role[body] = np.choose(stripe, [CLOAK_A, CLOAK_B, CLOAK_C])[body]
+    hem = body & (j <= 8) & (stripe == 1)
+    role[hem] = CLOAK_A                                     # the lower cloak fades to the pale stripes
+    spine = body & on_front & (np.abs(i - cx) <= 1) & (j >= 3)
+    role[spine] = SPINE
+    role[spine & (j % 3 == 0)] = SPINE_D
+    upper_side = body & (j >= 18) & (np.abs(i - cx) >= 5)
+    role[upper_side] = PANEL                                # dark teal plates by the head
+    role[upper_side & top_open] = FRILL
+    feet = body & (j <= 2)
+    role[feet] = NOZZLE
+    role[feet & ((j == 0) | (np.abs(i - cx) >= 7))] = RIM
+
+    # the head spire: white with teal rings, a teal collar with cyan trim, small glowing eyes
+    role[head] = HEAD
+    role[head & (j % 3 == 0) & (j >= HEAD_FROM + 4)] = HEAD_RING
+    collar = head & (j < HEAD_FROM + 3)
+    role[collar] = PANEL
+    role[collar & top_open] = FRILL
+    eyes = head & on_front & ((j == 33) | (j == 34)) & (np.abs(np.abs(i - cx) - 2) == 0)
     role[eyes] = EYE
-    glow[eyes] = 2
-    role[face & (j == 31) & (np.abs(i - cx) <= 1)] = RED                   # mouth marking
-    role[head & (j >= 40)] = GREEN                                         # the spire
-    role[head & (j >= 40) & (j % 3 == 0)] = GREEN_D
-    role[head & (j >= 46)] = WHITE
 
+    # the arm-rockets, from the nozzles (t = 0) to the tip (t = 1)
     for b in (2, 3):
         arm = bone == b
         pts = np.argwhere(arm).astype(float)
         mean = pts.mean(0)
         _, _, vt = np.linalg.svd(pts - mean, full_matrices=False)
-        axis = vt[0] if vt[0][1] > 0 else -vt[0]                           # from the thruster (low) to the tip (high)
+        axis = vt[0] if vt[0][1] > 0 else -vt[0]
         proj = (pts - mean) @ axis
         t = (proj - proj.min()) / (proj.max() - proj.min())
-        length = proj.max() - proj.min()
         radial = np.linalg.norm((pts - mean) - np.outer(proj, axis), axis=1)
-        for (a, bb, c), tv, r in zip(pts.astype(int), t, radial):
-            node = int(tv * length) % 6 == 5
-            if tv < 0.28:                                                  # thruster housing
-                rr = WHITE_S if 0.22 <= tv < 0.28 or node else WHITE
-                if tv < 0.05:
-                    rr = DARK
-                    if r < 2.2:
-                        rr = NOZZLE
-                        glow[a, bb, c] = 1
-            elif tv > 0.93:
-                rr = WHITE
+        rmax_low = radial[t < 0.05].max() if (t < 0.05).any() else radial.max()
+        tip_top = proj.max()
+        for (a, bb, c), tv, r, pv in zip(pts.astype(int), t, radial, proj):
+            if tv < 0.18:                                   # nozzle cluster
+                rr = NOZZLE
+                if tv < 0.04 and r > rmax_low - 1.6:
+                    rr = RIM
+                elif (a + bb + c) % 7 == 0 and tv < 0.12:
+                    rr = RIM                                # the cyan seams between the nozzles
+            elif tv < 0.30:                                 # the frill collar above the nozzles
+                rr = FRILL_L if (a + 2 * bb + c) % 3 == 0 else FRILL
+            elif any(lo_ <= tv < hi for lo_, hi in ((0.52, 0.555), (0.66, 0.695), (0.80, 0.835))):
+                rr = BAND                                   # white straps
             else:
-                rr = GREEN_D if node else GREEN
+                rr = SHAFT_L if top_open[a, bb, c] else SHAFT
+            if pv > tip_top - 1.2 and top_open[a, bb, c]:
+                rr = TIP                                    # the glowing panel on the tip
             role[a, bb, c] = rr
-        role[arm & above_open & (role == GREEN)] = GREEN_L
     role[~solid] = -1
-    glow[~solid] = 0
-    return role, glow
+    return role
 
 
 def build_model():
     d = np.load(VOXELS)
     solid, lo = d["solid"], d["lo"]
     bone = parts(solid, lo)
-    role, glow = paint_roles(solid, bone, lo)
+    role = paint_roles(solid, bone, lo)
     rng = np.random.default_rng(797)
     shade = 1 + rng.uniform(-0.045, 0.045, solid.shape)                   # a little per-voxel variation
 
@@ -179,7 +191,7 @@ def build_model():
         def body_colour(i, j, k, pal=pal):
             r = role[i, j, k]
             c = pal[r] if r >= 0 else (0, 0, 0)
-            f = shade[i, j, k] if r not in (EYE, VISOR) else 1
+            f = shade[i, j, k] if r not in GLOW_ROLES else 1
             return tuple(int(min(255, v * f)) for v in c) + (255,)
         img = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
         for (b, box), uv in zip(boxes, pos):
@@ -190,16 +202,15 @@ def build_model():
             flick = {}
 
             def glow_colour(i, j, k, variant=variant, f=f, frng=frng, flick=flick):
-                g = glow[i, j, k]
+                g = GLOW_ROLES.get(role[i, j, k])
                 if not g:
                     return (0, 0, 0, 0)
-                if g == 2:
-                    return GLOW[variant]["eye"] + (255,)
+                if g != "rim":
+                    return GLOW[variant][g] + (255,)
                 key = (i, j, k)
-                if key not in flick:
-                    flick[key] = 0.72 + 0.28 * frng.random()
-                c = GLOW[variant]["nozzle"]
-                return tuple(int(v * flick[key]) for v in c) + (255,)
+                if key not in flick:                         # the nozzle rims flicker, the tip and eyes stay steady
+                    flick[key] = 0.7 + 0.3 * frng.random()
+                return tuple(int(v * flick[key]) for v in GLOW[variant]["rim"]) + (255,)
             gimg = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
             for (b, box), uv in zip(boxes, pos):
                 vx.paint_box(gimg, uv, box, glow_colour)
@@ -352,9 +363,10 @@ def data_files():
                 "Moves, stats, typing and ability are the official Ultra Sun/Ultra Moon ones (Heavy Slam at 60). It "
                 "flies and can't walk.",
                 "Commands: /pokespawn celesteela or /pokegive celesteela (add 'shiny' for the shiny)."],
-        "look": "Green bamboo segments, white plates and a white head cone with glowing eyes; its arm-thrusters glow "
-                "and flicker in the dark. It hovers, leans into flight, aims its arms to fire Flash Cannon and drops "
-                "onto foes with Heavy Slam. Shiny: brass-gold bamboo on silver, with blue flames.",
+        "look": "Pale sea-green arm-rockets with white straps, cyan frills and glowing nozzle rims and tips, a "
+                "striped sage cloak and a white segmented spire. It hovers, leans into flight, aims its arms to fire "
+                "Flash Cannon and drops onto foes with Heavy Slam. Shiny: pearl white with rose-gold frills and an "
+                "orange glow.",
     })
 
 

@@ -409,9 +409,10 @@ NEW POKEMON
 Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get them:
 
 #0797 CELESTEELA  (Steel / Flying, Beast Boost)
-  Green bamboo segments, white plates and a white head cone with glowing eyes; its arm-thrusters
-  glow and flicker in the dark. It hovers, leans into flight, aims its arms to fire Flash Cannon and
-  drops onto foes with Heavy Slam. Shiny: brass-gold bamboo on silver, with blue flames.
+  Pale sea-green arm-rockets with white straps, cyan frills and glowing nozzle rims and tips, a
+  striped sage cloak and a white segmented spire. It hovers, leans into flight, aims its arms to
+  fire Flash Cannon and drops onto foes with Heavy Slam. Shiny: pearl white with rose-gold frills
+  and an orange glow.
   * A roaming Ultra Beast: it can appear anywhere in the overworld at night under the open sky, very
     rarely, at level 55-60. A full moon makes it much likelier.
   * Moves, stats, typing and ability are the official Ultra Sun/Ultra Moon ones (Heavy Slam at 60).

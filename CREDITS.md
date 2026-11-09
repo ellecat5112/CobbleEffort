@@ -107,8 +107,8 @@ and contributors.
   texture; the animations, poser and shiny colours are original. Iron Boulder's game data (types, stats, ability,
   moves) is Cobblemon's own; CobbleEffort only marks it implemented and adds its spawns.
 * **Celesteela** (`.../models/0797_celesteela/`, its textures, animations and poser): converted from an untextured 3D
-  model made by ellecat5112 with **Tripo AI** by `tools/models/celesteela.py`. The colours, glow layer, animations,
-  poser and shiny are original. Its game data is Cobblemon's own.
+  model made by ellecat5112 with **Tripo AI** by `tools/models/celesteela.py`. It is painted in the colour scheme of a
+  reference picture ellecat5112 provided (no pixels of it are used); the glow layer, animations, poser and shiny are original. Its game data is Cobblemon's own.
 
 ## Code and data
 

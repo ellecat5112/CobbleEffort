@@ -398,9 +398,10 @@ walking, battle stance, sleep, cry, physical/special/status moves and fainting.
 
 * **Game-accurate**: Steel/Flying, Beast Boost, Ultra Sun/Ultra Moon base stats and learnset (Heavy Slam at 60),
   catch rate 45; it flies and can't walk. Sized at about 3.5 blocks (Cobblemon shrinks its giants).
-* **Look**: the source model is untextured, so it's painted here: green bamboo segments with darker nodes, white
-  plates and thruster housings, a white head cone with a dark visor, glowing eyes and a red mouth marking, and
-  thruster nozzles that glow and flicker in the dark. Shiny: brass-gold bamboo on silver, with blue flames.
+* **Look**: the source model is untextured, so it's painted here in the scheme of ellecat5112's reference picture:
+  pale sea-green arm shafts with three white straps and a glowing gold tip panel, bright cyan frills over dark teal
+  nozzle clusters with glowing cyan rims, a striped sage-and-mint cloak with a white segmented spine and dark teal
+  plates, and a white segmented head spire. Shiny: pearl white with rose-gold frills and an orange glow.
 * **Animations**: hovering, leaning into flight, a battle stance with its arm-thrusters aimed, sleep, cry, Heavy Slam
   (rise and drop), Flash Cannon (aim, fire, recoil), status moves and fainting.
 * **Roaming Ultra Beast**: very rarely, anywhere in the overworld at night under the open sky, level 55-60; a full
