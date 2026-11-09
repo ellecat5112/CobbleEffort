@@ -2,6 +2,9 @@ modLoader = "javafml"
 loaderVersion = "[4,)"
 license = "CC-BY-NC-SA-4.0"
 
+[[mixins]]
+config = "cobbleeffort_distortion.mixins.json"
+
 [[mods]]
 modId = "cobbleeffort_distortion"
 version = "${version}"

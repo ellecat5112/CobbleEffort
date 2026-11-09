@@ -12,6 +12,7 @@
   "entrypoints": {
     "main": ["io.github.cobbleeffort.distortion.fabric.DistortionFabric"]
   },
+  "mixins": ["cobbleeffort_distortion.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.1",

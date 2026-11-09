@@ -6,4 +6,7 @@ dependencies {
     // Fabric loader for @Environment etc.; the common code itself uses only vanilla + Architectury
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
     modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
+    modCompileOnly("com.cobblemon:mod:$rootProject.cobblemon_version") { transitive = false }
+    modCompileOnly("io.wispforest:accessories-common:$rootProject.accessories_version-mojmap") { transitive = false }
+    compileOnly "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
 }

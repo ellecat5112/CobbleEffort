@@ -95,6 +95,34 @@ def crystal_icon(type_):
     return img
 
 
+def distortion_crystal_icon():
+    """The one Distortion Crystal: a rhombus whose halves are complementary (violet over gold), split by a dark
+    swirl of distortion, so it reads as 'inversion'."""
+    img = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
+    px = img.load()
+    cx, cy = 7.5, 7.5
+    top, bottom = (150, 90, 220), (240, 190, 60)
+    for y in range(16):
+        for x in range(16):
+            d = abs(x - cx) / 5.2 + abs(y - cy) / 7.4
+            if d > 1.0:
+                continue
+            split = (y - cy) + (x - cx) * 0.45                    # a slanted line between the two halves
+            col = top if split < 0 else bottom
+            if d > 0.86:
+                c = shade(col, 0.45)
+            else:
+                c = shade(col, 1.25 - 0.35 * ((x - 3) + (y - 2)) / 20)
+                if abs(split) < 0.9:
+                    c = (40, 20, 50)                              # the rift between them
+                elif x < cx and y < cy and (x + y) % 5 == 0:
+                    c = shade(col, 1.55)
+            px[x, y] = c + (255,)
+    for (x, y) in ((5, 4), (5, 5), (6, 3)):
+        px[x, y] = (255, 255, 255, 255)
+    return img
+
+
 def band_icon():
     """A 16x16 band: a black-and-purple wrist band with gold trim and a red-gold griseous gem."""
     img = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
@@ -124,15 +152,12 @@ def items():
     mdl = RES / "assets" / MOD / "models" / "item"
     save_png(tex / "distortion_band.png", band_icon())
     write_json(mdl / "distortion_band.json", {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/distortion_band"}})
-    for t in TYPES:
-        save_png(tex / f"{t}_distortion_crystal.png", crystal_icon(t))
-        write_json(mdl / f"{t}_distortion_crystal.json",
-                   {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/{t}_distortion_crystal"}})
+    save_png(tex / "distortion_crystal.png", distortion_crystal_icon())
+    write_json(mdl / "distortion_crystal.json",
+               {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/distortion_crystal"}})
     # the mod's icon: the band over a fan of crystals
     icon = Image.new("RGBA", (64, 64), (24, 16, 34, 255))
-    for n, t in enumerate(("ghost", "dragon", "dark", "fairy", "steel", "water")):
-        c = crystal_icon(t).resize((28, 28), Image.NEAREST)
-        icon.alpha_composite(c, (2 + n * 6, 4 + (n % 2) * 4))
+    icon.alpha_composite(distortion_crystal_icon().resize((32, 32), Image.NEAREST), (16, 0))
     icon.alpha_composite(band_icon().resize((40, 40), Image.NEAREST), (12, 20))
     save_png(RES / "assets" / MOD / "icon.png", icon)
 
@@ -283,16 +308,39 @@ def looks():
         print(f"{sp}: {len(out)} variations, {len(done_tex)} textures recoloured")
 
 
+def distort_button():
+    """The Distort battle button (36x34, normal over hovered/toggled), drawn like Cobblemon's gimmick buttons: a round
+    badge with the crystal's split violet/gold and a rift through it."""
+    img = Image.new("RGBA", (36, 68), (0, 0, 0, 0))
+    px = img.load()
+    for state in (0, 1):
+        oy = state * 34
+        glow = 1.25 if state else 1.0
+        for y in range(34):
+            for x in range(36):
+                r = math.hypot(x - 17.5, y - 16.5)
+                if r > 15.5:
+                    continue
+                if r > 13.5:
+                    c = (250, 230, 140) if state else (60, 40, 80)       # rim, lit when toggled
+                else:
+                    split = (y - 16.5) + (x - 17.5) * 0.45
+                    c = shade((150, 90, 220) if split < 0 else (240, 190, 60), glow * (1.1 - r / 40))
+                    if abs(split) < 1.4:
+                        c = (30, 15, 40)
+                px[x, oy + y] = c + (255,)
+    save_png(RES / "assets" / MOD / "textures" / "gui" / "battle" / "distort_button.png", img)
+
+
 def chart():
     write_json(RES / "data" / MOD / "distortion" / "type_chart.json", TYPE_CHART)
 
 
 def lang():
     names = {f"item.{MOD}.distortion_band": "Distortion Band",
-             f"item.{MOD}.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding the Distortion Crystal of its type distort in battle.",
+             f"item.{MOD}.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding a Distortion Crystal distort in battle.",
              f"itemGroup.{MOD}": "Distortion"}
-    for t in TYPES:
-        names[f"item.{MOD}.{t}_distortion_crystal"] = f"{t.title()} Distortion Crystal"
+    names[f"item.{MOD}.distortion_crystal"] = "Distortion Crystal"
     names["slot.accessories.distortion_slot"] = "Distortion"
     names[f"accessories.group.{MOD}.distortion_group"] = "Distortion"
     write_json(RES / "assets" / MOD / "lang" / "en_us.json", dict(sorted(names.items())))
@@ -303,6 +351,7 @@ def main():
     slot()
     forms()
     looks()
+    distort_button()
     chart()
     lang()
 

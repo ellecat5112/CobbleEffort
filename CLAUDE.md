@@ -95,8 +95,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py`. First set: Giratina, Dialga, Palkia, Arceus (incl. Origin and plate forms). Phases: 1 items,
-  slot, forms (done); 2 battle gimmick (Showdown JS patch, VALID_GIMMICK_IDS mixin, Distort button); 3 radial entry.
+  `tools/make_assets.py`. First set: Giratina, Dialga, Palkia, Arceus (incl. Origin and plate forms). One Distortion Crystal for
+  every Pokémon (Arceus uses its plate). Battle (`tools/make_battle.py`): twin moves as Cobblemon datapack moves
+  (`data/<ns>/moves/*.js`), Mega Showdown scripts (`side`/`queue`/`actions`: choice `move N distort`, a queued distort
+  action at Tera priority, forme change + move swap), `MoveActionResponse.isValid` mixin (band), client Distort button
+  mixin on `BattleMoveSelection`. Test the engine in node against Cobblemon's Showdown + MSD's patches before a build.
+  Phases: 1 items, slot, forms (done); 2 battle gimmick (done); 3 radial entry.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).
