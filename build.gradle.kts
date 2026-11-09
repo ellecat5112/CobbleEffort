@@ -1,6 +1,7 @@
-// CobbleEffort is a content-only Cobblemon addon: it contains no Java/Kotlin code,
-// just data (cosmetic items, species features) and assets (resolvers, textures).
-// One jar works on both Fabric and NeoForge, so we only need to package resources.
+// CobbleEffort is a Cobblemon addon made almost entirely of data (cosmetic items, species features, megas) and
+// assets (resolvers, models, textures). Its only code is the creative tab (src/main/java), which reaches Minecraft by
+// reflection so that one jar still works on both Fabric and NeoForge: it compiles against the JDK plus a few
+// stand-ins for loader types (src/stubs/java, never packaged).
 plugins {
     base
 }
@@ -32,6 +33,28 @@ val processResources by tasks.registering(Copy::class) {
     }
 }
 
+val compileStubs by tasks.registering(JavaCompile::class) {
+    description = "Compiles the stand-ins for loader types (compile-time only, not packaged)."
+    source = fileTree("src/stubs/java")
+    classpath = files()
+    destinationDirectory.set(layout.buildDirectory.dir("classes/stubs"))
+    sourceCompatibility = "21"
+    targetCompatibility = "21"
+    options.release.set(21)
+}
+
+val compileJava by tasks.registering(JavaCompile::class) {
+    description = "Compiles the creative tab code (Java 21, as Minecraft 1.21.1 needs)."
+    source = fileTree("src/main/java")
+    classpath = files(compileStubs.flatMap { it.destinationDirectory })
+    destinationDirectory.set(layout.buildDirectory.dir("classes/main"))
+    sourceCompatibility = "21"
+    targetCompatibility = "21"
+    options.release.set(21)
+    options.encoding = "UTF-8"
+    options.compilerArgs.add("-Xlint:all,-rawtypes,-unchecked")
+}
+
 val jar by tasks.registering(Jar::class) {
     group = "build"
     description = "Packages the mod jar (Fabric + NeoForge)."
@@ -40,6 +63,7 @@ val jar by tasks.registering(Jar::class) {
     // Intermediate output: the jar is shipped inside a zip (see distZip below).
     destinationDirectory.set(layout.buildDirectory.dir("tmp/jar"))
     from(processResources)
+    from(compileJava)
     from("LICENSE") { rename { "LICENSE_$modId" } }
     // attribution and licences of the adapted art (Cobblemon CC BY-NC 3.0, Mega Showdown CC BY-NC-SA 4.0) travel with it
     from("CREDITS.md") { rename { "CREDITS_$modId.md" } }
@@ -48,6 +72,7 @@ val jar by tasks.registering(Jar::class) {
             "Specification-Title" to modName,
             "Implementation-Title" to modName,
             "Implementation-Version" to modVersion,
+            "Automatic-Module-Name" to modId,          // NeoForge loads the jar as a module
         )
     }
 }

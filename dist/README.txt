@@ -21,6 +21,10 @@ In survival: give a supported Pokemon the collection's item as its COSMETIC ITEM
 any Cobblemon cosmetic (hold the item, open the Pokemon's interaction menu and put it in the
 cosmetic slot). Take the item back to remove the look. A Pokemon can wear one cosmetic at a time.
 
+In creative: every item this mod uses (each collection's cosmetic items and the custom mega stones)
+is in the CobbleEffort tab of the creative inventory. The mega stones only show there when Mega
+Showdown is installed.
+
 With commands (creative / operators): /pokegive <pokemon> <form>, for example /pokegive snorlax
 christmas or /pokegive snorlax christmas shiny. The <form> word for each collection is listed below.
 

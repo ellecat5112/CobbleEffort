@@ -6,6 +6,9 @@ each form is a new texture applied through Cobblemon's own cosmetic-slot and asp
 
 **Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon).
 
+**Creative tab (since v0.15.1):** everything the mod uses (each collection's cosmetic items and the custom mega
+stones) is in the **CobbleEffort** tab of the creative inventory. The stones show there when Mega Showdown is installed.
+
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
 
@@ -514,7 +517,7 @@ instead.
 
 | | |
 |---|---|
-| Loader | Fabric **or** NeoForge. It's a single jar with no code, so it works on both |
+| Loader | Fabric **or** NeoForge. It's a single jar for both: all data and assets, plus one small class per loader for the creative tab |
 | Cobblemon | 1.7.0+ (built against **1.8.4**) |
 | Minecraft | **1.21.1** (whatever version Cobblemon supports) |
 
@@ -603,6 +606,14 @@ Per collection (`<aspect>` = `backrooms`, `thanksgiving`, …):
 | `data/cobbleeffort/tags/item/<aspect>_cosmetics.json` | items accepted for the cosmetic |
 | `assets/cobbleeffort/bedrock/pokemon/resolvers/<aspect>/<species>/9000_*.json` | `order: 9000` copies of every vanilla variation with the aspect added |
 | `assets/cobbleeffort/textures/pokemon/<aspect>/<species>/` | the retextured textures |
+
+**The creative tab** is the mod's only code (`src/main/java`). Minecraft has no data-driven creative tabs, so
+`CreativeTab.java` builds one by reflection: Fabric runs on intermediary names and NeoForge on Mojang's, and every
+name is given in both (checked against the 1.21.1 mappings), so the same class works in one jar on both loaders.
+`fabric/CobbleEffortFabric` (the `main` entrypoint in `fabric.mod.json`) and `neoforge/CobbleEffortNeoForge`
+(`@Mod`, `javafml`) start it. They compile against the JDK plus stand-ins for four loader types (`src/stubs/java`,
+never packaged). Its items come from `cobbleeffort_creative_tab.json`, written by `tools/make_creative_tab.py`
+(run by `generate.py build` and `megas.py`). Any failure only logs a `[CobbleEffort]` line and leaves the tab out.
 
 Cobblemon merges every resolver file for a species, sorted by `order`, and the **last** matching variation wins.
 So the high order, combined with mirroring the vanilla variations in order, puts the right texture on top in every

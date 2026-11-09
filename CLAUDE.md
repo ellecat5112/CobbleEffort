@@ -1,7 +1,7 @@
 # CobbleEffort: project rules
 
-Content-only Cobblemon sidemod (no code; one jar for Fabric and NeoForge) adding cosmetic forms via Cobblemon's
-cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
+Cobblemon sidemod (one jar for Fabric and NeoForge; all data and assets except the creative tab) adding cosmetic
+forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
 
 ## Rules that always apply
 
@@ -78,6 +78,13 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   (icons via overrides in `assets/minecraft/models/item/amethyst_shard.json`), made by recipes. The "Mega" form goes in
   `species_additions` (forms append), the look in a resolver with aspect "mega". Base forms must exist in the stack.
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
+- Creative tab (the only code, `src/main/java`): Minecraft has no data-driven tabs, so `CreativeTab.java` builds one by
+  reflection with every Minecraft name given twice (Mojang for NeoForge, intermediary for Fabric; check new ones against
+  the 1.21.1 mappings), started by `fabric/CobbleEffortFabric` (entrypoint) and `neoforge/CobbleEffortNeoForge` (`@Mod`,
+  `javafml`). It compiles against the JDK plus `src/stubs/java` (loader stand-ins, never packaged), and every failure
+  only logs. Its items: `cobbleeffort_creative_tab.json` from `tools/make_creative_tab.py` (run by `generate.py build`
+  and `megas.py`), so new collections' items and new mega stones join the tab automatically. Keep any further code
+  this way (no loader-specific builds).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

@@ -1067,6 +1067,9 @@ def main():
     lang()
     feature_assignment()
     write_json(HERE.parent / "preview" / "manifest_megas.json", manifest)
+    sys.path.insert(0, str(HERE.parent))
+    import make_creative_tab                                 # the creative tab lists the stones
+    make_creative_tab.main()
     write_json(HERE.parent / "readme" / "_megas.json", {sp: {k: cfg[k] for k in ("display", "stone_name", "types", "ability", "ability_name", "stats")} | {"recipe": cfg["recipe"]} for sp, cfg in MEGAS.items()})
 
 

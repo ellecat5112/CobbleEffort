@@ -1,6 +1,7 @@
-# Content-only mod: "lowcodefml" lets NeoForge load a mod that has no Java classes.
-modLoader = "lowcodefml"
-loaderVersion = "[1,)"
+# "javafml": the mod has one Java class for NeoForge (io.github.cobbleeffort.neoforge.CobbleEffortNeoForge, the
+# creative tab); everything else is data and assets.
+modLoader = "javafml"
+loaderVersion = "[4,)"
 license = "MPL-2.0"
 issueTrackerURL = "https://github.com/ellecat5112/CobbleEffort/issues"
 
@@ -24,6 +25,7 @@ Naruto: 18 evolutionary lines as shinobi, incl. Kurama Ninetales and Sasuke Xurk
 Trans Pride: 18 evolutionary lines wearing the transgender pride flag head to toe (a Light Blue, Pink or White Banner in the cosmetic slot).
 New Pokémon: Iron Boulder (#1022) and Celesteela (#797), roaming legendaries with their own models and animations.
 Custom megas (with Mega Showdown): Mega Great Tusk, Mega Scream Tail, Mega Brute Bonnet, Mega Flutter Mane, Mega Slither Wing, Mega Sandy Shocks, Mega Roaring Moon, Mega Koraidon, Mega Walking Wake and Mega Raging Bolt, with craftable mega stones.
+Creative inventory: every item the mod uses is in the CobbleEffort tab.
 '''
 
 [[dependencies.${mod_id}]]

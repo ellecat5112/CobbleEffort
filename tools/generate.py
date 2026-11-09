@@ -982,6 +982,8 @@ def cmd_build(cob: Cobblemon, names: list[str]):
             build_collection(cob, cfg)
     import make_readme
     make_readme.main()
+    import make_creative_tab
+    make_creative_tab.main()
 
 
 def cmd_pick(cob: Cobblemon, count: int, seed: str):
