@@ -15,6 +15,8 @@ builds cubes with vanilla's ModelPart (TexturedModel: x and z kept, y flipped), 
 from __future__ import annotations
 
 import numpy as np
+from pathlib import Path
+
 from PIL import Image
 
 
@@ -32,14 +34,70 @@ def load_obj(path):
     return V[:, :3], C, F
 
 
+def load_mesh(path, samples: int = 3_000_000, seed: int = 0):
+    """Any mesh Tripo (or Blender) exports: .glb/.gltf/.obj(+.mtl+texture)/.fbx-converted/.ply, low-poly or not,
+    coloured by a texture or by vertex colours. Returns (points, colours 0-1, triangles) where the points are spread
+    evenly over the surface (so big low-poly triangles are covered too), as voxelize() expects with F=None.
+    A zip is unpacked first (the mesh plus its .mtl and texture images)."""
+    import tempfile, zipfile
+    import trimesh
+    path = Path(path)
+    if path.suffix.lower() == ".zip":
+        tmp = Path(tempfile.mkdtemp())
+        with zipfile.ZipFile(path) as z:
+            z.extractall(tmp)
+        found = [f for ext in (".glb", ".gltf", ".obj", ".ply", ".fbx") for f in tmp.rglob(f"*{ext}")]
+        if not found:
+            raise SystemExit(f"no mesh (.glb/.gltf/.obj/.ply) inside {path}")
+        path = found[0]
+    if path.suffix.lower() == ".fbx":
+        raise SystemExit("FBX can't be read here: export GLB or OBJ from Tripo instead")
+    loaded = trimesh.load(path, force="scene", process=False)
+    meshes = [g.apply_transform(t) if t is not None else g for g, t in
+              ((loaded.geometry[n].copy(), loaded.graph.get(n)[0]) for n in loaded.graph.nodes_geometry)]
+    pts_all, col_all = [], []
+    total_area = sum(m.area for m in meshes)
+    rng = np.random.default_rng(seed)
+    for m in meshes:
+        n = max(1000, int(samples * m.area / total_area))
+        pts, fidx = trimesh.sample.sample_surface(m, n, seed=int(rng.integers(1 << 31)))
+        tri = m.triangles[fidx]
+        bary = trimesh.triangles.points_to_barycentric(tri, pts)
+        vis = m.visual
+        cols = None
+        if getattr(vis, "kind", None) == "texture" and getattr(vis, "uv", None) is not None:
+            mat = vis.material
+            img = getattr(mat, "baseColorTexture", None) or getattr(mat, "image", None)
+            if img is not None:
+                img = img.convert("RGB")
+                uv = (vis.uv[m.faces[fidx]] * bary[:, :, None]).sum(1)
+                tex = np.asarray(img, dtype=np.float32) / 255
+                h, w = tex.shape[:2]
+                x = np.clip((uv[:, 0] % 1.0) * (w - 1), 0, w - 1).astype(int)
+                y = np.clip((1 - uv[:, 1] % 1.0) * (h - 1), 0, h - 1).astype(int)
+                cols = tex[y, x]          # the texture is the art: a material tint factor is ignored
+        if cols is None and getattr(vis, "vertex_colors", None) is not None and len(vis.vertex_colors):
+            vc = np.asarray(vis.vertex_colors[:, :3], dtype=np.float32) / 255
+            cols = (vc[m.faces[fidx]] * bary[:, :, None]).sum(1)
+        if cols is None:
+            mc = getattr(vis, "main_color", None)
+            cols = np.tile((np.asarray(mc[:3], dtype=np.float32) / 255) if mc is not None else [0.7, 0.7, 0.7], (len(pts), 1))
+        pts_all.append(pts.astype(np.float32))
+        col_all.append(np.clip(cols, 0, 1).astype(np.float32))
+    return np.concatenate(pts_all), np.concatenate(col_all), None
+
+
 def voxelize(P, C, F, height: float, face_negative_z: bool):
     """Points sampled on every triangle -> occupied voxels (one per model unit) with mean colours; the inside is
     filled. Returns (solid, surface, colours, lo) where voxel (i, j, k) has its min corner at lo + (i, j, k)."""
     from scipy import ndimage
     K = height / (P[:, 1].max() - P[:, 1].min())
-    T, TC = P[F], C[F]
-    pts = np.concatenate([P, T.mean(1), (T[:, 0] + T[:, 1]) / 2, (T[:, 1] + T[:, 2]) / 2, (T[:, 2] + T[:, 0]) / 2])
-    col = np.concatenate([C, TC.mean(1), (TC[:, 0] + TC[:, 1]) / 2, (TC[:, 1] + TC[:, 2]) / 2, (TC[:, 2] + TC[:, 0]) / 2])
+    if F is None:                       # already surface samples (load_mesh)
+        pts, col = P, C
+    else:                               # a dense mesh: its vertices, centroids and edge midpoints are enough
+        T, TC = P[F], C[F]
+        pts = np.concatenate([P, T.mean(1), (T[:, 0] + T[:, 1]) / 2, (T[:, 1] + T[:, 2]) / 2, (T[:, 2] + T[:, 0]) / 2])
+        col = np.concatenate([C, TC.mean(1), (TC[:, 0] + TC[:, 1]) / 2, (TC[:, 1] + TC[:, 2]) / 2, (TC[:, 2] + TC[:, 0]) / 2])
     q = pts.copy()
     if face_negative_z:            # Cobblemon models face -z (and the left side is +x): turn 180 degrees about y
         q[:, 0] *= -1

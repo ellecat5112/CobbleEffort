@@ -320,10 +320,14 @@ def data_files():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--obj", type=Path, help="source mesh to voxelize (writes ironboulder_voxels.npz)")
+    ap.add_argument("--obj", type=Path, help="source mesh to voxelize: .obj, .glb/.gltf, or a .zip of a textured OBJ "
+                                             "(writes ironboulder_voxels.npz)")
     args = ap.parse_args()
     if args.obj:
-        P, C, F = vx.load_obj(args.obj)
+        # a dense vertex-coloured OBJ (the original Tripo export) loads fast; anything else (GLB, a textured OBJ in
+        # a zip, a low-poly export) is sampled evenly over its surface
+        dense = args.obj.suffix.lower() == ".obj" and args.obj.stat().st_size > 50_000_000
+        P, C, F = vx.load_obj(args.obj) if dense else vx.load_mesh(args.obj)
         solid, surf, colours, lo = vx.voxelize(P, C, F, HEIGHT, face_negative_z=True)
         np.savez_compressed(VOXELS, solid=solid, surf=surf, colours=colours.astype(np.float32), lo=lo)
         print(f"voxels: {solid.shape}, {int(solid.sum())} solid -> {VOXELS.relative_to(ROOT)}")

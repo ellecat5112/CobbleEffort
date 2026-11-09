@@ -60,7 +60,9 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   collection needs a `readme` block (number, title, example, summary, looks, optional specials/warning).
 - New Pokémon (species Cobblemon has data for but no model): one builder per species in `tools/models/<name>.py`
   using `tools/models/_voxel.py` (OBJ/mesh -> voxels -> boxes -> box-UV texture; Cobblemon only supports box UV, laid
-  out as vanilla's ModelPart). Commit the voxels npz, not the source mesh. All ids in the cobbleeffort namespace, the
+  out as vanilla's ModelPart; `load_mesh` reads GLB/glTF, textured OBJ zips and low-poly meshes, `pip install scipy
+  trimesh`). Ask the user for Tripo exports as GLB with a reduced face count (~20k faces is plenty at this voxel
+  size and fits the chat upload limit). Commit the voxels npz, not the source mesh. All ids in the cobbleeffort namespace, the
   animation group `cobbleeffort_<name>`; `species_additions` sets `implemented`; spawns in `spawn_pool_world`.
   Never copy another pack's model/art without a licence or written permission (the user's own models are fine).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
