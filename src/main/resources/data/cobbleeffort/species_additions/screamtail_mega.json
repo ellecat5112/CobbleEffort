@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:screamtail",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fairy",
+   "secondaryType": "psychic",
+   "abilities": [
+    "magicbounce",
+    "magicbounce",
+    "h:magicbounce"
+   ],
+   "pokedex": [
+    "cobblemon.species.screamtail-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 115,
+    "attack": 65,
+    "defence": 129,
+    "special_attack": 95,
+    "special_defence": 145,
+    "speed": 121
+   },
+   "baseScale": 0.88,
+   "hitbox": {
+    "width": 1.8,
+    "height": 1.8,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

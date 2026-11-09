@@ -1,0 +1,157 @@
+{
+ "greattusk": {
+  "display": "Great Tusk",
+  "stone_name": "Great Tuskite",
+  "types": [
+   "ground",
+   "fighting"
+  ],
+  "ability": "toughclaws",
+  "stats": [
+   115,
+   171,
+   161,
+   53,
+   73,
+   97
+  ],
+  "recipe": {
+   "pattern": [
+    "bpb",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "b": "minecraft:bone_block",
+    "p": "minecraft:packed_mud",
+    "k": "minecraft:brown_terracotta",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "screamtail": {
+  "display": "Scream Tail",
+  "stone_name": "Scream Tailite",
+  "types": [
+   "fairy",
+   "psychic"
+  ],
+  "ability": "magicbounce",
+  "stats": [
+   115,
+   65,
+   129,
+   95,
+   145,
+   121
+  ],
+  "recipe": {
+   "pattern": [
+    "wpw",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "w": "minecraft:pink_wool",
+    "p": "minecraft:pink_petals",
+    "k": "minecraft:amethyst_shard",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "brutebonnet": {
+  "display": "Brute Bonnet",
+  "stone_name": "Brute Bonnetite",
+  "types": [
+   "grass",
+   "dark"
+  ],
+  "ability": "strongjaw",
+  "stats": [
+   111,
+   167,
+   129,
+   79,
+   129,
+   55
+  ],
+  "recipe": {
+   "pattern": [
+    "rmr",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "r": "minecraft:red_mushroom_block",
+    "m": "minecraft:moss_block",
+    "k": "minecraft:brown_mushroom",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "fluttermane": {
+  "display": "Flutter Mane",
+  "stone_name": "Flutter Manite",
+  "types": [
+   "ghost",
+   "fairy"
+  ],
+  "ability": "levitate",
+  "stats": [
+   55,
+   55,
+   65,
+   175,
+   165,
+   155
+  ],
+  "recipe": {
+   "pattern": [
+    "mjm",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "m": "minecraft:phantom_membrane",
+    "j": "minecraft:echo_shard",
+    "k": "minecraft:purple_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "slitherwing": {
+  "display": "Slither Wing",
+  "stone_name": "Slither Wingite",
+  "types": [
+   "bug",
+   "fighting"
+  ],
+  "ability": "moxie",
+  "stats": [
+   85,
+   175,
+   99,
+   85,
+   125,
+   101
+  ],
+  "recipe": {
+   "pattern": [
+    "sbs",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "s": "minecraft:string",
+    "b": "minecraft:blaze_powder",
+    "k": "minecraft:orange_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ }
+}

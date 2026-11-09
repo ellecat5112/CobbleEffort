@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:brutebonnet",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "grass",
+   "secondaryType": "dark",
+   "abilities": [
+    "strongjaw",
+    "strongjaw",
+    "h:strongjaw"
+   ],
+   "pokedex": [
+    "cobblemon.species.brutebonnet-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 111,
+    "attack": 167,
+    "defence": 129,
+    "special_attack": 79,
+    "special_defence": 129,
+    "speed": 55
+   },
+   "baseScale": 0.8,
+   "hitbox": {
+    "width": 1.3,
+    "height": 2.0,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

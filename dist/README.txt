@@ -466,6 +466,57 @@ Pokemon Cobblemon has data for but no model, now with a model, animations and a 
   * Commands: /pokespawn ironboulder or /pokegive ironboulder (add 'shiny' for the shiny).
 
 ====================================================================================================
+CUSTOM MEGA EVOLUTIONS (needs Mega Showdown)
+====================================================================================================
+Five Ancient Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold
+the mega stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms come from
+Cobblemon: AllTheMons x Mega Showdown.
+
+MEGA GREAT TUSK  (Ground / Fighting, Tough Claws)
+  Stats: HP 115  Atk 171  Def 161  SpA 53  SpD 73  Spe 97  (total 670)
+  Stone: Great Tuskite, crafted like this:
+      [bpb]
+      [kek]
+      [.d.]
+      b = Bone Block, p = Packed Mud, k = Brown Terracotta, e = Mega Stone (Mega Showdown's), d =
+      Diamond
+
+MEGA SCREAM TAIL  (Fairy / Psychic, Magic Bounce)
+  Stats: HP 115  Atk 65  Def 129  SpA 95  SpD 145  Spe 121  (total 670)
+  Stone: Scream Tailite, crafted like this:
+      [wpw]
+      [kek]
+      [.d.]
+      w = Pink Wool, p = Pink Petals, k = Amethyst Shard, e = Mega Stone (Mega Showdown's), d =
+      Diamond
+
+MEGA BRUTE BONNET  (Grass / Dark, Strong Jaw)
+  Stats: HP 111  Atk 167  Def 129  SpA 79  SpD 129  Spe 55  (total 670)
+  Stone: Brute Bonnetite, crafted like this:
+      [rmr]
+      [kek]
+      [.d.]
+      r = Red Mushroom Block, m = Moss Block, k = Brown Mushroom, e = Mega Stone (Mega Showdown's),
+      d = Diamond
+
+MEGA FLUTTER MANE  (Ghost / Fairy, Levitate)
+  Stats: HP 55  Atk 55  Def 65  SpA 175  SpD 165  Spe 155  (total 670)
+  Stone: Flutter Manite, crafted like this:
+      [mjm]
+      [kek]
+      [.d.]
+      m = Phantom Membrane, j = Echo Shard, k = Purple Dye, e = Mega Stone (Mega Showdown's), d =
+      Diamond
+
+MEGA SLITHER WING  (Bug / Fighting, Moxie)
+  Stats: HP 85  Atk 175  Def 99  SpA 85  SpD 125  Spe 101  (total 670)
+  Stone: Slither Wingite, crafted like this:
+      [sbs]
+      [kek]
+      [.d.]
+      s = String, b = Blaze Powder, k = Orange Dye, e = Mega Stone (Mega Showdown's), d = Diamond
+
+====================================================================================================
 WORKS WITH
 ====================================================================================================
 CobbleEffort is built to run alongside Mega Showdown (+ Extra Megas, Ores), Cobblemon: AllTheMons x

@@ -67,6 +67,12 @@ cosmetic slot and aspects. Built against Cobblemon 1.8.4 / Minecraft 1.21.1.
   size and fits the chat upload limit). Commit the voxels npz, not the source mesh. All ids in the cobbleeffort namespace, the
   animation group `cobbleeffort_<name>`; `species_additions` sets `implemented`; spawns in `spawn_pool_world`.
   Never copy another pack's model/art without a licence or written permission (the user's own models are fine).
+- Custom megas (`tools/models/megas.py`, config in its MEGAS dict): Mega Showdown reads megas from
+  `data/<ns>/mega_showdown/mega/*.json` and Showdown items from `data/<ns>/mega_showdown/showdown/held_items/*.js`; any
+  item stack with components `mega_showdown:registry_type_component: "mega"` + `mega_showdown:registry_location_component:
+  <ns>:<id>` is that stone (no code needed). Stones are amethyst shards with those components + custom_model_data
+  (icons via overrides in `assets/minecraft/models/item/amethyst_shard.json`), made by recipes. The "Mega" form goes in
+  `species_additions` (forms append), the look in a resolver with aspect "mega". Base forms must exist in the stack.
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;

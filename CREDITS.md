@@ -113,6 +113,13 @@ and contributors.
   model made by ellecat5112 with **Tripo AI** by `tools/models/celesteela.py`. It is painted in the colour scheme of a
   reference picture ellecat5112 provided (no pixels of it are used); the glow layer, animations, poser and shiny are original. Its game data is Cobblemon's own.
 
+## Custom mega models
+
+* **Mega Great Tusk, Mega Scream Tail, Mega Brute Bonnet, Mega Flutter Mane, Mega Slither Wing**
+  (`.../models/098*_*/*_mega.geo.json`, their textures, animations and posers): converted from untextured 3D models made by
+  ellecat5112 with **Tripo AI** by `tools/models/megas.py`. The colours, glow layers, animations, posers, stats,
+  abilities, stone icons and recipes are original. They plug into **Mega Showdown**'s data-driven mega system.
+
 ## Code and data
 
 The build scripts, generator, data and resolver JSON are licensed under the

@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:slitherwing",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "bug",
+   "secondaryType": "fighting",
+   "abilities": [
+    "moxie",
+    "moxie",
+    "h:moxie"
+   ],
+   "pokedex": [
+    "cobblemon.species.slitherwing-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 85,
+    "attack": 175,
+    "defence": 99,
+    "special_attack": 85,
+    "special_defence": 125,
+    "speed": 101
+   },
+   "baseScale": 1.27,
+   "hitbox": {
+    "width": 2.2,
+    "height": 3.5,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

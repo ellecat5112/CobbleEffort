@@ -403,6 +403,36 @@ Give a supported Pokémon a **Light Blue, Pink or White Banner** (the flag's col
 commands: `/pokegive togedemaru trans_pride`, `/pokegive emolga trans_pride shiny`. Pack makers can extend the item
 tag `#cobbleeffort:trans_pride_cosmetics`.
 
+## Custom Mega Evolutions (with Mega Showdown)
+
+Five Ancient Paradox Pokémon get their own Mega Evolutions through **Mega Showdown**, from ellecat5112's models
+(made with Tripo AI, untextured, so they're painted here), each with a glow layer and animations for idle, walking
+(or floating), battle stance, sleep, cry, physical/special/status moves and fainting. The base forms come from
+Cobblemon: AllTheMons x Mega Showdown.
+
+| Mega | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |
+|------|-------|---------|----------------------------------|-------|------|
+| Mega Great Tusk | Ground / Fighting | Tough Claws | 115 / 171 / 161 / 53 / 73 / 97 | Great Tuskite | dark shaggy hide bristling with glowing amber crystals, great curled ivory tusks, red eyes |
+| Mega Scream Tail | Fairy / Psychic | Magic Bounce | 115 / 65 / 129 / 95 / 145 / 121 | Scream Tailite | pink fluff with a swirled puff-ball tail and magenta forehead spiral |
+| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | a crimson, cream-spotted cap on a scaly reptile, glowing little mushrooms on its stem |
+| Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | deep purple with a streaming magenta mane, a glowing brim and red jewels |
+| Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | cream fluff with great blazing orange-to-gold wings that shed glowing embers |
+
+Each mega adds 100 base stats. Shinies are recoloured too.
+
+**Getting a stone:** craft it: a Mega Showdown Mega Stone in the middle, a Diamond below, and themed items around
+it (the recipes are in the zip's README). Then do it the Mega Showdown way: the Pokémon holds the stone, you wear a
+Mega Bracelet, and you press Mega Evolve in battle.
+
+![The paradox megas, normal and shiny](docs/paradox_megas_preview.png)
+
+How it works without code: Mega Showdown reads megas from data (`data/<ns>/mega_showdown/mega/*.json`), Showdown
+items from `data/<ns>/mega_showdown/showdown/held_items/*.js`, and treats any item stack carrying its components
+`mega_showdown:registry_type_component: "mega"` and `mega_showdown:registry_location_component: <mega id>` as that
+mega's stone. So each stone is an amethyst shard with those components (plus a name, lore and `custom_model_data`
+for its own icon), made by a crafting recipe. The "Mega" forms are added with `species_additions`.
+Built by `tools/models/megas.py`.
+
 ## New Pokémon
 
 Cobblemon has data for Iron Boulder and Celesteela but no models, so they were the last two empty Pokédex spots in

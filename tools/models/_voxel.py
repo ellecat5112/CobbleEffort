@@ -86,7 +86,7 @@ def load_mesh(path, samples: int = 3_000_000, seed: int = 0):
     return np.concatenate(pts_all), np.concatenate(col_all), None
 
 
-def voxelize(P, C, F, height: float, face_negative_z: bool):
+def voxelize(P, C, F, height: float, face_negative_z: bool = True, front: str | None = None):
     """Points sampled on every triangle -> occupied voxels (one per model unit) with mean colours; the inside is
     filled. Returns (solid, surface, colours, lo) where voxel (i, j, k) has its min corner at lo + (i, j, k)."""
     from scipy import ndimage
@@ -98,9 +98,11 @@ def voxelize(P, C, F, height: float, face_negative_z: bool):
         pts = np.concatenate([P, T.mean(1), (T[:, 0] + T[:, 1]) / 2, (T[:, 1] + T[:, 2]) / 2, (T[:, 2] + T[:, 0]) / 2])
         col = np.concatenate([C, TC.mean(1), (TC[:, 0] + TC[:, 1]) / 2, (TC[:, 1] + TC[:, 2]) / 2, (TC[:, 2] + TC[:, 0]) / 2])
     q = pts.copy()
-    if face_negative_z:            # Cobblemon models face -z (and the left side is +x): turn 180 degrees about y
-        q[:, 0] *= -1
-        q[:, 2] *= -1
+    # Cobblemon models face -z (left side +x). `front` names the source's facing ("+z", "-z", "+x", "-x"); the old
+    # face_negative_z=True means a source facing +z (turned 180 degrees about y)
+    front = front or ("+z" if face_negative_z else "-z")
+    x, z = q[:, 0].copy(), q[:, 2].copy()
+    q[:, 0], q[:, 2] = {"+z": (-x, -z), "-z": (x, z), "-x": (-z, x), "+x": (z, -x)}[front]
     q[:, 1] -= P[:, 1].min()
     q *= K
     lo = np.floor(q.min(0)).astype(int)
