@@ -46,6 +46,7 @@ VOXELS = HERE / f"{NAME}_voxels.npz"
 HEIGHT = 28                              # model units (16 = one block) before baseScale
 BASE_SCALE = 0.86                        # 28 units * 0.86 / 16 = 1.5 blocks, Iron Boulder's 1.5 m
 PALETTE_SIZE = 10
+MAX_CUBES = 80                           # the user's limit: no more than 80 cubes in the model
 
 BONES = ["body", "head", "leg_front_left", "leg_front_right", "leg_back_left", "leg_back_right"]
 
@@ -132,7 +133,8 @@ def build_model():
     bone_of = segment(solid, lo)
     piv = pivots(bone_of, lo)
 
-    boxes = vx.fit_bone_boxes(bone_of, len(BONES))          # (bone, box): fewer, chunkier boxes
+    # (bone, box): at most MAX_CUBES boxes, the head (its blade-horns) weighted double so it keeps its shape
+    boxes = vx.fit_budget(bone_of, len(BONES), MAX_CUBES, lam=2.0, weights=[1, 2, 1, 1, 1, 1])
     nearest = vx.nearest_solid(solid)
     exposed = vx.exposure(solid)
     nets = [(2 * ((i1 - i0) + (k1 - k0)), (k1 - k0) + (j1 - j0)) for _, (i0, j0, k0, i1, j1, k1) in boxes]

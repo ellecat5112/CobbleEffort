@@ -69,7 +69,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Never copy another pack's model/art without a licence or written permission (the user's own models are fine).
   Cobblemon-style cleanup (all builders): `vx.keep_largest` drops loose bits a generated mesh carries (not for
   models made of separate pieces, e.g. Celesteela), `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
-  piece), `vx.fit_bone_boxes` (fewer, chunkier boxes) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
+  piece), `vx.fit_bone_boxes` (fewer, chunkier boxes; or `vx.fit_budget(bone, n, MAX_CUBES, lam, weights)` for a cube
+  limit: candidate boxes at several tolerances/grids, greedy non-overlapping pick, then growth; Iron Boulder: 80 cubes,
+  the head weighted double) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
 - Paradox megas: `tools/megas/build.py` (config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

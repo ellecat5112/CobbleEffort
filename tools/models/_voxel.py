@@ -412,3 +412,89 @@ def keep_largest(solid):
         return solid
     sizes = ndimage.sum(solid, lab, range(1, n + 1))
     return lab == (int(np.argmax(sizes)) + 1)
+
+
+def fit_budget(bone, n_bones: int, budget: int, lam: float = 2.0, weights=None, tolerances=(0.12, 0.2, 0.3, 0.4, 0.5),
+               cells=(2, 3)):
+    """[(bone index, box)] with at most `budget` boxes in all (a cube limit): candidate boxes from fit_boxes at several
+    tolerances, on the voxel grid and on coarser grids, then a greedy pick of non-overlapping boxes, each time the one
+    covering the most of its bone's voxels (weighted by `weights[bone]`, e.g. 2 for a head whose blades must survive)
+    for the least empty space (lam per empty cell); finally every box grows into neighbouring uncovered voxels of its
+    bone while that stays clean. Big shapes get one box each; the budget goes where the silhouette needs it."""
+    X, Y, Z = bone.shape
+    w = np.ones(n_bones) if weights is None else np.asarray(weights, float)
+
+    def coarse(cell, tol):
+        cx, cy, cz = (X + cell - 1) // cell, (Y + cell - 1) // cell, (Z + cell - 1) // cell
+        cb = -np.ones((cx, cy, cz), int)
+        for i in range(cx):
+            for j in range(cy):
+                for k in range(cz):
+                    blk = bone[i * cell:(i + 1) * cell, j * cell:(j + 1) * cell, k * cell:(k + 1) * cell]
+                    v = blk[blk >= 0]
+                    if v.size >= blk.size * 0.4:
+                        cb[i, j, k] = np.bincount(v).argmax()
+        out = []
+        for b in range(n_bones):
+            m = cb == b
+            for (i0, j0, k0, i1, j1, k1) in fit_boxes(m, tol, blocked=(cb >= 0) & ~m):
+                out.append((b, (i0 * cell, j0 * cell, k0 * cell, min(X, i1 * cell), min(Y, j1 * cell), min(Z, k1 * cell))))
+        return out
+
+    cands = set()
+    for tol in tolerances:
+        cands |= set(fit_bone_boxes(bone, n_bones, tol))
+    for cell in cells:
+        for tol in (0.12, 0.25, 0.4):
+            cands |= set(coarse(cell, tol))
+    pool = sorted(cands)
+    cov = np.zeros(bone.shape, bool)
+    chosen = []
+    while len(chosen) < budget:
+        best, bg = None, 0.0
+        for c in pool:
+            b, (i0, j0, k0, i1, j1, k1) = c
+            reg = (slice(i0, i1), slice(j0, j1), slice(k0, k1))
+            if cov[reg].any():
+                continue
+            here = bone[reg]
+            other = (here >= 0) & (here != b)
+            if other.sum() > 0.15 * other.size:
+                continue
+            g = w[b] * (here == b).sum() - lam * (here < 0).sum()
+            if g > bg:
+                best, bg = c, g
+        if best is None:
+            break
+        chosen.append(best)
+        pool.remove(best)
+        b, (i0, j0, k0, i1, j1, k1) = best
+        cov[i0:i1, j0:j1, k0:k1] = True
+    # grow each box into neighbouring voxels of its bone that nothing covers yet (a slab at a time, while clean)
+    boxes = [[b, list(box)] for b, box in chosen]
+    grew = True
+    while grew:
+        grew = False
+        for entry in boxes:
+            b, (i0, j0, k0, i1, j1, k1) = entry[0], entry[1]
+            for axis in range(3):
+                for side in (0, 1):
+                    lo_, hi_ = [i0, j0, k0], [i1, j1, k1]
+                    if side and hi_[axis] >= bone.shape[axis] or not side and lo_[axis] <= 0:
+                        continue
+                    sl = [slice(lo_[0], hi_[0]), slice(lo_[1], hi_[1]), slice(lo_[2], hi_[2])]
+                    sl[axis] = slice(hi_[axis], hi_[axis] + 1) if side else slice(lo_[axis] - 1, lo_[axis])
+                    sl = tuple(sl)
+                    if cov[sl].any():
+                        continue
+                    slab = bone[sl]
+                    if (slab == b).mean() >= 0.7 and not ((slab >= 0) & (slab != b)).any():
+                        cov[sl] = True
+                        if side:
+                            hi_[axis] += 1
+                        else:
+                            lo_[axis] -= 1
+                        i0, j0, k0, i1, j1, k1 = *lo_, *hi_
+                        entry[1] = [i0, j0, k0, i1, j1, k1]
+                        grew = True
+    return [(b, tuple(box)) for b, box in boxes]
