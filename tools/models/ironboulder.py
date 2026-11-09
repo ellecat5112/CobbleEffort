@@ -46,7 +46,11 @@ VOXELS = HERE / f"{NAME}_voxels.npz"
 HEIGHT = 28                              # model units (16 = one block) before baseScale
 BASE_SCALE = 0.86                        # 28 units * 0.86 / 16 = 1.5 blocks, Iron Boulder's 1.5 m
 PALETTE_SIZE = 10
-MAX_CUBES = 50                           # the user's limit: no more than 50 cubes in the model
+MAX_CUBES = 80                           # the user's limit: no more than 80 cubes in the model (2 are the flat horns)
+GLOW_LABELS = {0, 4}                     # palette entries that glow: the orange accents (cyan on the shiny)
+HORN_MIN_Y = 14                          # the horns: the orange blades on the head's sides, from this row up
+# the eyes (the source mesh is too coarse to show them): glowing slits on the dark visor, grid (x, y) cells
+EYES = [(11, 19), (12, 19), (15, 19), (16, 19)]
 
 BONES = ["body", "head", "leg_front_left", "leg_front_right", "leg_back_left", "leg_back_right"]
 
@@ -133,11 +137,26 @@ def build_model():
     bone_of = segment(solid, lo)
     piv = pivots(bone_of, lo)
 
-    # (bone, box): at most MAX_CUBES boxes, the head (its blade-horns) weighted triple so it keeps its shape
-    boxes = vx.fit_budget(bone_of, len(BONES), MAX_CUBES, lam=2.0, weights=[1, 3, 1, 1, 1, 1])
+    # the horns are flat: each is one zero-thickness plane cut to the horn's silhouette (seen from the front),
+    # painted from the voxels behind it; everything else is boxes, at most MAX_CUBES in all
+    i_, j_, k_ = np.indices(bone_of.shape)
+    horn = (bone_of == 1) & ((i_ < 10) | (i_ > 17)) & (j_ >= HORN_MIN_Y)
+    horns = [horn & (i_ < 10), horn & (i_ > 17)]
+    planes = []
+    for m in horns:
+        idx = np.argwhere(m)
+        (i0, j0, _), (i1, j1, _) = idx.min(0), idx.max(0) + 1
+        kz = int(round(idx[:, 2].mean()))
+        planes.append(((int(i0), int(j0), kz, int(i1), int(j1)), m))
+    fit = bone_of.copy()
+    fit[horn] = -1
+    # (bone, box): the head (its blades and visor) weighted double so it keeps its shape
+    boxes = vx.fit_budget(fit, len(BONES), MAX_CUBES - len(planes), lam=2.0, weights=[1, 2, 1, 1, 1, 1])
     nearest = vx.nearest_solid(solid)
     exposed = vx.exposure(solid)
+    front = np.where(solid.any(2), solid.argmax(2), -1)          # the first solid cell from the front, per (x, y)
     nets = [(2 * ((i1 - i0) + (k1 - k0)), (k1 - k0) + (j1 - j0)) for _, (i0, j0, k0, i1, j1, k1) in boxes]
+    nets += [(2 * (i1 - i0), j1 - j0) for (i0, j0, kz, i1, j1), _ in planes]
     tw = 64
     while True:
         pos, used = vx.pack(nets, tw)
@@ -145,27 +164,67 @@ def build_model():
             break
         tw *= 2
     th = tw
-
+    box_uv, plane_uv = pos[:len(boxes)], pos[len(boxes):]
     graded = grade(palette)
     colour_lists = {"normal": graded, "shiny": shiny_palette(graded)}
+    eye_cells = set(EYES)
+
+    def is_eye(i, j, k):
+        return (i, j) in eye_cells and front[i, j] >= 0 and k <= front[i, j] + 1
+
     for variant, cols in colour_lists.items():
         img = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
-        def colour_of(i, j, k, cols=cols):
+        glow = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
+        eye = tuple(cols[0])
+
+        def colour_of(i, j, k, cols=cols, eye=eye):
+            if is_eye(i, j, k):
+                return tuple(min(255, int(c * 1.25)) for c in eye) + (255,)
             return tuple(cols[labels[i, j, k]]) + (255,)
-        for (b, box), uv in zip(boxes, pos):
+
+        def glow_of(i, j, k, cols=cols, eye=eye):
+            if is_eye(i, j, k):
+                return tuple(min(255, int(c * 1.25)) for c in eye) + (255,)
+            if labels[i, j, k] in GLOW_LABELS:
+                return tuple(cols[labels[i, j, k]]) + (255,)
+            return (0, 0, 0, 0)
+
+        for (b, box), uv in zip(boxes, box_uv):
             vx.paint_box_shaded(img, uv, box, vx.at_nearest(nearest, colour_of), exposed)
+            vx.paint_box(glow, uv, box, vx.at_nearest(nearest, glow_of))
+        bp, gp = img.load(), glow.load()
+        for ((i0, j0, kz, i1, j1), m), (u, v) in zip(planes, plane_uv):
+            w, h = i1 - i0, j1 - j0
+            for c in range(w):
+                for r in range(h):
+                    for (x, i) in ((u + c, i0 + c), (u + w + c, i1 - 1 - c)):     # front face, then the back
+                        j = j1 - 1 - r
+                        ks = np.where(m[i, j, :])[0]
+                        if not len(ks):
+                            continue                                            # outside the horn: clear
+                        k = int(ks[np.argmin(np.abs(ks - kz))])
+                        edge = not (0 < c < w - 1 and 0 < r < h - 1 and m[i - 1, j].any() and m[i + 1, j].any()
+                                    and m[i, j - 1].any() and m[i, j + 1].any())
+                        col = cols[labels[i, j, k]]
+                        bp[x, v + r] = tuple(int(ch * (0.78 if edge else 1.0)) for ch in col) + (255,)
+                        if labels[i, j, k] in GLOW_LABELS:
+                            gp[x, v + r] = tuple(col) + (255,)
         sfx = "" if variant == "normal" else "_shiny"
         dest = RES / "assets" / MOD / "textures" / "pokemon" / FOLDER / f"{NAME}{sfx}.png"
         dest.parent.mkdir(parents=True, exist_ok=True)
         img.save(dest, optimize=True)
-
+        glow.save(dest.with_name(f"{NAME}{sfx}_glow.png"), optimize=True)
     bones = [{"name": NAME, "pivot": [0, 0, 0]}]
     for b, name in enumerate(BONES):
         bone = {"name": name, "parent": "body" if name == "head" else NAME, "pivot": piv[name], "cubes": []}
-        for (bb, (i0, j0, k0, i1, j1, k1)), uv in zip(boxes, pos):
+        for (bb, (i0, j0, k0, i1, j1, k1)), uv in zip(boxes, box_uv):
             if bb == b:
                 bone["cubes"].append({"origin": [int(lo[0] + i0), int(lo[1] + j0), int(lo[2] + k0)],
                                       "size": [i1 - i0, j1 - j0, k1 - k0], "uv": [int(uv[0]), int(uv[1])]})
+        if name == "head":
+            for ((i0, j0, kz, i1, j1), _), uv in zip(planes, plane_uv):
+                bone["cubes"].append({"origin": [int(lo[0] + i0), int(lo[1] + j0), float(lo[2] + kz) + 0.5],
+                                      "size": [i1 - i0, j1 - j0, 0], "uv": [int(uv[0]), int(uv[1])]})
         bones.append(bone)
     bones.append({"name": "locator_root", "parent": NAME, "pivot": [0, 0, 0]})
     hmin = np.argwhere(bone_of == 1).min(0) + lo
@@ -175,7 +234,7 @@ def build_model():
                         "visible_bounds_width": 4, "visible_bounds_height": 3.5, "visible_bounds_offset": [0, 1.5, 0]},
         "bones": bones}]}
     write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / FOLDER / f"{NAME}.geo.json", geo)
-    print(f"model: {len(boxes)} cubes, texture {tw}x{th}, palette {len(palette)}; pivots {piv}")
+    print(f"model: {len(boxes) + len(planes)} cubes ({len(planes)} flat horns), texture {tw}x{th}, palette {len(palette)}; pivots {piv}")
     return piv
 
 
@@ -278,8 +337,10 @@ def data_files():
         "species": f"cobblemon:{NAME}", "order": 1,
         "variations": [
             {"aspects": [], "poser": f"{MOD}:{NAME}", "model": f"{MOD}:{NAME}.geo",
-             "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}.png", "layers": []},
-            {"aspects": ["shiny"], "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}_shiny.png"},
+             "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}.png",
+             "layers": [{"name": "glow", "emissive": True, "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}_glow.png"}]},
+            {"aspects": ["shiny"], "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}_shiny.png",
+             "layers": [{"name": "glow", "emissive": True, "texture": f"{MOD}:textures/pokemon/{FOLDER}/{NAME}_shiny_glow.png"}]},
         ]})
     # Cobblemon already has Iron Boulder's game data (types, ability, stats, moves); it only lacked a model
     write_json(RES / "data" / MOD / "species_additions" / f"{NAME}.json", {
