@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:bellossom",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bellossom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bellossom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "valencian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bellossom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "valencian",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bellossom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0182_bellossom/distorted_bellossom_valencian_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

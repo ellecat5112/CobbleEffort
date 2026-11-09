@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["dracometeor"], {num: -31114, name: "Fairy Meteor", type: "Fairy", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["dracometeor"], {num: -31135, name: "Fairy Meteor", type: "Fairy", isNonstandard: null, zMove: undefined, maxMove: undefined})

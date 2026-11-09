@@ -1,0 +1,635 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_emissive_pikachu_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_shiny_pikachu_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_emissive_shiny_pikachu_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_female.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_emissive_pikachu_female.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_shiny_pikachu_female.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_emissive_shiny_pikachu_female.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-rage_candy_bar",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "original",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_original_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-pewter_crunchies",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "partner",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_partner_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lava_cookie",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "hoenn",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_hoenn_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-old_gateau",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "sinnoh",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_sinnoh_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-casteliacone",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "unova",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_unova_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lumiose_galette",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "kalos",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_kalos_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-big_malasada",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "alola",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_alola_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-smoked_tail_curry",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_male.png",
+      "layers": [
+        {
+          "name": "world",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_world_pikachu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-shears",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_fluff_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_fluff_male.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leather_helmet",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-sinister_tea",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-cocoa_beans",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-paper",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_male_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_male_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_taped_pikachu_male_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-paper",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_male_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_shiny_pikachu_male_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_taped_shiny_pikachu_male_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-rage_candy_bar",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "original",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_original_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-pewter_crunchies",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "partner",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_partner_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lava_cookie",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "hoenn",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_hoenn_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-old_gateau",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "sinnoh",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_sinnoh_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-casteliacone",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "unova",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_unova_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lumiose_galette",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "kalos",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_kalos_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-big_malasada",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "alola",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_alola_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-smoked_tail_curry",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cap_female.png",
+      "layers": [
+        {
+          "name": "world",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cap_world_pikachu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-shears",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_fluff_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_fluff_female.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leather_helmet",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-sinister_tea",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-cocoa_beans",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_detective_pikachu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-paper",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_female_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_female_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_taped_pikachu_female_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-paper",
+        "female",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_female_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_shiny_pikachu_female_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_taped_shiny_pikachu_female_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-compass",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_captain_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_captain_male.png",
+      "layers": [
+        {
+          "name": "captain",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_captain_pikachu_captain_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-compass",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_captain_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_captain_female.png",
+      "layers": [
+        {
+          "name": "captain",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_captain_pikachu_captain_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_alpha_pikachu_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_gigantamax_pikachu_gigantamax.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_gigantamax_emissive_pikachu_gigantamax.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_gigantamax_shiny_pikachu_gigantamax.png"
+    },
+    {
+      "aspects": [
+        "cosplay",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_cosplay_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_pikachu_cosplay.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "belle",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_belle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_belle_pikachu_belle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "belle",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_belle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_belle_pikachu_belle.png"
+    },
+    {
+      "aspects": [
+        "belle",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_belle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_belle_shiny_pikachu_belle.png"
+    },
+    {
+      "aspects": [
+        "libre",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_libre_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_libre_pikachu_libre.png"
+    },
+    {
+      "aspects": [
+        "libre",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_libre_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_libre_shiny_pikachu_libre.png"
+    },
+    {
+      "aspects": [
+        "phd",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_phd_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_phd_pikachu_phd.png"
+    },
+    {
+      "aspects": [
+        "phd",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_phd_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_phd_shiny_pikachu_phd.png"
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_popstar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_popstar_pikachu_popstar.png"
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_popstar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_popstar_shiny_pikachu_popstar.png"
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_rockstar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_rockstar_pikachu_rockstar.png"
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pikachu_rockstar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0025_pikachu/distorted_pikachu_cosplay_rockstar_shiny_pikachu_rockstar.png"
+    }
+  ]
+}

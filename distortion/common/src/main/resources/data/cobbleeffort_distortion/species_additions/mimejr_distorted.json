@@ -1,0 +1,37 @@
+{
+  "target": "cobblemon:mimejr",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "steel"
+    },
+    {
+      "aspects": [
+        "region-bias-galar",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 6,
+      "labels": [
+        "gen8",
+        "baby",
+        "customized_official",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.mimejr-galarbias.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "weight": 130,
+      "battleOnly": false
+    }
+  ]
+}

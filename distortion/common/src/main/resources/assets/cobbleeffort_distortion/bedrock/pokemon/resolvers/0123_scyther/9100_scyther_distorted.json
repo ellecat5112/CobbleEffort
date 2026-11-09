@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:scyther",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scyther_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scyther_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_shiny_scyther_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_shiny_scyther_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_shiny_scyther_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_shiny_scyther_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_shiny_scyther_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scyther_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_female_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_female_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_female_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_female_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_alpha_scyther_male.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0123_scyther/distorted_scyther_scyther_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -72,6 +72,21 @@ Entei and Suicune are Mega Showdown's models. Celebi is modelled only by AllTheM
 an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_celebi_layout.json`, from
 `tools/addons/extract_layout.py`, no art read), set by texture alone so the resolver names no model.
 
+## Every Gen 1 Pokémon (0.9.0)
+
+The other 70 Gen 1 lines, whole (later-generation members too: Pichu, Crobat, Eevee's evolutions...; 174 species),
+by the chart, with looks themed on each Pokémon's (and each regional / Gigantamax form's) NEW types:
+`tools/parts/gen1.py` (lines in `gen1_lines.json`) on `tools/parts/_themes.py`, one motif per new type placed by
+bone names (head, torso/body, tail tip, wings, arms, legs, ears; on the back face when the head sits on the body):
+Fighting a brawler (bulk + headband with ribbons), Water sea life (back fin, tail fluke, flames to sea life), Grass
+overgrowth (leaves, fern fronds, moss), Fire flames, Ground a cluster of jagged rocks + sandstone, Psychic a forehead
+gem + halo, Electric lightning through wings/tail (bolts otherwise), Dark shadow wisps, Flying feathered wings, Fairy
+a petal crown, Steel riveted plates. The first new type gets the full motif, the second an accent; the main colour
+moves to the new primary type's (a Normal type's most saturated colour). `make_assets.types_for` gives each model's
+form types (Alolan Vulpix: Ice -> Fire). Ability twins now depend on the holder's types (`distortAbilities[ability]
+[types]`): Thick Fat is Blubber on Fire types, Insulation on Ice types; ordinary weathers never turn primal (Snow
+Warning's twin sets sun, not Desolate Land).
+
 ## Second set: every starter line (Gen 1-9)
 
 Water starters distort into plant-inspired forms, grass starters into natural disasters, fire starters into sea life

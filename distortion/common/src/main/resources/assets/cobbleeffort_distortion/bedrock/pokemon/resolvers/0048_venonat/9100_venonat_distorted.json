@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:venonat",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venonat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0048_venonat/distorted_venonat.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0048_venonat/distorted_venonat_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venonat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0048_venonat/distorted_venonat_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0048_venonat/distorted_venonat_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0048_venonat/distorted_venonat_alpha.png"
+        }
+      ]
+    }
+  ]
+}

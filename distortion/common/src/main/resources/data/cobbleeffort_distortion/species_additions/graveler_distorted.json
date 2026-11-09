@@ -1,0 +1,73 @@
+{
+  "target": "cobblemon:graveler",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "water"
+    },
+    {
+      "abilities": [
+        "magnetpull",
+        "sturdy",
+        "h:galvanize"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "graveler alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "golem alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 10,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.graveler-alola.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "ground",
+      "weight": 1100
+    }
+  ]
+}

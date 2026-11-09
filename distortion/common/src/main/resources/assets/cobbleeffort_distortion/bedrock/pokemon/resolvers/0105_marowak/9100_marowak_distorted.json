@@ -1,0 +1,127 @@
+{
+  "species": "cobblemon:marowak",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:marowak_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:marowak_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:marowak_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_emissive_marowak_alolan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:marowak_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_shiny_marowak_alolan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_emissive_marowak_alolan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_shiny_marowak_alolan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_shiny_marowak_alolan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_shiny_marowak_alolan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_shiny_marowak_alolan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_alpha_marowak_alolan.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0105_marowak/distorted_marowak_alolan_marowak_alolan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

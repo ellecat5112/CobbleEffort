@@ -1,0 +1,75 @@
+{
+  "target": "cobblemon:pikachu",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "partner-cap",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "height": 4,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 1,
+      "name": "Partner-Distorted",
+      "pokedex": [
+        "cobblemon.species.pikachu-partner.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 60
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 210,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.pikachu-gmax.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 0
+    },
+    {
+      "aspects": [
+        "region-bias-alola",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 4,
+      "labels": [
+        "gen7",
+        "customized_official",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.pikachu-alolabias.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 60,
+      "battleOnly": false
+    }
+  ]
+}

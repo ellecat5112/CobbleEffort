@@ -1,0 +1,208 @@
+{
+  "species": "cobblemon:exeggutor",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:exeggutor_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:exeggutor_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:exeggutor_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:exeggutor_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_shiny_exeggutor_alolan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_shiny_exeggutor_alolan_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_shiny_exeggutor_alolan_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_shiny_exeggutor_alolan_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_shiny_exeggutor_alolan_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_alpha_exeggutor_alolan.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0103_exeggutor/distorted_exeggutor_alolan_exeggutor_alolan_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

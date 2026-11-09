@@ -104,7 +104,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; the Gen 1 and Gen 2 legendaries and mythicals; every starter line
+  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; every Gen 1 Pokémon with its whole line (GEN1_LINES, `parts/gen1.py` + `parts/_themes.py`: looks from each form's NEW types, one motif per type placed by bone names); the Gen 2 legendaries and mythicals; every starter line
   Gen 1-9 (STARTER_LINES), no stone megas/primals; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
   water -> plant-inspired, grass -> natural disasters, fire -> sea life (the user's direction; Squirtle prototaxites,
   Bulbasaur raging flames, Charmander mermaid). One module per line in `tools/parts/<first stage>.py` (LINE, build(kit),

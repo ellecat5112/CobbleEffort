@@ -1,0 +1,916 @@
+{
+  "species": "cobblemon:raichu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_emissive_raichu_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_shiny_raichu_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_emissive_shiny_raichu_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_female.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_emissive_raichu_female.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_shiny_raichu_female.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_emissive_shiny_raichu_female.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-rage_candy_bar",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "original",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_original_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-pewter_crunchies",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "partner",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_original_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lava_cookie",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "hoenn",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_hoenn_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-old_gateau",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "sinnoh",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_sinnoh_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-casteliacone",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "unova",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_unova_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lumiose_galette",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "kalos",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_kalos_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-big_malasada",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "alola",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_alola_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-smoked_tail_curry",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_male.png",
+      "layers": [
+        {
+          "name": "world",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_world_raichu_cap_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-compass",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_captain_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_captain_male.png",
+      "layers": [
+        {
+          "name": "captain",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_captain_raichu_captain_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-shears",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_fluff_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_fluff_male.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leather_helmet",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-sinister_tea",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-cocoa_beans",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_male.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-rage_candy_bar",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "original",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_original_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-pewter_crunchies",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "partner",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_partner_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lava_cookie",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "hoenn",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_hoenn_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-old_gateau",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "sinnoh",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_sinnoh_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-casteliacone",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "unova",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_unova_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lumiose_galette",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "kalos",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_kalos_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-big_malasada",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "alola",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_alola_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-smoked_tail_curry",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_cap_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_cap_female.png",
+      "layers": [
+        {
+          "name": "world",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_world_raichu_cap_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-compass",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_captain_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_captain_female.png",
+      "layers": [
+        {
+          "name": "captain",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_captain_raichu_captain_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-shears",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_fluff_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_fluff_female.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leather_helmet",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-sinister_tea",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-cocoa_beans",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_detective_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_raichu_detective_female.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_detective_female.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_alpha_raichu_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_emissive_raichu_alolan.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_shiny_raichu_alolan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_emissive_shiny_raichu_alolan.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_shiny_raichu_alolan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_shiny_raichu_alolan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_shiny_raichu_alolan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_shiny_raichu_alolan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-rage_candy_bar",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "original",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_original_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-pewter_crunchies",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "partner",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_original_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lava_cookie",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "hoenn",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_hoenn_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-old_gateau",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "sinnoh",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_sinnoh_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-casteliacone",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "unova",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_unova_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-lumiose_galette",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "kalos",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_kalos_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-big_malasada",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "alola",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_alola_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-smoked_tail_curry",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_cap_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap.png",
+      "layers": [
+        {
+          "name": "world",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_cap_world_raichu_alolan_cap.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_cap_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-compass",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_captain_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_captain.png",
+      "layers": [
+        {
+          "name": "captain",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_captain_raichu_alolan_captain.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_captain_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_captain_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_captain_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_captain_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-shears",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_fluff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_fluff.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_emissive_raichu_alolan_fluff.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_fluff_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_fluff_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_fluff_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_fluff_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leather_helmet",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_detective_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_alolan_detective.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-sinister_tea",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_detective_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_alolan_detective.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-cocoa_beans",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raichu_alolan_detective_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective.png",
+      "layers": [
+        {
+          "name": "detective",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_detective_raichu_alolan_detective.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_raichu_alolan_detective_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0026_raichu/distorted_raichu_alolan_alpha_raichu_male.png"
+        }
+      ]
+    }
+  ]
+}

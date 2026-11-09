@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:caterpie",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:caterpie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0010_caterpie/distorted_caterpie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:caterpie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0010_caterpie/distorted_caterpie_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0010_caterpie/distorted_caterpie_alpha.png"
+        }
+      ]
+    }
+  ]
+}

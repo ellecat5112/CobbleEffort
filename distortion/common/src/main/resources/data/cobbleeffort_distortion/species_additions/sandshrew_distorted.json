@@ -1,0 +1,73 @@
+{
+  "target": "cobblemon:sandshrew",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "snowcloak",
+        "h:slushrush"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 75,
+        "defence": 90,
+        "hp": 50,
+        "special_attack": 10,
+        "special_defence": 35,
+        "speed": 40
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "sandshrew alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "sandslash alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 7,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.sandshrew-alola.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "weight": 400
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:dragonair",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dragonair_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0148_dragonair/distorted_dragonair.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0148_dragonair/distorted_dragonair_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dragonair_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0148_dragonair/distorted_dragonair_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0148_dragonair/distorted_dragonair_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0148_dragonair/distorted_dragonair_alpha.png"
+        }
+      ]
+    }
+  ]
+}

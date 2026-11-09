@@ -1,0 +1,83 @@
+{
+  "target": "cobblemon:slowking",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "abilities": [
+        "curiousmedicine",
+        "owntempo",
+        "h:regenerator"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 65,
+        "defence": 80,
+        "hp": 95,
+        "special_attack": 110,
+        "special_defence": 110,
+        "speed": 30
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "slowbro alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "slowking alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "walkSpeed": 0.23
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 18,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.slowking-galar.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "dark",
+      "weight": 795
+    }
+  ]
+}

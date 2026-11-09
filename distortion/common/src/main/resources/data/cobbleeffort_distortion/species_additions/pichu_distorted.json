@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:pichu",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-alola",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 3,
+      "labels": [
+        "gen7",
+        "baby",
+        "customized_official",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.pichu-alolabias.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 20,
+      "battleOnly": false
+    }
+  ]
+}

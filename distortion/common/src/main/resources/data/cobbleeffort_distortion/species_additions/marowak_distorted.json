@@ -1,0 +1,80 @@
+{
+  "target": "cobblemon:marowak",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "cursedbody",
+        "lightningrod",
+        "h:rockhead"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseScale": 0.8,
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "marowak alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "marowak alolan",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 10,
+      "hitbox": {
+        "fixed": false,
+        "height": 1.6,
+        "width": 0.7
+      },
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "lightingData": {
+        "lightLevel": 9,
+        "liquidGlowMode": "LAND"
+      },
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.marowak-alola.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "weight": 340
+    }
+  ]
+}

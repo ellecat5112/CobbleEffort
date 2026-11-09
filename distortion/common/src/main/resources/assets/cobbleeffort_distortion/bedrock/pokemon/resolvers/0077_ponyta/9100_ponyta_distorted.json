@@ -1,0 +1,126 @@
+{
+  "species": "cobblemon:ponyta",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ponyta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ponyta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ponyta_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar.png",
+      "layers": [
+        {
+          "emissive": "true",
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_emissive_ponyta_galar.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ponyta_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_shiny_ponyta_galar.png",
+      "layers": [
+        {
+          "emissive": "true",
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_emissive_shiny_ponyta_galar.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_shiny_ponyta_galar_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_shiny_ponyta_galar_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_shiny_ponyta_galar_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_shiny_ponyta_galar_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_alpha_ponyta_galar.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0077_ponyta/distorted_ponyta_galar_ponyta_galar_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

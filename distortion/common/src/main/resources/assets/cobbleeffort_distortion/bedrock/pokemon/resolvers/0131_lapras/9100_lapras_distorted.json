@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:lapras",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lapras_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lapras_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lapras_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_lapras_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_lapras_gmax_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_lapras_gmax_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_lapras_gmax_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_lapras_gmax_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lapras_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_shiny_lapras_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_shiny_lapras_gmax_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_shiny_lapras_gmax_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_shiny_lapras_gmax_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0131_lapras/distorted_lapras_gmax_shiny_lapras_gmax_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

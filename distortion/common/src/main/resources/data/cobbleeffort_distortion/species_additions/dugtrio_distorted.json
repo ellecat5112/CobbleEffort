@@ -1,0 +1,81 @@
+{
+  "target": "cobblemon:dugtrio",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "sandveil",
+        "tanglinghair",
+        "h:sandforce"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 100,
+        "defence": 60,
+        "hp": 35,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 110
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 5,
+          "toleratedLeaders": [
+            {
+              "pokemon": "dugtrio",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 7,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.dugtrio-alola.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "weight": 666
+    }
+  ]
+}

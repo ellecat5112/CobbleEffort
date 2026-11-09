@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["roleplay"], {num: -31570, name: "Normal Play", type: "Normal", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["roleplay"], {num: -31657, name: "Normal Play", type: "Normal", isNonstandard: null, zMove: undefined, maxMove: undefined})

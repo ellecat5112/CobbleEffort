@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:igglybuff",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:igglybuff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0174_igglybuff/distorted_igglybuff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:igglybuff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0174_igglybuff/distorted_igglybuff_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0174_igglybuff/distorted_igglybuff_alpha.png"
+        }
+      ]
+    }
+  ]
+}

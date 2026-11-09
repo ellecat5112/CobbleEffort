@@ -1,0 +1,77 @@
+{
+  "target": "cobblemon:rattata",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "gluttony",
+        "hustle",
+        "h:thickfat"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rattata alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "rattata alolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "raticate alpha",
+              "tier": 2
+            },
+            {
+              "pokemon": "raticate alolan",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.rattata-alola.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "fighting",
+      "weight": 38
+    }
+  ]
+}

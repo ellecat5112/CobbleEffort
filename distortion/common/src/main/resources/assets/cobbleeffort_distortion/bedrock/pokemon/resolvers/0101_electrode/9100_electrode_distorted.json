@@ -1,0 +1,195 @@
+{
+  "species": "cobblemon:electrode",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrode_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrode_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_shiny.png"
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "lime",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_watermelon_lime.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "green",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_watermelon_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrode_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrode_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_shiny_electrode_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_shiny_electrode_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_shiny_electrode_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_shiny_electrode_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_shiny_electrode_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_alpha_electrode_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "hisuian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "lime",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_watermelon_blank_electrode_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "hisuian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "green",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_watermelon_blank_electrode_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0101_electrode/distorted_electrode_hisuian_electrode_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

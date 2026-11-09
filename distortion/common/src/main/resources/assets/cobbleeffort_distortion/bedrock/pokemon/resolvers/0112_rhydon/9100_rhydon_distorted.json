@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:rhydon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rhydon_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0112_rhydon/distorted_rhydon_rhydon_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rhydon_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0112_rhydon/distorted_rhydon_shiny_rhydon_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0112_rhydon/distorted_rhydon_alpha_rhydon_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rhydon_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0112_rhydon/distorted_rhydon_rhydon_female.png"
+    }
+  ]
+}

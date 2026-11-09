@@ -1,0 +1,74 @@
+{
+  "species": "cobblemon:raticate",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raticate_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_raticate_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raticate_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_shiny_raticate_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_alpha_raticate_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raticate_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_raticate_female.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raticate_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_alolan_raticate_alolan.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:raticate_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_alolan_shiny_raticate_alolan.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0020_raticate/distorted_raticate_alolan_alpha_raticate_alolan.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:slowpoke",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowpoke_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowpoke_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowpoke_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowpoke_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_shiny_slowpoke_galarian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_shiny_slowpoke_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_shiny_slowpoke_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_shiny_slowpoke_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_shiny_slowpoke_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_alpha_slowpoke_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0079_slowpoke/distorted_slowpoke_galarian_slowpoke_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

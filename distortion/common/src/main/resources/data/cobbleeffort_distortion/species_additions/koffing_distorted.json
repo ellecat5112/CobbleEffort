@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:koffing",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-galar",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 6,
+      "labels": [
+        "gen8",
+        "customized_official",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.koffing-galarbias.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 10,
+      "battleOnly": false
+    }
+  ]
+}

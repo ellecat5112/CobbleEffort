@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:jolteon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jolteon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0135_jolteon/distorted_jolteon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jolteon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0135_jolteon/distorted_jolteon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0135_jolteon/distorted_jolteon_alpha.png"
+        }
+      ]
+    }
+  ]
+}

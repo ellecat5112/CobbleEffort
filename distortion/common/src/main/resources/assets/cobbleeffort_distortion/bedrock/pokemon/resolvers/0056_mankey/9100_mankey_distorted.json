@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:mankey",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mankey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mankey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0056_mankey/distorted_mankey_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

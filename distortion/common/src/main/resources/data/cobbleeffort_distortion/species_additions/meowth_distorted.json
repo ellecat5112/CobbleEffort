@@ -1,0 +1,177 @@
+{
+  "target": "cobblemon:meowth",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "pickup",
+        "technician",
+        "h:rattled"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 35,
+        "defence": 35,
+        "hp": 40,
+        "special_attack": 50,
+        "special_defence": 40,
+        "speed": 90
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "entityInteract": {
+          "avoidedByCreeper": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "meowth galarian=false alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "persian galarian=false",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 4,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.meowth-alola.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 42
+    },
+    {
+      "abilities": [
+        "pickup",
+        "toughclaws",
+        "h:unnerve"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 65,
+        "defence": 55,
+        "hp": 50,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "entityInteract": {
+          "avoidedByCreeper": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "meowth galarian alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "persian galarian alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "walkSpeed": 0.2
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0333,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "evYield": {
+        "attack": 1,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 4,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.meowth-galar.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 75
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 330,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.meowth-gmax.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 0
+    }
+  ]
+}

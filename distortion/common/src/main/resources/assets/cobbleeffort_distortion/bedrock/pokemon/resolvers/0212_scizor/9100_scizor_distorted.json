@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:scizor",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scizor_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0212_scizor/distorted_scizor_scizor_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scizor_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0212_scizor/distorted_scizor_shiny_scizor_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0212_scizor/distorted_scizor_alpha_scizor_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scizor_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0212_scizor/distorted_scizor_scizor_female.png"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "target": "cobblemon:diglett",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "sandveil",
+        "tanglinghair",
+        "h:sandforce"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 55,
+        "defence": 30,
+        "hp": 10,
+        "special_attack": 35,
+        "special_defence": 45,
+        "speed": 90
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "diglett",
+              "tier": 1
+            },
+            {
+              "pokemon": "dugtrio",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 2,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.diglett-alola.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "weight": 10
+    }
+  ]
+}

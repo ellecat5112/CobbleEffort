@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:machamp",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "psychic",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 250,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.75,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.machamp-gmax.desc"
+      ],
+      "primaryType": "psychic",
+      "weight": 0
+    }
+  ]
+}

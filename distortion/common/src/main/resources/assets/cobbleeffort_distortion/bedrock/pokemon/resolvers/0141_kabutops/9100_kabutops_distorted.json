@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:kabutops",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kabutops_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0141_kabutops/distorted_kabutops.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kabutops_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0141_kabutops/distorted_kabutops_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0141_kabutops/distorted_kabutops_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:snorlax",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 350,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.875,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.snorlax-gmax.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 0
+    }
+  ]
+}

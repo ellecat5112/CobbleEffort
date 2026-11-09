@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:geodude",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:geodude_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:geodude_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:geodude_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude_alolan_geodude_alolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:geodude_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude_alolan_shiny_geodude_alolan.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0074_geodude/distorted_geodude_alolan_alpha_geodude_alolan.png"
+        }
+      ]
+    }
+  ]
+}

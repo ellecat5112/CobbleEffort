@@ -1,0 +1,562 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "bones": [
+        {
+          "name": "electrode_hisuian",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "origin": [
+                -9,
+                0,
+                -9
+              ],
+              "size": [
+                18,
+                18,
+                18
+              ],
+              "uv": [
+                56,
+                28
+              ]
+            },
+            {
+              "inflate": 0.25,
+              "origin": [
+                -9,
+                0,
+                -9
+              ],
+              "size": [
+                18,
+                18,
+                18
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -5.6450000000000005,
+                16.675,
+                -6.2
+              ],
+              "size": [
+                3.15,
+                4.409999999999999,
+                3.15
+              ],
+              "uv": [
+                0,
+                64
+              ],
+              "rotation": [
+                12,
+                45,
+                -12
+              ],
+              "pivot": [
+                -4.07,
+                18.88,
+                -4.625
+              ]
+            },
+            {
+              "origin": [
+                2.4400000000000004,
+                16.99,
+                -2.74
+              ],
+              "size": [
+                2.52,
+                3.5279999999999996,
+                2.52
+              ],
+              "uv": [
+                16,
+                64
+              ],
+              "rotation": [
+                -15,
+                45,
+                15
+              ],
+              "pivot": [
+                3.7,
+                18.753999999999998,
+                -1.4800000000000002
+              ]
+            },
+            {
+              "origin": [
+                -2.34,
+                16.835,
+                0.8050000000000006
+              ],
+              "size": [
+                2.83,
+                3.9619999999999997,
+                2.83
+              ],
+              "uv": [
+                28,
+                64
+              ],
+              "rotation": [
+                8,
+                45,
+                -8
+              ],
+              "pivot": [
+                -0.9249999999999998,
+                18.816000000000003,
+                2.2200000000000006
+              ]
+            },
+            {
+              "origin": [
+                3.4199999999999995,
+                17.23,
+                4.530000000000001
+              ],
+              "size": [
+                2.04,
+                2.856,
+                2.04
+              ],
+              "uv": [
+                40,
+                64
+              ],
+              "rotation": [
+                -10,
+                45,
+                10
+              ],
+              "pivot": [
+                4.4399999999999995,
+                18.658,
+                5.550000000000001
+              ]
+            },
+            {
+              "origin": [
+                -5.755000000000001,
+                17.305,
+                5.529999999999999
+              ],
+              "size": [
+                1.89,
+                2.646,
+                1.89
+              ],
+              "uv": [
+                52,
+                64
+              ],
+              "rotation": [
+                18,
+                45,
+                -18
+              ],
+              "pivot": [
+                -4.8100000000000005,
+                18.628,
+                6.475
+              ]
+            },
+            {
+              "origin": [
+                -4.5325,
+                20.885,
+                0.0
+              ],
+              "size": [
+                9.065,
+                10.36,
+                0.0
+              ],
+              "uv": [
+                60,
+                64
+              ]
+            },
+            {
+              "origin": [
+                0.0,
+                20.885,
+                -4.5325
+              ],
+              "size": [
+                0.0,
+                10.36,
+                9.065
+              ],
+              "uv": [
+                80,
+                64
+              ]
+            }
+          ],
+          "name": "body",
+          "parent": "electrode_hisuian",
+          "pivot": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "origin": [
+                -7,
+                3.75,
+                -9.26
+              ],
+              "size": [
+                14,
+                4,
+                0
+              ],
+              "uv": [
+                75,
+                21
+              ]
+            }
+          ],
+          "name": "mouth_closed",
+          "parent": "body",
+          "pivot": [
+            0,
+            6.25,
+            -9.26
+          ]
+        },
+        {
+          "name": "eyes",
+          "parent": "body",
+          "pivot": [
+            0,
+            4.5,
+            -4.25
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "origin": [
+                -3.5,
+                11,
+                -9.01
+              ],
+              "size": [
+                1,
+                2,
+                0
+              ],
+              "uv": [
+                0,
+                14
+              ]
+            }
+          ],
+          "name": "pupil_right",
+          "parent": "eyes",
+          "pivot": [
+            -3,
+            12,
+            -9.01
+          ]
+        },
+        {
+          "locators": {
+            "eye1": [
+              -3,
+              12,
+              -8.95
+            ]
+          },
+          "name": "locator_eye_right",
+          "parent": "pupil_right",
+          "pivot": [
+            -3,
+            12,
+            -8.95
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "inflate": 0.01,
+              "origin": [
+                -5,
+                10.5,
+                -8.96
+              ],
+              "size": [
+                3,
+                3,
+                1
+              ],
+              "uv": [
+                8,
+                9
+              ]
+            }
+          ],
+          "name": "eyelid_right",
+          "parent": "pupil_right",
+          "pivot": [
+            -3.5,
+            12,
+            -8.46
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "origin": [
+                2.5,
+                11,
+                -9.01
+              ],
+              "size": [
+                1,
+                2,
+                0
+              ],
+              "uv": [
+                2,
+                14
+              ]
+            }
+          ],
+          "name": "pupil_left",
+          "parent": "eyes",
+          "pivot": [
+            3,
+            12,
+            -9.01
+          ]
+        },
+        {
+          "locators": {
+            "eye2": [
+              3,
+              12,
+              -8.95
+            ]
+          },
+          "name": "locator_eye_left",
+          "parent": "pupil_left",
+          "pivot": [
+            3,
+            12,
+            -8.95
+          ]
+        },
+        {
+          "cubes": [
+            {
+              "inflate": 0.01,
+              "origin": [
+                2,
+                10.5,
+                -8.96
+              ],
+              "size": [
+                3,
+                3,
+                1
+              ],
+              "uv": [
+                0,
+                9
+              ]
+            }
+          ],
+          "name": "eyelid_left",
+          "parent": "pupil_left",
+          "pivot": [
+            3.5,
+            12,
+            -8.46
+          ]
+        },
+        {
+          "locators": {
+            "item": [
+              -9.3,
+              9,
+              0
+            ]
+          },
+          "name": "locator_item",
+          "parent": "body",
+          "pivot": [
+            -9.3,
+            9,
+            0
+          ],
+          "rotation": [
+            90,
+            90,
+            0
+          ]
+        },
+        {
+          "locators": {
+            "item_face": [
+              0,
+              11,
+              -9.3
+            ]
+          },
+          "name": "locator_item_face",
+          "parent": "body",
+          "pivot": [
+            0,
+            11,
+            -9.3
+          ]
+        },
+        {
+          "locators": {
+            "face": [
+              0,
+              10,
+              -9
+            ]
+          },
+          "name": "locator_face",
+          "parent": "body",
+          "pivot": [
+            0,
+            10,
+            -9
+          ]
+        },
+        {
+          "locators": {
+            "item_hat": [
+              0,
+              18.5,
+              0
+            ]
+          },
+          "name": "locator_item_hat",
+          "parent": "body",
+          "pivot": [
+            0,
+            18.5,
+            0
+          ]
+        },
+        {
+          "locators": {
+            "head": [
+              0,
+              18.25,
+              -4
+            ]
+          },
+          "name": "locator_head",
+          "parent": "body",
+          "pivot": [
+            0,
+            18.25,
+            -4
+          ]
+        },
+        {
+          "locators": {
+            "middle": [
+              0,
+              9,
+              0
+            ]
+          },
+          "name": "locator_middle",
+          "parent": "body",
+          "pivot": [
+            0,
+            9,
+            0
+          ]
+        },
+        {
+          "locators": {
+            "target": [
+              0,
+              8,
+              -13
+            ]
+          },
+          "name": "locator_target",
+          "parent": "body",
+          "pivot": [
+            0,
+            8,
+            -13
+          ]
+        },
+        {
+          "locators": {
+            "root": [
+              0,
+              0,
+              0
+            ]
+          },
+          "name": "locator_root",
+          "parent": "electrode_hisuian",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "locators": {
+            "top": [
+              0,
+              18.25,
+              0
+            ]
+          },
+          "name": "locator_top",
+          "parent": "electrode_hisuian",
+          "pivot": [
+            0,
+            18.25,
+            0
+          ]
+        }
+      ],
+      "description": {
+        "identifier": "geometry.electrode_hisuian_distorted",
+        "texture_height": 128,
+        "texture_width": 128,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ],
+        "visible_bounds_width": 3
+      }
+    }
+  ]
+}

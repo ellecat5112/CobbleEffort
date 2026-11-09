@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:weezing",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:weezing_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:weezing_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:weezing_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing_galar_weezing_galar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:weezing_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing_galar_shiny_weezing_galar.png"
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0110_weezing/distorted_weezing_galar_alpha_weezing_galar.png"
+        }
+      ]
+    }
+  ]
+}

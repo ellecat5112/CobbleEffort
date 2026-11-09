@@ -25,6 +25,7 @@ import glob
 import io
 import json
 import math
+import os
 import sys
 import zipfile
 from pathlib import Path
@@ -78,6 +79,13 @@ TYPE_OVERRIDES = {"mew": ["normal", "fighting"], "mewtwo": ["normal", "fighting"
 for _line, _num in zip(STARTER_LINES, STARTER_NUMS):
     for _i, _sp in enumerate(_line):
         DISTORTABLE[_sp] = f"{_num + _i:04d}_{_sp}"
+# every other Gen 1 Pokémon, with its whole evolutionary line (later-generation members too: Pichu, Crobat, Eevee's
+# evolutions...): looks themed on each Pokémon's new types (tools/parts/gen1.py on parts/_themes.py)
+GEN1_LINES = json.loads((HERE / "parts" / "gen1_lines.json").read_text())
+GEN1_FOLDERS = json.loads((HERE / "parts" / "gen1_folders.json").read_text())
+for _line in GEN1_LINES:
+    for _sp in _line:
+        DISTORTABLE[_sp] = GEN1_FOLDERS[_sp]
 
 
 def write_json(path: Path, obj):
@@ -254,6 +262,17 @@ def invert(t):
     return TYPE_CHART[t]
 
 
+def types_for(sp, aspects=()):
+    """(old types, distorted types) of the species' form with these aspects (Alolan Vulpix: Ice -> Fire)."""
+    d = cobblemon_species(sp)
+    old = [d["primaryType"]] + ([d["secondaryType"]] if d.get("secondaryType") else [])
+    for f in d.get("forms", []):
+        if f.get("aspects") and set(f["aspects"]) <= set(aspects) and "primaryType" in f:
+            old = [f["primaryType"]] + ([f["secondaryType"]] if f.get("secondaryType") else [])
+    new = list(TYPE_OVERRIDES.get(sp) or [invert(t) for t in old])
+    return [t.lower() for t in old], [t.lower() for t in new]
+
+
 def forms():
     feature = RES / "data" / MOD / "species_features" / "distorted.json"
     write_json(feature, {"keys": ["distorted"], "type": "flag", "isAspect": True, "default": False})
@@ -345,24 +364,25 @@ def _rgb(h, s, v):
     return out
 
 
-def dominant_hue(img, near=None, within=50.0):
+def dominant_hue(img, near=None, within=50.0, fallback=False):
     """The hue most of the texture's colour is (weighted by saturation), in degrees; only hues within `within` of
     `near` count, if given (the old type's colour: Blastoise's skin, not its bigger brown shell)."""
     a = np.array(img.convert("RGBA")).astype(np.float64) / 255.0
     h, s, v = _hsv(a[..., :3])
     w = s * v * (a[..., 3] > 0) * (s > 0.15)
     if near is not None:
-        w = w * (np.abs(((h * 360 - near) + 180) % 360 - 180) < within)
+        wn = w * (np.abs(((h * 360 - near) + 180) % 360 - 180) < within)
+        w = wn if wn.sum() > 1.0 or not fallback else w     # none of the old type's colour: the main colour turns
     hist, _ = np.histogram(h * 360, bins=36, range=(0, 360), weights=w)
     hist = hist + 0.5 * (np.roll(hist, 1) + np.roll(hist, -1))
     return float(np.argmax(hist) * 10 + 5)
 
 
-def recolour_shift(img, dst, src=None, width=55.0, sat=1.0, val=1.0, near=None):
+def recolour_shift(img, dst, src=None, width=55.0, sat=1.0, val=1.0, near=None, fallback=False):
     """The type colour moved to the new type's: hues within `width` degrees of `src` (the texture's dominant hue unless
     given) turn towards `dst` (fading out at the edge of the range); other colours stay (Squirtle's shell stays brown)."""
     if src is None:
-        src = dominant_hue(img, near)
+        src = dominant_hue(img, near, fallback=fallback)
     a = np.array(img.convert("RGBA")).astype(np.float64) / 255.0
     h, s, v = _hsv(a[..., :3])
     d = np.abs(((h * 360 - src) + 180) % 360 - 180)
@@ -398,7 +418,10 @@ def looks():
                     return n
         raise SystemExit(f"no model {model_id}")
 
+    only = set(filter(None, os.environ.get("ONLY", "").split(",")))   # ONLY=a,b: just these (for previews)
     for sp, folder in DISTORTABLE.items():
+        if only and sp not in only:
+            continue
         module = partlib.module_for(sp)
         if module is not None and getattr(module, "ADDON", None):
             addon_look(sp, folder, module)
@@ -411,16 +434,18 @@ def looks():
         base_model = base["model"] if base else None
         kits, done, frames_of = {}, {}, {}
 
-        def kit_for(model_id):
+        def kit_for(model_id, aspects=()):
             if module is None or model_id is None:
                 return None
             if model_id not in kits:
                 geo = json.loads(read(geo_path(model_id)))
                 kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), geo)
+                kit.old_types, kit.new_types = types_for(sp, aspects)
                 try:
                     module.build(kit)
                 except KeyError:                                # a model the line's parts don't fit (Gigantamax...)
                     kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), geo)
+                    kit.old_types, kit.new_types = types_for(sp, aspects)
                     kit.used = True                             # recoloured, on its own model
                 if kit.used and kit.geo_changed:
                     name = kit.model + "_distorted"
@@ -436,8 +461,10 @@ def looks():
             stem = p.rsplit("/", 1)[1][:-4]
             return p.rsplit("/", 1)[0].replace(f"textures/pokemon/{folder}", f"textures/pokemon/{folder}") + f"/distorted_{stem}{tag}.png"
 
-        def recolour_for(img, shiny):
+        def recolour_for(img, shiny, kit=None):
             rc = getattr(module, "RECOLOUR", None) if module else None
+            if callable(rc):
+                rc = rc(kit)                                    # per species / form (gen1.py: the new type's colour)
             if rc == "keep":
                 return img.convert("RGBA")                      # a specialised distortion keeps its colours
             if rc == "negative":                                # a photographic negative (Lugia: white turns black)
@@ -447,17 +474,17 @@ def looks():
             if not rc:
                 return recolour(img)
             dst = rc.get("dst_shiny", rc["dst"] + 35) if shiny else rc["dst"]
-            old = cobblemon_species(sp)["primaryType"]
-            near = colorsys.rgb_to_hsv(*(c / 255 for c in TYPE_COLOUR[old]))[0] * 360
+            old = kit.old_types[0] if kit is not None and getattr(kit, "old_types", None) else cobblemon_species(sp)["primaryType"]
+            near = colorsys.rgb_to_hsv(*(c / 255 for c in TYPE_COLOUR[old.lower()]))[0] * 360
             return recolour_shift(img, dst, rc.get("src_shiny" if shiny else "src"), rc.get("width", 55), rc.get("sat", 1.0),
-                                  rc.get("val", 1.0), near=rc.get("near", near))
+                                  rc.get("val", 1.0), near=rc.get("near", near), fallback=rc.get("fallback", False))
 
         def body(path, kit, src_layers):
             key = (path, id(kit))
             if key not in done:
                 ns, p = path.split(":", 1)
                 shiny = "shiny" in p
-                img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), shiny)
+                img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), shiny, kit)
                 tag = "" if kit is None or kit.model == sp else f"_{kit.model}"
                 dst = dst_for(p, tag)
                 fr = {}
@@ -478,7 +505,7 @@ def looks():
                 key = (path, id(kit), "layer")
                 if key not in done:
                     ns, p = path.split(":", 1)
-                    img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), "shiny" in p)
+                    img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), "shiny" in p, kit)
                     if module is not None and getattr(module, "GLOW_DST", None) is not None and "alpha" not in p:
                         img = recolour_shift(img, module.GLOW_DST, width=180)   # the glow's colours, all turned
                     if kit:
@@ -523,7 +550,7 @@ def looks():
                 continue                                        # a tree variant with only a model: the base parts cover it
             mv = inherited(v, "model", skip_swaps=unify_on)
             eff = mv["model"] if mv else base_model
-            kit = kit_for(eff)
+            kit = kit_for(eff, (mv or {}).get("aspects", []) or aspects)
             tv = inherited(v, "texture", skip_swaps=unify_on)
             lv = inherited(v, "layers", skip_swaps=unify_on)
             w = {"aspects": aspects + ["distorted"]}

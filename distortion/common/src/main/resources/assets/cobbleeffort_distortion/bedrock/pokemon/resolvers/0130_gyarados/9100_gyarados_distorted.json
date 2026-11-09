@@ -1,0 +1,135 @@
+{
+  "species": "cobblemon:gyarados",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gyarados_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gyarados_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_shiny_gyarados_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_shiny_gyarados_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_shiny_gyarados_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_shiny_gyarados_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_shiny_gyarados_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_alpha_gyarados_male.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gyarados_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_female_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_female_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_female_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_female_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gyarados-eye-color-purple",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "purple_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_eyes_purple_gyarados_male.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0130_gyarados/distorted_gyarados_gyarados_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

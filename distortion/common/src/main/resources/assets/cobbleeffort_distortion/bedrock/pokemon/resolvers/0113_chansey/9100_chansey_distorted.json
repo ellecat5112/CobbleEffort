@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:chansey",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:chansey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0113_chansey/distorted_chansey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:chansey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0113_chansey/distorted_chansey_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0113_chansey/distorted_chansey_alpha.png"
+        }
+      ]
+    }
+  ]
+}

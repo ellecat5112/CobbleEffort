@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:exeggcute",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "region-bias-alola",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 4,
+      "labels": [
+        "gen7",
+        "customized_official",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.exeggcute-alolabias.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "weight": 25,
+      "battleOnly": false
+    }
+  ]
+}

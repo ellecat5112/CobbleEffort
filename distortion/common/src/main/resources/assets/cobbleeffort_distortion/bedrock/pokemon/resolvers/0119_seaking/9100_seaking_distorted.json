@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:seaking",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:seaking_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0119_seaking/distorted_seaking_seaking_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:seaking_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0119_seaking/distorted_seaking_shiny_seaking_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0119_seaking/distorted_seaking_alpha_seaking_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:seaking_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0119_seaking/distorted_seaking_seaking_female.png"
+    }
+  ]
+}

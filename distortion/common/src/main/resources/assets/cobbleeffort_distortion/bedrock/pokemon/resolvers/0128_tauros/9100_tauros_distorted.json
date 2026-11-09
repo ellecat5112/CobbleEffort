@@ -1,0 +1,293 @@
+{
+  "species": "cobblemon:tauros",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_combat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_combat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_shiny_tauros_paldean_combat.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_shiny_tauros_paldean_combat_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_shiny_tauros_paldean_combat_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_shiny_tauros_paldean_combat_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_shiny_tauros_paldean_combat_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_alpha_tauros_paldean_combat.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_combat_tauros_paldean_combat_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "blaze-breed",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_blaze_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "blaze-breed",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_blaze_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_shiny_tauros_paldean_blaze.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_shiny_tauros_paldean_blaze_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_shiny_tauros_paldean_blaze_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_shiny_tauros_paldean_blaze_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_shiny_tauros_paldean_blaze_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "blaze-breed",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_alpha_tauros_paldean_blaze.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_blaze_tauros_paldean_blaze_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_aqua_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_emissive_tauros_paldean_aqua.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tauros_paldean_aqua_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_tauros_paldean_aqua.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_emissive_tauros_paldean_aqua.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_tauros_paldean_aqua_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_tauros_paldean_aqua_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_tauros_paldean_aqua_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_shiny_tauros_paldean_aqua_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_alpha_tauros_paldean_aqua.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0128_tauros/distorted_tauros_paldean_aqua_tauros_paldean_aqua_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

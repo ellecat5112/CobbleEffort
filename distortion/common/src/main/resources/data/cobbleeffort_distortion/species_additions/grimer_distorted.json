@@ -1,0 +1,69 @@
+{
+  "target": "cobblemon:grimer",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "poisontouch",
+        "gluttony",
+        "h:powerofalchemy"
+      ],
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "baseScale": 0.7,
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "grimer alolan",
+              "tier": 1
+            },
+            {
+              "pokemon": "muk alolan",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canWalkOnWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 7,
+      "labels": [
+        "gen7",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Distorted",
+      "pokedex": [
+        "cobblemon.species.grimer-alola.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "fairy",
+      "weight": 420
+    }
+  ]
+}

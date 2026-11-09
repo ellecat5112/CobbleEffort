@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:cubone",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-alola",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 4,
+      "labels": [
+        "gen7",
+        "customized_official",
+        "alolan_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Alola-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.cubone-alolabias.desc"
+      ],
+      "primaryType": "water",
+      "weight": 65,
+      "battleOnly": false
+    }
+  ]
+}

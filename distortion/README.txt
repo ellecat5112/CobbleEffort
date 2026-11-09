@@ -8,23 +8,34 @@ A TEST BUILD. What's in it:
   - The Distortion Band and the Distortion Crystal (one crystal for every Pokemon), in the "Distortion" creative tab.
   - A "Distortion" accessory slot (open your Accessories screen); the band goes there.
   - Distorted forms for Giratina, Dialga, Palkia and Arceus (including the Origin forms and every Arceus plate type),
-    the Gen 1 legendary and mythical Pokemon (Articuno, Zapdos, Moltres, Mewtwo, Mew), NEW: the Gen 2 ones (Raikou,
+    the Gen 1 legendary and mythical Pokemon (Articuno, Zapdos, Moltres, Mewtwo, Mew), the Gen 2 ones (Raikou,
     Entei, Suicune, Lugia, Ho-Oh, Celebi), and every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
     and Decidueye and Greninja's Bond form). Each line has its own distorted look:
       water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
     (see STARTERS below).
+  - NEW: ALL 151 Gen 1 Pokemon, each with its whole evolutionary line (so also Pichu, Cleffa, Igglybuff, Crobat,
+    Bellossom, Politoed, Slowking, Magnezone, Steelix, Kingdra, Scizor, Kleavor, Blissey, Happiny, Tangrowth,
+    Rhyperior, Lickilicky, Mime Jr., Mr. Rime, Smoochum, Elekid, Electivire, Magby, Magmortar, Porygon2, Porygon-Z,
+    Munchlax, Sirfetch'd, Perrserker, Annihilape, Tyrogue, Hitmontop and all of Eevee's evolutions): 174 more Pokemon,
+    with their regional (Alolan, Galarian, Hisuian, Paldean) and Gigantamax forms. Each takes the look of its NEW
+    types (see GEN 1 LOOKS below).
   - Distorting in battle, and from the interaction wheel (the radial menu) outside battle.
   - Abilities follow when they're tied to the Pokemon's type: Overgrow -> Blaze, Blaze -> Torrent, Torrent -> Overgrow,
     and NEW ones where no real ability fits: Storm Power (Solar Power, in rain), Flash Flood (Flash Fire, for Water),
     Blubber (Thick Fat, against Water and Ice), Blossom Voice (Liquid Voice, Grass) and Scrappy Mind (Scrappy,
-    Psychic). Abilities that aren't tied to its type stay.
+    Psychic). NEW with Gen 1: Deluge (Drought, rain), Heat Warning (Snow Warning, sun), Sun Bask (Ice Body),
+    Heat Rush (Slush Rush), Sunscreen (Overcoat), Sinkhole (Lightning Rod, draws Ground moves), Tremor Drive (Motor
+    Drive), Root Absorb (Water Absorb, Grass), Quagmire (Magnet Pull, traps Ground types), Tectonize (Galvanize),
+    Metallize (Pixilate, Steel), Tide Force / Silt Force (Sand Force), Earthen Spirit (Steely Spirit), Flock (Swarm,
+    Flying), Jittery (Rattled), Scrappy Fists (Scrappy on a Normal type) and Insulation (Thick Fat on an Ice type).
+    An ability's twin depends on the holder's types (Thick Fat: Blubber on Tepig, Insulation on Dewgong).
+    Abilities that aren't tied to its type stay.
   - Wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
 
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
-  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, the Gen 1 and 2 legendaries and
-     mythicals,
-     any starter or its evolutions).
+  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, every Gen 1 Pokemon and its
+     line, the Gen 2 legendaries and mythicals, any starter or its evolutions).
      Arceus doesn't need it: it distorts with its plate (it can only hold one item, and the plates are its power).
   3. In battle, pick "Fight": a Distort button appears next to the back button. Click it (the move tiles switch to
      the distorted moves), then pick a move.
@@ -120,6 +131,21 @@ Shadow Force -> Dark Force, Roar of Time -> Radiance of Time, Spacial Rend -> Fa
 Judgment -> Inverse Judgment (the weakness of Arceus's plate type), Earthquake -> Water Earthquake,
 Fire Fang -> Water Fang, Air Slash -> Electric Slash, Fire Spin -> Whirlpool.
 
+GEN 1 LOOKS
+Every Gen 1 line besides the starters and legendaries looks like its NEW types: the first type gets the full look, the
+second an accent, and its main colour moves to the new type's colour.
+  Fighting  a brawler: bulked-up arms and legs, a red headband with trailing ribbons (Rattata, Snorlax, Eevee...)
+  Water     sea life: a finned crest on the back, a fluke on the tail; flames become sea life (Vulpix, Ponyta...)
+  Grass     overgrown: leaves sprouting from the head, fern fronds on the back, moss on the tail (Psyduck, Poliwag...)
+  Fire      ablaze: animated flames on the head and the tail tip (Oddish, Bellsprout, Lapras, Jynx...)
+  Ground    earthen: a cluster of jagged rocks on the back, sandstone tail and ears (Pikachu, Ekans, Voltorb...)
+  Psychic   a third eye: a glowing gem on the forehead and a pulsing halo (Machop, Mankey, the Hitmons...)
+  Electric  a storm: crackling lightning through wings and tail (Pidgey, Zubat, Butterfree...)
+  Dark      shadow: wisps of dark flame on the back and tail (Abra, Gastly, Slowpoke, Drowzee...)
+  Flying    feathered wings from the back (Caterpie, Weedle, Paras, Venonat, Scyther...)
+  Fairy     a crown of petals (Dratini, Dragonair, Dragonite...)
+  Steel     riveted steel plates on the head and back (Clefairy, Jigglypuff...)
+
 You can still give a distorted-looking Pokemon with a command:   /pokegive giratina distorted
 
 INSTALL
@@ -127,7 +153,11 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
-  New in this build: the Gen 2 legendaries and Celebi (with AllTheMons x Mega Showdown). From 0.7.0: Mew (the orb
+  New in this build: every Gen 1 Pokemon (try /pokegive <name> distorted, with alolan / galarian / hisuian /
+  paldean for the regional forms). Do the added parts sit right while they move (headbands, wings, fins, halos,
+  rocks)? Anything floating, hidden inside the body or off-theme: tell me which Pokemon. In battle: the new ability
+  twins (Heat Warning should bring sun, not extreme sun).
+  From 0.8.0: the Gen 2 legendaries and Celebi (with AllTheMons x Mega Showdown). From 0.7.0: Mew (the orb
   and the cord: do they sit right while it floats and animates?), Mewtwo (the arms and bulk), the legendary birds.
   New in this build: distort, then press Distort again on a later turn to revert, and again to re-distort. Dynamax
   or Gigantamax a distorted Pokemon (it should stay distorted, with the distorted look). Ash-Greninja: a distorted

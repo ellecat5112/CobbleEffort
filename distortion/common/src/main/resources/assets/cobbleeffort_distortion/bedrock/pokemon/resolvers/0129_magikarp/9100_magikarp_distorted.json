@@ -1,0 +1,291 @@
+{
+  "species": "cobblemon:magikarp",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/distorted_magikarp_magikarp_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/distorted_magikarp_shiny_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/distorted_magikarp_alpha_magikarp_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/distorted_magikarp_magikarp_female.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-apricot-stripes",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_apricot_stripes_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-apricot-tiger",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_apricot_tiger_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-apricot-zebra",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_apricot_zebra_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-black-forehead",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_black_forehead_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-black-mask",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_black_mask_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-blue-raindrops",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_blue_raindrops_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-blue-saucy",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_blue_saucy_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-brown-stripes",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_brown_stripes_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-brown-tiger",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_brown_tiger_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-brown-zebra",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_brown_zebra_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-calico-orange-gold",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_calico_orange_gold_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-calico-orange-white",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_calico_orange_white_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-calico-orange-white-black",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_calico_orange_white_black_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-calico-white-orange",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_calico_white_orange_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-gray-bubbles",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_gray_bubbles_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-gray-diamonds",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_gray_diamonds_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-gray-patches",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_gray_patches_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-orange-dapples",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_orange_dapples_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-orange-forehead",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_orange_forehead_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-orange-mask",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_orange_mask_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-orange-orca",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_orange_orca_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-orange-two-tone",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_orange_two_tone_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-pink-dapples",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_pink_dapples_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-pink-orca",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_pink_orca_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-pink-two-tone",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_pink_two_tone_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-purple-bubbles",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_purple_bubbles_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-purple-diamonds",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_purple_diamonds_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-purple-patches",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_purple_patches_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-skelly",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_skelly_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-violet-raindrops",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_violet_raindrops_magikarp_male.png"
+    },
+    {
+      "aspects": [
+        "magikarp-jump-violet-saucy",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magikarp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0129_magikarp/magikarp_jump/distorted_magikarp_violet_saucy_magikarp_male.png"
+    }
+  ]
+}

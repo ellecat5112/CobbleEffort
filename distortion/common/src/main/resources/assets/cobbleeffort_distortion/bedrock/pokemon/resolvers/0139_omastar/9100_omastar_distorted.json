@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:omastar",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:omastar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0139_omastar/distorted_omastar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:omastar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0139_omastar/distorted_omastar_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0139_omastar/distorted_omastar_alpha.png"
+        }
+      ]
+    }
+  ]
+}

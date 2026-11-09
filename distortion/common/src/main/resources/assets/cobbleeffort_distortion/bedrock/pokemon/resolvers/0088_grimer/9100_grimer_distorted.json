@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:grimer",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grimer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grimer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grimer_alola_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer_alola_grimer_alola.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grimer_alola_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer_alola_shiny_grimer_alola.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0088_grimer/distorted_grimer_alola_alpha_grimer_alola.png"
+        }
+      ]
+    }
+  ]
+}

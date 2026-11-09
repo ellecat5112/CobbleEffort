@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:slowbro",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowbro_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowbro_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowbro_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slowbro_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_shiny_slowbro_galarian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_shiny_slowbro_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_shiny_slowbro_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_shiny_slowbro_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_shiny_slowbro_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_alpha_slowbro_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0080_slowbro/distorted_slowbro_galarian_slowbro_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

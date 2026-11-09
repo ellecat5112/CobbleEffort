@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:steelix",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:steelix_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0208_steelix/distorted_steelix_steelix_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:steelix_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0208_steelix/distorted_steelix_shiny_steelix_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0208_steelix/distorted_steelix_alpha_steelix_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:steelix_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0208_steelix/distorted_steelix_steelix_female.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:steelix_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0208_steelix/distorted_steelix_shiny_steelix_female.png"
+    }
+  ]
+}

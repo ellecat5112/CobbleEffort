@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["wringout"], {num: -31540, name: "Fighting Wring Out", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["wringout"], {num: -31629, name: "Fighting Wring Out", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})

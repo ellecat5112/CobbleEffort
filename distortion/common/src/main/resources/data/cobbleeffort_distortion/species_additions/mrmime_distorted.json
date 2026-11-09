@@ -1,0 +1,89 @@
+{
+  "target": "cobblemon:mrmime",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "steel"
+    },
+    {
+      "abilities": [
+        "vitalspirit",
+        "screencleaner",
+        "h:icebody"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseScale": 0.8,
+      "baseStats": {
+        "attack": 65,
+        "defence": 65,
+        "hp": 50,
+        "special_attack": 90,
+        "special_defence": 90,
+        "speed": 100
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "mrmime alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "mrrime alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "height": 14,
+      "hitbox": {
+        "fixed": false,
+        "height": 2.3,
+        "width": 0.8
+      },
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.mrmime-galar.desc"
+      ],
+      "primaryType": "fire",
+      "riding": {},
+      "secondaryType": "dark",
+      "weight": 568
+    }
+  ]
+}

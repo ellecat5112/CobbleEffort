@@ -1,0 +1,88 @@
+{
+  "target": "cobblemon:weezing",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "levitate",
+        "neutralizinggas",
+        "h:mistysurge"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 5,
+          "toleratedLeaders": [
+            {
+              "pokemon": "trubbish",
+              "tier": 1
+            },
+            {
+              "pokemon": "grimer alolan=false",
+              "tier": 2
+            },
+            {
+              "pokemon": "garbodor=3",
+              "tier": 1
+            },
+            {
+              "pokemon": "muk alolan=false",
+              "tier": 4
+            },
+            {
+              "pokemon": "weezing",
+              "tier": 5
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 30,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.weezing-galar.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "steel",
+      "weight": 160
+    }
+  ]
+}

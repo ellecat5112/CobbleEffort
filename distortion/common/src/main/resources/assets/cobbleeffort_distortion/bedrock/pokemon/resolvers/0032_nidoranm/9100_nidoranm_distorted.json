@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:nidoranm",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nidoranm_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0032_nidoranm/distorted_nidoranm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nidoranm_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0032_nidoranm/distorted_nidoranm_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0032_nidoranm/distorted_nidoranm_alpha.png"
+        }
+      ]
+    }
+  ]
+}

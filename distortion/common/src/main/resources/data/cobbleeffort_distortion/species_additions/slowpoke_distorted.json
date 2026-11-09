@@ -1,0 +1,80 @@
+{
+  "target": "cobblemon:slowpoke",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "abilities": [
+        "gluttony",
+        "owntempo",
+        "h:regenerator"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "slowpoke alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "slowbro alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "slowking alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "canLook": false,
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "walkSpeed": 0.125
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "depth": "comatose",
+          "drowsyChance": 0.0028,
+          "light": "0-16",
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 12,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.slowpoke-galar.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 360
+    }
+  ]
+}

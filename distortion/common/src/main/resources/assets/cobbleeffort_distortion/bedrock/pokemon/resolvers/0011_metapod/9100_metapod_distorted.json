@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:metapod",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:metapod_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0011_metapod/distorted_metapod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:metapod_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0011_metapod/distorted_metapod_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0011_metapod/distorted_metapod_alpha.png"
+        }
+      ]
+    }
+  ]
+}

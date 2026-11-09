@@ -1,0 +1,92 @@
+{
+  "target": "cobblemon:ponyta",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "runaway",
+        "pastelveil",
+        "h:anticipation"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "blitzle",
+              "tier": 1
+            },
+            {
+              "pokemon": "mudbray",
+              "tier": 1
+            },
+            {
+              "pokemon": "ponyta",
+              "tier": 2
+            },
+            {
+              "pokemon": "zebstrika",
+              "tier": 3
+            },
+            {
+              "pokemon": "mudsdale",
+              "tier": 3
+            },
+            {
+              "pokemon": "rapidash",
+              "tier": 4
+            },
+            {
+              "pokemon": "glastrier",
+              "tier": 5
+            },
+            {
+              "pokemon": "spectrier",
+              "tier": 5
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 8,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "lightingData": {
+        "lightLevel": 10,
+        "liquidGlowMode": "LAND"
+      },
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.ponyta-galar.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 240
+    }
+  ]
+}

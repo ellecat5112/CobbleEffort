@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:arcanine",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:arcanine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0059_arcanine/distorted_arcanine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:arcanine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0059_arcanine/distorted_arcanine_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0059_arcanine/distorted_arcanine_alpha.png"
+        }
+      ]
+    }
+  ]
+}

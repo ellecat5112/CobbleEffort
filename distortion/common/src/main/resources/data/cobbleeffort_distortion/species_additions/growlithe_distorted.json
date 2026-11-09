@@ -1,0 +1,87 @@
+{
+  "target": "cobblemon:growlithe",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "flashfire",
+        "h:rockhead"
+      ],
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 75,
+        "defence": 45,
+        "hp": 60,
+        "special_attack": 65,
+        "special_defence": 50,
+        "speed": 55
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "entityInteract": {
+          "avoidedBySkeleton": true
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 1,
+          "toleratedLeaders": [
+            {
+              "pokemon": "growlithe alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "arcanine alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "growlithe hisuian",
+              "tier": 1
+            },
+            {
+              "pokemon": "arcanine hisuian",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 8,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.75,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.growlithe-hisui.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "weight": 227
+    }
+  ]
+}

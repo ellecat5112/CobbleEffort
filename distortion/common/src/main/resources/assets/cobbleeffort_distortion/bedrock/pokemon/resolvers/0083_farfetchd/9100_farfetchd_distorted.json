@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:farfetchd",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:farfetchd_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:farfetchd_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:farfetchd_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:farfetchd_galar_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_shiny_farfetchd_galar.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_shiny_farfetchd_galar_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_shiny_farfetchd_galar_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_shiny_farfetchd_galar_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_shiny_farfetchd_galar_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_alpha_farfetchd_galar.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0083_farfetchd/distorted_farfetchd_galar_farfetchd_galar_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

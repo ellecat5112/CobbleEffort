@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:voltorb",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 5,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": -1,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.voltorb-hisui.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "fire",
+      "weight": 130
+    }
+  ]
+}

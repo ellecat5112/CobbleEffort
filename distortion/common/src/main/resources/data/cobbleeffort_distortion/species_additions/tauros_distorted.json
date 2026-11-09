@@ -1,0 +1,314 @@
+{
+  "target": "cobblemon:tauros",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:cudchew"
+      ],
+      "aspects": [
+        "paldean",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 110,
+        "defence": 105,
+        "hp": 75,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 100
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "bouffalant",
+              "tier": 1
+            },
+            {
+              "pokemon": "miltank",
+              "tier": 2
+            },
+            {
+              "pokemon": "tauros",
+              "tier": 3
+            },
+            {
+              "pokemon": "tauros bull_breed=combat",
+              "tier": 3
+            },
+            {
+              "pokemon": "tauros bull_breed=aqua",
+              "tier": 4
+            },
+            {
+              "pokemon": "tauros bull_breed=blaze",
+              "tier": 4
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 14,
+      "labels": [
+        "gen9",
+        "paldean_form"
+      ],
+      "maleRatio": 1,
+      "name": "Paldea-Combat-Distorted",
+      "pokedex": [
+        "cobblemon.species.tauros-paldeacombat.desc"
+      ],
+      "primaryType": "psychic",
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "15-50",
+              "JUMP": "25-35",
+              "SKILL": "15-30",
+              "SPEED": "55-75",
+              "STAMINA": "35-55"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          }
+        ]
+      },
+      "weight": 1150
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:cudchew"
+      ],
+      "aspects": [
+        "blaze-breed",
+        "paldean",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 110,
+        "defence": 105,
+        "hp": 75,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 100
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "tauros bull_breed=blaze",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 14,
+      "labels": [
+        "gen9",
+        "paldean_form"
+      ],
+      "maleRatio": 1,
+      "name": "Paldea-Blaze-Distorted",
+      "pokedex": [
+        "cobblemon.species.tauros-paldeablaze.desc"
+      ],
+      "primaryType": "psychic",
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "20-55",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "55-75",
+              "STAMINA": "30-50"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          }
+        ]
+      },
+      "secondaryType": "water",
+      "weight": 850
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "angerpoint",
+        "h:cudchew"
+      ],
+      "aspects": [
+        "paldean",
+        "aqua-breed",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 110,
+        "defence": 105,
+        "hp": 75,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 100
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "tauros bull_breed=aqua",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canWalkOnWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 14,
+      "labels": [
+        "gen9",
+        "paldean_form"
+      ],
+      "maleRatio": 1,
+      "name": "Paldea-Aqua-Distorted",
+      "pokedex": [
+        "cobblemon.species.tauros-paldeaaqua.desc"
+      ],
+      "primaryType": "psychic",
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "15-50",
+              "JUMP": "25-30",
+              "SKILL": "15-30",
+              "SPEED": "50-70",
+              "STAMINA": "40-60"
+            }
+          },
+          "LIQUID": {
+            "key": "cobblemon:liquid/boat",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.water_surface",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "55-65",
+              "JUMP": "20-30",
+              "SKILL": "40-55",
+              "SPEED": "30-40",
+              "STAMINA": "30-65"
+            },
+            "surfaceLevelOffset": -0.9
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          }
+        ]
+      },
+      "secondaryType": "grass",
+      "weight": 1100
+    }
+  ]
+}

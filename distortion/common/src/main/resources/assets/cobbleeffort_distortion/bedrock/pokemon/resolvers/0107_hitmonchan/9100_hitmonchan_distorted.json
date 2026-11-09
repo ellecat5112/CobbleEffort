@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:hitmonchan",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hitmonchan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hitmonchan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0107_hitmonchan/distorted_hitmonchan_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

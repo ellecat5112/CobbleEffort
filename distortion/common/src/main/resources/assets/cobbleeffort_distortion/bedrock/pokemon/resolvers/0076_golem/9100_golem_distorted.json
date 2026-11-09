@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:golem",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golem_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golem_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golem_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem_alolan_golem_alolan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alolan",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golem_alolan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem_alolan_shiny_golem_alolan.png"
+    },
+    {
+      "aspects": [
+        "alolan",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0076_golem/distorted_golem_alolan_alpha_golem_alolan.png"
+        }
+      ]
+    }
+  ]
+}

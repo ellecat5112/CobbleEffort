@@ -1,0 +1,103 @@
+{
+  "target": "cobblemon:arcanine",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "flashfire",
+        "h:rockhead"
+      ],
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 115,
+        "defence": 80,
+        "hp": 95,
+        "special_attack": 95,
+        "special_defence": 80,
+        "speed": 90
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "entityInteract": {
+          "avoidedBySkeleton": true
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 1,
+          "toleratedLeaders": [
+            {
+              "pokemon": "arcanine alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "arcanine hisuian",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 20,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.75,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.arcanine-hisui.desc"
+      ],
+      "primaryType": "water",
+      "riding": {
+        "behaviour": {
+          "key": "cobblemon:land/horse"
+        },
+        "seats": [],
+        "stats": {
+          "ACCELERATION": {
+            "ranges": "30-60"
+          },
+          "JUMP": {
+            "ranges": "25-50"
+          },
+          "SKILL": {
+            "ranges": "35-70"
+          },
+          "SPEED": {
+            "ranges": "35-65"
+          },
+          "STAMINA": {
+            "ranges": "40-80"
+          }
+        }
+      },
+      "secondaryType": "fighting",
+      "weight": 1680
+    }
+  ]
+}

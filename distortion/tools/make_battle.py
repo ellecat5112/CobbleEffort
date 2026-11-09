@@ -36,7 +36,8 @@ MOD = "cobbleeffort_distortion"
 
 import sys  # noqa: E402
 sys.path.insert(0, str(HERE))
-from make_assets import DISTORTABLE, TYPE_CHART, TYPE_OVERRIDES  # noqa: E402
+from make_assets import DISTORTABLE, GEN1_LINES, TYPE_CHART, TYPE_OVERRIDES  # noqa: E402
+GEN1 = {sp for line in GEN1_LINES for sp in line}
 
 # specialised distortions: their moves of these types turn into these instead (Mew's Psychic moves turn Normal, the
 # unborn; Mewtwo's turn Fighting, the bodybuilder); the rest follow the chart
@@ -69,7 +70,14 @@ WEATHER = {"fire": ["sunnyday", "desolateland"], "water": ["raindance", "primord
 WEATHER_NAMES = {"sunnyday": "harsh sunlight", "desolateland": "extremely harsh sunlight", "raindance": "rain",
                  "primordialsea": "heavy rain", "hail": "hail", "snow": "snow"}
 ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood", "thickfat": "Blubber",   # new twins with
-                 "liquidvoice": "Blossom Voice", "scrappy": "Scrappy Mind", "snowcloak": "Heat Haze"}                            # names written for them
+                 "liquidvoice": "Blossom Voice", "scrappy": "Scrappy Mind", "snowcloak": "Heat Haze",    # names written for them
+                 "drought": "Deluge", "galvanize": "Tectonize", "icebody": "Sun Bask", "lightningrod": "Sinkhole",
+                 "magnetpull": "Quagmire", "motordrive": "Tremor Drive", "overcoat": "Sunscreen", "pixilate": "Metallize",
+                 "rattled": "Jittery", "sandforce": "Tide Force", "slushrush": "Heat Rush", "snowwarning": "Heat Warning",
+                 "steelyspirit": "Earthen Spirit", "swarm": "Flock", "waterabsorb": "Root Absorb",
+                 # a second twin where the holder's types differ ("<ability>:<its types the code names>")
+                 "scrappy:normal": "Scrappy Fists", "thickfat:ice": "Insulation", "sandforce:ground,steel": "Silt Force"}
+PRIMAL = {"desolateland": "sunnyday", "primordialsea": "raindance"}
 ABILITY_META = {"name", "num", "rating", "isNonstandard", "desc", "shortDesc"}
 
 
@@ -100,13 +108,13 @@ def species_info(jar):
         for n in z.namelist():
             if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
                 d = json.loads(z.read(n))
-                types, abilities = set(), set()
+                forms = []
                 for f in [d] + [f for f in d.get("forms", []) if not set(f.get("aspects", [])) & {"mega", "mega_x", "mega_y", "primal"}]:
                     pt = f.get("primaryType", d["primaryType"])
                     st = f.get("secondaryType", d.get("secondaryType") if "primaryType" not in f else None)
-                    types |= {pt} | ({st} if st else set())
-                    abilities |= {a.split(":", 1)[-1] for a in f.get("abilities", d["abilities"])}
-                info[sp] = {"types": types, "abilities": abilities}
+                    forms.append({"types": tuple(sorted({pt.lower()} | ({st.lower()} if st else set()))),
+                                  "abilities": {a.split(":", 1)[-1] for a in f.get("abilities", d["abilities"])}})
+                info[sp] = forms
     return info
 
 
@@ -124,6 +132,9 @@ def substitute(text, own_types):
     rx = re.compile("|".join(re.escape(k) for k in sorted(pairs, key=len, reverse=True)))
     done = []
     out = rx.sub(lambda m: (done.append(m.group(0)), pairs[m.group(0)])[1], text)
+    for primal, normal in PRIMAL.items():
+        if primal not in text:                      # an ordinary weather never turns primal (Snow Warning: sun, not
+            out = out.replace(f'setWeather("{primal}")', f'setWeather("{normal}")')     # Desolate Land)
     return out, sorted({(k.strip('"'), pairs[k].strip('"')) for k in done})
 
 
@@ -139,26 +150,37 @@ def ability_body(ab, aid):
 
 
 def build_ability_twins(abilities, info):
-    twins, new = {}, {}
+    """aid -> {holder's types ("Fire", "Ice/Water"): twin}: a type-bound ability's twin depends on which of the
+    holder's types its code names (Thick Fat on a Fire type: Blubber, resisting Water and Ice; on an Ice type, Fire)."""
+    table, new, variant = {}, {}, {}
     num = -31100
-    for sp in sorted(info):
-        for aid in sorted(info[sp]["abilities"]):
+    order = sorted(info, key=lambda sp: (sp in GEN1, sp))       # earlier lines first: their twins keep their names
+    for sp in order:
+      for form in info[sp]:
+        for aid in sorted(form["abilities"]):
             ab = abilities.get(aid)
-            if not ab or aid in twins:
+            if not ab:
                 continue
+            key = "/".join(t.title() for t in form["types"])
             members, changes = {}, []
             for k, v in ab["members"].items():
-                members[k], ch = substitute(v, info[sp]["types"]) if k not in ABILITY_META else (v, [])
+                members[k], ch = substitute(v, form["types"]) if k not in ABILITY_META else (v, [])
                 changes += ch
             if not changes:
                 continue                                    # not bound to its own type: it stays
+            vkey = (aid, tuple(sorted(set(changes))))
+            if vkey in variant:
+                table.setdefault(aid, {})[key] = variant[vkey]
+                continue
             body = {k: normalize(v, ab["name"], aid) for k, v in members.items() if k not in ABILITY_META}
             match = sorted((o for o, oa in abilities.items() if o != aid and not oa["isNonstandard"] and ability_body(oa, o) == body),
                            key=lambda o: abilities[o]["num"])
             if match:
-                twins[aid] = match[0]                       # Blaze -> Torrent
+                variant[vkey] = table.setdefault(aid, {})[key] = match[0]     # Blaze -> Torrent
                 continue
-            name = ABILITY_NAMES.get(aid)
+            frm, to = sorted(set(changes))[0]
+            froms = ",".join(sorted({f.lower() for f, _ in changes}))
+            name = ABILITY_NAMES.get(f"{aid}:{froms}") or (ABILITY_NAMES.get(aid) if aid not in {n["from"] for n in new.values()} else None)
             if not name:
                 frm, to = changes[0]
                 words = ab["name"].split(" ")
@@ -177,8 +199,8 @@ def build_ability_twins(abilities, info):
                 out[k] = v.replace("\r\n", "\n")
             out.setdefault("num", f'"num": {num}')
             new[tid] = {"from": aid, "name": name, "orig_name": ab["name"], "members": out, "changes": sorted(set(changes))}
-            twins[aid] = tid
-    return twins, new
+            variant[vkey] = table.setdefault(aid, {})[key] = tid
+    return table, new
 
 
 def write_abilities(new):
@@ -388,7 +410,9 @@ def write_engine(twins, ability_twins, by_species):
     pokemon.setType(types, true);
   },
   distortedAbility(pokemon) {
-    const twin = this.distortAbilities[pokemon.baseAbility];
+    const twins = this.distortAbilities[pokemon.baseAbility];
+    if (!twins) return null;
+    const twin = twins[[...pokemon.species.types].sort().join("/")];
     return twin && this.dex.abilities.get(twin).exists ? twin : null;
   },
   swapSlot(pokemon, i, move) {
@@ -533,7 +557,8 @@ def main():
         json.dumps({"default": twins, "species": {k.lower(): v for k, v in by_species.items()}}, indent=2, sort_keys=True) + "\n")
     existing = sum(1 for v in twins.values() if v not in new)
     print(f"{len(learn)} learnable moves -> {len(twins)} twins ({existing} existing opposites, {len(new)} new moves)")
-    print("ability twins:", ", ".join(f"{k} -> {v}{' (new)' if v in new_abilities else ''}" for k, v in sorted(ability_twins.items())))
+    print("ability twins:", ", ".join(f"{k} -> {'/'.join(sorted(set(v.values())))}" for k, v in sorted(ability_twins.items())),
+          f"({len(new_abilities)} new)")
 
 
 if __name__ == "__main__":

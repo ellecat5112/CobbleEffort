@@ -1,0 +1,46 @@
+{
+  "target": "cobblemon:kingler",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "canSwimInLava": false,
+            "canSwimInWater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "walkSpeed": 0.41
+          }
+        }
+      },
+      "dynamaxBlocked": true,
+      "height": 190,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.kingler-gmax.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 0
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "target": "cobblemon:rapidash",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "runaway",
+        "pastelveil",
+        "h:anticipation"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "zebstrika",
+              "tier": 1
+            },
+            {
+              "pokemon": "mudsdale",
+              "tier": 1
+            },
+            {
+              "pokemon": "rapidash",
+              "tier": 2
+            },
+            {
+              "pokemon": "glastrier",
+              "tier": 3
+            },
+            {
+              "pokemon": "spectrier",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 17,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "lightingData": {
+        "lightLevel": 11,
+        "liquidGlowMode": "LAND"
+      },
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.rapidash-galar.desc"
+      ],
+      "primaryType": "dark",
+      "riding": {
+        "behaviour": {
+          "key": "cobblemon:land/horse"
+        },
+        "seats": [],
+        "stats": {
+          "ACCELERATION": {
+            "ranges": "30-65"
+          },
+          "JUMP": {
+            "ranges": "25-55"
+          },
+          "SKILL": {
+            "ranges": "30-60"
+          },
+          "SPEED": {
+            "ranges": "45-70"
+          },
+          "STAMINA": {
+            "ranges": "40-85"
+          }
+        }
+      },
+      "secondaryType": "steel",
+      "weight": 800
+    }
+  ]
+}
