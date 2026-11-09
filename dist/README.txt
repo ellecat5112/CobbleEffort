@@ -2,10 +2,10 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 10 collections of cosmetic forms (383 Pokemon) to Cobblemon, plus 2 new Pokemon.
-Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
-lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
-through evolution, gender, regional forms, megas and shinies (shinies get their own version).
+CobbleEffort adds 10 collections of cosmetic forms (383 Pokemon) to Cobblemon. Each form is a new
+look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
+has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
+regional forms, megas and shinies (shinies get their own version).
 
 INSTALL
 -------
@@ -442,31 +442,6 @@ Pokemon (each line is a whole evolutionary family):
   - Dhelmise
   - Lechonk > Oinkologne
   - Charcadet > Armarouge / Ceruledge
-
-====================================================================================================
-NEW POKEMON
-====================================================================================================
-Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get them:
-
-#0797 CELESTEELA  (Steel / Flying, Beast Boost)
-  Pale sea-green arm-rockets with white straps, cyan frills and glowing nozzle rims and tips, a
-  striped sage cloak and a white segmented spire. It hovers, leans into flight, aims its arms to
-  fire Flash Cannon and drops onto foes with Heavy Slam. Shiny: pearl white with rose-gold frills
-  and an orange glow.
-  * A roaming Ultra Beast: it can appear anywhere in the overworld at night under the open sky, very
-    rarely, at level 55-60. A full moon makes it much likelier.
-  * Moves, stats, typing and ability are the official Ultra Sun/Ultra Moon ones (Heavy Slam at 60).
-    It flies and can't walk.
-  * Commands: /pokespawn celesteela or /pokegive celesteela (add 'shiny' for the shiny).
-
-#1022 IRON BOULDER  (Rock / Psychic, Quark Drive)
-  A stone-and-steel paradox with its great blade-horns; it lowers them to charge in battle, rears up
-  to cry and slashes down with Mighty Cleave. Shiny: electric-cyan accents and navy plates.
-  * A roaming legendary: it can appear anywhere on the overworld surface, very rarely, at level
-    70-75. Thunderstorms make it much likelier (Quark Drive / Electric Terrain).
-  * Moves, stats, typing and ability are the official Scarlet/Violet ones (Mighty Cleave at level
-    56).
-  * Commands: /pokespawn ironboulder or /pokegive ironboulder (add 'shiny' for the shiny).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

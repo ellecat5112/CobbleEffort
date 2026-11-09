@@ -102,17 +102,6 @@ and contributors.
 * **Legendary Monuments** by JorgaoMC (All Rights Reserved) is read only to confirm it doesn't touch Pokémon visuals.
 * The generator reads these mods' jars locally at build time (`tools/compat/`, gitignored). They are never committed.
 
-## New Pokémon models
-
-* **Iron Boulder** (`assets/cobbleeffort/bedrock/pokemon/models/1022_ironboulder/`, its textures, animations and
-  poser): converted from a 3D model made by ellecat5112 with **Tripo AI**. `tools/models/ironboulder.py` voxelizes
-  the mesh at one voxel per model unit, quantizes its colours, merges the voxels into boxes and paints a box-UV
-  texture; the animations, poser and shiny colours are original. Iron Boulder's game data (types, stats, ability,
-  moves) is Cobblemon's own; CobbleEffort only marks it implemented and adds its spawns.
-* **Celesteela** (`.../models/0797_celesteela/`, its textures, animations and poser): converted from an untextured 3D
-  model made by ellecat5112 with **Tripo AI** by `tools/models/celesteela.py`. It is painted in the colour scheme of a
-  reference picture ellecat5112 provided (no pixels of it are used); the glow layer, animations, poser and shiny are original. Its game data is Cobblemon's own.
-
 ## Paradox mega models
 
 The Paradox Pokémon's Mega Evolution models, textures, animations and posers (`.../<dex>_<species>/*_mega.*`) are
