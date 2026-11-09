@@ -1,5 +1,12 @@
 {
   "accessories.group.cobbleeffort_distortion.distortion_group": "Distortion",
+  "cobbleeffort_distortion.message.distorted": "%s distorted!",
+  "cobbleeffort_distortion.message.in_battle": "You can't distort or revert a Pokémon while battling.",
+  "cobbleeffort_distortion.message.need_band": "Wear the Distortion Band to distort a Pokémon.",
+  "cobbleeffort_distortion.message.one_at_a_time": "Only one Pokémon can be distorted at a time: revert %s first.",
+  "cobbleeffort_distortion.message.reverted": "%s returned to normal.",
+  "cobbleeffort_distortion.ui.distort": "Distort",
+  "cobbleeffort_distortion.ui.revert": "Revert Distortion",
   "cobblemon.move.bulletfire": "Bullet Fire",
   "cobblemon.move.bulletfire.desc": "The distorted twin of Bullet Seed: the same move, but Fire-type.",
   "cobblemon.move.chillinggrass": "Chilling Grass",
@@ -393,7 +400,7 @@
   "cobblemon.move.wildground": "Wild Ground",
   "cobblemon.move.wildground.desc": "The distorted twin of Wild Charge: the same move, but Ground-type.",
   "item.cobbleeffort_distortion.distortion_band": "Distortion Band",
-  "item.cobbleeffort_distortion.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding a Distortion Crystal distort in battle.",
+  "item.cobbleeffort_distortion.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding the Distortion Crystal distort, in battle or from its interaction wheel.",
   "item.cobbleeffort_distortion.distortion_crystal": "Distortion Crystal",
   "itemGroup.cobbleeffort_distortion": "Distortion",
   "slot.accessories.distortion_slot": "Distortion"

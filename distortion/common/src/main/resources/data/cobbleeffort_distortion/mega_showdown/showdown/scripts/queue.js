@@ -7,7 +7,10 @@
       const runAction = battle.runAction;
       battle.runAction = function (a) {
         if (a.choice === "event" && a.event === "Distort") this.actions.runDistort(a.pokemon);
-        return runAction.call(this, a);
+        const result = runAction.call(this, a);
+        // Pokémon distorted outside battle (the interaction wheel) start in their -Distorted forme: give them their twins
+        if (a.choice === "start") this.actions.distortedAtStart();
+        return result;
       };
     }
     const actions = BattleQueue.prototype.resolveAction.call(this, action, midTurn);

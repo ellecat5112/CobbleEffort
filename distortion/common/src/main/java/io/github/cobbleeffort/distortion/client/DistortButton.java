@@ -6,13 +6,12 @@ import com.cobblemon.mod.common.battles.InBattleMove;
 import com.cobblemon.mod.common.battles.MoveActionResponse;
 import com.cobblemon.mod.common.client.gui.battle.subscreen.BattleBackButton;
 import com.cobblemon.mod.common.client.gui.battle.subscreen.BattleMoveSelection;
-import com.cobblemon.mod.common.pokemon.FormData;
 import com.cobblemon.mod.common.pokemon.Pokemon;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import io.github.cobbleeffort.distortion.Distortion;
 import io.github.cobbleeffort.distortion.DistortionBattle;
-import io.wispforest.accessories.api.AccessoriesCapability;
+import io.github.cobbleeffort.distortion.DistortionRules;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
@@ -26,7 +25,6 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.item.ItemStack;
 
 /**
  * The Distort button on Cobblemon's move selection, next to its gimmick buttons. Shown when the trainer wears the
@@ -79,22 +77,8 @@ public final class DistortButton {
     }
 
     private static boolean canDistort(Pokemon pokemon, List<BattleMoveSelection.MoveTile> base) {
-        Minecraft mc = Minecraft.getInstance();
-        if (mc.player == null) return false;
-        AccessoriesCapability capability = AccessoriesCapability.get(mc.player);
-        if (capability == null || !capability.isEquipped(Distortion.BAND.get())) return false;
-        ItemStack held = pokemon.heldItem();
-        boolean source = held.is(Distortion.CRYSTAL.get())
-                || (pokemon.getSpecies().getNationalPokedexNumber() == 493 && held.getItem().toString().endsWith("_plate"));
-        if (!source) return false;
-        boolean hasForm = false;
-        for (FormData form : pokemon.getSpecies().getForms()) {
-            if (form.getAspects().contains(DistortionBattle.ASPECT)) {
-                hasForm = true;
-                break;
-            }
-        }
-        if (!hasForm) return false;
+        if (!DistortionRules.wearsBand(Minecraft.getInstance().player)) return false;
+        if (!DistortionRules.holdsSource(pokemon) || !DistortionRules.hasDistortedForm(pokemon.getSpecies())) return false;
         // already distorted: its moves are twins now
         for (BattleMoveSelection.MoveTile tile : base) {
             if (twins().containsValue(tile.getMove().getId())) return false;

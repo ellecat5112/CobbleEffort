@@ -13,6 +13,8 @@ Writes CobbleEffort: Distortion's battle data into common/src/main/resources (de
              (data/<ns>/mega_showdown/showdown/scripts/<side|queue|actions>.js):
                side.chooseMove     accepts "move N [target] distort" (once per battle per side, with the crystal)
                queue.resolveAction queues the distortion as its own action at Terastallization's priority
+               (a Pokémon distorted outside battle starts in its -Distorted forme; it gets its twins at the start and
+               counts as its side's distortion)
                actions.runDistort  distorts the Pokémon at the start of the turn: a permanent forme change to its
                                    "-Distorted" forme (inverted types; Cobblemon sees the detailschange and the
                                    add-on gives it the distorted look), its ability kept (or its inverted twin),
@@ -207,7 +209,10 @@ def write_engine(twins):
       const runAction = battle.runAction;
       battle.runAction = function (a) {
         if (a.choice === "event" && a.event === "Distort") this.actions.runDistort(a.pokemon);
-        return runAction.call(this, a);
+        const result = runAction.call(this, a);
+        // Pokémon distorted outside battle (the interaction wheel) start in their -Distorted forme: give them their twins
+        if (a.choice === "start") this.actions.distortedAtStart();
+        return result;
       };
     }
     const actions = BattleQueue.prototype.resolveAction.call(this, action, midTurn);
@@ -234,15 +239,7 @@ def write_engine(twins):
     const source = pokemon.item === "distortioncrystal" || (pokemon.species.num === 493 && item && item.onPlate);
     return !pokemon.distorted && !!source && !!this.distortedSpecies(pokemon);
   },
-  runDistort(pokemon) {
-    if (!pokemon.isActive || pokemon.fainted || !this.canDistort(pokemon)) return false;
-    const species = this.distortedSpecies(pokemon);
-    const ability = pokemon.ability;
-    const source = this.dex.conditions.get("distortion");
-    pokemon.formeChange(species, source && source.exists ? source : null, true);
-    // the ability stays what it was (inverted, if it's a type-bound one with a twin)
-    pokemon.setAbility(ability, null, true);
-    pokemon.baseAbility = ability;
+  distortMoves(pokemon) {
     // every move becomes its inverted twin, keeping its PP
     for (let i = 0; i < pokemon.moveSlots.length; i++) {
       const slot = pokemon.moveSlots[i];
@@ -255,6 +252,27 @@ def write_engine(twins):
       pokemon.moveSlots[i] = moved;
       if (pokemon.baseMoveSlots[i] && pokemon.baseMoveSlots[i].id === slot.id) pokemon.baseMoveSlots[i] = moved;
     }
+  },
+  distortedAtStart() {
+    for (const side of this.battle.sides) {
+      for (const pokemon of side.pokemon) {
+        if (pokemon.distorted || !/-Distorted$/.test(pokemon.species.name)) continue;
+        this.distortMoves(pokemon);
+        pokemon.distorted = true;
+        side.distortUsed = true;
+      }
+    }
+  },
+  runDistort(pokemon) {
+    if (!pokemon.isActive || pokemon.fainted || !this.canDistort(pokemon)) return false;
+    const species = this.distortedSpecies(pokemon);
+    const ability = pokemon.ability;
+    const source = this.dex.conditions.get("distortion");
+    pokemon.formeChange(species, source && source.exists ? source : null, true);
+    // the ability stays what it was (inverted, if it's a type-bound one with a twin)
+    pokemon.setAbility(ability, null, true);
+    pokemon.baseAbility = ability;
+    this.distortMoves(pokemon);
     pokemon.distorted = true;
     pokemon.side.distortUsed = true;
     this.battle.add("-message", `${pokemon.name} distorted!`);

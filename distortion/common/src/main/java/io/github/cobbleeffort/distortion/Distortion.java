@@ -1,8 +1,11 @@
 package io.github.cobbleeffort.distortion;
 
+import dev.architectury.platform.Platform;
 import dev.architectury.registry.CreativeTabRegistry;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
+import dev.architectury.utils.Env;
+import io.github.cobbleeffort.distortion.client.DistortWheelOption;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,5 +42,7 @@ public final class Distortion {
         TABS.register();
         ITEMS.register();
         DistortionBattle.init();
+        DistortionWheel.init();
+        if (Platform.getEnvironment() == Env.CLIENT) DistortWheelOption.init();
     }
 }

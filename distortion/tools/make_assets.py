@@ -332,18 +332,54 @@ def distort_button():
     save_png(RES / "assets" / MOD / "textures" / "gui" / "battle" / "distort_button.png", img)
 
 
+def wheel_icons():
+    """The interaction-wheel icons (32x32, white on clear with half-alpha detail, like Cobblemon's):
+    distort: the crystal's rhombus split by a slanted rift, one half solid, the other half hollow (inverted);
+    revert: the same rhombus whole, outlined, with the rift closed."""
+    for name, split_open in (("distort_wheel", True), ("revert_wheel", False)):
+        img = Image.new("RGBA", (32, 32), (0, 0, 0, 0))
+        px = img.load()
+        cx, cy = 15.5, 15.5
+        for y in range(32):
+            for x in range(32):
+                d = abs(x - cx) / 11.0 + abs(y - cy) / 15.0
+                if d > 1.0:
+                    continue
+                edge = d > 0.82
+                if not split_open:
+                    a = 255 if edge else (128 if abs((y - cy) + (x - cx) * 0.5) < 1.2 else 0)
+                else:
+                    split = (y - cy) + (x - cx) * 0.5
+                    if abs(split) < 1.6:
+                        continue                                  # the rift
+                    a = 255 if split < 0 or edge else (128 if (x + y) % 4 == 0 else 0)
+                if a:
+                    px[x, y] = (255, 255, 255, a)
+        save_png(RES / "assets" / MOD / "textures" / "gui" / "interact" / f"{name}.png", img)
+
+
 def chart():
     write_json(RES / "data" / MOD / "distortion" / "type_chart.json", TYPE_CHART)
 
 
 def lang():
     names = {f"item.{MOD}.distortion_band": "Distortion Band",
-             f"item.{MOD}.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding a Distortion Crystal distort in battle.",
+             f"item.{MOD}.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding the Distortion Crystal distort, in battle or from its interaction wheel.",
              f"itemGroup.{MOD}": "Distortion"}
     names[f"item.{MOD}.distortion_crystal"] = "Distortion Crystal"
     names["slot.accessories.distortion_slot"] = "Distortion"
     names[f"accessories.group.{MOD}.distortion_group"] = "Distortion"
-    write_json(RES / "assets" / MOD / "lang" / "en_us.json", dict(sorted(names.items())))
+    names[f"{MOD}.ui.distort"] = "Distort"
+    names[f"{MOD}.ui.revert"] = "Revert Distortion"
+    names[f"{MOD}.message.distorted"] = "%s distorted!"
+    names[f"{MOD}.message.reverted"] = "%s returned to normal."
+    names[f"{MOD}.message.in_battle"] = "You can't distort or revert a Pokémon while battling."
+    names[f"{MOD}.message.need_band"] = "Wear the Distortion Band to distort a Pokémon."
+    names[f"{MOD}.message.one_at_a_time"] = "Only one Pokémon can be distorted at a time: revert %s first."
+    path = RES / "assets" / MOD / "lang" / "en_us.json"
+    old = json.loads(path.read_text()) if path.exists() else {}
+    names.update({k: v for k, v in old.items() if k.startswith("cobblemon.move.")})   # make_battle.py's move names
+    write_json(path, dict(sorted(names.items())))
 
 
 def main():
@@ -352,6 +388,7 @@ def main():
     forms()
     looks()
     distort_button()
+    wheel_icons()
     chart()
     lang()
 

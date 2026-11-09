@@ -13,14 +13,12 @@ import com.cobblemon.mod.common.battles.ActiveBattlePokemon;
 import com.cobblemon.mod.common.battles.actor.PlayerBattleActor;
 import com.cobblemon.mod.common.battles.pokemon.BattlePokemon;
 import com.cobblemon.mod.common.pokemon.Pokemon;
-import io.wispforest.accessories.api.AccessoriesCapability;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.level.ServerPlayer;
 
 /**
  * The server side of distorting:
@@ -58,12 +56,14 @@ public final class DistortionBattle {
     private static void onBattleEnded(BattleEndedEvent event) {
         Set<Pokemon> list = DISTORTED.remove(event.getBattle().getBattleId());
         if (list == null) return;
-        for (Pokemon pokemon : list) {
-            Set<String> aspects = new HashSet<>(pokemon.getForcedAspects());
-            if (aspects.remove(ASPECT)) {
-                pokemon.setForcedAspects(aspects);
-                pokemon.updateAspects();
-            }
+        for (Pokemon pokemon : list) clearForcedAspect(pokemon);
+    }
+
+    static void clearForcedAspect(Pokemon pokemon) {
+        Set<String> aspects = new HashSet<>(pokemon.getForcedAspects());
+        if (aspects.remove(ASPECT)) {
+            pokemon.setForcedAspects(aspects);
+            pokemon.updateAspects();
         }
     }
 
@@ -71,10 +71,7 @@ public final class DistortionBattle {
     public static boolean trainerMayDistort(ActiveBattlePokemon active) {
         BattleActor actor = active.getActor();
         if (!(actor instanceof PlayerBattleActor player)) return true;
-        ServerPlayer entity = player.getEntity();
-        if (entity == null) return false;
-        AccessoriesCapability capability = AccessoriesCapability.get(entity);
-        return capability != null && capability.isEquipped(Distortion.BAND.get());
+        return DistortionRules.wearsBand(player.getEntity());
     }
 
     /** The crystal as a Showdown held item. */

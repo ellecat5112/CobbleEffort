@@ -11,15 +11,7 @@
     const source = pokemon.item === "distortioncrystal" || (pokemon.species.num === 493 && item && item.onPlate);
     return !pokemon.distorted && !!source && !!this.distortedSpecies(pokemon);
   },
-  runDistort(pokemon) {
-    if (!pokemon.isActive || pokemon.fainted || !this.canDistort(pokemon)) return false;
-    const species = this.distortedSpecies(pokemon);
-    const ability = pokemon.ability;
-    const source = this.dex.conditions.get("distortion");
-    pokemon.formeChange(species, source && source.exists ? source : null, true);
-    // the ability stays what it was (inverted, if it's a type-bound one with a twin)
-    pokemon.setAbility(ability, null, true);
-    pokemon.baseAbility = ability;
+  distortMoves(pokemon) {
     // every move becomes its inverted twin, keeping its PP
     for (let i = 0; i < pokemon.moveSlots.length; i++) {
       const slot = pokemon.moveSlots[i];
@@ -32,6 +24,27 @@
       pokemon.moveSlots[i] = moved;
       if (pokemon.baseMoveSlots[i] && pokemon.baseMoveSlots[i].id === slot.id) pokemon.baseMoveSlots[i] = moved;
     }
+  },
+  distortedAtStart() {
+    for (const side of this.battle.sides) {
+      for (const pokemon of side.pokemon) {
+        if (pokemon.distorted || !/-Distorted$/.test(pokemon.species.name)) continue;
+        this.distortMoves(pokemon);
+        pokemon.distorted = true;
+        side.distortUsed = true;
+      }
+    }
+  },
+  runDistort(pokemon) {
+    if (!pokemon.isActive || pokemon.fainted || !this.canDistort(pokemon)) return false;
+    const species = this.distortedSpecies(pokemon);
+    const ability = pokemon.ability;
+    const source = this.dex.conditions.get("distortion");
+    pokemon.formeChange(species, source && source.exists ? source : null, true);
+    // the ability stays what it was (inverted, if it's a type-bound one with a twin)
+    pokemon.setAbility(ability, null, true);
+    pokemon.baseAbility = ability;
+    this.distortMoves(pokemon);
     pokemon.distorted = true;
     pokemon.side.distortUsed = true;
     this.battle.add("-message", `${pokemon.name} distorted!`);
