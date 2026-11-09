@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 9 collections of cosmetic forms (349 Pokemon) to Cobblemon, plus 1 new Pokemon.
+CobbleEffort adds 9 collections of cosmetic forms (349 Pokemon) to Cobblemon, plus 2 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -407,6 +407,16 @@ Pokemon (each line is a whole evolutionary family):
 NEW POKEMON
 ====================================================================================================
 Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get them:
+
+#0797 CELESTEELA  (Steel / Flying, Beast Boost)
+  Green bamboo segments, white plates and a white head cone with glowing eyes; its arm-thrusters
+  glow and flicker in the dark. It hovers, leans into flight, aims its arms to fire Flash Cannon and
+  drops onto foes with Heavy Slam. Shiny: brass-gold bamboo on silver, with blue flames.
+  * A roaming Ultra Beast: it can appear anywhere in the overworld at night under the open sky, very
+    rarely, at level 55-60. A full moon makes it much likelier.
+  * Moves, stats, typing and ability are the official Ultra Sun/Ultra Moon ones (Heavy Slam at 60).
+    It flies and can't walk.
+  * Commands: /pokespawn celesteela or /pokegive celesteela (add 'shiny' for the shiny).
 
 #1022 IRON BOULDER  (Rock / Psychic, Quark Drive)
   A stone-and-steel paradox with its great blade-horns; it lowers them to charge in battle, rears up

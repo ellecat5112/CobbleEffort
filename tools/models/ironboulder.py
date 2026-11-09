@@ -34,6 +34,7 @@ from PIL import Image
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import _voxel as vx  # noqa: E402
+from _anim import keys, sin, track, write_json  # noqa: E402
 
 ROOT = HERE.parent.parent
 RES = ROOT / "src" / "main" / "resources"
@@ -47,11 +48,6 @@ BASE_SCALE = 0.86                        # 28 units * 0.86 / 16 = 1.5 blocks, Ir
 PALETTE_SIZE = 10
 
 BONES = ["body", "head", "leg_front_left", "leg_front_right", "leg_back_left", "leg_back_right"]
-
-
-def write_json(path: Path, obj):
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=1) + "\n")
 
 
 # ---------------------------------------------------------------------------------------------
@@ -183,25 +179,6 @@ def build_model():
 # ---------------------------------------------------------------------------------------------
 # Animations (keyframes sampled from simple periodic motions)
 # ---------------------------------------------------------------------------------------------
-
-def track(length, fn, steps=None):
-    """{time: [x, y, z]} keyframes of fn(t in 0..1) over `length` seconds."""
-    steps = steps or max(4, int(round(length * 8)))
-    out = {}
-    for s in range(steps + 1):
-        t = s / steps
-        out[f"{round(t * length, 4)}"] = [round(float(v), 3) for v in fn(t)]
-    return out
-
-
-def keys(points):
-    """{time: [x, y, z]} from [(time, [x, y, z]), ...] (linear between them)."""
-    return {f"{round(t, 4)}": [round(float(v), 3) for v in xyz] for t, xyz in points}
-
-
-def sin(t, cycles=1, phase=0.0):
-    return math.sin(2 * math.pi * (cycles * t + phase))
-
 
 def animations(piv):
     A = {}

@@ -53,8 +53,7 @@ def load_mesh(path, samples: int = 3_000_000, seed: int = 0):
     if path.suffix.lower() == ".fbx":
         raise SystemExit("FBX can't be read here: export GLB or OBJ from Tripo instead")
     loaded = trimesh.load(path, force="scene", process=False)
-    meshes = [g.apply_transform(t) if t is not None else g for g, t in
-              ((loaded.geometry[n].copy(), loaded.graph.get(n)[0]) for n in loaded.graph.nodes_geometry)]
+    meshes = list(loaded.dump())         # every mesh instance with its node transform applied
     pts_all, col_all = [], []
     total_area = sum(m.area for m in meshes)
     rng = np.random.default_rng(seed)

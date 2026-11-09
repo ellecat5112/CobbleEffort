@@ -1,0 +1,48 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "celesteela-roaming",
+   "pokemon": "celesteela",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "55-60",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  },
+  {
+   "id": "celesteela-full-moon",
+   "pokemon": "celesteela",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "55-60",
+   "weight": 15.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "moonPhase": "0"
+   }
+  }
+ ]
+}

@@ -373,9 +373,14 @@ union of both UV layouts, so it fits whichever one is installed. Without either 
 Give a supported Pokémon **Flint** (a kunai) as its cosmetic item. With commands: `/pokegive vulpix shinobi`,
 `/pokegive xurkitree shinobi shiny`. Pack makers can extend the item tag `#cobbleeffort:shinobi_cosmetics`.
 
-## New Pokémon: Iron Boulder (#1022)
+## New Pokémon
 
-Cobblemon has Iron Boulder's data but no model, so it was one of the last two empty Pokédex spots (with Celesteela).
+Cobblemon has data for Iron Boulder and Celesteela but no models, so they were the last two empty Pokédex spots in
+this mod stack. CobbleEffort gives both a model (converted from ellecat5112's models, made with Tripo AI),
+animations, and a way to find them. Their typing, stats, abilities and moves are Cobblemon's own official data.
+
+### Iron Boulder (#1022)
+
 CobbleEffort gives it a model, converted from ellecat5112's model (made with Tripo AI), with animations for idle,
 walking, battle stance, sleep, cry, physical/special/status moves and fainting.
 
@@ -389,9 +394,25 @@ walking, battle stance, sleep, cry, physical/special/status moves and fainting.
 
 ![Iron Boulder, normal and shiny](docs/ironboulder_preview.png)
 
-Built by `tools/models/ironboulder.py` (voxelize the mesh, merge into boxes, paint a box-UV texture, write the
-animations, poser, resolver, `species_additions` and `spawn_pool_world`). The voxels are committed
-(`tools/models/ironboulder_voxels.npz`), so rebuilding doesn't need the 140 MB source mesh.
+### Celesteela (#797)
+
+* **Game-accurate**: Steel/Flying, Beast Boost, Ultra Sun/Ultra Moon base stats and learnset (Heavy Slam at 60),
+  catch rate 45; it flies and can't walk. Sized at about 3.5 blocks (Cobblemon shrinks its giants).
+* **Look**: the source model is untextured, so it's painted here: green bamboo segments with darker nodes, white
+  plates and thruster housings, a white head cone with a dark visor, glowing eyes and a red mouth marking, and
+  thruster nozzles that glow and flicker in the dark. Shiny: brass-gold bamboo on silver, with blue flames.
+* **Animations**: hovering, leaning into flight, a battle stance with its arm-thrusters aimed, sleep, cry, Heavy Slam
+  (rise and drop), Flash Cannon (aim, fire, recoil), status moves and fainting.
+* **Roaming Ultra Beast**: very rarely, anywhere in the overworld at night under the open sky, level 55-60; a full
+  moon makes it much likelier (it was Pokémon Moon's Ultra Beast).
+* Commands: `/pokespawn celesteela`, `/pokegive celesteela shiny`.
+
+![Celesteela, normal and shiny](docs/celesteela_preview.png)
+
+Built by `tools/models/<name>.py` (`ironboulder.py`, `celesteela.py`): voxelize the mesh (`tools/models/_voxel.py`
+reads OBJ, GLB/glTF and zipped textured OBJs), merge into boxes, paint a box-UV texture, and write the animations,
+poser, resolver, `species_additions` and `spawn_pool_world`. The voxels are committed (`*_voxels.npz`), so
+rebuilding doesn't need the source meshes.
 
 ## Compatibility
 
