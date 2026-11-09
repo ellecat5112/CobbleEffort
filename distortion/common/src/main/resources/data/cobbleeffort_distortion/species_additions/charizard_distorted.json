@@ -9,6 +9,27 @@
       ],
       "battleOnly": false,
       "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 280,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.875,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.charizard-gmax.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "electric",
+      "weight": 0
     }
   ]
 }

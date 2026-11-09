@@ -31,6 +31,24 @@
           "texture": "cobbleeffort_distortion:textures/pokemon/0815_cinderace/distorted_cinderace_alpha.png"
         }
       ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cinderace_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0815_cinderace/distorted_cinderace_gigantamax_cinderace_gigantamax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cinderace_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0815_cinderace/distorted_cinderace_gigantamax_shiny_cinderace_gigantamax.png"
     }
   ]
 }

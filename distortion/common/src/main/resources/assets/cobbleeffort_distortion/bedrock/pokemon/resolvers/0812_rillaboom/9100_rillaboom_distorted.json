@@ -78,6 +78,57 @@
           }
         }
       ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rillaboom_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_rillaboom_gigantamax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_rillaboom_gigantamax_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_rillaboom_gigantamax_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_rillaboom_gigantamax_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_rillaboom_gigantamax_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rillaboom_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_shiny_rillaboom_gigantamax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_shiny_rillaboom_gigantamax_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_shiny_rillaboom_gigantamax_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_shiny_rillaboom_gigantamax_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0812_rillaboom/distorted_rillaboom_gigantamax_shiny_rillaboom_gigantamax_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
     }
   ]
 }

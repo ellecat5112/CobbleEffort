@@ -52,6 +52,30 @@
           "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_alpha.png"
         }
       ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobblemon:gmaxblastoise.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_gigantamax_gmaxblastoise.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_gigantamax_emissive_gmaxblastoise.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:gmaxblastoise.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_gigantamax_shiny_gmaxblastoise.png"
     }
   ]
 }

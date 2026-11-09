@@ -35,6 +35,73 @@
       "primaryType": "grass",
       "secondaryType": "fairy",
       "weight": 400
+    },
+    {
+      "abilities": [
+        "battlebond",
+        "h:battlebond"
+      ],
+      "aspects": [
+        "ash",
+        "distorted"
+      ],
+      "baseExperienceYield": 320,
+      "baseStats": {
+        "attack": 145,
+        "defence": 67,
+        "hp": 72,
+        "special_attack": 153,
+        "special_defence": 71,
+        "speed": 132
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "greninja alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          },
+          "walk": {
+            "walkSpeed": 0.3
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "dynamaxBlocked": true,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "height": 15,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 1,
+      "name": "Ash-Distorted",
+      "pokedex": [
+        "cobblemon.species.greninja-ash.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "weight": 400
     }
   ]
 }

@@ -22,14 +22,19 @@ A TEST BUILD. What's in it:
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
   2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, any starter or its evolutions).
-     Arceus doesn't need it: it distorts with its plate
-     (it can only hold one item, and the plates are its power).
+     Arceus doesn't need it: it distorts with its plate (it can only hold one item, and the plates are its power).
   3. In battle, pick "Fight": a Distort button appears next to the back button. Click it (the move tiles switch to
      the distorted moves), then pick a move.
   4. At the start of the turn, before anyone moves, the Pokemon distorts: new types, new look, every move turns into
-     its distorted twin for the rest of the battle. Its ability follows if it's tied to its type.
-  Once per battle per trainer. It lasts until the battle ends; then the Pokemon is back to normal.
-  Wild and NPC Pokemon holding the crystal distort on their own, once per battle (try /pokespawn charizard
+     its distorted twin, and its ability follows if it's tied to its type.
+  NEW: it's a toggle, free to use any turn: while distorted, the same button reverts it (the tiles show the normal
+  moves again), and you can distort again later. At the end of the battle it's back to normal.
+  NEW: distorting only needs the crystal held and the band worn, so anything that doesn't need a different held item
+  still works with it, and the Pokemon stays distorted through it: Dynamax and Gigantamax (distorted Gigantamax
+  Charizard, Venusaur, Blastoise, Rillaboom, Cinderace, Inteleon), Battle Bond's Ash-Greninja, move-triggered megas
+  (Dragon Ascent), ability form changes. Megas that need a Mega Stone, and primals, can't (the crystal is the held
+  item).
+  Wild and NPC Pokemon holding the crystal distort on their own (try /pokespawn charizard
   held_item=cobbleeffort_distortion:distortion_crystal).
 
 HOW TO DISTORT OUTSIDE BATTLE (the interaction wheel)
@@ -46,7 +51,7 @@ Distorted types (each type becomes its weakness):
   Palkia    Water/Dragon  -> Grass/Fairy       Arceus  its type      -> that type's weakness
   Starters: Grass -> Fire, Fire -> Water, Water -> Grass, and their second types follow the same chart
   (Charizard Fire/Flying -> Water/Electric, Venusaur Grass/Poison -> Fire/Ground, Empoleon Water/Steel -> Grass/Ground).
-  Megas, Gigantamax forms and Ash-Greninja don't distort.
+  Stone megas and primals don't distort (they need their own held item).
 
 STARTERS (the distorted looks)
   Grass starters, natural disasters:
@@ -95,6 +100,9 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  New in this build: distort, then press Distort again on a later turn to revert, and again to re-distort. Dynamax
+  or Gigantamax a distorted Pokemon (it should stay distorted, with the distorted look). Ash-Greninja: a distorted
+  Greninja with Battle Bond (and high friendship) knocking a Pokemon out.
   New in this build: try some starters with /pokegive <name> distorted (and shiny, female for the Bulbasaur and
   Torchic lines, hisuian for Typhlosion/Samurott/Decidueye). Do the looks show (the animated flames, Torterra's
   volcano, the flytraps, the pillars)? Anything that looks broken or off-theme: tell me which Pokemon.

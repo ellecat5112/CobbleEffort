@@ -24,13 +24,16 @@ import net.minecraft.network.chat.Component;
  * The server side of distorting:
  * - the Distortion Crystal is the Showdown item "distortioncrystal" (its Showdown script and the distort choice,
  *   forme change and move swaps are data: data/cobbleeffort_distortion/mega_showdown/showdown/...);
- * - when Showdown changes a Pokémon into its "-Distorted" forme, Cobblemon posts FORME_CHANGE with the form name
- *   "distorted": the Pokémon gets the "distorted" aspect (its distorted look and form) until the battle ends;
+ * - when the engine distorts a Pokémon it sends a forme change to "<species>-Distorted", which Cobblemon posts as
+ *   FORME_CHANGE with the form name "distorted": the Pokémon gets the "distorted" aspect (its look and form) until it
+ *   reverts ("<species>-Reverted": "reverted") or the battle ends; distorting and reverting are free, any turn;
  * - a trainer can only choose to distort while wearing the Distortion Band (checked by MoveActionResponseMixin).
  */
 public final class DistortionBattle {
     public static final String GIMMICK = "distort";
     public static final String ASPECT = "distorted";
+    /** The form name the engine sends when a Pokémon reverts ("<species>-Reverted"). */
+    public static final String REVERTED = "reverted";
     public static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger("CobbleEffort Distortion");
     private static final Map<UUID, Set<Pokemon>> DISTORTED = new ConcurrentHashMap<>();
     /** AI actors (by battle) that have chosen to distort: once per battle. */
@@ -46,6 +49,13 @@ public final class DistortionBattle {
     }
 
     private static void onFormeChange(FormeChangeEvent event) {
+        if (REVERTED.equals(event.getFormeName())) {
+            // reverted in battle: the look goes, and a distortion made outside battle is undone too
+            Pokemon pokemon = event.getPokemon().getEffectedPokemon();
+            clearForcedAspect(pokemon);
+            if (DistortionRules.distortedOutside(pokemon)) DistortionRules.setDistortedOutside(pokemon, false);
+            return;
+        }
         if (!ASPECT.equals(event.getFormeName())) return;
         Pokemon pokemon = event.getPokemon().getEffectedPokemon();
         Set<String> aspects = new HashSet<>(pokemon.getForcedAspects());

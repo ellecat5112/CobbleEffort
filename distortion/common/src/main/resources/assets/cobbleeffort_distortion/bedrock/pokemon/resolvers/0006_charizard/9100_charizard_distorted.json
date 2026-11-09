@@ -31,6 +31,40 @@
           "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard_alpha.png"
         }
       ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobblemon:charizard_gigantamax.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard_gigantamax_charizard_gigantamax.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0006_charizard/gmaxflames/distorted_flames_1_charizard_gigantamax.png",
+              "cobbleeffort_distortion:textures/pokemon/0006_charizard/gmaxflames/distorted_flames_2_charizard_gigantamax.png",
+              "cobbleeffort_distortion:textures/pokemon/0006_charizard/gmaxflames/distorted_flames_3_charizard_gigantamax.png",
+              "cobbleeffort_distortion:textures/pokemon/0006_charizard/gmaxflames/distorted_flames_4_charizard_gigantamax.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:charizard_gigantamax.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard_gigantamax_shiny_charizard_gigantamax.png"
     }
   ]
 }

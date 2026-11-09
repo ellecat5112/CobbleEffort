@@ -233,7 +233,14 @@ def cobblemon_species(sp):
     raise SystemExit(f"no Cobblemon species data for {sp}")
 
 
-SKIPPED_ASPECTS = {"mega", "mega_x", "mega_y", "gmax", "ash"}     # megas, Gigantamax and Ash-Greninja don't distort
+# distorting needs the Pokémon to hold the Distortion Crystal, so forms that need another held item can't distort:
+# stone megas and primals. Everything else can (Gigantamax, Battle Bond's Ash-Greninja, a move-triggered mega).
+ITEMLESS_MEGAS = {"rayquaza"}                                  # Dragon Ascent, no stone
+SKIPPED_ASPECTS = {"mega", "mega_x", "mega_y", "primal"}
+
+
+def skipped(sp, aspects):
+    return bool(set(aspects) & SKIPPED_ASPECTS) and not (sp in ITEMLESS_MEGAS and "primal" not in aspects)
 
 
 def invert(t):
@@ -254,7 +261,7 @@ def forms():
             base["secondaryType"] = invert(d["secondaryType"])
         new.append(base)
         for f in d.get("forms", []):
-            if set(f.get("aspects", [])) & SKIPPED_ASPECTS:
+            if skipped(sp, f.get("aspects", [])):
                 continue
             g = copy.deepcopy(f)                                   # keep the form's stats, abilities, size
             g["name"] = f"{f['name']}-Distorted"
@@ -265,7 +272,7 @@ def forms():
             else:
                 g.pop("secondaryType", None)
             g["aspects"] = list(f.get("aspects", [])) + ["distorted"]
-            g["battleOnly"] = False
+            g["battleOnly"] = bool(f.get("battleOnly"))           # Gigantamax/Ash stay battle forms
             for k in ("evolutions", "preEvolution", "drops", "moves"):
                 g.pop(k, None)
             new.append(g)
@@ -385,7 +392,7 @@ def looks():
         prefix = f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/"
         paths = sorted({n for z in zips for n in names[z] if n.startswith(prefix) and n.endswith(".json")})
         resolvers = sorted(((json.loads(read(n)), n) for n in paths), key=lambda r: (r[0].get("order", 0), r[1]))
-        variations = [v for d, _ in resolvers for v in d["variations"] if not set(v.get("aspects", [])) & SKIPPED_ASPECTS]
+        variations = [v for d, _ in resolvers for v in d["variations"] if not skipped(sp, v.get("aspects", []))]
         base = next((v for v in variations if not v.get("aspects") and v.get("model")), None)
         base_model = base["model"] if base else None
         kits, done, frames_of = {}, {}, {}
@@ -394,8 +401,13 @@ def looks():
             if module is None or model_id is None:
                 return None
             if model_id not in kits:
-                kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), json.loads(read(geo_path(model_id))))
-                module.build(kit)
+                geo = json.loads(read(geo_path(model_id)))
+                kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), geo)
+                try:
+                    module.build(kit)
+                except KeyError:                                # a model the line's parts don't fit (Gigantamax...)
+                    kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), geo)
+                    kit.used = True                             # recoloured, on its own model
                 if kit.used and kit.geo_changed:
                     name = kit.model + "_distorted"
                     write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / folder / f"{name}.geo.json",

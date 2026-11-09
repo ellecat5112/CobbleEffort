@@ -9,6 +9,27 @@
       ],
       "battleOnly": false,
       "secondaryType": "ground"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 240,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.875,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.venusaur-gmax.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "weight": 0
     }
   ]
 }

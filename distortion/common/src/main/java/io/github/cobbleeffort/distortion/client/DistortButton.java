@@ -29,8 +29,8 @@ import net.minecraft.sounds.SoundEvents;
 /**
  * The Distort button on Cobblemon's move selection, next to its gimmick buttons. Shown when the trainer wears the
  * Distortion Band and the active Pokémon can distort (holds the Distortion Crystal, or is Arceus holding a plate,
- * and has Distorted forms) and hasn't yet. Toggled, the move tiles show each move's distorted twin and choosing one
- * sends the move with the "distort" gimmick.
+ * and has Distorted forms), or is distorted (then it reverts it): toggling is free, any turn. Toggled, the move tiles
+ * show what each move becomes (its twin, or its original) and choosing one sends it with the "distort" gimmick.
  */
 public final class DistortButton {
     public static final ResourceLocation TEXTURE = ResourceLocation.fromNamespaceAndPath(Distortion.MOD_ID, "textures/gui/battle/distort_button.png");
@@ -66,24 +66,30 @@ public final class DistortButton {
         List<BattleMoveSelection.MoveTile> base = selection.getBaseTiles();
         if (base.isEmpty()) return null;
         Pokemon pokemon = base.get(0).getPokemon();
-        if (pokemon == null || !canDistort(pokemon, base)) return null;
+        if (pokemon == null || !canToggle(pokemon)) return null;
+        boolean revert = pokemon.getAspects().contains(DistortionBattle.ASPECT);
         List<BattleMoveSelection.MoveTile> tiles = new ArrayList<>();
         for (BattleMoveSelection.MoveTile tile : base) {
-            tiles.add(new DistortTile(selection, tile.getMove(), tile.getX(), tile.getY()));
+            tiles.add(new DistortTile(selection, tile.getMove(), tile.getX(), tile.getY(), revert));
         }
         BattleBackButton back = selection.getBackButton();
         float x = back.getX() + BattleBackButton.WIDTH * 0.65F + 26 * selection.getGimmickButtons().size();
         return new DistortButton(x, back.getY(), tiles);
     }
 
-    private static boolean canDistort(Pokemon pokemon, List<BattleMoveSelection.MoveTile> base) {
+    /** Distort (band, crystal or Arceus's plate, Distorted forms), or revert (already distorted: any time). */
+    private static boolean canToggle(Pokemon pokemon) {
         if (!DistortionRules.wearsBand(Minecraft.getInstance().player)) return false;
-        if (!DistortionRules.holdsSource(pokemon) || !DistortionRules.hasDistortedForm(pokemon.getSpecies())) return false;
-        // already distorted: its moves are twins now
-        for (BattleMoveSelection.MoveTile tile : base) {
-            if (twins().containsValue(tile.getMove().getId())) return false;
+        if (!DistortionRules.hasDistortedForm(pokemon.getSpecies())) return false;
+        return pokemon.getAspects().contains(DistortionBattle.ASPECT) || DistortionRules.holdsSource(pokemon);
+    }
+
+    /** The move a twin was made from (to show when reverting). */
+    static String original(String twin) {
+        for (Map.Entry<String, String> e : twins().entrySet()) {
+            if (e.getValue().equals(twin)) return e.getKey();
         }
-        return true;
+        return null;
     }
 
     public boolean isHovered(double mouseX, double mouseY) {
@@ -104,11 +110,12 @@ public final class DistortButton {
         graphics.pose().popPose();
     }
 
-    /** A move tile showing the move's distorted twin; choosing it distorts. */
+    /** A move tile showing what the move becomes (its distorted twin, or when reverting its original); choosing it
+     * toggles distortion. */
     public static final class DistortTile extends BattleMoveSelection.MoveTile {
-        public DistortTile(BattleMoveSelection selection, InBattleMove move, float x, float y) {
+        public DistortTile(BattleMoveSelection selection, InBattleMove move, float x, float y, boolean revert) {
             super(selection, move, x, y);
-            String twin = twins().get(move.getId());
+            String twin = revert ? original(move.getId()) : twins().get(move.getId());
             if (twin != null) {
                 MoveTemplate template = Moves.getByNameOrDummy(twin);
                 setMoveTemplate(template);
