@@ -468,9 +468,9 @@ Pokemon Cobblemon has data for but no model, now with a model, animations and a 
 ====================================================================================================
 CUSTOM MEGA EVOLUTIONS (needs Mega Showdown)
 ====================================================================================================
-Five Ancient Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold
-the mega stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms come from
-Cobblemon: AllTheMons x Mega Showdown.
+10 Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold the mega
+stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms come from Cobblemon,
+Mega Showdown and Cobblemon: AllTheMons x Mega Showdown.
 
 MEGA GREAT TUSK  (Ground / Fighting, Tough Claws)
   Stats: HP 115  Atk 171  Def 161  SpA 53  SpD 73  Spe 97  (total 670)
@@ -515,6 +515,48 @@ MEGA SLITHER WING  (Bug / Fighting, Moxie)
       [kek]
       [.d.]
       s = String, b = Blaze Powder, k = Orange Dye, e = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA SANDY SHOCKS  (Electric / Ground, Magnet Pull)
+  Stats: HP 85  Atk 81  Def 127  SpA 161  SpD 105  Spe 111  (total 670)
+  Stone: Sandy Shockite, crafted like this:
+      [ili]
+      [kek]
+      [.d.]
+      i = Iron Ingot, l = Lodestone, k = Redstone, e = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA ROARING MOON  (Dragon / Dark, Intimidate)
+  Stats: HP 105  Atk 179  Def 91  SpA 55  SpD 121  Spe 139  (total 690)
+  Stone: Roaring Moonite, crafted like this:
+      [opo]
+      [kek]
+      [.d.]
+      o = Crying Obsidian, p = Phantom Membrane, k = Red Dye, e = Mega Stone (Mega Showdown's), d =
+      Diamond
+
+MEGA KORAIDON  (Fighting / Dragon, Drought)
+  Stats: HP 100  Atk 175  Def 135  SpA 85  SpD 120  Spe 155  (total 770)
+  Stone: Koraidonite, crafted like this:
+      [sbs]
+      [kek]
+      [.d.]
+      s = Sunflower, b = Blaze Rod, k = Red Dye, e = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA WALKING WAKE  (Water / Dragon, Drizzle)
+  Stats: HP 99  Atk 83  Def 111  SpA 165  SpD 103  Spe 129  (total 690)
+  Stone: Walking Wakite, crafted like this:
+      [pnp]
+      [kek]
+      [.d.]
+      p = Prismarine Shard, n = Nautilus Shell, k = Purple Dye, e = Mega Stone (Mega Showdown's), d
+      = Diamond
+
+MEGA RAGING BOLT  (Electric / Dragon, Electric Surge)
+  Stats: HP 125  Atk 73  Def 111  SpA 177  SpD 109  Spe 95  (total 690)
+  Stone: Raging Boltite, crafted like this:
+      [lyl]
+      [kek]
+      [.d.]
+      l = Lightning Rod, y = Yellow Dye, k = Cyan Dye, e = Mega Stone (Mega Showdown's), d = Diamond
 
 ====================================================================================================
 WORKS WITH

@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:walkingwake",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "water",
+   "secondaryType": "dragon",
+   "abilities": [
+    "drizzle",
+    "drizzle",
+    "h:drizzle"
+   ],
+   "pokedex": [
+    "cobblemon.species.walkingwake-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 99,
+    "attack": 83,
+    "defence": 111,
+    "special_attack": 165,
+    "special_defence": 103,
+    "speed": 129
+   },
+   "baseScale": 1.15,
+   "hitbox": {
+    "width": 2.4,
+    "height": 3.4,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

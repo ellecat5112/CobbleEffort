@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:roaringmoon",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "dragon",
+   "secondaryType": "dark",
+   "abilities": [
+    "intimidate",
+    "intimidate",
+    "h:intimidate"
+   ],
+   "pokedex": [
+    "cobblemon.species.roaringmoon-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 105,
+    "attack": 179,
+    "defence": 91,
+    "special_attack": 55,
+    "special_defence": 121,
+    "speed": 139
+   },
+   "baseScale": 1.45,
+   "hitbox": {
+    "width": 2.8,
+    "height": 3.5,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

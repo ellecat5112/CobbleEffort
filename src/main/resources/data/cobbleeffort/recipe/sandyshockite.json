@@ -1,0 +1,41 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "ili",
+  "kek",
+  " d "
+ ],
+ "key": {
+  "i": {
+   "item": "minecraft:iron_ingot"
+  },
+  "l": {
+   "item": "minecraft:lodestone"
+  },
+  "k": {
+   "item": "minecraft:redstone"
+  },
+  "e": {
+   "item": "mega_showdown:mega_stone"
+  },
+  "d": {
+   "item": "minecraft:diamond"
+  }
+ },
+ "result": {
+  "id": "minecraft:amethyst_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.sandyshockite\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.sandyshockite.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794706,
+   "minecraft:rarity": "epic",
+   "minecraft:max_stack_size": 1,
+   "mega_showdown:registry_type_component": "mega",
+   "mega_showdown:registry_location_component": "cobbleeffort:sandyshockite"
+  }
+ }
+}

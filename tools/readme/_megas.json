@@ -7,6 +7,7 @@
    "fighting"
   ],
   "ability": "toughclaws",
+  "ability_name": "Tough Claws",
   "stats": [
    115,
    171,
@@ -38,6 +39,7 @@
    "psychic"
   ],
   "ability": "magicbounce",
+  "ability_name": "Magic Bounce",
   "stats": [
    115,
    65,
@@ -69,6 +71,7 @@
    "dark"
   ],
   "ability": "strongjaw",
+  "ability_name": "Strong Jaw",
   "stats": [
    111,
    167,
@@ -100,6 +103,7 @@
    "fairy"
   ],
   "ability": "levitate",
+  "ability_name": "Levitate",
   "stats": [
    55,
    55,
@@ -131,6 +135,7 @@
    "fighting"
   ],
   "ability": "moxie",
+  "ability_name": "Moxie",
   "stats": [
    85,
    175,
@@ -149,6 +154,166 @@
     "s": "minecraft:string",
     "b": "minecraft:blaze_powder",
     "k": "minecraft:orange_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "sandyshocks": {
+  "display": "Sandy Shocks",
+  "stone_name": "Sandy Shockite",
+  "types": [
+   "electric",
+   "ground"
+  ],
+  "ability": "magnetpull",
+  "ability_name": "Magnet Pull",
+  "stats": [
+   85,
+   81,
+   127,
+   161,
+   105,
+   111
+  ],
+  "recipe": {
+   "pattern": [
+    "ili",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "i": "minecraft:iron_ingot",
+    "l": "minecraft:lodestone",
+    "k": "minecraft:redstone",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "roaringmoon": {
+  "display": "Roaring Moon",
+  "stone_name": "Roaring Moonite",
+  "types": [
+   "dragon",
+   "dark"
+  ],
+  "ability": "intimidate",
+  "ability_name": "Intimidate",
+  "stats": [
+   105,
+   179,
+   91,
+   55,
+   121,
+   139
+  ],
+  "recipe": {
+   "pattern": [
+    "opo",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "o": "minecraft:crying_obsidian",
+    "p": "minecraft:phantom_membrane",
+    "k": "minecraft:red_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "koraidon": {
+  "display": "Koraidon",
+  "stone_name": "Koraidonite",
+  "types": [
+   "fighting",
+   "dragon"
+  ],
+  "ability": "drought",
+  "ability_name": "Drought",
+  "stats": [
+   100,
+   175,
+   135,
+   85,
+   120,
+   155
+  ],
+  "recipe": {
+   "pattern": [
+    "sbs",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "s": "minecraft:sunflower",
+    "b": "minecraft:blaze_rod",
+    "k": "minecraft:red_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "walkingwake": {
+  "display": "Walking Wake",
+  "stone_name": "Walking Wakite",
+  "types": [
+   "water",
+   "dragon"
+  ],
+  "ability": "drizzle",
+  "ability_name": "Drizzle",
+  "stats": [
+   99,
+   83,
+   111,
+   165,
+   103,
+   129
+  ],
+  "recipe": {
+   "pattern": [
+    "pnp",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "p": "minecraft:prismarine_shard",
+    "n": "minecraft:nautilus_shell",
+    "k": "minecraft:purple_dye",
+    "e": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  }
+ },
+ "ragingbolt": {
+  "display": "Raging Bolt",
+  "stone_name": "Raging Boltite",
+  "types": [
+   "electric",
+   "dragon"
+  ],
+  "ability": "electricsurge",
+  "ability_name": "Electric Surge",
+  "stats": [
+   125,
+   73,
+   111,
+   177,
+   109,
+   95
+  ],
+  "recipe": {
+   "pattern": [
+    "lyl",
+    "kek",
+    " d "
+   ],
+   "key": {
+    "l": "minecraft:lightning_rod",
+    "y": "minecraft:yellow_dye",
+    "k": "minecraft:cyan_dye",
     "e": "mega_showdown:mega_stone",
     "d": "minecraft:diamond"
    }

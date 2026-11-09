@@ -405,10 +405,10 @@ tag `#cobbleeffort:trans_pride_cosmetics`.
 
 ## Custom Mega Evolutions (with Mega Showdown)
 
-Five Ancient Paradox Pokémon get their own Mega Evolutions through **Mega Showdown**, from ellecat5112's models
+Ten Ancient Pokémon (nine Paradox Pokémon and Koraidon) get their own Mega Evolutions through **Mega Showdown**, from ellecat5112's models
 (made with Tripo AI, untextured, so they're painted here), each with a glow layer and animations for idle, walking
 (or floating), battle stance, sleep, cry, physical/special/status moves and fainting. The base forms come from
-Cobblemon: AllTheMons x Mega Showdown.
+Cobblemon (Walking Wake), Mega Showdown (Koraidon) and Cobblemon: AllTheMons x Mega Showdown (the rest).
 
 | Mega | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |
 |------|-------|---------|----------------------------------|-------|------|
@@ -417,6 +417,11 @@ Cobblemon: AllTheMons x Mega Showdown.
 | Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | a dark cap with glowing orange spots and cyan veins, a cyan-veined stem with glowing yellow mushrooms, a mossy reptile |
 | Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | a purple hat and dress, a teal feathered mane with lilac tips, orange horns, orange and magenta bead strands, a magenta collar, red claws |
 | Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | wings from dark red to orange to gold with teal edges and glowing green spots, white fluff, a yellow chest, a red crest with gold horns |
+| Mega Sandy Shocks | Electric / Ground | Magnet Pull | 85 / 81 / 127 / 161 / 105 / 111 | Sandy Shockite | a light blue-grey armoured dome on four magnet arches with red and blue ends, iron-spiked balls on top, arms and feet, a dark purple-trimmed face with one glowing yellow eye, yellow shoulder discs, gears |
+| Mega Roaring Moon | Dragon / Dark | Intimidate | 105 / 179 / 91 / 55 / 121 / 139 | Roaring Moonite | a ring of red wing membrane with glowing pink spots and light-blue spikes, a light blue body with red chevrons, a black and yellow chest, a white horn, a red-and-white tail, yellow eyes |
+| Mega Koraidon | Fighting / Dragon | Drought | 100 / 175 / 135 / 85 / 120 / 155 | Koraidonite | red with tan armour plates, spikes and antennae, navy-to-blue feathered wings with magenta tips and tan stripes, a navy tail with a tan underside |
+| Mega Walking Wake | Water / Dragon | Drizzle | 99 / 83 / 111 / 165 / 103 / 129 | Walking Wakite | a purple mane streaked with red, orange and yellow flames, a teal head and legs, a yellow crest, a white muzzle and claws |
+| Mega Raging Bolt | Electric / Dragon | Electric Surge | 125 / 73 / 111 / 177 / 109 / 95 | Raging Boltite | a swirling purple storm-cloud mane with lilac streamers, a teal face, a yellow body with dark chevrons and a pale belly, a teal segmented tail ending in a spiked ball with glowing yellow tips |
 
 Each mega adds 100 base stats. The colours follow ellecat5112's reference pictures; shinies are a hue shift of them.
 

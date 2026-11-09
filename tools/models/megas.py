@@ -57,7 +57,7 @@ MEGAS = {
     "greattusk": {
         "display": "Great Tusk", "dex": 984, "folder": "0984_greattusk", "stone": "greattuskite", "stone_name": "Great Tuskite",
         "height": 40, "front": "-x", "scale": 1.8, "hitbox": [3.5, 4.5], "kind": "quadruped",
-        "types": ["ground", "fighting"], "ability": "toughclaws",
+        "types": ["ground", "fighting"], "ability": "toughclaws", "ability_name": "Tough Claws",
         "stats": [115, 171, 161, 53, 73, 97],
         "dex_text": "Its tusks have grown into great curling blades and its stone-hard hide bristles with crimson crystals. "
                     "Ancient records describe it charging through mountains.",
@@ -69,7 +69,7 @@ MEGAS = {
     "screamtail": {
         "display": "Scream Tail", "dex": 985, "folder": "0985_screamtail", "stone": "screamtailite", "stone_name": "Scream Tailite",
         "height": 32, "front": "+z", "scale": 0.88, "hitbox": [1.8, 1.8], "kind": "biped",
-        "types": ["fairy", "psychic"], "ability": "magicbounce",
+        "types": ["fairy", "psychic"], "ability": "magicbounce", "ability_name": "Magic Bounce",
         "stats": [115, 65, 129, 95, 145, 121],
         "dex_text": "Its fur has grown into a great curling mane and its tail into a soft, swirling sphere. Its scream "
                     "is said to have shaken whole valleys.",
@@ -81,7 +81,7 @@ MEGAS = {
     "brutebonnet": {
         "display": "Brute Bonnet", "dex": 986, "folder": "0986_brutebonnet", "stone": "brutebonnetite", "stone_name": "Brute Bonnetite",
         "height": 40, "front": "+z", "scale": 0.8, "hitbox": [1.3, 2.0], "kind": "quadruped",
-        "types": ["grass", "dark"], "ability": "strongjaw",
+        "types": ["grass", "dark"], "ability": "strongjaw", "ability_name": "Strong Jaw",
         "stats": [111, 167, 129, 79, 129, 55],
         "dex_text": "A towering cap, veined with glowing light, grows from the back of a great reptile. Spores drift from it "
                     "like smoke, and its jaws can crush stone.",
@@ -93,7 +93,7 @@ MEGAS = {
     "fluttermane": {
         "display": "Flutter Mane", "dex": 987, "folder": "0987_fluttermane", "stone": "fluttermanite", "stone_name": "Flutter Manite",
         "height": 36, "front": "+z", "scale": 0.78, "hitbox": [0.9, 1.8], "kind": "floater",
-        "types": ["ghost", "fairy"], "ability": "levitate",
+        "types": ["ghost", "fairy"], "ability": "levitate", "ability_name": "Levitate",
         "stats": [55, 55, 65, 175, 165, 155],
         "dex_text": "Its feathered mane streams like a banner and strings of beads hang from its brim. It drifts silently, "
                     "singing a song no one can recall afterwards.",
@@ -105,7 +105,7 @@ MEGAS = {
     "slitherwing": {
         "display": "Slither Wing", "dex": 988, "folder": "0988_slitherwing", "stone": "slitherwingite", "stone_name": "Slither Wingite",
         "height": 44, "front": "+z", "scale": 1.27, "hitbox": [2.2, 3.5], "kind": "moth",
-        "types": ["bug", "fighting"], "ability": "moxie",
+        "types": ["bug", "fighting"], "ability": "moxie", "ability_name": "Moxie",
         "stats": [85, 175, 99, 85, 125, 101],
         "dex_text": "Its wings have grown into great blazing sails that scatter embers when it strikes. It was said to "
                     "bring the dawn.",
@@ -114,6 +114,72 @@ MEGAS = {
         "stone_colours": [(242, 230, 205), (240, 120, 40)],
         "bones": {"leg_h": 3, "foot_y": 0, "wing": {"x_from_centre": 6, "y_min": 12}, "head": {"z_max": 8, "y_min": 8, "y_max": 26},
                   "tail": {"z_min": 25}},
+    },
+    "sandyshocks": {
+        "display": "Sandy Shocks", "dex": 989, "folder": "0989_sandyshocks", "stone": "sandyshockite", "stone_name": "Sandy Shockite",
+        "height": 44, "front": "+z", "scale": 1.1, "hitbox": [2.0, 3.2], "kind": "quadruped",
+        "types": ["electric", "ground"], "ability": "magnetpull", "ability_name": "Magnet Pull",
+        "stats": [85, 81, 127, 161, 105, 111],
+        "dex_text": "Its magnets have grown into great arching legs and arms tipped with iron spikes. It is said to drag "
+                    "whole sandstorms behind it.",
+        "recipe": {"pattern": ["ili", "kek", " d "], "key": {"i": "minecraft:iron_ingot", "l": "minecraft:lodestone",
+                    "k": "minecraft:redstone", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
+        "stone_colours": [(150, 182, 208), (212, 58, 58)],
+        "bones": {"head": {"y_min": 36, "dx_abs_max": 8}, "leg_amp": 9, "rigid_legs": True, "extra": [
+            {"name": "arm_left", "dx_min": 9, "y_min": 26}, {"name": "arm_right", "dx_max": -9, "y_min": 26},
+            # four magnet arches: one leg bone each, split into quarters under the dome
+            {"name": "leg_front_left", "leg": True, "dx_min": 0, "y_max": 19, "z_max": 20},
+            {"name": "leg_front_right", "leg": True, "dx_max": -1, "y_max": 19, "z_max": 20},
+            {"name": "leg_back_left", "leg": True, "dx_min": 0, "y_max": 19, "z_min": 21},
+            {"name": "leg_back_right", "leg": True, "dx_max": -1, "y_max": 19, "z_min": 21}]},
+    },
+    "roaringmoon": {
+        "display": "Roaring Moon", "dex": 1005, "folder": "1005_roaringmoon", "stone": "roaringmoonite", "stone_name": "Roaring Moonite",
+        "height": 48, "front": "+z", "scale": 1.45, "hitbox": [2.8, 3.5], "kind": "floater",
+        "types": ["dragon", "dark"], "ability": "intimidate", "ability_name": "Intimidate",
+        "stats": [105, 179, 91, 55, 121, 139],
+        "dex_text": "Its wings have joined into a great ring like a blood-red moon. Ancient tales say it rose on nights "
+                    "when the moon turned red.",
+        "recipe": {"pattern": ["opo", "kek", " d "], "key": {"o": "minecraft:crying_obsidian", "p": "minecraft:phantom_membrane",
+                    "k": "minecraft:red_dye", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
+        "stone_colours": [(127, 200, 224), (216, 50, 58)],
+        "bones": {"wing": {"x_from_centre": 9, "y_min": 14}, "head": {"z_max": 10, "y_min": 22}, "tail": {"z_min": 0, "y_max": 9}},
+    },
+    "koraidon": {
+        "display": "Koraidon", "dex": 1007, "folder": "1007_koraidon", "stone": "koraidonite", "stone_name": "Koraidonite",
+        "height": 44, "front": "+z", "scale": 1.35, "hitbox": [2.4, 3.6], "kind": "biped",
+        "types": ["fighting", "dragon"], "ability": "drought", "ability_name": "Drought",
+        "stats": [100, 175, 135, 85, 120, 155],
+        "dex_text": "Its wings have unfurled into great feathered sails. The sun is said to blaze hotter wherever it "
+                    "spreads them.",
+        "recipe": {"pattern": ["sbs", "kek", " d "], "key": {"s": "minecraft:sunflower", "b": "minecraft:blaze_rod",
+                    "k": "minecraft:red_dye", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
+        "stone_colours": [(216, 52, 42), (216, 184, 128)],
+        "bones": {"leg_h": 9, "foot_y": 2, "wing": {"x_from_centre": 8, "y_min": 24}, "head": {"z_max": 12, "y_min": 28},
+                  "tail": {"z_min": 33}},
+    },
+    "walkingwake": {
+        "display": "Walking Wake", "dex": 1009, "folder": "1009_walkingwake", "stone": "walkingwakite", "stone_name": "Walking Wakite",
+        "height": 56, "front": "+z", "strip_base": 2, "scale": 1.15, "hitbox": [2.4, 3.4], "kind": "quadruped",
+        "types": ["water", "dragon"], "ability": "drizzle", "ability_name": "Drizzle",
+        "stats": [99, 83, 111, 165, 103, 129],
+        "dex_text": "Its mane streams like burning water. Old stories say rain followed wherever it walked.",
+        "recipe": {"pattern": ["pnp", "kek", " d "], "key": {"p": "minecraft:prismarine_shard", "n": "minecraft:nautilus_shell",
+                    "k": "minecraft:purple_dye", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
+        "stone_colours": [(138, 79, 192), (47, 176, 168)],
+        "bones": {"leg_h": 12, "foot_y": 2, "head": {"z_max": 10, "y_min": 28}, "tail": {"z_min": 31, "y_min": 9}},
+    },
+    "ragingbolt": {
+        "display": "Raging Bolt", "dex": 1021, "folder": "1021_ragingbolt", "stone": "ragingboltite", "stone_name": "Raging Boltite",
+        "height": 48, "front": "+z", "scale": 1.45, "hitbox": [2.6, 4.0], "kind": "floater",
+        "types": ["electric", "dragon"], "ability": "electricsurge", "ability_name": "Electric Surge",
+        "stats": [125, 73, 111, 177, 109, 95],
+        "dex_text": "Its storm-cloud mane crackles constantly and its tail ends in a spiked thunderhead. Lightning is said "
+                    "to answer its roar.",
+        "recipe": {"pattern": ["lyl", "kek", " d "], "key": {"l": "minecraft:lightning_rod", "y": "minecraft:yellow_dye",
+                    "k": "minecraft:cyan_dye", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
+        "stone_colours": [(122, 79, 176), (224, 176, 48)],
+        "bones": {"head": {"y_min": 30}, "tail": {"z_min": 0, "y_max": 16}},
     },
 }
 
@@ -150,15 +216,19 @@ def segment(sp, solid, lo):
         add("cap", j >= cfg["cap"]["y_min"])
     if "head" in cfg:
         h = cfg["head"]
-        add("head", (k <= h.get("z_max", Z)) & (j >= h.get("y_min", 0)) & (j <= h.get("y_max", Y)))
+        add("head", (k <= h.get("z_max", Z)) & (j >= h.get("y_min", 0)) & (j <= h.get("y_max", Y))
+            & (np.abs(i - cx) <= h.get("dx_abs_max", 999)))
     if "mane" in cfg:
         add("mane", (j >= cfg["mane"]["y_min"]) & ((k >= 20) | (i <= cx - 5)))
     if "skirt" in cfg:
         add("skirt", j <= cfg["skirt"]["y_max"])
     if "tail" in cfg:
         t = cfg["tail"]
-        add("tail", (k >= t["z_min"]) & (j <= t.get("y_max", Y)))
-    legs = []
+        add("tail", (k >= t["z_min"]) & (j <= t.get("y_max", Y)) & (j >= t.get("y_min", 0)))
+    for e in cfg.get("extra", []):                         # other parts, by region (dx = x from the centre line)
+        add(e["name"], (i - cx >= e.get("dx_min", -999)) & (i - cx <= e.get("dx_max", 999))
+            & (j >= e.get("y_min", 0)) & (j <= e.get("y_max", Y)) & (k >= e.get("z_min", 0)) & (k <= e.get("z_max", Z)))
+    legs = [e["name"] for e in cfg.get("extra", []) if e.get("leg") and e["name"] in names]
     if "leg_h" in cfg:
         # feet: separate clusters touching the ground; each leg grows up from its foot to leg_h
         # a foot: a cluster of (x, z) columns whose lowest voxel is near the ground (models don't stand perfectly level)
@@ -417,6 +487,174 @@ def paint(sp, solid, bone, names, lo, shiny):
         put(crest & thin & (j >= 22), gold)                                    # gold horns
         put(head & on_front & (j >= 12) & (j < 18) & (np.abs(i - cx) <= 4), navy)   # a small dark face in white fluff
         eyes((140, 255, 110), (170, 255, 130), dx=2)
+    elif sp == "sandyshocks":
+        dome, dome_d, panel = (155, 184, 208), (128, 158, 186), (104, 130, 160)
+        white, white_d = (216, 220, 226), (184, 190, 200)
+        iron, iron_l = (34, 34, 40), (78, 80, 92)
+        red, blue, yellow, purple, face = (212, 58, 58), (58, 122, 212), (242, 210, 42), (107, 90, 160), (40, 40, 46)
+        dx = i - cx
+        body = B["body"]
+        put(solid, dome)
+        put(solid & (hv(i, j, k, 1) < 0.3), dome_d)
+        put(solid & ~thin & (j % 4 == 0), panel)                                 # armour panel seams
+        put(solid & ~thin & ((np.abs(dx) + k) % 7 == 0) & (j % 4 != 0), panel)
+        arms = B.get("arm_left", none) | B.get("arm_right", none)
+        reach = np.abs(dx)
+        put(arms, white)
+        put(arms & (hv(i, j, k, 2) < 0.25), white_d)
+        put(arms & (reach >= 9) & (reach <= 11) & ~thin, yellow)                  # shoulder discs
+        tip = arms & (reach >= reach[arms].max() - 6) if arms.any() else none
+        put(tip, iron)                                                           # spiked iron balls
+        put(tip & thin & top_open, iron_l)
+        band = arms & ~tip & (reach >= reach[arms].max() - 8) if arms.any() else none
+        put(band & (dx > 0), red)
+        put(band & (dx < 0), blue)
+        put(head, iron)                                                          # spiked ball on top
+        put(head & thin & top_open, iron_l)
+        for nm in ("leg_front_left", "leg_front_right"):                         # front magnets: white arches
+            m = B.get(nm, none)
+            put(m, white)
+            put(m & (hv(i, j, k, 3) < 0.25), white_d)
+            put(m & (j >= 4) & (j <= 6), red if nm.endswith("left") else blue)
+        put(legs & (j <= 3), iron)                                               # spiked feet
+        put(legs & (j <= 3) & thin & top_open, iron_l)
+        gear = B.get("leg_back_left", none) | B.get("leg_back_right", none)
+        put(gear & (j >= 8) & (j <= 14) & ~thin & ((np.arctan2(j - 11, k - 28) * 3).astype(int) % 2 == 0), iron_l)  # gears
+        fc = body & on_front & (j >= 25) & (j <= 34) & (np.abs(dx) <= 8)
+        put(fc, purple)                                                          # purple trim round the face
+        put(fc & (j >= 26) & (j <= 33) & (np.abs(dx) <= 6), face)
+        eye = fc & (j >= 29) & (j <= 30) & (np.abs(dx) <= 1)
+        put(eye, yellow)
+        shine(eye, (255, 226, 70))
+        put(fc & (j >= 26) & (j <= 27) & (np.abs(dx) <= 1), (200, 205, 212))     # the drill nose's tip
+    elif sp == "roaringmoon":
+        blue, blue_d, blue_l = (127, 200, 224), (92, 160, 196), (176, 226, 240)
+        red, red_d, pink = (216, 50, 58), (160, 30, 44), (255, 104, 132)
+        black, yellow, white = (30, 30, 38), (242, 200, 58), (236, 236, 240)
+        dx = i - cx
+        put(solid, blue)
+        put(solid & (hv(i, j, k, 1) < 0.3), blue_d)
+        put(solid & top_open & ~thin, blue_l)
+        put(B["body"] & ~thin & ((j + np.abs(dx)) % 6 == 0), red)                # red chevrons
+        chest = B["body"] & on_front & (np.abs(dx) <= 4) & (j >= 14) & (j <= 22)
+        put(chest, black)
+        put(chest & ((j + np.abs(dx)) % 4 == 0), yellow)
+        # the ring of wings: red membrane, light-blue spikes round its outer edge and a blue inner frame
+        wings = B.get("wing_left", none) | B.get("wing_right", none)
+        ring = (wings | (B["body"] & (j >= 30))) & solid
+        if ring.any():
+            rj = np.argwhere(ring)[:, 1]
+            rc = np.array([cx, (rj.min() + rj.max()) / 2])                   # the box's centre: one wing is thicker
+            r = np.hypot(i - rc[0], j - rc[1])
+            rr = r[ring]
+            r_out, r_in = np.percentile(rr, 80), np.percentile(rr, 8)
+            mem = ring & (r <= r_out) & (r >= r_in + 1.5)
+            put(mem, red)
+            put(mem & (hv(i, j, k, 2) < 0.3), red_d)
+            put(ring & (r > r_out), blue)
+            put(ring & (r > r_out) & top_open, blue_l)
+            put(ring & (r < r_in + 1.5), blue_d)
+            spots = mem & (hv(i // 2, j // 2, k // 2, 3) < 0.16)
+            put(spots, pink)
+            shine(spots, pink)
+        put(head & thin & (j >= np.argwhere(head)[:, 1].max() - 4) if head.any() else none, white)  # horn
+        put(head & on_front & (j <= np.argwhere(head)[:, 1].min() + 2) if head.any() else none, red)  # jaw
+        tail = B.get("tail", none)
+        put(tail, red)
+        put(tail & ((i + j + k) % 5 == 0), white)
+        put(legs | (B["body"] & thin & (j <= 12)), pink)                          # claws
+        eyes(yellow, (255, 226, 80), dx=2)
+    elif sp == "koraidon":
+        red, red_d, red_l = (216, 52, 42), (172, 36, 30), (236, 92, 70)
+        tan, tan_d = (216, 184, 128), (184, 150, 98)
+        navy, wblue, magenta = (32, 48, 74), (48, 80, 160), (208, 80, 128)
+        dx = i - cx
+        put(solid, red)
+        put(solid & (hv(i, j, k, 1) < 0.3), red_d)
+        put(solid & top_open & ~thin, red_l)
+        put(solid & thin & ~B.get("wing_left", none) & ~B.get("wing_right", none), tan)   # spikes and plates
+        belly = B["body"] & on_front & (np.abs(dx) <= 5) & (j >= 10)
+        put(belly, tan)
+        put(belly & (j % 3 == 0), tan_d)
+        for w in ("wing_left", "wing_right"):
+            m = B.get(w, none)
+            if not m.any():
+                continue
+            reach = np.abs(dx)
+            t = (reach - reach[m].min()) / max(1, np.ptp(reach[m]))
+            put(m, navy)
+            put(m & (t > 0.35), wblue)
+            put(m & (t > 0.75), magenta)                                         # feather tips
+            put(m & (t > 0.35) & ((j + k) % 5 == 0), tan)                        # feather stripes
+        put(head & thin & (j >= np.argwhere(head)[:, 1].max() - 8) if head.any() else none, tan)  # antennae
+        tail = B.get("tail", none)
+        put(tail, navy)
+        put(tail & bot_open, tan)
+        put(legs & (j <= 1), tan)                                                # claws
+        eyes((90, 210, 255), (120, 225, 255), dx=2)
+    elif sp == "walkingwake":
+        purple, purple_d, purple_l = (138, 79, 192), (104, 56, 156), (170, 116, 220)
+        f_red, f_or, f_ye = (232, 64, 42), (240, 138, 42), (242, 208, 58)
+        teal, teal_d, white = (47, 176, 168), (30, 130, 126), (240, 240, 236)
+        dx = i - cx
+        put(solid, purple)
+        put(solid & (hv(i, j, k, 1) < 0.3), purple_d)
+        put(solid & top_open & ~thin, purple_l)
+        # flame streaks through the mane: red at the root, orange, yellow at the tips
+        streak = solid & ~head & (j >= 18) & (hv(i // 2, 0, k // 2, 2) < 0.22)
+        lvl = (j - 18) / max(1, Y - 18) + (hv(i, j, k, 3) - 0.5) * 0.2
+        put(streak & (lvl < 0.35), f_red)
+        put(streak & (lvl >= 0.35) & (lvl < 0.65), f_or)
+        put(streak & (lvl >= 0.65), f_ye)
+        put(solid & thin & ~head & (j >= Y * 0.7) & top_open & (hv(i, j, k, 7) < 0.5), f_ye)
+        put(legs | (solid & (j <= 6)), teal)
+        put((legs | (solid & (j <= 6))) & (hv(i, j, k, 4) < 0.3), teal_d)
+        put(legs & (j <= 1), white)                                              # claws
+        put(head, teal)
+        put(head & (hv(i, j, k, 5) < 0.25), teal_d)
+        if head.any():
+            hy = np.argwhere(head)[:, 1]
+            put(head & thin & (j >= hy.max() - 5), f_ye)                         # crest
+            put(head & on_front & (j <= hy.min() + 2) & (np.abs(dx - np.argwhere(head)[:, 0].mean() + cx) <= 3), white)  # muzzle
+        tail = B.get("tail", none)
+        put(tail, teal)
+        put(tail & thin, f_or)
+        eyes(f_ye, (255, 226, 80), dx=2)
+    elif sp == "ragingbolt":
+        cloud, cloud_d, lilac = (122, 79, 176), (90, 56, 140), (200, 176, 224)
+        teal, teal_d, teal_l = (47, 179, 154), (32, 132, 118), (120, 220, 200)
+        yellow, yellow_d, pale, chev = (224, 176, 48), (192, 146, 36), (242, 222, 164), (112, 76, 30)
+        bolt = (255, 232, 90)
+        dx = i - cx
+        put(solid, yellow)
+        put(solid & (hv(i, j, k, 1) < 0.3), yellow_d)
+        put(B["body"] & bot_open, pale)                                          # pale belly
+        put(B["body"] & ~thin & ((j + np.abs(dx) // 2) % 5 == 0), chev)          # dark chevrons
+        put(head, cloud)
+        if head.any():
+            hc = np.argwhere(head).mean(0)
+            r = np.hypot(np.hypot(i - hc[0], j - hc[1]), k - hc[2])
+            put(head & ((r * 0.7 + np.arctan2(j - hc[1], i - hc[0]) * 1.2).astype(int) % 3 == 0), cloud_d)  # swirls
+            put(head & thin, lilac)                                              # streamers
+            hy = np.argwhere(head)[:, 1]
+            face = head & on_front & (np.abs(dx) <= 4) & (j <= hy.min() + (hy.max() - hy.min()) * 0.4)
+            put(face, teal)
+            put(face & top_open, teal_l)
+        tail = B.get("tail", none)
+        put(tail, teal)
+        put(tail & ((i + k) % 4 == 0), teal_d)                                   # segments
+        if tail.any():                                                           # the spiked ball: the far end
+            bc = np.argwhere(B["body"]).mean(0) if B["body"].any() else np.array([cx, Y / 2, Z / 2])
+            far = np.sqrt((i - bc[0]) ** 2 + (j - bc[1]) ** 2 + (k - bc[2]) ** 2)
+            ball = tail & (far >= np.percentile(far[tail], 85))
+        else:
+            ball = none
+        put(ball, teal_l)
+        tips = ball & thin & (hv(i, j, k, 6) < 0.35)
+        shine(tips, bolt)
+        put(tips, bolt)
+        put(legs | (B["body"] & thin & (j <= 20)), teal)
+        eyes((255, 232, 90), bolt, dx=2)
     # light from above, a little per-voxel variation (glowing voxels stay clean)
     shade = 1 + (np.vectorize(h3)(i, j, k, 11) - 0.5) * 0.03       # only a hint: the faces get baked shading
     lit = (glow.sum(-1) == 0)
@@ -426,7 +664,8 @@ def paint(sp, solid, bone, names, lo, shiny):
     return np.clip(col, 0, 255).astype(np.uint8), np.clip(glow, 0, 255).astype(np.uint8)
 
 
-SHINY_HUE = {"greattusk": 0.42, "screamtail": -0.12, "brutebonnet": 0.5, "fluttermane": -0.1, "slitherwing": 0.5}
+SHINY_HUE = {"greattusk": 0.42, "screamtail": -0.12, "brutebonnet": 0.5, "fluttermane": -0.1, "slitherwing": 0.5,
+             "sandyshocks": 0.08, "roaringmoon": -0.3, "koraidon": 0.55, "walkingwake": -0.12, "ragingbolt": -0.25}
 
 
 def hue_shift(rgb, amount):
@@ -471,6 +710,12 @@ def animations(sp, names, legs, piv):
     if "wing_left" in has:
         idle["wing_left"] = {"rotation": track(3, lambda t: [0, 6 * sin(t), 4 * sin(t)])}
         idle["wing_right"] = {"rotation": track(3, lambda t: [0, -6 * sin(t), -4 * sin(t)])}
+    bcfg = MEGAS[sp]["bones"]
+    known = {"body", "head", "tail", "cap", "mane", "skirt", "wing_left", "wing_right"}
+    extras = [n for n in names if n not in known and not n.startswith("leg")]
+    for n, nm in enumerate(extras):
+        sgn = 1 if nm.endswith("left") else -1
+        idle[nm] = {"rotation": track(3, lambda t, sg=sgn, ph=n * 0.2: [2 * sin(t, 1, ph), 0, 3 * sg * sin(t, 1, ph)])}
     A["ground_idle"] = {"loop": True, "animation_length": 3.0, "bones": idle}
 
     walk = {"body": {"position": track(1, lambda t: [0, -0.4 * abs(sin(t)), 0]), "rotation": track(1, lambda t: [0, 0, 1.5 * sin(t)])}}
@@ -489,7 +734,9 @@ def animations(sp, names, legs, piv):
     if "wing_left" in has:
         walk["wing_left"] = {"rotation": track(1, lambda t: [0, 10 * sin(t, 2), 14 * sin(t, 2)])}
         walk["wing_right"] = {"rotation": track(1, lambda t: [0, -10 * sin(t, 2), -14 * sin(t, 2)])}
-    walk.update(legs_walk(1, 22))
+    for n, nm in enumerate(extras):
+        walk[nm] = {"rotation": track(1, lambda t, ph=n * 0.5: [10 * sin(t, 1, ph), 0, 0])}
+    walk.update(legs_walk(1, bcfg.get("leg_amp", 22)))
     A["ground_walk"] = {"loop": True, "animation_length": 1.5 if kind == "floater" else 1.0, "bones": walk}
 
     battle = {"body": {"position": track(2, lambda t: [0, -0.5 - 0.3 * sin(t) if kind != "floater" else 0.8 * sin(t), 0])}}
@@ -506,12 +753,16 @@ def animations(sp, names, legs, piv):
     if "wing_left" in has:
         battle["wing_left"] = {"rotation": track(2, lambda t: [0, 18 + 8 * sin(t, 2), 10])}
         battle["wing_right"] = {"rotation": track(2, lambda t: [0, -18 - 8 * sin(t, 2), -10])}
+    for n, nm in enumerate(extras):
+        sgn = 1 if nm.endswith("left") else -1
+        battle[nm] = {"rotation": track(2, lambda t, sg=sgn: [-12 + 3 * sin(t), 0, sg * (6 + 3 * sin(t, 1, 0.3))])}
     A["battle_idle"] = {"loop": True, "animation_length": 2.0, "bones": battle}
 
     leg_top = max((piv[l][1] for l in legs), default=0)
-    drop = -(leg_top - 1) if legs else (-4 if kind == "floater" else -2)
+    rigid = bcfg.get("rigid_legs", False)                 # legs that don't fold (a magnet's arches): it just settles
+    drop = -1.5 if rigid else -(leg_top - 1) if legs else (-4 if kind == "floater" else -2)
     sleep = {"body": {"position": track(4, lambda t: [0, drop - 0.3 * (1 - math.cos(2 * math.pi * t)) / 2, 0])}}
-    for leg in legs:
+    for leg in ([] if rigid else legs):
         sleep[leg] = {"position": track(4, lambda t: [0, drop, 0]), "rotation": track(4, lambda t, l=leg: [-75 if "front" in l else 60, 0, 0])}
     if "head" in has:
         sleep["head"] = {"rotation": track(4, lambda t: [16 + 1.5 * sin(t), 0, 0])}
@@ -543,6 +794,8 @@ def animations(sp, names, legs, piv):
     if "wing_left" in has:
         phys["wing_left"] = {"rotation": keys([(0, [0, 0, 0]), (0.25, [0, 30, 20]), (0.45, [0, -10, -10]), (0.8, [0, 0, 0])])}
         phys["wing_right"] = {"rotation": keys([(0, [0, 0, 0]), (0.25, [0, -30, -20]), (0.45, [0, 10, 10]), (0.8, [0, 0, 0])])}
+    for nm in extras:
+        phys[nm] = {"rotation": keys([(0, [0, 0, 0]), (0.25, [-40, 0, 0]), (0.45, [30, 0, 0]), (0.8, [0, 0, 0])])}
     A["physical"] = {"animation_length": 0.8, "bones": phys}
 
     spec = {"body": {"position": keys([(0, [0, 0, 0]), (0.3, [0, 0.8, 0]), (0.6, [0, 0.8, 0]), (1.0, [0, 0, 0])])}}
@@ -561,7 +814,7 @@ def animations(sp, names, legs, piv):
     A["status"] = {"animation_length": 1.0, "bones": status}
 
     faint = {"body": {"position": keys([(0, [0, 0, 0]), (2.0, [0, drop, 0])]), "rotation": keys([(0, [0, 0, 0]), (2.0, [8, 0, 10])])}}
-    for leg in legs:
+    for leg in ([] if rigid else legs):
         faint[leg] = {"position": keys([(0, [0, 0, 0]), (2.0, [0, drop, 0])]),
                       "rotation": keys([(0, [0, 0, 0]), (2.0, [-75 if "front" in leg else 60, 0, 0])])}
     if "head" in has:
@@ -793,6 +1046,13 @@ def main():
         cfg = MEGAS[sp]
         P, C, F = vx.load_mesh(path, samples=3_000_000)
         solid, surf, col, lo = vx.voxelize(P, C, F, cfg["height"], front=cfg["front"])
+        for _ in range(int(cfg.get("strip_base", 0))):     # a figurine's display stand (plinth, then its disc)
+            solid = vx.strip_base(solid)
+        solid = vx.keep_largest(solid)
+        nz = np.argwhere(solid)
+        mn, mx = nz.min(0), nz.max(0) + 1
+        solid = solid[mn[0]:mx[0], :mx[1], mn[2]:mx[2]]
+        lo = lo + np.array([mn[0], 0, mn[2]])
         np.savez_compressed(HERE / f"mega_{sp}_voxels.npz", solid=solid, lo=lo)
         print(f"{sp}: voxels {solid.shape}")
     manifest = []
@@ -807,7 +1067,7 @@ def main():
     lang()
     feature_assignment()
     write_json(HERE.parent / "preview" / "manifest_megas.json", manifest)
-    write_json(HERE.parent / "readme" / "_megas.json", {sp: {k: cfg[k] for k in ("display", "stone_name", "types", "ability", "stats")} | {"recipe": cfg["recipe"]} for sp, cfg in MEGAS.items()})
+    write_json(HERE.parent / "readme" / "_megas.json", {sp: {k: cfg[k] for k in ("display", "stone_name", "types", "ability", "ability_name", "stats")} | {"recipe": cfg["recipe"]} for sp, cfg in MEGAS.items()})
 
 
 if __name__ == "__main__":

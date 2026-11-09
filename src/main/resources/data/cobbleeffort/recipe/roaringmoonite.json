@@ -1,0 +1,41 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "opo",
+  "kek",
+  " d "
+ ],
+ "key": {
+  "o": {
+   "item": "minecraft:crying_obsidian"
+  },
+  "p": {
+   "item": "minecraft:phantom_membrane"
+  },
+  "k": {
+   "item": "minecraft:red_dye"
+  },
+  "e": {
+   "item": "mega_showdown:mega_stone"
+  },
+  "d": {
+   "item": "minecraft:diamond"
+  }
+ },
+ "result": {
+  "id": "minecraft:amethyst_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.roaringmoonite\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.roaringmoonite.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794707,
+   "minecraft:rarity": "epic",
+   "minecraft:max_stack_size": 1,
+   "mega_showdown:registry_type_component": "mega",
+   "mega_showdown:registry_location_component": "cobbleeffort:roaringmoonite"
+  }
+ }
+}

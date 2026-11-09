@@ -101,13 +101,13 @@ def main():
     if megas_file.exists():
         megas = json.loads(megas_file.read_text())
         out += ["", rule, "CUSTOM MEGA EVOLUTIONS (needs Mega Showdown)", rule]
-        out.append(wrap("Five Ancient Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: "
+        out.append(wrap(f"{len(megas)} Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: "
                         "hold the mega stone, wear a Mega Bracelet, and press Mega Evolve in battle. The base forms "
-                        "come from Cobblemon: AllTheMons x Mega Showdown."))
+                        "come from Cobblemon, Mega Showdown and Cobblemon: AllTheMons x Mega Showdown."))
         stat_names = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"]
         for sp, m in megas.items():
             out += ["", f"MEGA {m['display'].upper()}  ({' / '.join(t.title() for t in m['types'])}, "
-                        f"{m['ability'].replace('toughclaws', 'Tough Claws').replace('magicbounce', 'Magic Bounce').replace('strongjaw', 'Strong Jaw').replace('levitate', 'Levitate').replace('moxie', 'Moxie')})"]
+                        f"{m.get('ability_name', m['ability'])})"]
             out.append("  Stats: " + "  ".join(f"{n} {v}" for n, v in zip(stat_names, m["stats"])) + f"  (total {sum(m['stats'])})")
             r = m["recipe"]
             legend = ", ".join(f"{c} = {item_name(i)}" + (" (Mega Showdown's)" if i.startswith("mega_showdown:") else "")
