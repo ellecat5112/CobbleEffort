@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:gougingfire",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fire",
+   "secondaryType": "dragon",
+   "abilities": [
+    "drought",
+    "drought",
+    "h:drought"
+   ],
+   "pokedex": [
+    "cobblemon.species.gougingfire-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 105,
+    "attack": 155,
+    "defence": 141,
+    "special_attack": 65,
+    "special_defence": 113,
+    "speed": 111
+   },
+   "baseScale": 1.5,
+   "hitbox": {
+    "width": 3.0,
+    "height": 3.8,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

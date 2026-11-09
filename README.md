@@ -423,8 +423,14 @@ stay odd and Future megas' even, like the Paradox Pokémon's own. Shinies have t
 | Mega Brute Bonnet | Ancient | Grass / Dark | Grassy Surge | 121 / 167 / 129 / 79 / 129 / 45 | Brute Bonnetite | a towering prototaxite: a pale ringed trunk with glowing shelf fungi, stubby root legs and arms gripping mushroom-cap shields, two glaring eyes and a fanged mouth, under a huge brown cap with red and grey spiked panels and long hanging moss |
 | Mega Flutter Mane | Ancient | Ghost / Fairy | Levitate | 75 / 55 / 75 / 175 / 155 / 135 | Flutter Manite | two tiers of feathered mane-wings with glowing pink tips, a crown of red spikes, glaring red-and-yellow eyes, a glowing bead necklace and a long tattered skirt |
 | Mega Slither Wing | Ancient | Bug / Fighting | Moxie | 85 / 175 / 109 / 85 / 115 / 101 | Slither Wingite | six blazing flame wings with glowing yellow tips and glowing green diamonds, a big white fluffy collar, a red horned head with one yellow eye, a teal tail and little dark legs |
+| Mega Sandy Shocks | Ancient | Electric / Ground | Magnet Pull | 85 / 81 / 127 / 161 / 105 / 111 | Sandy Shockite | three grey Magneton spheres with yellow eyes and screws, great magnet arches with red and blue tips crackling with glowing yellow arcs, black iron-sand spikes everywhere and a spiked iron-sand crown |
+| Mega Roaring Moon | Ancient | Dragon / Dark | Intimidate | 105 / 179 / 91 / 55 / 121 / 139 | Roaring Moonite | a lean blue dragon with a swept white crest and yellow chest mark, its crimson wings swept round into a blood-moon crescent edged with light-blue spikes and a glowing rim, black wingtips and red claws |
+| Mega Koraidon | Ancient | Fighting / Dragon | Tough Claws | 100 / 175 / 135 / 85 / 120 / 155 | Koraidonite | a red bipedal dragon whose feather crest flares into a blazing crown with glowing orange tips, a black chest plate glowing like molten orichalcum, white feather fans at its sides, long white antennae and a feathered tail |
+| Mega Walking Wake | Ancient | Water / Dragon | Drizzle | 99 / 83 / 111 / 165 / 103 / 129 | Walking Wakite | a teal four-legged dragon with a purple mane surging up like a breaking wave, glowing red and orange flame streaks, a tall teal crest fin, white muzzle, whiskers and claws, and a long white tail streaming in two ribbons |
+| Mega Gouging Fire | Ancient | Fire / Dragon | Drought | 105 / 155 / 141 / 65 / 113 / 111 | Gouging Firite | a stocky brown beast with glowing magma cracks in its fur, black anklets, a red face mask with white fangs, a billowing grey smoke mane and a huge golden crest of curved spikes with glowing fiery tips |
+| Mega Raging Bolt | Ancient | Electric / Dragon | Electric Surge | 125 / 73 / 111 / 177 / 109 / 95 | Raging Boltite | a long-necked yellow dragon striped black with a white neck and belly, red-and-blue feet, a towering purple thunderhead crackling with glowing lightning on its head, and a big glowing crystal ball on its teal tail |
 
-*17 more on the way.*
+*11 more on the way.*
 <!-- megas:end -->
 
 **Getting a stone:** craft it: a Mega Showdown Mega Stone in the middle, a Diamond below, and themed items around

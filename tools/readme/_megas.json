@@ -159,5 +159,198 @@
    }
   },
   "era": "ancient"
+ },
+ "sandyshocks": {
+  "display": "Sandy Shocks",
+  "stone_name": "Sandy Shockite",
+  "types": [
+   "electric",
+   "ground"
+  ],
+  "ability": "magnetpull",
+  "ability_name": "Magnet Pull",
+  "stats": [
+   85,
+   81,
+   127,
+   161,
+   105,
+   111
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_ingot",
+    "s": "minecraft:lodestone",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:sand"
+   }
+  },
+  "era": "ancient"
+ },
+ "roaringmoon": {
+  "display": "Roaring Moon",
+  "stone_name": "Roaring Moonite",
+  "types": [
+   "dragon",
+   "dark"
+  ],
+  "ability": "intimidate",
+  "ability_name": "Intimidate",
+  "stats": [
+   105,
+   179,
+   91,
+   55,
+   121,
+   139
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:crying_obsidian",
+    "s": "minecraft:phantom_membrane",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "ancient"
+ },
+ "koraidon": {
+  "display": "Koraidon",
+  "stone_name": "Koraidonite",
+  "types": [
+   "fighting",
+   "dragon"
+  ],
+  "ability": "toughclaws",
+  "ability_name": "Tough Claws",
+  "stats": [
+   100,
+   175,
+   135,
+   85,
+   120,
+   155
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:sunflower",
+    "s": "minecraft:blaze_rod",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "ancient"
+ },
+ "walkingwake": {
+  "display": "Walking Wake",
+  "stone_name": "Walking Wakite",
+  "types": [
+   "water",
+   "dragon"
+  ],
+  "ability": "drizzle",
+  "ability_name": "Drizzle",
+  "stats": [
+   99,
+   83,
+   111,
+   165,
+   103,
+   129
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:prismarine_shard",
+    "s": "minecraft:nautilus_shell",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "ancient"
+ },
+ "gougingfire": {
+  "display": "Gouging Fire",
+  "stone_name": "Gouging Firite",
+  "types": [
+   "fire",
+   "dragon"
+  ],
+  "ability": "drought",
+  "ability_name": "Drought",
+  "stats": [
+   105,
+   155,
+   141,
+   65,
+   113,
+   111
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:magma_block",
+    "s": "minecraft:gold_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "ancient"
+ },
+ "ragingbolt": {
+  "display": "Raging Bolt",
+  "stone_name": "Raging Boltite",
+  "types": [
+   "electric",
+   "dragon"
+  ],
+  "ability": "electricsurge",
+  "ability_name": "Electric Surge",
+  "stats": [
+   125,
+   73,
+   111,
+   177,
+   109,
+   95
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:lightning_rod",
+    "s": "minecraft:yellow_dye",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "ancient"
  }
 }

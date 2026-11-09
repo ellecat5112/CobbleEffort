@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ragingbolt",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "electric",
+   "secondaryType": "dragon",
+   "abilities": [
+    "electricsurge",
+    "electricsurge",
+    "h:electricsurge"
+   ],
+   "pokedex": [
+    "cobblemon.species.ragingbolt-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 125,
+    "attack": 73,
+    "defence": 111,
+    "special_attack": 177,
+    "special_defence": 109,
+    "speed": 95
+   },
+   "baseScale": 1.6,
+   "hitbox": {
+    "width": 3.0,
+    "height": 5.0,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

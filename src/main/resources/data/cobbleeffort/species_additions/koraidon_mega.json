@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:koraidon",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fighting",
+   "secondaryType": "dragon",
+   "abilities": [
+    "toughclaws",
+    "toughclaws",
+    "h:toughclaws"
+   ],
+   "pokedex": [
+    "cobblemon.species.koraidon-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 100,
+    "attack": 175,
+    "defence": 135,
+    "special_attack": 85,
+    "special_defence": 120,
+    "speed": 155
+   },
+   "baseScale": 1.3,
+   "hitbox": {
+    "width": 2.6,
+    "height": 3.7,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "showdown_id": "walkingwakite",
+ "pokemons": [
+  "Walking Wake"
+ ],
+ "aspect_conditions": {
+  "apply": {
+   "aspects": [
+    "mega_evolution=mega"
+   ]
+  },
+  "revert": {
+   "aspects": [
+    "mega_evolution=none"
+   ]
+  }
+ }
+}
