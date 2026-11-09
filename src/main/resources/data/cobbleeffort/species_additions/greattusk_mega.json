@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:greattusk",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "ground",
+   "secondaryType": "fighting",
+   "abilities": [
+    "toughclaws",
+    "toughclaws",
+    "h:toughclaws"
+   ],
+   "pokedex": [
+    "cobblemon.species.greattusk-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 115,
+    "attack": 171,
+    "defence": 171,
+    "special_attack": 53,
+    "special_defence": 53,
+    "speed": 107
+   },
+   "baseScale": 1.5,
+   "hitbox": {
+    "width": 3.4,
+    "height": 3.2,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

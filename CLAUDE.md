@@ -71,6 +71,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   models made of separate pieces, e.g. Celesteela), `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
   piece), `vx.fit_bone_boxes` (fewer, chunkier boxes) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
+- Paradox megas: `tools/megas/build.py` (config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
+  odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
+  on `tools/megas/_boxmodel.py` (bones + boxes placed by coordinate, front = -z; `round_box` for rounded parts;
+  zero-thickness planes with cut-out shaders for feathers/moss/frills; `rod`/`chain`/`spike` aim boxes along a
+  direction for tusks, horns, tails; shaders paint each texel from its model-space position, clean colours + soft
+  baked shading, no noise; glow by returning (colour, glow)). Module: `build()`, SCALE, HITBOX, KIND, LOOK, optional
+  ANIM; own SHINY palette. Only species with a module are built; the build writes data, stones, lang, creative tab,
+  README table and readme json. Design from the official art (Fandom wiki, `pokemon.fandom.com/api.php`); never copy
+  ATM x MSD's models (no derivatives). Brute Bonnet's mega is prototaxite-inspired (user's request).
 - New lines: `python3 tools/generate.py --cobblemon ... pick --count 18 --seed <text>`.
 - Creative tab (the only code, `src/main/java`): Minecraft has no data-driven tabs, so `CreativeTab.java` builds one by
   reflection with every Minecraft name given twice (Mojang for NeoForge, intermediary for Fabric; check new ones against

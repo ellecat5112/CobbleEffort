@@ -21,8 +21,8 @@ In survival: give a supported Pokemon the collection's item as its COSMETIC ITEM
 any Cobblemon cosmetic (hold the item, open the Pokemon's interaction menu and put it in the
 cosmetic slot). Take the item back to remove the look. A Pokemon can wear one cosmetic at a time.
 
-In creative: every collection's cosmetic items are in the CobbleEffort tab of the creative
-inventory.
+In creative: every collection's cosmetic items (and the Paradox mega stones) are in the CobbleEffort
+tab of the creative inventory. The mega stones only show there when Mega Showdown is installed.
 
 With commands (creative / operators): /pokegive <pokemon> <form>, for example /pokegive snorlax
 christmas or /pokegive snorlax christmas shiny. The <form> word for each collection is listed below.
@@ -467,6 +467,54 @@ Pokemon Cobblemon has data for but no model, now with a model, animations and a 
   * Moves, stats, typing and ability are the official Scarlet/Violet ones (Mighty Cleave at level
     56).
   * Commands: /pokespawn ironboulder or /pokegive ironboulder (add 'shiny' for the shiny).
+
+====================================================================================================
+PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
+====================================================================================================
+5 Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold the mega
+stone, wear a Mega Bracelet, and press Mega Evolve in battle. Every stone is crafted from a Mega
+Showdown Mega Stone, a Diamond and themed items, and is in the CobbleEffort creative tab.
+
+MEGA GREAT TUSK  (Ground / Fighting, Tough Claws)
+  Stats: HP 115  Atk 171  Def 171  SpA 53  SpD 53  Spe 107  (total 670)
+  Stone: Great Tuskite, crafted like this:
+      [ttt]
+      [sms]
+      [.d.]
+      t = Bone Block, s = Mud Bricks, m = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA SCREAM TAIL  (Fairy / Psychic, Punk Rock)
+  Stats: HP 115  Atk 65  Def 129  SpA 95  SpD 135  Spe 131  (total 670)
+  Stone: Scream Tailite, crafted like this:
+      [ttt]
+      [sms]
+      [.d.]
+      t = Pink Wool, s = Note Block, m = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA BRUTE BONNET  (Grass / Dark, Grassy Surge)
+  Stats: HP 121  Atk 167  Def 129  SpA 79  SpD 129  Spe 45  (total 670)
+  Stone: Brute Bonnetite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Moss Block, s = Red Mushroom Block, m = Mega Stone (Mega Showdown's), d = Diamond, x =
+      Brown Mushroom
+
+MEGA FLUTTER MANE  (Ghost / Fairy, Levitate)
+  Stats: HP 75  Atk 55  Def 75  SpA 175  SpD 155  Spe 135  (total 670)
+  Stone: Flutter Manite, crafted like this:
+      [ttt]
+      [sms]
+      [.d.]
+      t = Phantom Membrane, s = Amethyst Shard, m = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA SLITHER WING  (Bug / Fighting, Moxie)
+  Stats: HP 85  Atk 175  Def 109  SpA 85  SpD 115  Spe 101  (total 670)
+  Stone: Slither Wingite, crafted like this:
+      [ttt]
+      [sms]
+      [.d.]
+      t = Blaze Powder, s = White Wool, m = Mega Stone (Mega Showdown's), d = Diamond
 
 ====================================================================================================
 WORKS WITH

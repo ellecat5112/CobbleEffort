@@ -1,0 +1,38 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "minecraft:item/amethyst_shard"
+ },
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794701
+   },
+   "model": "cobbleeffort:item/greattuskite"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 794702
+   },
+   "model": "cobbleeffort:item/screamtailite"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 794703
+   },
+   "model": "cobbleeffort:item/brutebonnetite"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 794704
+   },
+   "model": "cobbleeffort:item/fluttermanite"
+  },
+  {
+   "predicate": {
+    "custom_model_data": 794705
+   },
+   "model": "cobbleeffort:item/slitherwingite"
+  }
+ ]
+}

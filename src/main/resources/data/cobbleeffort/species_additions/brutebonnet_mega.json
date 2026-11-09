@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:brutebonnet",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "grass",
+   "secondaryType": "dark",
+   "abilities": [
+    "grassysurge",
+    "grassysurge",
+    "h:grassysurge"
+   ],
+   "pokedex": [
+    "cobblemon.species.brutebonnet-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 121,
+    "attack": 167,
+    "defence": 129,
+    "special_attack": 79,
+    "special_defence": 129,
+    "speed": 45
+   },
+   "baseScale": 1.6,
+   "hitbox": {
+    "width": 3.2,
+    "height": 6.4,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

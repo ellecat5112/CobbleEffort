@@ -1,0 +1,18 @@
+{
+ "showdown_id": "brutebonnetite",
+ "pokemons": [
+  "Brute Bonnet"
+ ],
+ "aspect_conditions": {
+  "apply": {
+   "aspects": [
+    "mega_evolution=mega"
+   ]
+  },
+  "revert": {
+   "aspects": [
+    "mega_evolution=none"
+   ]
+  }
+ }
+}

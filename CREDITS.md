@@ -113,6 +113,13 @@ and contributors.
   model made by ellecat5112 with **Tripo AI** by `tools/models/celesteela.py`. It is painted in the colour scheme of a
   reference picture ellecat5112 provided (no pixels of it are used); the glow layer, animations, poser and shiny are original. Its game data is Cobblemon's own.
 
+## Paradox mega models
+
+The Paradox Pokémon's Mega Evolution models, textures, animations and posers (`.../<dex>_<species>/*_mega.*`) are
+original, hand-built from boxes by `tools/megas/` after the Pokémon's official designs (as shown on the Pokémon Fandom
+wiki; no pixels of the artwork are used). Their stats, abilities, stone icons and recipes are original too. They plug
+into **Mega Showdown**'s data-driven mega system.
+
 ## Code and data
 
 The build scripts, generator, data and resolver JSON are licensed under the

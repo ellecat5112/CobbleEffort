@@ -6,8 +6,8 @@ each form is a new texture applied through Cobblemon's own cosmetic-slot and asp
 
 **Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon).
 
-**Creative tab (since v0.15.1):** every collection's cosmetic items are in the **CobbleEffort** tab of the creative
-inventory.
+**Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
+**CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
 
 **House rule: every cosmetic covers whole evolutionary lines.** If one stage gets a form, every pre-evolution,
 evolution and branch of that Pokémon gets it too. The generator enforces this (see [Collection rules](#collection-rules)).
@@ -406,6 +406,40 @@ Give a supported Pokémon a **Light Blue, Pink or White Banner** (the flag's col
 commands: `/pokegive togedemaru trans_pride`, `/pokegive emolga trans_pride shiny`. Pack makers can extend the item
 tag `#cobbleeffort:trans_pride_cosmetics`.
 
+## Paradox Mega Evolutions (with Mega Showdown)
+
+Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including
+Miraidon) gets a Mega Evolution through **Mega Showdown**, with a mega stone you can craft in survival. Each model is
+hand-built from boxes in Cobblemon's style (bones and boxes placed by hand, clean painted textures with soft shading,
+a glow layer where it glows) and has animations for idle, walking (or floating), battle stance, sleep, cry,
+physical/special/status moves and fainting. Each mega adds 100 base stats and keeps its types; Ancient megas' stats
+stay odd and Future megas' even, like the Paradox Pokémon's own. Shinies have their own colours.
+
+<!-- megas:start -->
+| Mega | Era | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |
+|---|---|---|---|---|---|---|
+| Mega Great Tusk | Ancient | Ground / Fighting | Tough Claws | 115 / 171 / 171 / 53 / 53 / 107 | Great Tuskite | heavy navy armour with glowing crimson seams over shaggy pale-blue fur, crimson crystals from head to tail, red fur cuffs, ivory claws and great double-curled tusks |
+| Mega Scream Tail | Ancient | Fairy / Psychic | Punk Rock | 115 / 65 / 129 / 95 / 135 / 131 | Scream Tailite | punk rock: a tall swooshing crest streaked with magenta, star cheek marks, big yellow eyes and a fang, a fluffy collar and a long tail ending in a big curl |
+| Mega Brute Bonnet | Ancient | Grass / Dark | Grassy Surge | 121 / 167 / 129 / 79 / 129 / 45 | Brute Bonnetite | a towering prototaxite: a pale ringed trunk with glowing shelf fungi, stubby root legs and arms gripping mushroom-cap shields, two glaring eyes and a fanged mouth, under a huge brown cap with red and grey spiked panels and long hanging moss |
+| Mega Flutter Mane | Ancient | Ghost / Fairy | Levitate | 75 / 55 / 75 / 175 / 155 / 135 | Flutter Manite | two tiers of feathered mane-wings with glowing pink tips, a crown of red spikes, glaring red-and-yellow eyes, a glowing bead necklace and a long tattered skirt |
+| Mega Slither Wing | Ancient | Bug / Fighting | Moxie | 85 / 175 / 109 / 85 / 115 / 101 | Slither Wingite | six blazing flame wings with glowing yellow tips and glowing green diamonds, a big white fluffy collar, a red horned head with one yellow eye, a teal tail and little dark legs |
+
+*17 more on the way.*
+<!-- megas:end -->
+
+**Getting a stone:** craft it: a Mega Showdown Mega Stone in the middle, a Diamond below, and themed items around
+it (the recipes are in the zip's README). The stones are also in the CobbleEffort creative tab. Then do it the Mega
+Showdown way: the Pokémon holds the stone, you wear a Mega Bracelet, and you press Mega Evolve in battle.
+
+![The Paradox megas, normal and shiny](docs/paradox_megas_preview.png)
+
+How it works without code: Mega Showdown reads megas from data (`data/<ns>/mega_showdown/mega/*.json`), Showdown
+items from `data/<ns>/mega_showdown/showdown/held_items/*.js`, and treats any item stack carrying its components
+`mega_showdown:registry_type_component: "mega"` and `mega_showdown:registry_location_component: <mega id>` as that
+mega's stone. So each stone is an amethyst shard with those components (plus a name, lore and `custom_model_data`
+for its own icon), made by a crafting recipe. The "Mega" forms are added with `species_additions`. Built by
+`tools/megas/build.py` from the models in `tools/megas/models/`.
+
 ## New Pokémon
 
 Cobblemon has data for Iron Boulder and Celesteela but no models, so they were the last two empty Pokédex spots in
@@ -578,7 +612,7 @@ name is given in both (checked against the 1.21.1 mappings), so the same class w
 `fabric/CobbleEffortFabric` (the `main` entrypoint in `fabric.mod.json`) and `neoforge/CobbleEffortNeoForge`
 (`@Mod`, `javafml`) start it. They compile against the JDK plus stand-ins for four loader types (`src/stubs/java`,
 never packaged). Its items come from `cobbleeffort_creative_tab.json`, written by `tools/make_creative_tab.py`
-(run by `generate.py build`). Any failure only logs a `[CobbleEffort]` line and leaves the tab out.
+(run by `generate.py build` and `tools/megas/build.py`). Any failure only logs a `[CobbleEffort]` line and leaves the tab out.
 
 Cobblemon merges every resolver file for a species, sorted by `order`, and the **last** matching variation wins.
 So the high order, combined with mirroring the vanilla variations in order, puts the right texture on top in every
