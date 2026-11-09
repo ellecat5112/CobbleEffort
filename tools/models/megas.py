@@ -83,8 +83,8 @@ MEGAS = {
         "height": 40, "front": "+z", "scale": 0.8, "hitbox": [1.3, 2.0], "kind": "quadruped",
         "types": ["grass", "dark"], "ability": "strongjaw", "ability_name": "Strong Jaw",
         "stats": [111, 167, 129, 79, 129, 55],
-        "dex_text": "A towering cap, veined with glowing light, grows from the back of a great reptile. Spores drift from it "
-                    "like smoke, and its jaws can crush stone.",
+        "dex_text": "The mushroom on its back has shot up into a colossal trunk like the giant fungi of ancient times, "
+                    "taller than the trees around it. Glowing spores drift from its bright cap.",
         "recipe": {"pattern": ["rmr", "kek", " d "], "key": {"r": "minecraft:red_mushroom_block", "m": "minecraft:moss_block",
                     "k": "minecraft:brown_mushroom", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
         "stone_colours": [(70, 110, 60), (190, 40, 58)],
@@ -855,8 +855,45 @@ def poser(sp, names):
 # Building
 # ---------------------------------------------------------------------------------------------
 
+def build_hand_model(sp, hand):
+    """A hand-built box model (tools/models/hand_<species>.py, see _boxmodel.py): geometry, textures, glow,
+    animations and poser."""
+    cfg = MEGAS[sp]
+    m = hand.build()
+    tw, th = m.layout()
+    nm = name_of(sp)
+    tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / cfg["folder"]
+    tex_dir.mkdir(parents=True, exist_ok=True)
+    for variant, sfx in ((None, ""), ("shiny", "_shiny")):
+        img, glow = m.paint(tw, th, variant)
+        img.save(tex_dir / f"{nm}{sfx}.png", optimize=True)
+        for f, k in enumerate((1.0, 0.82, 0.92)):            # the glow pulses a little
+            g = np.array(glow).astype(float)
+            g[..., :3] *= k
+            Image.fromarray(g.astype(np.uint8), "RGBA").save(tex_dir / f"{nm}{sfx}_glow_{f}.png", optimize=True)
+    names = [b["name"] for b in m.bones if b["parent"] is not None]
+    piv = {b["name"]: b["pivot"] for b in m.bones}
+    legs = [n for n in names if n.startswith("leg")]
+    top = max(b.lo[1] + b.size[1] for b in m.boxes)
+    extra = [{"name": "locator_root", "parent": nm, "pivot": [0, 0, 0]},
+             {"name": "locator_top", "parent": nm, "pivot": [0, float(top), 0]}]
+    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / cfg["folder"] / f"{nm}.geo.json",
+               m.geo(tw, th, f"geometry.{nm}", extra))
+    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "animations" / cfg["folder"] / f"{group_of(sp)}.animation.json",
+               animations(sp, names, legs, piv))
+    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "posers" / cfg["folder"] / f"{nm}.json", poser(sp, names))
+    print(f"{sp}: hand-built, {len(m.boxes)} cubes, texture {tw}x{th}, bones {names}")
+    return names
+
+
 def build_model(sp):
     cfg = MEGAS[sp]
+    if (HERE / f"hand_{sp}.py").exists():
+        import importlib
+        hand = importlib.import_module(f"hand_{sp}")
+        cfg["scale"], cfg["hitbox"] = hand.SCALE, hand.HITBOX
+        SHINY_HUE[sp] = getattr(hand, "SHINY_HUE", SHINY_HUE.get(sp, 0))
+        return build_hand_model(sp, hand)
     d = np.load(HERE / f"mega_{sp}_voxels.npz")
     solid, lo = d["solid"], d["lo"]
     solid = vx.keep_largest(vx.smooth(solid))      # Cobblemon-style shapes; no loose floating bits

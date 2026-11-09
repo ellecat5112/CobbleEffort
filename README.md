@@ -417,7 +417,7 @@ Cobblemon (Walking Wake), Mega Showdown (Koraidon) and Cobblemon: AllTheMons x M
 |------|-------|---------|----------------------------------|-------|------|
 | Mega Great Tusk | Ground / Fighting | Tough Claws | 115 / 171 / 161 / 53 / 73 / 97 | Great Tuskite | blue-grey stone-brick hide bristling with crimson crystals, great curled ivory tusks and claws, navy wrist bands, yellow eyes |
 | Mega Scream Tail | Fairy / Psychic | Magic Bounce | 115 / 65 / 129 / 95 / 145 / 121 | Scream Tailite | pink with a pale belly, a swirl on its forehead and tail, black inner ears, golden eyes |
-| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | a dark cap with glowing orange spots and cyan veins, a cyan-veined stem with glowing yellow mushrooms, a mossy reptile |
+| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | massive (about 6½ blocks tall): a cute minty lizard with big yellow eyes carrying a towering cream prototaxite trunk with pink growth rings and glowing yellow shelf fungi, under a huge round red cap with white spots |
 | Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | a purple hat and dress, a teal feathered mane with lilac tips, orange horns, orange and magenta bead strands, a magenta collar, red claws |
 | Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | wings from dark red to orange to gold with teal edges and glowing green spots, white fluff, a yellow chest, a red crest with gold horns |
 | Mega Sandy Shocks | Electric / Ground | Magnet Pull | 85 / 81 / 127 / 161 / 105 / 111 | Sandy Shockite | a light blue-grey armoured dome on four magnet arches with red and blue ends, iron-spiked balls on top, arms and feet, a dark purple-trimmed face with one glowing yellow eye, yellow shoulder discs, gears |
@@ -433,6 +433,11 @@ it (the recipes are in the zip's README). Then do it the Mega Showdown way: the 
 Mega Bracelet, and you press Mega Evolve in battle.
 
 ![The paradox megas, normal and shiny](docs/paradox_megas_preview.png)
+
+**Hand-built models (since v0.15.2):** Mega Brute Bonnet is built by hand from boxes the way Cobblemon's models are
+(`tools/models/hand_brutebonnet.py` with `tools/models/_boxmodel.py`): named bones, boxes in several sizes placed by
+coordinate, rounded parts from crossed boxes, flat planes for light details, and clean painted textures with soft
+shading. The other megas will move to this too.
 
 How it works without code: Mega Showdown reads megas from data (`data/<ns>/mega_showdown/mega/*.json`), Showdown
 items from `data/<ns>/mega_showdown/showdown/held_items/*.js`, and treats any item stack carrying its components

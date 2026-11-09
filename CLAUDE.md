@@ -71,6 +71,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   models made of separate pieces, e.g. Celesteela), `vx.smooth` (blurred SDF, keeps parts up to 2 voxels thick, never splits a
   piece), `vx.fit_bone_boxes` (fewer, chunkier boxes) and `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
+- **Models are hand-built from boxes like real Cobblemon entities** (the user rejected voxel conversions of their
+  meshes as "3D renders of pixel art"): `tools/models/hand_<species>.py` with `tools/models/_boxmodel.py` (bones with
+  pivots; boxes of several sizes placed by coordinate, front = -z; `round_box` = two crossed boxes for rounded parts;
+  zero-thickness planes for fins/ears/crests; shaders paint each texel from its model-space position, clean flat
+  colours + soft baked shading, no noise). Use the user's mesh only as a guide for proportions and their reference
+  pictures for colours. megas.py uses a hand module automatically when one exists (its SCALE, HITBOX, SHINY_HUE).
 - Custom megas (`tools/models/megas.py`, config in its MEGAS dict): Mega Showdown reads megas from
   `data/<ns>/mega_showdown/mega/*.json` and Showdown items from `data/<ns>/mega_showdown/showdown/held_items/*.js`; any
   item stack with components `mega_showdown:registry_type_component: "mega"` + `mega_showdown:registry_location_component:
