@@ -96,7 +96,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
   `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; every starter line
-  Gen 1-9 (STARTER_LINES), no megas/Gmax/Ash; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
+  Gen 1-9 (STARTER_LINES), no stone megas/primals; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
   water -> plant-inspired, grass -> natural disasters, fire -> sea life (the user's direction; Squirtle prototaxites,
   Bulbasaur raging flames, Charmander mermaid). One module per line in `tools/parts/<first stage>.py` (LINE, build(kit),
   RECOLOUR type-hue shift, optional UNIFY/GLOW_DST) on the part kit (`parts/_kit.py`: hide/reskin/box/plane/cross/flat,
