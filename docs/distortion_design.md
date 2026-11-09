@@ -27,8 +27,8 @@ need it updated.
 | Radial menu | Mega Showdown's entries come from Cobblemon's `POKEMON_INTERACTION_GUI_CREATION` event, so the add-on adds its own **Distort** entry (own icon) there, no mixin: shown when the player wears the band and the Pokémon holds the crystal (Arceus: a plate), or as **Revert Distortion** when it's distorted. It sends a packet (`DistortPacket`); the server checks again (party, band, item, not battling, one distorted Pokémon per party) and toggles the `distorted` flag feature (saved with the Pokémon), with reverse-portal particles. Taking the crystal away reverts it (`HELD_ITEM_POST`). A Pokémon distorted this way enters battle in its -Distorted forme; the Showdown scripts give it its twin moves at the start and count it as the side's distortion. |
 | Distorted forms | `species_additions` forms "Distorted" (aspect `distorted`) per Pokémon, with inverted types. In battle the aspect is forced until the battle ends; out of battle the wheel toggles the `distorted` flag feature, which gives the same aspect. |
 | Moves | (`tools/make_battle.py`, for every move the distortable Pokémon can learn) Each move maps to its inverted-type twin: an existing move that's an exact equivalent (same category, power, accuracy, effect), otherwise a new move made from the original with only its type changed and a name to match (Cross Chop → Psychic Chop). New moves are data (`data/<ns>/moves/*.js`, read by Cobblemon) with lang names. |
-| Abilities | The ability stays (none of the first set's is type-bound). Later: type-specific abilities map to their inverted twin (Blaze → Torrent when it exists, otherwise a new one, e.g. Flood: Blaze's effect for Water moves). |
-| Look | Each distorted Pokémon gets inverted colours (hue-shifted to its new types) and, where it fits, new parts (Charmander's flame tail → a mermaid tail). Resolver variations with the `distorted` aspect. |
+| Abilities | (`tools/make_battle.py`) An ability is type-bound when its Showdown code names the Pokémon's own type, or its type's weather. Its twin swaps those for the distorted type and that type's weather: an existing ability when it's an exact match (Blaze → Torrent), otherwise a new Cobblemon datapack ability (`data/<ns>/abilities/*.js`; Solar Power → Storm Power, the same in rain). Others stay. The engine swaps it when the Pokémon distorts (announced with `-ability`), or at the start for one distorted outside battle. |
+| Look | Each distorted Pokémon gets inverted colours (every hue to its complement) and, where it fits, new parts (`tools/make_parts.py`): the Charmander line's flame tail becomes a mermaid tail (a model copy in the add-on's namespace with the flame planes emptied, a fluke on the tail tip and scales, painted in an added lower half of the texture; the flame layer dropped). Resolver variations (order 9100) with the `distorted` aspect, mirroring Cobblemon's and Mega Showdown's. |
 
 ## Type chart: each type becomes its weakness
 
@@ -53,6 +53,13 @@ need it updated.
 | Palkia (and Origin) | Water / Dragon | Grass / Fairy | Spacial Rend → a Fairy twin. |
 | Arceus (all 18 plate types) | its type | its type's weakness | Distorts with its plate (no crystal). Judgment → Inverse Judgment (the weakness of the plate's type). |
 
+## Second set: the Charmander line
+
+| Pokémon | Types | Distorted | Notes |
+|---|---|---|---|
+| Charmander, Charmeleon | Fire | Water | Blaze → Torrent, Solar Power → Storm Power; the flame tail becomes a mermaid tail. |
+| Charizard | Fire / Flying | Water / Electric | As above; Mega X/Y and Gigantamax don't distort. |
+
 ## Phases
 
 1. Add-on project (Fabric + NeoForge), the band, the crystals, the accessory slot, the distorted forms and their
@@ -60,5 +67,8 @@ need it updated.
 2. The battle gimmick: engine patch, server validation, battle button, inverted moves (abilities: later, when a
    Pokémon with a type-bound one joins). One crystal for every Pokémon (changed from one per type).
 3. The radial-menu entry (done in 0.3.0).
+4. Ability twins, the Charmander line with its mermaid tail, wild and NPC Pokémon distorting (0.4.0): an AI actor's
+   first move gets `distort` when its Pokémon can (`AIDistortMixin` on `BattleActor.setActionResponses`); the side
+   script turns a distort that isn't allowed into the plain move, so an AI's choice never fails.
 
 Each phase needs an in-game test round (crash logs or screenshots back), since none of this can be run here.

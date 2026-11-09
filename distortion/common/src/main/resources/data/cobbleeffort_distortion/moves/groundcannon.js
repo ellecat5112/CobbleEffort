@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["flashcannon"], {num: -31061, name: "Ground Cannon", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["flashcannon"], {num: -31089, name: "Ground Cannon", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})

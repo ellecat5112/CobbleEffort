@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "io.github.cobbleeffort.distortion.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["MoveActionResponseMixin"],
+  "mixins": ["MoveActionResponseMixin", "AIDistortMixin"],
   "client": ["BattleMoveSelectionMixin"],
   "injectors": {"defaultRequire": 1}
 }

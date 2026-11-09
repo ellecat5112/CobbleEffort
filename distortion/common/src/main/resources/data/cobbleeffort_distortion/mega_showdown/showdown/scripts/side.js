@@ -9,9 +9,10 @@
       }
       const index = this.getChoiceIndex();
       const pokemon = this.active[index];
-      if (!pokemon) return this.emitChoiceError("Can't distort: no Pokemon");
-      if (this.distortUsed || this.choice.distort) return this.emitChoiceError("Can't distort: you can only distort once per battle");
-      if (!this.battle.actions.canDistort(pokemon)) return this.emitChoiceError(`Can't distort: ${pokemon.name} can't distort`);
+      // can't distort (already did, or no crystal): the plain move, never an error (an AI's choice must not fail)
+      if (!pokemon || this.distortUsed || this.choice.distort || !this.battle.actions.canDistort(pokemon)) {
+        return Side.prototype.chooseMove.call(this, text, targetLoc, event);
+      }
       const ok = Side.prototype.chooseMove.call(this, text, targetLoc, event);
       if (ok) {
         // the queue turns this into a distort action before the move (see queue.js)

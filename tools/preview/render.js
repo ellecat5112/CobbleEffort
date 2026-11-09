@@ -18,6 +18,7 @@ const texPath = (root, id) => {
   throw new Error('texture not found: ' + id);
 };
 const yaw = Number(process.env.YAW || 0);       // turn the model (degrees)
+const camUp = Number(process.env.CAM_UP || 15); // camera height above the model's centre (higher: seen from above)
 // model folders: Cobblemon's, this mod's, plus EXTRA_MODEL_ROOTS (":"-separated) for other mods' models,
 // e.g. an addon line's model (read for previews only, never shipped)
 const cobblemonModels = [...extraRoots.map(r => path.join(r, 'assets/cobblemon/bedrock/pokemon/models')),
@@ -48,7 +49,7 @@ const findModel = (id) => {
       if (!e[key]) continue;   // e.g. an addon line has no Cobblemon original
       const url = dataUrl(texPath(root, e[key]));
       const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
-      const png = await page.evaluate(([g, u, ls, sz, yw]) => window.renderModel(g, u, sz, yw, ls), [geo, url, layers, size, yaw]);
+      const png = await page.evaluate(([g, u, ls, sz, yw, up]) => window.renderModel(g, u, sz, yw, ls, up), [geo, url, layers, size, yaw, camUp]);
       fs.writeFileSync(path.join(outDir, `${e.species}${e.form ? '_' + e.form : ''}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }

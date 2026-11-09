@@ -31,7 +31,10 @@ import net.minecraft.network.chat.Component;
 public final class DistortionBattle {
     public static final String GIMMICK = "distort";
     public static final String ASPECT = "distorted";
+    public static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger("CobbleEffort Distortion");
     private static final Map<UUID, Set<Pokemon>> DISTORTED = new ConcurrentHashMap<>();
+    /** AI actors (by battle) that have chosen to distort: once per battle. */
+    private static final Map<UUID, Set<UUID>> AI_DISTORTED = new ConcurrentHashMap<>();
 
     private DistortionBattle() {
     }
@@ -54,6 +57,7 @@ public final class DistortionBattle {
     }
 
     private static void onBattleEnded(BattleEndedEvent event) {
+        AI_DISTORTED.remove(event.getBattle().getBattleId());
         Set<Pokemon> list = DISTORTED.remove(event.getBattle().getBattleId());
         if (list == null) return;
         for (Pokemon pokemon : list) clearForcedAspect(pokemon);
@@ -72,6 +76,26 @@ public final class DistortionBattle {
         BattleActor actor = active.getActor();
         if (!(actor instanceof PlayerBattleActor player)) return true;
         return DistortionRules.wearsBand(player.getEntity());
+    }
+
+    /**
+     * Should this AI actor's Pokémon distort with its move now? Its first chance only: it can distort (crystal, or
+     * Arceus with a plate, and Distorted forms), no Pokémon of the actor is distorted (in battle, or from outside it),
+     * and the actor hasn't chosen to distort before in this battle.
+     */
+    public static boolean aiMayDistort(BattleActor actor, ActiveBattlePokemon active) {
+        BattlePokemon battlePokemon = active.getBattlePokemon();
+        if (battlePokemon == null) return false;
+        Pokemon pokemon = battlePokemon.getEffectedPokemon();
+        if (!DistortionRules.holdsSource(pokemon) || !DistortionRules.hasDistortedForm(pokemon.getSpecies())) return false;
+        UUID battleId = actor.getBattle().getBattleId();
+        Set<UUID> chosen = AI_DISTORTED.computeIfAbsent(battleId, id -> ConcurrentHashMap.newKeySet());
+        if (chosen.contains(actor.getUuid())) return false;
+        for (BattlePokemon member : actor.getPokemonList()) {
+            if (member.getEffectedPokemon().getAspects().contains(ASPECT)) return false;
+        }
+        chosen.add(actor.getUuid());
+        return true;
     }
 
     /** The crystal as a Showdown held item. */

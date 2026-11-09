@@ -2,17 +2,18 @@
 """
 Writes CobbleEffort: Distortion's assets and data into common/src/main/resources (deterministic; rerun after changes):
 
-  items      the Distortion Band and 18 Distortion Crystals: textures, item models, names
+  items      the Distortion Band and the Distortion Crystal: textures, item models, names
   slot       the "distortion_slot" accessory slot (Accessories reads slots, entity bindings, groups and slot tags
              from data), its icon, the band in its slot tag
-  forms      Distorted forms for the first set (Giratina, Dialga, Palkia, Arceus, incl. Origin and plate forms):
+  forms      Distorted forms for every DISTORTABLE Pokémon (incl. Origin and plate forms; not megas or Gigantamax):
              types turned into their weaknesses (TYPE_CHART); a "distorted" flag feature (aspect) for them
-  looks      resolvers (order 9100) mirroring every variation Mega Showdown gives them, with "distorted" added and
-             textures recoloured: every hue turned to its complement (orange -> blue), greys kept
+  looks      resolvers (order 9100) mirroring every variation Cobblemon and Mega Showdown give them, with "distorted"
+             added and textures recoloured: every hue turned to its complement (orange -> blue), greys kept; parts
+             where they fit (make_parts.py: the Charmander line's mermaid tail)
   chart      data/cobbleeffort_distortion/distortion/type_chart.json, for the battle code
 
-The Pokémon's models and textures come from Mega Showdown (CC BY-NC-SA 4.0), read from
-../tools/compat/jars/mega_showdown-*.jar; the recoloured textures are adaptations under the same licence.
+The Pokémon's models and textures come from Cobblemon (its jar: COBBLEMON_JAR) and Mega Showdown (CC BY-NC-SA 4.0,
+../tools/compat/jars/mega_showdown-*.jar); the recoloured textures and part models are adaptations.
 
 Usage: python3 tools/make_assets.py
 """
@@ -48,7 +49,9 @@ TYPE_COLOUR = {"normal": (168, 167, 122), "fire": (238, 129, 48), "water": (99, 
                "ground": (226, 191, 101), "flying": (169, 143, 243), "psychic": (249, 85, 135), "bug": (166, 185, 26),
                "rock": (182, 161, 54), "ghost": (115, 87, 151), "dragon": (111, 53, 252), "dark": (112, 87, 70),
                "steel": (183, 183, 206), "fairy": (214, 133, 173)}
-FIRST_SET = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus"}
+# the distortable Pokémon (curated): the Distortion World's champion and the creation trio, then the Charmander line
+DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus",
+               "charmander": "0004_charmander", "charmeleon": "0005_charmeleon", "charizard": "0006_charizard"}
 
 
 def write_json(path: Path, obj):
@@ -191,15 +194,27 @@ def msd_jar():
     return zipfile.ZipFile(jars[-1])
 
 
+def cobblemon_jar():
+    """Cobblemon's jar (COBBLEMON_JAR, or one found next to the repository or in a scratch dist_deps folder)."""
+    import os
+    jars = ([os.environ["COBBLEMON_JAR"]] if os.environ.get("COBBLEMON_JAR") else []) + \
+        sorted(glob.glob(str(REPO.parent / "**" / "Cobblemon-fabric-1.8.4*.jar"), recursive=True)) + \
+        sorted(glob.glob("/tmp/claude-0/**/dist_deps/Cobblemon-fabric-1.8.4*.jar", recursive=True))
+    if not jars:
+        raise SystemExit("Cobblemon 1.8.4's jar is missing (set COBBLEMON_JAR)")
+    return zipfile.ZipFile(jars[0])
+
+
 def cobblemon_species(sp):
-    """Cobblemon's species data (from the jar tools/compat lists, or the reference checkout)."""
-    for j in sorted(glob.glob(str(REPO.parent / "**" / "Cobblemon-fabric-1.8.4*.jar"), recursive=True)) + \
-            sorted(glob.glob("/tmp/claude-0/**/dist_deps/Cobblemon-fabric-1.8.4*.jar", recursive=True)):
-        z = zipfile.ZipFile(j)
-        for n in z.namelist():
-            if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
-                return json.loads(z.read(n))
+    """Cobblemon's species data."""
+    z = cobblemon_jar()
+    for n in z.namelist():
+        if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
+            return json.loads(z.read(n))
     raise SystemExit(f"no Cobblemon species data for {sp}")
+
+
+SKIPPED_ASPECTS = {"mega", "mega_x", "mega_y", "gmax"}     # megas and Gigantamax don't distort
 
 
 def invert(t):
@@ -210,8 +225,8 @@ def forms():
     feature = RES / "data" / MOD / "species_features" / "distorted.json"
     write_json(feature, {"keys": ["distorted"], "type": "flag", "isAspect": True, "default": False})
     write_json(RES / "data" / MOD / "species_feature_assignments" / "distorted.json",
-               {"pokemon": list(FIRST_SET), "features": ["distorted"]})
-    for sp in FIRST_SET:
+               {"pokemon": list(DISTORTABLE), "features": ["distorted"]})
+    for sp in DISTORTABLE:
         d = cobblemon_species(sp)
         new = []
         base = {"name": "Distorted", "primaryType": invert(d["primaryType"]), "aspects": ["distorted"],
@@ -220,6 +235,8 @@ def forms():
             base["secondaryType"] = invert(d["secondaryType"])
         new.append(base)
         for f in d.get("forms", []):
+            if set(f.get("aspects", [])) & SKIPPED_ASPECTS:
+                continue
             g = copy.deepcopy(f)                                   # keep the form's stats, abilities, size
             g["name"] = f"{f['name']}-Distorted"
             g["primaryType"] = invert(f.get("primaryType", d["primaryType"]))
@@ -271,41 +288,62 @@ def recolour(img: Image.Image) -> Image.Image:
 
 
 def looks():
-    z = msd_jar()
-    names = z.namelist()
-    for sp, folder in FIRST_SET.items():
-        resolvers = sorted(n for n in names if n.startswith(f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/") and n.endswith(".json"))
+    """Resolvers mirroring every variation the Pokémon has (Cobblemon's, with Mega Showdown's where it replaces or adds
+    them), with "distorted" added and the textures recoloured; parts (make_parts.py) swap in their model."""
+    import make_parts
+    cz, mz = cobblemon_jar(), msd_jar()
+    zips = [mz, cz]                                             # Mega Showdown's assets win over Cobblemon's
+    for sp, folder in DISTORTABLE.items():
+        part = make_parts.build(sp, cz) if sp in make_parts.TAILS else None
+        if part:
+            write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / part["file"], part["geo"])
+        prefix = f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/"
+        paths = sorted({n for z in zips for n in z.namelist() if n.startswith(prefix) and n.endswith(".json")})
+        resolvers = []
+        for n in paths:
+            z = next(z for z in zips if n in z.namelist())
+            resolvers.append((json.loads(z.read(n)), n))
+        resolvers.sort(key=lambda r: (r[0].get("order", 0), r[1]))
         out = []
         done_tex = {}
 
-        def tex(path):
-            if path not in done_tex:
+        def tex(path, body):
+            key = (path, body)
+            if key not in done_tex:
                 ns, p = path.split(":", 1)
                 src = f"assets/{ns}/{p}"
-                img = Image.open(io.BytesIO(z.read(src)))
+                z = next(z for z in zips if src in z.namelist())
+                img = recolour(Image.open(io.BytesIO(z.read(src))))
+                if part:
+                    img = part["paint"](img, "shiny" in p) if body else make_parts.pad(img, part["height"])
                 dst = p.replace(f"textures/pokemon/{folder}/", f"textures/pokemon/{folder}/distorted_")
-                save_png(RES / "assets" / MOD / dst, recolour(img))
-                done_tex[path] = f"{MOD}:{dst}"
-            return done_tex[path]
+                save_png(RES / "assets" / MOD / dst, img)
+                done_tex[key] = f"{MOD}:{dst}"
+            return done_tex[key]
 
-        for n in resolvers:
-            d = json.loads(z.read(n))
+        def layer_tex(t):
+            if isinstance(t, str):
+                return tex(t, False)
+            if isinstance(t, dict) and "frames" in t:
+                return dict(t, frames=[tex(f, False) for f in t["frames"]])
+            return t
+
+        for d, _ in resolvers:
             for v in d["variations"]:
+                if set(v.get("aspects", [])) & SKIPPED_ASPECTS:
+                    continue
                 w = {"aspects": list(v.get("aspects", [])) + ["distorted"]}
+                if part and not v.get("aspects"):
+                    w["model"] = part["model"]
                 if isinstance(v.get("texture"), str):
-                    w["texture"] = tex(v["texture"])
+                    w["texture"] = tex(v["texture"], True)
                 if "layers" in v:
-                    layers = []
-                    for lay in v["layers"]:
-                        lay = dict(lay)
-                        if isinstance(lay.get("texture"), str):
-                            lay["texture"] = tex(lay["texture"])
-                        layers.append(lay)
-                    w["layers"] = layers
+                    w["layers"] = [dict(lay, texture=layer_tex(lay.get("texture"))) for lay in v["layers"]
+                                   if not (part and lay.get("name") in part["drop_layers"])]
                 out.append(w)
         write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder / f"9100_{sp}_distorted.json",
                    {"species": f"cobblemon:{sp}", "order": 9100, "variations": out})
-        print(f"{sp}: {len(out)} variations, {len(done_tex)} textures recoloured")
+        print(f"{sp}: {len(out)} variations, {len(done_tex)} textures recoloured" + (", with its distorted parts" if part else ""))
 
 
 def distort_button():
@@ -378,7 +416,7 @@ def lang():
     names[f"{MOD}.message.one_at_a_time"] = "Only one Pokémon can be distorted at a time: revert %s first."
     path = RES / "assets" / MOD / "lang" / "en_us.json"
     old = json.loads(path.read_text()) if path.exists() else {}
-    names.update({k: v for k, v in old.items() if k.startswith("cobblemon.move.")})   # make_battle.py's move names
+    names.update({k: v for k, v in old.items() if k.startswith("cobblemon.")})   # make_battle.py's move and ability names
     write_json(path, dict(sorted(names.items())))
 
 

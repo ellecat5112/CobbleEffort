@@ -95,11 +95,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py`. First set: Giratina, Dialga, Palkia, Arceus (incl. Origin and plate forms). One Distortion Crystal for
-  every Pokémon (Arceus uses its plate). Battle (`tools/make_battle.py`): twin moves as Cobblemon datapack moves
-  (`data/<ns>/moves/*.js`), Mega Showdown scripts (`side`/`queue`/`actions`: choice `move N distort`, a queued distort
+  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; the Charmander line,
+  no megas/Gmax; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`), parts in `tools/make_parts.py` (the
+  Charmander line's mermaid tail: model copy, flame emptied, fluke + scales painted in a doubled texture height; preview
+  with `tools/preview` + `EXTRA_MODEL_ROOTS`/`CAM_UP`). One Distortion Crystal for every Pokémon (Arceus uses its plate).
+  Battle (`tools/make_battle.py --showdown <dump_showdown.js output> --cobblemon-jar <jar>`): twin moves and type-bound
+  ability twins (existing exact match, e.g. Blaze -> Torrent, or generated from the code: Solar Power -> Storm Power)
+  as Cobblemon datapack moves/abilities (`data/<ns>/moves|abilities/*.js`), Mega Showdown scripts (`side`/`queue`/`actions`: choice `move N distort`, a queued distort
   action at Tera priority, forme change + move swap), `MoveActionResponse.isValid` mixin (band), client Distort button
-  mixin on `BattleMoveSelection`. Test the engine in node against Cobblemon's Showdown + MSD's patches before a build.
+  mixin on `BattleMoveSelection`, `AIDistortMixin` (wild/NPC AI actors distort on their first move; the side script
+  turns a disallowed distort into the plain move so AI choices never fail). Test the engine in node against Cobblemon's Showdown + MSD's patches before a build.
   Wheel (radial menu): Cobblemon's `POKEMON_INTERACTION_GUI_CREATION` event (as Mega Showdown does; no mixin) adds
   Distort/Revert, a C2S `DistortPacket` toggles the `distorted` flag feature server-side (`DistortionWheel`); rules shared
   in `DistortionRules`. Phases 1 items/slot/forms, 2 battle gimmick, 3 radial entry: all done.

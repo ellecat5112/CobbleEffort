@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:charizard",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:charizard_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0006_charizard/distorted_charizard_alpha.png"
+        }
+      ]
+    }
+  ]
+}

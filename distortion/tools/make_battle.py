@@ -8,10 +8,14 @@ Writes CobbleEffort: Distortion's battle data into common/src/main/resources (de
              changed (Cross Chop -> Psychic Chop). New moves are Cobblemon datapack moves
              (data/<ns>/moves/<id>.js, read by Cobblemon into Showdown and its move registry) built from the
              original's own Showdown data, so they keep every effect; their names go in the lang file.
+  abilities  type-bound abilities (their code names the Pokémon's own type, or its type's weather) get a twin: an existing
+             exact opposite (Blaze -> Torrent) or a new ability, the original's code with the types and weathers swapped
+             (Solar Power -> Storm Power), a Cobblemon datapack ability (data/<ns>/abilities/<id>.js). Others stay.
   crystal    the Distortion Crystal's Showdown item (Mega Showdown's held-item scripts)
   engine     two Showdown scripts merged in by Mega Showdown's scripts loader
              (data/<ns>/mega_showdown/showdown/scripts/<side|queue|actions>.js):
-               side.chooseMove     accepts "move N [target] distort" (once per battle per side, with the crystal)
+               side.chooseMove     accepts "move N [target] distort" (once per battle per side, with the crystal;
+                                   otherwise it's the plain move, so an AI's choice never fails)
                queue.resolveAction queues the distortion as its own action at Terastallization's priority
                (a Pokémon distorted outside battle starts in its -Distorted forme; it gets its twins at the start and
                counts as its side's distortion)
@@ -20,7 +24,7 @@ Writes CobbleEffort: Distortion's battle data into common/src/main/resources (de
                                    add-on gives it the distorted look), its ability kept (or its inverted twin),
                                    every move swapped for its twin (runMove swaps the move it chose this turn)
 
-Inputs: Showdown's move data dumped to JSON (see dump_moves.js) and Cobblemon's species data (its jar).
+Inputs: Showdown's moves and abilities dumped to JSON (dump_showdown.js) and Cobblemon's species data (its jar).
 Usage: python3 tools/make_battle.py --moves <moves.json> --cobblemon-jar <Cobblemon-fabric-1.8.4.jar>
 """
 from __future__ import annotations
@@ -38,7 +42,7 @@ MOD = "cobbleeffort_distortion"
 
 import sys  # noqa: E402
 sys.path.insert(0, str(HERE))
-from make_assets import FIRST_SET, TYPE_CHART  # noqa: E402
+from make_assets import DISTORTABLE, TYPE_CHART  # noqa: E402
 
 # words in move names that stand for a type, replaced by the new type's name (Dragon Claw -> Fairy Claw)
 TYPE_WORDS = {
@@ -54,8 +58,20 @@ TYPE_WORDS = {
 }
 # the signature moves get names written for them
 NAME_OVERRIDES = {"roaroftime": "Radiance of Time", "spacialrend": "Fairy Rend", "shadowforce": "Dark Force",
-                  "judgment": "Inverse Judgment"}
+                  "judgment": "Inverse Judgment",
+                  # where the first-word rule loses the move's meaning, the type goes in front instead
+                  "beatup": "Fairy Beat Up", "quickattack": "Fighting Quick Attack",
+                  "helpinghand": "Fighting Helping Hand", "holdhands": "Fighting Hold Hands"}
 SKIP = {"struggle", "hiddenpower"}
+
+# abilities: one is type-bound when its code names one of the Pokémon's own types (Blaze: "Fire") or its type's weather
+# (Solar Power: harsh sunlight for a Fire type). Its twin swaps those for the distorted type (and that type's weather):
+# an existing ability when that's an exact match (Blaze -> Torrent), otherwise a new one (Solar Power -> Storm Power).
+WEATHER = {"fire": ["sunnyday", "desolateland"], "water": ["raindance", "primordialsea"], "ice": ["hail", "snow"]}
+WEATHER_NAMES = {"sunnyday": "harsh sunlight", "desolateland": "extremely harsh sunlight", "raindance": "rain",
+                 "primordialsea": "heavy rain", "hail": "hail", "snow": "snow"}
+ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood"}    # new twins with names written for them
+ABILITY_META = {"name", "num", "rating", "isNonstandard", "desc", "shortDesc"}
 
 
 def toid(s):
@@ -65,7 +81,7 @@ def toid(s):
 def learnsets(jar):
     z = zipfile.ZipFile(jar)
     out = set()
-    for sp in FIRST_SET:
+    for sp in DISTORTABLE:
         for n in z.namelist():
             if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
                 d = json.loads(z.read(n))
@@ -75,6 +91,104 @@ def learnsets(jar):
                     for m in f.get("moves", []):
                         out.add(m.split(":", 1)[1])
     return sorted(out)
+
+
+def species_info(jar):
+    """Every distortable species' types and abilities (all forms but megas and Gigantamax)."""
+    z = zipfile.ZipFile(jar)
+    info = {}
+    for sp in DISTORTABLE:
+        for n in z.namelist():
+            if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
+                d = json.loads(z.read(n))
+                types, abilities = set(), set()
+                for f in [d] + [f for f in d.get("forms", []) if not set(f.get("aspects", [])) & {"mega", "mega_x", "mega_y", "gmax"}]:
+                    pt = f.get("primaryType", d["primaryType"])
+                    st = f.get("secondaryType", d.get("secondaryType") if "primaryType" not in f else None)
+                    types |= {pt} | ({st} if st else set())
+                    abilities |= {a.split(":", 1)[-1] for a in f.get("abilities", d["abilities"])}
+                info[sp] = {"types": types, "abilities": abilities}
+    return info
+
+
+def substitute(text, own_types):
+    """The ability's code with its own types (and their weathers) swapped for the distorted ones."""
+    pairs = {}
+    for t in own_types:
+        pairs[f'"{t.title()}"'] = f'"{TYPE_CHART[t].title()}"'
+        dst = WEATHER.get(TYPE_CHART[t], [])
+        if dst:
+            for i, w in enumerate(WEATHER.get(t, [])):
+                pairs[f'"{w}"'] = f'"{dst[min(i, len(dst) - 1)]}"'
+    if not pairs:
+        return text, []
+    rx = re.compile("|".join(re.escape(k) for k in sorted(pairs, key=len, reverse=True)))
+    done = []
+    out = rx.sub(lambda m: (done.append(m.group(0)), pairs[m.group(0)])[1], text)
+    return out, sorted({(k.strip('"'), pairs[k].strip('"')) for k in done})
+
+
+def normalize(text, name, aid):
+    text = text.replace("\r\n", "\n")
+    text = re.sub(r"this\.debug\([^;]*\);", "", text)
+    text = text.replace(f'"{name}', '"§NAME').replace(f": {name}", ": §NAME").replace(f'"{aid}"', '"§ID"')
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def ability_body(ab, aid):
+    return {k: normalize(v, ab["name"], aid) for k, v in ab["members"].items() if k not in ABILITY_META}
+
+
+def build_ability_twins(abilities, info):
+    twins, new = {}, {}
+    num = -31100
+    for sp in sorted(info):
+        for aid in sorted(info[sp]["abilities"]):
+            ab = abilities.get(aid)
+            if not ab or aid in twins:
+                continue
+            members, changes = {}, []
+            for k, v in ab["members"].items():
+                members[k], ch = substitute(v, info[sp]["types"]) if k not in ABILITY_META else (v, [])
+                changes += ch
+            if not changes:
+                continue                                    # not bound to its own type: it stays
+            body = {k: normalize(v, ab["name"], aid) for k, v in members.items() if k not in ABILITY_META}
+            match = sorted((o for o, oa in abilities.items() if o != aid and not oa["isNonstandard"] and ability_body(oa, o) == body),
+                           key=lambda o: abilities[o]["num"])
+            if match:
+                twins[aid] = match[0]                       # Blaze -> Torrent
+                continue
+            name = ABILITY_NAMES.get(aid)
+            if not name:
+                frm, to = changes[0]
+                words = ab["name"].split(" ")
+                swapped = [to.title() if w in TYPE_WORDS.get(frm.lower(), []) else w for w in words]
+                name = " ".join(swapped) if swapped != words else f"{to.title()} {ab['name']}"
+            tid = toid(name)
+            num -= 1
+            out = {}
+            for k, v in members.items():
+                if k == "name":
+                    v = f'"name": "{name}"'
+                elif k == "num":
+                    v = f'"num": {num}'
+                else:
+                    v = v.replace(f'"{aid}"', f'"{tid}"').replace(f"ability: {ab['name']}", f"ability: {name}")
+                out[k] = v.replace("\r\n", "\n")
+            out.setdefault("num", f'"num": {num}')
+            new[tid] = {"from": aid, "name": name, "orig_name": ab["name"], "members": out, "changes": sorted(set(changes))}
+            twins[aid] = tid
+    return twins, new
+
+
+def write_abilities(new):
+    adir = RES / "data" / MOD / "abilities"
+    if adir.exists():
+        for f in adir.glob("*.js"):
+            f.unlink()
+    for tid, n in new.items():
+        write(adir / f"{tid}.js", "{\n" + ",\n".join(n["members"].values()) + "\n}\n")
 
 
 def signature(m):
@@ -168,7 +282,7 @@ def write_crystal():
 """)
 
 
-def write_engine(twins):
+def write_engine(twins, ability_twins):
     table = json.dumps(twins, sort_keys=True)
     # side: the choice. "move N [target] distort" reaches chooseMove with " distort" still on (choose() only strips
     # the gimmicks it knows): strip it, check, choose the move as usual, mark the Pokémon.
@@ -183,9 +297,10 @@ def write_engine(twins):
       }
       const index = this.getChoiceIndex();
       const pokemon = this.active[index];
-      if (!pokemon) return this.emitChoiceError("Can't distort: no Pokemon");
-      if (this.distortUsed || this.choice.distort) return this.emitChoiceError("Can't distort: you can only distort once per battle");
-      if (!this.battle.actions.canDistort(pokemon)) return this.emitChoiceError(`Can't distort: ${pokemon.name} can't distort`);
+      // can't distort (already did, or no crystal): the plain move, never an error (an AI's choice must not fail)
+      if (!pokemon || this.distortUsed || this.choice.distort || !this.battle.actions.canDistort(pokemon)) {
+        return Side.prototype.chooseMove.call(this, text, targetLoc, event);
+      }
       const ok = Side.prototype.chooseMove.call(this, text, targetLoc, event);
       if (ok) {
         // the queue turns this into a distort action before the move (see queue.js)
@@ -209,10 +324,9 @@ def write_engine(twins):
       const runAction = battle.runAction;
       battle.runAction = function (a) {
         if (a.choice === "event" && a.event === "Distort") this.actions.runDistort(a.pokemon);
-        const result = runAction.call(this, a);
         // Pokémon distorted outside battle (the interaction wheel) start in their -Distorted forme: give them their twins
         if (a.choice === "start") this.actions.distortedAtStart();
-        return result;
+        return runAction.call(this, a);
       };
     }
     const actions = BattleQueue.prototype.resolveAction.call(this, action, midTurn);
@@ -228,6 +342,7 @@ def write_engine(twins):
     # actions: distorting happens right before the Pokémon's move, and the chosen move becomes its twin
     write(RES / "data" / MOD / "mega_showdown" / "showdown" / "scripts" / "actions.js", """({
   distortTwins: TWINS,
+  distortAbilities: ABILITIES,
   distortChart: CHART,
   distortedSpecies(pokemon) {
     const species = this.dex.species.get(pokemon.species.name + "-Distorted");
@@ -253,11 +368,21 @@ def write_engine(twins):
       if (pokemon.baseMoveSlots[i] && pokemon.baseMoveSlots[i].id === slot.id) pokemon.baseMoveSlots[i] = moved;
     }
   },
+  distortedAbility(pokemon) {
+    const twin = this.distortAbilities[pokemon.baseAbility];
+    return twin && this.dex.abilities.get(twin).exists ? twin : null;
+  },
   distortedAtStart() {
+    // before the leads are sent out, so their abilities start as their twins
     for (const side of this.battle.sides) {
       for (const pokemon of side.pokemon) {
         if (pokemon.distorted || !/-Distorted$/.test(pokemon.species.name)) continue;
         this.distortMoves(pokemon);
+        const twin = this.distortedAbility(pokemon);
+        if (twin) {
+          pokemon.baseAbility = pokemon.ability = twin;
+          pokemon.abilityState = {id: twin, target: pokemon};
+        }
         pokemon.distorted = true;
         side.distortUsed = true;
       }
@@ -267,11 +392,13 @@ def write_engine(twins):
     if (!pokemon.isActive || pokemon.fainted || !this.canDistort(pokemon)) return false;
     const species = this.distortedSpecies(pokemon);
     const ability = pokemon.ability;
+    const twin = this.distortedAbility(pokemon);
     const source = this.dex.conditions.get("distortion");
     pokemon.formeChange(species, source && source.exists ? source : null, true);
-    // the ability stays what it was (inverted, if it's a type-bound one with a twin)
-    pokemon.setAbility(ability, null, true);
-    pokemon.baseAbility = ability;
+    // the ability follows: its distorted twin if it's bound to the Pokémon's type (Blaze -> Torrent), else the same
+    pokemon.setAbility(twin || ability, null, true);
+    pokemon.baseAbility = twin || ability;
+    if (twin) this.battle.add("-ability", pokemon, this.dex.abilities.get(twin).name);
     this.distortMoves(pokemon);
     pokemon.distorted = true;
     pokemon.side.distortUsed = true;
@@ -291,13 +418,18 @@ def write_engine(twins):
     return BattleActions.prototype.runMove.call(this, moveOrMoveName, pokemon, targetLoc, options);
   },
 })
-""".replace("TWINS", table).replace("CHART", json.dumps({k.title(): v.title() for k, v in TYPE_CHART.items()}, sort_keys=True)))
+""".replace("TWINS", table).replace("ABILITIES", json.dumps(ability_twins, sort_keys=True)).replace("CHART", json.dumps({k.title(): v.title() for k, v in TYPE_CHART.items()}, sort_keys=True)))
 
 
-def write_lang(new):
+def write_lang(new, new_abilities):
     path = RES / "assets" / MOD / "lang" / "en_us.json"
     data = json.loads(path.read_text()) if path.exists() else {}
-    data = {k: v for k, v in data.items() if not k.startswith("cobblemon.move.")}
+    data = {k: v for k, v in data.items() if not k.startswith(("cobblemon.move.", "cobblemon.ability."))}
+    for tid, n in new_abilities.items():
+        changes = " and ".join(f"{WEATHER_NAMES.get(b, b)} instead of {WEATHER_NAMES.get(a, a)}"
+                               for a, b in sorted(n["changes"], key=lambda c: len(WEATHER_NAMES.get(c[0], c[0]))))
+        data[f"cobblemon.ability.{tid}"] = n["name"]
+        data[f"cobblemon.ability.{tid}.desc"] = f"The distorted twin of {n['orig_name']}: the same effect, with {changes}."
     for tid, n in new.items():
         data[f"cobblemon.move.{tid}"] = n["name"]
         data[f"cobblemon.move.{tid}.desc"] = (f"The distorted twin of {n['orig_name']}: the same move, but {n['type']}-type."
@@ -308,20 +440,24 @@ def write_lang(new):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--moves", required=True)
+    ap.add_argument("--showdown", required=True, help="dump_showdown.js's output")
     ap.add_argument("--cobblemon-jar", required=True)
     a = ap.parse_args()
-    moves = json.loads(Path(a.moves).read_text())
+    dump = json.loads(Path(a.showdown).read_text())
+    moves, abilities = dump["moves"], dump["abilities"]
     learn = learnsets(a.cobblemon_jar)
     twins, new = build_twins(moves, learn)
+    ability_twins, new_abilities = build_ability_twins(abilities, species_info(a.cobblemon_jar))
     write_moves(new)
+    write_abilities(new_abilities)
     write_crystal()
-    write_engine(twins)
-    write_lang(new)
+    write_engine(twins, ability_twins)
+    write_lang(new, new_abilities)
     (RES / "data" / MOD / "distortion").mkdir(parents=True, exist_ok=True)
     (RES / "data" / MOD / "distortion" / "move_twins.json").write_text(json.dumps(twins, indent=2, sort_keys=True) + "\n")
     existing = sum(1 for v in twins.values() if v not in new)
     print(f"{len(learn)} learnable moves -> {len(twins)} twins ({existing} existing opposites, {len(new)} new moves)")
+    print("ability twins:", ", ".join(f"{k} -> {v}{' (new)' if v in new_abilities else ''}" for k, v in sorted(ability_twins.items())))
 
 
 if __name__ == "__main__":

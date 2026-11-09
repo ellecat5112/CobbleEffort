@@ -4,7 +4,7 @@
 <script type="module">
 import * as THREE from 'three';
 const rad = d => d * Math.PI / 180;
-window.renderModel = async (geo, texUrl, size, yaw, layers = []) => {
+window.renderModel = async (geo, texUrl, size, yaw, layers = [], up = 15) => {
   const g = geo['minecraft:geometry'][0];
   const TW = g.description.texture_width, TH = g.description.texture_height;
   const tex = await new THREE.TextureLoader().loadAsync(texUrl);
@@ -85,7 +85,7 @@ window.renderModel = async (geo, texUrl, size, yaw, layers = []) => {
   const c = box.getCenter(new THREE.Vector3()), s = box.getSize(new THREE.Vector3());
   const ext = Math.max(s.x, s.y, s.z) * 0.62;
   const cam = new THREE.OrthographicCamera(-ext, ext, ext, -ext, -1000, 1000);
-  cam.position.set(c.x - 35, c.y + 15, c.z - 60); cam.lookAt(c);
+  cam.position.set(c.x - 35, c.y + up, c.z - 60); cam.lookAt(c);
   const r = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
   r.setSize(size, size); r.outputColorSpace = THREE.SRGBColorSpace;
   r.render(scene, cam); const out = r.domElement.toDataURL("image/png"); r.dispose(); r.forceContextLoss(); return out;
