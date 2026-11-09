@@ -11,6 +11,10 @@
    "texture": "cobbleeffort:textures/pokemon/0994_ironmoth/ironmoth_mega.png",
    "layers": [
     {
+     "name": "emissive",
+     "enabled": false
+    },
+    {
      "name": "cobbleeffort_mega_glow",
      "emissive": true,
      "translucent": true,

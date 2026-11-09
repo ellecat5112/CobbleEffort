@@ -28,7 +28,11 @@ class Layer:
         self.licence = meta.get("licence", "")
         self.url = meta.get("url", "")
         self.derivatives = bool(meta.get("derivatives"))
+        self.bridge = bool(meta.get("bridge"))  # a legacy-layout resource pack, used through tools/bridge.py
+        self.meta = meta
         self.path = path
+        self.virtual: dict[str, bytes] | None = None
+        self.report: list[str] = []
         if path.is_file():
             self.zip = zipfile.ZipFile(path)
             self.files = {n for n in self.zip.namelist() if not n.endswith("/")}
@@ -39,13 +43,43 @@ class Layer:
             self.path = root
 
     def read(self, rel: str) -> bytes:
+        if self.virtual is not None:
+            return self.virtual[rel]
         return self.zip.read(rel) if self.zip else (self.path / rel).read_bytes()
+
+    def read_original(self, rel: str) -> bytes:
+        return self.zip.read(rel) if self.zip else (self.path / rel).read_bytes()
+
+    def set_virtual(self, files: dict[str, bytes]):
+        """Serve these files instead of the source's own (a bridged pack: what tools/bridge.py writes)."""
+        self.original_files = self.files
+        self.virtual = files
+        self.files = set(files)
 
     def json(self, rel: str):
         return json.loads(self.read(rel).decode("utf-8-sig"))
 
     def __repr__(self):
         return f"<{self.id}>"
+
+
+# Cobblemon still reads the pre-1.5 layout (bedrock/models, bedrock/posers, bedrock/animations, bedrock/species), but
+# it loads those folders BEFORE bedrock/pokemon/..., into the same name spaces (model file name, poser id, animation
+# group), and the later load wins. So a resource pack in the old layout loses every name it shares with a mod's file,
+# whatever the pack order, while its textures (same paths as the mods') still win: its texture on their mesh.
+LEGACY_DIRS = {"models": "models", "posers": "posers", "animations": "animations", "species": "resolvers"}
+
+
+def bedrock_kind(rel: str) -> tuple[str, bool] | None:
+    """('models' | 'posers' | 'animations' | 'resolvers', legacy?) for a Pokémon bedrock file, else None."""
+    parts = rel.split("/")
+    if len(parts) < 5 or parts[0] != "assets" or parts[2] != "bedrock":
+        return None
+    if parts[3] == "pokemon" and len(parts) >= 6 and parts[4] in ("models", "posers", "animations", "resolvers"):
+        return parts[4], False
+    if parts[3] in LEGACY_DIRS:
+        return LEGACY_DIRS[parts[3]], True
+    return None
 
 
 def _model_key(rel: str):
@@ -73,21 +107,42 @@ class Stack:
                 raise SystemExit("Missing compat sources (put the jar, or a directory of its resources, in tools/compat/jars/;"
                                  " or pass --no-compat):\n" + "\n".join(missing))
         self.by_id = {l.id: l for l in self.layers}
-        # model / poser / animation-group indexes: key -> [(layer, rel)] bottom to top
-        self.models: dict[tuple, list] = {}
-        self.posers: dict[tuple, list] = {}
-        self.anims: dict[str, list] = {}
-        for layer in self.layers:
+        bridged = [l for l in self.layers if l.bridge]
+        if bridged and self.layers[-len(bridged):] != bridged:
+            raise SystemExit("mods.json: bridged packs must come last (they're used as the top resource packs)")
+        # a bridged pack is seen as the bridge tools/bridge.py writes for it (computed against the layers below it)
+        self._index([l for l in self.layers if not l.bridge])
+        if bridged:
+            from bridge import bridge
+            for layer in bridged:
+                layer.set_virtual(bridge(self, layer))
+            self._index(self.layers)
+
+    def _index(self, layers):
+        """Model / poser / animation-group indexes: key -> [(layer, rel)] in Cobblemon's load order, so the last entry
+        is the one it uses (old-layout folders first, then bedrock/pokemon/..., each bottom to top)."""
+        found: dict[str, dict] = {"models": {}, "posers": {}, "animations": {}}
+        for layer in layers:
             for rel in sorted(layer.files):
-                if not rel.startswith("assets/"):
+                kind = bedrock_kind(rel)
+                if kind is None and rel.startswith("assets/") and rel.endswith(".animation.json"):
+                    kind = ("animations", False)                # other entities' animation folders
+                if kind is None or kind[0] == "resolvers" or not rel.endswith(".json"):
                     continue
-                if "/bedrock/pokemon/models/" in rel and rel.endswith(".geo.json"):
-                    self.models.setdefault(_model_key(rel), []).append((layer, rel))
-                elif "/bedrock/pokemon/posers/" in rel and rel.endswith(".json"):
-                    ns, name = rel.split("/")[1], rel.split("/")[-1][:-len(".json")]
-                    self.posers.setdefault((ns, name), []).append((layer, rel))
-                elif rel.endswith(".animation.json"):
-                    self.anims.setdefault(rel.split("/")[-1][:-len(".animation.json")], []).append((layer, rel))
+                name = rel.split("/")[-1][:-len(".json")]
+                if kind[0] == "models":
+                    if not name.endswith(".geo"):
+                        continue
+                    key = (rel.split("/")[1], name)
+                elif kind[0] == "posers":
+                    key = (rel.split("/")[1], name)
+                else:
+                    if not name.endswith(".animation"):
+                        continue
+                    key = name[:-len(".animation")]
+                found[kind[0]].setdefault(key, []).append((not kind[1], layer.index, layer, rel))
+        sort = lambda d: {k: [(l, r) for _, _, l, r in sorted(v, key=lambda e: (e[0], e[1]))] for k, v in d.items()}
+        self.models, self.posers, self.anims = sort(found["models"]), sort(found["posers"]), sort(found["animations"])
 
     # -----------------------------------------------------------------------------------------
     # lookups
@@ -155,6 +210,40 @@ class Stack:
                 if rx.fullmatch(rel):
                     out[rel] = layer
         return dict(sorted(out.items()))
+
+
+def compat_layers() -> list[Layer]:
+    """The mods.json layers on their own (no Cobblemon), as their sources ship them. Fails if one is missing."""
+    cfg = json.loads((COMPAT / "mods.json").read_text())
+    out, missing = [], []
+    for meta in cfg["mods"]:
+        found = sorted((COMPAT / "jars").glob(meta["source"]))
+        if not found:
+            missing.append(f"  {meta['name']}: tools/compat/jars/{meta['source']}  ({meta['url']})")
+            continue
+        out.append(Layer(len(out) + 1, meta, found[-1]))
+    if missing:
+        raise SystemExit("Missing compat sources:\n" + "\n".join(missing))
+    return out
+
+
+def resolver_layer_names(layers: list[Layer]) -> dict[str, set[str]]:
+    """species -> the names of every layer any of these layers' resolvers (either layout) gives it."""
+    names: dict[str, set[str]] = {}
+    for layer in layers:
+        for rel in sorted(layer.files):
+            kind = bedrock_kind(rel)
+            if not kind or kind[0] != "resolvers" or not rel.endswith(".json"):
+                continue
+            try:
+                data = layer.json(rel)
+            except ValueError:
+                continue
+            sp = str(data.get("species", data.get("name", ""))).split(":")[-1]
+            for v in data.get("variations", []):
+                for l in v.get("layers") or []:
+                    names.setdefault(sp, set()).add(l.get("name", ""))
+    return names
 
 
 ANIM_REF = re.compile(r"""(bedrock\w*\(\s*['"]?)([A-Za-z0-9_]+)(['"]?\s*,)""")

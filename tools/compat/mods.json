@@ -18,8 +18,11 @@
     {"id": "pokecostume", "name": "Poke Costumes (data pack)", "source": "PokeCostume_*.zip", "licence": "none stated",
      "derivatives": false, "url": "https://modrinth.com/datapack/poke-costume"},
     {"id": "fully_hisuian_starters", "name": "Fully Hisuian Starters (resource pack)", "source": "Fully_Hisuian_Starters_*.zip",
-     "licence": "none stated", "derivatives": false, "url": "https://modrinth.com/resourcepack/fully-hisuian-starters"}
+     "licence": "none stated", "derivatives": false, "url": "https://modrinth.com/resourcepack/fully-hisuian-starters"},
+    {"id": "planeta", "name": "Planeta Cobblemon free pack (resource pack)", "source": "PlanetaCobblemon*.zip",
+     "licence": "none stated", "derivatives": false, "bridge": true, "url": "https://planetacobblemon.com"}
   ],
+  "_bridge_comment": "'bridge': a resource pack in Cobblemon's old layout. Cobblemon loads that layout first, so its meshes lose every name a mod shares while its textures win. It is used through the bridge tools/bridge.py builds from the user's copy (build/bridge/), and the generator sees the stack as the bridge makes it. Bridged packs come last.",
   "_painted_comment": "Family members modelled only by a mod whose art can't be adapted. The generator reads just the UV layout of their model (no texture pixels) and paints an original base in the evolved form's Cobblemon colours (palette_from: aspect -> species, '' = default), then applies the collection's style.",
   "painted": {
     "xerfawn": {"mod": "baby_legends", "palette_from": {"": "xerneas"}},

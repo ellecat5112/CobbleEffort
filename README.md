@@ -14,7 +14,8 @@ evolution and branch of that Pokémon gets it too. The generator enforces this (
 
 **Built for a mod stack (since v0.10.0).** CobbleEffort is made to run alongside Mega Showdown (+ Extra Megas,
 Ores), Cobblemon: AllTheMons x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments,
-the Fully Hisuian Starters resource pack and the Poke Costumes data pack (all checked against their files). Megas, Gigantamax and other new forms keep
+the Fully Hisuian Starters resource pack, the Poke Costumes data pack and the Planeta Cobblemon free pack (through a
+bridge, see [Planeta Cobblemon](#planeta-cobblemon-free-pack-the-bridge)) (all checked against their files). Megas, Gigantamax and other new forms keep
 the cosmetic, and other mods' model replacements don't break it. See [Compatibility](#compatibility).
 
 ## Collection #1: Backrooms (Still Lifes)
@@ -470,6 +471,7 @@ CobbleEffort is built to be used alongside this mod stack, and every update is g
 | **Legendary Monuments** | Nothing to change: it adds structures, items and NPCs but no Pokémon models or forms (checked against 8.2) |
 | **Fully Hisuian Starters** (resource pack) | Its Hisui-bias Cyndaquil/Quilava, Oshawott/Dewott and Rowlet/Dartrix (`region-bias-hisui`) show unchanged under the cosmetic (no licence is given, so its art isn't adapted). Cyndaquil, Quilava, Rowlet and Dartrix are in collections |
 | **Poke Costumes** (data pack) | Its costume forms (Rowlet, Magneton, Krookodile, Gengar…) show unchanged under the cosmetic. Its cosmetic items don't clash with ours. It replaces Cobblemon's Black Glasses item list, which the generator follows |
+| **Planeta Cobblemon free pack** (resource pack) | Used through a bridge (below). Its models of Trubbish, Audino and Dedenne replace Cobblemon's, so their cosmetics (Christmas, FNAF, Ice Sculpture) ship Cobblemon's / Mega Showdown's model, poser and animations under CobbleEffort's name and keep their look. Its Iron Boulder is the Iron Boulder Mega Iron Boulder evolves from |
 
 How it works: a resolver may only name models that exist whatever is installed, either Cobblemon's own or copies
 shipped in CobbleEffort. Cobblemon loads every named model at startup, and a missing one stops the game on the
@@ -479,7 +481,32 @@ the cosmetic only swaps textures. Forms added by those mods get a "passthrough" 
 restores what the game shows without the cosmetic. On the few pinned species the cosmetic shows on its own model
 instead.
 
+Base-form layers also merge into every form by name, so each Paradox mega switches off the glow, sleep and
+alpha-eye layers Cobblemon or ATM give its base form (painted for the base mesh; up to 0.23.0 they showed on 12 megas).
+
 ![Mega Showdown forms and Baby Legends babies, original vs. cosmetic](docs/compat_forms_preview.png)
+
+### Planeta Cobblemon free pack: the bridge
+
+The pack (16 Pokémon: Electrike, Heatran, Audino, Trubbish, Terrakion, Virizion, Dedenne, Celesteela, Iron Treads,
+Iron Hands, Iron Jugulis, Wo-Chien, Ting-Lu, Roaring Moon, Iron Boulder, Iron Crown) uses Cobblemon's old folder
+layout (`bedrock/models`, `bedrock/posers`, `bedrock/animations`, `bedrock/species`). Cobblemon 1.8 still reads it,
+but loads it **before** `bedrock/pokemon/...`, into the same names (model file name, poser id, animation group), and
+the later load wins. So for the 14 of them that Cobblemon, Mega Showdown or ATM x MSD also ship, the pack's mesh,
+poser and animations are thrown away whatever the pack order, while its textures (same paths) still win: Planeta's
+texture on another mod's mesh, scrambled. Base glow and alpha-eye layers made for the other mesh stay on as well.
+Celesteela and Iron Boulder were fine (nothing else ships them).
+
+`tools/bridge.py` rebuilds the pack from your own copy in the current layout so it wins as a whole: every model,
+poser and animation at the path each competing file uses, its resolver first (a lower order than any other for that
+species), and the other resolvers for those species cut down to the forms with their own mesh (Mega Audino stays).
+Planeta's art is never committed or shipped in CobbleEffort: the bridge is built locally into `build/bridge/`
+(`generate.py build` does it when the pack is in `tools/compat/jars/`), for your own use. Install it **instead of**
+the original pack, above the other resource packs.
+
+```
+python3 tools/bridge.py --cobblemon cobblemon/common/src/main/resources   # -> build/bridge/<pack>-CobbleEffort-bridge.zip
+```
 
 ## Requirements & versions
 
@@ -520,7 +547,9 @@ across the whole body. Everything under `assets/cobbleeffort` and `data/cobbleef
 
 The generator reads the mod stack from `tools/compat/mods.json`. Put each mod's jar (or a directory of its
 resources) in `tools/compat/jars/`, which is gitignored: other mods' files are never committed. Pass `--no-compat`
-to build against Cobblemon alone.
+to build against Cobblemon alone. Resource packs in Cobblemon's old layout are marked `"bridge": true` and seen as
+their bridge (see [the bridge](#planeta-cobblemon-free-pack-the-bridge)). The Paradox megas are built by
+`python3 tools/megas/build.py --cobblemon cobblemon/common/src/main/resources`.
 
 ```
 pip install pillow

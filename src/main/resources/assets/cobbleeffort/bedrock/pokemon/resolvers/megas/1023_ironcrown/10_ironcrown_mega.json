@@ -11,6 +11,10 @@
    "texture": "cobbleeffort:textures/pokemon/1023_ironcrown/ironcrown_mega.png",
    "layers": [
     {
+     "name": "glow",
+     "enabled": false
+    },
+    {
      "name": "cobbleeffort_mega_glow",
      "emissive": true,
      "translucent": true,

@@ -99,6 +99,9 @@ and contributors.
   License 1.3), **Fully Hisuian Starters** by its author and **Poke Costumes** by RedRibbon (no licence stated): their
   forms are only referenced by id in "passthrough" resolver entries, so they show unchanged under a cosmetic. None of
   their files is included or modified.
+* **Planeta Cobblemon free pack** by Planeta Cobblemon (no licence stated): read locally to build its compatibility
+  bridge (`tools/bridge.py`) from the user's own copy, for their own use, and to know which Cobblemon models it
+  replaces. None of its files is included in CobbleEffort or committed.
 * **Legendary Monuments** by JorgaoMC (All Rights Reserved) is read only to confirm it doesn't touch Pokémon visuals.
 * The generator reads these mods' jars locally at build time (`tools/compat/`, gitignored). They are never committed.
 

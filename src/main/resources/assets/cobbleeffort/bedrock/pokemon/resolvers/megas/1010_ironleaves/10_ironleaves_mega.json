@@ -11,6 +11,18 @@
    "texture": "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega.png",
    "layers": [
     {
+     "name": "alpha_eyes",
+     "enabled": false
+    },
+    {
+     "name": "emissive",
+     "enabled": false
+    },
+    {
+     "name": "sleep",
+     "enabled": false
+    },
+    {
      "name": "cobbleeffort_mega_glow",
      "emissive": true,
      "translucent": true,

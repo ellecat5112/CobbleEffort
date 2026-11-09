@@ -21,7 +21,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
    under `compat/mega_showdown/`): keep `CREDITS.md` accurate; non-commercial.
 6. **Always build for the user's mod stack** (`tools/compat/mods.json`): Mega Showdown (+ Extra Megas, Ores),
    Cobblemon: AllTheMons x Mega Showdown, Cobblemon Baby Legends, Cobblemon Lost Lore, Legendary Monuments, Fully
-   Hisuian Starters RP, Poke Costumes DP. The generator reads their jars from `tools/compat/jars/` (gitignored; ask the
+   Hisuian Starters RP, Poke Costumes DP, Planeta Cobblemon free pack RP (bridged, below). The generator reads their jars from `tools/compat/jars/` (gitignored; ask the
    user for any that are missing, and never commit them). It merges species data (other mods' pre-evolutions and evolutions
    join families), retextures forms from `derivatives: true` mods, passes through forms from the others, pins
    model+poser on every copy, and vendors Cobblemon's model/poser/animations when a no-derivatives mod overwrites
@@ -31,6 +31,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
    load). Only `cobblemon:` models Cobblemon ships, or `cobbleeffort:` copies (Vendor), are allowed. Posers too (they're
    resolved at render time). The generator (`check_launch_safe`) and `validateData` enforce it. When a mod is added to the
    stack, add it to mods.json and rebuild everything.
+   **Old-layout resource packs** (`bedrock/models|posers|animations|species`, e.g. Planeta Cobblemon): Cobblemon loads
+   that layout first into the same names, so their meshes lose to any mod's while their textures win (scrambled).
+   Mark them `"bridge": true` in mods.json (last): `tools/bridge.py` turns the user's copy into a current-layout pack
+   (files at every competing path, its resolver at the lowest order, other resolvers for those species cut to forms
+   with their own mesh) in `build/bridge/` (also run by `generate.py build`), never committed or shipped, and Stack
+   sees that layer as its bridge so cosmetics vendor the models it replaces. Hand the user the bridge zip.
 
 ## Workflow
 
@@ -73,7 +79,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   limit: candidate boxes at several tolerances/grids, greedy non-overlapping pick, then growth) and
   `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
-- Paradox megas: `tools/megas/build.py` (config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
+- Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
+  form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
   on `tools/megas/_boxmodel.py` (bones + boxes placed by coordinate, front = -z; `round_box` for rounded parts;
   zero-thickness planes with cut-out shaders for feathers/moss/frills; `rod`/`chain`/`spike` aim boxes along a

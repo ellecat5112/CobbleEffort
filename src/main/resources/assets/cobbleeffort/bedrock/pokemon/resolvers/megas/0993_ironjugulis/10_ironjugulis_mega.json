@@ -11,6 +11,14 @@
    "texture": "cobbleeffort:textures/pokemon/0993_ironjugulis/ironjugulis_mega.png",
    "layers": [
     {
+     "name": "alpha_eyes",
+     "enabled": false
+    },
+    {
+     "name": "emissive",
+     "enabled": false
+    },
+    {
      "name": "cobbleeffort_mega_glow",
      "emissive": true,
      "translucent": true,

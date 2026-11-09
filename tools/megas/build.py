@@ -22,7 +22,7 @@ code is needed. The shard's custom_model_data picks the stone's own icon.
 
 Stats: base + 100, keeping the Paradox rule that Ancient stats are odd and Future stats even. Types stay.
 
-Usage: python3 tools/megas/build.py
+Usage: python3 tools/megas/build.py --cobblemon <cobblemon>/common/src/main/resources
 """
 from __future__ import annotations
 
@@ -415,11 +415,15 @@ def data_files(sp):
     tex = lambda n: f"{MOD}:textures/pokemon/{FOLDER(sp)}/{n}.png"
     glow = lambda sfx: {"name": "cobbleeffort_mega_glow", "emissive": True, "translucent": True,
                         "texture": {"frames": [tex(f"{nm}{sfx}_glow_{f}") for f in range(3)], "fps": 6, "loop": True}}
-    # the mega's look: only with the "mega" aspect, so the base form (from another mod) is untouched
+    # the mega's look: only with the "mega" aspect, so the base form (from another mod) is untouched. Cobblemon merges
+    # layers by name across every matching variation, so the base form's layers (glow, alpha eyes: painted for the
+    # base mesh) are switched off on the mega
+    inherited = [{"name": n, "enabled": False} for n in sorted(BASE_LAYERS.get(sp, set()))]
     write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / "megas" / FOLDER(sp) / f"10_{nm}.json", {
         "species": f"cobblemon:{sp}", "order": 10,
         "variations": [
-            {"aspects": ["mega"], "poser": f"{MOD}:{nm}", "model": f"{MOD}:{nm}.geo", "texture": tex(nm), "layers": [glow("")]},
+            {"aspects": ["mega"], "poser": f"{MOD}:{nm}", "model": f"{MOD}:{nm}.geo", "texture": tex(nm),
+             "layers": inherited + [glow("")]},
             {"aspects": ["mega", "shiny"], "texture": tex(f"{nm}_shiny"), "layers": [glow("_shiny")]},
         ]})
     hp, atk, de, spa, spd, spe = cfg["stats"]
@@ -519,7 +523,19 @@ def lang(sps):
     write_json(path, dict(sorted(data.items())))
 
 
+BASE_LAYERS: dict[str, set[str]] = {}
+
+
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--cobblemon", required=True, type=Path, help="Cobblemon's common/src/main/resources")
+    args = ap.parse_args()
+    sys.path.insert(0, str(TOOLS))
+    from stack import Stack, resolver_layer_names
+    stack = Stack(args.cobblemon)
+    # every layer the stack's own resolvers give each species (the bridge's packs ship none of their own)
+    BASE_LAYERS.update(resolver_layer_names([l for l in stack.layers if not l.bridge]))
     sps = built()
     manifest = []
     for sp in sps:

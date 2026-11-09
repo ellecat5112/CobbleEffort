@@ -984,6 +984,10 @@ def cmd_build(cob: Cobblemon, names: list[str]):
     make_readme.main()
     import make_creative_tab
     make_creative_tab.main()
+    # bridged resource packs (mods.json "bridge"): rebuilt from the user's own copy into build/bridge/ (never shipped)
+    import bridge
+    for dest in bridge.build(cob.stack, ROOT / "build" / "bridge"):
+        print(f"bridge: {dest.relative_to(ROOT)}")
 
 
 def cmd_pick(cob: Cobblemon, count: int, seed: str):
