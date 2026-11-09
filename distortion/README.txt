@@ -7,8 +7,8 @@ Distortion Band, distorts: its types turn into their weaknesses, its moves follo
 A TEST BUILD. What's in it:
   - The Distortion Band and the Distortion Crystal (one crystal for every Pokemon), in the "Distortion" creative tab.
   - A "Distortion" accessory slot (open your Accessories screen); the band goes there.
-  - Distorted forms for Giratina, Dialga, Palkia and Arceus (including the Origin forms and every Arceus plate type)
-    and NEW: every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
+  - Distorted forms for Giratina, Dialga, Palkia and Arceus (including the Origin forms and every Arceus plate type),
+    NEW: the Gen 1 legendary and mythical Pokemon (Articuno, Zapdos, Moltres, Mewtwo, Mew), and every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
     and Decidueye and Greninja's Bond form). Each line has its own distorted look:
       water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
     (see STARTERS below).
@@ -21,7 +21,8 @@ A TEST BUILD. What's in it:
 
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
-  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, any starter or its evolutions).
+  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, the Gen 1 legendaries and Mew,
+     any starter or its evolutions).
      Arceus doesn't need it: it distorts with its plate (it can only hold one item, and the plates are its power).
   3. In battle, pick "Fight": a Distort button appears next to the back button. Click it (the move tiles switch to
      the distorted moves), then pick a move.
@@ -52,6 +53,18 @@ Distorted types (each type becomes its weakness):
   Starters: Grass -> Fire, Fire -> Water, Water -> Grass, and their second types follow the same chart
   (Charizard Fire/Flying -> Water/Electric, Venusaur Grass/Poison -> Fire/Ground, Empoleon Water/Steel -> Grass/Ground).
   Stone megas and primals don't distort (they need their own held item).
+
+GEN 1 LEGENDARY AND MYTHICAL POKEMON
+  Mew       Psychic -> Normal/Fighting (a specialised distortion): the unborn. It floats in a translucent orb, the
+            placenta, veined and pulsing like a heartbeat; its tail turns to the front as the umbilical cord. Its
+            Psychic moves turn Normal.
+  Mewtwo    Psychic -> Normal/Fighting (a specialised distortion): the heavyweight bodybuilder. Huge translucent pink
+            arms (Conkeldurr's), a bulked-up chest, waist and thighs. Its Psychic moves turn Fighting.
+  Articuno  Ice/Flying -> Fire/Electric: a phoenix, its tail and crest burning. Snow Cloak -> Heat Haze (in sun).
+  Zapdos    Electric/Flying -> Ground/Electric: a dust storm, ochre with a sandstone crest.
+  Moltres   Fire/Flying -> Water/Electric: a tidal wave, its flames turned to water.
+  (Galarian Articuno, Zapdos and Moltres distort too: Dark/Electric, Psychic/Electric, Fairy/Electric. Mega Mewtwo
+  can't: it needs a Mega Stone.)
 
 STARTERS (the distorted looks)
   Grass starters, natural disasters:
@@ -100,6 +113,8 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  New in this build: Mew (the orb and the cord: do they sit right while it floats and animates?), Mewtwo (the arms
+  and bulk), the legendary birds.
   New in this build: distort, then press Distort again on a later turn to revert, and again to re-distort. Dynamax
   or Gigantamax a distorted Pokemon (it should stay distorted, with the distorted look). Ash-Greninja: a distorted
   Greninja with Battle Bond (and high friendship) knocking a Pokemon out.

@@ -8,5 +8,5 @@ onModifyType(move, pokemon) {
 "flags": {},
 "name": "Blossom Voice",
 "rating": 1.5,
-"num": -31101
+"num": -31102
 }

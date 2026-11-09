@@ -66,8 +66,13 @@ STARTER_LINES = [
 ]
 STARTER_NUMS = [1, 4, 7, 152, 155, 158, 252, 255, 258, 387, 390, 393, 495, 498, 501, 650, 653, 656, 722, 725, 728,
                 810, 813, 816, 906, 909, 912]
-# the distortable Pokémon (curated): the Distortion World's champion and the creation trio, then every starter line
-DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus"}
+# the distortable Pokémon (curated): the Distortion World's champion and the creation trio, the Gen 1 legendary and
+# mythical Pokémon, then every starter line
+DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus",
+               "articuno": "0144_articuno", "zapdos": "0145_zapdos", "moltres": "0146_moltres",
+               "mewtwo": "0150_mewtwo", "mew": "0151_mew"}
+# specialised distortions (the user's designs): these don't follow the chart; every form gets these types
+TYPE_OVERRIDES = {"mew": ["normal", "fighting"], "mewtwo": ["normal", "fighting"]}
 for _line, _num in zip(STARTER_LINES, STARTER_NUMS):
     for _i, _sp in enumerate(_line):
         DISTORTABLE[_sp] = f"{_num + _i:04d}_{_sp}"
@@ -259,6 +264,8 @@ def forms():
                 "battleOnly": False}
         if d.get("secondaryType"):
             base["secondaryType"] = invert(d["secondaryType"])
+        if sp in TYPE_OVERRIDES:
+            base["primaryType"], base["secondaryType"] = TYPE_OVERRIDES[sp]
         new.append(base)
         for f in d.get("forms", []):
             if skipped(sp, f.get("aspects", [])):
@@ -273,6 +280,8 @@ def forms():
                 g.pop("secondaryType", None)
             g["aspects"] = list(f.get("aspects", [])) + ["distorted"]
             g["battleOnly"] = bool(f.get("battleOnly"))           # Gigantamax/Ash stay battle forms
+            if sp in TYPE_OVERRIDES:
+                g["primaryType"], g["secondaryType"] = TYPE_OVERRIDES[sp]
             for k in ("evolutions", "preEvolution", "drops", "moves"):
                 g.pop(k, None)
             new.append(g)
@@ -424,6 +433,8 @@ def looks():
 
         def recolour_for(img, shiny):
             rc = getattr(module, "RECOLOUR", None) if module else None
+            if rc == "keep":
+                return img.convert("RGBA")                      # a specialised distortion keeps its colours
             if not rc:
                 return recolour(img)
             dst = rc.get("dst_shiny", rc["dst"] + 35) if shiny else rc["dst"]
@@ -462,7 +473,7 @@ def looks():
                     if module is not None and getattr(module, "GLOW_DST", None) is not None and "alpha" not in p:
                         img = recolour_shift(img, module.GLOW_DST, width=180)   # the glow's colours, all turned
                     if kit:
-                        img = pad(img, kit.height_factor())
+                        img = pad(img, kit.height_factor(), kit.TW)
                     dst = dst_for(p, "" if kit is None or kit.model == sp else f"_{kit.model}")
                     save_png(RES / "assets" / MOD / dst, img)
                     done[key] = f"{MOD}:{dst}"
@@ -536,9 +547,9 @@ def looks():
         print(f"{sp}: {len(out)} variations, {len(done)} textures" + (f", {n_kits} distorted model(s)" if n_kits else ""))
 
 
-def pad(img, factor):
+def pad(img, factor, width=None):
     img = img.convert("RGBA")
-    out = Image.new("RGBA", (img.width, img.height * factor), (0, 0, 0, 0))
+    out = Image.new("RGBA", (width or img.width, img.height * factor), (0, 0, 0, 0))
     out.paste(img, (0, 0))
     return out
 

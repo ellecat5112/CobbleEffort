@@ -1,0 +1,110 @@
+{
+  "target": "cobblemon:articuno",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "abilities": [
+        "competitive",
+        "h:competitive"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 85,
+        "defence": 85,
+        "hp": 90,
+        "special_attack": 125,
+        "special_defence": 100,
+        "speed": 95
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "articuno galarian",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "eggCycles": 120,
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 17,
+      "labels": [
+        "gen8",
+        "legendary",
+        "galarian_form"
+      ],
+      "maleRatio": -1,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.articuno-galar.desc"
+      ],
+      "primaryType": "dark",
+      "riding": {
+        "behaviour": {
+          "key": "cobblemon:air/bird"
+        },
+        "seats": [],
+        "stats": {
+          "ACCELERATION": {
+            "ranges": "25-50"
+          },
+          "JUMP": {
+            "ranges": "25-60"
+          },
+          "SKILL": {
+            "ranges": "50-80"
+          },
+          "SPEED": {
+            "ranges": "35-75"
+          },
+          "STAMINA": {
+            "ranges": "35-75"
+          }
+        }
+      },
+      "secondaryType": "electric",
+      "weight": 509
+    }
+  ]
+}

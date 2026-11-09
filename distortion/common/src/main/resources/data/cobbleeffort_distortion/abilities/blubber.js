@@ -16,5 +16,5 @@ onSourceModifySpA(atk, attacker, defender, move) {
 "flags": {"breakable":1},
 "name": "Blubber",
 "rating": 3.5,
-"num": -31105
+"num": -31106
 }

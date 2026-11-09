@@ -1,0 +1,74 @@
+{
+  "species": "cobblemon:mewtwo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mewtwo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_muscle",
+          "emissive": false,
+          "translucent": true,
+          "texture": {
+            "fps": 1,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo_muscle0.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mewtwo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_muscle",
+          "emissive": false,
+          "translucent": true,
+          "texture": {
+            "fps": 1,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo_shiny_muscle0.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_muscle",
+          "emissive": false,
+          "translucent": true,
+          "texture": {
+            "fps": 1,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0150_mewtwo/distorted_mewtwo_muscle0.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

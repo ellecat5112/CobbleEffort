@@ -437,3 +437,81 @@ def speckles(dark=(40, 40, 46), every=7):
         a[m, 0], a[m, 1], a[m, 2] = dark
         return Image.fromarray(a.astype(np.uint8), "RGBA")
     return op
+
+
+
+class Membrane:
+    """A translucent membrane drawn as a disc on each face (so a box reads as a bubble): faint in the middle, a thicker
+    rim, branching veins, gently pulsing (a heartbeat across the frames). Only in its (translucent) layer; the body
+    stays clear."""
+
+    def __init__(self, layer, tint=(255, 196, 206), vein=(196, 52, 84), shiny_tint=(214, 200, 255), shiny_vein=(110, 70, 190)):
+        self.layer, self.tint, self.vein = layer, {False: tint, True: shiny_tint}, {False: vein, True: shiny_vein}
+
+    def paint(self, ctx, rects, size, reskin):
+        frames = len(ctx.layers[self.layer])
+        for face, X, Y, s, t, x, y, w, h in _iter(rects):
+            ctx.put(X, Y, (0, 0, 0, 0))
+            r = math.hypot(s - 0.5, t - 0.5) * 2
+            if r > 1:
+                continue
+            ang = math.atan2(t - 0.5, s - 0.5)
+            vein = abs(math.sin(ang * 4 + 0.7 * math.sin(r * 5))) < 0.14 and r > 0.2     # vessels branching out
+            for f in range(frames):
+                beat = 1 + 0.18 * math.sin(f / frames * 2 * math.pi)
+                if vein:
+                    c, a = self.vein[ctx.shiny], int(170 * beat)
+                else:
+                    c, a = self.tint[ctx.shiny], int((34 + 150 * r ** 4) * beat)
+                ctx.glow(self.layer, f, X, Y, tuple(c) + (max(0, min(255, a)),))
+
+
+class Muscle:
+    """Translucent muscle: pink, with striations running along the length and a firmer rim. Only in its
+    (translucent) layer; the body stays clear."""
+
+    def __init__(self, layer, colour=(246, 120, 186), shiny=(150, 200, 255)):
+        self.layer, self.c = layer, {False: colour, True: shiny}
+
+    def paint(self, ctx, rects, size, reskin):
+        frames = len(ctx.layers[self.layer])
+        for face, X, Y, s, t, x, y, w, h in _iter(rects):
+            ctx.put(X, Y, (0, 0, 0, 0))
+            base = self.c[ctx.shiny]
+            stria = (x + (y // 3)) % 3 == 0
+            rim = x in (0, w - 1) or y in (0, h - 1)
+            c = shade(base, 1.25 if stria else 0.95)
+            a = 210 if rim else (165 if stria else 135)
+            for f in range(frames):
+                ctx.glow(self.layer, f, X, Y, tuple(c) + (a,))
+
+
+class Cord:
+    """An umbilical cord (a reskin): pale and glossy, with two arteries and a vein spiralling round it."""
+
+    def paint(self, ctx, rects, size, reskin):
+        for face, X, Y, s, t, x, y, w, h in _iter(rects):
+            if ctx.body[X, Y][3] == 0:
+                continue
+            k = (X + Y) % 6
+            if ctx.shiny:
+                c = (120, 110, 210) if k == 0 else (200, 120, 200) if k == 3 else (236, 226, 246)
+            else:
+                c = (110, 130, 214) if k == 0 else (204, 70, 96) if k == 3 else (240, 214, 222)
+            ctx.put(X, Y, shade(c, LIGHT[face]))
+
+
+class Placenta:
+    """The placenta where the cord meets the orb's wall: a round, dark-red, lobed disc with branching vessels."""
+
+    def paint(self, ctx, rects, size, reskin):
+        for face, X, Y, s, t, x, y, w, h in _iter(rects):
+            r = math.hypot(s - 0.5, t - 0.5) * 2
+            if r > 1:
+                ctx.put(X, Y, (0, 0, 0, 0))
+                continue
+            ang = math.atan2(t - 0.5, s - 0.5)
+            vessel = abs(math.sin(ang * 6 + r * 4)) < 0.16
+            base = (150, 40, 60) if not ctx.shiny else (90, 60, 160)
+            c = (110, 120, 200) if vessel else shade(base, 0.85 + 0.35 * (1 - r) + 0.1 * _hash(X, Y))
+            ctx.put(X, Y, c)

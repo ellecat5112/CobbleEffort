@@ -54,6 +54,15 @@ need it updated.
 | Palkia (and Origin) | Water / Dragon | Grass / Fairy | Spacial Rend → a Fairy twin. |
 | Arceus (all 18 plate types) | its type | its type's weakness | Distorts with its plate (no crystal). Judgment → Inverse Judgment (the weakness of the plate's type). |
 
+## Gen 1 legendary and mythical Pokémon
+
+Articuno, Zapdos and Moltres (and their Galarian forms) follow the chart. Mew and Mewtwo are specialised distortions
+by the user's design (`TYPE_OVERRIDES` in make_assets.py, `CHART_OVERRIDES` in make_battle.py, per-species twin
+tables in the engine and `move_twins.json`): both Normal/Fighting; Mew's Psychic moves turn Normal, Mewtwo's Fighting.
+Mew: the unborn, in a translucent veined orb (the placenta, a pulsing translucent layer) with its tail turned to the
+front as the umbilical cord. Mewtwo: the bodybuilder, Conkeldurr's arm geometry (from Cobblemon's model) fitted to its
+joints in translucent pink, bulked chest and thighs. Mega Mewtwo needs a Mega Stone, so it doesn't distort.
+
 ## Second set: every starter line (Gen 1-9)
 
 Water starters distort into plant-inspired forms, grass starters into natural disasters, fire starters into sea life

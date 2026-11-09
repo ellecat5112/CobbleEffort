@@ -36,7 +36,11 @@ MOD = "cobbleeffort_distortion"
 
 import sys  # noqa: E402
 sys.path.insert(0, str(HERE))
-from make_assets import DISTORTABLE, TYPE_CHART  # noqa: E402
+from make_assets import DISTORTABLE, TYPE_CHART, TYPE_OVERRIDES  # noqa: E402
+
+# specialised distortions: their moves of these types turn into these instead (Mew's Psychic moves turn Normal, the
+# unborn; Mewtwo's turn Fighting, the bodybuilder); the rest follow the chart
+CHART_OVERRIDES = {"mew": {"psychic": "normal"}, "mewtwo": {"psychic": "fighting"}}
 
 # words in move names that stand for a type, replaced by the new type's name (Dragon Claw -> Fairy Claw)
 TYPE_WORDS = {
@@ -65,7 +69,7 @@ WEATHER = {"fire": ["sunnyday", "desolateland"], "water": ["raindance", "primord
 WEATHER_NAMES = {"sunnyday": "harsh sunlight", "desolateland": "extremely harsh sunlight", "raindance": "rain",
                  "primordialsea": "heavy rain", "hail": "hail", "snow": "snow"}
 ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood", "thickfat": "Blubber",   # new twins with
-                 "liquidvoice": "Blossom Voice", "scrappy": "Scrappy Mind"}                            # names written for them
+                 "liquidvoice": "Blossom Voice", "scrappy": "Scrappy Mind", "snowcloak": "Heat Haze"}                            # names written for them
 ABILITY_META = {"name", "num", "rating", "isNonstandard", "desc", "shortDesc"}
 
 
@@ -73,10 +77,10 @@ def toid(s):
     return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
-def learnsets(jar):
+def learnsets(jar, only=None):
     z = zipfile.ZipFile(jar)
     out = set()
-    for sp in DISTORTABLE:
+    for sp in (only or DISTORTABLE):
         for n in z.namelist():
             if n.startswith("data/cobblemon/species/") and n.endswith(f"/{sp}.json"):
                 d = json.loads(z.read(n))
@@ -212,20 +216,23 @@ def twin_name(m, new_type):
     return " ".join(words)
 
 
-def build_twins(moves, learn):
+def build_twins(moves, learn, chart=TYPE_CHART, new=None, only_types=None):
     by_sig = {}
     for mid, m in moves.items():
         if m["isNonstandard"] or m["isZ"] or m["isMax"]:
             continue
         by_sig.setdefault((signature(m), m["type"].lower()), []).append(mid)
-    twins, new = {}, {}
-    num = -31000
+    twins = {}
+    new = {} if new is None else new
+    num = -31000 - len(new)
     # the signature moves first, so their written names win (Phantom Force can't take "Dark Force")
     for mid in sorted(learn, key=lambda k: (k not in NAME_OVERRIDES, k)):
         m = moves.get(mid)
         if not m or mid in SKIP or m["isZ"] or m["isMax"]:
             continue
-        new_type = TYPE_CHART[m["type"].lower()]
+        if only_types is not None and m["type"].lower() not in only_types:
+            continue
+        new_type = chart[m["type"].lower()]
         if mid != "judgment":
             match = sorted(by_sig.get((signature(m), new_type), []), key=lambda k: moves[k]["num"])
             if match:
@@ -277,7 +284,7 @@ def write_crystal():
 """)
 
 
-def write_engine(twins, ability_twins):
+def write_engine(twins, ability_twins, by_species):
     """The Showdown side of distorting (Mega Showdown's scripts loader merges these into the battle engine).
 
     A distorted Pokémon keeps its real species (so every form change that doesn't need a held item works as usual:
@@ -353,11 +360,19 @@ def write_engine(twins, ability_twins):
 """)
     write(scripts / "actions.js", """({
   distortTwins: TWINS,
+  distortTwinsBySpecies: SPECIES_TWINS,
+  distortTypesBySpecies: SPECIES_TYPES,
   distortAbilities: ABILITIES,
   distortChart: CHART,
+  distortBase(pokemon) {
+    return pokemon.baseSpecies.baseSpecies || pokemon.baseSpecies.name;
+  },
+  twinOf(pokemon, id) {
+    const own = this.distortTwinsBySpecies[this.distortBase(pokemon)];
+    return (own && own[id]) || this.distortTwins[id];
+  },
   hasDistortion(pokemon) {
-    const base = pokemon.baseSpecies.baseSpecies || pokemon.baseSpecies.name;
-    return this.dex.species.get(base + "-Distorted").exists;
+    return this.dex.species.get(this.distortBase(pokemon) + "-Distorted").exists;
   },
   canToggleDistortion(pokemon) {
     if (pokemon.distorted) return true;          // reverting needs nothing more
@@ -367,7 +382,9 @@ def write_engine(twins, ability_twins):
     return !!source && this.hasDistortion(pokemon);
   },
   applyDistortTypes(pokemon) {
-    const types = [...new Set(pokemon.species.types.map(t => this.distortChart[t] || t))];
+    // specialised distortions have their own types (Mew and Mewtwo: Normal/Fighting); the rest follow the chart
+    const types = this.distortTypesBySpecies[this.distortBase(pokemon)] ||
+      [...new Set(pokemon.species.types.map(t => this.distortChart[t] || t))];
     pokemon.setType(types, true);
   },
   distortedAbility(pokemon) {
@@ -386,7 +403,7 @@ def write_engine(twins, ability_twins):
     pokemon.distortPairs = [];
     for (let i = 0; i < pokemon.moveSlots.length; i++) {
       const slot = pokemon.moveSlots[i];
-      const twinId = this.distortTwins[slot.id];
+      const twinId = this.twinOf(pokemon, slot.id);
       const twin = twinId && this.dex.moves.get(twinId);
       if (!twin || !twin.exists) continue;
       pokemon.distortPairs.push([slot.id, twin.id]);
@@ -468,7 +485,9 @@ def write_engine(twins, ability_twins):
     return BattleActions.prototype.runMove.call(this, moveOrMoveName, pokemon, targetLoc, options);
   },
 })
-""".replace("TWINS", table).replace("ABILITIES", json.dumps(ability_twins, sort_keys=True)).replace(
+""".replace("SPECIES_TWINS", json.dumps(by_species, sort_keys=True)).replace("SPECIES_TYPES", json.dumps(
+        {sp.title(): [t.title() for t in ts] for sp, ts in TYPE_OVERRIDES.items()}, sort_keys=True)).replace(
+        "TWINS", table).replace("ABILITIES", json.dumps(ability_twins, sort_keys=True)).replace(
         "CHART", json.dumps({k.title(): v.title() for k, v in TYPE_CHART.items()}, sort_keys=True)))
 
 
@@ -498,14 +517,20 @@ def main():
     moves, abilities = dump["moves"], dump["abilities"]
     learn = learnsets(a.cobblemon_jar)
     twins, new = build_twins(moves, learn)
+    by_species = {}
+    for sp, over in CHART_OVERRIDES.items():
+        chart = dict(TYPE_CHART, **over)
+        t, _ = build_twins(moves, learnsets(a.cobblemon_jar, [sp]), chart, new, set(over))
+        by_species[sp.title()] = t
     ability_twins, new_abilities = build_ability_twins(abilities, species_info(a.cobblemon_jar))
     write_moves(new)
     write_abilities(new_abilities)
     write_crystal()
-    write_engine(twins, ability_twins)
+    write_engine(twins, ability_twins, by_species)
     write_lang(new, new_abilities)
     (RES / "data" / MOD / "distortion").mkdir(parents=True, exist_ok=True)
-    (RES / "data" / MOD / "distortion" / "move_twins.json").write_text(json.dumps(twins, indent=2, sort_keys=True) + "\n")
+    (RES / "data" / MOD / "distortion" / "move_twins.json").write_text(
+        json.dumps({"default": twins, "species": {k.lower(): v for k, v in by_species.items()}}, indent=2, sort_keys=True) + "\n")
     existing = sum(1 for v in twins.values() if v not in new)
     print(f"{len(learn)} learnable moves -> {len(twins)} twins ({existing} existing opposites, {len(new)} new moves)")
     print("ability twins:", ", ".join(f"{k} -> {v}{' (new)' if v in new_abilities else ''}" for k, v in sorted(ability_twins.items())))

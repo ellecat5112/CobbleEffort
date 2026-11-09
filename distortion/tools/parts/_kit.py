@@ -62,6 +62,7 @@ class Kit:
         self.desc = g["description"]
         self.bones = g["bones"]
         self.W, self.H = self.desc["texture_width"], self.desc["texture_height"]
+        self.TW = self.W                      # the texture's width: doubled if a part needs more room
         self.cubes = []                       # (cube, material) of new cubes
         self.reskins = []                     # (rects, material, cube size) of existing cubes repainted
         self.layers = {}                      # name -> {"emissive", "translucent", "frames", "fps"}
@@ -165,6 +166,18 @@ class Kit:
         for n in list(names) + ([d for n in names for d in self.descendants(n)] if deep else []):
             self.bone(n).pop("cubes", None)
 
+    def rotate_bone(self, name, rotation):
+        """Set a bone's rest rotation (animations still play on top of it), e.g. to turn a tail to the front."""
+        self.used = self.geo_changed = True
+        self.bone(name)["rotation"] = [float(r) for r in rotation]
+
+    def bulk(self, amount, *names):
+        """Inflate these bones' cubes (bulkier, same UVs)."""
+        self.used = self.geo_changed = True
+        for n in names:
+            for c in self.bone(n).get("cubes", []):
+                c["inflate"] = round(c.get("inflate", 0) + amount, 3)
+
     def add_bone(self, name, parent, pivot):
         self.used = self.geo_changed = True
         self.bones.append({"name": name, "parent": parent, "pivot": [float(p) for p in pivot]})
@@ -173,7 +186,9 @@ class Kit:
     # --- new cubes ---------------------------------------------------------------------------------------------------
     def _alloc(self, w, h):
         x, y, rh = self._shelf
-        if x + w > self.W:
+        while w > self.TW:
+            self.TW *= 2                      # original UVs are in texels, so they still land on the original image
+        if x + w > self.TW:
             x, y, rh = 0, y + rh, 0
         self._shelf = [x + w, y, max(rh, h)]
         return x, self.H + y
@@ -234,6 +249,7 @@ class Kit:
     def finish_geo(self, identifier):
         self.desc["identifier"] = identifier
         self.desc["texture_height"] = self.H * self.height_factor()
+        self.desc["texture_width"] = self.TW
         return self.geo
 
     def paint(self, img, shiny, src_layers=None):
@@ -242,7 +258,7 @@ class Kit:
         for op in self.body_ops:
             img = op(img, shiny, src_layers or {})
         f = self.height_factor()
-        out = Image.new("RGBA", (self.W, self.H * f), (0, 0, 0, 0))
+        out = Image.new("RGBA", (self.TW, self.H * f), (0, 0, 0, 0))
         out.paste(img, (0, 0))
         frames = {n: [Image.new("RGBA", out.size, (0, 0, 0, 0)) for _ in range(cfg["frames"])] for n, cfg in self.layers.items()}
         ctx = Ctx(out.load(), {n: [im.load() for im in fr] for n, fr in frames.items()}, shiny, random.Random(f"{self.model}{shiny}"))
