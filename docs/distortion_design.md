@@ -1,0 +1,63 @@
+# Distortion (typing inversion): design
+
+A new battle gimmick, separate from Mega Evolution, Z-Moves, Dynamax and Terastallization. The Pokémon holds a
+**Distortion Crystal** of its type; the trainer wears a **Distortion Band** in its own accessory slot. In battle the
+Pokémon **distorts**: its types turn into their weaknesses, its ability and moves follow, and its colours invert.
+It also gets its own entry in Mega Showdown's interaction wheel (the radial menu).
+
+Built for Cobblemon 1.8.4, Mega Showdown 1.3.3 and Accessories 1.1.0-beta.54 on Minecraft 1.21.1.
+
+## Ships as an add-on: "CobbleEffort: Distortion"
+
+A separate jar that needs CobbleEffort, Cobblemon, Mega Showdown and Accessories. Unlike CobbleEffort (data and
+assets, one loader-independent jar), this is a real code mod: it hooks into Cobblemon's battle screen and server-side
+move validation, Mega Showdown's interaction wheel and the Showdown battle engine, so it's built per loader (Fabric
+and NeoForge) against those mods. A bug in it can't break the cosmetics. Each Cobblemon or Mega Showdown update may
+need it updated.
+
+## How the parts work
+
+| Part | How |
+|---|---|
+| Distortion Band | A registered item, worn in a new **distortion** accessory slot. Accessories reads slot definitions and slot tags from data (`data/<ns>/accessories/slot/distortion.json`, `#accessories:distortion_slot`); rendered on the wrist like Mega Showdown's bracelets. |
+| Distortion Crystals | 18 registered items, one per type; a Pokémon can distort while holding the crystal of its (primary) type. Their Showdown held-item scripts are data (`data/<ns>/held_items/*.js`, read by Cobblemon). |
+| Battle engine | Cobblemon runs Showdown in GraalJS. The add-on evaluates a JS patch after Showdown loads: requests gain `canDistort`; `move N distort` is parsed as a choice; distorting runs before the move like Terastallizing: forme change to the Pokémon's "Distorted" forme, which brings its inverted types and ability; the moves swap to their inverted versions for the rest of the battle; `|-distort|` is sent to clients. |
+| Server validation | Cobblemon only accepts known gimmick ids (`VALID_GIMMICK_IDS`): a mixin adds `distort`. |
+| Battle button | Cobblemon's gimmick buttons come from a fixed enum; a client mixin adds a Distort button (own icon) to the move selection when the request says `canDistort`, and toggling it shows the inverted moves (names, types) on the move tiles. |
+| Radial menu | Mega Showdown's interaction wheel only knows Mega and Ultra Burst; a client mixin adds a **Distort** entry (own icon) when the Pokémon holds a matching crystal and the player wears the band, for distorting outside battle like Mega Showdown's out-of-battle megas. |
+| Distorted forms | `species_additions` forms "Distorted" (aspect `distorted`, battleOnly in battle) per Pokémon, with inverted types and abilities. Out of battle the wheel toggles the same aspect. |
+| Moves | Each move maps to its inverted-type twin: an existing move that's an exact equivalent (same category, power, accuracy, effect), otherwise a new move made from the original with only its type changed and a name to match (Cross Chop → Psychic Chop). New moves are data (`data/<ns>/moves/*.js`, read by Cobblemon) with lang names. |
+| Abilities | Type-specific abilities map to their inverted twin (Blaze → Torrent when it exists, otherwise a new one, e.g. Flood: Blaze's effect for Water moves). Others stay the same. New abilities are data (`data/<ns>/abilities/*.js`). |
+| Look | Each distorted Pokémon gets inverted colours (hue-shifted to its new types) and, where it fits, new parts (Charmander's flame tail → a mermaid tail). Resolver variations with the `distorted` aspect. |
+
+## Type chart: each type becomes its weakness
+
+| Type | Becomes | | Type | Becomes |
+|---|---|---|---|---|
+| Normal | Fighting | | Flying | Electric |
+| Fire | Water | | Psychic | Dark |
+| Water | Grass | | Bug | Flying |
+| Grass | Fire | | Rock | Fighting |
+| Electric | Ground | | Ghost | Dark |
+| Ice | Fire | | Dragon | Fairy |
+| Fighting | Psychic | | Dark | Fairy |
+| Poison | Ground | | Steel | Ground |
+| Ground | Water | | Fairy | Steel |
+
+## First set: the Distortion World's champion and the creation trio
+
+| Pokémon | Types | Distorted | Notes |
+|---|---|---|---|
+| Giratina (Altered, Origin) | Ghost / Dragon | Dark / Fairy | Pressure / Levitate stay (not type-bound). Shadow Force → a Dark twin; Dragon moves → Fairy twins. |
+| Dialga (and Origin) | Steel / Dragon | Ground / Fairy | Roar of Time → a Fairy twin. |
+| Palkia (and Origin) | Water / Dragon | Grass / Fairy | Spacial Rend → a Fairy twin. |
+| Arceus (all 18 plate types) | its type | its type's weakness | Multitype and Judgment follow the inverted plate type. |
+
+## Phases
+
+1. Add-on project (Fabric + NeoForge), the band, the crystals, the accessory slot, the distorted forms and their
+   looks for the first set. Testable in-game: items, slot, forms via command.
+2. The battle gimmick: engine patch, server validation, battle button, inverted moves and abilities.
+3. The radial-menu entry.
+
+Each phase needs an in-game test round (crash logs or screenshots back), since none of this can be run here.
