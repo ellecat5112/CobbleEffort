@@ -59,7 +59,7 @@ MEGAS = {
         "height": 40, "front": "-x", "scale": 1.8, "hitbox": [3.5, 4.5], "kind": "quadruped",
         "types": ["ground", "fighting"], "ability": "toughclaws",
         "stats": [115, 171, 161, 53, 73, 97],
-        "dex_text": "Its tusks have grown into great curling blades and its hide bristles with glowing amber crystals. "
+        "dex_text": "Its tusks have grown into great curling blades and its stone-hard hide bristles with crimson crystals. "
                     "Ancient records describe it charging through mountains.",
         "recipe": {"pattern": ["bpb", "kek", " d "], "key": {"b": "minecraft:bone_block", "p": "minecraft:packed_mud",
                     "k": "minecraft:brown_terracotta", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
@@ -83,8 +83,8 @@ MEGAS = {
         "height": 40, "front": "+z", "scale": 0.8, "hitbox": [1.3, 2.0], "kind": "quadruped",
         "types": ["grass", "dark"], "ability": "strongjaw",
         "stats": [111, 167, 129, 79, 129, 55],
-        "dex_text": "A towering cap grows from the back of a great reptile. Spores drift from it like smoke, and its jaws "
-                    "can crush stone.",
+        "dex_text": "A towering cap, veined with glowing light, grows from the back of a great reptile. Spores drift from it "
+                    "like smoke, and its jaws can crush stone.",
         "recipe": {"pattern": ["rmr", "kek", " d "], "key": {"r": "minecraft:red_mushroom_block", "m": "minecraft:moss_block",
                     "k": "minecraft:brown_mushroom", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
         "stone_colours": [(70, 110, 60), (190, 40, 58)],
@@ -95,8 +95,8 @@ MEGAS = {
         "height": 36, "front": "+z", "scale": 0.78, "hitbox": [0.9, 1.8], "kind": "floater",
         "types": ["ghost", "fairy"], "ability": "levitate",
         "stats": [55, 55, 65, 175, 165, 155],
-        "dex_text": "Its mane streams like a banner and red jewels hang from its brim. It drifts silently, singing a "
-                    "song no one can recall afterwards.",
+        "dex_text": "Its feathered mane streams like a banner and strings of beads hang from its brim. It drifts silently, "
+                    "singing a song no one can recall afterwards.",
         "recipe": {"pattern": ["mjm", "kek", " d "], "key": {"m": "minecraft:phantom_membrane", "j": "minecraft:echo_shard",
                     "k": "minecraft:purple_dye", "e": "mega_showdown:mega_stone", "d": "minecraft:diamond"}},
         "stone_colours": [(90, 50, 130), (240, 90, 170)],
@@ -275,97 +275,169 @@ def paint(sp, solid, bone, names, lo, shiny):
         put(m, colour)
         shine(m, glow_colour)
 
+    hv = np.vectorize(h3)
+    # colour schemes from ellecat5112's reference pictures; shinies are a hue shift of them (SHINY_HUE, at the end)
     if sp == "greattusk":
-        fur, fur_l, hoof = ((74, 59, 51), (107, 84, 70), (40, 32, 28)) if not shiny else ((62, 72, 86), (96, 110, 126), (34, 38, 46))
-        ivory, ring = ((234, 220, 192), (190, 172, 140)) if not shiny else ((244, 238, 226), (200, 196, 186))
-        amber = (255, 140, 52) if not shiny else (120, 220, 255)
-        put(solid, fur)
-        put(top_open, fur_l)
-        put(legs & (j <= 1), hoof)
-        tusk = (head & (np.abs(i - cx) >= 6)) | (thin & (k <= Z * 0.4) & (j >= Y * 0.45))       # the great curled tusks
+        stone, stone_d, mortar = (142, 172, 202), (122, 150, 182), (102, 126, 156)
+        ivory, ivory_d = (232, 222, 196), (196, 182, 150)
+        crystal, crystal_d, crystal_l = (200, 40, 90), (142, 26, 62), (232, 92, 132)
+        navy = (44, 58, 107)
+        put(solid, stone)
+        put(solid & (hv(i, j, k, 1) < 0.35), stone_d)
+        # stone bricks: mortar every third row, staggered joints every four voxels
+        put(solid & ~thin & (j % 3 == 0), mortar)
+        put(solid & ~thin & (((np.maximum(i, k) + 2 * ((j // 3) % 2)) % 4) == 0) & (j % 3 != 0), mortar)
+        tusk = (head & (np.abs(i - cx) >= 6)) | (thin & (k <= Z * 0.4) & (j >= Y * 0.45))
         put(tusk, ivory)
-        put(tusk & ((j + k) % 4 == 0), ring)
-        crystals = thin & ~tusk & ~head & (j >= 4)
-        put(crystals, amber)
-        shine(crystals & (np.vectorize(h3)(i, j, k) < 0.5), amber)
-        put(B.get("tail", none) & thin, amber)
-        eyes((230, 40, 30) if not shiny else (60, 200, 255), (255, 60, 40) if not shiny else (90, 220, 255), dx=3)
+        put(tusk & ((j + k) % 5 == 0), ivory_d)
+        crystals = thin & ~tusk & (j >= 3)
+        put(crystals, crystal)
+        put(crystals & (hv(i, j, k, 2) < 0.3), crystal_d)
+        put(crystals & top_open & (hv(i, j, k, 3) < 0.4), crystal_l)
+        shine(crystals & (hv(i, j, k, 4) < 0.18), crystal_l)
+        put(legs & (j <= 1) & thin, ivory)                                      # claws
+        if legs.any():
+            top = max(int(np.argwhere(B[n])[:, 1].max()) for n in names if n.startswith("leg"))
+            put(legs & (j >= top - 1) & ~thin, navy)                            # wrist bands
+        eyes((236, 200, 40), (255, 220, 60), dx=3)
     elif sp == "screamtail":
-        pink, pink_l, belly = ((245, 160, 198), (255, 196, 222), (255, 214, 230)) if not shiny else ((250, 214, 120), (255, 234, 168), (255, 246, 214))
-        magenta = (210, 64, 138) if not shiny else (232, 140, 40)
+        pink, pink_d, pink_l, belly = (248, 166, 190), (236, 124, 154), (252, 196, 212), (252, 230, 236)
+        swirl, ear_in, gold = (214, 88, 128), (43, 43, 43), (232, 169, 26)
         put(solid, pink)
-        put(thin, pink_l)
-        put(on_front & ~head & (np.abs(i - cx) <= 4) & (j >= 4) & (j <= 14), belly)
+        put(top_open, pink_l)
+        body = B.get("body", none)
         tail = B.get("tail", none)
+        put(tail, pink_d)
         ang = np.arctan2(j - 6, k - 24)
-        put(tail & (((ang * 3 + np.hypot(j - 6, k - 24) * 0.6).astype(int)) % 2 == 0), pink_l)   # the tail's swirl
-        put(head & on_front & (j >= 25) & (np.abs(i - cx) <= 2), magenta)                       # forehead spiral
-        put(head & (j >= 28), magenta)                                                          # ear tips
-        put(legs, pink_l)
-        eyes((40, 110, 120) if not shiny else (120, 60, 160), (110, 230, 240) if not shiny else (200, 140, 255), dx=3)
+        put(tail & (((ang * 2.5 + np.hypot(j - 6, k - 24) * 0.7).astype(int)) % 3 == 0), pink_l)   # the tail's swirl
+        put(head & (j >= 27), pink_d)                                          # the crest
+        put(head & on_front & (j >= 24) & (j <= 27) & (((np.hypot(i - cx, j - 25.5) * 1.6).astype(int)) % 2 == 0), swirl)  # forehead swirl
+        put(head & thin & on_front & (j >= 23), ear_in)                       # inner ears
+        put(thin & ~head & ~tail, pink_d)                                      # hair tufts and arms
+        put(legs, pink_d)
+        # the pale belly, over everything else on the front of the body
+        front_body = body & (k <= np.where(body.any(), np.argwhere(body)[:, 2].min() + 4, 0))
+        put(front_body & (np.abs(i - cx) <= 6) & (j >= 2) & (j <= 16), belly)
+        put(front_body & (np.abs(i - cx) == 7) & (j >= 2) & (j <= 16), pink_l)
+        eyes(gold, (255, 214, 90), dx=3)
     elif sp == "brutebonnet":
-        cap_c, spot, gill = ((180, 38, 58), (240, 226, 196), (218, 194, 160)) if not shiny else ((70, 150, 210), (236, 244, 250), (196, 214, 226))
-        stem, stem_d = ((112, 98, 88), (84, 72, 64)) if not shiny else ((150, 140, 120), (118, 108, 92))
-        scale_c, scale_l, spine = ((63, 74, 53), (93, 107, 75), (120, 30, 40)) if not shiny else ((90, 70, 110), (124, 100, 146), (220, 160, 60))
-        orange = (224, 122, 46) if not shiny else (120, 220, 200)
+        cap_c, cap_d, gill = (66, 54, 50), (48, 40, 38), (90, 70, 60)
+        wood, wood_d = (78, 60, 46), (58, 44, 34)
+        cyan, orange, yellow = (64, 208, 224), (255, 154, 42), (255, 210, 74)
+        moss, moss_d, moss_l, spine = (60, 74, 44), (42, 54, 32), (92, 110, 60), (34, 38, 30)
         cap = B.get("cap", none)
-        put(solid, stem)
-        put(solid & (j < 14), scale_c)                                                          # the reptile
-        put(solid & (j < 14) & (((i + k) // 2) % 2 == 0), scale_l)
-        put(thin & (j < 14) & top_open, spine)
+        put(solid, wood)
+        put(solid & (((i + j) // 2) % 3 == 0), wood_d)
+        reptile = solid & (j < 14) & ~cap
+        put(reptile, moss)
+        put(reptile & (hv(i, j, k, 1) < 0.35), moss_d)
+        put(reptile & top_open, moss_l)
+        put(thin & reptile & top_open, spine)
         put(B.get("tail", none) & thin, spine)
-        put(solid & (j >= 14) & ~cap & ((j % 4) == 0), stem_d)
-        put(solid & (j >= 14) & ~cap & thin, orange)                                            # little mushrooms
-        shine(solid & (j >= 14) & ~cap & thin & (np.vectorize(h3)(i, j, k, 3) < 0.25), orange)
+        speck = reptile & (hv(i, j, k, 2) < 0.06)
+        put(speck, yellow)
+        shine(speck, yellow)
+        stem = solid & (j >= 14) & ~cap
+        vein = stem & on_front & ((np.abs(i - cx - np.round(1.5 * np.sin(j * 0.5))) <= 0))
+        put(vein, cyan)
+        shine(vein, cyan)
+        shrooms = stem & thin
+        put(shrooms, yellow)
+        shine(shrooms & (hv(i, j, k, 3) < 0.6), yellow)
         put(cap, cap_c)
-        put(cap & (np.vectorize(h3)(i // 2, j // 2, k // 2, 7) < 0.18) & top_open, spot)
+        put(cap & (hv(i, j, k, 5) < 0.3), cap_d)
         put(cap & bot_open, gill)
-        eyes((240, 210, 60) if not shiny else (255, 120, 200), (255, 230, 90) if not shiny else (255, 140, 210), dx=2)
+        spots = cap & top_open & (hv(i // 2, j // 2, k // 2, 7) < 0.14)
+        put(spots, orange)
+        shine(spots, orange)
+        ang = np.arctan2(k - np.argwhere(cap)[:, 2].mean() if cap.any() else k, i - cx)
+        veins = cap & top_open & (((ang * 4).astype(int) % 3) == 0) & (hv(i, j, k, 8) < 0.5) & ~spots
+        put(veins, cyan)
+        shine(veins, cyan)
+        eyes((255, 220, 60), (255, 230, 90), dx=2)
     elif sp == "fluttermane":
-        body_c, body_d = ((76, 42, 107), (52, 28, 78)) if not shiny else ((70, 120, 90), (46, 86, 62))
-        mane_c, mane_l = ((194, 64, 143), (232, 120, 186)) if not shiny else ((236, 196, 86), (252, 226, 140))
-        hat, jewel = ((46, 26, 69), (232, 71, 95)) if not shiny else ((30, 60, 46), (120, 220, 255))
+        purple, purple_d, face = (112, 92, 148), (84, 68, 116), (64, 50, 84)
+        teal, teal_d, lilac = (63, 154, 136), (44, 118, 104), (201, 166, 217)
+        orange, magenta, claw = (232, 134, 42), (224, 64, 122), (212, 71, 42)
         mane = B.get("mane", none)
         skirt = B.get("skirt", none)
-        put(solid, body_c)
-        put(skirt, body_d)
-        put(skirt & thin & (j <= 3), mane_l)                                                    # tattered hem
-        put(mane, mane_c)
-        put(mane & (((j + k) // 3) % 2 == 0), mane_l)
-        put(head & (j >= 29), hat)
-        brim = head & (j >= 28) & (j <= 29)
-        put(brim, mane_c)
-        shine(brim & (np.vectorize(h3)(i, j, k, 5) < 0.4), mane_l)
-        beads = thin & (j >= 16) & (j <= 27) & ~mane & (np.abs(i - cx) >= 6) & (np.abs(i - cx) <= 8) & on_front
-        put(beads, jewel)
-        shine(beads, jewel)
-        eyes((255, 210, 90) if not shiny else (255, 120, 120), (255, 226, 120) if not shiny else (255, 150, 150), dx=2)
+        put(solid, purple)
+        put(skirt, purple)
+        put(skirt & (j <= 3) & thin, claw)                                     # red-orange claws
+        put(skirt & (j <= 1), claw)
+        put(solid & bot_open & ~skirt, purple_d)
+        put(mane, teal)
+        put(mane & (((j + k) // 3) % 3 == 0), teal_d)
+        dist = np.hypot(i - cx, k - np.argwhere(solid)[:, 2].mean())
+        far = mane & (dist >= np.percentile(dist[mane], 75) if mane.any() else False)
+        put(far, lilac)                                                        # lilac feather tips
+        hat = head & (j >= 28)
+        put(hat, purple)
+        put(hat & thin & (j >= 32), orange)                                    # horns on the hat
+        put(head & on_front & (j >= 22) & (j <= 27), face)
+        beads = thin & (j >= 14) & (j <= 27) & ~mane & (np.abs(i - cx) >= 6) & (np.abs(i - cx) <= 9)
+        put(beads, orange)
+        put(beads & ((j // 2) % 2 == 0), magenta)
+        put(beads & (j <= 15), lilac)
+        shine(beads & ((j // 2) % 2 == 0), magenta)
+        collar = solid & ~head & ~mane & on_front & (j >= 18) & (j <= 20) & (np.abs(i - cx) <= 5)
+        put(collar, magenta)
+        shine(collar & (hv(i, j, k, 6) < 0.5), (240, 90, 140))
+        eyes((240, 200, 60), (255, 220, 90), dx=2)
     elif sp == "slitherwing":
-        fluff, brown = ((242, 230, 207), (107, 74, 53)) if not shiny else ((236, 242, 246), (70, 84, 110))
-        wing_a, wing_b, vein = ((240, 138, 43), (255, 210, 90), (90, 51, 32)) if not shiny else ((120, 200, 240), (220, 246, 255), (40, 70, 110))
-        ember = (255, 110, 40) if not shiny else (130, 230, 255)
+        fluff, fluff_d, chest = (236, 232, 226), (206, 200, 192), (232, 194, 58)
+        navy, navy_l = (44, 49, 80), (66, 72, 108)
+        red, gold, teal = (192, 57, 43), (242, 194, 58), (42, 154, 142)
+        w_in, w_mid, w_out = (156, 42, 42), (232, 144, 42), (242, 194, 58)
+        green = (156, 255, 106)
         put(solid, fluff)
-        put(legs | B.get("tail", none), brown)
-        put(B.get("tail", none) & ((k % 4) == 0), fluff)
-        put(solid & bot_open & ~legs, brown)
+        put(solid & (hv(i, j, k, 1) < 0.3), fluff_d)
+        put(solid & on_front & (np.abs(i - cx) <= 5) & (j >= 5) & (j <= 11), chest)
+        put(legs | (solid & (j <= 4) & ~B.get("tail", none)), navy)
+        put(legs & top_open, navy_l)
+        tail = B.get("tail", none)
+        put(tail, teal)
+        put(tail & thin & top_open, gold)
         for w in ("wing_left", "wing_right"):
             m = B.get(w, none)
+            if not m.any():
+                continue
             dist = np.abs(i - cx)
-            t = np.clip((dist - 6) / 18 + (j - 12) / 60, 0, 1)
-            wc = np.array(wing_a)[None] * (1 - t[m & solid])[:, None] + np.array(wing_b)[None] * t[m & solid][:, None]
-            col[m & solid] = wc
-            put(m & (((dist + j) % 7) == 0), vein)
-            edge = m & thin & (np.vectorize(h3)(i, j, k, 9) < 0.35)
-            put(edge, ember)
-            shine(edge, ember)
-        put(head & thin & (j >= 20), wing_a)                                                    # antennae
-        shine(head & thin & (j >= 22), ember)
-        eyes((70, 150, 255) if not shiny else (255, 140, 60), (110, 180, 255) if not shiny else (255, 170, 90), dx=2)
+            t = np.clip((dist - 6) / 18 + (j - 12) / 50, 0, 1)
+            for (lo_t, hi_t, c0, c1) in ((0.0, 0.45, w_in, w_mid), (0.45, 1.01, w_mid, w_out)):
+                sel = m & solid & (t >= lo_t) & (t < hi_t)
+                tt = ((t[sel] - lo_t) / (hi_t - lo_t))[:, None]
+                col[sel] = np.array(c0)[None] * (1 - tt) + np.array(c1)[None] * tt
+            put(m & thin & (hv(i, j, k, 9) < 0.55), teal)                      # teal edges
+            spots = m & ~thin & (hv(i // 2, j // 2, k, 10) < 0.12)
+            put(spots, green)
+            shine(spots, green)
+        crest = head & (j >= 18)
+        put(crest, red)
+        put(crest & thin & (j >= 22), gold)                                    # gold horns
+        put(head & on_front & (j >= 12) & (j < 18) & (np.abs(i - cx) <= 4), navy)   # a small dark face in white fluff
+        eyes((140, 255, 110), (170, 255, 130), dx=2)
     # light from above, a little per-voxel variation (glowing voxels stay clean)
     shade = 1 + (np.vectorize(h3)(i, j, k, 11) - 0.5) * 0.03       # only a hint: the faces get baked shading
     lit = (glow.sum(-1) == 0)
     col = np.where(lit[..., None], col * shade[..., None], col)
+    if shiny:
+        col, glow = hue_shift(col, SHINY_HUE[sp]), hue_shift(glow, SHINY_HUE[sp])
     return np.clip(col, 0, 255).astype(np.uint8), np.clip(glow, 0, 255).astype(np.uint8)
+
+
+SHINY_HUE = {"greattusk": 0.42, "screamtail": -0.12, "brutebonnet": 0.5, "fluttermane": -0.1, "slitherwing": 0.5}
+
+
+def hue_shift(rgb, amount):
+    """Rotate the hue of an [..., 3] colour array (0-255) by `amount` turns, keeping greys grey."""
+    import colorsys
+    flat = rgb.reshape(-1, 3) / 255.0
+    out = np.empty_like(flat)
+    for n, (r, g, b) in enumerate(flat):
+        h, l, s_ = colorsys.rgb_to_hls(r, g, b)
+        out[n] = colorsys.hls_to_rgb((h + amount) % 1.0, l, s_)
+    return (out * 255).reshape(rgb.shape)
 
 
 # ---------------------------------------------------------------------------------------------

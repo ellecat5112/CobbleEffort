@@ -412,13 +412,13 @@ Cobblemon: AllTheMons x Mega Showdown.
 
 | Mega | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |
 |------|-------|---------|----------------------------------|-------|------|
-| Mega Great Tusk | Ground / Fighting | Tough Claws | 115 / 171 / 161 / 53 / 73 / 97 | Great Tuskite | dark shaggy hide bristling with glowing amber crystals, great curled ivory tusks, red eyes |
-| Mega Scream Tail | Fairy / Psychic | Magic Bounce | 115 / 65 / 129 / 95 / 145 / 121 | Scream Tailite | pink fluff with a swirled puff-ball tail and magenta forehead spiral |
-| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | a crimson, cream-spotted cap on a scaly reptile, glowing little mushrooms on its stem |
-| Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | deep purple with a streaming magenta mane, a glowing brim and red jewels |
-| Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | cream fluff with great blazing orange-to-gold wings that shed glowing embers |
+| Mega Great Tusk | Ground / Fighting | Tough Claws | 115 / 171 / 161 / 53 / 73 / 97 | Great Tuskite | blue-grey stone-brick hide bristling with crimson crystals, great curled ivory tusks and claws, navy wrist bands, yellow eyes |
+| Mega Scream Tail | Fairy / Psychic | Magic Bounce | 115 / 65 / 129 / 95 / 145 / 121 | Scream Tailite | pink with a pale belly, a swirl on its forehead and tail, black inner ears, golden eyes |
+| Mega Brute Bonnet | Grass / Dark | Strong Jaw | 111 / 167 / 129 / 79 / 129 / 55 | Brute Bonnetite | a dark cap with glowing orange spots and cyan veins, a cyan-veined stem with glowing yellow mushrooms, a mossy reptile |
+| Mega Flutter Mane | Ghost / Fairy | Levitate | 55 / 55 / 65 / 175 / 165 / 155 | Flutter Manite | a purple hat and dress, a teal feathered mane with lilac tips, orange horns, orange and magenta bead strands, a magenta collar, red claws |
+| Mega Slither Wing | Bug / Fighting | Moxie | 85 / 175 / 99 / 85 / 125 / 101 | Slither Wingite | wings from dark red to orange to gold with teal edges and glowing green spots, white fluff, a yellow chest, a red crest with gold horns |
 
-Each mega adds 100 base stats. Shinies are recoloured too.
+Each mega adds 100 base stats. The colours follow ellecat5112's reference pictures; shinies are a hue shift of them.
 
 **Getting a stone:** craft it: a Mega Showdown Mega Stone in the middle, a Diamond below, and themed items around
 it (the recipes are in the zip's README). Then do it the Mega Showdown way: the Pokémon holds the stone, you wear a

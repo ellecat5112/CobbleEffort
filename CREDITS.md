@@ -117,8 +117,9 @@ and contributors.
 
 * **Mega Great Tusk, Mega Scream Tail, Mega Brute Bonnet, Mega Flutter Mane, Mega Slither Wing**
   (`.../models/098*_*/*_mega.geo.json`, their textures, animations and posers): converted from untextured 3D models made by
-  ellecat5112 with **Tripo AI** by `tools/models/megas.py`. The colours, glow layers, animations, posers, stats,
-  abilities, stone icons and recipes are original. They plug into **Mega Showdown**'s data-driven mega system.
+  ellecat5112 with **Tripo AI** by `tools/models/megas.py`. They are painted in the colour schemes of reference pictures
+  ellecat5112 provided (no pixels of them are used); the glow layers, animations, posers, stats, abilities, stone icons
+  and recipes are original. They plug into **Mega Showdown**'s data-driven mega system.
 
 ## Code and data
 
