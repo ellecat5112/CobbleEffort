@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironcrown",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "steel",
+   "secondaryType": "psychic",
+   "abilities": [
+    "psychicsurge",
+    "psychicsurge",
+    "h:psychicsurge"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironcrown-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 90,
+    "attack": 72,
+    "defence": 120,
+    "special_attack": 162,
+    "special_defence": 128,
+    "speed": 118
+   },
+   "baseScale": 1.2,
+   "hitbox": {
+    "width": 2.2,
+    "height": 3.2,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

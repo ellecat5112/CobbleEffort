@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironhands",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fighting",
+   "secondaryType": "electric",
+   "abilities": [
+    "ironfist",
+    "ironfist",
+    "h:ironfist"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironhands-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 154,
+    "attack": 180,
+    "defence": 138,
+    "special_attack": 50,
+    "special_defence": 98,
+    "speed": 50
+   },
+   "baseScale": 1.3,
+   "hitbox": {
+    "width": 2.8,
+    "height": 2.8,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

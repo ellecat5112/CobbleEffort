@@ -1,0 +1,53 @@
+{
+ "species": "cobblemon:ironleaves",
+ "order": 10,
+ "variations": [
+  {
+   "aspects": [
+    "mega"
+   ],
+   "poser": "cobbleeffort:ironleaves_mega",
+   "model": "cobbleeffort:ironleaves_mega.geo",
+   "texture": "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_mega_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_glow_0.png",
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_glow_1.png",
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "mega",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_mega_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/1010_ironleaves/ironleaves_mega_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

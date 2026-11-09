@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironthorns",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "rock",
+   "secondaryType": "electric",
+   "abilities": [
+    "sandstream",
+    "sandstream",
+    "h:sandstream"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironthorns-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 100,
+    "attack": 174,
+    "defence": 140,
+    "special_attack": 70,
+    "special_defence": 104,
+    "speed": 82
+   },
+   "baseScale": 1.2,
+   "hitbox": {
+    "width": 2.6,
+    "height": 3.0,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

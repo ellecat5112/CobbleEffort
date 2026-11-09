@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironleaves",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "grass",
+   "secondaryType": "psychic",
+   "abilities": [
+    "sharpness",
+    "sharpness",
+    "h:sharpness"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironleaves-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 90,
+    "attack": 170,
+    "defence": 108,
+    "special_attack": 70,
+    "special_defence": 128,
+    "speed": 124
+   },
+   "baseScale": 1.2,
+   "hitbox": {
+    "width": 2.2,
+    "height": 2.8,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

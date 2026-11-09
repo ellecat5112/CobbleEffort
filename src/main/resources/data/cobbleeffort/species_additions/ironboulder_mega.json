@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironboulder",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "rock",
+   "secondaryType": "psychic",
+   "abilities": [
+    "solidrock",
+    "solidrock",
+    "h:solidrock"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironboulder-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 90,
+    "attack": 160,
+    "defence": 100,
+    "special_attack": 68,
+    "special_defence": 128,
+    "speed": 144
+   },
+   "baseScale": 1.3,
+   "hitbox": {
+    "width": 2.4,
+    "height": 2.8,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

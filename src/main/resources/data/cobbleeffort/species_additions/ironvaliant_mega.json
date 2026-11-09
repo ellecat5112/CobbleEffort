@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironvaliant",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fairy",
+   "secondaryType": "fighting",
+   "abilities": [
+    "justified",
+    "justified",
+    "h:justified"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironvaliant-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 74,
+    "attack": 160,
+    "defence": 100,
+    "special_attack": 150,
+    "special_defence": 70,
+    "speed": 136
+   },
+   "baseScale": 1.1,
+   "hitbox": {
+    "width": 1.6,
+    "height": 2.7,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

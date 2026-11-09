@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironmoth",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "fire",
+   "secondaryType": "poison",
+   "abilities": [
+    "corrosion",
+    "corrosion",
+    "h:corrosion"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironmoth-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 180,
+    "special_defence": 130,
+    "speed": 130
+   },
+   "baseScale": 1.0,
+   "hitbox": {
+    "width": 2.4,
+    "height": 2.5,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

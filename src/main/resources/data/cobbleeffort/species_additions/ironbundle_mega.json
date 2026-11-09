@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironbundle",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "ice",
+   "secondaryType": "water",
+   "abilities": [
+    "snowwarning",
+    "snowwarning",
+    "h:snowwarning"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironbundle-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 56,
+    "attack": 80,
+    "defence": 114,
+    "special_attack": 164,
+    "special_defence": 90,
+    "speed": 166
+   },
+   "baseScale": 0.9,
+   "hitbox": {
+    "width": 1.4,
+    "height": 1.7,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

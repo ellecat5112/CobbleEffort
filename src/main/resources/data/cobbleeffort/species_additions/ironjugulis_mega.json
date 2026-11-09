@@ -1,0 +1,42 @@
+{
+ "target": "cobblemon:ironjugulis",
+ "forms": [
+  {
+   "name": "Mega",
+   "primaryType": "dark",
+   "secondaryType": "flying",
+   "abilities": [
+    "levitate",
+    "levitate",
+    "h:levitate"
+   ],
+   "pokedex": [
+    "cobblemon.species.ironjugulis-mega.desc"
+   ],
+   "labels": [
+    "gen9",
+    "paradox",
+    "mega"
+   ],
+   "aspects": [
+    "mega"
+   ],
+   "baseStats": {
+    "hp": 94,
+    "attack": 80,
+    "defence": 106,
+    "special_attack": 162,
+    "special_defence": 100,
+    "speed": 128
+   },
+   "baseScale": 1.0,
+   "hitbox": {
+    "width": 2.6,
+    "height": 2.6,
+    "fixed": false
+   },
+   "battleOnly": true,
+   "dynamaxBlocked": true
+  }
+ ]
+}

@@ -352,5 +352,367 @@
    }
   },
   "era": "ancient"
+ },
+ "irontreads": {
+  "display": "Iron Treads",
+  "stone_name": "Iron Treadite",
+  "types": [
+   "ground",
+   "steel"
+  ],
+  "ability": "steelworker",
+  "ability_name": "Steelworker",
+  "stats": [
+   90,
+   142,
+   150,
+   72,
+   90,
+   126
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_block",
+    "s": "minecraft:redstone",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:rail"
+   }
+  },
+  "era": "future"
+ },
+ "ironbundle": {
+  "display": "Iron Bundle",
+  "stone_name": "Iron Bundlite",
+  "types": [
+   "ice",
+   "water"
+  ],
+  "ability": "snowwarning",
+  "ability_name": "Snow Warning",
+  "stats": [
+   56,
+   80,
+   114,
+   164,
+   90,
+   166
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:blue_ice",
+    "s": "minecraft:iron_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "ironhands": {
+  "display": "Iron Hands",
+  "stone_name": "Iron Handite",
+  "types": [
+   "fighting",
+   "electric"
+  ],
+  "ability": "ironfist",
+  "ability_name": "Iron Fist",
+  "stats": [
+   154,
+   180,
+   138,
+   50,
+   98,
+   50
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_block",
+    "s": "minecraft:redstone_block",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:copper_ingot"
+   }
+  },
+  "era": "future"
+ },
+ "ironjugulis": {
+  "display": "Iron Jugulis",
+  "stone_name": "Iron Jugulite",
+  "types": [
+   "dark",
+   "flying"
+  ],
+  "ability": "levitate",
+  "ability_name": "Levitate",
+  "stats": [
+   94,
+   80,
+   106,
+   162,
+   100,
+   128
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:phantom_membrane",
+    "s": "minecraft:iron_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "ironmoth": {
+  "display": "Iron Moth",
+  "stone_name": "Iron Mothite",
+  "types": [
+   "fire",
+   "poison"
+  ],
+  "ability": "corrosion",
+  "ability_name": "Corrosion",
+  "stats": [
+   80,
+   70,
+   80,
+   180,
+   130,
+   130
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:blaze_rod",
+    "s": "minecraft:iron_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "ironthorns": {
+  "display": "Iron Thorns",
+  "stone_name": "Iron Thornite",
+  "types": [
+   "rock",
+   "electric"
+  ],
+  "ability": "sandstream",
+  "ability_name": "Sand Stream",
+  "stats": [
+   100,
+   174,
+   140,
+   70,
+   104,
+   82
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_block",
+    "s": "minecraft:redstone",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:green_dye"
+   }
+  },
+  "era": "future"
+ },
+ "ironvaliant": {
+  "display": "Iron Valiant",
+  "stone_name": "Iron Valiantite",
+  "types": [
+   "fairy",
+   "fighting"
+  ],
+  "ability": "justified",
+  "ability_name": "Justified",
+  "stats": [
+   74,
+   160,
+   100,
+   150,
+   70,
+   136
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_sword",
+    "s": "minecraft:pink_dye",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "miraidon": {
+  "display": "Miraidon",
+  "stone_name": "Miraidonite",
+  "types": [
+   "electric",
+   "dragon"
+  ],
+  "ability": "transistor",
+  "ability_name": "Transistor",
+  "stats": [
+   100,
+   85,
+   120,
+   175,
+   135,
+   155
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    " d "
+   ],
+   "key": {
+    "t": "minecraft:lightning_rod",
+    "s": "minecraft:amethyst_shard",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond"
+   }
+  },
+  "era": "future"
+ },
+ "ironleaves": {
+  "display": "Iron Leaves",
+  "stone_name": "Iron Leafite",
+  "types": [
+   "grass",
+   "psychic"
+  ],
+  "ability": "sharpness",
+  "ability_name": "Sharpness",
+  "stats": [
+   90,
+   170,
+   108,
+   70,
+   128,
+   124
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:oak_leaves",
+    "s": "minecraft:iron_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "ironboulder": {
+  "display": "Iron Boulder",
+  "stone_name": "Iron Boulderite",
+  "types": [
+   "rock",
+   "psychic"
+  ],
+  "ability": "solidrock",
+  "ability_name": "Solid Rock",
+  "stats": [
+   90,
+   160,
+   100,
+   68,
+   128,
+   144
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:polished_blackstone",
+    "s": "minecraft:iron_ingot",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:redstone"
+   }
+  },
+  "era": "future"
+ },
+ "ironcrown": {
+  "display": "Iron Crown",
+  "stone_name": "Iron Crownite",
+  "types": [
+   "steel",
+   "psychic"
+  ],
+  "ability": "psychicsurge",
+  "ability_name": "Psychic Surge",
+  "stats": [
+   90,
+   72,
+   120,
+   162,
+   128,
+   118
+  ],
+  "recipe": {
+   "pattern": [
+    "ttt",
+    "sms",
+    "xdx"
+   ],
+   "key": {
+    "t": "minecraft:iron_block",
+    "s": "minecraft:redstone",
+    "m": "mega_showdown:mega_stone",
+    "d": "minecraft:diamond",
+    "x": "minecraft:prismarine_crystals"
+   }
+  },
+  "era": "future"
  }
 }

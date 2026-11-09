@@ -471,7 +471,7 @@ Pokemon Cobblemon has data for but no model, now with a model, animations and a 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
 ====================================================================================================
-11 Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold the mega
+22 Paradox Pokemon can Mega Evolve in battle, the same way as Mega Showdown's megas: hold the mega
 stone, wear a Mega Bracelet, and press Mega Evolve in battle. Every stone is crafted from a Mega
 Showdown Mega Stone, a Diamond and themed items, and is in the CobbleEffort creative tab.
 
@@ -563,6 +563,98 @@ MEGA RAGING BOLT  (Electric / Dragon, Electric Surge)
       [sms]
       [.d.]
       t = Lightning Rod, s = Yellow Dye, m = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA IRON TREADS  (Ground / Steel, Steelworker)
+  Stats: HP 90  Atk 142  Def 150  SpA 72  SpD 90  Spe 126  (total 670)
+  Stone: Iron Treadite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Iron Block, s = Redstone, m = Mega Stone (Mega Showdown's), d = Diamond, x = Rail
+
+MEGA IRON BUNDLE  (Ice / Water, Snow Warning)
+  Stats: HP 56  Atk 80  Def 114  SpA 164  SpD 90  Spe 166  (total 670)
+  Stone: Iron Bundlite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Blue Ice, s = Iron Ingot, m = Mega Stone (Mega Showdown's), d = Diamond, x = Redstone
+
+MEGA IRON HANDS  (Fighting / Electric, Iron Fist)
+  Stats: HP 154  Atk 180  Def 138  SpA 50  SpD 98  Spe 50  (total 670)
+  Stone: Iron Handite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Iron Block, s = Redstone Block, m = Mega Stone (Mega Showdown's), d = Diamond, x = Copper
+      Ingot
+
+MEGA IRON JUGULIS  (Dark / Flying, Levitate)
+  Stats: HP 94  Atk 80  Def 106  SpA 162  SpD 100  Spe 128  (total 670)
+  Stone: Iron Jugulite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Phantom Membrane, s = Iron Ingot, m = Mega Stone (Mega Showdown's), d = Diamond, x =
+      Redstone
+
+MEGA IRON MOTH  (Fire / Poison, Corrosion)
+  Stats: HP 80  Atk 70  Def 80  SpA 180  SpD 130  Spe 130  (total 670)
+  Stone: Iron Mothite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Blaze Rod, s = Iron Ingot, m = Mega Stone (Mega Showdown's), d = Diamond, x = Redstone
+
+MEGA IRON THORNS  (Rock / Electric, Sand Stream)
+  Stats: HP 100  Atk 174  Def 140  SpA 70  SpD 104  Spe 82  (total 670)
+  Stone: Iron Thornite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Iron Block, s = Redstone, m = Mega Stone (Mega Showdown's), d = Diamond, x = Green Dye
+
+MEGA IRON VALIANT  (Fairy / Fighting, Justified)
+  Stats: HP 74  Atk 160  Def 100  SpA 150  SpD 70  Spe 136  (total 690)
+  Stone: Iron Valiantite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Iron Sword, s = Pink Dye, m = Mega Stone (Mega Showdown's), d = Diamond, x = Redstone
+
+MEGA MIRAIDON  (Electric / Dragon, Transistor)
+  Stats: HP 100  Atk 85  Def 120  SpA 175  SpD 135  Spe 155  (total 770)
+  Stone: Miraidonite, crafted like this:
+      [ttt]
+      [sms]
+      [.d.]
+      t = Lightning Rod, s = Amethyst Shard, m = Mega Stone (Mega Showdown's), d = Diamond
+
+MEGA IRON LEAVES  (Grass / Psychic, Sharpness)
+  Stats: HP 90  Atk 170  Def 108  SpA 70  SpD 128  Spe 124  (total 690)
+  Stone: Iron Leafite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Oak Leaves, s = Iron Ingot, m = Mega Stone (Mega Showdown's), d = Diamond, x = Redstone
+
+MEGA IRON BOULDER  (Rock / Psychic, Solid Rock)
+  Stats: HP 90  Atk 160  Def 100  SpA 68  SpD 128  Spe 144  (total 690)
+  Stone: Iron Boulderite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Polished Blackstone, s = Iron Ingot, m = Mega Stone (Mega Showdown's), d = Diamond, x =
+      Redstone
+
+MEGA IRON CROWN  (Steel / Psychic, Psychic Surge)
+  Stats: HP 90  Atk 72  Def 120  SpA 162  SpD 128  Spe 118  (total 690)
+  Stone: Iron Crownite, crafted like this:
+      [ttt]
+      [sms]
+      [xdx]
+      t = Iron Block, s = Redstone, m = Mega Stone (Mega Showdown's), d = Diamond, x = Prismarine
+      Crystals
 
 ====================================================================================================
 WORKS WITH

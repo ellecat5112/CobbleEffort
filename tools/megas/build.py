@@ -38,7 +38,6 @@ from PIL import Image
 HERE = Path(__file__).resolve().parent
 TOOLS = HERE.parent
 sys.path.insert(0, str(HERE))
-sys.path.insert(0, str(HERE / "models"))
 sys.path.insert(0, str(TOOLS / "models"))
 from _anim import keys, sin, track, write_json  # noqa: E402
 
@@ -155,6 +154,20 @@ def group_of(sp):
     return f"cobbleeffort_{sp}_mega"
 
 
+_MODELS = {}
+
+
+def model_module(sp):
+    """tools/megas/models/<sp>.py, loaded by path (some names, e.g. ironboulder, are also new-Pokémon builders)."""
+    if sp not in _MODELS:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(f"mega_model_{sp}", HERE / "models" / f"{sp}.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _MODELS[sp] = mod
+    return _MODELS[sp]
+
+
 def built():
     """The megas with a model module, in config order."""
     return [sp for sp in MEGAS if (HERE / "models" / f"{sp}.py").exists()]
@@ -163,7 +176,7 @@ def built():
 # --- model, textures, animations ---------------------------------------------------------------------------------
 
 def build_model(sp):
-    hand = importlib.import_module(sp)
+    hand = model_module(sp)
     cfg = MEGAS[sp]
     cfg["scale"], cfg["hitbox"], cfg["kind"] = hand.SCALE, hand.HITBOX, getattr(hand, "KIND", "quadruped")
     cfg["anim"] = getattr(hand, "ANIM", {})
@@ -538,7 +551,7 @@ def readme_table(sps):
     rows = ["| Mega | Era | Types | Ability | HP / Atk / Def / SpA / SpD / Spe | Stone | Look |", "|---|---|---|---|---|---|---|"]
     for sp in sps:
         c = MEGAS[sp]
-        look = importlib.import_module(sp).LOOK
+        look = model_module(sp).LOOK
         rows.append(f"| Mega {c['display']} | {c['era'].title()} | {' / '.join(t.title() for t in c['types'])} | "
                     f"{c['ability_name']} | {' / '.join(map(str, c['stats']))} | {c['stone_name']} | {look} |")
     left = len(MEGAS) - len(sps)
