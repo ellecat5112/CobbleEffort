@@ -1,0 +1,112 @@
+{
+ "blaze": {
+  "Dark/Fire": "torrent",
+  "Fighting/Fire": "torrent",
+  "Fire": "torrent",
+  "Fire/Flying": "torrent",
+  "Fire/Ghost": "torrent",
+  "Fire/Psychic": "torrent"
+ },
+ "drought": {
+  "Fire": "deluge"
+ },
+ "flashfire": {
+  "Fire": "flashflood",
+  "Fire/Rock": "flashflood"
+ },
+ "galvanize": {
+  "Electric/Rock": "tectonize"
+ },
+ "icebody": {
+  "Ice": "sunbask",
+  "Ice/Psychic": "sunbask",
+  "Ice/Water": "sunbask"
+ },
+ "lightningrod": {
+  "Electric": "sinkhole"
+ },
+ "liquidvoice": {
+  "Fairy/Water": "blossomvoice",
+  "Water": "blossomvoice"
+ },
+ "magnetpull": {
+  "Electric/Steel": "quagmire"
+ },
+ "motordrive": {
+  "Electric": "tremordrive"
+ },
+ "overcoat": {
+  "Ice/Water": "sunscreen"
+ },
+ "overgrow": {
+  "Dark/Grass": "blaze",
+  "Fighting/Grass": "blaze",
+  "Flying/Grass": "blaze",
+  "Ghost/Grass": "blaze",
+  "Grass": "blaze",
+  "Grass/Ground": "blaze",
+  "Grass/Poison": "blaze"
+ },
+ "pixilate": {
+  "Fairy": "metallize"
+ },
+ "rattled": {
+  "Dark": "jittery"
+ },
+ "sandforce": {
+  "Ground": "tideforce",
+  "Ground/Steel": "siltforce"
+ },
+ "scrappy": {
+  "Fighting": "scrappymind",
+  "Fighting/Grass": "scrappymind",
+  "Normal": "scrappyfists"
+ },
+ "slushrush": {
+  "Ice/Steel": "heatrush"
+ },
+ "snowcloak": {
+  "Fairy/Ice": "heathaze",
+  "Flying/Ice": "heathaze",
+  "Ice": "heathaze",
+  "Ice/Steel": "heathaze"
+ },
+ "snowwarning": {
+  "Fairy/Ice": "heatwarning",
+  "Ice": "heatwarning"
+ },
+ "solarpower": {
+  "Fire": "stormpower",
+  "Fire/Flying": "stormpower"
+ },
+ "steelyspirit": {
+  "Steel": "earthenspirit"
+ },
+ "swarm": {
+  "Bug/Flying": "flock",
+  "Bug/Poison": "flock",
+  "Bug/Rock": "flock",
+  "Bug/Steel": "flock"
+ },
+ "thickfat": {
+  "Fighting/Fire": "blubber",
+  "Fire": "blubber",
+  "Ice/Water": "insulation"
+ },
+ "torrent": {
+  "Dark/Water": "overgrow",
+  "Fairy/Water": "overgrow",
+  "Fighting/Water": "overgrow",
+  "Ground/Water": "overgrow",
+  "Steel/Water": "overgrow",
+  "Water": "overgrow"
+ },
+ "voltabsorb": {
+  "Electric": "eartheater"
+ },
+ "waterabsorb": {
+  "Fighting/Water": "rootabsorb",
+  "Ice/Water": "rootabsorb",
+  "Water": "rootabsorb"
+ }
+}

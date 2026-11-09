@@ -33,8 +33,8 @@ A TEST BUILD. What's in it:
   - Wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
 
 DISTORTING WITH THE CRYSTAL (NEW in 0.10.0)
-  Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form and look, kept while
-  it holds the crystal (it enters battle distorted). Take the crystal away and it turns back. No band needed for this;
+  Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form, look, types, moves
+  (their distorted twins) and type-bound ability, kept while it holds the crystal (it enters battle distorted). Take the crystal away and it turns back. No band needed for this;
   the band is what lets you toggle it in battle (and use the wheel).
 
 HOW TO DISTORT IN BATTLE
@@ -158,8 +158,11 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
-  0.10.0: give a distortable Pokemon the Distortion Crystal: it should distort straight away (look and form; no band
-  needed). Take the crystal back: it should return to normal. Does it enter battle distorted?
+  0.10.1: give a distortable Pokemon the Distortion Crystal: it should distort straight away, with a "distorted!"
+  message, its distorted moves and (if type-bound) ability in its summary. Take the crystal back: it returns to
+  normal with its own moves and ability (a move it learned meanwhile stays). In battle it starts distorted; revert it
+  with the band and it's back to normal, then distorted again after the battle while it still holds the crystal.
+  If the message doesn't show, send latest.log (it logs "<Pokemon> distorted (holding the Distortion Crystal)").
   0.9.1: fixes the crash when creating or loading a world (Mega Showdown loads the battle scripts as one line, so a
   comment in them cut the rest off), and Magnemite's line distorting to Ground/Ground (now just Ground).
   New in this build: every Gen 1 Pokemon (try /pokegive <name> distorted, with alolan / galarian / hisuian /

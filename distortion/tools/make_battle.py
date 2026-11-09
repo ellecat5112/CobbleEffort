@@ -463,6 +463,21 @@ def write_engine(twins, ability_twins, by_species):
     if (pokemon.baseMoveSlots[i] && pokemon.baseMoveSlots[i].id === slot.id) pokemon.baseMoveSlots[i] = moved;
     pokemon.moveSlots[i] = moved;
   },
+  untwinOf(pokemon, id) {
+    const own = this.distortTwinsBySpecies[this.distortBase(pokemon)] || {};
+    for (const o in own) if (own[o] === id) return o;
+    for (const o in this.distortTwins) if (this.distortTwins[o] === id) return o;
+    return null;
+  },
+  untwinAbility(pokemon, id) {
+    const key = [...pokemon.species.types].sort().join("/");
+    for (const a in this.distortAbilities) if (this.distortAbilities[a][key] === id) return a;
+    return null;
+  },
+  preswapped(pokemon) {
+    if (pokemon.moveSlots.some(s => !this.twinOf(pokemon, s.id) && this.untwinOf(pokemon, s.id))) return true;
+    return !!this.untwinAbility(pokemon, pokemon.baseAbility) && !this.distortedAbility(pokemon);
+  },
   distortMoves(pokemon) {
     // every move becomes its inverted twin, keeping its PP; the pairs are kept to turn them back
     pokemon.distortPairs = [];
@@ -484,7 +499,16 @@ def write_engine(twins, ability_twins, by_species):
   },
   setDistorted(pokemon, on, silent) {
     const name = pokemon.species.name;
-    if (on) {
+    if (on && silent && this.preswapped(pokemon)) {
+      pokemon.distorted = true;
+      pokemon.distortOrigAbility = this.untwinAbility(pokemon, pokemon.baseAbility) || pokemon.baseAbility;
+      this.applyDistortTypes(pokemon);
+      pokemon.distortPairs = [];
+      for (const slot of pokemon.moveSlots) {
+        const orig = this.untwinOf(pokemon, slot.id);
+        if (orig) pokemon.distortPairs.push([orig, slot.id]);
+      }
+    } else if (on) {
       pokemon.distorted = true;
       pokemon.distortOrigAbility = pokemon.baseAbility;
       const twin = this.distortedAbility(pokemon);
@@ -594,6 +618,7 @@ def main():
     write_engine(twins, ability_twins, by_species)
     write_lang(new, new_abilities)
     (RES / "data" / MOD / "distortion").mkdir(parents=True, exist_ok=True)
+    (RES / "data" / MOD / "distortion" / "ability_twins.json").write_text(json.dumps(ability_twins, indent=1, sort_keys=True) + "\n")
     (RES / "data" / MOD / "distortion" / "move_twins.json").write_text(
         json.dumps({"default": twins, "species": {k.lower(): v for k, v in by_species.items()}}, indent=2, sort_keys=True) + "\n")
     existing = sum(1 for v in twins.values() if v not in new)

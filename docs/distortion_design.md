@@ -77,7 +77,11 @@ an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_
 The user's direction: holding the Distortion Crystal IS the distortion outside battle. `DistortionWheel.sync` on
 Cobblemon's HELD_ITEM_POST (and POKEMON_SENT_POST, for a crystal given another way): a distortable Pokémon given the
 crystal gets the `distorted` flag feature (form + look) at once, no band needed; taking it (and, for Arceus, its plate)
-away clears it. It enters battle distorted (as before for a wheel distortion); the band still gates the in-battle
+away clears it. Since 0.10.1 that also swaps its stored moves and ability for their twins (`DistortionTwins`, from
+`distortion/move_twins.json` + `ability_twins.json`, originals kept in the Pokémon's persistent data and put back on
+revert; a move learned meanwhile stays); the engine recognises a pre-swapped Pokémon at battle start (`preswapped`:
+a move with no twin of its own that is some move's twin, or such an ability) and only records the pairs. An in-battle
+revert undoes it, and after the battle a Pokémon still holding the crystal distorts again. It enters battle distorted (as before for a wheel distortion); the band still gates the in-battle
 toggle and the wheel.
 
 ## Every Gen 1 Pokémon (0.9.0)

@@ -38,6 +38,8 @@ public final class DistortionBattle {
     private static final Map<UUID, Set<Pokemon>> DISTORTED = new ConcurrentHashMap<>();
     /** AI actors (by battle) that have chosen to distort: once per battle. */
     private static final Map<UUID, Set<UUID>> AI_DISTORTED = new ConcurrentHashMap<>();
+    /** Pokémon that reverted in a battle (by battle): distorted again afterwards if they still hold the crystal. */
+    private static final Map<UUID, Set<Pokemon>> REVERTED_IN_BATTLE = new ConcurrentHashMap<>();
 
     private DistortionBattle() {
     }
@@ -53,7 +55,10 @@ public final class DistortionBattle {
             // reverted in battle: the look goes, and a distortion made outside battle is undone too
             Pokemon pokemon = event.getPokemon().getEffectedPokemon();
             clearForcedAspect(pokemon);
-            if (DistortionRules.distortedOutside(pokemon)) DistortionRules.setDistortedOutside(pokemon, false);
+            if (DistortionRules.distortedOutside(pokemon)) {
+                DistortionRules.setDistortedOutside(pokemon, false);
+                REVERTED_IN_BATTLE.computeIfAbsent(event.getBattle().getBattleId(), id -> ConcurrentHashMap.newKeySet()).add(pokemon);
+            }
             return;
         }
         if (!ASPECT.equals(event.getFormeName())) return;
@@ -68,6 +73,16 @@ public final class DistortionBattle {
 
     private static void onBattleEnded(BattleEndedEvent event) {
         AI_DISTORTED.remove(event.getBattle().getBattleId());
+        Set<Pokemon> reverted = REVERTED_IN_BATTLE.remove(event.getBattle().getBattleId());
+        if (reverted != null) {
+            for (Pokemon pokemon : reverted) {
+                try {
+                    DistortionWheel.sync(pokemon, false);            // still holding the crystal: distorted again
+                } catch (Throwable t) {
+                    LOG.error("Re-distorting after battle failed", t);
+                }
+            }
+        }
         Set<Pokemon> list = DISTORTED.remove(event.getBattle().getBattleId());
         if (list == null) return;
         for (Pokemon pokemon : list) clearForcedAspect(pokemon);

@@ -106,14 +106,16 @@ public final class DistortionWheel {
             if (owner != null && BattleRegistry.getBattleByParticipatingPlayer(owner) != null) return;   // the battle's own toggle
             DistortionRules.setDistortedOutside(pokemon, true);
             effects(pokemon, true);
-            if (announce && owner != null) {
+            LOG.info("{} distorted (holding the Distortion Crystal)", pokemon.getSpecies().getName());
+            if (owner != null) {
                 owner.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".message.distorted", pokemon.getDisplayName(false)));
             }
         } else if (distorted && !DistortionRules.holdsSource(pokemon)) {
             DistortionRules.setDistortedOutside(pokemon, false);
             DistortionBattle.clearForcedAspect(pokemon);
             effects(pokemon, false);
-            if (announce && owner != null) {
+            LOG.info("{} returned to normal (no Distortion Crystal)", pokemon.getSpecies().getName());
+            if (owner != null) {
                 owner.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".message.reverted", pokemon.getDisplayName(false)));
             }
         }

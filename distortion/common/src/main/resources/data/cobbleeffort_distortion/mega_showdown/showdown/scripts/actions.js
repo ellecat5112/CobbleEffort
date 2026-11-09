@@ -40,6 +40,21 @@
     if (pokemon.baseMoveSlots[i] && pokemon.baseMoveSlots[i].id === slot.id) pokemon.baseMoveSlots[i] = moved;
     pokemon.moveSlots[i] = moved;
   },
+  untwinOf(pokemon, id) {
+    const own = this.distortTwinsBySpecies[this.distortBase(pokemon)] || {};
+    for (const o in own) if (own[o] === id) return o;
+    for (const o in this.distortTwins) if (this.distortTwins[o] === id) return o;
+    return null;
+  },
+  untwinAbility(pokemon, id) {
+    const key = [...pokemon.species.types].sort().join("/");
+    for (const a in this.distortAbilities) if (this.distortAbilities[a][key] === id) return a;
+    return null;
+  },
+  preswapped(pokemon) {
+    if (pokemon.moveSlots.some(s => !this.twinOf(pokemon, s.id) && this.untwinOf(pokemon, s.id))) return true;
+    return !!this.untwinAbility(pokemon, pokemon.baseAbility) && !this.distortedAbility(pokemon);
+  },
   distortMoves(pokemon) {
     
     pokemon.distortPairs = [];
@@ -61,7 +76,16 @@
   },
   setDistorted(pokemon, on, silent) {
     const name = pokemon.species.name;
-    if (on) {
+    if (on && silent && this.preswapped(pokemon)) {
+      pokemon.distorted = true;
+      pokemon.distortOrigAbility = this.untwinAbility(pokemon, pokemon.baseAbility) || pokemon.baseAbility;
+      this.applyDistortTypes(pokemon);
+      pokemon.distortPairs = [];
+      for (const slot of pokemon.moveSlots) {
+        const orig = this.untwinOf(pokemon, slot.id);
+        if (orig) pokemon.distortPairs.push([orig, slot.id]);
+      }
+    } else if (on) {
       pokemon.distorted = true;
       pokemon.distortOrigAbility = pokemon.baseAbility;
       const twin = this.distortedAbility(pokemon);

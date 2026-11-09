@@ -45,8 +45,15 @@ public final class DistortionRules {
         return feature instanceof FlagSpeciesFeature flag && flag.getEnabled();
     }
 
+    /** Distort or revert outside battle: the form and look (the flag feature), and the moves and ability (their twins). */
     public static void setDistortedOutside(Pokemon pokemon, boolean distorted) {
+        if (distorted) {
+            DistortionTwins.apply(pokemon);                       // before the form changes the types
+        }
         new FlagSpeciesFeature(FEATURE, distorted).apply(pokemon);
         pokemon.updateAspects();
+        if (!distorted) {
+            DistortionTwins.restore(pokemon);
+        }
     }
 }
