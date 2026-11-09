@@ -14,5 +14,5 @@ onWeather(target, source, effect) {
 "flags": {},
 "name": "Storm Power",
 "rating": 2,
-"num": -31101
+"num": -31102
 }

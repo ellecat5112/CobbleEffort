@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:decidueye",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:decidueye_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:decidueye_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:decidueye_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:decidueye_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_shiny_decidueye_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_shiny_decidueye_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_shiny_decidueye_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_shiny_decidueye_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_shiny_decidueye_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_alpha_decidueye_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0724_decidueye/distorted_decidueye_hisuian_decidueye_hisuian_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

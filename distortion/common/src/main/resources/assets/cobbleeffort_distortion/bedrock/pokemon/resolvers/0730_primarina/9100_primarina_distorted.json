@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:primarina",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:primarina_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0730_primarina/distorted_primarina.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:primarina_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0730_primarina/distorted_primarina_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0730_primarina/distorted_primarina_alpha.png"
+        }
+      ]
+    }
+  ]
+}

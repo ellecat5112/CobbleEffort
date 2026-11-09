@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:scorbunny",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scorbunny_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0813_scorbunny/distorted_scorbunny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:scorbunny_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0813_scorbunny/distorted_scorbunny_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0813_scorbunny/distorted_scorbunny_alpha.png"
+        }
+      ]
+    }
+  ]
+}

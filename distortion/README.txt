@@ -8,17 +8,21 @@ A TEST BUILD. What's in it:
   - The Distortion Band and the Distortion Crystal (one crystal for every Pokemon), in the "Distortion" creative tab.
   - A "Distortion" accessory slot (open your Accessories screen); the band goes there.
   - Distorted forms for Giratina, Dialga, Palkia and Arceus (including the Origin forms and every Arceus plate type)
-    and NEW: the Charmander line (Charmander, Charmeleon, Charizard), with inverted types and inverted colours.
-  - NEW: the distorted Charmander line's flame tail becomes a mermaid tail: scales and a fluke instead of the flame.
+    and NEW: every starter and its evolutions, Gen 1 to 9 (81 Pokemon, plus the Hisuian forms of Typhlosion, Samurott
+    and Decidueye and Greninja's Bond form). Each line has its own distorted look:
+      water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
+    (see STARTERS below).
   - Distorting in battle, and from the interaction wheel (the radial menu) outside battle.
-  - NEW: abilities follow when they're tied to the Pokemon's type: Blaze becomes Torrent, Solar Power becomes the new
-    Storm Power (the same, in rain). Abilities that aren't tied to its type stay.
-  - NEW: wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
+  - Abilities follow when they're tied to the Pokemon's type: Overgrow -> Blaze, Blaze -> Torrent, Torrent -> Overgrow,
+    and NEW ones where no real ability fits: Storm Power (Solar Power, in rain), Flash Flood (Flash Fire, for Water),
+    Blubber (Thick Fat, against Water and Ice), Blossom Voice (Liquid Voice, Grass) and Scrappy Mind (Scrappy,
+    Psychic). Abilities that aren't tied to its type stay.
+  - Wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
 
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
-  2. Give the Distortion Crystal to Giratina, Dialga, Palkia, Charmander, Charmeleon or Charizard. Arceus doesn't
-     need it: it distorts with its plate
+  2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, any starter or its evolutions).
+     Arceus doesn't need it: it distorts with its plate
      (it can only hold one item, and the plates are its power).
   3. In battle, pick "Fight": a Distort button appears next to the back button. Click it (the move tiles switch to
      the distorted moves), then pick a move.
@@ -40,8 +44,42 @@ HOW TO DISTORT OUTSIDE BATTLE (the interaction wheel)
 Distorted types (each type becomes its weakness):
   Giratina  Ghost/Dragon  -> Dark/Fairy        Dialga  Steel/Dragon  -> Ground/Fairy
   Palkia    Water/Dragon  -> Grass/Fairy       Arceus  its type      -> that type's weakness
-  Charmander, Charmeleon  Fire -> Water        Charizard  Fire/Flying -> Water/Electric
-  (Mega and Gigantamax Charizard don't distort.)
+  Starters: Grass -> Fire, Fire -> Water, Water -> Grass, and their second types follow the same chart
+  (Charizard Fire/Flying -> Water/Electric, Venusaur Grass/Poison -> Fire/Ground, Empoleon Water/Steel -> Grass/Ground).
+  Megas, Gigantamax forms and Ash-Greninja don't distort.
+
+STARTERS (the distorted looks)
+  Grass starters, natural disasters:
+    Bulbasaur line   a wildfire: raging flames burst from a charred stump where the bulb was; Venusaur's flower is
+                     an inferno with petals of fire
+    Chikorita line   a volcanic eruption: the leaf is a plume of fire, Meganium's petals cooled lava, flames erupting
+    Treecko line     a firestorm: a magma tail with flames, Sceptile's seeds molten and its leaves flame
+    Turtwig line     a volcano: Torterra's tree is an erupting volcano (every tree variant), Grotle's bushes lava rocks
+    Snivy line       a lava flow: burning leaves, a magma collar, Serperior's tail molten rock
+    Chespin line     a meteor strike: a meteorite hood and armour cracked with lava
+    Rowlet line      a firestorm: burning leaves and plumes, Decidueye's cloak scorched
+    Grookey line     a wildfire: burning torches for sticks, flaming hair, Rillaboom's magma drum
+    Sprigatito line  an ember storm: burning fur and blossoms, smouldering cloaks
+  Fire starters, sea life:
+    Charmander line  a mermaid: a fish-scaled tail with a fluke instead of the flame
+    Cyndaquil line   sea anemones: the flames are anemone tentacles (Hisuian Typhlosion's mane too)
+    Torchic line     a coral reef: coral crest, sea-foam fluff, Blaziken's fins and kelp crest
+    Chimchar line    jellyfish: the flames are jellyfish tendrils
+    Tepig line       pearls and coral: a pearl tail, Emboar's coral beard
+    Fennekin line    a nudibranch: frilly sea-slug ear tufts, anemone flames on the wands
+    Litten line      a shark: a dorsal fin, Incineroar's coral belt
+    Scorbunny line   the sea bunny (a fluffy sea slug): speckles and a gill tuft
+    Fuecoco line     deep-sea bioluminescence: the flames glow cold cyan, like an anglerfish's lure
+  Water starters, plant inspiration:
+    Squirtle line    prototaxites: banded fungal trunks on the shell, Blastoise's cannons two towering pillars
+    Totodile line    the Venus flytrap: snapping traps along the back
+    Mudkip line      a lotus pond: lily-pad fins, lotus-petal gills, a lotus on Mudkip's head
+    Piplup line      a pine forest: little pines, needle crests, Empoleon's bark crown with pine branches
+    Oshawott line    bamboo: a bamboo-slice scalchop, Samurott's bamboo helmet, blades and back stand
+    Froakie line     moss and vines: mossy frubbles, Greninja's vine scarf
+    Popplio line     flowers: petal ruffs, blossoms, Primarina's golden pollen stars
+    Sobble line      leaves: leafy fins and Inteleon's leaf-trail tail
+    Quaxly line      fern fronds: frond hair and plumes
 
 Distorted moves: every move becomes the same move in its new type. Where a real move is already the exact
 opposite, it's that one (Blast Burn -> Hydro Cannon, Sunny Day -> Rain Dance, Trick -> Switcheroo). Otherwise it's
@@ -57,9 +95,10 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
-  New in this build: does the distorted Charmander line show its mermaid tail (no flame, a fin at the tip)? Does
-  Charizard's ability turn into Torrent when it distorts (Solar Power: Storm Power)? Does a wild Charizard holding
-  the crystal distort in battle, and does the battle carry on normally after?
+  New in this build: try some starters with /pokegive <name> distorted (and shiny, female for the Bulbasaur and
+  Torchic lines, hisuian for Typhlosion/Samurott/Decidueye). Do the looks show (the animated flames, Torterra's
+  volcano, the flytraps, the pillars)? Anything that looks broken or off-theme: tell me which Pokemon.
+  From before: the mermaid tail, abilities turning when distorting, a wild Pokemon holding the crystal distorting.
   Does the Distort option show in the wheel (band on, crystal held)? Does the Pokemon change look when you pick it,
   and back with Revert Distortion, or when you take the crystal? Does it stay distorted after relogging? Does it
   enter battle distorted with the distorted moves?

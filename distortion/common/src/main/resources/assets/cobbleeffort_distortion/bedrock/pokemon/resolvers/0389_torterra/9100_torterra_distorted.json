@@ -1,0 +1,883 @@
+{
+  "species": "cobblemon:torterra",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-birch",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-birch",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-birch",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_birch_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-darkoak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-darkoak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-darkoak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_darkoak_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-oak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-oak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-oak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_oak_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-spruce",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-spruce",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-spruce",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_spruce_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-jungle",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-jungle",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-jungle",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_jungle_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-swamp",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-swamp",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-swamp",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_swamp_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-acacia",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-acacia",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-acacia",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_acacia_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-azalea",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-azalea",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-azalea",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_azalea_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-mangrove",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-mangrove",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-mangrove",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_mangrove_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-cherry",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tree-cherry",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torterra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "tree-cherry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_cherry_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0389_torterra/distorted_torterra_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

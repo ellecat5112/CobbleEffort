@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venusaur_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venusaur_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_alpha_venusaur_male.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venusaur_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_venusaur_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:venusaur_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0003_venusaur/distorted_venusaur_shiny_venusaur_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:infernape",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:infernape.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0392_infernape/distorted_infernape.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:infernape.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0392_infernape/distorted_infernape_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0392_infernape/distorted_infernape_alpha.png"
+        }
+      ]
+    }
+  ]
+}

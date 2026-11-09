@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:dartrix",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 7,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.dartrix-hisuibias.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "electric",
+      "weight": 160,
+      "battleOnly": false
+    }
+  ]
+}

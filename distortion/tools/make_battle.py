@@ -70,7 +70,8 @@ SKIP = {"struggle", "hiddenpower"}
 WEATHER = {"fire": ["sunnyday", "desolateland"], "water": ["raindance", "primordialsea"], "ice": ["hail", "snow"]}
 WEATHER_NAMES = {"sunnyday": "harsh sunlight", "desolateland": "extremely harsh sunlight", "raindance": "rain",
                  "primordialsea": "heavy rain", "hail": "hail", "snow": "snow"}
-ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood"}    # new twins with names written for them
+ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood", "thickfat": "Blubber",   # new twins with
+                 "liquidvoice": "Blossom Voice", "scrappy": "Scrappy Mind"}                            # names written for them
 ABILITY_META = {"name", "num", "rating", "isNonstandard", "desc", "shortDesc"}
 
 
@@ -396,8 +397,9 @@ def write_engine(twins, ability_twins):
     const source = this.dex.conditions.get("distortion");
     pokemon.formeChange(species, source && source.exists ? source : null, true);
     // the ability follows: its distorted twin if it's bound to the Pokémon's type (Blaze -> Torrent), else the same
-    pokemon.setAbility(twin || ability, null, true);
-    pokemon.baseAbility = twin || ability;
+    const want = twin || ability;
+    if (pokemon.ability !== want) pokemon.setAbility(want, null, true);
+    pokemon.baseAbility = want;
     if (twin) this.battle.add("-ability", pokemon, this.dex.abilities.get(twin).name);
     this.distortMoves(pokemon);
     pokemon.distorted = true;

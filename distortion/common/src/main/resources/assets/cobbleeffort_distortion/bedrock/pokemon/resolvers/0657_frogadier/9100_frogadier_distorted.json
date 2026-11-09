@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:frogadier",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:frogadier.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0657_frogadier/distorted_frogadier.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:frogadier.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0657_frogadier/distorted_frogadier_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0657_frogadier/distorted_frogadier_alpha.png"
+        }
+      ]
+    }
+  ]
+}

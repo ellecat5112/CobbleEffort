@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:marshtomp",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:marshtomp.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0259_marshtomp/distorted_marshtomp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:marshtomp.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0259_marshtomp/distorted_marshtomp_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0259_marshtomp/distorted_marshtomp_alpha.png"
+        }
+      ]
+    }
+  ]
+}

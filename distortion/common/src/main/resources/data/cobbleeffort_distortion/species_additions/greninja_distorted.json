@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:greninja",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "abilities": [
+        "battlebond",
+        "h:battlebond"
+      ],
+      "aspects": [
+        "bond",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "height": 15,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 1,
+      "name": "Bond-Distorted",
+      "pokedex": [
+        "cobblemon.species.greninja-bond.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "weight": 400
+    }
+  ]
+}

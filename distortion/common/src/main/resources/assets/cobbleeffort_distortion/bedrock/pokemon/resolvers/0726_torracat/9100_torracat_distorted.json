@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:torracat",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torracat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0726_torracat/distorted_torracat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torracat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0726_torracat/distorted_torracat_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0726_torracat/distorted_torracat_alpha.png"
+        }
+      ]
+    }
+  ]
+}

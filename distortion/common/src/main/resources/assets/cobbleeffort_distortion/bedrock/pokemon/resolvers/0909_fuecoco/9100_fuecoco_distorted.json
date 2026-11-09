@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:fuecoco",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:fuecoco.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0909_fuecoco/distorted_fuecoco.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0909_fuecoco/distorted_fuecoco_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:fuecoco.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0909_fuecoco/distorted_fuecoco_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0909_fuecoco/distorted_fuecoco_alpha.png"
+        }
+      ]
+    }
+  ]
+}

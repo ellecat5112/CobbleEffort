@@ -1,0 +1,109 @@
+{
+  "species": "cobblemon:sceptile",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:sceptile.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:sceptile.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-stick",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_stick.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0254_sceptile/distorted_sceptile_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

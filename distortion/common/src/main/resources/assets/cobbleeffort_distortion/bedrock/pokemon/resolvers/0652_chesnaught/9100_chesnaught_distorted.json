@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:chesnaught",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:chesnaught.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:chesnaught.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0652_chesnaught/distorted_chesnaught_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

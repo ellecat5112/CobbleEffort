@@ -9,7 +9,7 @@ Writes CobbleEffort: Distortion's assets and data into common/src/main/resources
              types turned into their weaknesses (TYPE_CHART); a "distorted" flag feature (aspect) for them
   looks      resolvers (order 9100) mirroring every variation Cobblemon and Mega Showdown give them, with "distorted"
              added and textures recoloured: every hue turned to its complement (orange -> blue), greys kept; parts
-             where they fit (make_parts.py: the Charmander line's mermaid tail)
+             where they fit (tools/parts/: one module per line, on the part kit)
   chart      data/cobbleeffort_distortion/distortion/type_chart.json, for the battle code
 
 The Pokémon's models and textures come from Cobblemon (its jar: COBBLEMON_JAR) and Mega Showdown (CC BY-NC-SA 4.0,
@@ -25,6 +25,7 @@ import glob
 import io
 import json
 import math
+import sys
 import zipfile
 from pathlib import Path
 
@@ -50,8 +51,26 @@ TYPE_COLOUR = {"normal": (168, 167, 122), "fire": (238, 129, 48), "water": (99, 
                "rock": (182, 161, 54), "ghost": (115, 87, 151), "dragon": (111, 53, 252), "dark": (112, 87, 70),
                "steel": (183, 183, 206), "fairy": (214, 133, 173)}
 # the distortable Pokémon (curated): the Distortion World's champion and the creation trio, then the Charmander line
-DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus",
-               "charmander": "0004_charmander", "charmeleon": "0005_charmeleon", "charizard": "0006_charizard"}
+# every starter's evolutionary line (Gen 1-9): water types distort into plant-inspired forms, grass types into natural
+# disasters, fire types into sea life (looks and parts: tools/parts/<first stage>.py)
+STARTER_LINES = [
+    ["bulbasaur", "ivysaur", "venusaur"], ["charmander", "charmeleon", "charizard"], ["squirtle", "wartortle", "blastoise"],
+    ["chikorita", "bayleef", "meganium"], ["cyndaquil", "quilava", "typhlosion"], ["totodile", "croconaw", "feraligatr"],
+    ["treecko", "grovyle", "sceptile"], ["torchic", "combusken", "blaziken"], ["mudkip", "marshtomp", "swampert"],
+    ["turtwig", "grotle", "torterra"], ["chimchar", "monferno", "infernape"], ["piplup", "prinplup", "empoleon"],
+    ["snivy", "servine", "serperior"], ["tepig", "pignite", "emboar"], ["oshawott", "dewott", "samurott"],
+    ["chespin", "quilladin", "chesnaught"], ["fennekin", "braixen", "delphox"], ["froakie", "frogadier", "greninja"],
+    ["rowlet", "dartrix", "decidueye"], ["litten", "torracat", "incineroar"], ["popplio", "brionne", "primarina"],
+    ["grookey", "thwackey", "rillaboom"], ["scorbunny", "raboot", "cinderace"], ["sobble", "drizzile", "inteleon"],
+    ["sprigatito", "floragato", "meowscarada"], ["fuecoco", "crocalor", "skeledirge"], ["quaxly", "quaxwell", "quaquaval"],
+]
+STARTER_NUMS = [1, 4, 7, 152, 155, 158, 252, 255, 258, 387, 390, 393, 495, 498, 501, 650, 653, 656, 722, 725, 728,
+                810, 813, 816, 906, 909, 912]
+# the distortable Pokémon (curated): the Distortion World's champion and the creation trio, then every starter line
+DISTORTABLE = {"giratina": "0487_giratina", "dialga": "0483_dialga", "palkia": "0484_palkia", "arceus": "0493_arceus"}
+for _line, _num in zip(STARTER_LINES, STARTER_NUMS):
+    for _i, _sp in enumerate(_line):
+        DISTORTABLE[_sp] = f"{_num + _i:04d}_{_sp}"
 
 
 def write_json(path: Path, obj):
@@ -214,7 +233,7 @@ def cobblemon_species(sp):
     raise SystemExit(f"no Cobblemon species data for {sp}")
 
 
-SKIPPED_ASPECTS = {"mega", "mega_x", "mega_y", "gmax"}     # megas and Gigantamax don't distort
+SKIPPED_ASPECTS = {"mega", "mega_x", "mega_y", "gmax", "ash"}     # megas, Gigantamax and Ash-Greninja don't distort
 
 
 def invert(t):
@@ -287,63 +306,229 @@ def recolour(img: Image.Image) -> Image.Image:
     return Image.fromarray((a * 255).round().astype(np.uint8), "RGBA")
 
 
+def _hsv(rgb):
+    mx, mn = rgb.max(-1), rgb.min(-1)
+    d = mx - mn
+    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
+    h = np.where(mx == r, (g - b) / np.maximum(d, 1e-9), np.where(mx == g, 2 + (b - r) / np.maximum(d, 1e-9), 4 + (r - g) / np.maximum(d, 1e-9)))
+    h = np.where(d > 0, (h / 6.0) % 1.0, 0)
+    s = np.where(mx > 0, d / np.maximum(mx, 1e-9), 0)
+    return h, s, mx
+
+
+def _rgb(h, s, v):
+    i = np.floor(h * 6).astype(int) % 6
+    f = h * 6 - np.floor(h * 6)
+    p, q, t = v * (1 - s), v * (1 - s * f), v * (1 - s * (1 - f))
+    out = np.zeros(h.shape + (3,))
+    for k, (r, g, b) in enumerate([(v, t, p), (q, v, p), (p, v, t), (p, q, v), (t, p, v), (v, p, q)]):
+        m = i == k
+        out[m] = np.stack([r[m], g[m], b[m]], -1)
+    return out
+
+
+def dominant_hue(img, near=None, within=50.0):
+    """The hue most of the texture's colour is (weighted by saturation), in degrees; only hues within `within` of
+    `near` count, if given (the old type's colour: Blastoise's skin, not its bigger brown shell)."""
+    a = np.array(img.convert("RGBA")).astype(np.float64) / 255.0
+    h, s, v = _hsv(a[..., :3])
+    w = s * v * (a[..., 3] > 0) * (s > 0.15)
+    if near is not None:
+        w = w * (np.abs(((h * 360 - near) + 180) % 360 - 180) < within)
+    hist, _ = np.histogram(h * 360, bins=36, range=(0, 360), weights=w)
+    hist = hist + 0.5 * (np.roll(hist, 1) + np.roll(hist, -1))
+    return float(np.argmax(hist) * 10 + 5)
+
+
+def recolour_shift(img, dst, src=None, width=55.0, sat=1.0, val=1.0, near=None):
+    """The type colour moved to the new type's: hues within `width` degrees of `src` (the texture's dominant hue unless
+    given) turn towards `dst` (fading out at the edge of the range); other colours stay (Squirtle's shell stays brown)."""
+    if src is None:
+        src = dominant_hue(img, near)
+    a = np.array(img.convert("RGBA")).astype(np.float64) / 255.0
+    h, s, v = _hsv(a[..., :3])
+    d = np.abs(((h * 360 - src) + 180) % 360 - 180)
+    k = np.clip((width - d) / (width * 0.4), 0, 1) * (s > 0.08)
+    shift = (((dst - src) + 180) % 360 - 180) / 360.0
+    h2 = (h + shift * k) % 1.0
+    s2 = np.clip(s * (1 + (sat - 1) * k), 0, 1)
+    v2 = np.clip(v * (1 + (val - 1) * k), 0, 1)
+    a[..., :3] = _rgb(h2, s2, v2)
+    return Image.fromarray((a * 255).round().astype(np.uint8), "RGBA")
+
+
 def looks():
     """Resolvers mirroring every variation the Pokémon has (Cobblemon's, with Mega Showdown's where it replaces or adds
-    them), with "distorted" added and the textures recoloured; parts (make_parts.py) swap in their model."""
-    import make_parts
+    them), with "distorted" added and the textures recoloured. A line with a parts module (tools/parts/) gets its
+    distorted models (a copy of each model it uses, with parts) and its recolour (the type colour moved to the new
+    type's); the others keep the complement recolour and Cobblemon's models."""
+    sys.path.insert(0, str(HERE / "parts"))
+    import parts as partlib
     cz, mz = cobblemon_jar(), msd_jar()
     zips = [mz, cz]                                             # Mega Showdown's assets win over Cobblemon's
+    names = {z: set(z.namelist()) for z in zips}
+
+    def read(path):
+        z = next(z for z in zips if path in names[z])
+        return z.read(path)
+
+    def geo_path(model_id):
+        want = model_id.split(":", 1)[1] + ".json"
+        for z in zips:
+            for n in names[z]:
+                if n.startswith("assets/cobblemon/bedrock/pokemon/models/") and n.endswith("/" + want):
+                    return n
+        raise SystemExit(f"no model {model_id}")
+
     for sp, folder in DISTORTABLE.items():
-        part = make_parts.build(sp, cz) if sp in make_parts.TAILS else None
-        if part:
-            write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / part["file"], part["geo"])
+        module = partlib.module_for(sp)
         prefix = f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/"
-        paths = sorted({n for z in zips for n in z.namelist() if n.startswith(prefix) and n.endswith(".json")})
-        resolvers = []
-        for n in paths:
-            z = next(z for z in zips if n in z.namelist())
-            resolvers.append((json.loads(z.read(n)), n))
-        resolvers.sort(key=lambda r: (r[0].get("order", 0), r[1]))
-        out = []
-        done_tex = {}
+        paths = sorted({n for z in zips for n in names[z] if n.startswith(prefix) and n.endswith(".json")})
+        resolvers = sorted(((json.loads(read(n)), n) for n in paths), key=lambda r: (r[0].get("order", 0), r[1]))
+        variations = [v for d, _ in resolvers for v in d["variations"] if not set(v.get("aspects", [])) & SKIPPED_ASPECTS]
+        base = next((v for v in variations if not v.get("aspects") and v.get("model")), None)
+        base_model = base["model"] if base else None
+        kits, done, frames_of = {}, {}, {}
 
-        def tex(path, body):
-            key = (path, body)
-            if key not in done_tex:
+        def kit_for(model_id):
+            if module is None or model_id is None:
+                return None
+            if model_id not in kits:
+                kit = partlib.Kit(sp, model_id.split(":", 1)[1].removesuffix(".geo"), json.loads(read(geo_path(model_id))))
+                module.build(kit)
+                if kit.used and kit.geo_changed:
+                    name = kit.model + "_distorted"
+                    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "models" / folder / f"{name}.geo.json",
+                               kit.finish_geo(f"geometry.{name}"))
+                    kit.id = f"{MOD}:{name}.geo"
+                elif kit.used:
+                    kit.id = model_id                           # only repainted: Cobblemon's own model
+                kits[model_id] = kit if kit.used else None
+            return kits[model_id]
+
+        def dst_for(p, tag):
+            stem = p.rsplit("/", 1)[1][:-4]
+            return p.rsplit("/", 1)[0].replace(f"textures/pokemon/{folder}", f"textures/pokemon/{folder}") + f"/distorted_{stem}{tag}.png"
+
+        def recolour_for(img, shiny):
+            rc = getattr(module, "RECOLOUR", None) if module else None
+            if not rc:
+                return recolour(img)
+            dst = rc.get("dst_shiny", rc["dst"] + 35) if shiny else rc["dst"]
+            old = cobblemon_species(sp)["primaryType"]
+            near = colorsys.rgb_to_hsv(*(c / 255 for c in TYPE_COLOUR[old]))[0] * 360
+            return recolour_shift(img, dst, rc.get("src_shiny" if shiny else "src"), rc.get("width", 55), rc.get("sat", 1.0),
+                                  rc.get("val", 1.0), near=rc.get("near", near))
+
+        def body(path, kit, src_layers):
+            key = (path, id(kit))
+            if key not in done:
                 ns, p = path.split(":", 1)
-                src = f"assets/{ns}/{p}"
-                z = next(z for z in zips if src in z.namelist())
-                img = recolour(Image.open(io.BytesIO(z.read(src))))
-                if part:
-                    img = part["paint"](img, "shiny" in p) if body else make_parts.pad(img, part["height"])
-                dst = p.replace(f"textures/pokemon/{folder}/", f"textures/pokemon/{folder}/distorted_")
+                shiny = "shiny" in p
+                img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), shiny)
+                tag = "" if kit is None or kit.model == sp else f"_{kit.model}"
+                dst = dst_for(p, tag)
+                fr = {}
+                if kit:
+                    img, frames = kit.paint(img, shiny, src_layers)
+                    for lname, ims in frames.items():
+                        fr[lname] = []
+                        for i, im in enumerate(ims):
+                            fdst = dst_for(p, f"{tag}_{lname}{i}")
+                            save_png(RES / "assets" / MOD / fdst, im)
+                            fr[lname].append(f"{MOD}:{fdst}")
                 save_png(RES / "assets" / MOD / dst, img)
-                done_tex[key] = f"{MOD}:{dst}"
-            return done_tex[key]
+                done[key] = (f"{MOD}:{dst}", fr)
+            return done[key]
 
-        def layer_tex(t):
+        def layer_tex(t, kit):
+            def one(path):
+                key = (path, id(kit), "layer")
+                if key not in done:
+                    ns, p = path.split(":", 1)
+                    img = recolour_for(Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))), "shiny" in p)
+                    if module is not None and getattr(module, "GLOW_DST", None) is not None and "alpha" not in p:
+                        img = recolour_shift(img, module.GLOW_DST, width=180)   # the glow's colours, all turned
+                    if kit:
+                        img = pad(img, kit.height_factor())
+                    dst = dst_for(p, "" if kit is None or kit.model == sp else f"_{kit.model}")
+                    save_png(RES / "assets" / MOD / dst, img)
+                    done[key] = f"{MOD}:{dst}"
+                return done[key]
             if isinstance(t, str):
-                return tex(t, False)
+                return one(t)
             if isinstance(t, dict) and "frames" in t:
-                return dict(t, frames=[tex(f, False) for f in t["frames"]])
+                return dict(t, frames=[one(f) for f in t["frames"]])
             return t
 
-        for d, _ in resolvers:
-            for v in d["variations"]:
-                if set(v.get("aspects", [])) & SKIPPED_ASPECTS:
-                    continue
-                w = {"aspects": list(v.get("aspects", [])) + ["distorted"]}
-                if part and not v.get("aspects"):
-                    w["model"] = part["model"]
-                if isinstance(v.get("texture"), str):
-                    w["texture"] = tex(v["texture"], True)
-                if "layers" in v:
-                    w["layers"] = [dict(lay, texture=layer_tex(lay.get("texture"))) for lay in v["layers"]
-                                   if not (part and lay.get("name") in part["drop_layers"])]
+        def src_layers_of(v):
+            out = {}
+            for lay in v.get("layers", []) or []:
+                t = lay.get("texture")
+                t = t["frames"][0] if isinstance(t, dict) and t.get("frames") else t
+                if isinstance(t, str):
+                    ns, p = t.split(":", 1)
+                    out[lay.get("name")] = Image.open(io.BytesIO(read(f"assets/{ns}/{p}"))).convert("RGBA")
+            return out
+
+        unify_on = module is not None and getattr(module, "UNIFY", False)
+
+        def inherited(v, key, skip_swaps=False):
+            """What Cobblemon would use for v's aspects: the last variation (with key) whose aspects are all v's."""
+            best = None
+            for u in variations:
+                if set(u.get("aspects", [])) <= set(v.get("aspects", [])) and key in u:
+                    if skip_swaps and u.get("model") and u.get("aspects"):
+                        continue
+                    best = u
+            return best
+
+        out = []
+        for v in variations:
+            aspects = list(v.get("aspects", []))
+            swap = bool(v.get("model") and aspects)
+            if unify_on and swap and not isinstance(v.get("texture"), str) and "layers" not in v:
+                continue                                        # a tree variant with only a model: the base parts cover it
+            mv = inherited(v, "model", skip_swaps=unify_on)
+            eff = mv["model"] if mv else base_model
+            kit = kit_for(eff)
+            tv = inherited(v, "texture", skip_swaps=unify_on)
+            lv = inherited(v, "layers", skip_swaps=unify_on)
+            w = {"aspects": aspects + ["distorted"]}
+            if kit and ("model" in v or not aspects or "texture" in v):
+                w["model"] = kit.id
+            elif module is not None and swap and not unify_on:
+                w["model"] = v["model"]                         # a model swap (female, Hisuian): pinned
+                if v.get("poser"):
+                    w["poser"] = v["poser"]
+            fr = {}
+            if tv and isinstance(tv.get("texture"), str) and (("texture" in v and not (unify_on and swap)) or (kit and "model" in w)):
+                tex_id, fr = body(tv["texture"], kit, src_layers_of(lv) if lv else {})
+                w["texture"] = tex_id
+            elif kit and tv and isinstance(tv.get("texture"), str):
+                _, fr = body(tv["texture"], kit, src_layers_of(lv) if lv else {})
+            if "layers" in v or (kit and kit.layers and ("texture" in w or not aspects)):
+                lays = [dict(lay, texture=layer_tex(lay.get("texture"), kit)) for lay in ((lv or {}).get("layers") or [])
+                        if not (kit and lay.get("name") in kit.drop_layers)]
+                if kit:
+                    for lname, cfg in kit.layers.items():
+                        if fr.get(lname):
+                            lays.append({"name": f"cobbleeffort_{lname}", "emissive": cfg["emissive"], "translucent": cfg["translucent"],
+                                         "texture": {"fps": cfg["fps"], "frames": fr[lname], "loop": True}})
+                w["layers"] = lays
+            if len(w) > 1:
                 out.append(w)
         write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder / f"9100_{sp}_distorted.json",
                    {"species": f"cobblemon:{sp}", "order": 9100, "variations": out})
-        print(f"{sp}: {len(out)} variations, {len(done_tex)} textures recoloured" + (", with its distorted parts" if part else ""))
+        n_kits = len({k for k in kits.values() if k})
+        print(f"{sp}: {len(out)} variations, {len(done)} textures" + (f", {n_kits} distorted model(s)" if n_kits else ""))
+
+
+def pad(img, factor):
+    img = img.convert("RGBA")
+    out = Image.new("RGBA", (img.width, img.height * factor), (0, 0, 0, 0))
+    out.paste(img, (0, 0))
+    return out
 
 
 def distort_button():

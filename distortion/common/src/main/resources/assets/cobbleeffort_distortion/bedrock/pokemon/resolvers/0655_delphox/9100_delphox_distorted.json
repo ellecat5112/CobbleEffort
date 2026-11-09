@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:delphox",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:delphox.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0655_delphox/distorted_delphox.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:delphox.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0655_delphox/distorted_delphox_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "cosmetic_item-silk_scarf",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0655_delphox/distorted_delphox_ribbon.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0655_delphox/distorted_delphox_alpha.png"
+        }
+      ]
+    }
+  ]
+}

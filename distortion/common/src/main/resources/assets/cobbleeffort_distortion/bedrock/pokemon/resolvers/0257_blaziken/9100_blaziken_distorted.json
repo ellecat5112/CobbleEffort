@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:blaziken",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:blaziken_male.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0257_blaziken/distorted_blaziken_blaziken_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:blaziken_male.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0257_blaziken/distorted_blaziken_shiny_blaziken_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0257_blaziken/distorted_blaziken_alpha_blaziken_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobblemon:blaziken_female.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0257_blaziken/distorted_blaziken_blaziken_female.png"
+    }
+  ]
+}

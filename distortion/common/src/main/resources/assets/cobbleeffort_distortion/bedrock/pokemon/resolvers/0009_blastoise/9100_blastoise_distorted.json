@@ -1,0 +1,57 @@
+{
+  "species": "cobblemon:blastoise",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:blastoise_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:blastoise_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_shiny.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-black_glasses",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_triangleglasses.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-wise_glasses",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_circleglasses.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0009_blastoise/distorted_blastoise_alpha.png"
+        }
+      ]
+    }
+  ]
+}

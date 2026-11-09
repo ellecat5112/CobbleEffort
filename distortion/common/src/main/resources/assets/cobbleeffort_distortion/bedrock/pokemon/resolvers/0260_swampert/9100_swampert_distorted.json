@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:swampert",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:swampert.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0260_swampert/distorted_swampert.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:swampert.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0260_swampert/distorted_swampert_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0260_swampert/distorted_swampert_alpha.png"
+        }
+      ]
+    }
+  ]
+}

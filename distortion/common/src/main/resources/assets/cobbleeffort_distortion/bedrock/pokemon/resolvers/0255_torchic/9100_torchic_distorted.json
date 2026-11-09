@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:torchic",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:torchic_male.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0255_torchic/distorted_torchic_torchic_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:torchic_male.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0255_torchic/distorted_torchic_shiny_torchic_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0255_torchic/distorted_torchic_alpha_torchic_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobblemon:torchic_female.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0255_torchic/distorted_torchic_torchic_female.png"
+    }
+  ]
+}

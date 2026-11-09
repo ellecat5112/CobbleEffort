@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:dewott",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 8,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.dewott-hisuibias.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 245,
+      "battleOnly": false
+    }
+  ]
+}

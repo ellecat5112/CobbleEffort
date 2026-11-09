@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:popplio",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobblemon:popplio.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0728_popplio/distorted_popplio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobblemon:popplio.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0728_popplio/distorted_popplio_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0728_popplio/distorted_popplio_alpha.png"
+        }
+      ]
+    }
+  ]
+}

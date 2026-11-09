@@ -1,0 +1,76 @@
+{
+  "target": "cobblemon:typhlosion",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "blaze",
+        "h:frisk"
+      ],
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseScale": 0.75,
+      "baseStats": {
+        "attack": 84,
+        "defence": 78,
+        "hp": 73,
+        "special_attack": 119,
+        "special_defence": 85,
+        "speed": 95
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 7,
+          "toleratedLeaders": [
+            {
+              "pokemon": "typhlosion alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 16,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.typhlosion-hisui.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "weight": 698
+    }
+  ]
+}

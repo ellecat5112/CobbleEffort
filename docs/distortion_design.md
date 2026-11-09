@@ -28,7 +28,7 @@ need it updated.
 | Distorted forms | `species_additions` forms "Distorted" (aspect `distorted`) per Pokémon, with inverted types. In battle the aspect is forced until the battle ends; out of battle the wheel toggles the `distorted` flag feature, which gives the same aspect. |
 | Moves | (`tools/make_battle.py`, for every move the distortable Pokémon can learn) Each move maps to its inverted-type twin: an existing move that's an exact equivalent (same category, power, accuracy, effect), otherwise a new move made from the original with only its type changed and a name to match (Cross Chop → Psychic Chop). New moves are data (`data/<ns>/moves/*.js`, read by Cobblemon) with lang names. |
 | Abilities | (`tools/make_battle.py`) An ability is type-bound when its Showdown code names the Pokémon's own type, or its type's weather. Its twin swaps those for the distorted type and that type's weather: an existing ability when it's an exact match (Blaze → Torrent), otherwise a new Cobblemon datapack ability (`data/<ns>/abilities/*.js`; Solar Power → Storm Power, the same in rain). Others stay. The engine swaps it when the Pokémon distorts (announced with `-ability`), or at the start for one distorted outside battle. |
-| Look | Each distorted Pokémon gets inverted colours (every hue to its complement) and, where it fits, new parts (`tools/make_parts.py`): the Charmander line's flame tail becomes a mermaid tail (a model copy in the add-on's namespace with the flame planes emptied, a fluke on the tail tip and scales, painted in an added lower half of the texture; the flame layer dropped). Resolver variations (order 9100) with the `distorted` aspect, mirroring Cobblemon's and Mega Showdown's. |
+| Look | Each distorted Pokémon gets inverted colours (every hue to its complement) and, where it fits, new parts (`tools/parts/`, the part kit): e.g. the Charmander line's flame tail becomes a mermaid tail (a model copy in the add-on's namespace with the flame planes emptied, a fluke on the tail tip and scales, painted in an added part of the texture; the flame layer dropped). Resolver variations (order 9100) with the `distorted` aspect, mirroring Cobblemon's and Mega Showdown's. |
 
 ## Type chart: each type becomes its weakness
 
@@ -53,7 +53,16 @@ need it updated.
 | Palkia (and Origin) | Water / Dragon | Grass / Fairy | Spacial Rend → a Fairy twin. |
 | Arceus (all 18 plate types) | its type | its type's weakness | Distorts with its plate (no crystal). Judgment → Inverse Judgment (the weakness of the plate's type). |
 
-## Second set: the Charmander line
+## Second set: every starter line (Gen 1-9)
+
+Water starters distort into plant-inspired forms, grass starters into natural disasters, fire starters into sea life
+(the per-line looks are in the add-on's README and `distortion/tools/parts/<first stage>.py`). Built with the part kit
+(`tools/parts/_kit.py`, `_materials.py`): model copies with hidden, reskinned and added parts (boxes, planes, crossed
+planes), UVs in an added lower part of the texture, materials (animated emissive flames, charred and lava rock,
+prototaxite bands, cut-out leaves, petals, flytraps, fins, coral/anemone/jellyfish ramps, sea-life conversion of
+emissive flame layers), and a type-hue recolour (the old type's colour moved to the new type's, other colours kept).
+
+### The Charmander line (first)
 
 | Pokémon | Types | Distorted | Notes |
 |---|---|---|---|

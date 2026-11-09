@@ -1,0 +1,79 @@
+{
+  "target": "cobblemon:samurott",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "torrent",
+        "h:sharpness"
+      ],
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseScale": 0.75,
+      "baseStats": {
+        "attack": 108,
+        "defence": 80,
+        "hp": 90,
+        "special_attack": 100,
+        "special_defence": 65,
+        "speed": 85
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 7,
+          "toleratedLeaders": [
+            {
+              "pokemon": "samurott alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 3,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 15,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.samurott-hisui.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "weight": 582
+    }
+  ]
+}

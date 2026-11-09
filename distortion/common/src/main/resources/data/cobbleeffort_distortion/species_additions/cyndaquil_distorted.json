@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:cyndaquil",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 5,
+      "labels": [
+        "gen8a",
+        "starter",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.cyndaquil-hisuibias.desc"
+      ],
+      "primaryType": "water",
+      "weight": 79,
+      "battleOnly": false
+    }
+  ]
+}

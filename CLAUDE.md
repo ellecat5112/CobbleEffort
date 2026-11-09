@@ -95,10 +95,14 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; the Charmander line,
-  no megas/Gmax; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`), parts in `tools/make_parts.py` (the
-  Charmander line's mermaid tail: model copy, flame emptied, fluke + scales painted in a doubled texture height; preview
-  with `tools/preview` + `EXTRA_MODEL_ROOTS`/`CAM_UP`). One Distortion Crystal for every Pokémon (Arceus uses its plate).
+  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; every starter line
+  Gen 1-9 (STARTER_LINES), no megas/Gmax/Ash; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
+  water -> plant-inspired, grass -> natural disasters, fire -> sea life (the user's direction; Squirtle prototaxites,
+  Bulbasaur raging flames, Charmander mermaid). One module per line in `tools/parts/<first stage>.py` (LINE, build(kit),
+  RECOLOUR type-hue shift, optional UNIFY/GLOW_DST) on the part kit (`parts/_kit.py`: hide/reskin/box/plane/cross/flat,
+  upright()/wbox() for rotated bones, UVs in an added texture area, animated layers; `parts/_materials.py`). Mirrored
+  variations resolve model/texture/layers like Cobblemon (female/Hisuian model swaps pinned, per-model parts). Preview
+  with `tools/preview` + `EXTRA_MODEL_ROOTS`/`CAM_UP`. One Distortion Crystal for every Pokémon (Arceus uses its plate).
   Battle (`tools/make_battle.py --showdown <dump_showdown.js output> --cobblemon-jar <jar>`): twin moves and type-bound
   ability twins (existing exact match, e.g. Blaze -> Torrent, or generated from the code: Solar Power -> Storm Power)
   as Cobblemon datapack moves/abilities (`data/<ns>/moves|abilities/*.js`), Mega Showdown scripts (`side`/`queue`/`actions`: choice `move N distort`, a queued distort

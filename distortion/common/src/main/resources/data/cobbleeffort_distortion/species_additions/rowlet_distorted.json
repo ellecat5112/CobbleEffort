@@ -1,0 +1,37 @@
+{
+  "target": "cobblemon:rowlet",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 3,
+      "labels": [
+        "gen8a",
+        "starter",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.rowlet-hisuibias.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "electric",
+      "weight": 15,
+      "battleOnly": false
+    }
+  ]
+}

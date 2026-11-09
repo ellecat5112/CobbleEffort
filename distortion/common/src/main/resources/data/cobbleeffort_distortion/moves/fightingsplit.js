@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["painsplit"], {num: -31151, name: "Fighting Split", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["painsplit"], {num: -31286, name: "Fighting Split", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})
