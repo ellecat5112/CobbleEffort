@@ -271,8 +271,49 @@ def build_twins(moves, learn, chart=TYPE_CHART, new=None, only_types=None):
     return twins, new
 
 
+def strip_line_comments(js: str) -> str:
+    """JavaScript without its // comments (strings, template literals and regex literals kept). Mega Showdown's script
+    and held-item loaders join a file's lines with no separator (content.replace("\n", "")), so a // comment would
+    swallow the rest of the file ("Expected } but found eof" when the world loads)."""
+    out, i, n = [], 0, len(js)
+    quote, prev = None, ""
+    while i < n:
+        ch = js[i]
+        if quote:
+            out.append(ch)
+            if ch == "\\" and i + 1 < n:
+                out.append(js[i + 1])
+                i += 2
+                continue
+            if ch == quote:
+                quote = None
+            i += 1
+            continue
+        if ch in "'\"`":
+            quote = ch
+        elif ch == "/" and js.startswith("//", i):
+            while i < n and js[i] != "\n":
+                i += 1
+            continue
+        elif ch == "/" and prev in "(,=:[!&|?{};" and not js.startswith("/*", i):
+            j = i + 1                                       # a regex literal: copy it whole
+            while j < n and js[j] != "/" and js[j] != "\n":
+                j += 2 if js[j] == "\\" else 1
+            out.append(js[i:j + 1])
+            i = j + 1
+            prev = "/"
+            continue
+        out.append(ch)
+        if not ch.isspace():
+            prev = ch
+        i += 1
+    return "".join(out)
+
+
 def write(path: Path, text: str):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix == ".js":
+        text = strip_line_comments(text)
     path.write_text(text)
 
 

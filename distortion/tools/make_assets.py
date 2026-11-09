@@ -269,7 +269,7 @@ def types_for(sp, aspects=()):
     for f in d.get("forms", []):
         if f.get("aspects") and set(f["aspects"]) <= set(aspects) and "primaryType" in f:
             old = [f["primaryType"]] + ([f["secondaryType"]] if f.get("secondaryType") else [])
-    new = list(TYPE_OVERRIDES.get(sp) or [invert(t) for t in old])
+    new = list(dict.fromkeys(TYPE_OVERRIDES.get(sp) or [invert(t) for t in old]))
     return [t.lower() for t in old], [t.lower() for t in new]
 
 
@@ -287,6 +287,8 @@ def forms():
             base["secondaryType"] = invert(d["secondaryType"])
         if sp in TYPE_OVERRIDES:
             base["primaryType"], base["secondaryType"] = TYPE_OVERRIDES[sp]
+        if base.get("secondaryType") == base["primaryType"]:
+            base.pop("secondaryType")                          # Electric/Steel -> Ground, not Ground/Ground
         new.append(base)
         for f in d.get("forms", []):
             if skipped(sp, f.get("aspects", [])):
@@ -303,6 +305,8 @@ def forms():
             g["battleOnly"] = bool(f.get("battleOnly"))           # Gigantamax/Ash stay battle forms
             if sp in TYPE_OVERRIDES:
                 g["primaryType"], g["secondaryType"] = TYPE_OVERRIDES[sp]
+            if g.get("secondaryType") == g["primaryType"]:
+                g.pop("secondaryType")
             for k in ("evolutions", "preEvolution", "drops", "moves"):
                 g.pop(k, None)
             new.append(g)

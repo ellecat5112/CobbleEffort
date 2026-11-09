@@ -7,7 +7,7 @@
       const runAction = battle.runAction;
       battle.runAction = function (a) {
         if (a.choice === "event" && a.event === "Distort") this.actions.toggleDistortion(a.pokemon);
-        // Pokémon distorted outside battle (the interaction wheel) start in their -Distorted species
+        
         if (a.choice === "start") this.actions.distortedAtStart();
         return runAction.call(this, a);
       };

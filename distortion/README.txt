@@ -153,6 +153,8 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.9.1: fixes the crash when creating or loading a world (Mega Showdown loads the battle scripts as one line, so a
+  comment in them cut the rest off), and Magnemite's line distorting to Ground/Ground (now just Ground).
   New in this build: every Gen 1 Pokemon (try /pokegive <name> distorted, with alolan / galarian / hisuian /
   paldean for the regional forms). Do the added parts sit right while they move (headbands, wings, fins, halos,
   rocks)? Anything floating, hidden inside the body or off-theme: tell me which Pokemon. In battle: the new ability

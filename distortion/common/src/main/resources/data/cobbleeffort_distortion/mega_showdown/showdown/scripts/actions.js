@@ -15,14 +15,14 @@
     return this.dex.species.get(this.distortBase(pokemon) + "-Distorted").exists;
   },
   canToggleDistortion(pokemon) {
-    if (pokemon.distorted) return true;          // reverting needs nothing more
-    // the Distortion Crystal; Arceus can use its plate instead (it can't hold both, and the plates are its power)
+    if (pokemon.distorted) return true;          
+    
     const item = pokemon.getItem();
     const source = pokemon.item === "distortioncrystal" || (pokemon.species.num === 493 && item && item.onPlate);
     return !!source && this.hasDistortion(pokemon);
   },
   applyDistortTypes(pokemon) {
-    // specialised distortions have their own types (Mew and Mewtwo: Normal/Fighting); the rest follow the chart
+    
     const types = this.distortTypesBySpecies[this.distortBase(pokemon)] ||
       [...new Set(pokemon.species.types.map(t => this.distortChart[t] || t))];
     pokemon.setType(types, true);
@@ -41,7 +41,7 @@
     pokemon.moveSlots[i] = moved;
   },
   distortMoves(pokemon) {
-    // every move becomes its inverted twin, keeping its PP; the pairs are kept to turn them back
+    
     pokemon.distortPairs = [];
     for (let i = 0; i < pokemon.moveSlots.length; i++) {
       const slot = pokemon.moveSlots[i];
@@ -101,7 +101,7 @@
     return this.setDistorted(pokemon, !pokemon.distorted, false);
   },
   distortedAtStart() {
-    // before the leads are sent out: back to the real species, already distorted
+    
     for (const side of this.battle.sides) {
       for (const pokemon of side.pokemon) {
         if (pokemon.distorted || !/-Distorted$/.test(pokemon.species.name)) continue;
@@ -117,7 +117,7 @@
   },
   runMove(moveOrMoveName, pokemon, targetLoc, options) {
     const BattleActions = require("./sim/battle-actions").BattleActions;
-    // the move was chosen before the toggle ran: use the one now in its slot (the twin, or back to the original)
+    
     const id = typeof moveOrMoveName === "string" ? this.dex.toID(moveOrMoveName) : moveOrMoveName.id;
     if (pokemon.distortPairs && !pokemon.moveSlots.some(s => s.id === id)) {
       const pair = pokemon.distortPairs.find(p => p[0] === id || p[1] === id);
