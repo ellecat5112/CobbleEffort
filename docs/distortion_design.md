@@ -72,6 +72,14 @@ Entei and Suicune are Mega Showdown's models. Celebi is modelled only by AllTheM
 an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_celebi_layout.json`, from
 `tools/addons/extract_layout.py`, no art read), set by texture alone so the resolver names no model.
 
+## The crystal distorts by itself (0.10.0)
+
+The user's direction: holding the Distortion Crystal IS the distortion outside battle. `DistortionWheel.sync` on
+Cobblemon's HELD_ITEM_POST (and POKEMON_SENT_POST, for a crystal given another way): a distortable Pokémon given the
+crystal gets the `distorted` flag feature (form + look) at once, no band needed; taking it (and, for Arceus, its plate)
+away clears it. It enters battle distorted (as before for a wheel distortion); the band still gates the in-battle
+toggle and the wheel.
+
 ## Every Gen 1 Pokémon (0.9.0)
 
 The other 70 Gen 1 lines, whole (later-generation members too: Pichu, Crobat, Eevee's evolutions...; 174 species),

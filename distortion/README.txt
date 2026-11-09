@@ -32,6 +32,11 @@ A TEST BUILD. What's in it:
     Abilities that aren't tied to its type stay.
   - Wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
 
+DISTORTING WITH THE CRYSTAL (NEW in 0.10.0)
+  Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form and look, kept while
+  it holds the crystal (it enters battle distorted). Take the crystal away and it turns back. No band needed for this;
+  the band is what lets you toggle it in battle (and use the wheel).
+
 HOW TO DISTORT IN BATTLE
   1. Wear the Distortion Band in the Distortion slot.
   2. Give the Distortion Crystal to a distortable Pokemon (Giratina, Dialga, Palkia, every Gen 1 Pokemon and its
@@ -153,6 +158,8 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.10.0: give a distortable Pokemon the Distortion Crystal: it should distort straight away (look and form; no band
+  needed). Take the crystal back: it should return to normal. Does it enter battle distorted?
   0.9.1: fixes the crash when creating or loading a world (Mega Showdown loads the battle scripts as one line, so a
   comment in them cut the rest off), and Magnemite's line distorting to Ground/Ground (now just Ground).
   New in this build: every Gen 1 Pokemon (try /pokegive <name> distorted, with alolan / galarian / hisuian /

@@ -22,7 +22,8 @@ import org.slf4j.LoggerFactory;
  * Distorting outside battle, from Cobblemon's interaction wheel (the radial menu, where Mega Showdown puts Mega
  * Evolution): the Distort option toggles the Pokémon's "distorted" flag feature (its distorted form and look, saved
  * with it). Rules: the trainer wears the band, the Pokémon holds the crystal (Arceus: a plate), it has Distorted
- * forms, the trainer isn't battling, and one distorted Pokémon per party at a time. Taking the crystal away reverts it.
+ * forms, the trainer isn't battling, and one distorted Pokémon per party at a time. Since 0.10.0 the crystal does it
+ * by itself: giving it distorts the Pokémon at once (no band needed), taking it away reverts it (sync).
  * A Pokémon distorted outside battle enters battle distorted (with its twin moves; the Showdown scripts count it as the
  * side's distortion).
  */
@@ -42,6 +43,13 @@ public final class DistortionWheel {
                     }
                 }));
         CobblemonEvents.HELD_ITEM_POST.subscribe(Priority.NORMAL, DistortionWheel::onHeldItem);
+        CobblemonEvents.POKEMON_SENT_POST.subscribe(Priority.NORMAL, event -> {
+            try {
+                sync(event.getPokemon(), false);
+            } catch (Throwable t) {
+                LOG.error("Distortion check on send-out failed", t);
+            }
+        });
     }
 
     private static void toggle(ServerPlayer player, DistortPacket packet) {
@@ -75,19 +83,39 @@ public final class DistortionWheel {
         player.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".message.distorted", pokemon.getDisplayName(false)));
     }
 
-    /** Taking the crystal (or Arceus's plate) away undoes a distortion made outside battle. */
+    /** Giving a Pokémon the crystal distorts it at once; taking it (or Arceus's plate) away turns it back. */
     private static void onHeldItem(HeldItemEvent.Post event) {
         try {
-            Pokemon pokemon = event.getPokemon();
-            if (pokemon.isBattleClone() || !DistortionRules.distortedOutside(pokemon) || DistortionRules.holdsSource(pokemon)) return;
+            sync(event.getPokemon(), true);
+        } catch (Throwable t) {
+            LOG.error("Distorting on a held item change failed", t);
+        }
+    }
+
+    /**
+     * The look follows the held item: a distortable Pokémon holding the Distortion Crystal is distorted, one holding
+     * neither the crystal nor (Arceus) a plate isn't. Run when the held item changes and when it's sent out (a crystal
+     * given another way, e.g. by command, or held from before this version).
+     */
+    static void sync(Pokemon pokemon, boolean announce) {
+        if (pokemon == null || pokemon.isBattleClone()) return;
+        boolean distorted = DistortionRules.distortedOutside(pokemon);
+        boolean crystal = pokemon.heldItem().is(Distortion.CRYSTAL.get());
+        ServerPlayer owner = pokemon.getOwnerPlayer();
+        if (crystal && !distorted && DistortionRules.hasDistortedForm(pokemon.getSpecies())) {
+            if (owner != null && BattleRegistry.getBattleByParticipatingPlayer(owner) != null) return;   // the battle's own toggle
+            DistortionRules.setDistortedOutside(pokemon, true);
+            effects(pokemon, true);
+            if (announce && owner != null) {
+                owner.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".message.distorted", pokemon.getDisplayName(false)));
+            }
+        } else if (distorted && !DistortionRules.holdsSource(pokemon)) {
             DistortionRules.setDistortedOutside(pokemon, false);
+            DistortionBattle.clearForcedAspect(pokemon);
             effects(pokemon, false);
-            ServerPlayer owner = pokemon.getOwnerPlayer();
-            if (owner != null) {
+            if (announce && owner != null) {
                 owner.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".message.reverted", pokemon.getDisplayName(false)));
             }
-        } catch (Throwable t) {
-            LOG.error("Reverting a distortion failed", t);
         }
     }
 
