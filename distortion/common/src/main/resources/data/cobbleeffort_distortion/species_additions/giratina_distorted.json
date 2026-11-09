@@ -1,0 +1,75 @@
+{
+  "target": "cobblemon:giratina",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "aspects": [
+        "origin-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 120,
+        "defence": 100,
+        "hp": 150,
+        "special_attack": 120,
+        "special_defence": 100,
+        "speed": 90
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 69,
+      "labels": [
+        "gen4",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Origin-Distorted",
+      "pokedex": [
+        "cobblemon.species.giratina-origin.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "weight": 6500
+    }
+  ]
+}

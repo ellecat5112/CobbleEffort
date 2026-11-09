@@ -88,6 +88,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   only logs. Its items: `cobbleeffort_creative_tab.json` from `tools/make_creative_tab.py` (run by `generate.py build`),
   so new collections' items join the tab automatically. Keep any further code
   this way (no loader-specific builds).
+- **CobbleEffort: Distortion** (`distortion/`, a separate add-on jar; design in `docs/distortion_design.md`): the
+  "Distortion" battle gimmick (types turn into their weaknesses, TYPE_CHART in `distortion/tools/make_assets.py`).
+  Unlike CobbleEffort it's a real code mod, an Architectury build (common/fabric/neoforge, mojmap) against
+  Cobblemon 1.8.4, Mega Showdown 1.3.3, Accessories and Architectury API (all required); its own `./gradlew build` in
+  `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
+  textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
+  `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
+  `tools/make_assets.py`. First set: Giratina, Dialga, Palkia, Arceus (incl. Origin and plate forms). Phases: 1 items,
+  slot, forms (done); 2 battle gimmick (Showdown JS patch, VALID_GIMMICK_IDS mixin, Distort button); 3 radial entry.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

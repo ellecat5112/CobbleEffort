@@ -1,0 +1,65 @@
+{
+  "target": "cobblemon:palkia",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 100,
+        "defence": 100,
+        "hp": 90,
+        "special_attack": 150,
+        "special_defence": 120,
+        "speed": 120
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "canBreatheUnderwater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 63,
+      "labels": [
+        "gen8a",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Origin-Distorted",
+      "pokedex": [
+        "cobblemon.species.palkia-origin.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "weight": 6600
+    }
+  ]
+}

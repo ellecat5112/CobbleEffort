@@ -1,0 +1,336 @@
+{
+  "target": "cobblemon:arceus",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "fighting-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Fighting-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-fighting.desc"
+      ],
+      "primaryType": "psychic",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "flying-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Flying-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-flying.desc"
+      ],
+      "primaryType": "electric",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "poison-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Poison-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-poison.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "ground-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Ground-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-ground.desc"
+      ],
+      "primaryType": "water",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "rock-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Rock-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-rock.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "bug-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Bug-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-bug.desc"
+      ],
+      "primaryType": "flying",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "ghost-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Ghost-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-ghost.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "steel-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Steel-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-steel.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "fire-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Fire-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-fire.desc"
+      ],
+      "primaryType": "water",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "water-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Water-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-water.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "grass-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Grass-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-grass.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "electric-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Electric-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-electric.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "psychic-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Psychic-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-psychic.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "ice-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Ice-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-ice.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "dragon-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Dragon-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-dragon.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "dark-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Dark-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-dark.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 3200
+    },
+    {
+      "aspects": [
+        "fairy-plate",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 32,
+      "labels": [
+        "gen6",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Fairy-Distorted",
+      "pokedex": [
+        "cobblemon.species.arceus-fairy.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 3200
+    }
+  ]
+}

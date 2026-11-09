@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:dialga",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_emissive_shiny.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_origin.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_origin_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "origin-forme",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_origin_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0483_dialga/distorted_dialga_origin_emissive.png",
+          "translucent": false
+        }
+      ]
+    }
+  ]
+}

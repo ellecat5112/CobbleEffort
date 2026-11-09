@@ -1,0 +1,56 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-SA-4.0"
+
+[[mods]]
+modId = "cobbleeffort_distortion"
+version = "${version}"
+displayName = "CobbleEffort: Distortion"
+authors = "ellecat5112"
+logoFile = "assets/cobbleeffort_distortion/icon.png"
+description = '''
+Distortion, a new battle gimmick: a Pokémon holding the Distortion Crystal of its type, with its trainer wearing the Distortion Band, distorts: its types turn into their weaknesses, its ability and moves follow, and its colours invert.
+First set: Giratina, Dialga, Palkia and Arceus.
+'''
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8.4,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "mega_showdown"
+type = "required"
+versionRange = "[1.3.3,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_distortion]]
+modId = "accessories"
+type = "required"
+versionRange = "[1.1.0-beta.52+1.21.1,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:giratina",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0487_giratina/distorted_giratina.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0487_giratina/distorted_giratina_shiny.png"
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0487_giratina/distorted_giratina_origin.png"
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0487_giratina/distorted_giratina_origin_shiny.png"
+    }
+  ]
+}

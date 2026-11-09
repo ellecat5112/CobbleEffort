@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:palkia",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia_shiny.png"
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia_origin.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia_origin_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "origin-forme",
+        "distorted"
+      ],
+      "texture": "cobbleeffort_distortion:textures/pokemon/0484_palkia/distorted_palkia_origin_shiny.png"
+    }
+  ]
+}
