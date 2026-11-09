@@ -74,9 +74,14 @@ def parts(solid, lo):
     """Bone of each voxel: the source has three separate pieces (two arm-rockets and the centre); the centre's head
     cone starts at HEAD_FROM."""
     lab, n = ndimage.label(solid)
-    if n != 3:
+    if n < 3:
         raise SystemExit(f"expected 3 separate pieces (two arms and the body), found {n}")
-    meanx = {i: np.argwhere(lab == i)[:, 0].mean() + lo[0] for i in (1, 2, 3)}
+    sizes = ndimage.sum(solid, lab, range(1, n + 1))
+    big = [int(c) + 1 for c in np.argsort(sizes)[::-1][:3]]
+    if n > 3:                                              # stray bits join the nearest of the three pieces
+        _, (ii, jj, kk) = ndimage.distance_transform_edt(~np.isin(lab, big), return_indices=True)
+        lab = np.where(solid, lab[ii, jj, kk], 0)
+    meanx = {i: np.argwhere(lab == i)[:, 0].mean() + lo[0] for i in big}
     order = sorted(meanx, key=meanx.get)                   # right arm (-x), centre, left arm (+x)
     bone = np.full(solid.shape, -1, int)
     j = np.indices(solid.shape)[1]
@@ -163,14 +168,15 @@ def paint_roles(solid, bone, lo):
 def build_model():
     d = np.load(VOXELS)
     solid, lo = d["solid"], d["lo"]
+    solid = vx.smooth(solid)                       # Cobblemon-style: rounder shapes, no voxel specks
     bone = parts(solid, lo)
     role = paint_roles(solid, bone, lo)
     rng = np.random.default_rng(797)
-    shade = 1 + rng.uniform(-0.045, 0.045, solid.shape)                   # a little per-voxel variation
+    shade = 1 + rng.uniform(-0.015, 0.015, solid.shape)                   # only a hint of per-voxel variation
 
-    boxes = []
-    for b in range(len(BONES)):
-        boxes += [(b, box) for box in vx.greedy_boxes(bone == b)]
+    boxes = vx.fit_bone_boxes(bone, len(BONES))
+    nearest = vx.nearest_solid(solid)
+    exposed = vx.exposure(solid)
     nets = [(2 * ((i1 - i0) + (k1 - k0)), (k1 - k0) + (j1 - j0)) for _, (i0, j0, k0, i1, j1, k1) in boxes]
     tw = 64
     while True:
@@ -195,7 +201,7 @@ def build_model():
             return tuple(int(min(255, v * f)) for v in c) + (255,)
         img = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
         for (b, box), uv in zip(boxes, pos):
-            vx.paint_box(img, uv, box, body_colour)
+            vx.paint_box_shaded(img, uv, box, vx.at_nearest(nearest, body_colour), exposed)
         save(img, f"{NAME}{sfx}")
         for f in range(GLOW_FRAMES):                                        # nozzle flame flicker, eyes steady
             frng = random.Random(f"{NAME}:{variant}:{f}")
@@ -213,7 +219,7 @@ def build_model():
                 return tuple(int(v * flick[key]) for v in GLOW[variant]["rim"]) + (255,)
             gimg = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
             for (b, box), uv in zip(boxes, pos):
-                vx.paint_box(gimg, uv, box, glow_colour)
+                vx.paint_box(gimg, uv, box, vx.at_nearest(nearest, glow_colour))
             save(gimg, f"{NAME}{sfx}_glow_{f}")
 
     def ext(b):

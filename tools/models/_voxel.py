@@ -215,3 +215,190 @@ def paint_box(img, uv, box, colour_of):
         for r in range(h):
             px[u + d + c, v + d + r] = colour_of(i0 + c, j1 - 1 - r, k0)          # north (-z)
             px[u + 2 * d + w + c, v + d + r] = colour_of(i1 - 1 - c, j1 - 1 - r, k1 - 1)  # south (+z)
+
+
+# ---------------------------------------------------------------------------------------------
+# Cobblemon-style cleanup: smoother shapes, chunkier boxes, shaded faces
+# ---------------------------------------------------------------------------------------------
+
+def smooth(solid, sigma: float = 1.15, keep_thin: float = 2.0, min_part: int = 4):
+    """Round off voxel stair-steps and specks: blur the signed distance field and re-threshold it. Thin parts
+    (wings, tusks, spikes, strands: nowhere more than ~keep_thin voxels thick) are kept as they were, and floating
+    bits smaller than min_part voxels are dropped."""
+    from scipy import ndimage
+    pad = 3
+    s = np.pad(solid, pad)
+    inside = ndimage.distance_transform_edt(s)
+    outside = ndimage.distance_transform_edt(~s)
+    sdf = ndimage.gaussian_filter((outside - inside).astype(np.float32), sigma)
+    out = sdf < 0
+    thin = s & (ndimage.maximum_filter(inside, size=5) <= keep_thin)
+    out |= thin
+    lab, n = ndimage.label(out)
+    if n:
+        sizes = ndimage.sum(out, lab, range(1, n + 1))
+        for c, size in enumerate(sizes, 1):
+            if size < min_part:
+                out[lab == c] = False
+    # smoothing must not cut a piece off: put back the original voxels on the shortest bridge between pieces
+    n_orig = ndimage.label(s)[1]
+    for _ in range(20):
+        lab, n = ndimage.label(out)
+        if n <= n_orig:
+            break
+        sizes = ndimage.sum(out, lab, range(1, n + 1))
+        small = int(np.argmin(sizes)) + 1
+        piece = lab == small
+        d_piece = ndimage.distance_transform_edt(~piece)
+        d_rest = ndimage.distance_transform_edt(~(out & ~piece))
+        missing = s & ~out
+        if not missing.any():
+            break
+        total = np.where(missing, d_piece + d_rest, np.inf)
+        best = total.min()
+        if not np.isfinite(best):
+            break
+        out |= missing & (total <= best + 1.0)
+    return out[pad:-pad, pad:-pad, pad:-pad]
+
+
+def nearest_solid(solid):
+    """For every cell, the index of the nearest solid voxel (colours for the few empty cells a box may cover)."""
+    from scipy import ndimage
+    _, idx = ndimage.distance_transform_edt(~solid, return_indices=True)
+    return idx
+
+
+def fit_boxes(mask, tolerance: float = 0.12, blocked=None):
+    """Like greedy_boxes, but a box may grow over a few empty cells (at most `tolerance` of the box, and each new
+    slab at least 1 - tolerance full), so a part is built from fewer, larger, cleaner boxes. Cells in `blocked`
+    (other parts) are never covered."""
+    left = mask.copy()
+    blocked = np.zeros_like(mask) if blocked is None else blocked
+    X, Y, Z = mask.shape
+    boxes = []
+
+    def ok(sl, filled_needed):
+        region = mask[sl]
+        if blocked[sl].any():
+            return False
+        return region.mean() >= filled_needed
+
+    for j in range(Y):
+        for k in range(Z):
+            for i in range(X):
+                if not left[i, j, k]:
+                    continue
+                i0, j0, k0, i1, j1, k1 = i, j, k, i + 1, j + 1, k + 1
+                grew = True
+                while grew:
+                    grew = False
+                    for axis in (0, 2, 1):                       # x, then z, then y
+                        lo_ = [i0, j0, k0]
+                        hi_ = [i1, j1, k1]
+                        if hi_[axis] >= mask.shape[axis]:
+                            continue
+                        slab = [slice(lo_[0], hi_[0]), slice(lo_[1], hi_[1]), slice(lo_[2], hi_[2])]
+                        slab[axis] = slice(hi_[axis], hi_[axis] + 1)
+                        slab = tuple(slab)
+                        if not left[slab].any():
+                            continue
+                        new_hi = list(hi_)
+                        new_hi[axis] += 1
+                        whole = (slice(i0, new_hi[0]), slice(j0, new_hi[1]), slice(k0, new_hi[2]))
+                        if ok(slab, 1 - tolerance) and ok(whole, 1 - tolerance) and not (mask[slab] & ~left[slab]).any():
+                            i1, j1, k1 = new_hi
+                            grew = True
+                left[i0:i1, j0:j1, k0:k1] = False
+                boxes.append((i0, j0, k0, i1, j1, k1))
+    return boxes
+
+
+def face_shade(face: str, r: int, h: int, edge: bool) -> float:
+    """Baked Cobblemon-style shading for a texel of a box face: light from above, a soft vertical gradient on the
+    sides, darker where the surface ends or turns a corner (silhouette and creases)."""
+    base = {"up": 1.06, "down": 0.8}.get(face, 1.0)
+    if face not in ("up", "down") and h > 1:
+        base *= 1.03 - 0.13 * (r / (h - 1))
+    return base * (0.86 if edge else 1.0)
+
+
+_NORMALS = {"up": (0, 1, 0), "down": (0, -1, 0), "east": (-1, 0, 0), "west": (1, 0, 0), "north": (0, 0, -1), "south": (0, 0, 1)}
+
+
+def exposure(solid):
+    """{face: voxels whose face in that direction is open air}."""
+    out = {}
+    p = np.pad(solid, 1)
+    for face, (dx, dy, dz) in _NORMALS.items():
+        nb = p[1 + dx:p.shape[0] - 1 + dx, 1 + dy:p.shape[1] - 1 + dy, 1 + dz:p.shape[2] - 1 + dz]
+        out[face] = solid & ~nb
+    return out
+
+
+def paint_box_shaded(img, uv, box, colour_of, exposed=None):
+    """paint_box with face_shade applied (use for body textures, not glow layers). With `exposed` (from exposure()),
+    a texel is an edge when the visible surface doesn't continue into a neighbouring voxel in the face's plane."""
+    i0, j0, k0, i1, j1, k1 = box
+    w, h, d = i1 - i0, j1 - j0, k1 - k0
+    u, v = uv
+    px = img.load()
+    X = Y = Z = None
+    if exposed is not None:
+        X, Y, Z = exposed["up"].shape
+
+    def edge(face, i, j, k):
+        if exposed is None:
+            return False
+        ex = exposed[face]
+        n = _NORMALS[face]
+        for t in ((1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0), (0, 0, 1), (0, 0, -1)):
+            if t[0] * n[0] + t[1] * n[1] + t[2] * n[2]:
+                continue                                         # only directions in the face's plane
+            # the surface continues if the neighbour, or the voxel one step up or down from it (a stair step),
+            # shows the same face
+            cont = False
+            for off in (0, 1, -1):
+                a, b, c = i + t[0] + off * n[0], j + t[1] + off * n[1], k + t[2] + off * n[2]
+                if 0 <= a < X and 0 <= b < Y and 0 <= c < Z and ex[a, b, c]:
+                    cont = True
+                    break
+            if not cont:
+                return True
+        return False
+
+    def put(x, y, ijk, face, r, hh):
+        col = colour_of(*ijk)
+        if col[3]:
+            f = face_shade(face, r, hh, edge(face, *ijk))
+            px[x, y] = tuple(max(0, min(255, int(ch * f))) for ch in col[:3]) + (col[3],)
+        else:
+            px[x, y] = col
+    for c in range(w):
+        for r in range(d):
+            put(u + d + c, v + r, (i0 + c, j1 - 1, k1 - 1 - r), "up", r, d)
+            put(u + d + w + c, v + r, (i0 + c, j0, k1 - 1 - r), "down", r, d)
+    for c in range(d):
+        for r in range(h):
+            put(u + c, v + d + r, (i0, j1 - 1 - r, k1 - 1 - c), "east", r, h)
+            put(u + d + w + c, v + d + r, (i1 - 1, j1 - 1 - r, k0 + c), "west", r, h)
+    for c in range(w):
+        for r in range(h):
+            put(u + d + c, v + d + r, (i0 + c, j1 - 1 - r, k0), "north", r, h)
+            put(u + 2 * d + w + c, v + d + r, (i1 - 1 - c, j1 - 1 - r, k1 - 1), "south", r, h)
+
+
+def fit_bone_boxes(bone, n_bones: int, tolerance: float = 0.12):
+    """[(bone index, box)] for every bone, boxes fitted with fit_boxes and never covering another bone's voxels."""
+    out = []
+    for b in range(n_bones):
+        mask = bone == b
+        out += [(b, box) for box in fit_boxes(mask, tolerance, blocked=(bone >= 0) & ~mask)]
+    return out
+
+
+def at_nearest(nearest, fn):
+    """Wrap colour_of(i, j, k) so an empty cell a box covers takes the colour of the nearest solid voxel."""
+    def f(i, j, k):
+        return fn(int(nearest[0, i, j, k]), int(nearest[1, i, j, k]), int(nearest[2, i, j, k]))
+    return f

@@ -362,8 +362,7 @@ def paint(sp, solid, bone, names, lo, shiny):
         shine(head & thin & (j >= 22), ember)
         eyes((70, 150, 255) if not shiny else (255, 140, 60), (110, 180, 255) if not shiny else (255, 170, 90), dx=2)
     # light from above, a little per-voxel variation (glowing voxels stay clean)
-    shade = 1 + (np.vectorize(h3)(i, j, k, 11) - 0.5) * 0.09
-    shade = shade + np.where(top_open, 0.06, 0) - np.where(bot_open, 0.08, 0)
+    shade = 1 + (np.vectorize(h3)(i, j, k, 11) - 0.5) * 0.03       # only a hint: the faces get baked shading
     lit = (glow.sum(-1) == 0)
     col = np.where(lit[..., None], col * shade[..., None], col)
     return np.clip(col, 0, 255).astype(np.uint8), np.clip(glow, 0, 255).astype(np.uint8)
@@ -535,11 +534,12 @@ def build_model(sp):
     cfg = MEGAS[sp]
     d = np.load(HERE / f"mega_{sp}_voxels.npz")
     solid, lo = d["solid"], d["lo"]
+    solid = vx.smooth(solid)                       # Cobblemon-style: rounder shapes, no voxel specks
     bone, names, legs = segment(sp, solid, lo)
     piv = pivots(bone, names, lo, solid)
-    boxes = []
-    for b in range(len(names)):
-        boxes += [(b, box) for box in vx.greedy_boxes(bone == b)]
+    boxes = vx.fit_bone_boxes(bone, len(names))
+    nearest = vx.nearest_solid(solid)
+    exposed = vx.exposure(solid)
     nets = [(2 * ((i1 - i0) + (k1 - k0)), (k1 - k0) + (j1 - j0)) for _, (i0, j0, k0, i1, j1, k1) in boxes]
     tw = 64
     while True:
@@ -556,7 +556,7 @@ def build_model(sp):
         sfx = "_shiny" if shiny else ""
         img = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
         for (b, box), uv in zip(boxes, pos):
-            vx.paint_box(img, uv, box, lambda i, j, k: tuple(int(v) for v in col[i, j, k]) + (255,))
+            vx.paint_box_shaded(img, uv, box, vx.at_nearest(nearest, lambda i, j, k: tuple(int(v) for v in col[i, j, k]) + (255,)), exposed)
         img.save(tex_dir / f"{nm}{sfx}.png", optimize=True)
         for f in range(3):                                   # the glow flickers a little
             rng = random.Random(f"{sp}:{shiny}:{f}")
@@ -571,7 +571,7 @@ def build_model(sp):
                 return tuple(int(v * flick[(i, j, k)]) for v in g) + (255,)
             gimg = Image.new("RGBA", (tw, th), (0, 0, 0, 0))
             for (b, box), uv in zip(boxes, pos):
-                vx.paint_box(gimg, uv, box, gcol)
+                vx.paint_box(gimg, uv, box, vx.at_nearest(nearest, gcol))
             gimg.save(tex_dir / f"{nm}{sfx}_glow_{f}.png", optimize=True)
 
     bones = [{"name": nm, "pivot": [0, 0, 0]}]

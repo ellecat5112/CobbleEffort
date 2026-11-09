@@ -470,6 +470,10 @@ walking, battle stance, sleep, cry, physical/special/status moves and fainting.
 
 ![Celesteela, normal and shiny](docs/celesteela_preview.png)
 
+All custom models are cleaned up to look closer to Cobblemon's style: the voxel shape is smoothed (no stair-step
+noise or specks, thin parts kept), built from fewer, chunkier boxes, and the texture has soft baked shading (lit tops,
+side gradients, darker silhouette edges).
+
 Built by `tools/models/<name>.py` (`ironboulder.py`, `celesteela.py`): voxelize the mesh (`tools/models/_voxel.py`
 reads OBJ, GLB/glTF and zipped textured OBJs), merge into boxes, paint a box-UV texture, and write the animations,
 poser, resolver, `species_additions` and `spawn_pool_world`. The voxels are committed (`*_voxels.npz`), so

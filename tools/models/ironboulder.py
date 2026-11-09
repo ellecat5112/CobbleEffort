@@ -125,15 +125,16 @@ def shiny_palette(palette):
 def build_model():
     d = np.load(VOXELS)
     solid, surf, colours, lo = d["solid"], d["surf"], d["colours"], d["lo"]
+    solid = vx.smooth(solid)                       # Cobblemon-style: rounder shapes, no voxel specks
     palette, labels = vx.quantize(colours, surf, PALETTE_SIZE, seed=1022)
     labels = vx.denoise(labels, surf, passes=2)
     labels = vx.fill_interior_labels(labels, surf, solid)
     bone_of = segment(solid, lo)
     piv = pivots(bone_of, lo)
 
-    boxes = []          # (bone, box)
-    for b in range(len(BONES)):
-        boxes += [(b, box) for box in vx.greedy_boxes(bone_of == b)]
+    boxes = vx.fit_bone_boxes(bone_of, len(BONES))          # (bone, box): fewer, chunkier boxes
+    nearest = vx.nearest_solid(solid)
+    exposed = vx.exposure(solid)
     nets = [(2 * ((i1 - i0) + (k1 - k0)), (k1 - k0) + (j1 - j0)) for _, (i0, j0, k0, i1, j1, k1) in boxes]
     tw = 64
     while True:
@@ -150,7 +151,7 @@ def build_model():
         def colour_of(i, j, k, cols=cols):
             return tuple(cols[labels[i, j, k]]) + (255,)
         for (b, box), uv in zip(boxes, pos):
-            vx.paint_box(img, uv, box, colour_of)
+            vx.paint_box_shaded(img, uv, box, vx.at_nearest(nearest, colour_of), exposed)
         sfx = "" if variant == "normal" else "_shiny"
         dest = RES / "assets" / MOD / "textures" / "pokemon" / FOLDER / f"{NAME}{sfx}.png"
         dest.parent.mkdir(parents=True, exist_ok=True)
