@@ -32,6 +32,18 @@ A TEST BUILD. What's in it:
     Abilities that aren't tied to its type stay.
   - Wild Pokemon and NPC trainers' Pokemon holding the crystal (Arceus: a plate) distort on their first move.
 
+THE DNA MACHINE: MAKING MEWTWO (NEW in 0.11.0)
+  The cloning tank Mewtwo comes from in the first movie, two blocks tall (in the Distortion creative tab, or craft
+  it: iron block, glass, iron block / glass, diamond, glass / iron block, redstone block, iron block).
+  1. Get Mew DNA: every time you defeat a Pokemon in battle with a Mew in your party, 3-8 Mew DNA drop.
+  2. Fill the tank: click the machine with Mew DNA (sneak-click pours the whole stack). It needs 16; the fluid
+     rises as you pour.
+  3. Select Mew in your party bar and click the machine with an empty hand: Mew floats into the tank.
+  4. Wait five minutes. Mew becomes Mewtwo (same level, shiny if Mew was), floating in the tank.
+  5. Click the machine again to take your Mewtwo (to your party, or your PC if it's full).
+  The machine can't be broken while a Pokemon is inside. Only the one who put Mew in can take Mewtwo out.
+  Note: Mew is used up; it becomes Mewtwo.
+
 DISTORTING WITH THE CRYSTAL (NEW in 0.10.0)
   Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form, look, types, moves
   (their distorted twins) and type-bound ability, kept while it holds the crystal (it enters battle distorted). Take the crystal away and it turns back. No band needed for this;
@@ -158,6 +170,9 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.11.0: the DNA machine. Place it (does the upper half appear, does it face you?), win a battle with Mew in your
+  party (Mew DNA drops), fill the tank, put Mew in (does Mew show inside the glass?), wait five minutes, take
+  Mewtwo out. Send latest.log if anything goes wrong.
   0.10.1: give a distortable Pokemon the Distortion Crystal: it should distort straight away, with a "distorted!"
   message, its distorted moves and (if type-bound) ability in its summary. Take the crystal back: it returns to
   normal with its own moves and ability (a move it learned meanwhile stays). In battle it starts distorted; revert it

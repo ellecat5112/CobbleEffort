@@ -1,5 +1,16 @@
 {
   "accessories.group.cobbleeffort_distortion.distortion_group": "Distortion",
+  "block.cobbleeffort_distortion.dna_machine": "DNA Machine",
+  "cobbleeffort_distortion.dna.done": "Something stirs in the DNA machine. Mewtwo has awoken!",
+  "cobbleeffort_distortion.dna.dropped": "Your Mew left %s Mew DNA behind.",
+  "cobbleeffort_distortion.dna.filled": "DNA: %s / %s",
+  "cobbleeffort_distortion.dna.inserted": "Mew floats into the tank... Come back in five minutes.",
+  "cobbleeffort_distortion.dna.needs": "The tank needs %s more Mew DNA.",
+  "cobbleeffort_distortion.dna.not_mew": "%s can't go in: only Mew's DNA matches.",
+  "cobbleeffort_distortion.dna.not_yours": "This isn't your Pokémon.",
+  "cobbleeffort_distortion.dna.retrieved": "%s joined you.",
+  "cobbleeffort_distortion.dna.select_mew": "Select Mew in your party, then use the DNA machine.",
+  "cobbleeffort_distortion.dna.working": "Still growing: %s min %s s left.",
   "cobbleeffort_distortion.message.distorted": "%s distorted!",
   "cobbleeffort_distortion.message.in_battle": "You can't distort or revert a Pokémon while battling.",
   "cobbleeffort_distortion.message.need_band": "Wear the Distortion Band to distort a Pokémon.",
@@ -1466,6 +1477,7 @@
   "item.cobbleeffort_distortion.distortion_band": "Distortion Band",
   "item.cobbleeffort_distortion.distortion_band.tooltip": "Wear it in the Distortion slot to let a Pokémon holding the Distortion Crystal distort, in battle or from its interaction wheel.",
   "item.cobbleeffort_distortion.distortion_crystal": "Distortion Crystal",
+  "item.cobbleeffort_distortion.mew_dna": "Mew DNA",
   "itemGroup.cobbleeffort_distortion": "Distortion",
   "slot.accessories.distortion_slot": "Distortion"
 }

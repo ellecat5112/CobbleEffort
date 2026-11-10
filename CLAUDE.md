@@ -122,6 +122,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `-formechange` "<species>-Distorted"/"-Reverted" drive the aspect), so item-free form changes stack (Gmax, Ash-
   Greninja, move megas); only forms needing a held item (stone megas, primals) are skipped. The add-on's resolvers may
   name Mega Showdown's models (a required dependency), e.g. its Gigantamax models. Test the engine in node against Cobblemon's Showdown + MSD's patches before a build, loading scripts and held items the way MSD does (`content.replace("\n", "")`: lines joined with no separator, so no `//` comments in generated JS; `make_battle.write` strips them).
+  DNA machine (0.11.0, the user's design: Mew DNA from battles with Mew in the party + Mew -> Mewtwo in 5 min): `dna/` package + `client/DnaMachineRenderer` (display PokemonEntity in the tank) + `tools/make_dna_machine.py` (its assets/data).
   Wheel (radial menu): Cobblemon's `POKEMON_INTERACTION_GUI_CREATION` event (as Mega Showdown does; no mixin) adds
   Distort/Revert, a C2S `DistortPacket` toggles the `distorted` flag feature server-side (`DistortionWheel`); rules shared
   in `DistortionRules`. Phases 1 items/slot/forms, 2 battle gimmick, 3 radial entry: all done.

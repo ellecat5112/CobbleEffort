@@ -72,6 +72,19 @@ Entei and Suicune are Mega Showdown's models. Celebi is modelled only by AllTheM
 an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_celebi_layout.json`, from
 `tools/addons/extract_layout.py`, no art read), set by texture alone so the resolver names no model.
 
+## The DNA machine (0.11.0)
+
+The user's design: a way to get Mewtwo. `dna/DnaMachineBlock` (two halves like a door, facing the placer; the
+lower holds `DnaMachineBlockEntity`): click with Mew DNA to fill it (16; sneak pours the stack), then with Mew
+selected in the party bar (the client sends `DnaInsertPacket` with the selected Pokémon, since the selection is
+client-side) Mew goes in (saved as NBT with its owner and start time); after 5 minutes (server ticker, by game time)
+it becomes Mewtwo (same level, shininess); clicking gives it to the owner (party, else PC). Unbreakable while
+occupied. `dna/MewDna`: on BATTLE_FAINTED, each player on the other side with a Mew in their party gets 3-8 Mew DNA,
+dropped at the defeated Pokémon (or given). Client: `DnaMachineRenderer` draws the glowing fluid (rising with the
+fill) and the Pokémon inside as a client-only display PokemonEntity (as Cobblemon's habitat block does); glass is
+translucent (`render_type` in the model for NeoForge, RenderTypeRegistry for Fabric). Assets and data (textures,
+models, blockstates, loot, recipe, pickaxe tag, names): `tools/make_dna_machine.py` (run by make_assets.py).
+
 ## The crystal distorts by itself (0.10.0)
 
 The user's direction: holding the Distortion Crystal IS the distortion outside battle. `DistortionWheel.sync` on

@@ -682,6 +682,8 @@ def lang():
     names[f"{MOD}.message.in_battle"] = "You can't distort or revert a Pokémon while battling."
     names[f"{MOD}.message.need_band"] = "Wear the Distortion Band to distort a Pokémon."
     names[f"{MOD}.message.one_at_a_time"] = "Only one Pokémon can be distorted at a time: revert %s first."
+    import make_dna_machine
+    names.update(make_dna_machine.LANG)                                       # the DNA machine
     path = RES / "assets" / MOD / "lang" / "en_us.json"
     old = json.loads(path.read_text()) if path.exists() else {}
     names.update({k: v for k, v in old.items() if k.startswith("cobblemon.")})   # make_battle.py's move and ability names
@@ -689,6 +691,8 @@ def lang():
 
 
 def main():
+    import make_dna_machine
+    make_dna_machine.build()                                                  # the DNA machine (Mew -> Mewtwo)
     items()
     slot()
     forms()
