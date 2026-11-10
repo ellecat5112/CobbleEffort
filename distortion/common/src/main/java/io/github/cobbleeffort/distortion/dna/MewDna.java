@@ -24,12 +24,18 @@ public final class MewDna {
     }
 
     public static void init() {
+        // Cobblemon posts this from a delayed task: hop onto the server thread before touching the world
         CobblemonEvents.BATTLE_FAINTED.subscribe(Priority.NORMAL, event -> {
-            try {
-                onFainted(event);
-            } catch (Throwable t) {
-                Distortion.LOG.error("Mew DNA drop failed", t);
-            }
+            net.minecraft.server.MinecraftServer server = com.cobblemon.mod.common.util.DistributionUtilsKt.server();
+            Runnable drop = () -> {
+                try {
+                    onFainted(event);
+                } catch (Throwable t) {
+                    Distortion.LOG.error("Mew DNA drop failed", t);
+                }
+            };
+            if (server != null) server.execute(drop);
+            else drop.run();
         });
     }
 
@@ -46,7 +52,11 @@ public final class MewDna {
         for (BattleActor actor : event.getBattle().getActors()) {
             if (!(actor instanceof PlayerBattleActor player) || actor.getSide() == loser.getSide()) continue;
             ServerPlayer entity = player.getEntity();
-            if (entity == null || !hasMew(entity)) continue;
+            if (entity == null) continue;
+            boolean mew = hasMew(entity);
+            Distortion.LOG.info("{} defeated {}; Mew in party: {}", entity.getName().getString(),
+                    killed.getOriginalPokemon().getSpecies().getName(), mew);
+            if (!mew) continue;
             int n = 3 + entity.getRandom().nextInt(6);                 // 3-8
             ItemStack stack = new ItemStack(Distortion.MEW_DNA.get(), n);
             PokemonEntity at = killed.getEntity();

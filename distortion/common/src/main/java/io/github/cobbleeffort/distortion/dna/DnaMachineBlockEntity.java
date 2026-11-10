@@ -108,6 +108,15 @@ public class DnaMachineBlockEntity extends BlockEntity {
 
     void serverTick() {
         if (!"mew".equals(inside) || level == null || level.getGameTime() - started < BREW_TICKS) return;
+        try {
+            awaken();
+        } catch (Throwable t) {
+            Distortion.LOG.error("The DNA machine couldn't make Mewtwo", t);
+            started = level.getGameTime() - BREW_TICKS + 200;     // try again in ten seconds, never crash the server
+        }
+    }
+
+    private void awaken() {
         // done: the Mew in the tank has become Mewtwo (its level and shininess carried over)
         Pokemon mew = load();
         int lvl = mew == null ? 70 : mew.getLevel();

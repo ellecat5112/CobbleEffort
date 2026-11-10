@@ -34,6 +34,7 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
     private static final float X0 = 2.7F / 16, X1 = 13.3F / 16, Y0 = 6F / 16, H = 20F / 16;
     private final Map<DnaMachineBlockEntity, PokemonEntity> displays = new WeakHashMap<>();
     private final Map<DnaMachineBlockEntity, String> keys = new WeakHashMap<>();
+    private boolean failed;
 
     public DnaMachineRenderer(BlockEntityRendererProvider.Context context) {
     }
@@ -47,7 +48,14 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
     public void render(DnaMachineBlockEntity be, float partial, PoseStack pose, MultiBufferSource buffers, int light, int overlay) {
         long time = be.getLevel() == null ? 0 : be.getLevel().getGameTime();
         float level = "mew".equals(be.inside()) ? 1F : be.fillLevel() / (float) DnaMachineBlockEntity.CAPACITY;
-        if (be.occupied()) renderPokemon(be, partial, pose, buffers, time);
+        if (be.occupied()) {
+            try {
+                renderPokemon(be, partial, pose, buffers, time);
+            } catch (Throwable t) {
+                if (!failed) Distortion.LOG.error("Couldn't draw the Pokémon in a DNA machine", t);
+                failed = true;                                 // never crash the game over the display
+            }
+        }
         if (level > 0) renderFluid(pose, buffers, level, time + partial);
     }
 
@@ -83,6 +91,7 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
     }
 
     private void renderPokemon(DnaMachineBlockEntity be, float partial, PoseStack pose, MultiBufferSource buffers, long time) {
+        if (failed) return;
         PokemonEntity entity = display(be);
         if (entity == null) return;
         Direction facing = be.getBlockState().getValue(DnaMachineBlock.FACING);
@@ -123,10 +132,15 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
                 displays.remove(be);
                 return null;
             }
+            // as Cobblemon's habitat block builds its display Pokémon
             Pokemon pokemon = new Pokemon();
             pokemon.setSpecies(species);
+            pokemon.initialize();
             pokemon.setShiny(be.shiny());
-            displays.put(be, new PokemonEntity(be.getLevel(), pokemon, CobblemonEntities.POKEMON));
+            PokemonEntity entity = new PokemonEntity(be.getLevel(), pokemon, CobblemonEntities.POKEMON);
+            entity.setNoGravity(true);
+            entity.setPos(be.getBlockPos().getX() + 0.5, be.getBlockPos().getY() + 0.5, be.getBlockPos().getZ() + 0.5);
+            displays.put(be, entity);
         }
         return displays.get(be);
     }

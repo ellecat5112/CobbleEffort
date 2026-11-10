@@ -190,7 +190,11 @@ public class DnaMachineBlock extends BaseEntityBlock {
         }
         if (!(player instanceof ServerPlayer serverPlayer)) return InteractionResult.PASS;
         if (machine.occupied()) {
-            machine.retrieve(serverPlayer);
+            try {
+                machine.retrieve(serverPlayer);
+            } catch (Throwable t) {
+                Distortion.LOG.error("Taking a Pokémon out of the DNA machine failed", t);
+            }
         } else if (!machine.full()) {
             player.displayClientMessage(Component.translatable(Distortion.MOD_ID + ".dna.needs",
                     DnaMachineBlockEntity.CAPACITY - machine.fillLevel()), true);
