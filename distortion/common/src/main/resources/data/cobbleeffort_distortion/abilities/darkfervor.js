@@ -16,5 +16,5 @@ onModifySpA(atk, attacker, defender, move) {
 "flags": {},
 "name": "Dark Fervor",
 "rating": 2,
-"num": -31127
+"num": -31125
 }

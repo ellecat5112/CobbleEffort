@@ -12,5 +12,5 @@ onAfterBoost(boost, target, source, effect) {
 "flags": {},
 "name": "Jittery",
 "rating": 1,
-"num": -31145
+"num": -31144
 }

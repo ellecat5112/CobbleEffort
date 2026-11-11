@@ -3,12 +3,12 @@
   "forms": [
     {
       "name": "Distorted",
-      "primaryType": "steel",
+      "primaryType": "fire",
       "aspects": [
         "distorted"
       ],
       "battleOnly": false,
-      "secondaryType": "normal"
+      "secondaryType": "ground"
     },
     {
       "aspects": [
@@ -27,8 +27,8 @@
       "pokedex": [
         "cobblemon.species.venusaur-gmax.desc"
       ],
-      "primaryType": "steel",
-      "secondaryType": "normal",
+      "primaryType": "fire",
+      "secondaryType": "ground",
       "weight": 0
     }
   ]

@@ -17,5 +17,5 @@ onTryHit(target, source, move) {
 "flags": {"breakable":1},
 "name": "Sunscreen",
 "rating": 2,
-"num": -31126
+"num": -31124
 }

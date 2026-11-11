@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["poweruppunch"], {num: -32134, name: "Rock Power-Up Punch", type: "Rock", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["poweruppunch"], {num: -31982, name: "Rock Power-Up Punch", type: "Rock", isNonstandard: null, zMove: undefined, maxMove: undefined})

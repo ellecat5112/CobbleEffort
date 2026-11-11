@@ -7,5 +7,5 @@ onDamagingHit(damage, target, source, move) {
 "flags": {},
 "name": "Fairy Justified",
 "rating": 2.5,
-"num": -31103
+"num": -31104
 }

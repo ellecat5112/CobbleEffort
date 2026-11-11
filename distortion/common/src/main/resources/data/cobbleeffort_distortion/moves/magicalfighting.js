@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["magicalleaf"], {num: -32169, name: "Magical Fighting", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["magicalleaf"], {num: -32017, name: "Magical Fighting", type: "Fighting", isNonstandard: null, zMove: undefined, maxMove: undefined})

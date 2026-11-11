@@ -16,5 +16,5 @@ onSourceModifySpA(atk, attacker, defender, move) {
 "flags": {"breakable":1},
 "name": "Psychic Thick Fat",
 "rating": 3.5,
-"num": -31153
+"num": -31152
 }

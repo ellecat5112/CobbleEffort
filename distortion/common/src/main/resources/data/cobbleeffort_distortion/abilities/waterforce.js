@@ -18,5 +18,5 @@ onImmunity(type, pokemon) {
 "flags": {},
 "name": "Water Force",
 "rating": 2,
-"num": -31134
+"num": -31132
 }

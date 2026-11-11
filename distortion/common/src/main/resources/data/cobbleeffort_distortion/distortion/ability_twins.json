@@ -2,9 +2,6 @@
  "blaze": {
   "Blaziken:Fighting/Fire": "fairyfervor",
   "Braixen:Fire": "icefervor",
-  "Charizard:Fire/Flying": "psychicfervor",
-  "Charmander:Fire": "psychicfervor",
-  "Charmeleon:Fire": "psychicfervor",
   "Chimchar:Fire": "ghostfervor",
   "Cinderace:Fire": "electricfervor",
   "Combusken:Fighting/Fire": "fairyfervor",
@@ -14,6 +11,7 @@
   "Emboar:Fighting/Fire": "psychicfervor",
   "Fennekin:Fire": "icefervor",
   "Fire": "torrent",
+  "Fire/Flying": "torrent",
   "Fuecoco:Fire": "darkfervor",
   "Incineroar:Dark/Fire": "psychicfervor",
   "Infernape:Fighting/Fire": "ghostfervor",
@@ -106,7 +104,6 @@
  },
  "overgrow": {
   "Bayleef:Grass": "torrent",
-  "Bulbasaur:Grass/Poison": "steelfervor",
   "Chesnaught:Fighting/Grass": "psychicfervor",
   "Chespin:Grass": "psychicfervor",
   "Chikorita:Grass": "torrent",
@@ -115,10 +112,10 @@
   "Decidueye:Ghost/Grass": "psychicfervor",
   "Floragato:Grass": "swarm",
   "Grass": "blaze",
+  "Grass/Poison": "blaze",
   "Grookey:Grass": "fairyfervor",
   "Grotle:Grass": "fightingfervor",
   "Grovyle:Grass": "torrent",
-  "Ivysaur:Grass/Poison": "steelfervor",
   "Meganium:Grass": "torrent",
   "Meowscarada:Dark/Grass": "swarm",
   "Quilladin:Grass": "psychicfervor",
@@ -132,8 +129,7 @@
   "Thwackey:Grass": "fairyfervor",
   "Torterra:Grass/Ground": "fightingfervor",
   "Treecko:Grass": "torrent",
-  "Turtwig:Grass": "fightingfervor",
-  "Venusaur:Grass/Poison": "steelfervor"
+  "Turtwig:Grass": "fightingfervor"
  },
  "pixilate": {
   "Fairy": "metallize"
@@ -186,6 +182,10 @@
   "Ice": "heatwarning",
   "Ice/Rock": "heatwarning"
  },
+ "solarpower": {
+  "Fire": "stormpower",
+  "Fire/Flying": "stormpower"
+ },
  "steamengine": {
   "Fire/Rock": "watersteamengine"
  },
@@ -218,7 +218,6 @@
   "Tepig:Fire": "psychicthickfat"
  },
  "torrent": {
-  "Blastoise:Water": "steelfervor",
   "Brionne:Water": "rockfervor",
   "Croconaw:Water": "fairyfervor",
   "Dewott:Water": "groundfervor",
@@ -242,10 +241,8 @@
   "Samurott:Dark/Water": "groundfervor",
   "Samurott:Water": "groundfervor",
   "Sobble:Water": "ghostfervor",
-  "Squirtle:Water": "steelfervor",
   "Swampert:Ground/Water": "electricfervor",
   "Totodile:Water": "fairyfervor",
-  "Wartortle:Water": "steelfervor",
   "Water": "overgrow"
  },
  "transistor": {

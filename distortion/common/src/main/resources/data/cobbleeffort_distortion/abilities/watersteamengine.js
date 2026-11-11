@@ -7,5 +7,5 @@ onDamagingHit(damage, target, source, move) {
 "flags": {},
 "name": "Water Steam Engine",
 "rating": 2,
-"num": -31120
+"num": -31119
 }

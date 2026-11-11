@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["waterpledge"], {num: -32376, name: "Ground Pledge", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["waterpledge"], {num: -32246, name: "Ground Pledge", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})

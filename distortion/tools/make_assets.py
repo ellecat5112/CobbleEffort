@@ -259,11 +259,12 @@ def skipped(sp, aspects):
 
 
 _SPECIES_CHARTS = None
+CHART_STARTERS = {"bulbasaur", "charmander", "squirtle"}           # Gen 1 starters: still their weakness
 
 
 def starter_charts():
     """Each starter line's own random chart (the user's choice: "starters get randomized new types so it's not
-    predictable"): every type the line has (its forms' too: Hisuian Typhlosion's Ghost) gets a random new type, never
+    predictable"; the Gen 1 starters keep the chart): every type the line has (its forms' too: Hisuian Typhlosion's Ghost) gets a random new type, never
     the type itself, another of the line's types, its chart weakness, or one already picked for the line. Seeded by
     the line, so it's the same in every build and on every server. species -> {old type: new type}."""
     global _SPECIES_CHARTS
@@ -271,6 +272,8 @@ def starter_charts():
         import random
         _SPECIES_CHARTS = {}
         for line in STARTER_LINES:
+            if line[0] in CHART_STARTERS:
+                continue                                       # the Gen 1 starters keep the chart (the user's choice)
             own = set()
             for sp in line:
                 d = cobblemon_species(sp)

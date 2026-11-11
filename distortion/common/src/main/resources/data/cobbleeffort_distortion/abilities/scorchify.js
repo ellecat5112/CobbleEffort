@@ -28,5 +28,5 @@ onBasePower(basePower, pokemon, target, move) {
 "flags": {},
 "name": "Scorchify",
 "rating": 4,
-"num": -31104
+"num": -31105
 }

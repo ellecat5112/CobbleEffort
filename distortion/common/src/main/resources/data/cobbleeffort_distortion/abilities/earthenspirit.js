@@ -9,5 +9,5 @@ onAllyBasePower(basePower, attacker, defender, move) {
 "flags": {},
 "name": "Earthen Spirit",
 "rating": 3.5,
-"num": -31152
+"num": -31151
 }

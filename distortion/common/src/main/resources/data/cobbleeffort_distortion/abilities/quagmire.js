@@ -17,5 +17,5 @@ onFoeMaybeTrapPokemon(pokemon, source) {
 "flags": {},
 "name": "Quagmire",
 "rating": 4,
-"num": -31149
+"num": -31148
 }

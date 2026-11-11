@@ -24,5 +24,5 @@ onAnyBasePower(basePower, source, target, move) {
 "flags": {},
 "name": "Steel Aura",
 "rating": 3,
-"num": -31160
+"num": -31159
 }

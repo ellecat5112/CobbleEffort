@@ -18,5 +18,5 @@ onImmunity(type, pokemon) {
 "flags": {},
 "name": "Fighting Sand Force",
 "rating": 2,
-"num": -31154
+"num": -31153
 }

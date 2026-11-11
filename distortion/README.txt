@@ -14,8 +14,8 @@ A TEST BUILD. What's in it:
       water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
     (see STARTERS below).
   - NEW in 0.12.0: EVERY other Pokemon with a Cobblemon or Mega Showdown model (710 more, 884 with Gen 1), each
-    with the look of its new types (see GEN 1 LOOKS: the same themes for every generation), and the STARTERS now get
-    RANDOM new types (not their weakness: see STARTER TYPES). Not covered: the 45 Pokemon only other mods model
+    with the look of its new types (see GEN 1 LOOKS: the same themes for every generation), and the Gen 2-9 STARTERS now
+    get RANDOM new types (not their weakness: see STARTER TYPES). Not covered: the 45 Pokemon only other mods model
     (e.g. the Paradox Pokemon, Ultra Beasts, Gulpin, Cresselia).
   - NEW in 0.12.0: Distortion Crystal ore (see GETTING THE CRYSTAL AND THE BAND).
   - From 0.9.0: ALL 151 Gen 1 Pokemon, each with its whole evolutionary line (so also Pichu, Cleffa, Igglybuff, Crobat,
@@ -121,11 +121,9 @@ GETTING THE CRYSTAL AND THE BAND (NEW in 0.12.0)
   Distortion Band:     gold ingot, shard, gold ingot / shard, Distortion Crystal, shard / gold ingot, shard, gold ingot.
 
 STARTER TYPES (NEW in 0.12.0)
-  Starters don't turn into their weakness any more: each line has its own random new types, the same in every world
-  (their moves and abilities follow; a pinch ability for a type without one becomes "<Type> Fervor"):
-    Bulbasaur line   Grass -> Steel, Poison -> Normal
-    Charmander line  Dragon -> Ground, Fire -> Psychic, Flying -> Poison
-    Squirtle line    Water -> Steel
+  The Gen 1 starters (Bulbasaur, Charmander, Squirtle lines) still turn into their weakness, as before (Grass ->
+  Fire, Fire -> Water, Water -> Grass). Every other starter line has its own random new types, the same in every
+  world (their moves and abilities follow; a pinch ability for a type without one becomes "<Type> Fervor"):
     Chikorita line   Grass -> Water
     Cyndaquil line   Fire -> Electric, Ghost -> Fairy
     Totodile line    Water -> Fairy
@@ -214,6 +212,7 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.12.1: the Gen 1 starters are back to their old types (Charizard Water/Electric, Storm Power).
   0.12.0: find Distortion Crystal ore in a new chunk (y 0-192), mine it with a stone pickaxe, craft a crystal and
   a band. Try /pokegive <any Pokemon> distorted for the new ones, and a starter in battle (its random types).
   0.11.0: the DNA machine. Place it (does the upper half appear, does it face you?), win a battle with Mew in your

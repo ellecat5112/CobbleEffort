@@ -12,5 +12,5 @@ onAfterBoost(boost, target, source, effect) {
 "flags": {},
 "name": "Fairy Rattled",
 "rating": 1,
-"num": -31150
+"num": -31149
 }

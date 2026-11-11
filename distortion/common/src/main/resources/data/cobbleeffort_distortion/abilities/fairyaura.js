@@ -19,5 +19,5 @@ onAnyBasePower(basePower, source, target, move) {
 "flags": {},
 "name": "Fairy Aura",
 "rating": 3,
-"num": -31161
+"num": -31160
 }

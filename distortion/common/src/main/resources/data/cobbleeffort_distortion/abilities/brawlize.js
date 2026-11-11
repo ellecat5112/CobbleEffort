@@ -29,5 +29,5 @@ onBasePower(basePower, pokemon, target, move) {
 "flags": {},
 "name": "Brawlize",
 "rating": 0,
-"num": -31132
+"num": -31130
 }

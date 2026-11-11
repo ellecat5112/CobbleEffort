@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["aquajet"], {num: -32020, name: "Fairy Jet", type: "Fairy", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["aquajet"], {num: -31868, name: "Fairy Jet", type: "Fairy", isNonstandard: null, zMove: undefined, maxMove: undefined})

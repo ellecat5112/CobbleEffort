@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["brickbreak"], {num: -32445, name: "Ice Brick Break", type: "Ice", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["brickbreak"], {num: -32317, name: "Ice Brick Break", type: "Ice", isNonstandard: null, zMove: undefined, maxMove: undefined})

@@ -6,5 +6,5 @@ onModifyPriority(priority, pokemon, target, move) {
 "flags": {},
 "name": "Electric Gale Wings",
 "rating": 1.5,
-"num": -31142
+"num": -31141
 }

@@ -10,5 +10,5 @@ onImmunity(type, pokemon) {
 "flags": {},
 "name": "Sun Bask",
 "rating": 1,
-"num": -31108
+"num": -31109
 }

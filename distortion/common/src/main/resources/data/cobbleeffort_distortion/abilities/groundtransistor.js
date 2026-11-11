@@ -16,5 +16,5 @@ onModifySpA(atk, attacker, defender, move) {
 "flags": {},
 "name": "Ground Transistor",
 "rating": 3.5,
-"num": -31157
+"num": -31156
 }

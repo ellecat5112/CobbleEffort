@@ -37,5 +37,5 @@ onEnd(target) {
 "flags": {"breakable":1},
 "name": "Flash Electric",
 "rating": 3.5,
-"num": -31129
+"num": -31127
 }

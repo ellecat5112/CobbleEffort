@@ -17,5 +17,5 @@ onAllyTryHitSide(target, source, move) {
 "flags": {"breakable":1},
 "name": "Ember Sipper",
 "rating": 3,
-"num": -31131
+"num": -31129
 }

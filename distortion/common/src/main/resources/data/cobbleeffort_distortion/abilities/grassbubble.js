@@ -37,5 +37,5 @@ onSetStatus(status, target, source, effect) {
 "flags": {"breakable":1},
 "name": "Grass Bubble",
 "rating": 4.5,
-"num": -31106
+"num": -31107
 }

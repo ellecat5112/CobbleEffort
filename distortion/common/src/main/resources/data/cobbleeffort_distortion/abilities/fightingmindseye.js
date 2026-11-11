@@ -27,5 +27,5 @@ onModifyMove(move) {
 "flags": {"breakable":1},
 "name": "Fighting Mind's Eye",
 "rating": 0,
-"num": -31159
+"num": -31158
 }

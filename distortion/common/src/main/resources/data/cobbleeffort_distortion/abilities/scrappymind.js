@@ -23,5 +23,5 @@ onTryBoost(boost, target, source, effect) {
 "flags": {},
 "name": "Scrappy Mind",
 "rating": 3,
-"num": -31140
+"num": -31139
 }

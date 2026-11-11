@@ -77,7 +77,7 @@ an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_
 - Every other species with a model in Cobblemon or Mega Showdown (710 more; 45 modelled only by other mods are not
   covered), whole lines, on the type-theme module (`parts/themed.py`, lines in `themed_lines.json`; a model the motifs
   don't fit is recoloured only).
-- Starters: random types (the user's direction, "so it's not predictable"): `make_assets.starter_charts()` gives each
+- Starters (Gen 2-9; the Gen 1 starters keep the chart, the user's choice, `CHART_STARTERS`): random types (the user's direction, "so it's not predictable"): `make_assets.starter_charts()` gives each
   line a seeded chart {its types -> random others} (never its own types or the chart weakness, no repeats), used for
   forms, the engine (`distortChartBySpecies`), the move twins (per-species tables, as Mew's) and the ability twins
   (keyed "Species:Types"; a pinch ability for a type without one is "<Type> Fervor"). Their looks are unchanged.

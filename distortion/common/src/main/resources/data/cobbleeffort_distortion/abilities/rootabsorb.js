@@ -10,5 +10,5 @@ onTryHit(target, source, move) {
 "flags": {"breakable":1},
 "name": "Root Absorb",
 "rating": 3.5,
-"num": -31105
+"num": -31106
 }
