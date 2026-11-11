@@ -212,6 +212,9 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.12.2 (Fabric fix): on Fabric, Mew DNA never dropped, and the radial menu's Distort/Revert sparkles and Mew's
+  display in the DNA machine's tank failed (a build problem: some Minecraft calls on Cobblemon's entities weren't
+  translated for Fabric). Try them again on Fabric. NeoForge was not affected.
   0.12.1: the Gen 1 starters are back to their old types (Charizard Water/Electric, Storm Power).
   0.12.0: find Distortion Crystal ore in a new chunk (y 0-192), mine it with a stone pickaxe, craft a crystal and
   a band. Try /pokegive <any Pokemon> distorted for the new ones, and a starter in battle (its random types).

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Ground Gym Leader Terra"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:terra"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "dugtrio level=47",
+      "marowak level=47",
+      "sandslash level=48",
+      "nidoqueen level=50",
+      "rhydon level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

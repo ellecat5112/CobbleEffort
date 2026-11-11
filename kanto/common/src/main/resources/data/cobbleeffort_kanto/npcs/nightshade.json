@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Poison Gym Leader Nightshade"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:nightshade"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "koffing level=34",
+      "grimer level=34",
+      "venomoth level=36",
+      "weezing level=38"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

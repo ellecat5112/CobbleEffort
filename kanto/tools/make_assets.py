@@ -307,6 +307,328 @@ def lab():
     return t
 
 
+# --- stage 2: gyms, the Elite Four hall, their trainers ------------------------------------------------------------------
+# original type-themed leaders (names, looks and teams of our own; Gen 1 Pokémon only), in gym order
+LEADERS = [
+    # id, title, name, type, accents (wall stripe, floor accent, pillar, light), shirt hue, hair colour, team
+    ("shale", "Rock Gym Leader", "Shale", "rock",
+     ("minecraft:polished_andesite", "minecraft:cobblestone", "minecraft:stone", "minecraft:lantern"), 30, (70, 50, 36),
+     ["geodude level=12", "rhyhorn level=13", "onix level=15"]),
+    ("brine", "Water Gym Leader", "Brine", "water",
+     ("minecraft:prismarine_bricks", "minecraft:water", "minecraft:dark_prismarine", "minecraft:sea_lantern"), 205, (220, 120, 60),
+     ["staryu level=18", "horsea level=18", "starmie level=21"]),
+    ("volta", "Electric Gym Leader", "Volta", "electric",
+     ("minecraft:waxed_copper_block", "minecraft:waxed_cut_copper", "minecraft:waxed_exposed_copper", "minecraft:redstone_lamp"), 52, (230, 210, 120),
+     ["voltorb level=21", "magnemite level=21", "pikachu level=22", "raichu level=24"]),
+    ("fern", "Grass Gym Leader", "Fern", "grass",
+     ("minecraft:moss_block", "minecraft:moss_block", "minecraft:oak_leaves", "minecraft:shroomlight"), 110, (60, 40, 30),
+     ["bellsprout level=27", "oddish level=27", "tangela level=29", "vileplume level=30"]),
+    ("nightshade", "Poison Gym Leader", "Nightshade", "poison",
+     ("minecraft:purple_terracotta", "minecraft:purple_stained_glass", "minecraft:purpur_pillar", "minecraft:pearlescent_froglight"), 285, (30, 20, 40),
+     ["koffing level=34", "grimer level=34", "venomoth level=36", "weezing level=38"]),
+    ("aura", "Psychic Gym Leader", "Aura", "psychic",
+     ("minecraft:amethyst_block", "minecraft:pink_stained_glass", "minecraft:purpur_block", "minecraft:end_rod"), 330, (240, 230, 240),
+     ["kadabra level=38", "mrmime level=38", "slowbro level=40", "alakazam level=43"]),
+    ("cinder", "Fire Gym Leader", "Cinder", "fire",
+     ("minecraft:nether_bricks", "minecraft:red_terracotta", "minecraft:red_nether_bricks", "minecraft:shroomlight"), 12, (250, 250, 250),
+     ["growlithe level=42", "ponyta level=42", "magmar level=44", "rapidash level=45", "arcanine level=47"]),
+    ("terra", "Ground Gym Leader", "Terra", "ground",
+     ("minecraft:terracotta", "minecraft:coarse_dirt", "minecraft:smooth_sandstone", "minecraft:lantern"), 38, (20, 20, 24),
+     ["dugtrio level=47", "marowak level=47", "sandslash level=48", "nidoqueen level=50", "rhydon level=52"]),
+]
+ELITE = [
+    ("frost", "Elite Four", "Frost", "ice", ("minecraft:packed_ice", "minecraft:snow_block", "minecraft:blue_ice", "minecraft:sea_lantern"), 190, (240, 245, 255),
+     ["cloyster level=54", "dewgong level=54", "jynx level=56", "lapras level=58"]),
+    ("brawn", "Elite Four", "Brawn", "fighting", ("minecraft:stripped_spruce_log", "minecraft:red_wool", "minecraft:spruce_planks", "minecraft:lantern"), 0, (24, 20, 18),
+     ["hitmonlee level=55", "hitmonchan level=55", "primeape level=56", "poliwrath level=57", "machamp level=59"]),
+    ("wisp", "Elite Four", "Wisp", "ghost", ("minecraft:deepslate_tiles", "minecraft:polished_blackstone", "minecraft:chiseled_deepslate", "minecraft:soul_lantern"), 270, (200, 200, 210),
+     ["golbat level=56", "haunter level=56", "arbok level=57", "gengar level=58", "gengar level=60"]),
+    ("wyrm", "Elite Four", "Wyrm", "dragon", ("minecraft:purpur_block", "minecraft:end_stone_bricks", "minecraft:obsidian", "minecraft:end_rod"), 250, (180, 40, 40),
+     ["dragonair level=58", "dragonair level=58", "aerodactyl level=59", "gyarados level=59", "dragonite level=62"]),
+]
+
+
+def _block(name):
+    """(name, props) for an accent block, with the properties it needs."""
+    props = {}
+    if name == "minecraft:redstone_lamp":
+        props = {"lit": "true"}
+    elif name in ("minecraft:lantern", "minecraft:soul_lantern"):
+        props = {"hanging": "false", "waterlogged": "false"}
+    elif name == "minecraft:oak_leaves":
+        props = {"distance": "1", "persistent": "true", "waterlogged": "false"}
+    elif name in ("minecraft:stripped_spruce_log", "minecraft:purpur_pillar"):
+        props = {"axis": "y"}
+    elif name == "minecraft:end_rod":
+        props = {"facing": "up"}
+    return name, props
+
+
+def gym(leader):
+    """A gym (original layout): Gen 1 Brick walls with a stripe of the type's block, an arena floor with a white
+    centre line and accent panels, accent pillars down both sides with lights, flanking pillars at the door, and the
+    leader's raised platform at the back. Returns (template, leader position)."""
+    _, _, _, _, (stripe, floor, pillar, light), _, _, _ = leader
+    W, H, Dp = 15, 9, 21
+    t = Template((W, H, Dp))
+    B, Wt, G = f"{MOD}:gen1_bricks_black", f"{MOD}:gen1_bricks_white", f"{MOD}:gen1_bricks_grey"
+    for x in range(W):
+        for z in range(Dp):
+            edge = x in (0, W - 1) or z in (0, Dp - 1)
+            t.set(x, 0, z, B if edge else (Wt if x == W // 2 else G))
+            if not edge and x in (3, 4, W - 5, W - 4) and 4 <= z <= Dp - 6:
+                t.set(x, 0, z, *_block(floor))                       # the accent panels
+    for y in range(1, H - 1):
+        for x in range(W):
+            for z in range(Dp):
+                wall = x in (0, W - 1) or z in (0, Dp - 1)
+                if wall:
+                    corner = x in (0, W - 1) and z in (0, Dp - 1)
+                    if corner or y == H - 2:
+                        t.set(x, y, z, B)
+                    elif y == 3:
+                        t.set(x, y, z, *_block(stripe))            # the type's stripe round the walls
+                    else:
+                        t.set(x, y, z, G)
+                else:
+                    t.set(x, y, z, "minecraft:air")
+    for x in range(W):
+        for z in range(Dp):
+            t.set(x, H - 1, z, B if (x in (0, W - 1) or z in (0, Dp - 1)) else Wt)
+    # windows
+    for z in range(4, Dp - 4, 4):
+        for y in (4, 5):
+            t.set(0, y, z, "minecraft:glass")
+            t.set(W - 1, y, z, "minecraft:glass")
+    # the door (front, z = 0) with flanking pillars
+    door = {"facing": "south", "hinge": "left", "open": "false", "powered": "false"}
+    cx = W // 2
+    t.set(cx, 1, 0, "minecraft:iron_door", dict(door, half="lower"))
+    t.set(cx, 2, 0, "minecraft:iron_door", dict(door, half="upper"))
+    for x in (cx - 2, cx + 2):
+        for y in (1, 2, 3):
+            t.set(x, y, 1, *_block(pillar))
+        t.set(x, 4, 1, *_block(light))
+    # pillars with lights down both sides
+    for z in range(5, Dp - 4, 4):
+        for x in (2, W - 3):
+            for y in (1, 2, 3, 4):
+                t.set(x, y, z, *_block(pillar))
+            t.set(x, 5, z, *_block(light))
+    # the leader's platform at the back
+    for x in range(cx - 3, cx + 4):
+        for z in range(Dp - 5, Dp - 1):
+            t.set(x, 1, z, *_block(stripe) if (x in (cx - 3, cx + 3) or z == Dp - 5) else (Wt, {}))
+    for x in (cx - 2, cx + 2):
+        t.set(x, 2, Dp - 2, *_block(light))
+    return t, (cx, 2, Dp - 3)
+
+
+def elite_hall():
+    """The Elite Four hall (original): a long Gen 1 Brick hall with four rooms, two each side of a central aisle, each
+    room themed by its member's type; the members stand at the far end of their rooms. Returns (template, positions)."""
+    W, H, Dp = 31, 10, 25
+    t = Template((W, H, Dp))
+    B, Wt, G = f"{MOD}:gen1_bricks_black", f"{MOD}:gen1_bricks_white", f"{MOD}:gen1_bricks_grey"
+    for x in range(W):
+        for z in range(Dp):
+            t.set(x, 0, z, B if x in (0, W - 1) or z in (0, Dp - 1) else (Wt if 13 <= x <= 17 else G))
+            t.set(x, H - 1, z, B if x in (0, W - 1) or z in (0, Dp - 1) else Wt)
+    for y in range(1, H - 1):
+        for x in range(W):
+            for z in range(Dp):
+                wall = x in (0, W - 1) or z in (0, Dp - 1)
+                inner = x in (12, 18) or (z == 12 and (x < 12 or x > 18))
+                if wall or inner:
+                    t.set(x, y, z, B if (y == H - 2 or (wall and x in (0, W - 1) and z in (0, Dp - 1))) else G)
+                else:
+                    t.set(x, y, z, "minecraft:air")
+    door = {"facing": "south", "hinge": "left", "open": "false", "powered": "false"}
+    for dx in (14, 16):
+        t.set(dx, 1, 0, "minecraft:iron_door", dict(door, half="lower", hinge="left" if dx == 14 else "right"))
+        t.set(dx, 2, 0, "minecraft:iron_door", dict(door, half="upper", hinge="left" if dx == 14 else "right"))
+    t.set(15, 1, 0, G)
+    t.set(15, 2, 0, G)
+    rooms = [(1, 11, 1, 11), (19, 29, 1, 11), (1, 11, 13, 23), (19, 29, 13, 23)]
+    positions = []
+    for (x0, x1, z0, z1), member in zip(rooms, ELITE):
+        _, _, _, _, (stripe, floor, pillar, light), _, _, _ = member
+        for x in range(x0, x1 + 1):
+            for z in range(z0, z1 + 1):
+                t.set(x, 0, z, *_block(floor) if (x + z) % 3 else _block(stripe))
+        # the room's door onto the aisle
+        side = x1 + 1 if x0 < 12 else x0 - 1
+        cz = (z0 + z1) // 2
+        for y in (1, 2):
+            t.set(side, y, cz, "minecraft:air")
+        for z in (z0 + 1, z1 - 1):
+            for x in (x0 + 1, x1 - 1):
+                for y in (1, 2, 3):
+                    t.set(x, y, z, *_block(pillar))
+                t.set(x, 4, z, *_block(light))
+        far = x0 + 1 if x0 < 12 else x1 - 1
+        positions.append((far, 1, cz))
+    for z in range(3, Dp - 2, 4):
+        t.set(15, 6, z, "minecraft:lantern", {"hanging": "true", "waterlogged": "false"})
+    return t, positions
+
+
+def trainer_skin(hue, hair):
+    """Cobblemon's trainer skin recoloured: the shirt in the type's hue, darker trousers, and the leader's hair."""
+    import colorsys
+    import zipfile
+    jar = next(Path("/tmp/claude-0").glob("**/dist_deps/Cobblemon-fabric-1.8.4*.jar"))
+    src = Image.open(io.BytesIO(zipfile.ZipFile(jar).read("assets/cobblemon/textures/npcs/standard/trainer.png"))).convert("RGBA")
+    out = src.copy()
+    for y in range(src.height):
+        for x in range(src.width):
+            r, g, b, a = src.getpixel((x, y))
+            if a == 0:
+                continue
+            hh, ss, vv = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+            deg = hh * 360
+            if ss > 0.35 and 160 <= deg <= 200:                   # the shirt
+                nr, ng, nb = colorsys.hsv_to_rgb(hue / 360, min(1, ss * 0.9), vv)
+            elif ss > 0.3 and 215 <= deg <= 275:                  # the trousers
+                nr, ng, nb = colorsys.hsv_to_rgb(hue / 360, 0.45, vv * 0.55)
+            elif vv < 0.33 and 10 <= deg <= 40 and y < 32:         # the hair
+                k = vv / 0.33
+                nr, ng, nb = [(c / 255) * (0.6 + 0.6 * k) for c in hair]
+            else:
+                continue
+            out.putpixel((x, y), tuple(max(0, min(255, int(c * 255))) for c in (nr, ng, nb)) + (a,))
+    return out
+
+
+def trainers():
+    """Every leader and Elite Four member: an NPC class (Cobblemon's npc data: name, team, battle), a dialogue, a
+    variation (Cobblemon's trainer model with the recoloured skin) and the skin."""
+    for lid, title, name, typ, _, hue, hair, team in LEADERS + ELITE:
+        nid = f"{MOD}:{lid}"
+        full = f"{title} {name}"
+        write_json(D / "npcs" / f"{lid}.json", {
+            "names": [full], "hitbox": "player", "canDespawn": False, "autoHealParty": True,
+            "battleConfiguration": {"canChallenge": True},
+            "interaction": {"type": "dialogue", "dialogue": nid},
+            "party": {"type": "simple", "pokemon": team}, "skill": 3 if title != "Elite Four" else 5, "presets": []})
+        intro = (f"I'm {name}, keeper of this gym's {typ.title()}-type trial. Show me your team!" if title != "Elite Four"
+                 else f"You've reached the Elite Four. I am {name}, master of {typ.title()} types. Ready?")
+        write_json(D / "dialogues" / f"{lid}.json", {
+            "pages": [{"id": "intro", "speaker": "npc", "lines": [intro],
+                       "input": {"type": "option", "vertical": False, "options": [
+                           {"value": "battle", "text": "Battle!", "action": ["q.dialogue.close();", "q.npc.start_battle(q.player, 'singles');"]},
+                           {"value": "later", "text": "Not yet", "action": ["q.dialogue.close();"]}]}}],
+            "speakers": {"npc": {"face": "q.npc.face(false);", "name": {"type": "expression", "expression": "q.npc.name"}}}})
+        write_json(A / "bedrock" / "npcs" / "variations" / f"{lid}.json", {"name": nid, "order": 0, "variations": [
+            {"aspects": [], "layers": [], "model": "cobblemon:trainer.geo", "poser": "cobblemon:standard",
+             "texture": f"{MOD}:textures/npcs/{lid}.png"}]})
+        save(trainer_skin(hue, hair), A / "textures" / "npcs" / f"{lid}.png")
+
+
+BADGE_COLOURS = {   # type -> (dark, mid, light)
+    "rock": ((70, 60, 50), (140, 124, 104), (210, 196, 170)), "water": ((20, 50, 120), (50, 120, 220), (170, 220, 255)),
+    "electric": ((120, 90, 0), (240, 200, 30), (255, 250, 170)), "grass": ((20, 80, 30), (70, 170, 60), (180, 240, 150)),
+    "poison": ((60, 20, 80), (150, 70, 190), (230, 170, 250)), "psychic": ((120, 30, 80), (240, 100, 170), (255, 200, 230)),
+    "fire": ((130, 30, 10), (240, 100, 30), (255, 220, 120)), "ground": ((90, 60, 30), (190, 140, 80), (240, 210, 150)),
+}
+BADGE_SHAPES = {   # an original emblem per type, as a function (x, y) -> inside? on a 16x16 grid centred at 7.5
+    "rock": lambda x, y: abs(x - 7.5) + abs(y - 7.5) <= 7 and abs(x - 7.5) <= 5.5 and abs(y - 7.5) <= 5.5,     # an octagon
+    "water": lambda x, y: (x - 7.5) ** 2 + (y - 9.5) ** 2 <= 22 or (abs(x - 7.5) <= (y - 1) * 0.55 and 1 <= y <= 9),  # a drop
+    "electric": lambda x, y: (4 <= x <= 10 and 1 <= y <= 8 and x - 4 >= (y - 1) * 0.3 and x <= 10 - (y - 1) * 0.4) or
+                             (5 <= x <= 11 and 7 <= y <= 14 and x >= 5 + (y - 7) * 0.5 and x <= 11 - (y - 7) * 0.2),  # a bolt
+    "grass": lambda x, y: ((x - 7.5) * 0.8 + (y - 7.5) * 0.6) ** 2 / 36 + ((x - 7.5) * 0.6 - (y - 7.5) * 0.8) ** 2 / 9 <= 1,  # a leaf
+    "poison": lambda x, y: (x - 6.5) ** 2 + (y - 8.5) ** 2 <= 22 or (x - 11) ** 2 + (y - 4) ** 2 <= 6,         # two bubbles
+    "psychic": lambda x, y: ((x - 7.5) / 7) ** 2 + ((y - 7.5) / 4.5) ** 2 <= 1,                               # an eye
+    "fire": lambda x, y: (x - 7.5) ** 2 + (y - 10) ** 2 <= 20 or (abs(x - 7.5 - (y - 8) * 0.25) <= (y - 1) * 0.5 and 1 <= y <= 10),  # a flame
+    "ground": lambda x, y: abs(x - 7.5) <= 6.5 - abs(y - 7.5) * 0.9 and 2 <= y <= 13,                         # a diamond
+}
+
+
+def badge(typ):
+    """A gym badge (original emblems): a type-coloured shape with a rim, a lit upper left and a highlight glint."""
+    dark, mid, light = BADGE_COLOURS[typ]
+    inside = BADGE_SHAPES[typ]
+    im = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
+    for y in range(16):
+        for x in range(16):
+            if not inside(x, y):
+                continue
+            rim = not all(inside(x + dx, y + dy) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))
+            if rim:
+                c = dark
+            else:
+                lit = (x - 7.5) + (y - 7.5) < -2
+                c = light if lit else mid
+            im.putpixel((x, y), c + (255,))
+    # the eye's pupil, the glint
+    if typ == "psychic":
+        for y in range(6, 10):
+            for x in range(6, 10):
+                if (x - 7.5) ** 2 + (y - 7.5) ** 2 <= 3.5:
+                    im.putpixel((x, y), dark + (255,))
+    return im
+
+
+def ribbon():
+    """The Champion Ribbon: a gold rosette with red tails."""
+    im = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
+    gold = [(120, 80, 10), (220, 170, 40), (255, 236, 140)]
+    red = [(110, 10, 20), (200, 30, 40)]
+    for y in range(8, 16):
+        for x in (4, 5, 6, 9, 10, 11):
+            left = x < 8
+            off = (y - 8) // 3
+            xx = x - off if left else x + off
+            if 0 <= xx < 16 and not (y == 15 and x in (5, 10)):
+                im.putpixel((xx, y), red[1 if x in (5, 10) else 0] + (255,))
+    for y in range(16):
+        for x in range(16):
+            d = ((x - 7.5) ** 2 + (y - 6) ** 2) ** 0.5
+            ang = math.atan2(y - 6, x - 7.5)
+            r = 5.6 + 0.8 * math.cos(ang * 8)
+            if d <= r:
+                c = gold[0] if d > r - 1 else gold[2] if (x - 7.5) + (y - 6) < -1.5 else gold[1]
+                if d < 2:
+                    c = red[1]
+                im.putpixel((x, y), c + (255,))
+    return im
+
+
+def badges():
+    for typ in BADGE_SHAPES:
+        save(badge(typ), A / "textures" / "item" / f"{typ}_badge.png")
+        write_json(A / "models" / "item" / f"{typ}_badge.json", {"parent": "minecraft:item/generated",
+                                                               "textures": {"layer0": f"{MOD}:item/{typ}_badge"}})
+        LANG[f"item.{MOD}.{typ}_badge"] = f"{typ.title()} Badge"
+    save(ribbon(), A / "textures" / "item" / "champion_ribbon.png")
+    write_json(A / "models" / "item" / "champion_ribbon.json", {"parent": "minecraft:item/generated",
+                                                              "textures": {"layer0": f"{MOD}:item/champion_ribbon"}})
+    LANG[f"item.{MOD}.champion_ribbon"] = "Kanto Champion Ribbon"
+
+
+def sites():
+    """The nine buildings in Kanto: their templates and where their trainers stand (KantoGyms reads sites.json and
+    builds them once, around Kanto's centre, the first time someone arrives)."""
+    out = []
+    for i, leader in enumerate(LEADERS):
+        t, pos = gym(leader)
+        p = D / "structure" / "gym" / f"{leader[3]}.nbt"
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_bytes(Nbt.file(t.data()))
+        ang = math.radians(i * 45)
+        out.append({"id": leader[3], "label": f"{leader[3].title()} Gym", "template": f"{MOD}:gym/{leader[3]}",
+                    "size": list(t.size), "x": int(round(math.sin(ang) * 320)), "z": int(round(-math.cos(ang) * 320)),
+                    "trainers": [{"npc": f"{MOD}:{leader[0]}", "pos": list(pos), "yaw": 180, "badge": f"{leader[3]}_badge"}]})
+    t, positions = elite_hall()
+    p = D / "structure" / "gym" / "elite_four.nbt"
+    p.write_bytes(Nbt.file(t.data()))
+    out.append({"id": "elite_four", "label": "Elite Four", "template": f"{MOD}:gym/elite_four", "size": list(t.size), "x": 0, "z": 0,
+                "trainers": [{"npc": f"{MOD}:{m[0]}", "pos": list(pos), "yaw": -90 if pos[0] < 12 else 90, "elite": True}
+                             for m, pos in zip(ELITE, positions)]})
+    write_json(D / "kanto" / "sites.json", out)
+    return out
+
+
 # --- data ----------------------------------------------------------------------------------------------------------------
 def build():
     for colour, pal in BRICKS.items():
@@ -373,6 +695,20 @@ def build():
     write_json(D / "dimension" / "kanto.json", {"type": f"{MOD}:kanto", "generator": {
         "type": "minecraft:noise", "settings": "minecraft:large_biomes",
         "biome_source": {"type": "minecraft:multi_noise", "preset": "minecraft:overworld"}}})
+    trainers()
+    sites()
+    badges()
+    LANG.update({
+        f"{MOD}.gyms.list": "Kanto's gyms and the Elite Four (x, z): %s",
+        f"{MOD}.gyms.building": "Kanto's gyms are being built...",
+        f"{MOD}.badge.earned": "You earned the %s! (%s of 8)",
+        f"{MOD}.elite.locked": "The Elite Four only face trainers with all 8 Kanto badges (you have %s).",
+        f"{MOD}.elite.beaten": "%s of the Elite Four defeated (%s of 4).",
+        f"{MOD}.champion": "You defeated the whole Elite Four: you're Kanto's Champion!",
+    })
+    import make_kantonian                                   # stage 3: ore, metal, armor
+    make_kantonian.build()
+    LANG.update(make_kantonian.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

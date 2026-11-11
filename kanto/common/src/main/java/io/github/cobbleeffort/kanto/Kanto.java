@@ -1,12 +1,19 @@
 package io.github.cobbleeffort.kanto;
 
 import dev.architectury.registry.CreativeTabRegistry;
+import dev.architectury.registry.level.biome.BiomeModifications;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.world.level.levelgen.placement.PlacementModifierType;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -31,6 +38,7 @@ public final class Kanto {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(MOD_ID, Registries.CREATIVE_MODE_TAB);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(MOD_ID, Registries.BLOCK);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
+    public static final DeferredRegister<PlacementModifierType<?>> PLACEMENTS = DeferredRegister.create(MOD_ID, Registries.PLACEMENT_MODIFIER_TYPE);
 
     public static final RegistrySupplier<CreativeModeTab> TAB = TABS.register("kanto", () ->
             CreativeTabRegistry.create(Component.translatable("itemGroup." + MOD_ID), () -> new ItemStack(Kanto.ORB.get())));
@@ -51,6 +59,37 @@ public final class Kanto {
     public static final RegistrySupplier<Item> ESSENCE = ITEMS.register("essence_of_olde", () ->
             new Item(new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));
 
+    // --- stage 2: gym badges and the Champion Ribbon -----------------------------------------------------------------
+    public static final String[] BADGES = {"rock", "water", "electric", "grass", "poison", "psychic", "fire", "ground"};
+    static {
+        for (String type : BADGES) ITEMS.register(type + "_badge", () ->
+                new Item(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON).arch$tab(TAB)));
+    }
+    public static final RegistrySupplier<Item> RIBBON = ITEMS.register("champion_ribbon", () ->
+            new Item(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC).arch$tab(TAB)));
+
+    // --- stage 3: Kantonian ore (Kanto only), raw Kantonian, ingots, armor ------------------------------------------
+    public static final RegistrySupplier<Block> ORE = BLOCKS.register("kantonian_ore", () ->
+            new DropExperienceBlock(UniformInt.of(0, 0), BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)));
+    public static final RegistrySupplier<Block> DEEPSLATE_ORE = BLOCKS.register("deepslate_kantonian_ore", () ->
+            new DropExperienceBlock(UniformInt.of(0, 0), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final RegistrySupplier<Item> ORE_ITEM = ITEMS.register("kantonian_ore", () ->
+            new BlockItem(ORE.get(), new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<Item> DEEPSLATE_ORE_ITEM = ITEMS.register("deepslate_kantonian_ore", () ->
+            new BlockItem(DEEPSLATE_ORE.get(), new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<Item> RAW = ITEMS.register("raw_kantonian", () -> new Item(new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<Item> INGOT = ITEMS.register("kantonian_ingot", () -> new Item(new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<Block> BLOCK = BLOCKS.register("kantonian_block", () ->
+            new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
+    public static final RegistrySupplier<Item> BLOCK_ITEM = ITEMS.register("kantonian_block", () ->
+            new BlockItem(BLOCK.get(), new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<PlacementModifierType<?>> IN_KANTO = PLACEMENTS.register("in_kanto",
+            () -> (PlacementModifierType<KantoOnly>) () -> KantoOnly.CODEC);
+    static final String[] ORE_FEATURES = {"kantonian_ore_upper", "kantonian_ore_middle", "kantonian_ore_small"};
+    static {
+        KantoArmor.setup();
+    }
+
     private Kanto() {
     }
 
@@ -67,7 +106,16 @@ public final class Kanto {
     public static void init() {
         TABS.register();
         BLOCKS.register();
+        KantoArmor.MATERIALS.register();
         ITEMS.register();
+        PLACEMENTS.register();
+        for (String feature : ORE_FEATURES) {
+            ResourceKey<PlacedFeature> key = ResourceKey.create(Registries.PLACED_FEATURE, id(feature));
+            BiomeModifications.addProperties(ctx -> ctx.hasTag(BiomeTags.IS_OVERWORLD),
+                    (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, key));
+        }
         KantoEvents.init();
+        KantoGyms.init();
+        KantoCommand.init();
     }
 }

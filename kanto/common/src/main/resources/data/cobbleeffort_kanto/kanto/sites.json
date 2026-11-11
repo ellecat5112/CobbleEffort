@@ -1,0 +1,248 @@
+[
+  {
+    "id": "rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:shale",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:brine",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "water_badge"
+      }
+    ]
+  },
+  {
+    "id": "electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:volta",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:fern",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "poison",
+    "label": "Poison Gym",
+    "template": "cobbleeffort_kanto:gym/poison",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:nightshade",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "poison_badge"
+      }
+    ]
+  },
+  {
+    "id": "psychic",
+    "label": "Psychic Gym",
+    "template": "cobbleeffort_kanto:gym/psychic",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:aura",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "psychic_badge"
+      }
+    ]
+  },
+  {
+    "id": "fire",
+    "label": "Fire Gym",
+    "template": "cobbleeffort_kanto:gym/fire",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:cinder",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "fire_badge"
+      }
+    ]
+  },
+  {
+    "id": "ground",
+    "label": "Ground Gym",
+    "template": "cobbleeffort_kanto:gym/ground",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:terra",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "ground_badge"
+      }
+    ]
+  },
+  {
+    "id": "elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:frost",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:brawn",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:wisp",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:wyrm",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

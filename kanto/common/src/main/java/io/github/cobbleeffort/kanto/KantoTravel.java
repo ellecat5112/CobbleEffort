@@ -61,6 +61,7 @@ public final class KantoTravel {
             player.teleportTo(kanto, x + 0.5, y, z + 0.5, player.getYRot(), player.getXRot());
             effects(player);
             player.displayClientMessage(Component.translatable(Kanto.MOD_ID + ".pc.arrived"), true);
+            KantoGyms.arrived(player, kanto);
         } catch (Throwable t) {
             Kanto.LOG.error("Travelling through the glitchy PC failed", t);
         }

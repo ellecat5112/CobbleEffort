@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Brawn"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:brawn"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "hitmonlee level=55",
+      "hitmonchan level=55",
+      "primeape level=56",
+      "poliwrath level=57",
+      "machamp level=59"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

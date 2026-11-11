@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Grass Gym Leader Fern"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:fern"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "bellsprout level=27",
+      "oddish level=27",
+      "tangela level=29",
+      "vileplume level=30"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

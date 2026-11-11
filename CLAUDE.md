@@ -139,9 +139,18 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   its structure NBT) joined to every village's house pool at server start (`StructureTemplatePoolAccessor`), Essence of
   Olde (5% from Gen 1 Pokémon defeated in battle), Kantonian Orb (crystal + essence, 16 uses) waking the glitchy PC,
   which teleports to the `cobbleeffort_kanto:kanto` dimension (large-biome terrain; arrival pad with a return PC;
-  return position in SavedData) where non-Gen-1 spawns become a same-type Gen 1 Pokémon (ENTITY_SPAWN). Stage 2: gyms +
-  Elite Four with trainers; stage 3: Kantonian ore (a bit more common than iron) + armor whose dye/wool gives outfits.
+  return position in SavedData) where non-Gen-1 spawns become a same-type Gen 1 Pokémon (ENTITY_SPAWN). Stage 2 (0.2.0):
+  8 gyms + the Elite Four hall (LEADERS/ELITE in make_assets: original leaders, Gen 1 teams; templates + `kanto/sites.json`;
+  Cobblemon NPC classes, dialogues, recoloured trainer.png variations), built by `KantoGyms` on first arrival (one per
+  tick, foundation, doors face the centre, NPCs spawned invulnerable), badges on BATTLE_VICTORY, Elite Four gated on 8
+  badges in BATTLE_STARTED_PRE, Champion Ribbon; `/kanto gyms|rebuild`. Stage 3 (0.2.0, `tools/make_kantonian.py`):
+  Kantonian ore (iron's bands x1.2, Kanto only via the `cobbleeffort_kanto:in_kanto` placement filter), raw/ingot/block,
+  armor (`KantoArmor`, one armor material per outfit; dye or wool in the shape's gap picks the outfit).
   No replicas of the games' maps and no official characters or outfits: original, Kanto-inspired designs only.
+  **Fabric remapping**: `fabric/build.gradle` (Kanto and Distortion) needs `modCompileOnly com.cobblemon:fabric`, or
+  vanilla methods called on Cobblemon classes (`PokemonEntity.level()`, `NPCEntity.moveTo`) stay unmapped and throw
+  NoSuchMethodError on Fabric only. Test on a real server: a Fabric server in the scratchpad (loader 0.17.2 launcher,
+  loom's cached minecraft-server.jar, owo-lib from maven.wispforest.io) with commands piped through a fifo.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

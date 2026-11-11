@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Electric Gym Leader Volta"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:volta"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "voltorb level=21",
+      "magnemite level=21",
+      "pikachu level=22",
+      "raichu level=24"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

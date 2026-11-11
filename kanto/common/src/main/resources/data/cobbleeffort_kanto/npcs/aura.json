@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Psychic Gym Leader Aura"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:aura"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "kadabra level=38",
+      "mrmime level=38",
+      "slowbro level=40",
+      "alakazam level=43"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

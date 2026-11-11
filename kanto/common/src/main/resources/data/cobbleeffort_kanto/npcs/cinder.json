@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Fire Gym Leader Cinder"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:cinder"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "growlithe level=42",
+      "ponyta level=42",
+      "magmar level=44",
+      "rapidash level=45",
+      "arcanine level=47"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Wyrm"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:wyrm"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "dragonair level=58",
+      "dragonair level=58",
+      "aerodactyl level=59",
+      "gyarados level=59",
+      "dragonite level=62"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

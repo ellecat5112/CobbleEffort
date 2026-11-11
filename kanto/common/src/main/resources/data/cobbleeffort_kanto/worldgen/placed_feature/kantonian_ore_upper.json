@@ -1,0 +1,30 @@
+{
+  "feature": "cobbleeffort_kanto:kantonian_ore_upper",
+  "placement": [
+    {
+      "type": "cobbleeffort_kanto:in_kanto"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 108
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": 80
+        },
+        "max_inclusive": {
+          "absolute": 384
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

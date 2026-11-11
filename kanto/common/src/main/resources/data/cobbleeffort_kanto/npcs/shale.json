@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Rock Gym Leader Shale"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:shale"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "geodude level=12",
+      "rhyhorn level=13",
+      "onix level=15"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

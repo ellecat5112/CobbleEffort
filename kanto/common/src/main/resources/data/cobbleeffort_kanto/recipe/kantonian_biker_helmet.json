@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "IXI"
+  ],
+  "key": {
+    "I": {
+      "item": "cobbleeffort_kanto:kantonian_ingot"
+    },
+    "X": [
+      {
+        "item": "minecraft:black_dye"
+      },
+      {
+        "item": "minecraft:black_wool"
+      }
+    ]
+  },
+  "result": {
+    "id": "cobbleeffort_kanto:kantonian_biker_helmet",
+    "count": 1
+  }
+}

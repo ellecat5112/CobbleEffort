@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Water Gym Leader Brine"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:brine"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "staryu level=18",
+      "horsea level=18",
+      "starmie level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}
