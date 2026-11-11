@@ -133,6 +133,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   kit.bulk, translucent non-emissive layers (Membrane, Muscle); the kit widens the texture when a part needs it.
   RECOLOUR "negative" (Lugia). A Pokémon modelled only by a no-derivatives mod (Celebi: ATM x MSD) gets an ADDON module:
   paint(layout, shiny) on its extracted UV layout (`parts/layouts/`), texture-only resolver (names no model).
+- **CobbleEffort: Kanto** (`kanto/`, a third add-on jar, the user's design; built like Distortion: Architectury,
+  requires Cobblemon + Distortion for the crystal; `./gradlew build` in `kanto/` -> `build/libs/cobbleeffort-kanto-<v>.zip`).
+  Stage 1 (0.1.0): Gen 1 Bricks (black/white/grey), a Gen 1-styled lab (original layout, `tools/make_assets.py` writes
+  its structure NBT) joined to every village's house pool at server start (`StructureTemplatePoolAccessor`), Essence of
+  Olde (5% from Gen 1 Pokémon defeated in battle), Kantonian Orb (crystal + essence, 16 uses) waking the glitchy PC,
+  which teleports to the `cobbleeffort_kanto:kanto` dimension (large-biome terrain; arrival pad with a return PC;
+  return position in SavedData) where non-Gen-1 spawns become a same-type Gen 1 Pokémon (ENTITY_SPAWN). Stage 2: gyms +
+  Elite Four with trainers; stage 3: Kantonian ore (a bit more common than iron) + armor whose dye/wool gives outfits.
+  No replicas of the games' maps and no official characters or outfits: original, Kanto-inspired designs only.
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

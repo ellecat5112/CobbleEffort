@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbleeffort_kanto",
+  "version": "${version}",
+  "name": "CobbleEffort: Kanto",
+  "description": "Gen 1 Bricks, a Gen 1-styled lab in villages with a glitchy PC, and the Kanto dimension where only Gen 1 Pokémon live, reached with a Kantonian Orb.",
+  "authors": ["ellecat5112"],
+  "contact": {"sources": "https://github.com/ellecat5112/CobbleEffort"},
+  "license": "CC-BY-NC-SA-4.0",
+  "icon": "assets/cobbleeffort_kanto/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.cobbleeffort.kanto.fabric.KantoFabric"]
+  },
+  "mixins": ["cobbleeffort_kanto.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "architectury": ">=13.0.8",
+    "cobblemon": ">=1.8.4",
+    "cobbleeffort_distortion": ">=0.12.0"
+  },
+  "recommends": {
+    "cobbleeffort": "*"
+  }
+}

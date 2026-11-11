@@ -1,0 +1,51 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-SA-4.0"
+
+[[mixins]]
+config = "cobbleeffort_kanto.mixins.json"
+
+[[mods]]
+modId = "cobbleeffort_kanto"
+version = "${version}"
+displayName = "CobbleEffort: Kanto"
+authors = "ellecat5112"
+logoFile = "assets/cobbleeffort_kanto/icon.png"
+description = '''
+Gen 1 Bricks, a Gen 1-styled lab in villages with a glitchy PC, and the Kanto dimension where only Gen 1 Pokémon live, reached with a Kantonian Orb.
+'''
+
+[[dependencies.cobbleeffort_kanto]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_kanto]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_kanto]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_kanto]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8.4,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_kanto]]
+modId = "cobbleeffort_distortion"
+type = "required"
+versionRange = "[0.12.0,)"
+ordering = "AFTER"
+side = "BOTH"

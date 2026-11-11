@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GGG",
+    "GPG",
+    "IRI"
+  ],
+  "key": {
+    "G": {
+      "item": "cobbleeffort_kanto:gen1_bricks_grey"
+    },
+    "P": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_kanto:glitchy_pc",
+    "count": 1
+  }
+}
