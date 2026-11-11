@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:espathra",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:espathra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:espathra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0956_espathra/distorted_espathra_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

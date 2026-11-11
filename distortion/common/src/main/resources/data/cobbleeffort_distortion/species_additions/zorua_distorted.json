@@ -1,0 +1,41 @@
+{
+  "target": "cobblemon:zorua",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fairy",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 60,
+        "defence": 40,
+        "hp": 35,
+        "special_attack": 85,
+        "special_defence": 40,
+        "speed": 70
+      },
+      "battleOnly": false,
+      "height": 7,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.875,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.zorua-hisui.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "dark",
+      "weight": 125
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "target": "cobblemon:gastrodon",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "water"
+    },
+    {
+      "aspects": [
+        "east-sea",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "gastrodon alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 9,
+      "labels": [
+        "gen4"
+      ],
+      "maleRatio": 0.5,
+      "name": "East-Distorted",
+      "pokedex": [
+        "cobblemon.species.gastrodon-east.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "weight": 299
+    }
+  ]
+}

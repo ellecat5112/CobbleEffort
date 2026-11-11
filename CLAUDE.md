@@ -104,8 +104,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `distortion/` -> `build/libs/cobbleeffort-distortion-<v>.zip` (both jars + README + LICENSE, CC BY-NC-SA because its
   textures adapt Mega Showdown's). Items via Architectury registries; the accessory slot, Distorted forms (aspect
   `distorted`, appended forms so `getForm` picks `<form>-Distorted`), resolvers and recoloured textures are written by
-  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; every Gen 1 Pokémon with its whole line (GEN1_LINES, `parts/gen1.py` + `parts/_themes.py`: looks from each form's NEW types, one motif per type placed by bone names); the Gen 2 legendaries and mythicals; every starter line
-  Gen 1-9 (STARTER_LINES), no stone megas/primals; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starter looks:
+  `tools/make_assets.py` (DISTORTABLE: Giratina, Dialga, Palkia, Arceus incl. Origin and plate forms; every other Pokémon with a Cobblemon/MSD model, whole lines (THEMED_LINES in `parts/themed_lines.json`, `parts/themed.py` + `parts/_themes.py`: looks from each form's NEW types, one motif per type placed by bone names; Gen 1 in 0.9.0, the rest in 0.12.0); the Gen 2 legendaries and mythicals; every starter line
+  Gen 1-9 (STARTER_LINES), no stone megas/primals; inputs: COBBLEMON_JAR + the MSD jar in `tools/compat/jars/`). Starters' TYPES are random per line since 0.12.0 (`make_assets.starter_charts()`: seeded per line, never own/chart type; also CHART_OVERRIDES in make_battle, `distortChartBySpecies` in the engine, ability twins keyed "Species:Types"; their twins get generic names). Starter looks:
   water -> plant-inspired, grass -> natural disasters, fire -> sea life (the user's direction; Squirtle prototaxites,
   Bulbasaur raging flames, Charmander mermaid). One module per line in `tools/parts/<first stage>.py` (LINE, build(kit),
   RECOLOUR type-hue shift, optional UNIFY/GLOW_DST) on the part kit (`parts/_kit.py`: hide/reskin/box/plane/cross/flat,
@@ -122,6 +122,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `-formechange` "<species>-Distorted"/"-Reverted" drive the aspect), so item-free form changes stack (Gmax, Ash-
   Greninja, move megas); only forms needing a held item (stone megas, primals) are skipped. The add-on's resolvers may
   name Mega Showdown's models (a required dependency), e.g. its Gigantamax models. Test the engine in node against Cobblemon's Showdown + MSD's patches before a build, loading scripts and held items the way MSD does (`content.replace("\n", "")`: lines joined with no separator, so no `//` comments in generated JS; `make_battle.write` strips them).
+  Distortion Crystal ore (0.12.0; stone + deepslate, coal heights, 2-4 Distortion Shards, stone pickaxe; worldgen via Architectury BiomeModifications; recipes for crystal and band): `tools/make_ore.py`.
   DNA machine (0.11.0, the user's design: Mew DNA from battles with Mew in the party + Mew -> Mewtwo in 5 min): `dna/` package + `client/DnaMachineRenderer` (display PokemonEntity in the tank) + `tools/make_dna_machine.py` (its assets/data).
   Wheel (radial menu): Cobblemon's `POKEMON_INTERACTION_GUI_CREATION` event (as Mega Showdown does; no mixin) adds
   Distort/Revert, a C2S `DistortPacket` toggles the `distorted` flag feature server-side (`DistortionWheel`); rules shared

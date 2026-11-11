@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:torkoal",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torkoal_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0324_torkoal/distorted_torkoal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:torkoal_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0324_torkoal/distorted_torkoal_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0324_torkoal/distorted_torkoal_alpha.png"
+        }
+      ]
+    }
+  ]
+}

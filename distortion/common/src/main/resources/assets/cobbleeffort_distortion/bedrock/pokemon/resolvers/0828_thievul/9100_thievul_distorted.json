@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:thievul",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:thievul_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0828_thievul/distorted_thievul.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:thievul_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0828_thievul/distorted_thievul_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0828_thievul/distorted_thievul_alpha.png"
+        }
+      ]
+    }
+  ]
+}

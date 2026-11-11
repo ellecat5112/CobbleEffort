@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:dragapult",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dragapult_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dragapult_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0887_dragapult/distorted_dragapult_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

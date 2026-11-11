@@ -1,0 +1,74 @@
+{
+  "target": "cobblemon:wooper",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "water"
+    },
+    {
+      "abilities": [
+        "poisonpoint",
+        "waterabsorb",
+        "h:unaware"
+      ],
+      "aspects": [
+        "paldean",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "wooper",
+              "tier": 1
+            },
+            {
+              "pokemon": "quagsire",
+              "tier": 2
+            },
+            {
+              "pokemon": "clodsire",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 4,
+      "labels": [
+        "gen9",
+        "paldean_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Paldea-Distorted",
+      "pokedex": [
+        "cobblemon.species.wooper-paldea.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "water",
+      "weight": 110
+    }
+  ]
+}

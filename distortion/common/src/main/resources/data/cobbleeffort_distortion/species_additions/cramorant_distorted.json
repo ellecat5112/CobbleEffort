@@ -1,0 +1,52 @@
+{
+  "target": "cobblemon:cramorant",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "electric",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "grass"
+    },
+    {
+      "aspects": [
+        "gulping-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 8,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gulping-Distorted",
+      "pokedex": [
+        "cobblemon.species.cramorant-gulping.desc"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "grass",
+      "weight": 180
+    },
+    {
+      "aspects": [
+        "gorging-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 8,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gorging-Distorted",
+      "pokedex": [
+        "cobblemon.species.cramorant-gorging.desc"
+      ],
+      "primaryType": "electric",
+      "secondaryType": "grass",
+      "weight": 180
+    }
+  ]
+}

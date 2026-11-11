@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:xerneas",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "steel",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "active-mode",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 30,
+      "labels": [
+        "gen6",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Active-Distorted",
+      "pokedex": [
+        "cobblemon.species.xerneas-active.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 2150
+    }
+  ]
+}

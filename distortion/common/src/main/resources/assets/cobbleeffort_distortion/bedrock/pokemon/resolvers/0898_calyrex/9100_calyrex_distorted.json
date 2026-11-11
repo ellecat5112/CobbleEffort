@@ -1,0 +1,217 @@
+{
+  "species": "cobblemon:calyrex",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ice-rider",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_ice_rider_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_calyrex_ice_rider_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ice-rider",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_ice_rider_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_ice_rider_shiny_calyrex_ice_rider_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow-rider",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_shadow_rider_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_calyrex_shadow_rider.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_calyrex_shadow_rider_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_calyrex_shadow_rider_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_calyrex_shadow_rider_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_calyrex_shadow_rider_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow-rider",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:calyrex_shadow_rider_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_shiny_calyrex_shadow_rider.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_shiny_calyrex_shadow_rider_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_shiny_calyrex_shadow_rider_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_shiny_calyrex_shadow_rider_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0898_calyrex/distorted_calyrex_shadow_rider_shiny_calyrex_shadow_rider_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

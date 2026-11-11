@@ -1,0 +1,94 @@
+{
+  "target": "cobblemon:genesect",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "flying",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "ground"
+    },
+    {
+      "aspects": [
+        "douse-drive",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 15,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Douse-Distorted",
+      "pokedex": [
+        "cobblemon.species.genesect-douse.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "ground",
+      "weight": 825
+    },
+    {
+      "aspects": [
+        "shock-drive",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 15,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Shock-Distorted",
+      "pokedex": [
+        "cobblemon.species.genesect-shock.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "ground",
+      "weight": 825
+    },
+    {
+      "aspects": [
+        "burn-drive",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 15,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Burn-Distorted",
+      "pokedex": [
+        "cobblemon.species.genesect-burn.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "ground",
+      "weight": 825
+    },
+    {
+      "aspects": [
+        "chill-drive",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 15,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Chill-Distorted",
+      "pokedex": [
+        "cobblemon.species.genesect-chill.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "ground",
+      "weight": 825
+    }
+  ]
+}

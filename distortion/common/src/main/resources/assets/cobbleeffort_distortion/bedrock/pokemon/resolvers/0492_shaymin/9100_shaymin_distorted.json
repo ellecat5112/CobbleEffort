@@ -1,0 +1,136 @@
+{
+  "species": "cobblemon:shaymin",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shaymin_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shaymin_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sky-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shaymin_sky_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shaymin_sky_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sky-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shaymin_sky_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0492_shaymin/distorted_shaymin_sky_shiny_shaymin_sky_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

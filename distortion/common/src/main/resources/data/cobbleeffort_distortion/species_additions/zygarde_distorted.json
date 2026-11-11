@@ -1,0 +1,192 @@
+{
+  "target": "cobblemon:zygarde",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fairy",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "water"
+    },
+    {
+      "aspects": [
+        "10-percent",
+        "distorted"
+      ],
+      "baseExperienceYield": 243,
+      "baseStats": {
+        "attack": 100,
+        "defence": 71,
+        "hp": 54,
+        "special_attack": 61,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "zygarde alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 12,
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "10%-Distorted",
+      "pokedex": [
+        "cobblemon.species.zygarde-10.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "weight": 335
+    },
+    {
+      "abilities": [
+        "powerconstruct",
+        "h:powerconstruct"
+      ],
+      "aspects": [
+        "power-construct",
+        "10-percent",
+        "distorted"
+      ],
+      "baseExperienceYield": 243,
+      "baseStats": {
+        "attack": 100,
+        "defence": 71,
+        "hp": 54,
+        "special_attack": 61,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "cobblemon",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "10%-C-Distorted",
+      "pokedex": [
+        "cobblemon.species.zygarde-10c.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "weight": 335
+    },
+    {
+      "abilities": [
+        "powerconstruct",
+        "h:powerconstruct"
+      ],
+      "aspects": [
+        "50-percent",
+        "power-construct",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 50,
+      "labels": [
+        "cobblemon",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "50%-C-Distorted",
+      "pokedex": [
+        "cobblemon.species.zygarde-50c.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "weight": 3050
+    },
+    {
+      "abilities": [
+        "powerconstruct",
+        "h:powerconstruct"
+      ],
+      "aspects": [
+        "complete-percent",
+        "distorted"
+      ],
+      "baseExperienceYield": 354,
+      "baseStats": {
+        "attack": 100,
+        "defence": 121,
+        "hp": 216,
+        "special_attack": 91,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "zygarde alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 45,
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Complete-Distorted",
+      "pokedex": [
+        "cobblemon.species.zygarde-complete.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "weight": 6100
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:duraludon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:duraludon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_duraludon.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_duraludon_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:duraludon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_duraludon_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_duraludon_emissive_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_duraludon_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_duraludon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_gmax_duraludon_gmax_duraludon.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_duraludon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0884_duraludon/distorted_gmax_duraludon_shiny_gmax_duraludon.png"
+    }
+  ]
+}

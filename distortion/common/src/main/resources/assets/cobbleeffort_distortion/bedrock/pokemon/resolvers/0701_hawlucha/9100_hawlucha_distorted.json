@@ -1,0 +1,209 @@
+{
+  "species": "cobblemon:hawlucha",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hawlucha_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hawlucha_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leaves",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hawlucha_leafmask_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_hawlucha_leafmask_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-leaves",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hawlucha_leafmask_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_leafmask_shiny_hawlucha_leafmask_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0701_hawlucha/distorted_hawlucha_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

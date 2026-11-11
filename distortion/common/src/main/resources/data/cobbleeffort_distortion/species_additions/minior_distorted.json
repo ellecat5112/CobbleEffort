@@ -1,0 +1,184 @@
+{
+  "target": "cobblemon:minior",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "red-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Red-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-red.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Orange-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-orange.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "yellow-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Yellow-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-yellow.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "green-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Green-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-green.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Blue-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-blue.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Indigo-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-indigo.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "violet-core",
+        "distorted"
+      ],
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Violet-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-violet.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 3,
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "distorted"
+      ],
+      "baseExperienceYield": 154,
+      "baseStats": {
+        "attack": 60,
+        "defence": 100,
+        "hp": 60,
+        "special_attack": 60,
+        "special_defence": 100,
+        "speed": 60
+      },
+      "catchRate": 30,
+      "evYield": {
+        "attack": 0,
+        "defence": 1,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "height": 3,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": -1,
+      "name": "Meteor-Distorted",
+      "pokedex": [
+        "cobblemon.species.minior-meteor.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 400,
+      "battleOnly": false
+    }
+  ]
+}

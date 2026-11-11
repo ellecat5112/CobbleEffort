@@ -1,0 +1,183 @@
+{
+  "species": "cobblemon:yamask",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yamask_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yamask_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yamask_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_emissive_yamask_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yamask_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_yamask_galarian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_emissive_yamask_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_yamask_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_yamask_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_yamask_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_shiny_yamask_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "galarian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_alpha_yamask_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0562_yamask/distorted_yamask_galarian_yamask_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

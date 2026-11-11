@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:latias",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:latias2_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_latias2.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_latias2_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_latias2_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_latias2_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_latias2_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:latias2_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_shiny_latias2.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_shiny_latias2_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_shiny_latias2_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_shiny_latias2_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0380_latias/distorted_latias_shiny_latias2_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

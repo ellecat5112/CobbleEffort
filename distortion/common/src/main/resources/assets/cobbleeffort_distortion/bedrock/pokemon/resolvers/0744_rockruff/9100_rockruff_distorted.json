@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:rockruff",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rockruff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rockruff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rockruff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rockruff_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0744_rockruff/distorted_rockruff_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "target": "cobblemon:oinkologne",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "aromaveil",
+        "gluttony",
+        "h:thickfat"
+      ],
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 90,
+        "defence": 70,
+        "hp": 115,
+        "special_attack": 59,
+        "special_defence": 90,
+        "speed": 65
+      },
+      "battleOnly": false,
+      "height": 10,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0,
+      "name": "F-Distorted",
+      "pokedex": [
+        "cobblemon.species.oinkologne-f.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 1200
+    }
+  ]
+}

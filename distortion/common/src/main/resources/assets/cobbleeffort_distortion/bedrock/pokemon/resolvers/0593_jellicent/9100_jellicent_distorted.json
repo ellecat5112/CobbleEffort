@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:jellicent",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jellicent_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jellicent_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_shiny_jellicent_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_shiny_jellicent_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_shiny_jellicent_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_shiny_jellicent_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_shiny_jellicent_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_alpha_jellicent_male.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_male_jellicent_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jellicent_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:jellicent_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_shiny_jellicent_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_shiny_jellicent_female_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_shiny_jellicent_female_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_shiny_jellicent_female_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_shiny_jellicent_female_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "female",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_alpha_jellicent_female.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0593_jellicent/distorted_jellicent_female_jellicent_female_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:electrike",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrike_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0309_electrike/distorted_electrike.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:electrike_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0309_electrike/distorted_electrike_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0309_electrike/distorted_electrike_alpha.png"
+        }
+      ]
+    }
+  ]
+}

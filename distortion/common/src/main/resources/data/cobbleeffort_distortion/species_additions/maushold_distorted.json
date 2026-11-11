@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:maushold",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "maushold-family-four",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": -1,
+      "name": "Four-Distorted",
+      "pokedex": [
+        "cobblemon.species.maushold-four.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 28
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:zekrom",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zekrom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0644_zekrom/distorted_zekrom.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0644_zekrom/distorted_zekrom_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zekrom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0644_zekrom/distorted_zekrom_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0644_zekrom/distorted_zekrom_emissive_shiny.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

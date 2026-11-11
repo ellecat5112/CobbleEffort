@@ -1,0 +1,95 @@
+{
+  "species": "cobblemon:vespiquen",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vespiquen_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vespiquen_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0416_vespiquen/distorted_vespiquen_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

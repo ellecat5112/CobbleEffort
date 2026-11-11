@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:heatran",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:heatran_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0485_heatran/distorted_heatran.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:heatran_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0485_heatran/distorted_heatran_shiny.png"
+    }
+  ]
+}

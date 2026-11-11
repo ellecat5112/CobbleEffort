@@ -3,12 +3,12 @@
   "forms": [
     {
       "name": "Distorted",
-      "primaryType": "fire",
+      "primaryType": "psychic",
       "aspects": [
         "distorted"
       ],
       "battleOnly": false,
-      "secondaryType": "dark"
+      "secondaryType": "ground"
     },
     {
       "abilities": [
@@ -66,8 +66,8 @@
       "pokedex": [
         "cobblemon.species.decidueye-hisui.desc"
       ],
-      "primaryType": "fire",
-      "secondaryType": "psychic",
+      "primaryType": "psychic",
+      "secondaryType": "rock",
       "weight": 370
     }
   ]

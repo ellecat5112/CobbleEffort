@@ -1,0 +1,98 @@
+{
+  "target": "cobblemon:gourgeist",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fire"
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "distorted"
+      ],
+      "baseScale": 0.43,
+      "baseStats": {
+        "attack": 85,
+        "defence": 122,
+        "hp": 55,
+        "special_attack": 58,
+        "special_defence": 75,
+        "speed": 99
+      },
+      "battleOnly": false,
+      "height": 7,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Small-Distorted",
+      "pokedex": [
+        "cobblemon.species.gourgeist-small.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 95
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "distorted"
+      ],
+      "baseScale": 0.7,
+      "baseStats": {
+        "attack": 95,
+        "defence": 122,
+        "hp": 75,
+        "special_attack": 58,
+        "special_defence": 75,
+        "speed": 69
+      },
+      "battleOnly": false,
+      "height": 11,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Large-Distorted",
+      "pokedex": [
+        "cobblemon.species.gourgeist-large.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 140
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "distorted"
+      ],
+      "baseScale": 1,
+      "baseStats": {
+        "attack": 100,
+        "defence": 122,
+        "hp": 85,
+        "special_attack": 58,
+        "special_defence": 75,
+        "speed": 54
+      },
+      "battleOnly": false,
+      "height": 17,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Super-Distorted",
+      "pokedex": [
+        "cobblemon.species.gourgeist-super.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 390
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:bastiodon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bastiodon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0411_bastiodon/distorted_bastiodon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bastiodon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0411_bastiodon/distorted_bastiodon_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0411_bastiodon/distorted_bastiodon_alpha.png"
+        }
+      ]
+    }
+  ]
+}

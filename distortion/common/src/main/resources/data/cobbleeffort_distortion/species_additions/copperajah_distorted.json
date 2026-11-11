@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:copperajah",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 230,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.copperajah-gmax.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 0
+    }
+  ]
+}

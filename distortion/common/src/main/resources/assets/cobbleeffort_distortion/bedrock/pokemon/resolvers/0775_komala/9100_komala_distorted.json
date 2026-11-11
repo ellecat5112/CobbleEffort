@@ -1,0 +1,167 @@
+{
+  "species": "cobblemon:komala",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:komala_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:komala_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_shiny.png"
+    },
+    {
+      "aspects": [
+        "tree-oak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_oak.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-spruce",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_spruce.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-acacia",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_acacia.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-birch",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_birch.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-darkoak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_dark_oak.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-jungle",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_jungle.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-mangrove",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_mangrove.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-cherry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_cherry.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-crimson",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_crimson.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-warped",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_warped.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-apricorn",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_apricorn.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-saccharine",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_saccharine.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0775_komala/distorted_komala_alpha.png"
+        }
+      ]
+    }
+  ]
+}

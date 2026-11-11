@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:zweilous",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zweilous_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0634_zweilous/distorted_zweilous.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zweilous_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0634_zweilous/distorted_zweilous_shiny.png"
+    }
+  ]
+}

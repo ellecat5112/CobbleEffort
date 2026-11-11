@@ -28,5 +28,5 @@ onBasePower(basePower, pokemon, target, move) {
 "flags": {},
 "name": "Tectonize",
 "rating": 4,
-"num": -31114
+"num": -31144
 }

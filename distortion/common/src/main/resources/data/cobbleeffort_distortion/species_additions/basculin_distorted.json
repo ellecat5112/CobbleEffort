@@ -1,0 +1,128 @@
+{
+  "target": "cobblemon:basculin",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "rockhead",
+        "adaptability",
+        "h:moldbreaker"
+      ],
+      "aspects": [
+        "bluestriped",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "basculin striped=blue",
+              "tier": 1
+            },
+            {
+              "pokemon": "manaphy",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 10,
+      "labels": [
+        "gen5"
+      ],
+      "maleRatio": 0.5,
+      "name": "Blue-Striped-Distorted",
+      "pokedex": [
+        "cobblemon.species.basculin-bluestriped.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 180
+    },
+    {
+      "abilities": [
+        "rattled",
+        "adaptability",
+        "h:moldbreaker"
+      ],
+      "aspects": [
+        "whitestriped",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "basculin striped=white",
+              "tier": 1
+            },
+            {
+              "pokemon": "basculegion",
+              "tier": 2
+            },
+            {
+              "pokemon": "manaphy",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 10,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "White-Striped-Distorted",
+      "pokedex": [
+        "cobblemon.species.basculin-whitestriped.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 180
+    }
+  ]
+}

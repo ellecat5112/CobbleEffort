@@ -1,0 +1,98 @@
+{
+  "target": "cobblemon:goodra",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fairy",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "sapsipper",
+        "shellarmor",
+        "h:gooey"
+      ],
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "baseScale": 1,
+      "baseStats": {
+        "attack": 100,
+        "defence": 100,
+        "hp": 80,
+        "special_attack": 110,
+        "special_defence": 150,
+        "speed": 60
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 5,
+          "toleratedLeaders": [
+            {
+              "pokemon": "goodra alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canWalkOnWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 17,
+      "hitbox": {
+        "fixed": false,
+        "height": 3.6,
+        "width": 2.5
+      },
+      "labels": [
+        "gen8a",
+        "powerhouse",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.goodra-hisui.desc"
+      ],
+      "primaryType": "ground",
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "50-60",
+              "JUMP": "20-35",
+              "SKILL": "10-25",
+              "SPEED": "10-25",
+              "STAMINA": "70-100"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          }
+        ]
+      },
+      "secondaryType": "fairy",
+      "weight": 3341
+    }
+  ]
+}

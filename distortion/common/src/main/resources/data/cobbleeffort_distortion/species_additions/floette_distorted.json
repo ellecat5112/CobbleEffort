@@ -1,0 +1,148 @@
+{
+  "target": "cobblemon:floette",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "steel",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Yellow-Distorted",
+      "pokedex": [
+        "cobblemon.species.floette-yellow.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 9
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Orange-Distorted",
+      "pokedex": [
+        "cobblemon.species.floette-orange.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 9
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Blue-Distorted",
+      "pokedex": [
+        "cobblemon.species.floette-blue.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 9
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "White-Distorted",
+      "pokedex": [
+        "cobblemon.species.floette-white.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 9
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "distorted"
+      ],
+      "baseExperienceYield": 193,
+      "baseStats": {
+        "attack": 65,
+        "defence": 67,
+        "hp": 74,
+        "special_attack": 125,
+        "special_defence": 128,
+        "speed": 92
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "floette eternal",
+              "tier": 1
+            },
+            {
+              "pokemon": "floette mega",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "height": 2,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Eternal-Distorted",
+      "pokedex": [
+        "cobblemon.species.floette-eternal.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 9
+    }
+  ]
+}

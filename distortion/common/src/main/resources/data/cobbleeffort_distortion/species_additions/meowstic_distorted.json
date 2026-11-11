@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:meowstic",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "keeneye",
+        "infiltrator",
+        "h:competitive"
+      ],
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 6,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "F-Distorted",
+      "pokedex": [
+        "cobblemon.species.meowstic-f.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 85
+    }
+  ]
+}

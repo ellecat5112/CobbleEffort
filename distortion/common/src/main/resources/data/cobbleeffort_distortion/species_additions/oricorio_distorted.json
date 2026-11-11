@@ -1,0 +1,152 @@
+{
+  "target": "cobblemon:oricorio",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "pom_pom-style",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "oricorio",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 6,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.25,
+      "name": "Pom-Pom-Distorted",
+      "pokedex": [
+        "cobblemon.species.oricorio-pompom.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "electric",
+      "weight": 34
+    },
+    {
+      "aspects": [
+        "pa'u-style",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "oricorio",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 6,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.25,
+      "name": "Pa'u-Distorted",
+      "pokedex": [
+        "cobblemon.species.oricorio-pau.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "electric",
+      "weight": 34
+    },
+    {
+      "aspects": [
+        "sensu-style",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "oricorio",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 6,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.25,
+      "name": "Sensu-Distorted",
+      "pokedex": [
+        "cobblemon.species.oricorio-sensu.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "electric",
+      "weight": 34
+    }
+  ]
+}

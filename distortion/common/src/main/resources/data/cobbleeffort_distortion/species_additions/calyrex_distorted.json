@@ -1,0 +1,135 @@
+{
+  "target": "cobblemon:calyrex",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fire"
+    },
+    {
+      "abilities": [
+        "asoneglastrier",
+        "h:asoneglastrier"
+      ],
+      "aspects": [
+        "ice-rider",
+        "distorted"
+      ],
+      "baseExperienceYield": 340,
+      "baseStats": {
+        "attack": 165,
+        "defence": 150,
+        "hp": 100,
+        "special_attack": 85,
+        "special_defence": 130,
+        "speed": 50
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 3,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 24,
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Ice-Distorted",
+      "pokedex": [
+        "cobblemon.species.calyrex-ice.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 8091
+    },
+    {
+      "abilities": [
+        "asonespectrier",
+        "h:asonespectrier"
+      ],
+      "aspects": [
+        "shadow-rider",
+        "distorted"
+      ],
+      "baseExperienceYield": 340,
+      "baseStats": {
+        "attack": 85,
+        "defence": 80,
+        "hp": 100,
+        "special_attack": 165,
+        "special_defence": 100,
+        "speed": 150
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 24,
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Shadow-Distorted",
+      "pokedex": [
+        "cobblemon.species.calyrex-shadow.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 536
+    }
+  ]
+}

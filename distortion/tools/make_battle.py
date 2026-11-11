@@ -36,8 +36,10 @@ MOD = "cobbleeffort_distortion"
 
 import sys  # noqa: E402
 sys.path.insert(0, str(HERE))
-from make_assets import DISTORTABLE, GEN1_LINES, TYPE_CHART, TYPE_OVERRIDES  # noqa: E402
-GEN1 = {sp for line in GEN1_LINES for sp in line}
+import make_assets  # noqa: E402
+from make_assets import DISTORTABLE, THEMED_LINES, TYPE_CHART, TYPE_OVERRIDES  # noqa: E402
+THEMED = {sp for line in THEMED_LINES for sp in line}
+SPECIES_CHARTS: dict = {}                                       # the starters' random charts (make_assets.starter_charts)
 
 # specialised distortions: their moves of these types turn into these instead (Mew's Psychic moves turn Normal, the
 # unborn; Mewtwo's turn Fighting, the bodybuilder); the rest follow the chart
@@ -46,7 +48,7 @@ CHART_OVERRIDES = {"mew": {"psychic": "normal"}, "mewtwo": {"psychic": "fighting
 # words in move names that stand for a type, replaced by the new type's name (Dragon Claw -> Fairy Claw)
 TYPE_WORDS = {
     "normal": ["Normal", "Mega", "Giga", "Hyper"], "fire": ["Fire", "Flame", "Blaze", "Heat", "Ember", "Inferno", "Lava", "Magma", "Burn"],
-    "water": ["Water", "Aqua", "Hydro", "Bubble", "Wave"], "grass": ["Grass", "Leaf", "Solar", "Petal", "Seed", "Wood", "Vine"],
+    "water": ["Water", "Aqua", "Hydro", "Bubble", "Wave", "Liquid"], "grass": ["Grass", "Leaf", "Solar", "Petal", "Seed", "Wood", "Vine"],
     "electric": ["Electric", "Thunder", "Volt", "Spark", "Shock", "Zap", "Electro", "Charge"], "ice": ["Ice", "Icy", "Frost", "Blizzard", "Freeze"],
     "fighting": ["Fighting", "Focus", "Power-Up", "Brick", "Body"], "poison": ["Poison", "Sludge", "Toxic", "Acid", "Venom"],
     "ground": ["Ground", "Earth", "Mud", "Sand", "Dig", "Bulldoze"], "flying": ["Flying", "Air", "Aerial", "Sky", "Wing", "Aero"],
@@ -76,7 +78,13 @@ ABILITY_NAMES = {"solarpower": "Storm Power", "flashfire": "Flash Flood", "thick
                  "rattled": "Jittery", "sandforce": "Tide Force", "slushrush": "Heat Rush", "snowwarning": "Heat Warning",
                  "steelyspirit": "Earthen Spirit", "swarm": "Flock", "waterabsorb": "Root Absorb",
                  # a second twin where the holder's types differ ("<ability>:<its types the code names>")
-                 "scrappy:normal": "Scrappy Fists", "thickfat:ice": "Insulation", "sandforce:ground,steel": "Silt Force"}
+                 "refrigerate": "Scorchify", "normalize": "Brawlize", "sapsipper": "Ember Sipper",
+                 "stormdrain": "Verdant Drain",
+                 "scrappy:normal": "Scrappy Fists", "scrappy:fighting": "Scrappy Mind", "thickfat:ice": "Insulation", "sandforce:ground,steel": "Silt Force"}
+WEATHER_WORD = {"sunnyday": "Sun", "desolateland": "Scorched", "raindance": "Rain", "primordialsea": "Deluge", "hail": "Snow",
+                "snow": "Snow"}
+SKIP_ABILITIES = {"forecast"}                                   # drives Castform's weather forms: it stays
+PINCH = {"overgrow", "blaze", "torrent", "swarm"}               # the starters' pinch abilities
 PRIMAL = {"desolateland": "sunnyday", "primordialsea": "raindance"}
 ABILITY_META = {"name", "num", "rating", "isNonstandard", "desc", "shortDesc"}
 
@@ -118,12 +126,12 @@ def species_info(jar):
     return info
 
 
-def substitute(text, own_types):
+def substitute(text, own_types, chart=TYPE_CHART):
     """The ability's code with its own types (and their weathers) swapped for the distorted ones."""
     pairs = {}
     for t in own_types:
-        pairs[f'"{t.title()}"'] = f'"{TYPE_CHART[t].title()}"'
-        dst = WEATHER.get(TYPE_CHART[t], [])
+        pairs[f'"{t.title()}"'] = f'"{chart[t].title()}"'
+        dst = WEATHER.get(chart[t], [])
         if dst:
             for i, w in enumerate(WEATHER.get(t, [])):
                 pairs[f'"{w}"'] = f'"{dst[min(i, len(dst) - 1)]}"'
@@ -154,17 +162,20 @@ def build_ability_twins(abilities, info):
     holder's types its code names (Thick Fat on a Fire type: Blubber, resisting Water and Ice; on an Ice type, Fire)."""
     table, new, variant = {}, {}, {}
     num = -31100
-    order = sorted(info, key=lambda sp: (sp in GEN1, sp))       # earlier lines first: their twins keep their names
+    order = sorted(info, key=lambda sp: (sp in THEMED or sp in SPECIES_CHARTS, sp))   # earlier lines first: their twins keep their names
     for sp in order:
+      chart = dict(TYPE_CHART, **SPECIES_CHARTS.get(sp, {}))
       for form in info[sp]:
         for aid in sorted(form["abilities"]):
             ab = abilities.get(aid)
-            if not ab:
+            if not ab or aid in SKIP_ABILITIES:
                 continue
             key = "/".join(t.title() for t in form["types"])
+            if sp in SPECIES_CHARTS:
+                key = f"{sp.title()}:{key}"                 # a starter's random chart: its own twins
             members, changes = {}, []
             for k, v in ab["members"].items():
-                members[k], ch = substitute(v, form["types"]) if k not in ABILITY_META else (v, [])
+                members[k], ch = substitute(v, form["types"], chart) if k not in ABILITY_META else (v, [])
                 changes += ch
             if not changes:
                 continue                                    # not bound to its own type: it stays
@@ -180,12 +191,27 @@ def build_ability_twins(abilities, info):
                 continue
             frm, to = sorted(set(changes))[0]
             froms = ",".join(sorted({f.lower() for f, _ in changes}))
-            name = ABILITY_NAMES.get(f"{aid}:{froms}") or (ABILITY_NAMES.get(aid) if aid not in {n["from"] for n in new.values()} else None)
+            name = None if sp in SPECIES_CHARTS else (     # a starter's random twin: a generic name, not the chart one's
+                ABILITY_NAMES.get(f"{aid}:{froms}") or (ABILITY_NAMES.get(aid) if aid not in {n["from"] for n in new.values()} else None))
+            if not name and aid in PINCH:
+                name = f"{to.title()} Fervor"               # Blaze for a type that has no pinch ability of its own
             if not name:
-                frm, to = changes[0]
-                words = ab["name"].split(" ")
-                swapped = [to.title() if w in TYPE_WORDS.get(frm.lower(), []) else w for w in words]
-                name = " ".join(swapped) if swapped != words else f"{to.title()} {ab['name']}"
+                # the first type word swapped ("Water Bubble" -> "Grass Bubble", "Dragon's Maw" -> "Fairy's Maw"),
+                # else the new type in front ("Fairy Justified"); a weather-only change names the new weather
+                type_changes = [c for c in changes if c[0].lower() in TYPE_WORDS]
+                frm, to = type_changes[0] if type_changes else changes[0]
+                words, done_swap = ab["name"].split(" "), False
+                for i, w in enumerate(words):
+                    stem = w[:-2] if w.endswith("'s") else w
+                    if not done_swap and stem in TYPE_WORDS.get(frm.lower(), []):
+                        words[i] = to.title() + w[len(stem):]
+                        done_swap = True
+                if done_swap:
+                    name = " ".join(words)
+                elif type_changes:
+                    name = f"{to.title()} {ab['name']}"
+                else:
+                    name = f"{WEATHER_WORD.get(to, to.title())} {ab['name']}"
             tid = toid(name)
             num -= 1
             out = {}
@@ -347,7 +373,7 @@ def write_crystal():
 """)
 
 
-def write_engine(twins, ability_twins, by_species):
+def write_engine(twins, ability_twins, by_species, species_charts):
     """The Showdown side of distorting (Mega Showdown's scripts loader merges these into the battle engine).
 
     A distorted Pokémon keeps its real species (so every form change that doesn't need a held item works as usual:
@@ -425,6 +451,7 @@ def write_engine(twins, ability_twins, by_species):
   distortTwins: TWINS,
   distortTwinsBySpecies: SPECIES_TWINS,
   distortTypesBySpecies: SPECIES_TYPES,
+  distortChartBySpecies: SPECIES_CHARTS,
   distortAbilities: ABILITIES,
   distortChart: CHART,
   distortBase(pokemon) {
@@ -446,14 +473,16 @@ def write_engine(twins, ability_twins, by_species):
   },
   applyDistortTypes(pokemon) {
     // specialised distortions have their own types (Mew and Mewtwo: Normal/Fighting); the rest follow the chart
+    const own = this.distortChartBySpecies[this.distortBase(pokemon)] || {};
     const types = this.distortTypesBySpecies[this.distortBase(pokemon)] ||
-      [...new Set(pokemon.species.types.map(t => this.distortChart[t] || t))];
+      [...new Set(pokemon.species.types.map(t => own[t] || this.distortChart[t] || t))];
     pokemon.setType(types, true);
   },
   distortedAbility(pokemon) {
     const twins = this.distortAbilities[pokemon.baseAbility];
     if (!twins) return null;
-    const twin = twins[[...pokemon.species.types].sort().join("/")];
+    const key = [...pokemon.species.types].sort().join("/");
+    const twin = twins[this.distortBase(pokemon) + ":" + key] || twins[key];
     return twin && this.dex.abilities.get(twin).exists ? twin : null;
   },
   swapSlot(pokemon, i, move) {
@@ -470,8 +499,8 @@ def write_engine(twins, ability_twins, by_species):
     return null;
   },
   untwinAbility(pokemon, id) {
-    const key = [...pokemon.species.types].sort().join("/");
-    for (const a in this.distortAbilities) if (this.distortAbilities[a][key] === id) return a;
+    const key = [...pokemon.species.types].sort().join("/"), own = this.distortBase(pokemon) + ":" + key;
+    for (const a in this.distortAbilities) if ((this.distortAbilities[a][own] || this.distortAbilities[a][key]) === id) return a;
     return null;
   },
   preswapped(pokemon) {
@@ -574,7 +603,8 @@ def write_engine(twins, ability_twins, by_species):
     return BattleActions.prototype.runMove.call(this, moveOrMoveName, pokemon, targetLoc, options);
   },
 })
-""".replace("SPECIES_TWINS", json.dumps(by_species, sort_keys=True)).replace("SPECIES_TYPES", json.dumps(
+""".replace("SPECIES_TWINS", json.dumps(by_species, sort_keys=True)).replace("SPECIES_CHARTS", json.dumps(
+        {sp.title(): {k.title(): v.title() for k, v in c.items()} for sp, c in species_charts.items()}, sort_keys=True)).replace("SPECIES_TYPES", json.dumps(
         {sp.title(): [t.title() for t in ts] for sp, ts in TYPE_OVERRIDES.items()}, sort_keys=True)).replace(
         "TWINS", table).replace("ABILITIES", json.dumps(ability_twins, sort_keys=True)).replace(
         "CHART", json.dumps({k.title(): v.title() for k, v in TYPE_CHART.items()}, sort_keys=True)))
@@ -602,12 +632,15 @@ def main():
     ap.add_argument("--showdown", required=True, help="dump_showdown.js's output")
     ap.add_argument("--cobblemon-jar", required=True)
     a = ap.parse_args()
+    import os
+    os.environ.setdefault("COBBLEMON_JAR", a.cobblemon_jar)
+    SPECIES_CHARTS.update(make_assets.starter_charts())
     dump = json.loads(Path(a.showdown).read_text())
     moves, abilities = dump["moves"], dump["abilities"]
     learn = learnsets(a.cobblemon_jar)
     twins, new = build_twins(moves, learn)
     by_species = {}
-    for sp, over in CHART_OVERRIDES.items():
+    for sp, over in {**SPECIES_CHARTS, **CHART_OVERRIDES}.items():
         chart = dict(TYPE_CHART, **over)
         t, _ = build_twins(moves, learnsets(a.cobblemon_jar, [sp]), chart, new, set(over))
         by_species[sp.title()] = t
@@ -615,7 +648,7 @@ def main():
     write_moves(new)
     write_abilities(new_abilities)
     write_crystal()
-    write_engine(twins, ability_twins, by_species)
+    write_engine(twins, ability_twins, by_species, SPECIES_CHARTS)
     write_lang(new, new_abilities)
     (RES / "data" / MOD / "distortion").mkdir(parents=True, exist_ok=True)
     (RES / "data" / MOD / "distortion" / "ability_twins.json").write_text(json.dumps(ability_twins, indent=1, sort_keys=True) + "\n")

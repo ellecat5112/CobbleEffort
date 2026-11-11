@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:klang",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klang_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0600_klang/distorted_klang.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klang_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0600_klang/distorted_klang_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0600_klang/distorted_klang_alpha.png"
+        }
+      ]
+    }
+  ]
+}

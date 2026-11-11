@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:reshiram",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:reshiram_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0643_reshiram/distorted_reshiram.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:reshiram_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0643_reshiram/distorted_reshiram_shiny.png",
+      "layers": []
+    }
+  ]
+}

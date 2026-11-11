@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:bronzong",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bronzong_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bronzong_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_emissive_shiny.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0437_bronzong/distorted_bronzong_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

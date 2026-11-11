@@ -18,5 +18,5 @@ onImmunity(type, pokemon) {
 "flags": {},
 "name": "Silt Force",
 "rating": 2,
-"num": -31112
+"num": -31135
 }

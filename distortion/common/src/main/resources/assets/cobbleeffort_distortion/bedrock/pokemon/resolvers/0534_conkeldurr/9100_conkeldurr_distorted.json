@@ -1,0 +1,473 @@
+{
+  "species": "cobblemon:conkeldurr",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:conkeldurr_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:conkeldurr_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-white",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_white.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-orange",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_orange.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-magenta",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_magenta.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_light_blue.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-yellow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_yellow.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_lime.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-pink",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_pink.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-gray",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_gray.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-purple",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_purple.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_blue.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-brown",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_brown.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_green.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-red",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_red.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-black",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_black.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-cyan",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_cyan.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0534_conkeldurr/distorted_conkeldurr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

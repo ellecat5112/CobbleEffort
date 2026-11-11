@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:fidough",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:fidough_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0926_fidough/distorted_fidough.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:fidough_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0926_fidough/distorted_fidough_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0926_fidough/distorted_fidough_alpha.png"
+        }
+      ]
+    }
+  ]
+}

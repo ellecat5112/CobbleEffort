@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:yanma",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yanma_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:yanma_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0193_yanma/distorted_yanma_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

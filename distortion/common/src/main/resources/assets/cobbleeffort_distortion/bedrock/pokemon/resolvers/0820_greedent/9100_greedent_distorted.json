@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:greedent",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:greedent_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0820_greedent/distorted_greedent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:greedent_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0820_greedent/distorted_greedent_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0820_greedent/distorted_greedent_alpha.png"
+        }
+      ]
+    }
+  ]
+}

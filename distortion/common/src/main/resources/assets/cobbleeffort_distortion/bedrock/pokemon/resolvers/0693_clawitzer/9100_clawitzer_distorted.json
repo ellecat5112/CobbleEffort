@@ -1,0 +1,89 @@
+{
+  "species": "cobblemon:clawitzer",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_left_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_left_clawitzer_left.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_left_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_left_shiny_clawitzer_left.png"
+    },
+    {
+      "aspects": [
+        "claw-left",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_left_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_left_clawitzer_left.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "claw-left",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_left_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_left_shiny_clawitzer_left.png"
+    },
+    {
+      "aspects": [
+        "claw-right",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_right_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_right_clawitzer_right.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "claw-right",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_right_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_right_shiny_clawitzer_right.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_alpha_clawitzer_left.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_right_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_right_clawitzer_right.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "right",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clawitzer_right_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0693_clawitzer/distorted_clawitzer_right_shiny_clawitzer_right.png"
+    }
+  ]
+}

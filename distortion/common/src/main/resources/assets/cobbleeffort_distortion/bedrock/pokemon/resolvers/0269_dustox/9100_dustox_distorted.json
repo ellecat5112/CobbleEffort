@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:dustox",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dustox_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0269_dustox/distorted_dustox_dustox_male.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dustox_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0269_dustox/distorted_dustox_shiny_dustox_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0269_dustox/distorted_dustox_alpha_dustox_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dustox_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0269_dustox/distorted_dustox_dustox_female.png"
+    }
+  ]
+}

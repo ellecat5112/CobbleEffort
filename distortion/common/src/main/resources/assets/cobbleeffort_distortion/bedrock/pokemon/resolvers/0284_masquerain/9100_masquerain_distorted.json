@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:masquerain",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:masquerain_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_wings.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:masquerain_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_shiny.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_wings_shiny.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0284_masquerain/distorted_masquerain_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

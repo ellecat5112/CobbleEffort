@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:bouffalant",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bouffalant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0626_bouffalant/distorted_bouffalant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bouffalant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0626_bouffalant/distorted_bouffalant_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0626_bouffalant/distorted_bouffalant_alpha.png"
+        }
+      ]
+    }
+  ]
+}

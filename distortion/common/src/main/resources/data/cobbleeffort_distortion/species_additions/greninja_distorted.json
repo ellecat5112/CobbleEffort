@@ -3,12 +3,12 @@
   "forms": [
     {
       "name": "Distorted",
-      "primaryType": "grass",
+      "primaryType": "electric",
       "aspects": [
         "distorted"
       ],
       "battleOnly": false,
-      "secondaryType": "fairy"
+      "secondaryType": "normal"
     },
     {
       "abilities": [
@@ -32,8 +32,8 @@
       "pokedex": [
         "cobblemon.species.greninja-bond.desc"
       ],
-      "primaryType": "grass",
-      "secondaryType": "fairy",
+      "primaryType": "electric",
+      "secondaryType": "normal",
       "weight": 400
     },
     {
@@ -99,8 +99,8 @@
       "pokedex": [
         "cobblemon.species.greninja-ash.desc"
       ],
-      "primaryType": "grass",
-      "secondaryType": "fairy",
+      "primaryType": "electric",
+      "secondaryType": "normal",
       "weight": 400
     }
   ]

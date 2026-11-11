@@ -1,0 +1,516 @@
+{
+  "species": "cobblemon:deoxys",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "normal-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "normal-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_green_core_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "attack-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_attack_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_deoxys_attack.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_emissive_deoxys_attack.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_deoxys_attack_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_deoxys_attack_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_deoxys_attack_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_deoxys_attack_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "attack-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_attack_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_shiny_deoxys_attack.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_emissive_deoxys_attack.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_shiny_deoxys_attack_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_shiny_deoxys_attack_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_shiny_deoxys_attack_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_shiny_deoxys_attack_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "attack-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_attack_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_deoxys_attack.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_emissive_deoxys_attack.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_deoxys_attack_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_deoxys_attack_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_deoxys_attack_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_deoxys_attack_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "attack-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_attack_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_shiny_deoxys_attack.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_emissive_deoxys_attack.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_shiny_deoxys_attack_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_shiny_deoxys_attack_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_shiny_deoxys_attack_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_attack_green_core_shiny_deoxys_attack_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "speed-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_speed_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_deoxys_speed.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_emissive_deoxys_speed.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_deoxys_speed_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_deoxys_speed_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_deoxys_speed_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_deoxys_speed_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "speed-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_speed_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_shiny_deoxys_speed.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_emissive_deoxys_speed.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_shiny_deoxys_speed_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_shiny_deoxys_speed_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_shiny_deoxys_speed_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_shiny_deoxys_speed_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "speed-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_speed_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_deoxys_speed.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_emissive_deoxys_speed.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_deoxys_speed_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_deoxys_speed_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_deoxys_speed_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_deoxys_speed_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "speed-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_speed_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_shiny_deoxys_speed.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_emissive_deoxys_speed.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_shiny_deoxys_speed_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_shiny_deoxys_speed_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_shiny_deoxys_speed_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_speed_green_core_shiny_deoxys_speed_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "defense-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_defense_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_deoxys_defense.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_emissive_deoxys_defense.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_deoxys_defense_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_deoxys_defense_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_deoxys_defense_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_deoxys_defense_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "defense-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_defense_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_shiny_deoxys_defense.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_emissive_deoxys_defense.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_shiny_deoxys_defense_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_shiny_deoxys_defense_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_shiny_deoxys_defense_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_shiny_deoxys_defense_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "defense-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_defense_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_deoxys_defense.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_emissive_deoxys_defense.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_deoxys_defense_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_deoxys_defense_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_deoxys_defense_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_deoxys_defense_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "defense-forme",
+        "green-color",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deoxys_defense_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_shiny_deoxys_defense.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_emissive_deoxys_defense.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_shiny_deoxys_defense_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_shiny_deoxys_defense_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_shiny_deoxys_defense_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0386_deoxys/distorted_deoxys_defense_green_core_shiny_deoxys_defense_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

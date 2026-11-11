@@ -1,0 +1,209 @@
+{
+  "species": "cobblemon:sinistcha",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistcha_unremarkable_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistcha_unremarkable_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_unremarkable_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_alpha_sinistcha_unremarkable.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_unremarkable_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "masterpiece",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistcha_masterpiece_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_sinistcha_masterpiece_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "masterpiece",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistcha_masterpiece_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1013_sinistcha/distorted_sinistcha_shiny_sinistcha_masterpiece_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

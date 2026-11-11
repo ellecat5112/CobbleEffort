@@ -1,0 +1,73 @@
+{
+  "target": "cobblemon:stunfisk",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "water",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "ground"
+    },
+    {
+      "abilities": [
+        "mimicry",
+        "h:mimicry"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseFriendship": 50,
+      "baseStats": {
+        "attack": 81,
+        "defence": 99,
+        "hp": 109,
+        "special_attack": 66,
+        "special_defence": 84,
+        "speed": 32
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "stunfisk alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 7,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.stunfisk-galar.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "weight": 205
+    }
+  ]
+}

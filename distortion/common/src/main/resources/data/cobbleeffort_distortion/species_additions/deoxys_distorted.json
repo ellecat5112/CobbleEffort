@@ -1,0 +1,118 @@
+{
+  "target": "cobblemon:deoxys",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "attack-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 180,
+        "defence": 20,
+        "hp": 50,
+        "special_attack": 180,
+        "special_defence": 20,
+        "speed": 150
+      },
+      "battleOnly": false,
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 17,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Attack-Distorted",
+      "pokedex": [
+        "cobblemon.species.deoxys-attack.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 608
+    },
+    {
+      "aspects": [
+        "defense-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 70,
+        "defence": 160,
+        "hp": 50,
+        "special_attack": 70,
+        "special_defence": 160,
+        "speed": 90
+      },
+      "battleOnly": false,
+      "evYield": {
+        "attack": 0,
+        "defence": 2,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "height": 17,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Defense-Distorted",
+      "pokedex": [
+        "cobblemon.species.deoxys-defense.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 608
+    },
+    {
+      "aspects": [
+        "speed-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 95,
+        "defence": 90,
+        "hp": 50,
+        "special_attack": 95,
+        "special_defence": 90,
+        "speed": 180
+      },
+      "battleOnly": false,
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "height": 17,
+      "labels": [
+        "gen4",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Speed-Distorted",
+      "pokedex": [
+        "cobblemon.species.deoxys-speed.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 608
+    }
+  ]
+}

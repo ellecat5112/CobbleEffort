@@ -38,6 +38,22 @@ def faces(uv, size):
             "west": (u + sz + sx, v + sz, sz, sy), "south": (u + 2 * sz + sx, v + sz, sx, sy)}
 
 
+class SafePixels:
+    """A PixelAccess that ignores reads and writes outside the image (a model whose UVs run off its texture)."""
+
+    def __init__(self, pa, size):
+        self.pa, (self.w, self.h) = pa, size
+
+    def __getitem__(self, xy):
+        x, y = xy
+        return self.pa[x, y] if 0 <= x < self.w and 0 <= y < self.h else (0, 0, 0, 0)
+
+    def __setitem__(self, xy, c):
+        x, y = xy
+        if 0 <= x < self.w and 0 <= y < self.h:
+            self.pa[x, y] = c
+
+
 class Ctx:
     """What a material paints into: the body texture, the animated layers, and whether it's the shiny."""
 
@@ -261,7 +277,8 @@ class Kit:
         out = Image.new("RGBA", (self.TW, self.H * f), (0, 0, 0, 0))
         out.paste(img, (0, 0))
         frames = {n: [Image.new("RGBA", out.size, (0, 0, 0, 0)) for _ in range(cfg["frames"])] for n, cfg in self.layers.items()}
-        ctx = Ctx(out.load(), {n: [im.load() for im in fr] for n, fr in frames.items()}, shiny, random.Random(f"{self.model}{shiny}"))
+        ctx = Ctx(SafePixels(out.load(), out.size), {n: [SafePixels(im.load(), im.size) for im in fr] for n, fr in frames.items()},
+                  shiny, random.Random(f"{self.model}{shiny}"))
         for rects, material, size in self.reskins:
             material.paint(ctx, rects, size, reskin=True)
         for cube, material in self.cubes:

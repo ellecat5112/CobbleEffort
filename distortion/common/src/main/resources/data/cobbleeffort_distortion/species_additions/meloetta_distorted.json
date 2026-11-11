@@ -1,0 +1,73 @@
+{
+  "target": "cobblemon:meloetta",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "pirouette-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 128,
+        "defence": 90,
+        "hp": 100,
+        "special_attack": 77,
+        "special_defence": 77,
+        "speed": 128
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 3
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "evYield": {
+        "attack": 1,
+        "defence": 1,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "height": 6,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Pirouette-Distorted",
+      "pokedex": [
+        "cobblemon.species.meloetta-pirouette.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "psychic",
+      "weight": 65
+    }
+  ]
+}

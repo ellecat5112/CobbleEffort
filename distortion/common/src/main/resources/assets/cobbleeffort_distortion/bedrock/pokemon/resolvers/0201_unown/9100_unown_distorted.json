@@ -1,0 +1,1460 @@
+{
+  "species": "cobblemon:unown",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_a_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_a_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_shiny_unown_a.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_shiny_unown_a_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_shiny_unown_a_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_shiny_unown_a_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_shiny_unown_a_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-b",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_b_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_unown_b.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_unown_b_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_unown_b_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_unown_b_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_unown_b_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-b",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_b_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_shiny_unown_b.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_shiny_unown_b_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_shiny_unown_b_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_shiny_unown_b_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_b_shiny_unown_b_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-c",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_c_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_unown_c.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_unown_c_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_unown_c_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_unown_c_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_unown_c_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-c",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_c_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_shiny_unown_c.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_shiny_unown_c_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_shiny_unown_c_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_shiny_unown_c_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_c_shiny_unown_c_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-d",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_d_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_unown_d.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_unown_d_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_unown_d_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_unown_d_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_unown_d_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-d",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_d_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_shiny_unown_d.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_shiny_unown_d_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_shiny_unown_d_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_shiny_unown_d_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_d_shiny_unown_d_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-e",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_e_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_unown_e.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_unown_e_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_unown_e_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_unown_e_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_unown_e_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-e",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_e_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_shiny_unown_e.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_shiny_unown_e_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_shiny_unown_e_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_shiny_unown_e_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_e_shiny_unown_e_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-f",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_f_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_unown_f.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_unown_f_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_unown_f_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_unown_f_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_unown_f_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-f",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_f_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_shiny_unown_f.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_shiny_unown_f_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_shiny_unown_f_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_shiny_unown_f_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_f_shiny_unown_f_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-g",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_g_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_unown_g.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_unown_g_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_unown_g_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_unown_g_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_unown_g_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-g",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_g_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_shiny_unown_g.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_shiny_unown_g_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_shiny_unown_g_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_shiny_unown_g_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_g_shiny_unown_g_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-h",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_h_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_unown_h.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_unown_h_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_unown_h_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_unown_h_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_unown_h_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-h",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_h_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_shiny_unown_h.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_shiny_unown_h_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_shiny_unown_h_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_shiny_unown_h_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_h_shiny_unown_h_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-i",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_i_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_unown_i.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_unown_i_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_unown_i_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_unown_i_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_unown_i_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-i",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_i_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_shiny_unown_i.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_shiny_unown_i_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_shiny_unown_i_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_shiny_unown_i_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_i_shiny_unown_i_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-j",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_j_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_unown_j.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_unown_j_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_unown_j_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_unown_j_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_unown_j_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-j",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_j_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_shiny_unown_j.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_shiny_unown_j_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_shiny_unown_j_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_shiny_unown_j_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_j_shiny_unown_j_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-k",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_k_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_unown_k.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_unown_k_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_unown_k_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_unown_k_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_unown_k_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-k",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_k_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_shiny_unown_k.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_shiny_unown_k_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_shiny_unown_k_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_shiny_unown_k_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_k_shiny_unown_k_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-l",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_l_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_unown_l.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_unown_l_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_unown_l_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_unown_l_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_unown_l_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-l",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_l_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_shiny_unown_l.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_shiny_unown_l_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_shiny_unown_l_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_shiny_unown_l_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_l_shiny_unown_l_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-m",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_m_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_unown_m.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_unown_m_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_unown_m_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_unown_m_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_unown_m_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-m",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_m_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_shiny_unown_m.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_shiny_unown_m_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_shiny_unown_m_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_shiny_unown_m_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_m_shiny_unown_m_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-n",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_n_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_unown_n.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_unown_n_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_unown_n_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_unown_n_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_unown_n_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-n",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_n_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_shiny_unown_n.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_shiny_unown_n_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_shiny_unown_n_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_shiny_unown_n_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_n_shiny_unown_n_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-o",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_o_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_unown_o.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_unown_o_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_unown_o_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_unown_o_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_unown_o_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-o",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_o_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_shiny_unown_o.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_shiny_unown_o_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_shiny_unown_o_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_shiny_unown_o_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_o_shiny_unown_o_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-p",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_p_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_unown_p.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_unown_p_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_unown_p_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_unown_p_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_unown_p_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-p",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_p_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_shiny_unown_p.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_shiny_unown_p_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_shiny_unown_p_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_shiny_unown_p_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_p_shiny_unown_p_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-q",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_q_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_unown_q.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_unown_q_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_unown_q_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_unown_q_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_unown_q_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-q",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_q_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_shiny_unown_q.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_shiny_unown_q_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_shiny_unown_q_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_shiny_unown_q_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_q_shiny_unown_q_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-r",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_r_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_unown_r.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_unown_r_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_unown_r_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_unown_r_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_unown_r_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-r",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_r_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_shiny_unown_r.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_shiny_unown_r_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_shiny_unown_r_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_shiny_unown_r_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_r_shiny_unown_r_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-s",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_s_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_unown_s.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_unown_s_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_unown_s_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_unown_s_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_unown_s_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-s",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_s_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_shiny_unown_s.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_shiny_unown_s_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_shiny_unown_s_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_shiny_unown_s_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_s_shiny_unown_s_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-t",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_t_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_unown_t.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_unown_t_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_unown_t_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_unown_t_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_unown_t_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-t",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_t_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_shiny_unown_t.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_shiny_unown_t_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_shiny_unown_t_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_shiny_unown_t_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_t_shiny_unown_t_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-u",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_u_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_unown_u.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_unown_u_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_unown_u_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_unown_u_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_unown_u_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-u",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_u_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_shiny_unown_u.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_shiny_unown_u_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_shiny_unown_u_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_shiny_unown_u_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_u_shiny_unown_u_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-v",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_v_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_unown_v.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_unown_v_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_unown_v_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_unown_v_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_unown_v_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-v",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_v_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_shiny_unown_v.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_shiny_unown_v_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_shiny_unown_v_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_shiny_unown_v_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_v_shiny_unown_v_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-w",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_w_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_unown_w.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_unown_w_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_unown_w_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_unown_w_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_unown_w_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-w",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_w_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_shiny_unown_w.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_shiny_unown_w_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_shiny_unown_w_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_shiny_unown_w_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_w_shiny_unown_w_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-x",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_x_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_unown_x.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_unown_x_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_unown_x_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_unown_x_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_unown_x_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-x",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_x_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_shiny_unown_x.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_shiny_unown_x_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_shiny_unown_x_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_shiny_unown_x_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_x_shiny_unown_x_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-y",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_y_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_unown_y.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_unown_y_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_unown_y_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_unown_y_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_unown_y_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-y",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_y_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_shiny_unown_y.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_shiny_unown_y_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_shiny_unown_y_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_shiny_unown_y_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_y_shiny_unown_y_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-z",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_unown_z.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_unown_z_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_unown_z_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_unown_z_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_unown_z_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-z",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_shiny_unown_z.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_shiny_unown_z_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_shiny_unown_z_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_shiny_unown_z_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_z_shiny_unown_z_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-?",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_question_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_unown_question.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_unown_question_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_unown_question_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_unown_question_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_unown_question_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-?",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_question_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_shiny_unown_question.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_shiny_unown_question_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_shiny_unown_question_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_shiny_unown_question_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_question_shiny_unown_question_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-!",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_exclamation_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_unown_exclamation.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_unown_exclamation_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_unown_exclamation_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_unown_exclamation_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_unown_exclamation_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-!",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:unown_exclamation_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_shiny_unown_exclamation.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_shiny_unown_exclamation_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_shiny_unown_exclamation_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_shiny_unown_exclamation_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_exclamation_shiny_unown_exclamation_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_alpha_unown_a.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0201_unown/distorted_unown_a_unown_a_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

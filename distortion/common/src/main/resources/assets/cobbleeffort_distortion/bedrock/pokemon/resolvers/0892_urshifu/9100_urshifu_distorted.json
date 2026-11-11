@@ -1,0 +1,210 @@
+{
+  "species": "cobblemon:urshifu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_urshifu_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_urshifu_gmax_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_urshifu_gmax_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_urshifu_gmax_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_urshifu_gmax_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_shiny_urshifu_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_shiny_urshifu_gmax_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_shiny_urshifu_gmax_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_shiny_urshifu_gmax_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_gmax_shiny_urshifu_gmax_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_urshifu_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_urshifu_gmax_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_urshifu_gmax_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_urshifu_gmax_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_urshifu_gmax_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:urshifu_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_shiny_urshifu_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_shiny_urshifu_gmax_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_shiny_urshifu_gmax_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_shiny_urshifu_gmax_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0892_urshifu/distorted_urshifu_rapidstrike_gmax_shiny_urshifu_gmax_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

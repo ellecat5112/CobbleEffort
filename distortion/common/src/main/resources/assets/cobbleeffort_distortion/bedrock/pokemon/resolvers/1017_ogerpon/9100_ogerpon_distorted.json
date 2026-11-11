@@ -1,0 +1,498 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_teal_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_ogerpon_teal.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_ogerpon_teal.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_ogerpon_teal_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_ogerpon_teal_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_ogerpon_teal_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_ogerpon_teal_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_teal_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_shiny_ogerpon_teal.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_ogerpon_teal.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_shiny_ogerpon_teal_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_shiny_ogerpon_teal_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_shiny_ogerpon_teal_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_shiny_ogerpon_teal_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_tealtera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_ogerpon_tealtera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_emissive_ogerpon_tealtera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_ogerpon_tealtera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_ogerpon_tealtera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_ogerpon_tealtera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_ogerpon_tealtera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_tealtera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_shiny_ogerpon_tealtera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_emissive_ogerpon_tealtera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_shiny_ogerpon_tealtera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_shiny_ogerpon_tealtera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_shiny_ogerpon_tealtera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_tealtera_shiny_ogerpon_tealtera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_fire_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_ogerpon_fire.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_fire_ogerpon_fire.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_ogerpon_fire_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_ogerpon_fire_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_ogerpon_fire_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_ogerpon_fire_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_fire_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_shiny_ogerpon_fire.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_fire_ogerpon_fire.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_shiny_ogerpon_fire_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_shiny_ogerpon_fire_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_shiny_ogerpon_fire_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_fire_shiny_ogerpon_fire_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "embody-aspect",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_firetera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_ogerpon_firetera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_emissive_ogerpon_firetera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_ogerpon_firetera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_ogerpon_firetera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_ogerpon_firetera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_ogerpon_firetera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "embody-aspect",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_firetera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_shiny_ogerpon_firetera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_emissive_ogerpon_firetera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_shiny_ogerpon_firetera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_shiny_ogerpon_firetera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_shiny_ogerpon_firetera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_firetera_shiny_ogerpon_firetera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_rock_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_ogerpon_rock.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_rock_ogerpon_rock.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_ogerpon_rock_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_ogerpon_rock_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_ogerpon_rock_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_ogerpon_rock_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_rock_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_shiny_ogerpon_rock.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_rock_ogerpon_rock.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_shiny_ogerpon_rock_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_shiny_ogerpon_rock_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_shiny_ogerpon_rock_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rock_shiny_ogerpon_rock_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_rocktera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_ogerpon_rocktera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_emissive_ogerpon_rocktera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_ogerpon_rocktera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_ogerpon_rocktera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_ogerpon_rocktera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_ogerpon_rocktera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_rocktera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_shiny_ogerpon_rocktera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_emissive_ogerpon_rocktera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_shiny_ogerpon_rocktera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_shiny_ogerpon_rocktera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_shiny_ogerpon_rocktera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_rocktera_shiny_ogerpon_rocktera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wellspring-mask",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_water_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_ogerpon_water.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_water_ogerpon_water.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_ogerpon_water_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_ogerpon_water_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_ogerpon_water_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_ogerpon_water_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wellspring-mask",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_water_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_shiny_ogerpon_water.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_emissive_water_ogerpon_water.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_shiny_ogerpon_water_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_shiny_ogerpon_water_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_shiny_ogerpon_water_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_water_shiny_ogerpon_water_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wellspring-mask",
+        "embody-aspect",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_watertera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_ogerpon_watertera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_emissive_ogerpon_watertera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_ogerpon_watertera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_ogerpon_watertera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_ogerpon_watertera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_ogerpon_watertera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wellspring-mask",
+        "embody-aspect",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ogerpon_watertera_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_shiny_ogerpon_watertera.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_emissive_ogerpon_watertera.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_shiny_ogerpon_watertera_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_shiny_ogerpon_watertera_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_shiny_ogerpon_watertera_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1017_ogerpon/distorted_ogerpon_watertera_shiny_ogerpon_watertera_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

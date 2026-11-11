@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:shinx",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shinx_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_shinx_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_emissive_shinx_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shinx_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_shiny_shinx_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_emissive_shiny_shinx_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_alpha_shinx_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shinx_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0403_shinx/distorted_shinx_shinx_female.png"
+    }
+  ]
+}

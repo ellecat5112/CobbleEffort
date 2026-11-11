@@ -1,0 +1,48 @@
+{
+  "species": "cobblemon:kyogre",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kyogre_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0382_kyogre/distorted_kyogre.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0382_kyogre/distorted_kyogre_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kyogre_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0382_kyogre/distorted_kyogre_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0382_kyogre/distorted_kyogre_emissive_shiny.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0382_kyogre/distorted_kyogre_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

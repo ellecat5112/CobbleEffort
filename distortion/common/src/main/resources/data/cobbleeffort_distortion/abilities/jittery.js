@@ -1,6 +1,6 @@
 {
 onDamagingHit(damage, target, source, move) {
-      if (["Fairy", "Bug", "Ghost"].includes(move.type)) {
+      if (["Dark", "Bug", "Dark"].includes(move.type)) {
         this.boost({ spe: 1 });
       }
     },
@@ -12,5 +12,5 @@ onAfterBoost(boost, target, source, effect) {
 "flags": {},
 "name": "Jittery",
 "rating": 1,
-"num": -31118
+"num": -31145
 }

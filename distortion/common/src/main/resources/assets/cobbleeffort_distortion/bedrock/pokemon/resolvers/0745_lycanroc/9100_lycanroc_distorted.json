@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:lycanroc",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_midday_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midday_lycanroc_midday.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_midday_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midday_shiny_lycanroc_midday.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midday_alpha_lycanroc_midday.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "midnight-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_midnight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midnight_lycanroc_midnight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "midnight-form",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_midnight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midnight_shiny_lycanroc_midnight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "midnight-form",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_midnight_alpha_lycanroc_midnight.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_dusk_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_dusk_lycanroc_dusk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lycanroc_dusk_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_dusk_shiny_lycanroc_dusk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0745_lycanroc/distorted_lycanroc_dusk_alpha_lycanroc_dusk.png"
+        }
+      ]
+    }
+  ]
+}

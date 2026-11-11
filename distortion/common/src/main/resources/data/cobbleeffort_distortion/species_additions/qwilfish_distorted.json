@@ -1,0 +1,70 @@
+{
+  "target": "cobblemon:qwilfish",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "ground"
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "qwilfish",
+              "tier": 1
+            },
+            {
+              "pokemon": "overqwil",
+              "tier": 2
+            },
+            {
+              "pokemon": "manaphy",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 5,
+      "labels": [
+        "gen8a",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Hisui-Distorted",
+      "pokedex": [
+        "cobblemon.species.qwilfish-hisui.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "ground",
+      "weight": 39
+    }
+  ]
+}

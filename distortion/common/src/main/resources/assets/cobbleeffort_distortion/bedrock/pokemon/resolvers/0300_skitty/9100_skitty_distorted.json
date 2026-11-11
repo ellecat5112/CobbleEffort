@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:skitty",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:skitty_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0300_skitty/distorted_skitty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:skitty_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0300_skitty/distorted_skitty_shiny.png"
+    }
+  ]
+}

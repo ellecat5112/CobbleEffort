@@ -1,0 +1,168 @@
+{
+  "species": "cobblemon:meditite",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:meditite_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:meditite_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_shiny_meditite_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_alpha_meditite_male.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:meditite_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_psychic3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0307_meditite/distorted_meditite_meditite_female_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

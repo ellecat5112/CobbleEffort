@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:tapukoko",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tapukoko_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0785_tapukoko/distorted_tapukoko.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0785_tapukoko/distorted_tapukoko_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tapukoko_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0785_tapukoko/distorted_tapukoko_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0785_tapukoko/distorted_tapukoko_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

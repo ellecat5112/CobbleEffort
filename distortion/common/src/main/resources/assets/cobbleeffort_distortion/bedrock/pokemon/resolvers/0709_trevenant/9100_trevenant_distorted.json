@@ -1,0 +1,140 @@
+{
+  "species": "cobblemon:trevenant",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:trevenant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:trevenant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0709_trevenant/distorted_trevenant_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

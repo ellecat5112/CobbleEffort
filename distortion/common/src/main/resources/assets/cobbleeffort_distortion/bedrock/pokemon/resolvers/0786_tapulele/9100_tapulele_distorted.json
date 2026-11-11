@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:tapulele",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tapulele_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tapulele_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny_emissive.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0786_tapulele/distorted_tapulele_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

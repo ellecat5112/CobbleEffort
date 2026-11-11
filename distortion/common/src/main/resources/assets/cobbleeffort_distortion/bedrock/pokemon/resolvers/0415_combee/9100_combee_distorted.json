@@ -1,0 +1,162 @@
+{
+  "species": "cobblemon:combee",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:combee_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:combee_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:combee_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_female_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_female_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_female_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_female_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:combee_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_female_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_female_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_female_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_shiny_combee_female_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "has_nectar",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "nectar",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_pollinated_combee_male.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_alpha_combee_male.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0415_combee/distorted_combee_combee_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GSG",
+    "SCS",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "cobbleeffort_distortion:distortion_shard"
+    },
+    "C": {
+      "item": "cobbleeffort_distortion:distortion_crystal"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_distortion:distortion_band",
+    "count": 1
+  }
+}

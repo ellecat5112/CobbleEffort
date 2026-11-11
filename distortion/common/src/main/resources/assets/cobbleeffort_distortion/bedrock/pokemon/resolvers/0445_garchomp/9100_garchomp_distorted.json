@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:garchomp",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:garchomp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_garchomp_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:garchomp_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_shiny_garchomp_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_alpha_garchomp_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:garchomp_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_garchomp_female.png"
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:garchomp_mega_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_mega_z_garchomp_mega_z.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:garchomp_mega_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0445_garchomp/distorted_garchomp_mega_z_shiny_garchomp_mega_z.png"
+    }
+  ]
+}

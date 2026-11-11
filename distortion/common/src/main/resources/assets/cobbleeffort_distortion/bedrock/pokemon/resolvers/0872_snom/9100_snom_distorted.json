@@ -1,0 +1,95 @@
+{
+  "species": "cobblemon:snom",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:snom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_transparency.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:snom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_transparency_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0872_snom/distorted_snom_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

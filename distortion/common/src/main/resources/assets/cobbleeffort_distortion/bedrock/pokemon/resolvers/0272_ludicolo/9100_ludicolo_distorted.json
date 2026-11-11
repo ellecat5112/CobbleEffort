@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:ludicolo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ludicolo_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ludicolo_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_shiny_ludicolo_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_shiny_ludicolo_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_shiny_ludicolo_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_shiny_ludicolo_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_shiny_ludicolo_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_alpha_ludicolo_male.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ludicolo_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0272_ludicolo/distorted_ludicolo_ludicolo_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

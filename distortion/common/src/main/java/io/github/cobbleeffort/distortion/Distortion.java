@@ -3,6 +3,16 @@ package io.github.cobbleeffort.distortion;
 import dev.architectury.networking.NetworkManager;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.CreativeTabRegistry;
+import dev.architectury.registry.level.biome.BiomeModifications;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BiomeTags;
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import dev.architectury.utils.Env;
@@ -12,7 +22,6 @@ import io.github.cobbleeffort.distortion.dna.DnaInsertPacket;
 import io.github.cobbleeffort.distortion.dna.DnaMachineBlock;
 import io.github.cobbleeffort.distortion.dna.DnaMachineBlockEntity;
 import io.github.cobbleeffort.distortion.dna.MewDna;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -54,6 +63,21 @@ public final class Distortion {
     public static final RegistrySupplier<Item> CRYSTAL = ITEMS.register("distortion_crystal", () ->
             new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).arch$tab(TAB)));
 
+    /** Distortion Crystal ore (stone and deepslate), a little rarer than coal at coal's heights: 2-4 shards, stone pickaxe. */
+    public static final RegistrySupplier<Block> DISTORTION_ORE = BLOCKS.register("distortion_crystal_ore", () ->
+            new DropExperienceBlock(UniformInt.of(1, 4), BlockBehaviour.Properties.ofFullCopy(Blocks.COAL_ORE).lightLevel(s -> 3)));
+    public static final RegistrySupplier<Block> DEEPSLATE_DISTORTION_ORE = BLOCKS.register("deepslate_distortion_crystal_ore", () ->
+            new DropExperienceBlock(UniformInt.of(1, 4), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_COAL_ORE).lightLevel(s -> 3)));
+    public static final RegistrySupplier<Item> DISTORTION_ORE_ITEM = ITEMS.register("distortion_crystal_ore", () ->
+            new BlockItem(DISTORTION_ORE.get(), new Item.Properties().arch$tab(TAB)));
+    public static final RegistrySupplier<Item> DEEPSLATE_DISTORTION_ORE_ITEM = ITEMS.register("deepslate_distortion_crystal_ore", () ->
+            new BlockItem(DEEPSLATE_DISTORTION_ORE.get(), new Item.Properties().arch$tab(TAB)));
+    /** What the ore drops: crafted into the Distortion Crystal and the Distortion Band. */
+    public static final RegistrySupplier<Item> SHARD = ITEMS.register("distortion_shard", () ->
+            new Item(new Item.Properties().arch$tab(TAB)));
+    public static final ResourceKey<PlacedFeature> ORE_PLACED =
+            ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "distortion_crystal_ore"));
+
     /** The cloning tank Mewtwo comes from: Mew DNA + Mew -> Mewtwo in five minutes. */
     public static final RegistrySupplier<Block> DNA_MACHINE = BLOCKS.register("dna_machine", () -> new DnaMachineBlock(
             BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3.5F, 6F).sound(SoundType.METAL).noOcclusion()
@@ -87,6 +111,9 @@ public final class Distortion {
                     }
                 }));
         MewDna.init();
+        // the ore in every overworld biome, with the other underground ores
+        BiomeModifications.addProperties(ctx -> ctx.hasTag(BiomeTags.IS_OVERWORLD),
+                (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, ORE_PLACED));
         DistortionBattle.init();
         DistortionWheel.init();
         if (Platform.getEnvironment() == Env.CLIENT) {

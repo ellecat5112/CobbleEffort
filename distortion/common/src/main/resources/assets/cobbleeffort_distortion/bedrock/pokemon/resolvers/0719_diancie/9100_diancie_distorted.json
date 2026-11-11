@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:diancie",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:diancie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0719_diancie/distorted_diancie.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:diancie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0719_diancie/distorted_diancie_shiny.png"
+    }
+  ]
+}

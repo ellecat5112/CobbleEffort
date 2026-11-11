@@ -1,0 +1,68 @@
+{
+  "target": "cobblemon:zigzagoon",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "zigzagoon",
+              "tier": 1
+            },
+            {
+              "pokemon": "linoone",
+              "tier": 2
+            },
+            {
+              "pokemon": "obstagoon",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 4,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.zigzagoon-galar.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "fighting",
+      "weight": 175
+    }
+  ]
+}

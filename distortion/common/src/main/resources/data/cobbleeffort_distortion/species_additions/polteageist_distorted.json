@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:polteageist",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "antique",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": -1,
+      "name": "Antique-Distorted",
+      "pokedex": [
+        "cobblemon.species.polteageist-antique.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 4
+    }
+  ]
+}

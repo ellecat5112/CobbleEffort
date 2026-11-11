@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:shelmet",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shelmet_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0616_shelmet/distorted_shelmet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shelmet_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0616_shelmet/distorted_shelmet_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0616_shelmet/distorted_shelmet_alpha.png"
+        }
+      ]
+    }
+  ]
+}

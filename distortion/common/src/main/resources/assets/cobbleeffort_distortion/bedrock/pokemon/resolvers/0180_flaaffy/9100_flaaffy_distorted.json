@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:flaaffy",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flaaffy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0180_flaaffy/distorted_flaaffy.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0180_flaaffy/distorted_flaaffy_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flaaffy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0180_flaaffy/distorted_flaaffy_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0180_flaaffy/distorted_flaaffy_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0180_flaaffy/distorted_flaaffy_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "species": "cobblemon:oricorio",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:baile_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_baile_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_baile_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_baile_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_baile_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_baile_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:baile_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_shiny_baile_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_shiny_baile_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_shiny_baile_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_shiny_baile_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_baile_shiny_baile_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pom-pom-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pompom_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_pompom_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_pompom_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_pompom_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_pompom_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_pompom_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pom-pom-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pompom_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_shiny_pompom_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_shiny_pompom_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_shiny_pompom_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_shiny_pompom_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pom_pom_shiny_pompom_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pau-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pau_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_pau_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_pau_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_pau_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_pau_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_pau_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pau-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pau_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_shiny_pau_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_shiny_pau_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_shiny_pau_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_shiny_pau_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_pau_shiny_pau_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sensu-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sensu_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_sensu_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sensu-style",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sensu_oricorio_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0741_oricorio/distorted_oricorio_sensu_shiny_sensu_oricorio_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

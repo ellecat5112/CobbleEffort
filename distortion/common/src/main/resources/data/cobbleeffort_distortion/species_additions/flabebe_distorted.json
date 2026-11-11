@@ -1,0 +1,85 @@
+{
+  "target": "cobblemon:flabebe",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "steel",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Yellow-Distorted",
+      "pokedex": [
+        "cobblemon.species.flabebe-yellow.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 1
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Orange-Distorted",
+      "pokedex": [
+        "cobblemon.species.flabebe-orange.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 1
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Blue-Distorted",
+      "pokedex": [
+        "cobblemon.species.flabebe-blue.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 1
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "White-Distorted",
+      "pokedex": [
+        "cobblemon.species.flabebe-white.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "target": "cobblemon:wishiwashi",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "school-form",
+        "distorted"
+      ],
+      "baseExperienceYield": 217,
+      "baseScale": 2,
+      "baseStats": {
+        "attack": 140,
+        "defence": 130,
+        "hp": 45,
+        "special_attack": 140,
+        "special_defence": 135,
+        "speed": 30
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "manaphy",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 82,
+      "hitbox": {
+        "fixed": false,
+        "height": 3,
+        "width": 3
+      },
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.5,
+      "name": "School-Distorted",
+      "pokedex": [
+        "cobblemon.species.wishiwashi-school.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 786
+    }
+  ]
+}

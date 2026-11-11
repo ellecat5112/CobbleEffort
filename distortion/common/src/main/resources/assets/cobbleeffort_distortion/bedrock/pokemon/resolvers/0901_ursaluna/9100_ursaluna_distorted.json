@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:ursaluna",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ursaluna_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0901_ursaluna/distorted_ursaluna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:ursaluna_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0901_ursaluna/distorted_ursaluna_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0901_ursaluna/distorted_ursaluna_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bloodmoon",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bloodmoonursaluna_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0901_ursaluna/distorted_ursaluna_bloodmoon_bloodmoonursaluna.png"
+    },
+    {
+      "aspects": [
+        "bloodmoon",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bloodmoonursaluna_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0901_ursaluna/distorted_ursaluna_bloodmoon_shiny_bloodmoonursaluna.png"
+    }
+  ]
+}

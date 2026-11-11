@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:pyroar",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pyroar_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_male_pyroar_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pyroar_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_male_shiny_pyroar_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_male_alpha_pyroar_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pyroar_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_female_pyroar_female.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pyroar_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_female_shiny_pyroar_female.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "female",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0668_pyroar/distorted_pyroar_female_alpha_pyroar_female.png"
+        }
+      ]
+    }
+  ]
+}

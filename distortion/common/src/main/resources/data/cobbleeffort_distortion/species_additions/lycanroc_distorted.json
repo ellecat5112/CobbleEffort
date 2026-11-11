@@ -1,0 +1,148 @@
+{
+  "target": "cobblemon:lycanroc",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "keeneye",
+        "vitalspirit",
+        "h:noguard"
+      ],
+      "aspects": [
+        "midnight-form",
+        "distorted"
+      ],
+      "baseScale": 0.7,
+      "baseStats": {
+        "attack": 115,
+        "defence": 75,
+        "hp": 85,
+        "special_attack": 55,
+        "special_defence": 75,
+        "speed": 82
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "entityInteract": {
+          "avoidedBySkeleton": true
+        },
+        "herd": {
+          "maxSize": 7,
+          "toleratedLeaders": [
+            {
+              "pokemon": "lycanroc alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "height": 11,
+      "hitbox": {
+        "fixed": false,
+        "height": 2,
+        "width": 1.4
+      },
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.5,
+      "name": "Midnight-Distorted",
+      "pokedex": [
+        "cobblemon.species.lycanroc-midnight.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 250
+    },
+    {
+      "abilities": [
+        "toughclaws",
+        "h:toughclaws"
+      ],
+      "aspects": [
+        "dusk-form",
+        "distorted"
+      ],
+      "baseScale": 0.7,
+      "baseStats": {
+        "attack": 117,
+        "defence": 65,
+        "hp": 75,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 110
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "entityInteract": {
+          "avoidedBySkeleton": true
+        },
+        "herd": {
+          "maxSize": 8,
+          "toleratedLeaders": [
+            {
+              "pokemon": "lycanroc alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0021,
+          "rouseChance": 0.0042,
+          "times": [
+            "167-11833,13702-22299"
+          ]
+        }
+      },
+      "height": 8,
+      "hitbox": {
+        "fixed": false,
+        "height": 1.7,
+        "width": 1.4
+      },
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.5,
+      "name": "Dusk-Distorted",
+      "pokedex": [
+        "cobblemon.species.lycanroc-dusk.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 250
+    }
+  ]
+}

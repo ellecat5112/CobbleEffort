@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:regidrago",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:regidrago_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0895_regidrago/distorted_regidrago.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:regidrago_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0895_regidrago/distorted_regidrago_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0895_regidrago/distorted_regidrago_alpha.png"
+        }
+      ]
+    }
+  ]
+}

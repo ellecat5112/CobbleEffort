@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:drednaw",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fighting"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 240,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.drednaw-gmax.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "fighting",
+      "weight": 0
+    }
+  ]
+}

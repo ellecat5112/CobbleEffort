@@ -1,0 +1,49 @@
+{
+  "target": "cobblemon:aegislash",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "blade-forme",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 140,
+        "defence": 50,
+        "hp": 60,
+        "special_attack": 140,
+        "special_defence": 50,
+        "speed": 60
+      },
+      "battleOnly": true,
+      "evYield": {
+        "attack": 2,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 17,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Blade-Distorted",
+      "pokedex": [
+        "cobblemon.species.aegislash-blade.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "dark",
+      "weight": 530
+    }
+  ]
+}

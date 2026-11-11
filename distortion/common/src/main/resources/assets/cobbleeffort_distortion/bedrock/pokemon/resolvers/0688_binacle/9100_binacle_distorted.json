@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:binacle",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:binacle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0688_binacle/distorted_binacle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:binacle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0688_binacle/distorted_binacle_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0688_binacle/distorted_binacle_alpha.png"
+        }
+      ]
+    }
+  ]
+}

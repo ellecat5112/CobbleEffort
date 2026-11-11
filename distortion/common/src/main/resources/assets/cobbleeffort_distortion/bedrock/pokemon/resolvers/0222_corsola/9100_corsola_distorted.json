@@ -1,0 +1,141 @@
+{
+  "species": "cobblemon:corsola",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corsola_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corsola_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corsola_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_emissive_corsola_galarian.png",
+          "translucent": true
+        },
+        {
+          "emissive": false,
+          "name": "ectoplasm",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_ectoplasm_corsola_galarian.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corsola_galarian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_shiny_corsola_galarian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_emissive_shiny_corsola_galarian.png",
+          "translucent": true
+        },
+        {
+          "emissive": false,
+          "name": "ectoplasm",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_ectoplasm_shiny_corsola_galarian.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_shiny_corsola_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_shiny_corsola_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_shiny_corsola_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_shiny_corsola_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_alpha_corsola_galarian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0222_corsola/distorted_corsola_galarian_corsola_galarian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

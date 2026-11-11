@@ -1,0 +1,99 @@
+{
+  "species": "cobblemon:miltank",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:miltank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:miltank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mooshtank-red",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mooshtank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_red_mushroom_mooshtank.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mooshtank-red",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mooshtank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_red_mushroom_shiny_mooshtank.png"
+    },
+    {
+      "aspects": [
+        "mooshtank-red",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_alpha_mooshtank.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mooshtank-brown",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mooshtank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_brown_mushroom_mooshtank.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mooshtank-brown",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mooshtank_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_brown_mushroom_shiny_mooshtank.png"
+    },
+    {
+      "aspects": [
+        "mooshtank-brown",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0241_miltank/distorted_miltank_alpha_mooshtank.png"
+        }
+      ]
+    }
+  ]
+}

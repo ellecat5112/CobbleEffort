@@ -1,0 +1,63 @@
+{
+  "target": "cobblemon:shellos",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "east-sea",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "shellos alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "gastrodon alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "canSwimInWater": false
+          },
+          "walk": {
+            "avoidsLand": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "maleRatio": 0.5,
+      "name": "East-Distorted",
+      "pokedex": [
+        "cobblemon.species.shellos-east.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 63
+    }
+  ]
+}

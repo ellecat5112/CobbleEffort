@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:klawf",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klawf_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0950_klawf/distorted_klawf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klawf_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0950_klawf/distorted_klawf_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0950_klawf/distorted_klawf_alpha.png"
+        }
+      ]
+    }
+  ]
+}

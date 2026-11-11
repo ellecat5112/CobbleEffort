@@ -1,0 +1,250 @@
+{
+  "species": "cobblemon:silvally",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:silvally_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:silvally_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fire-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_fire.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "water-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_water.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "grass-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_grass.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "electric-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_electric.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ice-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_ice.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fighting-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_fighting.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "poison-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_poison.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ground-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_ground.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flying-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_flying.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "psychic-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_psychic.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bug-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_bug.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_rock.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ghost-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_ghost.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dragon-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_dragon.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dark-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_dark.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "steel-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_steel.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fairy-memory",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0773_silvally/distorted_silvally_emmisive_fairy.png"
+        }
+      ]
+    }
+  ]
+}

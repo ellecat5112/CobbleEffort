@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:pachirisu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pachirisu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0417_pachirisu/distorted_pachirisu_pachirisu_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pachirisu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0417_pachirisu/distorted_pachirisu_shiny_pachirisu_male.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:pachirisu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0417_pachirisu/distorted_pachirisu_pachirisu_female.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0417_pachirisu/distorted_pachirisu_alpha_pachirisu_male.png"
+        }
+      ]
+    }
+  ]
+}

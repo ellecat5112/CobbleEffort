@@ -1,0 +1,115 @@
+{
+  "species": "cobblemon:zorua",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zorua_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zorua_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zorua_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zorua_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_shiny_zorua_hisuian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_shiny_zorua_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_shiny_zorua_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_shiny_zorua_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_shiny_zorua_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hisuian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_alpha_zorua_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0570_zorua/distorted_zorua_hisuian_zorua_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

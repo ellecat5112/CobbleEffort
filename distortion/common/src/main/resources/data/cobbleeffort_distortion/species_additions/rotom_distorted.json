@@ -1,0 +1,336 @@
+{
+  "target": "cobblemon:rotom",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "distorted"
+      ],
+      "baseExperienceYield": 182,
+      "baseStats": {
+        "attack": 65,
+        "defence": 107,
+        "hp": 50,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Heat-Distorted",
+      "pokedex": [
+        "cobblemon.species.rotom-heat.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "water",
+      "weight": 3
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "distorted"
+      ],
+      "baseExperienceYield": 182,
+      "baseStats": {
+        "attack": 65,
+        "defence": 107,
+        "hp": 50,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Wash-Distorted",
+      "pokedex": [
+        "cobblemon.species.rotom-wash.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "grass",
+      "weight": 3
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "distorted"
+      ],
+      "baseExperienceYield": 182,
+      "baseStats": {
+        "attack": 65,
+        "defence": 107,
+        "hp": 50,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Frost-Distorted",
+      "pokedex": [
+        "cobblemon.species.rotom-frost.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "fire",
+      "weight": 3
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "distorted"
+      ],
+      "baseExperienceYield": 182,
+      "baseStats": {
+        "attack": 65,
+        "defence": 107,
+        "hp": 50,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Fan-Distorted",
+      "pokedex": [
+        "cobblemon.species.rotom-fan.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "electric",
+      "weight": 3
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "distorted"
+      ],
+      "baseExperienceYield": 182,
+      "baseStats": {
+        "attack": 65,
+        "defence": 107,
+        "hp": 50,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen4"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Mow-Distorted",
+      "pokedex": [
+        "cobblemon.species.rotom-mow.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "fire",
+      "weight": 3
+    }
+  ]
+}

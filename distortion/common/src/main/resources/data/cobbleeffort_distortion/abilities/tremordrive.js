@@ -10,5 +10,5 @@ onTryHit(target, source, move) {
 "flags": {"breakable":1},
 "name": "Tremor Drive",
 "rating": 3,
-"num": -31113
+"num": -31114
 }

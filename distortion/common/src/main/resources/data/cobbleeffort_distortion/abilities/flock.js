@@ -16,5 +16,5 @@ onModifySpA(atk, attacker, defender, move) {
 "flags": {},
 "name": "Flock",
 "rating": 2,
-"num": -31107
+"num": -31110
 }

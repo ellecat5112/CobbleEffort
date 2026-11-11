@@ -1,0 +1,288 @@
+{
+  "species": "cobblemon:necrozma",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_emissive.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_emissive.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dusk-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_duskmane_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_necrozma_duskmane.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_emissive_necrozma_duskmane.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_translucent_necrozma_duskmane.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_necrozma_duskmane_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_necrozma_duskmane_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_necrozma_duskmane_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_necrozma_duskmane_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "dusk-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_duskmane_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_necrozma_duskmane.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_emissive_necrozma_duskmane.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_translucent_necrozma_duskmane.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_necrozma_duskmane_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_necrozma_duskmane_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_necrozma_duskmane_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_duskmane_shiny_necrozma_duskmane_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dawn-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_dawnwings_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_necrozma_dawnwings.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_emissive_necrozma_dawnwings.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_translucent_necrozma_dawnwings.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_necrozma_dawnwings_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_necrozma_dawnwings_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_necrozma_dawnwings_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_necrozma_dawnwings_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "dawn-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_dawnwings_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_necrozma_dawnwings.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_emissive_necrozma_dawnwings.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "emissive": false,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_translucent_necrozma_dawnwings.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_necrozma_dawnwings_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_necrozma_dawnwings_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_necrozma_dawnwings_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_dawnwings_shiny_necrozma_dawnwings_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ultra-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_ultra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/distorted_blank_necrozma_ultra.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_necrozma_ultra_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ultra-fusion",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:necrozma_ultra_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra.png",
+          "translucent": false
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/distorted_blank_necrozma_ultra.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0800_necrozma/distorted_necrozma_ultra_shiny_necrozma_ultra_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

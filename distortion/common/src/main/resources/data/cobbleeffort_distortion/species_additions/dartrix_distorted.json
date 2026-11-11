@@ -3,12 +3,12 @@
   "forms": [
     {
       "name": "Distorted",
-      "primaryType": "fire",
+      "primaryType": "psychic",
       "aspects": [
         "distorted"
       ],
       "battleOnly": false,
-      "secondaryType": "electric"
+      "secondaryType": "normal"
     },
     {
       "aspects": [
@@ -27,8 +27,8 @@
       "pokedex": [
         "cobblemon.species.dartrix-hisuibias.desc"
       ],
-      "primaryType": "fire",
-      "secondaryType": "electric",
+      "primaryType": "psychic",
+      "secondaryType": "normal",
       "weight": 160,
       "battleOnly": false
     }

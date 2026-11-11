@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:cherrim",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cherrim_overcast_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_cherrim_overcast.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_cherrim_overcast_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_cherrim_overcast_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_cherrim_overcast_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_cherrim_overcast_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cherrim_overcast_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_shiny_cherrim_overcast.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_shiny_cherrim_overcast_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_shiny_cherrim_overcast_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_shiny_cherrim_overcast_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_overcast_shiny_cherrim_overcast_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cherrim_sunshine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_cherrim_sunshine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_cherrim_sunshine_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_cherrim_sunshine_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_cherrim_sunshine_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_cherrim_sunshine_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cherrim_sunshine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_shiny_cherrim_sunshine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_shiny_cherrim_sunshine_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_shiny_cherrim_sunshine_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_shiny_cherrim_sunshine_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0421_cherrim/distorted_cherrim_sunshine_shiny_cherrim_sunshine_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

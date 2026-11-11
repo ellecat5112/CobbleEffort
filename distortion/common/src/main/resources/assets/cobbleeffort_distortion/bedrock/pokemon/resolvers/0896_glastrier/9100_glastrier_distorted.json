@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:glastrier",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:glastrier_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:glastrier_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0896_glastrier/distorted_glastrier_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

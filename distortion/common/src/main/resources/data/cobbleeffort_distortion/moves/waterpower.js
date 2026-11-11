@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["earthpower"], {num: -31154, name: "Water Power", type: "Water", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["earthpower"], {num: -31192, name: "Water Power", type: "Water", isNonstandard: null, zMove: undefined, maxMove: undefined})

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:mareanie",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mareanie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0747_mareanie/distorted_mareanie.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mareanie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0747_mareanie/distorted_mareanie_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0747_mareanie/distorted_mareanie_alpha.png"
+        }
+      ]
+    }
+  ]
+}

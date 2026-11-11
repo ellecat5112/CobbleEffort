@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:appletun",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 240,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.appletun-gmax.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "weight": 0
+    }
+  ]
+}

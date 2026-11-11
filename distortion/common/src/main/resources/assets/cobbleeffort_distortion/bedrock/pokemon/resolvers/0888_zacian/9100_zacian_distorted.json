@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:zacian",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zacian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0888_zacian/distorted_zacian.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zacian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0888_zacian/distorted_zacian_shiny.png"
+    },
+    {
+      "aspects": [
+        "crowned",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zacian_crown_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0888_zacian/distorted_zacian_crown_zacian_crown.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "crowned",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zacian_crown_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0888_zacian/distorted_zacian_crown_shiny_zacian_crown.png"
+    }
+  ]
+}

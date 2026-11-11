@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:zamazenta",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zamazenta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zamazenta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crowned",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zamazenta_crown_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_zamazenta_crown.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_zamazenta_crown_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_zamazenta_crown_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_zamazenta_crown_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_zamazenta_crown_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "crowned",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zamazenta_crown_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_shiny_zamazenta_crown.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_shiny_zamazenta_crown_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_shiny_zamazenta_crown_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_shiny_zamazenta_crown_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0889_zamazenta/distorted_zamazenta_crown_shiny_zamazenta_crown_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

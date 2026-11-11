@@ -1,0 +1,226 @@
+{
+  "target": "cobblemon:necrozma",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "dusk-fusion",
+        "distorted"
+      ],
+      "baseExperienceYield": 340,
+      "baseStats": {
+        "attack": 157,
+        "defence": 127,
+        "hp": 97,
+        "special_attack": 113,
+        "special_defence": 109,
+        "speed": 77
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "evYield": {
+        "attack": 3,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 38,
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "lightingData": {
+        "lightLevel": 15,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Dusk-Mane-Distorted",
+      "pokedex": [
+        "cobblemon.species.necrozma-duskmane.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "weight": 4600
+    },
+    {
+      "aspects": [
+        "dawn-fusion",
+        "distorted"
+      ],
+      "baseExperienceYield": 340,
+      "baseStats": {
+        "attack": 113,
+        "defence": 109,
+        "hp": 97,
+        "special_attack": 157,
+        "special_defence": 127,
+        "speed": 77
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 42,
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted"
+      ],
+      "lightingData": {
+        "lightLevel": 15,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Dawn-Wings-Distorted",
+      "pokedex": [
+        "cobblemon.species.necrozma-dawnwings.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 3500
+    },
+    {
+      "abilities": [
+        "neuroforce",
+        "h:neuroforce"
+      ],
+      "aspects": [
+        "ultra-fusion",
+        "distorted"
+      ],
+      "baseExperienceYield": 377,
+      "baseStats": {
+        "attack": 167,
+        "defence": 97,
+        "hp": 97,
+        "special_attack": 167,
+        "special_defence": 97,
+        "speed": 129
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 5
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "catchRate": 255,
+      "dynamaxBlocked": true,
+      "evYield": {
+        "attack": 1,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "height": 75,
+      "labels": [
+        "gen7",
+        "legendary",
+        "restricted",
+        "ultra_burst"
+      ],
+      "lightingData": {
+        "lightLevel": 15,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Ultra-Distorted",
+      "pokedex": [
+        "cobblemon.species.necrozma-ultra.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "weight": 2300
+    }
+  ]
+}

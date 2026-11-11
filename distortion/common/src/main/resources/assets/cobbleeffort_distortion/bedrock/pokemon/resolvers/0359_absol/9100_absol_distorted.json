@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:absol",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:absol_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:absol_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:absol_mega_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol_mega_z_absol_mega_z.png"
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:absol_mega_z_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol_mega_z_shiny_absol_mega_z.png"
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0359_absol/distorted_absol_mega_z_alpha_absol_mega_z.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

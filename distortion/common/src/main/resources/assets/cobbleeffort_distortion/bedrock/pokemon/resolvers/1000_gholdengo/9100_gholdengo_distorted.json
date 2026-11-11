@@ -1,0 +1,488 @@
+{
+  "species": "cobblemon:gholdengo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gholdengo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gholdengo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer1.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer2.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer3.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer4.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage5",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer5.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage6",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer6.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage7",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite_layer7.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-full",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_netherite.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "red-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_red.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "yellow-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_yellow.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_green.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_blue.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pink-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_pink.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "black-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_black.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "white-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_chest_white.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1000_gholdengo/distorted_gholdengo_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

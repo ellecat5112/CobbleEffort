@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:magcargo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magcargo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0219_magcargo/distorted_magcargo.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0219_magcargo/distorted_magcargo_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0219_magcargo/distorted_magcargo_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:magcargo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0219_magcargo/distorted_magcargo_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0219_magcargo/distorted_magcargo_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

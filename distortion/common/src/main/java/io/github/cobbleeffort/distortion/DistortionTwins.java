@@ -78,7 +78,10 @@ public final class DistortionTwins {
             types.add(n.substring(0, 1).toUpperCase() + n.substring(1).toLowerCase());
         }
         types.sort(null);
-        return str(abilities.getAsJsonObject(id), String.join("/", types));
+        String key = String.join("/", types);
+        JsonObject table = abilities.getAsJsonObject(id);
+        String own = str(table, pokemon.getSpecies().getName() + ":" + key);   // a starter's random chart
+        return own != null ? own : str(table, key);
     }
 
     private static String id(String name) {

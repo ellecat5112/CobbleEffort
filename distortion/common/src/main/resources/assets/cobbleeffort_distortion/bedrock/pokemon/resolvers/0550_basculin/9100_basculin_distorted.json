@@ -1,0 +1,116 @@
+{
+  "species": "cobblemon:basculin",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_redstripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_redstripe_basculin_redstripe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_redstripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_redstripe_shiny_basculin_redstripe.png"
+    },
+    {
+      "aspects": [
+        "redstriped",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_redstripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_redstripe_basculin_redstripe.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "redstriped",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_redstripe_alpha_basculin_redstripe.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "redstriped",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_redstripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_redstripe_shiny_basculin_redstripe.png"
+    },
+    {
+      "aspects": [
+        "bluestriped",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_bluestripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_bluestripe_basculin_bluestripe.png"
+    },
+    {
+      "aspects": [
+        "bluestriped",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_bluestripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_bluestripe_shiny_basculin_bluestripe.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "bluestriped",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_bluestripe_alpha_basculin_bluestripe.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "whitestriped",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_whitestripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_whitestripe_basculin_whitestripe.png"
+    },
+    {
+      "aspects": [
+        "whitestriped",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:basculin_whitestripe_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_whitestripe_shiny_basculin_whitestripe.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "whitestriped",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0550_basculin/distorted_basculin_whitestripe_alpha_basculin_whitestripe.png"
+        }
+      ]
+    }
+  ]
+}

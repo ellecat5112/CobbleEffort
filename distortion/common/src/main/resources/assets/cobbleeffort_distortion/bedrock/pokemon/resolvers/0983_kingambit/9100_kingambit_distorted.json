@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:kingambit",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kingambit_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0983_kingambit/distorted_kingambit.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kingambit_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0983_kingambit/distorted_kingambit_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0983_kingambit/distorted_kingambit_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:wyrdeer",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wyrdeer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wyrdeer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0899_wyrdeer/distorted_wyrdeer_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

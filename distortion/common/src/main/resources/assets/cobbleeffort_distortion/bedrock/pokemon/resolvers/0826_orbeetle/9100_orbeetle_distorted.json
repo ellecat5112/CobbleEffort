@@ -1,0 +1,140 @@
+{
+  "species": "cobblemon:orbeetle",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:orbeetle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:orbeetle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_orbeetle_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_orbeetle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_gmax_orbeetle_gmax_orbeetle.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_gmax_orbeetle_e_gmax_orbeetle.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_orbeetle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_gmax_orbeetle_shiny_gmax_orbeetle.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0826_orbeetle/distorted_gmax_orbeetle_e_gmax_orbeetle.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/distorted_blank_gmax_orbeetle_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

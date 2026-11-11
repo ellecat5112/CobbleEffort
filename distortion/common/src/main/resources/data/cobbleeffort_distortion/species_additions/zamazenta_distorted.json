@@ -1,0 +1,75 @@
+{
+  "target": "cobblemon:zamazenta",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "psychic",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "crowned",
+        "distorted"
+      ],
+      "baseExperienceYield": 350,
+      "baseStats": {
+        "attack": 120,
+        "defence": 140,
+        "hp": 92,
+        "special_attack": 80,
+        "special_defence": 140,
+        "speed": 128
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "entityInteract": {
+          "avoidedBySkeleton": true
+        },
+        "herd": {
+          "maxSize": 5,
+          "toleratedLeaders": [
+            {
+              "pokemon": "zacian crowned",
+              "tier": 1
+            },
+            {
+              "pokemon": "zamazenta crowned",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 29,
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ],
+      "maleRatio": -1,
+      "name": "Crowned-Distorted",
+      "pokedex": [
+        "cobblemon.species.zamazenta-crowned.desc"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "ground",
+      "weight": 7850
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:klink",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0599_klink/distorted_klink.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:klink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0599_klink/distorted_klink_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0599_klink/distorted_klink_alpha.png"
+        }
+      ]
+    }
+  ]
+}

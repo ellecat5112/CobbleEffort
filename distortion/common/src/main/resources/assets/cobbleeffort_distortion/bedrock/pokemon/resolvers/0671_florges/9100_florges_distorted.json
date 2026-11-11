@@ -1,0 +1,105 @@
+{
+  "species": "cobblemon:florges",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:florges_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:florges_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_shiny.png"
+    },
+    {
+      "aspects": [
+        "flower-red",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_orange.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_white.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-pink",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_flower_pink.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0671_florges/distorted_florges_alpha.png"
+        }
+      ]
+    }
+  ]
+}

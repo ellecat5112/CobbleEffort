@@ -247,8 +247,9 @@ def data():
         "key": {"I": {"item": "minecraft:iron_block"}, "G": {"item": "minecraft:glass"}, "D": {"item": "minecraft:diamond"},
                 "R": {"item": "minecraft:redstone_block"}},
         "result": {"id": f"{MOD}:dna_machine", "count": 1}})
-    write_json(RES / "data" / "minecraft" / "tags" / "block" / "mineable" / "pickaxe.json",
-               {"replace": False, "values": [f"{MOD}:dna_machine"]})
+    tag = RES / "data" / "minecraft" / "tags" / "block" / "mineable" / "pickaxe.json"
+    old = json.loads(tag.read_text())["values"] if tag.exists() else []
+    write_json(tag, {"replace": False, "values": sorted(set(old) | {f"{MOD}:dna_machine"})})
 
 
 def build():

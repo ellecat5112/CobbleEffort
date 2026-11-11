@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["smartstrike"], {num: -31499, name: "Ground Strike", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["boltstrike"], {num: -31074, name: "Ground Strike", type: "Ground", isNonstandard: null, zMove: undefined, maxMove: undefined})

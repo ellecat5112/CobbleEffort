@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:corviknight",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corviknight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:corviknight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_corviknight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_gmax_corviknight.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_gmax_corviknight_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_gmax_corviknight_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_gmax_corviknight_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_gmax_corviknight_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_corviknight_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_shiny_gmax_corviknight.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_shiny_gmax_corviknight_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_shiny_gmax_corviknight_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_shiny_gmax_corviknight_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0823_corviknight/distorted_corviknight_gmax_shiny_gmax_corviknight_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

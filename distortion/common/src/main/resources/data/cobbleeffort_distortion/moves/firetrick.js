@@ -1,1 +1,1 @@
-Object.assign({}, Dex.data.Moves["flowertrick"], {num: -31200, name: "Fire Trick", type: "Fire", isNonstandard: null, zMove: undefined, maxMove: undefined})
+Object.assign({}, Dex.data.Moves["flowertrick"], {num: -31252, name: "Fire Trick", type: "Fire", isNonstandard: null, zMove: undefined, maxMove: undefined})

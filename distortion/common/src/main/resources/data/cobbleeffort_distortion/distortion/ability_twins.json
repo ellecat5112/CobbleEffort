@@ -1,112 +1,277 @@
 {
  "blaze": {
-  "Dark/Fire": "torrent",
-  "Fighting/Fire": "torrent",
+  "Blaziken:Fighting/Fire": "fairyfervor",
+  "Braixen:Fire": "icefervor",
+  "Charizard:Fire/Flying": "psychicfervor",
+  "Charmander:Fire": "psychicfervor",
+  "Charmeleon:Fire": "psychicfervor",
+  "Chimchar:Fire": "ghostfervor",
+  "Cinderace:Fire": "electricfervor",
+  "Combusken:Fighting/Fire": "fairyfervor",
+  "Crocalor:Fire": "darkfervor",
+  "Cyndaquil:Fire": "electricfervor",
+  "Delphox:Fire/Psychic": "icefervor",
+  "Emboar:Fighting/Fire": "psychicfervor",
+  "Fennekin:Fire": "icefervor",
   "Fire": "torrent",
-  "Fire/Flying": "torrent",
-  "Fire/Ghost": "torrent",
-  "Fire/Psychic": "torrent"
+  "Fuecoco:Fire": "darkfervor",
+  "Incineroar:Dark/Fire": "psychicfervor",
+  "Infernape:Fighting/Fire": "ghostfervor",
+  "Litten:Fire": "psychicfervor",
+  "Monferno:Fighting/Fire": "ghostfervor",
+  "Pignite:Fighting/Fire": "psychicfervor",
+  "Quilava:Fire": "electricfervor",
+  "Raboot:Fire": "electricfervor",
+  "Scorbunny:Fire": "electricfervor",
+  "Skeledirge:Fire/Ghost": "darkfervor",
+  "Tepig:Fire": "psychicfervor",
+  "Torchic:Fire": "fairyfervor",
+  "Torracat:Fire": "psychicfervor",
+  "Typhlosion:Fire": "electricfervor",
+  "Typhlosion:Fire/Ghost": "electricfervor"
+ },
+ "chlorophyll": {
+  "Fire/Grass": "swiftswim"
+ },
+ "darkaura": {
+  "Dark/Flying": "fairyaura"
+ },
+ "dragonsmaw": {
+  "Dragon": "fairysmaw"
  },
  "drought": {
   "Fire": "deluge"
  },
+ "fairyaura": {
+  "Fairy": "steelaura"
+ },
  "flashfire": {
+  "Bug/Fire": "flashflood",
+  "Cyndaquil:Fire": "flashelectric",
+  "Dark/Fire": "flashflood",
   "Fire": "flashflood",
-  "Fire/Rock": "flashflood"
+  "Fire/Ghost": "flashflood",
+  "Fire/Psychic": "flashflood",
+  "Fire/Rock": "flashflood",
+  "Fire/Steel": "flashflood",
+  "Quilava:Fire": "flashelectric",
+  "Typhlosion:Fire": "flashelectric"
+ },
+ "galewings": {
+  "Fire/Flying": "electricgalewings",
+  "Flying/Normal": "electricgalewings"
  },
  "galvanize": {
   "Electric/Rock": "tectonize"
  },
  "icebody": {
+  "Dragon/Ice": "sunbask",
   "Ice": "sunbask",
   "Ice/Psychic": "sunbask",
+  "Ice/Rock": "sunbask",
   "Ice/Water": "sunbask"
  },
+ "iceface": {
+  "Ice": "suniceface"
+ },
+ "justified": {
+  "Dark": "fairyjustified"
+ },
  "lightningrod": {
-  "Electric": "sinkhole"
+  "Electric": "sinkhole",
+  "Electric/Steel": "sinkhole"
  },
  "liquidvoice": {
-  "Fairy/Water": "blossomvoice",
-  "Water": "blossomvoice"
+  "Brionne:Water": "rockvoice",
+  "Popplio:Water": "rockvoice",
+  "Primarina:Fairy/Water": "rockvoice"
  },
  "magnetpull": {
-  "Electric/Steel": "quagmire"
+  "Electric/Steel": "quagmire",
+  "Rock/Steel": "quagmire",
+  "Steel": "quagmire"
+ },
+ "mindseye": {
+  "Ground/Normal": "fightingmindseye"
  },
  "motordrive": {
-  "Electric": "tremordrive"
+  "Electric": "tremordrive",
+  "Electric/Flying": "tremordrive"
+ },
+ "normalize": {
+  "Normal": "brawlize"
  },
  "overcoat": {
   "Ice/Water": "sunscreen"
  },
  "overgrow": {
-  "Dark/Grass": "blaze",
-  "Fighting/Grass": "blaze",
-  "Flying/Grass": "blaze",
-  "Ghost/Grass": "blaze",
+  "Bayleef:Grass": "torrent",
+  "Bulbasaur:Grass/Poison": "steelfervor",
+  "Chesnaught:Fighting/Grass": "psychicfervor",
+  "Chespin:Grass": "psychicfervor",
+  "Chikorita:Grass": "torrent",
+  "Dartrix:Flying/Grass": "psychicfervor",
+  "Decidueye:Fighting/Grass": "psychicfervor",
+  "Decidueye:Ghost/Grass": "psychicfervor",
+  "Floragato:Grass": "swarm",
   "Grass": "blaze",
-  "Grass/Ground": "blaze",
-  "Grass/Poison": "blaze"
+  "Grookey:Grass": "fairyfervor",
+  "Grotle:Grass": "fightingfervor",
+  "Grovyle:Grass": "torrent",
+  "Ivysaur:Grass/Poison": "steelfervor",
+  "Meganium:Grass": "torrent",
+  "Meowscarada:Dark/Grass": "swarm",
+  "Quilladin:Grass": "psychicfervor",
+  "Rillaboom:Grass": "fairyfervor",
+  "Rowlet:Flying/Grass": "psychicfervor",
+  "Sceptile:Grass": "torrent",
+  "Serperior:Grass": "fairyfervor",
+  "Servine:Grass": "fairyfervor",
+  "Snivy:Grass": "fairyfervor",
+  "Sprigatito:Grass": "swarm",
+  "Thwackey:Grass": "fairyfervor",
+  "Torterra:Grass/Ground": "fightingfervor",
+  "Treecko:Grass": "torrent",
+  "Turtwig:Grass": "fightingfervor",
+  "Venusaur:Grass/Poison": "steelfervor"
  },
  "pixilate": {
   "Fairy": "metallize"
  },
  "rattled": {
-  "Dark": "jittery"
+  "Bug/Flying": "flyingrattled",
+  "Dark": "fairyrattled",
+  "Ghost": "jittery"
+ },
+ "refrigerate": {
+  "Ice/Rock": "scorchify"
  },
  "sandforce": {
-  "Ground": "tideforce",
-  "Ground/Steel": "siltforce"
+  "Flying/Ground": "waterforce",
+  "Ground": "waterforce",
+  "Ground/Steel": "siltforce",
+  "Ground/Water": "waterforce",
+  "Rock": "tideforce",
+  "Rock/Steel": "fightingsandforce"
+ },
+ "sapsipper": {
+  "Grass": "embersipper",
+  "Grass/Normal": "embersipper"
  },
  "scrappy": {
+  "Dark/Fighting": "scrappymind",
+  "Decidueye:Fighting/Grass": "rockscrappy",
   "Fighting": "scrappymind",
-  "Fighting/Grass": "scrappymind",
+  "Fighting/Flying": "scrappymind",
+  "Flying/Normal": "scrappyfists",
   "Normal": "scrappyfists"
  },
  "slushrush": {
-  "Ice/Steel": "heatrush"
+  "Electric/Ice": "heatrush",
+  "Ice": "heatrush",
+  "Ice/Steel": "heatrush",
+  "Ice/Water": "heatrush"
  },
  "snowcloak": {
   "Fairy/Ice": "heathaze",
   "Flying/Ice": "heathaze",
+  "Ghost/Ice": "heathaze",
+  "Ground/Ice": "heathaze",
   "Ice": "heathaze",
   "Ice/Steel": "heathaze"
  },
  "snowwarning": {
   "Fairy/Ice": "heatwarning",
-  "Ice": "heatwarning"
+  "Grass/Ice": "heatwarning",
+  "Ice": "heatwarning",
+  "Ice/Rock": "heatwarning"
  },
- "solarpower": {
-  "Fire": "stormpower",
-  "Fire/Flying": "stormpower"
+ "steamengine": {
+  "Fire/Rock": "watersteamengine"
  },
  "steelyspirit": {
   "Steel": "earthenspirit"
  },
+ "stormdrain": {
+  "Dragon/Water": "verdantdrain",
+  "Ground/Water": "verdantdrain",
+  "Water": "verdantdrain"
+ },
  "swarm": {
+  "Bug": "flock",
+  "Bug/Dark": "flock",
+  "Bug/Electric": "flock",
+  "Bug/Fighting": "flock",
+  "Bug/Fire": "flock",
   "Bug/Flying": "flock",
+  "Bug/Grass": "flock",
   "Bug/Poison": "flock",
+  "Bug/Psychic": "flock",
   "Bug/Rock": "flock",
   "Bug/Steel": "flock"
  },
  "thickfat": {
-  "Fighting/Fire": "blubber",
-  "Fire": "blubber",
-  "Ice/Water": "insulation"
+  "Ground/Ice": "insulation",
+  "Ice": "insulation",
+  "Ice/Water": "insulation",
+  "Pignite:Fighting/Fire": "psychicthickfat",
+  "Tepig:Fire": "psychicthickfat"
  },
  "torrent": {
-  "Dark/Water": "overgrow",
-  "Fairy/Water": "overgrow",
-  "Fighting/Water": "overgrow",
-  "Ground/Water": "overgrow",
-  "Steel/Water": "overgrow",
+  "Blastoise:Water": "steelfervor",
+  "Brionne:Water": "rockfervor",
+  "Croconaw:Water": "fairyfervor",
+  "Dewott:Water": "groundfervor",
+  "Drizzile:Water": "ghostfervor",
+  "Empoleon:Steel/Water": "flyingfervor",
+  "Feraligatr:Water": "fairyfervor",
+  "Froakie:Water": "electricfervor",
+  "Frogadier:Water": "electricfervor",
+  "Greninja:Dark/Water": "electricfervor",
+  "Inteleon:Water": "ghostfervor",
+  "Marshtomp:Ground/Water": "electricfervor",
+  "Mudkip:Water": "electricfervor",
+  "Oshawott:Water": "groundfervor",
+  "Piplup:Water": "flyingfervor",
+  "Popplio:Water": "rockfervor",
+  "Primarina:Fairy/Water": "rockfervor",
+  "Prinplup:Water": "flyingfervor",
+  "Quaquaval:Fighting/Water": "psychicfervor",
+  "Quaxly:Water": "psychicfervor",
+  "Quaxwell:Water": "psychicfervor",
+  "Samurott:Dark/Water": "groundfervor",
+  "Samurott:Water": "groundfervor",
+  "Sobble:Water": "ghostfervor",
+  "Squirtle:Water": "steelfervor",
+  "Swampert:Ground/Water": "electricfervor",
+  "Totodile:Water": "fairyfervor",
+  "Wartortle:Water": "steelfervor",
   "Water": "overgrow"
  },
+ "transistor": {
+  "Electric": "groundtransistor"
+ },
  "voltabsorb": {
-  "Electric": "eartheater"
+  "Dragon/Electric": "eartheater",
+  "Electric": "eartheater",
+  "Electric/Flying": "eartheater",
+  "Electric/Ice": "eartheater",
+  "Electric/Water": "eartheater"
  },
  "waterabsorb": {
+  "Bug/Water": "rootabsorb",
+  "Dragon/Water": "rootabsorb",
+  "Electric/Water": "rootabsorb",
   "Fighting/Water": "rootabsorb",
+  "Fire/Water": "rootabsorb",
+  "Flying/Water": "rootabsorb",
+  "Ghost/Water": "rootabsorb",
+  "Grass/Water": "rootabsorb",
+  "Ground/Water": "rootabsorb",
   "Ice/Water": "rootabsorb",
   "Water": "rootabsorb"
+ },
+ "waterbubble": {
+  "Bug/Water": "grassbubble"
  }
 }

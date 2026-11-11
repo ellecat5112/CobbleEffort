@@ -1,0 +1,128 @@
+{
+  "species": "cobblemon:breloom",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:breloom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:breloom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0286_breloom/distorted_breloom_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

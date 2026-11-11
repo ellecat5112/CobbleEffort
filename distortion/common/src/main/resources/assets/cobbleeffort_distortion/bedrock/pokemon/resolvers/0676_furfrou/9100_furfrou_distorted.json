@@ -1,0 +1,307 @@
+{
+  "species": "cobblemon:furfrou",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/distorted_furfrou.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/distorted_furfrou_shiny.png"
+    },
+    {
+      "aspects": [
+        "natural-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/distorted_furfrou.png"
+    },
+    {
+      "aspects": [
+        "natural-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/distorted_furfrou_shiny.png"
+    },
+    {
+      "aspects": [
+        "heart-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_heart_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/heart/distorted_furfrou_heart_furfrou_heart.png"
+    },
+    {
+      "aspects": [
+        "heart-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_heart_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/heart/distorted_furfrou_heart_shiny_furfrou_heart.png"
+    },
+    {
+      "aspects": [
+        "star-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_star_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/star/distorted_furfrou_star_furfrou_star.png"
+    },
+    {
+      "aspects": [
+        "star-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_star_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/star/distorted_furfrou_star_shiny_furfrou_star.png"
+    },
+    {
+      "aspects": [
+        "diamond-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_diamond_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/diamond/distorted_furfrou_diamond_furfrou_diamond.png"
+    },
+    {
+      "aspects": [
+        "diamond-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_diamond_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/diamond/distorted_furfrou_diamond_shiny_furfrou_diamond.png"
+    },
+    {
+      "aspects": [
+        "debutante-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_debutante_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/debutante/distorted_furfrou_debutante_furfrou_debutante.png"
+    },
+    {
+      "aspects": [
+        "debutante-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_debutante_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/debutante/distorted_furfrou_debutante_shiny_furfrou_debutante.png"
+    },
+    {
+      "aspects": [
+        "matron-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_matron_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/matron/distorted_furfrou_matron_furfrou_matron.png"
+    },
+    {
+      "aspects": [
+        "matron-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_matron_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/matron/distorted_furfrou_matron_shiny_furfrou_matron.png"
+    },
+    {
+      "aspects": [
+        "dandy-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_dandy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/dandy/distorted_furfrou_dandy_furfrou_dandy.png"
+    },
+    {
+      "aspects": [
+        "dandy-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_dandy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/dandy/distorted_furfrou_dandy_shiny_furfrou_dandy.png"
+    },
+    {
+      "aspects": [
+        "la_reine-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_lareine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/lareine/distorted_furfrou_lareine_furfrou_lareine.png"
+    },
+    {
+      "aspects": [
+        "la_reine-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_lareine_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/lareine/distorted_furfrou_lareine_shiny_furfrou_lareine.png"
+    },
+    {
+      "aspects": [
+        "kabuki-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_kabuki_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/kabuki/distorted_furfrou_kabuki_furfrou_kabuki.png"
+    },
+    {
+      "aspects": [
+        "kabuki-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_kabuki_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/kabuki/distorted_furfrou_kabuki_shiny_furfrou_kabuki.png"
+    },
+    {
+      "aspects": [
+        "pharaoh-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_pharaoh_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/pharaoh/distorted_furfrou_pharaoh_furfrou_pharaoh.png"
+    },
+    {
+      "aspects": [
+        "pharaoh-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_pharaoh_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/pharaoh/distorted_furfrou_pharaoh_shiny_furfrou_pharaoh.png"
+    },
+    {
+      "aspects": [
+        "cinnamon-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_cinnamon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/cinnamon/distorted_furfrou_cinnamon_furfrou_cinnamon.png"
+    },
+    {
+      "aspects": [
+        "cinnamon-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_cinnamon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/cinnamon/distorted_furfrou_cinnamon_shiny_furfrou_cinnamon.png"
+    },
+    {
+      "aspects": [
+        "crusader-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_crusader_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/crusader/distorted_furfrou_crusader_furfrou_crusader.png"
+    },
+    {
+      "aspects": [
+        "crusader-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_crusader_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/crusader/distorted_furfrou_crusader_shiny_furfrou_crusader.png"
+    },
+    {
+      "aspects": [
+        "lavender-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_lavender_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/lavender/distorted_furfrou_lavender_furfrou_lavender.png"
+    },
+    {
+      "aspects": [
+        "lavender-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_lavender_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/lavender/distorted_furfrou_lavender_shiny_furfrou_lavender.png"
+    },
+    {
+      "aspects": [
+        "matcha-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_matcha_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/matcha/distorted_furfrou_matcha_furfrou_matcha.png"
+    },
+    {
+      "aspects": [
+        "matcha-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_matcha_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/matcha/distorted_furfrou_matcha_shiny_furfrou_matcha.png"
+    },
+    {
+      "aspects": [
+        "mourner-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_mourner_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/mourner/distorted_furfrou_mourner_furfrou_mourner.png"
+    },
+    {
+      "aspects": [
+        "mourner-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_mourner_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/mourner/distorted_furfrou_mourner_shiny_furfrou_mourner.png"
+    },
+    {
+      "aspects": [
+        "rocker-trim",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_rocker_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/rocker/distorted_furfrou_rocker_furfrou_rocker.png"
+    },
+    {
+      "aspects": [
+        "rocker-trim",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:furfrou_rocker_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/rocker/distorted_furfrou_rocker_shiny_furfrou_rocker.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0676_furfrou/distorted_furfrou_alpha.png"
+        }
+      ]
+    }
+  ]
+}

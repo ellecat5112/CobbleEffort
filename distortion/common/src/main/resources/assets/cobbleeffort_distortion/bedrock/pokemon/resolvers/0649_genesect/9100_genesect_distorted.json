@@ -1,0 +1,89 @@
+{
+  "species": "cobblemon:genesect",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_shiny.png"
+    },
+    {
+      "aspects": [
+        "water-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_douse.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "water-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_douse_shiny.png"
+    },
+    {
+      "aspects": [
+        "fire-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_burn.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "fire-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_burn_shiny.png"
+    },
+    {
+      "aspects": [
+        "ice-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_chill.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ice-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_chill_shiny.png"
+    },
+    {
+      "aspects": [
+        "electric-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_shock.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "electric-drive",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:genesect_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0649_genesect/distorted_genesect_shock_shiny.png"
+    }
+  ]
+}

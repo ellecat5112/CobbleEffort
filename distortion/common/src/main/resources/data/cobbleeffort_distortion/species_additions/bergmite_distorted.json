@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:bergmite",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 10,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.bergmite-hisuibias.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 995,
+      "battleOnly": false
+    }
+  ]
+}

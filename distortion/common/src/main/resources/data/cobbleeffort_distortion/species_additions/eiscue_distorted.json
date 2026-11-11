@@ -1,0 +1,79 @@
+{
+  "target": "cobblemon:eiscue",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "noice_face",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 80,
+        "defence": 70,
+        "hp": 75,
+        "special_attack": 65,
+        "special_defence": 50,
+        "speed": 130
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "prinplup",
+              "tier": 1
+            },
+            {
+              "pokemon": "eiscue",
+              "tier": 2
+            },
+            {
+              "pokemon": "empoleon",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          },
+          "walk": {
+            "walkSpeed": 0.15
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 14,
+      "hitbox": {
+        "fixed": false,
+        "height": 1.35,
+        "width": 0.65
+      },
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0.5,
+      "name": "Noice-Face-Distorted",
+      "pokedex": [
+        "cobblemon.species.eiscue-noiceface.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 890
+    }
+  ]
+}

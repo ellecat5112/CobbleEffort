@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:petilil",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 5,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.petilil-hisuibias.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 66,
+      "battleOnly": false
+    }
+  ]
+}

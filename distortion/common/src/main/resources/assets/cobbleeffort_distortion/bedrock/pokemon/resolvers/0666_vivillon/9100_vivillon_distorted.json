@@ -1,0 +1,712 @@
+{
+  "species": "cobblemon:vivillon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vivillon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_meadow.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vivillon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_shiny.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_meadow.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-meadow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_meadow.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-archipelago",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_archipelago.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-continental",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_continental.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-elegant",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_elegant.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-fancy",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_fancy.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-garden",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_garden.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-high-plains",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_high_plains.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-icy-snow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_icy_snow.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-jungle",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_jungle.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-marine",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_marine.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-modern",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_modern.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-monsoon",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_monsoon.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-ocean",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_ocean.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-poke-ball",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_pokeball.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-polar",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_polar.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-river",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_river.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-sandstorm",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_sandstorm.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-savanna",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_savanna.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-sun",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_sun.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-tundra",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_tundra.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-inferno",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_inferno.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-void",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_void.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vivillon-wings-forsaken",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_wings_forsaken.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0666_vivillon/distorted_vivillon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

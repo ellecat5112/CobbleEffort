@@ -1,0 +1,137 @@
+{
+  "species": "cobblemon:zoroark",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zoroark_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zoroark_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zoroark_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_emissive_zoroark_hisuian.png"
+        },
+        {
+          "emissive": true,
+          "name": "emissive2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_emissive2_zoroark_hisuian.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zoroark_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_zoroark_hisuian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_emissive_zoroark_hisuian.png"
+        },
+        {
+          "emissive": true,
+          "name": "emissive2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_emissive2_zoroark_hisuian.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_zoroark_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_zoroark_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_zoroark_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_shiny_zoroark_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hisuian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_alpha_zoroark_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0571_zoroark/distorted_zoroark_hisuian_zoroark_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

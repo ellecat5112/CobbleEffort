@@ -1,0 +1,1170 @@
+{
+  "species": "cobblemon:spinda",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:spinda_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/distorted_spinda.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:spinda_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/distorted_spinda_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "face-spots-none",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-5",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-6",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-7",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot7.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-8",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot8.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-9",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot9.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-10",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot10.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-11",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot11.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-none",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot12.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot13.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot14.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot15.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-5",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot16.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-6",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot17.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-7",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot18.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-8",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot19.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-9",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot20.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-10",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot21.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-11",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot22.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-none",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-5",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-6",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_left6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-none",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-5",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-6",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_right6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-1",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_special1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-2",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_special2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-3",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_special3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-4",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot_special4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-none",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-1",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-2",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-3",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-4",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-5",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-6",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-7",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot7.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-8",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot8.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-9",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot9.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-10",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot10.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-11",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot11.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-none",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-1",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot11.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-2",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot12.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-3",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot13.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-4",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot14.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-5",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot15.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-6",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot16.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-7",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot17.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-8",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot18.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-9",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot19.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-10",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot20.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-11",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "facespots2",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot22.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-none",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-1",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-2",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-3",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-4",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-5",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-6",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "leftearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_left6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-none",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot0.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-1",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-2",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-3",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-4",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-5",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right5.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-6",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "rightearspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_right6.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-1",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_special1.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-2",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_special2.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-3",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_special3.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-4",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "specialspots",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/spots_shiny/distorted_spinda_spot_special4.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0327_spinda/distorted_spinda_alpha.png"
+        }
+      ]
+    }
+  ]
+}

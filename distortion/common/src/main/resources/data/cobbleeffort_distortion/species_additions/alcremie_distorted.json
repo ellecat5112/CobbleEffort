@@ -1,0 +1,177 @@
+{
+  "target": "cobblemon:alcremie",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "steel",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "cream-ruby",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Ruby-Cream-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-rubycream.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-matcha",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Matcha-Cream-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-matchacream.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-mint",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Mint-Cream-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-mintcream.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-lemon",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Lemon-Cream-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-lemoncream.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-salted",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Salted-Cream-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-saltedcream.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-ruby_swirl",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Ruby-Swirl-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-rubyswirl.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-caramel_swirl",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Caramel-Swirl-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-caramelswirl.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "cream-rainbow_swirl",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": 0,
+      "name": "Rainbow-Swirl-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-rainbowswirl.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 5
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 300,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.alcremie-gmax.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 0
+    }
+  ]
+}

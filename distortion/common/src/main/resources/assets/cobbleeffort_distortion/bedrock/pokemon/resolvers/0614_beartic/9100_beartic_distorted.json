@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:beartic",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:beartic_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:beartic_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0614_beartic/distorted_beartic_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

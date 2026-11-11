@@ -1,0 +1,163 @@
+{
+  "species": "cobblemon:abomasnow",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:abomasnow_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:abomasnow_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_alpha_abomasnow_male.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_male_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:abomasnow_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:abomasnow_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_shiny_abomasnow_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_alpha_abomasnow_female.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0460_abomasnow/distorted_abomasnow_abomasnow_female_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

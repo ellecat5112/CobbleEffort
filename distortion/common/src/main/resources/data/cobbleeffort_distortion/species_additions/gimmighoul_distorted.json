@@ -1,0 +1,88 @@
+{
+  "target": "cobblemon:gimmighoul",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "runaway",
+        "h:runaway"
+      ],
+      "aspects": [
+        "roaming",
+        "distorted"
+      ],
+      "baseScale": 0.7,
+      "baseStats": {
+        "attack": 30,
+        "defence": 25,
+        "hp": 45,
+        "special_attack": 75,
+        "special_defence": 45,
+        "speed": 80
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "gholdengo alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "gimmighoul roaming",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "swimSpeed": 0.3
+          },
+          "walk": {
+            "walkSpeed": 0.3
+          },
+          "wanderChance": 500
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0014,
+          "light": "0-4",
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 1,
+      "hitbox": {
+        "fixed": false,
+        "height": 0.8,
+        "width": 0.6
+      },
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": -1,
+      "name": "Roaming-Distorted",
+      "pokedex": [
+        "cobblemon.species.gimmighoul-roaming.desc"
+      ],
+      "primaryType": "dark",
+      "shoulderMountable": true,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:azumarill",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:azumarill_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0184_azumarill/distorted_azumarill.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:azumarill_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0184_azumarill/distorted_azumarill_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0184_azumarill/distorted_azumarill_alpha.png"
+        }
+      ]
+    }
+  ]
+}

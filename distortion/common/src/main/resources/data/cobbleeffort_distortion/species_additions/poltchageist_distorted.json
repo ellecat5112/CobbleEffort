@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:poltchageist",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "artisan",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": -1,
+      "name": "Artisan-Distorted",
+      "pokedex": [
+        "cobblemon.species.poltchageist-artisan.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "weight": 11
+    }
+  ]
+}

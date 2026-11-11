@@ -1,0 +1,99 @@
+{
+  "target": "cobblemon:castform",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "sunny-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "fireImmune": true,
+        "herd": {
+          "maxSize": 3,
+          "toleratedLeaders": [
+            {
+              "pokemon": "castform alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042,
+          "willSleepOnBed": true
+        }
+      },
+      "height": 3,
+      "labels": [
+        "gen3"
+      ],
+      "maleRatio": 0.5,
+      "name": "Sunny-Distorted",
+      "pokedex": [
+        "cobblemon.species.castform-sunny.desc"
+      ],
+      "primaryType": "water",
+      "weight": 8
+    },
+    {
+      "aspects": [
+        "rainy-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 3,
+      "labels": [
+        "gen3"
+      ],
+      "maleRatio": 0.5,
+      "name": "Rainy-Distorted",
+      "pokedex": [
+        "cobblemon.species.castform-rainy.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 8
+    },
+    {
+      "aspects": [
+        "snowy-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 3,
+      "labels": [
+        "gen3"
+      ],
+      "maleRatio": 0.5,
+      "name": "Snowy-Distorted",
+      "pokedex": [
+        "cobblemon.species.castform-snowy.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:donphan",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:donphan_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0232_donphan/distorted_donphan_donphan_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:donphan_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0232_donphan/distorted_donphan_shiny_donphan_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0232_donphan/distorted_donphan_alpha_donphan_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:donphan_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0232_donphan/distorted_donphan_donphan_female.png"
+    }
+  ]
+}

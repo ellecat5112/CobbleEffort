@@ -1,0 +1,87 @@
+{
+  "target": "cobblemon:toxtricity",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "punkrock",
+        "minus",
+        "h:technician"
+      ],
+      "aspects": [
+        "low_key-form",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 16,
+      "labels": [
+        "gen8"
+      ],
+      "lightingData": {
+        "lightLevel": 8,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": 0.5,
+      "name": "Low-Key-Distorted",
+      "pokedex": [
+        "cobblemon.species.toxtricity-lowkey.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 400
+    },
+    {
+      "aspects": [
+        "gmax",
+        "amped-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 240,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.toxtricity-gmax.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 0
+    },
+    {
+      "abilities": [
+        "punkrock",
+        "minus",
+        "h:technician"
+      ],
+      "aspects": [
+        "gmax",
+        "low_key-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 240,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.5,
+      "name": "Low-Key-Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.toxtricity-lowkeygmax.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 0
+    }
+  ]
+}

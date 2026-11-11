@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:elgyem",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:elgyem_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:elgyem_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_emissive_shiny.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0605_elgyem/distorted_elgyem_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

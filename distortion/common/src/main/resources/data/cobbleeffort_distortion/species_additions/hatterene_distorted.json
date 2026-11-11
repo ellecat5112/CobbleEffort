@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:hatterene",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "steel"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 260,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.hatterene-gmax.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "weight": 0
+    }
+  ]
+}

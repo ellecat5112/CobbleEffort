@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:regice",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:regice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:regice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0378_regice/distorted_regice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

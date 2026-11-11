@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:drednaw",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:drednaw_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0834_drednaw/distorted_drednaw.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:drednaw_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0834_drednaw/distorted_drednaw_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0834_drednaw/distorted_drednaw_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_drednaw_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0834_drednaw/distorted_gmax_drednaw_gmax_drednaw.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_drednaw_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0834_drednaw/distorted_gmax_drednaw_shiny_gmax_drednaw.png"
+    }
+  ]
+}

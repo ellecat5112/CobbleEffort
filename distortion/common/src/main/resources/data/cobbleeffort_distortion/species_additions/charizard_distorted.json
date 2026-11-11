@@ -3,12 +3,12 @@
   "forms": [
     {
       "name": "Distorted",
-      "primaryType": "water",
+      "primaryType": "psychic",
       "aspects": [
         "distorted"
       ],
       "battleOnly": false,
-      "secondaryType": "electric"
+      "secondaryType": "poison"
     },
     {
       "aspects": [
@@ -27,8 +27,8 @@
       "pokedex": [
         "cobblemon.species.charizard-gmax.desc"
       ],
-      "primaryType": "water",
-      "secondaryType": "electric",
+      "primaryType": "psychic",
+      "secondaryType": "poison",
       "weight": 0
     }
   ]

@@ -28,5 +28,5 @@ onBasePower(basePower, pokemon, target, move) {
 "flags": {},
 "name": "Metallize",
 "rating": 4,
-"num": -31124
+"num": -31158
 }

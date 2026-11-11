@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:chienpao",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:chienpao_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:chienpao_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1002_chienpao/distorted_chienpao_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

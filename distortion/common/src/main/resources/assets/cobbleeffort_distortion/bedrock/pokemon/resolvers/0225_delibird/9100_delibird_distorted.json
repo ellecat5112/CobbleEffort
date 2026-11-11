@@ -1,0 +1,128 @@
+{
+  "species": "cobblemon:delibird",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:delibird_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:delibird_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0225_delibird/distorted_delibird_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

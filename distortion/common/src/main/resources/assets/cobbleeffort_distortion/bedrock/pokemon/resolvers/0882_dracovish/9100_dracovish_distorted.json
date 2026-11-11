@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:dracovish",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dracovish_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0882_dracovish/distorted_dracovish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dracovish_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0882_dracovish/distorted_dracovish_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0882_dracovish/distorted_dracovish_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "species": "cobblemon:wormadam",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_plant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_plant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_shiny_wormadam_plant.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_shiny_wormadam_plant_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_shiny_wormadam_plant_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_shiny_wormadam_plant_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_shiny_wormadam_plant_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sandy-cloak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_sandy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_sandy_wormadam_sandy.png"
+    },
+    {
+      "aspects": [
+        "sandy-cloak",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_sandy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_sandy_shiny_wormadam_sandy.png"
+    },
+    {
+      "aspects": [
+        "trash-cloak",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_trash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_trash_wormadam_trash.png"
+    },
+    {
+      "aspects": [
+        "trash-cloak",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wormadam_trash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_trash_shiny_wormadam_trash.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_alpha_wormadam_plant.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0413_wormadam/distorted_wormadam_plant_wormadam_plant_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

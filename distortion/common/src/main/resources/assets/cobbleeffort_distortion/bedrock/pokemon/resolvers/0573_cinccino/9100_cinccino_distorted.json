@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:cinccino",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cinccino_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0573_cinccino/distorted_cinccino.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cinccino_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0573_cinccino/distorted_cinccino_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0573_cinccino/distorted_cinccino_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "species": "cobblemon:smeargle",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:smeargle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle.png",
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_green.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:smeargle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_shiny.png",
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_red.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-light_blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_light_blue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-pink",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_pink.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-magenta",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_magenta.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-purple",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_purple.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_blue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-cyan",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_cyan.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-green",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_green.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-lime",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_lime.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-yellow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_yellow.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-orange",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_orange.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-red",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_red.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_light_blue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-pink",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_pink.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-magenta",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_magenta.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-purple",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_purple.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_blue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-cyan",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_cyan.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_green.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_lime.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-yellow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_yellow.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-orange",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_orange.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-red",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_red.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-black",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_black.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-brown",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_brown.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-gray",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_gray.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_gray",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_light_gray.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-white",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_paint_white.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0235_smeargle/distorted_smeargle_alpha.png"
+        }
+      ]
+    }
+  ]
+}

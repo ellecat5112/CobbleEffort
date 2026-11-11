@@ -1,0 +1,71 @@
+{
+  "target": "cobblemon:keldeo",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "psychic"
+    },
+    {
+      "aspects": [
+        "resolute-form",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "cobalion",
+              "tier": 1
+            },
+            {
+              "pokemon": "terrakion",
+              "tier": 1
+            },
+            {
+              "pokemon": "virizion",
+              "tier": 1
+            },
+            {
+              "pokemon": "keldeo resolute",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canWalkOnWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "height": 14,
+      "labels": [
+        "gen5",
+        "mythical"
+      ],
+      "maleRatio": -1,
+      "name": "Resolute-Distorted",
+      "pokedex": [
+        "cobblemon.species.keldeo-resolute.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "weight": 485
+    }
+  ]
+}

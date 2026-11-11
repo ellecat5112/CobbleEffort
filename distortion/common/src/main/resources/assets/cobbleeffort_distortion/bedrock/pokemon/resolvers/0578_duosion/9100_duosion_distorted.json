@@ -1,0 +1,95 @@
+{
+  "species": "cobblemon:duosion",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:duosion_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_liquid.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:duosion_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shiny.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_liquid_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0578_duosion/distorted_duosion_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

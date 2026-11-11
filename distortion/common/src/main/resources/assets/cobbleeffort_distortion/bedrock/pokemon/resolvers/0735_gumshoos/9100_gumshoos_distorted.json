@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:gumshoos",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gumshoos_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0735_gumshoos/distorted_gumshoos.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gumshoos_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0735_gumshoos/distorted_gumshoos_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0735_gumshoos/distorted_gumshoos_alpha.png"
+        }
+      ]
+    }
+  ]
+}

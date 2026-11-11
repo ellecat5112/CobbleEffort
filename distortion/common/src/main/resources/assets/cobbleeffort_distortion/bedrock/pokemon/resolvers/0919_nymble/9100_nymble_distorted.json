@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:nymble",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nymble_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0919_nymble/distorted_nymble.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0919_nymble/distorted_nymble_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nymble_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0919_nymble/distorted_nymble_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0919_nymble/distorted_nymble_alpha.png"
+        }
+      ]
+    }
+  ]
+}

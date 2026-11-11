@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:slaking",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slaking_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0289_slaking/distorted_slaking.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slaking_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0289_slaking/distorted_slaking_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0289_slaking/distorted_slaking_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "species": "cobblemon:alcremie",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_vanilla.png",
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_strawberry_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-strawberry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_strawberry_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-berry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_berry_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-clover",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_clover_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-flower",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_flower_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-love",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_heart_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-ribbon",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_ribbon_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-star",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_star_decoration.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-vanilla",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_vanilla.png"
+    },
+    {
+      "aspects": [
+        "cream-caramel_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_caramel.png"
+    },
+    {
+      "aspects": [
+        "cream-ruby",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_ruby.png"
+    },
+    {
+      "aspects": [
+        "cream-matcha",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_matcha.png"
+    },
+    {
+      "aspects": [
+        "cream-mint",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_mint.png"
+    },
+    {
+      "aspects": [
+        "cream-lemon",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_lemon.png"
+    },
+    {
+      "aspects": [
+        "cream-salted",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_salted.png"
+    },
+    {
+      "aspects": [
+        "cream-ruby_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_rubyswirl.png"
+    },
+    {
+      "aspects": [
+        "cream-rainbow_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_rainbowswirl.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_strawberry_decoration_alcremie_gmax.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_alcremie_gmax.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:alcremie_gmax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0869_alcremie/distorted_alcremie_gmax_shiny_alcremie_gmax.png"
+    }
+  ]
+}

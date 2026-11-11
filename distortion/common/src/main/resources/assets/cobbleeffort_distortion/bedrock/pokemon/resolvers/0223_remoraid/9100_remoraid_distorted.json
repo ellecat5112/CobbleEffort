@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:remoraid",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:remoraid_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0223_remoraid/distorted_remoraid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:remoraid_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0223_remoraid/distorted_remoraid_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0223_remoraid/distorted_remoraid_alpha.png"
+        }
+      ]
+    }
+  ]
+}

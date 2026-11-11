@@ -1,0 +1,140 @@
+{
+  "species": "cobblemon:phantump",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:phantump_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_emissives.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:phantump_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_emissives.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0708_phantump/distorted_phantump_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

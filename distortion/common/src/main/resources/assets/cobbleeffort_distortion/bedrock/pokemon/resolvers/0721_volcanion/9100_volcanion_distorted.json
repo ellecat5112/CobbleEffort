@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:volcanion",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:volcanion_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0721_volcanion/distorted_volcanion.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:volcanion_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0721_volcanion/distorted_volcanion_shiny.png"
+    }
+  ]
+}

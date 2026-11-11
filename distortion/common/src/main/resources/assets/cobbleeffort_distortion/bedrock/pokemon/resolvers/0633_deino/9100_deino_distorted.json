@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:deino",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deino_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0633_deino/distorted_deino.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:deino_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0633_deino/distorted_deino_shiny.png"
+    }
+  ]
+}

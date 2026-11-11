@@ -1,0 +1,98 @@
+{
+  "target": "cobblemon:pumpkaboo",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fire"
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "distorted"
+      ],
+      "baseScale": 0.6,
+      "baseStats": {
+        "attack": 66,
+        "defence": 70,
+        "hp": 44,
+        "special_attack": 44,
+        "special_defence": 55,
+        "speed": 56
+      },
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Small-Distorted",
+      "pokedex": [
+        "cobblemon.species.pumpkaboo-small.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 35
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "distorted"
+      ],
+      "baseScale": 1,
+      "baseStats": {
+        "attack": 66,
+        "defence": 70,
+        "hp": 54,
+        "special_attack": 44,
+        "special_defence": 55,
+        "speed": 46
+      },
+      "battleOnly": false,
+      "height": 5,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Large-Distorted",
+      "pokedex": [
+        "cobblemon.species.pumpkaboo-large.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 75
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "distorted"
+      ],
+      "baseScale": 1.4,
+      "baseStats": {
+        "attack": 66,
+        "defence": 70,
+        "hp": 59,
+        "special_attack": 44,
+        "special_defence": 55,
+        "speed": 41
+      },
+      "battleOnly": false,
+      "height": 8,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Super-Distorted",
+      "pokedex": [
+        "cobblemon.species.pumpkaboo-super.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "weight": 150
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:luvdisc",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:luvdisc_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0370_luvdisc/distorted_luvdisc.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:luvdisc_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0370_luvdisc/distorted_luvdisc_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0370_luvdisc/distorted_luvdisc_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "species": "cobblemon:gourgeist",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gourgeist_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0711_gourgeist/distorted_gourgeist_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -72,6 +72,20 @@ Entei and Suicune are Mega Showdown's models. Celebi is modelled only by AllTheM
 an ADDON module paints an original texture on its UV layout (`parts/layouts/atm_celebi_layout.json`, from
 `tools/addons/extract_layout.py`, no art read), set by texture alone so the resolver names no model.
 
+## 0.12.0: the whole Pokédex, random starter types, the ore
+
+- Every other species with a model in Cobblemon or Mega Showdown (710 more; 45 modelled only by other mods are not
+  covered), whole lines, on the type-theme module (`parts/themed.py`, lines in `themed_lines.json`; a model the motifs
+  don't fit is recoloured only).
+- Starters: random types (the user's direction, "so it's not predictable"): `make_assets.starter_charts()` gives each
+  line a seeded chart {its types -> random others} (never its own types or the chart weakness, no repeats), used for
+  forms, the engine (`distortChartBySpecies`), the move twins (per-species tables, as Mew's) and the ability twins
+  (keyed "Species:Types"; a pinch ability for a type without one is "<Type> Fervor"). Their looks are unchanged.
+- Distortion Crystal ore (`tools/make_ore.py`): stone and deepslate variants, 16 veins of 12 per chunk at y 0-192
+  (coal: 20 of 17, plus its upper band), needs a stone pickaxe, drops 2-4 Distortion Shards (Fortune; Silk Touch keeps
+  the ore; smeltable). Recipes: crystal = 4 shards + an amethyst shard; band = gold, shards and a crystal. Added to
+  every overworld biome through Architectury's BiomeModifications.
+
 ## The DNA machine (0.11.0)
 
 The user's design: a way to get Mewtwo. `dna/DnaMachineBlock` (two halves like a door, facing the placer; the

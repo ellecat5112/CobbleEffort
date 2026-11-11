@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:mimikyu",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "steel"
+    },
+    {
+      "aspects": [
+        "busted-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 2,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.5,
+      "name": "Busted-Distorted",
+      "pokedex": [
+        "cobblemon.species.mimikyu-busted.desc"
+      ],
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "weight": 7
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "species": "cobblemon:drifloon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:drifloon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:drifloon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0425_drifloon/distorted_drifloon_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

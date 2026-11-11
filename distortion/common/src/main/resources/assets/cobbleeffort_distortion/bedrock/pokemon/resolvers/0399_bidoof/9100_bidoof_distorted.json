@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:bidoof",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bidoof_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0399_bidoof/distorted_bidoof_bidoof_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bidoof_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0399_bidoof/distorted_bidoof_shiny_bidoof_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0399_bidoof/distorted_bidoof_alpha_bidoof_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bidoof_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0399_bidoof/distorted_bidoof_bidoof_female.png"
+    }
+  ]
+}

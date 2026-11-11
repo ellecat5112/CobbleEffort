@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:gabite",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gabite_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0444_gabite/distorted_gabite_gabite_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gabite_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0444_gabite/distorted_gabite_shiny_gabite_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0444_gabite/distorted_gabite_alpha_gabite_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gabite_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0444_gabite/distorted_gabite_gabite_female.png"
+    }
+  ]
+}

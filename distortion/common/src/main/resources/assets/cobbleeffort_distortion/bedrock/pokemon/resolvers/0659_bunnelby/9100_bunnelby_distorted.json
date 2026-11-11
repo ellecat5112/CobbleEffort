@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:bunnelby",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bunnelby_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0659_bunnelby/distorted_bunnelby.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bunnelby_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0659_bunnelby/distorted_bunnelby_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0659_bunnelby/distorted_bunnelby_alpha.png"
+        }
+      ]
+    }
+  ]
+}

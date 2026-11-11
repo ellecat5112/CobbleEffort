@@ -1,7 +1,7 @@
 """
 Type themes: the distorted look of a Pokémon from its NEW types (the chart turns each type into its weakness), placed
 on its own model by bone names (head, torso/body, tail*, wing*, arm*/hand*, leg*, ear*). The primary new type gets the
-full motif, the secondary an accent. Used by gen1.py for every Gen 1 line (and anything else that wants it).
+full motif, the secondary an accent. Used by themed.py for every line without a hand-made look.
 
   fighting  a brawler: bulked-up arms and legs, a red headband with trailing ribbons
   water     sea life: a finned crest along the back, a fluke on the tail (fire turns to anemone-like sea life)

@@ -1,0 +1,168 @@
+{
+  "species": "cobblemon:xatu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:xatu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:xatu_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_female_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:xatu_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_shiny_xatu_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_alpha_xatu_male.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0178_xatu/distorted_xatu_xatu_male_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

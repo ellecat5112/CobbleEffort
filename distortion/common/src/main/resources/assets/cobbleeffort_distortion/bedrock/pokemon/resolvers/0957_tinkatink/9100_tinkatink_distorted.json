@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:tinkatink",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tinkatink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0957_tinkatink/distorted_tinkatink.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tinkatink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0957_tinkatink/distorted_tinkatink_shiny.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-music",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tinkatink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0957_tinkatink/distorted_tinkatink_dot.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-music",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:tinkatink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0957_tinkatink/distorted_tinkatink_dot_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0957_tinkatink/distorted_tinkatink_alpha.png"
+        }
+      ]
+    }
+  ]
+}

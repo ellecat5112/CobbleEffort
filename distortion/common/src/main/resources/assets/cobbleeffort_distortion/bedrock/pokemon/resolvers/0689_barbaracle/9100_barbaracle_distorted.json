@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:barbaracle",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:barbaracle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0689_barbaracle/distorted_barbaracle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:barbaracle_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0689_barbaracle/distorted_barbaracle_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0689_barbaracle/distorted_barbaracle_alpha.png"
+        }
+      ]
+    }
+  ]
+}

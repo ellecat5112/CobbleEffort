@@ -1,0 +1,236 @@
+{
+  "species": "cobblemon:braviary",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:braviary_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:braviary_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:braviary_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_emissive1_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_emissive2_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_emissive3_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_emissive4_braviary_hisuian.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:braviary_hisuian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_emissive1_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_emissive2_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_emissive3_braviary_hisuian.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_emissive4_braviary_hisuian.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_shiny_braviary_hisuian_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "hisuian",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_alpha_braviary_hisuian.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0628_braviary/distorted_braviary_hisuian_braviary_hisuian_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

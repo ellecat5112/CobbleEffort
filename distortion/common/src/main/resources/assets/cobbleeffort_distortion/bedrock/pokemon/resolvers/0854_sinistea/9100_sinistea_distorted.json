@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:sinistea",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistea_phony_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistea_phony_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_phony.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_alpha_sinistea_phony.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antique",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistea_antique_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_antique.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_antique_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_antique_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_antique_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_sinistea_antique_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antique",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sinistea_antique_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_antique.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_antique_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_antique_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_antique_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0854_sinistea/distorted_sinistea_shiny_sinistea_antique_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

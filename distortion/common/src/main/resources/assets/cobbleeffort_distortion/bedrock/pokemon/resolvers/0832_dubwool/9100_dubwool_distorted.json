@@ -1,0 +1,467 @@
+{
+  "species": "cobblemon:dubwool",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dubwool_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dubwool_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_shiny.png"
+    },
+    {
+      "aspects": [
+        "color-black",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_black.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-brown",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_brown.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-cyan",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_cyan.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-gray",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_gray.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_green.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_blue",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_light_blue.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_gray",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_light_gray.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_lime.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-magenta",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_magenta.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-orange",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_orange.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-pink",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_pink.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-purple",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_purple.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-red",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_red.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-white",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_white.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-yellow",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-black",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_black_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-blue",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_blue_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-brown",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_brown_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-cyan",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_cyan_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-gray",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_gray_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-green",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_green_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_blue",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_light_blue_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-light_gray",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_light_gray_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-lime",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_lime_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-magenta",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_magenta_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-orange",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_orange_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-pink",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_pink_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-purple",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_purple_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-red",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_red_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-white",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_white_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "color-yellow",
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "color",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_wool_yellow_shiny.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0832_dubwool/distorted_dubwool_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "species": "cobblemon:rayquaza",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rayquaza2_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_rayquaza2.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_rayquaza2_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_rayquaza2_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_rayquaza2_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_rayquaza2_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rayquaza2_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_shiny_rayquaza2.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_shiny_rayquaza2_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_shiny_rayquaza2_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_shiny_rayquaza2_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_rayquaza_shiny_rayquaza2_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:megarayquaza_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_megarayquaza.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_emissive_megarayquaza.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_megarayquaza_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_megarayquaza_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_megarayquaza_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_megarayquaza_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:megarayquaza_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_shiny_megarayquaza.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_emissive_shiny_megarayquaza.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_shiny_megarayquaza_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_shiny_megarayquaza_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_shiny_megarayquaza_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0384_rayquaza/distorted_megarayquaza_shiny_megarayquaza_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

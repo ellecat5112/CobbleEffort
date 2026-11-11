@@ -1,0 +1,34 @@
+{
+  "target": "cobblemon:goomy",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fairy",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 3,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.goomy-hisuibias.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 28,
+      "battleOnly": false
+    }
+  ]
+}

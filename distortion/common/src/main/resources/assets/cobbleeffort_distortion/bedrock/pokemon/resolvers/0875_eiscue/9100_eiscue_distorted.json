@@ -1,0 +1,165 @@
+{
+  "species": "cobblemon:eiscue",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:eiscue_ice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:eiscue_ice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_shiny_eiscue_ice.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_shiny_eiscue_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_shiny_eiscue_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_shiny_eiscue_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_shiny_eiscue_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_alpha_eiscue_ice.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "noice_face",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:eiscue_no_ice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "noice_face",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:eiscue_no_ice_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_shiny_eiscue_no_ice.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_shiny_eiscue_no_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_shiny_eiscue_no_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_shiny_eiscue_no_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_shiny_eiscue_no_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "noice_face",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_no_ice_alpha_eiscue_no_ice.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0875_eiscue/distorted_eiscue_eiscue_no_ice_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

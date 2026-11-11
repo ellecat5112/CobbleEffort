@@ -1,0 +1,369 @@
+{
+  "species": "cobblemon:timburr",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:timburr_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:timburr_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-oak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_oak.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-spruce",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_spruce.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-acacia",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_acacia.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-birch",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_birch.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-darkoak",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_dark_oak.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-jungle",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_jungle.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-mangrove",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_mangrove.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-cherry",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_cherry.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-crimson",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_crimson.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-warped",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_warped.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tree-saccharine",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_saccharine.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0532_timburr/distorted_timburr_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

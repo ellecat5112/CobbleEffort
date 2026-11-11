@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:nosepass",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nosepass_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0299_nosepass/distorted_nosepass.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:nosepass_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0299_nosepass/distorted_nosepass_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0299_nosepass/distorted_nosepass_alpha.png"
+        }
+      ]
+    }
+  ]
+}

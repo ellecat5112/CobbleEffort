@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:cherrim",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "height": 5,
+      "labels": [
+        "gen5"
+      ],
+      "maleRatio": 0.5,
+      "name": "Sunshine-Distorted",
+      "pokedex": [
+        "cobblemon.species.cherrim-sunshine.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 93
+    }
+  ]
+}

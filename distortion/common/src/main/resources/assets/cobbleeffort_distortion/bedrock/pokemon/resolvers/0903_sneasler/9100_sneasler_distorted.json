@@ -1,0 +1,111 @@
+{
+  "species": "cobblemon:sneasler",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sneasler_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sneasler_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-composter",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sneasler_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_basket.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0903_sneasler/distorted_sneasler_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

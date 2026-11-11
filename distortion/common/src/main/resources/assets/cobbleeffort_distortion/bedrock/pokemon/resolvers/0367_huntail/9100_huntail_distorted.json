@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:huntail",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:huntail_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0367_huntail/distorted_huntail.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0367_huntail/distorted_huntail_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:huntail_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0367_huntail/distorted_huntail_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0367_huntail/distorted_huntail_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0367_huntail/distorted_huntail_alpha.png"
+        }
+      ]
+    }
+  ]
+}

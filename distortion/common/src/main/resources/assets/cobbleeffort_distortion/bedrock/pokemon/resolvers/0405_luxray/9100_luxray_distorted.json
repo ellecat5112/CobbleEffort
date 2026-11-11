@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:luxray",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:luxray_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_luxray_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_emissive_luxray_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:luxray_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_shiny_luxray_male.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_emissive_shiny_luxray_male.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_alpha_luxray_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:luxray_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0405_luxray/distorted_luxray_luxray_female.png"
+    }
+  ]
+}

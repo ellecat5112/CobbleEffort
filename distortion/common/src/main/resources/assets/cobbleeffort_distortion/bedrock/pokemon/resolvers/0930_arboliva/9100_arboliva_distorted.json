@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:arboliva",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:arboliva_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:arboliva_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0930_arboliva/distorted_arboliva_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

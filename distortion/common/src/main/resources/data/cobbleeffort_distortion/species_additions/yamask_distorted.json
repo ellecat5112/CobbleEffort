@@ -1,0 +1,79 @@
+{
+  "target": "cobblemon:yamask",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "wanderingspirit",
+        "h:wanderingspirit"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 55,
+        "defence": 85,
+        "hp": 38,
+        "special_attack": 30,
+        "special_defence": 65,
+        "speed": 30
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 2,
+          "toleratedLeaders": [
+            {
+              "pokemon": "yamask alpha",
+              "tier": 1
+            },
+            {
+              "pokemon": "runerigus alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ],
+          "willSleepOnBed": true
+        }
+      },
+      "height": 5,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.5,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.yamask-galar.desc"
+      ],
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "weight": 15
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "target": "cobblemon:ogerpon",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "waterabsorb",
+        "h:waterabsorb"
+      ],
+      "aspects": [
+        "wellspring-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Wellspring-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-wellspring.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "moldbreaker",
+        "h:moldbreaker"
+      ],
+      "aspects": [
+        "hearthflame-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Hearthflame-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-hearthflame.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "water",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "sturdy",
+        "h:sturdy"
+      ],
+      "aspects": [
+        "cornerstone-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Cornerstone-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-cornerstone.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "fighting",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "embodyaspectteal",
+        "h:embodyaspectteal"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "teal-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "dynamaxBlocked": true,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Teal-Tera-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-tealtera.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "embodyaspectwellspring",
+        "h:embodyaspectwellspring"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "wellspring-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "dynamaxBlocked": true,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Wellspring-Tera-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-wellspringtera.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "grass",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "embodyaspecthearthflame",
+        "h:embodyaspecthearthflame"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "dynamaxBlocked": true,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Hearthflame-Tera-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-hearthflametera.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "water",
+      "weight": 398
+    },
+    {
+      "abilities": [
+        "embodyaspectcornerstone",
+        "h:embodyaspectcornerstone"
+      ],
+      "aspects": [
+        "embody-aspect",
+        "cornerstone-mask",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "dynamaxBlocked": true,
+      "eggCycles": 5,
+      "height": 12,
+      "labels": [
+        "gen9",
+        "legendary"
+      ],
+      "maleRatio": 0,
+      "name": "Cornerstone-Tera-Distorted",
+      "pokedex": [
+        "cobblemon.species.ogerpon-cornerstonetera.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "fighting",
+      "weight": 398
+    }
+  ]
+}

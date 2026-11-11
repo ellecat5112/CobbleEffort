@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:bisharp",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bisharp_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0625_bisharp/distorted_bisharp.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:bisharp_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0625_bisharp/distorted_bisharp_shiny.png"
+    }
+  ]
+}

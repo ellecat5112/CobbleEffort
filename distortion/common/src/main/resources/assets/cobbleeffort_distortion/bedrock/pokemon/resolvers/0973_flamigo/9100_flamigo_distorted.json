@@ -1,0 +1,128 @@
+{
+  "species": "cobblemon:flamigo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flamigo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flamigo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_storm3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0973_flamigo/distorted_flamigo_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

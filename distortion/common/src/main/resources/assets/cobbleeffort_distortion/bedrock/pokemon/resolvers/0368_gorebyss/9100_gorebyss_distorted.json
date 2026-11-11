@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:gorebyss",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gorebyss_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0368_gorebyss/distorted_gorebyss.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gorebyss_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0368_gorebyss/distorted_gorebyss_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0368_gorebyss/distorted_gorebyss_alpha.png"
+        }
+      ]
+    }
+  ]
+}

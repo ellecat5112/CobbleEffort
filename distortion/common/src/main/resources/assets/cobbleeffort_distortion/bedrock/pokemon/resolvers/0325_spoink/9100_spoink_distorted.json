@@ -1,0 +1,120 @@
+{
+  "species": "cobblemon:spoink",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:spoink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink.png",
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_pearl.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:spoink_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny.png",
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny_pearl.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-ender_pearl",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "pearl",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_ender_pearl.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0325_spoink/distorted_spoink_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

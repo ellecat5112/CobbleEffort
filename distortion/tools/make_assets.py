@@ -79,13 +79,13 @@ TYPE_OVERRIDES = {"mew": ["normal", "fighting"], "mewtwo": ["normal", "fighting"
 for _line, _num in zip(STARTER_LINES, STARTER_NUMS):
     for _i, _sp in enumerate(_line):
         DISTORTABLE[_sp] = f"{_num + _i:04d}_{_sp}"
-# every other Gen 1 Pokémon, with its whole evolutionary line (later-generation members too: Pichu, Crobat, Eevee's
-# evolutions...): looks themed on each Pokémon's new types (tools/parts/gen1.py on parts/_themes.py)
-GEN1_LINES = json.loads((HERE / "parts" / "gen1_lines.json").read_text())
-GEN1_FOLDERS = json.loads((HERE / "parts" / "gen1_folders.json").read_text())
-for _line in GEN1_LINES:
+# every other Pokémon with a Cobblemon or Mega Showdown model, with its whole evolutionary line (Gen 1 first, in 0.9.0,
+# then the rest of the Pokédex in 0.12.0): looks themed on each Pokémon's new types (parts/themed.py on _themes.py)
+THEMED_LINES = json.loads((HERE / "parts" / "themed_lines.json").read_text())
+THEMED_FOLDERS = json.loads((HERE / "parts" / "themed_folders.json").read_text())
+for _line in THEMED_LINES:
     for _sp in _line:
-        DISTORTABLE[_sp] = GEN1_FOLDERS[_sp]
+        DISTORTABLE.setdefault(_sp, THEMED_FOLDERS[_sp])
 
 
 def write_json(path: Path, obj):
@@ -258,8 +258,40 @@ def skipped(sp, aspects):
     return bool(set(aspects) & SKIPPED_ASPECTS) and not (sp in ITEMLESS_MEGAS and "primal" not in aspects)
 
 
-def invert(t):
-    return TYPE_CHART[t]
+_SPECIES_CHARTS = None
+
+
+def starter_charts():
+    """Each starter line's own random chart (the user's choice: "starters get randomized new types so it's not
+    predictable"): every type the line has (its forms' too: Hisuian Typhlosion's Ghost) gets a random new type, never
+    the type itself, another of the line's types, its chart weakness, or one already picked for the line. Seeded by
+    the line, so it's the same in every build and on every server. species -> {old type: new type}."""
+    global _SPECIES_CHARTS
+    if _SPECIES_CHARTS is None:
+        import random
+        _SPECIES_CHARTS = {}
+        for line in STARTER_LINES:
+            own = set()
+            for sp in line:
+                d = cobblemon_species(sp)
+                for f in [d] + d.get("forms", []):
+                    for k in ("primaryType", "secondaryType"):
+                        if f.get(k):
+                            own.add(f[k].lower())
+            rng = random.Random(f"cobbleeffort-distortion-starter:{line[0]}")
+            chart = {}
+            for t in sorted(own):
+                pool = [x for x in TYPES if x not in own and x != TYPE_CHART[t] and x not in chart.values()]
+                chart[t] = rng.choice(pool)
+            for sp in line:
+                _SPECIES_CHARTS[sp] = chart
+    return _SPECIES_CHARTS
+
+
+def invert(t, sp=None):
+    t = t.lower()
+    chart = starter_charts().get(sp, {}) if sp else {}
+    return chart.get(t) or TYPE_CHART.get(t, t)
 
 
 def types_for(sp, aspects=()):
@@ -269,7 +301,7 @@ def types_for(sp, aspects=()):
     for f in d.get("forms", []):
         if f.get("aspects") and set(f["aspects"]) <= set(aspects) and "primaryType" in f:
             old = [f["primaryType"]] + ([f["secondaryType"]] if f.get("secondaryType") else [])
-    new = list(dict.fromkeys(TYPE_OVERRIDES.get(sp) or [invert(t) for t in old]))
+    new = list(dict.fromkeys(TYPE_OVERRIDES.get(sp) or [invert(t, sp) for t in old]))
     return [t.lower() for t in old], [t.lower() for t in new]
 
 
@@ -281,10 +313,10 @@ def forms():
     for sp in DISTORTABLE:
         d = cobblemon_species(sp)
         new = []
-        base = {"name": "Distorted", "primaryType": invert(d["primaryType"]), "aspects": ["distorted"],
+        base = {"name": "Distorted", "primaryType": invert(d["primaryType"], sp), "aspects": ["distorted"],
                 "battleOnly": False}
         if d.get("secondaryType"):
-            base["secondaryType"] = invert(d["secondaryType"])
+            base["secondaryType"] = invert(d["secondaryType"], sp)
         if sp in TYPE_OVERRIDES:
             base["primaryType"], base["secondaryType"] = TYPE_OVERRIDES[sp]
         if base.get("secondaryType") == base["primaryType"]:
@@ -295,10 +327,10 @@ def forms():
                 continue
             g = copy.deepcopy(f)                                   # keep the form's stats, abilities, size
             g["name"] = f"{f['name']}-Distorted"
-            g["primaryType"] = invert(f.get("primaryType", d["primaryType"]))
+            g["primaryType"] = invert(f.get("primaryType", d["primaryType"]), sp)
             sec = f.get("secondaryType", d.get("secondaryType") if "primaryType" not in f else None)
             if sec:
-                g["secondaryType"] = invert(sec)
+                g["secondaryType"] = invert(sec, sp)
             else:
                 g.pop("secondaryType", None)
             g["aspects"] = list(f.get("aspects", [])) + ["distorted"]
@@ -468,7 +500,7 @@ def looks():
         def recolour_for(img, shiny, kit=None):
             rc = getattr(module, "RECOLOUR", None) if module else None
             if callable(rc):
-                rc = rc(kit)                                    # per species / form (gen1.py: the new type's colour)
+                rc = rc(kit)                                    # per species / form (themed.py: the new type's colour)
             if rc == "keep":
                 return img.convert("RGBA")                      # a specialised distortion keeps its colours
             if rc == "negative":                                # a photographic negative (Lugia: white turns black)
@@ -684,6 +716,9 @@ def lang():
     names[f"{MOD}.message.one_at_a_time"] = "Only one Pokémon can be distorted at a time: revert %s first."
     import make_dna_machine
     names.update(make_dna_machine.LANG)                                       # the DNA machine
+    import make_ore
+    names.update(make_ore.LANG)                                               # the Distortion Crystal ore
+    names[f"item.{MOD}.distortion_crystal.tooltip"] = "Give it to a Pokémon to distort it. Crafted from Distortion Shards (mined from Distortion Crystal ore) and an amethyst shard."
     path = RES / "assets" / MOD / "lang" / "en_us.json"
     old = json.loads(path.read_text()) if path.exists() else {}
     names.update({k: v for k, v in old.items() if k.startswith("cobblemon.")})   # make_battle.py's move and ability names
@@ -693,6 +728,8 @@ def lang():
 def main():
     import make_dna_machine
     make_dna_machine.build()                                                  # the DNA machine (Mew -> Mewtwo)
+    import make_ore
+    make_ore.build()                                                          # the ore, shards and recipes
     items()
     slot()
     forms()

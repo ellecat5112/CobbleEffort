@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:landorus",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:landorus_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:landorus_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "therian-forme",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:landorus_therian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_landorus_therian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_landorus_therian_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_landorus_therian_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_landorus_therian_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_landorus_therian_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "therian-forme",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:landorus_therian_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_shiny_landorus_therian.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_shiny_landorus_therian_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_shiny_landorus_therian_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_shiny_landorus_therian_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0645_landorus/distorted_landorus_therian_shiny_landorus_therian_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

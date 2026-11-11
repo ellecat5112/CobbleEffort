@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:hippowdon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hippowdon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0450_hippowdon/distorted_hippowdon_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hippowdon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0450_hippowdon/distorted_hippowdon_male_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0450_hippowdon/distorted_hippowdon_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hippowdon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0450_hippowdon/distorted_hippowdon_female.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:hippowdon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0450_hippowdon/distorted_hippowdon_female_shiny.png"
+    }
+  ]
+}

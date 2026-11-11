@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:grubbin",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grubbin_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0736_grubbin/distorted_grubbin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grubbin_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0736_grubbin/distorted_grubbin_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0736_grubbin/distorted_grubbin_alpha.png"
+        }
+      ]
+    }
+  ]
+}

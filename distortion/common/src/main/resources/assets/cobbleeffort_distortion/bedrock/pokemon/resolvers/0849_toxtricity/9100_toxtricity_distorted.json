@@ -1,0 +1,146 @@
+{
+  "species": "cobblemon:toxtricity",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_amped_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_toxtricity_amped.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_emissive1_toxtricity_amped.png",
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_emissive2_toxtricity_amped.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_amped_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_shiny_toxtricity_amped.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_emissive1_toxtricity_amped.png",
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_emissive2_toxtricity_amped.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_amped_alpha_toxtricity_amped.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "low_key-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_lowkey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_toxtricity_lowkey.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_emissive1_toxtricity_lowkey.png",
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_emissive2_toxtricity_lowkey.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "low_key-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_lowkey_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_shiny_toxtricity_lowkey.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "mane",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_emissive1_toxtricity_lowkey.png",
+              "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_emissive2_toxtricity_lowkey.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "low_key-form",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_lowkey_alpha_toxtricity_lowkey.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_gigantamax_toxtricity_gigantamax.png",
+      "layers": [
+        {
+          "name": "mane",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_gigantamax_emissive_1_toxtricity_gigantamax.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toxtricity_gigantamax_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0849_toxtricity/distorted_toxtricity_gigantamax_shiny_toxtricity_gigantamax.png"
+    }
+  ]
+}

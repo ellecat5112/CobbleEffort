@@ -1,0 +1,31 @@
+{
+  "target": "cobblemon:sinistea",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "dark",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "antique",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 1,
+      "labels": [
+        "gen8"
+      ],
+      "maleRatio": -1,
+      "name": "Antique-Distorted",
+      "pokedex": [
+        "cobblemon.species.sinistea-antique.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 2
+    }
+  ]
+}

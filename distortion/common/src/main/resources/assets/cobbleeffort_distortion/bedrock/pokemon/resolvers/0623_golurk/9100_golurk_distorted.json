@@ -1,0 +1,62 @@
+{
+  "species": "cobblemon:golurk",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golurk_distorted.geo",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_emissive_1.png",
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_emissive_2.png",
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_emissive_3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:golurk_distorted.geo",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "color",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_shiny_emissive_1.png",
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_shiny_emissive_2.png",
+              "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_shiny_emissive_3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0623_golurk/distorted_golurk_alpha.png"
+        }
+      ]
+    }
+  ]
+}

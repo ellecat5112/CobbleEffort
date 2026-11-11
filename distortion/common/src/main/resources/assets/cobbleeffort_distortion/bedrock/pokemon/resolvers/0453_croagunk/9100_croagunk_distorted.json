@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:croagunk",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:croagunk_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:croagunk_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_shiny_croagunk_male.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_shiny_croagunk_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_shiny_croagunk_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_shiny_croagunk_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_shiny_croagunk_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_alpha_croagunk_male.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_male_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:croagunk_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_female.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_female_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_female_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_female_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0453_croagunk/distorted_croagunk_croagunk_female_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

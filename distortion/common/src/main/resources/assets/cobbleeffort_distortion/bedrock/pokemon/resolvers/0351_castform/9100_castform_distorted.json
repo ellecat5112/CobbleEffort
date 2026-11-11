@@ -1,0 +1,131 @@
+{
+  "species": "cobblemon:castform",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_shiny.png"
+    },
+    {
+      "aspects": [
+        "snowy-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_snowy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_castform_snowy.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_outter_castform_snowy.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_castform_snowy_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_castform_snowy_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_castform_snowy_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_castform_snowy_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snowy-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_snowy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_shiny_castform_snowy.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_shiny_castform_snowy_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_shiny_castform_snowy_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_shiny_castform_snowy_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_snowy_shiny_castform_snowy_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunny-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_sunny_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_sunny_castform_sunny.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_sunny_outter_castform_sunny.png",
+          "emissive": false,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunny-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_sunny_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_sunny_shiny_castform_sunny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "rainy-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_rainy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_rainy_castform_rainy.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_rainy_outter_castform_rainy.png",
+          "emissive": false,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rainy-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:castform_rainy_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0351_castform/distorted_castform_rainy_shiny_castform_rainy.png",
+      "layers": []
+    }
+  ]
+}

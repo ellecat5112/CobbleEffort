@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:walkingwake",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:walkingwake_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1009_walkingwake/distorted_walkingwake.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1009_walkingwake/distorted_walkingwake_emissive.png",
+          "translucent": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:walkingwake_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1009_walkingwake/distorted_walkingwake_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1009_walkingwake/distorted_walkingwake_alpha.png"
+        }
+      ]
+    }
+  ]
+}

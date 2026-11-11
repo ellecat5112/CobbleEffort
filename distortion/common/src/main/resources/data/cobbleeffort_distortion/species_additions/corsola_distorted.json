@@ -1,0 +1,91 @@
+{
+  "target": "cobblemon:corsola",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fighting"
+    },
+    {
+      "abilities": [
+        "weakarmor",
+        "h:cursedbody"
+      ],
+      "aspects": [
+        "galarian",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 55,
+        "defence": 100,
+        "hp": 60,
+        "special_attack": 65,
+        "special_defence": 100,
+        "speed": 30
+      },
+      "battleOnly": false,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 9,
+          "toleratedLeaders": [
+            {
+              "pokemon": "corsola galarian",
+              "tier": 1
+            },
+            {
+              "pokemon": "cursola",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "canSwimInWater": false,
+            "swimSpeed": 0.125
+          },
+          "walk": {
+            "avoidsLand": true,
+            "walkSpeed": 0.125
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "drowsyChance": 0.0033,
+          "light": "0-15",
+          "rouseChance": 0.0042,
+          "times": [
+            "day"
+          ]
+        }
+      },
+      "evYield": {
+        "attack": 0,
+        "defence": 0,
+        "hp": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "height": 6,
+      "labels": [
+        "gen8",
+        "galarian_form"
+      ],
+      "maleRatio": 0.25,
+      "name": "Galar-Distorted",
+      "pokedex": [
+        "cobblemon.species.corsola-galar.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 5
+    }
+  ]
+}

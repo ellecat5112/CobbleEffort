@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:kricketune",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kricketune_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0402_kricketune/distorted_kricketune_kricketune_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kricketune_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0402_kricketune/distorted_kricketune_shiny_kricketune_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0402_kricketune/distorted_kricketune_alpha_kricketune_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kricketune_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0402_kricketune/distorted_kricketune_kricketune_female.png"
+    }
+  ]
+}

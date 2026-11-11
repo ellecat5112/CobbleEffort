@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:whiscash",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:whiscash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "whiscash_nero",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:whiscash_nero_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash_nero_whiscash_nero.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:whiscash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash_shiny.png"
+    },
+    {
+      "aspects": [
+        "whiscash_nero",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:whiscash_nero_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash_nero_shiny_whiscash_nero.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "whiscash_nero",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0340_whiscash/distorted_whiscash_nero_alpha_whiscash_nero.png"
+        }
+      ]
+    }
+  ]
+}

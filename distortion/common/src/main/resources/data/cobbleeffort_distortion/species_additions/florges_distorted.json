@@ -1,0 +1,85 @@
+{
+  "target": "cobblemon:florges",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "steel",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 11,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Yellow-Distorted",
+      "pokedex": [
+        "cobblemon.species.florges-yellow.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 100
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 11,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Orange-Distorted",
+      "pokedex": [
+        "cobblemon.species.florges-orange.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 100
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 11,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "Blue-Distorted",
+      "pokedex": [
+        "cobblemon.species.florges-blue.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 100
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 11,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0,
+      "name": "White-Distorted",
+      "pokedex": [
+        "cobblemon.species.florges-white.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 100
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "target": "cobblemon:urshifu",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "psychic",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "aspects": [
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 19,
+      "labels": [
+        "gen8",
+        "legendary"
+      ],
+      "maleRatio": 0.875,
+      "name": "Rapid-Strike-Distorted",
+      "pokedex": [
+        "cobblemon.species.urshifu-rapidstrike.desc"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "grass",
+      "weight": 1050
+    },
+    {
+      "aspects": [
+        "gmax",
+        "single_strike-style",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 290,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.875,
+      "name": "Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.urshifu-gmax.desc"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "fairy",
+      "weight": 0
+    },
+    {
+      "aspects": [
+        "gmax",
+        "rapid_strike-style",
+        "distorted"
+      ],
+      "battleOnly": true,
+      "dynamaxBlocked": true,
+      "height": 260,
+      "labels": [
+        "gen8",
+        "gmax"
+      ],
+      "maleRatio": 0.875,
+      "name": "Rapid-Strike-Gmax-Distorted",
+      "pokedex": [
+        "cobblemon.species.urshifu-rapidstrikegmax.desc"
+      ],
+      "primaryType": "psychic",
+      "secondaryType": "grass",
+      "weight": 0
+    }
+  ]
+}

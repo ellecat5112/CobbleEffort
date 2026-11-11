@@ -1,0 +1,97 @@
+{
+  "species": "cobblemon:zygarde",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "10-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_10_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_10_zygarde_10.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/10/distorted_zygarde10_emissive_zygarde_10.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "10-percent",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_10_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_10_shiny_zygarde_10.png"
+    },
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_shiny.png"
+    },
+    {
+      "aspects": [
+        "10-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_10_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_10_zygarde_10.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "10-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_10_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_10_shiny_zygarde_10.png"
+    },
+    {
+      "aspects": [
+        "complete-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_100_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_100_zygarde_100.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "complete-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygarde_100_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_100_shiny_zygarde_100.png"
+    },
+    {
+      "aspects": [
+        "core-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygardecore_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_core_zygardecore.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "core-percent",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:zygardecore_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0718_zygarde/distorted_zygarde_core_shiny_zygardecore.png"
+    }
+  ]
+}

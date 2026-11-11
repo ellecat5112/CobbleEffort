@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:buneary",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:buneary_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0427_buneary/distorted_buneary.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:buneary_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0427_buneary/distorted_buneary_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0427_buneary/distorted_buneary_alpha.png"
+        }
+      ]
+    }
+  ]
+}

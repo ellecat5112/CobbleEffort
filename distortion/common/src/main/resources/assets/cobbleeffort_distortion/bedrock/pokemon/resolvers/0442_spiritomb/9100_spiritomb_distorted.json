@@ -1,0 +1,105 @@
+{
+  "species": "cobblemon:spiritomb",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:spiritomb_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_emissive.png",
+          "translucent": true
+        },
+        {
+          "emissive": true,
+          "name": "transparent_emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_transparency.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shiny_emissive.png",
+          "translucent": true
+        },
+        {
+          "emissive": true,
+          "name": "transparent_emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shiny_transparency.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0442_spiritomb/distorted_spiritomb_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:shuppet",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shuppet_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:shuppet_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0353_shuppet/distorted_shuppet_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

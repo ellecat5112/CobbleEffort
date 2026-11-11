@@ -1,0 +1,128 @@
+{
+  "species": "cobblemon:sigilyph",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sigilyph_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sigilyph_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_shadow3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0561_sigilyph/distorted_sigilyph_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

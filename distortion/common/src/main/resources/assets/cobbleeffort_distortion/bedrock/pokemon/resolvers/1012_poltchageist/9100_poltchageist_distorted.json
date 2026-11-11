@@ -1,0 +1,233 @@
+{
+  "species": "cobblemon:poltchageist",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:poltchageist_counterfeit_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_emissive_poltchageist_counterfeit.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:poltchageist_counterfeit_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_emissive_shiny_poltchageist_counterfeit.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_counterfeit_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_alpha_poltchageist_counterfeit.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_counterfeit_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "artisan",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:poltchageist_artisan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_emissive_poltchageist_artisan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_poltchageist_artisan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "artisan",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:poltchageist_artisan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_emissive_shiny_poltchageist_artisan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_flames3.png"
+            ],
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/1012_poltchageist/distorted_poltchageist_shiny_poltchageist_artisan_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

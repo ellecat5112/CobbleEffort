@@ -1,0 +1,33 @@
+{
+  "target": "cobblemon:sinistcha",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fire",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "masterpiece",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 2,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": -1,
+      "name": "Masterpiece-Distorted",
+      "pokedex": [
+        "cobblemon.species.sinistcha-masterpiece.desc"
+      ],
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "weight": 22
+    }
+  ]
+}

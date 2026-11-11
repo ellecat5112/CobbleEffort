@@ -1,0 +1,52 @@
+{
+  "species": "cobblemon:copperajah",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:copperajah_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0879_copperajah/distorted_copperajah.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:copperajah_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0879_copperajah/distorted_copperajah_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0879_copperajah/distorted_copperajah_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_copperajah_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0879_copperajah/distorted_gmax_copperajah_gmax_copperajah.png"
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gmax_copperajah_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0879_copperajah/distorted_gmax_copperajah_shiny_gmax_copperajah.png"
+    }
+  ]
+}

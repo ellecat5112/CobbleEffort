@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:morpeko",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:morpeko_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0877_morpeko/distorted_morpeko.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:morpeko_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0877_morpeko/distorted_morpeko_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0877_morpeko/distorted_morpeko_alpha.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hangry-mode",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:morpeko_hangry_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0877_morpeko/distorted_morpeko_hangry_morpeko_hangry.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hangry-mode",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:morpeko_hangry_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0877_morpeko/distorted_morpeko_hangry_shiny_morpeko_hangry.png"
+    }
+  ]
+}

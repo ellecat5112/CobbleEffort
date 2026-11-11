@@ -1,0 +1,185 @@
+{
+  "species": "cobblemon:cramorant",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gulping-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_gulping_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_cramorant_gulping.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_cramorant_gulping_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_cramorant_gulping_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_cramorant_gulping_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_cramorant_gulping_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gulping-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_gulping_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_shiny_cramorant_gulping.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_shiny_cramorant_gulping_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_shiny_cramorant_gulping_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_shiny_cramorant_gulping_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_gulping_shiny_cramorant_gulping_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gorging-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_pikachu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_cramorant_pikachu.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_cramorant_pikachu_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_cramorant_pikachu_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_cramorant_pikachu_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_cramorant_pikachu_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gorging-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:cramorant_pikachu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_shiny_cramorant_pikachu.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_shiny_cramorant_pikachu_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_shiny_cramorant_pikachu_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_shiny_cramorant_pikachu_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0845_cramorant/distorted_cramorant_pikachu_shiny_cramorant_pikachu_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

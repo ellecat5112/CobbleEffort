@@ -1,0 +1,52 @@
+{
+  "target": "cobblemon:tatsugiri",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fairy",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "grass"
+    },
+    {
+      "aspects": [
+        "tatsugiri-texture-droopy",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "Droopy-Distorted",
+      "pokedex": [
+        "cobblemon.species.tatsugiri-droopy.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "grass",
+      "weight": 80
+    },
+    {
+      "aspects": [
+        "tatsugiri-texture-stretchy",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 3,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "Stretchy-Distorted",
+      "pokedex": [
+        "cobblemon.species.tatsugiri-stretchy.desc"
+      ],
+      "primaryType": "fairy",
+      "secondaryType": "grass",
+      "weight": 80
+    }
+  ]
+}

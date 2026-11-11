@@ -1,0 +1,76 @@
+{
+  "target": "cobblemon:eternatus",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "ground",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fairy"
+    },
+    {
+      "aspects": [
+        "eternamax",
+        "distorted"
+      ],
+      "baseExperienceYield": 563,
+      "baseStats": {
+        "attack": 115,
+        "defence": 250,
+        "hp": 255,
+        "special_attack": 125,
+        "special_defence": 250,
+        "speed": 130
+      },
+      "battleOnly": true,
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 4
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": [
+            "any"
+          ]
+        }
+      },
+      "height": 1000,
+      "labels": [
+        "gen8",
+        "legendary",
+        "restricted"
+      ],
+      "lightingData": {
+        "lightLevel": 15,
+        "liquidGlowMode": "BOTH"
+      },
+      "maleRatio": -1,
+      "name": "Eternamax-Distorted",
+      "pokedex": [
+        "cobblemon.species.eternatus-eternamax.desc"
+      ],
+      "primaryType": "ground",
+      "secondaryType": "fairy",
+      "weight": 0
+    }
+  ]
+}

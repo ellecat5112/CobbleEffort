@@ -1,0 +1,41 @@
+{
+  "target": "cobblemon:basculegion",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "grass",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "dark"
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "baseStats": {
+        "attack": 92,
+        "defence": 65,
+        "hp": 120,
+        "special_attack": 100,
+        "special_defence": 75,
+        "speed": 78
+      },
+      "battleOnly": false,
+      "height": 30,
+      "labels": [
+        "gen8a"
+      ],
+      "maleRatio": 0,
+      "name": "F-Distorted",
+      "pokedex": [
+        "cobblemon.species.basculegion-f.desc"
+      ],
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "weight": 1100
+    }
+  ]
+}

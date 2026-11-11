@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:dracozolt",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dracozolt_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0880_dracozolt/distorted_dracozolt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:dracozolt_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0880_dracozolt/distorted_dracozolt_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0880_dracozolt/distorted_dracozolt_alpha.png"
+        }
+      ]
+    }
+  ]
+}

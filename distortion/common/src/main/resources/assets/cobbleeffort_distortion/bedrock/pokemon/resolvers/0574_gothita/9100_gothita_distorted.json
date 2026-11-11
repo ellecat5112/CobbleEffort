@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:gothita",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gothita_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gothita_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0574_gothita/distorted_gothita_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

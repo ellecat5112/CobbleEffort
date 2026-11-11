@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:polteageist",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:polteageist_phony_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:polteageist_phony_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_phony.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_alpha_polteageist_phony.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_phony_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antique",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:polteageist_antique_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_antique.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_antique_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_antique_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_antique_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_polteageist_antique_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antique",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:polteageist_antique_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_antique.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_antique_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_antique_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_antique_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0855_polteageist/distorted_polteageist_shiny_polteageist_antique_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

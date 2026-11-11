@@ -1,0 +1,308 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny_emissive.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/distorted_rotom_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_heat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/heat/distorted_rotom_heat_rotom_heat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_heat_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/heat/distorted_rotom_heat_shiny_rotom_heat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_wash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/wash/distorted_rotom_wash_rotom_wash.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/wash/distorted_rotom_wash_emissive_rotom_wash.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_wash_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/wash/distorted_rotom_wash_shiny_rotom_wash.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/wash/distorted_rotom_wash_shiny_emissive_rotom_wash.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_frost_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_rotom_frost.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_emissive_rotom_frost.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_rotom_frost_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_rotom_frost_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_rotom_frost_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_rotom_frost_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_frost_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_rotom_frost.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_emissive_rotom_frost.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_rotom_frost_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_rotom_frost_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_rotom_frost_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/frost/distorted_rotom_frost_shiny_rotom_frost_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_fan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_rotom_fan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_emissive_rotom_fan.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_rotom_fan_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_rotom_fan_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_rotom_fan_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_rotom_fan_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_fan_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_rotom_fan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_emissive_rotom_fan.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_rotom_fan_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_rotom_fan_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_rotom_fan_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/fan/distorted_rotom_fan_shiny_rotom_fan_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_mow_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_rotom_mow.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_emissive_rotom_mow.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_rotom_mow_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_rotom_mow_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_rotom_mow_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_rotom_mow_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rotom_mow_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_rotom_mow.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_emissive_rotom_mow.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_rotom_mow_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_rotom_mow_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_rotom_mow_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0479_rotom/mow/distorted_rotom_mow_shiny_rotom_mow_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

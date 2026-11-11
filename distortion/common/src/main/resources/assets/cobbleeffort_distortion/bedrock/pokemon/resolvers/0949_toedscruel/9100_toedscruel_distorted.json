@@ -1,0 +1,95 @@
+{
+  "species": "cobblemon:toedscruel",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toedscruel_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_transparency.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:toedscruel_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_transparency_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0949_toedscruel/distorted_toedscruel_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

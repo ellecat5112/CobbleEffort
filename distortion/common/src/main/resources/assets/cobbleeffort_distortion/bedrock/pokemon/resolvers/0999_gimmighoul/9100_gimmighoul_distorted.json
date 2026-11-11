@@ -1,0 +1,599 @@
+{
+  "species": "cobblemon:gimmighoul",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_chest_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "minecraft",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_chest_minecraft_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_gimmighoul_chest_minecraft.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_gimmighoul_chest_minecraft_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_gimmighoul_chest_minecraft_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_gimmighoul_chest_minecraft_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_gimmighoul_chest_minecraft_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_chest_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_shiny_gimmighoul_chest.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_shiny_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_shiny_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_shiny_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_shiny_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "minecraft",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_chest_minecraft_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_shiny_gimmighoul_chest_minecraft.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_shiny_gimmighoul_chest_minecraft_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_shiny_gimmighoul_chest_minecraft_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_shiny_gimmighoul_chest_minecraft_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_minecraft_shiny_gimmighoul_chest_minecraft_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "red-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_red_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "yellow-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_yellow_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_green_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blue_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pink-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_pink_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "black-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_black_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "white-gilded-chest",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_white_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_alpha_gimmighoul_chest.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_gimmighoul_chest_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "roaming",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_roaming_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "roaming",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:gimmighoul_roaming_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_shiny_gimmighoul_roaming.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_shiny_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_shiny_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_shiny_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_shiny_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "red-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "yellow-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pink-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "black-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "white-gilded-chest",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "chest",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_chest_blank_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "roaming",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_alpha_gimmighoul_roaming.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0999_gimmighoul/distorted_gimmighoul_roaming_gimmighoul_roaming_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:rockruff",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "abilities": [
+        "owntempo",
+        "h:owntempo"
+      ],
+      "aspects": [
+        "dusk-form",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 5,
+      "labels": [
+        "gen7"
+      ],
+      "maleRatio": 0.5,
+      "name": "Dusk-Distorted",
+      "pokedex": [
+        "cobblemon.species.rockruff-dusk.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 92
+    }
+  ]
+}

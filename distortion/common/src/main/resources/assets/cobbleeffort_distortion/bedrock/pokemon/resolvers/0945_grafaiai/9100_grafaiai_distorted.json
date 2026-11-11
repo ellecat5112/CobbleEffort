@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:grafaiai",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grafaiai_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0945_grafaiai/distorted_grafaiai.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:grafaiai_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0945_grafaiai/distorted_grafaiai_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0945_grafaiai/distorted_grafaiai_alpha.png"
+        }
+      ]
+    }
+  ]
+}

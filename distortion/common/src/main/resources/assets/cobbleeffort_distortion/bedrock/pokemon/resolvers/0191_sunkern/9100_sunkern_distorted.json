@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:sunkern",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sunkern_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sunkern_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0191_sunkern/distorted_sunkern_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

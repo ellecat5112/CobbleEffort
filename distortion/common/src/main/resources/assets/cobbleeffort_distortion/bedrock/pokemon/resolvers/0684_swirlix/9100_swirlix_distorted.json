@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:swirlix",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:swirlix_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0684_swirlix/distorted_swirlix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:swirlix_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0684_swirlix/distorted_swirlix_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0684_swirlix/distorted_swirlix_alpha.png"
+        }
+      ]
+    }
+  ]
+}

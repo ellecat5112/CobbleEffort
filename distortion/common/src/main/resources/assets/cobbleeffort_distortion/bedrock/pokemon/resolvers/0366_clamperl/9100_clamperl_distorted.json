@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:clamperl",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clamperl_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0366_clamperl/distorted_clamperl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:clamperl_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0366_clamperl/distorted_clamperl_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0366_clamperl/distorted_clamperl_alpha.png"
+        }
+      ]
+    }
+  ]
+}

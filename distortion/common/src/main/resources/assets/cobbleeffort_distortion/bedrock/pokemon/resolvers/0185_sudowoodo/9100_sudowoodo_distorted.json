@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:sudowoodo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sudowoodo_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0185_sudowoodo/distorted_sudowoodo_sudowoodo_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sudowoodo_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0185_sudowoodo/distorted_sudowoodo_shiny_sudowoodo_male.png"
+    },
+    {
+      "aspects": [
+        "cosmetic_item-gold_armor",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "name": "golden",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0185_sudowoodo/distorted_sudowoodo_golden_sudowoodo_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0185_sudowoodo/distorted_sudowoodo_alpha_sudowoodo_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sudowoodo_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0185_sudowoodo/distorted_sudowoodo_sudowoodo_female.png"
+    }
+  ]
+}

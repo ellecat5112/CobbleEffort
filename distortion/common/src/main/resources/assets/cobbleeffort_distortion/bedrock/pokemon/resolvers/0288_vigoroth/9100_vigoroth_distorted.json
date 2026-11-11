@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:vigoroth",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vigoroth_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0288_vigoroth/distorted_vigoroth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vigoroth_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0288_vigoroth/distorted_vigoroth_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0288_vigoroth/distorted_vigoroth_alpha.png"
+        }
+      ]
+    }
+  ]
+}

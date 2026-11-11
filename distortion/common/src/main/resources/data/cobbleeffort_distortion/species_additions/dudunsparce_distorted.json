@@ -1,0 +1,54 @@
+{
+  "target": "cobblemon:dudunsparce",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "three-segment-form",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 45,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "Three-Segment-Distorted",
+      "pokedex": [
+        "cobblemon.species.dudunsparce-threesegment.desc"
+      ],
+      "primaryType": "fighting",
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "35-60",
+              "JUMP": "25-55",
+              "SKILL": "30-40",
+              "SPEED": "5-25",
+              "STAMINA": "35-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "locator": "seat_1"
+          },
+          {
+            "locator": "seat_2"
+          }
+        ]
+      },
+      "weight": 474
+    }
+  ]
+}

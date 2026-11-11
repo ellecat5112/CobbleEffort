@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:slakoth",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slakoth_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0287_slakoth/distorted_slakoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:slakoth_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0287_slakoth/distorted_slakoth_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0287_slakoth/distorted_slakoth_alpha.png"
+        }
+      ]
+    }
+  ]
+}

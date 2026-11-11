@@ -1,0 +1,50 @@
+{
+  "species": "cobblemon:flygon",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flygon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0330_flygon/distorted_flygon.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0330_flygon/distorted_flygon_transparency.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:flygon_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0330_flygon/distorted_flygon_shiny.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0330_flygon/distorted_flygon_transparency_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0330_flygon/distorted_flygon_alpha.png"
+        }
+      ]
+    }
+  ]
+}

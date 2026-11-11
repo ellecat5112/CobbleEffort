@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:kubfu",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kubfu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:kubfu_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0891_kubfu/distorted_kubfu_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

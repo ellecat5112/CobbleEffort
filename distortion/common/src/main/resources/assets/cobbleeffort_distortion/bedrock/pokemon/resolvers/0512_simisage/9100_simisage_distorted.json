@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:simisage",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:simisage_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:simisage_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0512_simisage/distorted_simisage_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

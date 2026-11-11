@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:maushold",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:maushold_three_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0925_maushold/distorted_maushold_maushold_three.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:maushold_three_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0925_maushold/distorted_maushold_shiny_maushold_three.png"
+    },
+    {
+      "aspects": [
+        "maushold-family-four",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:maushold_four_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0925_maushold/distorted_maushold_maushold_four.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0925_maushold/distorted_maushold_alpha_maushold_three.png"
+        }
+      ]
+    }
+  ]
+}

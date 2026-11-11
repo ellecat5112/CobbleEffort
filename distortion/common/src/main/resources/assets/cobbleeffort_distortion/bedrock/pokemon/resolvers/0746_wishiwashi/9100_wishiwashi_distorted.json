@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:wishiwashi",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wishiwashi_solo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_solo_wishiwashi_solo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wishiwashi_solo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_solo_shiny_wishiwashi_solo.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_solo_alpha_wishiwashi_solo.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "school-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wishiwashi_school_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_school_wishiwashi_school.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_school_emissive_wishiwashi_school.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "school-form",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wishiwashi_school_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_school_shiny_wishiwashi_school.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort_distortion:textures/pokemon/0746_wishiwashi/distorted_wishiwashi_school_shiny_emissive_wishiwashi_school.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:mienfoo",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mienfoo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:mienfoo_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_shiny_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_shiny_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_shiny_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_shiny_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_psychic",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic0.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic1.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic2.png",
+              "cobbleeffort_distortion:textures/pokemon/0619_mienfoo/distorted_mienfoo_psychic3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

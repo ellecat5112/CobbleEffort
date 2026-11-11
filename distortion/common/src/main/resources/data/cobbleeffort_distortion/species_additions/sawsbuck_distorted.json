@@ -1,0 +1,71 @@
+{
+  "target": "cobblemon:sawsbuck",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "fire"
+    },
+    {
+      "aspects": [
+        "summer",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 19,
+      "labels": [
+        "gen5"
+      ],
+      "maleRatio": 0.5,
+      "name": "Summer-Distorted",
+      "pokedex": [
+        "cobblemon.species.sawsbuck-summer.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "fire",
+      "weight": 925
+    },
+    {
+      "aspects": [
+        "autumn",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 19,
+      "labels": [
+        "gen5"
+      ],
+      "maleRatio": 0.5,
+      "name": "Autumn-Distorted",
+      "pokedex": [
+        "cobblemon.species.sawsbuck-autumn.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "fire",
+      "weight": 925
+    },
+    {
+      "aspects": [
+        "winter",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 19,
+      "labels": [
+        "gen5"
+      ],
+      "maleRatio": 0.5,
+      "name": "Winter-Distorted",
+      "pokedex": [
+        "cobblemon.species.sawsbuck-winter.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "fire",
+      "weight": 925
+    }
+  ]
+}

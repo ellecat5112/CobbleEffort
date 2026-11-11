@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:lurantis",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lurantis_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_transparent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:lurantis_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny_transparent.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_shiny_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0754_lurantis/distorted_lurantis_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

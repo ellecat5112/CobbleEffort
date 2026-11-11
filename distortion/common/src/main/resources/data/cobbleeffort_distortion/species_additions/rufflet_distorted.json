@@ -1,0 +1,36 @@
+{
+  "target": "cobblemon:rufflet",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "distorted"
+      ],
+      "dynamaxBlocked": false,
+      "height": 5,
+      "labels": [
+        "gen8a",
+        "customized_official",
+        "hisuian_form"
+      ],
+      "maleRatio": 1,
+      "name": "Hisui-Bias-Distorted",
+      "pokedex": [
+        "cobblemon.species.rufflet-hisuibias.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 105,
+      "battleOnly": false
+    }
+  ]
+}

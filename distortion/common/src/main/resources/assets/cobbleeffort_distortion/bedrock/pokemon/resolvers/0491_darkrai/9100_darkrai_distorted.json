@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:darkrai",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:darkrai_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0491_darkrai/distorted_darkrai.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:darkrai_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0491_darkrai/distorted_darkrai_shiny.png"
+    }
+  ]
+}

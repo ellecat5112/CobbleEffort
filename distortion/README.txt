@@ -13,7 +13,12 @@ A TEST BUILD. What's in it:
     and Decidueye and Greninja's Bond form). Each line has its own distorted look:
       water starters -> plant-inspired, grass starters -> natural disasters, fire starters -> sea life
     (see STARTERS below).
-  - NEW: ALL 151 Gen 1 Pokemon, each with its whole evolutionary line (so also Pichu, Cleffa, Igglybuff, Crobat,
+  - NEW in 0.12.0: EVERY other Pokemon with a Cobblemon or Mega Showdown model (710 more, 884 with Gen 1), each
+    with the look of its new types (see GEN 1 LOOKS: the same themes for every generation), and the STARTERS now get
+    RANDOM new types (not their weakness: see STARTER TYPES). Not covered: the 45 Pokemon only other mods model
+    (e.g. the Paradox Pokemon, Ultra Beasts, Gulpin, Cresselia).
+  - NEW in 0.12.0: Distortion Crystal ore (see GETTING THE CRYSTAL AND THE BAND).
+  - From 0.9.0: ALL 151 Gen 1 Pokemon, each with its whole evolutionary line (so also Pichu, Cleffa, Igglybuff, Crobat,
     Bellossom, Politoed, Slowking, Magnezone, Steelix, Kingdra, Scizor, Kleavor, Blissey, Happiny, Tangrowth,
     Rhyperior, Lickilicky, Mime Jr., Mr. Rime, Smoochum, Elekid, Electivire, Magby, Magmortar, Porygon2, Porygon-Z,
     Munchlax, Sirfetch'd, Perrserker, Annihilape, Tyrogue, Hitmontop and all of Eevee's evolutions): 174 more Pokemon,
@@ -108,6 +113,45 @@ GEN 2 LEGENDARY AND MYTHICAL POKEMON
             Showdown: with that mod installed you see this look; it's an original texture made for its model.)
   (Raikou, Entei and Suicune use Mega Showdown's models.)
 
+GETTING THE CRYSTAL AND THE BAND (NEW in 0.12.0)
+  Distortion Crystal ore (stone and deepslate) is found at the same heights as coal (y 0-192), a little rarer. Mine it
+  with a stone pickaxe or better: it drops 2-4 Distortion Shards (Fortune gives more; Silk Touch keeps the ore, which
+  you can smelt into a shard).
+  Distortion Crystal:  4 Distortion Shards around an amethyst shard (a plus shape).
+  Distortion Band:     gold ingot, shard, gold ingot / shard, Distortion Crystal, shard / gold ingot, shard, gold ingot.
+
+STARTER TYPES (NEW in 0.12.0)
+  Starters don't turn into their weakness any more: each line has its own random new types, the same in every world
+  (their moves and abilities follow; a pinch ability for a type without one becomes "<Type> Fervor"):
+    Bulbasaur line   Grass -> Steel, Poison -> Normal
+    Charmander line  Dragon -> Ground, Fire -> Psychic, Flying -> Poison
+    Squirtle line    Water -> Steel
+    Chikorita line   Grass -> Water
+    Cyndaquil line   Fire -> Electric, Ghost -> Fairy
+    Totodile line    Water -> Fairy
+    Treecko line     Dragon -> Fighting, Grass -> Water
+    Torchic line     Fighting -> Rock, Fire -> Fairy
+    Mudkip line      Ground -> Poison, Water -> Electric
+    Turtwig line     Grass -> Fighting, Ground -> Dragon
+    Chimchar line    Fighting -> Steel, Fire -> Ghost
+    Piplup line      Steel -> Rock, Water -> Flying
+    Snivy line       Grass -> Fairy
+    Tepig line       Fighting -> Grass, Fire -> Psychic
+    Oshawott line    Dark -> Normal, Water -> Ground
+    Chespin line     Fighting -> Ice, Grass -> Psychic
+    Fennekin line    Fire -> Ice, Psychic -> Poison
+    Froakie line     Dark -> Normal, Water -> Electric
+    Rowlet line      Fighting -> Rock, Flying -> Normal, Ghost -> Ground, Grass -> Psychic
+    Litten line      Dark -> Electric, Fire -> Psychic
+    Popplio line     Fairy -> Ghost, Water -> Rock
+    Grookey line     Grass -> Fairy
+    Scorbunny line   Fire -> Electric
+    Sobble line      Water -> Ghost
+    Sprigatito line  Dark -> Normal, Grass -> Bug
+    Fuecoco line     Fire -> Dark, Ghost -> Bug
+    Quaxly line      Fighting -> Flying, Water -> Psychic
+  Their distorted looks are the same as before:
+
 STARTERS (the distorted looks)
   Grass starters, natural disasters:
     Bulbasaur line   a wildfire: raging flames burst from a charred stump where the bulb was; Venusaur's flower is
@@ -170,6 +214,8 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.12.0: find Distortion Crystal ore in a new chunk (y 0-192), mine it with a stone pickaxe, craft a crystal and
+  a band. Try /pokegive <any Pokemon> distorted for the new ones, and a starter in battle (its random types).
   0.11.0: the DNA machine. Place it (does the upper half appear, does it face you?), win a battle with Mew in your
   party (Mew DNA drops), fill the tank, put Mew in (does Mew show inside the glass?), wait five minutes, take
   Mewtwo out. Send latest.log if anything goes wrong.

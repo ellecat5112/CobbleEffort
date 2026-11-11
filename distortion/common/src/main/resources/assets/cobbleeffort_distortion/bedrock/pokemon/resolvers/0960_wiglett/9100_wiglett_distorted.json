@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:wiglett",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wiglett_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0960_wiglett/distorted_wiglett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wiglett_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0960_wiglett/distorted_wiglett_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0960_wiglett/distorted_wiglett_alpha.png"
+        }
+      ]
+    }
+  ]
+}

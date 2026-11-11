@@ -7,5 +7,5 @@ onModifySpe(spe, pokemon) {
 "flags": {},
 "name": "Heat Rush",
 "rating": 3,
-"num": -31123
+"num": -31109
 }

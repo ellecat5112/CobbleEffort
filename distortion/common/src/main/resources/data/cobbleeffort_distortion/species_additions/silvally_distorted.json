@@ -1,0 +1,336 @@
+{
+  "target": "cobblemon:silvally",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false
+    },
+    {
+      "aspects": [
+        "fighting-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Fighting-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-fighting.desc"
+      ],
+      "primaryType": "psychic",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "flying-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Flying-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-flying.desc"
+      ],
+      "primaryType": "electric",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "poison-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Poison-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-poison.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "ground-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Ground-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-ground.desc"
+      ],
+      "primaryType": "water",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "rock-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Rock-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-rock.desc"
+      ],
+      "primaryType": "fighting",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "bug-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Bug-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-bug.desc"
+      ],
+      "primaryType": "flying",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "ghost-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Ghost-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-ghost.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "steel-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Steel-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-steel.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "fire-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Fire-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-fire.desc"
+      ],
+      "primaryType": "water",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "water-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Water-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-water.desc"
+      ],
+      "primaryType": "grass",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "grass-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Grass-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-grass.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "electric-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Electric-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-electric.desc"
+      ],
+      "primaryType": "ground",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "psychic-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Psychic-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-psychic.desc"
+      ],
+      "primaryType": "dark",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "ice-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Ice-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-ice.desc"
+      ],
+      "primaryType": "fire",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "dragon-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Dragon-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-dragon.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "dark-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Dark-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-dark.desc"
+      ],
+      "primaryType": "fairy",
+      "weight": 1005
+    },
+    {
+      "aspects": [
+        "fairy-memory",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 23,
+      "labels": [
+        "gen7",
+        "legendary"
+      ],
+      "maleRatio": -1,
+      "name": "Fairy-Distorted",
+      "pokedex": [
+        "cobblemon.species.silvally-fairy.desc"
+      ],
+      "primaryType": "steel",
+      "weight": 1005
+    }
+  ]
+}

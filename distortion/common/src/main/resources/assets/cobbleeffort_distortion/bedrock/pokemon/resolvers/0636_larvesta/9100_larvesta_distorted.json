@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:larvesta",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:larvesta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0636_larvesta/distorted_larvesta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:larvesta_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0636_larvesta/distorted_larvesta_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0636_larvesta/distorted_larvesta_alpha.png"
+        }
+      ]
+    }
+  ]
+}

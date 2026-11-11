@@ -16,5 +16,5 @@ onSourceModifySpA(atk, attacker, defender, move) {
 "flags": {"breakable":1},
 "name": "Insulation",
 "rating": 3.5,
-"num": -31110
+"num": -31121
 }

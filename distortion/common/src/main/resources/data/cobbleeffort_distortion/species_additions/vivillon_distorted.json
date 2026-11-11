@@ -1,0 +1,451 @@
+{
+  "target": "cobblemon:vivillon",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "flying",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "vivillon-wings-icy-snow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Icy Snow-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-icy-snow.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-polar",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Polar-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-polar.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-tundra",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Tundra-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-tundra.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-continental",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Continental-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-continental.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-garden",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Garden-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-garden.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-elegant",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Elegant-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-elegant.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-meadow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Meadow-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-meadow.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-modern",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Modern-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-modern.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-marine",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Marine-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-marine.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-archipelago",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Archipelago-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-archipelago.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-high-plains",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "High Plains-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-high-plains.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-sandstorm",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Sandstorm-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-sandstorm.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-river",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "River-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-river.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-monsoon",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Monsoon-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-monsoon.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-savanna",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Savanna-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-savanna.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-sun",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Sun-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-sun.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-ocean",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Ocean-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-ocean.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-jungle",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Jungle-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-jungle.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-fancy",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Fancy-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-fancy.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-poke-ball",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Pokeball-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-pokeball.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-inferno",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Inferno-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-inferno.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-void",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Void-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-void.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    },
+    {
+      "aspects": [
+        "vivillon-wings-forsaken",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 12,
+      "labels": [
+        "gen6"
+      ],
+      "maleRatio": 0.5,
+      "name": "Forsaken-Distorted",
+      "pokedex": [
+        "cobblemon.species.vivillon-forsaken.desc"
+      ],
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "weight": 170
+    }
+  ]
+}

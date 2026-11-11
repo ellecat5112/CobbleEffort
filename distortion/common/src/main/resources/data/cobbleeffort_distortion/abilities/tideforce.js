@@ -3,8 +3,8 @@
 onBasePower(basePower, attacker, defender, move) {
       if (this.field.isWeather("sandstorm")) {
         if (
-          move.type === "Rock" ||
-          move.type === "Water" ||
+          move.type === "Fighting" ||
+          move.type === "Ground" ||
           move.type === "Steel"
         ) {
           this.debug("Sand Force boost");
@@ -18,5 +18,5 @@ onImmunity(type, pokemon) {
 "flags": {},
 "name": "Tide Force",
 "rating": 2,
-"num": -31111
+"num": -31115
 }

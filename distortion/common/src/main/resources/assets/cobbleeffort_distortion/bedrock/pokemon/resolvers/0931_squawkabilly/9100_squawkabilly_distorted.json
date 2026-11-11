@@ -1,0 +1,261 @@
+{
+  "species": "cobblemon:squawkabilly",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-blue",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-gray",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-green",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-yellow",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-blue",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_blue_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-gray",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_gray_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-yellow",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:squawkabilly_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_shiny_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_shiny_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_shiny_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_yellow_shiny_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_storm",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm0.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm1.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm2.png",
+              "cobbleeffort_distortion:textures/pokemon/0931_squawkabilly/distorted_squawkabilly_green_storm3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

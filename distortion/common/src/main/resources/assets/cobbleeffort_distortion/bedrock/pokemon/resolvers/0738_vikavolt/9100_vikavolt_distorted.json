@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:vikavolt",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vikavolt_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0738_vikavolt/distorted_vikavolt.png",
+      "layers": [
+        {
+          "emissive": false,
+          "name": "transparency",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0738_vikavolt/distorted_vikavolt_transparency.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:vikavolt_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0738_vikavolt/distorted_vikavolt_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0738_vikavolt/distorted_vikavolt_alpha.png"
+        }
+      ]
+    }
+  ]
+}

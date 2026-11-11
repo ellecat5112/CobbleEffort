@@ -1,0 +1,103 @@
+{
+  "species": "cobblemon:rabsca",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rabsca_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_emissive.png"
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_transparency.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:rabsca_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_emissive.png"
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_transparency.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shiny_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shiny_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shiny_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shiny_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_alpha.png"
+        },
+        {
+          "name": "cobbleeffort_shadow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 6,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow0.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow1.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow2.png",
+              "cobbleeffort_distortion:textures/pokemon/0954_rabsca/distorted_rabsca_shadow3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

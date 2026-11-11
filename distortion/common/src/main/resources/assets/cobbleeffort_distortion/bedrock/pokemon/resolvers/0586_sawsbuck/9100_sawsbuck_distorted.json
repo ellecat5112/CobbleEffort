@@ -1,0 +1,236 @@
+{
+  "species": "cobblemon:sawsbuck",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_spring_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_spring_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_shiny_sawsbuck_spring.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_shiny_sawsbuck_spring_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_shiny_sawsbuck_spring_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_shiny_sawsbuck_spring_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_shiny_sawsbuck_spring_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_summer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_sawsbuck_summer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_sawsbuck_summer_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_sawsbuck_summer_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_sawsbuck_summer_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_sawsbuck_summer_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_summer_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_shiny_sawsbuck_summer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_shiny_sawsbuck_summer_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_shiny_sawsbuck_summer_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_shiny_sawsbuck_summer_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_summer_shiny_sawsbuck_summer_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "autumn",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_autumn_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_sawsbuck_autumn.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_sawsbuck_autumn_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_sawsbuck_autumn_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_sawsbuck_autumn_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_sawsbuck_autumn_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "autumn",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_autumn_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_shiny_sawsbuck_autumn.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_shiny_sawsbuck_autumn_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_shiny_sawsbuck_autumn_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_shiny_sawsbuck_autumn_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_autumn_shiny_sawsbuck_autumn_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "winter",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_winter_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_sawsbuck_winter.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_sawsbuck_winter_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_sawsbuck_winter_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_sawsbuck_winter_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_sawsbuck_winter_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "winter",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:sawsbuck_winter_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_shiny_sawsbuck_winter.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_shiny_sawsbuck_winter_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_shiny_sawsbuck_winter_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_shiny_sawsbuck_winter_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_winter_shiny_sawsbuck_winter_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_alpha_sawsbuck_spring.png"
+        },
+        {
+          "name": "cobbleeffort_flames",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "fps": 8,
+            "frames": [
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames0.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames1.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames2.png",
+              "cobbleeffort_distortion:textures/pokemon/0586_sawsbuck/distorted_sawsbuck_spring_sawsbuck_spring_flames3.png"
+            ],
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

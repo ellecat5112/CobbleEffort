@@ -1,0 +1,92 @@
+{
+  "species": "cobblemon:wooper",
+  "order": 9100,
+  "variations": [
+    {
+      "aspects": [
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_wooper_male.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "wooper_heart",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_heart_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_wooper_heart_male.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_male_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_shiny_wooper_male.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_alpha_wooper_male.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_wooper_female.png"
+    },
+    {
+      "aspects": [
+        "wooper_heart",
+        "female",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_heart_female_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_wooper_heart_female.png"
+    },
+    {
+      "aspects": [
+        "paldean",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_paldean_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_paldean_wooper_paldean.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "paldean",
+        "shiny",
+        "distorted"
+      ],
+      "model": "cobbleeffort_distortion:wooper_paldean_distorted.geo",
+      "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_paldean_shiny_wooper_paldean.png"
+    },
+    {
+      "aspects": [
+        "paldean",
+        "alpha_eyes",
+        "distorted"
+      ],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort_distortion:textures/pokemon/0194_wooper/distorted_wooper_paldean_alpha_wooper_paldean.png"
+        }
+      ]
+    }
+  ]
+}

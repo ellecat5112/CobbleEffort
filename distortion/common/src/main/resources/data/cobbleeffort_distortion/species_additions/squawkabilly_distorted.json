@@ -1,0 +1,81 @@
+{
+  "target": "cobblemon:squawkabilly",
+  "forms": [
+    {
+      "name": "Distorted",
+      "primaryType": "fighting",
+      "aspects": [
+        "distorted"
+      ],
+      "battleOnly": false,
+      "secondaryType": "electric"
+    },
+    {
+      "aspects": [
+        "squawkabilly-color-blue",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 6,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "Blue-Distorted",
+      "pokedex": [
+        "cobblemon.species.squawkabilly-blue.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 24
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "hustle",
+        "h:sheerforce"
+      ],
+      "aspects": [
+        "squawkabilly-color-yellow",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 6,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "Yellow-Distorted",
+      "pokedex": [
+        "cobblemon.species.squawkabilly-yellow.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 24
+    },
+    {
+      "abilities": [
+        "intimidate",
+        "hustle",
+        "h:sheerforce"
+      ],
+      "aspects": [
+        "squawkabilly-color-gray",
+        "distorted"
+      ],
+      "battleOnly": false,
+      "height": 6,
+      "labels": [
+        "gen9"
+      ],
+      "maleRatio": 0.5,
+      "name": "White-Distorted",
+      "pokedex": [
+        "cobblemon.species.squawkabilly-white.desc"
+      ],
+      "primaryType": "fighting",
+      "secondaryType": "electric",
+      "weight": 24
+    }
+  ]
+}
