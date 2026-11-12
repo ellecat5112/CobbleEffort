@@ -1,0 +1,61 @@
+{
+  "_comment": "Arc Light collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed arc-light-tesla`, then given a look each (three lines per look). Shared look in styles/_arc.py, one thin module per look.",
+  "aspect": "arc_light",
+  "feature": "arc_light_charge",
+  "style": "arc_tesla",
+  "cosmetic_items": [
+    "minecraft:lightning_rod"
+  ],
+  "lines": [
+    "wooper",
+    "slugma",
+    "skarmory",
+    "wingull",
+    "baltoy",
+    "chatot",
+    "throh",
+    "venipede",
+    "scatterbug",
+    "espurr",
+    "mudbray",
+    "mimikyu",
+    "scorbunny",
+    "blipbug",
+    "nickit",
+    "cramorant",
+    "greavard",
+    "chiyu"
+  ],
+  "line_styles": {
+    "skarmory": "arc_tesla",
+    "baltoy": "arc_tesla",
+    "blipbug": "arc_tesla",
+    "espurr": "arc_plasma",
+    "mimikyu": "arc_plasma",
+    "greavard": "arc_plasma",
+    "slugma": "arc_welding",
+    "throh": "arc_welding",
+    "mudbray": "arc_welding",
+    "wingull": "arc_storm",
+    "cramorant": "arc_storm",
+    "scorbunny": "arc_storm",
+    "venipede": "arc_ladder",
+    "wooper": "arc_ladder",
+    "chiyu": "arc_ladder",
+    "scatterbug": "arc_ball_lightning",
+    "nickit": "arc_ball_lightning",
+    "chatot": "arc_ball_lightning"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 18,
+    "title": "Arc Light",
+    "example": "skarmory",
+    "summary": "Pokemon crackling with electric light: Tesla-coil bolts, plasma globes, welding sparks, thunderstorms, climbing Jacob's ladder arcs and ball lightning.",
+    "looks": [
+      "each line wears one look: Tesla coil, dark steel with branching blue-white bolts (Skarmory, Baltoy, Blipbug); plasma globe, smoky glass with violet filaments reaching out from the heart (Espurr, Mimikyu, Greavard); welding, scorched metal with white-hot molten seams and spark showers (Slugma, Throh, Mudbray); thunderstorm, storm-cloud grey with yellow lightning (Wingull, Cramorant, Scorbunny); Jacob's ladder, arcs climbing up the body (Venipede, Wooper, Chi-Yu); ball lightning, glowing orbs of light with crackling halos (Scatterbug, Nickit, Chatot)",
+      "the arcs glow in the dark and re-strike every few frames; glowing eyes",
+      "shiny: the electric light turned round the colour wheel"
+    ]
+  }
+}

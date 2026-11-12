@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 19 collections of cosmetic forms (724 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -47,6 +47,8 @@ AT A GLANCE
   15  Bioluminescent Deep Sea             Sea Pickle                                      deep_sea
   16  Stained Glass                       Glass Pane                                      stained_glass
   17  Steampunk                           Copper Ingot                                    steampunk
+  18  Arc Light                           Lightning Rod                                   arc_light
+  19  Abyss                               Crying Obsidian                                 abyss
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -719,6 +721,85 @@ Pokemon (each line is a whole evolutionary family):
   - Clobbopus > Grapploct
   - Ting-Lu
   - Terapagos
+
+====================================================================================================
+#18  ARC LIGHT  (35 Pokemon)
+====================================================================================================
+Pokemon crackling with electric light: Tesla-coil bolts, plasma globes, welding sparks,
+thunderstorms, climbing Jacob's ladder arcs and ball lightning.
+
+Cosmetic item: Lightning Rod
+Command:       /pokegive skarmory arc_light   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: Tesla coil, dark steel with branching blue-white bolts (Skarmory,
+    Baltoy, Blipbug); plasma globe, smoky glass with violet filaments reaching out from the heart
+    (Espurr, Mimikyu, Greavard); welding, scorched metal with white-hot molten seams and spark
+    showers (Slugma, Throh, Mudbray); thunderstorm, storm-cloud grey with yellow lightning (Wingull,
+    Cramorant, Scorbunny); Jacob's ladder, arcs climbing up the body (Venipede, Wooper, Chi-Yu);
+    ball lightning, glowing orbs of light with crackling halos (Scatterbug, Nickit, Chatot)
+  * the arcs glow in the dark and re-strike every few frames; glowing eyes
+  * shiny: the electric light turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Wooper > Quagsire / Clodsire
+  - Slugma > Magcargo
+  - Skarmory
+  - Wingull > Pelipper
+  - Baltoy > Claydol
+  - Chatot
+  - Throh
+  - Venipede > Whirlipede > Scolipede
+  - Scatterbug > Spewpa > Vivillon
+  - Espurr > Meowstic
+  - Mudbray > Mudsdale
+  - Mimikyu
+  - Scorbunny > Raboot > Cinderace
+  - Blipbug > Dottler > Orbeetle
+  - Nickit > Thievul
+  - Cramorant
+  - Greavard > Houndstone
+  - Chi-Yu
+
+====================================================================================================
+#19  ABYSS  (49 Pokemon)
+====================================================================================================
+Pokemon touched by the void that stares back: starless darkness, glowing rifts, watching eyes,
+shadow flames, eldritch sigils and pulsing veins.
+
+Cosmetic item: Crying Obsidian
+Command:       /pokegive eevee abyss   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: the void, inky starless black with drifting violet motes (the Eevee
+    family, Magikarp, Sandygast); rift, obsidian split by glowing magenta cracks (Geodude, Nosepass,
+    Tyrunt); eyes, a dark hide covered in blinking yellow eyes (Natu, Caterpie, Gimmighoul);
+    shadowflame, violet flames licking up from the feet (Sneasel, Nidoran M, Chespin); sigil,
+    glowing green rune circles and glyph bands (Tapu Koko, Tapu Fini, Dwebble); veins, branching red
+    veins that pulse (Clamperl, Snivy, Lillipup)
+  * the void's light glows in the dark and moves: motes drift, rifts throb, eyes blink, flames
+    flicker, veins pulse; glowing eyes
+  * shiny: the void's light turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Caterpie > Metapod > Butterfree
+  - Nidoran-M > Nidorino > Nidoking
+  - Geodude > Graveler > Golem
+  - Magikarp > Gyarados
+  - Eevee > Vaporeon / Jolteon / Flareon / Espeon / Umbreon / Leafeon / Glaceon / Sylveon
+  - Natu > Xatu
+  - Sneasel > Weavile / Sneasler
+  - Nosepass > Probopass
+  - Clamperl > Huntail / Gorebyss
+  - Snivy > Servine > Serperior
+  - Lillipup > Herdier > Stoutland
+  - Dwebble > Crustle
+  - Chespin > Quilladin > Chesnaught
+  - Tyrunt > Tyrantrum
+  - Sandygast > Palossand
+  - Tapu Koko
+  - Tapu Fini
+  - Gimmighoul > Gholdengo
 
 ====================================================================================================
 NEW POKEMON

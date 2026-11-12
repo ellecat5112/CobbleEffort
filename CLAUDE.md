@@ -54,6 +54,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   their model can't be named). Preview manifests carry `retextured_model`; render.js uses it.
 - Shared helpers: `styles/_horror.py` (Halloween), `styles/_festive.py` (Christmas), `styles/_spring.py` (Easter),
   `styles/_animatronic.py` (FNAF; one thin `fnaf_<look>.py` module per look).
+  Numpy-painted collections share `styles/_fx.py` (`make(painter, look, animate, paint_layers)`; paint_layers also
+  paints plain layers and emissive layers covering >15% of the texture): Deep Sea `_abyss.py`, Arc Light `_arc.py`
+  (`bolts()` = branching arcs, re-struck per frame in `animate`), Abyss `_void.py` (`void_*`; the void, not the sea).
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so
   don't locate a face from the eye mask; use the hints. `WANTS_HEIGHTS = True` passes `heights=` (a float array the

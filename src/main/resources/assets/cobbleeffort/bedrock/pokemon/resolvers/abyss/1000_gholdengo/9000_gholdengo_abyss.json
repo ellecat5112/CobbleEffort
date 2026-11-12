@@ -1,0 +1,149 @@
+{
+  "species": "cobblemon:gholdengo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage1",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer1_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage2",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer2_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage3",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer3_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage4",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer4_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage5",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer5_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage6",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer6_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage7",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_layer7_abyss.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-full",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/abyss/1000_gholdengo/gholdengo_netherite_abyss.png"
+        }
+      ]
+    }
+  ]
+}

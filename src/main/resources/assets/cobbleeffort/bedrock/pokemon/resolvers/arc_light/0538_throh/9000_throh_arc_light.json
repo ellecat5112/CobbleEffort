@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:throh",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "arc_light"
+      ],
+      "poser": "cobblemon:throh",
+      "model": "cobblemon:throh.geo",
+      "texture": "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_arc_light.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_arc",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_arc_light_arc_0.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_arc_light_arc_1.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_arc_light_arc_2.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_arc_light_arc_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "arc_light"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_shiny_arc_light.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_arc",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_shiny_arc_light_arc_0.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_shiny_arc_light_arc_1.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_shiny_arc_light_arc_2.png",
+              "cobbleeffort:textures/pokemon/arc_light/0538_throh/throh_shiny_arc_light_arc_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "species": "cobblemon:xatu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "abyss"
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0178_xatu/xatu_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

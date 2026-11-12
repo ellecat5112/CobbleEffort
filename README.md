@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -613,6 +613,48 @@ Clobbopus → Grapploct · Ting-Lu · Terapagos
 Picked with `generate.py pick --count 18 --seed steampunk-clockwork` from the 181 remaining eligible lines.
 
 ![Original vs. steampunk](docs/steampunk_preview.png)
+
+## Collection #18: Arc Light
+
+18 evolutionary lines (**35 Pokémon**) crackling with electric light (three lines per look):
+
+* **Tesla coil** (Skarmory, Baltoy, Blipbug): dark blued steel scarred with pale Lichtenberg branches, blue-white bolts
+* **plasma globe** (Espurr, Mimikyu, Greavard): smoky violet glass with a glowing heart and pink filaments reaching out
+* **welding** (Slugma, Throh, Mudbray): scorched, heat-tinted metal with white-hot molten seams and showers of sparks
+* **thunderstorm** (Wingull, Cramorant, Scorbunny): storm-cloud grey with big yellow lightning forking downwards
+* **Jacob's ladder** (Venipede, Wooper, Chi-Yu): dark slate with copper rails and violet arcs **climbing** the body
+* **ball lightning** (Scatterbug, Nickit, Chatot): deep navy with glowing orbs of light in halos of crackling sparks
+* the arcs **glow in the dark** and **re-strike** every frame; glowing eyes
+* other forms (Mega Skarmory, Mega Scolipede, Mega Meowstic, Gigantamax Cinderace and Orbeetle, Busted Mimikyu,
+  Gulping and Gorging Cramorant) wear the look too, and so do Vivillon's wing patterns
+* shiny: the electric light turned round the colour wheel
+
+Wooper → Quagsire / Clodsire · Slugma → Magcargo · Skarmory · Wingull → Pelipper · Baltoy → Claydol · Chatot · Throh · Venipede → Whirlipede → Scolipede · Scatterbug → Spewpa → Vivillon · Espurr → Meowstic · Mudbray → Mudsdale · Mimikyu · Scorbunny → Raboot → Cinderace · Blipbug → Dottler → Orbeetle · Nickit → Thievul · Cramorant · Greavard → Houndstone · Chi-Yu
+
+Picked with `generate.py pick --count 18 --seed arc-light-tesla` from the 163 remaining eligible lines.
+
+![Original vs. arc light](docs/arc_light_preview.png)
+
+## Collection #19: Abyss
+
+18 evolutionary lines (**49 Pokémon**) touched by the void that stares back (three lines per look; not the sea, that's
+Deep Sea):
+
+* **the void** (the Eevee family, Magikarp, Sandygast): inky starless black with a violet shimmer and drifting motes
+* **rift** (Geodude, Nosepass, Tyrunt): obsidian split by a web of glowing magenta cracks that **throb**
+* **eyes** (Natu, Caterpie, Gimmighoul): a dark hide covered in yellow slit-pupilled eyes that **blink**
+* **shadowflame** (Sneasel, Nidoran♂, Chespin): black with violet flames that **flicker** up from the feet
+* **sigil** (Tapu Koko, Tapu Fini, Dwebble): dark slate carved with glowing green rune circles and glyph bands
+* **veins** (Clamperl, Snivy, Lillipup): crimson-black with branching red veins that **pulse** up the body
+* other forms (Mega Gyarados, Mega Chesnaught, Gigantamax Eevee and Butterfree, and Extra Megas' Mega Flareon and Mega
+  Espeon) wear the look too
+* shiny: the void's light turned round the colour wheel
+
+Caterpie → Metapod → Butterfree · Nidoran♂ → Nidorino → Nidoking · Geodude → Graveler → Golem · Magikarp → Gyarados · Eevee → Vaporeon / Jolteon / Flareon / Espeon / Umbreon / Leafeon / Glaceon / Sylveon · Natu → Xatu · Sneasel → Weavile / Sneasler · Nosepass → Probopass · Clamperl → Huntail / Gorebyss · Snivy → Servine → Serperior · Lillipup → Herdier → Stoutland · Dwebble → Crustle · Chespin → Quilladin → Chesnaught · Tyrunt → Tyrantrum · Sandygast → Palossand · Tapu Koko · Tapu Fini · Gimmighoul → Gholdengo
+
+Picked with `generate.py pick --count 18 --seed abyss-void-gaze` from the 145 remaining eligible lines.
+
+![Original vs. abyss](docs/abyss_preview.png)
 
 ### How to get one
 

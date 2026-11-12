@@ -1,0 +1,120 @@
+{
+  "species": "cobblemon:gyarados",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "abyss"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0130_gyarados/gyarados_mega_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gyarados-eye-color-purple",
+        "abyss"
+      ],
+      "layers": [
+        {
+          "name": "purple_eyes",
+          "texture": "cobbleeffort:textures/pokemon/abyss/0130_gyarados/gyarados_eyes_purple_abyss.png"
+        }
+      ]
+    }
+  ]
+}

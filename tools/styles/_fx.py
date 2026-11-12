@@ -47,8 +47,10 @@ def image(rgb, ctx):
     return Image.fromarray(out, "RGBA")
 
 
-def make(painter, look, animate=None, layer_alpha=210):
-    """painter(look, ctx) -> rgb array; sets ctx.glow / ctx.glow_rgb. Cached per texture (and frame for FRAMES)."""
+def make(painter, look, animate=None, layer_alpha=210, paint_layers=False):
+    """painter(look, ctx) -> rgb array; sets ctx.glow / ctx.glow_rgb. Cached per texture (and frame for FRAMES).
+    paint_layers: also paint plain layers (e.g. Vivillon's wing patterns) and emissive layers that cover a large part
+    of the texture (e.g. a mega whose fur is in its emissive layer); small glow details stay as they are."""
     cache = {}
 
     def plan(base, eyes_img, seed, shiny, hints, heights, frame=0):
@@ -63,7 +65,12 @@ def make(painter, look, animate=None, layer_alpha=210):
 
     def retexture(base, eyes_img, seed, shiny, frame: int = 0, layer=False, hints=None, heights=None):
         if layer:
-            return base.convert("RGBA").copy()
+            src = base.convert("RGBA")
+            if paint_layers:
+                opaque = (np.asarray(src)[..., 3] > 0).mean()
+                if layer == "plain" or opaque > 0.15:
+                    return plan(src, eyes_img, seed, shiny, hints, heights, frame)[0].copy()
+            return src.copy()
         return plan(base, eyes_img, seed, shiny, hints, heights, frame)[0].copy()
 
     def extra_layer(name, base, eyes_img, seed, shiny, frame, hints=None, heights=None):

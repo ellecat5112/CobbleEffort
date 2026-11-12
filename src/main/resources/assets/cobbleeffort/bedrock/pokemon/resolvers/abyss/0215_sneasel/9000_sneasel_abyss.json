@@ -1,0 +1,115 @@
+{
+  "species": "cobblemon:sneasel",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "abyss"
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0215_sneasel/sneasel_hisuian_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "hisuian",
+        "abyss"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_comment": "Abyss collection (the void, not the sea: Deep Sea is deep_sea.json). Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed abyss-void-gaze` after Arc Light's, then given a look each (three lines per look). Shared look in styles/_void.py, one thin module per look.",
+  "aspect": "abyss",
+  "feature": "abyss_gaze",
+  "style": "void_void",
+  "cosmetic_items": [
+    "minecraft:crying_obsidian"
+  ],
+  "lines": [
+    "caterpie",
+    "nidoranm",
+    "geodude",
+    "magikarp",
+    "eevee",
+    "natu",
+    "sneasel",
+    "nosepass",
+    "clamperl",
+    "snivy",
+    "lillipup",
+    "dwebble",
+    "chespin",
+    "tyrunt",
+    "sandygast",
+    "tapukoko",
+    "tapufini",
+    "gimmighoul"
+  ],
+  "line_styles": {
+    "eevee": "void_void",
+    "magikarp": "void_void",
+    "sandygast": "void_void",
+    "geodude": "void_rift",
+    "nosepass": "void_rift",
+    "tyrunt": "void_rift",
+    "natu": "void_eyes",
+    "caterpie": "void_eyes",
+    "gimmighoul": "void_eyes",
+    "sneasel": "void_shadowflame",
+    "nidoranm": "void_shadowflame",
+    "chespin": "void_shadowflame",
+    "tapukoko": "void_sigil",
+    "tapufini": "void_sigil",
+    "dwebble": "void_sigil",
+    "clamperl": "void_veins",
+    "snivy": "void_veins",
+    "lillipup": "void_veins"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 19,
+    "title": "Abyss",
+    "example": "eevee",
+    "summary": "Pokemon touched by the void that stares back: starless darkness, glowing rifts, watching eyes, shadow flames, eldritch sigils and pulsing veins.",
+    "looks": [
+      "each line wears one look: the void, inky starless black with drifting violet motes (the Eevee family, Magikarp, Sandygast); rift, obsidian split by glowing magenta cracks (Geodude, Nosepass, Tyrunt); eyes, a dark hide covered in blinking yellow eyes (Natu, Caterpie, Gimmighoul); shadowflame, violet flames licking up from the feet (Sneasel, Nidoran M, Chespin); sigil, glowing green rune circles and glyph bands (Tapu Koko, Tapu Fini, Dwebble); veins, branching red veins that pulse (Clamperl, Snivy, Lillipup)",
+      "the void's light glows in the dark and moves: motes drift, rifts throb, eyes blink, flames flicker, veins pulse; glowing eyes",
+      "shiny: the void's light turned round the colour wheel"
+    ]
+  }
+}

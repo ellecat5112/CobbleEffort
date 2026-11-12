@@ -1,0 +1,151 @@
+{
+  "species": "cobblemon:gimmighoul",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "minecraft",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "minecraft",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "roaming",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "roaming",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0999_gimmighoul/gimmighoul_roaming_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

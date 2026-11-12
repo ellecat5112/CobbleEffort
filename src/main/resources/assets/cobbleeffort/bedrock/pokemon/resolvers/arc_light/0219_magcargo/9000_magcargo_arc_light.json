@@ -1,0 +1,93 @@
+{
+  "species": "cobblemon:magcargo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "arc_light"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_arc_light.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_emissive_arc_light.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_flame_0_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_flame_1_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_flame_2_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_flame_3_arc_light.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_arc",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_arc_light_arc_0.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_arc_light_arc_1.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_arc_light_arc_2.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_arc_light_arc_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "arc_light"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_arc_light.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_emissive_arc_light.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_flame_0_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_flame_1_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_flame_2_arc_light.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_flame_3_arc_light.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_arc",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_arc_light_arc_0.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_arc_light_arc_1.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_arc_light_arc_2.png",
+              "cobbleeffort:textures/pokemon/arc_light/0219_magcargo/magcargo_shiny_arc_light_arc_3.png"
+            ],
+            "fps": 8,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

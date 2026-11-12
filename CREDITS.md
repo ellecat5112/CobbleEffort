@@ -68,6 +68,13 @@ made by the Cobblemon team and contributors.
 * **Steampunk** (`tools/styles/steam_*.py`, `_steam.py`; textures under `.../pokemon/steampunk/`): colours remapped to
   each look's metal or leather with riveted plates, pipes, a chest gear (turning in an animated texture for
   clockwork), goggles and furnace vents with a flickering emissive layer; shinies silver and blued steel.
+* **Arc Light** (`tools/styles/arc_*.py`, `_arc.py`, `_fx.py`; textures under `.../pokemon/arc_light/`): colours remapped
+  to each look's dark metal, glass or storm cloud, with Lichtenberg scars, a plasma heart, molten seams, copper rails or
+  light orbs, and an animated emissive layer where freshly generated branching arcs strike every frame; shinies hue-turned.
+* **Abyss** (`tools/styles/void_*.py`, `_void.py`; textures under `.../pokemon/abyss/`): colours remapped to void
+  darks, with glowing Voronoi rifts, painted eyes, rising flames, rune circles or branching veins, and an animated
+  emissive layer (motes drift, rifts throb, eyes blink, flames flicker, veins pulse); shinies hue-turned. Both paint
+  plain texture layers and large emissive layers too.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

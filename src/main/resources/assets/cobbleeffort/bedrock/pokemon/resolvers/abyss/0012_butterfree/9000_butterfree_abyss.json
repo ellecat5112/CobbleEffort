@@ -1,0 +1,157 @@
+{
+  "species": "cobblemon:butterfree",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "abyss"
+      ]
+    },
+    {
+      "aspects": [
+        "valencian",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "valencian",
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/0012_butterfree/butterfree_valencian_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "abyss"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_shiny_abyss.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gaze",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_shiny_abyss_gaze_0.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_shiny_abyss_gaze_1.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_shiny_abyss_gaze_2.png",
+              "cobbleeffort:textures/pokemon/abyss/compat/mega_showdown/0012_butterfree/butterfree_gmax_shiny_abyss_gaze_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
