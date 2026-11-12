@@ -151,7 +151,8 @@ reference pictures found online; none of their pixels are used. Petroleodd and P
 and design) are by **@aalacer398** (Instagram), used with their permission; our models are built by hand after their
 art. The Prototaxites line (Mycolith, Taxitower, Paleomycelium, Devonian Drift) is an idea the user brought from
 Google's Gemini; its models are our own. Jerbolt and Mesmerboa are after a design by **NyonTox**
-(Pinterest), used with their permission; the names and models are our own.
+(Pinterest), used with their permission; the names and models are our own. The land shark line was designed from
+the user's description with a free-to-use reference picture; its names and models are our own.
 
 ## Code and data
 

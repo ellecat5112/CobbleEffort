@@ -690,6 +690,13 @@ rest and faster on the move or in battle. Jerbolt has hypnotic spiral eyes. Use 
 evolve it (it learns Psychic Noise). Uncommon in deserts, badlands and savannas at night; Mesmerboa is rare in deserts
 at night. Shinies are lilac with a cyan ring.
 
+**Sharkindle → Forgnash → Magmalodon** (Steel/Fire, levels 40 and 60): CobbleEffort's **pseudo-legendary** (600 base
+stats, slow growth). A red and black land shark on four legs with glowing orange fins; then a two-legged land shark with
+huge red claws, more fins and flames exploding from its back; then a huge, beefy land shark with a fanged mouth that
+glows inside, flames round its arms and legs, and smoke pouring off its head and hanging down its back like dreads.
+Rough Skin or Flash Fire, hidden Tough Claws. Very rare in volcanic biomes, badlands and underground near lava.
+Shinies are steel-silver and cobalt with blue flames.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -722,6 +729,9 @@ at night. Shinies are lilac with a cyan ring.
 | 3027 | **Taxitower** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 115 / 70 / 125 / 95 / 85 / 25 | 26'3" (8 m) / 644.1 kg | Evolve Mycolith at level 38. | Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil through miles of underground threads. When threatened, it releases blinding clouds of prehistoric spores that haven't been breathed in eons. |
 | 3028 | **Jerbolt** | Electric / Psychic | Static / Synchronize / Levitate (hidden) | 40 / 45 / 35 / 60 / 45 / 85 | 0'12" (0.3 m) / 2.5 kg | Wild: uncommon in deserts, badlands and savannas at night. Evolves into Mesmerboa when a Thunder Stone is used on it. | It floats over desert dunes at night with its tail curled round it in a ring. Anything that stares at the turning ring for long falls into a daze, and Jerbolt hops off with its food. |
 | 3029 | **Mesmerboa** | Electric / Psychic | Static / Synchronize / Levitate (hidden) | 60 / 65 / 55 / 105 / 85 / 125 | 2'4" (0.7 m) / 14 kg | Use a Thunder Stone on Jerbolt. It learns Psychic Noise when it evolves. Wild: rare in deserts at night. | Its tail is so long it never touches the ground: it hangs round Mesmerboa in a great ring that crackles with electricity. Spun fast, the ring can put a whole herd of Pokémon to sleep at once. |
+| 3030 | **Sharkindle** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 55 / 70 / 55 / 40 / 45 / 35 | 2'4" (0.7 m) / 30 kg | Wild: very rare in volcanic biomes and badlands, and underground near lava. Evolves into Forgnash at level 40. | It swims through the ground near lava as easily as a shark through water, its orange fins glowing where they cut through the hot rock. Its bite can dent iron. |
+| 3031 | **Forgnash** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 70 / 100 / 80 / 55 / 60 / 55 | 4'7" (1.4 m) / 120 kg | Evolve Sharkindle at level 40. Wild: extremely rare in volcanic biomes. | Once it stands on two legs, the fire inside it bursts out through its back. It hammers metal ore with its claws to sharpen them, and the sparks fly like a forge. |
+| 3032 | **Magmalodon** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 108 / 135 / 105 / 80 / 85 / 87 | 7'10" (2.4 m) / 350 kg | Evolve Forgnash at level 60. | Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its back like dreadlocks. A single bite from its huge jaws can tear through a steel girder. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -731,6 +741,8 @@ at night. Shinies are lilac with a cyan ring.
 ![The fossil Pokémon, regular and shiny](docs/newmons_fossils.png)
 
 ![Jerbolt and Mesmerboa, regular and shiny](docs/newmons_jerboa.png)
+
+![Sharkindle, Forgnash and Magmalodon, regular and shiny](docs/newmons_landshark.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

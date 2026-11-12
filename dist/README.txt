@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 29 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 32 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1012,6 +1012,32 @@ cobbleeffort:cavitot.
   at once."
   * Use a Thunder Stone on Jerbolt. It learns Psychic Noise when it evolves.
   * Wild: rare in deserts at night.
+
+#3030 SHARKINDLE  (Steel / Fire; Rough Skin / Flash Fire / Tough Claws (hidden))
+  a red and black land shark on four stubby legs with a toothy grin, sharp yellow eyes, a striped
+  grey dorsal fin and glowing orange shoulder fins
+  Stats: HP 55  Atk 70  Def 55  SpA 40  SpD 45  Spe 35  (total 300)
+  Pokedex: "It swims through the ground near lava as easily as a shark through water, its orange
+  fins glowing where they cut through the hot rock. Its bite can dent iron."
+  * Wild: very rare in volcanic biomes and badlands, and underground near lava.
+  * Evolves into Forgnash at level 40.
+
+#3031 FORGNASH  (Steel / Fire; Rough Skin / Flash Fire / Tough Claws (hidden))
+  a standing land shark with a huge toothy grin, glowing orange eyes, horns, orange fins, flames
+  exploding from its back and huge red claws
+  Stats: HP 70  Atk 100  Def 80  SpA 55  SpD 60  Spe 55  (total 420)
+  Pokedex: "Once it stands on two legs, the fire inside it bursts out through its back. It hammers
+  metal ore with its claws to sharpen them, and the sparks fly like a forge."
+  * Evolve Sharkindle at level 40.
+  * Wild: extremely rare in volcanic biomes.
+
+#3032 MAGMALODON  (Steel / Fire; Rough Skin / Flash Fire / Tough Claws (hidden))
+  a large, beefy land shark with a huge fanged mouth glowing inside, smoke hanging from its head
+  like dreads, orange fins, red armour and flames wrapped round its arms and legs
+  Stats: HP 108  Atk 135  Def 105  SpA 80  SpD 85  Spe 87  (total 600)
+  Pokedex: "Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its
+  back like dreadlocks. A single bite from its huge jaws can tear through a steel girder."
+  * Evolve Forgnash at level 60.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

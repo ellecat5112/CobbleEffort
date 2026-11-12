@@ -1,0 +1,48 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sharkindle-volcanic",
+   "pokemon": "cobbleeffort:sharkindle",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-30",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  },
+  {
+   "id": "sharkindle-lava",
+   "pokemon": "cobbleeffort:sharkindle",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-30",
+   "weight": 1.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "neededNearbyBlocks": [
+     "minecraft:lava"
+    ]
+   }
+  }
+ ]
+}

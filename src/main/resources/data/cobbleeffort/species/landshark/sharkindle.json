@@ -1,0 +1,173 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3030,
+ "name": "Sharkindle",
+ "primaryType": "steel",
+ "secondaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 7,
+ "weight": 300,
+ "pokedex": [
+  "cobbleeffort.species.sharkindle.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "pseudo_legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "roughskin",
+  "flashfire",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 40,
+  "special_defence": 45,
+  "speed": 35
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 60,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.72,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "4:ember",
+  "8:bite",
+  "12:metalclaw",
+  "16:firefang",
+  "20:irondefense",
+  "24:flamewheel",
+  "28:crunch",
+  "32:ironhead",
+  "36:firelash",
+  "40:flareblitz",
+  "egg:aquajet",
+  "egg:scaleshot",
+  "egg:bellydrum",
+  "egg:doubleedge",
+  "egg:outrage",
+  "egg:dragontail",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:firepunch",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:overheat",
+  "tm:heatwave",
+  "tm:temperflare",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:metalclaw",
+  "tm:earthquake",
+  "tm:dig",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:crunch",
+  "tm:psychicfangs",
+  "tm:thunderfang",
+  "tm:dragonclaw",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:bodypress",
+  "tm:bodyslam",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:rocktomb",
+  "tm:bulldoze",
+  "tm:scaryface",
+  "tm:thief"
+ ],
+ "evolutions": [
+  {
+   "id": "sharkindle_forgnash",
+   "variant": "level_up",
+   "result": "cobbleeffort:forgnash",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "crushclaw"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 40
+    }
+   ]
+  }
+ ]
+}

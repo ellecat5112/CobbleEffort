@@ -1,0 +1,186 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3031,
+ "name": "Forgnash",
+ "primaryType": "steel",
+ "secondaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 14,
+ "weight": 1200,
+ "pokedex": [
+  "cobbleeffort.species.forgnash.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "pseudo_legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "roughskin",
+  "flashfire",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 100,
+  "defence": 80,
+  "special_attack": 55,
+  "special_defence": 60,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 144,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.86,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:crushclaw",
+  "1:tackle",
+  "1:leer",
+  "4:ember",
+  "8:bite",
+  "12:metalclaw",
+  "16:firefang",
+  "20:irondefense",
+  "24:flamewheel",
+  "28:crunch",
+  "32:ironhead",
+  "36:firelash",
+  "40:crushclaw",
+  "44:firepunch",
+  "48:ironhead",
+  "52:flareblitz",
+  "56:swordsdance",
+  "egg:aquajet",
+  "egg:scaleshot",
+  "egg:bellydrum",
+  "egg:doubleedge",
+  "egg:outrage",
+  "egg:dragontail",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:firepunch",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:overheat",
+  "tm:heatwave",
+  "tm:temperflare",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:metalclaw",
+  "tm:earthquake",
+  "tm:dig",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:crunch",
+  "tm:psychicfangs",
+  "tm:thunderfang",
+  "tm:dragonclaw",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:bodypress",
+  "tm:bodyslam",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:rocktomb",
+  "tm:bulldoze",
+  "tm:scaryface",
+  "tm:thief",
+  "tm:outrage",
+  "tm:closecombat",
+  "tm:brickbreak",
+  "tm:dragontail",
+  "tm:focusblast",
+  "tm:poweruppunch",
+  "tm:thunderpunch"
+ ],
+ "evolutions": [
+  {
+   "id": "forgnash_magmalodon",
+   "variant": "level_up",
+   "result": "cobbleeffort:magmalodon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "heatcrash"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:sharkindle"
+}

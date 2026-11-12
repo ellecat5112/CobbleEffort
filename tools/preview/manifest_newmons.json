@@ -636,5 +636,99 @@
     "retextured": "cobbleeffort:textures/pokemon/3029_mesmerboa/mesmerboa_shiny_glow_0.png"
    }
   ]
+ },
+ {
+  "species": "sharkindle",
+  "folder": "3030_sharkindle",
+  "model": "cobbleeffort:sharkindle.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3030_sharkindle/sharkindle.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3030_sharkindle/sharkindle_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "sharkindle_shiny",
+  "folder": "3030_sharkindle",
+  "model": "cobbleeffort:sharkindle.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3030_sharkindle/sharkindle_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3030_sharkindle/sharkindle_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "forgnash",
+  "folder": "3031_forgnash",
+  "model": "cobbleeffort:forgnash.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3031_forgnash/forgnash.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3031_forgnash/forgnash_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "forgnash_shiny",
+  "folder": "3031_forgnash",
+  "model": "cobbleeffort:forgnash.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3031_forgnash/forgnash_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3031_forgnash/forgnash_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "magmalodon",
+  "folder": "3032_magmalodon",
+  "model": "cobbleeffort:magmalodon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "magmalodon_shiny",
+  "folder": "3032_magmalodon",
+  "model": "cobbleeffort:magmalodon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_shiny_shell.png"
+   }
+  ]
  }
 ]

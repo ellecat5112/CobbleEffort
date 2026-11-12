@@ -136,6 +136,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (Electric/Psychic, `evolve_stone` = item_interact with a Thunder Stone), floaters whose tail is a `ring` bone: a
   circle of rod segments banded yellow/violet (violet glows) + a bolt plane; the rig turns `ring*` bones round z in
   idle (slow), walk and battle (faster).
+  Land sharks, the pseudo-legendary (#3030-3032, `models/_landshark.py`: polygon fins, flame-tongue planes, translucent
+  smoke): Sharkindle -> Forgnash (40) -> Magmalodon (60), Steel/Fire, `growth: slow`, 300/420/600.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

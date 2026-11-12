@@ -707,6 +707,69 @@ SPECIES.update({
 })
 LINES["jerboa"] = ["jerbolt", "mesmerboa"]
 
+# --- the land sharks: CobbleEffort's pseudo-legendary ------------------------------------------------------------------
+
+SHARK_TM = BASIC_TM + ["flamethrower", "fireblast", "firefang", "firepunch", "flamecharge", "willowisp", "sunnyday",
+                       "overheat", "heatwave", "temperflare", "ironhead", "irondefense", "flashcannon", "heavyslam",
+                       "metalclaw", "earthquake", "dig", "rockslide", "stoneedge", "crunch", "psychicfangs",
+                       "thunderfang", "dragonclaw", "swordsdance", "bulkup", "bodypress", "bodyslam", "stealthrock",
+                       "sandstorm", "rocktomb", "bulldoze", "scaryface", "thief"]
+SHARK_TM_BIG = ["outrage", "closecombat", "brickbreak", "dragontail", "focusblast", "poweruppunch", "thunderpunch"]
+SHARK_TM_FINAL = ["gigaimpact", "hyperbeam", "steelbeam", "flareblitz", "meteorbeam"]
+SHARK_EGG = ["aquajet", "scaleshot", "bellydrum", "doubleedge", "outrage", "dragontail"]
+SHARK_LEARN = [(1, "tackle"), (1, "leer"), (4, "ember"), (8, "bite"), (12, "metalclaw"), (16, "firefang"),
+               (20, "irondefense"), (24, "flamewheel"), (28, "crunch"), (32, "ironhead"), (36, "firelash")]
+SHARK = dict(male=0.5, egg_groups=["monster", "dragon"], friendship=50, catch=45, growth="slow",
+             abilities=["roughskin", "flashfire", "h:toughclaws"],
+             ability_names="Rough Skin / Flash Fire / Tough Claws (hidden)", labels=["pseudo_legendary"])
+
+SPECIES.update({
+    "sharkindle": {
+        "dex": 3030, "name": "Sharkindle", "line": "landshark", "types": ["steel", "fire"], **SHARK,
+        "stats": stats(55, 70, 55, 40, 45, 35), "ev": evs(attack=1), "exp": 60,
+        "height": 7, "weight": 300, "shoulder": False, "walk": 0.3,
+        "moves": SHARK_LEARN + [(40, "flareblitz")], "tm": SHARK_TM, "egg": SHARK_EGG,
+        "evolve": ("forgnash", 40, ["crushclaw"]),
+        "drops": [("minecraft:iron_nugget", "1-3", None), ("minecraft:blaze_powder", "0-1", None)],
+        "entry": ("It swims through the ground near lava as easily as a shark through water, its orange fins glowing "
+                  "where they cut through the hot rock. Its bite can dent iron."),
+        "spawns": [route_spawn("sharkindle-volcanic", "ultra-rare", "15-30", 1.0, ["#cobblemon:is_volcanic", "#cobblemon:is_badlands"]),
+                   spawn("sharkindle-lava", "ultra-rare", "15-30", 1.0,
+                         dict(UNDERGROUND, biomes=["#cobblemon:is_overworld"], neededNearbyBlocks=["minecraft:lava"]))],
+        "how": ["Wild: very rare in volcanic biomes and badlands, and underground near lava.",
+                "Evolves into Forgnash at level 40."],
+    },
+    "forgnash": {
+        "dex": 3031, "name": "Forgnash", "line": "landshark", "types": ["steel", "fire"], **SHARK,
+        "stats": stats(70, 100, 80, 55, 60, 55), "ev": evs(attack=2), "exp": 144,
+        "height": 14, "weight": 1200, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "crushclaw")] + SHARK_LEARN + [(40, "crushclaw"), (44, "firepunch"), (48, "ironhead"),
+                                                    (52, "flareblitz"), (56, "swordsdance")],
+        "tm": SHARK_TM + SHARK_TM_BIG, "egg": SHARK_EGG,
+        "evolve": ("magmalodon", 60, ["heatcrash"]),
+        "drops": [("minecraft:iron_ingot", "0-1", None), ("minecraft:blaze_powder", "1-2", None)],
+        "entry": ("Once it stands on two legs, the fire inside it bursts out through its back. It hammers metal ore "
+                  "with its claws to sharpen them, and the sparks fly like a forge."),
+        "spawns": [route_spawn("forgnash-volcanic", "ultra-rare", "40-55", 0.5, ["#cobblemon:is_volcanic"])],
+        "how": ["Evolve Sharkindle at level 40.", "Wild: extremely rare in volcanic biomes."],
+    },
+    "magmalodon": {
+        "dex": 3032, "name": "Magmalodon", "line": "landshark", "types": ["steel", "fire"], **SHARK,
+        "stats": stats(108, 135, 105, 80, 85, 87), "ev": evs(attack=3), "exp": 300,
+        "height": 24, "weight": 3500, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "heatcrash"), (1, "crushclaw")] + SHARK_LEARN +
+                 [(40, "crushclaw"), (44, "firepunch"), (48, "ironhead"), (52, "flareblitz"), (56, "swordsdance"),
+                  (60, "heatcrash"), (65, "heavyslam"), (70, "shiftgear"), (76, "overheat")],
+        "tm": SHARK_TM + SHARK_TM_BIG + SHARK_TM_FINAL, "egg": SHARK_EGG, "evolve": None,
+        "drops": [("minecraft:iron_ingot", "1-3", None), ("minecraft:magma_cream", "1-2", None)],
+        "entry": ("Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its back like "
+                  "dreadlocks. A single bite from its huge jaws can tear through a steel girder."),
+        "spawns": [],
+        "how": ["Evolve Forgnash at level 60."],
+    },
+})
+LINES["landshark"] = ["sharkindle", "forgnash", "magmalodon"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -934,7 +997,8 @@ def species_json(sp):
     d.update({
         "maleRatio": c.get("male", 0.5), "height": c["height"], "weight": c["weight"], "pokedex": [f"{MOD}.species.{sp}.desc"],
         "labels": ["cobbleeffort", "custom"] + c.get("labels", []), "aspects": [], "abilities": c["abilities"], "eggGroups": c["egg_groups"],
-        "baseStats": c["stats"], "evYield": c["ev"], "baseExperienceYield": c["exp"], "experienceGroup": "medium_slow",
+        "baseStats": c["stats"], "evYield": c["ev"], "baseExperienceYield": c["exp"],
+        "experienceGroup": c.get("growth", "medium_slow"),
         "catchRate": c["catch"], "eggCycles": 20, "baseFriendship": c["friendship"],
         "shoulderMountable": c["shoulder"], "baseScale": c["scale"],
         "hitbox": {"width": c["hitbox"][0], "height": c["hitbox"][1], "fixed": False},
