@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:maushold",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0925_maushold/maushold_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0925_maushold/maushold_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "maushold-family-four",
+        "april_fools"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:tornadus",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0641_tornadus/tornadus_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0641_tornadus/tornadus_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "therian-forme",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0641_tornadus/tornadus_therian_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "therian-forme",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0641_tornadus/tornadus_therian_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

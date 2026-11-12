@@ -1,0 +1,119 @@
+{
+  "species": "cobblemon:malamar",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0687_malamar/malamar_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_1_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_2_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_3_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_4_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_5_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_6_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_7_star_wars.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0687_malamar/malamar_mega_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

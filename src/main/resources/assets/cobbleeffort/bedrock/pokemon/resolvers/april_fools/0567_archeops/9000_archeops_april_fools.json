@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:archeops",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0567_archeops/archeops_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0567_archeops/archeops_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:aerodactyl",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0142_aerodactyl/aerodactyl_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0142_aerodactyl/aerodactyl_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0142_aerodactyl/aerodactylmega_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0142_aerodactyl/aerodactylmega_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

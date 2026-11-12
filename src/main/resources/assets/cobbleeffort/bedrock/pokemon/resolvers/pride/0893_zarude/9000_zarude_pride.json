@@ -1,0 +1,42 @@
+{
+  "species": "cobblemon:zarude",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/0893_zarude/zarude_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

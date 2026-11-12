@@ -1,0 +1,59 @@
+{
+  "species": "cobblemon:rhydon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_shiny_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_shiny_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_shiny_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_shiny_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "april_fools"
+      ]
+    }
+  ]
+}

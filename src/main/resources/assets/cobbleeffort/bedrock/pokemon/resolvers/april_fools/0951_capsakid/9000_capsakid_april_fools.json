@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:capsakid",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0951_capsakid/capsakid_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0951_capsakid/capsakid_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

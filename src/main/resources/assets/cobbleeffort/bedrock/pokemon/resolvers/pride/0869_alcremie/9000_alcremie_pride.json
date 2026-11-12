@@ -1,0 +1,978 @@
+{
+  "species": "cobblemon:alcremie",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_vanilla_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-strawberry",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-berry",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_berry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-clover",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_clover_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-flower",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_flower_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-love",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_heart_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-ribbon",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_ribbon_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-star",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_star_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-vanilla",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_vanilla_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-caramel_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_caramel_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-ruby",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_ruby_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-matcha",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_matcha_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-mint",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_mint_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-lemon",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_lemon_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-salted",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_salted_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-ruby_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_rubyswirl_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-rainbow_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_rainbowswirl_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/0869_alcremie/alcremie_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "pride"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_pride.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

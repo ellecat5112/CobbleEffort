@@ -1,0 +1,120 @@
+{
+  "species": "cobblemon:infernape",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_emissive_star_wars.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0392_infernape/infernape_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_emissive_star_wars.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_emissive_star_wars.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/msdextramegas/0392_infernape/infernape_mega_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

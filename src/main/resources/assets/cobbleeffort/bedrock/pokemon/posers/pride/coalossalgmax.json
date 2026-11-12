@@ -1,0 +1,39 @@
+{
+  "portraitScale": 0.6,
+  "portraitTranslation": [
+    -0.4,
+    2.49,
+    0
+  ],
+  "profileScale": 0.27,
+  "profileTranslation": [
+    -0.1,
+    1.2,
+    0
+  ],
+  "rootBone": "gmax_coalossal",
+  "animations": {},
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.bedrock('ce_gmax_coalossal', 'ground_idle')"
+      ]
+    },
+    "walk": {
+      "poseName": "walk",
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "animations": [
+        "q.bedrock('ce_gmax_coalossal', 'ground_walk')"
+      ]
+    }
+  }
+}

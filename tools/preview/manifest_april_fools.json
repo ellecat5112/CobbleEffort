@@ -1,0 +1,441 @@
+[
+  {
+    "species": "paras",
+    "folder": "0046_paras",
+    "model": "cobblemon:paras.geo",
+    "original": "cobblemon:textures/pokemon/0046_paras/paras.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0046_paras/paras_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "parasect",
+    "folder": "0047_parasect",
+    "model": "cobblemon:parasect.geo",
+    "original": "cobblemon:textures/pokemon/0047_parasect/parasect.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0047_parasect/parasect_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "geodude",
+    "folder": "0074_geodude",
+    "model": "cobblemon:geodude.geo",
+    "original": "cobblemon:textures/pokemon/0074_geodude/geodude.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0074_geodude/geodude_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0074_geodude/geodude_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "graveler",
+    "folder": "0075_graveler",
+    "model": "cobblemon:graveler.geo",
+    "original": "cobblemon:textures/pokemon/0075_graveler/graveler.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0075_graveler/graveler_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0075_graveler/graveler_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golem",
+    "folder": "0076_golem",
+    "model": "cobblemon:golem.geo",
+    "original": "cobblemon:textures/pokemon/0076_golem/golem.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0076_golem/golem_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0076_golem/golem_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rhyhorn",
+    "folder": "0111_rhyhorn",
+    "model": "cobblemon:rhyhorn_male.geo",
+    "original": "cobblemon:textures/pokemon/0111_rhyhorn/rhyhorn.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0111_rhyhorn/rhyhorn_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0111_rhyhorn/rhyhorn_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rhydon",
+    "folder": "0112_rhydon",
+    "model": "cobblemon:rhydon_male.geo",
+    "original": "cobblemon:textures/pokemon/0112_rhydon/rhydon.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0112_rhydon/rhydon_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "aerodactyl",
+    "folder": "0142_aerodactyl",
+    "model": "cobblemon:aerodactyl.geo",
+    "original": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactyl.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0142_aerodactyl/aerodactyl_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "aerodactyl",
+    "folder": "0142_aerodactyl",
+    "model": "cobblemon:aerodactyl_mega.geo",
+    "original": "cobblemon:textures/pokemon/0142_aerodactyl/aerodactylmega.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0142_aerodactyl/aerodactylmega_april_fools.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "plusle",
+    "folder": "0311_plusle",
+    "model": "cobblemon:plusle.geo",
+    "original": "cobblemon:textures/pokemon/0311_plusle/plusle.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0311_plusle/plusle_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "carvanha",
+    "folder": "0318_carvanha",
+    "model": "cobblemon:carvanha.geo",
+    "original": "cobblemon:textures/pokemon/0318_carvanha/carvanha.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0318_carvanha/carvanha_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "sharpedo",
+    "folder": "0319_sharpedo",
+    "model": "cobblemon:sharpedo.geo",
+    "original": "cobblemon:textures/pokemon/0319_sharpedo/sharpedo.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0319_sharpedo/sharpedo_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0319_sharpedo/sharpedo_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0319_sharpedo/sharpedo_emissive_april_fools.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sharpedo",
+    "folder": "0319_sharpedo",
+    "model": "cobblemon:sharpedomega.geo",
+    "original": "cobblemon:textures/pokemon/0319_sharpedo/sharpedomega.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0319_sharpedo/sharpedomega_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0319_sharpedo/megasharpedo_emmissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0319_sharpedo/megasharpedo_emmissive_april_fools.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "stunky",
+    "folder": "0434_stunky",
+    "model": "cobblemon:stunky.geo",
+    "original": "cobblemon:textures/pokemon/0434_stunky/stunky.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0434_stunky/stunky_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0434_stunky/stunky_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skuntank",
+    "folder": "0435_skuntank",
+    "model": "cobblemon:skuntank.geo",
+    "original": "cobblemon:textures/pokemon/0435_skuntank/skuntank.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "finneon",
+    "folder": "0456_finneon",
+    "model": "cobblemon:finneon.geo",
+    "original": "cobblemon:textures/pokemon/0456_finneon/finneon.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0456_finneon/finneon_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0456_finneon/finneon_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0456_finneon/finneon_emissive_april_fools.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0456_finneon/finneon_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lumineon",
+    "folder": "0457_lumineon",
+    "model": "cobblemon:lumineon.geo",
+    "original": "cobblemon:textures/pokemon/0457_lumineon/lumineon.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0457_lumineon/lumineon_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0457_lumineon/lumineon_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0457_lumineon/lumineon_emissive_april_fools.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0457_lumineon/lumineon_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rhyperior",
+    "folder": "0464_rhyperior",
+    "model": "cobblemon:rhyperior_male.geo",
+    "original": "cobblemon:textures/pokemon/0464_rhyperior/rhyperior.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0464_rhyperior/rhyperior_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0464_rhyperior/rhyperior_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "archen",
+    "folder": "0566_archen",
+    "model": "cobblemon:archen.geo",
+    "original": "cobblemon:textures/pokemon/0566_archen/archen.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0566_archen/archen_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "archeops",
+    "folder": "0567_archeops",
+    "model": "cobblemon:archeops.geo",
+    "original": "cobblemon:textures/pokemon/0567_archeops/archeops.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0567_archeops/archeops_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "vanillite",
+    "folder": "0582_vanillite",
+    "model": "cobblemon:vanillite.geo",
+    "original": "cobblemon:textures/pokemon/0582_vanillite/vanillite.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0582_vanillite/vanillite_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "vanillish",
+    "folder": "0583_vanillish",
+    "model": "cobblemon:vanillish.geo",
+    "original": "cobblemon:textures/pokemon/0583_vanillish/vanillish.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0583_vanillish/vanillish_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "vanilluxe",
+    "folder": "0584_vanilluxe",
+    "model": "cobblemon:vanilluxe.geo",
+    "original": "cobblemon:textures/pokemon/0584_vanilluxe/vanilluxe.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0584_vanilluxe/vanilluxe_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "cryogonal",
+    "folder": "0615_cryogonal",
+    "model": "cobblemon:cryogonal.geo",
+    "original": "cobblemon:textures/pokemon/0615_cryogonal/cryogonal.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0615_cryogonal/cryogonal_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0615_cryogonal/cryogonal_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0615_cryogonal/cryogonal_emissive_april_fools.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0615_cryogonal/cryogonal_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "cobalion",
+    "folder": "0638_cobalion",
+    "model": "cobblemon:cobalion.geo",
+    "original": "cobblemon:textures/pokemon/0638_cobalion/cobalion.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0638_cobalion/cobalion_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "yungoos",
+    "folder": "0734_yungoos",
+    "model": "cobblemon:yungoos.geo",
+    "original": "cobblemon:textures/pokemon/0734_yungoos/yungoos.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0734_yungoos/yungoos_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "gumshoos",
+    "folder": "0735_gumshoos",
+    "model": "cobblemon:gumshoos.geo",
+    "original": "cobblemon:textures/pokemon/0735_gumshoos/gumshoos.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0735_gumshoos/gumshoos_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "tapulele",
+    "folder": "0786_tapulele",
+    "model": "cobblemon:tapulele.geo",
+    "original": "cobblemon:textures/pokemon/0786_tapulele/tapulele.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0786_tapulele/tapulele_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_emissive_april_fools.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sizzlipede",
+    "folder": "0850_sizzlipede",
+    "model": "cobblemon:sizzlipede.geo",
+    "original": "cobblemon:textures/pokemon/0850_sizzlipede/sizzlipede.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0850_sizzlipede/sizzlipede_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0850_sizzlipede/sizzlipede_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0850_sizzlipede/sizzlipede_emissive_april_fools.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0850_sizzlipede/sizzlipede_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "centiskorch",
+    "folder": "0851_centiskorch",
+    "model": "cobblemon:centiskorch.geo",
+    "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_emissive_april_fools.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "centiskorch",
+    "folder": "0851_centiskorch",
+    "model": "cobblemon:centiskorch_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0851_centiskorch/centiskorch_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools_prank_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "tandemaus",
+    "folder": "0924_tandemaus",
+    "model": "cobblemon:tandemaus.geo",
+    "original": "cobblemon:textures/pokemon/0924_tandemaus/tandemaus.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0924_tandemaus/tandemaus_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "maushold",
+    "folder": "0925_maushold",
+    "model": "cobblemon:maushold_three.geo",
+    "original": "cobblemon:textures/pokemon/0925_maushold/maushold.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0925_maushold/maushold_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "capsakid",
+    "folder": "0951_capsakid",
+    "model": "cobblemon:capsakid.geo",
+    "original": "cobblemon:textures/pokemon/0951_capsakid/capsakid.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0951_capsakid/capsakid_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "scovillain",
+    "folder": "0952_scovillain",
+    "model": "cobblemon:scovillain.geo",
+    "original": "cobblemon:textures/pokemon/0952_scovillain/scovillain.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0952_scovillain/scovillain_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "scovillain",
+    "folder": "0952_scovillain",
+    "model": "cobblemon:scovillain_mega.geo",
+    "original": "cobblemon:textures/pokemon/0952_scovillain/scovillain_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0952_scovillain/scovillain_mega_april_fools.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "varoom",
+    "folder": "0965_varoom",
+    "model": "cobblemon:varoom.geo",
+    "original": "cobblemon:textures/pokemon/0965_varoom/varoom.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0965_varoom/varoom_april_fools.png",
+    "layers": []
+  },
+  {
+    "species": "revavroom",
+    "folder": "0966_revavroom",
+    "model": "cobblemon:revavroom.geo",
+    "original": "cobblemon:textures/pokemon/0966_revavroom/revavroom.png",
+    "retextured": "cobbleeffort:textures/pokemon/april_fools/0966_revavroom/revavroom_april_fools.png",
+    "layers": []
+  }
+]

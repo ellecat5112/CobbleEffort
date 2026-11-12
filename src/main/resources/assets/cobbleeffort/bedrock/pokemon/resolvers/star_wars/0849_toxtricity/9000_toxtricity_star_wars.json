@@ -1,0 +1,205 @@
+{
+  "species": "cobblemon:toxtricity",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_star_wars.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_emissive1_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_emissive2_star_wars.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_emissive1_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_emissive2_star_wars.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_amped_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "low_key-form",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_star_wars.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_emissive1_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_emissive2_star_wars.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "low_key-form",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_emissive1_star_wars.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_emissive2_star_wars.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/0849_toxtricity/toxtricity_lowkey_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_star_wars.png",
+      "layers": [
+        {
+          "name": "mane",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_emissive_1_star_wars.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0849_toxtricity/toxtricity_gigantamax_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

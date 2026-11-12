@@ -1,0 +1,90 @@
+{
+  "species": "cobblemon:coalossal",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pride"
+      ],
+      "poser": "cobbleeffort:coalossal",
+      "model": "cobbleeffort:coalossal.geo",
+      "texture": "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_pride.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_emissive_pride.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/0839_coalossal/coalossal_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "pride"
+      ],
+      "poser": "cobbleeffort:coalossalgmax",
+      "model": "cobbleeffort:gmax_coalossal.geo",
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0839_coalossal/gmax_coalossal_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:centiskorch",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_emissive_april_fools.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_emissive_shiny_april_fools.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_shiny_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_shiny_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_shiny_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0851_centiskorch/centiskorch_shiny_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_shiny_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_shiny_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_shiny_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0851_centiskorch/centiskorch_gmax_shiny_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

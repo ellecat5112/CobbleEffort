@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:tapulele",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_april_fools.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_emissive_april_fools.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0786_tapulele/tapulele_shiny_emissive_april_fools.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

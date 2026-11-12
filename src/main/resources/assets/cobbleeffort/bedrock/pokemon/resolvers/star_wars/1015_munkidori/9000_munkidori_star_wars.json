@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:munkidori",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_shiny_star_wars_kyber_0.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_shiny_star_wars_kyber_1.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_shiny_star_wars_kyber_2.png",
+              "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/1015_munkidori/munkidori_shiny_star_wars_kyber_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

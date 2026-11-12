@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:greavard",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0971_greavard/greavard_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/star_wars/0971_greavard/greavard_emissive_star_wars.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0971_greavard/greavard_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/star_wars/0971_greavard/greavard_emissive_star_wars.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

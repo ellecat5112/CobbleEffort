@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:ivysaur",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0002_ivysaur/ivysaur_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0002_ivysaur/ivysaur_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0002_ivysaur/ivysaur_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0002_ivysaur/ivysaur_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "star_wars"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "star_wars"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

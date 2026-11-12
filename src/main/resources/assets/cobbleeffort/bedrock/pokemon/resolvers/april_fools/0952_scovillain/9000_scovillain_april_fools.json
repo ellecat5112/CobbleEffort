@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:scovillain",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0952_scovillain/scovillain_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0952_scovillain/scovillain_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0952_scovillain/scovillain_mega_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/compat/mega_showdown/0952_scovillain/scovillain_mega_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

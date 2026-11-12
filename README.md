@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon) · #29 Sakura (44 Pokémon) · #30 Shadow (34 Pokémon) · #31 Slayer (37 Pokémon) · #32 Sunburst (26 Pokémon) · #33 Toxic Chain (29 Pokémon) · #34 Undertale (42 Pokémon) · #35 Pokémon Unite (35 Pokémon) · #36 Zelda (37 Pokémon) · #37 Valentine's Day (38 Pokémon) · #38 St. Patrick's Day (36 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon) · #29 Sakura (44 Pokémon) · #30 Shadow (34 Pokémon) · #31 Slayer (37 Pokémon) · #32 Sunburst (26 Pokémon) · #33 Toxic Chain (29 Pokémon) · #34 Undertale (42 Pokémon) · #35 Pokémon Unite (35 Pokémon) · #36 Zelda (37 Pokémon) · #37 Valentine's Day (38 Pokémon) · #38 St. Patrick's Day (36 Pokémon) · #39 April Fools' Day (34 Pokémon) · #40 Star Wars (34 Pokémon) · #41 LGBTQIA+ Pride (38 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -1097,6 +1097,74 @@ valentine-hearts, st-patrick-shamrock; Luvdisc swapped from St. Patrick's Day in
 lines already in other collections.
 
 ![Original vs. St. Patrick's Day](docs/st_patrick_preview.png)
+
+## Collection #39: April Fools' Day
+
+18 evolutionary lines (**34 Pokémon**) playing pranks (three lines per prank):
+
+* **jester** (Tapu Lele, Plusle, Capsakid): a red-and-yellow harlequin motley
+* **clown** (Vanillite, Tandemaus, Carvanha): clown white with big polka dots and a red nose
+* **googly eyes** (Geodude, Rhyhorn, Cryogonal): covered in googly eyes whose pupils **roll around**
+* **wrong colours** (Paras, Aerodactyl, Cobalion): every colour swapped round the colour wheel
+* **didn't load** (Archen, Varoom, Yungoos): pixelated into chunky blocks of few colours
+* **confetti** (Stunky, Finneon, Sizzlipede): showered with confetti and streamers that **twinkle**
+* other forms (Mega Aerodactyl, Sharpedo and Scovillain, Gigantamax Centiskorch) join the prank too
+* shiny: the prank colours turned round the colour wheel
+
+Paras → Parasect · Geodude → Graveler → Golem · Rhyhorn → Rhydon → Rhyperior · Aerodactyl · Plusle ·
+Carvanha → Sharpedo · Stunky → Skuntank · Finneon → Lumineon · Archen → Archeops · Vanillite → Vanillish → Vanilluxe ·
+Cryogonal · Cobalion · Yungoos → Gumshoos · Tapu Lele · Sizzlipede → Centiskorch · Tandemaus → Maushold ·
+Capsakid → Scovillain · Varoom → Revavroom
+
+![Original vs. April Fools](docs/april_fools_preview.png)
+
+## Collection #40: Star Wars
+
+18 evolutionary lines (**34 Pokémon**) from a galaxy far, far away (inspired by Star Wars; original patterns; three
+lines per look):
+
+* **Jedi** (Chimchar, Mudkip, Pansage): a cream tunic and belt under a brown robe, a blue blade that **hums**
+* **Sith** (Munkidori, Inkay, Spinarak): a black robe with a red blade and red glowing eyes
+* **trooper** (Miltank, Wobbuffet, Spritzee): white armour plates with black seams
+* **beskar** (Palkia, Tornadus, Greavard): polished silver armour plates, a dark visor and a leather belt
+* **astromech** (Toxel, Grimer, Ledyba): a white droid shell with blue panels and **blinking** lights
+* **rebel pilot** (Bulbasaur, Noibat, Comfey): an orange flight suit with a white harness and a striped helmet top
+* other forms (Mega Venusaur, Swampert and Malamar, Extra Megas' Mega Infernape, Gigantamax Venusaur and Toxtricity,
+  Origin Palkia, Therian Tornadus) join up too
+* shiny: the other side: a green blade, a purple blade, black shadow armour, gold beskar, red panels, a green suit
+
+Bulbasaur → Ivysaur → Venusaur · Grimer → Muk · Ledyba → Ledian · Spinarak → Ariados · Wynaut → Wobbuffet · Miltank ·
+Mudkip → Marshtomp → Swampert · Chimchar → Monferno → Infernape · Palkia · Pansage → Simisage · Tornadus ·
+Spritzee → Aromatisse · Inkay → Malamar · Noibat → Noivern · Comfey · Toxel → Toxtricity · Greavard → Houndstone ·
+Munkidori
+
+![Original vs. Star Wars](docs/star_wars_preview.png)
+
+## Collection #41: LGBTQIA+ Pride
+
+18 evolutionary lines (**38 Pokémon**) wearing pride flags, each flag's stripes running across the **whole body** from
+head to toe (by the height of every texel on the model, like collection #10, Trans Pride), the original's light and
+shade kept inside each stripe and the eyes their own colours (three lines per flag):
+
+* **rainbow** (Milcery, Ralts, Eternatus): red, orange, yellow, green, blue, violet
+* **bisexual** (Fletchling, Rufflet, Pidove): magenta, lavender, royal blue
+* **pansexual** (Indeedee, Ducklett, Binacle): pink, yellow, cyan
+* **lesbian** (Zarude, Veluza, Sandile): dark orange, orange, white, pink, dark rose
+* **asexual** (Koffing, Rolycoly, Arctovish): black, grey, white, purple
+* **nonbinary** (Swinub, Cubchoo, Farfetch'd): yellow, white, purple, black
+* other forms (Mega Gardevoir, Gallade and Barbaracle, Gigantamax Alcremie and Coalossal, Eternamax Eternatus) fly
+  the flags too
+* shiny: pastel glitter over the stripes, plus sparkles that **twinkle** in the dark
+
+Farfetch'd → Sirfetch'd · Koffing → Weezing · Swinub → Piloswine → Mamoswine · Ralts → Kirlia → Gardevoir / Gallade ·
+Pidove → Tranquill → Unfezant · Sandile → Krokorok → Krookodile · Ducklett → Swanna · Cubchoo → Beartic ·
+Rufflet → Braviary · Fletchling → Fletchinder → Talonflame · Binacle → Barbaracle · Rolycoly → Carkol → Coalossal ·
+Milcery → Alcremie · Indeedee · Arctovish · Eternatus · Zarude · Veluza
+
+All three picked with `generate.py pick --count 18` (seeds april-fools-prank, star-wars-galaxy, lgbtqia-pride-flags)
+from lines already in other collections.
+
+![Original vs. Pride](docs/pride_preview.png)
 
 ### How to get one
 

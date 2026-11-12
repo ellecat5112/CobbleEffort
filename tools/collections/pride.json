@@ -1,0 +1,61 @@
+{
+  "_comment": "LGBTQIA+ Pride collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed lgbtqia-pride-flags` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_pride.py.",
+  "aspect": "pride",
+  "feature": "pride_style",
+  "style": "pride_rainbow",
+  "cosmetic_items": [
+    "minecraft:magenta_banner"
+  ],
+  "lines": [
+    "farfetchd",
+    "koffing",
+    "swinub",
+    "ralts",
+    "pidove",
+    "sandile",
+    "ducklett",
+    "cubchoo",
+    "rufflet",
+    "fletchling",
+    "binacle",
+    "rolycoly",
+    "milcery",
+    "indeedee",
+    "arctovish",
+    "eternatus",
+    "zarude",
+    "veluza"
+  ],
+  "line_styles": {
+    "milcery": "pride_rainbow",
+    "ralts": "pride_rainbow",
+    "eternatus": "pride_rainbow",
+    "fletchling": "pride_bisexual",
+    "rufflet": "pride_bisexual",
+    "pidove": "pride_bisexual",
+    "indeedee": "pride_pansexual",
+    "ducklett": "pride_pansexual",
+    "binacle": "pride_pansexual",
+    "zarude": "pride_lesbian",
+    "veluza": "pride_lesbian",
+    "sandile": "pride_lesbian",
+    "koffing": "pride_asexual",
+    "rolycoly": "pride_asexual",
+    "arctovish": "pride_asexual",
+    "swinub": "pride_nonbinary",
+    "cubchoo": "pride_nonbinary",
+    "farfetchd": "pride_nonbinary"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 41,
+    "title": "LGBTQIA+ Pride",
+    "example": "ralts",
+    "summary": "Pokemon wearing pride flags, the stripes running across the whole body (the transgender flag is collection #10).",
+    "looks": [
+      "each line wears one flag: rainbow (Milcery, Ralts, Eternatus); bisexual (Fletchling, Rufflet, Pidove); pansexual (Indeedee, Ducklett, Binacle); lesbian (Zarude, Veluza, Sandile); asexual (Koffing, Rolycoly, Arctovish); nonbinary (Swinub, Cubchoo, Farfetch'd)",
+      "the original's light and shade stay inside each stripe; the eyes keep their own colours",
+      "shiny: pastel glitter over the stripes and sparkles that twinkle in the dark"
+    ]
+  }
+}

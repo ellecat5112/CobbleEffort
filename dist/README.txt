@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 38 collections of cosmetic forms (1382 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -68,6 +68,9 @@ AT A GLANCE
   36  Zelda                               Golden Sword                                    zelda
   37  Valentine's Day                     Poppy                                           valentine
   38  St. Patrick's Day                   Emerald                                         st_patrick
+  39  April Fools' Day                    Slime Ball                                      april_fools
+  40  Star Wars                           End Rod                                         star_wars
+  41  LGBTQIA+ Pride                      Magenta Banner                                  pride
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -1542,6 +1545,118 @@ Pokemon (each line is a whole evolutionary family):
   - Popplio > Brionne > Primarina
   - Jangmo-o > Hakamo-o > Kommo-o
   - Impidimp > Morgrem > Grimmsnarl
+
+====================================================================================================
+#39  APRIL FOOLS' DAY  (34 Pokemon)
+====================================================================================================
+Pokemon playing pranks.
+
+Cosmetic item: Slime Ball
+Command:       /pokegive geodude april_fools   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one prank: a harlequin jester motley (Tapu Lele, Plusle, Capsakid); clown white
+    with big polka dots and a red nose (Vanillite, Tandemaus, Carvanha); covered in googly eyes that
+    roll around (Geodude, Rhyhorn, Cryogonal); 'wrong colours', every colour swapped round the wheel
+    (Paras, Aerodactyl, Cobalion); pixelated into chunky blocks, as if it never loaded (Archen,
+    Varoom, Yungoos); showered with confetti and streamers that twinkle (Stunky, Finneon,
+    Sizzlipede)
+  * the confetti twinkles and the googly eyes look around in the dark
+  * shiny: the prank colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Paras > Parasect
+  - Geodude > Graveler > Golem
+  - Rhyhorn > Rhydon > Rhyperior
+  - Aerodactyl
+  - Plusle
+  - Carvanha > Sharpedo
+  - Stunky > Skuntank
+  - Finneon > Lumineon
+  - Archen > Archeops
+  - Vanillite > Vanillish > Vanilluxe
+  - Cryogonal
+  - Cobalion
+  - Yungoos > Gumshoos
+  - Tapu Lele
+  - Sizzlipede > Centiskorch
+  - Tandemaus > Maushold
+  - Capsakid > Scovillain
+  - Varoom > Revavroom
+
+====================================================================================================
+#40  STAR WARS  (34 Pokemon)
+====================================================================================================
+Pokemon from a galaxy far, far away (inspired by Star Wars; original patterns).
+
+Cosmetic item: End Rod
+Command:       /pokegive chimchar star_wars   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: a Jedi tunic and robe with a blue blade (Chimchar, Mudkip, Pansage); a
+    Sith robe with a red blade and red eyes (Munkidori, Inkay, Spinarak); white trooper armour
+    (Miltank, Wobbuffet, Spritzee); polished beskar plates with a dark visor (Palkia, Tornadus,
+    Greavard); an astromech droid shell with blinking lights (Toxel, Grimer, Ledyba); an orange
+    rebel flight suit (Bulbasaur, Noibat, Comfey)
+  * the blades hum and the droid lights blink in the dark
+  * shiny: the other side: a green blade, a purple blade, black shadow armour, gold beskar, red
+    panels, a green suit
+
+Pokemon (each line is a whole evolutionary family):
+  - Bulbasaur > Ivysaur > Venusaur
+  - Grimer > Muk
+  - Ledyba > Ledian
+  - Spinarak > Ariados
+  - Wynaut > Wobbuffet
+  - Miltank
+  - Mudkip > Marshtomp > Swampert
+  - Chimchar > Monferno > Infernape
+  - Palkia
+  - Pansage > Simisage
+  - Tornadus
+  - Spritzee > Aromatisse
+  - Inkay > Malamar
+  - Noibat > Noivern
+  - Comfey
+  - Toxel > Toxtricity
+  - Greavard > Houndstone
+  - Munkidori
+
+====================================================================================================
+#41  LGBTQIA+ PRIDE  (38 Pokemon)
+====================================================================================================
+Pokemon wearing pride flags, the stripes running across the whole body (the transgender flag is
+collection #10).
+
+Cosmetic item: Magenta Banner
+Command:       /pokegive ralts pride   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one flag: rainbow (Milcery, Ralts, Eternatus); bisexual (Fletchling, Rufflet,
+    Pidove); pansexual (Indeedee, Ducklett, Binacle); lesbian (Zarude, Veluza, Sandile); asexual
+    (Koffing, Rolycoly, Arctovish); nonbinary (Swinub, Cubchoo, Farfetch'd)
+  * the original's light and shade stay inside each stripe; the eyes keep their own colours
+  * shiny: pastel glitter over the stripes and sparkles that twinkle in the dark
+
+Pokemon (each line is a whole evolutionary family):
+  - Farfetch’d > Sirfetch’d
+  - Koffing > Weezing
+  - Swinub > Piloswine > Mamoswine
+  - Ralts > Kirlia > Gardevoir / Gallade
+  - Pidove > Tranquill > Unfezant
+  - Sandile > Krokorok > Krookodile
+  - Ducklett > Swanna
+  - Cubchoo > Beartic
+  - Rufflet > Braviary
+  - Fletchling > Fletchinder > Talonflame
+  - Binacle > Barbaracle
+  - Rolycoly > Carkol > Coalossal
+  - Milcery > Alcremie
+  - Indeedee
+  - Arctovish
+  - Eternatus
+  - Zarude
+  - Veluza
 
 ====================================================================================================
 NEW POKEMON

@@ -1,0 +1,70 @@
+{
+  "species": "cobblemon:palkia",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_emissive_star_wars.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "origin-forme",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_origin_star_wars.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_origin_emissive_star_wars.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "origin-forme",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/compat/mega_showdown/0484_palkia/palkia_origin_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

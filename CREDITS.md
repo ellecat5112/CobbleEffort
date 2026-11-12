@@ -128,6 +128,12 @@ made by the Cobblemon team and contributors.
 * **Valentine's Day** (`tools/styles/valentine_*.py`, `_valentine.py`) and **St. Patrick's Day**
   (`tools/styles/patrick_*.py`, `_patrick.py`): procedural hearts, letters, chocolate, roses, candy hearts, shamrocks,
   coins, rainbows, knotwork and tartan.
+* **April Fools' Day** (`tools/styles/fools_*.py`, `_fools.py`): harlequin diamonds, polka dots, googly eyes, swapped
+  palettes, pixelation and confetti.
+* **Star Wars** (`tools/styles/galaxy_*.py`, `_galaxy.py`; textures under `.../pokemon/star_wars/`): robes, blades,
+  armour plates, a droid shell and a flight suit inspired by Star Wars (Lucasfilm; no film art copied).
+* **LGBTQIA+ Pride** (`tools/styles/pride_*.py`, `_pride.py`): the rainbow, bisexual, pansexual, lesbian, asexual and
+  nonbinary flags' stripes by model height over the original's shading.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

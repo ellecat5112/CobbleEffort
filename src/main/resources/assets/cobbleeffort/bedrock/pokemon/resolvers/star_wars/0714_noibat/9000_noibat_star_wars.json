@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:noibat",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0714_noibat/noibat_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "star_wars"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/star_wars/0714_noibat/noibat_shiny_star_wars.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_kyber",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

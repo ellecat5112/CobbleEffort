@@ -1,0 +1,61 @@
+{
+  "_comment": "Star Wars collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed star-wars-galaxy` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_galaxy.py.",
+  "aspect": "star_wars",
+  "feature": "star_wars_style",
+  "style": "galaxy_jedi",
+  "cosmetic_items": [
+    "minecraft:end_rod"
+  ],
+  "lines": [
+    "bulbasaur",
+    "grimer",
+    "ledyba",
+    "spinarak",
+    "wobbuffet",
+    "miltank",
+    "mudkip",
+    "chimchar",
+    "palkia",
+    "pansage",
+    "tornadus",
+    "spritzee",
+    "inkay",
+    "noibat",
+    "comfey",
+    "toxel",
+    "greavard",
+    "munkidori"
+  ],
+  "line_styles": {
+    "chimchar": "galaxy_jedi",
+    "mudkip": "galaxy_jedi",
+    "pansage": "galaxy_jedi",
+    "munkidori": "galaxy_sith",
+    "inkay": "galaxy_sith",
+    "spinarak": "galaxy_sith",
+    "miltank": "galaxy_trooper",
+    "wobbuffet": "galaxy_trooper",
+    "spritzee": "galaxy_trooper",
+    "palkia": "galaxy_beskar",
+    "tornadus": "galaxy_beskar",
+    "greavard": "galaxy_beskar",
+    "toxel": "galaxy_astromech",
+    "grimer": "galaxy_astromech",
+    "ledyba": "galaxy_astromech",
+    "bulbasaur": "galaxy_rebel",
+    "noibat": "galaxy_rebel",
+    "comfey": "galaxy_rebel"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 40,
+    "title": "Star Wars",
+    "example": "chimchar",
+    "summary": "Pokemon from a galaxy far, far away (inspired by Star Wars; original patterns).",
+    "looks": [
+      "each line wears one look: a Jedi tunic and robe with a blue blade (Chimchar, Mudkip, Pansage); a Sith robe with a red blade and red eyes (Munkidori, Inkay, Spinarak); white trooper armour (Miltank, Wobbuffet, Spritzee); polished beskar plates with a dark visor (Palkia, Tornadus, Greavard); an astromech droid shell with blinking lights (Toxel, Grimer, Ledyba); an orange rebel flight suit (Bulbasaur, Noibat, Comfey)",
+      "the blades hum and the droid lights blink in the dark",
+      "shiny: the other side: a green blade, a purple blade, black shadow armour, gold beskar, red panels, a green suit"
+    ]
+  }
+}

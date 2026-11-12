@@ -1,0 +1,110 @@
+{
+  "species": "cobblemon:eternatus",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_pride.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_emissive_pride.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_transparency_pride.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_shiny_pride.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_emissive_pride.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_transparency_pride.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/0890_eternatus/eternatus_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "eternamax",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_pride.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_emissive_pride.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sparkle",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "eternamax",
+        "shiny",
+        "pride"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_shiny_pride.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sparkle",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_shiny_pride_sparkle_0.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_shiny_pride_sparkle_1.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_shiny_pride_sparkle_2.png",
+              "cobbleeffort:textures/pokemon/pride/compat/mega_showdown/0890_eternatus/eternamax_eternatus_shiny_pride_sparkle_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

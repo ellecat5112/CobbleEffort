@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:skuntank",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "april_fools"
+      ],
+      "poser": "cobbleeffort:skuntank",
+      "model": "cobbleeffort:skuntank.geo",
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "april_fools"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_shiny_april_fools.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_prank",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_shiny_april_fools_prank_0.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_shiny_april_fools_prank_1.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_shiny_april_fools_prank_2.png",
+              "cobbleeffort:textures/pokemon/april_fools/0435_skuntank/skuntank_shiny_april_fools_prank_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
