@@ -770,6 +770,52 @@ SPECIES.update({
 })
 LINES["landshark"] = ["sharkindle", "forgnash", "magmalodon"]
 
+# --- Jormbuoy and Jorminous (from the Zorneo x Norden region fakemon series, used with the creators' permission) -----
+
+JORM_TM = BASIC_TM + ["surf", "waterfall", "waterpulse", "hydropump", "raindance", "scald", "chillingwater", "icebeam",
+                      "icywind", "blizzard", "liquidation", "dive", "whirlpool", "bodyslam", "irontail", "crunch",
+                      "ironhead", "irondefense", "flipturn"]
+JORM_TM_FINAL = ["shadowball", "hex", "phantomforce", "shadowclaw", "willowisp", "nightshade", "curse", "painsplit",
+                 "dragonpulse", "outrage", "hurricane", "gigaimpact", "hyperbeam"]
+JORM_EGG = ["dragontail", "aquaring", "mist", "haze", "octazooka"]
+JORM_LEARN = [(1, "tackle"), (1, "watergun"), (4, "withdraw"), (8, "aquajet"), (12, "bite"), (16, "waterpulse"),
+              (20, "wrap"), (24, "aquaring"), (28, "brine"), (32, "crunch"), (36, "aquatail"), (40, "hydropump")]
+JORM = dict(male=0.5, egg_groups=["water_2", "dragon"], friendship=50, abilities=["swiftswim", "shellarmor", "h:cursedbody"],
+            ability_names="Swift Swim / Shell Armor / Cursed Body (hidden)", aquatic=True)
+
+SPECIES.update({
+    "jormbuoy": {
+        "dex": 3033, "name": "Jormbuoy", "line": "jorm", "types": ["water"], **JORM,
+        "stats": stats(60, 50, 65, 60, 60, 45), "ev": evs(defence=1), "catch": 120, "exp": 66,
+        "height": 7, "weight": 220, "shoulder": False, "walk": 0.2,
+        "moves": JORM_LEARN, "tm": JORM_TM, "egg": JORM_EGG,
+        "evolve": None, "evolve_stone": ("jorminous", "cobblemon:dusk_stone", ["hex"], [{"variant": "level", "minLevel": 45}]),
+        "drops": [("minecraft:oak_planks", "0-2", None), ("minecraft:string", "0-1", None)],
+        "entry": ("It bobs along on cold seas under a hull of old ship's timbers, shields lined up along its sides. "
+                  "Sailors used to tie their boats to it, mistaking it for a buoy, until it swam away with them."),
+        "spawns": [spawn("jormbuoy-ocean", "uncommon", "10-35", 4.0,
+                         {"canSeeSky": True, "biomes": ["#cobblemon:is_cold_ocean", "#cobblemon:is_ocean"]}, position="surface")],
+        "how": ["Wild: uncommon floating on oceans, especially cold ones.",
+                "Evolves into Jorminous when a Dusk Stone is used on it at level 45 or higher."],
+    },
+    "jorminous": {
+        "dex": 3034, "name": "Jorminous", "line": "jorm", "types": ["water", "ghost"], **JORM,
+        "stats": stats(95, 90, 95, 100, 90, 70), "ev": evs(special_attack=2, hp=1), "catch": 45, "exp": 245,
+        "height": 70, "weight": 3000, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "hex")] + JORM_LEARN + [(45, "hex"), (48, "shadowball"), (52, "dragonpulse"), (56, "phantomforce"),
+                                             (62, "wavecrash")],
+        "tm": JORM_TM + JORM_TM_FINAL, "egg": JORM_EGG, "evolve": None,
+        "drops": [("minecraft:oak_planks", "1-3", None), ("minecraft:phantom_membrane", "0-1", None)],
+        "entry": ("The ghost of a sunken raiding ship that has become a great sea serpent. When it rises out of the fog "
+                  "with its shields gleaming and its oars beating, whole fleets turn back to shore."),
+        "spawns": [spawn("jorminous-deep", "ultra-rare", "45-60", 1.0,
+                         {"canSeeSky": True, "timeRange": "night", "biomes": ["#cobblemon:is_deep_ocean"]}, position="surface")],
+        "how": ["Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves.",
+                "Wild: very rare on deep oceans at night."],
+    },
+})
+LINES["jorm"] = ["jormbuoy", "jorminous"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1006,7 +1052,9 @@ def species_json(sp):
             "resting": {"canSleep": True, "willSleepOnBed": True, "times": ["day"], "drowsyChance": 0.0014,
                         "rouseChance": 0.0042},
             "moving": {"walk": {"walkSpeed": c["walk"]},
-                       "swim": ({"avoidsWater": False, "canSwimInWater": True, "swimSpeed": 0.3} if c.get("swims")
+                       "swim": ({"avoidsWater": False, "canSwimInWater": True, "swimSpeed": 0.4,
+                                 "canBreatheUnderwater": True} if c.get("aquatic") else
+                                {"avoidsWater": False, "canSwimInWater": True, "swimSpeed": 0.3} if c.get("swims")
                                 else {"avoidsWater": True, "canSwimInWater": False}),
                        **({"fly": {"canFly": True, "flySpeedHorizontal": "0.4"}} if c.get("fly") else {})},
             "combat": {"willDefendOwner": True, "willDefendSelf": sp != "cavitot"},
@@ -1017,9 +1065,10 @@ def species_json(sp):
         "moves": [f"{lv}:{mv}" for lv, mv in c["moves"]] + [f"egg:{m}" for m in c["egg"]] + [f"tm:{m}" for m in c["tm"]],
     })
     if c.get("evolve_stone"):                               # evolves when an item is used on it (e.g. a Thunder Stone)
-        to, item, learn = c["evolve_stone"]
+        to, item, learn, *more = c["evolve_stone"]
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "item_interact", "result": f"{MOD}:{to}",
-                            "consumeHeldItem": False, "learnableMoves": learn, "requiredContext": item}]
+                            "consumeHeldItem": False, "learnableMoves": learn, "requiredContext": item,
+                            **({"requirements": more[0]} if more else {})}]
     elif c["evolve"]:
         to, lv, learn, *more = c["evolve"]
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),

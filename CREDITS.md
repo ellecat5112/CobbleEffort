@@ -152,7 +152,9 @@ and design) are by **@aalacer398** (Instagram), used with their permission; our 
 art. The Prototaxites line (Mycolith, Taxitower, Paleomycelium, Devonian Drift) is an idea the user brought from
 Google's Gemini; its models are our own. Jerbolt and Mesmerboa are after a design by **NyonTox**
 (Pinterest), used with their permission; the names and models are our own. The land shark line was designed from
-the user's description with a free-to-use reference picture; its names and models are our own.
+the user's description with a free-to-use reference picture; its names and models are our own. Jormbuoy and
+Jorminous (names, types, evolution and design) come from the **Zorneo × Norden region** fakemon series (YouTube and
+Instagram), used with its creators' permission; our models are built by hand after their art.
 
 ## Code and data
 

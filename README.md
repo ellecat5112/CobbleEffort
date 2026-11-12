@@ -697,6 +697,14 @@ glows inside, flames round its arms and legs, and smoke pouring off its head and
 Rough Skin or Flash Fire, hidden Tough Claws. Very rare in volcanic biomes, badlands and underground near lava.
 Shinies are steel-silver and cobalt with blue flames.
 
+**Jormbuoy → Jorminous** (Water → Water/Ghost; from the **Zorneo × Norden region** fakemon series, used with the
+creators' permission): Jörmungandr crossed with a Viking raid ship. Jormbuoy is a little sea serpent that bobs like a
+buoy under a longship's wooden hull, shields along its sides; use a **Dusk Stone** on it at **level 45 or higher** and
+it becomes Jorminous, a huge coiled serpent with a head carved like a dragon prow, oar fins fraying into ghostly foam,
+shields along its coils, mast-like spikes and a tail trailing glowing sea mist. Both swim and breathe underwater.
+Jormbuoy floats on oceans (uncommon, more in cold seas); Jorminous rises on deep oceans at night (very rare).
+Shinies are sea-green with pale birch planks.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -732,6 +740,8 @@ Shinies are steel-silver and cobalt with blue flames.
 | 3030 | **Sharkindle** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 55 / 70 / 55 / 40 / 45 / 35 | 2'4" (0.7 m) / 30 kg | Wild: very rare in volcanic biomes and badlands, and underground near lava. Evolves into Forgnash at level 40. | It swims through the ground near lava as easily as a shark through water, its orange fins glowing where they cut through the hot rock. Its bite can dent iron. |
 | 3031 | **Forgnash** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 70 / 100 / 80 / 55 / 60 / 55 | 4'7" (1.4 m) / 120 kg | Evolve Sharkindle at level 40. Wild: extremely rare in volcanic biomes. | Once it stands on two legs, the fire inside it bursts out through its back. It hammers metal ore with its claws to sharpen them, and the sparks fly like a forge. |
 | 3032 | **Magmalodon** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 108 / 135 / 105 / 80 / 85 / 87 | 7'10" (2.4 m) / 350 kg | Evolve Forgnash at level 60. | Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its back like dreadlocks. A single bite from its huge jaws can tear through a steel girder. |
+| 3033 | **Jormbuoy** | Water | Swift Swim / Shell Armor / Cursed Body (hidden) | 60 / 50 / 65 / 60 / 60 / 45 | 2'4" (0.7 m) / 22 kg | Wild: uncommon floating on oceans, especially cold ones. Evolves into Jorminous when a Dusk Stone is used on it at level 45 or higher. | It bobs along on cold seas under a hull of old ship's timbers, shields lined up along its sides. Sailors used to tie their boats to it, mistaking it for a buoy, until it swam away with them. |
+| 3034 | **Jorminous** | Water / Ghost | Swift Swim / Shell Armor / Cursed Body (hidden) | 95 / 90 / 95 / 100 / 90 / 70 | 22'12" (7 m) / 300 kg | Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves. Wild: very rare on deep oceans at night. | The ghost of a sunken raiding ship that has become a great sea serpent. When it rises out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -743,6 +753,8 @@ Shinies are steel-silver and cobalt with blue flames.
 ![Jerbolt and Mesmerboa, regular and shiny](docs/newmons_jerboa.png)
 
 ![Sharkindle, Forgnash and Magmalodon, regular and shiny](docs/newmons_landshark.png)
+
+![Jormbuoy and Jorminous, regular and shiny](docs/newmons_jorm.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

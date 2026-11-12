@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 32 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 34 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1038,6 +1038,26 @@ cobbleeffort:cavitot.
   Pokedex: "Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its
   back like dreadlocks. A single bite from its huge jaws can tear through a steel girder."
   * Evolve Forgnash at level 60.
+
+#3033 JORMBUOY  (Water; Swift Swim / Shell Armor / Cursed Body (hidden))
+  a little blue sea serpent bobbing like a buoy under a Viking longship's wooden hull with a curled
+  prow, round shields along its sides, a big yellow-green eye and tan whisker beard
+  Stats: HP 60  Atk 50  Def 65  SpA 60  SpD 60  Spe 45  (total 340)
+  Pokedex: "It bobs along on cold seas under a hull of old ship's timbers, shields lined up along
+  its sides. Sailors used to tie their boats to it, mistaking it for a buoy, until it swam away with
+  them."
+  * Wild: uncommon floating on oceans, especially cold ones.
+  * Evolves into Jorminous when a Dusk Stone is used on it at level 45 or higher.
+
+#3034 JORMINOUS  (Water / Ghost; Swift Swim / Shell Armor / Cursed Body (hidden))
+  a huge coiled sea serpent with a head carved like a longship's dragon prow, round Viking shields
+  along its coils, oar fins fraying into ghostly foam, mast-like spikes and a tail trailing glowing
+  sea mist
+  Stats: HP 95  Atk 90  Def 95  SpA 100  SpD 90  Spe 70  (total 540)
+  Pokedex: "The ghost of a sunken raiding ship that has become a great sea serpent. When it rises
+  out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore."
+  * Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves.
+  * Wild: very rare on deep oceans at night.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

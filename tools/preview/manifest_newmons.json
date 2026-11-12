@@ -730,5 +730,59 @@
     "retextured": "cobbleeffort:textures/pokemon/3032_magmalodon/magmalodon_shiny_shell.png"
    }
   ]
+ },
+ {
+  "species": "jormbuoy",
+  "folder": "3033_jormbuoy",
+  "model": "cobbleeffort:jormbuoy.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3033_jormbuoy/jormbuoy.png",
+  "layers": []
+ },
+ {
+  "species": "jormbuoy_shiny",
+  "folder": "3033_jormbuoy",
+  "model": "cobbleeffort:jormbuoy.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3033_jormbuoy/jormbuoy_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "jorminous",
+  "folder": "3034_jorminous",
+  "model": "cobbleeffort:jorminous.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "jorminous_shiny",
+  "folder": "3034_jorminous",
+  "model": "cobbleeffort:jorminous.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_shiny_shell.png"
+   }
+  ]
  }
 ]

@@ -1,0 +1,162 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3034,
+ "name": "Jorminous",
+ "primaryType": "water",
+ "secondaryType": "ghost",
+ "maleRatio": 0.5,
+ "height": 70,
+ "weight": 3000,
+ "pokedex": [
+  "cobbleeffort.species.jorminous.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "shellarmor",
+  "h:cursedbody"
+ ],
+ "eggGroups": [
+  "water_2",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 90,
+  "defence": 95,
+  "special_attack": 100,
+  "special_defence": 90,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 245,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.55,
+ "hitbox": {
+  "width": 3.0,
+  "height": 4.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:oak_planks",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:phantom_membrane",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:hex",
+  "1:tackle",
+  "1:watergun",
+  "4:withdraw",
+  "8:aquajet",
+  "12:bite",
+  "16:waterpulse",
+  "20:wrap",
+  "24:aquaring",
+  "28:brine",
+  "32:crunch",
+  "36:aquatail",
+  "40:hydropump",
+  "45:hex",
+  "48:shadowball",
+  "52:dragonpulse",
+  "56:phantomforce",
+  "62:wavecrash",
+  "egg:dragontail",
+  "egg:aquaring",
+  "egg:mist",
+  "egg:haze",
+  "egg:octazooka",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:waterpulse",
+  "tm:hydropump",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:blizzard",
+  "tm:liquidation",
+  "tm:dive",
+  "tm:whirlpool",
+  "tm:bodyslam",
+  "tm:irontail",
+  "tm:crunch",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:flipturn",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:phantomforce",
+  "tm:shadowclaw",
+  "tm:willowisp",
+  "tm:nightshade",
+  "tm:curse",
+  "tm:painsplit",
+  "tm:dragonpulse",
+  "tm:outrage",
+  "tm:hurricane",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ],
+ "preEvolution": "cobbleeffort:jormbuoy"
+}
