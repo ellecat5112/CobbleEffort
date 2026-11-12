@@ -683,6 +683,13 @@ levels and early evolutions:
 
 Both fossil items are in the CobbleEffort creative tab.
 
+**Jerbolt → Mesmerboa** (Electric/Psychic; design by NyonTox, used with permission): CobbleEffort's Pikachu-like
+mice, after desert hopping mice (jerboas). They float, and their excessively long tails curl into a full ring round
+them, banded yellow and violet (the violet glows) with a lightning-bolt tip; the ring turns round and round, slowly at
+rest and faster on the move or in battle. Jerbolt has hypnotic spiral eyes. Use a **Thunder Stone** on Jerbolt to
+evolve it (it learns Psychic Noise). Uncommon in deserts, badlands and savannas at night; Mesmerboa is rare in deserts
+at night. Shinies are lilac with a cyan ring.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -713,6 +720,8 @@ Both fossil items are in the CobbleEffort creative tab.
 | 3025 | **Petroleossil** | Rock / Dragon | Gooey / Sticky Hold / Rock Head (hidden) | 110 / 115 / 110 / 75 / 90 / 40 | 13'1" (4 m) / 420 kg | Evolve Petroleodd at level 45 while it holds a King's Rock (the King's Rock is used up). | Holding a King's Rock, Petroleodd swallows tar and sludge until it becomes a mountain of it, with the fossil skull of an ancient tyrant floating up through the middle. It roars through its jaws. |
 | 3026 | **Mycolith** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 80 / 50 / 90 / 65 / 60 / 20 | 3'7" (1.1 m) / 83.9 kg | Revive a Spire Fossil at a Restoration Tank. Spire Fossils are found by brushing the suspicious gravel round petrified spire stumps in forests and swamps. Evolves into Taxitower at level 38. | Revived from the Spire Fossil. Over 400 million years ago, fields of Mycolith dominated the barren land before true trees ever took root. Researchers originally mistook its fossilized remains for ancient timber. |
 | 3027 | **Taxitower** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 115 / 70 / 125 / 95 / 85 / 25 | 26'3" (8 m) / 644.1 kg | Evolve Mycolith at level 38. | Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil through miles of underground threads. When threatened, it releases blinding clouds of prehistoric spores that haven't been breathed in eons. |
+| 3028 | **Jerbolt** | Electric / Psychic | Static / Synchronize / Levitate (hidden) | 40 / 45 / 35 / 60 / 45 / 85 | 0'12" (0.3 m) / 2.5 kg | Wild: uncommon in deserts, badlands and savannas at night. Evolves into Mesmerboa when a Thunder Stone is used on it. | It floats over desert dunes at night with its tail curled round it in a ring. Anything that stares at the turning ring for long falls into a daze, and Jerbolt hops off with its food. |
+| 3029 | **Mesmerboa** | Electric / Psychic | Static / Synchronize / Levitate (hidden) | 60 / 65 / 55 / 105 / 85 / 125 | 2'4" (0.7 m) / 14 kg | Use a Thunder Stone on Jerbolt. It learns Psychic Noise when it evolves. Wild: rare in deserts at night. | Its tail is so long it never touches the ground: it hangs round Mesmerboa in a great ring that crackles with electricity. Spun fast, the ring can put a whole herd of Pokémon to sleep at once. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -720,6 +729,8 @@ Both fossil items are in the CobbleEffort creative tab.
 ![The route-one Pokémon, regular and shiny](docs/newmons_route_one.png)
 
 ![The fossil Pokémon, regular and shiny](docs/newmons_fossils.png)
+
+![Jerbolt and Mesmerboa, regular and shiny](docs/newmons_jerboa.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

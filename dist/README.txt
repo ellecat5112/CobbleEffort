@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 27 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 29 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -992,6 +992,26 @@ cobbleeffort:cavitot.
   through miles of underground threads. When threatened, it releases blinding clouds of prehistoric
   spores that haven't been breathed in eons."
   * Evolve Mycolith at level 38.
+
+#3028 JERBOLT  (Electric / Psychic; Static / Synchronize / Levitate (hidden))
+  a tiny floating yellow jerboa with hypnotic spiral eyes, long red-rimmed ears, big red-brown feet
+  and an excessively long tail curled into a turning yellow-and-violet ring round it, tipped with a
+  lightning bolt
+  Stats: HP 40  Atk 45  Def 35  SpA 60  SpD 45  Spe 85  (total 310)
+  Pokedex: "It floats over desert dunes at night with its tail curled round it in a ring. Anything
+  that stares at the turning ring for long falls into a daze, and Jerbolt hops off with its food."
+  * Wild: uncommon in deserts, badlands and savannas at night.
+  * Evolves into Mesmerboa when a Thunder Stone is used on it.
+
+#3029 MESMERBOA  (Electric / Psychic; Static / Synchronize / Levitate (hidden))
+  a floating big-eared yellow jerboa with a gentle smile, huge red-rimmed white ears and a tail
+  curled into a great turning yellow-and-violet ring round it, ending in a big zigzag lightning bolt
+  Stats: HP 60  Atk 65  Def 55  SpA 105  SpD 85  Spe 125  (total 495)
+  Pokedex: "Its tail is so long it never touches the ground: it hangs round Mesmerboa in a great
+  ring that crackles with electricity. Spun fast, the ring can put a whole herd of Pokémon to sleep
+  at once."
+  * Use a Thunder Stone on Jerbolt. It learns Psychic Noise when it evolves.
+  * Wild: rare in deserts at night.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

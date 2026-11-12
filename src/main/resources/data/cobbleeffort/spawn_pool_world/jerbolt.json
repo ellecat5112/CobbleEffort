@@ -1,0 +1,46 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "jerbolt-desert",
+   "pokemon": "cobbleeffort:jerbolt",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "5-25",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_desert"
+    ],
+    "timeRange": "night"
+   }
+  },
+  {
+   "id": "jerbolt-badlands",
+   "pokemon": "cobbleeffort:jerbolt",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "5-25",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_savanna"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

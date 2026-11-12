@@ -21,8 +21,9 @@ def animations(group, kind, opt, names, legs, piv):
         return out
 
     known = {"body", "head", "tail", "cap", "mane", "skirt", "wing_left", "wing_right", "arm_left", "arm_right", "jaw"}
-    extras = [n for n in names if n not in known and not n.startswith("leg") and not n.startswith("spin")]
+    extras = [n for n in names if n not in known and not n.startswith(("leg", "spin", "ring"))]
     spins = [n for n in names if n.startswith("spin")]       # gun drums and the like: turn round z
+    rings = [n for n in names if n.startswith("ring")]       # hypnotic rings (a tail curled round it): always turning
 
     idle = {"body": {"position": track(3, lambda t: [0, -bob * (1 - math.cos(2 * math.pi * t)) / 2 if kind != "floater" else bob * sin(t), 0])}}
     if "head" in has:
@@ -47,6 +48,8 @@ def animations(group, kind, opt, names, legs, piv):
     for n, nm in enumerate(extras):
         sgn = 1 if nm.endswith("left") else -1
         idle[nm] = {"rotation": track(3, lambda t, sg=sgn, ph=n * 0.2: [2 * sin(t, 1, ph), 0, 3 * sg * sin(t, 1, ph)])}
+    for n in rings:
+        idle[n] = {"rotation": track(3, lambda t: [0, 0, -180 * t], steps=24)}
     A["ground_idle"] = {"loop": True, "animation_length": 3.0, "bones": idle}
 
     walk = {"body": {"position": track(1, lambda t: [0, -0.4 * abs(sin(t)), 0]), "rotation": track(1, lambda t: [0, 0, 1.5 * sin(t)])}}
@@ -71,6 +74,8 @@ def animations(group, kind, opt, names, legs, piv):
     for n, nm in enumerate(extras):
         walk[nm] = {"rotation": track(1, lambda t, ph=n * 0.5: [6 * sin(t, 1, ph), 0, 0])}
     walk.update(legs_walk(1, opt.get("leg_amp", 22)))
+    for n in rings:
+        walk[n] = {"rotation": track(1.5 if kind == "floater" else 1.0, lambda t: [0, 0, -360 * t], steps=24)}
     A["ground_walk"] = {"loop": True, "animation_length": 1.5 if kind == "floater" else 1.0, "bones": walk}
 
     battle = {"body": {"position": track(2, lambda t: [0, -0.5 - 0.3 * sin(t) if kind != "floater" else 0.8 * sin(t), 0])}}
@@ -97,6 +102,8 @@ def animations(group, kind, opt, names, legs, piv):
         battle[nm] = {"rotation": track(2, lambda t, sg=sgn: [-6 + 3 * sin(t), 0, sg * (4 + 3 * sin(t, 1, 0.3))])}
     for n in spins:
         battle[n] = {"rotation": track(2, lambda t: [0, 0, 360 * t], steps=24)}
+    for n in rings:
+        battle[n] = {"rotation": track(2, lambda t: [0, 0, -360 * t], steps=24)}
     A["battle_idle"] = {"loop": True, "animation_length": 2.0, "bones": battle}
 
     leg_top = max((piv[l][1] for l in legs), default=0)

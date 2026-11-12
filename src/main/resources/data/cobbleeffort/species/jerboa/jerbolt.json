@@ -1,0 +1,176 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3028,
+ "name": "Jerbolt",
+ "primaryType": "electric",
+ "secondaryType": "psychic",
+ "maleRatio": 0.5,
+ "height": 3,
+ "weight": 25,
+ "pokedex": [
+  "cobbleeffort.species.jerbolt.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "static",
+  "synchronize",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "field",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 45,
+  "defence": 35,
+  "special_attack": 60,
+  "special_defence": 45,
+  "speed": 85
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 112,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.24,
+ "hitbox": {
+  "width": 0.4,
+  "height": 0.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.35
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:sand",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:thunder_stone",
+    "percentage": 1.0
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:tailwhip",
+  "1:confusion",
+  "4:quickattack",
+  "7:hypnosis",
+  "10:nuzzle",
+  "13:psybeam",
+  "16:spark",
+  "19:doublekick",
+  "22:zenheadbutt",
+  "26:discharge",
+  "30:psychic",
+  "34:thunderbolt",
+  "38:agility",
+  "42:calmmind",
+  "46:thunder",
+  "egg:wish",
+  "egg:fakeout",
+  "egg:encore",
+  "egg:charm",
+  "egg:tickle",
+  "egg:disarmingvoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thunderbolt",
+  "tm:thunder",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:chargebeam",
+  "tm:electroball",
+  "tm:eerieimpulse",
+  "tm:electricterrain",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:futuresight",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:trick",
+  "tm:trickroom",
+  "tm:psychicterrain",
+  "tm:shadowball",
+  "tm:irontail",
+  "tm:dig",
+  "tm:uturn",
+  "tm:swift",
+  "tm:nastyplot",
+  "tm:encore",
+  "tm:charm",
+  "tm:thief",
+  "tm:zenheadbutt",
+  "tm:grassknot",
+  "tm:dazzlinggleam"
+ ],
+ "evolutions": [
+  {
+   "id": "jerbolt_mesmerboa",
+   "variant": "item_interact",
+   "result": "cobbleeffort:mesmerboa",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "psychicnoise"
+   ],
+   "requiredContext": "cobblemon:thunder_stone"
+  }
+ ]
+}

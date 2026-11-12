@@ -132,6 +132,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   powder/Leech Seed; move Devonian Drift = a foeSide condition, raw JS move with its own `condition` and battle lang
   `cobblemon.battle.sidestart|sideend.ally|opponent.<id>`, `cobblemon.battle.damage.<id>`). A CUSTOM_MOVES entry
   with "js" is a whole move; without, it's Object.assign on "base". Real bucket pickup (a tar fluid) would need code.
+  Jerboa mice (#3028-3029, `models/_jerboa.py`; design by NyonTox, with permission): Jerbolt -> Mesmerboa
+  (Electric/Psychic, `evolve_stone` = item_interact with a Thunder Stone), floaters whose tail is a `ring` bone: a
+  circle of rod segments banded yellow/violet (violet glows) + a bolt plane; the rig turns `ring*` bones round z in
+  idle (slow), walk and battle (faster).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

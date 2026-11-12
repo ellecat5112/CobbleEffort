@@ -661,6 +661,52 @@ SPECIES.update({
 })
 LINES["fossil"] = ["petroleodd", "petroleossil", "mycolith", "taxitower"]
 
+# --- the jerboa mice: CobbleEffort's Pikachu-like mice (design by NyonTox, used with permission) ----------------------
+
+JERB_TM = BASIC_TM + ["thunderbolt", "thunder", "thunderwave", "voltswitch", "wildcharge", "chargebeam", "electroball",
+                      "eerieimpulse", "electricterrain", "psychic", "psyshock", "futuresight", "calmmind", "reflect",
+                      "lightscreen", "trick", "trickroom", "psychicterrain", "shadowball", "irontail", "dig", "uturn",
+                      "swift", "nastyplot", "encore", "charm", "thief", "zenheadbutt", "grassknot", "dazzlinggleam"]
+JERB_TM_FINAL = ["gigaimpact", "hyperbeam", "expandingforce", "risingvoltage", "focusblast"]
+JERB_EGG = ["wish", "fakeout", "encore", "charm", "tickle", "disarmingvoice"]
+JERB_LEARN = [(1, "thundershock"), (1, "tailwhip"), (1, "confusion"), (4, "quickattack"), (7, "hypnosis"),
+              (10, "nuzzle"), (13, "psybeam"), (16, "spark"), (19, "doublekick"), (22, "zenheadbutt"),
+              (26, "discharge"), (30, "psychic"), (34, "thunderbolt"), (38, "agility"), (42, "calmmind"), (46, "thunder")]
+JERB = dict(male=0.5, egg_groups=["field", "fairy"], friendship=70, abilities=["static", "synchronize", "h:levitate"],
+            ability_names="Static / Synchronize / Levitate (hidden)", fly=True)
+
+SPECIES.update({
+    "jerbolt": {
+        "dex": 3028, "name": "Jerbolt", "line": "jerboa", "types": ["electric", "psychic"], **JERB,
+        "stats": stats(40, 45, 35, 60, 45, 85), "ev": evs(speed=2), "catch": 190, "exp": 112,
+        "height": 3, "weight": 25, "shoulder": True, "walk": 0.35,
+        "moves": JERB_LEARN, "tm": JERB_TM, "egg": JERB_EGG,
+        "evolve": None, "evolve_stone": ("mesmerboa", "cobblemon:thunder_stone", ["psychicnoise"]),
+        "drops": [("minecraft:glowstone_dust", "0-1", None), ("minecraft:sand", "0-1", None), ("cobblemon:thunder_stone", None, 1.0)],
+        "entry": ("It floats over desert dunes at night with its tail curled round it in a ring. Anything that stares "
+                  "at the turning ring for long falls into a daze, and Jerbolt hops off with its food."),
+        "spawns": [
+            route_spawn("jerbolt-desert", "uncommon", "5-25", 5.0, ["#cobblemon:is_desert"], timeRange="night"),
+            route_spawn("jerbolt-badlands", "uncommon", "5-25", 3.0, ["#cobblemon:is_badlands", "#cobblemon:is_savanna"], timeRange="night"),
+        ],
+        "how": ["Wild: uncommon in deserts, badlands and savannas at night.", "Evolves into Mesmerboa when a Thunder Stone is used on it."],
+    },
+    "mesmerboa": {
+        "dex": 3029, "name": "Mesmerboa", "line": "jerboa", "types": ["electric", "psychic"], **JERB,
+        "stats": stats(60, 65, 55, 105, 85, 125), "ev": evs(speed=2, special_attack=1), "catch": 75, "exp": 218,
+        "height": 7, "weight": 140, "shoulder": False, "walk": 0.4,
+        "moves": [(1, "psychicnoise")] + JERB_LEARN + [(50, "psychicterrain"), (55, "risingvoltage"), (60, "expandingforce")],
+        "tm": JERB_TM + JERB_TM_FINAL, "egg": JERB_EGG, "evolve": None,
+        "drops": [("minecraft:glowstone_dust", "1-2", None), ("cobblemon:thunder_stone", None, 2.5)],
+        "entry": ("Its tail is so long it never touches the ground: it hangs round Mesmerboa in a great ring that "
+                  "crackles with electricity. Spun fast, the ring can put a whole herd of Pokémon to sleep at once."),
+        "spawns": [route_spawn("mesmerboa-desert", "rare", "25-40", 1.5, ["#cobblemon:is_desert"], timeRange="night")],
+        "how": ["Use a Thunder Stone on Jerbolt. It learns Psychic Noise when it evolves.",
+                "Wild: rare in deserts at night."],
+    },
+})
+LINES["jerboa"] = ["jerbolt", "mesmerboa"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -906,12 +952,17 @@ def species_json(sp):
             for item, q, p in c["drops"]]},
         "moves": [f"{lv}:{mv}" for lv, mv in c["moves"]] + [f"egg:{m}" for m in c["egg"]] + [f"tm:{m}" for m in c["tm"]],
     })
-    if c["evolve"]:
+    if c.get("evolve_stone"):                               # evolves when an item is used on it (e.g. a Thunder Stone)
+        to, item, learn = c["evolve_stone"]
+        d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "item_interact", "result": f"{MOD}:{to}",
+                            "consumeHeldItem": False, "learnableMoves": learn, "requiredContext": item}]
+    elif c["evolve"]:
         to, lv, learn, *more = c["evolve"]
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),
                             "learnableMoves": learn,
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
-    pre = [s for s, o in SPECIES.items() if o["evolve"] and o["evolve"][0] == sp]
+    pre = [s for s, o in SPECIES.items() if (o["evolve"] and o["evolve"][0] == sp)
+           or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)]
     if pre:
         d["preEvolution"] = f"{MOD}:{pre[0]}"
     return d
@@ -930,7 +981,8 @@ def check(showdown):
     moves, abilities = ids("data/moves.js"), ids("data/abilities.js")
     bad = []
     for sp, c in SPECIES.items():
-        for mv in [m for _, m in c["moves"]] + c["tm"] + c["egg"] + (c["evolve"][2] if c["evolve"] else []):
+        evo_moves = (c["evolve"][2] if c["evolve"] else []) + (c["evolve_stone"][2] if c.get("evolve_stone") else [])
+        for mv in [m for _, m in c["moves"]] + c["tm"] + c["egg"] + evo_moves:
             if mv not in moves and mv not in CUSTOM_MOVES:
                 bad.append(f"{sp}: move {mv}")
         for eg in c["egg_groups"]:                           # Cobblemon's EggGroup ids (a wrong one stops the server)

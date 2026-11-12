@@ -150,7 +150,8 @@ posted on Pinterest by **LAB fakemon**), and the route-one lines from the user's
 reference pictures found online; none of their pixels are used. Petroleodd and Petroleossil (names
 and design) are by **@aalacer398** (Instagram), used with their permission; our models are built by hand after their
 art. The Prototaxites line (Mycolith, Taxitower, Paleomycelium, Devonian Drift) is an idea the user brought from
-Google's Gemini; its models are our own.
+Google's Gemini; its models are our own. Jerbolt and Mesmerboa are after a design by **NyonTox**
+(Pinterest), used with their permission; the names and models are our own.
 
 ## Code and data
 
