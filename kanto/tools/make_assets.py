@@ -709,6 +709,9 @@ def build():
     import make_kantonian                                   # stage 3: ore, metal, armor
     make_kantonian.build()
     LANG.update(make_kantonian.LANG)
+    import make_regions                                     # 0.3.0: Johto to Paldea, landmarks and portals
+    make_regions.build()
+    LANG.update(make_regions.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

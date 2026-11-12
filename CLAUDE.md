@@ -146,6 +146,18 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   badges in BATTLE_STARTED_PRE, Champion Ribbon; `/kanto gyms|rebuild`. Stage 3 (0.2.0, `tools/make_kantonian.py`):
   Kantonian ore (iron's bands x1.2, Kanto only via the `cobbleeffort_kanto:in_kanto` placement filter), raw/ingot/block,
   armor (`KantoArmor`, one armor material per outfit; dye or wool in the shape's gap picks the outfit).
+  0.3.0 (`tools/make_regions.py`, the user's design): Johto..Paldea, a dimension each (`Region` enum: dex ranges; spawn
+  swap generalised in KantoEvents; dimension type shared with Kanto; per-region multi_noise biome lists, noise settings:
+  amplified Sinnoh, large-biome Galar/Paldea, own sea levels for Hoenn/Alola) and a landmark each (jigsaw structures
+  from single templates, biome tags, random_spread sets; built by Python builders on `S` shape helpers) holding the
+  region's portal block (`Regions` + `RegionPortalBlock`: Plain/Facing/Tall/Parts; any block of the statue, ball or
+  telescope works): pagoda bell, cave Groudon statue, manor basement boarded doorway, castle golden wardrobe
+  (Magearna engraving), factory giant Poké Ball, observatory telescope, giant tree's engraved bark (300 tall from root
+  tip: starts 60 below ground, terrain_adaptation none), academy PC. `KantoTravel.travel(player, region)`: home from
+  inside, else arrival pad with a return portal. Previews: voxel renders (instanced three.js) of each template.
+  `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
+  `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
+  Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.
   No replicas of the games' maps and no official characters or outfits: original, Kanto-inspired designs only.
   **Fabric remapping**: `fabric/build.gradle` (Kanto and Distortion) needs `modCompileOnly com.cobblemon:fabric`, or
   vanilla methods called on Cobblemon classes (`PokemonEntity.level()`, `NPCEntity.moveTo`) stay unmapped and throw

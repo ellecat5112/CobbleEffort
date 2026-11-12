@@ -57,7 +57,10 @@ public final class KantoEvents {
         });
         CobblemonEvents.ENTITY_SPAWN.subscribe(Priority.NORMAL, event -> {
             try {
-                if (event.getEntity() instanceof PokemonEntity pokemon && pokemon.level().dimension() == Kanto.KANTO) onlyGen1(pokemon);
+                if (event.getEntity() instanceof PokemonEntity pokemon) {
+                    Region region = Region.of(pokemon.level().dimension());
+                    if (region != null) onlyRegion(pokemon, region);
+                }
             } catch (Throwable t) {
                 Kanto.LOG.error("Kanto spawn check failed", t);
             }
@@ -91,15 +94,17 @@ public final class KantoEvents {
     }
 
     /**
-     * Only Gen 1 Pokémon live in Kanto: any other species about to spawn there becomes a Gen 1 Pokémon (not legendary
-     * or mythical) sharing its primary type, at the same level, so Kanto stays as lively as the overworld.
+     * Only a region's own generation lives in its dimension: any other species about to spawn there becomes one of that
+     * generation's Pokémon (not legendary or mythical) sharing its primary type, at the same level, so each region stays
+     * as lively as the overworld.
      */
-    private static void onlyGen1(PokemonEntity entity) {
+    private static void onlyRegion(PokemonEntity entity, Region region) {
         Pokemon pokemon = entity.getPokemon();
-        if (gen1(pokemon.getSpecies())) return;
+        if (region.contains(pokemon.getSpecies().getNationalPokedexNumber())) return;
         List<Species> same = new ArrayList<>(), any = new ArrayList<>();
         for (Species s : PokemonSpecies.getImplemented()) {
-            if (!gen1(s) || s.getLabels().contains("legendary") || s.getLabels().contains("mythical")) continue;
+            if (!region.contains(s.getNationalPokedexNumber()) || s.getLabels().contains("legendary") || s.getLabels().contains("mythical")
+                    || s.getLabels().contains("ultra_beast") || s.getLabels().contains("paradox")) continue;
             any.add(s);
             if (s.getPrimaryType() == pokemon.getSpecies().getPrimaryType()) same.add(s);
         }

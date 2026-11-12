@@ -88,6 +88,7 @@ public final class Kanto {
     static final String[] ORE_FEATURES = {"kantonian_ore_upper", "kantonian_ore_middle", "kantonian_ore_small"};
     static {
         KantoArmor.setup();
+        Regions.register();
     }
 
     private Kanto() {

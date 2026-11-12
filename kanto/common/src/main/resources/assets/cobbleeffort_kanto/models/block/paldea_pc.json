@@ -1,0 +1,144 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "body": "cobbleeffort_kanto:block/paldea_pc_body",
+    "screen": "cobbleeffort_kanto:block/paldea_pc_screen",
+    "particle": "cobbleeffort_kanto:block/paldea_pc_body"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        8
+      ],
+      "to": [
+        11,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#body"
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        0,
+        2
+      ],
+      "to": [
+        13,
+        1,
+        6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#body"
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        1,
+        9
+      ],
+      "to": [
+        9,
+        4,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#body"
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        2,
+        8
+      ],
+      "to": [
+        15,
+        14,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#screen",
+          "uv": [
+            1,
+            2,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleeffort_kanto:block/galar_engraved_bark"
+    },
+    "facing=east": {
+      "model": "cobbleeffort_kanto:block/galar_engraved_bark",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleeffort_kanto:block/galar_engraved_bark",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleeffort_kanto:block/galar_engraved_bark",
+      "y": 270
+    }
+  }
+}
