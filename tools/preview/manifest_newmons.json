@@ -46,5 +46,99 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3003_orthodread/orthodread_shiny.png",
   "layers": []
+ },
+ {
+  "species": "coalarva",
+  "folder": "3004_coalarva",
+  "model": "cobbleeffort:coalarva.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3004_coalarva/coalarva.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3004_coalarva/coalarva_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "coalarva_shiny",
+  "folder": "3004_coalarva",
+  "model": "cobbleeffort:coalarva.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3004_coalarva/coalarva_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3004_coalarva/coalarva_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "cinderoon",
+  "folder": "3005_cinderoon",
+  "model": "cobbleeffort:cinderoon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "cinderoon_shiny",
+  "folder": "3005_cinderoon",
+  "model": "cobbleeffort:cinderoon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "gatterfly",
+  "folder": "3006_gatterfly",
+  "model": "cobbleeffort:gatterfly.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3006_gatterfly/gatterfly.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3006_gatterfly/gatterfly_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "gatterfly_shiny",
+  "folder": "3006_gatterfly",
+  "model": "cobbleeffort:gatterfly.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3006_gatterfly/gatterfly_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3006_gatterfly/gatterfly_shiny_glow_0.png"
+   }
+  ]
  }
 ]

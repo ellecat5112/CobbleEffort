@@ -1,0 +1,161 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3004,
+ "name": "Coalarva",
+ "primaryType": "fire",
+ "secondaryType": "bug",
+ "maleRatio": 0.875,
+ "height": 4,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.coalarva.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:skilllink"
+ ],
+ "eggGroups": [
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 45,
+  "attack": 55,
+  "defence": 50,
+  "special_attack": 49,
+  "special_defence": 50,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.65,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.45,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:coal",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:charcoal",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:stringshot",
+  "4:ember",
+  "8:bugbite",
+  "12:smokescreen",
+  "15:flamecharge",
+  "19:firefang",
+  "23:strugglebug",
+  "27:incinerate",
+  "31:lunge",
+  "36:firespin",
+  "40:flareblitz",
+  "egg:firstimpression",
+  "egg:stickyweb",
+  "egg:firespin",
+  "egg:morningsun",
+  "egg:infestation",
+  "egg:megahorn",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:overheat",
+  "tm:heatwave",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:terablast",
+  "tm:temperflare",
+  "tm:scaryface",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:firefang",
+  "tm:solarbeam",
+  "tm:round",
+  "tm:swagger",
+  "tm:toxic",
+  "tm:dig"
+ ],
+ "evolutions": [
+  {
+   "id": "coalarva_cinderoon",
+   "variant": "level_up",
+   "result": "cobbleeffort:cinderoon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "harden"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ]
+}

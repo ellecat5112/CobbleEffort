@@ -619,7 +619,7 @@ Picked with `generate.py pick --count 18 --seed steampunk-clockwork` from the 18
 Give a supported Pokémon a **Copper Ingot** as its cosmetic item. With commands: `/pokegive durant steampunk`,
 `/pokegive tepig steampunk shiny`. Pack makers can extend the item tag `#cobbleeffort:steampunk_cosmetics`.
 
-## New Pokémon: the dentistry line
+## New Pokémon (CobbleEffort's own)
 
 Original Pokémon from the user's designs (idea and look), with names, Pokédex entries, stats and moves made up for
 them. Each one has a hand-built box model in Cobblemon's style, a shiny, animations (idle, walking, battle stance,
@@ -627,7 +627,19 @@ sleep, cry, moves, fainting), wild spawns, drops and a CobbleEffort page in the 
 numbers from #3001, which nothing else in the supported mod stack uses. In commands, use the namespaced id:
 `/pokegive cobbleeffort:cavitot`.
 
-Shinies have minty enamel (fresh toothpaste) and gold metal: gold fillings, caps and braces.
+**The dentistry line** (Cavitot, Amalgum, Orthodread): shinies have minty enamel (fresh toothpaste) and gold metal:
+gold fillings, caps and braces.
+
+**The coal butterfly line** (Coalarva, Cinderoon, Gatterfly) is CobbleEffort's **starter**: Coalarva has its own
+"CobbleEffort" page on Cobblemon's starter screen, after the regions. (Cobblemon shows only data-pack starter pages
+once any exist, so CobbleEffort ships Cobblemon's own region pages too, exactly as in its default config: every usual
+starter stays available. If your server turns on `useConfigStarters`, the CobbleEffort page is simply added to your
+config's list.) Cinderoon's cocoon is a see-through ash layer with the Coalarva visible inside; their abdomens, the
+cocoon's embers and bands, and Gatterfly's wings, cracks and gun barrels glow in the dark. Shinies burn with blue fire.
+
+Gatterfly learns its own move when it evolves, **Machine Gun Stinger**: Bug, physical, 25 power, 95% accuracy, 15 PP,
+hits 2-5 times (always 5 with its hidden ability Skill Link), each hit with a 20% chance to burn. It is a bullet move
+(Bulletproof blocks it). Its Gatling drums spin when it attacks.
 
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
@@ -635,9 +647,12 @@ Shinies have minty enamel (fresh toothpaste) and gold metal: gold fillings, caps
 | 3001 | **Cavitot** | Dark | Strong Jaw / Stench / Stakeout (hidden) | 50 / 65 / 60 / 30 / 45 / 50 | 2'4" (0.7 m) / 18.5 kg | Wild: common near sugar cane (sugar rots teeth) and in Dripstone Caves, uncommon underground and in villages at night. Evolves into Amalgum at level 24. | It started out as a baby tooth that was never brushed. The cavity in its crown aches all the time, which is why it always looks so grumpy. It can't resist sweets, even though they make the ache worse. |
 | 3002 | **Amalgum** | Dark / Steel | Strong Jaw / Sturdy / Stakeout (hidden) | 65 / 85 / 95 / 40 / 60 / 55 | 3'7" (1.1 m) / 72.4 kg | Evolve Cavitot at level 24. Wild: uncommon in Dripstone Caves, rare in the Deep Dark. | Three Cavitot that had their cavities filled and fused into one. The metal in their fillings makes it tough to crack, but all three of its faces still frown. It gnaws on iron ore to keep its caps shiny. |
 | 3003 | **Orthodread** | Dark / Steel | Strong Jaw / Iron Barbs / Stakeout (hidden) | 85 / 120 / 120 / 50 / 80 / 70 | 5'11" (1.8 m) / 205 kg | Evolve Amalgum at level 42. Wild: very rare in the Deep Dark and Dripstone Caves. | Eight teeth held together by braces it can never take off. It scuttles through dark caves on its steel legs and its bite can crunch through iron. The braces put it in a foul mood, and it takes that out on anyone it meets. |
+| 3004 | **Coalarva** | Fire / Bug | Blaze / Skill Link (hidden) | 45 / 55 / 50 / 49 / 50 / 60 | 1'4" (0.4 m) / 12 kg | The CobbleEffort starter: pick it at the starter screen (its own CobbleEffort page, after Cobblemon's regions). Wild: very rare underground next to coal ore. Evolves into Cinderoon at level 16. | It lives in caves deep underground where coal seams run thick, and it eats nothing but coal. A special organ in its abdomen turns the minerals it swallows into heat, which is why its tail end always glows. |
+| 3005 | **Cinderoon** | Fire / Bug | Blaze / Skill Link (hidden) | 60 / 45 / 95 / 60 / 85 / 60 | 3'3" (1 m) / 38.5 kg | Evolve Coalarva at level 16. | Once it has eaten enough coal, it wraps its soft body in a cocoon of cinders. The ash is thin enough to see the Coalarva curled up inside, and it can burn some of it away to hurl a blast of fire at anything that disturbs it. |
+| 3006 | **Gatterfly** | Fire / Bug | Blaze / Skill Link (hidden) | 78 / 115 / 80 / 104 / 75 / 82 | 5'7" (1.7 m) / 125 kg | Evolve Cinderoon at level 36. Learns its own move, Machine Gun Stinger, when it evolves. | Its arms have become guns that spray stingers so fast and so hot they glow, and its wings are made of fire. Besides fighting with them, it melts stone with its flames to build its nest. |
 <!-- newmons:end -->
 
-![The dentistry line](docs/newmons_preview.png)
+![CobbleEffort's own Pokémon: the dentistry line and the coal butterfly line, with shinies](docs/newmons_preview.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

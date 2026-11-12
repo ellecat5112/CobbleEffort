@@ -21,7 +21,8 @@ def animations(group, kind, opt, names, legs, piv):
         return out
 
     known = {"body", "head", "tail", "cap", "mane", "skirt", "wing_left", "wing_right", "arm_left", "arm_right", "jaw"}
-    extras = [n for n in names if n not in known and not n.startswith("leg")]
+    extras = [n for n in names if n not in known and not n.startswith("leg") and not n.startswith("spin")]
+    spins = [n for n in names if n.startswith("spin")]       # gun drums and the like: turn round z
 
     idle = {"body": {"position": track(3, lambda t: [0, -bob * (1 - math.cos(2 * math.pi * t)) / 2 if kind != "floater" else bob * sin(t), 0])}}
     if "head" in has:
@@ -94,6 +95,8 @@ def animations(group, kind, opt, names, legs, piv):
     for n, nm in enumerate(extras):
         sgn = 1 if nm.endswith("left") else -1
         battle[nm] = {"rotation": track(2, lambda t, sg=sgn: [-6 + 3 * sin(t), 0, sg * (4 + 3 * sin(t, 1, 0.3))])}
+    for n in spins:
+        battle[n] = {"rotation": track(2, lambda t: [0, 0, 360 * t], steps=24)}
     A["battle_idle"] = {"loop": True, "animation_length": 2.0, "bones": battle}
 
     leg_top = max((piv[l][1] for l in legs), default=0)
@@ -147,6 +150,8 @@ def animations(group, kind, opt, names, legs, piv):
             phys[arm] = {"rotation": keys([(0, [0, 0, 0]), (0.25, [-70, 0, 0]), (0.45, [30, 0, 0]), (0.8, [0, 0, 0])])}
     for nm in extras:
         phys[nm] = {"rotation": keys([(0, [0, 0, 0]), (0.25, [-20, 0, 0]), (0.45, [15, 0, 0]), (0.8, [0, 0, 0])])}
+    for n in spins:
+        phys[n] = {"rotation": track(0.8, lambda t: [0, 0, 1440 * t], steps=48)}
     A["physical"] = {"animation_length": 0.8, "bones": phys}
 
     spec = {"body": {"position": keys([(0, [0, 0, 0]), (0.3, [0, 0.8, 0]), (0.6, [0, 0.8, 0]), (1.0, [0, 0, 0])])}}

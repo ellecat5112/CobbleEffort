@@ -140,7 +140,8 @@ into **Mega Showdown**'s data-driven mega system.
 
 ## CobbleEffort's own Pokémon
 
-Cavitot, Amalgum and Orthodread (the dentistry line, `.../300x_<species>/*`) are original Pokémon: the idea and look are
+Cavitot, Amalgum and Orthodread (the dentistry line) and Coalarva, Cinderoon and Gatterfly (the coal butterfly line,
+with its move Machine Gun Stinger), all under `.../300x_<species>/*`, are original Pokémon: the idea and look are
 the user's own design, and the names, Pokédex entries, stats, models, textures, animations and posers were made for
 CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used.
 

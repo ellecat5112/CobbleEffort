@@ -95,8 +95,18 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   from bone names, also used by the megas). Species `cobbleeffort:<name>` in `data/cobbleeffort/species/<line>/`,
   dex entries + the `cobbleeffort:cobbleeffort` sub-dex added to `cobblemon:national` (dex_additions), spawns in
   `spawn_pool_world`, lang `cobbleeffort.species.<name>.name|desc`, resolver order 0, README table between
-  `<!-- newmons -->` markers, player guide from `tools/readme/_new_<name>.json`. Lines so far: dentistry (Cavitot ->
-  Amalgum lv 24 -> Orthodread lv 42; Dark, Dark/Steel; shiny = minty enamel + gold metal; `models/_teeth.py`).
+  `<!-- newmons -->` markers, player guide from `tools/readme/_new_<name>.json`. Layers come from the shaders: a glow
+  colour -> emissive `cobbleeffort_glow` layer (3 flicker frames); an alpha between 0 and 255 -> translucent
+  `cobbleeffort_shell` layer (cut out of the base texture; listed after the glow so the shell doesn't hide it). Rig:
+  `spin*` bones turn round z in battle idle and fast in physical moves (gun drums). CUSTOM_MOVES -> Cobblemon datapack
+  moves `data/cobbleeffort/moves/<id>.js` (`Object.assign({}, Dex.data.Moves[base], {...})`, lang `cobblemon.move.<id>`);
+  test them in node against Cobblemon's Showdown, sending the species as Cobblemon does (id `cobbleeffort<name>`,
+  name `cobbleeffort:<Name>`). Starters: data-pack categories in `data/cobbleeffort/starters/`; Cobblemon shows ONLY
+  data-pack categories once any exist (default `useConfigStarters=false`), so STARTER_CATEGORIES ships its built-in
+  regions (copied from its default config) plus ours (OUR_STARTERS). Lines so far: dentistry (Cavitot -> Amalgum lv 24
+  -> Orthodread lv 42; Dark, Dark/Steel; shiny = minty enamel + gold metal; `models/_teeth.py`); coal butterfly, the
+  starter (Coalarva -> Cinderoon lv 16 -> Gatterfly lv 36; Fire/Bug; Blaze / Skill Link; translucent ash cocoon with
+  the larva inside; Gatling arms; Machine Gun Stinger; shiny = blue fire; `models/_coal.py`).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

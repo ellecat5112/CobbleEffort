@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3006,
+ "name": "Gatterfly",
+ "primaryType": "fire",
+ "secondaryType": "bug",
+ "maleRatio": 0.875,
+ "height": 17,
+ "weight": 1250,
+ "pokedex": [
+  "cobbleeffort.species.gatterfly.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:skilllink"
+ ],
+ "eggGroups": [
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 78,
+  "attack": 115,
+  "defence": 80,
+  "special_attack": 104,
+  "special_defence": 75,
+  "speed": 82
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.78,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.8,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:coal",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:charcoal_stick",
+    "percentage": 15.0
+   }
+  ]
+ },
+ "moves": [
+  "1:machinegunstinger",
+  "1:harden",
+  "1:tackle",
+  "1:stringshot",
+  "4:ember",
+  "8:bugbite",
+  "12:smokescreen",
+  "15:flamecharge",
+  "16:harden",
+  "20:incinerate",
+  "24:irondefense",
+  "28:firespin",
+  "32:lunge",
+  "36:machinegunstinger",
+  "40:flamethrower",
+  "44:uturn",
+  "48:heatwave",
+  "52:quiverdance",
+  "56:flareblitz",
+  "62:megahorn",
+  "egg:firstimpression",
+  "egg:stickyweb",
+  "egg:firespin",
+  "egg:morningsun",
+  "egg:infestation",
+  "egg:megahorn",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:overheat",
+  "tm:heatwave",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:terablast",
+  "tm:temperflare",
+  "tm:scaryface",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:firefang",
+  "tm:solarbeam",
+  "tm:round",
+  "tm:swagger",
+  "tm:toxic",
+  "tm:dig",
+  "tm:irondefense",
+  "tm:harden",
+  "tm:bodypress",
+  "tm:xscissor",
+  "tm:tailwind",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:rockblast",
+  "tm:flareblitz",
+  "tm:skittersmack",
+  "tm:leechlife",
+  "tm:dualwingbeat",
+  "tm:hurricane"
+ ],
+ "preEvolution": "cobbleeffort:cinderoon"
+}

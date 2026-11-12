@@ -25,6 +25,9 @@ import json
 import sys
 from pathlib import Path
 
+import numpy as np
+from PIL import Image
+
 HERE = Path(__file__).resolve().parent
 TOOLS = HERE.parent
 sys.path.insert(0, str(HERE / "models"))
@@ -137,6 +140,105 @@ SPECIES = {
 }
 LINES = {"dentistry": ["cavitot", "amalgum", "orthodread"]}
 
+# --- the coal butterfly line (the CobbleEffort starter) --------------------------------------------------------------
+
+COAL_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "snore", "endure", "flamecharge", "flamethrower",
+           "fireblast", "willowisp", "sunnyday", "overheat", "heatwave", "bugbuzz", "uturn", "strugglebug", "pounce",
+           "lunge", "terablast", "temperflare", "scaryface", "stringshot", "bugbite", "firefang", "solarbeam",
+           "round", "swagger", "toxic", "dig"]
+COAL_TM_COCOON = ["irondefense", "harden", "bodypress"]
+COAL_TM_FINAL = ["xscissor", "tailwind", "airslash", "acrobatics", "gigaimpact", "hyperbeam", "rockblast", "flareblitz",
+                 "skittersmack", "leechlife", "dualwingbeat", "hurricane"]
+COAL_EGG = ["firstimpression", "stickyweb", "firespin", "morningsun", "infestation", "megahorn"]
+COAL_EARLY = [(1, "tackle"), (1, "stringshot"), (4, "ember"), (8, "bugbite"), (12, "smokescreen"), (15, "flamecharge")]
+STARTER = dict(male=0.875, egg_groups=["bug"], catch=45, friendship=50, abilities=["blaze", "h:skilllink"],
+               ability_names="Blaze / Skill Link (hidden)")
+
+SPECIES.update({
+    "coalarva": {
+        "dex": 3004, "name": "Coalarva", "line": "coal_butterfly", "types": ["fire", "bug"], **STARTER,
+        "stats": stats(45, 55, 50, 49, 50, 60), "ev": evs(speed=1), "exp": 62,
+        "height": 4, "weight": 120, "shoulder": True, "walk": 0.22,
+        "moves": COAL_EARLY + [(19, "firefang"), (23, "strugglebug"), (27, "incinerate"), (31, "lunge"),
+                               (36, "firespin"), (40, "flareblitz")],
+        "tm": COAL_TM, "egg": COAL_EGG,
+        "evolve": ("cinderoon", 16, ["harden"]),
+        "drops": [("minecraft:coal", "1-2", None), ("minecraft:charcoal", "0-1", None), ("cobblemon:charcoal_stick", None, 5.0)],
+        "entry": ("It lives in caves deep underground where coal seams run thick, and it eats nothing but coal. A "
+                  "special organ in its abdomen turns the minerals it swallows into heat, which is why its tail end "
+                  "always glows."),
+        "spawns": [
+            spawn("coalarva-coal", "ultra-rare", "5-15", 1.0,
+                  dict(UNDERGROUND, biomes=["#cobblemon:is_overworld"], neededNearbyBlocks=["#minecraft:coal_ores"])),
+        ],
+        "how": ["The CobbleEffort starter: pick it at the starter screen (its own CobbleEffort page, after Cobblemon's "
+                "regions).", "Wild: very rare underground next to coal ore.", "Evolves into Cinderoon at level 16."],
+    },
+    "cinderoon": {
+        "dex": 3005, "name": "Cinderoon", "line": "coal_butterfly", "types": ["fire", "bug"], **STARTER,
+        "stats": stats(60, 45, 95, 60, 85, 60), "ev": evs(defence=2), "exp": 142,
+        "height": 10, "weight": 385, "shoulder": False, "walk": 0.12,
+        "moves": [(1, "harden")] + COAL_EARLY + [(16, "harden"), (20, "incinerate"), (24, "irondefense"),
+                                                (28, "firespin"), (32, "lunge"), (35, "burningbulwark")],
+        "tm": COAL_TM + COAL_TM_COCOON, "egg": COAL_EGG,
+        "evolve": ("gatterfly", 36, ["machinegunstinger"]),
+        "drops": [("minecraft:coal", "1-3", None), ("minecraft:charcoal", "1-2", None), ("cobblemon:charcoal_stick", None, 10.0)],
+        "entry": ("Once it has eaten enough coal, it wraps its soft body in a cocoon of cinders. The ash is thin enough "
+                  "to see the Coalarva curled up inside, and it can burn some of it away to hurl a blast of fire at "
+                  "anything that disturbs it."),
+        "spawns": [],
+        "how": ["Evolve Coalarva at level 16."],
+    },
+    "gatterfly": {
+        "dex": 3006, "name": "Gatterfly", "line": "coal_butterfly", "types": ["fire", "bug"], **STARTER,
+        "stats": stats(78, 115, 80, 104, 75, 82), "ev": evs(attack=3), "exp": 265,
+        "height": 17, "weight": 1250, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "machinegunstinger"), (1, "harden")] + COAL_EARLY +
+                 [(16, "harden"), (20, "incinerate"), (24, "irondefense"), (28, "firespin"), (32, "lunge"),
+                  (36, "machinegunstinger"), (40, "flamethrower"), (44, "uturn"), (48, "heatwave"),
+                  (52, "quiverdance"), (56, "flareblitz"), (62, "megahorn")],
+        "tm": COAL_TM + COAL_TM_COCOON + COAL_TM_FINAL, "egg": COAL_EGG,
+        "evolve": None,
+        "drops": [("minecraft:coal", "2-4", None), ("minecraft:blaze_powder", "0-2", None),
+                  ("cobblemon:charcoal_stick", None, 15.0)],
+        "entry": ("Its arms have become guns that spray stingers so fast and so hot they glow, and its wings are made "
+                  "of fire. Besides fighting with them, it melts stone with its flames to build its nest."),
+        "spawns": [],
+        "how": ["Evolve Cinderoon at level 36. Learns its own move, Machine Gun Stinger, when it evolves."],
+    },
+})
+LINES["coal_butterfly"] = ["coalarva", "cinderoon", "gatterfly"]
+
+# moves of our own: Cobblemon datapack moves (data/cobbleeffort/moves/<id>.js, read into Showdown at startup)
+CUSTOM_MOVES = {
+    "machinegunstinger": {
+        "base": "pinmissile", "num": -3001, "name": "Machine Gun Stinger", "type": "Bug", "category": "Physical",
+        "basePower": 25, "accuracy": 95, "pp": 15, "multihit": [2, 5],
+        "flags": {"protect": 1, "mirror": 1, "metronome": 1, "bullet": 1},
+        "secondary": {"chance": 20, "status": "brn"}, "contestType": "Cool",
+        "desc": "Hits two to five times. Each hit has a 20% chance to burn the target.",
+        "shortDesc": "Hits 2-5 times. Each hit: 20% chance to burn.",
+        "lang": "Spins up its Gatling arms and sprays the target with red-hot stingers two to five times in a row. "
+                "Each stinger may leave the target with a burn.",
+    },
+}
+# the starter screen: Cobblemon shows only data-pack categories once any exist (unless use_config_starters is on),
+# so its built-in regions are shipped too, as in its default config, and ours comes after them
+STARTER_CATEGORIES = [
+    ("Kanto", -110, "kanto", ["Bulbasaur", "Charmander", "Squirtle"]),
+    ("Johto", -109, "johto", ["Chikorita", "Cyndaquil", "Totodile"]),
+    ("Hoenn", -108, "hoenn", ["Treecko", "Torchic", "Mudkip"]),
+    ("Sinnoh", -107, "sinnoh", ["Turtwig", "Chimchar", "Piplup"]),
+    ("Unova", -106, "unova", ["Snivy", "Tepig", "Oshawott"]),
+    ("Kalos", -105, "kalos", ["Chespin", "Fennekin", "Froakie"]),
+    ("Alola", -104, "alola", ["Rowlet", "Litten", "Popplio"]),
+    ("Galar", -103, "galar", ["Grookey", "Scorbunny", "Sobble"]),
+    ("Paldea", -101, "paldea", ["Sprigatito", "Fuecoco", "Quaxly"]),
+    ("Special", -100, "special", ["Pikachu"]),
+]
+OUR_STARTERS = ("CobbleEffort", -99, ["cobbleeffort:coalarva"])
+
+
 
 def folder(sp):
     return f"{SPECIES[sp]['dex']:04d}_{sp}"
@@ -162,9 +264,28 @@ def build_model(sp):
     k = getattr(hand, "K", 1)
     tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / folder(sp)
     tex_dir.mkdir(parents=True, exist_ok=True)
+    tex = lambda n: f"{MOD}:textures/pokemon/{folder(sp)}/{n}.png"
+    layers = {"": [], "_shiny": []}                         # resolver layers per variant (glow, translucent shell)
     for variant, sfx in ((None, ""), ("shiny", "_shiny")):
-        img, _ = m.paint(tw, th, variant, k=k)
-        img.save(tex_dir / f"{sp}{sfx}.png", optimize=True)
+        img, glow = m.paint(tw, th, variant, k=k)
+        a = np.array(img)
+        shell = (a[..., 3] > 0) & (a[..., 3] < 255)        # texels painted part-transparent: the translucent layer
+        g = np.array(glow)
+        if g[..., 3].any():
+            for f, mul in enumerate((1.0, 0.86, 0.94)):        # the glow flickers a little
+                gf = g.astype(float)
+                gf[..., :3] *= mul
+                Image.fromarray(gf.astype(np.uint8), "RGBA").save(tex_dir / f"{sp}{sfx}_glow_{f}.png", optimize=True)
+            layers[sfx].append({"name": "cobbleeffort_glow", "emissive": True, "translucent": True,
+                                "texture": {"frames": [tex(f"{sp}{sfx}_glow_{f}") for f in range(3)], "fps": 6, "loop": True}})
+        if shell.any():
+            s = np.zeros_like(a)
+            s[shell] = a[shell]
+            a[shell, 3] = 0
+            Image.fromarray(s, "RGBA").save(tex_dir / f"{sp}{sfx}_shell.png", optimize=True)
+            layers[sfx].append({"name": "cobbleeffort_shell", "translucent": True, "texture": tex(f"{sp}{sfx}_shell")})
+        Image.fromarray(a, "RGBA").save(tex_dir / f"{sp}{sfx}.png", optimize=True)
+    cfg["layers"] = layers
     names = [b["name"] for b in m.bones if b["parent"] is not None]
     piv = {b["name"]: b["pivot"] for b in m.bones}
     legs = [n for n in names if n.startswith("leg")]
@@ -177,12 +298,11 @@ def build_model(sp):
     write_json(bedrock / "animations" / folder(sp) / f"{group_of(sp)}.animation.json",
                animations(group_of(sp), getattr(hand, "KIND", "quadruped"), getattr(hand, "ANIM", {}), names, legs, piv))
     write_json(bedrock / "posers" / folder(sp) / f"{sp}.json", poser(group_of(sp), sp, top, hand.SCALE, names))
-    tex = lambda n: f"{MOD}:textures/pokemon/{folder(sp)}/{n}.png"
     write_json(bedrock / "resolvers" / folder(sp) / f"0_{sp}_base.json", {
         "species": f"{MOD}:{sp}", "order": 0,
         "variations": [
-            {"aspects": [], "poser": f"{MOD}:{sp}", "model": f"{MOD}:{sp}.geo", "texture": tex(sp), "layers": []},
-            {"aspects": ["shiny"], "texture": tex(f"{sp}_shiny")},
+            {"aspects": [], "poser": f"{MOD}:{sp}", "model": f"{MOD}:{sp}.geo", "texture": tex(sp), "layers": layers[""]},
+            {"aspects": ["shiny"], "texture": tex(f"{sp}_shiny"), **({"layers": layers["_shiny"]} if layers["_shiny"] else {})},
         ]})
     print(f"{sp}: {len(m.boxes)} cubes, texture {tw}x{th} (x{k}), {top} units tall, bones {names}")
 
@@ -195,7 +315,7 @@ def species_json(sp):
     if len(c["types"]) > 1:
         d["secondaryType"] = c["types"][1]
     d.update({
-        "maleRatio": 0.5, "height": c["height"], "weight": c["weight"], "pokedex": [f"{MOD}.species.{sp}.desc"],
+        "maleRatio": c.get("male", 0.5), "height": c["height"], "weight": c["weight"], "pokedex": [f"{MOD}.species.{sp}.desc"],
         "labels": ["cobbleeffort", "custom"], "aspects": [], "abilities": c["abilities"], "eggGroups": c["egg_groups"],
         "baseStats": c["stats"], "evYield": c["ev"], "baseExperienceYield": c["exp"], "experienceGroup": "medium_slow",
         "catchRate": c["catch"], "eggCycles": 20, "baseFriendship": c["friendship"],
@@ -204,7 +324,8 @@ def species_json(sp):
         "behaviour": {
             "resting": {"canSleep": True, "willSleepOnBed": True, "times": ["day"], "drowsyChance": 0.0014,
                         "rouseChance": 0.0042},
-            "moving": {"walk": {"walkSpeed": c["walk"]}, "swim": {"avoidsWater": True, "canSwimInWater": False}},
+            "moving": {"walk": {"walkSpeed": c["walk"]}, "swim": {"avoidsWater": True, "canSwimInWater": False},
+                       **({"fly": {"canFly": True, "flySpeedHorizontal": "0.4"}} if c.get("fly") else {})},
             "combat": {"willDefendOwner": True, "willDefendSelf": sp != "cavitot"},
         },
         "drops": {"amount": 2, "entries": [
@@ -232,7 +353,7 @@ def check(showdown):
     bad = []
     for sp, c in SPECIES.items():
         for mv in [m for _, m in c["moves"]] + c["tm"] + c["egg"] + (c["evolve"][2] if c["evolve"] else []):
-            if mv not in moves:
+            if mv not in moves and mv not in CUSTOM_MOVES:
                 bad.append(f"{sp}: move {mv}")
         for ab in c["abilities"]:
             if ab.removeprefix("h:") not in abilities:
@@ -256,16 +377,22 @@ def main():
         build_model(sp)
         write_json(data / "species" / c["line"] / f"{sp}.json", species_json(sp))
         spawns = [dict(s, pokemon=f"{MOD}:{sp}") for s in c["spawns"]]
-        write_json(data / "spawn_pool_world" / f"{sp}.json",
-                   {"enabled": True, "neededInstalledMods": [], "neededUninstalledMods": [], "spawns": spawns})
+        pool = data / "spawn_pool_world" / f"{sp}.json"
+        if spawns:
+            write_json(pool, {"enabled": True, "neededInstalledMods": [], "neededUninstalledMods": [], "spawns": spawns})
+        elif pool.exists():
+            pool.unlink()
         write_json(data / "dex_entries" / "pokemon" / f"{sp}.json", {
             "id": f"{MOD}:{sp}", "speciesId": f"{MOD}:{sp}", "displayAspects": [], "conditionAspects": [],
             "forms": [{"displayForm": "Normal", "unlockForms": ["Normal"]}], "variations": []})
         lang[f"{MOD}.species.{sp}.name"] = c["name"]
         lang[f"{MOD}.species.{sp}.desc"] = c["entry"]
         for sfx in ("", "_shiny"):
+            lay = [{"original": None, "emissive": bool(l.get("emissive")),
+                    "retextured": (l["texture"]["frames"][0] if isinstance(l["texture"], dict) else l["texture"])}
+                   for l in c["layers"][sfx]]
             manifest.append({"species": f"{sp}{sfx}", "folder": folder(sp), "model": f"{MOD}:{sp}.geo", "original": None,
-                             "retextured": f"{MOD}:textures/pokemon/{folder(sp)}/{sp}{sfx}.png", "layers": []})
+                             "retextured": f"{MOD}:textures/pokemon/{folder(sp)}/{sp}{sfx}.png", "layers": lay})
         types = " / ".join(t.title() for t in c["types"])
         st = c["stats"]
         write_json(TOOLS / "readme" / f"_new_{sp}.json", {
@@ -273,6 +400,23 @@ def main():
             "entry": c["entry"], "how": c["how"],
             "stats": [st["hp"], st["attack"], st["defence"], st["special_attack"], st["special_defence"], st["speed"]]})
         readme.append(c)
+    for mid, mv in CUSTOM_MOVES.items():
+        fields = {k: v for k, v in mv.items() if k not in ("base", "lang")}
+        fields.update(isNonstandard=None, zMove={"basePower": 140}, maxMove={"basePower": 130})
+        js = f'Object.assign({{}}, Dex.data.Moves["{mv['base']}"], {json.dumps(fields)})\n'
+        (data / "moves").mkdir(parents=True, exist_ok=True)
+        (data / "moves" / f"{mid}.js").write_text(js)
+        lang[f"cobblemon.move.{mid}"] = mv["name"]
+        lang[f"cobblemon.move.{mid}.desc"] = mv["lang"]
+    for name, order, key, mons in STARTER_CATEGORIES:
+        write_json(data / "starters" / f"{key}.json", {
+            "name": name, "order": order, "displayName": f"cobblemon.starterselection.category.{key}",
+            "pokemon": [f"{m} level=10" for m in mons]})
+    name, order, mons = OUR_STARTERS
+    write_json(data / "starters" / "cobbleeffort.json", {
+        "name": name, "order": order, "displayName": "cobbleeffort.starterselection.category.cobbleeffort",
+        "pokemon": [f"{m} level=10" for m in mons]})
+    lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))
     write_json(data / "dexes" / "cobbleeffort.json", {

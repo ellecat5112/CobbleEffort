@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 3 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 6 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -757,6 +757,36 @@ cobbleeffort:cavitot.
   and it takes that out on anyone it meets."
   * Evolve Amalgum at level 42.
   * Wild: very rare in the Deep Dark and Dripstone Caves.
+
+#3004 COALARVA  (Fire / Bug; Blaze / Skill Link (hidden))
+  a grub of black coal with big ruby eyes, little feelers and curved pincers, and a fat segmented
+  abdomen burning red-hot with a yellow-hot ring round each segment
+  Stats: HP 45  Atk 55  Def 50  SpA 49  SpD 50  Spe 60  (total 309)
+  Pokedex: "It lives in caves deep underground where coal seams run thick, and it eats nothing but
+  coal. A special organ in its abdomen turns the minerals it swallows into heat, which is why its
+  tail end always glows."
+  * The CobbleEffort starter: pick it at the starter screen (its own CobbleEffort page, after
+    Cobblemon's regions).
+  * Wild: very rare underground next to coal ore.
+  * Evolves into Cinderoon at level 16.
+
+#3005 CINDEROON  (Fire / Bug; Blaze / Skill Link (hidden))
+  a teardrop cocoon of see-through smouldering ash with glowing zigzag bands and embers, the
+  Coalarva inside curled up with its ruby eyes peering out and its abdomen glowing through
+  Stats: HP 60  Atk 45  Def 95  SpA 60  SpD 85  Spe 60  (total 405)
+  Pokedex: "Once it has eaten enough coal, it wraps its soft body in a cocoon of cinders. The ash is
+  thin enough to see the Coalarva curled up inside, and it can burn some of it away to hurl a blast
+  of fire at anything that disturbs it."
+  * Evolve Coalarva at level 16.
+
+#3006 GATTERFLY  (Fire / Bug; Blaze / Skill Link (hidden))
+  a huge butterfly of black coal with glowing cracks, ruby compound eyes, Gatling-gun arms whose
+  barrel drums glow white-hot at the muzzle, and four wings made of fire
+  Stats: HP 78  Atk 115  Def 80  SpA 104  SpD 75  Spe 82  (total 534)
+  Pokedex: "Its arms have become guns that spray stingers so fast and so hot they glow, and its
+  wings are made of fire. Besides fighting with them, it melts stone with its flames to build its
+  nest."
+  * Evolve Cinderoon at level 36. Learns its own move, Machine Gun Stinger, when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

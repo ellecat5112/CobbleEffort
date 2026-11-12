@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:cinderoon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cinderoon",
+   "model": "cobbleeffort:cinderoon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3005_cinderoon/cinderoon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}
