@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 12 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 23 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -848,6 +848,109 @@ cobbleeffort:cavitot.
   fast its foes never see it strike. Those who think they have defeated it soon learn about the
   pharaoh's curse."
   * Evolve Sarcoon at level 36. Learns Liquidation when it evolves.
+
+#3013 PIPIDER  (Bug / Grass; Shell Armor / Swarm / Seed Sower (hidden))
+  a super tiny spider wearing a big glossy seed on its back like a shell, with two big lime-ringed
+  orange eyes, curly sprout feelers and eight tiny lime legs
+  Stats: HP 40  Atk 40  Def 50  SpA 25  SpD 35  Spe 30  (total 220)
+  Pokedex: "One of the smallest Pokémon there is: it fits on a fingertip. It hides under a seed it
+  found and carries it everywhere like a shell, and when it is frightened it tucks its legs in and
+  pretends to be an ordinary seed."
+  * Wild: common in plains, grasslands and forests.
+  * Evolves into Blanketula at level 14.
+
+#3014 BLANKETULA  (Bug / Grass; Shell Armor / Swarm / Seed Sower (hidden))
+  a fuzzy little spider with big orange eyes that wears a big green leaf over its back and head like
+  a safety blanket, clutching its edge with its front legs
+  Stats: HP 65  Atk 80  Def 75  SpA 45  SpD 70  Spe 55  (total 390)
+  Pokedex: "When it outgrows its seed it picks out a big leaf and never lets go of it again. It
+  sleeps wrapped up in it, hides under it when anything startles it, and grows very upset if the
+  leaf is taken away."
+  * Evolve Pipider at level 14.
+  * Wild: uncommon in forests.
+
+#3015 SHIVNYMPH  (Bug / Steel; Sharpness / Swarm / Speed Boost (hidden))
+  a baby teal-and-brown dragonfly nymph with big orange eyes, stubby wing buds, six spindly legs and
+  a little kitchen knife for a tail
+  Stats: HP 40  Atk 50  Def 40  SpA 20  SpD 30  Spe 45  (total 225)
+  Pokedex: "It hatches near water with a tiny blade already at the end of its tail. It keeps the
+  edge sharp by scraping it on river stones, and flicks it at anything that comes too close."
+  * Wild: common by rivers and in plains.
+  * Evolves into Sheathalis at level 7.
+
+#3016 SHEATHALIS  (Bug / Steel; Sharpness / Swarm / Speed Boost (hidden))
+  a wooden knife block with four black riveted handles sticking out of its slanted top and a teal
+  pupa face with big orange eyes peeking out of the front
+  Stats: HP 45  Atk 35  Def 85  SpA 25  SpD 50  Spe 25  (total 265)
+  Pokedex: "Its cocoon hardens into something like a block of wood with knife handles sticking out
+  of it. The blades inside are its new wings growing, and it peeks out of the front to keep watch."
+  * Evolve Shivnymph at level 7.
+  * Wild: uncommon by rivers and in plains.
+
+#3017 CUTLASSFLY  (Bug / Steel; Sharpness / Swarm / Speed Boost (hidden))
+  a huge teal-and-brown dragonfly with huge orange eyes and four long steel knife blades for wings,
+  hovering with six legs dangling and a blade at the tip of its long tail
+  Stats: HP 70  Atk 110  Def 80  SpA 40  SpD 60  Spe 115  (total 475)
+  Pokedex: "Its wings are blades sharp enough to slice falling leaves in two. It hovers perfectly
+  still over rivers, then darts away faster than the eye can follow, leaving cut reeds behind it."
+  * Evolve Sheathalis at level 10.
+  * Wild: rare by rivers and in swamps.
+
+#3018 CARDLING  (Fairy / Flying; Keen Eye / Cute Charm / Pixilate (hidden))
+  a cute round red cardinal with a pointed crest, a stubby grey beak in a little black mask, big
+  shiny eyes, pink blush, a white belly and white spots on its wings
+  Stats: HP 40  Atk 40  Def 40  SpA 45  SpD 50  Spe 60  (total 275)
+  Pokedex: "It sings sweetly from the branches at dawn, and its song is said to bring good luck to
+  anyone who hears it first thing in the morning. It is tiny, round and fearless."
+  * Wild: common in forests, plains and grasslands.
+  * Evolves into Rubraptor at level 22.
+
+#3019 RUBRAPTOR  (Fairy / Flying; Keen Eye / Cute Charm / Pixilate (hidden))
+  a proud red-winged hawk with a crest, a black mask, a hooked grey beak, a fierce glare, a white
+  breast, white-spotted wings and two long forked tail streamers banded with gold
+  Stats: HP 70  Atk 80  Def 65  SpA 85  SpD 70  Spe 95  (total 465)
+  Pokedex: "A proud hawk that guards its territory from the treetops. Its red wings flash like a
+  warning as it dives, yet it is gentle with Pokémon smaller than itself and shares its catch with
+  them."
+  * Evolve Cardling at level 22.
+  * Wild: rare in forests and hills.
+
+#3020 SQUEAKLING  (Water / Flying; Water Veil / Own Tempo / Unaware (hidden))
+  a short, stout glossy yellow rubber ducky with a flat orange bill, little black eyes, a black
+  tuft, stubby wings and orange feet
+  Stats: HP 45  Atk 35  Def 45  SpA 40  SpD 45  Spe 45  (total 255)
+  Pokedex: "It bobs along on rivers and ponds without a care, and squeaks whenever it is squeezed.
+  Its body is light and springy, so it never sinks, however rough the water."
+  * Wild: common floating on rivers, ponds and swamps.
+  * Evolves into Elastigoose at level 25.
+
+#3021 ELASTIGOOSE  (Water / Flying; Water Veil / Own Tempo / Unaware (hidden))
+  a goose of glossy yellow rubber with a long, long neck, a huge orange bill honking wide open over
+  a purple tongue, broad white wings and long orange legs with webbed feet
+  Stats: HP 80  Atk 70  Def 70  SpA 80  SpD 70  Spe 75  (total 445)
+  Pokedex: "Its neck stretches like rubber, letting it snatch food from the riverbed or honk right
+  in a foe's face from far away. Its honk is so loud it can be heard three valleys over."
+  * Evolve Squeakling at level 25.
+  * Wild: uncommon on rivers, ponds and swamps.
+
+#3022 RADDENT  (Grass / Normal; Run Away / Harvest / Guts (hidden))
+  a rat whose body is a round magenta radish with green veins, a tan face, a pointed snout, a buck
+  tooth and whiskers, scurrying on four stubby feet with its leafy top sprouting out behind
+  Stats: HP 35  Atk 56  Def 35  SpA 25  SpD 35  Spe 72  (total 258)
+  Pokedex: "It plants itself in a vegetable patch and pretends to be a radish until the farmer goes
+  home, then nibbles everything in sight. Pull on its leaves and it squeaks and bolts."
+  * Wild: common in plains, grasslands, forests and villages.
+  * Evolves into Rattlebunch at level 20.
+
+#3023 RATTLEBUNCH  (Grass / Normal; Run Away / Harvest / Guts (hidden))
+  four radish rats bundled together like a bunch of radishes, their leafy tops knotted in twine into
+  a leafy crown, a face looking each way
+  Stats: HP 75  Atk 88  Def 70  SpA 50  SpD 70  Spe 97  (total 450)
+  Pokedex: "Several Raddent whose leaves grew tangled together in the same patch, tied fast with a
+  farmer's twine. They argue constantly about which way to run, but when they agree, nothing can
+  catch them."
+  * Evolve Raddent at level 20.
+  * Wild: rare in plains and grasslands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

@@ -1,0 +1,71 @@
+{
+ "portraitScale": 1.6,
+ "portraitTranslation": [
+  0,
+  0.43,
+  0
+ ],
+ "profileScale": 0.95,
+ "profileTranslation": [
+  0,
+  0.2,
+  0
+ ],
+ "rootBone": "rattlebunch",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_rattlebunch', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_rattlebunch', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_rattlebunch', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_rattlebunch', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_rattlebunch', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_rattlebunch', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_rattlebunch', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_rattlebunch', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_rattlebunch', 'sleep')"
+   ]
+  }
+ }
+}

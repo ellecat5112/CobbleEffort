@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:cardling",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cardling",
+   "model": "cobbleeffort:cardling.geo",
+   "texture": "cobbleeffort:textures/pokemon/3018_cardling/cardling.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3018_cardling/cardling_shiny.png"
+  }
+ ]
+}

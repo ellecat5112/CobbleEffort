@@ -654,6 +654,19 @@ sarcophagus, and a nimble mantis pharaoh. Their own ability, **Pharaoh's Curse**
 knock the Pokémon out doesn't. It rises again at half its HP (healed up to half if it was lower) and its Attack and Sp.
 Atk rise by two stages. Their eyes glow. Shinies are turquoise and rose gold.
 
+**Route one**: the everyday Pokémon you meet first, all common in plains, grasslands, forests and by rivers, with low
+levels and early evolutions:
+- **Pipider → Blanketula** (Bug/Grass, level 14): a super tiny spider wearing a seed as a shell, then a fuzzy spider
+  clutching a big leaf like a safety blanket.
+- **Shivnymph → Sheathalis → Cutlassfly** (Bug/Steel, levels 7 and 10): a baby dragonfly with a kitchen knife for a
+  tail, a knife-block cocoon, and a huge dragonfly with knife-blade wings (Sharpness boosts its slicing moves).
+- **Cardling → Rubraptor** (Fairy/Flying, level 22): a cute round cardinal, then a red-winged hawk (hidden ability
+  Pixilate).
+- **Squeakling → Elastigoose** (Water/Flying, level 25): a stout rubber ducky floating on rivers and ponds, then a
+  long-necked rubber goose honking with its bill wide open.
+- **Raddent → Rattlebunch** (Grass/Normal, level 20): a rat whose body is a radish, then a rat king of four radish rats
+  with their leafy tops knotted together in twine.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -669,9 +682,22 @@ Atk rise by two stages. Their eyes glow. Shinies are turquoise and rose gold.
 | 3010 | **Mumpillar** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 50 / 52 / 48 / 52 / 57 / 50 | 1'4" (0.4 m) / 9.5 kg | A CobbleEffort starter: pick it at the starter screen (the CobbleEffort page, with Coalarva). Wild: very rare in deserts next to water (an oasis). Evolves into Sarcoon at level 16. | It wraps itself in strips of silk soaked in river water and never takes them off. Old tales say anyone who unwraps one is cursed, and that it cannot be finished off: struck down, it rises again angrier than before. |
 | 3011 | **Sarcoon** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 65 / 55 / 100 / 55 / 90 / 40 | 3'3" (1 m) / 41 kg | Evolve Mumpillar at level 16. | Its silk hardens into a coffin painted like a pharaoh's. It lies still for weeks, but anything foolish enough to pry at the lid wakes the curse, and the case's eyes light up. |
 | 3012 | **Pharantis** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 75 / 110 / 70 / 100 / 74 / 105 | 5'3" (1.6 m) / 62 kg | Evolve Sarcoon at level 36. Learns Liquidation when it evolves. | It rules the river valleys with a crook of gold at the end of each scythe, and moves so fast its foes never see it strike. Those who think they have defeated it soon learn about the pharaoh's curse. |
+| 3013 | **Pipider** | Bug / Grass | Shell Armor / Swarm / Seed Sower (hidden) | 40 / 40 / 50 / 25 / 35 / 30 | 0'4" (0.1 m) / 0.2 kg | Wild: common in plains, grasslands and forests. Evolves into Blanketula at level 14. | One of the smallest Pokémon there is: it fits on a fingertip. It hides under a seed it found and carries it everywhere like a shell, and when it is frightened it tucks its legs in and pretends to be an ordinary seed. |
+| 3014 | **Blanketula** | Bug / Grass | Shell Armor / Swarm / Seed Sower (hidden) | 65 / 80 / 75 / 45 / 70 / 55 | 1'8" (0.5 m) / 8.5 kg | Evolve Pipider at level 14. Wild: uncommon in forests. | When it outgrows its seed it picks out a big leaf and never lets go of it again. It sleeps wrapped up in it, hides under it when anything startles it, and grows very upset if the leaf is taken away. |
+| 3015 | **Shivnymph** | Bug / Steel | Sharpness / Swarm / Speed Boost (hidden) | 40 / 50 / 40 / 20 / 30 / 45 | 0'12" (0.3 m) / 3 kg | Wild: common by rivers and in plains. Evolves into Sheathalis at level 7. | It hatches near water with a tiny blade already at the end of its tail. It keeps the edge sharp by scraping it on river stones, and flicks it at anything that comes too close. |
+| 3016 | **Sheathalis** | Bug / Steel | Sharpness / Swarm / Speed Boost (hidden) | 45 / 35 / 85 / 25 / 50 / 25 | 1'12" (0.6 m) / 20 kg | Evolve Shivnymph at level 7. Wild: uncommon by rivers and in plains. | Its cocoon hardens into something like a block of wood with knife handles sticking out of it. The blades inside are its new wings growing, and it peeks out of the front to keep watch. |
+| 3017 | **Cutlassfly** | Bug / Steel | Sharpness / Swarm / Speed Boost (hidden) | 70 / 110 / 80 / 40 / 60 / 115 | 5'3" (1.6 m) / 48 kg | Evolve Sheathalis at level 10. Wild: rare by rivers and in swamps. | Its wings are blades sharp enough to slice falling leaves in two. It hovers perfectly still over rivers, then darts away faster than the eye can follow, leaving cut reeds behind it. |
+| 3018 | **Cardling** | Fairy / Flying | Keen Eye / Cute Charm / Pixilate (hidden) | 40 / 40 / 40 / 45 / 50 / 60 | 0'12" (0.3 m) / 1.8 kg | Wild: common in forests, plains and grasslands. Evolves into Rubraptor at level 22. | It sings sweetly from the branches at dawn, and its song is said to bring good luck to anyone who hears it first thing in the morning. It is tiny, round and fearless. |
+| 3019 | **Rubraptor** | Fairy / Flying | Keen Eye / Cute Charm / Pixilate (hidden) | 70 / 80 / 65 / 85 / 70 / 95 | 3'7" (1.1 m) / 26 kg | Evolve Cardling at level 22. Wild: rare in forests and hills. | A proud hawk that guards its territory from the treetops. Its red wings flash like a warning as it dives, yet it is gentle with Pokémon smaller than itself and shares its catch with them. |
+| 3020 | **Squeakling** | Water / Flying | Water Veil / Own Tempo / Unaware (hidden) | 45 / 35 / 45 / 40 / 45 / 45 | 0'8" (0.2 m) / 1.5 kg | Wild: common floating on rivers, ponds and swamps. Evolves into Elastigoose at level 25. | It bobs along on rivers and ponds without a care, and squeaks whenever it is squeezed. Its body is light and springy, so it never sinks, however rough the water. |
+| 3021 | **Elastigoose** | Water / Flying | Water Veil / Own Tempo / Unaware (hidden) | 80 / 70 / 70 / 80 / 70 / 75 | 4'11" (1.5 m) / 22 kg | Evolve Squeakling at level 25. Wild: uncommon on rivers, ponds and swamps. | Its neck stretches like rubber, letting it snatch food from the riverbed or honk right in a foe's face from far away. Its honk is so loud it can be heard three valleys over. |
+| 3022 | **Raddent** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 35 / 56 / 35 / 25 / 35 / 72 | 0'12" (0.3 m) / 4 kg | Wild: common in plains, grasslands, forests and villages. Evolves into Rattlebunch at level 20. | It plants itself in a vegetable patch and pretends to be a radish until the farmer goes home, then nibbles everything in sight. Pull on its leaves and it squeaks and bolts. |
+| 3023 | **Rattlebunch** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 75 / 88 / 70 / 50 / 70 / 97 | 2'7" (0.8 m) / 18 kg | Evolve Raddent at level 20. Wild: rare in plains and grasslands. | Several Raddent whose leaves grew tangled together in the same patch, tied fast with a farmer's twine. They argue constantly about which way to run, but when they agree, nothing can catch them. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
+
+![The route-one Pokémon, regular and shiny](docs/newmons_route_one.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

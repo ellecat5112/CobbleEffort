@@ -116,6 +116,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Mummy line, the water starter (Mumpillar -> Sarcoon lv 16 -> Pharantis lv 36; Water/Bug; ability Pharaoh's Curse:
   once per battle (`target.m.pharaohsCurse`) a KO hit leaves it at half HP, healing up to half if lower, +2 Atk/SpA;
   hidden Torrent; shiny = turquoise + rose gold; `models/_pharaoh.py`); OUR_STARTERS holds Coalarva and Mumpillar.
+  Route one (#3013-3023, line "route_one", `models/_route.py` helpers + `_knife.py`, `_cardinal.py`, `_radish.py`):
+  Pipider -> Blanketula (Bug/Grass, 14), Shivnymph -> Sheathalis -> Cutlassfly (Bug/Steel, 7/10, floater with blade
+  wings), Cardling -> Rubraptor (Fairy/Flying, 22), Squeakling -> Elastigoose (Water/Flying, 25, "swims": surface
+  spawns), Raddent -> Rattlebunch (Grass/Normal, 20). Plane parts (leaves, blades, feathers) are edge-on from the
+  side: tilt them (rotation) so their faces show. Rod boxes run along -z before rotating (`along()`).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

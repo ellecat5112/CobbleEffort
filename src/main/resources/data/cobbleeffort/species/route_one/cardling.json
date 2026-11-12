@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3018,
+ "name": "Cardling",
+ "primaryType": "fairy",
+ "secondaryType": "flying",
+ "maleRatio": 0.5,
+ "height": 3,
+ "weight": 18,
+ "pokedex": [
+  "cobbleeffort.species.cardling.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "keeneye",
+  "cutecharm",
+  "h:pixilate"
+ ],
+ "eggGroups": [
+  "flying",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 40,
+  "defence": 40,
+  "special_attack": 45,
+  "special_defence": 50,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 50,
+ "experienceGroup": "medium_slow",
+ "catchRate": 255,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.4,
+  "height": 0.35,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:red_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:peck",
+  "1:growl",
+  "4:disarmingvoice",
+  "7:quickattack",
+  "10:fairywind",
+  "13:gust",
+  "16:sweetkiss",
+  "19:wingattack",
+  "24:drainingkiss",
+  "28:featherdance",
+  "egg:mirrormove",
+  "egg:featherdance",
+  "egg:babydolleyes",
+  "egg:wish",
+  "egg:pursuit",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:dualwingbeat",
+  "tm:bravebird",
+  "tm:tailwind",
+  "tm:roost",
+  "tm:defog",
+  "tm:fly",
+  "tm:steelwing",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:playrough",
+  "tm:moonblast",
+  "tm:charm",
+  "tm:mistyterrain",
+  "tm:swift"
+ ],
+ "evolutions": [
+  {
+   "id": "cardling_rubraptor",
+   "variant": "level_up",
+   "result": "cobbleeffort:rubraptor",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "airslash"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 22
+    }
+   ]
+  }
+ ]
+}

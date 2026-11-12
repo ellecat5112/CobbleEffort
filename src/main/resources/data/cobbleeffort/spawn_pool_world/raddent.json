@@ -1,0 +1,48 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "raddent-plains",
+   "pokemon": "cobbleeffort:raddent",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "2-12",
+   "weight": 10.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_grassland",
+     "#cobblemon:is_forest"
+    ]
+   }
+  },
+  {
+   "id": "raddent-farms",
+   "pokemon": "cobbleeffort:raddent",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "2-12",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "structures": [
+     "#minecraft:village"
+    ]
+   }
+  }
+ ]
+}

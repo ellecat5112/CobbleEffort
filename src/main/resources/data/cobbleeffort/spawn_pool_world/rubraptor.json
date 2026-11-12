@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "rubraptor-forest",
+   "pokemon": "cobbleeffort:rubraptor",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "22-35",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_forest",
+     "#cobblemon:is_hills"
+    ]
+   }
+  }
+ ]
+}

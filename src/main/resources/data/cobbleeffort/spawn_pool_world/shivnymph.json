@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "shivnymph-river",
+   "pokemon": "cobbleeffort:shivnymph",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "2-8",
+   "weight": 8.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_river",
+     "#cobblemon:is_freshwater",
+     "#cobblemon:is_plains",
+     "#cobblemon:is_grassland"
+    ]
+   }
+  }
+ ]
+}

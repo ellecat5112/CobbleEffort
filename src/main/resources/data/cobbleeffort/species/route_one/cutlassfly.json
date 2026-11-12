@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3017,
+ "name": "Cutlassfly",
+ "primaryType": "bug",
+ "secondaryType": "steel",
+ "maleRatio": 0.5,
+ "height": 16,
+ "weight": 480,
+ "pokedex": [
+  "cobbleeffort.species.cutlassfly.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sharpness",
+  "swarm",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 110,
+  "defence": 80,
+  "special_attack": 40,
+  "special_defence": 60,
+  "speed": 115
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 178,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 1.0,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.35
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "2-4"
+   }
+  ]
+ },
+ "moves": [
+  "1:xscissor",
+  "1:furycutter",
+  "1:leer",
+  "1:bugbite",
+  "1:harden",
+  "10:xscissor",
+  "12:metalclaw",
+  "15:aerialace",
+  "18:slash",
+  "22:aircutter",
+  "26:nightslash",
+  "30:swordsdance",
+  "34:airslash",
+  "38:agility",
+  "42:smartstrike",
+  "46:uturn",
+  "52:bugbuzz",
+  "egg:quickguard",
+  "egg:feint",
+  "egg:defog",
+  "egg:pursuit",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:bugbuzz",
+  "tm:aerialace",
+  "tm:steelwing",
+  "tm:ironhead",
+  "tm:flashcannon",
+  "tm:swordsdance",
+  "tm:agility",
+  "tm:falseswipe",
+  "tm:knockoff",
+  "tm:nightslash",
+  "tm:psychocut",
+  "tm:smartstrike",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:bugbite",
+  "tm:strugglebug",
+  "tm:irondefense",
+  "tm:airslash",
+  "tm:aircutter",
+  "tm:tailwind",
+  "tm:acrobatics",
+  "tm:dualwingbeat",
+  "tm:steelbeam",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ],
+ "preEvolution": "cobbleeffort:sheathalis"
+}

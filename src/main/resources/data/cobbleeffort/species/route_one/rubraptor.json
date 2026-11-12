@@ -1,0 +1,154 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3019,
+ "name": "Rubraptor",
+ "primaryType": "fairy",
+ "secondaryType": "flying",
+ "maleRatio": 0.5,
+ "height": 11,
+ "weight": 260,
+ "pokedex": [
+  "cobbleeffort.species.rubraptor.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "keeneye",
+  "cutecharm",
+  "h:pixilate"
+ ],
+ "eggGroups": [
+  "flying",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 80,
+  "defence": 65,
+  "special_attack": 85,
+  "special_defence": 70,
+  "speed": 95
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 170,
+ "experienceGroup": "medium_slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.62,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.1,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "2-3"
+   },
+   {
+    "item": "minecraft:red_dye",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:airslash",
+  "1:peck",
+  "1:growl",
+  "4:disarmingvoice",
+  "7:quickattack",
+  "10:fairywind",
+  "13:gust",
+  "16:sweetkiss",
+  "19:wingattack",
+  "22:airslash",
+  "25:dazzlinggleam",
+  "29:agility",
+  "33:roost",
+  "37:playrough",
+  "42:bravebird",
+  "47:moonblast",
+  "52:hurricane",
+  "egg:mirrormove",
+  "egg:featherdance",
+  "egg:babydolleyes",
+  "egg:wish",
+  "egg:pursuit",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:dualwingbeat",
+  "tm:bravebird",
+  "tm:tailwind",
+  "tm:roost",
+  "tm:defog",
+  "tm:fly",
+  "tm:steelwing",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:playrough",
+  "tm:moonblast",
+  "tm:charm",
+  "tm:mistyterrain",
+  "tm:swift",
+  "tm:heatwave",
+  "tm:hurricane",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:skyattack"
+ ],
+ "preEvolution": "cobbleeffort:cardling"
+}

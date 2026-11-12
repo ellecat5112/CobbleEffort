@@ -1,0 +1,150 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3014,
+ "name": "Blanketula",
+ "primaryType": "bug",
+ "secondaryType": "grass",
+ "maleRatio": 0.5,
+ "height": 5,
+ "weight": 85,
+ "pokedex": [
+  "cobbleeffort.species.blanketula.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "shellarmor",
+  "swarm",
+  "h:seedsower"
+ ],
+ "eggGroups": [
+  "bug",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 80,
+  "defence": 75,
+  "special_attack": 45,
+  "special_defence": 70,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 140,
+ "experienceGroup": "medium_slow",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:oak_leaves",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:miracle_seed",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:cottonguard",
+  "1:tackle",
+  "1:stringshot",
+  "5:absorb",
+  "9:bugbite",
+  "13:leechseed",
+  "17:bulletseed",
+  "14:cottonguard",
+  "20:stickyweb",
+  "24:megadrain",
+  "28:seedbomb",
+  "33:lunge",
+  "38:gigadrain",
+  "44:leafblade",
+  "egg:ragepowder",
+  "egg:worryseed",
+  "egg:synthesis",
+  "egg:firstimpression",
+  "egg:spiderweb",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:strugglebug",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:sunnyday",
+  "tm:stickyweb",
+  "tm:leechlife",
+  "tm:skittersmack",
+  "tm:infestation",
+  "tm:xscissor",
+  "tm:solarbeam",
+  "tm:poisonjab",
+  "tm:leafblade"
+ ],
+ "preEvolution": "cobbleeffort:pipider"
+}

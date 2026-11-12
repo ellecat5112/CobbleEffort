@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "squeakling-water",
+   "pokemon": "cobbleeffort:squeakling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "surface",
+   "bucket": "common",
+   "level": "2-12",
+   "weight": 9.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_river",
+     "#cobblemon:is_freshwater",
+     "#cobblemon:is_swamp"
+    ]
+   }
+  }
+ ]
+}

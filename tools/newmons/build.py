@@ -351,6 +351,230 @@ SPECIES.update({
 })
 LINES["mummy"] = ["mumpillar", "sarcoon", "pharantis"]
 
+# --- route one: two bugs, two birds and a rodent ---------------------------------------------------------------------
+
+BASIC_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "snore", "endure", "terablast", "round", "toxic"]
+ROUTE = dict(friendship=70)
+PLAINS = ["#cobblemon:is_plains", "#cobblemon:is_grassland"]
+
+
+def route_spawn(sid, bucket, level, weight, biomes, **cond):
+    return spawn(sid, bucket, level, weight, dict({"canSeeSky": True, "biomes": biomes}, **cond))
+
+
+SPIDER_TM = BASIC_TM + ["bugbuzz", "uturn", "pounce", "lunge", "strugglebug", "stringshot", "bugbite", "energyball",
+                        "gigadrain", "bulletseed", "seedbomb", "grassknot", "trailblaze", "sunnyday", "stickyweb",
+                        "leechlife", "skittersmack", "infestation"]
+SPIDER_EARLY = [(1, "tackle"), (1, "stringshot"), (5, "absorb"), (9, "bugbite"), (13, "leechseed"), (17, "bulletseed")]
+KNIFE_TM = BASIC_TM + ["xscissor", "uturn", "bugbuzz", "aerialace", "steelwing", "ironhead", "flashcannon",
+                       "swordsdance", "agility", "falseswipe", "knockoff", "nightslash", "psychocut", "smartstrike",
+                       "pounce", "lunge", "bugbite", "strugglebug", "irondefense"]
+KNIFE_TM_FLY = ["airslash", "aircutter", "tailwind", "acrobatics", "dualwingbeat", "steelbeam", "gigaimpact", "hyperbeam"]
+CARD_TM = BASIC_TM + ["aerialace", "airslash", "acrobatics", "uturn", "dualwingbeat", "bravebird", "tailwind", "roost",
+                      "defog", "fly", "steelwing", "dazzlinggleam", "drainingkiss", "playrough", "moonblast", "charm",
+                      "mistyterrain", "swift"]
+CARD_TM_HAWK = ["heatwave", "hurricane", "gigaimpact", "hyperbeam", "skyattack"]
+DUCK_TM = BASIC_TM + ["surf", "waterpulse", "hydropump", "raindance", "scald", "chillingwater", "icebeam", "icywind",
+                      "aerialace", "airslash", "acrobatics", "uturn", "fly", "roost", "defog", "tailwind", "bravebird",
+                      "hypervoice", "bodyslam"]
+DUCK_TM_GOOSE = ["liquidation", "wavecrash", "gigaimpact", "hyperbeam", "hurricane"]
+RAT_TM = BASIC_TM + ["bulletseed", "seedbomb", "energyball", "gigadrain", "grassknot", "trailblaze", "solarbeam",
+                     "sunnyday", "bodyslam", "crunch", "superfang", "dig", "thief", "uturn", "swagger", "irontail"]
+RAT_TM_KING = ["gigaimpact", "hyperbeam", "leafstorm", "woodhammer"]
+
+SPECIES.update({
+    "pipider": {
+        "dex": 3013, "name": "Pipider", "line": "route_one", "types": ["bug", "grass"], **ROUTE, "male": 0.5,
+        "egg_groups": ["bug", "grass"], "abilities": ["shellarmor", "swarm", "h:seedsower"],
+        "ability_names": "Shell Armor / Swarm / Seed Sower (hidden)",
+        "stats": stats(40, 40, 50, 25, 35, 30), "ev": evs(defence=1), "catch": 255, "exp": 39,
+        "height": 1, "weight": 2, "shoulder": True, "walk": 0.18,
+        "moves": SPIDER_EARLY + [(21, "stickyweb"), (25, "megadrain")],
+        "tm": SPIDER_TM, "egg": ["ragepowder", "worryseed", "synthesis", "firstimpression", "spiderweb"],
+        "evolve": ("blanketula", 14, ["cottonguard"]),
+        "drops": [("minecraft:wheat_seeds", "1-2", None), ("minecraft:string", "0-1", None)],
+        "entry": ("One of the smallest Pokémon there is: it fits on a fingertip. It hides under a seed it found and "
+                  "carries it everywhere like a shell, and when it is frightened it tucks its legs in and pretends to "
+                  "be an ordinary seed."),
+        "spawns": [route_spawn("pipider-plains", "common", "2-10", 9.0, PLAINS + ["#cobblemon:is_forest"])],
+        "how": ["Wild: common in plains, grasslands and forests.", "Evolves into Blanketula at level 14."],
+    },
+    "blanketula": {
+        "dex": 3014, "name": "Blanketula", "line": "route_one", "types": ["bug", "grass"], **ROUTE, "male": 0.5,
+        "egg_groups": ["bug", "grass"], "abilities": ["shellarmor", "swarm", "h:seedsower"],
+        "ability_names": "Shell Armor / Swarm / Seed Sower (hidden)",
+        "stats": stats(65, 80, 75, 45, 70, 55), "ev": evs(defence=2), "catch": 120, "exp": 140,
+        "height": 5, "weight": 85, "shoulder": False, "walk": 0.25,
+        "moves": [(1, "cottonguard")] + SPIDER_EARLY + [(14, "cottonguard"), (20, "stickyweb"), (24, "megadrain"),
+                                                     (28, "seedbomb"), (33, "lunge"), (38, "gigadrain"), (44, "leafblade")],
+        "tm": SPIDER_TM + ["xscissor", "solarbeam", "poisonjab", "leafblade"],
+        "egg": ["ragepowder", "worryseed", "synthesis", "firstimpression", "spiderweb"],
+        "evolve": None,
+        "drops": [("minecraft:string", "1-2", None), ("minecraft:oak_leaves", "0-1", None), ("cobblemon:miracle_seed", None, 2.5)],
+        "entry": ("When it outgrows its seed it picks out a big leaf and never lets go of it again. It sleeps wrapped "
+                  "up in it, hides under it when anything startles it, and grows very upset if the leaf is taken away."),
+        "spawns": [route_spawn("blanketula-forest", "uncommon", "14-24", 3.0, ["#cobblemon:is_forest"])],
+        "how": ["Evolve Pipider at level 14.", "Wild: uncommon in forests."],
+    },
+    "shivnymph": {
+        "dex": 3015, "name": "Shivnymph", "line": "route_one", "types": ["bug", "steel"], **ROUTE, "male": 0.5,
+        "egg_groups": ["bug"], "abilities": ["sharpness", "swarm", "h:speedboost"],
+        "ability_names": "Sharpness / Swarm / Speed Boost (hidden)",
+        "stats": stats(40, 50, 40, 20, 30, 45), "ev": evs(attack=1), "catch": 255, "exp": 39,
+        "height": 3, "weight": 30, "shoulder": True, "walk": 0.22,
+        "moves": [(1, "furycutter"), (1, "leer"), (4, "bugbite")],
+        "tm": KNIFE_TM, "egg": ["quickguard", "feint", "defog", "pursuit"],
+        "evolve": ("sheathalis", 7, ["harden"]),
+        "drops": [("minecraft:iron_nugget", "1-2", None)],
+        "entry": ("It hatches near water with a tiny blade already at the end of its tail. It keeps the edge sharp by "
+                  "scraping it on river stones, and flicks it at anything that comes too close."),
+        "spawns": [route_spawn("shivnymph-river", "common", "2-8", 8.0, ["#cobblemon:is_river", "#cobblemon:is_freshwater"] + PLAINS)],
+        "how": ["Wild: common by rivers and in plains.", "Evolves into Sheathalis at level 7."],
+    },
+    "sheathalis": {
+        "dex": 3016, "name": "Sheathalis", "line": "route_one", "types": ["bug", "steel"], **ROUTE, "male": 0.5,
+        "egg_groups": ["bug"], "abilities": ["sharpness", "swarm", "h:speedboost"],
+        "ability_names": "Sharpness / Swarm / Speed Boost (hidden)",
+        "stats": stats(45, 35, 85, 25, 50, 25), "ev": evs(defence=2), "catch": 120, "exp": 72,
+        "height": 6, "weight": 200, "shoulder": False, "walk": 0.08,
+        "moves": [(1, "harden"), (1, "irondefense"), (1, "furycutter"), (1, "leer"), (4, "bugbite"), (7, "harden")],
+        "tm": KNIFE_TM, "egg": ["quickguard", "feint", "defog", "pursuit"],
+        "evolve": ("cutlassfly", 10, ["xscissor"]),
+        "drops": [("minecraft:iron_nugget", "1-3", None), ("minecraft:stick", "1-2", None)],
+        "entry": ("Its cocoon hardens into something like a block of wood with knife handles sticking out of it. The "
+                  "blades inside are its new wings growing, and it peeks out of the front to keep watch."),
+        "spawns": [route_spawn("sheathalis-river", "uncommon", "7-12", 3.0, ["#cobblemon:is_river"] + PLAINS)],
+        "how": ["Evolve Shivnymph at level 7.", "Wild: uncommon by rivers and in plains."],
+    },
+    "cutlassfly": {
+        "dex": 3017, "name": "Cutlassfly", "line": "route_one", "types": ["bug", "steel"], **ROUTE, "male": 0.5,
+        "egg_groups": ["bug"], "abilities": ["sharpness", "swarm", "h:speedboost"],
+        "ability_names": "Sharpness / Swarm / Speed Boost (hidden)",
+        "stats": stats(70, 110, 80, 40, 60, 115), "ev": evs(attack=2, speed=1), "catch": 45, "exp": 178,
+        "height": 16, "weight": 480, "shoulder": False, "walk": 0.35, "fly": True,
+        "moves": [(1, "xscissor"), (1, "furycutter"), (1, "leer"), (1, "bugbite"), (1, "harden"), (10, "xscissor"),
+                  (12, "metalclaw"), (15, "aerialace"), (18, "slash"), (22, "aircutter"), (26, "nightslash"),
+                  (30, "swordsdance"), (34, "airslash"), (38, "agility"), (42, "smartstrike"), (46, "uturn"),
+                  (52, "bugbuzz")],
+        "tm": KNIFE_TM + KNIFE_TM_FLY, "egg": ["quickguard", "feint", "defog", "pursuit"],
+        "evolve": None,
+        "drops": [("minecraft:iron_ingot", "0-1", None), ("minecraft:iron_nugget", "2-4", None)],
+        "entry": ("Its wings are blades sharp enough to slice falling leaves in two. It hovers perfectly still over "
+                  "rivers, then darts away faster than the eye can follow, leaving cut reeds behind it."),
+        "spawns": [route_spawn("cutlassfly-river", "rare", "15-30", 1.5, ["#cobblemon:is_river", "#cobblemon:is_swamp"])],
+        "how": ["Evolve Sheathalis at level 10.", "Wild: rare by rivers and in swamps."],
+    },
+    "cardling": {
+        "dex": 3018, "name": "Cardling", "line": "route_one", "types": ["fairy", "flying"], **ROUTE, "male": 0.5,
+        "egg_groups": ["flying", "fairy"], "abilities": ["keeneye", "cutecharm", "h:pixilate"],
+        "ability_names": "Keen Eye / Cute Charm / Pixilate (hidden)",
+        "stats": stats(40, 40, 40, 45, 50, 60), "ev": evs(speed=1), "catch": 255, "exp": 50,
+        "height": 3, "weight": 18, "shoulder": True, "walk": 0.25, "fly": True,
+        "moves": [(1, "peck"), (1, "growl"), (4, "disarmingvoice"), (7, "quickattack"), (10, "fairywind"),
+                  (13, "gust"), (16, "sweetkiss"), (19, "wingattack"), (24, "drainingkiss"), (28, "featherdance")],
+        "tm": CARD_TM, "egg": ["mirrormove", "featherdance", "babydolleyes", "wish", "pursuit"],
+        "evolve": ("rubraptor", 22, ["airslash"]),
+        "drops": [("minecraft:feather", "1-2", None), ("minecraft:red_dye", "0-1", None)],
+        "entry": ("It sings sweetly from the branches at dawn, and its song is said to bring good luck to anyone who "
+                  "hears it first thing in the morning. It is tiny, round and fearless."),
+        "spawns": [route_spawn("cardling-forest", "common", "2-12", 9.0, ["#cobblemon:is_forest"] + PLAINS)],
+        "how": ["Wild: common in forests, plains and grasslands.", "Evolves into Rubraptor at level 22."],
+    },
+    "rubraptor": {
+        "dex": 3019, "name": "Rubraptor", "line": "route_one", "types": ["fairy", "flying"], **ROUTE, "male": 0.5,
+        "egg_groups": ["flying", "fairy"], "abilities": ["keeneye", "cutecharm", "h:pixilate"],
+        "ability_names": "Keen Eye / Cute Charm / Pixilate (hidden)",
+        "stats": stats(70, 80, 65, 85, 70, 95), "ev": evs(speed=2), "catch": 90, "exp": 170,
+        "height": 11, "weight": 260, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "airslash"), (1, "peck"), (1, "growl"), (4, "disarmingvoice"), (7, "quickattack"),
+                  (10, "fairywind"), (13, "gust"), (16, "sweetkiss"), (19, "wingattack"), (22, "airslash"),
+                  (25, "dazzlinggleam"), (29, "agility"), (33, "roost"), (37, "playrough"), (42, "bravebird"),
+                  (47, "moonblast"), (52, "hurricane")],
+        "tm": CARD_TM + CARD_TM_HAWK, "egg": ["mirrormove", "featherdance", "babydolleyes", "wish", "pursuit"],
+        "evolve": None,
+        "drops": [("minecraft:feather", "2-3", None), ("minecraft:red_dye", "1-2", None)],
+        "entry": ("A proud hawk that guards its territory from the treetops. Its red wings flash like a warning as it "
+                  "dives, yet it is gentle with Pokémon smaller than itself and shares its catch with them."),
+        "spawns": [route_spawn("rubraptor-forest", "rare", "22-35", 1.5, ["#cobblemon:is_forest", "#cobblemon:is_hills"])],
+        "how": ["Evolve Cardling at level 22.", "Wild: rare in forests and hills."],
+    },
+    "squeakling": {
+        "dex": 3020, "name": "Squeakling", "line": "route_one", "types": ["water", "flying"], **ROUTE, "male": 0.5,
+        "egg_groups": ["water_1", "flying"], "abilities": ["waterveil", "owntempo", "h:unaware"],
+        "ability_names": "Water Veil / Own Tempo / Unaware (hidden)",
+        "stats": stats(45, 35, 45, 40, 45, 45), "ev": evs(hp=1), "catch": 255, "exp": 52,
+        "height": 2, "weight": 15, "shoulder": True, "walk": 0.2, "swims": True,
+        "moves": [(1, "tackle"), (1, "watergun"), (4, "growl"), (7, "wingattack"), (10, "aquajet"), (14, "featherdance"),
+                  (18, "bubblebeam"), (22, "airslash"), (26, "aquaring")],
+        "tm": DUCK_TM, "egg": ["bellydrum", "soak", "aquaring", "mirrorcoat", "brine"],
+        "evolve": ("elastigoose", 25, ["uproar"]),
+        "drops": [("minecraft:feather", "0-1", None), ("minecraft:slime_ball", "0-1", None)],
+        "entry": ("It bobs along on rivers and ponds without a care, and squeaks whenever it is squeezed. Its body is "
+                  "light and springy, so it never sinks, however rough the water."),
+        "spawns": [spawn("squeakling-water", "common", "2-12", 9.0,
+                         {"canSeeSky": True, "biomes": ["#cobblemon:is_river", "#cobblemon:is_freshwater", "#cobblemon:is_swamp"]},
+                         position="surface")],
+        "how": ["Wild: common floating on rivers, ponds and swamps.", "Evolves into Elastigoose at level 25."],
+    },
+    "elastigoose": {
+        "dex": 3021, "name": "Elastigoose", "line": "route_one", "types": ["water", "flying"], **ROUTE, "male": 0.5,
+        "egg_groups": ["water_1", "flying"], "abilities": ["waterveil", "owntempo", "h:unaware"],
+        "ability_names": "Water Veil / Own Tempo / Unaware (hidden)",
+        "stats": stats(80, 70, 70, 80, 70, 75), "ev": evs(hp=1, special_attack=1), "catch": 90, "exp": 165,
+        "height": 15, "weight": 220, "shoulder": False, "walk": 0.3, "fly": True, "swims": True,
+        "moves": [(1, "uproar"), (1, "tackle"), (1, "watergun"), (4, "growl"), (7, "wingattack"), (10, "aquajet"),
+                  (14, "featherdance"), (18, "bubblebeam"), (22, "airslash"), (25, "uproar"), (29, "aquaring"),
+                  (33, "hypervoice"), (38, "bravebird"), (44, "hydropump"), (50, "boomburst")],
+        "tm": DUCK_TM + DUCK_TM_GOOSE, "egg": ["bellydrum", "soak", "aquaring", "mirrorcoat", "brine"],
+        "evolve": None,
+        "drops": [("minecraft:feather", "1-2", None), ("minecraft:slime_ball", "1-2", None)],
+        "entry": ("Its neck stretches like rubber, letting it snatch food from the riverbed or honk right in a foe's "
+                  "face from far away. Its honk is so loud it can be heard three valleys over."),
+        "spawns": [spawn("elastigoose-water", "uncommon", "25-38", 3.0,
+                         {"canSeeSky": True, "biomes": ["#cobblemon:is_river", "#cobblemon:is_freshwater", "#cobblemon:is_swamp"]},
+                         position="surface")],
+        "how": ["Evolve Squeakling at level 25.", "Wild: uncommon on rivers, ponds and swamps."],
+    },
+    "raddent": {
+        "dex": 3022, "name": "Raddent", "line": "route_one", "types": ["grass", "normal"], **ROUTE, "male": 0.5,
+        "egg_groups": ["field", "grass"], "abilities": ["runaway", "harvest", "h:guts"],
+        "ability_names": "Run Away / Harvest / Guts (hidden)",
+        "stats": stats(35, 56, 35, 25, 35, 72), "ev": evs(speed=1), "catch": 255, "exp": 51,
+        "height": 3, "weight": 40, "shoulder": True, "walk": 0.32,
+        "moves": [(1, "tackle"), (1, "tailwhip"), (4, "quickattack"), (7, "absorb"), (10, "bite"), (13, "bulletseed"),
+                  (16, "hyperfang"), (19, "megadrain"), (23, "crunch"), (27, "seedbomb"), (31, "suckerpunch"),
+                  (35, "superfang"), (40, "endeavor")],
+        "tm": RAT_TM, "egg": ["finalgambit", "revenge", "switcheroo", "uproar", "leechseed"],
+        "evolve": ("rattlebunch", 20, ["hornleech"]),
+        "drops": [("minecraft:beetroot", "0-1", None), ("minecraft:beetroot_seeds", "1-2", None)],
+        "entry": ("It plants itself in a vegetable patch and pretends to be a radish until the farmer goes home, then "
+                  "nibbles everything in sight. Pull on its leaves and it squeaks and bolts."),
+        "spawns": [route_spawn("raddent-plains", "common", "2-12", 10.0, PLAINS + ["#cobblemon:is_forest"]),
+                   route_spawn("raddent-farms", "common", "2-12", 6.0, ["#cobblemon:is_overworld"],
+                               structures=["#minecraft:village"])],
+        "how": ["Wild: common in plains, grasslands, forests and villages.", "Evolves into Rattlebunch at level 20."],
+    },
+    "rattlebunch": {
+        "dex": 3023, "name": "Rattlebunch", "line": "route_one", "types": ["grass", "normal"], **ROUTE, "male": 0.5,
+        "egg_groups": ["field", "grass"], "abilities": ["runaway", "harvest", "h:guts"],
+        "ability_names": "Run Away / Harvest / Guts (hidden)",
+        "stats": stats(75, 88, 70, 50, 70, 97), "ev": evs(speed=2), "catch": 127, "exp": 145,
+        "height": 8, "weight": 180, "shoulder": False, "walk": 0.35,
+        "moves": [(1, "hornleech"), (1, "tackle"), (1, "tailwhip"), (4, "quickattack"), (7, "absorb"), (10, "bite"),
+                  (13, "bulletseed"), (16, "hyperfang"), (19, "megadrain"), (20, "hornleech"), (24, "crunch"),
+                  (28, "seedbomb"), (32, "suckerpunch"), (36, "superfang"), (41, "woodhammer"), (46, "endeavor")],
+        "tm": RAT_TM + RAT_TM_KING, "egg": ["finalgambit", "revenge", "switcheroo", "uproar", "leechseed"],
+        "evolve": None,
+        "drops": [("minecraft:beetroot", "1-3", None), ("minecraft:string", "0-1", None)],
+        "entry": ("Several Raddent whose leaves grew tangled together in the same patch, tied fast with a farmer's "
+                  "twine. They argue constantly about which way to run, but when they agree, nothing can catch them."),
+        "spawns": [route_spawn("rattlebunch-plains", "rare", "20-32", 1.5, PLAINS)],
+        "how": ["Evolve Raddent at level 20.", "Wild: rare in plains and grasslands."],
+    },
+})
+LINES["route_one"] = ["pipider", "blanketula", "shivnymph", "sheathalis", "cutlassfly", "cardling", "rubraptor",
+                      "squeakling", "elastigoose", "raddent", "rattlebunch"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -514,7 +738,9 @@ def species_json(sp):
         "behaviour": {
             "resting": {"canSleep": True, "willSleepOnBed": True, "times": ["day"], "drowsyChance": 0.0014,
                         "rouseChance": 0.0042},
-            "moving": {"walk": {"walkSpeed": c["walk"]}, "swim": {"avoidsWater": True, "canSwimInWater": False},
+            "moving": {"walk": {"walkSpeed": c["walk"]},
+                       "swim": ({"avoidsWater": False, "canSwimInWater": True, "swimSpeed": 0.3} if c.get("swims")
+                                else {"avoidsWater": True, "canSwimInWater": False}),
                        **({"fly": {"canFly": True, "flySpeedHorizontal": "0.4"}} if c.get("fly") else {})},
             "combat": {"willDefendOwner": True, "willDefendSelf": sp != "cavitot"},
         },

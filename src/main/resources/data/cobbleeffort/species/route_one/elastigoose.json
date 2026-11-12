@@ -1,0 +1,154 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3021,
+ "name": "Elastigoose",
+ "primaryType": "water",
+ "secondaryType": "flying",
+ "maleRatio": 0.5,
+ "height": 15,
+ "weight": 220,
+ "pokedex": [
+  "cobbleeffort.species.elastigoose.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "waterveil",
+  "owntempo",
+  "h:unaware"
+ ],
+ "eggGroups": [
+  "water_1",
+  "flying"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 70,
+  "defence": 70,
+  "special_attack": 80,
+  "special_defence": 70,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 165,
+ "experienceGroup": "medium_slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 0.9,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.3
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:uproar",
+  "1:tackle",
+  "1:watergun",
+  "4:growl",
+  "7:wingattack",
+  "10:aquajet",
+  "14:featherdance",
+  "18:bubblebeam",
+  "22:airslash",
+  "25:uproar",
+  "29:aquaring",
+  "33:hypervoice",
+  "38:bravebird",
+  "44:hydropump",
+  "50:boomburst",
+  "egg:bellydrum",
+  "egg:soak",
+  "egg:aquaring",
+  "egg:mirrorcoat",
+  "egg:brine",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterpulse",
+  "tm:hydropump",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:fly",
+  "tm:roost",
+  "tm:defog",
+  "tm:tailwind",
+  "tm:bravebird",
+  "tm:hypervoice",
+  "tm:bodyslam",
+  "tm:liquidation",
+  "tm:wavecrash",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hurricane"
+ ],
+ "preEvolution": "cobbleeffort:squeakling"
+}
