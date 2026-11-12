@@ -1,0 +1,61 @@
+{
+  "_comment": "Prismatic collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed prismatic-spectrum` (since #24 collections may share lines; picks take never-used lines first), then given a look each (three lines per look). Shared look in styles/_prism.py.",
+  "aspect": "prismatic",
+  "feature": "prismatic_style",
+  "style": "prism_holo",
+  "cosmetic_items": [
+    "minecraft:prismarine_crystals"
+  ],
+  "lines": [
+    "rattata",
+    "ekans",
+    "sandshrew",
+    "poliwag",
+    "sudowoodo",
+    "sableye",
+    "shuppet",
+    "bidoof",
+    "carnivine",
+    "lillipup",
+    "basculin",
+    "chespin",
+    "pikipek",
+    "crabrawler",
+    "mudbray",
+    "mimikyu",
+    "arctozolt",
+    "nymble"
+  ],
+  "line_styles": {
+    "rattata": "prism_holo",
+    "bidoof": "prism_holo",
+    "pikipek": "prism_holo",
+    "ekans": "prism_spectrum",
+    "poliwag": "prism_spectrum",
+    "basculin": "prism_spectrum",
+    "sableye": "prism_facets",
+    "sandshrew": "prism_facets",
+    "crabrawler": "prism_facets",
+    "shuppet": "prism_opal",
+    "mimikyu": "prism_opal",
+    "lillipup": "prism_opal",
+    "nymble": "prism_oil_slick",
+    "carnivine": "prism_oil_slick",
+    "arctozolt": "prism_oil_slick",
+    "sudowoodo": "prism_prism_light",
+    "chespin": "prism_prism_light",
+    "mudbray": "prism_prism_light"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 28,
+    "title": "Prismatic",
+    "example": "sableye",
+    "summary": "Pokemon that split light into every colour.",
+    "looks": [
+      "each line wears one look: holographic silver foil (Rattata, Bidoof, Pikipek); the full spectrum from feet to head (Ekans, Poliwag, Basculin); a cut crystal with rainbow facets (Sableye, Sandshrew, Crabrawler); milky opal with flashes of colour (Shuppet, Mimikyu, Lillipup); a dark oil-slick sheen (Nymble, Carnivine, Arctozolt); white glass crossed by beams of refracted light (Sudowoodo, Chespin, Mudbray)",
+      "the colours shift round the wheel and glow in the dark; rainbow eyes",
+      "shiny: black opal, a darker body that makes the colours blaze"
+    ]
+  }
+}

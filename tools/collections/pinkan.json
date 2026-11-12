@@ -1,0 +1,61 @@
+{
+  "_comment": "Pinkan Island collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed pinkan-island-berry` (since #24 collections may share lines; picks take never-used lines first), then given a look each (three lines per look). Shared look in styles/_pinkan.py.",
+  "aspect": "pinkan",
+  "feature": "pinkan_style",
+  "style": "pinkan_classic",
+  "cosmetic_items": [
+    "minecraft:pink_tulip"
+  ],
+  "lines": [
+    "growlithe",
+    "tentacool",
+    "doduo",
+    "gastly",
+    "zigzagoon",
+    "spheal",
+    "venipede",
+    "petilil",
+    "scraggy",
+    "alomomola",
+    "cryogonal",
+    "espurr",
+    "honedge",
+    "skrelp",
+    "carbink",
+    "drampa",
+    "tapukoko",
+    "skwovet"
+  ],
+  "line_styles": {
+    "growlithe": "pinkan_classic",
+    "doduo": "pinkan_classic",
+    "zigzagoon": "pinkan_classic",
+    "skwovet": "pinkan_berry",
+    "carbink": "pinkan_berry",
+    "cryogonal": "pinkan_berry",
+    "alomomola": "pinkan_bubblegum",
+    "espurr": "pinkan_bubblegum",
+    "spheal": "pinkan_bubblegum",
+    "scraggy": "pinkan_hotpink",
+    "honedge": "pinkan_hotpink",
+    "gastly": "pinkan_hotpink",
+    "skrelp": "pinkan_coral",
+    "tentacool": "pinkan_coral",
+    "drampa": "pinkan_coral",
+    "petilil": "pinkan_jungle",
+    "tapukoko": "pinkan_jungle",
+    "venipede": "pinkan_jungle"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 27,
+    "title": "Pinkan Island",
+    "example": "growlithe",
+    "summary": "Pokemon turned pink by Pinkan Berries, like the Pokemon of the anime's Pinkan Island.",
+    "looks": [
+      "each line wears one pink: classic Pinkan pink (Growlithe, Doduo, Zigzagoon); with Pinkan Berry clusters (Skwovet, Carbink, Cryogonal); pastel bubblegum (Alomomola, Espurr, Spheal); vivid hot pink (Scraggy, Honedge, Gastly); flamingo coral (Skrelp, Tentacool, Drampa); a Pinkan jungle-leaf print (Petilil, Tapu Koko, Venipede)",
+      "tiny pink sparkles twinkle; the eyes keep their own colours",
+      "shiny: lavender-pink instead of rose"
+    ]
+  }
+}

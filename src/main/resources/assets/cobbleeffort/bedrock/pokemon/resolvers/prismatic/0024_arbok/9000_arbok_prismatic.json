@@ -1,0 +1,644 @@
+{
+  "species": "cobblemon:arbok",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_classic_prismatic.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_shiny_prismatic.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_classic_shiny_prismatic.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_shiny_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_shiny_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_shiny_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_shiny_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-attack",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_attack_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-dark",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_dark_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-elusive",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_elusive_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-heart",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_heart_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-legacy",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_legacy_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-sound",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_sound_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-speed",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_speed_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-attack",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_attack_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-dark",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_dark_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-elusive",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_elusive_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-heart",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_heart_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-legacy",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_legacy_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-sound",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_sound_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-speed",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_speed_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-classic",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_classic_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-angry",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_angry_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-cartoon",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_cartoon_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-clown",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_clown_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-comedic",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_comedic_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-crow",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_crow_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-grin",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_grin_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-ink",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_ink_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-modern",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_modern_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-rain",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_rain_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-scribble",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_scribble_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-silence",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_silence_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-sloth",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_sloth_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-suspicious",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_suspicious_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snake-pattern-will",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_will_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-angry",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_angry_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-cartoon",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_cartoon_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-clown",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_clown_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-comedic",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_comedic_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-crow",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_crow_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-grin",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_grin_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-ink",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_ink_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-modern",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_modern_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-rain",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_rain_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-scribble",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_scribble_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-silence",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_silence_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-sloth",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_sloth_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-suspicious",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_suspicious_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snake-pattern-will",
+        "prismatic"
+      ],
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_will_shiny_prismatic.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

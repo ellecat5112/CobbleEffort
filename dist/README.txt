@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 23 collections of cosmetic forms (860 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 28 collections of cosmetic forms (1024 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -53,6 +53,11 @@ AT A GLANCE
   21  Gilded                              Gold Ingot                                      gilded
   22  Glacial                             Snow Block                                      glacial
   23  Kitsune                             Sweet Berries                                   kitsune
+  24  Super Mario                         Red Mushroom                                    super_mario
+  25  Nimbus                              White Wool                                      nimbus
+  26  Pajama                              White Bed                                       pajama
+  27  Pinkan Island                       Pink Tulip                                      pinkan
+  28  Prismatic                           Prismarine Crystals                             prismatic
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -961,6 +966,195 @@ Pokemon (each line is a whole evolutionary family):
   - Furfrou
   - Varoom > Revavroom
   - Okidogi
+
+====================================================================================================
+#24  SUPER MARIO  (33 Pokemon)
+====================================================================================================
+Pokemon dressed as power-ups and plumbing heroes (original patterns inspired by the Super Mario
+games).
+
+Cosmetic item: Red Mushroom
+Command:       /pokegive pachirisu super_mario   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: a red mushroom cap with white spots (Morelull, Chansey, Spinda); fire
+    flower, white over red with a flower emblem and glowing fireballs (Heatmor, Oricorio,
+    Bellsprout); super star, star gold flashing every colour when invincible (Pachirisu, Ralts,
+    Psyduck); golden ? blocks over a brick base, the ? marks blinking (Pumpkaboo, Bramblin, Lapras);
+    plumber, a red shirt, blue overalls with gold buttons and brown boots (Kubfu, Meditite,
+    Indeedee); koopa shell, green shell plates over yellow skin (Dewpider, Woobat, Darkrai)
+  * the eyes keep their own colours
+  * shiny: the other power-up colours: the green 1-up mushroom, the ice flower, blue underground
+    blocks, green shirt and navy overalls, a red shell
+
+Pokemon (each line is a whole evolutionary family):
+  - Psyduck > Golduck
+  - Bellsprout > Weepinbell > Victreebel
+  - Happiny > Chansey > Blissey
+  - Lapras
+  - Ralts > Kirlia > Gardevoir / Gallade
+  - Meditite > Medicham
+  - Spinda
+  - Pachirisu
+  - Darkrai
+  - Woobat > Swoobat
+  - Heatmor
+  - Pumpkaboo > Gourgeist
+  - Oricorio
+  - Dewpider > Araquanid
+  - Morelull > Shiinotic
+  - Indeedee
+  - Kubfu > Urshifu
+  - Bramblin > Brambleghast
+
+====================================================================================================
+#25  NIMBUS  (28 Pokemon)
+====================================================================================================
+Pokemon made of sky and cloud.
+
+Cosmetic item: White Wool
+Command:       /pokegive lugia nimbus   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: cumulus, fluffy white clouds on a blue sky (Lugia, Wailmer, Surskit);
+    storm, a dark thunderhead with slanting rain and lightning (Tornadus, Druddigon, Scyther);
+    sunset, clouds lit gold, pink and violet (Fezandipiti, Exeggcute, Remoraid); rain, grey clouds
+    with raindrops falling down the body (Wishiwashi, Stunfisk, Arctovish); silver lining, dark
+    clouds with shining silver edges (Type: Null, Glastrier, Inkay); cloud nine, pastel dream clouds
+    with twinkling stars (Meloetta, Tapu Lele, Oshawott)
+  * lightning strikes, rain falls, linings shine and stars twinkle in the dark; soft glowing eyes
+  * shiny: the sky turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Exeggcute > Exeggutor
+  - Scyther > Scizor / Kleavor
+  - Remoraid > Octillery
+  - Lugia
+  - Surskit > Masquerain
+  - Wailmer > Wailord
+  - Oshawott > Dewott > Samurott
+  - Stunfisk
+  - Druddigon
+  - Tornadus
+  - Meloetta
+  - Inkay > Malamar
+  - Wishiwashi
+  - Type: Null > Silvally
+  - Tapu Lele
+  - Arctovish
+  - Glastrier
+  - Fezandipiti
+
+====================================================================================================
+#26  PAJAMA  (30 Pokemon)
+====================================================================================================
+Pokemon ready for bed in soft printed sleepwear.
+
+Cosmetic item: White Bed
+Command:       /pokegive minccino pajama   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: blue pinstripes (Sawk, Arrokuda, Regieleki); pink with white polka
+    dots (Ditto, Alomomola, Roselia); red flannel plaid (Terrakion, Tapu Bulu, Skwovet); navy with
+    moons and glow-in-the-dark stars (Houndour, Deino, Spectrier); a mint footie onesie with a cream
+    belly and grippy soles (Minccino, Drampa, Orthworm); yellow gingham (Treecko, Froakie, Chien-
+    Pao)
+  * soft flannel shading, a button placket down the chest and ankle cuffs; the eyes keep their own
+    colours
+  * shiny: the fabric's colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Ditto
+  - Houndour > Houndoom
+  - Treecko > Grovyle > Sceptile
+  - Budew > Roselia > Roserade
+  - Sawk
+  - Minccino > Cinccino
+  - Alomomola
+  - Deino > Zweilous > Hydreigon
+  - Terrakion
+  - Froakie > Frogadier > Greninja
+  - Drampa
+  - Tapu Bulu
+  - Skwovet > Greedent
+  - Arrokuda > Barraskewda
+  - Regieleki
+  - Spectrier
+  - Orthworm
+  - Chien-Pao
+
+====================================================================================================
+#27  PINKAN ISLAND  (36 Pokemon)
+====================================================================================================
+Pokemon turned pink by Pinkan Berries, like the Pokemon of the anime's Pinkan Island.
+
+Cosmetic item: Pink Tulip
+Command:       /pokegive growlithe pinkan   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one pink: classic Pinkan pink (Growlithe, Doduo, Zigzagoon); with Pinkan Berry
+    clusters (Skwovet, Carbink, Cryogonal); pastel bubblegum (Alomomola, Espurr, Spheal); vivid hot
+    pink (Scraggy, Honedge, Gastly); flamingo coral (Skrelp, Tentacool, Drampa); a Pinkan jungle-
+    leaf print (Petilil, Tapu Koko, Venipede)
+  * tiny pink sparkles twinkle; the eyes keep their own colours
+  * shiny: lavender-pink instead of rose
+
+Pokemon (each line is a whole evolutionary family):
+  - Growlithe > Arcanine
+  - Tentacool > Tentacruel
+  - Doduo > Dodrio
+  - Gastly > Haunter > Gengar
+  - Zigzagoon > Linoone > Obstagoon
+  - Spheal > Sealeo > Walrein
+  - Venipede > Whirlipede > Scolipede
+  - Petilil > Lilligant
+  - Scraggy > Scrafty
+  - Alomomola
+  - Cryogonal
+  - Espurr > Meowstic
+  - Honedge > Doublade > Aegislash
+  - Skrelp > Dragalge
+  - Carbink
+  - Drampa
+  - Tapu Koko
+  - Skwovet > Greedent
+
+====================================================================================================
+#28  PRISMATIC  (37 Pokemon)
+====================================================================================================
+Pokemon that split light into every colour.
+
+Cosmetic item: Prismarine Crystals
+Command:       /pokegive sableye prismatic   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: holographic silver foil (Rattata, Bidoof, Pikipek); the full spectrum
+    from feet to head (Ekans, Poliwag, Basculin); a cut crystal with rainbow facets (Sableye,
+    Sandshrew, Crabrawler); milky opal with flashes of colour (Shuppet, Mimikyu, Lillipup); a dark
+    oil-slick sheen (Nymble, Carnivine, Arctozolt); white glass crossed by beams of refracted light
+    (Sudowoodo, Chespin, Mudbray)
+  * the colours shift round the wheel and glow in the dark; rainbow eyes
+  * shiny: black opal, a darker body that makes the colours blaze
+
+Pokemon (each line is a whole evolutionary family):
+  - Rattata > Raticate
+  - Ekans > Arbok
+  - Sandshrew > Sandslash
+  - Poliwag > Poliwhirl > Poliwrath / Politoed
+  - Bonsly > Sudowoodo
+  - Sableye
+  - Shuppet > Banette
+  - Bidoof > Bibarel
+  - Carnivine
+  - Lillipup > Herdier > Stoutland
+  - Basculin > Basculegion
+  - Chespin > Quilladin > Chesnaught
+  - Pikipek > Trumbeak > Toucannon
+  - Crabrawler > Crabominable
+  - Mudbray > Mudsdale
+  - Mimikyu
+  - Arctozolt
+  - Nymble > Lokix
 
 ====================================================================================================
 NEW POKEMON

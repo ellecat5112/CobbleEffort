@@ -12,9 +12,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
 2. **Mirror every vanilla resolver variation** (shiny, female, regional, model swaps, layers) with the cosmetic aspect
    added, in Cobblemon's order, in an `order: 9000` resolver. Each style sets `EMISSIVE` ("disable" for Backrooms,
    "retexture" for Thanksgiving/Halloween). Styles may set `FRAMES`/`FPS` for animated textures (Halloween: 4 @ 5fps).
-3. **Collections don't overlap**: a species is in at most one collection, and each collection has its own cosmetic
-   item. New lines come from `generate.py pick` (random, fully modelled, unused), plus any lines the user asks for
-   by name (put those in `lines` first, then `pick` the rest). The generator enforces no overlap.
+3. **Each collection has its own cosmetic item** (unique across collections; the generator enforces it). Until #23
+   collections never shared species; the unused lines then ran out, so since #24 they may overlap (the user's call):
+   `generate.py pick` (random, fully modelled) takes never-used lines first, then the least-used. Lines the user asks
+   for by name go in `lines` first, then `pick` the rest.
 4. **Every jar produced is delivered as a zip containing the .jar.** `./gradlew build` → `build/libs/<name>.zip`;
    the bare jar is only an intermediate in `build/tmp/jar/`. Hand users the zip, never a loose jar.
 5. Generated textures are adaptations of Cobblemon assets (CC BY-NC 3.0), plus Mega Showdown's (CC BY-NC-SA 4.0,
@@ -59,7 +60,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (`bolts()` = branching arcs, re-struck per frame in `animate`), Abyss `_void.py` (`void_*`; the void, not the sea),
   Ancient Ruins `_ruins.py` (`courses()`, `glyphs()`; not Stone Statues), Gilded `_gilded.py` (shiny = platinum).
   Glacial `_glacial.py` (not Ice Sculptures), Kitsune `_kitsune.py` (`face_marks()` from face hints; foxfire = top of
-  the height map). Cosmetic items must be unique across collections (incl. multi-item ones; generate.py checks).
+  the height map). Cosmetic items must be unique across collections (incl. multi-item ones; generate.py checks), and
+  not one Cobblemon itself uses as a cosmetic for one of the species (e.g. its dyes: Gengar takes pink dye). #24-28:
+  Super Mario `_mario.py` (eyes keep their colours; shiny = the other power-ups), Nimbus `_nimbus.py` (`clouds()`),
+  Pajama `_pajama.py`, Pinkan Island `_pinkan.py`, Prismatic `_prism.py` (shiny = black opal).
   Patterns must read at u = 1 (one texel per model unit): test the small textures, not just the big ones.
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so

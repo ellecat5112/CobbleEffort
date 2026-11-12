@@ -1,0 +1,59 @@
+{
+  "species": "cobblemon:bidoof",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_shiny_prismatic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_shiny_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_shiny_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_shiny_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_shiny_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "prismatic"
+      ]
+    }
+  ]
+}

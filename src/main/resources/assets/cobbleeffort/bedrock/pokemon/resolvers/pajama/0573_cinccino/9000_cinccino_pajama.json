@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:cinccino",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0573_cinccino/cinccino_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0573_cinccino/cinccino_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

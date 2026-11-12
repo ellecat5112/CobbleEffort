@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:sableye",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_shiny_prismatic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_shiny_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_shiny_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_shiny_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_shiny_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic.png",
+      "layers": [
+        {
+          "name": "gem",
+          "emissive": false,
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_translucent_prismatic.png"
+        },
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "prismatic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_prismatic.png",
+      "layers": [
+        {
+          "name": "gem",
+          "emissive": false,
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_translucent_prismatic.png"
+        },
+        {
+          "name": "cobbleeffort_spectrum",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_prismatic_spectrum_0.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_prismatic_spectrum_1.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_prismatic_spectrum_2.png",
+              "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_shiny_prismatic_spectrum_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:hydreigon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_shiny_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_shiny_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_shiny_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/0635_hydreigon/hydreigon_shiny_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

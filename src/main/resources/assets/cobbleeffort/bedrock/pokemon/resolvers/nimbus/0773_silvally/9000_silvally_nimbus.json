@@ -1,0 +1,279 @@
+{
+  "species": "cobblemon:silvally",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_nimbus.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_nimbus.png"
+        },
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_shiny_nimbus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_shiny_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_shiny_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_shiny_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_shiny_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fire-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_fire_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "water-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_water_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "grass-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_grass_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "electric-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_electric_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ice-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_ice_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fighting-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_fighting_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "poison-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_poison_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ground-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_ground_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flying-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_flying_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "psychic-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_psychic_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "bug-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_bug_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_rock_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ghost-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_ghost_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dragon-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_dragon_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dark-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_dark_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "steel-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_steel_nimbus.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fairy-memory",
+        "nimbus"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/nimbus/compat/mega_showdown/0773_silvally/silvally_emmisive_fairy_nimbus.png"
+        }
+      ]
+    }
+  ]
+}

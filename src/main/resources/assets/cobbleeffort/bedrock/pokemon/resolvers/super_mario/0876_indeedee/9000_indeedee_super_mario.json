@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:indeedee",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0876_indeedee/indeedee_male_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0876_indeedee/indeedee_male_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0876_indeedee/indeedee_female_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0876_indeedee/indeedee_female_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

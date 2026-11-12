@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:drampa",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0780_drampa/drampa_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0780_drampa/drampa_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0780_drampa/drampa_mega_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0780_drampa/drampa_mega_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

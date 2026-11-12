@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:grovyle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0253_grovyle/grovyle_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0253_grovyle/grovyle_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

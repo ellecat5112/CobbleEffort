@@ -1,0 +1,562 @@
+[
+  {
+    "species": "psyduck",
+    "folder": "0054_psyduck",
+    "model": "cobblemon:psyduck.geo",
+    "original": "cobblemon:textures/pokemon/0054_psyduck/psyduck.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0054_psyduck/psyduck_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0054_psyduck/psyduck_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golduck",
+    "folder": "0055_golduck",
+    "model": "cobblemon:golduck.geo",
+    "original": "cobblemon:textures/pokemon/0055_golduck/golduck.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0055_golduck/golduck_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bellsprout",
+    "folder": "0069_bellsprout",
+    "model": "cobblemon:bellsprout.geo",
+    "original": "cobblemon:textures/pokemon/0069_bellsprout/bellsprout.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0069_bellsprout/bellsprout_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0069_bellsprout/bellsprout_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "weepinbell",
+    "folder": "0070_weepinbell",
+    "model": "cobblemon:weepinbell.geo",
+    "original": "cobblemon:textures/pokemon/0070_weepinbell/weepinbell.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0070_weepinbell/weepinbell_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0070_weepinbell/weepinbell_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "victreebel",
+    "folder": "0071_victreebel",
+    "model": "cobblemon:victreebel.geo",
+    "original": "cobblemon:textures/pokemon/0071_victreebel/victreebel.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0071_victreebel/victreebel_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0071_victreebel/victreebel_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "victreebel",
+    "folder": "0071_victreebel",
+    "model": "cobblemon:victreebel_mega.geo",
+    "original": "cobblemon:textures/pokemon/0071_victreebel/victreebel_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0071_victreebel/victreebel_mega_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0071_victreebel/victreebel_mega_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "chansey",
+    "folder": "0113_chansey",
+    "model": "cobblemon:chansey.geo",
+    "original": "cobblemon:textures/pokemon/0113_chansey/chansey.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0113_chansey/chansey_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "lapras",
+    "folder": "0131_lapras",
+    "model": "cobblemon:lapras.geo",
+    "original": "cobblemon:textures/pokemon/0131_lapras/lapras.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0131_lapras/lapras_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0131_lapras/lapras_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lapras",
+    "folder": "0131_lapras",
+    "model": "cobblemon:lapras_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0131_lapras/lapras_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0131_lapras/lapras_gmax_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0131_lapras/lapras_gmax_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "blissey",
+    "folder": "0242_blissey",
+    "model": "cobblemon:blissey.geo",
+    "original": "cobblemon:textures/pokemon/0242_blissey/blissey.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0242_blissey/blissey_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "ralts",
+    "folder": "0280_ralts",
+    "model": "cobblemon:ralts.geo",
+    "original": "cobblemon:textures/pokemon/0280_ralts/ralts.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0280_ralts/ralts_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0280_ralts/ralts_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kirlia",
+    "folder": "0281_kirlia",
+    "model": "cobblemon:kirlia.geo",
+    "original": "cobblemon:textures/pokemon/0281_kirlia/kirlia.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0281_kirlia/kirlia_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0281_kirlia/kirlia_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gardevoir",
+    "folder": "0282_gardevoir",
+    "model": "cobblemon:gardevoir.geo",
+    "original": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gardevoir",
+    "folder": "0282_gardevoir",
+    "model": "cobblemon:gardevoirmega.geo",
+    "original": "cobblemon:textures/pokemon/0282_gardevoir/gardevoir_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "meditite",
+    "folder": "0307_meditite",
+    "model": "cobblemon:meditite_male.geo",
+    "original": "cobblemon:textures/pokemon/0307_meditite/meditite.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0307_meditite/meditite_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "medicham",
+    "folder": "0308_medicham",
+    "model": "cobblemon:medicham_male.geo",
+    "original": "cobblemon:textures/pokemon/0308_medicham/medicham.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0308_medicham/medicham_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "medicham",
+    "folder": "0308_medicham",
+    "model": "cobblemon:medicham_mega.geo",
+    "original": "cobblemon:textures/pokemon/0308_medicham/medicham_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0308_medicham/medicham_mega_super_mario.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "spinda",
+    "folder": "0327_spinda",
+    "model": "cobblemon:spinda.geo",
+    "original": "cobblemon:textures/pokemon/0327_spinda/spinda.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0327_spinda/spinda_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "pachirisu",
+    "folder": "0417_pachirisu",
+    "model": "cobblemon:pachirisu_male.geo",
+    "original": "cobblemon:textures/pokemon/0417_pachirisu/pachirisu.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0417_pachirisu/pachirisu_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0417_pachirisu/pachirisu_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "happiny",
+    "folder": "0440_happiny",
+    "model": "cobblemon:happiny.geo",
+    "original": "cobblemon:textures/pokemon/0440_happiny/happiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0440_happiny/happiny_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "gallade",
+    "folder": "0475_gallade",
+    "model": "cobblemon:gallade.geo",
+    "original": "cobblemon:textures/pokemon/0475_gallade/gallade.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0475_gallade/gallade_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0475_gallade/gallade_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gallade",
+    "folder": "0475_gallade",
+    "model": "cobblemon:gallade_mega.geo",
+    "original": "cobblemon:textures/pokemon/0475_gallade/gallade_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0475_gallade/gallade_mega_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0475_gallade/gallade_mega_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "darkrai",
+    "folder": "0491_darkrai",
+    "model": "cobblemon:darkrai.geo",
+    "original": "cobblemon:textures/pokemon/0491_darkrai/darkrai.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0491_darkrai/darkrai_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "woobat",
+    "folder": "0527_woobat",
+    "model": "cobblemon:woobat.geo",
+    "original": "cobblemon:textures/pokemon/0527_woobat/woobat.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0527_woobat/woobat_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "swoobat",
+    "folder": "0528_swoobat",
+    "model": "cobblemon:swoobat.geo",
+    "original": "cobblemon:textures/pokemon/0528_swoobat/swoobat.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0528_swoobat/swoobat_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "heatmor",
+    "folder": "0631_heatmor",
+    "model": "cobblemon:heatmor.geo",
+    "original": "cobblemon:textures/pokemon/0631_heatmor/heatmor.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0631_heatmor/heatmor_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0631_heatmor/heatmor_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0631_heatmor/heatmor_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0631_heatmor/heatmor_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "pumpkaboo",
+    "folder": "0710_pumpkaboo",
+    "model": "cobblemon:pumpkaboo.geo",
+    "original": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gourgeist",
+    "folder": "0711_gourgeist",
+    "model": "cobblemon:gourgeist.geo",
+    "original": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0711_gourgeist/gourgeist_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0711_gourgeist/gourgeist_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0711_gourgeist/gourgeist_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:baile_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_baile.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:pompom_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pom_pom.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "pom-pom-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:pau_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pau.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "pau-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:sensu_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_sensu.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario_power_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "sensu-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "dewpider",
+    "folder": "0751_dewpider",
+    "model": "cobblemon:dewpider.geo",
+    "original": "cobblemon:textures/pokemon/0751_dewpider/dewpider.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0751_dewpider/dewpider_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0751_dewpider/dewpider_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0751_dewpider/dewpider_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/0751_dewpider/dewpider_translucent.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0751_dewpider/dewpider_translucent_super_mario.png",
+        "emissive": false
+      }
+    ]
+  },
+  {
+    "species": "araquanid",
+    "folder": "0752_araquanid",
+    "model": "cobblemon:araquanid.geo",
+    "original": "cobblemon:textures/pokemon/0752_araquanid/araquanid.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0752_araquanid/araquanid_super_mario.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0752_araquanid/araquanid_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0752_araquanid/araquanid_emissive_super_mario.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/0752_araquanid/araquanid_translucent.png",
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0752_araquanid/araquanid_translucent_super_mario.png",
+        "emissive": false
+      }
+    ]
+  },
+  {
+    "species": "morelull",
+    "folder": "0755_morelull",
+    "model": "cobblemon:morelull.geo",
+    "original": "cobblemon:textures/pokemon/0755_morelull/morelull.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0755_morelull/morelull_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "shiinotic",
+    "folder": "0756_shiinotic",
+    "model": "cobblemon:shiinotic.geo",
+    "original": "cobblemon:textures/pokemon/0756_shiinotic/shiinotic.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0756_shiinotic/shiinotic_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "indeedee",
+    "folder": "0876_indeedee",
+    "model": "cobblemon:indeedee_male.geo",
+    "original": "cobblemon:textures/pokemon/0876_indeedee/indeedee_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0876_indeedee/indeedee_male_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "kubfu",
+    "folder": "0891_kubfu",
+    "model": "cobblemon:kubfu.geo",
+    "original": "cobblemon:textures/pokemon/0891_kubfu/kubfu.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0891_kubfu/kubfu_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_super_mario.png",
+    "layers": []
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_super_mario.png",
+    "layers": [],
+    "form": "rapid_strike-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_gmax_super_mario.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_super_mario.png",
+    "layers": [],
+    "form": "gmax_rapid_strike-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "bramblin",
+    "folder": "0946_bramblin",
+    "model": "cobblemon:bramblin.geo",
+    "original": "cobblemon:textures/pokemon/0946_bramblin/bramblin.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0946_bramblin/bramblin_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0946_bramblin/bramblin_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "brambleghast",
+    "folder": "0947_brambleghast",
+    "model": "cobblemon:brambleghast.geo",
+    "original": "cobblemon:textures/pokemon/0947_brambleghast/brambleghast.png",
+    "retextured": "cobbleeffort:textures/pokemon/super_mario/0947_brambleghast/brambleghast_super_mario.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/super_mario/0947_brambleghast/brambleghast_super_mario_power_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

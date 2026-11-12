@@ -1,0 +1,80 @@
+{
+  "species": "cobblemon:growlithe",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_pinkan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_shiny_pinkan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_shiny_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_shiny_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_shiny_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/0058_growlithe/growlithe_shiny_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "pinkan"
+      ],
+      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisui.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "shiny",
+        "pinkan"
+      ],
+      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisui_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

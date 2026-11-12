@@ -1,0 +1,59 @@
+{
+  "species": "cobblemon:scyther",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_nimbus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_shiny_nimbus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_shiny_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_shiny_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_shiny_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0123_scyther/scyther_shiny_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "nimbus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "species": "cobblemon:sceptile",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0254_sceptile/sceptile_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0254_sceptile/sceptile_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0254_sceptile/sceptile_mega_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0254_sceptile/sceptile_mega_emissive_pajama.png"
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0254_sceptile/sceptile_mega_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0254_sceptile/sceptile_mega_emissive_shiny_pajama.png"
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "alpha",
+        "pajama"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0254_sceptile/sceptile_mega_alpha_pajama.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

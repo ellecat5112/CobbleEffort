@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:houndoom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_shiny_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_shiny_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_shiny_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/0229_houndoom/houndoom_shiny_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "pajama"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_shiny_pajama_glow_0.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_shiny_pajama_glow_1.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_shiny_pajama_glow_2.png",
+              "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0229_houndoom/houndoom_mega_shiny_pajama_glow_3.png"
+            ],
+            "fps": 2,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

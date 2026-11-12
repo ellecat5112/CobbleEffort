@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:chienpao",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/1002_chienpao/chienpao_pajama.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/1002_chienpao/chienpao_emissive_pajama.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/1002_chienpao/chienpao_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/1002_chienpao/chienpao_emissive_pajama.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

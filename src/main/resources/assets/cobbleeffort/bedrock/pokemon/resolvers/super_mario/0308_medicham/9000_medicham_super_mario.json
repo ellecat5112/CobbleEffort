@@ -1,0 +1,64 @@
+{
+  "species": "cobblemon:medicham",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0308_medicham/medicham_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0308_medicham/medicham_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "super_mario"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0308_medicham/medicham_mega_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0308_medicham/medicham_mega_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

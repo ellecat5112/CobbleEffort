@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:sawk",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "poser": "cobblemon:sawk",
+      "model": "cobblemon:sawk.geo",
+      "texture": "cobbleeffort:textures/pokemon/pajama/0539_sawk/sawk_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0539_sawk/sawk_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

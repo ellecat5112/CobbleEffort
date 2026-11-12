@@ -1,0 +1,61 @@
+{
+  "_comment": "Super Mario collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed super-star-power-up` (since #24 collections may share lines; picks take never-used lines first), then given a look each (three lines per look). Shared look in styles/_mario.py.",
+  "aspect": "super_mario",
+  "feature": "super_mario_power_up",
+  "style": "mario_mushroom",
+  "cosmetic_items": [
+    "minecraft:red_mushroom"
+  ],
+  "lines": [
+    "psyduck",
+    "bellsprout",
+    "chansey",
+    "lapras",
+    "ralts",
+    "meditite",
+    "spinda",
+    "pachirisu",
+    "darkrai",
+    "woobat",
+    "heatmor",
+    "pumpkaboo",
+    "oricorio",
+    "dewpider",
+    "morelull",
+    "indeedee",
+    "kubfu",
+    "bramblin"
+  ],
+  "line_styles": {
+    "morelull": "mario_mushroom",
+    "chansey": "mario_mushroom",
+    "spinda": "mario_mushroom",
+    "heatmor": "mario_fire_flower",
+    "oricorio": "mario_fire_flower",
+    "bellsprout": "mario_fire_flower",
+    "pachirisu": "mario_super_star",
+    "ralts": "mario_super_star",
+    "psyduck": "mario_super_star",
+    "pumpkaboo": "mario_question_block",
+    "bramblin": "mario_question_block",
+    "lapras": "mario_question_block",
+    "kubfu": "mario_plumber",
+    "meditite": "mario_plumber",
+    "indeedee": "mario_plumber",
+    "dewpider": "mario_koopa_shell",
+    "woobat": "mario_koopa_shell",
+    "darkrai": "mario_koopa_shell"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 24,
+    "title": "Super Mario",
+    "example": "pachirisu",
+    "summary": "Pokemon dressed as power-ups and plumbing heroes (original patterns inspired by the Super Mario games).",
+    "looks": [
+      "each line wears one look: a red mushroom cap with white spots (Morelull, Chansey, Spinda); fire flower, white over red with a flower emblem and glowing fireballs (Heatmor, Oricorio, Bellsprout); super star, star gold flashing every colour when invincible (Pachirisu, Ralts, Psyduck); golden ? blocks over a brick base, the ? marks blinking (Pumpkaboo, Bramblin, Lapras); plumber, a red shirt, blue overalls with gold buttons and brown boots (Kubfu, Meditite, Indeedee); koopa shell, green shell plates over yellow skin (Dewpider, Woobat, Darkrai)",
+      "the eyes keep their own colours",
+      "shiny: the other power-up colours: the green 1-up mushroom, the ice flower, blue underground blocks, green shirt and navy overalls, a red shell"
+    ]
+  }
+}

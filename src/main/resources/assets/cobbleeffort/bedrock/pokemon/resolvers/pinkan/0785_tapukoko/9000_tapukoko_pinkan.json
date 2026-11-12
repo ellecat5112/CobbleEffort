@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:tapukoko",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_pinkan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_emissive_pinkan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_pinkan.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_emissive_pinkan.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0785_tapukoko/tapukoko_shiny_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

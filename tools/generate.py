@@ -1029,18 +1029,17 @@ def build_collection(cob: Cobblemon, cfg: dict):
 
 
 def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):
-    """Collections must not share species or cosmetic items."""
-    owner: dict[str, str] = {}
+    """Collections must not share cosmetic items. Since collection #24 they may share species (the user's call: the
+    unused lines ran out); a Pokemon then wears whichever collection's item sits in its cosmetic slot."""
+    owner: dict[str, set[str]] = {}
     items: dict[str, str] = {}
     for cfg in cfgs:
         fam = cob.families(cfg["extra_links"])
         for pick in cfg["lines"]:
             for n in fam[pick]:
-                if owner.setdefault(n, cfg["name"]) != cfg["name"]:
-                    raise SystemExit(f"{n} is in both {owner[n]} and {cfg['name']}")
+                owner.setdefault(n, set()).add(cfg["name"])
         for a in cfg.get("addon_lines", []):
-            if owner.setdefault(a["species"], cfg["name"]) != cfg["name"]:
-                raise SystemExit(f"{a['species']} is in both {owner[a['species']]} and {cfg['name']}")
+            owner.setdefault(a["species"], set()).add(cfg["name"])
         for item in cfg["cosmetic_items"]:
             if items.setdefault(item, cfg["name"]) != cfg["name"]:
                 raise SystemExit(f"{item} is the cosmetic item of both {items[item]} and {cfg['name']}")
@@ -1051,7 +1050,7 @@ def check_no_overlap(cob: Cobblemon, cfgs: list[dict]):
             item = str(entry.get("consumedItem", ""))
             for name in data.get("pokemon", []):
                 name = cob.species_id(name)
-                if item in items and owner.get(name) == items[item]:
+                if item in items and items[item] in owner.get(name, ()):
                     raise SystemExit(f"{layer.name} already uses {item} as a cosmetic for {name} ({rel})")
 
 
@@ -1072,22 +1071,33 @@ def cmd_build(cob: Cobblemon, names: list[str]):
 
 
 def cmd_pick(cob: Cobblemon, count: int, seed: str):
-    """Randomly pick `count` new evolutionary lines that no collection uses yet."""
+    """Randomly pick `count` evolutionary lines: never-used ones first, then the ones the fewest collections use."""
     families = cob.families([])
-    taken = set()
-    for name in all_collections():
-        cfg = load_collection(name)
-        fam = cob.families(cfg["extra_links"])
-        for pick in cfg["lines"]:
-            taken |= fam[pick]
-    pool = sorted({fam for fam in families.values() if not fam & taken and cob.retexturable(fam)},
-                  key=lambda f: min(cob.dex(n) for n in f))
+    uses: dict[frozenset, int] = {}
+    pool = sorted({fam for fam in families.values() if cob.retexturable(fam)}, key=lambda f: min(cob.dex(n) for n in f))
+    colls = [load_collection(name) for name in all_collections()]
+    for fam_ in pool:
+        k = 0
+        for cfg in colls:
+            fam = cob.families(cfg["extra_links"])
+            if any(fam_ & fam[pick] for pick in cfg["lines"]):
+                k += 1
+        uses[fam_] = k
     rng = random.Random(seed)
-    chosen = rng.sample(pool, count)
+    chosen = []
+    for level in sorted(set(uses.values())):
+        tier = [f for f in pool if uses[f] == level]
+        need = count - len(chosen)
+        if need <= 0:
+            break
+        chosen += rng.sample(tier, min(need, len(tier)))
+    if len(chosen) < count:
+        raise SystemExit(f"only {len(chosen)} retexturable lines exist")
     for fam in sorted(chosen, key=lambda f: min(cob.dex(n) for n in f)):
         family = sorted(fam, key=cob.dex)
-        print(f"{family[0]:12s} {', '.join(family)}")
-    print(f"(picked {count} of {len(pool)} eligible lines with seed {seed!r})")
+        print(f"{family[0]:12s} {', '.join(family)}" + (f"  (in {uses[fam]} collection(s) already)" if uses[fam] else ""))
+    fresh = sum(1 for f in pool if uses[f] == 0)
+    print(f"(picked {count} lines with seed {seed!r}; {fresh} never-used lines were available)")
 
 
 def main():

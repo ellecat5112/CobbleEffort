@@ -1,0 +1,200 @@
+{
+  "species": "cobblemon:oricorio",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_baile_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pom-pom-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pom-pom-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pau-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pau-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_pau_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sensu-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sensu-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0741_oricorio/oricorio_sensu_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

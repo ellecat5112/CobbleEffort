@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:terrakion",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "poser": "cobbleeffort:terrakion",
+      "model": "cobbleeffort:terrakion.geo",
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0639_terrakion/terrakion_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0639_terrakion/terrakion_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

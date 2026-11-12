@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:golduck",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_emissive_super_mario.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_emissive_super_mario.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0055_golduck/golduck_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

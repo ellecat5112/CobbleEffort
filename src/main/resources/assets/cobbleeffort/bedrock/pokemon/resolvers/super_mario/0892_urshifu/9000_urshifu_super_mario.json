@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:urshifu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rapid_strike-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rapid_strike-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_gmax_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "rapid_strike-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "rapid_strike-style",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

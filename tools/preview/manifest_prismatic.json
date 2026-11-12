@@ -1,0 +1,641 @@
+[
+  {
+    "species": "rattata",
+    "folder": "0019_rattata",
+    "model": "cobblemon:rattata_male.geo",
+    "original": "cobblemon:textures/pokemon/0019_rattata/rattata.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0019_rattata/rattata_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0019_rattata/rattata_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "raticate",
+    "folder": "0020_raticate",
+    "model": "cobblemon:raticate_male.geo",
+    "original": "cobblemon:textures/pokemon/0020_raticate/raticate.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0020_raticate/raticate_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0020_raticate/raticate_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "raticate",
+    "folder": "0020_raticate",
+    "model": "cobblemon:raticatemega.geo",
+    "original": "cobblemon:textures/pokemon/0020_raticate/raticate_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/msdextramegas/0020_raticate/raticate_mega_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/msdextramegas/0020_raticate/raticate_mega_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
+  },
+  {
+    "species": "ekans",
+    "folder": "0023_ekans",
+    "model": "cobblemon:ekans.geo",
+    "original": "cobblemon:textures/pokemon/0023_ekans/ekans.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0023_ekans/ekans_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0023_ekans/ekans_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "arbok",
+    "folder": "0024_arbok",
+    "model": "cobblemon:arbok.geo",
+    "original": "cobblemon:textures/pokemon/0024_arbok/arbok.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0024_arbok/arbok_pattern_classic.png",
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_pattern_classic_prismatic.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0024_arbok/arbok_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sandshrew",
+    "folder": "0027_sandshrew",
+    "model": "cobblemon:sandshrew.geo",
+    "original": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0027_sandshrew/sandshrew_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0027_sandshrew/sandshrew_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sandslash",
+    "folder": "0028_sandslash",
+    "model": "cobblemon:sandslash.geo",
+    "original": "cobblemon:textures/pokemon/0028_sandslash/sandslash.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0028_sandslash/sandslash_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0028_sandslash/sandslash_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poliwag",
+    "folder": "0060_poliwag",
+    "model": "cobblemon:poliwag.geo",
+    "original": "cobblemon:textures/pokemon/0060_poliwag/poliwag.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0060_poliwag/poliwag_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0060_poliwag/poliwag_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poliwhirl",
+    "folder": "0061_poliwhirl",
+    "model": "cobblemon:poliwhirl.geo",
+    "original": "cobblemon:textures/pokemon/0061_poliwhirl/poliwhirl.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0061_poliwhirl/poliwhirl_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0061_poliwhirl/poliwhirl_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poliwrath",
+    "folder": "0062_poliwrath",
+    "model": "cobblemon:poliwrath.geo",
+    "original": "cobblemon:textures/pokemon/0062_poliwrath/poliwrath.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0062_poliwrath/poliwrath_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0062_poliwrath/poliwrath_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sudowoodo",
+    "folder": "0185_sudowoodo",
+    "model": "cobblemon:sudowoodo_male.geo",
+    "original": "cobblemon:textures/pokemon/0185_sudowoodo/sudowoodo.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0185_sudowoodo/sudowoodo_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0185_sudowoodo/sudowoodo_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "politoed",
+    "folder": "0186_politoed",
+    "model": "cobblemon:politoed_male.geo",
+    "original": "cobblemon:textures/pokemon/0186_politoed/politoed.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0186_politoed/politoed_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0186_politoed/politoed_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sableye",
+    "folder": "0302_sableye",
+    "model": "cobblemon:sableye.geo",
+    "original": "cobblemon:textures/pokemon/0302_sableye/sableye.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0302_sableye/sableye_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sableye",
+    "folder": "0302_sableye",
+    "model": "cobblemon:sableye_mega.geo",
+    "original": "cobblemon:textures/pokemon/0302_sableye/sableye_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0302_sableye/sableye_mega_translucent.png",
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_translucent_prismatic.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0302_sableye/sableye_mega_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "shuppet",
+    "folder": "0353_shuppet",
+    "model": "cobblemon:shuppet.geo",
+    "original": "cobblemon:textures/pokemon/0353_shuppet/shuppet.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0353_shuppet/shuppet_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0353_shuppet/shuppet_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "banette",
+    "folder": "0354_banette",
+    "model": "cobblemon:banette.geo",
+    "original": "cobblemon:textures/pokemon/0354_banette/banette.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0354_banette/banette_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0354_banette/banette_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "banette",
+    "folder": "0354_banette",
+    "model": "cobblemon:banette_mega.geo",
+    "original": "cobblemon:textures/pokemon/0354_banette/banette_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0354_banette/banette_mega_prismatic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0354_banette/banette_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0354_banette/banette_mega_emissive_prismatic.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0354_banette/banette_mega_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "bidoof",
+    "folder": "0399_bidoof",
+    "model": "cobblemon:bidoof_male.geo",
+    "original": "cobblemon:textures/pokemon/0399_bidoof/bidoof.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0399_bidoof/bidoof_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bibarel",
+    "folder": "0400_bibarel",
+    "model": "cobblemon:bibarel_male.geo",
+    "original": "cobblemon:textures/pokemon/0400_bibarel/bibarel.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0400_bibarel/bibarel_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0400_bibarel/bibarel_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bonsly",
+    "folder": "0438_bonsly",
+    "model": "cobblemon:bonsly.geo",
+    "original": "cobblemon:textures/pokemon/0438_bonsly/bonsly.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0438_bonsly/bonsly_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0438_bonsly/bonsly_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "carnivine",
+    "folder": "0455_carnivine",
+    "model": "cobblemon:carnivine.geo",
+    "original": "cobblemon:textures/pokemon/0455_carnivine/carnivine.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0455_carnivine/carnivine_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0455_carnivine/carnivine_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lillipup",
+    "folder": "0506_lillipup",
+    "model": "cobblemon:lillipup.geo",
+    "original": "cobblemon:textures/pokemon/0506_lillipup/lillipup.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0506_lillipup/lillipup_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0506_lillipup/lillipup_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "herdier",
+    "folder": "0507_herdier",
+    "model": "cobblemon:herdier.geo",
+    "original": "cobblemon:textures/pokemon/0507_herdier/herdier.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0507_herdier/herdier_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0507_herdier/herdier_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "stoutland",
+    "folder": "0508_stoutland",
+    "model": "cobblemon:stoutland.geo",
+    "original": "cobblemon:textures/pokemon/0508_stoutland/stoutland.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0508_stoutland/stoutland_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0508_stoutland/stoutland_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "basculin",
+    "folder": "0550_basculin",
+    "model": "cobblemon:basculin_redstripe.geo",
+    "original": "cobblemon:textures/pokemon/0550_basculin/basculin_redstripe.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0550_basculin/basculin_redstripe_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0550_basculin/basculin_redstripe_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chespin",
+    "folder": "0650_chespin",
+    "model": "cobblemon:chespin.geo",
+    "original": "cobblemon:textures/pokemon/0650_chespin/chespin.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0650_chespin/chespin_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0650_chespin/chespin_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "quilladin",
+    "folder": "0651_quilladin",
+    "model": "cobblemon:quilladin.geo",
+    "original": "cobblemon:textures/pokemon/0651_quilladin/quilladin.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0651_quilladin/quilladin_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0651_quilladin/quilladin_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chesnaught",
+    "folder": "0652_chesnaught",
+    "model": "cobblemon:chesnaught.geo",
+    "original": "cobblemon:textures/pokemon/0652_chesnaught/chesnaught.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0652_chesnaught/chesnaught_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0652_chesnaught/chesnaught_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chesnaught",
+    "folder": "0652_chesnaught",
+    "model": "cobblemon:chesnaught_mega.geo",
+    "original": "cobblemon:textures/pokemon/0652_chesnaught/chesnaught_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0652_chesnaught/chesnaught_mega_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0652_chesnaught/chesnaught_mega_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikipek",
+    "folder": "0731_pikipek",
+    "model": "cobblemon:pikipek.geo",
+    "original": "cobblemon:textures/pokemon/0731_pikipek/pikipek.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0731_pikipek/pikipek_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0731_pikipek/pikipek_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "trumbeak",
+    "folder": "0732_trumbeak",
+    "model": "cobblemon:trumbeak.geo",
+    "original": "cobblemon:textures/pokemon/0732_trumbeak/trumbeak.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0732_trumbeak/trumbeak_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0732_trumbeak/trumbeak_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "toucannon",
+    "folder": "0733_toucannon",
+    "model": "cobblemon:toucannon.geo",
+    "original": "cobblemon:textures/pokemon/0733_toucannon/toucannon.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0733_toucannon/toucannon_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0733_toucannon/toucannon_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crabrawler",
+    "folder": "0739_crabrawler",
+    "model": "cobblemon:crabrawler.geo",
+    "original": "cobblemon:textures/pokemon/0739_crabrawler/crabrawler.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0739_crabrawler/crabrawler_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0739_crabrawler/crabrawler_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crabominable",
+    "folder": "0740_crabominable",
+    "model": "cobblemon:crabominable.geo",
+    "original": "cobblemon:textures/pokemon/0740_crabominable/crabominable.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0740_crabominable/crabominable_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0740_crabominable/crabominable_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crabominable",
+    "folder": "0740_crabominable",
+    "model": "cobblemon:crabominable_mega.geo",
+    "original": "cobblemon:textures/pokemon/0740_crabominable/crabominable_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0740_crabominable/crabominable_mega_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/compat/mega_showdown/0740_crabominable/crabominable_mega_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "mudbray",
+    "folder": "0749_mudbray",
+    "model": "cobblemon:mudbray.geo",
+    "original": "cobblemon:textures/pokemon/0749_mudbray/mudbray.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0749_mudbray/mudbray_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0749_mudbray/mudbray_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mudsdale",
+    "folder": "0750_mudsdale",
+    "model": "cobblemon:mudsdale.geo",
+    "original": "cobblemon:textures/pokemon/0750_mudsdale/mudsdale.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0750_mudsdale/mudsdale_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0750_mudsdale/mudsdale_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mimikyu",
+    "folder": "0778_mimikyu",
+    "model": "cobblemon:mimikyu.geo",
+    "original": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0778_mimikyu/mimikyu_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0778_mimikyu/mimikyu_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mimikyu",
+    "folder": "0778_mimikyu",
+    "model": "cobblemon:mimikyu_busted.geo",
+    "original": "cobblemon:textures/pokemon/0778_mimikyu/mimikyu.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0778_mimikyu/mimikyu_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0778_mimikyu/mimikyu_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "busted-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "arctozolt",
+    "folder": "0881_arctozolt",
+    "model": "cobblemon:arctozolt.geo",
+    "original": "cobblemon:textures/pokemon/0881_arctozolt/arctozolt.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0881_arctozolt/arctozolt_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0881_arctozolt/arctozolt_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "basculegion",
+    "folder": "0902_basculegion",
+    "model": "cobblemon:basculegion_male.geo",
+    "original": "cobblemon:textures/pokemon/0902_basculegion/basculegion_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0902_basculegion/basculegion_male_prismatic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0902_basculegion/basculegion_male_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "nymble",
+    "folder": "0919_nymble",
+    "model": "cobblemon:nymble.geo",
+    "original": "cobblemon:textures/pokemon/0919_nymble/nymble.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0919_nymble/nymble_prismatic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0919_nymble/nymble_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0919_nymble/nymble_emissive_prismatic.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0919_nymble/nymble_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lokix",
+    "folder": "0920_lokix",
+    "model": "cobblemon:lokix.geo",
+    "original": "cobblemon:textures/pokemon/0920_lokix/lokix.png",
+    "retextured": "cobbleeffort:textures/pokemon/prismatic/0920_lokix/lokix_prismatic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0920_lokix/lokix_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0920_lokix/lokix_emissive_prismatic.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/prismatic/0920_lokix/lokix_prismatic_spectrum_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

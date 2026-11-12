@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:scolipede",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_pinkan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_shiny_pinkan.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_shiny_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_shiny_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_shiny_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/0545_scolipede/scolipede_shiny_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_pinkan.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_emissive_pinkan.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "pinkan"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_shiny_pinkan.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_emissive_shiny_pinkan.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_gleam",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_shiny_pinkan_gleam_0.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_shiny_pinkan_gleam_1.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_shiny_pinkan_gleam_2.png",
+              "cobbleeffort:textures/pokemon/pinkan/compat/mega_showdown/0545_scolipede/scolipede_mega_shiny_pinkan_gleam_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

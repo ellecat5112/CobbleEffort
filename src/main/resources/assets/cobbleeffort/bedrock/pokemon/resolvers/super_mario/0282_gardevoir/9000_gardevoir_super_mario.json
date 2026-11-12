@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:gardevoir",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0282_gardevoir/gardevoir_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/compat/mega_showdown/0282_gardevoir/gardevoir_mega_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

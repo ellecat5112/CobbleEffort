@@ -1,0 +1,61 @@
+{
+  "_comment": "Nimbus collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed nimbus-cloud-nine` (since #24 collections may share lines; picks take never-used lines first), then given a look each (three lines per look). Shared look in styles/_nimbus.py.",
+  "aspect": "nimbus",
+  "feature": "nimbus_style",
+  "style": "nimbus_cumulus",
+  "cosmetic_items": [
+    "minecraft:white_wool"
+  ],
+  "lines": [
+    "exeggcute",
+    "scyther",
+    "remoraid",
+    "lugia",
+    "surskit",
+    "wailmer",
+    "oshawott",
+    "stunfisk",
+    "druddigon",
+    "tornadus",
+    "meloetta",
+    "inkay",
+    "wishiwashi",
+    "typenull",
+    "tapulele",
+    "arctovish",
+    "glastrier",
+    "fezandipiti"
+  ],
+  "line_styles": {
+    "lugia": "nimbus_cumulus",
+    "wailmer": "nimbus_cumulus",
+    "surskit": "nimbus_cumulus",
+    "tornadus": "nimbus_storm",
+    "druddigon": "nimbus_storm",
+    "scyther": "nimbus_storm",
+    "fezandipiti": "nimbus_sunset",
+    "exeggcute": "nimbus_sunset",
+    "remoraid": "nimbus_sunset",
+    "wishiwashi": "nimbus_rain",
+    "stunfisk": "nimbus_rain",
+    "arctovish": "nimbus_rain",
+    "typenull": "nimbus_silver_lining",
+    "glastrier": "nimbus_silver_lining",
+    "inkay": "nimbus_silver_lining",
+    "meloetta": "nimbus_dream",
+    "tapulele": "nimbus_dream",
+    "oshawott": "nimbus_dream"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 25,
+    "title": "Nimbus",
+    "example": "lugia",
+    "summary": "Pokemon made of sky and cloud.",
+    "looks": [
+      "each line wears one look: cumulus, fluffy white clouds on a blue sky (Lugia, Wailmer, Surskit); storm, a dark thunderhead with slanting rain and lightning (Tornadus, Druddigon, Scyther); sunset, clouds lit gold, pink and violet (Fezandipiti, Exeggcute, Remoraid); rain, grey clouds with raindrops falling down the body (Wishiwashi, Stunfisk, Arctovish); silver lining, dark clouds with shining silver edges (Type: Null, Glastrier, Inkay); cloud nine, pastel dream clouds with twinkling stars (Meloetta, Tapu Lele, Oshawott)",
+      "lightning strikes, rain falls, linings shine and stars twinkle in the dark; soft glowing eyes",
+      "shiny: the sky turned round the colour wheel"
+    ]
+  }
+}

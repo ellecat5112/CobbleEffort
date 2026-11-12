@@ -1,0 +1,133 @@
+{
+  "species": "cobblemon:greninja",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_emissive_pajama.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_transparency_pajama.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_emissive_shiny_pajama.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pajama/0658_greninja/greninja_transparency_shiny_pajama.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ash",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_emissive_pajama.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_transparency_pajama.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ash",
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_emissive_shiny_pajama.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_ash_transparency_shiny_pajama.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_mega_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "pajama"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/pajama/compat/mega_showdown/0658_greninja/greninja_mega_shiny_pajama.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "species": "cobblemon:oshawott",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_nimbus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_shiny_nimbus.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_shiny_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_shiny_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_shiny_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0501_oshawott/oshawott_shiny_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "nimbus"
+      ],
+      "texture": "cobblemon:textures/pokemon/0501_oshawott/oshawott_hisui_bias.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shiny",
+        "nimbus"
+      ],
+      "texture": "cobblemon:textures/pokemon/0501_oshawott/oshawott_hisui_bias_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sky",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -89,6 +89,20 @@ made by the Cobblemon team and contributors.
   each fox's palette with combed strokes, kitsune mask markings placed from the model's face hints, foxfire on the
   topmost parts, rope and paper shide, maple leaves or stars, and an emissive layer where the fire flickers and wisps
   drift; shinies hue-turned.
+* **Super Mario** (`tools/styles/mario_*.py`, `_mario.py`; textures under `.../pokemon/super_mario/`): original painted
+  patterns inspired by the Super Mario games (Nintendo's; no sprites or art copied): spotted caps, flower emblems,
+  stars, ? blocks, overalls and shell plates over the original's shading, with an emissive layer for fireballs, ?
+  marks and the star's flashing colours.
+* **Nimbus** (`tools/styles/nimbus_*.py`, `_nimbus.py`; textures under `.../pokemon/nimbus/`): procedural clouds over
+  sky gradients, with rain, lightning, silver linings and stars in an animated emissive layer; shinies hue-turned.
+* **Pajama** (`tools/styles/pajama_*.py`, `_pajama.py`; textures under `.../pokemon/pajama/`): fabric prints (stripes,
+  dots, plaid, moons and stars, fleece, gingham) with flannel shading, a button placket and cuffs; glow-in-the-dark
+  stars in an emissive layer.
+* **Pinkan Island** (`tools/styles/pinkan_*.py`, `_pinkan.py`; textures under `.../pokemon/pinkan/`): the original's
+  light and dark remapped to six pinks (an idea from the anime's Pinkan Island), with berries, highlights or a leaf
+  print and twinkling sparkles.
+* **Prismatic** (`tools/styles/prism_*.py`, `_prism.py`; textures under `.../pokemon/prismatic/`): rainbow foil,
+  spectrum, crystal facets, opal, oil-slick and refracted-light patterns, with an emissive layer whose colours cycle.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:masquerain",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_nimbus.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_wings_nimbus.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "nimbus"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_shiny_nimbus.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_wings_shiny_nimbus.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sky",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_shiny_nimbus_sky_0.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_shiny_nimbus_sky_1.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_shiny_nimbus_sky_2.png",
+              "cobbleeffort:textures/pokemon/nimbus/0284_masquerain/masquerain_shiny_nimbus_sky_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

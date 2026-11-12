@@ -1,0 +1,240 @@
+{
+  "species": "cobblemon:pumpkaboo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-small",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-large",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pumpkin-size-super",
+        "shiny",
+        "super_mario"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_emissive_super_mario.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_power",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_0.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_1.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_2.png",
+              "cobbleeffort:textures/pokemon/super_mario/0710_pumpkaboo/pumpkaboo_shiny_super_mario_power_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

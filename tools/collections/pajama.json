@@ -1,0 +1,61 @@
+{
+  "_comment": "Pajama collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed pajama-sleepover` (since #24 collections may share lines; picks take never-used lines first), then given a look each (three lines per look). Shared look in styles/_pajama.py.",
+  "aspect": "pajama",
+  "feature": "pajama_style",
+  "style": "pajama_stripes",
+  "cosmetic_items": [
+    "minecraft:white_bed"
+  ],
+  "lines": [
+    "ditto",
+    "houndour",
+    "treecko",
+    "roselia",
+    "sawk",
+    "minccino",
+    "alomomola",
+    "deino",
+    "terrakion",
+    "froakie",
+    "drampa",
+    "tapubulu",
+    "skwovet",
+    "arrokuda",
+    "regieleki",
+    "spectrier",
+    "orthworm",
+    "chienpao"
+  ],
+  "line_styles": {
+    "sawk": "pajama_stripes",
+    "arrokuda": "pajama_stripes",
+    "regieleki": "pajama_stripes",
+    "ditto": "pajama_polka",
+    "alomomola": "pajama_polka",
+    "roselia": "pajama_polka",
+    "terrakion": "pajama_plaid",
+    "tapubulu": "pajama_plaid",
+    "skwovet": "pajama_plaid",
+    "houndour": "pajama_moons",
+    "deino": "pajama_moons",
+    "spectrier": "pajama_moons",
+    "minccino": "pajama_footie",
+    "drampa": "pajama_footie",
+    "orthworm": "pajama_footie",
+    "treecko": "pajama_gingham",
+    "froakie": "pajama_gingham",
+    "chienpao": "pajama_gingham"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 26,
+    "title": "Pajama",
+    "example": "minccino",
+    "summary": "Pokemon ready for bed in soft printed sleepwear.",
+    "looks": [
+      "each line wears one look: blue pinstripes (Sawk, Arrokuda, Regieleki); pink with white polka dots (Ditto, Alomomola, Roselia); red flannel plaid (Terrakion, Tapu Bulu, Skwovet); navy with moons and glow-in-the-dark stars (Houndour, Deino, Spectrier); a mint footie onesie with a cream belly and grippy soles (Minccino, Drampa, Orthworm); yellow gingham (Treecko, Froakie, Chien-Pao)",
+      "soft flannel shading, a button placket down the chest and ankle cuffs; the eyes keep their own colours",
+      "shiny: the fabric's colours turned round the colour wheel"
+    ]
+  }
+}

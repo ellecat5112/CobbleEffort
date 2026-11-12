@@ -1,0 +1,64 @@
+{
+  "portraitScale": 1.99,
+  "portraitTranslation": [-0.27, 2.29, 0],
+  "profileScale": 0.56,
+  "profileTranslation": [0, 1.2, 0],
+  "animations": {
+    "cry": "q.bedrock_stateful('ce_aegislash', 'cry')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": ["PORTRAIT"],
+      "animations": [
+        "q.look('body')", 
+        "q.bedrock('ce_aegislash', 'blade_forme')"
+      ],
+      "quirks": ["q.bedrock_quirk('ce_aegislash', 'blink')"]
+    }, 
+    "profile": {
+      "poseTypes": ["PROFILE"],
+      "animations": [
+        "q.look('body')", 
+        "q.bedrock('ce_aegislash', 'blade_forme')"
+      ],
+      "quirks": ["q.bedrock_quirk('ce_aegislash', 'blink')"]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "FLOAT", "HOVER"],
+      "isBattle": false,
+      "animations": [
+        "q.look('body')", 
+        "q.bedrock('ce_aegislash', 'battle_idle')"
+      ],
+      "quirks": ["q.bedrock_quirk('ce_aegislash', 'blink')"]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND","FLOAT","HOVER"],
+      "isBattle": true,
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('ce_aegislash', 'blade_forme')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ce_aegislash', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM", "FLY"],
+      "animations": [
+        "q.look('body')",
+        "q.bedrock('ce_aegislash', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('ce_aegislash', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('ce_aegislash', 'sleep')"]
+    }
+  }
+}
+   
+   
+   

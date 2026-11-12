@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -758,6 +758,124 @@ Varoom → Revavroom · Okidogi
 Picked with `generate.py pick --count 18 --seed kitsune-foxfire` from the 73 remaining eligible lines.
 
 ![Original vs. kitsune](docs/kitsune_preview.png)
+
+## Collection #24: Super Mario
+
+18 evolutionary lines (**33 Pokémon**) dressed as power-ups and plumbing heroes (original patterns inspired by the
+Super Mario games; three lines per look):
+
+* **super mushroom** (Morelull, Chansey, Spinda): a red cap with big white spots over a cream stem
+* **fire flower** (Heatmor, Oricorio, Bellsprout): white over red, a fire-flower emblem and **glowing fireballs**
+* **super star** (Pachirisu, Ralts, Psyduck): star gold with a star on the chest, **flashing every colour**
+* **? block** (Pumpkaboo, Bramblin, Lapras): golden ? blocks with **blinking** ? marks over a brick base
+* **plumber** (Kubfu, Meditite, Indeedee): a red shirt, blue overalls with gold buttons and brown boots
+* **koopa shell** (Dewpider, Woobat, Darkrai): green shell plates with cream seams over yellow skin
+* the eyes keep their own colours; other forms (Mega Victreebel, Gardevoir, Gallade and Medicham, Gigantamax Lapras
+  and Urshifu, every Oricorio style, Rapid Strike Urshifu) wear the look too
+* shiny: the other power-ups: the green 1-up mushroom, the ice flower, blue underground blocks, green shirt and navy
+  overalls, a red shell
+
+Psyduck → Golduck · Bellsprout → Weepinbell → Victreebel · Happiny → Chansey → Blissey · Lapras ·
+Ralts → Kirlia → Gardevoir / Gallade · Meditite → Medicham · Spinda · Pachirisu · Darkrai · Woobat → Swoobat ·
+Heatmor · Pumpkaboo → Gourgeist · Oricorio · Dewpider → Araquanid · Morelull → Shiinotic · Indeedee ·
+Kubfu → Urshifu · Bramblin → Brambleghast
+
+Picked with `generate.py pick --count 18 --seed super-star-power-up` (all never-used lines).
+
+![Original vs. Super Mario](docs/super_mario_preview.png)
+
+## Collection #25: Nimbus
+
+18 evolutionary lines (**28 Pokémon**) made of sky and cloud (three lines per look):
+
+* **cumulus** (Lugia, Wailmer, Surskit): fluffy white clouds billowing over a blue sky
+* **storm** (Tornadus, Druddigon, Scyther): a dark thunderhead with slanting rain; lightning **strikes** in the dark
+* **sunset** (Fezandipiti, Exeggcute, Remoraid): clouds lit gold, pink and violet, their edges glowing
+* **rain** (Wishiwashi, Stunfisk, Arctovish): grey clouds over the top, raindrops **falling** down the body
+* **silver lining** (Type: Null, Glastrier, Inkay): dark clouds whose edges shine silver
+* **cloud nine** (Meloetta, Tapu Lele, Oshawott): pastel dream clouds with **twinkling** stars
+* soft glowing eyes; other forms (Mega Scizor and Malamar, Therian Tornadus, Pirouette Meloetta, School Wishiwashi)
+  wear the look too
+* shiny: the sky turned round the colour wheel
+
+Exeggcute → Exeggutor · Scyther → Scizor / Kleavor · Remoraid → Octillery · Lugia · Surskit → Masquerain ·
+Wailmer → Wailord · Oshawott → Dewott → Samurott · Stunfisk · Druddigon · Tornadus · Meloetta · Inkay → Malamar ·
+Wishiwashi · Type: Null → Silvally · Tapu Lele · Arctovish · Glastrier · Fezandipiti
+
+Picked with `generate.py pick --count 18 --seed nimbus-cloud-nine` (all never-used lines).
+
+![Original vs. Nimbus](docs/nimbus_preview.png)
+
+## Collection #26: Pajama
+
+18 evolutionary lines (**30 Pokémon**) ready for bed in soft printed sleepwear, with flannel shading, a button
+placket down the chest and ankle cuffs (three lines per look):
+
+* **pinstripes** (Sawk, Arrokuda, Regieleki): classic sky-blue and white
+* **polka dots** (Ditto, Alomomola, Roselia): pink with white dots
+* **flannel plaid** (Terrakion, Tapu Bulu, Skwovet): red tartan
+* **moons and stars** (Houndour, Deino, Spectrier): navy with yellow moons and **glow-in-the-dark** stars
+* **footie onesie** (Minccino, Drampa, Orthworm): mint fleece with a cream belly and grippy soles
+* **gingham** (Treecko, Froakie, Chien-Pao): sunny yellow check
+* the eyes keep their own colours; other forms (Mega Houndoom, Sceptile, Greninja and Drampa, Ash-Greninja) wear the
+  pajamas too
+* shiny: the fabric's colours turned round the colour wheel
+
+Ditto · Houndour → Houndoom · Treecko → Grovyle → Sceptile · Budew → Roselia → Roserade · Sawk ·
+Minccino → Cinccino · Alomomola · Deino → Zweilous → Hydreigon · Terrakion · Froakie → Frogadier → Greninja ·
+Drampa · Tapu Bulu · Skwovet → Greedent · Arrokuda → Barraskewda · Regieleki · Spectrier · Orthworm · Chien-Pao
+
+Picked with `generate.py pick --count 18 --seed pajama-sleepover` (all never-used lines).
+
+![Original vs. pajama](docs/pajama_preview.png)
+
+## Collection #27: Pinkan Island
+
+18 evolutionary lines (**36 Pokémon**) turned pink by Pinkan Berries, like the Pokémon of the anime's Pinkan Island
+(three lines per pink):
+
+* **Pinkan pink** (Growlithe, Doduo, Zigzagoon): the classic, light and dark kept
+* **Pinkan Berries** (Skwovet, Carbink, Cryogonal): pink with clusters of darker berries
+* **bubblegum** (Alomomola, Espurr, Spheal): soft pastel with white highlights
+* **hot pink** (Scraggy, Honedge, Gastly): vivid magenta-pink
+* **flamingo coral** (Skrelp, Tentacool, Drampa): warm coral pink
+* **Pinkan jungle** (Petilil, Tapu Koko, Venipede): pink with a jungle-leaf print
+* tiny pink sparkles **twinkle**; the eyes keep their own colours; other forms (Mega Gengar, Scolipede, Scrafty,
+  Meowstic, Dragalge and Drampa, Gigantamax Gengar, Blade Forme Aegislash) are pink too
+* shiny: lavender-pink instead of rose
+
+Growlithe → Arcanine · Tentacool → Tentacruel · Doduo → Dodrio · Gastly → Haunter → Gengar ·
+Zigzagoon → Linoone → Obstagoon · Spheal → Sealeo → Walrein · Venipede → Whirlipede → Scolipede ·
+Petilil → Lilligant · Scraggy → Scrafty · Alomomola · Cryogonal · Espurr → Meowstic · Honedge → Doublade → Aegislash ·
+Skrelp → Dragalge · Carbink · Drampa · Tapu Koko · Skwovet → Greedent
+
+Picked with `generate.py pick --count 18 --seed pinkan-island-berry` (Cryogonal the last never-used line, the rest
+lines already in one other collection).
+
+![Original vs. Pinkan](docs/pinkan_preview.png)
+
+## Collection #28: Prismatic
+
+18 evolutionary lines (**37 Pokémon**) that split light into every colour (three lines per look):
+
+* **holo foil** (Rattata, Bidoof, Pikipek): silver foil with rainbow sheen bands
+* **spectrum** (Ekans, Poliwag, Basculin): the full spectrum from red feet to a violet top
+* **crystal facets** (Sableye, Sandshrew, Crabrawler): facets each a different hue, bright white edges
+* **opal** (Shuppet, Mimikyu, Lillipup): milky opal with flashes of play-of-colour
+* **oil slick** (Nymble, Carnivine, Arctozolt): dark graphite with a swirling thin-film sheen
+* **prism light** (Sudowoodo, Chespin, Mudbray): white glass crossed by beams of refracted light
+* the colours **shift round the wheel** in the dark; rainbow eyes; other forms (Mega Sableye, Banette, Chesnaught and
+  Crabominable, Extra Megas' Mega Raticate, Busted Mimikyu) wear the look too
+* shiny: black opal, a darker body that makes the colours blaze
+
+Rattata → Raticate · Ekans → Arbok · Sandshrew → Sandslash · Poliwag → Poliwhirl → Poliwrath / Politoed ·
+Bonsly → Sudowoodo · Sableye · Shuppet → Banette · Bidoof → Bibarel · Carnivine · Lillipup → Herdier → Stoutland ·
+Basculin → Basculegion · Chespin → Quilladin → Chesnaught · Pikipek → Trumbeak → Toucannon ·
+Crabrawler → Crabominable · Mudbray → Mudsdale · Mimikyu · Arctozolt · Nymble → Lokix
+
+Picked with `generate.py pick --count 18 --seed prismatic-spectrum` (lines already in one other collection).
+
+![Original vs. prismatic](docs/prismatic_preview.png)
 
 ### How to get one
 
