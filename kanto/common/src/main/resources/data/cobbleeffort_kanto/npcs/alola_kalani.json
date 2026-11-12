@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Normal Gym Leader Kalani"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_kalani"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "yungoos level=14",
+      "pikipek level=15",
+      "stufful level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ground Gym Leader Tamsin"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_tamsin"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "drilbur level=34",
+      "krokorok level=35",
+      "palpitoad level=36",
+      "stunfisk level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

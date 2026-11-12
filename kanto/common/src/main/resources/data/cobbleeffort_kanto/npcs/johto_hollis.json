@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fighting Gym Leader Hollis"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_hollis"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "tyrogue level=29",
+      "hitmontop level=30",
+      "heracross level=31"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

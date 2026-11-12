@@ -1,0 +1,248 @@
+[
+  {
+    "id": "alola_normal",
+    "label": "Normal Gym",
+    "template": "cobbleeffort_kanto:gym/alola_normal",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_kalani",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_normal_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/alola_water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_makoa",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_water_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_fire",
+    "label": "Fire Gym",
+    "template": "cobbleeffort_kanto:gym/alola_fire",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_leilani",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_fire_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/alola_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_nalu",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/alola_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_keoni",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_ghost",
+    "label": "Ghost Gym",
+    "template": "cobbleeffort_kanto:gym/alola_ghost",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_mahina",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_ghost_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_fairy",
+    "label": "Fairy Gym",
+    "template": "cobbleeffort_kanto:gym/alola_fairy",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_ikaika",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_fairy_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_ground",
+    "label": "Ground Gym",
+    "template": "cobbleeffort_kanto:gym/alola_ground",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_pua",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "alola_ground_badge"
+      }
+    ]
+  },
+  {
+    "id": "alola_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/alola_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:alola_kaimana",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:alola_nohea",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:alola_lani",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:alola_akoni",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

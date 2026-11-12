@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ghost Gym Leader Joaquin"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_joaquin"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "brambleghast level=39",
+      "houndstone level=40",
+      "sinistcha level=41",
+      "ceruledge level=42"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

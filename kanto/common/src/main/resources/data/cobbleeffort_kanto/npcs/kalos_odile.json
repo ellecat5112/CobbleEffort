@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Odile"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_odile"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "fletchinder level=54",
+      "braixen level=55",
+      "talonflame level=56",
+      "pyroar level=57",
+      "delphox level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

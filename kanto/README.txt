@@ -85,7 +85,36 @@ INSTALL
   Needs: Cobblemon 1.8.4+, CobbleEffort: Distortion 0.12.0+ (for the Distortion Crystal), Architectury API.
   Install it on the server too. Kanto is a new dimension: it's there in new and existing worlds.
 
+EVERY REGION'S LEAGUE (NEW in 0.4.0)
+  Every region has its own league, like Kanto's: the first time anyone arrives in a region, its eight gyms and its
+  Elite Four hall are built round that region's centre (the same places as in Kanto: about 320 blocks out, the hall at
+  0, 0). Kanto tells you where they are when you arrive, and /kanto gyms lists the region you're in (or
+  /kanto gyms johto, hoenn...). Every leader and Elite Four member is an original character with a team from that
+  region's own generation, getting stronger from the first gym (levels 14+) to the Elite Four (levels 54-62).
+  Each gym gives its own badge (e.g. the Johto Flying Badge); a region's Elite Four only battle trainers holding all
+  eight of THAT region's badges, and beating all four gives that region's Champion Ribbon.
+    Johto   gyms: Flying (Wren), Bug (Sable), Normal (Corin), Fighting (Hollis), Steel (Brannock), Ice (Ferris), Psychic (Aster), Poison (Draven)
+            Elite Four: Mireille (Dark), Thorne (Fire), Kestrel (Water), Vesper (Grass)
+    Hoenn   gyms: Rock (Marisol), Fighting (Cobalt), Electric (Rhea), Fire (Pell), Normal (Tasman), Flying (Cirrus), Psychic (Lumen), Water (Halia)
+            Elite Four: Sorrel (Dark), Nerine (Ghost), Basalt (Ice), Corvina (Dragon)
+    Sinnoh  gyms: Rock (Linnea), Grass (Gerd), Fighting (Holm), Water (Frida), Ghost (Torvald), Steel (Isak), Ice (Saga), Electric (Embla)
+            Elite Four: Runa (Bug), Valdis (Ground), Eir (Fire), Brage (Psychic)
+    Unova   gyms: Grass (Jett), Normal (Marlow), Bug (Ceci), Electric (Dorian), Ground (Tamsin), Flying (Rook), Ice (Indigo), Dragon (Halcyon)
+            Elite Four: Vale (Ghost), Odessa (Dark), Cyprus (Psychic), Nyx (Fighting)
+    Kalos   gyms: Bug (Amelie), Rock (Bastien), Fighting (Coralie), Grass (Fleur), Electric (Gaspard), Fairy (Lucien), Psychic (Margaux), Ice (Sylvain)
+            Elite Four: Odile (Fire), Thibault (Water), Celeste (Steel), Aurelien (Dragon)
+    Alola   gyms: Normal (Kalani), Water (Makoa), Fire (Leilani), Grass (Nalu), Electric (Keoni), Ghost (Mahina), Fairy (Ikaika), Ground (Pua)
+            Elite Four: Kaimana (Rock), Nohea (Flying), Lani (Bug), Akoni (Fighting)
+    Galar   gyms: Grass (Bryony), Water (Rowan), Fire (Imogen), Fighting (Ewan), Ghost (Morwenna), Fairy (Callum), Rock (Heddwyn), Ice (Fenella)
+            Elite Four: Gareth (Dark), Isolde (Dragon), Lachlan (Psychic), Rhiannon (Steel)
+    Paldea  gyms: Bug (Ines), Grass (Mateo), Electric (Lucia), Water (Rafael), Normal (Carmen), Ghost (Joaquin), Psychic (Pilar), Rock (Tomas)
+            Elite Four: Alba (Steel), Ignacio (Fairy), Rocio (Dragon), Esteban (Flying)
+  Operators: /kanto rebuild (the region you're in) or /kanto rebuild <region> builds the gyms and trainers again.
+  Building waits for the area to load in the background, so arriving in a new region doesn't freeze the server.
+
 PLEASE TEST AND REPORT
+  0.4.0: travel to another region: do its gyms appear (/kanto gyms), can you battle its leaders, do you get its
+  badges, and does its Elite Four ask for that region's eight badges?
   0.3.0: /locate each landmark, use its portal (and the pad's portal to come back). Do the right Pokemon spawn in
   each region? Does the Galar tree look right, and is its engraved bark reachable at the end of the path?
   0.2.0: battle a gym leader (do you get the badge?), try the Elite Four without and with 8 badges, find Kantonian
@@ -99,6 +128,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.4.0: every region (Johto to Paldea) has its own eight gyms, Elite Four, badges and Champion Ribbon; gym building
+         loads its chunks in the background (no server freeze).
   0.3.0: Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar and Paldea: a dimension each (only that generation's
          Pokemon), a landmark each with its portal block, arrival pads with a way home.
   0.2.0: the gyms, the Elite Four, badges and the Champion Ribbon; Kantonian ore, ingots and armor with 9 outfits;

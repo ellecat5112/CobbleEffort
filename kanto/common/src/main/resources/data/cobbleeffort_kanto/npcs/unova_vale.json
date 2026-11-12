@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Vale"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_vale"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "lampent level=54",
+      "jellicent level=55",
+      "cofagrigus level=56",
+      "golurk level=57",
+      "chandelure level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

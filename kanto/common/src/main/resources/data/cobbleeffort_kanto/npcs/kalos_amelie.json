@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Bug Gym Leader Amelie"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_amelie"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "scatterbug level=14",
+      "spewpa level=15",
+      "vivillon level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

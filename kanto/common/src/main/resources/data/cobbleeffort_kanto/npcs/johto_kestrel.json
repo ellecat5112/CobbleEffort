@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Kestrel"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_kestrel"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "mantine level=58",
+      "slowking level=59",
+      "politoed level=60",
+      "feraligatr level=61",
+      "kingdra level=62"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Grass Gym Leader Jett"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_jett"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "cottonee level=14",
+      "petilil level=15",
+      "foongus level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

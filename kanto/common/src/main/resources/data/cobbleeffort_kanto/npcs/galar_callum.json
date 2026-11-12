@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Fairy Gym Leader Callum"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_callum"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "milcery level=39",
+      "morgrem level=40",
+      "alcremie level=41",
+      "grimmsnarl level=42"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

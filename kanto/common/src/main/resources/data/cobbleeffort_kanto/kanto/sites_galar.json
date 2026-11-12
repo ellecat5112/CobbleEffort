@@ -1,0 +1,248 @@
+[
+  {
+    "id": "galar_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/galar_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_bryony",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/galar_water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_rowan",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_water_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_fire",
+    "label": "Fire Gym",
+    "template": "cobbleeffort_kanto:gym/galar_fire",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_imogen",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_fire_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_fighting",
+    "label": "Fighting Gym",
+    "template": "cobbleeffort_kanto:gym/galar_fighting",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_ewan",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_fighting_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_ghost",
+    "label": "Ghost Gym",
+    "template": "cobbleeffort_kanto:gym/galar_ghost",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_morwenna",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_ghost_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_fairy",
+    "label": "Fairy Gym",
+    "template": "cobbleeffort_kanto:gym/galar_fairy",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_callum",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_fairy_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/galar_rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_heddwyn",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_ice",
+    "label": "Ice Gym",
+    "template": "cobbleeffort_kanto:gym/galar_ice",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_fenella",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "galar_ice_badge"
+      }
+    ]
+  },
+  {
+    "id": "galar_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/galar_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:galar_gareth",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:galar_isolde",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:galar_lachlan",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:galar_rhiannon",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

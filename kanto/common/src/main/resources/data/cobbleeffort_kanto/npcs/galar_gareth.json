@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Gareth"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_gareth"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "morpeko level=54",
+      "thievul level=55",
+      "grimmsnarl level=56",
+      "overqwil level=57",
+      "obstagoon level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

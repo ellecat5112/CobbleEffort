@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Normal Gym Leader Corin"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_corin"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "smeargle level=24",
+      "hoothoot level=25",
+      "teddiursa level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

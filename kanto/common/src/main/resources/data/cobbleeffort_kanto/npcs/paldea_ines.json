@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Bug Gym Leader Ines"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_ines"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "nymble level=14",
+      "tarountula level=15",
+      "rellor level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Brage"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_brage"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "chingling level=60",
+      "bronzor level=61",
+      "mimejr level=62",
+      "bronzong level=63",
+      "gallade level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

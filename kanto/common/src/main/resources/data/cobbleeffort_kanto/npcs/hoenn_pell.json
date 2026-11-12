@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Fire Gym Leader Pell"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_pell"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "numel level=29",
+      "torchic level=30",
+      "combusken level=31",
+      "camerupt level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

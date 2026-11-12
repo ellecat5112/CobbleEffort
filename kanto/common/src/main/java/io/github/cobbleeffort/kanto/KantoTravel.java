@@ -76,7 +76,7 @@ public final class KantoTravel {
             player.teleportTo(dest, x + 0.5, y, z + 0.5, player.getYRot(), player.getXRot());
             effects(player);
             player.displayClientMessage(Component.translatable(Kanto.MOD_ID + ".arrived." + region.id), true);
-            if (region == Region.KANTO) KantoGyms.arrived(player, dest);
+            KantoGyms.arrived(player, dest, region);
         } catch (Throwable t) {
             Kanto.LOG.error("Travelling to {} failed", region.id, t);
         }

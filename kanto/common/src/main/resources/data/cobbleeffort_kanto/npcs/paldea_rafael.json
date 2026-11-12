@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Water Gym Leader Rafael"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_rafael"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "quaxly level=29",
+      "finizen level=30",
+      "quaxwell level=31",
+      "wugtrio level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "kalos_bug",
+    "label": "Bug Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_bug",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_amelie",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_bug_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_bastien",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_fighting",
+    "label": "Fighting Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_fighting",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_coralie",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_fighting_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_fleur",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_gaspard",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_fairy",
+    "label": "Fairy Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_fairy",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_lucien",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_fairy_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_psychic",
+    "label": "Psychic Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_psychic",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_margaux",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_psychic_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_ice",
+    "label": "Ice Gym",
+    "template": "cobbleeffort_kanto:gym/kalos_ice",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_sylvain",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "kalos_ice_badge"
+      }
+    ]
+  },
+  {
+    "id": "kalos_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/kalos_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:kalos_odile",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:kalos_thibault",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:kalos_celeste",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:kalos_aurelien",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

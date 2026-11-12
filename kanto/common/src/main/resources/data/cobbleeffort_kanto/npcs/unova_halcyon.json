@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Dragon Gym Leader Halcyon"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_halcyon"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "fraxure level=48",
+      "zweilous level=49",
+      "druddigon level=50",
+      "haxorus level=51",
+      "hydreigon level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Rhiannon"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_rhiannon"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "cufant level=60",
+      "perrserker level=61",
+      "corviknight level=62",
+      "copperajah level=63",
+      "duraludon level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

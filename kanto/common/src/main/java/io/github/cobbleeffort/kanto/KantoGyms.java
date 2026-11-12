@@ -53,12 +53,65 @@ import java.util.Map;
  * the Elite Four only battle trainers holding all eight; beating all four gives the Champion Ribbon.
  */
 public final class KantoGyms {
-    private static final Deque<Runnable> QUEUE = new ArrayDeque<>();
-    private static List<Site> sites;
-    /** NPC class id -> badge item id (gym leaders) or "" (Elite Four). */
-    private static final Map<ResourceLocation, String> ROLES = new HashMap<>();
+    private static final Deque<Job> QUEUE = new ArrayDeque<>();
+    /** A non-persistent chunk ticket: a site's chunks load (and generate) off the main thread before it's built. */
+    private static final net.minecraft.server.level.TicketType<net.minecraft.world.level.ChunkPos> TICKET =
+            net.minecraft.server.level.TicketType.create(Kanto.MOD_ID + "_gym", java.util.Comparator.comparingLong(net.minecraft.world.level.ChunkPos::toLong));
+
+    /** One queued step: build a site once its chunks are loaded, or (site == null) a final action. */
+    static final class Job {
+        final ServerLevel level;
+        final Site site;
+        final Runnable then;
+        final List<net.minecraft.world.level.ChunkPos> chunks = new ArrayList<>();
+        boolean requested;
+        int waited;
+
+        Job(ServerLevel level, Site site, Runnable then) {
+            this.level = level;
+            this.site = site;
+            this.then = then;
+            if (site != null) {
+                int half = Math.max(site.w(), site.d()) / 2 + 1;
+                for (int cx = (site.x() - half) >> 4; cx <= (site.x() + half) >> 4; cx++) {
+                    for (int cz = (site.z() - half) >> 4; cz <= (site.z() + half) >> 4; cz++) {
+                        chunks.add(new net.minecraft.world.level.ChunkPos(cx, cz));
+                    }
+                }
+            }
+        }
+
+        /** True when done (built, or given up). */
+        boolean step() {
+            if (site == null) {
+                then.run();
+                return true;
+            }
+            var cache = level.getChunkSource();
+            if (!requested) {
+                for (var c : chunks) cache.addRegionTicket(TICKET, c, 1, c);
+                requested = true;
+                return false;
+            }
+            boolean ready = chunks.stream().allMatch(c -> cache.getChunkNow(c.x, c.z) != null);
+            if (!ready && ++waited < 20 * 120) return false;                 // wait up to two minutes
+            try {
+                if (ready) build(level, site);
+                else Kanto.LOG.warn("Gave up building {}: its chunks didn't load", site.label());
+            } finally {
+                for (var c : chunks) cache.removeRegionTicket(TICKET, c, 1, c);
+            }
+            return true;
+        }
+    }
+    private static final Map<Region, List<Site>> SITES = new java.util.EnumMap<>(Region.class);
+    /** NPC class id -> its region and badge item id (gym leaders) or "" (Elite Four). */
+    private static final Map<ResourceLocation, Role> ROLES = new HashMap<>();
 
     private KantoGyms() {
+    }
+
+    record Role(Region region, String badge) {
     }
 
     record Trainer(ResourceLocation npc, int x, int y, int z, float yaw, String badge, boolean elite) {
@@ -67,11 +120,19 @@ public final class KantoGyms {
     record Site(String id, String label, ResourceLocation template, int w, int h, int d, int x, int z, List<Trainer> trainers) {
     }
 
-    static synchronized List<Site> sites() {
-        if (sites != null) return sites;
-        sites = new ArrayList<>();
-        try (InputStream in = KantoGyms.class.getResourceAsStream("/data/" + Kanto.MOD_ID + "/kanto/sites.json")) {
-            if (in == null) return sites;
+    static String nameOf(Region r) {
+        return r.id.substring(0, 1).toUpperCase() + r.id.substring(1);
+    }
+
+    /** Kanto's sites (sites.json) or another region's (sites_<region>.json): written by tools/make_assets.py. */
+    static synchronized List<Site> sites(Region region) {
+        List<Site> cached = SITES.get(region);
+        if (cached != null) return cached;
+        List<Site> list = new ArrayList<>();
+        SITES.put(region, list);
+        String file = region == Region.KANTO ? "sites.json" : "sites_" + region.id + ".json";
+        try (InputStream in = KantoGyms.class.getResourceAsStream("/data/" + Kanto.MOD_ID + "/kanto/" + file)) {
+            if (in == null) return list;
             JsonArray all = JsonParser.parseReader(new InputStreamReader(in, StandardCharsets.UTF_8)).getAsJsonArray();
             for (JsonElement e : all) {
                 JsonObject o = e.getAsJsonObject();
@@ -84,24 +145,36 @@ public final class KantoGyms {
                             pos.get(2).getAsInt(), t.get("yaw").getAsFloat(), t.has("badge") ? t.get("badge").getAsString() : null,
                             t.has("elite") && t.get("elite").getAsBoolean());
                     trainers.add(tr);
-                    ROLES.put(tr.npc(), tr.badge() != null ? tr.badge() : "");
+                    ROLES.put(tr.npc(), new Role(region, tr.badge() != null ? tr.badge() : ""));
                 }
-                sites.add(new Site(o.get("id").getAsString(), o.get("label").getAsString(), ResourceLocation.parse(o.get("template").getAsString()),
+                list.add(new Site(o.get("id").getAsString(), o.get("label").getAsString(), ResourceLocation.parse(o.get("template").getAsString()),
                         size.get(0).getAsInt(), size.get(1).getAsInt(), size.get(2).getAsInt(), o.get("x").getAsInt(), o.get("z").getAsInt(), trainers));
             }
         } catch (Exception ex) {
-            Kanto.LOG.error("Couldn't read Kanto's sites", ex);
+            Kanto.LOG.error("Couldn't read {}'s sites", region.id, ex);
         }
-        return sites;
+        return list;
+    }
+
+    static void loadAll() {
+        for (Region r : Region.values()) sites(r);
+    }
+
+    /** The badge item ids of a region's gyms. */
+    static List<String> badgesOf(Region region) {
+        List<String> out = new ArrayList<>();
+        for (Site s : sites(region)) for (Trainer t : s.trainers()) if (t.badge() != null) out.add(t.badge());
+        return out;
     }
 
     public static void init() {
         TickEvent.SERVER_POST.register(server -> {
-            Runnable next = QUEUE.poll();
+            Job next = QUEUE.peek();
             if (next == null) return;
             try {
-                next.run();
+                if (next.step()) QUEUE.poll();
             } catch (Throwable t) {
+                QUEUE.poll();
                 Kanto.LOG.error("Building a Kanto site failed", t);
             }
         });
@@ -129,29 +202,31 @@ public final class KantoGyms {
 
     // --- building ---------------------------------------------------------------------------------------------------
 
-    /** On arrival in Kanto: build the sites if they aren't yet, and tell the player where they are. */
-    static void arrived(ServerPlayer player, ServerLevel kanto) {
-        if (ensureBuilt(kanto, false)) player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".gyms.building"));
-        player.sendSystemMessage(where());
+    /** On arrival in a region: build its sites if they aren't yet, and tell the player where they are. */
+    static void arrived(ServerPlayer player, ServerLevel level, Region region) {
+        if (sites(region).isEmpty()) return;
+        if (ensureBuilt(level, region, false)) player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".gyms.building"));
+        player.sendSystemMessage(where(region));
     }
 
-    static Component where() {
+    static Component where(Region region) {
         List<String> where = new ArrayList<>();
-        for (Site s : sites()) where.add(s.label() + " " + s.x() + ", " + s.z());
-        return Component.translatable(Kanto.MOD_ID + ".gyms.list", String.join("; ", where));
+        for (Site s : sites(region)) where.add(s.label() + " " + s.x() + ", " + s.z());
+        if (region == Region.KANTO) return Component.translatable(Kanto.MOD_ID + ".gyms.list", String.join("; ", where));
+        return Component.translatable(Kanto.MOD_ID + ".gyms.list.region", nameOf(region), String.join("; ", where));
     }
 
-    /** Queue the sites' building (once, or again when forced: /kanto rebuild). True when queued now. */
-    static boolean ensureBuilt(ServerLevel kanto, boolean force) {
-        Built built = built(kanto);
+    /** Queue a region's sites' building (once, or again when forced: /kanto rebuild). True when queued now. */
+    static boolean ensureBuilt(ServerLevel level, Region region, boolean force) {
+        Built built = built(level);
         if ((built.done && !force) || built.queued) return false;
         built.queued = true;
-        for (Site site : sites()) QUEUE.add(() -> build(kanto, site));
-        QUEUE.add(() -> {
+        for (Site site : sites(region)) QUEUE.add(new Job(level, site, null));
+        QUEUE.add(new Job(level, null, () -> {
             built.done = true;
             built.queued = false;
             built.setDirty();
-        });
+        }));
         return true;
     }
 
@@ -249,17 +324,23 @@ public final class KantoGyms {
     }
 
     private static void eliteGate(com.cobblemon.mod.common.api.events.battles.BattleStartedEvent.Pre event) {
-        sites();
-        boolean elite = false;
+        loadAll();
+        Region region = null;
         for (BattleActor a : event.getBattle().getActors()) {
-            if (a instanceof NPCBattleActor npc && "".equals(ROLES.get(classOf(npc)))) elite = true;
+            if (a instanceof NPCBattleActor npc) {
+                Role role = ROLES.get(classOf(npc));
+                if (role != null && role.badge().isEmpty()) region = role.region();
+            }
         }
-        if (!elite) return;
+        if (region == null) return;
+        List<String> needed = badgesOf(region);
         for (BattleActor a : event.getBattle().getActors()) {
             if (!(a instanceof PlayerBattleActor p) || p.getEntity() == null) continue;
-            int count = progress(p.getEntity().server).badges(p.getEntity()).size();
-            if (count < 8) {
-                Component why = Component.translatable(Kanto.MOD_ID + ".elite.locked", count);
+            List<String> have = progress(p.getEntity().server).badges(p.getEntity());
+            int count = (int) needed.stream().filter(have::contains).count();
+            if (count < needed.size()) {
+                Component why = region == Region.KANTO ? Component.translatable(Kanto.MOD_ID + ".elite.locked", count)
+                        : Component.translatable(Kanto.MOD_ID + ".elite.locked.region", nameOf(region), count);
                 p.getEntity().sendSystemMessage(why);
                 event.setReason(why.copy());
                 event.cancel();
@@ -269,33 +350,40 @@ public final class KantoGyms {
     }
 
     private static void victory(List<BattleActor> winners, List<BattleActor> losers) {
-        sites();
+        loadAll();
         for (BattleActor loser : losers) {
             if (!(loser instanceof NPCBattleActor npc)) continue;
             ResourceLocation id = classOf(npc);
-            String role = ROLES.get(id);
+            Role role = ROLES.get(id);
             if (role == null) continue;
+            Region region = role.region();
             for (BattleActor w : winners) {
                 if (!(w instanceof PlayerBattleActor p) || p.getEntity() == null) continue;
                 ServerPlayer player = p.getEntity();
                 Progress progress = progress(player.server);
-                if (!role.isEmpty()) {
+                if (!role.badge().isEmpty()) {
                     List<String> badges = progress.badges(player);
-                    if (badges.contains(role)) continue;
-                    badges.add(role);
+                    if (badges.contains(role.badge())) continue;
+                    badges.add(role.badge());
                     progress.save(player, "badges", badges);
-                    Item item = BuiltInRegistries.ITEM.get(Kanto.id(role));
+                    Item item = BuiltInRegistries.ITEM.get(Kanto.id(role.badge()));
                     give(player, new ItemStack(item));
-                    player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".badge.earned", item.getDescription(), badges.size()));
+                    long mine = badgesOf(region).stream().filter(badges::contains).count();
+                    player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".badge.earned", item.getDescription(), mine));
                 } else {
                     List<String> beaten = progress.list(player, "elite");
                     if (beaten.contains(id.toString())) continue;
                     beaten.add(id.toString());
                     progress.save(player, "elite", beaten);
-                    player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".elite.beaten", npc.getName(), beaten.size()));
-                    if (beaten.size() == 4) {
-                        give(player, new ItemStack(Kanto.RIBBON.get()));
-                        player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".champion"));
+                    long mine = beaten.stream().map(ResourceLocation::parse).map(ROLES::get)
+                            .filter(r -> r != null && r.region() == region).count();
+                    player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".elite.beaten", npc.getName(), mine));
+                    if (mine == 4) {
+                        Item ribbon = region == Region.KANTO ? Kanto.RIBBON.get()
+                                : BuiltInRegistries.ITEM.get(Kanto.id(region.id + "_champion_ribbon"));
+                        give(player, new ItemStack(ribbon));
+                        player.sendSystemMessage(region == Region.KANTO ? Component.translatable(Kanto.MOD_ID + ".champion")
+                                : Component.translatable(Kanto.MOD_ID + ".champion.region", nameOf(region)));
                     }
                 }
             }

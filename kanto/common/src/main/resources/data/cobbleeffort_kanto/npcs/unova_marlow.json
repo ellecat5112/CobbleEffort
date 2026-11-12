@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Normal Gym Leader Marlow"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_marlow"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "pidove level=19",
+      "lillipup level=20",
+      "minccino level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

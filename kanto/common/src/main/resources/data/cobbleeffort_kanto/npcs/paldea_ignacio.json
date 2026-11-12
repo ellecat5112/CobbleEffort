@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Ignacio"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_ignacio"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "tinkatink level=56",
+      "fidough level=57",
+      "tinkatuff level=58",
+      "dachsbun level=59",
+      "tinkaton level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

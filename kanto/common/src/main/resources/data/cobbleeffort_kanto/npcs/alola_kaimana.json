@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Elite Four Kaimana"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_kaimana"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "rockruff level=54",
+      "lycanroc level=55",
+      "minior level=56"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

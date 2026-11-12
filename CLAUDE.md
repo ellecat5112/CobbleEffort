@@ -162,6 +162,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (Magearna engraving), factory giant Poké Ball, observatory telescope, giant tree's engraved bark (300 tall from root
   tip: starts 60 below ground, terrain_adaptation none), academy PC. `KantoTravel.travel(player, region)`: home from
   inside, else arrival pad with a return portal. Previews: voxel renders (instanced three.js) of each template.
+  0.4.0 (`tools/make_leagues.py` + `make_league_teams.py` -> committed `tools/league_teams.json`): every region's own
+  league: 8 gyms + Elite Four (original names in NAMES, teams from that generation's dex by type and strength),
+  `sites_<region>.json`, `gym/<region>_<type>.nbt`, badges `<region>_<type>_badge` + `<region>_champion_ribbon`
+  (registered from `kanto/league_items.json`); KantoGyms keys roles/badges/ribbons by Region; sites build via a
+  non-persistent chunk ticket (Job queue) so chunk generation never blocks a tick (the watchdog killed a synchronous
+  version). `/kanto gyms [region]`, `/kanto rebuild [region]`.
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.

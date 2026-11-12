@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fire Gym Leader Imogen"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_imogen"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sizzlipede level=24",
+      "scorbunny level=25",
+      "carkol level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

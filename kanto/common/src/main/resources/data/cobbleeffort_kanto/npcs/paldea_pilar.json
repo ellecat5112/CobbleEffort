@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Psychic Gym Leader Pilar"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_pilar"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "rabsca level=44",
+      "veluza level=45",
+      "espathra level=46",
+      "farigiraf level=47",
+      "armarouge level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

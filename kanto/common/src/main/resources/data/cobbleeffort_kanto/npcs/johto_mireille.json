@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Mireille"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_mireille"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "murkrow level=54",
+      "sneasel level=55",
+      "houndoom level=56",
+      "umbreon level=57",
+      "tyranitar level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

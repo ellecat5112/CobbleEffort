@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Lachlan"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_lachlan"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "hattrem level=58",
+      "indeedee level=59",
+      "hatterene level=60",
+      "mrrime level=61",
+      "wyrdeer level=62"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

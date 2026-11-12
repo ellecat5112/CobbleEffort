@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Thibault"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_thibault"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "clauncher level=56",
+      "frogadier level=57",
+      "barbaracle level=58",
+      "clawitzer level=59",
+      "greninja level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

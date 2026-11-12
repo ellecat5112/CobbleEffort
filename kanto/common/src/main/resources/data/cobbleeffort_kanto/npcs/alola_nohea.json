@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Nohea"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_nohea"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "rowlet level=56",
+      "trumbeak level=57",
+      "dartrix level=58",
+      "toucannon level=59",
+      "minior level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

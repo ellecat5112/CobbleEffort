@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ice Gym Leader Sylvain"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_sylvain"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "bergmite level=48",
+      "amaura level=49",
+      "avalugg level=50",
+      "aurorus level=51"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Water Gym Leader Rowan"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_rowan"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "arrokuda level=19",
+      "chewtle level=20",
+      "sobble level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

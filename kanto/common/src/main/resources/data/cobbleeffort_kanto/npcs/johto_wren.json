@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Flying Gym Leader Wren"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_wren"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "hoppip level=14",
+      "hoothoot level=15",
+      "ledyba level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

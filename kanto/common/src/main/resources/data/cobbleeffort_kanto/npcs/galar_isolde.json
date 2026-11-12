@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Isolde"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_isolde"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "flapple level=56",
+      "dracovish level=57",
+      "dracozolt level=58",
+      "duraludon level=59",
+      "dragapult level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

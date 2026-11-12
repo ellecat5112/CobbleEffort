@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Water Gym Leader Halia"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_halia"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "gorebyss level=48",
+      "huntail level=49",
+      "relicanth level=50",
+      "wailord level=51",
+      "walrein level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

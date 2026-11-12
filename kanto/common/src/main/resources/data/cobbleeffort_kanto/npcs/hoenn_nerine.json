@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Nerine"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_nerine"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "duskull level=56",
+      "shuppet level=57",
+      "sableye level=58",
+      "banette level=59",
+      "dusclops level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

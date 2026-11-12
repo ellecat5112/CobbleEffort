@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Basalt"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_basalt"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "spheal level=58",
+      "snorunt level=59",
+      "sealeo level=60",
+      "glalie level=61",
+      "walrein level=62"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

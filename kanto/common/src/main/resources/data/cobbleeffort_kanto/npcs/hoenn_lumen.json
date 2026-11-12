@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Psychic Gym Leader Lumen"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_lumen"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "chimecho level=44",
+      "lunatone level=45",
+      "solrock level=46",
+      "grumpig level=47",
+      "claydol level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

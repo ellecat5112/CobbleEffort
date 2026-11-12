@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ghost Gym Leader Torvald"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_torvald"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "rotom level=34",
+      "froslass level=35",
+      "spiritomb level=36",
+      "mismagius level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

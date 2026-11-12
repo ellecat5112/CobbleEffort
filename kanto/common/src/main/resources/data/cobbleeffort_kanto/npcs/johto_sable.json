@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Bug Gym Leader Sable"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_sable"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "spinarak level=19",
+      "ledyba level=20",
+      "pineco level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

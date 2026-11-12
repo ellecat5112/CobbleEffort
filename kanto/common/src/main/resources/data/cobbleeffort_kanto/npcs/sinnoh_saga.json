@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Ice Gym Leader Saga"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_saga"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "froslass level=44",
+      "abomasnow level=45",
+      "weavile level=46",
+      "glaceon level=47",
+      "mamoswine level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fighting Gym Leader Coralie"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_coralie"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "pancham level=24",
+      "pangoro level=25",
+      "hawlucha level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

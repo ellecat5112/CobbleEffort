@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Rock Gym Leader Tomas"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_tomas"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "glimmet level=48",
+      "naclstack level=49",
+      "klawf level=50",
+      "garganacl level=51",
+      "glimmora level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

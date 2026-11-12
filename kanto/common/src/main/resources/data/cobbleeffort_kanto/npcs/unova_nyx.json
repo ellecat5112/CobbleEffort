@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Nyx"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_nyx"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "throh level=60",
+      "scrafty level=61",
+      "conkeldurr level=62",
+      "mienshao level=63",
+      "emboar level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fighting Gym Leader Holm"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_holm"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "riolu level=24",
+      "croagunk level=25",
+      "monferno level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

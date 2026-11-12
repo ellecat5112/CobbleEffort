@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ground Gym Leader Pua"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_pua"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sandygast level=48",
+      "mudbray level=49",
+      "palossand level=50",
+      "mudsdale level=51"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

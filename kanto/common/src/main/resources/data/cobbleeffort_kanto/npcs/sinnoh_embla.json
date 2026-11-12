@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Electric Gym Leader Embla"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_embla"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "pachirisu level=48",
+      "rotom level=49",
+      "luxray level=50",
+      "magnezone level=51",
+      "electivire level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

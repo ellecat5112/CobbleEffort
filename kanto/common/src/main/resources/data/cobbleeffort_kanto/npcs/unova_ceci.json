@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Bug Gym Leader Ceci"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_ceci"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "karrablast level=24",
+      "joltik level=25",
+      "dwebble level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

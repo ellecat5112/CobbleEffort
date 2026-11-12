@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Electric Gym Leader Lucia"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_lucia"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "tadbulb level=24",
+      "wattrel level=25",
+      "kilowattrel level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Vesper"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_vesper"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "bayleef level=60",
+      "sunflora level=61",
+      "jumpluff level=62",
+      "bellossom level=63",
+      "meganium level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

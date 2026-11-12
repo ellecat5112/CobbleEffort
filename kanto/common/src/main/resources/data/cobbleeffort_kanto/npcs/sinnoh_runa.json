@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Runa"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_runa"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "kricketune level=54",
+      "mothim level=55",
+      "wormadam level=56",
+      "vespiquen level=57",
+      "yanmega level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

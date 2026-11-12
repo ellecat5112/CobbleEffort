@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Electric Gym Leader Dorian"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_dorian"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "blitzle level=29",
+      "joltik level=30",
+      "eelektrik level=31",
+      "emolga level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

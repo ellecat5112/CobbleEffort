@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fire Gym Leader Leilani"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_leilani"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "litten level=24",
+      "salandit level=25",
+      "torracat level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

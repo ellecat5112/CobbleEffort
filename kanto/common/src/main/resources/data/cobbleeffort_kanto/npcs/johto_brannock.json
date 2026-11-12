@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Steel Gym Leader Brannock"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_brannock"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "forretress level=34",
+      "skarmory level=35",
+      "scizor level=36",
+      "steelix level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Grass Gym Leader Fleur"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_fleur"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "chespin level=29",
+      "pumpkaboo level=30",
+      "skiddo level=31",
+      "quilladin level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

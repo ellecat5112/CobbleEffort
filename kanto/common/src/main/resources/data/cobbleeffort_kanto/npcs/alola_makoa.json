@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Water Gym Leader Makoa"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_makoa"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "wishiwashi level=19",
+      "wimpod level=20",
+      "dewpider level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

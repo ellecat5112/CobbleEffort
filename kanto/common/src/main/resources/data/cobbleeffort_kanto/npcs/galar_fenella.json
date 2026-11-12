@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Ice Gym Leader Fenella"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_fenella"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "eiscue level=48",
+      "frosmoth level=49",
+      "arctovish level=50",
+      "arctozolt level=51",
+      "mrrime level=52"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

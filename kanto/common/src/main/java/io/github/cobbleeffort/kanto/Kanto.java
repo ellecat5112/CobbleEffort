@@ -89,6 +89,20 @@ public final class Kanto {
     static {
         KantoArmor.setup();
         Regions.register();
+        // the other regions' badges and Champion Ribbons (tools/make_leagues.py lists them)
+        try (java.io.InputStream in = Kanto.class.getResourceAsStream("/data/" + MOD_ID + "/kanto/league_items.json")) {
+            if (in != null) {
+                for (com.google.gson.JsonElement e : com.google.gson.JsonParser.parseReader(
+                        new java.io.InputStreamReader(in, java.nio.charset.StandardCharsets.UTF_8)).getAsJsonArray()) {
+                    String name = e.getAsString();
+                    boolean ribbon = name.endsWith("_champion_ribbon");
+                    ITEMS.register(name, () -> new Item(new Item.Properties().stacksTo(1)
+                            .rarity(ribbon ? Rarity.EPIC : Rarity.UNCOMMON).arch$tab(TAB)));
+                }
+            }
+        } catch (Exception ex) {
+            LOG.error("Couldn't read the league items", ex);
+        }
     }
 
     private Kanto() {

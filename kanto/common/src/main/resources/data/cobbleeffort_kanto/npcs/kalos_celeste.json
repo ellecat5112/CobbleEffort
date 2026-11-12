@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Elite Four Celeste"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_celeste"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "honedge level=58",
+      "doublade level=59",
+      "klefki level=60",
+      "aegislash level=61"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Rock Gym Leader Marisol"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_marisol"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "aron level=14",
+      "anorith level=15",
+      "lileep level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Akoni"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_akoni"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "stufful level=60",
+      "hakamoo level=61",
+      "crabominable level=62",
+      "bewear level=63",
+      "kommoo level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

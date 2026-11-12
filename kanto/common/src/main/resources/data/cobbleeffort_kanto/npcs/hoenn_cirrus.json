@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Flying Gym Leader Cirrus"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_cirrus"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "pelipper level=39",
+      "masquerain level=40",
+      "swellow level=41",
+      "ninjask level=42"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "id": "paldea_bug",
+    "label": "Bug Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_bug",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_ines",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_bug_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_mateo",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_lucia",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_rafael",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_water_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_normal",
+    "label": "Normal Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_normal",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_carmen",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_normal_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_ghost",
+    "label": "Ghost Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_ghost",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_joaquin",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_ghost_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_psychic",
+    "label": "Psychic Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_psychic",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_pilar",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_psychic_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/paldea_rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_tomas",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "paldea_rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "paldea_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/paldea_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:paldea_alba",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:paldea_ignacio",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:paldea_rocio",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:paldea_esteban",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

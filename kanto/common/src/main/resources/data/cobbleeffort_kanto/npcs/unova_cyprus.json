@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Cyprus"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_cyprus"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "beheeyem level=58",
+      "musharna level=59",
+      "gothitelle level=60",
+      "reuniclus level=61",
+      "sigilyph level=62"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

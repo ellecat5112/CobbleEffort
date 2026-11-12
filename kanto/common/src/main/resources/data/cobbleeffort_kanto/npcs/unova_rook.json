@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Flying Gym Leader Rook"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_rook"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "archen level=39",
+      "swoobat level=40",
+      "emolga level=41",
+      "swanna level=42"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Sorrel"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_sorrel"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sharpedo level=54",
+      "absol level=55",
+      "crawdaunt level=56",
+      "cacturne level=57",
+      "shiftry level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

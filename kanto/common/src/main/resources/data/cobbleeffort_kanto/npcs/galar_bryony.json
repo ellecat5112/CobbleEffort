@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Grass Gym Leader Bryony"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_bryony"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "gossifleur level=14",
+      "applin level=15",
+      "grookey level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

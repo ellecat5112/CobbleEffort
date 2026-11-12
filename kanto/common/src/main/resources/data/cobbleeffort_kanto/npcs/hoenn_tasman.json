@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Normal Gym Leader Tasman"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_tasman"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "swablu level=34",
+      "loudred level=35",
+      "spinda level=36",
+      "delcatty level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

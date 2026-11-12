@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Alba"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_alba"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "revavroom level=54",
+      "tinkaton level=55",
+      "gholdengo level=56",
+      "kingambit level=57",
+      "archaludon level=58"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

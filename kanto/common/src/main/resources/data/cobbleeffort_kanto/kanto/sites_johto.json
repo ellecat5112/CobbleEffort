@@ -1,0 +1,248 @@
+[
+  {
+    "id": "johto_flying",
+    "label": "Flying Gym",
+    "template": "cobbleeffort_kanto:gym/johto_flying",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_wren",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_flying_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_bug",
+    "label": "Bug Gym",
+    "template": "cobbleeffort_kanto:gym/johto_bug",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_sable",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_bug_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_normal",
+    "label": "Normal Gym",
+    "template": "cobbleeffort_kanto:gym/johto_normal",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_corin",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_normal_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_fighting",
+    "label": "Fighting Gym",
+    "template": "cobbleeffort_kanto:gym/johto_fighting",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_hollis",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_fighting_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_steel",
+    "label": "Steel Gym",
+    "template": "cobbleeffort_kanto:gym/johto_steel",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_brannock",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_steel_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_ice",
+    "label": "Ice Gym",
+    "template": "cobbleeffort_kanto:gym/johto_ice",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_ferris",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_ice_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_psychic",
+    "label": "Psychic Gym",
+    "template": "cobbleeffort_kanto:gym/johto_psychic",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_aster",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_psychic_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_poison",
+    "label": "Poison Gym",
+    "template": "cobbleeffort_kanto:gym/johto_poison",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_draven",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "johto_poison_badge"
+      }
+    ]
+  },
+  {
+    "id": "johto_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/johto_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:johto_mireille",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:johto_thorne",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:johto_kestrel",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:johto_vesper",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

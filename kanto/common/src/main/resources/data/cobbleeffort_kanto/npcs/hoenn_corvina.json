@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Corvina"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_corvina"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "vibrava level=60",
+      "shelgon level=61",
+      "altaria level=62",
+      "flygon level=63",
+      "salamence level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

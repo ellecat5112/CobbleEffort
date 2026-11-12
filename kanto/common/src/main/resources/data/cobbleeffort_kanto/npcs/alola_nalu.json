@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Grass Gym Leader Nalu"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_nalu"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "morelull level=29",
+      "steenee level=30",
+      "rowlet level=31",
+      "shiinotic level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

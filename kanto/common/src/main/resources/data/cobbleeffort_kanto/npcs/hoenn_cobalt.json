@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Fighting Gym Leader Cobalt"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_cobalt"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "makuhita level=19",
+      "meditite level=20",
+      "combusken level=21"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

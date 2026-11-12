@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Fighting Gym Leader Ewan"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_ewan"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "clobbopus level=29",
+      "falinks level=30",
+      "grapploct level=31",
+      "sirfetchd level=32"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

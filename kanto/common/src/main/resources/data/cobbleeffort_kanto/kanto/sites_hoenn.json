@@ -1,0 +1,248 @@
+[
+  {
+    "id": "hoenn_rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_marisol",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_fighting",
+    "label": "Fighting Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_fighting",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_cobalt",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_fighting_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_rhea",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_fire",
+    "label": "Fire Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_fire",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_pell",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_fire_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_normal",
+    "label": "Normal Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_normal",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_tasman",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_normal_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_flying",
+    "label": "Flying Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_flying",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_cirrus",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_flying_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_psychic",
+    "label": "Psychic Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_psychic",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_lumen",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_psychic_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/hoenn_water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_halia",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "hoenn_water_badge"
+      }
+    ]
+  },
+  {
+    "id": "hoenn_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/hoenn_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:hoenn_sorrel",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:hoenn_nerine",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:hoenn_basalt",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:hoenn_corvina",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

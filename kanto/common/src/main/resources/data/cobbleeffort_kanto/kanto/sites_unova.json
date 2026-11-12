@@ -1,0 +1,248 @@
+[
+  {
+    "id": "unova_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/unova_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_jett",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_normal",
+    "label": "Normal Gym",
+    "template": "cobbleeffort_kanto:gym/unova_normal",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_marlow",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_normal_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_bug",
+    "label": "Bug Gym",
+    "template": "cobbleeffort_kanto:gym/unova_bug",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_ceci",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_bug_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/unova_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_dorian",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_ground",
+    "label": "Ground Gym",
+    "template": "cobbleeffort_kanto:gym/unova_ground",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_tamsin",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_ground_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_flying",
+    "label": "Flying Gym",
+    "template": "cobbleeffort_kanto:gym/unova_flying",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_rook",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_flying_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_ice",
+    "label": "Ice Gym",
+    "template": "cobbleeffort_kanto:gym/unova_ice",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_indigo",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_ice_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_dragon",
+    "label": "Dragon Gym",
+    "template": "cobbleeffort_kanto:gym/unova_dragon",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_halcyon",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "unova_dragon_badge"
+      }
+    ]
+  },
+  {
+    "id": "unova_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/unova_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:unova_vale",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:unova_odessa",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:unova_cyprus",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:unova_nyx",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Thorne"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_thorne"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "magby level=56",
+      "quilava level=57",
+      "magcargo level=58",
+      "houndoom level=59",
+      "typhlosion level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

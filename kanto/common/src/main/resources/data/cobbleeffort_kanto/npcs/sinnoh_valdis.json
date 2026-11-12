@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Valdis"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_valdis"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "hippowdon level=56",
+      "torterra level=57",
+      "mamoswine level=58",
+      "rhyperior level=59",
+      "garchomp level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

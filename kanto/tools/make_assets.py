@@ -357,7 +357,8 @@ def _block(name):
         props = {"hanging": "false", "waterlogged": "false"}
     elif name == "minecraft:oak_leaves":
         props = {"distance": "1", "persistent": "true", "waterlogged": "false"}
-    elif name in ("minecraft:stripped_spruce_log", "minecraft:purpur_pillar"):
+    elif name in ("minecraft:stripped_spruce_log", "minecraft:purpur_pillar", "minecraft:quartz_pillar", "minecraft:pearlescent_froglight",
+                  "minecraft:ochre_froglight", "minecraft:verdant_froglight", "minecraft:stripped_cherry_log", "minecraft:stripped_birch_log"):
         props = {"axis": "y"}
     elif name == "minecraft:end_rod":
         props = {"facing": "up"}
@@ -424,7 +425,7 @@ def gym(leader):
     return t, (cx, 2, Dp - 3)
 
 
-def elite_hall():
+def elite_hall(members=None):
     """The Elite Four hall (original): a long Gen 1 Brick hall with four rooms, two each side of a central aisle, each
     room themed by its member's type; the members stand at the far end of their rooms. Returns (template, positions)."""
     W, H, Dp = 31, 10, 25
@@ -451,7 +452,7 @@ def elite_hall():
     t.set(15, 2, 0, G)
     rooms = [(1, 11, 1, 11), (19, 29, 1, 11), (1, 11, 13, 23), (19, 29, 13, 23)]
     positions = []
-    for (x0, x1, z0, z1), member in zip(rooms, ELITE):
+    for (x0, x1, z0, z1), member in zip(rooms, members or ELITE):
         _, _, _, _, (stripe, floor, pillar, light), _, _, _ = member
         for x in range(x0, x1 + 1):
             for z in range(z0, z1 + 1):
@@ -712,6 +713,9 @@ def build():
     import make_regions                                     # 0.3.0: Johto to Paldea, landmarks and portals
     make_regions.build()
     LANG.update(make_regions.LANG)
+    import make_leagues                                     # 0.4.0: every region's gyms and Elite Four
+    make_leagues.build()
+    LANG.update(make_leagues.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

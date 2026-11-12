@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Fairy Gym Leader Ikaika"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_ikaika"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "shiinotic level=44",
+      "ribombee level=45",
+      "mimikyu level=46",
+      "comfey level=47",
+      "primarina level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

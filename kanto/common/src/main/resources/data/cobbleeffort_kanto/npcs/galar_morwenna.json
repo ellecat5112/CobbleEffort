@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ghost Gym Leader Morwenna"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_morwenna"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sinistea level=34",
+      "drakloak level=35",
+      "runerigus level=36",
+      "polteageist level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Aurelien"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_aurelien"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sliggoo level=60",
+      "dragalge level=61",
+      "tyrantrum level=62",
+      "noivern level=63",
+      "goodra level=64"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

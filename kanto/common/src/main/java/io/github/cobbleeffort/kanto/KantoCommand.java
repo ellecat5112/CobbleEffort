@@ -16,21 +16,37 @@ public final class KantoCommand {
         CommandRegistrationEvent.EVENT.register((dispatcher, registry, selection) -> register(dispatcher));
     }
 
+    private static Region here(CommandSourceStack src) {
+        Region r = Region.of(src.getLevel().dimension());
+        return r == null ? Region.KANTO : r;
+    }
+
+    private static int rebuild(CommandSourceStack src, Region region) {
+        ServerLevel level = src.getServer().getLevel(region.dimension);
+        if (level == null) {
+            src.sendFailure(Component.translatable(Kanto.MOD_ID + ".pc.no_kanto"));
+            return 0;
+        }
+        KantoGyms.ensureBuilt(level, region, true);
+        src.sendSuccess(() -> Component.translatable(Kanto.MOD_ID + ".gyms.building"), true);
+        return 1;
+    }
+
     private static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
-        dispatcher.register(Commands.literal("kanto")
-                .then(Commands.literal("gyms").executes(ctx -> {
-                    ctx.getSource().sendSuccess(KantoGyms::where, false);
-                    return 1;
-                }))
-                .then(Commands.literal("rebuild").requires(src -> src.hasPermission(2)).executes(ctx -> {
-                    ServerLevel kanto = ctx.getSource().getServer().getLevel(Kanto.KANTO);
-                    if (kanto == null) {
-                        ctx.getSource().sendFailure(Component.translatable(Kanto.MOD_ID + ".pc.no_kanto"));
-                        return 0;
-                    }
-                    KantoGyms.ensureBuilt(kanto, true);
-                    ctx.getSource().sendSuccess(() -> Component.translatable(Kanto.MOD_ID + ".gyms.building"), true);
-                    return 1;
-                })));
+        var rebuild = Commands.literal("rebuild").requires(src -> src.hasPermission(2))
+                .executes(ctx -> rebuild(ctx.getSource(), here(ctx.getSource())));
+        var gyms = Commands.literal("gyms").executes(ctx -> {
+            Region r = here(ctx.getSource());
+            ctx.getSource().sendSuccess(() -> KantoGyms.where(r), false);
+            return 1;
+        });
+        for (Region r : Region.values()) {
+            rebuild.then(Commands.literal(r.id).executes(ctx -> rebuild(ctx.getSource(), r)));
+            gyms.then(Commands.literal(r.id).executes(ctx -> {
+                ctx.getSource().sendSuccess(() -> KantoGyms.where(r), false);
+                return 1;
+            }));
+        }
+        dispatcher.register(Commands.literal("kanto").then(gyms).then(rebuild));
     }
 }

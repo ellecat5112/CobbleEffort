@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Electric Gym Leader Keoni"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_keoni"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "charjabug level=34",
+      "togedemaru level=35",
+      "vikavolt level=36"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

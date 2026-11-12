@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Elite Four Odessa"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_odessa"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "scrafty level=56",
+      "bisharp level=57",
+      "zoroark level=58",
+      "krookodile level=59",
+      "hydreigon level=60"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

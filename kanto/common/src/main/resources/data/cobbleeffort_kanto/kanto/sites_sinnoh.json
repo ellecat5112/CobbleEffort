@@ -1,0 +1,248 @@
+[
+  {
+    "id": "sinnoh_rock",
+    "label": "Rock Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_rock",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_linnea",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_rock_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_grass",
+    "label": "Grass Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_grass",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_gerd",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_grass_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_fighting",
+    "label": "Fighting Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_fighting",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_holm",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_fighting_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_water",
+    "label": "Water Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_water",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_frida",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_water_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_ghost",
+    "label": "Ghost Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_ghost",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": 0,
+    "z": 320,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_torvald",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_ghost_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_steel",
+    "label": "Steel Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_steel",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": 226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_isak",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_steel_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_ice",
+    "label": "Ice Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_ice",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -320,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_saga",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_ice_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_electric",
+    "label": "Electric Gym",
+    "template": "cobbleeffort_kanto:gym/sinnoh_electric",
+    "size": [
+      15,
+      9,
+      21
+    ],
+    "x": -226,
+    "z": -226,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_embla",
+        "pos": [
+          7,
+          2,
+          18
+        ],
+        "yaw": 180,
+        "badge": "sinnoh_electric_badge"
+      }
+    ]
+  },
+  {
+    "id": "sinnoh_elite_four",
+    "label": "Elite Four",
+    "template": "cobbleeffort_kanto:gym/sinnoh_elite_four",
+    "size": [
+      31,
+      10,
+      25
+    ],
+    "x": 0,
+    "z": 0,
+    "trainers": [
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_runa",
+        "pos": [
+          2,
+          1,
+          6
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_valdis",
+        "pos": [
+          28,
+          1,
+          6
+        ],
+        "yaw": 90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_eir",
+        "pos": [
+          2,
+          1,
+          18
+        ],
+        "yaw": -90,
+        "elite": true
+      },
+      {
+        "npc": "cobbleeffort_kanto:sinnoh_brage",
+        "pos": [
+          28,
+          1,
+          18
+        ],
+        "yaw": 90,
+        "elite": true
+      }
+    ]
+  }
+]

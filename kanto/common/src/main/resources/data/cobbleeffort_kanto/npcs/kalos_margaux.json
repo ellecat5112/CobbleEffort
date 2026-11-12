@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Psychic Gym Leader Margaux"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_margaux"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "inkay level=44",
+      "espurr level=45",
+      "meowstic level=46",
+      "malamar level=47",
+      "delphox level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

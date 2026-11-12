@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Ice Gym Leader Indigo"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:unova_indigo"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "vanillite level=44",
+      "vanillish level=45",
+      "beartic level=46",
+      "cryogonal level=47",
+      "vanilluxe level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

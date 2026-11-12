@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Rock Gym Leader Heddwyn"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:galar_heddwyn"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "carkol level=44",
+      "stonjourner level=45",
+      "drednaw level=46",
+      "kleavor level=47",
+      "coalossal level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

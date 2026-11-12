@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Ghost Gym Leader Mahina"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:alola_mahina"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "sandygast level=39",
+      "mimikyu level=40",
+      "palossand level=41",
+      "dhelmise level=42"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

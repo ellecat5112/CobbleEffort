@@ -1,0 +1,27 @@
+{
+  "names": [
+    "Psychic Gym Leader Aster"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_aster"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "wobbuffet level=44",
+      "girafarig level=45",
+      "xatu level=46",
+      "slowking level=47",
+      "espeon level=48"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

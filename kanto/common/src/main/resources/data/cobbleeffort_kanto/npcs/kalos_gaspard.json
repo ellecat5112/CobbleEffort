@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Electric Gym Leader Gaspard"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:kalos_gaspard"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "helioptile level=34",
+      "dedenne level=35",
+      "heliolisk level=36"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Rock Gym Leader Linnea"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_linnea"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "bonsly level=14",
+      "cranidos level=15",
+      "shieldon level=16"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

@@ -1,0 +1,25 @@
+{
+  "names": [
+    "Electric Gym Leader Rhea"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:hoenn_rhea"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "electrike level=24",
+      "minun level=25",
+      "plusle level=26"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

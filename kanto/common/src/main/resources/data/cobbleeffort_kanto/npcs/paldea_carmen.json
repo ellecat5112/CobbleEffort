@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Normal Gym Leader Carmen"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:paldea_carmen"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "dolliv level=34",
+      "squawkabilly level=35",
+      "maushold level=36",
+      "grafaiai level=37"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}

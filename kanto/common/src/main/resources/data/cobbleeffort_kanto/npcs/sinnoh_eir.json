@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Elite Four Eir"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:sinnoh_eir"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "chimchar level=58",
+      "monferno level=59",
+      "infernape level=60",
+      "magmortar level=61"
+    ]
+  },
+  "skill": 5,
+  "presets": []
+}

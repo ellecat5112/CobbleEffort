@@ -1,0 +1,26 @@
+{
+  "names": [
+    "Poison Gym Leader Draven"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:johto_draven"
+  },
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "spinarak level=48",
+      "ariados level=49",
+      "qwilfish level=50",
+      "crobat level=51"
+    ]
+  },
+  "skill": 3,
+  "presets": []
+}
