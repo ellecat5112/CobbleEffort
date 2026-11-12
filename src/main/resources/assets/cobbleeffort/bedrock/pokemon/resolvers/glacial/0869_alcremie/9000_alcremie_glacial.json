@@ -1,0 +1,1198 @@
+{
+  "species": "cobblemon:alcremie",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-strawberry",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-berry",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_berry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-clover",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_clover_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-flower",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_flower_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-love",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_heart_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-ribbon",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ribbon_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "decoration-star",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_star_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-vanilla",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-caramel_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_caramel_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_caramel_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_caramel_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_caramel_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_caramel_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-ruby",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ruby_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ruby_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ruby_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ruby_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_ruby_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-matcha",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_matcha_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_matcha_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_matcha_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_matcha_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_matcha_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-mint",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_mint_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_mint_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_mint_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_mint_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_mint_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-lemon",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_lemon_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_lemon_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_lemon_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_lemon_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_lemon_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-salted",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_salted_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_salted_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_salted_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_salted_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_salted_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-ruby_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rubyswirl_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rubyswirl_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rubyswirl_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rubyswirl_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rubyswirl_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cream-rainbow_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rainbowswirl_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rainbowswirl_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rainbowswirl_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rainbowswirl_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_rainbowswirl_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-strawberry",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-berry",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-clover",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-flower",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-love",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-ribbon",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "glacial"
+      ],
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "decoration-star",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "decoration",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+          "emissive": false
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-vanilla",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-caramel_swirl",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-matcha",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-mint",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-lemon",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-salted",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-ruby_swirl",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cream-rainbow_swirl",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

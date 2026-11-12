@@ -1,0 +1,43 @@
+{
+  "_comment": "Kitsune collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed kitsune-foxfire` after Glacial's, then given a look each (three lines per look). Shared look in styles/_kitsune.py, one thin module per look.",
+  "aspect": "kitsune",
+  "feature": "kitsune_foxfire",
+  "style": "kitsune_inari",
+  "cosmetic_items": [
+    "minecraft:sweet_berries"
+  ],
+  "lines": ["abra", "tentacool", "gastly", "sudowoodo", "yanma", "shroomish", "lileep", "castform", "burmy", "riolu",
+            "rotom", "shaymin", "petilil", "scraggy", "flabebe", "furfrou", "varoom", "okidogi"],
+  "line_styles": {
+    "riolu": "kitsune_inari",
+    "furfrou": "kitsune_inari",
+    "abra": "kitsune_inari",
+    "gastly": "kitsune_kitsunebi",
+    "rotom": "kitsune_kitsunebi",
+    "tentacool": "kitsune_kitsunebi",
+    "scraggy": "kitsune_nogitsune",
+    "okidogi": "kitsune_nogitsune",
+    "varoom": "kitsune_nogitsune",
+    "shaymin": "kitsune_tenko",
+    "castform": "kitsune_tenko",
+    "flabebe": "kitsune_tenko",
+    "sudowoodo": "kitsune_shrine",
+    "burmy": "kitsune_shrine",
+    "lileep": "kitsune_shrine",
+    "petilil": "kitsune_autumn",
+    "shroomish": "kitsune_autumn",
+    "yanma": "kitsune_autumn"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 23,
+    "title": "Kitsune",
+    "example": "riolu",
+    "summary": "Pokemon as fox spirits of shrine and legend, with kitsune mask markings and foxfire.",
+    "looks": [
+      "each line wears one look: Inari's white shrine fox with vermilion markings (Riolu, Furfrou, Abra); kitsunebi, dark indigo haunted by drifting blue foxfire wisps (Gastly, Rotom, Tentacool); nogitsune, the wild black fox with gold markings and violet flames (Scraggy, Okidogi, Varoom); tenko, the celestial fox, pale gold fading to sky blue and dusted with stars (Shaymin, Castform, Flabebe); shrine, vermilion lacquer over black with a straw shimenawa rope and paper shide (Sudowoodo, Burmy, Lileep); autumn, russet fur scattered with maple leaves (Petilil, Shroomish, Yanma)",
+      "kitsune mask markings on the face; ears, tails and crests burn with foxfire that flickers in the dark; glowing eyes",
+      "shiny: the foxfire turned round the colour wheel"
+    ]
+  }
+}

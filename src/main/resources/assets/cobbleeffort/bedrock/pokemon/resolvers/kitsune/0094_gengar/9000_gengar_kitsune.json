@@ -1,0 +1,185 @@
+{
+  "species": "cobblemon:gengar",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_emissives_kitsune.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_emissives_kitsune.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_emissive_kitsune.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_emissive_kitsune.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_emissive_kitsune.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_emissive_kitsune.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

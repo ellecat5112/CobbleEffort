@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 21 collections of cosmetic forms (793 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 23 collections of cosmetic forms (860 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -51,6 +51,8 @@ AT A GLANCE
   19  Abyss                               Crying Obsidian                                 abyss
   20  Ancient Ruins                       Chiseled Sandstone                              ancient_ruins
   21  Gilded                              Gold Ingot                                      gilded
+  22  Glacial                             Snow Block                                      glacial
+  23  Kitsune                             Sweet Berries                                   kitsune
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -879,6 +881,86 @@ Pokemon (each line is a whole evolutionary family):
   - Meltan > Melmetal
   - Glimmet > Glimmora
   - Tatsugiri
+
+====================================================================================================
+#22  GLACIAL  (32 Pokemon)
+====================================================================================================
+Pokemon in the grip of the deep cold: frostbitten, glacier ice, permafrost, aurora ice, frozen solid
+or snowed in.
+
+Cosmetic item: Snow Block
+Command:       /pokegive golett glacial   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: frostbite, its own colours frosted white with rime feathers creeping
+    in from the edges (Rattata, Taillow, Ledyba); glacier, deep blue banded glacier ice with a snow
+    cap and crevasses (Golett, Duraludon, Diancie); permafrost, frozen dark earth threaded with ice
+    lenses and hoarfrost (Sandshrew, Wimpod, Wo-Chien); aurora ice, pale ice that the northern
+    lights shimmer across (Noibat, Staryu, Plusle); frozen in, its own colours seen through a block
+    of blue ice with bubbles and white cracks (Mareanie, Turtonator, Dracozolt); blizzard, crusted
+    in snow with snowflakes and wind-blown streaks (Litwick, Milcery, Gossifleur)
+  * the ice glints and sparkles in the dark, the aurora ripples; icy glowing eyes
+  * shiny: the ice's light turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Rattata > Raticate
+  - Sandshrew > Sandslash
+  - Staryu > Starmie
+  - Ledyba > Ledian
+  - Taillow > Swellow
+  - Plusle
+  - Litwick > Lampent > Chandelure
+  - Golett > Golurk
+  - Noibat > Noivern
+  - Diancie
+  - Mareanie > Toxapex
+  - Wimpod > Golisopod
+  - Turtonator
+  - Gossifleur > Eldegoss
+  - Milcery > Alcremie
+  - Dracozolt
+  - Duraludon > Archaludon
+  - Wo-Chien
+
+====================================================================================================
+#23  KITSUNE  (35 Pokemon)
+====================================================================================================
+Pokemon as fox spirits of shrine and legend, with kitsune mask markings and foxfire.
+
+Cosmetic item: Sweet Berries
+Command:       /pokegive riolu kitsune   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: Inari's white shrine fox with vermilion markings (Riolu, Furfrou,
+    Abra); kitsunebi, dark indigo haunted by drifting blue foxfire wisps (Gastly, Rotom, Tentacool);
+    nogitsune, the wild black fox with gold markings and violet flames (Scraggy, Okidogi, Varoom);
+    tenko, the celestial fox, pale gold fading to sky blue and dusted with stars (Shaymin, Castform,
+    Flabebe); shrine, vermilion lacquer over black with a straw shimenawa rope and paper shide
+    (Sudowoodo, Burmy, Lileep); autumn, russet fur scattered with maple leaves (Petilil, Shroomish,
+    Yanma)
+  * kitsune mask markings on the face; ears, tails and crests burn with foxfire that flickers in the
+    dark; glowing eyes
+  * shiny: the foxfire turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Abra > Kadabra > Alakazam
+  - Tentacool > Tentacruel
+  - Gastly > Haunter > Gengar
+  - Bonsly > Sudowoodo
+  - Yanma > Yanmega
+  - Shroomish > Breloom
+  - Lileep > Cradily
+  - Castform
+  - Burmy > Wormadam / Mothim
+  - Riolu > Lucario
+  - Rotom
+  - Shaymin
+  - Petilil > Lilligant
+  - Scraggy > Scrafty
+  - Flabebe > Floette > Florges
+  - Furfrou
+  - Varoom > Revavroom
+  - Okidogi
 
 ====================================================================================================
 NEW POKEMON

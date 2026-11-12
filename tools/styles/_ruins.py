@@ -86,6 +86,8 @@ def paint(look, c):
         vine = np.zeros_like(c.alpha)
         ys, xs = np.nonzero(c.alpha)
         for _ in range(max(2, int(_area(c) / 120))):
+            if len(xs) == 0:
+                break
             k = rng.integers(len(xs))
             x0, y0, L = xs[k], ys[k], rng.integers(3, 9) * u
             wob = (np.sin((c.yy - y0) / (1.5 * u)) * 0.6 * u).astype(np.float32)

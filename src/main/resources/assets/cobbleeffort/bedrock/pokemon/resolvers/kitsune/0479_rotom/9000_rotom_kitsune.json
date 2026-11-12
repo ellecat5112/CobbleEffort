@@ -1,0 +1,370 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_emissive_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

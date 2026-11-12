@@ -100,6 +100,8 @@ def paint(look, c):
         dist = np.full(body.shape, 1e9, np.float32)
         rad = np.zeros(body.shape, np.float32)
         for i in range(max(3, int(_area(c) / 70))):
+            if len(xs) == 0:
+                break
             k = rng.integers(len(xs))
             gx, gy, gr = float(xs[k]), float(ys[k]), rng.uniform(0.9, 1.5) * u
             d = np.sqrt((c.xx - gx) ** 2 + (c.yy - gy) ** 2)

@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:scrafty",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

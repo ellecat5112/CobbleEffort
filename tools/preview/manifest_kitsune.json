@@ -1,0 +1,854 @@
+[
+  {
+    "species": "abra",
+    "folder": "0063_abra",
+    "model": "cobblemon:abra.geo",
+    "original": "cobblemon:textures/pokemon/0063_abra/abra.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0063_abra/abra_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0063_abra/abra_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kadabra",
+    "folder": "0064_kadabra",
+    "model": "cobblemon:kadabra_male.geo",
+    "original": "cobblemon:textures/pokemon/0064_kadabra/kadabra.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0064_kadabra/kadabra_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0064_kadabra/kadabra_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "alakazam",
+    "folder": "0065_alakazam",
+    "model": "cobblemon:alakazam_male.geo",
+    "original": "cobblemon:textures/pokemon/0065_alakazam/alakazam.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0065_alakazam/alakazam_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0065_alakazam/alakazam_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "alakazam",
+    "folder": "0065_alakazam",
+    "model": "cobblemon:alakazam_mega.geo",
+    "original": "cobblemon:textures/pokemon/0065_alakazam/alakazam_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0065_alakazam/alakazam_mega_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0065_alakazam/alakazam_mega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "tentacool",
+    "folder": "0072_tentacool",
+    "model": "cobblemon:tentacool.geo",
+    "original": "cobblemon:textures/pokemon/0072_tentacool/tentacool.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0072_tentacool/tentacool_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0072_tentacool/tentacool_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0072_tentacool/tentacool_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0072_tentacool/tentacool_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "tentacruel",
+    "folder": "0073_tentacruel",
+    "model": "cobblemon:tentacruel.geo",
+    "original": "cobblemon:textures/pokemon/0073_tentacruel/tentacruel.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0073_tentacruel/tentacruel_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0073_tentacruel/tentacruel_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0073_tentacruel/tentacruel_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0073_tentacruel/tentacruel_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gastly",
+    "folder": "0092_gastly",
+    "model": "cobblemon:gastly.geo",
+    "original": "cobblemon:textures/pokemon/0092_gastly/gastly.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0092_gastly/gastly_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0092_gastly/gastly_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "haunter",
+    "folder": "0093_haunter",
+    "model": "cobblemon:haunter.geo",
+    "original": "cobblemon:textures/pokemon/0093_haunter/haunter.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0093_haunter/haunter_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0093_haunter/haunter_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gengar",
+    "folder": "0094_gengar",
+    "model": "cobblemon:gengar.geo",
+    "original": "cobblemon:textures/pokemon/0094_gengar/gengar.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0094_gengar/gengar_emissives.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_emissives_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0094_gengar/gengar_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gengar",
+    "folder": "0094_gengar",
+    "model": "cobblemon:gengar_mega.geo",
+    "original": "cobblemon:textures/pokemon/0094_gengar/gengar_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0094_gengar/gengar_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_mega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "gengar",
+    "folder": "0094_gengar",
+    "model": "cobblemon:gengar_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0094_gengar/gengar_gmax_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0094_gengar/gengar_gmax_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "sudowoodo",
+    "folder": "0185_sudowoodo",
+    "model": "cobblemon:sudowoodo_male.geo",
+    "original": "cobblemon:textures/pokemon/0185_sudowoodo/sudowoodo.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0185_sudowoodo/sudowoodo_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0185_sudowoodo/sudowoodo_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "yanma",
+    "folder": "0193_yanma",
+    "model": "cobblemon:yanma.geo",
+    "original": "cobblemon:textures/pokemon/0193_yanma/yanma.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0193_yanma/yanma_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0193_yanma/yanma_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shroomish",
+    "folder": "0285_shroomish",
+    "model": "cobblemon:shroomish.geo",
+    "original": "cobblemon:textures/pokemon/0285_shroomish/shroomish.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0285_shroomish/shroomish_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0285_shroomish/shroomish_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "breloom",
+    "folder": "0286_breloom",
+    "model": "cobblemon:breloom.geo",
+    "original": "cobblemon:textures/pokemon/0286_breloom/breloom.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0286_breloom/breloom_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0286_breloom/breloom_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lileep",
+    "folder": "0345_lileep",
+    "model": "cobblemon:lileep.geo",
+    "original": "cobblemon:textures/pokemon/0345_lileep/lileep.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0345_lileep/lileep_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0345_lileep/lileep_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "cradily",
+    "folder": "0346_cradily",
+    "model": "cobblemon:cradily.geo",
+    "original": "cobblemon:textures/pokemon/0346_cradily/cradily.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0346_cradily/cradily_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0346_cradily/cradily_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "castform",
+    "folder": "0351_castform",
+    "model": "cobblemon:castform.geo",
+    "original": "cobblemon:textures/pokemon/0351_castform/castform.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "castform",
+    "folder": "0351_castform",
+    "model": "cobblemon:castform_snowy.geo",
+    "original": "cobblemon:textures/pokemon/0351_castform/castform_snowy.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0351_castform/castform_snowy_outter.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_outter_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "snowy-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "castform",
+    "folder": "0351_castform",
+    "model": "cobblemon:castform_sunny.geo",
+    "original": "cobblemon:textures/pokemon/0351_castform/castform_sunny.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0351_castform/castform_sunny_outter.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_outter_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "sunny-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "castform",
+    "folder": "0351_castform",
+    "model": "cobblemon:castform_rainy.geo",
+    "original": "cobblemon:textures/pokemon/0351_castform/castform_rainy.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0351_castform/castform_rainy_outter.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_outter_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "rainy-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "burmy",
+    "folder": "0412_burmy",
+    "model": "cobblemon:burmy_plant.geo",
+    "original": "cobblemon:textures/pokemon/0412_burmy/burmy_plant.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "wormadam",
+    "folder": "0413_wormadam",
+    "model": "cobblemon:wormadam_plant.geo",
+    "original": "cobblemon:textures/pokemon/0413_wormadam/wormadam_plant.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0413_wormadam/wormadam_plant_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0413_wormadam/wormadam_plant_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mothim",
+    "folder": "0414_mothim",
+    "model": "cobblemon:mothim.geo",
+    "original": "cobblemon:textures/pokemon/0414_mothim/mothim.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0414_mothim/mothim_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0414_mothim/mothim_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bonsly",
+    "folder": "0438_bonsly",
+    "model": "cobblemon:bonsly.geo",
+    "original": "cobblemon:textures/pokemon/0438_bonsly/bonsly.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0438_bonsly/bonsly_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0438_bonsly/bonsly_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "riolu",
+    "folder": "0447_riolu",
+    "model": "cobblemon:riolu.geo",
+    "original": "cobblemon:textures/pokemon/0447_riolu/riolu.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0447_riolu/riolu_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0447_riolu/riolu_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lucario",
+    "folder": "0448_lucario",
+    "model": "cobblemon:lucario.geo",
+    "original": "cobblemon:textures/pokemon/0448_lucario/lucario.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lucario",
+    "folder": "0448_lucario",
+    "model": "cobblemon:lucario_mega.geo",
+    "original": "cobblemon:textures/pokemon/0448_lucario/lucario_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0448_lucario/lucario_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "lucario",
+    "folder": "0448_lucario",
+    "model": "cobblemon:lucario_mega_z.geo",
+    "original": "cobblemon:textures/pokemon/0448_lucario/lucario_mega_z.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_z",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "yanmega",
+    "folder": "0469_yanmega",
+    "model": "cobblemon:yanmega.geo",
+    "original": "cobblemon:textures/pokemon/0469_yanmega/yanmega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0469_yanmega/yanmega_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0469_yanmega/yanmega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/rotom.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/rotom_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/rotom_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_heat.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/heat/rotom_heat_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "heat-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_wash.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/wash/rotom_wash_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "wash-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_frost.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/frost/rotom_frost.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/frost/rotom_frost_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/frost/rotom_frost_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "frost-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_fan.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/fan/rotom_fan_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "fan-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_mow.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_emissive_kitsune.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0479_rotom/mow/rotom_mow_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mow-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "shaymin",
+    "folder": "0492_shaymin",
+    "model": "cobblemon:shaymin.geo",
+    "original": "cobblemon:textures/pokemon/0492_shaymin/shaymin.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0492_shaymin/shaymin_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0492_shaymin/shaymin_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shaymin",
+    "folder": "0492_shaymin",
+    "model": "cobblemon:shaymin_sky.geo",
+    "original": "cobblemon:textures/pokemon/0492_shaymin/shaymin_sky.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0492_shaymin/shaymin_sky_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0492_shaymin/shaymin_sky_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "sky-forme",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "petilil",
+    "folder": "0548_petilil",
+    "model": "cobblemon:petilil.geo",
+    "original": "cobblemon:textures/pokemon/0548_petilil/petilil.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0548_petilil/petilil_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0548_petilil/petilil_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lilligant",
+    "folder": "0549_lilligant",
+    "model": "cobblemon:lilligant.geo",
+    "original": "cobblemon:textures/pokemon/0549_lilligant/lilligant.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "scraggy",
+    "folder": "0559_scraggy",
+    "model": "cobblemon:scraggy.geo",
+    "original": "cobblemon:textures/pokemon/0559_scraggy/scraggy.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0559_scraggy/scraggy_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0559_scraggy/scraggy_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "scrafty",
+    "folder": "0560_scrafty",
+    "model": "cobblemon:scrafty.geo",
+    "original": "cobblemon:textures/pokemon/0560_scrafty/scrafty.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0560_scrafty/scrafty_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "scrafty",
+    "folder": "0560_scrafty",
+    "model": "cobblemon:scrafty_mega.geo",
+    "original": "cobblemon:textures/pokemon/0560_scrafty/scrafty_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0560_scrafty/scrafty_mega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "flabebe",
+    "folder": "0669_flabebe",
+    "model": "cobblemon:flabebe.geo",
+    "original": "cobblemon:textures/pokemon/0669_flabebe/flabebe.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0669_flabebe/flabebe_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0669_flabebe/flabebe_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0669_flabebe/flabebe_flower_red_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0669_flabebe/flabebe_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0670_floette/floette_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_red_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette_eternal.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette_eternal.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "flower-eternal",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette_eternal_mega.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette_eternal_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "flower-eternal_mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "florges",
+    "folder": "0671_florges",
+    "model": "cobblemon:florges.geo",
+    "original": "cobblemon:textures/pokemon/0671_florges/florges.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0671_florges/florges_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_red_kitsune.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "furfrou",
+    "folder": "0676_furfrou",
+    "model": "cobblemon:furfrou.geo",
+    "original": "cobblemon:textures/pokemon/0676_furfrou/furfrou.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "varoom",
+    "folder": "0965_varoom",
+    "model": "cobblemon:varoom.geo",
+    "original": "cobblemon:textures/pokemon/0965_varoom/varoom.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0965_varoom/varoom_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0965_varoom/varoom_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "revavroom",
+    "folder": "0966_revavroom",
+    "model": "cobblemon:revavroom.geo",
+    "original": "cobblemon:textures/pokemon/0966_revavroom/revavroom.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/0966_revavroom/revavroom_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/0966_revavroom/revavroom_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "okidogi",
+    "folder": "1014_okidogi",
+    "model": "cobblemon:okidogi.geo",
+    "original": "cobblemon:textures/pokemon/1014_okidogi/okidogi.png",
+    "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/1014_okidogi/okidogi_kitsune.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/1014_okidogi/okidogi_kitsune_foxfire_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

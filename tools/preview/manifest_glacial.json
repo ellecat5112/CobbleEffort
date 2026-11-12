@@ -1,0 +1,663 @@
+[
+  {
+    "species": "rattata",
+    "folder": "0019_rattata",
+    "model": "cobblemon:rattata_male.geo",
+    "original": "cobblemon:textures/pokemon/0019_rattata/rattata.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0019_rattata/rattata_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0019_rattata/rattata_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "raticate",
+    "folder": "0020_raticate",
+    "model": "cobblemon:raticate_male.geo",
+    "original": "cobblemon:textures/pokemon/0020_raticate/raticate.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0020_raticate/raticate_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0020_raticate/raticate_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "raticate",
+    "folder": "0020_raticate",
+    "model": "cobblemon:raticatemega.geo",
+    "original": "cobblemon:textures/pokemon/0020_raticate/raticate_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/msdextramegas/0020_raticate/raticate_mega_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/msdextramegas/0020_raticate/raticate_mega_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
+  },
+  {
+    "species": "sandshrew",
+    "folder": "0027_sandshrew",
+    "model": "cobblemon:sandshrew.geo",
+    "original": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0027_sandshrew/sandshrew_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0027_sandshrew/sandshrew_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sandslash",
+    "folder": "0028_sandslash",
+    "model": "cobblemon:sandslash.geo",
+    "original": "cobblemon:textures/pokemon/0028_sandslash/sandslash.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0028_sandslash/sandslash_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0028_sandslash/sandslash_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "staryu",
+    "folder": "0120_staryu",
+    "model": "cobblemon:staryu.geo",
+    "original": "cobblemon:textures/pokemon/0120_staryu/staryu.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0120_staryu/staryu_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0120_staryu/staryu_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0120_staryu/staryu_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0120_staryu/staryu_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "starmie",
+    "folder": "0121_starmie",
+    "model": "cobblemon:starmie.geo",
+    "original": "cobblemon:textures/pokemon/0121_starmie/starmie.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0121_starmie/starmie_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0121_starmie/starmie_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0121_starmie/starmie_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0121_starmie/starmie_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "starmie",
+    "folder": "0121_starmie",
+    "model": "cobblemon:starmie_mega.geo",
+    "original": "cobblemon:textures/pokemon/0121_starmie/starmie_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0121_starmie/starmie_mega_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0121_starmie/starmie_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0121_starmie/starmie_mega_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0121_starmie/starmie_mega_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "ledyba",
+    "folder": "0165_ledyba",
+    "model": "cobblemon:ledyba_male.geo",
+    "original": "cobblemon:textures/pokemon/0165_ledyba/ledyba.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0165_ledyba/ledyba_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0165_ledyba/ledyba_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "ledian",
+    "folder": "0166_ledian",
+    "model": "cobblemon:ledian_male.geo",
+    "original": "cobblemon:textures/pokemon/0166_ledian/ledian.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0166_ledian/ledian_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0166_ledian/ledian_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "taillow",
+    "folder": "0276_taillow",
+    "model": "cobblemon:taillow.geo",
+    "original": "cobblemon:textures/pokemon/0276_taillow/taillow.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0276_taillow/taillow_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0276_taillow/taillow_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "swellow",
+    "folder": "0277_swellow",
+    "model": "cobblemon:swellow.geo",
+    "original": "cobblemon:textures/pokemon/0277_swellow/swellow.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0277_swellow/swellow_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0277_swellow/swellow_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "plusle",
+    "folder": "0311_plusle",
+    "model": "cobblemon:plusle.geo",
+    "original": "cobblemon:textures/pokemon/0311_plusle/plusle.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0311_plusle/plusle_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0311_plusle/plusle_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "litwick",
+    "folder": "0607_litwick",
+    "model": "cobblemon:litwick.geo",
+    "original": "cobblemon:textures/pokemon/0607_litwick/litwick.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0607_litwick/litwick_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0607_litwick/litwick_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0607_litwick/litwick_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0607_litwick/litwick_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lampent",
+    "folder": "0608_lampent",
+    "model": "cobblemon:lampent.geo",
+    "original": "cobblemon:textures/pokemon/0608_lampent/lampent.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0608_lampent/lampent_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0608_lampent/lampent_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0608_lampent/lampent_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0608_lampent/lampent_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chandelure",
+    "folder": "0609_chandelure",
+    "model": "cobblemon:chandelure.geo",
+    "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure_transparency.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_transparency_glacial.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chandelure",
+    "folder": "0609_chandelure",
+    "model": "cobblemon:chandelure_mega.geo",
+    "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/0609_chandelure/chandelure_mega_trim.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_trim_glacial.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "golett",
+    "folder": "0622_golett",
+    "model": "cobblemon:golett.geo",
+    "original": "cobblemon:textures/pokemon/0622_golett/golett.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0622_golett/golett_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0622_golett/golett_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0622_golett/golett_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0622_golett/golett_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golurk",
+    "folder": "0623_golurk",
+    "model": "cobblemon:golurk.geo",
+    "original": "cobblemon:textures/pokemon/0623_golurk/golurk_1.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0623_golurk/golurk_1_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0623_golurk/golurk_emissive_1.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0623_golurk/golurk_emissive_1_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0623_golurk/golurk_1_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golurk",
+    "folder": "0623_golurk",
+    "model": "cobblemon:golurk_mega.geo",
+    "original": "cobblemon:textures/pokemon/0623_golurk/golurk_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0623_golurk/golurk_mega_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0623_golurk/golurk_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0623_golurk/golurk_mega_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0623_golurk/golurk_mega_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "noibat",
+    "folder": "0714_noibat",
+    "model": "cobblemon:noibat.geo",
+    "original": "cobblemon:textures/pokemon/0714_noibat/noibat.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0714_noibat/noibat_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0714_noibat/noibat_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "noivern",
+    "folder": "0715_noivern",
+    "model": "cobblemon:noivern.geo",
+    "original": "cobblemon:textures/pokemon/0715_noivern/noivern.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0715_noivern/noivern_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0715_noivern/noivern_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "diancie",
+    "folder": "0719_diancie",
+    "model": "cobblemon:diancie.geo",
+    "original": "cobblemon:textures/pokemon/0719_diancie/diancie.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "diancie",
+    "folder": "0719_diancie",
+    "model": "cobblemon:diancie_mega.geo",
+    "original": "cobblemon:textures/pokemon/0719_diancie/megadiancie.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "mareanie",
+    "folder": "0747_mareanie",
+    "model": "cobblemon:mareanie.geo",
+    "original": "cobblemon:textures/pokemon/0747_mareanie/mareanie.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0747_mareanie/mareanie_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0747_mareanie/mareanie_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "toxapex",
+    "folder": "0748_toxapex",
+    "model": "cobblemon:toxapex.geo",
+    "original": "cobblemon:textures/pokemon/0748_toxapex/toxapex.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0748_toxapex/toxapex_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0748_toxapex/toxapex_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0748_toxapex/toxapex_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0748_toxapex/toxapex_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "wimpod",
+    "folder": "0767_wimpod",
+    "model": "cobblemon:wimpod.geo",
+    "original": "cobblemon:textures/pokemon/0767_wimpod/wimpod.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0767_wimpod/wimpod_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0767_wimpod/wimpod_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golisopod",
+    "folder": "0768_golisopod",
+    "model": "cobblemon:golisopod.geo",
+    "original": "cobblemon:textures/pokemon/0768_golisopod/golisopod.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0768_golisopod/golisopod_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0768_golisopod/golisopod_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "golisopod",
+    "folder": "0768_golisopod",
+    "model": "cobblemon:golisopod_mega.geo",
+    "original": "cobblemon:textures/pokemon/0768_golisopod/golisopod_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0768_golisopod/golisopod_mega_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0768_golisopod/golisopod_mega_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "turtonator",
+    "folder": "0776_turtonator",
+    "model": "cobblemon:turtonator.geo",
+    "original": "cobblemon:textures/pokemon/0776_turtonator/turtonator.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0776_turtonator/turtonator_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0776_turtonator/turtonator_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gossifleur",
+    "folder": "0829_gossifleur",
+    "model": "cobblemon:gossifleur.geo",
+    "original": "cobblemon:textures/pokemon/0829_gossifleur/gossifleur.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0829_gossifleur/gossifleur_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0829_gossifleur/gossifleur_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "eldegoss",
+    "folder": "0830_eldegoss",
+    "model": "cobblemon:eldegoss.geo",
+    "original": "cobblemon:textures/pokemon/0830_eldegoss/eldegoss.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0830_eldegoss/eldegoss_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0830_eldegoss/eldegoss_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "milcery",
+    "folder": "0868_milcery",
+    "model": "cobblemon:milcery.geo",
+    "original": "cobblemon:textures/pokemon/0868_milcery/milcery.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0868_milcery/milcery_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0868_milcery/milcery_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "alcremie",
+    "folder": "0869_alcremie",
+    "model": "cobblemon:alcremie.geo",
+    "original": "cobblemon:textures/pokemon/0869_alcremie/alcremie_vanilla.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0869_alcremie/alcremie_strawberry_decoration.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_strawberry_decoration_glacial.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0869_alcremie/alcremie_vanilla_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "alcremie",
+    "folder": "0869_alcremie",
+    "model": "cobblemon:alcremie_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0869_alcremie/alcremie_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0869_alcremie/alcremie_gmax_strawberry_decoration.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_strawberry_decoration_glacial.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0869_alcremie/alcremie_gmax_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "dracozolt",
+    "folder": "0880_dracozolt",
+    "model": "cobblemon:dracozolt.geo",
+    "original": "cobblemon:textures/pokemon/0880_dracozolt/dracozolt.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0880_dracozolt/dracozolt_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0880_dracozolt/dracozolt_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "duraludon",
+    "folder": "0884_duraludon",
+    "model": "cobblemon:duraludon.geo",
+    "original": "cobblemon:textures/pokemon/0884_duraludon/duraludon.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/0884_duraludon/duraludon_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0884_duraludon/duraludon_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0884_duraludon/duraludon_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/0884_duraludon/duraludon_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "duraludon",
+    "folder": "0884_duraludon",
+    "model": "cobblemon:gmax_duraludon.geo",
+    "original": "cobblemon:textures/pokemon/0884_duraludon/gmax_duraludon.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0884_duraludon/gmax_duraludon_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0884_duraludon/gmax_duraludon_glacial_frost_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "wochien",
+    "folder": "1001_wochien",
+    "model": "cobblemon:wochien.geo",
+    "original": "cobblemon:textures/pokemon/1001_wochien/wochien.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/1001_wochien/wochien_glacial.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/1001_wochien/wochien_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "archaludon",
+    "folder": "1018_archaludon",
+    "model": "cobblemon:archaludon.geo",
+    "original": "cobblemon:textures/pokemon/1018_archaludon/archaludon.png",
+    "retextured": "cobbleeffort:textures/pokemon/glacial/1018_archaludon/archaludon_glacial.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/1018_archaludon/archaludon_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/glacial/1018_archaludon/archaludon_emissive_glacial.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/glacial/1018_archaludon/archaludon_glacial_frost_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "species": "cobblemon:florges",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_red_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-red",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_red_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_blue_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_orange_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_yellow_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_white_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-pink",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0671_florges/florges_flower_pink_kitsune.png"
+        }
+      ]
+    }
+  ]
+}

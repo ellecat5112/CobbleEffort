@@ -1,0 +1,218 @@
+{
+  "species": "cobblemon:castform",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snowy-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_outter_kitsune.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snowy-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_snowy_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunny-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_outter_kitsune.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunny-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_sunny_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainy-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_outter_kitsune.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rainy-form",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0351_castform/castform_rainy_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "species": "cobblemon:lucario",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_emissive_kitsune.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0448_lucario/lucario_mega_z_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cafe-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocafe.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "captain-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocaptain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "chef-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariochef.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "concert-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioconcert.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "holiday-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioholiday.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "martial_arts-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariomartialarts.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "costume_party-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocostumeparty.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ruins-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "space-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariospace.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cafe-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocafe_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "captain-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocaptain_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "chef-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariochef_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "concert-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioconcert_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "holiday-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioholiday_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "martial_arts-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariomartialarts_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "costume_party-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariocostumeparty_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ruins-costume",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucarioruins_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "space-costume",
+        "kitsune"
+      ],
+      "texture": "cobblemon:textures/pokemon/0448_lucario/lucariospace_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

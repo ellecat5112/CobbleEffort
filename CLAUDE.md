@@ -58,6 +58,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   paints plain layers and emissive layers covering >15% of the texture): Deep Sea `_abyss.py`, Arc Light `_arc.py`
   (`bolts()` = branching arcs, re-struck per frame in `animate`), Abyss `_void.py` (`void_*`; the void, not the sea),
   Ancient Ruins `_ruins.py` (`courses()`, `glyphs()`; not Stone Statues), Gilded `_gilded.py` (shiny = platinum).
+  Glacial `_glacial.py` (not Ice Sculptures), Kitsune `_kitsune.py` (`face_marks()` from face hints; foxfire = top of
+  the height map). Cosmetic items must be unique across collections (incl. multi-item ones; generate.py checks).
   Patterns must read at u = 1 (one texel per model unit): test the small textures, not just the big ones.
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so

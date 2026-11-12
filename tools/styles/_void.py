@@ -107,6 +107,8 @@ def paint(look, c):
         rings = [(cx, cy, max(2.5 * u, min(r, 6 * u)))]
         ys, xs = np.nonzero(c.alpha & ~c.eye)
         for _ in range(max(1, int(_area(c) / 500))):
+            if len(xs) == 0:
+                break
             k = rng.integers(len(xs))
             rings.append((float(xs[k]), float(ys[k]), rng.uniform(1.6, 3.0) * u))
         for rx, ry, rr in rings:

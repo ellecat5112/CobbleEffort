@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:diancie",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/diancie_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0719_diancie/megadiancie_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

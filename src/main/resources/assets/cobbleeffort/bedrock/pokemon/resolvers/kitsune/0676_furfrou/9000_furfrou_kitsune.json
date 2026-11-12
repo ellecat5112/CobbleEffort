@@ -1,0 +1,837 @@
+{
+  "species": "cobblemon:furfrou",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "natural-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "natural-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/furfrou_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heart-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heart-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/heart/furfrou_heart_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "star-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "star-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/star/furfrou_star_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "diamond-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "diamond-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/diamond/furfrou_diamond_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "debutante-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "debutante-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/debutante/furfrou_debutante_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "matron-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "matron-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matron/furfrou_matron_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dandy-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dandy-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/dandy/furfrou_dandy_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "la_reine-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "la_reine-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lareine/furfrou_lareine_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "kabuki-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "kabuki-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/kabuki/furfrou_kabuki_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pharaoh-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pharaoh-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/pharaoh/furfrou_pharaoh_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cinnamon-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cinnamon-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/cinnamon/furfrou_cinnamon_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crusader-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "crusader-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/crusader/furfrou_crusader_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lavender-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lavender-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/lavender/furfrou_lavender_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "matcha-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "matcha-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/matcha/furfrou_matcha_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mourner-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mourner-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/mourner/furfrou_mourner_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rocker-trim",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rocker-trim",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0676_furfrou/rocker/furfrou_rocker_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

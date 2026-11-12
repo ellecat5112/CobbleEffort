@@ -1,0 +1,151 @@
+{
+  "species": "cobblemon:burmy",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_plant_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sandy-cloak",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sandy-cloak",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_sandy_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "trash-cloak",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "trash-cloak",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0412_burmy/burmy_trash_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

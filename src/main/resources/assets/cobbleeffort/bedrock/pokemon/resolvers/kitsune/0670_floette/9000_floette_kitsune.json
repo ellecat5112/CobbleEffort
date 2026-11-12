@@ -1,0 +1,228 @@
+{
+  "species": "cobblemon:floette",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "poser": "cobblemon:floette",
+      "model": "cobblemon:floette.geo",
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_red_kitsune.png"
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-red",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_red_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_blue_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_orange_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_yellow_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_white_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-pink",
+        "kitsune"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/kitsune/0670_floette/floette_flower_pink_kitsune.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "kitsune"
+      ],
+      "poser": "cobbleeffort:floette_eternal",
+      "model": "cobbleeffort:floette_eternal.geo",
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "mega",
+        "kitsune"
+      ],
+      "poser": "cobbleeffort:floette_eternal_mega",
+      "model": "cobbleeffort:floette_eternal_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "mega",
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

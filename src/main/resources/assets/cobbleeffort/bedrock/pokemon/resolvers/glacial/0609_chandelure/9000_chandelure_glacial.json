@@ -1,0 +1,150 @@
+{
+  "species": "cobblemon:chandelure",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_emissive_glacial.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_transparency_glacial.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_emissive_shiny_glacial.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_transparency_shiny_glacial.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/0609_chandelure/chandelure_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_emissive_glacial.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_trim_glacial.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "glacial"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_shiny_glacial.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_emissive_shiny_glacial.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_trim_glacial.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_frost",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_shiny_glacial_frost_0.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_shiny_glacial_frost_1.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_shiny_glacial_frost_2.png",
+              "cobbleeffort:textures/pokemon/glacial/compat/mega_showdown/0609_chandelure/chandelure_mega_shiny_glacial_frost_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

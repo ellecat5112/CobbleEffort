@@ -1,0 +1,43 @@
+{
+  "_comment": "Glacial collection (frost, glacier ice and frozen-in looks, not the clear carved Ice Sculptures of #7). Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed glacial-permafrost`, then given a look each (three lines per look). Shared look in styles/_glacial.py, one thin module per look.",
+  "aspect": "glacial",
+  "feature": "glacial_frost",
+  "style": "glacial_frostbite",
+  "cosmetic_items": [
+    "minecraft:snow_block"
+  ],
+  "lines": ["rattata", "sandshrew", "staryu", "ledyba", "taillow", "plusle", "litwick", "golett", "noibat", "diancie",
+            "mareanie", "wimpod", "turtonator", "gossifleur", "milcery", "dracozolt", "duraludon", "wochien"],
+  "line_styles": {
+    "rattata": "glacial_frostbite",
+    "taillow": "glacial_frostbite",
+    "ledyba": "glacial_frostbite",
+    "golett": "glacial_glacier",
+    "duraludon": "glacial_glacier",
+    "diancie": "glacial_glacier",
+    "sandshrew": "glacial_permafrost",
+    "wimpod": "glacial_permafrost",
+    "wochien": "glacial_permafrost",
+    "noibat": "glacial_aurora",
+    "staryu": "glacial_aurora",
+    "plusle": "glacial_aurora",
+    "mareanie": "glacial_frozen_in",
+    "turtonator": "glacial_frozen_in",
+    "dracozolt": "glacial_frozen_in",
+    "litwick": "glacial_blizzard",
+    "milcery": "glacial_blizzard",
+    "gossifleur": "glacial_blizzard"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 22,
+    "title": "Glacial",
+    "example": "golett",
+    "summary": "Pokemon in the grip of the deep cold: frostbitten, glacier ice, permafrost, aurora ice, frozen solid or snowed in.",
+    "looks": [
+      "each line wears one look: frostbite, its own colours frosted white with rime feathers creeping in from the edges (Rattata, Taillow, Ledyba); glacier, deep blue banded glacier ice with a snow cap and crevasses (Golett, Duraludon, Diancie); permafrost, frozen dark earth threaded with ice lenses and hoarfrost (Sandshrew, Wimpod, Wo-Chien); aurora ice, pale ice that the northern lights shimmer across (Noibat, Staryu, Plusle); frozen in, its own colours seen through a block of blue ice with bubbles and white cracks (Mareanie, Turtonator, Dracozolt); blizzard, crusted in snow with snowflakes and wind-blown streaks (Litwick, Milcery, Gossifleur)",
+      "the ice glints and sparkles in the dark, the aurora ripples; icy glowing eyes",
+      "shiny: the ice's light turned round the colour wheel"
+    ]
+  }
+}

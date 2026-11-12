@@ -82,6 +82,13 @@ made by the Cobblemon team and contributors.
 * **Gilded** (`tools/styles/gilded_*.py`, `_gilded.py`; textures under `.../pokemon/gilded/`): polished gold, rose gold
   or (shiny) platinum shading with reflection bands; gold leaf over lacquer, kintsugi seams over the original colours
   glazed, a filigree trellis, diamonds, cabochon gems or gold-veined marble, and an emissive layer of glints.
+* **Glacial** (`tools/styles/glacial_*.py`, `_glacial.py`; textures under `.../pokemon/glacial/`): the original frosted
+  from the edges in, banded glacier ice, frozen earth with ice lenses, aurora-tinted ice, the original seen through
+  blue ice, or snow drifts and flakes, with an emissive layer of glints (and a moving aurora); shinies hue-turned.
+* **Kitsune** (`tools/styles/kitsune_*.py`, `_kitsune.py`; textures under `.../pokemon/kitsune/`): fur recoloured to
+  each fox's palette with combed strokes, kitsune mask markings placed from the model's face hints, foxfire on the
+  topmost parts, rope and paper shide, maple leaves or stars, and an emissive layer where the fire flickers and wisps
+  drift; shinies hue-turned.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

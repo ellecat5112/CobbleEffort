@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -707,6 +707,57 @@ Meltan → Melmetal · Glimmet → Glimmora · Tatsugiri
 Picked with `generate.py pick --count 18 --seed gilded-gold-leaf` from the 109 remaining eligible lines.
 
 ![Original vs. gilded](docs/gilded_preview.png)
+
+## Collection #22: Glacial
+
+18 evolutionary lines (**32 Pokémon**) in the grip of the deep cold (three lines per look; frost and glacier ice, not
+the clear carved Ice Sculptures of #7):
+
+* **frostbite** (Rattata, Taillow, Ledyba): its own colours frosted pale, white rime creeping in from every edge
+* **glacier** (Golett, Duraludon, Diancie): deep blue banded glacier ice with dark crevasses and a snow cap
+* **permafrost** (Sandshrew, Wimpod, Wo-Chien): frozen dark earth threaded with ice lenses and hoarfrost
+* **aurora ice** (Noibat, Staryu, Plusle): pale clear ice with the northern lights' greens and violets **rippling** across
+* **frozen in** (Mareanie, Turtonator, Dracozolt): its own colours seen through blue ice, with bubbles and white cracks
+* **blizzard** (Litwick, Milcery, Gossifleur): crusted with snow drifts, snowflakes and wind-blown streaks
+* the ice **glints and sparkles** in the dark; icy glowing eyes
+* other forms (Mega Starmie, Golurk, Chandelure, Diancie and Golisopod, Extra Megas' Mega Raticate, Gigantamax
+  Alcremie and Duraludon) wear the look too
+* shiny: the ice's light turned round the colour wheel
+
+Rattata → Raticate · Sandshrew → Sandslash · Staryu → Starmie · Ledyba → Ledian · Taillow → Swellow · Plusle ·
+Litwick → Lampent → Chandelure · Golett → Golurk · Noibat → Noivern · Diancie · Mareanie → Toxapex ·
+Wimpod → Golisopod · Turtonator · Gossifleur → Eldegoss · Milcery → Alcremie · Dracozolt ·
+Duraludon → Archaludon · Wo-Chien
+
+Picked with `generate.py pick --count 18 --seed glacial-permafrost` from the 91 remaining eligible lines.
+
+![Original vs. glacial](docs/glacial_preview.png)
+
+## Collection #23: Kitsune
+
+18 evolutionary lines (**35 Pokémon**) as fox spirits of shrine and legend: kitsune mask markings on the face (a
+forehead flame and swept cheek stripes), and ears, tails and crests burning with **foxfire** that flickers in the dark
+(three lines per look):
+
+* **Inari** (Riolu, Furfrou, Abra): the white shrine fox, snowy fur with vermilion markings and warm orange foxfire
+* **kitsunebi** (Gastly, Rotom, Tentacool): dark indigo haunted by **drifting** blue-white foxfire wisps
+* **nogitsune** (Scraggy, Okidogi, Varoom): the wild fox, black fur with gold markings and violet flames
+* **tenko** (Shaymin, Castform, Flabébé): the celestial fox, pale gold fading to sky blue, dusted with stars
+* **shrine** (Sudowoodo, Burmy, Lileep): vermilion lacquer over black, a straw shimenawa rope hung with paper shide
+* **autumn** (Petilil, Shroomish, Yanma): russet fur scattered with red and gold maple leaves, ember-red fire
+* other forms (Mega Alakazam, Gengar, Lucario incl. Mega Z, Scrafty and Eternal Floette, Gigantamax Gengar, every
+  Rotom appliance, Castform's weather forms, Sky Shaymin) wear the look too; Poke Costumes' outfits for Lucario and
+  Revavroom keep their own art (that pack allows no derivatives)
+* shiny: the foxfire turned round the colour wheel
+
+Abra → Kadabra → Alakazam · Tentacool → Tentacruel · Gastly → Haunter → Gengar · Bonsly → Sudowoodo ·
+Yanma → Yanmega · Shroomish → Breloom · Lileep → Cradily · Castform · Burmy → Wormadam / Mothim · Riolu → Lucario ·
+Rotom · Shaymin · Petilil → Lilligant · Scraggy → Scrafty · Flabébé → Floette → Florges · Furfrou ·
+Varoom → Revavroom · Okidogi
+
+Picked with `generate.py pick --count 18 --seed kitsune-foxfire` from the 73 remaining eligible lines.
+
+![Original vs. kitsune](docs/kitsune_preview.png)
 
 ### How to get one
 

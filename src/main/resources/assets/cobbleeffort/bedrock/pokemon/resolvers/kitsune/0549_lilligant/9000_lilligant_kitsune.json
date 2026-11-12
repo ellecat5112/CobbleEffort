@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:lilligant",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "kitsune"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_shiny_kitsune.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_foxfire",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_shiny_kitsune_foxfire_0.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_shiny_kitsune_foxfire_1.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_shiny_kitsune_foxfire_2.png",
+              "cobbleeffort:textures/pokemon/kitsune/0549_lilligant/lilligant_hisuian_shiny_kitsune_foxfire_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
