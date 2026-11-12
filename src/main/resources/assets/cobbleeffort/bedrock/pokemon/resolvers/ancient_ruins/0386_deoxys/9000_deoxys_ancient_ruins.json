@@ -1,0 +1,460 @@
+{
+  "species": "cobblemon:deoxys",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "ancient_ruins"
+      ],
+      "poser": "cobbleeffort:deoxys",
+      "model": "cobbleeffort:deoxys.geo",
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "normal-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "normal-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_green_core_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "attack-forme",
+        "ancient_ruins"
+      ],
+      "poser": "cobbleeffort:deoxys_attack",
+      "model": "cobbleeffort:deoxys_attack.geo",
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "attack-forme",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "attack-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "attack-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_attack_green_core_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "speed-forme",
+        "ancient_ruins"
+      ],
+      "poser": "cobbleeffort:deoxys_speed",
+      "model": "cobbleeffort:deoxys_speed.geo",
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "speed-forme",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "speed-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "speed-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_speed_green_core_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "defense-forme",
+        "ancient_ruins"
+      ],
+      "poser": "cobbleeffort:deoxys_defense",
+      "model": "cobbleeffort:deoxys_defense.geo",
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "defense-forme",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "defense-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_emissive_ancient_ruins.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "defense-forme",
+        "green-color",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0386_deoxys/deoxys_defense_green_core_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

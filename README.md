@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -655,6 +655,58 @@ Caterpie → Metapod → Butterfree · Nidoran♂ → Nidorino → Nidoking · G
 Picked with `generate.py pick --count 18 --seed abyss-void-gaze` from the 145 remaining eligible lines.
 
 ![Original vs. abyss](docs/abyss_preview.png)
+
+## Collection #20: Ancient Ruins
+
+18 evolutionary lines (**33 Pokémon**) as relics of lost temples: the body cut into carved stone courses and blocks,
+cracked and weathered, with rows of ancient glyphs that still glow (three lines per look; not the plain Stone Statues
+of #8):
+
+* **Mesoamerican** (Numel, Flamigo, Darumaka): warm sandstone with stepped-fret bands, jade inlays, turquoise glyphs
+* **hieroglyph** (Sinistea, Poltchageist, Enamorus): pale limestone with lapis-and-gold bands and amber glyph rows
+* **overgrown** (Foongus, Joltik, Wurmple): jungle-temple stone swallowed by moss with vines hanging down
+* **sunken** (Dondozo, Palkia, Illumise): sea-worn blue-grey stone with barnacles, coral, seaweed and aqua glyphs
+* **sandstone** (Rhyhorn, Shieldon, Volbeat): wind-eroded strata in ochre and cream with sand drifted round the feet
+* **guardian** (Deoxys, Tinkatink, Morpeko): black basalt cut with glowing orange dot-glyph circuits
+* the glyphs and eyes **glow in the dark** and slowly **pulse**
+* other forms (Mega Camerupt, Galarian Darumaka and Darmanitan incl. Zen Mode, Deoxys' Attack, Defense and Speed
+  Formes, Origin Palkia, Therian Enamorus) wear the look too
+* shiny: paler stone, the glyph light turned round the colour wheel
+
+Rhyhorn → Rhydon → Rhyperior · Wurmple → Silcoon → Beautifly / Cascoon → Dustox · Volbeat · Illumise ·
+Numel → Camerupt · Deoxys · Shieldon → Bastiodon · Palkia · Darumaka → Darmanitan · Foongus → Amoonguss ·
+Joltik → Galvantula · Sinistea → Polteageist · Morpeko · Enamorus · Tinkatink → Tinkatuff → Tinkaton · Flamigo ·
+Dondozo · Poltchageist → Sinistcha
+
+Picked with `generate.py pick --count 18 --seed ancient-ruins-glyph` from the 127 remaining eligible lines.
+
+![Original vs. ancient ruins](docs/ancient_ruins_preview.png)
+
+## Collection #21: Gilded
+
+18 evolutionary lines (**36 Pokémon**) made precious with gold (three lines per look):
+
+* **gold leaf** (Machop, Landorus, Meltan): burnished gold leaf laid in squares over dark red lacquer
+* **kintsugi** (Wobbuffet, Shellos, Binacle): its own colours as glazed ceramic, the cracks mended with gold
+* **filigree** (Sableye, Mawile, Poochyena): black velvet worked with an open gold trellis (and scroll spirals on
+  bigger textures)
+* **rose gold** (Hoppip, Ponyta, Glimmet): polished rose gold set with tiny diamonds that **sparkle**
+* **jewelled** (Dratini, Starly, Tatsugiri): polished gold studded with rubies, emeralds, sapphires and amethysts
+* **gilded marble** (Stantler, Farfetch'd, Skrelp): white marble veined with grey and threaded with gold
+* polished metal shading; light **glints** off the gold, runs along the gold seams and veins, the gems glow softly in
+  the dark; gem-bright eyes
+* other forms (Mega Dragonite, Sableye, Mawile, Staraptor, Barbaracle, Dragalge and Glimmora, Gigantamax Machamp and
+  Melmetal, Therian Landorus) wear the look too
+* shiny: platinum and silver instead of gold, the gems turned round the colour wheel
+
+Machop → Machoke → Machamp · Ponyta → Rapidash · Farfetch'd → Sirfetch'd · Dratini → Dragonair → Dragonite ·
+Hoppip → Skiploom → Jumpluff · Wynaut → Wobbuffet · Stantler → Wyrdeer · Poochyena → Mightyena · Sableye · Mawile ·
+Starly → Staravia → Staraptor · Shellos → Gastrodon · Landorus · Binacle → Barbaracle · Skrelp → Dragalge ·
+Meltan → Melmetal · Glimmet → Glimmora · Tatsugiri
+
+Picked with `generate.py pick --count 18 --seed gilded-gold-leaf` from the 109 remaining eligible lines.
+
+![Original vs. gilded](docs/gilded_preview.png)
 
 ### How to get one
 

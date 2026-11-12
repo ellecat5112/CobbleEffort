@@ -1,0 +1,227 @@
+{
+  "species": "cobblemon:darmanitan",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_emissive_ancient_ruins.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_emissive_ancient_ruins.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "zen-mode",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_emissive_ancient_ruins.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zen-mode",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_emissive_ancient_ruins.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/0555_darmanitan/darmanitan_zen_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_shiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_shiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_shiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_shiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_shiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "zen-mode",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenemissive_ancient_ruins.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "shiny",
+        "zen-mode",
+        "ancient_ruins"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenshiny_ancient_ruins.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glyph",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenshiny_ancient_ruins_glyph_0.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenshiny_ancient_ruins_glyph_1.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenshiny_ancient_ruins_glyph_2.png",
+              "cobbleeffort:textures/pokemon/ancient_ruins/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenshiny_ancient_ruins_glyph_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

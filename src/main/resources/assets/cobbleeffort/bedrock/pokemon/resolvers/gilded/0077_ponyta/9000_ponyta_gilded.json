@@ -1,0 +1,140 @@
+{
+  "species": "cobblemon:ponyta",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/normal/1_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/normal/2_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/normal/3_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/normal/4_gilded.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/shiny/1_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/shiny/2_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/shiny/3_gilded.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/shiny/4_gilded.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_gilded.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_emissive_gilded.png",
+          "emissive": "true"
+        },
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_emissive_shiny_gilded.png",
+          "emissive": "true"
+        },
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_galar_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

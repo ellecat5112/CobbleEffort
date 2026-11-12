@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:binacle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

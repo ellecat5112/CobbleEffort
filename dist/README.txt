@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 19 collections of cosmetic forms (724 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 21 collections of cosmetic forms (793 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -49,6 +49,8 @@ AT A GLANCE
   17  Steampunk                           Copper Ingot                                    steampunk
   18  Arc Light                           Lightning Rod                                   arc_light
   19  Abyss                               Crying Obsidian                                 abyss
+  20  Ancient Ruins                       Chiseled Sandstone                              ancient_ruins
+  21  Gilded                              Gold Ingot                                      gilded
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -800,6 +802,83 @@ Pokemon (each line is a whole evolutionary family):
   - Tapu Koko
   - Tapu Fini
   - Gimmighoul > Gholdengo
+
+====================================================================================================
+#20  ANCIENT RUINS  (33 Pokemon)
+====================================================================================================
+Pokemon as relics of lost temples: carved stone blocks with ancient glyphs that still glow.
+
+Cosmetic item: Chiseled Sandstone
+Command:       /pokegive rhyhorn ancient_ruins   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look, cut into carved stone blocks: Mesoamerican sandstone with stepped-fret
+    bands and jade (Numel, Flamigo, Darumaka); limestone with hieroglyph bands and lapis and gold
+    paint (Sinistea, Poltchageist, Enamorus); jungle temple stone overgrown with moss and hanging
+    vines (Foongus, Joltik, Wurmple); a sunken ruin with barnacles, coral and seaweed (Dondozo,
+    Palkia, Illumise); wind-eroded sandstone strata with sand at the feet (Rhyhorn, Shieldon,
+    Volbeat); a basalt guardian with glowing dot-glyph circuits (Deoxys, Tinkatink, Morpeko)
+  * cracks and weathering; the glyphs and eyes glow in the dark and slowly pulse
+  * shiny: the glyph light turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Rhyhorn > Rhydon > Rhyperior
+  - Wurmple > Silcoon / Cascoon > Beautifly / Dustox
+  - Volbeat
+  - Illumise
+  - Numel > Camerupt
+  - Deoxys
+  - Shieldon > Bastiodon
+  - Palkia
+  - Darumaka > Darmanitan
+  - Foongus > Amoonguss
+  - Joltik > Galvantula
+  - Sinistea > Polteageist
+  - Morpeko
+  - Enamorus
+  - Tinkatink > Tinkatuff > Tinkaton
+  - Flamigo
+  - Dondozo
+  - Poltchageist > Sinistcha
+
+====================================================================================================
+#21  GILDED  (36 Pokemon)
+====================================================================================================
+Pokemon made precious: gold leaf, kintsugi, filigree, rose gold, jewels and gold-veined marble.
+
+Cosmetic item: Gold Ingot
+Command:       /pokegive dratini gilded   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: gold leaf over red lacquer (Machop, Landorus, Meltan); kintsugi, its
+    own colours as glazed ceramic with cracks mended in gold (Wobbuffet, Shellos, Binacle); black
+    velvet with gold filigree scrollwork (Sableye, Mawile, Poochyena); polished rose gold set with
+    tiny diamonds (Hoppip, Ponyta, Glimmet); gold studded with rubies, emeralds, sapphires and
+    amethysts (Dratini, Starly, Tatsugiri); white marble veined with gold (Stantler, Farfetch'd,
+    Skrelp)
+  * polished metal shading; light glints and sparkles off the gold, runs along gold seams and veins,
+    and the gems glow softly in the dark; gem-bright eyes
+  * shiny: platinum and silver instead of gold, the gems turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Machop > Machoke > Machamp
+  - Ponyta > Rapidash
+  - Farfetch’d > Sirfetch’d
+  - Dratini > Dragonair > Dragonite
+  - Hoppip > Skiploom > Jumpluff
+  - Wynaut > Wobbuffet
+  - Stantler > Wyrdeer
+  - Poochyena > Mightyena
+  - Sableye
+  - Mawile
+  - Starly > Staravia > Staraptor
+  - Shellos > Gastrodon
+  - Landorus
+  - Binacle > Barbaracle
+  - Skrelp > Dragalge
+  - Meltan > Melmetal
+  - Glimmet > Glimmora
+  - Tatsugiri
 
 ====================================================================================================
 NEW POKEMON

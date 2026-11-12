@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:staraptor",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "gilded"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

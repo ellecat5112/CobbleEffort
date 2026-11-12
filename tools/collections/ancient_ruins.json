@@ -1,0 +1,43 @@
+{
+  "_comment": "Ancient Ruins collection (carved temple stone with glyphs, not the plain Stone Statues of #8). Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed ancient-ruins-glyph`, then given a look each (three lines per look). Shared look in styles/_ruins.py, one thin module per look.",
+  "aspect": "ancient_ruins",
+  "feature": "ancient_ruins_glyphs",
+  "style": "ruins_aztec",
+  "cosmetic_items": [
+    "minecraft:chiseled_sandstone"
+  ],
+  "lines": ["rhyhorn", "wurmple", "volbeat", "illumise", "numel", "deoxys", "shieldon", "palkia", "darumaka", "foongus",
+            "joltik", "sinistea", "morpeko", "enamorus", "tinkatink", "flamigo", "dondozo", "poltchageist"],
+  "line_styles": {
+    "numel": "ruins_aztec",
+    "flamigo": "ruins_aztec",
+    "darumaka": "ruins_aztec",
+    "sinistea": "ruins_hieroglyph",
+    "poltchageist": "ruins_hieroglyph",
+    "enamorus": "ruins_hieroglyph",
+    "foongus": "ruins_overgrown",
+    "joltik": "ruins_overgrown",
+    "wurmple": "ruins_overgrown",
+    "dondozo": "ruins_sunken",
+    "palkia": "ruins_sunken",
+    "illumise": "ruins_sunken",
+    "rhyhorn": "ruins_sandstone",
+    "shieldon": "ruins_sandstone",
+    "volbeat": "ruins_sandstone",
+    "deoxys": "ruins_guardian",
+    "tinkatink": "ruins_guardian",
+    "morpeko": "ruins_guardian"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 20,
+    "title": "Ancient Ruins",
+    "example": "rhyhorn",
+    "summary": "Pokemon as relics of lost temples: carved stone blocks with ancient glyphs that still glow.",
+    "looks": [
+      "each line wears one look, cut into carved stone blocks: Mesoamerican sandstone with stepped-fret bands and jade (Numel, Flamigo, Darumaka); limestone with hieroglyph bands and lapis and gold paint (Sinistea, Poltchageist, Enamorus); jungle temple stone overgrown with moss and hanging vines (Foongus, Joltik, Wurmple); a sunken ruin with barnacles, coral and seaweed (Dondozo, Palkia, Illumise); wind-eroded sandstone strata with sand at the feet (Rhyhorn, Shieldon, Volbeat); a basalt guardian with glowing dot-glyph circuits (Deoxys, Tinkatink, Morpeko)",
+      "cracks and weathering; the glyphs and eyes glow in the dark and slowly pulse",
+      "shiny: the glyph light turned round the colour wheel"
+    ]
+  }
+}

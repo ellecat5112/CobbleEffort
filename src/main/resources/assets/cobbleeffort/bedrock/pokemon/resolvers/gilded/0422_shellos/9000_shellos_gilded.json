@@ -1,0 +1,151 @@
+{
+  "species": "cobblemon:shellos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "west-sea",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "west-sea",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "east-sea",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "east-sea",
+        "gilded"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_shiny_gilded.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_glint",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_shiny_gilded_glint_0.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_shiny_gilded_glint_1.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_shiny_gilded_glint_2.png",
+              "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_east_shiny_gilded_glint_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

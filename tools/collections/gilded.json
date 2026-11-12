@@ -1,0 +1,43 @@
+{
+  "_comment": "Gilded collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed gilded-gold-leaf` after Ancient Ruins', then given a look each (three lines per look). Shared look in styles/_gilded.py, one thin module per look.",
+  "aspect": "gilded",
+  "feature": "gilded_gold",
+  "style": "gilded_gold_leaf",
+  "cosmetic_items": [
+    "minecraft:gold_ingot"
+  ],
+  "lines": ["machop", "ponyta", "farfetchd", "dratini", "hoppip", "wobbuffet", "stantler", "poochyena", "sableye",
+            "mawile", "starly", "shellos", "landorus", "binacle", "skrelp", "meltan", "glimmet", "tatsugiri"],
+  "line_styles": {
+    "machop": "gilded_gold_leaf",
+    "landorus": "gilded_gold_leaf",
+    "meltan": "gilded_gold_leaf",
+    "wobbuffet": "gilded_kintsugi",
+    "shellos": "gilded_kintsugi",
+    "binacle": "gilded_kintsugi",
+    "sableye": "gilded_filigree",
+    "mawile": "gilded_filigree",
+    "poochyena": "gilded_filigree",
+    "hoppip": "gilded_rose_gold",
+    "ponyta": "gilded_rose_gold",
+    "glimmet": "gilded_rose_gold",
+    "dratini": "gilded_jewelled",
+    "starly": "gilded_jewelled",
+    "tatsugiri": "gilded_jewelled",
+    "stantler": "gilded_marble",
+    "farfetchd": "gilded_marble",
+    "skrelp": "gilded_marble"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 21,
+    "title": "Gilded",
+    "example": "dratini",
+    "summary": "Pokemon made precious: gold leaf, kintsugi, filigree, rose gold, jewels and gold-veined marble.",
+    "looks": [
+      "each line wears one look: gold leaf over red lacquer (Machop, Landorus, Meltan); kintsugi, its own colours as glazed ceramic with cracks mended in gold (Wobbuffet, Shellos, Binacle); black velvet with gold filigree scrollwork (Sableye, Mawile, Poochyena); polished rose gold set with tiny diamonds (Hoppip, Ponyta, Glimmet); gold studded with rubies, emeralds, sapphires and amethysts (Dratini, Starly, Tatsugiri); white marble veined with gold (Stantler, Farfetch'd, Skrelp)",
+      "polished metal shading; light glints and sparkles off the gold, runs along gold seams and veins, and the gems glow softly in the dark; gem-bright eyes",
+      "shiny: platinum and silver instead of gold, the gems turned round the colour wheel"
+    ]
+  }
+}

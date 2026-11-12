@@ -75,6 +75,13 @@ made by the Cobblemon team and contributors.
   darks, with glowing Voronoi rifts, painted eyes, rising flames, rune circles or branching veins, and an animated
   emissive layer (motes drift, rifts throb, eyes blink, flames flicker, veins pulse); shinies hue-turned. Both paint
   plain texture layers and large emissive layers too.
+* **Ancient Ruins** (`tools/styles/ruins_*.py`, `_ruins.py`; textures under `.../pokemon/ancient_ruins/`): colours
+  remapped to each look's stone (sandstone, limestone, mossy granite, sea-worn stone, strata, basalt), cut into courses
+  and staggered blocks with cracks, moss, vines, barnacles or sand, and procedural glyphs that glow in a pulsing
+  emissive layer; shinies paler with hue-turned glyphs.
+* **Gilded** (`tools/styles/gilded_*.py`, `_gilded.py`; textures under `.../pokemon/gilded/`): polished gold, rose gold
+  or (shiny) platinum shading with reflection bands; gold leaf over lacquer, kintsugi seams over the original colours
+  glazed, a filigree trellis, diamonds, cabochon gems or gold-veined marble, and an emissive layer of glints.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

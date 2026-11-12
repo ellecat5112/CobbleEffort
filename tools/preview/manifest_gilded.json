@@ -1,0 +1,685 @@
+[
+  {
+    "species": "machop",
+    "folder": "0066_machop",
+    "model": "cobblemon:machop.geo",
+    "original": "cobblemon:textures/pokemon/0066_machop/machop.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0066_machop/machop_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0066_machop/machop_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "machoke",
+    "folder": "0067_machoke",
+    "model": "cobblemon:machoke.geo",
+    "original": "cobblemon:textures/pokemon/0067_machoke/machoke.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0067_machoke/machoke_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0067_machoke/machoke_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "machamp",
+    "folder": "0068_machamp",
+    "model": "cobblemon:machamp.geo",
+    "original": "cobblemon:textures/pokemon/0068_machamp/machamp.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0068_machamp/machamp_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0068_machamp/machamp_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "machamp",
+    "folder": "0068_machamp",
+    "model": "cobblemon:machamp_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0068_machamp/machamp_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0068_machamp/machamp_gmax_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0068_machamp/machamp_gmax_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0068_machamp/machamp_gmax_emissive_gilded.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "ponyta",
+    "folder": "0077_ponyta",
+    "model": "cobblemon:ponyta.geo",
+    "original": "cobblemon:textures/pokemon/0077_ponyta/ponyta.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0077_ponyta/fire/normal/1.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/fire/normal/1_gilded.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0077_ponyta/ponyta_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rapidash",
+    "folder": "0078_rapidash",
+    "model": "cobblemon:rapidash.geo",
+    "original": "cobblemon:textures/pokemon/0078_rapidash/rapidash.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0078_rapidash/rapidash_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0078_rapidash/fire/normal/1.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0078_rapidash/fire/normal/1_gilded.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0078_rapidash/rapidash_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "farfetchd",
+    "folder": "0083_farfetchd",
+    "model": "cobblemon:farfetchd.geo",
+    "original": "cobblemon:textures/pokemon/0083_farfetchd/farfetchd.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0083_farfetchd/farfetchd_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0083_farfetchd/farfetchd_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dratini",
+    "folder": "0147_dratini",
+    "model": "cobblemon:dratini.geo",
+    "original": "cobblemon:textures/pokemon/0147_dratini/dratini.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0147_dratini/dratini_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0147_dratini/dratini_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragonair",
+    "folder": "0148_dragonair",
+    "model": "cobblemon:dragonair.geo",
+    "original": "cobblemon:textures/pokemon/0148_dragonair/dragonair.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0148_dragonair/dragonair_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0148_dragonair/dragonair_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0148_dragonair/dragonair_emissive_gilded.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0148_dragonair/dragonair_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragonite",
+    "folder": "0149_dragonite",
+    "model": "cobblemon:dragonite.geo",
+    "original": "cobblemon:textures/pokemon/0149_dragonite/dragonite.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0149_dragonite/dragonite_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0149_dragonite/dragonite_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragonite",
+    "folder": "0149_dragonite",
+    "model": "cobblemon:dragonite_mega.geo",
+    "original": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0149_dragonite/dragonite_mega_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0149_dragonite/dragonite_mega_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "hoppip",
+    "folder": "0187_hoppip",
+    "model": "cobblemon:hoppip.geo",
+    "original": "cobblemon:textures/pokemon/0187_hoppip/hoppip.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0187_hoppip/hoppip_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0187_hoppip/hoppip_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skiploom",
+    "folder": "0188_skiploom",
+    "model": "cobblemon:skiploom.geo",
+    "original": "cobblemon:textures/pokemon/0188_skiploom/skiploom.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0188_skiploom/skiploom_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0188_skiploom/skiploom_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "jumpluff",
+    "folder": "0189_jumpluff",
+    "model": "cobblemon:jumpluff.geo",
+    "original": "cobblemon:textures/pokemon/0189_jumpluff/jumpluff.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0189_jumpluff/jumpluff_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0189_jumpluff/jumpluff_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "wobbuffet",
+    "folder": "0202_wobbuffet",
+    "model": "cobblemon:wobbuffet_male.geo",
+    "original": "cobblemon:textures/pokemon/0202_wobbuffet/wobbuffet.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0202_wobbuffet/wobbuffet_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0202_wobbuffet/wobbuffet_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "stantler",
+    "folder": "0234_stantler",
+    "model": "cobblemon:stantler.geo",
+    "original": "cobblemon:textures/pokemon/0234_stantler/stantler.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0234_stantler/stantler_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0234_stantler/stantler_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poochyena",
+    "folder": "0261_poochyena",
+    "model": "cobblemon:poochyena.geo",
+    "original": "cobblemon:textures/pokemon/0261_poochyena/poochyena.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0261_poochyena/poochyena_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0261_poochyena/poochyena_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mightyena",
+    "folder": "0262_mightyena",
+    "model": "cobblemon:mightyena.geo",
+    "original": "cobblemon:textures/pokemon/0262_mightyena/mightyena.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0262_mightyena/mightyena_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0262_mightyena/mightyena_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sableye",
+    "folder": "0302_sableye",
+    "model": "cobblemon:sableye.geo",
+    "original": "cobblemon:textures/pokemon/0302_sableye/sableye.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0302_sableye/sableye_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0302_sableye/sableye_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sableye",
+    "folder": "0302_sableye",
+    "model": "cobblemon:sableye_mega.geo",
+    "original": "cobblemon:textures/pokemon/0302_sableye/sableye_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0302_sableye/sableye_mega_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0302_sableye/sableye_mega_translucent.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0302_sableye/sableye_mega_translucent_gilded.png",
+        "emissive": false
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "mawile",
+    "folder": "0303_mawile",
+    "model": "cobblemon:mawile.geo",
+    "original": "cobblemon:textures/pokemon/0303_mawile/mawile.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0303_mawile/mawile_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0303_mawile/mawile_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mawile",
+    "folder": "0303_mawile",
+    "model": "cobblemon:mawile_mega.geo",
+    "original": "cobblemon:textures/pokemon/0303_mawile/mawile_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0303_mawile/mawile_mega_gilded.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "wynaut",
+    "folder": "0360_wynaut",
+    "model": "cobblemon:wynaut.geo",
+    "original": "cobblemon:textures/pokemon/0360_wynaut/wynaut.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0360_wynaut/wynaut_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0360_wynaut/wynaut_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "starly",
+    "folder": "0396_starly",
+    "model": "cobblemon:starly_male.geo",
+    "original": "cobblemon:textures/pokemon/0396_starly/starly.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0396_starly/starly_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0396_starly/starly_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "staravia",
+    "folder": "0397_staravia",
+    "model": "cobblemon:staravia_male.geo",
+    "original": "cobblemon:textures/pokemon/0397_staravia/staravia.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0397_staravia/staravia_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0397_staravia/staravia_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "staraptor",
+    "folder": "0398_staraptor",
+    "model": "cobblemon:staraptor_male.geo",
+    "original": "cobblemon:textures/pokemon/0398_staraptor/staraptor.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0398_staraptor/staraptor_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "staraptor",
+    "folder": "0398_staraptor",
+    "model": "cobblemon:staraptor_mega.geo",
+    "original": "cobblemon:textures/pokemon/0398_staraptor/staraptor_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0398_staraptor/staraptor_mega_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "shellos",
+    "folder": "0422_shellos",
+    "model": "cobblemon:shellos_west.geo",
+    "original": "cobblemon:textures/pokemon/0422_shellos/shellos_west.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0422_shellos/shellos_west_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gastrodon",
+    "folder": "0423_gastrodon",
+    "model": "cobblemon:gastrodon_west.geo",
+    "original": "cobblemon:textures/pokemon/0423_gastrodon/gastrodon_west.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0423_gastrodon/gastrodon_west_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0423_gastrodon/gastrodon_west_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "landorus",
+    "folder": "0645_landorus",
+    "model": "cobblemon:landorus.geo",
+    "original": "cobblemon:textures/pokemon/0645_landorus/landorus.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0645_landorus/landorus_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0645_landorus/landorus_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "landorus",
+    "folder": "0645_landorus",
+    "model": "cobblemon:landorus_therian.geo",
+    "original": "cobblemon:textures/pokemon/0645_landorus/landorus_therian.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0645_landorus/landorus_therian_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0645_landorus/landorus_therian_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "therian-forme",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "binacle",
+    "folder": "0688_binacle",
+    "model": "cobblemon:binacle.geo",
+    "original": "cobblemon:textures/pokemon/0688_binacle/binacle.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0688_binacle/binacle_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "barbaracle",
+    "folder": "0689_barbaracle",
+    "model": "cobblemon:barbaracle.geo",
+    "original": "cobblemon:textures/pokemon/0689_barbaracle/barbaracle.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0689_barbaracle/barbaracle_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0689_barbaracle/barbaracle_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "barbaracle",
+    "folder": "0689_barbaracle",
+    "model": "cobblemon:barbaracle_mega.geo",
+    "original": "cobblemon:textures/pokemon/0689_barbaracle/barbaracle_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0689_barbaracle/barbaracle_mega_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0689_barbaracle/barbaracle_mega_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "skrelp",
+    "folder": "0690_skrelp",
+    "model": "cobblemon:skrelp.geo",
+    "original": "cobblemon:textures/pokemon/0690_skrelp/skrelp.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0690_skrelp/skrelp_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0690_skrelp/skrelp_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragalge",
+    "folder": "0691_dragalge",
+    "model": "cobblemon:dragalge.geo",
+    "original": "cobblemon:textures/pokemon/0691_dragalge/dragalge.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0691_dragalge/dragalge_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0691_dragalge/dragalge_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragalge",
+    "folder": "0691_dragalge",
+    "model": "cobblemon:dragalge_mega.geo",
+    "original": "cobblemon:textures/pokemon/0691_dragalge/dragalge_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0691_dragalge/dragalge_mega_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0691_dragalge/dragalge_mega_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "meltan",
+    "folder": "0808_meltan",
+    "model": "cobblemon:meltan.geo",
+    "original": "cobblemon:textures/pokemon/0808_meltan/meltan.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0808_meltan/meltan_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0808_meltan/meltan_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "melmetal",
+    "folder": "0809_melmetal",
+    "model": "cobblemon:melmetal.geo",
+    "original": "cobblemon:textures/pokemon/0809_melmetal/melmetal.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0809_melmetal/melmetal_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0809_melmetal/melmetal_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "melmetal",
+    "folder": "0809_melmetal",
+    "model": "cobblemon:melmetal_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0809_melmetal/melmetal_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0809_melmetal/melmetal_gmax_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0809_melmetal/melmetal_gmax_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "sirfetchd",
+    "folder": "0865_sirfetchd",
+    "model": "cobblemon:sirfetchd.geo",
+    "original": "cobblemon:textures/pokemon/0865_sirfetchd/sirfetchd.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0865_sirfetchd/sirfetchd_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0865_sirfetchd/sirfetchd_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "wyrdeer",
+    "folder": "0899_wyrdeer",
+    "model": "cobblemon:wyrdeer.geo",
+    "original": "cobblemon:textures/pokemon/0899_wyrdeer/wyrdeer.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0899_wyrdeer/wyrdeer_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0899_wyrdeer/wyrdeer_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "glimmet",
+    "folder": "0969_glimmet",
+    "model": "cobblemon:glimmet.geo",
+    "original": "cobblemon:textures/pokemon/0969_glimmet/glimmet.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0969_glimmet/glimmet_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0969_glimmet/glimmet_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0969_glimmet/glimmet_emissive_gilded.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0969_glimmet/glimmet_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "glimmora",
+    "folder": "0970_glimmora",
+    "model": "cobblemon:glimmora.geo",
+    "original": "cobblemon:textures/pokemon/0970_glimmora/glimmora.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0970_glimmora/glimmora_gilded.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0970_glimmora/glimmora_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0970_glimmora/glimmora_emissive_gilded.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0970_glimmora/glimmora_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "glimmora",
+    "folder": "0970_glimmora",
+    "model": "cobblemon:glimmora_mega.geo",
+    "original": "cobblemon:textures/pokemon/0970_glimmora/glimmora_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0970_glimmora/glimmora_mega_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/compat/mega_showdown/0970_glimmora/glimmora_mega_gilded_glint_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "tatsugiri",
+    "folder": "0978_tatsugiri",
+    "model": "cobblemon:tatsugiri.geo",
+    "original": "cobblemon:textures/pokemon/0978_tatsugiri/tatsugiri_curly.png",
+    "retextured": "cobbleeffort:textures/pokemon/gilded/0978_tatsugiri/tatsugiri_curly_gilded.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/gilded/0978_tatsugiri/tatsugiri_curly_gilded_glint_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]
