@@ -1,0 +1,61 @@
+{
+  "_comment": "Pokemon Unite collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed unite-holowear` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_unite.py.",
+  "aspect": "unite",
+  "feature": "unite_style",
+  "style": "unite_jersey",
+  "cosmetic_items": [
+    "minecraft:target"
+  ],
+  "lines": [
+    "pikachu",
+    "cubone",
+    "snubbull",
+    "delibird",
+    "mawile",
+    "beldum",
+    "cherubi",
+    "bronzor",
+    "blitzle",
+    "timburr",
+    "genesect",
+    "tyrunt",
+    "cutiefly",
+    "komala",
+    "tapubulu",
+    "hatenna",
+    "cufant",
+    "glimmet"
+  ],
+  "line_styles": {
+    "pikachu": "unite_jersey",
+    "timburr": "unite_jersey",
+    "blitzle": "unite_jersey",
+    "genesect": "unite_holowear",
+    "beldum": "unite_holowear",
+    "bronzor": "unite_holowear",
+    "cutiefly": "unite_concert",
+    "hatenna": "unite_concert",
+    "glimmet": "unite_concert",
+    "mawile": "unite_formal",
+    "snubbull": "unite_formal",
+    "komala": "unite_formal",
+    "cherubi": "unite_festival",
+    "delibird": "unite_festival",
+    "cubone": "unite_festival",
+    "tyrunt": "unite_beach",
+    "cufant": "unite_beach",
+    "tapubulu": "unite_beach"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 35,
+    "title": "Pokemon Unite",
+    "example": "pikachu",
+    "summary": "Pokemon in team-colour holowear outfits (inspired by Pokemon Unite's holowear; original designs). Regular = purple team, shiny = orange team.",
+    "looks": [
+      "each line wears one outfit: a team jersey (Pikachu, Timburr, Blitzle); glowing hex-grid holowear (Genesect, Beldum, Bronzor); a sequinned concert outfit (Cutiefly, Hatenna, Glimmet); a tuxedo with a team bow tie (Mawile, Snubbull, Komala); a festival yukata (Cherubi, Delibird, Cubone); a Hawaiian beach shirt (Tyrunt, Cufant, Tapu Bulu)",
+      "the holowear grid and sequins sparkle in the dark; the eyes keep their own colours",
+      "shiny: the orange team"
+    ]
+  }
+}

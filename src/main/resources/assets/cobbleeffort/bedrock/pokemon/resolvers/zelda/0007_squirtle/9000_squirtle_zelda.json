@@ -1,0 +1,77 @@
+{
+  "species": "cobblemon:squirtle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0007_squirtle/squirtle_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0007_squirtle/squirtle_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/zelda/0007_squirtle/squirtle_triangleglasses_zelda.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0007_squirtle/squirtle_clone_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

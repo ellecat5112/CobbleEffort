@@ -1,0 +1,124 @@
+{
+  "species": "cobblemon:annihilape",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_valentine.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_emissive_valentine.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_emissive_shiny_valentine.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0979_annihilape/annihilape_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_valentine.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_emissive_valentine.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_e",
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_emissive_shiny_valentine.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/msdextramegas/0979_annihilape/annihilape_mega_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

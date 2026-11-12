@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:dipplin",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "undertale"
+      ],
+      "poser": "cobbleeffort:dipplin",
+      "model": "cobbleeffort:dipplin.geo",
+      "texture": "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_undertale.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_shiny_undertale.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_shiny_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_shiny_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_shiny_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/1011_dipplin/dipplin_shiny_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

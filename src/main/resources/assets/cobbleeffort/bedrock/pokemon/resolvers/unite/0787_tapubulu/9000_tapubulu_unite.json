@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:tapubulu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0787_tapubulu/tapubulu_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0787_tapubulu/tapubulu_emissive_unite.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0787_tapubulu/tapubulu_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0787_tapubulu/tapubulu_shiny_emissive_unite.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

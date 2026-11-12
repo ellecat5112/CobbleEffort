@@ -1,0 +1,197 @@
+{
+  "species": "cobblemon:raichu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_emissive_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_emissive_shiny_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_emissive_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_emissive_shiny_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_alolan_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_alolan_emissive_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alolan",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_alolan_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0026_raichu/raichu_alolan_emissive_shiny_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_x_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_x_emissive_unite.png",
+          "translucent": true,
+          "translucent_cull": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_emissive_unite.png",
+          "translucent": true,
+          "translucent_cull": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_y_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/blank_unite.png"
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/blank_unite.png"
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

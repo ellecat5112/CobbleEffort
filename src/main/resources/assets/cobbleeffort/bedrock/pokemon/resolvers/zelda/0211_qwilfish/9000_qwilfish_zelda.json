@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:qwilfish",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0211_qwilfish/qwilfish_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0211_qwilfish/qwilfish_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0211_qwilfish/qwilfish_hisuian_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0211_qwilfish/qwilfish_hisuian_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

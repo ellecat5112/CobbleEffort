@@ -1,0 +1,467 @@
+[
+  {
+    "species": "squirtle",
+    "folder": "0007_squirtle",
+    "model": "cobblemon:squirtle.geo",
+    "original": "cobblemon:textures/pokemon/0007_squirtle/squirtle.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0007_squirtle/squirtle_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "wartortle",
+    "folder": "0008_wartortle",
+    "model": "cobblemon:wartortle.geo",
+    "original": "cobblemon:textures/pokemon/0008_wartortle/wartortle.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0008_wartortle/wartortle_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "blastoise",
+    "folder": "0009_blastoise",
+    "model": "cobblemon:blastoise.geo",
+    "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0009_blastoise/blastoise_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "blastoise",
+    "folder": "0009_blastoise",
+    "model": "cobblemon:blastoise_mega.geo",
+    "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_zelda.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_emissive_zelda.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "blastoise",
+    "folder": "0009_blastoise",
+    "model": "cobblemon:gmaxblastoise.geo",
+    "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_zelda.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_emissive_zelda.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "seel",
+    "folder": "0086_seel",
+    "model": "cobblemon:seel.geo",
+    "original": "cobblemon:textures/pokemon/0086_seel/seel.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0086_seel/seel_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "dewgong",
+    "folder": "0087_dewgong",
+    "model": "cobblemon:dewgong.geo",
+    "original": "cobblemon:textures/pokemon/0087_dewgong/dewgong.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0087_dewgong/dewgong_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "omanyte",
+    "folder": "0138_omanyte",
+    "model": "cobblemon:omanyte.geo",
+    "original": "cobblemon:textures/pokemon/0138_omanyte/omanyte.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0138_omanyte/omanyte_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0138_omanyte/omanyte_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "omastar",
+    "folder": "0139_omastar",
+    "model": "cobblemon:omastar.geo",
+    "original": "cobblemon:textures/pokemon/0139_omastar/omastar.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0139_omastar/omastar_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0139_omastar/omastar_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kabuto",
+    "folder": "0140_kabuto",
+    "model": "cobblemon:kabuto.geo",
+    "original": "cobblemon:textures/pokemon/0140_kabuto/kabuto.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0140_kabuto/kabuto_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0140_kabuto/kabuto_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kabutops",
+    "folder": "0141_kabutops",
+    "model": "cobblemon:kabutops.geo",
+    "original": "cobblemon:textures/pokemon/0141_kabutops/kabutops.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0141_kabutops/kabutops_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0141_kabutops/kabutops_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "hoppip",
+    "folder": "0187_hoppip",
+    "model": "cobblemon:hoppip.geo",
+    "original": "cobblemon:textures/pokemon/0187_hoppip/hoppip.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0187_hoppip/hoppip_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "skiploom",
+    "folder": "0188_skiploom",
+    "model": "cobblemon:skiploom.geo",
+    "original": "cobblemon:textures/pokemon/0188_skiploom/skiploom.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0188_skiploom/skiploom_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "jumpluff",
+    "folder": "0189_jumpluff",
+    "model": "cobblemon:jumpluff.geo",
+    "original": "cobblemon:textures/pokemon/0189_jumpluff/jumpluff.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0189_jumpluff/jumpluff_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "qwilfish",
+    "folder": "0211_qwilfish",
+    "model": "cobblemon:qwilfish.geo",
+    "original": "cobblemon:textures/pokemon/0211_qwilfish/qwilfish.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0211_qwilfish/qwilfish_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "phanpy",
+    "folder": "0231_phanpy",
+    "model": "cobblemon:phanpy.geo",
+    "original": "cobblemon:textures/pokemon/0231_phanpy/phanpy.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0231_phanpy/phanpy_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "donphan",
+    "folder": "0232_donphan",
+    "model": "cobblemon:donphan_male.geo",
+    "original": "cobblemon:textures/pokemon/0232_donphan/donphan.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0232_donphan/donphan_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "solrock",
+    "folder": "0338_solrock",
+    "model": "cobblemon:solrock.geo",
+    "original": "cobblemon:textures/pokemon/0338_solrock/solrock.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0338_solrock/solrock_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0338_solrock/solrock_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "snorunt",
+    "folder": "0361_snorunt",
+    "model": "cobblemon:snorunt.geo",
+    "original": "cobblemon:textures/pokemon/0361_snorunt/snorunt.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0361_snorunt/snorunt_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "glalie",
+    "folder": "0362_glalie",
+    "model": "cobblemon:glalie.geo",
+    "original": "cobblemon:textures/pokemon/0362_glalie/glalie.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0362_glalie/glalie_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "glalie",
+    "folder": "0362_glalie",
+    "model": "cobblemon:glalie_mega.geo",
+    "original": "cobblemon:textures/pokemon/0362_glalie/megaglalie.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0362_glalie/megaglalie_zelda.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "drifloon",
+    "folder": "0425_drifloon",
+    "model": "cobblemon:drifloon.geo",
+    "original": "cobblemon:textures/pokemon/0425_drifloon/drifloon.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0425_drifloon/drifloon_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0425_drifloon/drifloon_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "drifblim",
+    "folder": "0426_drifblim",
+    "model": "cobblemon:drifblim.geo",
+    "original": "cobblemon:textures/pokemon/0426_drifblim/drifblim.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0426_drifblim/drifblim_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0426_drifblim/drifblim_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "hippopotas",
+    "folder": "0449_hippopotas",
+    "model": "cobblemon:hippopotas.geo",
+    "original": "cobblemon:textures/pokemon/0449_hippopotas/hippopotas_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0449_hippopotas/hippopotas_male_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "hippowdon",
+    "folder": "0450_hippowdon",
+    "model": "cobblemon:hippowdon.geo",
+    "original": "cobblemon:textures/pokemon/0450_hippowdon/hippowdon_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0450_hippowdon/hippowdon_male_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "froslass",
+    "folder": "0478_froslass",
+    "model": "cobblemon:froslass.geo",
+    "original": "cobblemon:textures/pokemon/0478_froslass/froslass.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0478_froslass/froslass_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "froslass",
+    "folder": "0478_froslass",
+    "model": "cobblemon:froslass_mega.geo",
+    "original": "cobblemon:textures/pokemon/0478_froslass/froslass_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0478_froslass/froslass_mega_zelda.png",
+    "layers": [],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "gothita",
+    "folder": "0574_gothita",
+    "model": "cobblemon:gothita.geo",
+    "original": "cobblemon:textures/pokemon/0574_gothita/gothita.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gothorita",
+    "folder": "0575_gothorita",
+    "model": "cobblemon:gothorita.geo",
+    "original": "cobblemon:textures/pokemon/0575_gothorita/gothorita.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0575_gothorita/gothorita_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0575_gothorita/gothorita_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gothitelle",
+    "folder": "0576_gothitelle",
+    "model": "cobblemon:gothitelle.geo",
+    "original": "cobblemon:textures/pokemon/0576_gothitelle/gothitelle.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0576_gothitelle/gothitelle_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0576_gothitelle/gothitelle_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "larvesta",
+    "folder": "0636_larvesta",
+    "model": "cobblemon:larvesta.geo",
+    "original": "cobblemon:textures/pokemon/0636_larvesta/larvesta.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0636_larvesta/larvesta_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0636_larvesta/larvesta_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "volcarona",
+    "folder": "0637_volcarona",
+    "model": "cobblemon:volcarona.geo",
+    "original": "cobblemon:textures/pokemon/0637_volcarona/volcarona.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0637_volcarona/volcarona_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0637_volcarona/volcarona_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fomantis",
+    "folder": "0753_fomantis",
+    "model": "cobblemon:fomantis.geo",
+    "original": "cobblemon:textures/pokemon/0753_fomantis/fomantis.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0753_fomantis/fomantis_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0753_fomantis/fomantis_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lurantis",
+    "folder": "0754_lurantis",
+    "model": "cobblemon:lurantis.geo",
+    "original": "cobblemon:textures/pokemon/0754_lurantis/lurantis.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0754_lurantis/lurantis_zelda.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0754_lurantis/lurantis_transparent.png",
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0754_lurantis/lurantis_transparent_zelda.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0754_lurantis/lurantis_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "falinks",
+    "folder": "0870_falinks",
+    "model": "cobblemon:falinks.geo",
+    "original": "cobblemon:textures/pokemon/0870_falinks/falinks.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0870_falinks/falinks_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0870_falinks/falinks_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "falinks",
+    "folder": "0870_falinks",
+    "model": "cobblemon:falinks_mega.geo",
+    "original": "cobblemon:textures/pokemon/0870_falinks/falinks_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0870_falinks/falinks_mega_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0870_falinks/falinks_mega_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "morpeko",
+    "folder": "0877_morpeko",
+    "model": "cobblemon:morpeko.geo",
+    "original": "cobblemon:textures/pokemon/0877_morpeko/morpeko.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0877_morpeko/morpeko_zelda.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/zelda/0877_morpeko/morpeko_zelda_sheikah_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "overqwil",
+    "folder": "0904_overqwil",
+    "model": "cobblemon:overqwil.geo",
+    "original": "cobblemon:textures/pokemon/0904_overqwil/overqwil.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0904_overqwil/overqwil_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "tarountula",
+    "folder": "0917_tarountula",
+    "model": "cobblemon:tarountula.geo",
+    "original": "cobblemon:textures/pokemon/0917_tarountula/tarountula.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0917_tarountula/tarountula_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "spidops",
+    "folder": "0918_spidops",
+    "model": "cobblemon:spidops.geo",
+    "original": "cobblemon:textures/pokemon/0918_spidops/spidops.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0918_spidops/spidops_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "wiglett",
+    "folder": "0960_wiglett",
+    "model": "cobblemon:wiglett.geo",
+    "original": "cobblemon:textures/pokemon/0960_wiglett/wiglett.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0960_wiglett/wiglett_zelda.png",
+    "layers": []
+  },
+  {
+    "species": "wugtrio",
+    "folder": "0961_wugtrio",
+    "model": "cobblemon:wugtrio.geo",
+    "original": "cobblemon:textures/pokemon/0961_wugtrio/wugtrio.png",
+    "retextured": "cobbleeffort:textures/pokemon/zelda/0961_wugtrio/wugtrio_zelda.png",
+    "layers": []
+  }
+]

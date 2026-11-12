@@ -1,0 +1,206 @@
+{
+  "species": "cobblemon:smeargle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_undertale.png",
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_green_undertale.png"
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_shiny_undertale.png",
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_red_undertale.png"
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_shiny_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_shiny_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_shiny_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_shiny_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-light_blue",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_light_blue_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-pink",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_pink_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-magenta",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_magenta_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-purple",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_purple_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-blue",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_blue_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-cyan",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_cyan_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-green",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_green_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-lime",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_lime_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-yellow",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_yellow_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-orange",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_orange_undertale.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainbow-red",
+        "undertale"
+      ],
+      "layers": [
+        {
+          "name": "paint",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/undertale/0235_smeargle/smeargle_paint_red_undertale.png"
+        }
+      ]
+    }
+  ]
+}

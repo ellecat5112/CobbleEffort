@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:blissey",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_undertale.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_shiny_undertale.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_shiny_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_shiny_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_shiny_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/0242_blissey/blissey_shiny_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

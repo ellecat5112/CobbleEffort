@@ -1,0 +1,587 @@
+[
+  {
+    "species": "jigglypuff",
+    "folder": "0039_jigglypuff",
+    "model": "cobblemon:jigglypuff.geo",
+    "original": "cobblemon:textures/pokemon/0039_jigglypuff/jigglypuff.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0039_jigglypuff/jigglypuff_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0039_jigglypuff/jigglypuff_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "wigglytuff",
+    "folder": "0040_wigglytuff",
+    "model": "cobblemon:wigglytuff.geo",
+    "original": "cobblemon:textures/pokemon/0040_wigglytuff/wigglytuff.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0040_wigglytuff/wigglytuff_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0040_wigglytuff/wigglytuff_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "igglybuff",
+    "folder": "0174_igglybuff",
+    "model": "cobblemon:igglybuff.geo",
+    "original": "cobblemon:textures/pokemon/0174_igglybuff/igglybuff.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0174_igglybuff/igglybuff_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0174_igglybuff/igglybuff_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "stantler",
+    "folder": "0234_stantler",
+    "model": "cobblemon:stantler.geo",
+    "original": "cobblemon:textures/pokemon/0234_stantler/stantler.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0234_stantler/stantler_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "lugia",
+    "folder": "0249_lugia",
+    "model": "cobblemon:lugia.geo",
+    "original": "cobblemon:textures/pokemon/0249_lugia/lugia.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shinx",
+    "folder": "0403_shinx",
+    "model": "cobblemon:shinx_male.geo",
+    "original": "cobblemon:textures/pokemon/0403_shinx/shinx.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0403_shinx/shinx_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0403_shinx/shinx_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0403_shinx/shinx_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0403_shinx/shinx_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "luxio",
+    "folder": "0404_luxio",
+    "model": "cobblemon:luxio_male.geo",
+    "original": "cobblemon:textures/pokemon/0404_luxio/luxio.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0404_luxio/luxio_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0404_luxio/luxio_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0404_luxio/luxio_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0404_luxio/luxio_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "luxray",
+    "folder": "0405_luxray",
+    "model": "cobblemon:luxray_male.geo",
+    "original": "cobblemon:textures/pokemon/0405_luxray/luxray.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0405_luxray/luxray_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0405_luxray/luxray_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0405_luxray/luxray_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0405_luxray/luxray_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "luxray",
+    "folder": "0405_luxray",
+    "model": "cobblemon:luxraymega.geo",
+    "original": "cobblemon:textures/pokemon/0405_luxray/luxray_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/msdextramegas/0405_luxray/luxray_mega_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0405_luxray/luxray_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/msdextramegas/0405_luxray/luxray_mega_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/msdextramegas/0405_luxray/luxray_mega_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_e",
+    "mod": "Mega Showdown: Extra Megas"
+  },
+  {
+    "species": "croagunk",
+    "folder": "0453_croagunk",
+    "model": "cobblemon:croagunk_male.geo",
+    "original": "cobblemon:textures/pokemon/0453_croagunk/croagunk.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0453_croagunk/croagunk_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0453_croagunk/croagunk_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "toxicroak",
+    "folder": "0454_toxicroak",
+    "model": "cobblemon:toxicroak_male.geo",
+    "original": "cobblemon:textures/pokemon/0454_toxicroak/toxicroak.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0454_toxicroak/toxicroak_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0454_toxicroak/toxicroak_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "azelf",
+    "folder": "0482_azelf",
+    "model": "cobblemon:azelf.geo",
+    "original": "cobblemon:textures/pokemon/0482_azelf/azelf.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0482_azelf/azelf_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0482_azelf/azelf_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "heatran",
+    "folder": "0485_heatran",
+    "model": "cobblemon:heatran.geo",
+    "original": "cobblemon:textures/pokemon/0485_heatran/heatran.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0485_heatran/heatran_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0485_heatran/heatran_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shaymin",
+    "folder": "0492_shaymin",
+    "model": "cobblemon:shaymin.geo",
+    "original": "cobblemon:textures/pokemon/0492_shaymin/shaymin.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0492_shaymin/shaymin_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0492_shaymin/shaymin_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shaymin",
+    "folder": "0492_shaymin",
+    "model": "cobblemon:shaymin_sky.geo",
+    "original": "cobblemon:textures/pokemon/0492_shaymin/shaymin_sky.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0492_shaymin/shaymin_sky_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0492_shaymin/shaymin_sky_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "sky-forme",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "tepig",
+    "folder": "0498_tepig",
+    "model": "cobblemon:tepig.geo",
+    "original": "cobblemon:textures/pokemon/0498_tepig/tepig.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0498_tepig/tepig_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "pignite",
+    "folder": "0499_pignite",
+    "model": "cobblemon:pignite.geo",
+    "original": "cobblemon:textures/pokemon/0499_pignite/pignite.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0499_pignite/pignite_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "emboar",
+    "folder": "0500_emboar",
+    "model": "cobblemon:emboar.geo",
+    "original": "cobblemon:textures/pokemon/0500_emboar/emboar.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0500_emboar/emboar_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_emissive_st_patrick.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "emboar",
+    "folder": "0500_emboar",
+    "model": "cobblemon:emboar_mega.geo",
+    "original": "cobblemon:textures/pokemon/0500_emboar/emboar_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0500_emboar/emboar_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_emissive_st_patrick.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "sawk",
+    "folder": "0539_sawk",
+    "model": "cobblemon:sawk.geo",
+    "original": "cobblemon:textures/pokemon/0539_sawk/sawk.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0539_sawk/sawk_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "darumaka",
+    "folder": "0554_darumaka",
+    "model": "cobblemon:darumaka.geo",
+    "original": "cobblemon:textures/pokemon/0554_darumaka/darumaka.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "darumaka",
+    "folder": "0554_darumaka",
+    "model": "cobblemon:darumaka_galar.geo",
+    "original": "cobblemon:textures/pokemon/0554_darumaka/darumaka_galar.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "galarian",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "darmanitan",
+    "folder": "0555_darmanitan",
+    "model": "cobblemon:darmanitan.geo",
+    "original": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0555_darmanitan/darmanitan_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0555_darmanitan/darmanitan_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0555_darmanitan/darmanitan_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "darmanitan",
+    "folder": "0555_darmanitan",
+    "model": "cobblemon:darmanitan_galar.geo",
+    "original": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0555_darmanitan/darmanitan_galar_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0555_darmanitan/darmanitan_galar_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "galarian",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "darmanitan",
+    "folder": "0555_darmanitan",
+    "model": "cobblemon:darmanitan_galar_zen.geo",
+    "original": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zen.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zenemissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zenemissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0555_darmanitan/darmanitan_galar_zen_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "galarian_zen-mode",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "tirtouga",
+    "folder": "0564_tirtouga",
+    "model": "cobblemon:tirtouga.geo",
+    "original": "cobblemon:textures/pokemon/0564_tirtouga/tirtouga.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0564_tirtouga/tirtouga_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "carracosta",
+    "folder": "0565_carracosta",
+    "model": "cobblemon:carracosta.geo",
+    "original": "cobblemon:textures/pokemon/0565_carracosta/carracosta.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0565_carracosta/carracosta_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "pawniard",
+    "folder": "0624_pawniard",
+    "model": "cobblemon:pawniard.geo",
+    "original": "cobblemon:textures/pokemon/0624_pawniard/pawniard.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0624_pawniard/pawniard_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0624_pawniard/pawniard_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bisharp",
+    "folder": "0625_bisharp",
+    "model": "cobblemon:bisharp.geo",
+    "original": "cobblemon:textures/pokemon/0625_bisharp/bisharp.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "terrakion",
+    "folder": "0639_terrakion",
+    "model": "cobblemon:terrakion.geo",
+    "original": "cobblemon:textures/pokemon/0639_terrakion/terrakion.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0639_terrakion/terrakion_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "popplio",
+    "folder": "0728_popplio",
+    "model": "cobblemon:popplio.geo",
+    "original": "cobblemon:textures/pokemon/0728_popplio/popplio.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0728_popplio/popplio_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0728_popplio/popplio_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "brionne",
+    "folder": "0729_brionne",
+    "model": "cobblemon:brionne.geo",
+    "original": "cobblemon:textures/pokemon/0729_brionne/brionne.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0729_brionne/brionne_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0729_brionne/brionne_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "primarina",
+    "folder": "0730_primarina",
+    "model": "cobblemon:primarina.geo",
+    "original": "cobblemon:textures/pokemon/0730_primarina/primarina.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0730_primarina/primarina_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0730_primarina/primarina_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "jangmoo",
+    "folder": "0782_jangmoo",
+    "model": "cobblemon:jangmo-o.geo",
+    "original": "cobblemon:textures/pokemon/0782_jangmoo/jangmo-o.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0782_jangmoo/jangmo-o_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "hakamoo",
+    "folder": "0783_hakamoo",
+    "model": "cobblemon:hakamo-o.geo",
+    "original": "cobblemon:textures/pokemon/0783_hakamoo/hakamo-o.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0783_hakamoo/hakamo-o_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "kommoo",
+    "folder": "0784_kommoo",
+    "model": "cobblemon:kommo-o.geo",
+    "original": "cobblemon:textures/pokemon/0784_kommoo/kommo-o.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0784_kommoo/kommo-o_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "marshadow",
+    "folder": "0802_marshadow",
+    "model": "cobblemon:marshadow.geo",
+    "original": "cobblemon:textures/pokemon/0802_marshadow/marshadow.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0802_marshadow/marshadow_st_patrick.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0802_marshadow/marshadow_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0802_marshadow/marshadow_emissive_st_patrick.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0802_marshadow/marshadow_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "impidimp",
+    "folder": "0859_impidimp",
+    "model": "cobblemon:impidimp.geo",
+    "original": "cobblemon:textures/pokemon/0859_impidimp/impidimp.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0859_impidimp/impidimp_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0859_impidimp/impidimp_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "morgrem",
+    "folder": "0860_morgrem",
+    "model": "cobblemon:morgrem.geo",
+    "original": "cobblemon:textures/pokemon/0860_morgrem/morgrem.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0860_morgrem/morgrem_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0860_morgrem/morgrem_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "grimmsnarl",
+    "folder": "0861_grimmsnarl",
+    "model": "cobblemon:grimmsnarl.geo",
+    "original": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0861_grimmsnarl/grimmsnarl_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0861_grimmsnarl/grimmsnarl_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "grimmsnarl",
+    "folder": "0861_grimmsnarl",
+    "model": "cobblemon:grimmsnarl_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0861_grimmsnarl/grimmsnarl_gmax_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0861_grimmsnarl/grimmsnarl_gmax_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "wyrdeer",
+    "folder": "0899_wyrdeer",
+    "model": "cobblemon:wyrdeer.geo",
+    "original": "cobblemon:textures/pokemon/0899_wyrdeer/wyrdeer.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0899_wyrdeer/wyrdeer_st_patrick.png",
+    "layers": []
+  },
+  {
+    "species": "kingambit",
+    "folder": "0983_kingambit",
+    "model": "cobblemon:kingambit.geo",
+    "original": "cobblemon:textures/pokemon/0983_kingambit/kingambit.png",
+    "retextured": "cobbleeffort:textures/pokemon/st_patrick/0983_kingambit/kingambit_st_patrick.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/st_patrick/0983_kingambit/kingambit_st_patrick_luck_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

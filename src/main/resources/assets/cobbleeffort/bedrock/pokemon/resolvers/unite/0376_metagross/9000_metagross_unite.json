@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:metagross",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0376_metagross/metagross_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0376_metagross/metagross_mega_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

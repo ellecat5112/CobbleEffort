@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon) · #29 Sakura (44 Pokémon) · #30 Shadow (34 Pokémon) · #31 Slayer (37 Pokémon) · #32 Sunburst (26 Pokémon) · #33 Toxic Chain (29 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon) · #29 Sakura (44 Pokémon) · #30 Shadow (34 Pokémon) · #31 Slayer (37 Pokémon) · #32 Sunburst (26 Pokémon) · #33 Toxic Chain (29 Pokémon) · #34 Undertale (42 Pokémon) · #35 Pokémon Unite (35 Pokémon) · #36 Zelda (37 Pokémon) · #37 Valentine's Day (38 Pokémon) · #38 St. Patrick's Day (36 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -986,6 +986,117 @@ All five picked with `generate.py pick --count 18` (seeds sakura-hanami, shadow-
 sunburst-solstice, toxic-chain-mochi) from lines already in one other collection.
 
 ![Original vs. toxic chain](docs/toxic_chain_preview.png)
+
+## Collection #34: Undertale
+
+18 evolutionary lines (**42 Pokémon**) in the monochrome style of an underground RPG, each carrying a human SOUL
+(inspired by Undertale; original art, no game sprites): dithered black, grey and white bodies with a white battle-box
+outline, white eyes and a **SOUL heart on the chest that glows and beats** in the dark (three lines per SOUL):
+
+* **determination** (Litten, Cyndaquil, Chansey): red, with save-point sparkles
+* **bravery** (Corsola, Applin, Patrat): orange pellets
+* **justice** (Sentret, Yanma, Smeargle): little yellow stars
+* **kindness** (Lotad, Lechonk, Shellos): green plus-sign heals
+* **patience** (Pyukumuku, Shellder, Glastrier): cyan rope bands
+* **integrity** (Woobat, Duskull, Blipbug): blue diamonds
+* other forms (Gigantamax Orbeetle, Flapple and Appletun) carry their SOULs too
+* shiny: the SOUL colours turned round the colour wheel
+
+Shellder → Cloyster · Happiny → Chansey → Blissey · Cyndaquil → Quilava → Typhlosion · Sentret → Furret ·
+Yanma → Yanmega · Corsola → Cursola · Smeargle · Lotad → Lombre → Ludicolo · Duskull → Dusclops → Dusknoir ·
+Shellos → Gastrodon · Patrat → Watchog · Woobat → Swoobat · Litten → Torracat → Incineroar · Pyukumuku ·
+Blipbug → Dottler → Orbeetle · Applin → Flapple / Appletun / Dipplin → Hydrapple · Glastrier · Lechonk → Oinkologne
+
+![Original vs. Undertale](docs/undertale_preview.png)
+
+## Collection #35: Pokémon Unite
+
+18 evolutionary lines (**35 Pokémon**) in team-colour holowear outfits (inspired by Pokémon Unite's holowear; original
+designs); the regular look is the **purple team**, the shiny the **orange team** (three lines per outfit):
+
+* **jersey** (Pikachu, Timburr, Blitzle): a team jersey with white bands and dark shorts
+* **holowear** (Genesect, Beldum, Bronzor): dark navy with a glowing team-colour hex grid that **sparkles**
+* **concert** (Cutiefly, Hatenna, Glimmet): a stage outfit glittering with sequins
+* **formal** (Mawile, Snubbull, Komala): a black tuxedo with a white shirt front and a team bow tie
+* **festival** (Cherubi, Delibird, Cubone): a team-colour yukata printed with white waves, an obi
+* **beach** (Tyrunt, Cufant, Tapu Bulu): a Hawaiian shirt with white and yellow flowers
+* the eyes keep their own colours; other forms (every costume Pikachu, Gigantamax Pikachu, Hatterene and Copperajah,
+  Mega Raichu X and Y, Mega Mawile, Metagross and Glimmora, Genesect's drives) suit up too
+
+Pichu → Pikachu → Raichu · Cubone → Marowak · Snubbull → Granbull · Delibird · Mawile · Beldum → Metang → Metagross ·
+Cherubi → Cherrim · Bronzor → Bronzong · Blitzle → Zebstrika · Timburr → Gurdurr → Conkeldurr · Genesect ·
+Tyrunt → Tyrantrum · Cutiefly → Ribombee · Komala · Tapu Bulu · Hatenna → Hattrem → Hatterene · Cufant → Copperajah ·
+Glimmet → Glimmora
+
+![Original vs. Unite](docs/unite_preview.png)
+
+## Collection #36: Zelda
+
+18 evolutionary lines (**37 Pokémon**) of the kingdom of Hyrule (inspired by The Legend of Zelda; original patterns;
+three lines per look):
+
+* **hero's tunic** (Falinks, Fomantis, Morpeko): a green tunic and brown belt with a golden triangle emblem that glows
+* **ancient tech** (Kabuto, Omanyte, Solrock): slate stone carved with glowing cyan circuits that **pulse**
+* **Zora** (Squirtle, Seel, Qwilfish): sleek blue scales with a silver-white belly
+* **Goron** (Phanpy, Hippopotas, Wiglett): rocky brown hide with dark cracks and a warm belly
+* **Gerudo** (Gothita, Larvesta, Drifloon): desert crimson with gold bands and gleaming turquoise gems
+* **Korok** (Hoppip, Tarountula, Snorunt): wood bark with a crown of leaves
+* the eyes keep their own colours; other forms (Mega Blastoise, Glalie, Froslass and Falinks, Gigantamax Blastoise)
+  join Hyrule too
+* shiny: twilight, the colours turned round the colour wheel
+
+Squirtle → Wartortle → Blastoise · Seel → Dewgong · Omanyte → Omastar · Kabuto → Kabutops ·
+Hoppip → Skiploom → Jumpluff · Qwilfish → Overqwil · Phanpy → Donphan · Solrock · Snorunt → Glalie / Froslass ·
+Drifloon → Drifblim · Hippopotas → Hippowdon · Gothita → Gothorita → Gothitelle · Larvesta → Volcarona ·
+Fomantis → Lurantis · Falinks · Morpeko · Tarountula → Spidops · Wiglett → Wugtrio
+
+![Original vs. Zelda](docs/zelda_preview.png)
+
+## Collection #37: Valentine's Day
+
+18 evolutionary lines (**38 Pokémon**) full of love (three lines per look):
+
+* **hearts** (Luvdisc, Clefairy, Buneary): sweet pink covered in red and white hearts
+* **love letter** (Mr. Mime, Yamask, Hoopa): cream writing paper with a red wax heart seal
+* **chocolate** (Bunnelby, Roggenrola, Makuhita): milk chocolate with drizzle, sprinkles and a frosted heart
+* **cupid** (Snom, Flittle, Gligar): angel white with golden arrows and little pink hearts
+* **roses** (Goldeen, Heatmor, Regieleki): swirling deep red rose petals with green leaves
+* **candy hearts** (Goomy, Mankey, Anorith): white scattered with pastel candy hearts
+* the hearts glow softly and **beat** in the dark; the eyes keep their own colours; other forms (Mega Clefable and
+  Lopunny, Extra Megas' Mega Annihilape, Hoopa Unbound) fall in love too
+* shiny: the love turned round the colour wheel
+
+Cleffa → Clefairy → Clefable · Mankey → Primeape → Annihilape · Goldeen → Seaking · Mime Jr. → Mr. Mime → Mr. Rime ·
+Gligar → Gliscor · Makuhita → Hariyama · Anorith → Armaldo · Buneary → Lopunny · Roggenrola → Boldore → Gigalith ·
+Yamask → Cofagrigus / Runerigus · Heatmor · Bunnelby → Diggersby · Goomy → Sliggoo → Goodra · Hoopa · Luvdisc ·
+Snom → Frosmoth · Regieleki · Flittle → Espathra
+
+![Original vs. Valentine's Day](docs/valentine_preview.png)
+
+## Collection #38: St. Patrick's Day
+
+18 evolutionary lines (**36 Pokémon**) with the luck of the Irish (three lines per look):
+
+* **shamrock** (Shaymin, Jigglypuff, Popplio): emerald green scattered with shamrocks, lucky sparkles **twinkling**
+* **leprechaun** (Impidimp, Croagunk, Marshadow): a green coat, black belt and gold buckle, a gold hat band
+* **pot of gold** (Heatran, Pawniard, Darumaka): heaped gold coins over a black iron pot; the gold **glints**
+* **rainbow** (Lugia, Azelf, Shinx): rainbow bands from the feet up over white clouds
+* **Celtic** (Stantler, Terrakion, Tirtouga): deep green worked with gold knotwork
+* **tartan** (Sawk, Tepig, Jangmo-o): an Irish green tartan with white and orange stripes
+* the eyes keep their own colours; other forms (Galarian Darumaka and Darmanitan incl. Zen Mode, Mega Emboar, Extra
+  Megas' Mega Luxray, Gigantamax Grimmsnarl, Sky Shaymin) are lucky too
+* shiny: the green turned to gold
+
+Igglybuff → Jigglypuff → Wigglytuff · Stantler → Wyrdeer · Lugia · Marshadow · Shinx → Luxio → Luxray ·
+Croagunk → Toxicroak · Azelf · Heatran · Shaymin · Tepig → Pignite → Emboar · Sawk · Darumaka → Darmanitan ·
+Tirtouga → Carracosta · Pawniard → Bisharp → Kingambit · Terrakion · Popplio → Brionne → Primarina ·
+Jangmo-o → Hakamo-o → Kommo-o · Impidimp → Morgrem → Grimmsnarl
+
+All five picked with `generate.py pick --count 18` (seeds undertale-determination, unite-holowear, zelda-triforce,
+valentine-hearts, st-patrick-shamrock; Luvdisc swapped from St. Patrick's Day into Valentine's Day for Marshadow) from
+lines already in other collections.
+
+![Original vs. St. Patrick's Day](docs/st_patrick_preview.png)
 
 ### How to get one
 

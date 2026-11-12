@@ -1,0 +1,61 @@
+{
+  "_comment": "St. Patrick's Day collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed st-patrick-shamrock` (lines may be shared with other collections since #24), Luvdisc swapped in from St. Patrick's Day for Marshadow, then given a look each (three lines per look). Shared look in styles/_patrick.py.",
+  "aspect": "st_patrick",
+  "feature": "st_patrick_style",
+  "style": "patrick_shamrock",
+  "cosmetic_items": [
+    "minecraft:emerald"
+  ],
+  "lines": [
+    "jigglypuff",
+    "stantler",
+    "lugia",
+    "marshadow",
+    "shinx",
+    "croagunk",
+    "azelf",
+    "heatran",
+    "shaymin",
+    "tepig",
+    "sawk",
+    "darumaka",
+    "tirtouga",
+    "pawniard",
+    "terrakion",
+    "popplio",
+    "jangmoo",
+    "impidimp"
+  ],
+  "line_styles": {
+    "shaymin": "patrick_shamrock",
+    "jigglypuff": "patrick_shamrock",
+    "popplio": "patrick_shamrock",
+    "impidimp": "patrick_leprechaun",
+    "croagunk": "patrick_leprechaun",
+    "marshadow": "patrick_leprechaun",
+    "heatran": "patrick_pot_of_gold",
+    "pawniard": "patrick_pot_of_gold",
+    "darumaka": "patrick_pot_of_gold",
+    "lugia": "patrick_rainbow",
+    "azelf": "patrick_rainbow",
+    "shinx": "patrick_rainbow",
+    "stantler": "patrick_celtic",
+    "terrakion": "patrick_celtic",
+    "tirtouga": "patrick_celtic",
+    "sawk": "patrick_tartan",
+    "tepig": "patrick_tartan",
+    "jangmoo": "patrick_tartan"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 38,
+    "title": "St. Patrick's Day",
+    "example": "shaymin",
+    "summary": "Pokemon with the luck of the Irish.",
+    "looks": [
+      "each line wears one look: shamrocks on emerald green (Shaymin, Jigglypuff, Popplio); a leprechaun's coat, belt and gold buckle (Impidimp, Croagunk, Marshadow); a pot of gold (Heatran, Pawniard, Darumaka); a rainbow over clouds (Lugia, Azelf, Shinx); gold Celtic knotwork (Stantler, Terrakion, Tirtouga); an Irish tartan (Sawk, Tepig, Jangmo-o)",
+      "lucky sparkles and gold glints twinkle in the dark; the eyes keep their own colours",
+      "shiny: the green turned to gold"
+    ]
+  }
+}

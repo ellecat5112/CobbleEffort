@@ -116,6 +116,18 @@ made by the Cobblemon team and contributors.
 * **Toxic Chain** (`tools/styles/toxic_*.py`, `_toxic.py`; textures under `.../pokemon/toxic_chain/`): chain links,
   mochi gloss, drips, bubbles, veins and gas after Pecharunt's Toxic Chain (no game art copied), glowing and moving
   in an emissive layer.
+* **Undertale** (`tools/styles/soul_*.py`, `_undertale.py`; textures under `.../pokemon/undertale/`): dithered
+  three-tone monochrome, a battle-box outline, SOUL hearts and soul-coloured motifs, inspired by Undertale (Toby Fox;
+  no game art copied).
+* **Pokémon Unite** (`tools/styles/unite_*.py`, `_unite.py`; textures under `.../pokemon/unite/`): team-colour outfit
+  patterns (jersey, hex holowear, sequins, tuxedo, yukata, Hawaiian shirt), inspired by Pokémon Unite's holowear (no
+  game art copied).
+* **Zelda** (`tools/styles/hyrule_*.py`, `_hyrule.py`; textures under `.../pokemon/zelda/`): tunic, ancient-tech
+  circuits, scales, rock, desert jewellery and bark patterns inspired by The Legend of Zelda (Nintendo; no game art
+  copied).
+* **Valentine's Day** (`tools/styles/valentine_*.py`, `_valentine.py`) and **St. Patrick's Day**
+  (`tools/styles/patrick_*.py`, `_patrick.py`): procedural hearts, letters, chocolate, roses, candy hearts, shamrocks,
+  coins, rainbows, knotwork and tartan.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

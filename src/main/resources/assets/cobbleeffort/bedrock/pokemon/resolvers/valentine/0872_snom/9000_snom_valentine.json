@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:snom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_valentine.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_transparency_valentine.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_transparency_shiny_valentine.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0872_snom/snom_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

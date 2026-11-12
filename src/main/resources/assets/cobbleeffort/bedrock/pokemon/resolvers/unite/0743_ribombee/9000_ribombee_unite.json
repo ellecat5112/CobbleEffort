@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:ribombee",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0743_ribombee/ribombee_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

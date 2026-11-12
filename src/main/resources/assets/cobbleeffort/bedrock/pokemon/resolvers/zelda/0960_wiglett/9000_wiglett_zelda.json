@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:wiglett",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0960_wiglett/wiglett_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0960_wiglett/wiglett_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

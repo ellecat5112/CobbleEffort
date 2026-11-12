@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:hoopa",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "unbound",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unbound",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

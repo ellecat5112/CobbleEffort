@@ -1,0 +1,275 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_emissive_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_emissive_shiny_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_emissive_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_emissive_shiny_unite.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_emissive_unite.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosplay",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0025_pikachu/pikachu_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "libre",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "libre",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phd",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phd",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

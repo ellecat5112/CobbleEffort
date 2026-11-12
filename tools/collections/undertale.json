@@ -1,0 +1,61 @@
+{
+  "_comment": "Undertale collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed undertale-determination` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_undertale.py.",
+  "aspect": "undertale",
+  "feature": "undertale_style",
+  "style": "soul_determination",
+  "cosmetic_items": [
+    "minecraft:bone"
+  ],
+  "lines": [
+    "shellder",
+    "chansey",
+    "cyndaquil",
+    "sentret",
+    "yanma",
+    "corsola",
+    "smeargle",
+    "lotad",
+    "duskull",
+    "shellos",
+    "patrat",
+    "woobat",
+    "litten",
+    "pyukumuku",
+    "blipbug",
+    "applin",
+    "glastrier",
+    "lechonk"
+  ],
+  "line_styles": {
+    "litten": "soul_determination",
+    "cyndaquil": "soul_determination",
+    "chansey": "soul_determination",
+    "corsola": "soul_bravery",
+    "applin": "soul_bravery",
+    "patrat": "soul_bravery",
+    "sentret": "soul_justice",
+    "yanma": "soul_justice",
+    "smeargle": "soul_justice",
+    "lotad": "soul_kindness",
+    "lechonk": "soul_kindness",
+    "shellos": "soul_kindness",
+    "pyukumuku": "soul_patience",
+    "shellder": "soul_patience",
+    "glastrier": "soul_patience",
+    "woobat": "soul_integrity",
+    "duskull": "soul_integrity",
+    "blipbug": "soul_integrity"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 34,
+    "title": "Undertale",
+    "example": "litten",
+    "summary": "Pokemon in the monochrome style of an underground RPG, each carrying a human SOUL (inspired by Undertale; original art).",
+    "looks": [
+      "each line carries one SOUL: red determination with save-point sparkles (Litten, Cyndaquil, Chansey); orange bravery (Corsola, Applin, Patrat); yellow justice stars (Sentret, Yanma, Smeargle); green kindness heals (Lotad, Lechonk, Shellos); cyan patience bands (Pyukumuku, Shellder, Glastrier); blue integrity diamonds (Woobat, Duskull, Blipbug)",
+      "dithered black, grey and white bodies with a white battle-box outline, white eyes, and a SOUL heart on the chest that glows and beats in the dark",
+      "shiny: the SOUL colours turned round the colour wheel"
+    ]
+  }
+}

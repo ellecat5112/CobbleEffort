@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 33 collections of cosmetic forms (1194 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 38 collections of cosmetic forms (1382 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -63,6 +63,11 @@ AT A GLANCE
   31  Slayer                              Iron Sword                                      slayer
   32  Sunburst                            Sunflower                                       sunburst
   33  Toxic Chain                         Chain                                           toxic_chain
+  34  Undertale                           Bone                                            undertale
+  35  Pokemon Unite                       Target                                          unite
+  36  Zelda                               Golden Sword                                    zelda
+  37  Valentine's Day                     Poppy                                           valentine
+  38  St. Patrick's Day                   Emerald                                         st_patrick
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -1353,6 +1358,190 @@ Pokemon (each line is a whole evolutionary family):
   - Flamigo
   - Dondozo
   - Poltchageist > Sinistcha
+
+====================================================================================================
+#34  UNDERTALE  (42 Pokemon)
+====================================================================================================
+Pokemon in the monochrome style of an underground RPG, each carrying a human SOUL (inspired by
+Undertale; original art).
+
+Cosmetic item: Bone
+Command:       /pokegive litten undertale   (add 'shiny' for the shiny version)
+
+The look:
+  * each line carries one SOUL: red determination with save-point sparkles (Litten, Cyndaquil,
+    Chansey); orange bravery (Corsola, Applin, Patrat); yellow justice stars (Sentret, Yanma,
+    Smeargle); green kindness heals (Lotad, Lechonk, Shellos); cyan patience bands (Pyukumuku,
+    Shellder, Glastrier); blue integrity diamonds (Woobat, Duskull, Blipbug)
+  * dithered black, grey and white bodies with a white battle-box outline, white eyes, and a SOUL
+    heart on the chest that glows and beats in the dark
+  * shiny: the SOUL colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Shellder > Cloyster
+  - Happiny > Chansey > Blissey
+  - Cyndaquil > Quilava > Typhlosion
+  - Sentret > Furret
+  - Yanma > Yanmega
+  - Corsola > Cursola
+  - Smeargle
+  - Lotad > Lombre > Ludicolo
+  - Duskull > Dusclops > Dusknoir
+  - Shellos > Gastrodon
+  - Patrat > Watchog
+  - Woobat > Swoobat
+  - Litten > Torracat > Incineroar
+  - Pyukumuku
+  - Blipbug > Dottler > Orbeetle
+  - Applin > Flapple / Appletun / Dipplin > Hydrapple
+  - Glastrier
+  - Lechonk > Oinkologne
+
+====================================================================================================
+#35  POKEMON UNITE  (35 Pokemon)
+====================================================================================================
+Pokemon in team-colour holowear outfits (inspired by Pokemon Unite's holowear; original designs).
+Regular = purple team, shiny = orange team.
+
+Cosmetic item: Target
+Command:       /pokegive pikachu unite   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one outfit: a team jersey (Pikachu, Timburr, Blitzle); glowing hex-grid holowear
+    (Genesect, Beldum, Bronzor); a sequinned concert outfit (Cutiefly, Hatenna, Glimmet); a tuxedo
+    with a team bow tie (Mawile, Snubbull, Komala); a festival yukata (Cherubi, Delibird, Cubone); a
+    Hawaiian beach shirt (Tyrunt, Cufant, Tapu Bulu)
+  * the holowear grid and sequins sparkle in the dark; the eyes keep their own colours
+  * shiny: the orange team
+
+Pokemon (each line is a whole evolutionary family):
+  - Pichu > Pikachu > Raichu
+  - Cubone > Marowak
+  - Snubbull > Granbull
+  - Delibird
+  - Mawile
+  - Beldum > Metang > Metagross
+  - Cherubi > Cherrim
+  - Bronzor > Bronzong
+  - Blitzle > Zebstrika
+  - Timburr > Gurdurr > Conkeldurr
+  - Genesect
+  - Tyrunt > Tyrantrum
+  - Cutiefly > Ribombee
+  - Komala
+  - Tapu Bulu
+  - Hatenna > Hattrem > Hatterene
+  - Cufant > Copperajah
+  - Glimmet > Glimmora
+
+====================================================================================================
+#36  ZELDA  (37 Pokemon)
+====================================================================================================
+Pokemon of the kingdom of Hyrule (inspired by The Legend of Zelda; original patterns).
+
+Cosmetic item: Golden Sword
+Command:       /pokegive squirtle zelda   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: the hero's green tunic and belt with a golden triangle emblem
+    (Falinks, Fomantis, Morpeko); ancient tech, slate with glowing cyan circuits (Kabuto, Omanyte,
+    Solrock); Zora blue scales (Squirtle, Seel, Qwilfish); Goron rock (Phanpy, Hippopotas, Wiglett);
+    Gerudo crimson and gold with turquoise gems (Gothita, Larvesta, Drifloon); Korok bark with a
+    crown of leaves (Hoppip, Tarountula, Snorunt)
+  * the ancient tech, emblem and gems glow in the dark; the eyes keep their own colours
+  * shiny: twilight, the colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Squirtle > Wartortle > Blastoise
+  - Seel > Dewgong
+  - Omanyte > Omastar
+  - Kabuto > Kabutops
+  - Hoppip > Skiploom > Jumpluff
+  - Qwilfish > Overqwil
+  - Phanpy > Donphan
+  - Solrock
+  - Snorunt > Glalie / Froslass
+  - Drifloon > Drifblim
+  - Hippopotas > Hippowdon
+  - Gothita > Gothorita > Gothitelle
+  - Larvesta > Volcarona
+  - Fomantis > Lurantis
+  - Falinks
+  - Morpeko
+  - Tarountula > Spidops
+  - Wiglett > Wugtrio
+
+====================================================================================================
+#37  VALENTINE'S DAY  (38 Pokemon)
+====================================================================================================
+Pokemon full of love.
+
+Cosmetic item: Poppy
+Command:       /pokegive luvdisc valentine   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: pink covered in hearts (Luvdisc, Clefairy, Buneary); a love letter
+    with a wax heart seal (Mr. Mime, Yamask, Hoopa); chocolate with drizzle and a frosted heart
+    (Bunnelby, Roggenrola, Makuhita); cupid white with golden arrows (Snom, Flittle, Gligar);
+    swirling red roses (Goldeen, Heatmor, Regieleki); pastel candy hearts (Goomy, Mankey, Anorith)
+  * the hearts glow softly and beat in the dark; the eyes keep their own colours
+  * shiny: the love turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Cleffa > Clefairy > Clefable
+  - Mankey > Primeape > Annihilape
+  - Goldeen > Seaking
+  - Mime Jr. > Mr. Mime > Mr. Rime
+  - Gligar > Gliscor
+  - Makuhita > Hariyama
+  - Anorith > Armaldo
+  - Buneary > Lopunny
+  - Roggenrola > Boldore > Gigalith
+  - Yamask > Cofagrigus / Runerigus
+  - Heatmor
+  - Bunnelby > Diggersby
+  - Goomy > Sliggoo > Goodra
+  - Hoopa
+  - Luvdisc
+  - Snom > Frosmoth
+  - Regieleki
+  - Flittle > Espathra
+
+====================================================================================================
+#38  ST. PATRICK'S DAY  (36 Pokemon)
+====================================================================================================
+Pokemon with the luck of the Irish.
+
+Cosmetic item: Emerald
+Command:       /pokegive shaymin st_patrick   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: shamrocks on emerald green (Shaymin, Jigglypuff, Popplio); a
+    leprechaun's coat, belt and gold buckle (Impidimp, Croagunk, Marshadow); a pot of gold (Heatran,
+    Pawniard, Darumaka); a rainbow over clouds (Lugia, Azelf, Shinx); gold Celtic knotwork
+    (Stantler, Terrakion, Tirtouga); an Irish tartan (Sawk, Tepig, Jangmo-o)
+  * lucky sparkles and gold glints twinkle in the dark; the eyes keep their own colours
+  * shiny: the green turned to gold
+
+Pokemon (each line is a whole evolutionary family):
+  - Igglybuff > Jigglypuff > Wigglytuff
+  - Stantler > Wyrdeer
+  - Lugia
+  - Marshadow
+  - Shinx > Luxio > Luxray
+  - Croagunk > Toxicroak
+  - Azelf
+  - Heatran
+  - Shaymin
+  - Tepig > Pignite > Emboar
+  - Sawk
+  - Darumaka > Darmanitan
+  - Tirtouga > Carracosta
+  - Pawniard > Bisharp > Kingambit
+  - Terrakion
+  - Popplio > Brionne > Primarina
+  - Jangmo-o > Hakamo-o > Kommo-o
+  - Impidimp > Morgrem > Grimmsnarl
 
 ====================================================================================================
 NEW POKEMON

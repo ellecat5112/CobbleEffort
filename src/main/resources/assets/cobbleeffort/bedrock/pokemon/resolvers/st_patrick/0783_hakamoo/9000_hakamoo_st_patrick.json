@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:hakamoo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0783_hakamoo/hakamo-o_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0783_hakamoo/hakamo-o_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

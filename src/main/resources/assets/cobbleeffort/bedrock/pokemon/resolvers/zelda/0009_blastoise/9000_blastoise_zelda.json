@@ -1,0 +1,412 @@
+{
+  "species": "cobblemon:blastoise",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0009_blastoise/blastoise_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0009_blastoise/blastoise_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/zelda/0009_blastoise/blastoise_triangleglasses_zelda.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_zelda.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_emissive_zelda.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_mega_triangleglasses_zelda.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_zelda.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_emissive_zelda.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0009_blastoise/blastoise_gigantamax_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_triangleglasses.png"
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_mega_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_gigantamax_emissive.png",
+          "emissive": true
+        },
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0009_blastoise/blastoise_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

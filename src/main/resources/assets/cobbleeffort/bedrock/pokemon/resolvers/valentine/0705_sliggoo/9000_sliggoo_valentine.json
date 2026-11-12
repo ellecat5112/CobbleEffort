@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:sliggoo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0705_sliggoo/sliggoo_hisuian_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

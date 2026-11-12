@@ -1,0 +1,249 @@
+{
+  "species": "cobblemon:genesect",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "water-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "water-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_douse_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fire-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "fire-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_burn_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ice-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "ice-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_chill_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "electric-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "electric-drive",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0649_genesect/genesect_shock_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

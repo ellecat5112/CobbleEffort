@@ -1,0 +1,82 @@
+{
+  "species": "cobblemon:emboar",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_st_patrick.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_emissive_st_patrick.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/st_patrick/0500_emboar/emboar_shiny_emissive_st_patrick.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_st_patrick.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_emissive_st_patrick.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0500_emboar/emboar_mega_shiny_emissive_st_patrick.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_comment": "Zelda collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed zelda-triforce` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_hyrule.py.",
+  "aspect": "zelda",
+  "feature": "zelda_style",
+  "style": "hyrule_tunic",
+  "cosmetic_items": [
+    "minecraft:golden_sword"
+  ],
+  "lines": [
+    "squirtle",
+    "seel",
+    "omanyte",
+    "kabuto",
+    "hoppip",
+    "qwilfish",
+    "phanpy",
+    "solrock",
+    "snorunt",
+    "drifloon",
+    "hippopotas",
+    "gothita",
+    "larvesta",
+    "fomantis",
+    "falinks",
+    "morpeko",
+    "tarountula",
+    "wiglett"
+  ],
+  "line_styles": {
+    "falinks": "hyrule_tunic",
+    "fomantis": "hyrule_tunic",
+    "morpeko": "hyrule_tunic",
+    "kabuto": "hyrule_ancient",
+    "omanyte": "hyrule_ancient",
+    "solrock": "hyrule_ancient",
+    "squirtle": "hyrule_zora",
+    "seel": "hyrule_zora",
+    "qwilfish": "hyrule_zora",
+    "phanpy": "hyrule_goron",
+    "hippopotas": "hyrule_goron",
+    "wiglett": "hyrule_goron",
+    "gothita": "hyrule_gerudo",
+    "larvesta": "hyrule_gerudo",
+    "drifloon": "hyrule_gerudo",
+    "hoppip": "hyrule_korok",
+    "tarountula": "hyrule_korok",
+    "snorunt": "hyrule_korok"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 36,
+    "title": "Zelda",
+    "example": "squirtle",
+    "summary": "Pokemon of the kingdom of Hyrule (inspired by The Legend of Zelda; original patterns).",
+    "looks": [
+      "each line wears one look: the hero's green tunic and belt with a golden triangle emblem (Falinks, Fomantis, Morpeko); ancient tech, slate with glowing cyan circuits (Kabuto, Omanyte, Solrock); Zora blue scales (Squirtle, Seel, Qwilfish); Goron rock (Phanpy, Hippopotas, Wiglett); Gerudo crimson and gold with turquoise gems (Gothita, Larvesta, Drifloon); Korok bark with a crown of leaves (Hoppip, Tarountula, Snorunt)",
+      "the ancient tech, emblem and gems glow in the dark; the eyes keep their own colours",
+      "shiny: twilight, the colours turned round the colour wheel"
+    ]
+  }
+}

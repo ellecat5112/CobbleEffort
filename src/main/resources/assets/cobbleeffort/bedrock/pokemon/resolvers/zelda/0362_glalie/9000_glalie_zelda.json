@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:glalie",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0362_glalie/glalie_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0362_glalie/glalie_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0362_glalie/megaglalie_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/compat/mega_showdown/0362_glalie/megaglalie_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

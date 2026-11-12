@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:bisharp",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "poser": "cobbleeffort:bisharp",
+      "model": "cobbleeffort:bisharp.geo",
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_shiny_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_shiny_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_shiny_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0625_bisharp/bisharp_shiny_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

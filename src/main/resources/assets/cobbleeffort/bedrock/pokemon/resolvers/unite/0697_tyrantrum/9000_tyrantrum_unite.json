@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:tyrantrum",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0697_tyrantrum/tyrantrum_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0697_tyrantrum/tyrantrum_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

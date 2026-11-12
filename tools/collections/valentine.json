@@ -1,0 +1,61 @@
+{
+  "_comment": "Valentine's Day collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed valentine-hearts` (lines may be shared with other collections since #24), Luvdisc swapped in from St. Patrick's Day for Marshadow, then given a look each (three lines per look). Shared look in styles/_valentine.py.",
+  "aspect": "valentine",
+  "feature": "valentine_style",
+  "style": "valentine_hearts",
+  "cosmetic_items": [
+    "minecraft:poppy"
+  ],
+  "lines": [
+    "clefairy",
+    "mankey",
+    "goldeen",
+    "mrmime",
+    "gligar",
+    "makuhita",
+    "anorith",
+    "buneary",
+    "roggenrola",
+    "yamask",
+    "heatmor",
+    "bunnelby",
+    "goomy",
+    "hoopa",
+    "luvdisc",
+    "snom",
+    "regieleki",
+    "flittle"
+  ],
+  "line_styles": {
+    "luvdisc": "valentine_hearts",
+    "clefairy": "valentine_hearts",
+    "buneary": "valentine_hearts",
+    "mrmime": "valentine_love_letter",
+    "yamask": "valentine_love_letter",
+    "hoopa": "valentine_love_letter",
+    "bunnelby": "valentine_chocolate",
+    "roggenrola": "valentine_chocolate",
+    "makuhita": "valentine_chocolate",
+    "snom": "valentine_cupid",
+    "flittle": "valentine_cupid",
+    "gligar": "valentine_cupid",
+    "goldeen": "valentine_roses",
+    "heatmor": "valentine_roses",
+    "regieleki": "valentine_roses",
+    "goomy": "valentine_candy_hearts",
+    "mankey": "valentine_candy_hearts",
+    "anorith": "valentine_candy_hearts"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 37,
+    "title": "Valentine's Day",
+    "example": "luvdisc",
+    "summary": "Pokemon full of love.",
+    "looks": [
+      "each line wears one look: pink covered in hearts (Luvdisc, Clefairy, Buneary); a love letter with a wax heart seal (Mr. Mime, Yamask, Hoopa); chocolate with drizzle and a frosted heart (Bunnelby, Roggenrola, Makuhita); cupid white with golden arrows (Snom, Flittle, Gligar); swirling red roses (Goldeen, Heatmor, Regieleki); pastel candy hearts (Goomy, Mankey, Anorith)",
+      "the hearts glow softly and beat in the dark; the eyes keep their own colours",
+      "shiny: the love turned round the colour wheel"
+    ]
+  }
+}

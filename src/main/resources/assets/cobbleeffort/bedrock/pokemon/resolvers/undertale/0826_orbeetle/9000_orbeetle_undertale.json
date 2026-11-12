@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:orbeetle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_undertale.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_emissive_undertale.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_undertale.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_emissive_undertale.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_undertale_soul_0.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_undertale_soul_1.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_undertale_soul_2.png",
+              "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/orbeetle_shiny_undertale_soul_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/blank_undertale.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/gmax_orbeetle_undertale.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/gmax_orbeetle_e_undertale.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "undertale"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/blank_undertale.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/gmax_orbeetle_shiny_undertale.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/undertale/compat/mega_showdown/0826_orbeetle/gmax_orbeetle_e_undertale.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_soul",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

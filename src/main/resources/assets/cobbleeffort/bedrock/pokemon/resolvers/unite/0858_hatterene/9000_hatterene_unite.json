@@ -1,0 +1,106 @@
+{
+  "species": "cobblemon:hatterene",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "poser": "cobbleeffort:hatterene",
+      "model": "cobbleeffort:hatterene.geo",
+      "texture": "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0858_hatterene/hatterene_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "unite"
+      ],
+      "poser": "cobbleeffort:hatterene_gmax",
+      "model": "cobbleeffort:hatterene_gmax.geo",
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

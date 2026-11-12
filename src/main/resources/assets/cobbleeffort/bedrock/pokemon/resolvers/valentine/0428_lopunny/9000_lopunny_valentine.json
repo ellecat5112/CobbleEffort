@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:lopunny",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0428_lopunny/lopunny_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/compat/mega_showdown/0428_lopunny/lopunny_mega_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

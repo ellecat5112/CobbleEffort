@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:terrakion",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "poser": "cobbleeffort:terrakion",
+      "model": "cobbleeffort:terrakion.geo",
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0639_terrakion/terrakion_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0639_terrakion/terrakion_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

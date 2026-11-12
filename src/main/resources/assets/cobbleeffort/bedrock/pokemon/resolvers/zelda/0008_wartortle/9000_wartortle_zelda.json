@@ -1,0 +1,94 @@
+{
+  "species": "cobblemon:wartortle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0008_wartortle/wartortle_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0008_wartortle/wartortle_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/zelda/0008_wartortle/wartortle_triangleglasses_zelda.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone_shiny.png",
+      "layers": [
+        {
+          "name": "",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-black_glasses",
+        "zelda"
+      ],
+      "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_clone.png",
+      "layers": [
+        {
+          "texture": "cobblemon:textures/pokemon/0008_wartortle/wartortle_triangleglasses.png"
+        },
+        {
+          "name": "cobbleeffort_sheikah",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

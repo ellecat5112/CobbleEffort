@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:frosmoth",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "poser": "cobbleeffort:frosmoth",
+      "model": "cobbleeffort:frosmoth.geo",
+      "texture": "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_love",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_shiny_valentine_love_0.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_shiny_valentine_love_1.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_shiny_valentine_love_2.png",
+              "cobbleeffort:textures/pokemon/valentine/0873_frosmoth/frosmoth_shiny_valentine_love_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

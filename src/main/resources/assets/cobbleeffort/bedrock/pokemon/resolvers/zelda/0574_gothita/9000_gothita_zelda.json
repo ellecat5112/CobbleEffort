@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:gothita",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda_sheikah_0.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda_sheikah_1.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda_sheikah_2.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_zelda_sheikah_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "zelda"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_shiny_zelda.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sheikah",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_shiny_zelda_sheikah_0.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_shiny_zelda_sheikah_1.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_shiny_zelda_sheikah_2.png",
+              "cobbleeffort:textures/pokemon/zelda/0574_gothita/gothita_shiny_zelda_sheikah_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

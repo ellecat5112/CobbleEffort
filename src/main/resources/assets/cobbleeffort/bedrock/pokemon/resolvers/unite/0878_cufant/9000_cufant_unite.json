@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:cufant",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0878_cufant/cufant_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0878_cufant/cufant_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

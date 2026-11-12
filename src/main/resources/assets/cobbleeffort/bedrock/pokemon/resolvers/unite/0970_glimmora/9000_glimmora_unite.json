@@ -1,0 +1,112 @@
+{
+  "species": "cobblemon:glimmora",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_emissive_unite.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_emissive_shiny_unite.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0970_glimmora/glimmora_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/compat/mega_showdown/0970_glimmora/glimmora_mega_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

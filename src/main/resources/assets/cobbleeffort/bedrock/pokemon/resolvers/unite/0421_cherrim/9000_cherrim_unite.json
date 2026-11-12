@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:cherrim",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0421_cherrim/cherrim_overcast_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0421_cherrim/cherrim_overcast_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0421_cherrim/cherrim_sunshine_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunshine-form",
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0421_cherrim/cherrim_sunshine_shiny_unite.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_holo",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

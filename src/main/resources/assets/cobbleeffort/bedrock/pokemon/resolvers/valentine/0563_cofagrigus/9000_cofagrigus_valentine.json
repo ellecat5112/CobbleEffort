@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:cofagrigus",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0563_cofagrigus/cofagrigus_valentine.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0563_cofagrigus/cofagrigus_emissive_valentine.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "valentine"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/valentine/0563_cofagrigus/cofagrigus_shiny_valentine.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/valentine/0563_cofagrigus/cofagrigus_shiny_emissive_valentine.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_love",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

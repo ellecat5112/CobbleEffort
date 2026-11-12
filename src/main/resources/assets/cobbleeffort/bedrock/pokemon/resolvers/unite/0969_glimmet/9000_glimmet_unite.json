@@ -1,0 +1,63 @@
+{
+  "species": "cobblemon:glimmet",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_emissive_unite.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unite"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_shiny_unite.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_emissive_shiny_unite.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_holo",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_shiny_unite_holo_0.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_shiny_unite_holo_1.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_shiny_unite_holo_2.png",
+              "cobbleeffort:textures/pokemon/unite/0969_glimmet/glimmet_shiny_unite_holo_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

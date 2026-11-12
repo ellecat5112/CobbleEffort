@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:darumaka",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_shiny_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_shiny_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_shiny_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0554_darumaka/darumaka_shiny_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_shiny_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_shiny_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_shiny_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/compat/mega_showdown/0554_darumaka/darumaka_galar_shiny_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

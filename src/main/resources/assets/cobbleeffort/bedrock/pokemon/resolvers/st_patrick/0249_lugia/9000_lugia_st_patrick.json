@@ -1,0 +1,80 @@
+{
+  "species": "cobblemon:lugia",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_shiny_st_patrick.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_shiny_st_patrick_luck_0.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_shiny_st_patrick_luck_1.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_shiny_st_patrick_luck_2.png",
+              "cobbleeffort:textures/pokemon/st_patrick/0249_lugia/lugia_shiny_st_patrick_luck_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadows",
+        "st_patrick"
+      ],
+      "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadows",
+        "shiny",
+        "st_patrick"
+      ],
+      "texture": "cobblemon:textures/pokemon/0249_lugia/lugia_shadow_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_luck",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}
