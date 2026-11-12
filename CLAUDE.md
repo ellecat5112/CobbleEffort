@@ -148,6 +148,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   attacks' onEffectiveness = 4x on any Bug-type target, plus onAnyNegateImmunity for Bug targets of its own attacks);
   Cobblemon's Showdown reports 4x hits as `-extremelyeffective`.
   Tikimp -> Tikilla (#3037-3038, `models/_tiki.py`): Normal/Fighting kickboxing apes (skull face, tiki-mask fists), lv 32.
+  Mousense -> Sensarat (#3039-3040, `models/_sense.py`; the art's names): Normal rodents with eyes always closed, lv 22;
+  `_sense.whisker` = thin whisker ribbons (a 0 x 1 rod cut to a tapering line; plain rods under 1 unit round to nothing).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

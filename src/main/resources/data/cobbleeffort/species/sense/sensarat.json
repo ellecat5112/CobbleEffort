@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3040,
+ "name": "Sensarat",
+ "primaryType": "normal",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 140,
+ "pokedex": [
+  "cobbleeffort.species.sensarat.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "frisk",
+  "anticipation",
+  "h:hustle"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 85,
+  "defence": 65,
+  "special_attack": 50,
+  "special_defence": 70,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 145,
+ "experienceGroup": "medium_slow",
+ "catchRate": 127,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.68,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.38
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "0-3"
+   },
+   {
+    "item": "cobblemon:silk_scarf",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:suckerpunch",
+  "1:tackle",
+  "1:tailwhip",
+  "3:foresight",
+  "6:quickattack",
+  "9:bite",
+  "12:detect",
+  "15:focusenergy",
+  "18:hyperfang",
+  "21:mindreader",
+  "22:suckerpunch",
+  "26:crunch",
+  "31:superfang",
+  "36:endeavor",
+  "41:doubleedge",
+  "47:lastresort",
+  "egg:counter",
+  "egg:reversal",
+  "egg:finalgambit",
+  "egg:screech",
+  "egg:lastresort",
+  "egg:uproar",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:swift",
+  "tm:dig",
+  "tm:thief",
+  "tm:uturn",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:crunch",
+  "tm:superfang",
+  "tm:endeavor",
+  "tm:charm",
+  "tm:faketears",
+  "tm:thunderwave",
+  "tm:shadowball",
+  "tm:irontail",
+  "tm:zenheadbutt",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:hypervoice",
+  "tm:suckerpunch",
+  "tm:playrough",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:psychicfangs",
+  "tm:thunderfang",
+  "tm:icefang",
+  "tm:firefang"
+ ],
+ "preEvolution": "cobbleeffort:mousense"
+}

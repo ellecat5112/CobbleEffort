@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "mousense-plains",
+   "pokemon": "cobbleeffort:mousense",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "2-22",
+   "weight": 7.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_grassland"
+    ]
+   }
+  },
+  {
+   "id": "mousense-forest",
+   "pokemon": "cobbleeffort:mousense",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "2-22",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_forest",
+     "#cobblemon:is_hills"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sensarat-plains",
+   "pokemon": "cobbleeffort:sensarat",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "22-40",
+   "weight": 2.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

@@ -916,6 +916,48 @@ SPECIES.update({
 })
 LINES["tiki"] = ["tikimp", "tikilla"]
 
+# --- the sensing rodents: eyes always closed, they feel their way with long whiskers ------------------------------------
+
+SENSE_TM = BASIC_TM + ["swift", "dig", "thief", "uturn", "takedown", "bodyslam", "doubleedge", "crunch", "superfang",
+                       "endeavor", "charm", "faketears", "thunderwave", "shadowball", "irontail", "zenheadbutt",
+                       "grassknot", "trailblaze", "thunderbolt", "icebeam", "hypervoice", "suckerpunch", "playrough"]
+SENSE_TM_BIG = ["gigaimpact", "hyperbeam", "psychicfangs", "thunderfang", "icefang", "firefang"]
+SENSE_LEARN = [(1, "tackle"), (1, "tailwhip"), (3, "foresight"), (6, "quickattack"), (9, "bite"), (12, "detect"),
+               (15, "focusenergy"), (18, "hyperfang"), (21, "mindreader")]
+SENSE = dict(male=0.5, egg_groups=["field"], friendship=70, abilities=["frisk", "anticipation", "h:hustle"],
+             ability_names="Frisk / Anticipation / Hustle (hidden)", egg=["counter", "reversal", "finalgambit", "screech",
+                                                                         "lastresort", "uproar"])
+
+SPECIES.update({
+    "mousense": {
+        "dex": 3039, "name": "Mousense", "line": "sense", "types": ["normal"], **SENSE,
+        "stats": stats(40, 50, 35, 35, 40, 75), "ev": evs(speed=1), "catch": 255, "exp": 51,
+        "height": 3, "weight": 25, "shoulder": True, "walk": 0.4,
+        "moves": SENSE_LEARN + [(24, "crunch"), (27, "superfang"), (31, "endeavor"), (35, "doubleedge")],
+        "tm": SENSE_TM, "evolve": ("sensarat", 22, ["suckerpunch"]),
+        "drops": [("minecraft:string", "0-1", None), ("minecraft:wheat_seeds", "0-2", None)],
+        "entry": ("Its eyes stay shut from the day it hatches. It feels its way about with its long whiskers, which can "
+                  "pick up the flutter of a moth's wings across a meadow, so sneaking up on it is near impossible."),
+        "spawns": [route_spawn("mousense-plains", "common", "2-22", 7.0, ["#cobblemon:is_plains", "#cobblemon:is_grassland"]),
+                   route_spawn("mousense-forest", "common", "2-22", 5.0, ["#cobblemon:is_forest", "#cobblemon:is_hills"])],
+        "how": ["Wild: common in plains, grasslands, forests and hills.", "Evolves into Sensarat at level 22."],
+    },
+    "sensarat": {
+        "dex": 3040, "name": "Sensarat", "line": "sense", "types": ["normal"], **SENSE,
+        "stats": stats(70, 85, 65, 50, 70, 105), "ev": evs(speed=2), "catch": 127, "exp": 145,
+        "height": 6, "weight": 140, "shoulder": False, "walk": 0.38,
+        "moves": [(1, "suckerpunch")] + SENSE_LEARN + [(22, "suckerpunch"), (26, "crunch"), (31, "superfang"),
+                                                      (36, "endeavor"), (41, "doubleedge"), (47, "lastresort")],
+        "tm": SENSE_TM + SENSE_TM_BIG, "evolve": None,
+        "drops": [("minecraft:string", "1-2", None), ("minecraft:wheat_seeds", "0-3", None), ("cobblemon:silk_scarf", None, 2.5)],
+        "entry": ("It sweeps its long whiskers through the dark like feelers and senses an attack before it comes, "
+                  "striking first. It never opens its eyes; those who have seen them say they are as bright as stars."),
+        "spawns": [route_spawn("sensarat-plains", "uncommon", "22-40", 2.5, ["#cobblemon:is_plains", "#cobblemon:is_forest"])],
+        "how": ["Evolve Mousense at level 22. It learns Sucker Punch when it evolves.", "Wild: uncommon in plains and forests."],
+    },
+})
+LINES["sense"] = ["mousense", "sensarat"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1347,8 +1389,8 @@ def readme_table(cfgs):
     for c in cfgs:
         st = c["stats"]
         nums = " / ".join(str(st[k]) for k in ("hp", "attack", "defence", "special_attack", "special_defence", "speed"))
-        ft = c["height"] * 10 / 2.54 / 12
-        size = f"{int(ft)}'{round((ft - int(ft)) * 12)}\" ({c['height'] / 10:g} m) / {c['weight'] / 10:g} kg"
+        inches = round(c["height"] * 10 / 2.54)
+        size = f"{inches // 12}'{inches % 12}\" ({c['height'] / 10:g} m) / {c['weight'] / 10:g} kg"
         rows.append(f"| {c['dex']} | **{c['name']}** | {' / '.join(t.title() for t in c['types'])} | {c['ability_names']} | "
                     f"{nums} | {size} | {' '.join(c['how'])} | {c['entry']} |")
     path.write_text(text[:text.index(a) + len(a)] + "\n" + "\n".join(rows) + "\n" + text[text.index(b):])

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 38 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 40 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1094,6 +1094,26 @@ cobbleeffort:cavitot.
   away."
   * Evolve Tikimp at level 32. It learns High Jump Kick when it evolves.
   * Wild: rare in jungles and on tropical islands.
+
+#3039 MOUSENSE  (Normal; Frisk / Anticipation / Hustle (hidden))
+  a chubby cream mouse sitting up with its eyes closed and nose in the air, long whiskers, big round
+  dark ears, a buck tooth and pink paws and tail
+  Stats: HP 40  Atk 50  Def 35  SpA 35  SpD 40  Spe 75  (total 275)
+  Pokedex: "Its eyes stay shut from the day it hatches. It feels its way about with its long
+  whiskers, which can pick up the flutter of a moth's wings across a meadow, so sneaking up on it is
+  near impossible."
+  * Wild: common in plains, grasslands, forests and hills.
+  * Evolves into Sensarat at level 22.
+
+#3040 SENSARAT  (Normal; Frisk / Anticipation / Hustle (hidden))
+  a round, shaggy brown rat with a cream face, closed eyes, big round ears, very long dark feeler
+  whiskers and a long pink tail
+  Stats: HP 70  Atk 85  Def 65  SpA 50  SpD 70  Spe 105  (total 445)
+  Pokedex: "It sweeps its long whiskers through the dark like feelers and senses an attack before it
+  comes, striking first. It never opens its eyes; those who have seen them say they are as bright as
+  stars."
+  * Evolve Mousense at level 22. It learns Sucker Punch when it evolves.
+  * Wild: uncommon in plains and forests.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
