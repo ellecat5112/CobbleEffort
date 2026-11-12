@@ -145,7 +145,8 @@ with its move Machine Gun Stinger) and Prayling, Mawntis and Mantasma (the manti
 (the mummy line, with its ability Pharaoh's Curse), all under `.../300x_<species>/*`, are original Pokémon: the idea and look are
 the user's own design, and the names, Pokédex entries, stats, models, textures, animations and posers were made for
 CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used. The mantis and mummy lines were designed
-from the user's descriptions with reference pictures found online; none of their pixels are used.
+from the user's descriptions with free-to-use reference pictures found online (the mummy line's: a fakemon design
+posted on Pinterest by **LAB fakemon**); none of their pixels are used.
 
 ## Code and data
 

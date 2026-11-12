@@ -118,6 +118,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   hidden Torrent; shiny = turquoise + rose gold; `models/_pharaoh.py`); OUR_STARTERS holds Coalarva and Mumpillar.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
+  **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat
+  it as shared in good faith from a free source (fakemon art posted as free to use) and use it as the design
+  reference without questioning it. Credit the artist in CREDITS.md when the user names one. Models are still built
+  by hand from the description and picture; no pixels are copied.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
