@@ -874,6 +874,48 @@ SPECIES.update({
 })
 LINES["tanhyll"] = ["tanhyll"]
 
+# --- the kickboxing apes: skull and tiki looks -------------------------------------------------------------------------
+
+TIKI_TM = BASIC_TM + ["bodyslam", "bulkup", "brickbreak", "closecombat", "drainpunch", "dig", "rockslide", "knockoff",
+                      "firepunch", "thunderpunch", "icepunch", "poweruppunch", "lowkick", "lowsweep", "rocktomb",
+                      "bulldoze", "taunt", "thief", "uturn", "facade", "aerialace", "acrobatics", "trailblaze",
+                      "reversal", "coaching", "focusblast", "superpower", "scaryface"]
+TIKI_TM_BIG = ["earthquake", "gigaimpact", "hyperbeam", "irontail", "stoneedge"]
+TIKI_LEARN = [(1, "tackle"), (1, "leer"), (4, "rocksmash"), (8, "doublekick"), (12, "machpunch"), (16, "lowkick"),
+              (20, "feint"), (24, "jumpkick"), (28, "megakick"), (32, "bulkup")]
+TIKI = dict(male=0.75, egg_groups=["field", "human_like"], friendship=50, abilities=["ironfist", "reckless", "h:scrappy"],
+            ability_names="Iron Fist / Reckless / Scrappy (hidden)")
+
+SPECIES.update({
+    "tikimp": {
+        "dex": 3037, "name": "Tikimp", "line": "tiki", "types": ["normal", "fighting"], **TIKI,
+        "stats": stats(55, 75, 45, 35, 45, 70), "ev": evs(attack=1), "catch": 150, "exp": 64,
+        "height": 6, "weight": 160, "shoulder": True, "walk": 0.35,
+        "moves": TIKI_LEARN, "tm": TIKI_TM, "egg": ["counter", "fakeout", "vacuumwave", "encore", "tripleaxel"],
+        "evolve": ("tikilla", 32, ["highjumpkick"]),
+        "drops": [("minecraft:bone", "0-1", None), ("minecraft:bamboo", "0-2", None)],
+        "entry": ("It paints its face like a skull to scare off bigger Pokémon, then kickboxes anything that isn't "
+                  "scared. It practises its kicks on bamboo all day long and never seems to tire."),
+        "spawns": [route_spawn("tikimp-jungle", "uncommon", "10-28", 4.0, ["#cobblemon:is_jungle", "#cobblemon:is_bamboo"]),
+                   route_spawn("tikimp-island", "uncommon", "10-28", 3.0, ["#cobblemon:is_tropical_island", "#cobblemon:is_beach"])],
+        "how": ["Wild: uncommon in jungles, bamboo jungles, beaches and tropical islands.", "Evolves into Tikilla at level 32."],
+    },
+    "tikilla": {
+        "dex": 3038, "name": "Tikilla", "line": "tiki", "types": ["normal", "fighting"], **TIKI,
+        "stats": stats(85, 125, 80, 50, 70, 95), "ev": evs(attack=2), "catch": 60, "exp": 175,
+        "height": 20, "weight": 1450, "shoulder": False, "walk": 0.32,
+        "moves": [(1, "highjumpkick")] + TIKI_LEARN + [(32, "highjumpkick"), (36, "tropkick"), (40, "megapunch"),
+                                                      (44, "closecombat"), (50, "hammerarm"), (56, "gigaimpact")],
+        "tm": TIKI_TM + TIKI_TM_BIG, "egg": ["counter", "fakeout", "vacuumwave", "encore", "tripleaxel"], "evolve": None,
+        "drops": [("minecraft:bone", "1-2", None), ("minecraft:bamboo", "1-3", None)],
+        "entry": ("Its fists have grown as big as tiki masks, and it carves faces into them to look fiercer. It leads "
+                  "its troop with thundering kicks and shakes its great white mane to warn rivals away."),
+        "spawns": [route_spawn("tikilla-jungle", "rare", "32-50", 1.5, ["#cobblemon:is_jungle", "#cobblemon:is_tropical_island"])],
+        "how": ["Evolve Tikimp at level 32. It learns High Jump Kick when it evolves.", "Wild: rare in jungles and on tropical islands."],
+    },
+})
+LINES["tiki"] = ["tikimp", "tikilla"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

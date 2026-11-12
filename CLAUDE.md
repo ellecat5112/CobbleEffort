@@ -147,6 +147,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Tanhyll (#3036, `models/tanhyll.py`; the art's own name): Normal/Fighting anteater, ability Insectivore (its
   attacks' onEffectiveness = 4x on any Bug-type target, plus onAnyNegateImmunity for Bug targets of its own attacks);
   Cobblemon's Showdown reports 4x hits as `-extremelyeffective`.
+  Tikimp -> Tikilla (#3037-3038, `models/_tiki.py`): Normal/Fighting kickboxing apes (skull face, tiki-mask fists), lv 32.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

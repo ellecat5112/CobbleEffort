@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tikimp-jungle",
+   "pokemon": "cobbleeffort:tikimp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "10-28",
+   "weight": 4.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_bamboo"
+    ]
+   }
+  },
+  {
+   "id": "tikimp-island",
+   "pokemon": "cobbleeffort:tikimp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "10-28",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_tropical_island",
+     "#cobblemon:is_beach"
+    ]
+   }
+  }
+ ]
+}

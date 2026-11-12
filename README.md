@@ -719,6 +719,12 @@ effective (4×) on Bug-type Pokémon, whatever their other type, and no type imm
 (Shedinja's Wonder Guard and Levitate included). Hidden ability Scrappy. Learns Crush Claw, Hammer Arm and Close Combat.
 Uncommon in savannas and jungles, rare in forests and badlands. Shiny: rusty brown and tan.
 
+**Tikimp → Tikilla** (Normal/Fighting, level 32): kickboxing apes with skull and tiki looks. Tikimp is a little black
+monkey with spiky hair, a white skull face with a golden grin, bone stripes and huge white mitts and feet; Tikilla is a
+big ape with a white shaggy mane and enormous white fists carved like tiki masks. Iron Fist or Reckless, hidden
+Scrappy; kicks galore (Double Kick, Jump Kick, Mega Kick, Trop Kick, and High Jump Kick when it evolves). Uncommon in
+jungles, bamboo jungles, beaches and tropical islands; Tikilla is rare. Shiny: bone-white with black markings and jade.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -758,6 +764,8 @@ Uncommon in savannas and jungles, rare in forests and badlands. Shiny: rusty bro
 | 3034 | **Jorminous** | Water / Ghost | Swift Swim / Shell Armor / Cursed Body (hidden) | 95 / 90 / 95 / 100 / 90 / 70 | 22'12" (7 m) / 300 kg | Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves. Wild: very rare on deep oceans at night. | The ghost of a sunken raiding ship that has become a great sea serpent. When it rises out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore. |
 | 3035 | **Type: Error** | Normal | System Error (its own: makes it Error type in battle) | 80 / 130 / 60 / 90 / 60 / 114 | 6'3" (1.9 m) / 120.5 kg | Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed. | A failed experiment built to be faster and deadlier than any other. The mask clamped over its head keeps its corrupted power in check. Its type cannot be read: every attack hits it the same, except the most ordinary ones. |
 | 3036 | **Tanhyll** | Normal / Fighting | Insectivore (its own: its attacks are 4x super effective on Bug types) / Scrappy (hidden) | 90 / 115 / 75 / 55 / 70 / 85 | 5'3" (1.6 m) / 70 kg | Wild: uncommon in savannas and jungles, rare in forests and badlands. | It stands up on its hind legs to tear open Bug Pokémon nests with its huge claws, then slurps up everything inside with its long hooked tongue. Bug Pokémon flee at its very scent. |
+| 3037 | **Tikimp** | Normal / Fighting | Iron Fist / Reckless / Scrappy (hidden) | 55 / 75 / 45 / 35 / 45 / 70 | 1'12" (0.6 m) / 16 kg | Wild: uncommon in jungles, bamboo jungles, beaches and tropical islands. Evolves into Tikilla at level 32. | It paints its face like a skull to scare off bigger Pokémon, then kickboxes anything that isn't scared. It practises its kicks on bamboo all day long and never seems to tire. |
+| 3038 | **Tikilla** | Normal / Fighting | Iron Fist / Reckless / Scrappy (hidden) | 85 / 125 / 80 / 50 / 70 / 95 | 6'7" (2 m) / 145 kg | Evolve Tikimp at level 32. It learns High Jump Kick when it evolves. Wild: rare in jungles and on tropical islands. | Its fists have grown as big as tiki masks, and it carves faces into them to look fiercer. It leads its troop with thundering kicks and shakes its great white mane to warn rivals away. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -775,6 +783,8 @@ Uncommon in savannas and jungles, rare in forests and badlands. Shiny: rusty bro
 ![Type: Error, regular and shiny](docs/newmons_typeerror.png)
 
 ![Tanhyll, regular and shiny](docs/newmons_tanhyll.png)
+
+![Tikimp and Tikilla, regular and shiny](docs/newmons_tiki.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

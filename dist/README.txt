@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 36 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 38 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1075,6 +1075,25 @@ cobbleeffort:cavitot.
   Pokedex: "It stands up on its hind legs to tear open Bug Pokémon nests with its huge claws, then
   slurps up everything inside with its long hooked tongue. Bug Pokémon flee at its very scent."
   * Wild: uncommon in savannas and jungles, rare in forests and badlands.
+
+#3037 TIKIMP  (Normal / Fighting; Iron Fist / Reckless / Scrappy (hidden))
+  a little black kickboxing monkey with spiky hair, a white skull face with a golden grin, bone
+  stripes and huge white mitt hands and feet tipped in gold
+  Stats: HP 55  Atk 75  Def 45  SpA 35  SpD 45  Spe 70  (total 325)
+  Pokedex: "It paints its face like a skull to scare off bigger Pokémon, then kickboxes anything
+  that isn't scared. It practises its kicks on bamboo all day long and never seems to tire."
+  * Wild: uncommon in jungles, bamboo jungles, beaches and tropical islands.
+  * Evolves into Tikilla at level 32.
+
+#3038 TIKILLA  (Normal / Fighting; Iron Fist / Reckless / Scrappy (hidden))
+  a powerful ape with a huge white shaggy mane, a white skull face with a golden grin, bone stripes
+  and enormous white fists carved like tiki masks
+  Stats: HP 85  Atk 125  Def 80  SpA 50  SpD 70  Spe 95  (total 505)
+  Pokedex: "Its fists have grown as big as tiki masks, and it carves faces into them to look
+  fiercer. It leads its troop with thundering kicks and shakes its great white mane to warn rivals
+  away."
+  * Evolve Tikimp at level 32. It learns High Jump Kick when it evolves.
+  * Wild: rare in jungles and on tropical islands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

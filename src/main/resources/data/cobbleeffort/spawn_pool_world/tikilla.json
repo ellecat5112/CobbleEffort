@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tikilla-jungle",
+   "pokemon": "cobbleeffort:tikilla",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "32-50",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_tropical_island"
+    ]
+   }
+  }
+ ]
+}

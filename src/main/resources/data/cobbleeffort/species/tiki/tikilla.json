@@ -1,0 +1,160 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3038,
+ "name": "Tikilla",
+ "primaryType": "normal",
+ "secondaryType": "fighting",
+ "maleRatio": 0.75,
+ "height": 20,
+ "weight": 1450,
+ "pokedex": [
+  "cobbleeffort.species.tikilla.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "ironfist",
+  "reckless",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "field",
+  "human_like"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 125,
+  "defence": 80,
+  "special_attack": 50,
+  "special_defence": 70,
+  "speed": 95
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 175,
+ "experienceGroup": "medium_slow",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.95,
+ "hitbox": {
+  "width": 1.2,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:bamboo",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:highjumpkick",
+  "1:tackle",
+  "1:leer",
+  "4:rocksmash",
+  "8:doublekick",
+  "12:machpunch",
+  "16:lowkick",
+  "20:feint",
+  "24:jumpkick",
+  "28:megakick",
+  "32:bulkup",
+  "32:highjumpkick",
+  "36:tropkick",
+  "40:megapunch",
+  "44:closecombat",
+  "50:hammerarm",
+  "56:gigaimpact",
+  "egg:counter",
+  "egg:fakeout",
+  "egg:vacuumwave",
+  "egg:encore",
+  "egg:tripleaxel",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:dig",
+  "tm:rockslide",
+  "tm:knockoff",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:icepunch",
+  "tm:poweruppunch",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:rocktomb",
+  "tm:bulldoze",
+  "tm:taunt",
+  "tm:thief",
+  "tm:uturn",
+  "tm:facade",
+  "tm:aerialace",
+  "tm:acrobatics",
+  "tm:trailblaze",
+  "tm:reversal",
+  "tm:coaching",
+  "tm:focusblast",
+  "tm:superpower",
+  "tm:scaryface",
+  "tm:earthquake",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:irontail",
+  "tm:stoneedge"
+ ],
+ "preEvolution": "cobbleeffort:tikimp"
+}
