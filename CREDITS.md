@@ -143,7 +143,8 @@ into **Mega Showdown**'s data-driven mega system.
 Cavitot, Amalgum and Orthodread (the dentistry line) and Coalarva, Cinderoon and Gatterfly (the coal butterfly line,
 with its move Machine Gun Stinger) and Prayling, Mawntis and Mantasma (the mantis line, with its ability Blindsight), all under `.../300x_<species>/*`, are original Pokémon: the idea and look are
 the user's own design, and the names, Pokédex entries, stats, models, textures, animations and posers were made for
-CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used.
+CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used. The mantis line was designed from the
+user's description with a free-to-use reference picture found online; none of its pixels are used.
 
 ## Code and data
 
