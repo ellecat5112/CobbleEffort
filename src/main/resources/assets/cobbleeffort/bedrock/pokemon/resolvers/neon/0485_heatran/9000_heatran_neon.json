@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:heatran",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "poser": "cobbleeffort:heatran",
+      "model": "cobbleeffort:heatran.geo",
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

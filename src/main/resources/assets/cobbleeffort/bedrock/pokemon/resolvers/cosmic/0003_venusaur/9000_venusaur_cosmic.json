@@ -1,0 +1,372 @@
+{
+  "species": "cobblemon:venusaur",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_mega.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_gmax.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_mega.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "mega",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "gmax",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-gmax",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_gmax_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmetic_item-mega",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_clone_mega_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -471,6 +471,67 @@ no art from the games is used.
 Give a supported Pokémon **Lime Dye** (the Game Boy's green) as its cosmetic item. With commands:
 `/pokegive krabby gb_sprite`, `/pokegive aipom gb_sprite shiny`. Pack makers can extend the item tag
 `#cobbleeffort:gb_sprite_cosmetics`.
+
+## Collection #13: Cosmic Starlight
+
+18 evolutionary lines (**34 Pokémon**), each one a celestial body (two lines per look):
+
+* **nebula** (Bulbasaur, Frillish): deep violets and magentas in drifting gas clouds with teal wisps
+* **galaxy** (Ekans, Spoink): midnight blue with pale spiral arms and pink dust swirling round a bright core on the chest
+* **sun** (Victini, Archen): a burning, granulated surface with sunspots and a glowing corona
+* **moon** (Karrablast, Fomantis): grey regolith, dark maria, cratered rims; shiny: a **blood moon**
+* **comet** (Electrike, Buizel): icy blue with glowing tail streaks running back across the body
+* **black hole** (Stunky, Genesect): near-black with a blazing accretion ring round the chest and a purple rim
+* **ringed planet** (Spritzee, Bruxish): pastel gas-giant bands from head to toe and a bright ring round the middle
+* **aurora** (Feebas, Pansage): a night-blue body with green and pink aurora curtains that ripple
+* **eclipse** (Pawniard, Falinks): black, with a white-gold corona round its outline
+* stars scattered over every dark part **twinkle and glow in the dark**, as do coronas, rings, tails and auroras; eyes glow
+* other forms (Mega and Gigantamax Venusaur, Mega Manectric, Mega Falinks, Genesect's drives) are cosmic too
+* shiny: the colours turned round the colour wheel (a blue sun, a green nebula…)
+
+Bulbasaur → Ivysaur → Venusaur · Ekans → Arbok · Electrike → Manectric · Spoink → Grumpig · Feebas → Milotic ·
+Buizel → Floatzel · Stunky → Skuntank · Victini · Pansage → Simisage · Archen → Archeops ·
+Karrablast → Escavalier · Frillish → Jellicent · Pawniard → Bisharp → Kingambit · Genesect · Spritzee → Aromatisse ·
+Fomantis → Lurantis · Bruxish · Falinks
+
+Picked with `generate.py pick --count 18 --seed cosmic-starlight` from the 253 remaining eligible lines.
+
+![Original vs. cosmic](docs/cosmic_preview.png)
+
+### How to get one
+
+Give a supported Pokémon **Glowstone Dust** as its cosmetic item. With commands: `/pokegive victini cosmic`,
+`/pokegive escavalier cosmic shiny`. Pack makers can extend the item tag `#cobbleeffort:cosmic_cosmetics`.
+
+## Collection #14: 80s Neon Cyberpunk
+
+18 evolutionary lines (**34 Pokémon**) in 80s neon (three lines per look):
+
+* **synthwave** (Duskull, Combee, Purrloin): dark violet with a hot-pink grid and cyan neon outlines
+* **outrun** (Kangaskhan, Gible, Heatran): a retro sunset from head to toe (yellow, orange, magenta, purple) cut by
+  sunset stripes, pink neon
+* **Tron** (Pikachu, Chewtle, Yamper): black with cyan circuit traces and nodes, cyan neon
+* **vaporwave** (Goomy, Eiscue, Tandemaus): pastel pink, teal and lavender, a black-and-white checker floor at the feet
+* **acid** (Seviper, Corphish, Munkidori): near-black with glitched scanlines in toxic green and purple
+* **chrome** (Pinsir, Beldum, Bouffalant): 80s chrome, a sky-blue-to-pink horizon reflection down the body
+* **neon outlines** round its main parts and **glowing visor eyes**: the neon pulses, a tube flickers now and then,
+  and it all glows in the dark
+* megas and Gigantamax forms (Mega Pinsir, Mega Metagross, Mega Garchomp, Mega Raichu X and Y, Gigantamax Pikachu, cosplay Pikachu…) are neon too
+* shiny: the neon turned round the colour wheel (pink becomes green, cyan becomes orange…)
+
+Pichu → Pikachu → Raichu · Kangaskhan · Pinsir · Seviper · Corphish → Crawdaunt · Duskull → Dusclops → Dusknoir ·
+Beldum → Metang → Metagross · Combee → Vespiquen · Gible → Gabite → Garchomp · Heatran · Purrloin → Liepard ·
+Bouffalant · Goomy → Sliggoo → Goodra · Chewtle → Drednaw · Yamper → Boltund · Eiscue · Tandemaus → Maushold ·
+Munkidori
+
+Picked with `generate.py pick --count 18 --seed neon-cyberpunk-1985` from the 235 remaining eligible lines.
+
+![Original vs. neon](docs/neon_preview.png)
+
+### How to get one
+
+Give a supported Pokémon a **Glow Ink Sac** as its cosmetic item. With commands: `/pokegive pikachu neon`,
+`/pokegive metagross neon shiny`. Pack makers can extend the item tag `#cobbleeffort:neon_cosmetics`.
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

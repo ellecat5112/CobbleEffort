@@ -51,6 +51,14 @@ made by the Cobblemon team and contributors.
   renderer) at one pixel per model unit in depth slices, reduced to four Game Boy tones (Game Boy Color palettes from
   the shiny textures for shinies) with outlines, shading and dithering, and rebuilt as flat stacked planes with a poser
   of its own (the original's portrait/profile framing) and an animation group of ours (`cobbleeffort_gbsprite`).
+* **Cosmic Starlight** (`tools/styles/cosmic_*.py`, `_cosmic.py`; textures under `.../pokemon/cosmic/`): colours
+  remapped per celestial look (nebula clouds, galaxy spiral, solar granulation, craters, comet streaks, accretion ring,
+  gas-giant bands, aurora curtains, eclipse corona), stars added, and an animated emissive layer of twinkling stars and
+  glows; shinies hue-turned (the moon a blood moon).
+* **80s Neon Cyberpunk** (`tools/styles/neon_*.py`, `_neon.py`; textures under `.../pokemon/neon/`): colours remapped
+  per look (synthwave, outrun sunset by height on the model, Tron circuit traces, vaporwave pastels and checker floor,
+  acid glitch scanlines, chrome horizon), neon outlines round the main parts, glowing visor eyes, and an animated
+  emissive neon layer that pulses and flickers; shinies hue-turned.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

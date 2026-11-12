@@ -1,0 +1,789 @@
+[
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_male.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_gigantamax.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_gigantamax.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_gigantamax_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_cosplay.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "cosplay",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_belle.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_belle.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "belle",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_belle.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_belle.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "belle",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_libre.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_libre.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "libre",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_phd.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_phd.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "phd",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_popstar.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_popstar.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "pop_star",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pikachu",
+    "folder": "0025_pikachu",
+    "model": "cobblemon:pikachu_rockstar.geo",
+    "original": "cobblemon:textures/pokemon/0025_pikachu/pikachu_cosplay_rockstar.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "rock_star",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "raichu",
+    "folder": "0026_raichu",
+    "model": "cobblemon:raichu_male.geo",
+    "original": "cobblemon:textures/pokemon/0026_raichu/raichu.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0026_raichu/raichu_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "raichu",
+    "folder": "0026_raichu",
+    "model": "cobblemon:raichu_mega_x.geo",
+    "original": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_x.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_x_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_x",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "raichu",
+    "folder": "0026_raichu",
+    "model": "cobblemon:raichu_mega_y.geo",
+    "original": "cobblemon:textures/pokemon/0026_raichu/raichu_mega_y.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/blank.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/blank_neon.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_y",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "kangaskhan",
+    "folder": "0115_kangaskhan",
+    "model": "cobblemon:kangaskhan.geo",
+    "original": "cobblemon:textures/pokemon/0115_kangaskhan/kangaskhan.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kangaskhan",
+    "folder": "0115_kangaskhan",
+    "model": "cobblemon:kangaskhan_mega.geo",
+    "original": "cobblemon:textures/pokemon/0115_kangaskhan/megakangaskhan.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pinsir",
+    "folder": "0127_pinsir",
+    "model": "cobblemon:pinsir.geo",
+    "original": "cobblemon:textures/pokemon/0127_pinsir/pinsir.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "pinsir",
+    "folder": "0127_pinsir",
+    "model": "cobblemon:pinsir_mega.geo",
+    "original": "cobblemon:textures/pokemon/0127_pinsir/pinsir_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0127_pinsir/pinsir_mega_transparency.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_transparency_neon.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "pichu",
+    "folder": "0172_pichu",
+    "model": "cobblemon:pichu.geo",
+    "original": "cobblemon:textures/pokemon/0172_pichu/pichu.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0172_pichu/pichu_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0172_pichu/pichu_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0172_pichu/pichu_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0172_pichu/pichu_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "seviper",
+    "folder": "0336_seviper",
+    "model": "cobblemon:seviper.geo",
+    "original": "cobblemon:textures/pokemon/0336_seviper/seviper.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0336_seviper/seviper_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0336_seviper/seviper_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "corphish",
+    "folder": "0341_corphish",
+    "model": "cobblemon:corphish.geo",
+    "original": "cobblemon:textures/pokemon/0341_corphish/corphish.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0341_corphish/corphish_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0341_corphish/corphish_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "crawdaunt",
+    "folder": "0342_crawdaunt",
+    "model": "cobblemon:crawdaunt.geo",
+    "original": "cobblemon:textures/pokemon/0342_crawdaunt/crawdaunt.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0342_crawdaunt/crawdaunt_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0342_crawdaunt/crawdaunt_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "duskull",
+    "folder": "0355_duskull",
+    "model": "cobblemon:duskull.geo",
+    "original": "cobblemon:textures/pokemon/0355_duskull/duskull.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0355_duskull/duskull_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0355_duskull/duskull_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0355_duskull/duskull_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0355_duskull/duskull_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dusclops",
+    "folder": "0356_dusclops",
+    "model": "cobblemon:dusclops.geo",
+    "original": "cobblemon:textures/pokemon/0356_dusclops/dusclops.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0356_dusclops/dusclops_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0356_dusclops/dusclops_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0356_dusclops/dusclops_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0356_dusclops/dusclops_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "beldum",
+    "folder": "0374_beldum",
+    "model": "cobblemon:beldum.geo",
+    "original": "cobblemon:textures/pokemon/0374_beldum/beldum.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0374_beldum/beldum_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0374_beldum/beldum_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "metang",
+    "folder": "0375_metang",
+    "model": "cobblemon:metang.geo",
+    "original": "cobblemon:textures/pokemon/0375_metang/metang.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0375_metang/metang_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0375_metang/metang_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "metagross",
+    "folder": "0376_metagross",
+    "model": "cobblemon:metagross.geo",
+    "original": "cobblemon:textures/pokemon/0376_metagross/metagross.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0376_metagross/metagross_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0376_metagross/metagross_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "metagross",
+    "folder": "0376_metagross",
+    "model": "cobblemon:metagross_mega.geo",
+    "original": "cobblemon:textures/pokemon/0376_metagross/metagross_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0376_metagross/metagross_mega_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0376_metagross/metagross_mega_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "combee",
+    "folder": "0415_combee",
+    "model": "cobblemon:combee_male.geo",
+    "original": "cobblemon:textures/pokemon/0415_combee/combee.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0415_combee/combee_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0415_combee/combee_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "vespiquen",
+    "folder": "0416_vespiquen",
+    "model": "cobblemon:vespiquen.geo",
+    "original": "cobblemon:textures/pokemon/0416_vespiquen/vespiquen.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0416_vespiquen/vespiquen_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0416_vespiquen/vespiquen_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0416_vespiquen/vespiquen_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0416_vespiquen/vespiquen_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gible",
+    "folder": "0443_gible",
+    "model": "cobblemon:gible_male.geo",
+    "original": "cobblemon:textures/pokemon/0443_gible/gible.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0443_gible/gible_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0443_gible/gible_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gabite",
+    "folder": "0444_gabite",
+    "model": "cobblemon:gabite_male.geo",
+    "original": "cobblemon:textures/pokemon/0444_gabite/gabite.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0444_gabite/gabite_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0444_gabite/gabite_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "garchomp",
+    "folder": "0445_garchomp",
+    "model": "cobblemon:garchomp_male.geo",
+    "original": "cobblemon:textures/pokemon/0445_garchomp/garchomp.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "garchomp",
+    "folder": "0445_garchomp",
+    "model": "cobblemon:garchomp_mega.geo",
+    "original": "cobblemon:textures/pokemon/0445_garchomp/garchomp_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "garchomp",
+    "folder": "0445_garchomp",
+    "model": "cobblemon:garchomp_mega_z.geo",
+    "original": "cobblemon:textures/pokemon/0445_garchomp/garchomp_mega_z.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega_z",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "dusknoir",
+    "folder": "0477_dusknoir",
+    "model": "cobblemon:dusknoir.geo",
+    "original": "cobblemon:textures/pokemon/0477_dusknoir/dusknoir.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0477_dusknoir/dusknoir_neon.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0477_dusknoir/dusknoir_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/neon/0477_dusknoir/dusknoir_emissive_neon.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0477_dusknoir/dusknoir_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "heatran",
+    "folder": "0485_heatran",
+    "model": "cobblemon:heatran.geo",
+    "original": "cobblemon:textures/pokemon/0485_heatran/heatran.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0485_heatran/heatran_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "purrloin",
+    "folder": "0509_purrloin",
+    "model": "cobblemon:purrloin.geo",
+    "original": "cobblemon:textures/pokemon/0509_purrloin/purrloin.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0509_purrloin/purrloin_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0509_purrloin/purrloin_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "liepard",
+    "folder": "0510_liepard",
+    "model": "cobblemon:liepard.geo",
+    "original": "cobblemon:textures/pokemon/0510_liepard/liepard.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0510_liepard/liepard_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0510_liepard/liepard_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bouffalant",
+    "folder": "0626_bouffalant",
+    "model": "cobblemon:bouffalant.geo",
+    "original": "cobblemon:textures/pokemon/0626_bouffalant/bouffalant.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0626_bouffalant/bouffalant_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0626_bouffalant/bouffalant_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "goomy",
+    "folder": "0704_goomy",
+    "model": "cobblemon:goomy.geo",
+    "original": "cobblemon:textures/pokemon/0704_goomy/goomy.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0704_goomy/goomy_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0704_goomy/goomy_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sliggoo",
+    "folder": "0705_sliggoo",
+    "model": "cobblemon:sliggoo.geo",
+    "original": "cobblemon:textures/pokemon/0705_sliggoo/sliggoo.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0705_sliggoo/sliggoo_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0705_sliggoo/sliggoo_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "goodra",
+    "folder": "0706_goodra",
+    "model": "cobblemon:goodra.geo",
+    "original": "cobblemon:textures/pokemon/0706_goodra/goodra.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "chewtle",
+    "folder": "0833_chewtle",
+    "model": "cobblemon:chewtle.geo",
+    "original": "cobblemon:textures/pokemon/0833_chewtle/chewtle.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0833_chewtle/chewtle_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0833_chewtle/chewtle_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "drednaw",
+    "folder": "0834_drednaw",
+    "model": "cobblemon:drednaw.geo",
+    "original": "cobblemon:textures/pokemon/0834_drednaw/drednaw.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0834_drednaw/drednaw_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0834_drednaw/drednaw_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "drednaw",
+    "folder": "0834_drednaw",
+    "model": "cobblemon:gmax_drednaw.geo",
+    "original": "cobblemon:textures/pokemon/0834_drednaw/gmax_drednaw.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0834_drednaw/gmax_drednaw_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0834_drednaw/gmax_drednaw_neon_neon_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "yamper",
+    "folder": "0835_yamper",
+    "model": "cobblemon:yamper.geo",
+    "original": "cobblemon:textures/pokemon/0835_yamper/yamper.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0835_yamper/yamper_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0835_yamper/yamper_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "boltund",
+    "folder": "0836_boltund",
+    "model": "cobblemon:boltund.geo",
+    "original": "cobblemon:textures/pokemon/0836_boltund/boltund.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0836_boltund/boltund_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0836_boltund/boltund_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "eiscue",
+    "folder": "0875_eiscue",
+    "model": "cobblemon:eiscue_ice.geo",
+    "original": "cobblemon:textures/pokemon/0875_eiscue/eiscue.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0875_eiscue/eiscue_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0875_eiscue/eiscue_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "tandemaus",
+    "folder": "0924_tandemaus",
+    "model": "cobblemon:tandemaus.geo",
+    "original": "cobblemon:textures/pokemon/0924_tandemaus/tandemaus.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0924_tandemaus/tandemaus_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0924_tandemaus/tandemaus_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "maushold",
+    "folder": "0925_maushold",
+    "model": "cobblemon:maushold_three.geo",
+    "original": "cobblemon:textures/pokemon/0925_maushold/maushold.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/0925_maushold/maushold_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/0925_maushold/maushold_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "munkidori",
+    "folder": "1015_munkidori",
+    "model": "cobblemon:munkidori.geo",
+    "original": "cobblemon:textures/pokemon/1015_munkidori/munkidori.png",
+    "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/1015_munkidori/munkidori_neon.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/1015_munkidori/munkidori_neon_neon_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

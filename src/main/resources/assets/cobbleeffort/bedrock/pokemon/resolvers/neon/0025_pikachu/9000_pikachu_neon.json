@@ -1,0 +1,473 @@
+{
+  "species": "cobblemon:pikachu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_emissive_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_emissive_shiny_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_emissive_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_emissive_shiny_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_emissive_neon.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_gigantamax_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosplay",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0025_pikachu/pikachu_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "belle",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_belle_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "libre",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "libre",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_libre_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phd",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phd",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_phd_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "pop_star",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_popstar_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rock_star",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0025_pikachu/pikachu_cosplay_rockstar_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "species": "cobblemon:garchomp",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0445_garchomp/garchomp_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "neon"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_z",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0445_garchomp/garchomp_mega_z_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

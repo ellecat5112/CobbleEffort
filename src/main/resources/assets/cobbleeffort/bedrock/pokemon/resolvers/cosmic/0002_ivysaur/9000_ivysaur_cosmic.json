@@ -1,0 +1,158 @@
+{
+  "species": "cobblemon:ivysaur",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clone",
+        "female",
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur_clone_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

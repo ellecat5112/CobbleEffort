@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:kangaskhan",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0115_kangaskhan/kangaskhan_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0115_kangaskhan/megakangaskhan_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

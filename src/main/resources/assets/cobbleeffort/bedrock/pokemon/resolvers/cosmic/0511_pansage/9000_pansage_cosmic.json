@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:pansage",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "cosmic"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_shiny_cosmic.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_starlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_shiny_cosmic_starlight_0.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_shiny_cosmic_starlight_1.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_shiny_cosmic_starlight_2.png",
+              "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_shiny_cosmic_starlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

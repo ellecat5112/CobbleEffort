@@ -1,0 +1,307 @@
+{
+  "species": "cobblemon:raichu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_emissive_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_emissive_shiny_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_emissive_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_emissive_shiny_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alolan",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_emissive_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "alolan",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_emissive_shiny_neon.png",
+          "emissive": true,
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0026_raichu/raichu_alolan_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_emissive_neon.png",
+          "translucent": true,
+          "translucent_cull": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_x",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_emissive_neon.png",
+          "translucent": true,
+          "translucent_cull": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_x_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/blank_neon.png"
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega_y",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_neon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/blank_neon.png"
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0026_raichu/raichu_mega_y_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

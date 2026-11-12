@@ -1,0 +1,573 @@
+[
+  {
+    "species": "bulbasaur",
+    "folder": "0001_bulbasaur",
+    "model": "cobblemon:bulbasaur_male.geo",
+    "original": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0001_bulbasaur/bulbasaur_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0001_bulbasaur/bulbasaur_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "ivysaur",
+    "folder": "0002_ivysaur",
+    "model": "cobblemon:ivysaur_male.geo",
+    "original": "cobblemon:textures/pokemon/0002_ivysaur/ivysaur.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0002_ivysaur/ivysaur_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "venusaur",
+    "folder": "0003_venusaur",
+    "model": "cobblemon:venusaur_male.geo",
+    "original": "cobblemon:textures/pokemon/0003_venusaur/venusaur.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0003_venusaur/venusaur_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "venusaur",
+    "folder": "0003_venusaur",
+    "model": "cobblemon:venusaurmega.geo",
+    "original": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_mega_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "venusaur",
+    "folder": "0003_venusaur",
+    "model": "cobblemon:venusaur_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0003_venusaur/venusaur_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0003_venusaur/venusaur_gmax_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "ekans",
+    "folder": "0023_ekans",
+    "model": "cobblemon:ekans.geo",
+    "original": "cobblemon:textures/pokemon/0023_ekans/ekans.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0023_ekans/ekans_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0023_ekans/ekans_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "arbok",
+    "folder": "0024_arbok",
+    "model": "cobblemon:arbok.geo",
+    "original": "cobblemon:textures/pokemon/0024_arbok/arbok.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0024_arbok/arbok_cosmic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0024_arbok/arbok_pattern_classic.png",
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0024_arbok/arbok_pattern_classic_cosmic.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0024_arbok/arbok_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "electrike",
+    "folder": "0309_electrike",
+    "model": "cobblemon:electrike.geo",
+    "original": "cobblemon:textures/pokemon/0309_electrike/electrike.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0309_electrike/electrike_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0309_electrike/electrike_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "manectric",
+    "folder": "0310_manectric",
+    "model": "cobblemon:manectric.geo",
+    "original": "cobblemon:textures/pokemon/0310_manectric/manectric.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0310_manectric/manectric_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0310_manectric/manectric_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "manectric",
+    "folder": "0310_manectric",
+    "model": "cobblemon:manectric_mega.geo",
+    "original": "cobblemon:textures/pokemon/0310_manectric/manectric_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0310_manectric/manectric_mega_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0310_manectric/manectric_mega_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "spoink",
+    "folder": "0325_spoink",
+    "model": "cobblemon:spoink.geo",
+    "original": "cobblemon:textures/pokemon/0325_spoink/spoink.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0325_spoink/spoink_cosmic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0325_spoink/spoink_pearl.png",
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0325_spoink/spoink_pearl_cosmic.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0325_spoink/spoink_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "grumpig",
+    "folder": "0326_grumpig",
+    "model": "cobblemon:grumpig.geo",
+    "original": "cobblemon:textures/pokemon/0326_grumpig/grumpig.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0326_grumpig/grumpig_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0326_grumpig/grumpig_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "feebas",
+    "folder": "0349_feebas",
+    "model": "cobblemon:feebas.geo",
+    "original": "cobblemon:textures/pokemon/0349_feebas/feebas.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0349_feebas/feebas_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0349_feebas/feebas_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "milotic",
+    "folder": "0350_milotic",
+    "model": "cobblemon:milotic_male.geo",
+    "original": "cobblemon:textures/pokemon/0350_milotic/milotic.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0350_milotic/milotic_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0350_milotic/milotic_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "buizel",
+    "folder": "0418_buizel",
+    "model": "cobblemon:buizel_male.geo",
+    "original": "cobblemon:textures/pokemon/0418_buizel/buizel.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0418_buizel/buizel_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0418_buizel/buizel_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "floatzel",
+    "folder": "0419_floatzel",
+    "model": "cobblemon:floatzel_male.geo",
+    "original": "cobblemon:textures/pokemon/0419_floatzel/floatzel.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0419_floatzel/floatzel_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0419_floatzel/floatzel_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "stunky",
+    "folder": "0434_stunky",
+    "model": "cobblemon:stunky.geo",
+    "original": "cobblemon:textures/pokemon/0434_stunky/stunky.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0434_stunky/stunky_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0434_stunky/stunky_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skuntank",
+    "folder": "0435_skuntank",
+    "model": "cobblemon:skuntank.geo",
+    "original": "cobblemon:textures/pokemon/0435_skuntank/skuntank.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0435_skuntank/skuntank_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0435_skuntank/skuntank_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "victini",
+    "folder": "0494_victini",
+    "model": "cobblemon:victini.geo",
+    "original": "cobblemon:textures/pokemon/0494_victini/victini.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0494_victini/victini_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0494_victini/victini_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "pansage",
+    "folder": "0511_pansage",
+    "model": "cobblemon:pansage.geo",
+    "original": "cobblemon:textures/pokemon/0511_pansage/pansage.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0511_pansage/pansage_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "simisage",
+    "folder": "0512_simisage",
+    "model": "cobblemon:simisage.geo",
+    "original": "cobblemon:textures/pokemon/0512_simisage/simisage.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0512_simisage/simisage_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0512_simisage/simisage_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "archen",
+    "folder": "0566_archen",
+    "model": "cobblemon:archen.geo",
+    "original": "cobblemon:textures/pokemon/0566_archen/archen.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0566_archen/archen_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0566_archen/archen_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "archeops",
+    "folder": "0567_archeops",
+    "model": "cobblemon:archeops.geo",
+    "original": "cobblemon:textures/pokemon/0567_archeops/archeops.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0567_archeops/archeops_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0567_archeops/archeops_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "karrablast",
+    "folder": "0588_karrablast",
+    "model": "cobblemon:karrablast.geo",
+    "original": "cobblemon:textures/pokemon/0588_karrablast/karrablast.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0588_karrablast/karrablast_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0588_karrablast/karrablast_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "escavalier",
+    "folder": "0589_escavalier",
+    "model": "cobblemon:escavalier.geo",
+    "original": "cobblemon:textures/pokemon/0589_escavalier/escavalier.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0589_escavalier/escavalier_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0589_escavalier/escavalier_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "frillish",
+    "folder": "0592_frillish",
+    "model": "cobblemon:frillish_male.geo",
+    "original": "cobblemon:textures/pokemon/0592_frillish/frillish_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0592_frillish/frillish_male_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0592_frillish/frillish_male_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "jellicent",
+    "folder": "0593_jellicent",
+    "model": "cobblemon:jellicent_male.geo",
+    "original": "cobblemon:textures/pokemon/0593_jellicent/jellicent_male.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0593_jellicent/jellicent_male_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0593_jellicent/jellicent_male_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "pawniard",
+    "folder": "0624_pawniard",
+    "model": "cobblemon:pawniard.geo",
+    "original": "cobblemon:textures/pokemon/0624_pawniard/pawniard.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0624_pawniard/pawniard_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0624_pawniard/pawniard_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bisharp",
+    "folder": "0625_bisharp",
+    "model": "cobblemon:bisharp.geo",
+    "original": "cobblemon:textures/pokemon/0625_bisharp/bisharp.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0625_bisharp/bisharp_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0625_bisharp/bisharp_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "genesect",
+    "folder": "0649_genesect",
+    "model": "cobblemon:genesect.geo",
+    "original": "cobblemon:textures/pokemon/0649_genesect/genesect.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0649_genesect/genesect_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0649_genesect/genesect_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "genesect",
+    "folder": "0649_genesect",
+    "model": "cobblemon:genesect.geo",
+    "original": "cobblemon:textures/pokemon/0649_genesect/genesect_douse.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0649_genesect/genesect_douse_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0649_genesect/genesect_douse_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "water-drive",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "spritzee",
+    "folder": "0682_spritzee",
+    "model": "cobblemon:spritzee.geo",
+    "original": "cobblemon:textures/pokemon/0682_spritzee/spritzee.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0682_spritzee/spritzee_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0682_spritzee/spritzee_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "aromatisse",
+    "folder": "0683_aromatisse",
+    "model": "cobblemon:aromatisse.geo",
+    "original": "cobblemon:textures/pokemon/0683_aromatisse/aromatisse.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0683_aromatisse/aromatisse_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0683_aromatisse/aromatisse_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fomantis",
+    "folder": "0753_fomantis",
+    "model": "cobblemon:fomantis.geo",
+    "original": "cobblemon:textures/pokemon/0753_fomantis/fomantis.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0753_fomantis/fomantis_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0753_fomantis/fomantis_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lurantis",
+    "folder": "0754_lurantis",
+    "model": "cobblemon:lurantis.geo",
+    "original": "cobblemon:textures/pokemon/0754_lurantis/lurantis.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0754_lurantis/lurantis_cosmic.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0754_lurantis/lurantis_transparent.png",
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0754_lurantis/lurantis_transparent_cosmic.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0754_lurantis/lurantis_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bruxish",
+    "folder": "0779_bruxish",
+    "model": "cobblemon:bruxish.geo",
+    "original": "cobblemon:textures/pokemon/0779_bruxish/bruxish.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0779_bruxish/bruxish_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0779_bruxish/bruxish_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "falinks",
+    "folder": "0870_falinks",
+    "model": "cobblemon:falinks.geo",
+    "original": "cobblemon:textures/pokemon/0870_falinks/falinks.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0870_falinks/falinks_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0870_falinks/falinks_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "falinks",
+    "folder": "0870_falinks",
+    "model": "cobblemon:falinks_mega.geo",
+    "original": "cobblemon:textures/pokemon/0870_falinks/falinks_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0870_falinks/falinks_mega_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/compat/mega_showdown/0870_falinks/falinks_mega_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "kingambit",
+    "folder": "0983_kingambit",
+    "model": "cobblemon:kingambit.geo",
+    "original": "cobblemon:textures/pokemon/0983_kingambit/kingambit.png",
+    "retextured": "cobbleeffort:textures/pokemon/cosmic/0983_kingambit/kingambit_cosmic.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/cosmic/0983_kingambit/kingambit_cosmic_starlight_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

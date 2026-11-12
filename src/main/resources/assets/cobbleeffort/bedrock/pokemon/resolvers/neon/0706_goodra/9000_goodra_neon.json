@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:goodra",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0706_goodra/goodra_hisuian_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

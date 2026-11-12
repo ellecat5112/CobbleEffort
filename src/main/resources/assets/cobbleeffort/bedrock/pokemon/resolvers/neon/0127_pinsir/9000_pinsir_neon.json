@@ -1,0 +1,112 @@
+{
+  "species": "cobblemon:pinsir",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/0127_pinsir/pinsir_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon.png",
+      "layers": [
+        {
+          "name": "wings",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_transparency_neon.png"
+            ]
+          },
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "neon"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_shiny_neon.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_neon",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_shiny_neon_neon_0.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_shiny_neon_neon_1.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_shiny_neon_neon_2.png",
+              "cobbleeffort:textures/pokemon/neon/compat/mega_showdown/0127_pinsir/pinsir_mega_shiny_neon_neon_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 12 collections of cosmetic forms (457 Pokemon) to Cobblemon. Each form is a new
+CobbleEffort adds 14 collections of cosmetic forms (525 Pokemon) to Cobblemon. Each form is a new
 look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
 has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
 regional forms, megas and shinies (shinies get their own version).
@@ -42,6 +42,8 @@ AT A GLANCE
   10  Trans Pride                         Light Blue Banner, Pink Banner or White Banner  trans_pride
   11  Tarot                               Paper                                           tarot
   12  Game Boy Sprites                    Lime Dye                                        gb_sprite
+  13  Cosmic Starlight                    Glowstone Dust                                  cosmic
+  14  80s Neon Cyberpunk                  Glow Ink Sac                                    neon
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -522,6 +524,84 @@ Pokemon (each line is a whole evolutionary family):
   - Shroodle > Grafaiai
   - Flittle > Espathra
   - Ogerpon
+
+====================================================================================================
+#13  COSMIC STARLIGHT  (34 Pokemon)
+====================================================================================================
+Pokemon as celestial bodies: nebulae, galaxies, suns, moons, comets, black holes, ringed planets,
+auroras and eclipses.
+
+Cosmetic item: Glowstone Dust
+Command:       /pokegive victini cosmic   (add 'shiny' for the shiny version)
+
+The look:
+  * each line is one celestial body: nebula (Bulbasaur, Frillish), galaxy (Ekans, Spoink), sun
+    (Victini, Archen), moon (Karrablast, Fomantis), comet (Electrike, Buizel), black hole (Stunky,
+    Genesect), ringed planet (Spritzee, Bruxish), aurora (Feebas, Pansage), eclipse (Pawniard,
+    Falinks)
+  * stars scattered over the dark parts that twinkle in the dark; coronas, accretion rings, comet
+    tails, auroras and planet rings glow
+  * glowing eyes
+  * shiny: the colours turned round the colour wheel (a blue sun, a green nebula...); the moon turns
+    into a blood moon
+
+Pokemon (each line is a whole evolutionary family):
+  - Bulbasaur > Ivysaur > Venusaur
+  - Ekans > Arbok
+  - Electrike > Manectric
+  - Spoink > Grumpig
+  - Feebas > Milotic
+  - Buizel > Floatzel
+  - Stunky > Skuntank
+  - Victini
+  - Pansage > Simisage
+  - Archen > Archeops
+  - Karrablast > Escavalier
+  - Frillish > Jellicent
+  - Pawniard > Bisharp > Kingambit
+  - Genesect
+  - Spritzee > Aromatisse
+  - Fomantis > Lurantis
+  - Bruxish
+  - Falinks
+
+====================================================================================================
+#14  80S NEON CYBERPUNK  (34 Pokemon)
+====================================================================================================
+Pokemon in 80s neon: synthwave grids, outrun sunsets, Tron circuits, vaporwave pastels, acid
+glitches and chrome.
+
+Cosmetic item: Glow Ink Sac
+Command:       /pokegive pikachu neon   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: synthwave (Duskull, Combee, Purrloin), outrun sunset (Kangaskhan,
+    Gible, Heatran), Tron circuits (Pikachu, Chewtle, Yamper), vaporwave (Goomy, Eiscue, Tandemaus),
+    acid glitch (Seviper, Corphish, Munkidori), chrome (Pinsir, Beldum, Bouffalant)
+  * neon outlines round every part, glowing visor eyes; the neon pulses and now and then a tube
+    flickers, and it glows in the dark
+  * shiny: the neon colours turned round the colour wheel (pink becomes green, cyan becomes
+    orange...)
+
+Pokemon (each line is a whole evolutionary family):
+  - Pichu > Pikachu > Raichu
+  - Kangaskhan
+  - Pinsir
+  - Seviper
+  - Corphish > Crawdaunt
+  - Duskull > Dusclops > Dusknoir
+  - Beldum > Metang > Metagross
+  - Combee > Vespiquen
+  - Gible > Gabite > Garchomp
+  - Heatran
+  - Purrloin > Liepard
+  - Bouffalant
+  - Goomy > Sliggoo > Goodra
+  - Chewtle > Drednaw
+  - Yamper > Boltund
+  - Eiscue
+  - Tandemaus > Maushold
+  - Munkidori
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

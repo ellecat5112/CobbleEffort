@@ -1,0 +1,61 @@
+{
+  "_comment": "80s Neon Cyberpunk collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed neon-cyberpunk-1985`, then given a look each (three lines per look; Pikachu's line Tron circuits, Heatran an outrun sunset, Metagross's chrome...). Shared look in styles/_neon.py, one thin module per look.",
+  "aspect": "neon",
+  "feature": "neon_cyberpunk",
+  "style": "neon_synthwave",
+  "cosmetic_items": [
+    "minecraft:glow_ink_sac"
+  ],
+  "lines": [
+    "pikachu",
+    "kangaskhan",
+    "pinsir",
+    "seviper",
+    "corphish",
+    "duskull",
+    "beldum",
+    "combee",
+    "gible",
+    "heatran",
+    "purrloin",
+    "bouffalant",
+    "goomy",
+    "chewtle",
+    "yamper",
+    "eiscue",
+    "tandemaus",
+    "munkidori"
+  ],
+  "line_styles": {
+    "pikachu": "neon_tron",
+    "kangaskhan": "neon_outrun",
+    "pinsir": "neon_chrome",
+    "seviper": "neon_acid",
+    "corphish": "neon_acid",
+    "duskull": "neon_synthwave",
+    "beldum": "neon_chrome",
+    "combee": "neon_synthwave",
+    "gible": "neon_outrun",
+    "heatran": "neon_outrun",
+    "purrloin": "neon_synthwave",
+    "bouffalant": "neon_chrome",
+    "goomy": "neon_vaporwave",
+    "chewtle": "neon_tron",
+    "yamper": "neon_tron",
+    "eiscue": "neon_vaporwave",
+    "tandemaus": "neon_vaporwave",
+    "munkidori": "neon_acid"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 14,
+    "title": "80s Neon Cyberpunk",
+    "example": "pikachu",
+    "summary": "Pokemon in 80s neon: synthwave grids, outrun sunsets, Tron circuits, vaporwave pastels, acid glitches and chrome.",
+    "looks": [
+      "each line wears one look: synthwave (Duskull, Combee, Purrloin), outrun sunset (Kangaskhan, Gible, Heatran), Tron circuits (Pikachu, Chewtle, Yamper), vaporwave (Goomy, Eiscue, Tandemaus), acid glitch (Seviper, Corphish, Munkidori), chrome (Pinsir, Beldum, Bouffalant)",
+      "neon outlines round every part, glowing visor eyes; the neon pulses and now and then a tube flickers, and it glows in the dark",
+      "shiny: the neon colours turned round the colour wheel (pink becomes green, cyan becomes orange...)"
+    ]
+  }
+}

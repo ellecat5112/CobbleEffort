@@ -1,0 +1,62 @@
+{
+  "_comment": "Cosmic Starlight collection: each line is a celestial body. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed cosmic-starlight`, then given a look each (two lines per look; Victini the sun, Milotic's line an aurora, Frillish's a nebula...). Shared look in styles/_cosmic.py, one thin module per look.",
+  "aspect": "cosmic",
+  "feature": "cosmic_starlight",
+  "style": "cosmic_nebula",
+  "cosmetic_items": [
+    "minecraft:glowstone_dust"
+  ],
+  "lines": [
+    "bulbasaur",
+    "ekans",
+    "electrike",
+    "spoink",
+    "feebas",
+    "buizel",
+    "stunky",
+    "victini",
+    "pansage",
+    "archen",
+    "karrablast",
+    "frillish",
+    "pawniard",
+    "genesect",
+    "spritzee",
+    "fomantis",
+    "bruxish",
+    "falinks"
+  ],
+  "line_styles": {
+    "bulbasaur": "cosmic_nebula",
+    "ekans": "cosmic_galaxy",
+    "electrike": "cosmic_comet",
+    "spoink": "cosmic_galaxy",
+    "feebas": "cosmic_aurora",
+    "buizel": "cosmic_comet",
+    "stunky": "cosmic_black_hole",
+    "victini": "cosmic_sun",
+    "pansage": "cosmic_aurora",
+    "archen": "cosmic_sun",
+    "karrablast": "cosmic_moon",
+    "frillish": "cosmic_nebula",
+    "pawniard": "cosmic_eclipse",
+    "genesect": "cosmic_black_hole",
+    "spritzee": "cosmic_ringed_planet",
+    "fomantis": "cosmic_moon",
+    "bruxish": "cosmic_ringed_planet",
+    "falinks": "cosmic_eclipse"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 13,
+    "title": "Cosmic Starlight",
+    "example": "victini",
+    "summary": "Pokemon as celestial bodies: nebulae, galaxies, suns, moons, comets, black holes, ringed planets, auroras and eclipses.",
+    "looks": [
+      "each line is one celestial body: nebula (Bulbasaur, Frillish), galaxy (Ekans, Spoink), sun (Victini, Archen), moon (Karrablast, Fomantis), comet (Electrike, Buizel), black hole (Stunky, Genesect), ringed planet (Spritzee, Bruxish), aurora (Feebas, Pansage), eclipse (Pawniard, Falinks)",
+      "stars scattered over the dark parts that twinkle in the dark; coronas, accretion rings, comet tails, auroras and planet rings glow",
+      "glowing eyes",
+      "shiny: the colours turned round the colour wheel (a blue sun, a green nebula...); the moon turns into a blood moon"
+    ]
+  }
+}
