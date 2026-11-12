@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3007,
+ "name": "Prayling",
+ "primaryType": "grass",
+ "secondaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 22,
+ "pokedex": [
+  "cobbleeffort.species.prayling.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blindsight",
+  "h:sniper"
+ ],
+ "eggGroups": [
+  "bug",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 45,
+  "attack": 60,
+  "defence": 40,
+  "special_attack": 35,
+  "special_defence": 40,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.37,
+ "hitbox": {
+  "width": 0.45,
+  "height": 0.45,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:oak_leaves",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:miracle_seed",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:leer",
+  "1:furycutter",
+  "4:absorb",
+  "7:quickattack",
+  "10:razorleaf",
+  "13:bugbite",
+  "16:grasswhistle",
+  "19:falseswipe",
+  "22:megadrain",
+  "25:xscissor",
+  "28:slash",
+  "31:leafblade",
+  "35:swordsdance",
+  "40:powerwhip",
+  "45:megahorn",
+  "egg:hypnosis",
+  "egg:feint",
+  "egg:quickguard",
+  "egg:leechseed",
+  "egg:defog",
+  "egg:dynamicpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:swordsdance",
+  "tm:xscissor",
+  "tm:leafblade",
+  "tm:seedbomb",
+  "tm:bulletseed",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:falseswipe",
+  "tm:focusenergy",
+  "tm:agility",
+  "tm:brickbreak",
+  "tm:aerialace",
+  "tm:nightslash",
+  "tm:knockoff",
+  "tm:terablast",
+  "tm:sunnyday",
+  "tm:leechlife",
+  "tm:skittersmack",
+  "tm:magicalleaf",
+  "tm:round",
+  "tm:toxic"
+ ],
+ "evolutions": [
+  {
+   "id": "prayling_mawntis",
+   "variant": "level_up",
+   "result": "cobbleeffort:mawntis",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "crunch"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 22
+    }
+   ]
+  }
+ ]
+}

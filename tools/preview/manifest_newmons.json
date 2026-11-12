@@ -140,5 +140,75 @@
     "retextured": "cobbleeffort:textures/pokemon/3006_gatterfly/gatterfly_shiny_glow_0.png"
    }
   ]
+ },
+ {
+  "species": "prayling",
+  "folder": "3007_prayling",
+  "model": "cobbleeffort:prayling.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3007_prayling/prayling.png",
+  "layers": []
+ },
+ {
+  "species": "prayling_shiny",
+  "folder": "3007_prayling",
+  "model": "cobbleeffort:prayling.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3007_prayling/prayling_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "mawntis",
+  "folder": "3008_mawntis",
+  "model": "cobbleeffort:mawntis.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3008_mawntis/mawntis.png",
+  "layers": []
+ },
+ {
+  "species": "mawntis_shiny",
+  "folder": "3008_mawntis",
+  "model": "cobbleeffort:mawntis.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3008_mawntis/mawntis_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "mantasma",
+  "folder": "3009_mantasma",
+  "model": "cobbleeffort:mantasma.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "mantasma_shiny",
+  "folder": "3009_mantasma",
+  "model": "cobbleeffort:mantasma.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3009_mantasma/mantasma_shiny_shell.png"
+   }
+  ]
  }
 ]

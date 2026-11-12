@@ -106,7 +106,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   regions (copied from its default config) plus ours (OUR_STARTERS). Lines so far: dentistry (Cavitot -> Amalgum lv 24
   -> Orthodread lv 42; Dark, Dark/Steel; shiny = minty enamel + gold metal; `models/_teeth.py`); coal butterfly, the
   starter (Coalarva -> Cinderoon lv 16 -> Gatterfly lv 36; Fire/Bug; Blaze / Skill Link; translucent ash cocoon with
-  the larva inside; Gatling arms; Machine Gun Stinger; shiny = blue fire; `models/_coal.py`).
+  the larva inside; Gatling arms; Machine Gun Stinger; shiny = blue fire; `models/_coal.py`); mantis (Prayling ->
+  Mawntis lv 22 -> Mantasma lv 40 at night; Grass/Bug, Grass/Ghost; eyeless; ability Blindsight = its own moves always
+  hit, incl. semi-invulnerable targets; shiny = orchid pink; `models/_mantis.py`). CUSTOM_ABILITIES -> Cobblemon
+  datapack abilities `data/cobbleeffort/abilities/<id>.js` (raw Showdown ability object, lang `cobblemon.ability.<id>`);
+  an `evolve` tuple may carry a 4th item: extra requirements (e.g. `time_range` night). The mantis reference picture
+  carried another artist's names and signature: it was only a loose reference; names and models are original.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

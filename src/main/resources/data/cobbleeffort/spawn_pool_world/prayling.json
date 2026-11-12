@@ -1,0 +1,62 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "prayling-jungle",
+   "pokemon": "cobbleeffort:prayling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-18",
+   "weight": 8.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle"
+    ]
+   }
+  },
+  {
+   "id": "prayling-flowers",
+   "pokemon": "cobbleeffort:prayling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "3-18",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:flower_forest",
+     "minecraft:meadow"
+    ]
+   }
+  },
+  {
+   "id": "prayling-forest",
+   "pokemon": "cobbleeffort:prayling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "3-18",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

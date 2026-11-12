@@ -209,6 +209,103 @@ SPECIES.update({
 })
 LINES["coal_butterfly"] = ["coalarva", "cinderoon", "gatterfly"]
 
+# --- the mantis line ------------------------------------------------------------------------------------------------
+
+MANTIS_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "snore", "endure", "swordsdance", "xscissor",
+             "leafblade", "seedbomb", "bulletseed", "energyball", "gigadrain", "grassknot", "trailblaze", "bugbuzz",
+             "uturn", "lunge", "pounce", "falseswipe", "focusenergy", "agility", "brickbreak", "aerialace", "nightslash",
+             "knockoff", "terablast", "sunnyday", "leechlife", "skittersmack", "magicalleaf", "round", "toxic"]
+MANTIS_TM_MAW = ["crunch", "poisonjab", "throatchop", "firstimpression", "solarblade", "leafstorm", "closecombat"]
+MANTIS_TM_GHOST = ["shadowball", "shadowclaw", "phantomforce", "poltergeist", "hex", "willowisp", "focusblast",
+                   "gigaimpact", "hyperbeam", "earthquake", "spite", "nightshade"]
+MANTIS_EGG = ["hypnosis", "feint", "quickguard", "leechseed", "defog", "dynamicpunch"]
+MANTIS_EARLY = [(1, "leer"), (1, "furycutter"), (4, "absorb"), (7, "quickattack"), (10, "razorleaf"),
+                (13, "bugbite"), (16, "grasswhistle"), (19, "falseswipe")]
+MANTIS = dict(male=0.5, egg_groups=["bug", "grass"], friendship=50, abilities=["blindsight", "h:sniper"],
+              ability_names="Blindsight (its own: every move it uses hits) / Sniper (hidden)")
+
+SPECIES.update({
+    "prayling": {
+        "dex": 3007, "name": "Prayling", "line": "mantis", "types": ["grass", "bug"], **MANTIS,
+        "stats": stats(45, 60, 40, 35, 40, 55), "ev": evs(attack=1), "catch": 190, "exp": 55,
+        "height": 4, "weight": 22, "shoulder": True, "walk": 0.25,
+        "moves": MANTIS_EARLY + [(22, "megadrain"), (25, "xscissor"), (28, "slash"), (31, "leafblade"),
+                                 (35, "swordsdance"), (40, "powerwhip"), (45, "megahorn")],
+        "tm": MANTIS_TM, "egg": MANTIS_EGG,
+        "evolve": ("mawntis", 22, ["crunch"]),
+        "drops": [("minecraft:wheat_seeds", "0-2", None), ("minecraft:oak_leaves", "0-1", None),
+                  ("cobblemon:miracle_seed", None, 2.5)],
+        "entry": ("It is born without eyes, yet it never misses. It feels the faintest stir of air through its leafy "
+                  "feelers and knows exactly where its prey is, then holds its little forelegs together and waits."),
+        "spawns": [
+            spawn("prayling-jungle", "common", "3-18", 8.0, {"canSeeSky": True, "biomes": ["#cobblemon:is_jungle"]}),
+            spawn("prayling-flowers", "uncommon", "3-18", 5.0, {"canSeeSky": True, "biomes": ["minecraft:flower_forest", "minecraft:meadow"]}),
+            spawn("prayling-forest", "uncommon", "3-18", 2.0, {"canSeeSky": True, "biomes": ["#cobblemon:is_forest"]}),
+        ],
+        "how": ["Wild: common in jungles, uncommon in flower forests, meadows and forests.", "Evolves into Mawntis at level 22."],
+    },
+    "mawntis": {
+        "dex": 3008, "name": "Mawntis", "line": "mantis", "types": ["grass", "bug"], **MANTIS,
+        "stats": stats(65, 95, 65, 45, 60, 80), "ev": evs(attack=2), "catch": 90, "exp": 147,
+        "height": 11, "weight": 380, "shoulder": False, "walk": 0.32,
+        "moves": [(1, "crunch")] + MANTIS_EARLY +
+                 [(22, "crunch"), (25, "xscissor"), (29, "nightslash"), (33, "leafblade"), (37, "swordsdance"),
+                  (41, "powerwhip"), (46, "megahorn"), (51, "firstimpression")],
+        "tm": MANTIS_TM + MANTIS_TM_MAW, "egg": MANTIS_EGG,
+        "evolve": ("mantasma", 40, ["poltergeist"], [{"variant": "time_range", "range": "night"}]),
+        "drops": [("minecraft:wheat_seeds", "1-3", None), ("minecraft:bone", "0-1", None), ("cobblemon:miracle_seed", None, 5.0)],
+        "entry": ("Its head has split into a maw full of fangs, and a second set of legs lets it run down prey in "
+                  "the undergrowth. It still has no eyes, but its scythes find their mark every time."),
+        "spawns": [spawn("mawntis-jungle", "rare", "22-38", 3.0, {"canSeeSky": True, "biomes": ["#cobblemon:is_jungle"]})],
+        "how": ["Evolve Prayling at level 22.", "Wild: rare in jungles."],
+    },
+    "mantasma": {
+        "dex": 3009, "name": "Mantasma", "line": "mantis", "types": ["grass", "ghost"], **MANTIS,
+        "stats": stats(90, 130, 90, 70, 85, 75), "ev": evs(attack=3), "catch": 45, "exp": 270,
+        "height": 35, "weight": 2100, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "poltergeist"), (1, "crunch")] + MANTIS_EARLY +
+                 [(22, "crunch"), (25, "xscissor"), (29, "nightslash"), (33, "leafblade"), (37, "swordsdance"),
+                  (40, "poltergeist"), (44, "shadowclaw"), (48, "powerwhip"), (52, "megahorn"), (56, "phantomforce"),
+                  (60, "dynamicpunch"), (64, "hypnosis"), (70, "guillotine")],
+        "tm": MANTIS_TM + MANTIS_TM_MAW + MANTIS_TM_GHOST, "egg": MANTIS_EGG,
+        "evolve": None,
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:phantom_membrane", "0-1", None),
+                  ("cobblemon:spell_tag", None, 5.0), ("cobblemon:miracle_seed", None, 5.0)],
+        "entry": ("A Mawntis that hunted on a moonless night and came back as something else. It towers over the "
+                  "trees, its grin glows in the dark, and its ghostly scythes cut through anything without ever "
+                  "missing. Even so, it still clasps its forelegs together the way it did as a Prayling."),
+        "spawns": [spawn("mantasma-night", "ultra-rare", "40-60", 1.0,
+                         {"canSeeSky": True, "timeRange": "night", "biomes": ["minecraft:dark_forest", "#cobblemon:is_jungle"]})],
+        "how": ["Evolve Mawntis at level 40 or higher at night.", "Wild: very rare in dark forests and jungles at night."],
+    },
+})
+LINES["mantis"] = ["prayling", "mawntis", "mantasma"]
+
+# abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
+CUSTOM_ABILITIES = {
+    "blindsight": {
+        "name": "Blindsight",
+        "js": """{
+onSourceInvulnerabilityPriority: 1,
+onSourceInvulnerability(target, source, move) {
+  if (move && source === this.effectState.target) return 0;
+},
+onSourceAccuracyPriority: -100,
+onSourceAccuracy(accuracy, target, source, move) {
+  if (move && source === this.effectState.target) return true;
+  return accuracy;
+},
+flags: {},
+name: "Blindsight",
+rating: 3.5,
+num: -3002
+}
+""",
+        "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
+                "accuracy, and even targets that are flying, underground or underwater.",
+    },
+}
+
 # moves of our own: Cobblemon datapack moves (data/cobbleeffort/moves/<id>.js, read into Showdown at startup)
 CUSTOM_MOVES = {
     "machinegunstinger": {
@@ -334,9 +431,10 @@ def species_json(sp):
         "moves": [f"{lv}:{mv}" for lv, mv in c["moves"]] + [f"egg:{m}" for m in c["egg"]] + [f"tm:{m}" for m in c["tm"]],
     })
     if c["evolve"]:
-        to, lv, learn = c["evolve"]
+        to, lv, learn, *more = c["evolve"]
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": False,
-                            "learnableMoves": learn, "requirements": [{"variant": "level", "minLevel": lv}]}]
+                            "learnableMoves": learn,
+                            "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
     pre = [s for s, o in SPECIES.items() if o["evolve"] and o["evolve"][0] == sp]
     if pre:
         d["preEvolution"] = f"{MOD}:{pre[0]}"
@@ -356,7 +454,7 @@ def check(showdown):
             if mv not in moves and mv not in CUSTOM_MOVES:
                 bad.append(f"{sp}: move {mv}")
         for ab in c["abilities"]:
-            if ab.removeprefix("h:") not in abilities:
+            if ab.removeprefix("h:") not in abilities and ab.removeprefix("h:") not in CUSTOM_ABILITIES:
                 bad.append(f"{sp}: ability {ab}")
     if bad:
         raise SystemExit("unknown in Showdown: " + ", ".join(bad))
@@ -408,6 +506,11 @@ def main():
         (data / "moves" / f"{mid}.js").write_text(js)
         lang[f"cobblemon.move.{mid}"] = mv["name"]
         lang[f"cobblemon.move.{mid}.desc"] = mv["lang"]
+    for aid, ab in CUSTOM_ABILITIES.items():
+        (data / "abilities").mkdir(parents=True, exist_ok=True)
+        (data / "abilities" / f"{aid}.js").write_text(ab["js"])
+        lang[f"cobblemon.ability.{aid}"] = ab["name"]
+        lang[f"cobblemon.ability.{aid}.desc"] = ab["lang"]
     for name, order, key, mons in STARTER_CATEGORIES:
         write_json(data / "starters" / f"{key}.json", {
             "name": name, "order": order, "displayName": f"cobblemon.starterselection.category.{key}",

@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "mawntis-jungle",
+   "pokemon": "cobbleeffort:mawntis",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "22-38",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle"
+    ]
+   }
+  }
+ ]
+}

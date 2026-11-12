@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:prayling",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:prayling",
+   "model": "cobbleeffort:prayling.geo",
+   "texture": "cobbleeffort:textures/pokemon/3007_prayling/prayling.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3007_prayling/prayling_shiny.png"
+  }
+ ]
+}

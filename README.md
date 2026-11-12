@@ -641,6 +641,13 @@ Gatterfly learns its own move when it evolves, **Machine Gun Stinger**: Bug, phy
 hits 2-5 times (always 5 with its hidden ability Skill Link), each hit with a 20% chance to burn. It is a bullet move
 (Bulletproof blocks it). Its Gatling drums spin when it attacks.
 
+**The mantis line** (Prayling, Mawntis, Mantasma) is blind: none of them has eyes. Their own ability, **Blindsight**,
+makes every move they use hit, whatever its accuracy and whatever evasion boosts the target has, and even targets
+that are flying, underground or underwater (like No Guard, but only for its own moves). Prayling and Mawntis are
+Grass/Bug; Mawntis evolves into the Grass/Ghost Mantasma at level 40 **at night**, and it learns Poltergeist as it
+does. Mantasma's maw, ghost blades, leg rings and abdomen stripes glow in the dark. Shinies are orchid mantises: petal
+pink and white, glowing violet.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -650,9 +657,12 @@ hits 2-5 times (always 5 with its hidden ability Skill Link), each hit with a 20
 | 3004 | **Coalarva** | Fire / Bug | Blaze / Skill Link (hidden) | 45 / 55 / 50 / 49 / 50 / 60 | 1'4" (0.4 m) / 12 kg | The CobbleEffort starter: pick it at the starter screen (its own CobbleEffort page, after Cobblemon's regions). Wild: very rare underground next to coal ore. Evolves into Cinderoon at level 16. | It lives in caves deep underground where coal seams run thick, and it eats nothing but coal. A special organ in its abdomen turns the minerals it swallows into heat, which is why its tail end always glows. |
 | 3005 | **Cinderoon** | Fire / Bug | Blaze / Skill Link (hidden) | 60 / 45 / 95 / 60 / 85 / 60 | 3'3" (1 m) / 38.5 kg | Evolve Coalarva at level 16. | Once it has eaten enough coal, it wraps its soft body in a cocoon of cinders. The ash is thin enough to see the Coalarva curled up inside, and it can burn some of it away to hurl a blast of fire at anything that disturbs it. |
 | 3006 | **Gatterfly** | Fire / Bug | Blaze / Skill Link (hidden) | 78 / 115 / 80 / 104 / 75 / 82 | 5'7" (1.7 m) / 125 kg | Evolve Cinderoon at level 36. Learns its own move, Machine Gun Stinger, when it evolves. | Its arms have become guns that spray stingers so fast and so hot they glow, and its wings are made of fire. Besides fighting with them, it melts stone with its flames to build its nest. |
+| 3007 | **Prayling** | Grass / Bug | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 45 / 60 / 40 / 35 / 40 / 55 | 1'4" (0.4 m) / 2.2 kg | Wild: common in jungles, uncommon in flower forests, meadows and forests. Evolves into Mawntis at level 22. | It is born without eyes, yet it never misses. It feels the faintest stir of air through its leafy feelers and knows exactly where its prey is, then holds its little forelegs together and waits. |
+| 3008 | **Mawntis** | Grass / Bug | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 65 / 95 / 65 / 45 / 60 / 80 | 3'7" (1.1 m) / 38 kg | Evolve Prayling at level 22. Wild: rare in jungles. | Its head has split into a maw full of fangs, and a second set of legs lets it run down prey in the undergrowth. It still has no eyes, but its scythes find their mark every time. |
+| 3009 | **Mantasma** | Grass / Ghost | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 90 / 130 / 90 / 70 / 85 / 75 | 11'6" (3.5 m) / 210 kg | Evolve Mawntis at level 40 or higher at night. Wild: very rare in dark forests and jungles at night. | A Mawntis that hunted on a moonless night and came back as something else. It towers over the trees, its grin glows in the dark, and its ghostly scythes cut through anything without ever missing. Even so, it still clasps its forelegs together the way it did as a Prayling. |
 <!-- newmons:end -->
 
-![CobbleEffort's own Pokémon: the dentistry line and the coal butterfly line, with shinies](docs/newmons_preview.png)
+![CobbleEffort's own Pokémon: the dentistry, coal butterfly and mantis lines, with shinies](docs/newmons_preview.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

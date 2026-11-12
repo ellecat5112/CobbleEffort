@@ -1,0 +1,184 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3009,
+ "name": "Mantasma",
+ "primaryType": "grass",
+ "secondaryType": "ghost",
+ "maleRatio": 0.5,
+ "height": 35,
+ "weight": 2100,
+ "pokedex": [
+  "cobbleeffort.species.mantasma.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blindsight",
+  "h:sniper"
+ ],
+ "eggGroups": [
+  "bug",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 130,
+  "defence": 90,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.06,
+ "hitbox": {
+  "width": 2.6,
+  "height": 3.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:phantom_membrane",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:spell_tag",
+    "percentage": 5.0
+   },
+   {
+    "item": "cobblemon:miracle_seed",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:poltergeist",
+  "1:crunch",
+  "1:leer",
+  "1:furycutter",
+  "4:absorb",
+  "7:quickattack",
+  "10:razorleaf",
+  "13:bugbite",
+  "16:grasswhistle",
+  "19:falseswipe",
+  "22:crunch",
+  "25:xscissor",
+  "29:nightslash",
+  "33:leafblade",
+  "37:swordsdance",
+  "40:poltergeist",
+  "44:shadowclaw",
+  "48:powerwhip",
+  "52:megahorn",
+  "56:phantomforce",
+  "60:dynamicpunch",
+  "64:hypnosis",
+  "70:guillotine",
+  "egg:hypnosis",
+  "egg:feint",
+  "egg:quickguard",
+  "egg:leechseed",
+  "egg:defog",
+  "egg:dynamicpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:swordsdance",
+  "tm:xscissor",
+  "tm:leafblade",
+  "tm:seedbomb",
+  "tm:bulletseed",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:falseswipe",
+  "tm:focusenergy",
+  "tm:agility",
+  "tm:brickbreak",
+  "tm:aerialace",
+  "tm:nightslash",
+  "tm:knockoff",
+  "tm:terablast",
+  "tm:sunnyday",
+  "tm:leechlife",
+  "tm:skittersmack",
+  "tm:magicalleaf",
+  "tm:round",
+  "tm:toxic",
+  "tm:crunch",
+  "tm:poisonjab",
+  "tm:throatchop",
+  "tm:firstimpression",
+  "tm:solarblade",
+  "tm:leafstorm",
+  "tm:closecombat",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:hex",
+  "tm:willowisp",
+  "tm:focusblast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:earthquake",
+  "tm:spite",
+  "tm:nightshade"
+ ],
+ "preEvolution": "cobbleeffort:mawntis"
+}

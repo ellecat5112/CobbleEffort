@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 6 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 9 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -787,6 +787,36 @@ cobbleeffort:cavitot.
   wings are made of fire. Besides fighting with them, it melts stone with its flames to build its
   nest."
   * Evolve Cinderoon at level 36. Learns its own move, Machine Gun Stinger, when it evolves.
+
+#3007 PRAYLING  (Grass / Bug; Blindsight (its own: every move it uses hits) / Sniper (hidden))
+  a tiny leaf-green baby mantis with no eyes, a wide triangular head, leafy feelers, little forelegs
+  folded as if praying, four thin legs and a fan of leaves for a tail
+  Stats: HP 45  Atk 60  Def 40  SpA 35  SpD 40  Spe 55  (total 275)
+  Pokedex: "It is born without eyes, yet it never misses. It feels the faintest stir of air through
+  its leafy feelers and knows exactly where its prey is, then holds its little forelegs together and
+  waits."
+  * Wild: common in jungles, uncommon in flower forests, meadows and forests.
+  * Evolves into Mawntis at level 22.
+
+#3008 MAWNTIS  (Grass / Bug; Blindsight (its own: every move it uses hits) / Sniper (hidden))
+  a monstrous eyeless mantis with a large toothy maw, whip feelers, a spiky crest, big striped
+  scythe claws with spines, six legs and a striped abdomen ending in leaves
+  Stats: HP 65  Atk 95  Def 65  SpA 45  SpD 60  Spe 80  (total 410)
+  Pokedex: "Its head has split into a maw full of fangs, and a second set of legs lets it run down
+  prey in the undergrowth. It still has no eyes, but its scythes find their mark every time."
+  * Evolve Prayling at level 22.
+  * Wild: rare in jungles.
+
+#3009 MANTASMA  (Grass / Ghost; Blindsight (its own: every move it uses hits) / Sniper (hidden))
+  a gargantuan yet cute eyeless mantis: a huge round head that is mostly a grinning maw of fangs
+  glowing violet inside, leafy horn-feelers, four scythe arms edged with glowing ghost blades and
+  eight dark legs ringed with ghostly stripes
+  Stats: HP 90  Atk 130  Def 90  SpA 70  SpD 85  Spe 75  (total 540)
+  Pokedex: "A Mawntis that hunted on a moonless night and came back as something else. It towers
+  over the trees, its grin glows in the dark, and its ghostly scythes cut through anything without
+  ever missing. Even so, it still clasps its forelegs together the way it did as a Prayling."
+  * Evolve Mawntis at level 40 or higher at night.
+  * Wild: very rare in dark forests and jungles at night.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

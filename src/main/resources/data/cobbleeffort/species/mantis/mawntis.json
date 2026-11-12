@@ -1,0 +1,183 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3008,
+ "name": "Mawntis",
+ "primaryType": "grass",
+ "secondaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 11,
+ "weight": 380,
+ "pokedex": [
+  "cobbleeffort.species.mawntis.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blindsight",
+  "h:sniper"
+ ],
+ "eggGroups": [
+  "bug",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 65,
+  "special_attack": 45,
+  "special_defence": 60,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 147,
+ "experienceGroup": "medium_slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.69,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.1,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:miracle_seed",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:crunch",
+  "1:leer",
+  "1:furycutter",
+  "4:absorb",
+  "7:quickattack",
+  "10:razorleaf",
+  "13:bugbite",
+  "16:grasswhistle",
+  "19:falseswipe",
+  "22:crunch",
+  "25:xscissor",
+  "29:nightslash",
+  "33:leafblade",
+  "37:swordsdance",
+  "41:powerwhip",
+  "46:megahorn",
+  "51:firstimpression",
+  "egg:hypnosis",
+  "egg:feint",
+  "egg:quickguard",
+  "egg:leechseed",
+  "egg:defog",
+  "egg:dynamicpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:swordsdance",
+  "tm:xscissor",
+  "tm:leafblade",
+  "tm:seedbomb",
+  "tm:bulletseed",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:falseswipe",
+  "tm:focusenergy",
+  "tm:agility",
+  "tm:brickbreak",
+  "tm:aerialace",
+  "tm:nightslash",
+  "tm:knockoff",
+  "tm:terablast",
+  "tm:sunnyday",
+  "tm:leechlife",
+  "tm:skittersmack",
+  "tm:magicalleaf",
+  "tm:round",
+  "tm:toxic",
+  "tm:crunch",
+  "tm:poisonjab",
+  "tm:throatchop",
+  "tm:firstimpression",
+  "tm:solarblade",
+  "tm:leafstorm",
+  "tm:closecombat"
+ ],
+ "evolutions": [
+  {
+   "id": "mawntis_mantasma",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantasma",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "poltergeist"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 40
+    },
+    {
+     "variant": "time_range",
+     "range": "night"
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:prayling"
+}
