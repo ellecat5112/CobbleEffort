@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 35 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 36 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1067,6 +1067,14 @@ cobbleeffort:cavitot.
   over its head keeps its corrupted power in check. Its type cannot be read: every attack hits it
   the same, except the most ordinary ones."
   * Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed.
+
+#3036 TANHYLL  (Normal / Fighting; Insectivore (its own: its attacks are 4x super effective on Bug types) / Scrappy (hidden))
+  a hunched, shaggy dark-grey anteater on two legs, dappled with lighter grey, a cream bib, a long
+  curved snout with a hooked pink tongue, big curved white claws and a bushy tail
+  Stats: HP 90  Atk 115  Def 75  SpA 55  SpD 70  Spe 85  (total 490)
+  Pokedex: "It stands up on its hind legs to tear open Bug Pokémon nests with its huge claws, then
+  slurps up everything inside with its long hooked tongue. Bug Pokémon flee at its very scent."
+  * Wild: uncommon in savannas and jungles, rare in forests and badlands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

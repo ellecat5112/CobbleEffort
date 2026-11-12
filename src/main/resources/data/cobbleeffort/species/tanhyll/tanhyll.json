@@ -1,0 +1,150 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3036,
+ "name": "Tanhyll",
+ "primaryType": "normal",
+ "secondaryType": "fighting",
+ "maleRatio": 0.5,
+ "height": 16,
+ "weight": 700,
+ "pokedex": [
+  "cobbleeffort.species.tanhyll.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "insectivore",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 115,
+  "defence": 75,
+  "special_attack": 55,
+  "special_defence": 70,
+  "speed": 85
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 172,
+ "experienceGroup": "medium_slow",
+ "catchRate": 75,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.0,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:black_belt",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "5:lick",
+  "9:furyswipes",
+  "13:rapidspin",
+  "17:lowsweep",
+  "21:slash",
+  "25:crushclaw",
+  "29:brickbreak",
+  "33:focusenergy",
+  "37:hammerarm",
+  "41:slackoff",
+  "46:closecombat",
+  "52:superpower",
+  "egg:curse",
+  "egg:counter",
+  "egg:feint",
+  "egg:doublekick",
+  "egg:suckerpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:dig",
+  "tm:earthquake",
+  "tm:rockslide",
+  "tm:shadowclaw",
+  "tm:ironhead",
+  "tm:knockoff",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:swordsdance",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:icepunch",
+  "tm:poweruppunch",
+  "tm:lowkick",
+  "tm:rocktomb",
+  "tm:bulldoze",
+  "tm:taunt",
+  "tm:thief",
+  "tm:uturn",
+  "tm:facade",
+  "tm:aerialace",
+  "tm:irontail",
+  "tm:focusblast",
+  "tm:superpower"
+ ]
+}

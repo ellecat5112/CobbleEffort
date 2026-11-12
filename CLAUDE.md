@@ -144,6 +144,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Type: Error (#3035, `models/typeerror.py`): species type Normal, ability System Error makes it the "Error" type in
   battle (onEffectiveness: neutral except Normal = 2x; onNegateImmunity for Ghost; its Normal moves get
   ignoreImmunity + their own onEffectiveness: 2x on Normal, else neutral). Genderless (`male: -1`), catch 3.
+  Tanhyll (#3036, `models/tanhyll.py`; the art's own name): Normal/Fighting anteater, ability Insectivore (its
+  attacks' onEffectiveness = 4x on any Bug-type target, plus onAnyNegateImmunity for Bug targets of its own attacks);
+  Cobblemon's Showdown reports 4x hits as `-extremelyeffective`.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

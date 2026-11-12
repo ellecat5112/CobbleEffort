@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tanhyll-savanna",
+   "pokemon": "cobbleeffort:tanhyll",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "20-40",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_savanna",
+     "#cobblemon:is_jungle"
+    ]
+   }
+  },
+  {
+   "id": "tanhyll-forest",
+   "pokemon": "cobbleeffort:tanhyll",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "20-40",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_forest",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  }
+ ]
+}

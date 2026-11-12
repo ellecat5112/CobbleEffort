@@ -845,6 +845,35 @@ SPECIES.update({
 })
 LINES["error"] = ["typeerror"]
 
+# --- Tanhyll: a two-legged anteater (the user's idea and concept art; the art's own name) -----------------------------
+
+TANHYLL_TM = BASIC_TM + ["bodyslam", "bulkup", "brickbreak", "closecombat", "drainpunch", "dig", "earthquake",
+                         "rockslide", "shadowclaw", "ironhead", "knockoff", "gigaimpact", "hyperbeam", "swordsdance",
+                         "firepunch", "thunderpunch", "icepunch", "poweruppunch", "lowkick", "rocktomb", "bulldoze",
+                         "taunt", "thief", "uturn", "facade", "aerialace", "irontail", "focusblast", "superpower"]
+
+SPECIES.update({
+    "tanhyll": {
+        "dex": 3036, "name": "Tanhyll", "line": "tanhyll", "types": ["normal", "fighting"],
+        "male": 0.5, "egg_groups": ["field"], "friendship": 50, "catch": 75,
+        "abilities": ["insectivore", "h:scrappy"],
+        "ability_names": "Insectivore (its own: its attacks are 4x super effective on Bug types) / Scrappy (hidden)",
+        "stats": stats(90, 115, 75, 55, 70, 85), "ev": evs(attack=2), "exp": 172,
+        "height": 16, "weight": 700, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "scratch"), (1, "leer"), (5, "lick"), (9, "furyswipes"), (13, "rapidspin"), (17, "lowsweep"),
+                  (21, "slash"), (25, "crushclaw"), (29, "brickbreak"), (33, "focusenergy"), (37, "hammerarm"),
+                  (41, "slackoff"), (46, "closecombat"), (52, "superpower")],
+        "tm": TANHYLL_TM, "egg": ["curse", "counter", "feint", "doublekick", "suckerpunch"], "evolve": None,
+        "drops": [("minecraft:white_wool", "0-1", None), ("cobblemon:black_belt", None, 2.5)],
+        "entry": ("It stands up on its hind legs to tear open Bug Pokémon nests with its huge claws, then slurps up "
+                  "everything inside with its long hooked tongue. Bug Pokémon flee at its very scent."),
+        "spawns": [route_spawn("tanhyll-savanna", "uncommon", "20-40", 3.0, ["#cobblemon:is_savanna", "#cobblemon:is_jungle"]),
+                   route_spawn("tanhyll-forest", "rare", "20-40", 1.5, ["#cobblemon:is_forest", "#cobblemon:is_badlands"])],
+        "how": ["Wild: uncommon in savannas and jungles, rare in forests and badlands."],
+    },
+})
+LINES["tanhyll"] = ["tanhyll"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -867,6 +896,31 @@ num: -3002
 """,
         "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
                 "accuracy, and even targets that are flying, underground or underwater.",
+    },
+    "insectivore": {
+        "name": "Insectivore",
+        "js": """{
+onModifyMovePriority: -3,
+onModifyMove(move) {
+  if (move.category === 'Status') return;
+  const before = move.onEffectiveness;
+  move.onEffectiveness = function (typeMod, target, type, m) {
+    if (target && target.hasType('Bug')) return type === 'Bug' ? 2 : 0;
+    return before ? before.call(this, typeMod, target, type, m) : typeMod;
+  };
+},
+onAnyNegateImmunity(pokemon, type) {
+  if (pokemon && pokemon.hasType('Bug') && this.activePokemon === this.effectState.target && this.activeMove &&
+      this.activeMove.category !== 'Status') return false;
+},
+flags: {},
+name: "Insectivore",
+rating: 3,
+num: -3006
+}
+""",
+        "lang": "The Pokémon was made to hunt Bug Pokémon: all of its attacks are extremely super effective (4x) on "
+                "Bug types, whatever their type, and nothing about them makes a Bug type immune.",
     },
     "systemerror": {
         "name": "System Error",

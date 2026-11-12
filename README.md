@@ -713,6 +713,12 @@ Cobblemon has no way to add a new type, so its summary shows Normal while the ab
 mask with one glaring eye, a white mane, a silver pincer claw and a huge blue fin club. Learns Extreme Speed and Close
 Combat. Extremely rare in the Deep Dark. Shiny: violet with a gold mask and a magenta club.
 
+**Tanhyll** (Normal/Fighting): a hunched, shaggy anteater standing on two legs, with a long curved snout, a hooked pink
+tongue, big white claws and a bushy tail. Its own ability **Insectivore** makes all of its attacks extremely super
+effective (4×) on Bug-type Pokémon, whatever their other type, and no type immunity protects a Bug type from them
+(Shedinja's Wonder Guard and Levitate included). Hidden ability Scrappy. Learns Crush Claw, Hammer Arm and Close Combat.
+Uncommon in savannas and jungles, rare in forests and badlands. Shiny: rusty brown and tan.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -751,6 +757,7 @@ Combat. Extremely rare in the Deep Dark. Shiny: violet with a gold mask and a ma
 | 3033 | **Jormbuoy** | Water | Swift Swim / Shell Armor / Cursed Body (hidden) | 60 / 50 / 65 / 60 / 60 / 45 | 2'4" (0.7 m) / 22 kg | Wild: uncommon floating on oceans, especially cold ones. Evolves into Jorminous when a Dusk Stone is used on it at level 45 or higher. | It bobs along on cold seas under a hull of old ship's timbers, shields lined up along its sides. Sailors used to tie their boats to it, mistaking it for a buoy, until it swam away with them. |
 | 3034 | **Jorminous** | Water / Ghost | Swift Swim / Shell Armor / Cursed Body (hidden) | 95 / 90 / 95 / 100 / 90 / 70 | 22'12" (7 m) / 300 kg | Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves. Wild: very rare on deep oceans at night. | The ghost of a sunken raiding ship that has become a great sea serpent. When it rises out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore. |
 | 3035 | **Type: Error** | Normal | System Error (its own: makes it Error type in battle) | 80 / 130 / 60 / 90 / 60 / 114 | 6'3" (1.9 m) / 120.5 kg | Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed. | A failed experiment built to be faster and deadlier than any other. The mask clamped over its head keeps its corrupted power in check. Its type cannot be read: every attack hits it the same, except the most ordinary ones. |
+| 3036 | **Tanhyll** | Normal / Fighting | Insectivore (its own: its attacks are 4x super effective on Bug types) / Scrappy (hidden) | 90 / 115 / 75 / 55 / 70 / 85 | 5'3" (1.6 m) / 70 kg | Wild: uncommon in savannas and jungles, rare in forests and badlands. | It stands up on its hind legs to tear open Bug Pokémon nests with its huge claws, then slurps up everything inside with its long hooked tongue. Bug Pokémon flee at its very scent. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -766,6 +773,8 @@ Combat. Extremely rare in the Deep Dark. Shiny: violet with a gold mask and a ma
 ![Jormbuoy and Jorminous, regular and shiny](docs/newmons_jorm.png)
 
 ![Type: Error, regular and shiny](docs/newmons_typeerror.png)
+
+![Tanhyll, regular and shiny](docs/newmons_tanhyll.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

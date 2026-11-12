@@ -155,7 +155,8 @@ Google's Gemini; its models are our own. Jerbolt and Mesmerboa are after a desig
 the user's description with a free-to-use reference picture; its names and models are our own. Jormbuoy and
 Jorminous (names, types, evolution and design) come from the **Zorneo × Norden region** fakemon series (YouTube and
 Instagram), used with its creators' permission; our models are built by hand after their art. Type: Error is after the user's
-idea and the concept art they shared; its model is our own.
+idea and the concept art they shared; its model is our own. Tanhyll (its name and design) is after
+the concept art the user shared; its model is our own.
 
 ## Code and data
 
