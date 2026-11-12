@@ -84,10 +84,12 @@ class Model:
             b.uv = p
         return tw, tw
 
-    def paint(self, tw, th, variant=None):
-        """-> (texture, glow texture) as RGBA images. `variant` is passed to every shader (e.g. "shiny")."""
-        img = np.zeros((th, tw, 4), np.uint8)
-        glow = np.zeros((th, tw, 4), np.uint8)
+    def paint(self, tw, th, variant=None, k=1):
+        """-> (texture, glow texture) as RGBA images. `variant` is passed to every shader (e.g. "shiny"). `k` texels
+        per model unit: the image is k times the geo's texture size (UVs are normalised, so detail like faces gets
+        sharper without changing the model)."""
+        img = np.zeros((th * k, tw * k, 4), np.uint8)
+        glow = np.zeros((th * k, tw * k, 4), np.uint8)
         for b in self.boxes:
             x0, y0, z0 = b.lo
             w, h, d = b.size
@@ -102,19 +104,20 @@ class Model:
                 "south": ((u + 2 * d + w, v + d), w, h, lambda r, c: (x1 - c - .5, y1 - r - .5, z1)),
             }
             for face, ((fu, fv), cols, rows, at) in spec.items():
-                for r in range(rows):
-                    for c in range(cols):
-                        p = at(r, c)
+                for rk in range(rows * k):
+                    for ck in range(cols * k):
+                        r, c = rk // k, ck // k
+                        p = at((rk + .5) / k - .5, (ck + .5) / k - .5)
                         out = b.shader(*p, face=face, variant=variant, box=b, r=r, c=c, rows=rows, cols=cols)
                         col, g = (out if isinstance(out, tuple) and len(out) == 2 and isinstance(out[0], tuple) else (out, None))
                         if len(col) == 3:
                             col = tuple(col) + (255,)
                         if col[3]:
-                            f = shade(face, r, rows)
+                            f = shade(face, (rk + .5) / k - .5, rows)
                             col = tuple(max(0, min(255, int(round(ch * f)))) for ch in col[:3]) + (col[3],)
-                        img[fv + r, fu + c] = col
+                        img[fv * k + rk, fu * k + ck] = col
                         if g is not None:
-                            glow[fv + r, fu + c] = tuple(g) + (255,) if len(g) == 3 else g
+                            glow[fv * k + rk, fu * k + ck] = tuple(g) + (255,) if len(g) == 3 else g
         return Image.fromarray(img, "RGBA"), Image.fromarray(glow, "RGBA")
 
     # --- geometry file -------------------------------------------------------------------------------------------

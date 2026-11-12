@@ -138,6 +138,12 @@ original, hand-built from boxes by `tools/megas/` after the Pokémon's official 
 wiki; no pixels of the artwork are used). Their stats, abilities, stone icons and recipes are original too. They plug
 into **Mega Showdown**'s data-driven mega system.
 
+## CobbleEffort's own Pokémon
+
+Cavitot, Amalgum and Orthodread (the dentistry line, `.../300x_<species>/*`) are original Pokémon: the idea and look are
+the user's own design, and the names, Pokédex entries, stats, models, textures, animations and posers were made for
+CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used.
+
 ## Code and data
 
 The build scripts, generator, data and resolver JSON are licensed under the

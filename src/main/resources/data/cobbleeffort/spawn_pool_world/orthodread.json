@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "orthodread-deep",
+   "pokemon": "cobbleeffort:orthodread",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "42-60",
+   "weight": 2.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_deep_dark"
+    ]
+   }
+  },
+  {
+   "id": "orthodread-caves",
+   "pokemon": "cobbleeffort:orthodread",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "42-60",
+   "weight": 1.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "minecraft:dripstone_caves"
+    ]
+   }
+  }
+ ]
+}

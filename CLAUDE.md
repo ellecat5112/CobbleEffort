@@ -86,6 +86,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   limit: candidate boxes at several tolerances/grids, greedy non-overlapping pick, then growth) and
   `vx.paint_box_shaded` with `vx.exposure` (lit tops, side
   gradients, darker silhouette/crease edges; one-voxel stair steps don't count as edges). Keep per-voxel noise tiny.
+- **CobbleEffort's own Pokémon** (original species, the user's idea and look; I write names, Pokédex entries, stats,
+  moves): `tools/newmons/build.py [--showdown <cobblemon>/data/cobblemon/showdown.zip]` (the flag checks every move
+  and ability). SPECIES config (dex from 3001: the stack uses none of 3000-3999; types, abilities, stats, learnset, TMs,
+  egg moves, evolution, drops, spawns, entry, how-to-get), one hand-built box model per species in
+  `tools/newmons/models/<name>.py` on `tools/megas/_boxmodel.py` (`K` texels per unit: `paint(..., k=K)` makes the
+  image K times the geo's texture size so faces stay sharp) + the shared rig `tools/megas/_rig.py` (animations/poser
+  from bone names, also used by the megas). Species `cobbleeffort:<name>` in `data/cobbleeffort/species/<line>/`,
+  dex entries + the `cobbleeffort:cobbleeffort` sub-dex added to `cobblemon:national` (dex_additions), spawns in
+  `spawn_pool_world`, lang `cobbleeffort.species.<name>.name|desc`, resolver order 0, README table between
+  `<!-- newmons -->` markers, player guide from `tools/readme/_new_<name>.json`. Lines so far: dentistry (Cavitot ->
+  Amalgum lv 24 -> Orthodread lv 42; Dark, Dark/Steel; shiny = minty enamel + gold metal; `models/_teeth.py`).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

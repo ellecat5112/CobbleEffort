@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "amalgum-caves",
+   "pokemon": "cobbleeffort:amalgum",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "24-40",
+   "weight": 4.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "minecraft:dripstone_caves"
+    ]
+   }
+  },
+  {
+   "id": "amalgum-deep",
+   "pokemon": "cobbleeffort:amalgum",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "26-42",
+   "weight": 3.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_deep_dark"
+    ]
+   }
+  }
+ ]
+}

@@ -95,11 +95,18 @@ def main():
     new = [json.loads(f.read_text()) for f in sorted((TOOLS / "readme").glob("_new_*.json"))]
     if new:
         out += ["", rule, "NEW POKEMON", rule]
-        out.append(wrap("Pokemon Cobblemon has data for but no model, now with a model, animations and a way to get "
-                        "them:"))
+        out.append(wrap("CobbleEffort's own Pokemon, each with a model, animations, a shiny and a way to get them. "
+                        "They are on the CobbleEffort page of the Pokedex; in commands use the namespaced id, e.g. "
+                        "/pokegive cobbleeffort:cavitot."))
+        stat_names = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"]
         for p in sorted(new, key=lambda p: p["dex"]):
-            out += ["", f"#{p['dex']:04d} {p['name'].upper()}  ({p['types']}, {p['ability']})"]
+            out += ["", f"#{p['dex']:04d} {p['name'].upper()}  ({p['types']}; {p['ability']})"]
             out.append(wrap(p["look"], "  ", "  "))
+            if p.get("stats"):
+                out.append("  Stats: " + "  ".join(f"{n} {v}" for n, v in zip(stat_names, p["stats"]))
+                           + f"  (total {sum(p['stats'])})")
+            if p.get("entry"):
+                out.append(wrap(f'Pokedex: "{p["entry"]}"', "  ", "  "))
             out += [wrap(t, "    ", "  * ") for t in p["how"]]
     megas_file = TOOLS / "readme" / "_megas.json"
     if megas_file.exists():

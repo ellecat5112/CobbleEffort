@@ -619,6 +619,26 @@ Picked with `generate.py pick --count 18 --seed steampunk-clockwork` from the 18
 Give a supported Pokémon a **Copper Ingot** as its cosmetic item. With commands: `/pokegive durant steampunk`,
 `/pokegive tepig steampunk shiny`. Pack makers can extend the item tag `#cobbleeffort:steampunk_cosmetics`.
 
+## New Pokémon: the dentistry line
+
+Original Pokémon from the user's designs (idea and look), with names, Pokédex entries, stats and moves made up for
+them. Each one has a hand-built box model in Cobblemon's style, a shiny, animations (idle, walking, battle stance,
+sleep, cry, moves, fainting), wild spawns, drops and a CobbleEffort page in the Pokédex. They use National Pokédex
+numbers from #3001, which nothing else in the supported mod stack uses. In commands, use the namespaced id:
+`/pokegive cobbleeffort:cavitot`.
+
+Shinies have minty enamel (fresh toothpaste) and gold metal: gold fillings, caps and braces.
+
+<!-- newmons:start -->
+| # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
+|---|---|---|---|---|---|---|---|
+| 3001 | **Cavitot** | Dark | Strong Jaw / Stench / Stakeout (hidden) | 50 / 65 / 60 / 30 / 45 / 50 | 2'4" (0.7 m) / 18.5 kg | Wild: common near sugar cane (sugar rots teeth) and in Dripstone Caves, uncommon underground and in villages at night. Evolves into Amalgum at level 24. | It started out as a baby tooth that was never brushed. The cavity in its crown aches all the time, which is why it always looks so grumpy. It can't resist sweets, even though they make the ache worse. |
+| 3002 | **Amalgum** | Dark / Steel | Strong Jaw / Sturdy / Stakeout (hidden) | 65 / 85 / 95 / 40 / 60 / 55 | 3'7" (1.1 m) / 72.4 kg | Evolve Cavitot at level 24. Wild: uncommon in Dripstone Caves, rare in the Deep Dark. | Three Cavitot that had their cavities filled and fused into one. The metal in their fillings makes it tough to crack, but all three of its faces still frown. It gnaws on iron ore to keep its caps shiny. |
+| 3003 | **Orthodread** | Dark / Steel | Strong Jaw / Iron Barbs / Stakeout (hidden) | 85 / 120 / 120 / 50 / 80 / 70 | 5'11" (1.8 m) / 205 kg | Evolve Amalgum at level 42. Wild: very rare in the Deep Dark and Dripstone Caves. | Eight teeth held together by braces it can never take off. It scuttles through dark caves on its steel legs and its bite can crunch through iron. The braces put it in a foul mood, and it takes that out on anyone it meets. |
+<!-- newmons:end -->
+
+![The dentistry line](docs/newmons_preview.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

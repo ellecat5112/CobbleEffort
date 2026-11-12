@@ -1,0 +1,87 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "cavitot-sweet",
+   "pokemon": "cobbleeffort:cavitot",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "4-20",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "neededNearbyBlocks": [
+     "minecraft:sugar_cane"
+    ]
+   }
+  },
+  {
+   "id": "cavitot-caves",
+   "pokemon": "cobbleeffort:cavitot",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "6-22",
+   "weight": 9.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "minecraft:dripstone_caves"
+    ]
+   }
+  },
+  {
+   "id": "cavitot-underground",
+   "pokemon": "cobbleeffort:cavitot",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "6-22",
+   "weight": 3.0,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  },
+  {
+   "id": "cavitot-village",
+   "pokemon": "cobbleeffort:cavitot",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "5-18",
+   "weight": 6.0,
+   "condition": {
+    "timeRange": "night",
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "structures": [
+     "#minecraft:village"
+    ]
+   }
+  }
+ ]
+}

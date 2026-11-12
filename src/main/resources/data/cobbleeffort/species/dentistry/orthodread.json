@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3003,
+ "name": "Orthodread",
+ "primaryType": "dark",
+ "secondaryType": "steel",
+ "maleRatio": 0.5,
+ "height": 18,
+ "weight": 2050,
+ "pokedex": [
+  "cobbleeffort.species.orthodread.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "ironbarbs",
+  "h:stakeout"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 120,
+  "defence": 120,
+  "special_attack": 50,
+  "special_defence": 80,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 250,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.0,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.35
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone_meal",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "cobblemon:metal_coat",
+    "percentage": 5.0
+   },
+   {
+    "item": "cobblemon:razor_fang",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:metalclaw",
+  "1:irondefense",
+  "1:spikyshield",
+  "1:tackle",
+  "1:leer",
+  "5:bite",
+  "9:scaryface",
+  "12:snarl",
+  "15:poisonfang",
+  "18:assurance",
+  "21:payback",
+  "27:crunch",
+  "31:jawlock",
+  "35:ironhead",
+  "39:lashout",
+  "42:spikyshield",
+  "46:superfang",
+  "50:heavyslam",
+  "55:metalburst",
+  "60:throatchop",
+  "egg:suckerpunch",
+  "egg:curse",
+  "egg:feint",
+  "egg:pursuit",
+  "egg:counter",
+  "egg:hyperfang",
+  "tm:crunch",
+  "tm:thief",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:snarl",
+  "tm:darkpulse",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:psychicfangs",
+  "tm:firefang",
+  "tm:icefang",
+  "tm:thunderfang",
+  "tm:poisonfang",
+  "tm:knockoff",
+  "tm:foulplay",
+  "tm:taunt",
+  "tm:torment",
+  "tm:endure",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:stealthrock",
+  "tm:spikes",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:payback",
+  "tm:screech",
+  "tm:bulldoze",
+  "tm:terablast",
+  "tm:swagger",
+  "tm:toxic",
+  "tm:round",
+  "tm:heavyslam",
+  "tm:gyroball",
+  "tm:metalsound",
+  "tm:flashcannon",
+  "tm:bodypress",
+  "tm:steelroller",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:steelbeam",
+  "tm:throatchop",
+  "tm:earthquake"
+ ],
+ "preEvolution": "cobbleeffort:amalgum"
+}

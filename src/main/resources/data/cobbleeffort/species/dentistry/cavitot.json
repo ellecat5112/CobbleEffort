@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3001,
+ "name": "Cavitot",
+ "primaryType": "dark",
+ "maleRatio": 0.5,
+ "height": 7,
+ "weight": 185,
+ "pokedex": [
+  "cobbleeffort.species.cavitot.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "stench",
+  "h:stakeout"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 65,
+  "defence": 60,
+  "special_attack": 30,
+  "special_defence": 45,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 58,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.59,
+ "hitbox": {
+  "width": 0.55,
+  "height": 0.7,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": false
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone_meal",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:sugar",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:razor_fang",
+    "percentage": 2.5
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "5:bite",
+  "9:scaryface",
+  "12:snarl",
+  "15:poisonfang",
+  "18:assurance",
+  "21:payback",
+  "25:crunch",
+  "29:jawlock",
+  "33:lashout",
+  "37:superfang",
+  "41:hyperfang",
+  "egg:suckerpunch",
+  "egg:curse",
+  "egg:feint",
+  "egg:pursuit",
+  "egg:counter",
+  "egg:hyperfang",
+  "tm:crunch",
+  "tm:thief",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:snarl",
+  "tm:darkpulse",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:psychicfangs",
+  "tm:firefang",
+  "tm:icefang",
+  "tm:thunderfang",
+  "tm:poisonfang",
+  "tm:knockoff",
+  "tm:foulplay",
+  "tm:taunt",
+  "tm:torment",
+  "tm:endure",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:stealthrock",
+  "tm:spikes",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:payback",
+  "tm:screech",
+  "tm:bulldoze",
+  "tm:terablast",
+  "tm:swagger",
+  "tm:toxic",
+  "tm:round"
+ ],
+ "evolutions": [
+  {
+   "id": "cavitot_amalgum",
+   "variant": "level_up",
+   "result": "cobbleeffort:amalgum",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "metalclaw"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 24
+    }
+   ]
+  }
+ ]
+}

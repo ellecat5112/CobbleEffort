@@ -2,10 +2,10 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon. Each form is a new
-look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
-has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
-regional forms, megas and shinies (shinies get their own version).
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 3 new Pokemon.
+Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
+lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
+through evolution, gender, regional forms, megas and shinies (shinies get their own version).
 
 INSTALL
 -------
@@ -719,6 +719,44 @@ Pokemon (each line is a whole evolutionary family):
   - Clobbopus > Grapploct
   - Ting-Lu
   - Terapagos
+
+====================================================================================================
+NEW POKEMON
+====================================================================================================
+CobbleEffort's own Pokemon, each with a model, animations, a shiny and a way to get them. They are
+on the CobbleEffort page of the Pokedex; in commands use the namespaced id, e.g. /pokegive
+cobbleeffort:cavitot.
+
+#3001 CAVITOT  (Dark; Strong Jaw / Stench / Stakeout (hidden))
+  a single cream molar with a rotten black cavity in its top, pale pink diamond eyes, blush and a
+  jagged frown, standing on two stubby roots
+  Stats: HP 50  Atk 65  Def 60  SpA 30  SpD 45  Spe 50  (total 300)
+  Pokedex: "It started out as a baby tooth that was never brushed. The cavity in its crown aches all
+  the time, which is why it always looks so grumpy. It can't resist sweets, even though they make
+  the ache worse."
+  * Wild: common near sugar cane (sugar rots teeth) and in Dripstone Caves, uncommon underground and
+    in villages at night.
+  * Evolves into Amalgum at level 24.
+
+#3002 AMALGUM  (Dark / Steel; Strong Jaw / Sturdy / Stakeout (hidden))
+  three fused molars with sad faces, the two in front and a taller one behind, capped in dripping
+  steel with grey amalgam fillings, on pink roots tipped with metal points
+  Stats: HP 65  Atk 85  Def 95  SpA 40  SpD 60  Spe 55  (total 400)
+  Pokedex: "Three Cavitot that had their cavities filled and fused into one. The metal in their
+  fillings makes it tough to crack, but all three of its faces still frown. It gnaws on iron ore to
+  keep its caps shiny."
+  * Evolve Cavitot at level 24.
+  * Wild: uncommon in Dripstone Caves, rare in the Deep Dark.
+
+#3003 ORTHODREAD  (Dark / Steel; Strong Jaw / Iron Barbs / Stakeout (hidden))
+  eight angry teeth set in a horseshoe like dentures on a pink plate, wearing steel caps, a braces
+  wire and brackets with coloured elastics, spiked corner caps and four clawed steel legs
+  Stats: HP 85  Atk 120  Def 120  SpA 50  SpD 80  Spe 70  (total 525)
+  Pokedex: "Eight teeth held together by braces it can never take off. It scuttles through dark
+  caves on its steel legs and its bite can crunch through iron. The braces put it in a foul mood,
+  and it takes that out on anyone it meets."
+  * Evolve Amalgum at level 42.
+  * Wild: very rare in the Deep Dark and Dripstone Caves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
