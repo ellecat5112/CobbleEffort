@@ -39,6 +39,8 @@ public final class Regions {
     }
 
     static void register() {
+        portal(Region.HISUI, "hisui_arceus_statue", () -> new RegionPortalBlock.Plain(Region.HISUI, SoundEvents.BEACON_POWER_SELECT, null,
+                like(Blocks.CALCITE).lightLevel(st -> 4)));
         portal(Region.JOHTO, "johto_bell", () -> new RegionPortalBlock.Plain(Region.JOHTO, SoundEvents.BELL_BLOCK,
                 Shapes.or(Block.box(3, 0, 3, 13, 3, 13), Block.box(4, 3, 4, 12, 12, 12), Block.box(6, 12, 6, 10, 16, 10)),
                 like(Blocks.BELL).noOcclusion()));

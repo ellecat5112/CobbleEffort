@@ -988,6 +988,170 @@ def paldea_academy():
     return t
 
 
+# --- Hisui: the great mountain ---------------------------------------------------------------------------------------
+def arceus_statue():
+    """An Arceus sculpture as voxels (relative x, y, z; front = -z), stone with a gold cross-wheel: a deep-chested
+    quadruped body, a long arched neck, a head with a swept-back crest, slender legs ending in pointed hooves, a
+    flowing tail, and the wheel standing round its middle. Returns (stone voxels, gold voxels)."""
+    parts = [((0, 9.0, 1.0), (3.6, 3.4, 6.0)), ((0, 9.6, -3.6), (3.4, 3.6, 3.0)),             # body, chest
+             ((0, 13.0, -5.6), (1.9, 3.4, 1.9)), ((0, 16.2, -6.6), (2.2, 2.1, 2.8)),            # neck, head
+             ((0, 15.6, -9.2), (1.1, 1.0, 1.6)),                                                 # muzzle
+             ((0, 18.0, -5.4), (1.6, 1.4, 1.8)), ((0, 18.6, -3.4), (1.1, 1.2, 2.2)),            # crest sweeping back
+             ((0, 10.6, 7.4), (1.6, 1.6, 2.6)), ((0, 9.0, 9.6), (1.3, 2.4, 1.3))]               # tail
+    for sx in (-1, 1):
+        for zc in (-3.2, 4.2):
+            parts += [((sx * 2.2, 5.4, zc), (1.2, 3.6, 1.2)), ((sx * 2.3, 1.8, zc - 0.3), (0.9, 2.2, 0.9)),
+                      ((sx * 2.3, 0.4, zc - 0.9), (0.8, 0.5, 1.4))]                              # thigh, shin, hoof
+        parts.append(((sx * 1.6, 16.2, -2.6), (0.7, 0.9, 1.8)))                                 # crest wings
+    stone, gold = set(), set()
+    for x in range(-9, 10):
+        for y in range(0, 21):
+            for z in range(-12, 13):
+                p = (x, y + 0.5, z)
+                if any(sum(((p[i] - c[i]) / r[i]) ** 2 for i in range(3)) <= 1 for c, r in parts):
+                    stone.add((x, y, z))
+    # the cross-wheel: a ring standing across the body (in the x-y plane), centred on the middle
+    cy, cz = 9.5, 0
+    for x in range(-9, 10):
+        for y in range(0, 21):
+            d = math.hypot(x, y + 0.5 - cy)
+            if 6.4 <= d <= 7.6:
+                for z in (cz - 1, cz, cz + 1):
+                    gold.add((x, y, z))
+            # four jewels at the wheel's quarters
+            for jx, jy in ((7, cy), (-7, cy), (0, cy + 7), (0, cy - 7)):
+                if math.hypot(x - jx, y + 0.5 - jy) <= 1.3:
+                    gold.add((x, y, cz - 2))
+    stone -= gold
+    return stone, gold
+
+
+def hisui_mountain():
+    """A great snow-capped mountain (an original landmark inspired by the great mountain of Hisui): a rugged peak
+    of stone, andesite and tuff, grass round its foot and snow toward the top, a path spiralling up its flanks to a
+    flattened summit where ruined white pillars ring a pedestal, and on it a stone Arceus sculpture: every block of
+    the sculpture is the portal. Its core is a great cavern, reached by a tunnel at the foot, lit by glowing lichen."""
+    R, HMAX = 96, 150
+    W = 2 * R + 3
+    H = HMAX + 26
+    c = W // 2
+    t = S((W, H, W))
+    rng_cells = {}
+
+    def bump(x, z, cell, seed):
+        key = (x // cell, z // cell, seed)
+        if key not in rng_cells:
+            rng_cells[key] = h(*key)
+        return rng_cells[key]
+
+    def smooth(x, z, cell, seed):
+        gx, gz = x / cell, z / cell
+        x0, z0 = int(math.floor(gx)), int(math.floor(gz))
+        fx, fz = gx - x0, gz - z0
+        v = [[h(x0 + i, z0 + j, seed) for j in (0, 1)] for i in (0, 1)]
+        top = v[0][0] * (1 - fx) + v[1][0] * fx
+        bot = v[0][1] * (1 - fx) + v[1][1] * fx
+        return top * (1 - fz) + bot * fz
+
+    summit_r = 16
+    height = {}
+    for x in range(W):
+        for z in range(W):
+            r = math.hypot(x - c, z - c)
+            if r > R:
+                continue
+            k = 1 - r / R
+            ridge = 0.6 * smooth(x, z, 22, 3) + 0.4 * smooth(x, z, 9, 4)
+            hgt = HMAX * (k ** 1.35) * (0.82 + 0.3 * ridge)
+            if r <= summit_r:
+                hgt = HMAX * ((1 - summit_r / R) ** 1.35) * 0.98
+            height[(x, z)] = max(1, int(hgt))
+    summit = max(v for (x, z), v in height.items() if math.hypot(x - c, z - c) <= summit_r)
+    for (x, z), top in height.items():
+        r = math.hypot(x - c, z - c)
+        if r <= summit_r:
+            top = summit
+            height[(x, z)] = top
+        thick = 7
+        for y in range(max(0, top - thick), top + 1):
+            frac = y / HMAX
+            if y == top:
+                b = "snow_block" if frac > 0.62 else ("stone" if frac > 0.38 else ("grass_block" if frac < 0.2 else
+                     pick([("stone", 2), ("coarse_dirt", 1), ("grass_block", 1)], x, z, 8)))
+            else:
+                b = pick([("stone", 5), ("andesite", 2), ("tuff", 1), ("granite", 0.5)] if frac > 0.15 else
+                         [("dirt", 2), ("stone", 3), ("andesite", 1)], x // 2, y // 2, z // 2, 9)
+                if frac > 0.62 and y >= top - 1:
+                    b = "packed_ice" if h(x, z, 11) > 0.8 else "snow_block"
+            t.put(x, y, z, b)
+    # the cavern inside, and the tunnel to it from the south foot
+    for (x, z), top in height.items():
+        r = math.hypot(x - c, z - c)
+        if r < R * 0.55:
+            ceil = min(top - 8, int(46 * (1 - r / (R * 0.55)) ** 0.5) + 2)
+            for y in range(1, max(1, ceil)):
+                t.put(x, y, z, "air")
+            if ceil > 3:
+                t.put(x, 0, z, pick([("stone", 4), ("gravel", 1), ("tuff", 1)], x, z, 13))
+                if h(x, z, 14) > 0.985:
+                    t.put(x, ceil, z, "glowstone")
+                elif h(x, z, 15) > 0.97:
+                    t.put(x, ceil, z, "glow_lichen", {"down": "false", "up": "true", "north": "false", "south": "false",
+                                                    "east": "false", "west": "false", "waterlogged": "false"})
+    for z in range(c + int(R * 0.5), W):
+        for x in range(c - 2, c + 3):
+            for y in range(1, 5):
+                if (x, z) in height and t.get(x, y, z) is not None:
+                    t.put(x, y, z, "air")
+    # the spiral path up the flanks (three turns), a carved ledge three blocks wide
+    turns, steps = 3.0, 6000
+    for i in range(steps):
+        f = i / steps
+        ang = f * turns * 2 * math.pi + math.pi / 2
+        r = (R - 6) * (1 - f) + (summit_r - 1) * f
+        x0, z0 = c + math.cos(ang) * r, c + math.sin(ang) * r
+        xi, zi = int(round(x0)), int(round(z0))
+        if (xi, zi) not in height:
+            continue
+        y = height[(xi, zi)] if f < 0.98 else summit
+        for dx in (-1, 0, 1):
+            for dz in (-1, 0, 1):
+                xx, zz = xi + dx, zi + dz
+                if (xx, zz) not in height:
+                    continue
+                py = min(y, height[(xx, zz)])
+                t.put(xx, py, zz, "gravel" if (xx + zz) % 3 else "cobblestone")
+                for yy in range(py + 1, py + 4):
+                    if t.get(xx, yy, zz) is not None:
+                        t.put(xx, yy, zz, "air")
+    # the summit: a ring of ruined pillars round a stepped pedestal, the sculpture on it
+    for x in range(c - summit_r, c + summit_r + 1):
+        for z in range(c - summit_r, c + summit_r + 1):
+            if math.hypot(x - c, z - c) <= summit_r:
+                t.put(x, summit, z, "polished_diorite" if (x + z) % 4 else "calcite")
+                for y in range(summit + 1, H):
+                    t.put(x, y, z, "air")
+    for k in range(12):
+        a = k / 12 * 2 * math.pi
+        px, pz = int(round(c + math.cos(a) * (summit_r - 2))), int(round(c + math.sin(a) * (summit_r - 2)))
+        ph = 3 + int(h(k, 21) * 7)
+        for y in range(summit + 1, summit + 1 + ph):
+            t.put(px, y, pz, "quartz_pillar", {"axis": "y"})
+        if ph > 7:
+            t.put(px, summit + 1 + ph, pz, "chiseled_quartz_block")
+    for rr, y in ((6, 1), (5, 2), (4, 3)):
+        for x in range(c - rr, c + rr + 1):
+            for z in range(c - rr, c + rr + 1):
+                t.put(x, summit + y, z, "smooth_quartz" if max(abs(x - c), abs(z - c)) < rr else "quartz_bricks")
+    base = summit + 4
+    stone, gold = arceus_statue()
+    for (x, y, z) in stone:
+        t.put(c + x, base + y, c + z, f"{MOD}:hisui_arceus_statue")
+    for (x, y, z) in gold:
+        t.put(c + x, base + y, c + z, "gold_block")
+    return t
+
+
 # --- the portal blocks' art ---------------------------------------------------------------------------------------------
 def rgba(c, a=255):
     return tuple(max(0, min(255, int(round(v)))) for v in c[:3]) + (a,)
@@ -1022,6 +1186,17 @@ def statue_stone(x, y):
     k = 0.86 + 0.22 * h(x // 2, y // 2, 8) + 0.06 * (h(x, y, 9) - 0.5)
     if (x + 2 * y) % 11 == 0 or (y == 7 and 3 < x < 13):            # chisel lines
         k *= 0.72
+    return shade(base, k)
+
+
+def arceus_stone(x, y):
+    """Pale carved stone with faint gold veins (the Arceus sculpture)."""
+    base = (214, 210, 196)
+    k = 0.9 + 0.14 * h(x // 2, y // 2, 31) + 0.04 * (h(x, y, 32) - 0.5)
+    if (x * 3 + y * 2) % 13 == 0:
+        return (200, 170, 90)
+    if (x + 2 * y) % 9 == 0:
+        k *= 0.84                                             # chisel strokes
     return shade(base, k)
 
 
@@ -1140,7 +1315,7 @@ def pc_body(x, y):
 PORTALS = {
     "johto_bell": "Johto Bell", "hoenn_statue_stone": "Groudon Statue Stone", "sinnoh_boarded_doorway": "Boarded Doorway",
     "unova_wardrobe": "Golden Wardrobe", "kalos_ball_shell": "Giant Poké Ball Shell", "alola_telescope": "Observatory Telescope",
-    "galar_engraved_bark": "Engraved Giant Bark", "paldea_pc": "Academy PC",
+    "galar_engraved_bark": "Engraved Giant Bark", "paldea_pc": "Academy PC", "hisui_arceus_statue": "Arceus Sculpture Stone",
 }
 
 
@@ -1148,6 +1323,7 @@ def portal_assets():
     B = A / "textures" / "block"
     save(tex(bronze), B / "johto_bell.png")
     save(tex(statue_stone), B / "hoenn_statue_stone.png")
+    save(tex(arceus_stone), B / "hisui_arceus_statue.png")
     for half in ("lower", "upper"):
         save(tex(boarded(half == "lower")), B / f"sinnoh_boarded_doorway_{half}.png")
         save(tex(wardrobe(half == "lower")), B / f"unova_wardrobe_{half}.png")
@@ -1166,7 +1342,7 @@ def portal_assets():
                                                    for f, t_ in (([3, 0, 3], [13, 3, 13]), ([4, 3, 4], [12, 12, 12]), ([5, 12, 5], [11, 13, 11]),
                                                                  ([7, 13, 7], [9, 16, 9]))]})
     write_json(BS / "johto_bell.json", {"variants": {"": {"model": f"{MOD}:block/johto_bell"}}})
-    for name in ("hoenn_statue_stone", "alola_telescope"):
+    for name in ("hoenn_statue_stone", "alola_telescope", "hisui_arceus_statue"):
         write_json(M / f"{name}.json", {"parent": "minecraft:block/cube_all", "textures": {"all": f"{MOD}:block/{name}"}})
         write_json(BS / f"{name}.json", {"variants": {"": {"model": f"{MOD}:block/{name}"}}})
     # tall ones: a front texture per half, plain sides
@@ -1197,7 +1373,7 @@ def portal_assets():
     write_json(BS / "paldea_pc.json", {"variants": {f"facing={f}": dict({"model": f"{MOD}:block/paldea_pc"}, **({"y": r} if r else {}))
                                                    for f, r in rot.items()}})
     # item models, loot tables, names
-    item_model = {"johto_bell": "johto_bell", "hoenn_statue_stone": "hoenn_statue_stone", "sinnoh_boarded_doorway": "sinnoh_boarded_doorway_lower",
+    item_model = {"hisui_arceus_statue": "hisui_arceus_statue", "johto_bell": "johto_bell", "hoenn_statue_stone": "hoenn_statue_stone", "sinnoh_boarded_doorway": "sinnoh_boarded_doorway_lower",
                   "unova_wardrobe": "unova_wardrobe_lower", "kalos_ball_shell": "kalos_ball_shell_button", "alola_telescope": "alola_telescope",
                   "galar_engraved_bark": "galar_engraved_bark", "paldea_pc": "paldea_pc"}
     for name, label in PORTALS.items():
@@ -1209,7 +1385,7 @@ def portal_assets():
         write_json(D / "loot_table" / "blocks" / f"{name}.json", {"type": "minecraft:block", "pools": [{"rolls": 1, "entries": [entry], "conditions": cond}]})
         LANG[f"block.{MOD}.{name}"] = label
     tags = RES / "data" / "minecraft" / "tags" / "block"
-    for tool, names in (("pickaxe", ["hoenn_statue_stone", "kalos_ball_shell", "alola_telescope", "paldea_pc", "johto_bell", "unova_wardrobe"]),
+    for tool, names in (("pickaxe", ["hisui_arceus_statue", "hoenn_statue_stone", "kalos_ball_shell", "alola_telescope", "paldea_pc", "johto_bell", "unova_wardrobe"]),
                         ("axe", ["sinnoh_boarded_doorway", "galar_engraved_bark"])):
         path = tags / "mineable" / f"{tool}.json"
         cur = json.loads(path.read_text()) if path.exists() else {"replace": False, "values": []}
@@ -1241,6 +1417,9 @@ LANDMARKS = {
     "galar": ("galar_giant_tree", "Galar Giant Tree", galar_tree,
               ["snowy_plains", "snowy_taiga", "ice_spikes", "grove", "snowy_slopes", "frozen_river"], 40, 14, -GALAR_GROUND, "none",
               "Welcome to Galar. Touch the engraved bark to go home."),
+    "hisui": ("hisui_great_mountain", "Hisui Great Mountain", hisui_mountain,
+              ["plains", "meadow", "taiga", "snowy_taiga", "snowy_plains", "old_growth_spruce_taiga", "windswept_forest"], 64, 24, 0, "none",
+              "Welcome to Hisui. Touch the Arceus sculpture to go home."),
     "paldea": ("paldea_academy", "Paldea Academy", paldea_academy,
                ["plains", "savanna", "meadow", "sunflower_plains", "desert", "cherry_grove"], 44, 16, 0, "beard_thin",
                "Welcome to Paldea. Use the academy PC to go home."),
@@ -1282,6 +1461,11 @@ BIOMES = {
                 ("snowy_taiga", (-1, -0.45), (-1, 1)), ("meadow", (-0.45, -0.15), (-1, 1)), ("bamboo_jungle", (-0.15, 0.2), (0.3, 1))],
                "minecraft:large_biomes"),
 }
+BIOMES["hisui"] = (["cold_ocean", "ocean", "deep_cold_ocean"], "stony_shore", "river", "jagged_peaks",
+                   [("plains", (-0.15, 0.55), (-1, 0)), ("forest", (-0.15, 0.55), (0, 0.3)), ("swamp", (0.2, 1), (0.3, 1)),
+                    ("mangrove_swamp", (0.55, 1), (0, 0.3)), ("badlands", (0.55, 1), (-1, 0)), ("meadow", (-0.45, -0.15), (-1, 0)),
+                    ("windswept_hills", (-0.45, -0.15), (0, 1)), ("snowy_plains", (-1, -0.45), (-1, 0)),
+                    ("snowy_taiga", (-1, -0.45), (0, 1)), ("dark_forest", (-0.15, 0.2), (0.3, 1))], "minecraft:large_biomes")
 SEA_LEVEL = {"hoenn": 70, "alola": 90}                        # more sea: Hoenn's islands, Alola's archipelago
 
 

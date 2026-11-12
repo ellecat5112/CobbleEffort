@@ -1,0 +1,142 @@
+[
+  {
+    "id": "hisui_noble_kleavor",
+    "label": "Kleavor's Arena",
+    "template": "cobbleeffort_kanto:gym/hisui_noble_arena",
+    "size": [
+      37,
+      14,
+      37
+    ],
+    "x": 0,
+    "z": -320,
+    "trainers": [],
+    "bosses": [
+      {
+        "label": "Frenzied Noble Kleavor",
+        "props": "kleavor level=60 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
+        "pos": [
+          18,
+          2,
+          18
+        ],
+        "scale": 2.6,
+        "badge": "hisui_kleavor_seal",
+        "reward": null,
+        "kind": "noble"
+      }
+    ]
+  },
+  {
+    "id": "hisui_noble_lilligant",
+    "label": "Lilligant's Arena",
+    "template": "cobbleeffort_kanto:gym/hisui_noble_arena",
+    "size": [
+      37,
+      14,
+      37
+    ],
+    "x": 304,
+    "z": -99,
+    "trainers": [],
+    "bosses": [
+      {
+        "label": "Frenzied Noble Lilligant",
+        "props": "lilligant hisuian level=63 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
+        "pos": [
+          18,
+          2,
+          18
+        ],
+        "scale": 2.6,
+        "badge": "hisui_lilligant_seal",
+        "reward": null,
+        "kind": "noble"
+      }
+    ]
+  },
+  {
+    "id": "hisui_noble_arcanine",
+    "label": "Arcanine's Arena",
+    "template": "cobbleeffort_kanto:gym/hisui_noble_arena",
+    "size": [
+      37,
+      14,
+      37
+    ],
+    "x": 188,
+    "z": 259,
+    "trainers": [],
+    "bosses": [
+      {
+        "label": "Frenzied Noble Arcanine",
+        "props": "arcanine hisuian level=66 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
+        "pos": [
+          18,
+          2,
+          18
+        ],
+        "scale": 2.6,
+        "badge": "hisui_arcanine_seal",
+        "reward": null,
+        "kind": "noble"
+      }
+    ]
+  },
+  {
+    "id": "hisui_noble_electrode",
+    "label": "Electrode's Arena",
+    "template": "cobbleeffort_kanto:gym/hisui_noble_arena",
+    "size": [
+      37,
+      14,
+      37
+    ],
+    "x": -188,
+    "z": 259,
+    "trainers": [],
+    "bosses": [
+      {
+        "label": "Frenzied Noble Electrode",
+        "props": "electrode hisuian level=69 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
+        "pos": [
+          18,
+          2,
+          18
+        ],
+        "scale": 2.6,
+        "badge": "hisui_electrode_seal",
+        "reward": null,
+        "kind": "noble"
+      }
+    ]
+  },
+  {
+    "id": "hisui_noble_avalugg",
+    "label": "Avalugg's Arena",
+    "template": "cobbleeffort_kanto:gym/hisui_noble_arena",
+    "size": [
+      37,
+      14,
+      37
+    ],
+    "x": -304,
+    "z": -99,
+    "trainers": [],
+    "bosses": [
+      {
+        "label": "Frenzied Noble Avalugg",
+        "props": "avalugg hisuian level=72 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
+        "pos": [
+          18,
+          2,
+          18
+        ],
+        "scale": 2.6,
+        "badge": "hisui_avalugg_seal",
+        "reward": null,
+        "kind": "noble"
+      }
+    ]
+  }
+]

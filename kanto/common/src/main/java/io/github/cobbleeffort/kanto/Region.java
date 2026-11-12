@@ -17,7 +17,9 @@ public enum Region {
     KALOS("kalos", 6, 650, 721),
     ALOLA("alola", 7, 722, 809),
     GALAR("galar", 8, 810, 905),
-    PALDEA("paldea", 9, 906, 1025);
+    PALDEA("paldea", 9, 906, 1025),
+    /** Hisui: Sinnoh's Pokédex, Hisui's new Pokémon (Wyrdeer..Enamorus) and everything with a Hisuian form. */
+    HISUI("hisui", 4, 387, 493);
 
     public final String id;
     public final int generation;
@@ -35,6 +37,20 @@ public enum Region {
 
     public boolean contains(int dex) {
         return dex >= firstDex && dex <= lastDex;
+    }
+
+    /** Whether this species lives in the region's dimension. */
+    public boolean allows(com.cobblemon.mod.common.pokemon.Species species) {
+        int dex = species.getNationalPokedexNumber();
+        if (this == HISUI) return contains(dex) || (dex >= 899 && dex <= 905) || hasHisuianForm(species);
+        return contains(dex);
+    }
+
+    public static boolean hasHisuianForm(com.cobblemon.mod.common.pokemon.Species species) {
+        for (com.cobblemon.mod.common.pokemon.FormData form : species.getForms()) {
+            if (form.getAspects().contains("hisuian")) return true;
+        }
+        return false;
     }
 
     /** The region whose dimension this is, or null. */

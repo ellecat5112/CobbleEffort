@@ -1,193 +1,225 @@
 [
   {
-    "id": "alola_normal",
-    "label": "Normal Gym",
-    "template": "cobbleeffort_kanto:gym/alola_normal",
+    "id": "alola_trial_normal",
+    "label": "Normal Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_normal",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": 0,
     "z": -320,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_kalani",
+        "label": "Totem Bewear",
+        "props": "bewear level=16 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_normal_badge"
+        "scale": 2.2,
+        "badge": "alola_normal_badge",
+        "reward": "mega_showdown:normalium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_water",
-    "label": "Water Gym",
-    "template": "cobbleeffort_kanto:gym/alola_water",
+    "id": "alola_trial_water",
+    "label": "Water Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_water",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": 226,
     "z": -226,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_makoa",
+        "label": "Totem Golisopod",
+        "props": "golisopod level=21 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_water_badge"
+        "scale": 2.2,
+        "badge": "alola_water_badge",
+        "reward": "mega_showdown:waterium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_fire",
-    "label": "Fire Gym",
-    "template": "cobbleeffort_kanto:gym/alola_fire",
+    "id": "alola_trial_fire",
+    "label": "Fire Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_fire",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": 320,
     "z": 0,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_leilani",
+        "label": "Totem Turtonator",
+        "props": "turtonator level=26 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_fire_badge"
+        "scale": 2.2,
+        "badge": "alola_fire_badge",
+        "reward": "mega_showdown:firium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_grass",
-    "label": "Grass Gym",
-    "template": "cobbleeffort_kanto:gym/alola_grass",
+    "id": "alola_trial_grass",
+    "label": "Grass Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_grass",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": 226,
     "z": 226,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_nalu",
+        "label": "Totem Dhelmise",
+        "props": "dhelmise level=31 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_grass_badge"
+        "scale": 2.2,
+        "badge": "alola_grass_badge",
+        "reward": "mega_showdown:grassium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_electric",
-    "label": "Electric Gym",
-    "template": "cobbleeffort_kanto:gym/alola_electric",
+    "id": "alola_trial_electric",
+    "label": "Electric Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_electric",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": 0,
     "z": 320,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_keoni",
+        "label": "Totem Vikavolt",
+        "props": "vikavolt level=36 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_electric_badge"
+        "scale": 2.2,
+        "badge": "alola_electric_badge",
+        "reward": "mega_showdown:electrium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_ghost",
-    "label": "Ghost Gym",
-    "template": "cobbleeffort_kanto:gym/alola_ghost",
+    "id": "alola_trial_ghost",
+    "label": "Ghost Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_ghost",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": -226,
     "z": 226,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_mahina",
+        "label": "Totem Palossand",
+        "props": "palossand level=41 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_ghost_badge"
+        "scale": 2.2,
+        "badge": "alola_ghost_badge",
+        "reward": "mega_showdown:ghostium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_fairy",
-    "label": "Fairy Gym",
-    "template": "cobbleeffort_kanto:gym/alola_fairy",
+    "id": "alola_trial_fairy",
+    "label": "Fairy Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_fairy",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": -320,
     "z": 0,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_ikaika",
+        "label": "Totem Comfey",
+        "props": "comfey level=46 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_fairy_badge"
+        "scale": 2.2,
+        "badge": "alola_fairy_badge",
+        "reward": "mega_showdown:fairium_z",
+        "kind": "totem"
       }
     ]
   },
   {
-    "id": "alola_ground",
-    "label": "Ground Gym",
-    "template": "cobbleeffort_kanto:gym/alola_ground",
+    "id": "alola_trial_ground",
+    "label": "Ground Trial",
+    "template": "cobbleeffort_kanto:gym/alola_trial_ground",
     "size": [
-      15,
-      9,
-      21
+      33,
+      14,
+      33
     ],
     "x": -226,
     "z": -226,
-    "trainers": [
+    "trainers": [],
+    "bosses": [
       {
-        "npc": "cobbleeffort_kanto:alola_pua",
+        "label": "Totem Mudsdale",
+        "props": "mudsdale level=51 hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true",
         "pos": [
-          7,
-          2,
+          16,
+          1,
           18
         ],
-        "yaw": 180,
-        "badge": "alola_ground_badge"
+        "scale": 2.2,
+        "badge": "alola_ground_badge",
+        "reward": "mega_showdown:groundium_z",
+        "kind": "totem"
       }
     ]
   },

@@ -168,6 +168,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (registered from `kanto/league_items.json`); KantoGyms keys roles/badges/ribbons by Region; sites build via a
   non-persistent chunk ticket (Job queue) so chunk generation never blocks a tick (the watchdog killed a synchronous
   version). `/kanto gyms [region]`, `/kanto rebuild [region]`.
+  0.5.0: Region.HISUI (`allows(Species)`: Sinnoh dex + 899-905 + anything with a Hisuian form, spawned Hisuian;
+  large-biome Hisui biomes), landmark `hisui_mountain` (shell mountain with a cavern core, spiral path, summit ruins,
+  `arceus_statue` = portal `hisui_arceus_statue`); sites may carry `bosses` (KantoGyms: giant uncatchable wild
+  Pokémon tagged `cobbleeffort_kanto_boss` = site id, glowing + particle aura, respawn 3 min after defeat when a player
+  is near, rewards on BATTLE_VICTORY of the wild actor): Hisui's five frenzied Nobles (seals, Hero Ribbon) and
+  Alola's eight totem trials (league_teams.json `alola_totems`, trial stamps = the alola badge ids, MSD Z-Crystals).
+  Built SavedData has a per-region `layout` (layoutOf): a changed layout rebuilds that region (Alola gyms -> trials).
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.

@@ -100,10 +100,17 @@ public final class KantoEvents {
      */
     private static void onlyRegion(PokemonEntity entity, Region region) {
         Pokemon pokemon = entity.getPokemon();
-        if (region.contains(pokemon.getSpecies().getNationalPokedexNumber())) return;
+        if (region.allows(pokemon.getSpecies())) {
+            // Hisui: anything with a Hisuian form appears in it
+            if (region == Region.HISUI && Region.hasHisuianForm(pokemon.getSpecies()) && !pokemon.getAspects().contains("hisuian")) {
+                entity.setPokemon(PokemonProperties.Companion.parse(pokemon.getSpecies().getResourceIdentifier().getPath()
+                        + " hisuian level=" + pokemon.getLevel()).create());
+            }
+            return;
+        }
         List<Species> same = new ArrayList<>(), any = new ArrayList<>();
         for (Species s : PokemonSpecies.getImplemented()) {
-            if (!region.contains(s.getNationalPokedexNumber()) || s.getLabels().contains("legendary") || s.getLabels().contains("mythical")
+            if (!region.allows(s) || s.getLabels().contains("legendary") || s.getLabels().contains("mythical")
                     || s.getLabels().contains("ultra_beast") || s.getLabels().contains("paradox")) continue;
             any.add(s);
             if (s.getPrimaryType() == pokemon.getSpecies().getPrimaryType()) same.add(s);
@@ -111,7 +118,9 @@ public final class KantoEvents {
         List<Species> pool = same.isEmpty() ? any : same;
         if (pool.isEmpty()) return;
         Species pick = pool.get(RANDOM.nextInt(pool.size()));
-        Pokemon replacement = PokemonProperties.Companion.parse(pick.getResourceIdentifier().getPath() + " level=" + pokemon.getLevel()).create();
+        String hisuian = region == Region.HISUI && Region.hasHisuianForm(pick) ? " hisuian" : "";
+        Pokemon replacement = PokemonProperties.Companion.parse(pick.getResourceIdentifier().getPath() + hisuian
+                + " level=" + pokemon.getLevel()).create();
         entity.setPokemon(replacement);
     }
 

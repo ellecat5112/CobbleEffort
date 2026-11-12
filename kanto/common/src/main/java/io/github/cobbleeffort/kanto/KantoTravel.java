@@ -109,6 +109,7 @@ public final class KantoTravel {
             case ALOLA -> new String[]{"minecraft:cut_sandstone", "minecraft:smooth_sandstone"};
             case GALAR -> new String[]{"minecraft:stone_bricks", "minecraft:polished_andesite"};
             case PALDEA -> new String[]{"minecraft:orange_terracotta", "minecraft:smooth_quartz"};
+            case HISUI -> new String[]{"minecraft:polished_diorite", "minecraft:calcite"};
         };
         for (int dx = -2; dx <= 2; dx++) {
             for (int dz = -2; dz <= 2; dz++) {
@@ -130,7 +131,7 @@ public final class KantoTravel {
                 for (int dx = -1; dx <= 1; dx++) level.setBlock(p.offset(dx, 3, 0), block("minecraft:dark_oak_planks"), 3);
                 level.setBlock(p.above(2), portal.defaultBlockState(), 3);
             }
-            case HOENN -> {
+            case HOENN, HISUI -> {
                 level.setBlock(p, portal.defaultBlockState(), 3);
                 level.setBlock(p.above(), portal.defaultBlockState(), 3);
             }

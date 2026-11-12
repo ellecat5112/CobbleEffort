@@ -84,6 +84,15 @@ def main():
                 levels = [54 + (k - 8) * 2 + i for i in range(len(team))]
             trainers.append({"type": t, "team": [f"{s} level={lv}" for s, lv in zip(team, levels)]})
         leagues[region] = trainers
+        if region == "alola":                                    # each trial's totem: the type's strongest wild Pokémon
+            starters = {"rowlet", "dartrix", "decidueye", "litten", "torracat", "incineroar", "popplio", "brionne", "primarina"}
+            used, totems = set(), {}
+            for t in types[:8]:
+                options = sorted((x for x in by_type[t] if x not in starters and x not in used),
+                                 key=lambda s_: (-local[s_]["bst"], s_))
+                totems[t] = options[0]
+                used.add(options[0])
+            leagues["alola_totems"] = totems
         print(region, [t["type"] for t in trainers])
     (HERE / "league_teams.json").write_text(json.dumps(leagues, indent=1) + "\n")
 

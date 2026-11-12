@@ -125,6 +125,87 @@ def hue_of(rgb):
     return colorsys.rgb_to_hsv(*(v / 255 for v in rgb))[0] * 360
 
 
+# --- boss sites: Hisui's frenzied Nobles, Alola's totem trials -----------------------------------------------------------
+NOBLES = [   # species properties, the Noble's label, type for its seal, level
+    ("kleavor", "Kleavor", "bug", 60), ("lilligant hisuian", "Lilligant", "grass", 63),
+    ("arcanine hisuian", "Arcanine", "fire", 66), ("electrode hisuian", "Electrode", "electric", 69),
+    ("avalugg hisuian", "Avalugg", "ice", 72)]
+BOSS_STATS = "hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 uncatchable=true"
+Z_CRYSTAL = {"normal": "normalium_z", "water": "waterium_z", "fire": "firium_z", "grass": "grassium_z", "electric": "electrium_z",
+             "ghost": "ghostium_z", "fairy": "fairium_z", "ground": "groundium_z", "rock": "rockium_z", "flying": "flyinium_z",
+             "bug": "buginium_z", "fighting": "fightinium_z", "psychic": "psychium_z", "ice": "icium_z", "dragon": "dragonium_z",
+             "dark": "darkinium_z", "steel": "steelium_z", "poison": "poisonium_z"}
+
+
+def noble_arena():
+    """A Noble's arena (original): a clearing ringed by standing stones with four burning braziers, a stone dais in
+    the middle where the frenzied Noble waits, the way in from the north."""
+    W = 37
+    c = W // 2
+    t = ma.Template((W, 14, W))
+    for x in range(W):
+        for z in range(W):
+            d = math.hypot(x - c, z - c)
+            if d > 17.5:
+                continue
+            t.set(x, 0, z, "minecraft:" + ("packed_mud" if ma.h(x, z, 1) > 0.6 else "coarse_dirt" if ma.h(x, z, 2) > 0.5 else "grass_block"))
+            for y in range(1, 14):
+                t.set(x, y, z, "minecraft:air")
+            if d <= 3.5:
+                t.set(x, 1, z, "minecraft:stone_bricks" if d > 2.5 else "minecraft:chiseled_stone_bricks")
+    for k in range(12):
+        a = k / 12 * 2 * math.pi + math.pi / 12
+        if abs(math.sin(a) + 1) < 0.3:
+            continue                                           # the gap facing north
+        x, z = int(round(c + math.cos(a) * 15.5)), int(round(c + math.sin(a) * 15.5))
+        for y in range(1, 3 + int(ma.h(k, 3) * 3)):
+            t.set(x, y, z, "minecraft:mossy_cobblestone" if y == 1 else "minecraft:cobblestone")
+    for dx, dz in ((-9, -9), (9, -9), (-9, 9), (9, 9)):
+        t.set(c + dx, 1, c + dz, "minecraft:stone_bricks")
+        t.set(c + dx, 2, c + dz, "minecraft:campfire", {"facing": "north", "lit": "true", "signal_fire": "false", "waterlogged": "false"})
+    return t, (c, 2, c)
+
+
+def totem_trial(typ):
+    """A totem trial ground (original): a clearing in the type's colours ringed by carved wooden totem poles, flowers
+    round the edge, a trial gate on the north side, and the totem's den in the middle."""
+    stripe, floor, pillar, light = TYPES[typ][0]
+    W = 33
+    c = W // 2
+    t = ma.Template((W, 14, W))
+    for x in range(W):
+        for z in range(W):
+            d = math.hypot(x - c, z - c)
+            if d > 15.5:
+                continue
+            t.set(x, 0, z, "minecraft:grass_block" if d > 12 else (floor if (x + z) % 3 else "minecraft:smooth_sandstone"),
+                  ma._block(floor)[1] if d <= 12 and (x + z) % 3 else None)
+            for y in range(1, 14):
+                t.set(x, y, z, "minecraft:air")
+            if 13 < d <= 15 and ma.h(x, z, 5) > 0.55:
+                t.set(x, 1, z, "minecraft:" + ["poppy", "dandelion", "blue_orchid", "allium", "oxeye_daisy"][int(ma.h(x, z, 6) * 5)])
+            if d <= 4.5:
+                t.set(x, 0, z, *ma._block(stripe))
+    for k in range(8):
+        a = k / 8 * 2 * math.pi + math.pi / 8
+        x, z = int(round(c + math.cos(a) * 11)), int(round(c + math.sin(a) * 11))
+        for y in range(1, 6):
+            t.set(x, y, z, "minecraft:stripped_jungle_log" if y % 2 else "minecraft:jungle_wood", {"axis": "y"})
+        t.set(x, 6, z, *ma._block(light))
+    for sx in (-3, 3):                                          # the trial gate
+        for y in range(1, 6):
+            t.set(c + sx, y, 2, "minecraft:stripped_jungle_log", {"axis": "y"})
+    for x in range(c - 4, c + 5):
+        t.set(x, 6, 2, *ma._block(stripe))
+    return t, (c, 1, c + 2)
+
+
+def boss_badge_art(typ, colour, bid, label):
+    save(badge(typ, colour), A / "textures" / "item" / f"{bid}.png")
+    write_json(A / "models" / "item" / f"{bid}.json", {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/{bid}"}})
+    LANG[f"item.{MOD}.{bid}"] = label
+
+
 def build():
     teams = json.loads((HERE / "league_teams.json").read_text())
     items = []
@@ -162,6 +243,24 @@ def build():
         # the buildings: Kanto's gym design in each type's blocks, around the dimension's centre; the hall in the middle
         for i, leader in enumerate(leaders[:8]):
             typ = leader[3]
+            if region == "alola":                               # totem trials instead of gyms
+                t, pos = totem_trial(typ)
+                p = D / "structure" / "gym" / f"alola_trial_{typ}.nbt"
+                p.parent.mkdir(parents=True, exist_ok=True)
+                p.write_bytes(Nbt.file(t.data()))
+                ang = math.radians(i * 45)
+                bid = f"{region}_{typ}_badge"
+                items.append(bid)
+                ace = teams["alola_totems"][typ]
+                level = 16 + i * 5
+                sites.append({"id": f"alola_trial_{typ}", "label": f"{typ.title()} Trial", "template": f"{MOD}:gym/alola_trial_{typ}",
+                              "size": list(t.size), "x": int(round(math.sin(ang) * 320)), "z": int(round(-math.cos(ang) * 320)),
+                              "trainers": [],
+                              "bosses": [{"label": f"Totem {ace.title()}", "props": f"{ace} level={level} {BOSS_STATS}", "pos": list(pos),
+                                          "scale": 2.2, "badge": bid, "reward": f"mega_showdown:{Z_CRYSTAL.get(typ, 'normalium_z')}",
+                                          "kind": "totem"}]})
+                boss_badge_art(typ, REGION_COLOUR[region], bid, f"Alola {typ.title()} Trial Stamp")
+                continue
             t, pos = ma.gym(leader)
             p = D / "structure" / "gym" / f"{region}_{typ}.nbt"
             p.parent.mkdir(parents=True, exist_ok=True)
@@ -188,12 +287,38 @@ def build():
         save(ribbon(REGION_COLOUR[region]), A / "textures" / "item" / f"{rid}.png")
         write_json(A / "models" / "item" / f"{rid}.json", {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/{rid}"}})
         LANG[f"item.{MOD}.{rid}"] = f"{Region} Champion Ribbon"
+    # Hisui: no gyms; five arenas round the centre where frenzied Nobles wait
+    sites = []
+    t, pos = noble_arena()
+    p = D / "structure" / "gym" / "hisui_noble_arena.nbt"
+    p.write_bytes(Nbt.file(t.data()))
+    for i, (props, label, typ, level) in enumerate(NOBLES):
+        ang = math.radians(i * 72)
+        bid = f"hisui_{label.lower()}_seal"
+        items.append(bid)
+        sites.append({"id": f"hisui_noble_{label.lower()}", "label": f"{label}'s Arena", "template": f"{MOD}:gym/hisui_noble_arena",
+                      "size": list(t.size), "x": int(round(math.sin(ang) * 320)), "z": int(round(-math.cos(ang) * 320)), "trainers": [],
+                      "bosses": [{"label": f"Frenzied Noble {label}", "props": f"{props} level={level} {BOSS_STATS}", "pos": list(pos),
+                                  "scale": 2.6, "badge": bid, "reward": None, "kind": "noble"}]})
+        boss_badge_art(typ, (230, 180, 60), bid, f"{label} Noble Seal")
+    write_json(D / "kanto" / "sites_hisui.json", sites)
+    items.append("hisui_champion_ribbon")
+    save(ribbon((220, 170, 40)), A / "textures" / "item" / "hisui_champion_ribbon.png")
+    write_json(A / "models" / "item" / "hisui_champion_ribbon.json", {"parent": "minecraft:item/generated",
+                                                                    "textures": {"layer0": f"{MOD}:item/hisui_champion_ribbon"}})
+    LANG[f"item.{MOD}.hisui_champion_ribbon"] = "Hisui Hero Ribbon"
     # the items Java registers (badges and ribbons for every region but Kanto, whose are in Kanto.java)
     write_json(D / "kanto" / "league_items.json", items)
     LANG.update({
         f"{MOD}.gyms.list.region": "%s's gyms and the Elite Four (x, z): %s",
         f"{MOD}.elite.locked.region": "%s's Elite Four only face trainers with all 8 of its badges (you have %s).",
         f"{MOD}.champion.region": "You defeated %s's Elite Four: you're its Champion!",
+        f"{MOD}.hero.hisui": "You calmed all five frenzied Nobles: you're the Hero of Hisui!",
+        f"{MOD}.gyms.list.hisui": "Hisui's Noble arenas (x, z): %s",
+        f"{MOD}.gyms.list.alola": "Alola's totem trials and Elite Four (x, z): %s",
+        f"{MOD}.boss.calmed": "%s was calmed! You earned the %s (%s of %s).",
+        f"{MOD}.boss.cleared": "%s was defeated! Trial cleared: you earned the %s (%s of %s).",
+        f"{MOD}.boss.reward": "...and received %s!",
     })
     return items
 

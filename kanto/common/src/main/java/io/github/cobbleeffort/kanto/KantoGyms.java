@@ -117,8 +117,26 @@ public final class KantoGyms {
     record Trainer(ResourceLocation npc, int x, int y, int z, float yaw, String badge, boolean elite) {
     }
 
-    record Site(String id, String label, ResourceLocation template, int w, int h, int d, int x, int z, List<Trainer> trainers) {
+    record Site(String id, String label, ResourceLocation template, int w, int h, int d, int x, int z, List<Trainer> trainers,
+                List<Boss> bosses) {
     }
+
+    /** A boss (Hisui's frenzied Nobles, Alola's totems): a giant, uncatchable wild Pokémon guarding its site. */
+    record Boss(String label, String props, int x, int y, int z, float scale, String badge, String reward, String kind) {
+    }
+
+    /** Boss tag on the Pokémon's persistent data: the site id it guards. */
+    static final String BOSS_KEY = Kanto.MOD_ID + "_boss";
+    /** Each region's layout: when it changes (Alola's gyms became trials in 0.5.0), the region is rebuilt. */
+    static String layoutOf(Region r) {
+        return r == Region.ALOLA ? "trials-1" : r == Region.HISUI ? "nobles-1" : "gyms-1";
+    }
+
+    private static final Map<String, Site> SITE_BY_ID = new HashMap<>();
+    private static final Map<String, Region> REGION_BY_SITE = new HashMap<>();
+    /** When each boss was last defeated (server ticks): it comes back a few minutes later. */
+    private static final Map<String, Long> DEFEATED = new HashMap<>();
+    static final long RESPAWN_TICKS = 20 * 60 * 3;
 
     static String nameOf(Region r) {
         return r.id.substring(0, 1).toUpperCase() + r.id.substring(1);
@@ -147,8 +165,23 @@ public final class KantoGyms {
                     trainers.add(tr);
                     ROLES.put(tr.npc(), new Role(region, tr.badge() != null ? tr.badge() : ""));
                 }
-                list.add(new Site(o.get("id").getAsString(), o.get("label").getAsString(), ResourceLocation.parse(o.get("template").getAsString()),
-                        size.get(0).getAsInt(), size.get(1).getAsInt(), size.get(2).getAsInt(), o.get("x").getAsInt(), o.get("z").getAsInt(), trainers));
+                List<Boss> bosses = new ArrayList<>();
+                if (o.has("bosses")) {
+                    for (JsonElement be : o.getAsJsonArray("bosses")) {
+                        JsonObject b = be.getAsJsonObject();
+                        JsonArray pos = b.getAsJsonArray("pos");
+                        bosses.add(new Boss(b.get("label").getAsString(), b.get("props").getAsString(), pos.get(0).getAsInt(),
+                                pos.get(1).getAsInt(), pos.get(2).getAsInt(), b.get("scale").getAsFloat(), b.get("badge").getAsString(),
+                                b.has("reward") && !b.get("reward").isJsonNull() ? b.get("reward").getAsString() : null,
+                                b.get("kind").getAsString()));
+                    }
+                }
+                Site site = new Site(o.get("id").getAsString(), o.get("label").getAsString(), ResourceLocation.parse(o.get("template").getAsString()),
+                        size.get(0).getAsInt(), size.get(1).getAsInt(), size.get(2).getAsInt(), o.get("x").getAsInt(), o.get("z").getAsInt(),
+                        trainers, bosses);
+                list.add(site);
+                SITE_BY_ID.put(site.id(), site);
+                REGION_BY_SITE.put(site.id(), region);
             }
         } catch (Exception ex) {
             Kanto.LOG.error("Couldn't read {}'s sites", region.id, ex);
@@ -163,7 +196,10 @@ public final class KantoGyms {
     /** The badge item ids of a region's gyms. */
     static List<String> badgesOf(Region region) {
         List<String> out = new ArrayList<>();
-        for (Site s : sites(region)) for (Trainer t : s.trainers()) if (t.badge() != null) out.add(t.badge());
+        for (Site s : sites(region)) {
+            for (Trainer t : s.trainers()) if (t.badge() != null) out.add(t.badge());
+            for (Boss b : s.bosses()) out.add(b.badge());
+        }
         return out;
     }
 
@@ -176,6 +212,14 @@ public final class KantoGyms {
             } catch (Throwable t) {
                 QUEUE.poll();
                 Kanto.LOG.error("Building a Kanto site failed", t);
+            }
+        });
+        TickEvent.SERVER_POST.register(server -> {
+            if (server.getTickCount() % 20 != 0) return;
+            try {
+                bossTick(server);
+            } catch (Throwable t) {
+                Kanto.LOG.error("Kanto boss tick failed", t);
             }
         });
         CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.NORMAL, event -> {
@@ -213,16 +257,19 @@ public final class KantoGyms {
         List<String> where = new ArrayList<>();
         for (Site s : sites(region)) where.add(s.label() + " " + s.x() + ", " + s.z());
         if (region == Region.KANTO) return Component.translatable(Kanto.MOD_ID + ".gyms.list", String.join("; ", where));
+        if (region == Region.HISUI || region == Region.ALOLA)
+            return Component.translatable(Kanto.MOD_ID + ".gyms.list." + region.id, String.join("; ", where));
         return Component.translatable(Kanto.MOD_ID + ".gyms.list.region", nameOf(region), String.join("; ", where));
     }
 
     /** Queue a region's sites' building (once, or again when forced: /kanto rebuild). True when queued now. */
     static boolean ensureBuilt(ServerLevel level, Region region, boolean force) {
         Built built = built(level);
-        if ((built.done && !force) || built.queued) return false;
+        if ((built.done && !force && layoutOf(region).equals(built.layout)) || built.queued) return false;
         built.queued = true;
         for (Site site : sites(region)) QUEUE.add(new Job(level, site, null));
         QUEUE.add(new Job(level, null, () -> {
+            built.layout = layoutOf(region);
             built.done = true;
             built.queued = false;
             built.setDirty();
@@ -288,11 +335,14 @@ public final class KantoGyms {
             }
         }
         template.placeInWorld(level, origin, origin, settings, level.getRandom(), 2);
-        for (Trainer t : site.trainers()) {
-            for (NPCEntity old : level.getEntitiesOfClass(NPCEntity.class, new net.minecraft.world.phys.AABB(origin).inflate(half * 2 + 4, 20, half * 2 + 4),
-                    e -> e.getNpc() != null && t.npc().equals(e.getNpc().getResourceIdentifier()))) {
-                old.discard();
-            }
+        net.minecraft.world.phys.AABB area = new net.minecraft.world.phys.AABB(origin).inflate(half * 2 + 4, 24, half * 2 + 4);
+        for (NPCEntity old : level.getEntitiesOfClass(NPCEntity.class, area,
+                e -> e.getNpc() != null && Kanto.MOD_ID.equals(e.getNpc().getResourceIdentifier().getNamespace()))) {
+            ((net.minecraft.world.entity.Entity) old).discard();             // ours (incl. a layout's old trainers)
+        }
+        for (com.cobblemon.mod.common.entity.pokemon.PokemonEntity old : level.getEntitiesOfClass(
+                com.cobblemon.mod.common.entity.pokemon.PokemonEntity.class, area, KantoGyms::isBoss)) {
+            ((net.minecraft.world.entity.Entity) old).discard();
         }
         for (Trainer t : site.trainers()) {
             NPCClass npcClass = NPCClasses.getByIdentifier(t.npc());
@@ -312,7 +362,115 @@ public final class KantoGyms {
             npc.setPersistenceRequired();
             level.addFreshEntity(npc);
         }
+        for (Boss b : site.bosses()) {
+            BlockPos at = origin.offset(StructureTemplate.calculateRelativePosition(settings, new BlockPos(b.x(), b.y(), b.z())));
+            CompoundTag pos = new CompoundTag();
+            pos.putInt("x", at.getX());
+            pos.putInt("y", at.getY());
+            pos.putInt("z", at.getZ());
+            Built built = built(level);
+            built.bosses.put(site.id(), pos);
+            built.setDirty();
+            spawnBoss(level, site, b, at);
+        }
         Kanto.LOG.info("Built {} at {}", site.label(), origin);
+    }
+
+    // --- bosses -----------------------------------------------------------------------------------------------------
+
+    static boolean isBoss(com.cobblemon.mod.common.entity.pokemon.PokemonEntity e) {
+        return e.getPokemon().getPersistentData().contains(BOSS_KEY);
+    }
+
+    private static void spawnBoss(ServerLevel level, Site site, Boss b, BlockPos at) {
+        com.cobblemon.mod.common.pokemon.Pokemon pokemon = com.cobblemon.mod.common.api.pokemon.PokemonProperties.Companion.parse(b.props()).create();
+        pokemon.setScaleModifier(b.scale());
+        pokemon.getPersistentData().putString(BOSS_KEY, site.id());
+        com.cobblemon.mod.common.entity.pokemon.PokemonEntity entity = new com.cobblemon.mod.common.entity.pokemon.PokemonEntity(
+                level, pokemon, com.cobblemon.mod.common.CobblemonEntities.POKEMON);
+        net.minecraft.world.entity.Mob mob = entity;
+        mob.moveTo(at.getX() + 0.5, at.getY(), at.getZ() + 0.5, level.getRandom().nextFloat() * 360F, 0F);
+        mob.setPersistenceRequired();
+        mob.setCustomName(Component.literal(b.label()));
+        mob.setCustomNameVisible(true);
+        mob.addEffect(new net.minecraft.world.effect.MobEffectInstance(net.minecraft.world.effect.MobEffects.GLOWING, 20 * 30, 0, false, false));
+        level.addFreshEntity(mob);
+    }
+
+    /** Every second: the bosses' auras (gold sparks for a frenzied Noble, a yellow glow for a totem), and bosses
+     *  coming back a few minutes after they're beaten, when someone is near their site. */
+    private static void bossTick(MinecraftServer server) {
+        long now = server.getTickCount();
+        for (Region region : new Region[]{Region.HISUI, Region.ALOLA}) {
+            ServerLevel level = server.getLevel(region.dimension);
+            if (level == null || level.players().isEmpty()) continue;
+            Built built = built(level);
+            for (Site site : sites(region)) {
+                if (site.bosses().isEmpty() || !built.bosses.contains(site.id())) continue;
+                CompoundTag p = built.bosses.getCompound(site.id());
+                BlockPos at = new BlockPos(p.getInt("x"), p.getInt("y"), p.getInt("z"));
+                if (!level.isLoaded(at) || level.getNearestPlayer(at.getX(), at.getY(), at.getZ(), 64, false) == null) continue;
+                var bosses = level.getEntitiesOfClass(com.cobblemon.mod.common.entity.pokemon.PokemonEntity.class,
+                        new net.minecraft.world.phys.AABB(at).inflate(40), e -> site.id().equals(e.getPokemon().getPersistentData().getString(BOSS_KEY)));
+                for (var e : bosses) {
+                    net.minecraft.world.entity.Entity ent = e;
+                    net.minecraft.world.entity.LivingEntity living = e;
+                    if (!living.hasEffect(net.minecraft.world.effect.MobEffects.GLOWING)) {          // the aura's outline
+                        living.addEffect(new net.minecraft.world.effect.MobEffectInstance(net.minecraft.world.effect.MobEffects.GLOWING,
+                                20 * 30, 0, false, false));
+                    }
+                    boolean noble = "noble".equals(site.bosses().get(0).kind());
+                    level.sendParticles(noble ? net.minecraft.core.particles.ParticleTypes.FLAME : net.minecraft.core.particles.ParticleTypes.END_ROD,
+                            ent.getX(), ent.getY() + ent.getBbHeight() * 0.5, ent.getZ(), 12, ent.getBbWidth() * 0.6, ent.getBbHeight() * 0.4,
+                            ent.getBbWidth() * 0.6, 0.02);
+                    if (noble) level.sendParticles(new net.minecraft.core.particles.DustParticleOptions(new org.joml.Vector3f(1F, 0.75F, 0.1F), 2F),
+                            ent.getX(), ent.getY() + ent.getBbHeight() * 0.6, ent.getZ(), 10, ent.getBbWidth() * 0.7, ent.getBbHeight() * 0.5,
+                            ent.getBbWidth() * 0.7, 0);
+                }
+                if (bosses.isEmpty() && now - DEFEATED.getOrDefault(site.id(), -RESPAWN_TICKS) >= RESPAWN_TICKS) {
+                    for (Boss b : site.bosses()) spawnBoss(level, site, b, at);
+                }
+            }
+        }
+    }
+
+    /** A wild boss beaten: its badge (seal or trial stamp) and reward to the winners, once each. */
+    private static void bossDefeated(List<BattleActor> winners, BattleActor loser) {
+        for (var bp : loser.getPokemonList()) {
+            String siteId = bp.getOriginalPokemon().getPersistentData().getString(BOSS_KEY);
+            if (siteId.isEmpty()) continue;
+            Site site = SITE_BY_ID.get(siteId);
+            Region region = REGION_BY_SITE.get(siteId);
+            if (site == null || region == null || site.bosses().isEmpty()) continue;
+            Boss boss = site.bosses().get(0);
+            for (BattleActor w : winners) {
+                if (!(w instanceof PlayerBattleActor p) || p.getEntity() == null) continue;
+                ServerPlayer player = p.getEntity();
+                DEFEATED.put(siteId, (long) player.server.getTickCount());
+                Progress progress = progress(player.server);
+                List<String> badges = progress.badges(player);
+                if (badges.contains(boss.badge())) continue;
+                badges.add(boss.badge());
+                progress.save(player, "badges", badges);
+                Item item = BuiltInRegistries.ITEM.get(Kanto.id(boss.badge()));
+                give(player, new ItemStack(item));
+                List<String> needed = badgesOf(region);
+                long mine = needed.stream().filter(badges::contains).count();
+                player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ("noble".equals(boss.kind()) ? ".boss.calmed" : ".boss.cleared"),
+                        boss.label(), item.getDescription(), mine, needed.size()));
+                if (boss.reward() != null) {
+                    Item reward = BuiltInRegistries.ITEM.get(ResourceLocation.parse(boss.reward()));
+                    if (reward != net.minecraft.world.item.Items.AIR) {
+                        give(player, new ItemStack(reward));
+                        player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".boss.reward", reward.getDescription()));
+                    }
+                }
+                if (region == Region.HISUI && mine == needed.size()) {
+                    give(player, new ItemStack(BuiltInRegistries.ITEM.get(Kanto.id("hisui_champion_ribbon"))));
+                    player.sendSystemMessage(Component.translatable(Kanto.MOD_ID + ".hero.hisui"));
+                }
+            }
+        }
     }
 
     // --- badges and the Elite Four ----------------------------------------------------------------------------------
@@ -352,6 +510,10 @@ public final class KantoGyms {
     private static void victory(List<BattleActor> winners, List<BattleActor> losers) {
         loadAll();
         for (BattleActor loser : losers) {
+            if (loser instanceof com.cobblemon.mod.common.battles.actor.PokemonBattleActor) {
+                bossDefeated(winners, loser);
+                continue;
+            }
             if (!(loser instanceof NPCBattleActor npc)) continue;
             ResourceLocation id = classOf(npc);
             Role role = ROLES.get(id);
@@ -402,17 +564,24 @@ public final class KantoGyms {
 
     static final class Built extends SavedData {
         boolean done;
+        String layout = "gyms-1";
+        /** Where each site's bosses stand (site id -> {x, y, z}), for their respawns. */
+        CompoundTag bosses = new CompoundTag();
         transient boolean queued;
 
         static Built load(CompoundTag tag, HolderLookup.Provider registries) {
             Built b = new Built();
             b.done = tag.getBoolean("done");
+            if (tag.contains("layout")) b.layout = tag.getString("layout");
+            b.bosses = tag.getCompound("bosses");
             return b;
         }
 
         @Override
         public CompoundTag save(CompoundTag tag, HolderLookup.Provider registries) {
             tag.putBoolean("done", done);
+            tag.putString("layout", layout);
+            tag.put("bosses", bosses);
             return tag;
         }
     }

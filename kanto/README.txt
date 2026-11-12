@@ -112,7 +112,28 @@ EVERY REGION'S LEAGUE (NEW in 0.4.0)
   Operators: /kanto rebuild (the region you're in) or /kanto rebuild <region> builds the gyms and trainers again.
   Building waits for the area to load in the background, so arriving in a new region doesn't freeze the server.
 
+HISUI, NOBLES AND TOTEM TRIALS (NEW in 0.5.0)
+  - Hisui: a new region dimension (fieldlands, mirelands, coastlands, highlands, icelands). Its Pokemon are Sinnoh's
+    Pokedex, Hisui's own new Pokemon (Wyrdeer, Kleavor, Ursaluna, Basculegion, Sneasler, Overqwil, Enamorus) and
+    everything that has a Hisuian form, which always appears IN its Hisuian form there.
+  - The way in: the Hisui Great Mountain, a huge snow-capped mountain (about 150 blocks high, nearly 200 across) with
+    a path spiralling up to ruined white pillars at the summit, a great cavern inside (tunnel at the south foot), and
+    on the summit a stone sculpture of Arceus with a golden cross-wheel. Touch any part of the sculpture to go to
+    Hisui (and back). It generates in plains, meadows, taiga and snowy lands: /locate structure
+    cobbleeffort_kanto:hisui_great_mountain
+  - Instead of gyms, Hisui has five FRENZIED NOBLE arenas round its centre (/kanto gyms): giant glowing Nobles
+    wreathed in fire and gold sparks: Kleavor (60), Hisuian Lilligant (63), Hisuian Arcanine (66), Hisuian Electrode
+    (69), Hisuian Avalugg (72). They can't be caught: beat one to calm it and earn its Noble Seal; calm all five for
+    the Hisui Hero Ribbon. A calmed Noble returns a few minutes later.
+  - Alola now has TOTEM TRIALS instead of gyms: eight trial grounds (totem poles, a trial gate, a ring of flowers),
+    each guarded by a giant glowing Totem Pokemon of the trial's type: Bewear, Golisopod, Turtonator, Dhelmise,
+    Vikavolt, Palossand, Comfey and Mudsdale (levels 16-51). Beat the totem to clear the trial: you get its Trial
+    Stamp and the type's Z-Crystal from Mega Showdown. Alola's Elite Four still wants all eight stamps.
+    (In a world from 0.4.0, Alola's gyms are replaced by the trials the next time someone arrives in Alola.)
+
 PLEASE TEST AND REPORT
+  0.5.0: find the great mountain and climb to the sculpture; in Hisui, do Pokemon appear in their Hisuian forms,
+  and can you battle and calm the Nobles? In Alola, do the totems appear, and do you get the stamp and Z-Crystal?
   0.4.0: travel to another region: do its gyms appear (/kanto gyms), can you battle its leaders, do you get its
   badges, and does its Elite Four ask for that region's eight badges?
   0.3.0: /locate each landmark, use its portal (and the pad's portal to come back). Do the right Pokemon spawn in
@@ -128,6 +149,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.5.0: Hisui (dimension, great mountain with the Arceus sculpture, Hisuian forms, five frenzied Noble boss arenas,
+         Noble Seals, Hisui Hero Ribbon); Alola's gyms became totem trials (totem bosses, trial stamps, Z-Crystals).
   0.4.0: every region (Johto to Paldea) has its own eight gyms, Elite Four, badges and Champion Ribbon; gym building
          loads its chunks in the background (no server freeze).
   0.3.0: Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar and Paldea: a dimension each (only that generation's
