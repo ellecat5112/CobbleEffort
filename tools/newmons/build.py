@@ -281,6 +281,76 @@ SPECIES.update({
 })
 LINES["mantis"] = ["prayling", "mawntis", "mantasma"]
 
+# --- the mummy line (the CobbleEffort water starter) ----------------------------------------------------------------
+
+MUMMY_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "snore", "endure", "waterpulse", "surf",
+            "hydropump", "raindance", "scald", "chillingwater", "liquidation", "bugbuzz", "uturn", "strugglebug",
+            "pounce", "lunge", "terablast", "stringshot", "bugbite", "icebeam", "blizzard", "icywind", "shadowball",
+            "hex", "curse", "round", "toxic", "sandstorm", "brine"]
+MUMMY_TM_COCOON = ["irondefense", "harden", "bodypress"]
+MUMMY_TM_FINAL = ["xscissor", "swordsdance", "aquacutter", "leafblade", "nightslash", "aerialace", "agility",
+                  "gigaimpact", "hyperbeam", "wavecrash", "leechlife", "focusenergy", "psychocut"]
+MUMMY_EGG = ["destinybond", "aquaring", "stickyweb", "mirrorcoat", "haze", "infestation"]
+MUMMY_EARLY = [(1, "tackle"), (1, "stringshot"), (4, "watergun"), (8, "bugbite"), (11, "curse"), (14, "bubblebeam")]
+MUMMY = dict(male=0.875, egg_groups=["bug", "water_1"], catch=45, friendship=50, abilities=["pharaohscurse", "h:torrent"],
+             ability_names="Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack "
+                           "and Sp. Atk) / Torrent (hidden)")
+
+SPECIES.update({
+    "mumpillar": {
+        "dex": 3010, "name": "Mumpillar", "line": "mummy", "types": ["water", "bug"], **MUMMY,
+        "stats": stats(50, 52, 48, 52, 57, 50), "ev": evs(special_defence=1), "exp": 62,
+        "height": 4, "weight": 95, "shoulder": True, "walk": 0.2,
+        "moves": MUMMY_EARLY + [(18, "waterpulse"), (22, "strugglebug"), (26, "hex"), (30, "aquatail"),
+                                (34, "lunge"), (38, "hydropump")],
+        "tm": MUMMY_TM, "egg": MUMMY_EGG,
+        "evolve": ("sarcoon", 16, ["harden"]),
+        "drops": [("minecraft:string", "1-2", None), ("minecraft:paper", "0-1", None), ("cobblemon:mystic_water", None, 5.0)],
+        "entry": ("It wraps itself in strips of silk soaked in river water and never takes them off. Old tales say "
+                  "anyone who unwraps one is cursed, and that it cannot be finished off: struck down, it rises again "
+                  "angrier than before."),
+        "spawns": [
+            spawn("mumpillar-oasis", "ultra-rare", "5-15", 1.0,
+                  {"canSeeSky": True, "biomes": ["#cobblemon:is_desert"], "neededNearbyBlocks": ["minecraft:water"]}),
+        ],
+        "how": ["A CobbleEffort starter: pick it at the starter screen (the CobbleEffort page, with Coalarva).",
+                "Wild: very rare in deserts next to water (an oasis).", "Evolves into Sarcoon at level 16."],
+    },
+    "sarcoon": {
+        "dex": 3011, "name": "Sarcoon", "line": "mummy", "types": ["water", "bug"], **MUMMY,
+        "stats": stats(65, 55, 100, 55, 90, 40), "ev": evs(defence=2), "exp": 142,
+        "height": 10, "weight": 410, "shoulder": False, "walk": 0.1,
+        "moves": [(1, "harden")] + MUMMY_EARLY + [(16, "harden"), (20, "aquaring"), (24, "irondefense"),
+                                                 (28, "waterpulse"), (32, "hex"), (35, "lunge")],
+        "tm": MUMMY_TM + MUMMY_TM_COCOON, "egg": MUMMY_EGG,
+        "evolve": ("pharantis", 36, ["liquidation"]),
+        "drops": [("minecraft:string", "1-3", None), ("minecraft:gold_nugget", "1-3", None), ("cobblemon:mystic_water", None, 10.0)],
+        "entry": ("Its silk hardens into a coffin painted like a pharaoh's. It lies still for weeks, but anything "
+                  "foolish enough to pry at the lid wakes the curse, and the case's eyes light up."),
+        "spawns": [],
+        "how": ["Evolve Mumpillar at level 16."],
+    },
+    "pharantis": {
+        "dex": 3012, "name": "Pharantis", "line": "mummy", "types": ["water", "bug"], **MUMMY,
+        "stats": stats(75, 110, 70, 100, 74, 105), "ev": evs(speed=3), "exp": 265,
+        "height": 16, "weight": 620, "shoulder": False, "walk": 0.38,
+        "moves": [(1, "liquidation"), (1, "harden")] + MUMMY_EARLY +
+                 [(16, "harden"), (20, "aquaring"), (24, "irondefense"), (28, "waterpulse"), (32, "hex"),
+                  (36, "liquidation"), (40, "aquacutter"), (44, "xscissor"), (48, "swordsdance"), (52, "uturn"),
+                  (56, "wavecrash"), (62, "megahorn")],
+        "tm": MUMMY_TM + MUMMY_TM_COCOON + MUMMY_TM_FINAL, "egg": MUMMY_EGG,
+        "evolve": None,
+        "drops": [("minecraft:gold_ingot", "0-2", None), ("minecraft:string", "1-3", None),
+                  ("cobblemon:mystic_water", None, 15.0)],
+        "entry": ("It rules the river valleys with a crook of gold at the end of each scythe, and moves so fast its "
+                  "foes never see it strike. Those who think they have defeated it soon learn about the pharaoh's "
+                  "curse."),
+        "spawns": [],
+        "how": ["Evolve Sarcoon at level 36. Learns Liquidation when it evolves."],
+    },
+})
+LINES["mummy"] = ["mumpillar", "sarcoon", "pharantis"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -303,6 +373,29 @@ num: -3002
 """,
         "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
                 "accuracy, and even targets that are flying, underground or underwater.",
+    },
+    "pharaohscurse": {
+        "name": "Pharaoh's Curse",
+        "js": """{
+onDamagePriority: -30,
+onDamage(damage, target, source, effect) {
+  if (!effect || effect.effectType !== 'Move' || damage < target.hp || target.m.pharaohsCurse) return damage;
+  target.m.pharaohsCurse = true;
+  this.add('-ability', target, "Pharaoh's Curse");
+  const half = Math.max(1, Math.floor(target.maxhp / 2));
+  this.boost({atk: 2, spa: 2}, target, target);
+  if (target.hp > half) return target.hp - half;
+  if (target.hp < half) this.heal(half - target.hp, target, target);
+  return 0;
+},
+flags: {breakable: 1},
+name: "Pharaoh's Curse",
+rating: 4,
+num: -3003
+}
+""",
+        "lang": "Once per battle, a hit that would knock the Pokémon out doesn't: it rises again at half its HP and "
+                "its Attack and Sp. Atk sharply rise.",
     },
 }
 
@@ -333,7 +426,7 @@ STARTER_CATEGORIES = [
     ("Paldea", -101, "paldea", ["Sprigatito", "Fuecoco", "Quaxly"]),
     ("Special", -100, "special", ["Pikachu"]),
 ]
-OUR_STARTERS = ("CobbleEffort", -99, ["cobbleeffort:coalarva"])
+OUR_STARTERS = ("CobbleEffort", -99, ["cobbleeffort:coalarva", "cobbleeffort:mumpillar"])
 
 
 
@@ -441,6 +534,10 @@ def species_json(sp):
     return d
 
 
+EGG_GROUPS = {"monster", "water_1", "bug", "flying", "field", "fairy", "grass", "human_like", "water_3", "mineral",
+              "amorphous", "water_2", "ditto", "dragon", "undiscovered"}
+
+
 def check(showdown):
     """Every move and ability must exist in Cobblemon's Showdown (data/moves.js, data/abilities.js)."""
     import re
@@ -453,6 +550,9 @@ def check(showdown):
         for mv in [m for _, m in c["moves"]] + c["tm"] + c["egg"] + (c["evolve"][2] if c["evolve"] else []):
             if mv not in moves and mv not in CUSTOM_MOVES:
                 bad.append(f"{sp}: move {mv}")
+        for eg in c["egg_groups"]:                           # Cobblemon's EggGroup ids (a wrong one stops the server)
+            if eg not in EGG_GROUPS:
+                bad.append(f"{sp}: egg group {eg}")
         for ab in c["abilities"]:
             if ab.removeprefix("h:") not in abilities and ab.removeprefix("h:") not in CUSTOM_ABILITIES:
                 bad.append(f"{sp}: ability {ab}")

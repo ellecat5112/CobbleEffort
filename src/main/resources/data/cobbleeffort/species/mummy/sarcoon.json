@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3011,
+ "name": "Sarcoon",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": 0.875,
+ "height": 10,
+ "weight": 410,
+ "pokedex": [
+  "cobbleeffort.species.sarcoon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pharaohscurse",
+  "h:torrent"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 55,
+  "defence": 100,
+  "special_attack": 55,
+  "special_defence": 90,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.64,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.1
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:gold_nugget",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 10.0
+   }
+  ]
+ },
+ "moves": [
+  "1:harden",
+  "1:tackle",
+  "1:stringshot",
+  "4:watergun",
+  "8:bugbite",
+  "11:curse",
+  "14:bubblebeam",
+  "16:harden",
+  "20:aquaring",
+  "24:irondefense",
+  "28:waterpulse",
+  "32:hex",
+  "35:lunge",
+  "egg:destinybond",
+  "egg:aquaring",
+  "egg:stickyweb",
+  "egg:mirrorcoat",
+  "egg:haze",
+  "egg:infestation",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:hydropump",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:terablast",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:curse",
+  "tm:round",
+  "tm:toxic",
+  "tm:sandstorm",
+  "tm:brine",
+  "tm:irondefense",
+  "tm:harden",
+  "tm:bodypress"
+ ],
+ "evolutions": [
+  {
+   "id": "sarcoon_pharantis",
+   "variant": "level_up",
+   "result": "cobbleeffort:pharantis",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "liquidation"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:mumpillar"
+}

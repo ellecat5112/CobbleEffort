@@ -631,7 +631,7 @@ numbers from #3001, which nothing else in the supported mod stack uses. In comma
 gold fillings, caps and braces.
 
 **The coal butterfly line** (Coalarva, Cinderoon, Gatterfly) is CobbleEffort's **starter**: Coalarva has its own
-"CobbleEffort" page on Cobblemon's starter screen, after the regions. (Cobblemon shows only data-pack starter pages
+"CobbleEffort" page on Cobblemon's starter screen (with Mumpillar, the water starter), after the regions. (Cobblemon shows only data-pack starter pages
 once any exist, so CobbleEffort ships Cobblemon's own region pages too, exactly as in its default config: every usual
 starter stays available. If your server turns on `useConfigStarters`, the CobbleEffort page is simply added to your
 config's list.) Cinderoon's cocoon is a see-through ash layer with the Coalarva visible inside; their abdomens, the
@@ -648,6 +648,12 @@ Grass/Bug; Mawntis evolves into the Grass/Ghost Mantasma at level 40 **at night*
 does. Mantasma's maw, ghost blades, leg rings and abdomen stripes glow in the dark. Shinies are orchid mantises: petal
 pink and white, glowing violet.
 
+**The mummy line** (Mumpillar, Sarcoon, Pharantis) is CobbleEffort's **water starter** (Water/Bug), on the
+CobbleEffort starter page next to Coalarva: a bandaged mummy caterpillar, a cocoon shaped like a pharaoh's
+sarcophagus, and a nimble mantis pharaoh. Their own ability, **Pharaoh's Curse**: once per battle, a hit that would
+knock the Pokémon out doesn't. It rises again at half its HP (healed up to half if it was lower) and its Attack and Sp.
+Atk rise by two stages. Their eyes glow. Shinies are turquoise and rose gold.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -660,9 +666,12 @@ pink and white, glowing violet.
 | 3007 | **Prayling** | Grass / Bug | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 45 / 60 / 40 / 35 / 40 / 55 | 1'4" (0.4 m) / 2.2 kg | Wild: common in jungles, uncommon in flower forests, meadows and forests. Evolves into Mawntis at level 22. | It is born without eyes, yet it never misses. It feels the faintest stir of air through its leafy feelers and knows exactly where its prey is, then holds its little forelegs together and waits. |
 | 3008 | **Mawntis** | Grass / Bug | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 65 / 95 / 65 / 45 / 60 / 80 | 3'7" (1.1 m) / 38 kg | Evolve Prayling at level 22. Wild: rare in jungles. | Its head has split into a maw full of fangs, and a second set of legs lets it run down prey in the undergrowth. It still has no eyes, but its scythes find their mark every time. |
 | 3009 | **Mantasma** | Grass / Ghost | Blindsight (its own: every move it uses hits) / Sniper (hidden) | 90 / 130 / 90 / 70 / 85 / 75 | 11'6" (3.5 m) / 210 kg | Evolve Mawntis at level 40 or higher at night. Wild: very rare in dark forests and jungles at night. | A Mawntis that hunted on a moonless night and came back as something else. It towers over the trees, its grin glows in the dark, and its ghostly scythes cut through anything without ever missing. Even so, it still clasps its forelegs together the way it did as a Prayling. |
+| 3010 | **Mumpillar** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 50 / 52 / 48 / 52 / 57 / 50 | 1'4" (0.4 m) / 9.5 kg | A CobbleEffort starter: pick it at the starter screen (the CobbleEffort page, with Coalarva). Wild: very rare in deserts next to water (an oasis). Evolves into Sarcoon at level 16. | It wraps itself in strips of silk soaked in river water and never takes them off. Old tales say anyone who unwraps one is cursed, and that it cannot be finished off: struck down, it rises again angrier than before. |
+| 3011 | **Sarcoon** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 65 / 55 / 100 / 55 / 90 / 40 | 3'3" (1 m) / 41 kg | Evolve Mumpillar at level 16. | Its silk hardens into a coffin painted like a pharaoh's. It lies still for weeks, but anything foolish enough to pry at the lid wakes the curse, and the case's eyes light up. |
+| 3012 | **Pharantis** | Water / Bug | Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden) | 75 / 110 / 70 / 100 / 74 / 105 | 5'3" (1.6 m) / 62 kg | Evolve Sarcoon at level 36. Learns Liquidation when it evolves. | It rules the river valleys with a crook of gold at the end of each scythe, and moves so fast its foes never see it strike. Those who think they have defeated it soon learn about the pharaoh's curse. |
 <!-- newmons:end -->
 
-![CobbleEffort's own Pokémon: the dentistry, coal butterfly and mantis lines, with shinies](docs/newmons_preview.png)
+![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

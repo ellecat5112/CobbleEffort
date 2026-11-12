@@ -113,6 +113,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   an `evolve` tuple may carry a 4th item: extra requirements (e.g. `time_range` night). The mantis reference is a
   free-to-use picture found online (untagged; its labels Blygentom/Briartom/Xygenthorn are the fakemon's names, not an
   artist tag); the user's description led, and our names and models are our own.
+  Mummy line, the water starter (Mumpillar -> Sarcoon lv 16 -> Pharantis lv 36; Water/Bug; ability Pharaoh's Curse:
+  once per battle (`target.m.pharaohsCurse`) a KO hit leaves it at half HP, healing up to half if lower, +2 Atk/SpA;
+  hidden Torrent; shiny = turquoise + rose gold; `models/_pharaoh.py`); OUR_STARTERS holds Coalarva and Mumpillar.
+  Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
+  Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

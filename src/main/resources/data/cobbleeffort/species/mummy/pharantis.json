@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3012,
+ "name": "Pharantis",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": 0.875,
+ "height": 16,
+ "weight": 620,
+ "pokedex": [
+  "cobbleeffort.species.pharantis.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pharaohscurse",
+  "h:torrent"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 110,
+  "defence": 70,
+  "special_attack": 100,
+  "special_defence": 74,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 3
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.79,
+ "hitbox": {
+  "width": 0.9,
+  "height": 1.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.38
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:gold_ingot",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:string",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 15.0
+   }
+  ]
+ },
+ "moves": [
+  "1:liquidation",
+  "1:harden",
+  "1:tackle",
+  "1:stringshot",
+  "4:watergun",
+  "8:bugbite",
+  "11:curse",
+  "14:bubblebeam",
+  "16:harden",
+  "20:aquaring",
+  "24:irondefense",
+  "28:waterpulse",
+  "32:hex",
+  "36:liquidation",
+  "40:aquacutter",
+  "44:xscissor",
+  "48:swordsdance",
+  "52:uturn",
+  "56:wavecrash",
+  "62:megahorn",
+  "egg:destinybond",
+  "egg:aquaring",
+  "egg:stickyweb",
+  "egg:mirrorcoat",
+  "egg:haze",
+  "egg:infestation",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:hydropump",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:terablast",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:curse",
+  "tm:round",
+  "tm:toxic",
+  "tm:sandstorm",
+  "tm:brine",
+  "tm:irondefense",
+  "tm:harden",
+  "tm:bodypress",
+  "tm:xscissor",
+  "tm:swordsdance",
+  "tm:aquacutter",
+  "tm:leafblade",
+  "tm:nightslash",
+  "tm:aerialace",
+  "tm:agility",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:wavecrash",
+  "tm:leechlife",
+  "tm:focusenergy",
+  "tm:psychocut"
+ ],
+ "preEvolution": "cobbleeffort:sarcoon"
+}

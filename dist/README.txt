@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 9 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 12 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -817,6 +817,37 @@ cobbleeffort:cavitot.
   ever missing. Even so, it still clasps its forelegs together the way it did as a Prayling."
   * Evolve Mawntis at level 40 or higher at night.
   * Wild: very rare in dark forests and jungles at night.
+
+#3010 MUMPILLAR  (Water / Bug; Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden))
+  a caterpillar swaddled in bandages like a little mummy, with a black visor face, two big round
+  glowing yellow eyes, a bandage curl on its head and blue-patched bandaged segments on stubby black
+  feet
+  Stats: HP 50  Atk 52  Def 48  SpA 52  SpD 57  Spe 50  (total 309)
+  Pokedex: "It wraps itself in strips of silk soaked in river water and never takes them off. Old
+  tales say anyone who unwraps one is cursed, and that it cannot be finished off: struck down, it
+  rises again angrier than before."
+  * A CobbleEffort starter: pick it at the starter screen (the CobbleEffort page, with Coalarva).
+  * Wild: very rare in deserts next to water (an oasis).
+  * Evolves into Sarcoon at level 16.
+
+#3011 SARCOON  (Water / Bug; Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden))
+  a cocoon shaped like a pharaoh's sarcophagus: a blue-striped domed head with a black visor,
+  glowing eyes, a golden cobra on the brow and a golden beard, over a body bound in gold and blue
+  bands
+  Stats: HP 65  Atk 55  Def 100  SpA 55  SpD 90  Spe 40  (total 405)
+  Pokedex: "Its silk hardens into a coffin painted like a pharaoh's. It lies still for weeks, but
+  anything foolish enough to pry at the lid wakes the curse, and the case's eyes light up."
+  * Evolve Mumpillar at level 16.
+
+#3012 PHARANTIS  (Water / Bug; Pharaoh's Curse (its own: once per battle, survives a knockout at half health with +2 Attack and Sp. Atk) / Torrent (hidden))
+  a nimble mantis pharaoh: a gold-and-blue striped headcloth with a golden cobra, fierce orange
+  eyes, a blue segmented body with a gold medallion, raised banded scythe arms ending in golden
+  crook hooks, a pleated gold kilt and long black legs with silver claws
+  Stats: HP 75  Atk 110  Def 70  SpA 100  SpD 74  Spe 105  (total 534)
+  Pokedex: "It rules the river valleys with a crook of gold at the end of each scythe, and moves so
+  fast its foes never see it strike. Those who think they have defeated it soon learn about the
+  pharaoh's curse."
+  * Evolve Sarcoon at level 36. Learns Liquidation when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

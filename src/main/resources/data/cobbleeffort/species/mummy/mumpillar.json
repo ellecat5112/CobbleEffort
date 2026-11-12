@@ -1,0 +1,164 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3010,
+ "name": "Mumpillar",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": 0.875,
+ "height": 4,
+ "weight": 95,
+ "pokedex": [
+  "cobbleeffort.species.mumpillar.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pharaohscurse",
+  "h:torrent"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 52,
+  "defence": 48,
+  "special_attack": 52,
+  "special_defence": 57,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.4,
+ "hitbox": {
+  "width": 0.5,
+  "height": 0.45,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:paper",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:stringshot",
+  "4:watergun",
+  "8:bugbite",
+  "11:curse",
+  "14:bubblebeam",
+  "18:waterpulse",
+  "22:strugglebug",
+  "26:hex",
+  "30:aquatail",
+  "34:lunge",
+  "38:hydropump",
+  "egg:destinybond",
+  "egg:aquaring",
+  "egg:stickyweb",
+  "egg:mirrorcoat",
+  "egg:haze",
+  "egg:infestation",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:hydropump",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:terablast",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:curse",
+  "tm:round",
+  "tm:toxic",
+  "tm:sandstorm",
+  "tm:brine"
+ ],
+ "evolutions": [
+  {
+   "id": "mumpillar_sarcoon",
+   "variant": "level_up",
+   "result": "cobbleeffort:sarcoon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "harden"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ]
+}
