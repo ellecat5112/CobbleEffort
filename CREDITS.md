@@ -42,6 +42,10 @@ made by the Cobblemon team and contributors.
 * **Trans Pride** (`tools/styles/trans_pride.py`; textures under `.../pokemon/trans_pride/`): recoloured into the
   transgender pride flag's five stripes by height on the model, keeping the original's shading, outlines and eyes;
   shinies get pastel glitter and an extra emissive layer of twinkling sparkles.
+* **Tarot** (`tools/styles/tarot_*.py`, `_tarot.py`; textures under `.../pokemon/tarot/`): colours remapped to each
+  Major Arcana card's palette with a faint card pattern; a gold-framed card with the card's symbol (drawn from scratch)
+  painted on the chest, the Roman numeral on the forehead, glowing eyes and an animated gold-foil layer; shinies
+  reversed (hue turned, silver foil, symbol and numeral upside down).
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,
@@ -127,6 +131,9 @@ The build scripts, generator, data and resolver JSON are licensed under the
   are used).
 
 * The **transgender pride flag** was designed by Monica Helms (1999) and inspired collection #10.
+
+* The **Major Arcana** of the tarot (the traditional imagery, as in the public-domain Rider-Waite-Smith deck of 1909)
+  inspired collection #11; the symbols are drawn from scratch.
 
 * **Naruto**, **Naruto Shippuden** and **Boruto** by Masashi Kishimoto (and Mikio Ikemoto / Ukyo Kodachi) inspired
   collection #9 (fan work; no art from the series is used).

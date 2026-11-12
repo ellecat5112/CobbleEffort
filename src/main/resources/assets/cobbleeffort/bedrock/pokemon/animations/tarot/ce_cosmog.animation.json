@@ -1,0 +1,258 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.ce_cosmog.pose": {
+   "loop": true,
+   "bones": {
+    "head": {
+     "rotation": [
+      -12.5,
+      0,
+      0
+     ]
+    },
+    "bone2": {
+     "rotation": [
+      0,
+      0,
+      -22.5
+     ]
+    },
+    "bone5": {
+     "rotation": [
+      0,
+      0,
+      22.5
+     ]
+    },
+    "eyes": {
+     "position": [
+      0,
+      0,
+      1
+     ]
+    },
+    "bone15": {
+     "position": [
+      0,
+      0,
+      -2
+     ]
+    }
+   }
+  },
+  "animation.ce_cosmog.ground_idle_size": {
+   "loop": true,
+   "bones": {
+    "cosmog": {
+     "scale": 0.5
+    },
+    "body": {
+     "position": [
+      0,
+      5,
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-45)*6"
+     ],
+     "position": [
+      "math.sin(q.anim_time*90*2-45)*1.5",
+      "math.sin(q.anim_time*90*4-45)*0.5",
+      0
+     ]
+    },
+    "bone2": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone3": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone4": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-90)*0.05"
+    },
+    "bone5": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone6": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone7": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-45)*0.05"
+    }
+   }
+  },
+  "animation.ce_cosmog.ground_idle": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "position": [
+      0,
+      5,
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-45)*6"
+     ],
+     "position": [
+      "math.sin(q.anim_time*90*2-45)*1.5",
+      "math.sin(q.anim_time*90*4-45)*0.5",
+      0
+     ]
+    },
+    "bone2": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone3": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone4": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-90)*0.05"
+    },
+    "bone5": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone6": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone7": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-45)*0.05"
+    }
+   }
+  },
+  "animation.ce_cosmog.ground_walk": {
+   "loop": true,
+   "bones": {
+    "body": {
+     "position": [
+      0,
+      5,
+      0
+     ]
+    },
+    "head": {
+     "rotation": [
+      "10-math.sin(q.anim_time*90*4-45)*2",
+      0,
+      "math.sin(q.anim_time*90*2-45)*6"
+     ],
+     "position": [
+      "math.sin(q.anim_time*90*2-45)*1.5",
+      "math.sin(q.anim_time*90*4-45)*0.5",
+      0
+     ]
+    },
+    "bone2": {
+     "rotation": [
+      -17.5,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone3": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone4": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-90)*0.05"
+    },
+    "bone5": {
+     "rotation": [
+      -17.5,
+      0,
+      "math.sin(q.anim_time*90*2)*10"
+     ]
+    },
+    "bone6": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5)*0.1"
+    },
+    "bone7": {
+     "rotation": [
+      0,
+      0,
+      "math.sin(q.anim_time*90*2-90)*10"
+     ],
+     "scale": "1-math.sin(q.anim_time*90*5-45)*0.05"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "_comment": "Tarot collection: each line is one card of the Major Arcana. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed tarot-major-arcana` and each was given the card that suits it best (Mr. Mime the Fool, Kabuto the Moon's crayfish, Cosmog the World...). Shared look in styles/_tarot.py, one thin module per card.",
+  "aspect": "tarot",
+  "feature": "tarot_arcana",
+  "style": "tarot_fool",
+  "cosmetic_items": [
+    "minecraft:paper"
+  ],
+  "lines": [
+    "mrmime",
+    "carbink",
+    "jangmoo",
+    "applin",
+    "walkingwake",
+    "cubchoo",
+    "pincurchin",
+    "delibird",
+    "zangoose",
+    "carvanha",
+    "swablu",
+    "salandit",
+    "chimchar",
+    "marill",
+    "kabuto",
+    "lotad",
+    "spearow",
+    "cosmog"
+  ],
+  "line_styles": {
+    "mrmime": "tarot_fool",
+    "carbink": "tarot_high_priestess",
+    "jangmoo": "tarot_emperor",
+    "applin": "tarot_lovers",
+    "walkingwake": "tarot_chariot",
+    "cubchoo": "tarot_strength",
+    "pincurchin": "tarot_hermit",
+    "delibird": "tarot_wheel",
+    "zangoose": "tarot_justice",
+    "carvanha": "tarot_death",
+    "swablu": "tarot_temperance",
+    "salandit": "tarot_devil",
+    "chimchar": "tarot_tower",
+    "marill": "tarot_star",
+    "kabuto": "tarot_moon",
+    "lotad": "tarot_sun",
+    "spearow": "tarot_judgement",
+    "cosmog": "tarot_world"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 11,
+    "title": "Tarot (Major Arcana)",
+    "example": "mrmime",
+    "summary": "Pokemon as the cards of the Major Arcana, one card per line.",
+    "looks": [
+      "each line is one card, in that card's colours with a faint pattern: Mr. Mime = 0 The Fool; Carbink = II The High Priestess; Jangmo-o = IV The Emperor; Applin = VI The Lovers; Walking Wake = VII The Chariot; Cubchoo = VIII Strength; Pincurchin = IX The Hermit; Delibird = X Wheel of Fortune; Zangoose = XI Justice; Carvanha = XIII Death; Swablu = XIV Temperance; Salandit = XV The Devil; Chimchar = XVI The Tower; Marill = XVII The Star; Kabuto = XVIII The Moon; Lotad = XIX The Sun; Spearow = XX Judgement; Cosmog = XXI The World",
+      "a gilded card border round every part, the card's symbol on the chest (rose, crescent, ankh, heart, winged disc, infinity, lantern, wheel, scales, banner, triangle, pentagram, struck tower, stars, moon, sun, cross banner, wreath) and its Roman numeral on the forehead",
+      "glowing eyes and a gold-foil sheen that sweeps over the gilding (Star and World twinkle)",
+      "shiny: the card REVERSED: colours turned round, silver foil, symbol and numeral upside down"
+    ]
+  }
+}

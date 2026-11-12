@@ -1,0 +1,67 @@
+{
+  "species": "cobblemon:dipplin",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "tarot"
+      ],
+      "poser": "cobbleeffort:dipplin",
+      "model": "cobbleeffort:dipplin.geo",
+      "texture": "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/1011_dipplin/dipplin_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

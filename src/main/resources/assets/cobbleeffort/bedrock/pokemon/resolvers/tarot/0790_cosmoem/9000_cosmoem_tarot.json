@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:cosmoem",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "tarot"
+      ],
+      "poser": "cobbleeffort:cosmoem",
+      "model": "cobbleeffort:cosmoem.geo",
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_tarot.png",
+      "layers": [
+        {
+          "name": "glow",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_emissive_tarot.png",
+          "translucent": false
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0790_cosmoem/cosmoem_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -406,6 +406,41 @@ Picked with `generate.py pick --count 18 --seed trans-pride-2026` from the 307 r
 Give a supported Pokémon a **Light Blue, Pink or White Banner** (the flag's colours) as its cosmetic item. With
 commands: `/pokegive togedemaru trans_pride`, `/pokegive emolga trans_pride shiny`. Pack makers can extend the item
 tag `#cobbleeffort:trans_pride_cosmetics`.
+
+## Collection #11: Tarot (Major Arcana)
+
+18 evolutionary lines (**41 Pokémon**), each one card of the Major Arcana:
+
+* each line is its card, in that card's colours with a faint pattern behind (harlequin diamonds, pomegranates,
+  little hearts, a starry canopy, falling snow, chains, bricks, falling drops, sunflowers…)
+* a **tarot card on the chest**: a gold frame round parchment with the card's symbol, drawn from the traditional
+  imagery: the Fool's white rose, the High Priestess's crescent between the pillars, the Emperor's ankh, the Lovers'
+  heart, the Chariot's winged disc, Strength's infinity sign, the Hermit's lantern, the Wheel, Justice's scales,
+  Death's white rose banner, Temperance's triangle in a square, the Devil's inverted pentagram, the Tower struck by
+  lightning, the Star, the Moon, the Sun, Judgement's cross banner and the World's laurel wreath
+* the card's **Roman numeral** on the forehead, **glowing eyes**, and a **gold-foil sheen** that sweeps over the
+  gilding (stars twinkle)
+* forms from Mega Showdown and Extra Megas (Mega Sharpedo, Mega Altaria, Mega Infernape, Gigantamax Flapple and
+  Appletun) are cards too
+* shiny: the card **reversed**: colours turned round, silver foil, the symbol and numeral upside down
+
+Mr. Mime → Mr. Rime (incl. Mime Jr., Galarian): 0 The Fool · Carbink: II The High Priestess ·
+Jangmo-o → Hakamo-o → Kommo-o: IV The Emperor · Applin → Flapple / Appletun / Dipplin → Hydrapple: VI The Lovers ·
+Walking Wake: VII The Chariot · Cubchoo → Beartic: VIII Strength · Pincurchin: IX The Hermit ·
+Delibird: X Wheel of Fortune · Zangoose: XI Justice · Carvanha → Sharpedo: XIII Death · Swablu → Altaria: XIV
+Temperance · Salandit → Salazzle: XV The Devil · Chimchar → Monferno → Infernape: XVI The Tower ·
+Azurill → Marill → Azumarill: XVII The Star · Kabuto → Kabutops: XVIII The Moon · Lotad → Lombre → Ludicolo:
+XIX The Sun · Spearow → Fearow: XX Judgement · Cosmog → Cosmoem → Solgaleo / Lunala: XXI The World
+
+Picked with `generate.py pick --count 18 --seed tarot-major-arcana` from the 289 remaining eligible lines; each line
+was given the card that suits it (Mr. Mime the Fool, Kabuto the Moon's crayfish, Chimchar's fire the Tower…).
+
+![Original vs. tarot](docs/tarot_preview.png)
+
+### How to get one
+
+Give a supported Pokémon **Paper** as its cosmetic item. With commands: `/pokegive azumarill tarot`,
+`/pokegive zangoose tarot shiny`. Pack makers can extend the item tag `#cobbleeffort:tarot_cosmetics`.
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

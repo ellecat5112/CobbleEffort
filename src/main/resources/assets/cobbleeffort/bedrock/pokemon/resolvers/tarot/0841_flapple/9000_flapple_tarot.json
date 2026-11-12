@@ -1,0 +1,126 @@
+{
+  "species": "cobblemon:flapple",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "tarot"
+      ],
+      "poser": "cobbleeffort:flapple",
+      "model": "cobbleeffort:flapple.geo",
+      "texture": "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/0841_flapple/flapple_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "tarot"
+      ],
+      "poser": "cobbleeffort:appletun_gmax",
+      "model": "cobbleeffort:appletun_gmax.geo",
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0842_appletun/appletun_gmax_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

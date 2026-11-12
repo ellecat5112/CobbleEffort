@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 10 collections of cosmetic forms (383 Pokemon) to Cobblemon. Each form is a new
+CobbleEffort adds 11 collections of cosmetic forms (424 Pokemon) to Cobblemon. Each form is a new
 look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
 has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
 regional forms, megas and shinies (shinies get their own version).
@@ -40,6 +40,7 @@ AT A GLANCE
   8   Stone Statues                       Stone, Smooth Stone or Chiseled Stone Bricks    stone_statue
   9   Naruto / Naruto Shippuden / Boruto  Flint                                           shinobi
   10  Trans Pride                         Light Blue Banner, Pink Banner or White Banner  trans_pride
+  11  Tarot                               Paper                                           tarot
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -442,6 +443,47 @@ Pokemon (each line is a whole evolutionary family):
   - Dhelmise
   - Lechonk > Oinkologne
   - Charcadet > Armarouge / Ceruledge
+
+====================================================================================================
+#11  TAROT (MAJOR ARCANA)  (41 Pokemon)
+====================================================================================================
+Pokemon as the cards of the Major Arcana, one card per line.
+
+Cosmetic item: Paper
+Command:       /pokegive mrmime tarot   (add 'shiny' for the shiny version)
+
+The look:
+  * each line is one card, in that card's colours with a faint pattern: Mr. Mime = 0 The Fool;
+    Carbink = II The High Priestess; Jangmo-o = IV The Emperor; Applin = VI The Lovers; Walking Wake
+    = VII The Chariot; Cubchoo = VIII Strength; Pincurchin = IX The Hermit; Delibird = X Wheel of
+    Fortune; Zangoose = XI Justice; Carvanha = XIII Death; Swablu = XIV Temperance; Salandit = XV
+    The Devil; Chimchar = XVI The Tower; Marill = XVII The Star; Kabuto = XVIII The Moon; Lotad =
+    XIX The Sun; Spearow = XX Judgement; Cosmog = XXI The World
+  * a gilded card border round every part, the card's symbol on the chest (rose, crescent, ankh,
+    heart, winged disc, infinity, lantern, wheel, scales, banner, triangle, pentagram, struck tower,
+    stars, moon, sun, cross banner, wreath) and its Roman numeral on the forehead
+  * glowing eyes and a gold-foil sheen that sweeps over the gilding (Star and World twinkle)
+  * shiny: the card REVERSED: colours turned round, silver foil, symbol and numeral upside down
+
+Pokemon (each line is a whole evolutionary family):
+  - Mime Jr. > Mr. Mime > Mr. Rime
+  - Carbink
+  - Jangmo-o > Hakamo-o > Kommo-o
+  - Applin > Flapple / Appletun / Dipplin > Hydrapple
+  - Walking Wake
+  - Cubchoo > Beartic
+  - Pincurchin
+  - Delibird
+  - Zangoose
+  - Carvanha > Sharpedo
+  - Swablu > Altaria
+  - Salandit > Salazzle
+  - Chimchar > Monferno > Infernape
+  - Azurill > Marill > Azumarill
+  - Kabuto > Kabutops
+  - Lotad > Lombre > Ludicolo
+  - Spearow > Fearow
+  - Cosmog > Cosmoem > Solgaleo / Lunala
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

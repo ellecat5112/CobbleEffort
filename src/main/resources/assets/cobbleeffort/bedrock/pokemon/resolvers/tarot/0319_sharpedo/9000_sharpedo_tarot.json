@@ -1,0 +1,132 @@
+{
+  "species": "cobblemon:sharpedo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_emissive_tarot.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "texture": "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot_eyeshine.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/0319_sharpedo/sharpedo_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_tarot.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/megasharpedo_emmissive_tarot.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "tarot"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_shiny_tarot.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_eyeshine",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foil",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_shiny_tarot_foil_0.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_shiny_tarot_foil_1.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_shiny_tarot_foil_2.png",
+              "cobbleeffort:textures/pokemon/tarot/compat/mega_showdown/0319_sharpedo/sharpedomega_shiny_tarot_foil_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
