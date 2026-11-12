@@ -158,7 +158,8 @@ Instagram), used with its creators' permission; our models are built by hand aft
 idea and the concept art they shared; its model is our own. Tanhyll (its name and design) is after
 the concept art the user shared; its model is our own. Tikimp and Tikilla are after the user's idea
 and the concept art they shared; their names and models are our own. Mousense and Sensarat (their names and
-designs) are after the concept art the user shared; their models are our own.
+designs) are after the concept art the user shared; their models are our own. Gigantler (its name and design) is
+after the Ronto region fakemon art by **@rontoregion** that the user shared; its model and Pokédex entry are our own.
 
 ## Code and data
 

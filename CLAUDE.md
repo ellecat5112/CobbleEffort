@@ -150,6 +150,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Tikimp -> Tikilla (#3037-3038, `models/_tiki.py`): Normal/Fighting kickboxing apes (skull face, tiki-mask fists), lv 32.
   Mousense -> Sensarat (#3039-3040, `models/_sense.py`; the art's names): Normal rodents with eyes always closed, lv 22;
   `_sense.whisker` = thin whisker ribbons (a 0 x 1 rod cut to a tapering line; plain rods under 1 unit round to nothing).
+  Gigantler (#3041, `models/gigantler.py`; art by @rontoregion, name kept): Normal moose, three palmate crown antlers
+  (palms = wide flat rods aimed along the palm, `t2` = palm height; lobed `tine`s); LIFT raises all non-leg boxes for long legs.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

@@ -958,6 +958,36 @@ SPECIES.update({
 })
 LINES["sense"] = ["mousense", "sensarat"]
 
+# --- the crown moose ----------------------------------------------------------------------------------------------------
+
+MOOSE_TM = BASIC_TM + ["bodyslam", "doubleedge", "takedown", "earthquake", "bulldoze", "stompingtantrum",
+                       "highhorsepower", "rockslide", "stoneedge", "rocktomb", "ironhead", "wildcharge", "zenheadbutt",
+                       "bulkup", "swordsdance", "smartstrike", "megahorn", "scaryface", "endeavor", "trailblaze",
+                       "surf", "icywind", "hypervoice", "gigaimpact", "hyperbeam", "reversal", "outrage"]
+
+SPECIES.update({
+    "gigantler": {
+        "dex": 3041, "name": "Gigantler", "line": "gigantler", "types": ["normal"],
+        "male": 0.5, "egg_groups": ["field"], "friendship": 50, "catch": 45,
+        "abilities": ["intimidate", "sapsipper", "h:sheerforce"],
+        "ability_names": "Intimidate / Sap Sipper / Sheer Force (hidden)",
+        "stats": stats(105, 120, 100, 50, 80, 70), "ev": evs(hp=1, attack=2), "exp": 186,
+        "height": 24, "weight": 6200, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "tackle"), (1, "leer"), (5, "hornattack"), (10, "stomp"), (15, "headbutt"), (20, "takedown"),
+                  (25, "hornleech"), (30, "bulkup"), (35, "zenheadbutt"), (40, "thrash"), (45, "headcharge"),
+                  (50, "megahorn"), (56, "highhorsepower"), (62, "gigaimpact")],
+        "tm": MOOSE_TM, "egg": ["doublekick", "curse", "roar", "bodypress", "workup", "rest"], "evolve": None,
+        "drops": [("minecraft:leather", "1-3", None), ("minecraft:bone", "0-2", None), ("cobblemon:hard_stone", None, 5.0)],
+        "entry": ("The antlers on its head grow back bigger every year, and an old bull's three crowns can span wider "
+                  "than a cabin. Packs of predators turn back the moment it lowers its head, and travellers in the "
+                  "northern woods take a glimpse of one as a sign of good fortune."),
+        "spawns": [route_spawn("gigantler-taiga", "rare", "30-55", 2.0, ["#cobblemon:is_taiga", "#cobblemon:is_snowy_forest"]),
+                   route_spawn("gigantler-swamp", "rare", "30-55", 1.0, ["#cobblemon:is_swamp", "#cobblemon:is_tundra"])],
+        "how": ["Wild: rare in taigas and snowy forests, rarer in swamps and tundra."],
+    },
+})
+LINES["gigantler"] = ["gigantler"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

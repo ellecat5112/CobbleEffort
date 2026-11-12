@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 40 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1114,6 +1114,15 @@ cobbleeffort:cavitot.
   stars."
   * Evolve Mousense at level 22. It learns Sucker Punch when it evolves.
   * Wild: uncommon in plains and forests.
+
+#3041 GIGANTLER  (Normal; Intimidate / Sap Sipper / Sheer Force (hidden))
+  a huge long-legged brown moose with a zigzag flank stripe, cream legs, a lowered head with a stern
+  glare and three massive crown-like palmate antlers
+  Stats: HP 105  Atk 120  Def 100  SpA 50  SpD 80  Spe 70  (total 525)
+  Pokedex: "The antlers on its head grow back bigger every year, and an old bull's three crowns can
+  span wider than a cabin. Packs of predators turn back the moment it lowers its head, and
+  travellers in the northern woods take a glimpse of one as a sign of good fortune."
+  * Wild: rare in taigas and snowy forests, rarer in swamps and tundra.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

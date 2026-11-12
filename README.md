@@ -732,6 +732,11 @@ Anticipation, hidden Hustle; sensing moves (Foresight, Detect, Mind Reader, and 
 Fang, Crunch and Super Fang. Mousense is common in plains, grasslands, forests and hills; Sensarat is uncommon in plains
 and forests. Shiny: pale blue with a dark eye mask (Mousense); navy with a white fringe and whiskers (Sensarat).
 
+**Gigantler** (Normal): a huge, long-legged moose with a stern glare, a zigzag stripe down each flank, cream legs and
+three massive crown-like antlers: a broad palm spreading out to each side and a tall crown rising from the middle.
+Intimidate or Sap Sipper, hidden Sheer Force; Horn Leech, Head Charge, Megahorn and High Horsepower. Rare in taigas and
+snowy forests, rarer in swamps and tundra. Shiny: a pale "ghost" moose with golden antlers.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -775,6 +780,7 @@ and forests. Shiny: pale blue with a dark eye mask (Mousense); navy with a white
 | 3038 | **Tikilla** | Normal / Fighting | Iron Fist / Reckless / Scrappy (hidden) | 85 / 125 / 80 / 50 / 70 / 95 | 6'7" (2 m) / 145 kg | Evolve Tikimp at level 32. It learns High Jump Kick when it evolves. Wild: rare in jungles and on tropical islands. | Its fists have grown as big as tiki masks, and it carves faces into them to look fiercer. It leads its troop with thundering kicks and shakes its great white mane to warn rivals away. |
 | 3039 | **Mousense** | Normal | Frisk / Anticipation / Hustle (hidden) | 40 / 50 / 35 / 35 / 40 / 75 | 1'0" (0.3 m) / 2.5 kg | Wild: common in plains, grasslands, forests and hills. Evolves into Sensarat at level 22. | Its eyes stay shut from the day it hatches. It feels its way about with its long whiskers, which can pick up the flutter of a moth's wings across a meadow, so sneaking up on it is near impossible. |
 | 3040 | **Sensarat** | Normal | Frisk / Anticipation / Hustle (hidden) | 70 / 85 / 65 / 50 / 70 / 105 | 2'0" (0.6 m) / 14 kg | Evolve Mousense at level 22. It learns Sucker Punch when it evolves. Wild: uncommon in plains and forests. | It sweeps its long whiskers through the dark like feelers and senses an attack before it comes, striking first. It never opens its eyes; those who have seen them say they are as bright as stars. |
+| 3041 | **Gigantler** | Normal | Intimidate / Sap Sipper / Sheer Force (hidden) | 105 / 120 / 100 / 50 / 80 / 70 | 7'10" (2.4 m) / 620 kg | Wild: rare in taigas and snowy forests, rarer in swamps and tundra. | The antlers on its head grow back bigger every year, and an old bull's three crowns can span wider than a cabin. Packs of predators turn back the moment it lowers its head, and travellers in the northern woods take a glimpse of one as a sign of good fortune. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -796,6 +802,8 @@ and forests. Shiny: pale blue with a dark eye mask (Mousense); navy with a white
 ![Tikimp and Tikilla, regular and shiny](docs/newmons_tiki.png)
 
 ![Mousense and Sensarat, regular and shiny](docs/newmons_sense.png)
+
+![Gigantler, regular and shiny](docs/newmons_gigantler.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 
