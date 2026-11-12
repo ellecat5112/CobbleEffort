@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:tropius",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_tropius_3bbb8a4292.geo",
+      "poser": "cobbleeffort:gb_tropius",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0357_tropius/tropius_gb_sprite_486da83b18.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_tropius_3bbb8a4292.geo",
+      "poser": "cobbleeffort:gb_tropius",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0357_tropius/tropius_shiny_gb_sprite_486da83b18.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:grafaiai",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_grafaiai_fb5e5c8926.geo",
+      "poser": "cobbleeffort:gb_grafaiai",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0945_grafaiai/grafaiai_gb_sprite_641368f928.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_grafaiai_fb5e5c8926.geo",
+      "poser": "cobbleeffort:gb_grafaiai",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0945_grafaiai/grafaiai_shiny_gb_sprite_641368f928.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

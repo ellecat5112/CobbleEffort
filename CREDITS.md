@@ -46,6 +46,11 @@ made by the Cobblemon team and contributors.
   Major Arcana card's palette with a faint card pattern; a gold-framed card with the card's symbol (drawn from scratch)
   painted on the chest, the Roman numeral on the forehead, glowing eyes and an animated gold-foil layer; shinies
   reversed (hue turned, silver foil, symbol and numeral upside down).
+* **Game Boy Sprites** (`tools/sprites.py`; textures under `.../pokemon/gb_sprite/`, models/posers under
+  `.../bedrock/pokemon/*/gb_sprite/`): each model is posed in its idle pose and rendered front and back (a software
+  renderer) at one pixel per model unit in depth slices, reduced to four Game Boy tones (Game Boy Color palettes from
+  the shiny textures for shinies) with outlines, shading and dithering, and rebuilt as flat stacked planes with a poser
+  of its own (the original's portrait/profile framing) and an animation group of ours (`cobbleeffort_gbsprite`).
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

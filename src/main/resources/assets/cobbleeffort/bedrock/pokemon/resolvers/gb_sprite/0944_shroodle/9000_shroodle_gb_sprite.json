@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:shroodle",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_shroodle_1fd97d6fb6.geo",
+      "poser": "cobbleeffort:gb_shroodle",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0944_shroodle/shroodle_gb_sprite_a60e00e777.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_shroodle_1fd97d6fb6.geo",
+      "poser": "cobbleeffort:gb_shroodle",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0944_shroodle/shroodle_shiny_gb_sprite_a60e00e777.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gb_ogerpon_firetera_ec16b99a4b",
+        "texture_width": 304,
+        "texture_height": 339,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "sprite",
+          "parent": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "layer0",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -76.0,
+                -1.0,
+                -18.737
+              ],
+              "size": [
+                152.0,
+                113.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer1",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -76.0,
+                -1.0,
+                -16.737
+              ],
+              "size": [
+                152.0,
+                113.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                113
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer2",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -76.0,
+                -1.0,
+                -14.737
+              ],
+              "size": [
+                152.0,
+                113.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                226
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

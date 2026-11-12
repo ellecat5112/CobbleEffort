@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:ambipom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ambipom_male_f2ffb7338a.geo",
+      "poser": "cobbleeffort:gb_ambipom",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0424_ambipom/ambipom_gb_sprite_3799ddb0ea.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ambipom_female_c05cd4e2ed.geo",
+      "poser": "cobbleeffort:gb_ambipom",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0424_ambipom/ambipom_gb_sprite_8cab562221.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ambipom_male_f2ffb7338a.geo",
+      "poser": "cobbleeffort:gb_ambipom",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0424_ambipom/ambipom_shiny_gb_sprite_3799ddb0ea.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ambipom_female_c05cd4e2ed.geo",
+      "poser": "cobbleeffort:gb_ambipom",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0424_ambipom/ambipom_shiny_gb_sprite_8cab562221.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

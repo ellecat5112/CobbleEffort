@@ -1,0 +1,82 @@
+{
+  "species": "cobblemon:relicanth",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_relicanth_male_038f4e3554.geo",
+      "poser": "cobbleeffort:gb_relicanth",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0369_relicanth/relicanth_gb_sprite_5b055a28f6.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_relicanth_female_8735d17d19.geo",
+      "poser": "cobbleeffort:gb_relicanth",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0369_relicanth/relicanth_gb_sprite_06c3dcdc76.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_relicanth_male_038f4e3554.geo",
+      "poser": "cobbleeffort:gb_relicanth",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0369_relicanth/relicanth_shiny_gb_sprite_5b055a28f6.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_relicanth_female_8735d17d19.geo",
+      "poser": "cobbleeffort:gb_relicanth",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0369_relicanth/relicanth_shiny_gb_sprite_06c3dcdc76.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

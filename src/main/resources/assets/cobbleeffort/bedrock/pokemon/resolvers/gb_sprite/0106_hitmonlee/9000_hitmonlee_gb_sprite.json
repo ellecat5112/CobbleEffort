@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:hitmonlee",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_hitmonlee_14dfcb9439.geo",
+      "poser": "cobbleeffort:gb_hitmonlee",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0106_hitmonlee/hitmonlee_gb_sprite_f5ab7760a0.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_hitmonlee_14dfcb9439.geo",
+      "poser": "cobbleeffort:gb_hitmonlee",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0106_hitmonlee/hitmonlee_shiny_gb_sprite_f5ab7760a0.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

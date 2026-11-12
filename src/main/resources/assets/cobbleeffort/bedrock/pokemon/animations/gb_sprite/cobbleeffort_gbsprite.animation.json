@@ -1,0 +1,119 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cobbleeffort_gbsprite.idle": {
+      "loop": true,
+      "animation_length": 1.0,
+      "bones": {
+        "sprite": {
+          "position": {
+            "0.00": [
+              0,
+              0,
+              0
+            ],
+            "0.49": [
+              0,
+              0,
+              0
+            ],
+            "0.50": [
+              0,
+              1,
+              0
+            ],
+            "0.99": [
+              0,
+              1,
+              0
+            ],
+            "1.00": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.cobbleeffort_gbsprite.walk": {
+      "loop": true,
+      "animation_length": 0.5,
+      "bones": {
+        "sprite": {
+          "position": {
+            "0.00": [
+              0,
+              0,
+              0
+            ],
+            "0.12": [
+              0,
+              2,
+              0
+            ],
+            "0.24": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              0,
+              0,
+              0
+            ],
+            "0.37": [
+              0,
+              2,
+              0
+            ],
+            "0.49": [
+              0,
+              0,
+              0
+            ],
+            "0.50": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.cobbleeffort_gbsprite.cry": {
+      "animation_length": 0.4,
+      "bones": {
+        "sprite": {
+          "position": {
+            "0.00": [
+              0,
+              0,
+              0
+            ],
+            "0.10": [
+              0,
+              3,
+              0
+            ],
+            "0.20": [
+              0,
+              0,
+              0
+            ],
+            "0.30": [
+              0,
+              2,
+              0
+            ],
+            "0.40": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

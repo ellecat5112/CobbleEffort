@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:hitmontop",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_hitmontop_9e11ef9d1b.geo",
+      "poser": "cobbleeffort:gb_hitmontop",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0237_hitmontop/hitmontop_gb_sprite_b7be09ffb4.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_hitmontop_9e11ef9d1b.geo",
+      "poser": "cobbleeffort:gb_hitmontop",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0237_hitmontop/hitmontop_shiny_gb_sprite_b7be09ffb4.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

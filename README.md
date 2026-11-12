@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -441,6 +441,36 @@ was given the card that suits it (Mr. Mime the Fool, Kabuto the Moon's crayfish,
 
 Give a supported Pokémon **Paper** as its cosmetic item. With commands: `/pokegive azumarill tarot`,
 `/pokegive zangoose tarot shiny`. Pack makers can extend the item tag `#cobbleeffort:tarot_cosmetics`.
+
+## Collection #12: Game Boy Sprites (2D)
+
+18 evolutionary lines (**33 Pokémon**) turned into flat **Game Boy sprites**, made of layers of 2D artwork:
+
+* the Pokémon is drawn from its own model in its idle pose, **one pixel per model unit**, in the Game Boy's four
+  greens, with dark outlines (round the sprite and wherever one part overlaps another), light from the top left and
+  a little dithering
+* the sprite is split by depth into a few **flat layers** stacked a little apart: head-on it is a sprite, from an
+  angle the layers pop out like a paper cut-out, and from behind you see its **back sprite**
+* it moves like one: an 8-bit **bob** when standing, a **hop** on every step, a jump for its cry
+* every form gets its own sprite: female forms, regional forms, Gigantamax Kingler, the Hisuian/Paldean forms…
+* shiny: a **Game Boy Color** sprite, in a four-colour palette taken from the shiny's own colours
+
+Doduo → Dodrio · Krabby → Kingler · Tyrogue → Hitmonlee / Hitmonchan / Hitmontop · Aipom → Ambipom ·
+Snubbull → Granbull · Minun · Tropius · Chingling → Chimecho · Relicanth · Pansear → Simisear ·
+Bunnelby → Diggersby · Honedge → Doublade → Aegislash · Volcanion · Yungoos → Gumshoos · Minior ·
+Shroodle → Grafaiai · Flittle → Espathra · Ogerpon
+
+Picked with `generate.py pick --count 18 --seed gameboy-2d-sprites` from the 271 remaining eligible lines. The
+sprites are rendered by the generator from Cobblemon's own models (`tools/sprites.py`, collection `"mode": "sprite"`):
+no art from the games is used.
+
+![Original vs. Game Boy sprite](docs/gameboy_preview.png)
+
+### How to get one
+
+Give a supported Pokémon **Lime Dye** (the Game Boy's green) as its cosmetic item. With commands:
+`/pokegive krabby gb_sprite`, `/pokegive aipom gb_sprite shiny`. Pack makers can extend the item tag
+`#cobbleeffort:gb_sprite_cosmetics`.
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

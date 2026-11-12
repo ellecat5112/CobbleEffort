@@ -1,0 +1,119 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gb_minior_949ffba311",
+        "texture_width": 36,
+        "texture_height": 51,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "sprite",
+          "parent": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "layer0",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -9.0,
+                4.0,
+                -2.01
+              ],
+              "size": [
+                18.0,
+                17.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer1",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -9.0,
+                4.0,
+                -0.01
+              ],
+              "size": [
+                18.0,
+                17.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer2",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -9.0,
+                4.0,
+                1.99
+              ],
+              "size": [
+                18.0,
+                17.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                34
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

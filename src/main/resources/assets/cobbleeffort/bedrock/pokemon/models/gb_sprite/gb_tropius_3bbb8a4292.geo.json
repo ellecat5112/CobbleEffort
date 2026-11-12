@@ -1,0 +1,119 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.gb_tropius_3bbb8a4292",
+        "texture_width": 232,
+        "texture_height": 225,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 4,
+        "visible_bounds_offset": [
+          0,
+          1,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "sprite",
+          "parent": "gbsprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "layer0",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -58.0,
+                -1.0,
+                -5.495
+              ],
+              "size": [
+                116.0,
+                75.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer1",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -58.0,
+                -1.0,
+                -3.495
+              ],
+              "size": [
+                116.0,
+                75.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                75
+              ]
+            }
+          ]
+        },
+        {
+          "name": "layer2",
+          "parent": "sprite",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -58.0,
+                -1.0,
+                -1.495
+              ],
+              "size": [
+                116.0,
+                75.0,
+                0.0
+              ],
+              "uv": [
+                0,
+                150
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

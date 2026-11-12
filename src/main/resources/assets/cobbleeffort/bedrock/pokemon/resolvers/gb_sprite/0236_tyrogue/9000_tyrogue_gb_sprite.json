@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:tyrogue",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_tyrogue_d650841159.geo",
+      "poser": "cobbleeffort:gb_tyrogue",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0236_tyrogue/tyrogue_gb_sprite_0e426237f6.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_tyrogue_d650841159.geo",
+      "poser": "cobbleeffort:gb_tyrogue",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0236_tyrogue/tyrogue_shiny_gb_sprite_0e426237f6.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

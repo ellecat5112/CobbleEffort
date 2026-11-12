@@ -1,0 +1,3452 @@
+{
+  "species": "cobblemon:minior",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_red_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_red_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_orange_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_yellow_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_orange_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_yellow_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_yellow_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_yellow_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "indigo-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "green-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "indigo-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_blue_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "meteor-form",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "orange-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "blue-core",
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "meteor-form",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "indigo-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_green_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "meteor-form",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "orange-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "green-core",
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "orange-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_indigo_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "meteor-form",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "orange-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "indigo-core",
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "shiny",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "orange-core",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_violet_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "meteor-form",
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_949ffba311.geo",
+      "poser": "cobbleeffort:gb_minior_meteor",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_0d60afbf49.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "orange-core",
+        "shiny",
+        "violet-core",
+        "yellow-core",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_minior_72b9d7ffcc.geo",
+      "poser": "cobbleeffort:gb_minior_core",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0774_minior/minior_shiny_gb_sprite_6af0b7f6d1.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

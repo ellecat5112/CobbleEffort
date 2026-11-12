@@ -43,12 +43,15 @@ const findModel = (id) => {
   await page.waitForFunction(() => window.ready);
   fs.mkdirSync(outDir, { recursive: true });
   for (const e of manifest) {
-    const geo = JSON.parse(fs.readFileSync(findModel(e.model)));
+    const geoOrig = JSON.parse(fs.readFileSync(findModel(e.model)));
+    // sprite collections swap the model too (tools/sprites.py)
+    const geoNew = e.retextured_model ? JSON.parse(fs.readFileSync(findModel(e.retextured_model))) : geoOrig;
     const dataUrl = f => 'data:image/png;base64,' + fs.readFileSync(f).toString('base64');
     for (const [tag, root, key] of [['orig', ref, 'original'], ['new', mod, 'retextured']]) {
       if (!e[key]) continue;   // e.g. an addon line has no Cobblemon original
       const url = dataUrl(texPath(root, e[key]));
       const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
+      const geo = tag === 'new' ? geoNew : geoOrig;
       const png = await page.evaluate(([g, u, ls, sz, yw, up]) => window.renderModel(g, u, sz, yw, ls, up), [geo, url, layers, size, yaw, camUp]);
       fs.writeFileSync(path.join(outDir, `${e.species}${e.form ? '_' + e.form : ''}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }

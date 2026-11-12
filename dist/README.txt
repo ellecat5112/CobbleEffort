@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 11 collections of cosmetic forms (424 Pokemon) to Cobblemon. Each form is a new
+CobbleEffort adds 12 collections of cosmetic forms (457 Pokemon) to Cobblemon. Each form is a new
 look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
 has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
 regional forms, megas and shinies (shinies get their own version).
@@ -41,6 +41,7 @@ AT A GLANCE
   9   Naruto / Naruto Shippuden / Boruto  Flint                                           shinobi
   10  Trans Pride                         Light Blue Banner, Pink Banner or White Banner  trans_pride
   11  Tarot                               Paper                                           tarot
+  12  Game Boy Sprites                    Lime Dye                                        gb_sprite
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -484,6 +485,43 @@ Pokemon (each line is a whole evolutionary family):
   - Lotad > Lombre > Ludicolo
   - Spearow > Fearow
   - Cosmog > Cosmoem > Solgaleo / Lunala
+
+====================================================================================================
+#12  GAME BOY SPRITES (2D)  (33 Pokemon)
+====================================================================================================
+Pokemon as flat Game Boy sprites, in layers of 2D artwork.
+
+Cosmetic item: Lime Dye
+Command:       /pokegive krabby gb_sprite   (add 'shiny' for the shiny version)
+
+The look:
+  * the whole Pokemon becomes a flat pixel-art sprite in the Game Boy's four greens: drawn from its
+    own model in its idle pose, one pixel per model unit, dark outlines and a little dithering
+  * the sprite is made of a few flat layers stacked a little apart (front parts in front, back parts
+    behind): head-on it's a sprite, from an angle the layers pop out like a paper cut-out; from
+    behind you see its back sprite
+  * an 8-bit bob when standing, a hop on every step, a jump for its cry
+  * shiny: a Game Boy Color sprite in a four-colour palette taken from the shiny's own colours
+
+Pokemon (each line is a whole evolutionary family):
+  - Doduo > Dodrio
+  - Krabby > Kingler
+  - Tyrogue > Hitmonlee / Hitmonchan / Hitmontop
+  - Aipom > Ambipom
+  - Snubbull > Granbull
+  - Minun
+  - Tropius
+  - Chingling > Chimecho
+  - Relicanth
+  - Pansear > Simisear
+  - Bunnelby > Diggersby
+  - Honedge > Doublade > Aegislash
+  - Volcanion
+  - Yungoos > Gumshoos
+  - Minior
+  - Shroodle > Grafaiai
+  - Flittle > Espathra
+  - Ogerpon
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

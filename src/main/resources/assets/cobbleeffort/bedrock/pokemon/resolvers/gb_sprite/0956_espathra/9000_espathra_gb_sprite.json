@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:espathra",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_espathra_2f32214b0b.geo",
+      "poser": "cobbleeffort:gb_espathra",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0956_espathra/espathra_gb_sprite_7c68bd9a2a.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_espathra_2f32214b0b.geo",
+      "poser": "cobbleeffort:gb_espathra",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0956_espathra/espathra_shiny_gb_sprite_7c68bd9a2a.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -797,9 +797,78 @@ def painted_variations(cob: Cobblemon, name: str, aspect: str, seed: int, style,
     return out, entry
 
 
+def sprite_variations(cob: Cobblemon, name: str, folder: str, variations: list[dict], aspect: str, vendor: Vendor,
+                      out_tex_root: Path, cache: dict) -> tuple[list[dict], list[dict]]:
+    """Sprite collections (tools/sprites.py): one copy for every combination of the variations' aspect sets (closed
+    under union, so the most specific one is the largest that matches and comes last), each pinning a layered sprite
+    model, its poser and the sprite sheet rendered from exactly what Cobblemon resolves for that combination, so model
+    and texture always match. All layers (ours to add none, theirs inherited) are switched off."""
+    import sprites
+    skip = cob.cosmetic_aspects_for(name)
+    atoms = [frozenset(v.get("aspects", [])) for v in variations
+             if "alpha_eyes" not in v.get("aspects", []) and not skip & set(v.get("aspects", []))]
+    sets = {frozenset()} | set(atoms)
+    while True:
+        more = {a | b for a in sets for b in sets} - sets
+        if not more or len(sets) > 96:
+            break
+        sets |= more
+    pairs = [(v, None) for v in variations]
+    layer_names = sorted({l.get("name", "") for v, _ in list(pairs) + list(cob.effective.get(name, []))
+                          for l in v.get("layers") or []})
+    off = [{"name": n, "enabled": False} for n in layer_names]
+    base = RES / "assets" / MOD_ID / "bedrock" / "pokemon"
+    anim_file = base / "animations" / aspect / f"{sprites.GROUP}.animation.json"
+    if not anim_file.exists():
+        write_json(anim_file, sprites.animations_json())
+    out, entries = [], []
+    for S in sorted(sets, key=lambda x: (len(x), sorted(x))):
+        state = resolved_state(pairs, set(S))
+        model, poser, texture = state.get("model"), state.get("poser"), state.get("texture")
+        if not model or not isinstance(texture, str):
+            continue
+        key = (model, poser, texture)
+        if key not in cache:
+            geo = cob.stack.geometry(model)
+            hit = cob.stack.image(texture)
+            if geo is None or hit is None:
+                cache[key] = None
+            else:
+                original, bones, hidden = sprites.load_pose(cob.stack, poser, vendor.kotlin, kotlin_convert, find_model_class)
+                built = sprites.build_sprite(geo, hit[0], bones, hidden, hit[0] if "shiny" in S else None)
+                if built is None:
+                    cache[key] = None
+                else:
+                    atlas, planes, size = built
+                    mname = f"gb_{model.split(':', 1)[1].replace('.geo', '')}_{sprites.digest(model, poser, len(planes), size)}.geo"
+                    mpath = base / "models" / aspect / f"{mname}.json"
+                    if not mpath.exists():
+                        write_json(mpath, sprites.model_json(mname.replace(".geo", ""), planes, size))
+                    pname = f"gb_{(poser or model).split(':', 1)[1].replace('.geo', '')}"
+                    ppath = base / "posers" / aspect / f"{pname}.json"
+                    if not ppath.exists():
+                        write_json(ppath, sprites.poser_json(original))
+                    stem = Path(texture).stem
+                    tex_rel = f"{folder}/{stem}_{aspect}_{sprites.digest(model, poser)}.png"
+                    tpath = out_tex_root / tex_rel
+                    tpath.parent.mkdir(parents=True, exist_ok=True)
+                    atlas.save(tpath, optimize=True)
+                    cache[key] = (f"{MOD_ID}:{mname}", f"{MOD_ID}:{pname}",
+                                  f"{MOD_ID}:textures/pokemon/{aspect}/{tex_rel}")
+        if cache[key] is None:
+            continue
+        m, ps, tx = cache[key]
+        out.append({"aspects": sorted(S) + [aspect], "model": m, "poser": ps, "texture": tx, "layers": off})
+        if not S or ("model" in state and not ({"shiny"} & S) and any(frozenset(v.get("aspects", [])) == S and "model" in v
+                                                                    and cob.var_layer[id(v)].id != "cobblemon" for v in variations)):
+            entries.append({"species": name, "folder": folder, "model": model, "original": texture, "retextured": tx,
+                            "retextured_model": m, "layers": [], **({"form": "_".join(sorted(S))} if S else {})})
+    return out, entries
+
+
 def build_collection(cob: Cobblemon, cfg: dict):
     aspect, feature = cfg["aspect"], cfg["feature"]
-    default_style = importlib.import_module(f"styles.{cfg['style']}")
+    default_style = importlib.import_module(f"styles.{cfg['style']}") if cfg.get("style") else None
     families = cob.families(cfg["extra_links"])
     # optional per-line looks, e.g. {"charmander": "halloween_skeleton"}; applies to the whole line
     style_of: dict[str, object] = {}
@@ -843,9 +912,21 @@ def build_collection(cob: Cobblemon, cfg: dict):
     manifest = []
     first = lambda t: t["frames"][0] if isinstance(t, dict) else t
     stats = {"compat_forms": 0, "passthrough": 0, "pinned": 0}
+    sprite_cache: dict = {}
     for name in ordered:
         seed = int(hashlib.sha256(f"{MOD_ID}:{aspect}:{name}".encode()).hexdigest()[:12], 16)
         style = style_of.get(name, default_style)
+        if cfg.get("mode") == "sprite":
+            if name not in cob.resolvers:
+                raise SystemExit(f"{name}: sprite collections need an adaptable model for every member")
+            folder, variations = cob.resolvers[name]
+            mirrored, entries = sprite_variations(cob, name, folder, variations, aspect, vendor, out_tex_root, sprite_cache)
+            write_json(out_res_root / folder / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
+                "species": f"cobblemon:{name}", "order": RESOLVER_ORDER, "variations": mirrored})
+            manifest += entries
+            stats["compat_forms"] += sum(1 for e in entries if "form" in e)
+            retex.count_extra = getattr(retex, "count_extra", 0) + len({v["texture"] for v in mirrored})
+            continue
         if name not in cob.resolvers:
             variations, entry = painted_variations(cob, name, aspect, seed, style, retex, geometry, cob.cosmetic_aspects_for(name))
             write_json(out_res_root / entry["folder"] / f"{RESOLVER_ORDER}_{name}_{aspect}.json", {
@@ -940,7 +1021,7 @@ def build_collection(cob: Cobblemon, cfg: dict):
     write_json(data / "tags" / "item" / f"{aspect}_cosmetics.json", {
         "replace": False, "values": cfg["cosmetic_items"],
     })
-    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines']) + len(addons)} lines, {retex.count} textures"
+    print(f"[{cfg['name']}] {len(ordered)} Pokémon from {len(cfg['lines']) + len(addons)} lines, {retex.count + getattr(retex, 'count_extra', 0)} textures"
           + (f" (+ {len(addons)} addon line)" if addons else "")
           + f"; {stats['compat_forms']} other-mod forms retextured, {stats['passthrough']} passed through,"
           f" {stats['pinned']} species pinned"

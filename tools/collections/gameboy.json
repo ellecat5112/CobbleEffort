@@ -1,0 +1,42 @@
+{
+  "_comment": "Game Boy Sprites collection (mode 'sprite', tools/sprites.py): the Pokémon becomes a flat Game Boy sprite in layered 2D planes, rendered from its own Cobblemon model in its idle pose. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed gameboy-2d-sprites`.",
+  "aspect": "gb_sprite",
+  "feature": "gb_sprite",
+  "mode": "sprite",
+  "cosmetic_items": [
+    "minecraft:lime_dye"
+  ],
+  "lines": [
+    "doduo",
+    "krabby",
+    "hitmonlee",
+    "aipom",
+    "snubbull",
+    "minun",
+    "tropius",
+    "chimecho",
+    "relicanth",
+    "pansear",
+    "bunnelby",
+    "honedge",
+    "volcanion",
+    "yungoos",
+    "minior",
+    "shroodle",
+    "flittle",
+    "ogerpon"
+  ],
+  "extra_links": [],
+  "readme": {
+    "number": 12,
+    "title": "Game Boy Sprites (2D)",
+    "example": "krabby",
+    "summary": "Pokemon as flat Game Boy sprites, in layers of 2D artwork.",
+    "looks": [
+      "the whole Pokemon becomes a flat pixel-art sprite in the Game Boy's four greens: drawn from its own model in its idle pose, one pixel per model unit, dark outlines and a little dithering",
+      "the sprite is made of a few flat layers stacked a little apart (front parts in front, back parts behind): head-on it's a sprite, from an angle the layers pop out like a paper cut-out; from behind you see its back sprite",
+      "an 8-bit bob when standing, a hop on every step, a jump for its cry",
+      "shiny: a Game Boy Color sprite in a four-colour palette taken from the shiny's own colours"
+    ]
+  }
+}

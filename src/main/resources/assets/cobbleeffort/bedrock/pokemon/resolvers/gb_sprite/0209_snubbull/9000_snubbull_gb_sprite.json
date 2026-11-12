@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:snubbull",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_snubbull_6f482f8e52.geo",
+      "poser": "cobbleeffort:gb_snubbull",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0209_snubbull/snubbull_gb_sprite_1d39f4ab82.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_snubbull_6f482f8e52.geo",
+      "poser": "cobbleeffort:gb_snubbull",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0209_snubbull/snubbull_shiny_gb_sprite_1d39f4ab82.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

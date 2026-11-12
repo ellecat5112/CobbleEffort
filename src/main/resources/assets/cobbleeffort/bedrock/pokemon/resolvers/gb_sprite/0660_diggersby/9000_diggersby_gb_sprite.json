@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:diggersby",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_diggersby_bec8e001f8.geo",
+      "poser": "cobbleeffort:gb_diggersby",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0660_diggersby/diggersby_gb_sprite_6ee6851360.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_diggersby_bec8e001f8.geo",
+      "poser": "cobbleeffort:gb_diggersby",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0660_diggersby/diggersby_shiny_gb_sprite_6ee6851360.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

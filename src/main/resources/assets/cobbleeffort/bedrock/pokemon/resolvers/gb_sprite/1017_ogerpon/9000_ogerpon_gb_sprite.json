@@ -1,0 +1,534 @@
+{
+  "species": "cobblemon:ogerpon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_teal_b971161f48.geo",
+      "poser": "cobbleeffort:gb_ogerpon_teal",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_gb_sprite_e93974b85f.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rock_0a23ec30c8.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rock",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rock_gb_sprite_8c74b62f64.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_tealtera_926d5824ba.geo",
+      "poser": "cobbleeffort:gb_ogerpon_tealtera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_tealtera_gb_sprite_55c79c98a4.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_fire_0b22b11395.geo",
+      "poser": "cobbleeffort:gb_ogerpon_fire",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_fire_gb_sprite_c35540dc0c.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_teal_b971161f48.geo",
+      "poser": "cobbleeffort:gb_ogerpon_teal",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_shiny_gb_sprite_e93974b85f.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rocktera_39de471b01.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rocktera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rocktera_gb_sprite_0c693684ad.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "hearthflame-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rock_0a23ec30c8.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rock",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rock_gb_sprite_8c74b62f64.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rock_0a23ec30c8.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rock",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rock_shiny_gb_sprite_8c74b62f64.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_firetera_ec16b99a4b.geo",
+      "poser": "cobbleeffort:gb_ogerpon_firetera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_firetera_gb_sprite_bf85445017.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_tealtera_926d5824ba.geo",
+      "poser": "cobbleeffort:gb_ogerpon_tealtera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_tealtera_shiny_gb_sprite_55c79c98a4.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_fire_0b22b11395.geo",
+      "poser": "cobbleeffort:gb_ogerpon_fire",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_fire_shiny_gb_sprite_c35540dc0c.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_shiny_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "hearthflame-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rocktera_39de471b01.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rocktera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rocktera_gb_sprite_0c693684ad.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rocktera_39de471b01.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rocktera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rocktera_shiny_gb_sprite_0c693684ad.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "hearthflame-mask",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rock_0a23ec30c8.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rock",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rock_shiny_gb_sprite_8c74b62f64.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "hearthflame-mask",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_shiny_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_firetera_ec16b99a4b.geo",
+      "poser": "cobbleeffort:gb_ogerpon_firetera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_firetera_shiny_gb_sprite_bf85445017.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_shiny_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hearthflame-mask",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_shiny_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "hearthflame-mask",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_rocktera_39de471b01.geo",
+      "poser": "cobbleeffort:gb_ogerpon_rocktera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_rocktera_shiny_gb_sprite_0c693684ad.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "hearthflame-mask",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_shiny_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "hearthflame-mask",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_water_4f8a886a28.geo",
+      "poser": "cobbleeffort:gb_ogerpon_water",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_water_shiny_gb_sprite_5d429d3d6a.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "embody-aspect",
+        "hearthflame-mask",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_shiny_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cornerstone-mask",
+        "embody-aspect",
+        "hearthflame-mask",
+        "shiny",
+        "wellspring-mask",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_ogerpon_watertera_d52b63fb0e.geo",
+      "poser": "cobbleeffort:gb_ogerpon_watertera",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/1017_ogerpon/ogerpon_watertera_shiny_gb_sprite_3368f61fce.png",
+      "layers": [
+        {
+          "name": "glow",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

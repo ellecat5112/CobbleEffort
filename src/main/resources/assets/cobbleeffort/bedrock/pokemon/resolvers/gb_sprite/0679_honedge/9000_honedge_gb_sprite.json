@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:honedge",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_honedge_84a5bbcad1.geo",
+      "poser": "cobbleeffort:gb_honedge",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0679_honedge/honedge_gb_sprite_f557b6a426.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_honedge_84a5bbcad1.geo",
+      "poser": "cobbleeffort:gb_honedge",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0679_honedge/honedge_shiny_gb_sprite_f557b6a426.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

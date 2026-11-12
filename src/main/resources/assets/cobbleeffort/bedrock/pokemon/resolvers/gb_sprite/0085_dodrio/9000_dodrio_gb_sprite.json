@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:dodrio",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_dodrio_male_976b9a683b.geo",
+      "poser": "cobbleeffort:gb_dodrio",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0085_dodrio/dodrio_gb_sprite_6b7ded056d.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_dodrio_female_593bc9daaa.geo",
+      "poser": "cobbleeffort:gb_dodrio",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0085_dodrio/dodrio_gb_sprite_52f4b397ae.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_dodrio_male_976b9a683b.geo",
+      "poser": "cobbleeffort:gb_dodrio",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0085_dodrio/dodrio_shiny_gb_sprite_6b7ded056d.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_dodrio_female_593bc9daaa.geo",
+      "poser": "cobbleeffort:gb_dodrio",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0085_dodrio/dodrio_shiny_gb_sprite_52f4b397ae.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

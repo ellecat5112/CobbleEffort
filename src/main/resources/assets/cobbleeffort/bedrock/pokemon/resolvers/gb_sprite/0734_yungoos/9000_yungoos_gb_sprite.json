@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:yungoos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_yungoos_05a34a1432.geo",
+      "poser": "cobbleeffort:gb_yungoos",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0734_yungoos/yungoos_gb_sprite_d18fb17683.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_yungoos_05a34a1432.geo",
+      "poser": "cobbleeffort:gb_yungoos",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0734_yungoos/yungoos_shiny_gb_sprite_d18fb17683.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "rootBone": "gbsprite",
+  "portraitScale": 0.48,
+  "portraitTranslation": [
+    -0.23,
+    2.82,
+    0
+  ],
+  "profileScale": 0.22,
+  "profileTranslation": [
+    0,
+    1.3,
+    0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('cobbleeffort_gbsprite', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "HOVER",
+        "FLOAT",
+        "SLEEP",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "OPEN"
+      ],
+      "animations": [
+        "q.bedrock('cobbleeffort_gbsprite', 'idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY",
+        "GLIDE"
+      ],
+      "animations": [
+        "q.bedrock('cobbleeffort_gbsprite', 'walk')"
+      ]
+    }
+  }
+}

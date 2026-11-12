@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:pansear",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_pansear_90c4db4dd7.geo",
+      "poser": "cobbleeffort:gb_pansear",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0513_pansear/pansear_gb_sprite_04979b6cf3.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gb_sprite"
+      ],
+      "model": "cobbleeffort:gb_pansear_90c4db4dd7.geo",
+      "poser": "cobbleeffort:gb_pansear",
+      "texture": "cobbleeffort:textures/pokemon/gb_sprite/0513_pansear/pansear_shiny_gb_sprite_04979b6cf3.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

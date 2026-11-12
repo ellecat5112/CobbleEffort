@@ -45,6 +45,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `FRAMES`/`FPS`). `layer` is False for body textures, "emissive" or "plain" for layers. Optional
   `EXTRA_LAYERS` (list of {name, emissive, translucent, frames, fps}) + `extra_layer(name, base, eyes, seed, shiny,
   frame) -> Image | None` adds style-owned layers (named `cobbleeffort_<name>`), e.g. Christmas lights.
+- Sprite collections (`"mode": "sprite"`, no style; `tools/sprites.py`, Game Boy Sprites): the model itself is
+  replaced. For every union of the species' variation aspect sets, what Cobblemon resolves (model, poser, texture) is
+  posed (standing pose's animations at t=0, transformedParts hidden), software-rendered front/back at 1 px/unit in
+  depth slices, quantised to Game Boy tones (GBC palette from the shiny texture), and written as a layered plane model
+  (`cobbleeffort:gb_<model>_<digest>.geo`) + poser (`cobbleeffort:gb_<poser>`, original portrait framing) + our
+  animation group `cobbleeffort_gbsprite`; each copy pins all three and switches every layer off (no passthrough:
+  their model can't be named). Preview manifests carry `retextured_model`; render.js uses it.
 - Shared helpers: `styles/_horror.py` (Halloween), `styles/_festive.py` (Christmas), `styles/_spring.py` (Easter),
   `styles/_animatronic.py` (FNAF; one thin `fnaf_<look>.py` module per look).
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
