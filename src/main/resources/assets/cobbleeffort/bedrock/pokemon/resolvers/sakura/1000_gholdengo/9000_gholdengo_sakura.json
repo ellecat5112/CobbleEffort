@@ -1,0 +1,149 @@
+{
+  "species": "cobblemon:gholdengo",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage1",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer1_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage2",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer2_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage3",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer3_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage4",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer4_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage5",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer5_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage6",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer6_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-stage7",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_layer7_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "netherite-coating-full",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "name": "netherite",
+          "texture": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_netherite_sakura.png"
+        }
+      ]
+    }
+  ]
+}

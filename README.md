@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon) · #18 Arc Light (35 Pokémon) · #19 Abyss (49 Pokémon) · #20 Ancient Ruins (33 Pokémon) · #21 Gilded (36 Pokémon) · #22 Glacial (32 Pokémon) · #23 Kitsune (35 Pokémon) · #24 Super Mario (33 Pokémon) · #25 Nimbus (28 Pokémon) · #26 Pajama (30 Pokémon) · #27 Pinkan Island (36 Pokémon) · #28 Prismatic (37 Pokémon) · #29 Sakura (44 Pokémon) · #30 Shadow (34 Pokémon) · #31 Slayer (37 Pokémon) · #32 Sunburst (26 Pokémon) · #33 Toxic Chain (29 Pokémon). Since #24, collections may share Pokémon (the unused lines ran out): each still has its own item, and a Pokémon wears whichever collection's item is in its cosmetic slot.
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -876,6 +876,116 @@ Crabrawler → Crabominable · Mudbray → Mudsdale · Mimikyu · Arctozolt · N
 Picked with `generate.py pick --count 18 --seed prismatic-spectrum` (lines already in one other collection).
 
 ![Original vs. prismatic](docs/prismatic_preview.png)
+
+## Collection #29: Sakura
+
+18 evolutionary lines (**44 Pokémon**) in cherry-blossom season (three lines per look):
+
+* **blossom** (Flabébé, Swirlix, Marill): blush pink scattered with white-pink five-petalled blossoms
+* **hanami** (Oddish, Shuckle, Stonjourner): pale cream with cherry branches in bloom
+* **yozakura** (Gimmighoul, Kecleon, Tynamo): night sakura on deep navy, **glowing** blossoms and paper lanterns
+* **kimono** (Rookidee, Cramorant, Bouffalant): pink silk printed with sakura, a red obi with a gold cord
+* **petal storm** (Caterpie, Wurmple, Trapinch): blush pink with petals **drifting** across
+* **spring** (Nacli, Bergmite, Magnemite): fresh green dotted with blossom
+* the eyes keep their own colours; other forms (Mega Eelektross, Eternal Floette and its mega, Gigantamax Butterfree
+  and Corviknight, Cramorant's Gulping and Gorging forms) bloom too
+* shiny: white-and-gold plum blossom
+
+Caterpie → Metapod → Butterfree · Oddish → Gloom → Vileplume / Bellossom · Magnemite → Magneton → Magnezone ·
+Azurill → Marill → Azumarill · Shuckle · Wurmple → Silcoon → Beautifly / Cascoon → Dustox · Trapinch → Vibrava → Flygon ·
+Kecleon · Tynamo → Eelektrik → Eelektross · Bouffalant · Flabébé → Floette → Florges · Swirlix → Slurpuff ·
+Bergmite → Avalugg · Rookidee → Corvisquire → Corviknight · Cramorant · Stonjourner · Nacli → Naclstack → Garganacl ·
+Gimmighoul → Gholdengo
+
+![Original vs. sakura](docs/sakura_preview.png)
+
+## Collection #30: Shadow
+
+18 evolutionary lines (**34 Pokémon**) whose hearts have been closed, wreathed in a dark aura (after the shadow Pokémon of
+Colosseum and XD; three lines per look):
+
+* **shadow aura** (Misdreavus, Spiritomb, Unown): violet-black with a purple aura **flickering** off every edge
+* **hyper mode** (Houndour, Totodile, Druddigon): crimson-black with a raging red aura and burning red eyes
+* **eclipse** (Zorua, Diancie, Rowlet): near black, rimmed with thin violet light
+* **smoke** (Lickitung, Dunsparce, Eiscue): smoky grey-black with dark wisps rising
+* **ember** (Cyclizar, Hitmonlee, Yamper): charred dark with smouldering crimson cracks
+* **cipher** (Spoink, Karrablast, Bramblin): dark violet broken up by glitching scanlines
+* other forms (Mega Houndoom, Feraligatr and Diancie) are shadows too
+* shiny: the aura's colour turned round the colour wheel
+
+Tyrogue → Hitmonlee / Hitmonchan / Hitmontop · Lickitung → Lickilicky · Totodile → Croconaw → Feraligatr ·
+Misdreavus → Mismagius · Unown · Dunsparce → Dudunsparce · Houndour → Houndoom · Spoink → Grumpig · Spiritomb ·
+Zorua → Zoroark · Karrablast → Escavalier · Druddigon · Diancie · Rowlet → Dartrix → Decidueye · Yamper → Boltund ·
+Eiscue · Bramblin → Brambleghast · Cyclizar
+
+![Original vs. shadow](docs/shadow_preview.png)
+
+## Collection #31: Slayer
+
+18 evolutionary lines (**37 Pokémon**) as demon slayers: a patterned haori over a dark navy uniform with a white belt,
+and a breathing style that glows in the dark (inspired by the Demon Slayer anime; the patterns are traditional
+Japanese motifs; three lines per look):
+
+* **checkered** (Kubfu, Spinda, Fidough): green-and-black ichimatsu checks, fire **flickering** at the hem
+* **water** (Buizel, Bruxish, Quaxly): blue-and-white seigaiha wave scales; the waves **roll**
+* **flame** (Seedot, Maractus, Spearow): a white haori with flames licking up from the hem
+* **thunder** (Dreepy, Staryu, Poochyena): yellow with white uroko triangle scales; lightning **crackles**
+* **insect** (Lileep, Bellsprout, Natu): a butterfly-wing haori with black veins and glowing spots
+* **mist** (Trubbish, Terapagos, Smoliv): mist-white fading to cyan with mist **drifting** over it
+* the eyes keep their own colours; other forms (Mega Starmie and Victreebel, Gigantamax Garbodor and Urshifu, Rapid
+  Strike Urshifu, Terastal and Stellar Terapagos) wear the haori too
+* shiny: the haori's colours turned round the colour wheel
+
+Spearow → Fearow · Bellsprout → Weepinbell → Victreebel · Staryu → Starmie · Natu → Xatu · Poochyena → Mightyena ·
+Seedot → Nuzleaf → Shiftry · Spinda · Lileep → Cradily · Buizel → Floatzel · Maractus · Trubbish → Garbodor · Bruxish ·
+Dreepy → Drakloak → Dragapult · Kubfu → Urshifu · Quaxly → Quaxwell → Quaquaval · Fidough → Dachsbun ·
+Smoliv → Dolliv → Arboliva · Terapagos
+
+![Original vs. slayer](docs/slayer_preview.png)
+
+## Collection #32: Sunburst
+
+18 evolutionary lines (**26 Pokémon**) blazing with sunlight (three lines per look):
+
+* **sun rays** (Victini, Nosepass, Skarmory): gold and orange rays bursting from the chest
+* **sunrise** (Deerling, Mareep, Tatsugiri): rose, orange, gold and pale morning yellow from toe to head
+* **solar flare** (Turtonator, Okidogi, Walking Wake): molten gold with a corona of flares **licking** off it
+* **sunflower** (Snover, Foongus, Oricorio): petals radiating round a brown seed head on the chest
+* **art deco** (Rotom, Seviper, Dracovish): black lacquer with gold sunburst fans and arcs
+* **tropical** (Ditto, Nidoran♂, Thundurus): hot tropical orange and yellow with little suns
+* the light **shimmers** in the dark; warm glowing eyes; other forms (Mega Skarmory, Ampharos and Abomasnow, every
+  Rotom appliance and Oricorio style, Therian Thundurus) shine too
+* shiny: a white-gold midnight sun
+
+Nidoran♂ → Nidorino → Nidoking · Ditto · Mareep → Flaaffy → Ampharos · Skarmory · Nosepass → Probopass · Seviper ·
+Snover → Abomasnow · Rotom · Victini · Deerling → Sawsbuck · Foongus → Amoonguss · Thundurus · Oricorio · Turtonator ·
+Dracovish · Tatsugiri · Walking Wake · Okidogi
+
+![Original vs. sunburst](docs/sunburst_preview.png)
+
+## Collection #33: Toxic Chain
+
+18 evolutionary lines (**29 Pokémon**) bound by poisonous chains and mochi (after Pecharunt's Toxic Chain; three lines
+per look):
+
+* **chains** (Darkrai, Duraludon, Dondozo): dark violet bound with glowing magenta chain links that **throb**
+* **toxic mochi** (Audino, Chimecho, Castform): glossy lilac mochi with toxic speckles and glowing spots
+* **ooze** (Tadbulb, Orthworm, Flamigo): toxic ooze **dripping** down from the top
+* **sludge** (Teddiursa, Turtwig, Stunfisk): green-and-purple sludge whose bubbles **pop**
+* **venom** (Dratini, Meditite, Emolga): glowing venom veins that **pulse**
+* **poison haze** (Meloetta, Volbeat, Poltchageist): lavender wreathed in **swirling** poison gas
+* glowing magenta eyes; other forms (Mega Dragonite, Medicham, Audino and Chimecho, Extra Megas' Mega Torterra,
+  Gigantamax Duraludon, Bloodmoon Ursaluna, Castform's weather forms, Pirouette Meloetta) are poisoned too
+* shiny: the poison turned round the colour wheel
+
+Dratini → Dragonair → Dragonite · Teddiursa → Ursaring → Ursaluna · Meditite → Medicham · Volbeat · Castform ·
+Chingling → Chimecho · Turtwig → Grotle → Torterra · Darkrai · Audino · Emolga · Stunfisk · Meloetta ·
+Duraludon → Archaludon · Tadbulb → Bellibolt · Orthworm · Flamigo · Dondozo · Poltchageist → Sinistcha
+
+All five picked with `generate.py pick --count 18` (seeds sakura-hanami, shadow-aura-snag, slayer-breathing,
+sunburst-solstice, toxic-chain-mochi) from lines already in one other collection.
+
+![Original vs. toxic chain](docs/toxic_chain_preview.png)
 
 ### How to get one
 

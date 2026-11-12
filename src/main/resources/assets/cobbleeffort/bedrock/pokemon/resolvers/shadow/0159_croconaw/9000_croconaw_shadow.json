@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:croconaw",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0159_croconaw/croconaw_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

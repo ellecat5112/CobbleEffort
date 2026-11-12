@@ -1,0 +1,108 @@
+{
+  "species": "cobblemon:medicham",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/0308_medicham/medicham_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "toxic_chain"
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0308_medicham/medicham_mega_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

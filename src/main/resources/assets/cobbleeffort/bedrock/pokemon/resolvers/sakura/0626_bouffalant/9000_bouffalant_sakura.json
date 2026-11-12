@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:bouffalant",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0626_bouffalant/bouffalant_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0626_bouffalant/bouffalant_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

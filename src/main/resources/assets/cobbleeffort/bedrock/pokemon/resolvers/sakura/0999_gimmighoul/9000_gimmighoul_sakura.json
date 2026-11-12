@@ -1,0 +1,151 @@
+{
+  "species": "cobblemon:gimmighoul",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "minecraft",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "minecraft",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_minecraft_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "roaming",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "roaming",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_roaming_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

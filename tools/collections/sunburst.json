@@ -1,0 +1,61 @@
+{
+  "_comment": "Sunburst collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed sunburst-solstice` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_sunburst.py.",
+  "aspect": "sunburst",
+  "feature": "sunburst_style",
+  "style": "sun_rays",
+  "cosmetic_items": [
+    "minecraft:sunflower"
+  ],
+  "lines": [
+    "nidoranm",
+    "ditto",
+    "mareep",
+    "skarmory",
+    "nosepass",
+    "seviper",
+    "snover",
+    "rotom",
+    "victini",
+    "deerling",
+    "foongus",
+    "thundurus",
+    "oricorio",
+    "turtonator",
+    "dracovish",
+    "tatsugiri",
+    "walkingwake",
+    "okidogi"
+  ],
+  "line_styles": {
+    "victini": "sun_rays",
+    "nosepass": "sun_rays",
+    "skarmory": "sun_rays",
+    "deerling": "sun_sunrise",
+    "mareep": "sun_sunrise",
+    "tatsugiri": "sun_sunrise",
+    "turtonator": "sun_solar_flare",
+    "okidogi": "sun_solar_flare",
+    "walkingwake": "sun_solar_flare",
+    "snover": "sun_sunflower",
+    "foongus": "sun_sunflower",
+    "oricorio": "sun_sunflower",
+    "rotom": "sun_art_deco",
+    "seviper": "sun_art_deco",
+    "dracovish": "sun_art_deco",
+    "ditto": "sun_tropical",
+    "nidoranm": "sun_tropical",
+    "thundurus": "sun_tropical"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 32,
+    "title": "Sunburst",
+    "example": "victini",
+    "summary": "Pokemon blazing with sunlight.",
+    "looks": [
+      "each line wears one look: gold and orange sun rays bursting from the chest (Victini, Nosepass, Skarmory); a sunrise from toe to head (Deerling, Mareep, Tatsugiri); molten gold with a corona of flares (Turtonator, Okidogi, Walking Wake); a sunflower with petals round a seed head (Snover, Foongus, Oricorio); black lacquer with gold art-deco sunbursts (Rotom, Seviper, Dracovish); hot tropical orange with little suns (Ditto, Nidoran M, Thundurus)",
+      "the light shimmers and the flares lick in the dark; warm glowing eyes",
+      "shiny: a white-gold midnight sun"
+    ]
+  }
+}

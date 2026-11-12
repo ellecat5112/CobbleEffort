@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 28 collections of cosmetic forms (1024 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 33 collections of cosmetic forms (1194 Pokemon) to Cobblemon, plus 41 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -58,6 +58,11 @@ AT A GLANCE
   26  Pajama                              White Bed                                       pajama
   27  Pinkan Island                       Pink Tulip                                      pinkan
   28  Prismatic                           Prismarine Crystals                             prismatic
+  29  Sakura                              Cherry Sapling                                  sakura
+  30  Shadow                              Wither Rose                                     shadow
+  31  Slayer                              Iron Sword                                      slayer
+  32  Sunburst                            Sunflower                                       sunburst
+  33  Toxic Chain                         Chain                                           toxic_chain
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -1155,6 +1160,199 @@ Pokemon (each line is a whole evolutionary family):
   - Mimikyu
   - Arctozolt
   - Nymble > Lokix
+
+====================================================================================================
+#29  SAKURA  (44 Pokemon)
+====================================================================================================
+Pokemon in cherry-blossom season.
+
+Cosmetic item: Cherry Sapling
+Command:       /pokegive marill sakura   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: blush pink with white-pink blossoms (Flabebe, Swirlix, Marill);
+    hanami, pale cream with dark cherry branches in bloom (Oddish, Shuckle, Stonjourner); yozakura,
+    night sakura on deep navy with glowing blossoms and paper lanterns (Gimmighoul, Kecleon,
+    Tynamo); a pink sakura kimono with a red obi (Rookidee, Cramorant, Bouffalant); a petal storm
+    drifting across blush pink (Caterpie, Wurmple, Trapinch); spring green dotted with blossom
+    (Nacli, Bergmite, Magnemite)
+  * the night blossoms and lanterns glow and the petals drift in the dark; the eyes keep their own
+    colours
+  * shiny: white-and-gold plum blossom
+
+Pokemon (each line is a whole evolutionary family):
+  - Caterpie > Metapod > Butterfree
+  - Oddish > Gloom > Vileplume / Bellossom
+  - Magnemite > Magneton > Magnezone
+  - Azurill > Marill > Azumarill
+  - Shuckle
+  - Wurmple > Silcoon / Cascoon > Beautifly / Dustox
+  - Trapinch > Vibrava > Flygon
+  - Kecleon
+  - Tynamo > Eelektrik > Eelektross
+  - Bouffalant
+  - Flabebe > Floette > Florges
+  - Swirlix > Slurpuff
+  - Bergmite > Avalugg
+  - Rookidee > Corvisquire > Corviknight
+  - Cramorant
+  - Stonjourner
+  - Nacli > Naclstack > Garganacl
+  - Gimmighoul > Gholdengo
+
+====================================================================================================
+#30  SHADOW  (34 Pokemon)
+====================================================================================================
+Pokemon whose hearts have been closed, wreathed in a dark aura (after the shadow Pokemon of
+Colosseum and XD).
+
+Cosmetic item: Wither Rose
+Command:       /pokegive houndour shadow   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: a violet-black body with a purple aura flickering off every edge
+    (Misdreavus, Spiritomb, Unown); hyper mode, crimson-black with a raging red aura and red eyes
+    (Houndour, Totodile, Druddigon); eclipse, near black rimmed with thin violet light (Zorua,
+    Diancie, Rowlet); smoke, grey-black with dark wisps rising (Lickitung, Dunsparce, Eiscue);
+    ember, charred with smouldering crimson cracks (Cyclizar, Hitmonlee, Yamper); cipher, dark
+    violet broken by glitching scanlines (Spoink, Karrablast, Bramblin)
+  * the aura burns and flickers in the dark
+  * shiny: the aura's colour turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Tyrogue > Hitmonlee / Hitmonchan / Hitmontop
+  - Lickitung > Lickilicky
+  - Totodile > Croconaw > Feraligatr
+  - Misdreavus > Mismagius
+  - Unown
+  - Dunsparce > Dudunsparce
+  - Houndour > Houndoom
+  - Spoink > Grumpig
+  - Spiritomb
+  - Zorua > Zoroark
+  - Karrablast > Escavalier
+  - Druddigon
+  - Diancie
+  - Rowlet > Dartrix > Decidueye
+  - Yamper > Boltund
+  - Eiscue
+  - Bramblin > Brambleghast
+  - Cyclizar
+
+====================================================================================================
+#31  SLAYER  (37 Pokemon)
+====================================================================================================
+Pokemon as demon slayers in patterned haori with a breathing style (inspired by the Demon Slayer
+anime; traditional Japanese patterns).
+
+Cosmetic item: Iron Sword
+Command:       /pokegive buizel slayer   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one haori over a dark uniform with a white belt: green-and-black checks with
+    fire at the hem (Kubfu, Spinda, Fidough); blue wave scales with flowing water (Buizel, Bruxish,
+    Quaxly); white with flames licking up from the hem (Seedot, Maractus, Spearow); yellow with
+    white triangle scales and crackling lightning (Dreepy, Staryu, Poochyena); a butterfly-wing
+    haori with glowing spots (Lileep, Bellsprout, Natu); mist-white to cyan with drifting mist
+    (Trubbish, Terapagos, Smoliv)
+  * each breathing style glows in the dark: water rolls, flames flicker, lightning strikes, mist
+    drifts; the eyes keep their own colours
+  * shiny: the haori's colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Spearow > Fearow
+  - Bellsprout > Weepinbell > Victreebel
+  - Staryu > Starmie
+  - Natu > Xatu
+  - Poochyena > Mightyena
+  - Seedot > Nuzleaf > Shiftry
+  - Spinda
+  - Lileep > Cradily
+  - Buizel > Floatzel
+  - Maractus
+  - Trubbish > Garbodor
+  - Bruxish
+  - Dreepy > Drakloak > Dragapult
+  - Kubfu > Urshifu
+  - Quaxly > Quaxwell > Quaquaval
+  - Fidough > Dachsbun
+  - Smoliv > Dolliv > Arboliva
+  - Terapagos
+
+====================================================================================================
+#32  SUNBURST  (26 Pokemon)
+====================================================================================================
+Pokemon blazing with sunlight.
+
+Cosmetic item: Sunflower
+Command:       /pokegive victini sunburst   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: gold and orange sun rays bursting from the chest (Victini, Nosepass,
+    Skarmory); a sunrise from toe to head (Deerling, Mareep, Tatsugiri); molten gold with a corona
+    of flares (Turtonator, Okidogi, Walking Wake); a sunflower with petals round a seed head
+    (Snover, Foongus, Oricorio); black lacquer with gold art-deco sunbursts (Rotom, Seviper,
+    Dracovish); hot tropical orange with little suns (Ditto, Nidoran M, Thundurus)
+  * the light shimmers and the flares lick in the dark; warm glowing eyes
+  * shiny: a white-gold midnight sun
+
+Pokemon (each line is a whole evolutionary family):
+  - Nidoran-M > Nidorino > Nidoking
+  - Ditto
+  - Mareep > Flaaffy > Ampharos
+  - Skarmory
+  - Nosepass > Probopass
+  - Seviper
+  - Snover > Abomasnow
+  - Rotom
+  - Victini
+  - Deerling > Sawsbuck
+  - Foongus > Amoonguss
+  - Thundurus
+  - Oricorio
+  - Turtonator
+  - Dracovish
+  - Tatsugiri
+  - Walking Wake
+  - Okidogi
+
+====================================================================================================
+#33  TOXIC CHAIN  (29 Pokemon)
+====================================================================================================
+Pokemon bound by poisonous chains and mochi (after Pecharunt's Toxic Chain).
+
+Cosmetic item: Chain
+Command:       /pokegive darkrai toxic_chain   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look: dark violet bound with glowing magenta chains (Darkrai, Duraludon,
+    Dondozo); glossy lilac toxic mochi (Audino, Chimecho, Castform); toxic ooze dripping from the
+    top (Tadbulb, Orthworm, Flamigo); bubbling green-and-purple sludge (Teddiursa, Turtwig,
+    Stunfisk); glowing venom veins that pulse (Dratini, Meditite, Emolga); swirling poison gas
+    (Meloetta, Volbeat, Poltchageist)
+  * the poison glows in the dark: chains throb, drips run, bubbles pop, veins pulse, gas swirls;
+    glowing magenta eyes
+  * shiny: the poison turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Dratini > Dragonair > Dragonite
+  - Teddiursa > Ursaring > Ursaluna
+  - Meditite > Medicham
+  - Volbeat
+  - Castform
+  - Chingling > Chimecho
+  - Turtwig > Grotle > Torterra
+  - Darkrai
+  - Audino
+  - Emolga
+  - Stunfisk
+  - Meloetta
+  - Duraludon > Archaludon
+  - Tadbulb > Bellibolt
+  - Orthworm
+  - Flamigo
+  - Dondozo
+  - Poltchageist > Sinistcha
 
 ====================================================================================================
 NEW POKEMON

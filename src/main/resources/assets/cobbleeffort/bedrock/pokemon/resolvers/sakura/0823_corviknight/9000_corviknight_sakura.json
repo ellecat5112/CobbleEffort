@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:corviknight",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0823_corviknight/corviknight_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0823_corviknight/corviknight_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0823_corviknight/corviknight_gmax_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gmax",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0823_corviknight/corviknight_gmax_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

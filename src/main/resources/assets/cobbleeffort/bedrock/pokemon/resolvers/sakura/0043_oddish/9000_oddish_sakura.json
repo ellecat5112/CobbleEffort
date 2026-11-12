@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:oddish",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0043_oddish/oddish_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0043_oddish/oddish_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:ditto",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

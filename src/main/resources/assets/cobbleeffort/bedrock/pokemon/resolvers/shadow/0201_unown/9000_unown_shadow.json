@@ -1,0 +1,1390 @@
+{
+  "species": "cobblemon:unown",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_a_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-b",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-b",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_b_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-c",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-c",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_c_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-d",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-d",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_d_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-e",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-e",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_e_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-f",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-f",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_f_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-g",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-g",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_g_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-h",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-h",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_h_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-i",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-i",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_i_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-j",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-j",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_j_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-k",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-k",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_k_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-l",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-l",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_l_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-m",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-m",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_m_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-n",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-n",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_n_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-o",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-o",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_o_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-p",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-p",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_p_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-q",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-q",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_q_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-r",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-r",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_r_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-s",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-s",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_s_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-t",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-t",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_t_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-u",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-u",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_u_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-v",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-v",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_v_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-w",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-w",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_w_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-x",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-x",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_x_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-y",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-y",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_y_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-z",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-z",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_z_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-?",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-?",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_question_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-!",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-!",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0201_unown/unown_exclamation_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "character-t",
+        "male",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew_alola.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

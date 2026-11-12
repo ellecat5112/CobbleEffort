@@ -1,0 +1,678 @@
+[
+  {
+    "species": "spearow",
+    "folder": "0021_spearow",
+    "model": "cobblemon:spearow.geo",
+    "original": "cobblemon:textures/pokemon/0021_spearow/spearow.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0021_spearow/spearow_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0021_spearow/spearow_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fearow",
+    "folder": "0022_fearow",
+    "model": "cobblemon:fearow.geo",
+    "original": "cobblemon:textures/pokemon/0022_fearow/fearow.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0022_fearow/fearow_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0022_fearow/fearow_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "bellsprout",
+    "folder": "0069_bellsprout",
+    "model": "cobblemon:bellsprout.geo",
+    "original": "cobblemon:textures/pokemon/0069_bellsprout/bellsprout.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0069_bellsprout/bellsprout_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0069_bellsprout/bellsprout_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "weepinbell",
+    "folder": "0070_weepinbell",
+    "model": "cobblemon:weepinbell.geo",
+    "original": "cobblemon:textures/pokemon/0070_weepinbell/weepinbell.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0070_weepinbell/weepinbell_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0070_weepinbell/weepinbell_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "victreebel",
+    "folder": "0071_victreebel",
+    "model": "cobblemon:victreebel.geo",
+    "original": "cobblemon:textures/pokemon/0071_victreebel/victreebel.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0071_victreebel/victreebel_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0071_victreebel/victreebel_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "victreebel",
+    "folder": "0071_victreebel",
+    "model": "cobblemon:victreebel_mega.geo",
+    "original": "cobblemon:textures/pokemon/0071_victreebel/victreebel_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0071_victreebel/victreebel_mega_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0071_victreebel/victreebel_mega_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "staryu",
+    "folder": "0120_staryu",
+    "model": "cobblemon:staryu.geo",
+    "original": "cobblemon:textures/pokemon/0120_staryu/staryu.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0120_staryu/staryu_slayer.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0120_staryu/staryu_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0120_staryu/staryu_emissive_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0120_staryu/staryu_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "starmie",
+    "folder": "0121_starmie",
+    "model": "cobblemon:starmie.geo",
+    "original": "cobblemon:textures/pokemon/0121_starmie/starmie.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0121_starmie/starmie_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_emissive_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "starmie",
+    "folder": "0121_starmie",
+    "model": "cobblemon:starmie_mega.geo",
+    "original": "cobblemon:textures/pokemon/0121_starmie/starmie_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0121_starmie/starmie_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_emissive_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "natu",
+    "folder": "0177_natu",
+    "model": "cobblemon:natu.geo",
+    "original": "cobblemon:textures/pokemon/0177_natu/natu.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0177_natu/natu_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0177_natu/natu_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "xatu",
+    "folder": "0178_xatu",
+    "model": "cobblemon:xatu_male.geo",
+    "original": "cobblemon:textures/pokemon/0178_xatu/xatu.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0178_xatu/xatu_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0178_xatu/xatu_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "poochyena",
+    "folder": "0261_poochyena",
+    "model": "cobblemon:poochyena.geo",
+    "original": "cobblemon:textures/pokemon/0261_poochyena/poochyena.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0261_poochyena/poochyena_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0261_poochyena/poochyena_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mightyena",
+    "folder": "0262_mightyena",
+    "model": "cobblemon:mightyena.geo",
+    "original": "cobblemon:textures/pokemon/0262_mightyena/mightyena.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "seedot",
+    "folder": "0273_seedot",
+    "model": "cobblemon:seedot.geo",
+    "original": "cobblemon:textures/pokemon/0273_seedot/seedot.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0273_seedot/seedot_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0273_seedot/seedot_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "nuzleaf",
+    "folder": "0274_nuzleaf",
+    "model": "cobblemon:nuzleaf_male.geo",
+    "original": "cobblemon:textures/pokemon/0274_nuzleaf/nuzleaf.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0274_nuzleaf/nuzleaf_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0274_nuzleaf/nuzleaf_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "shiftry",
+    "folder": "0275_shiftry",
+    "model": "cobblemon:shiftry_male.geo",
+    "original": "cobblemon:textures/pokemon/0275_shiftry/shiftry.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0275_shiftry/shiftry_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0275_shiftry/shiftry_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "spinda",
+    "folder": "0327_spinda",
+    "model": "cobblemon:spinda.geo",
+    "original": "cobblemon:textures/pokemon/0327_spinda/spinda.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "lileep",
+    "folder": "0345_lileep",
+    "model": "cobblemon:lileep.geo",
+    "original": "cobblemon:textures/pokemon/0345_lileep/lileep.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0345_lileep/lileep_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0345_lileep/lileep_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "cradily",
+    "folder": "0346_cradily",
+    "model": "cobblemon:cradily.geo",
+    "original": "cobblemon:textures/pokemon/0346_cradily/cradily.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0346_cradily/cradily_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0346_cradily/cradily_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "buizel",
+    "folder": "0418_buizel",
+    "model": "cobblemon:buizel_male.geo",
+    "original": "cobblemon:textures/pokemon/0418_buizel/buizel.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0418_buizel/buizel_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0418_buizel/buizel_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "floatzel",
+    "folder": "0419_floatzel",
+    "model": "cobblemon:floatzel_male.geo",
+    "original": "cobblemon:textures/pokemon/0419_floatzel/floatzel.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0419_floatzel/floatzel_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0419_floatzel/floatzel_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "maractus",
+    "folder": "0556_maractus",
+    "model": "cobblemon:maractus.geo",
+    "original": "cobblemon:textures/pokemon/0556_maractus/maractus.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0556_maractus/maractus_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0556_maractus/maractus_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "trubbish",
+    "folder": "0568_trubbish",
+    "model": "cobblemon:trubbish.geo",
+    "original": "cobblemon:textures/pokemon/0568_trubbish/trubbish.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0568_trubbish/trubbish_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0568_trubbish/trubbish_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "garbodor",
+    "folder": "0569_garbodor",
+    "model": "cobblemon:garbodor.geo",
+    "original": "cobblemon:textures/pokemon/0569_garbodor/garbodor.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0569_garbodor/garbodor_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0569_garbodor/garbodor_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "garbodor",
+    "folder": "0569_garbodor",
+    "model": "cobblemon:gmax_garbodor.geo",
+    "original": "cobblemon:textures/pokemon/0569_garbodor/gmax_garbodor.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0569_garbodor/gmax_garbodor_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0569_garbodor/gmax_garbodor_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "bruxish",
+    "folder": "0779_bruxish",
+    "model": "cobblemon:bruxish.geo",
+    "original": "cobblemon:textures/pokemon/0779_bruxish/bruxish.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0779_bruxish/bruxish_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0779_bruxish/bruxish_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dreepy",
+    "folder": "0885_dreepy",
+    "model": "cobblemon:dreepy.geo",
+    "original": "cobblemon:textures/pokemon/0885_dreepy/dreepy.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0885_dreepy/dreepy_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0885_dreepy/dreepy_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "drakloak",
+    "folder": "0886_drakloak",
+    "model": "cobblemon:drakloak.geo",
+    "original": "cobblemon:textures/pokemon/0886_drakloak/drakloak.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0886_drakloak/drakloak_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0886_drakloak/drakloak_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dragapult",
+    "folder": "0887_dragapult",
+    "model": "cobblemon:dragapult.geo",
+    "original": "cobblemon:textures/pokemon/0887_dragapult/dragapult.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0887_dragapult/dragapult_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0887_dragapult/dragapult_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kubfu",
+    "folder": "0891_kubfu",
+    "model": "cobblemon:kubfu.geo",
+    "original": "cobblemon:textures/pokemon/0891_kubfu/kubfu.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0891_kubfu/kubfu_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0891_kubfu/kubfu_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "rapid_strike-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "urshifu",
+    "folder": "0892_urshifu",
+    "model": "cobblemon:urshifu_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax_rapid_strike-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "quaxly",
+    "folder": "0912_quaxly",
+    "model": "cobblemon:quaxly.geo",
+    "original": "cobblemon:textures/pokemon/0912_quaxly/quaxly.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0912_quaxly/quaxly_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0912_quaxly/quaxly_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "quaxwell",
+    "folder": "0913_quaxwell",
+    "model": "cobblemon:quaxwell.geo",
+    "original": "cobblemon:textures/pokemon/0913_quaxwell/quaxwell.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0913_quaxwell/quaxwell_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0913_quaxwell/quaxwell_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "quaquaval",
+    "folder": "0914_quaquaval",
+    "model": "cobblemon:quaquaval.geo",
+    "original": "cobblemon:textures/pokemon/0914_quaquaval/quaquaval.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0914_quaquaval/quaquaval_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0914_quaquaval/quaquaval_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "fidough",
+    "folder": "0926_fidough",
+    "model": "cobblemon:fidough.geo",
+    "original": "cobblemon:textures/pokemon/0926_fidough/fidough.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0926_fidough/fidough_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0926_fidough/fidough_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dachsbun",
+    "folder": "0927_dachsbun",
+    "model": "cobblemon:dachsbun.geo",
+    "original": "cobblemon:textures/pokemon/0927_dachsbun/dachsbun.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0927_dachsbun/dachsbun_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0927_dachsbun/dachsbun_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "smoliv",
+    "folder": "0928_smoliv",
+    "model": "cobblemon:smoliv.geo",
+    "original": "cobblemon:textures/pokemon/0928_smoliv/smoliv.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0928_smoliv/smoliv_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0928_smoliv/smoliv_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dolliv",
+    "folder": "0929_dolliv",
+    "model": "cobblemon:dolliv.geo",
+    "original": "cobblemon:textures/pokemon/0929_dolliv/dolliv.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0929_dolliv/dolliv_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0929_dolliv/dolliv_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "arboliva",
+    "folder": "0930_arboliva",
+    "model": "cobblemon:arboliva.geo",
+    "original": "cobblemon:textures/pokemon/0930_arboliva/arboliva.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/0930_arboliva/arboliva_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/0930_arboliva/arboliva_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "terapagos",
+    "folder": "1024_terapagos",
+    "model": "cobblemon:terapagos.geo",
+    "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer_breath_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "terapagos",
+    "folder": "1024_terapagos",
+    "model": "cobblemon:terapagos_terastal.geo",
+    "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos_terastal.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "terastal-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "terapagos",
+    "folder": "1024_terapagos",
+    "model": "cobblemon:terapagos_stellar.geo",
+    "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png",
+    "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_translucent_slayer.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer_breath_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "stellar-form",
+    "mod": "Mega Showdown"
+  }
+]

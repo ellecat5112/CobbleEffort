@@ -1,0 +1,100 @@
+{
+  "species": "cobblemon:florges",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_sakura.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_red_sakura.png"
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-red",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_red_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_blue_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_orange_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_yellow_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_white_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-pink",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_pink_sakura.png"
+        }
+      ]
+    }
+  ]
+}

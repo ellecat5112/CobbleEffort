@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:spiritomb",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shadow.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_emissive_shadow.png",
+          "translucent": true
+        },
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_transparency_shadow.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shadow"
+      ],
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shiny_emissive_shadow.png",
+          "translucent": true
+        },
+        {
+          "name": "transparent_emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/shadow/0442_spiritomb/spiritomb_shiny_transparency_shadow.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

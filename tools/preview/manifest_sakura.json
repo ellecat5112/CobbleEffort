@@ -1,0 +1,590 @@
+[
+  {
+    "species": "caterpie",
+    "folder": "0010_caterpie",
+    "model": "cobblemon:caterpie.geo",
+    "original": "cobblemon:textures/pokemon/0010_caterpie/caterpie.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0010_caterpie/caterpie_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0010_caterpie/caterpie_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "metapod",
+    "folder": "0011_metapod",
+    "model": "cobblemon:metapod.geo",
+    "original": "cobblemon:textures/pokemon/0011_metapod/metapod.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0011_metapod/metapod_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0011_metapod/metapod_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "butterfree",
+    "folder": "0012_butterfree",
+    "model": "cobblemon:butterfree_male.geo",
+    "original": "cobblemon:textures/pokemon/0012_butterfree/butterfree.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0012_butterfree/butterfree_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0012_butterfree/butterfree_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "butterfree",
+    "folder": "0012_butterfree",
+    "model": "cobblemon:butterfree_gmax.geo",
+    "original": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0012_butterfree/butterfree_gmax_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0012_butterfree/butterfree_gmax_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oddish",
+    "folder": "0043_oddish",
+    "model": "cobblemon:oddish.geo",
+    "original": "cobblemon:textures/pokemon/0043_oddish/oddish.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0043_oddish/oddish_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "gloom",
+    "folder": "0044_gloom",
+    "model": "cobblemon:gloom_male.geo",
+    "original": "cobblemon:textures/pokemon/0044_gloom/gloom.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0044_gloom/gloom_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "vileplume",
+    "folder": "0045_vileplume",
+    "model": "cobblemon:vileplume_male.geo",
+    "original": "cobblemon:textures/pokemon/0045_vileplume/vileplume.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0045_vileplume/vileplume_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "magnemite",
+    "folder": "0081_magnemite",
+    "model": "cobblemon:magnemite.geo",
+    "original": "cobblemon:textures/pokemon/0081_magnemite/magnemite.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0081_magnemite/magnemite_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "magneton",
+    "folder": "0082_magneton",
+    "model": "cobblemon:magneton.geo",
+    "original": "cobblemon:textures/pokemon/0082_magneton/magneton.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0082_magneton/magneton_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "bellossom",
+    "folder": "0182_bellossom",
+    "model": "cobblemon:bellossom.geo",
+    "original": "cobblemon:textures/pokemon/0182_bellossom/bellossom.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0182_bellossom/bellossom_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "marill",
+    "folder": "0183_marill",
+    "model": "cobblemon:marill.geo",
+    "original": "cobblemon:textures/pokemon/0183_marill/marill.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0183_marill/marill_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "azumarill",
+    "folder": "0184_azumarill",
+    "model": "cobblemon:azumarill.geo",
+    "original": "cobblemon:textures/pokemon/0184_azumarill/azumarill.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0184_azumarill/azumarill_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "shuckle",
+    "folder": "0213_shuckle",
+    "model": "cobblemon:shuckle.geo",
+    "original": "cobblemon:textures/pokemon/0213_shuckle/shuckle.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0213_shuckle/shuckle_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "wurmple",
+    "folder": "0265_wurmple",
+    "model": "cobblemon:wurmple.geo",
+    "original": "cobblemon:textures/pokemon/0265_wurmple/wurmple.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0265_wurmple/wurmple_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0265_wurmple/wurmple_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "silcoon",
+    "folder": "0266_silcoon",
+    "model": "cobblemon:silcoon.geo",
+    "original": "cobblemon:textures/pokemon/0266_silcoon/silcoon.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0266_silcoon/silcoon_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0266_silcoon/silcoon_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "beautifly",
+    "folder": "0267_beautifly",
+    "model": "cobblemon:beautifly_male.geo",
+    "original": "cobblemon:textures/pokemon/0267_beautifly/beautifly.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0267_beautifly/beautifly_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0267_beautifly/beautifly_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "cascoon",
+    "folder": "0268_cascoon",
+    "model": "cobblemon:cascoon.geo",
+    "original": "cobblemon:textures/pokemon/0268_cascoon/cascoon.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0268_cascoon/cascoon_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0268_cascoon/cascoon_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dustox",
+    "folder": "0269_dustox",
+    "model": "cobblemon:dustox_male.geo",
+    "original": "cobblemon:textures/pokemon/0269_dustox/dustox.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0269_dustox/dustox_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0269_dustox/dustox_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "azurill",
+    "folder": "0298_azurill",
+    "model": "cobblemon:azurill.geo",
+    "original": "cobblemon:textures/pokemon/0298_azurill/azurill.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0298_azurill/azurill_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "trapinch",
+    "folder": "0328_trapinch",
+    "model": "cobblemon:trapinch.geo",
+    "original": "cobblemon:textures/pokemon/0328_trapinch/trapinch.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0328_trapinch/trapinch_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0328_trapinch/trapinch_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "vibrava",
+    "folder": "0329_vibrava",
+    "model": "cobblemon:vibrava.geo",
+    "original": "cobblemon:textures/pokemon/0329_vibrava/vibrava.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0329_vibrava/vibrava_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0329_vibrava/vibrava_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "flygon",
+    "folder": "0330_flygon",
+    "model": "cobblemon:flygon.geo",
+    "original": "cobblemon:textures/pokemon/0330_flygon/flygon.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0330_flygon/flygon_transparency.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_transparency_sakura.png",
+        "emissive": false
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "kecleon",
+    "folder": "0352_kecleon",
+    "model": "cobblemon:kecleon.geo",
+    "original": "cobblemon:textures/pokemon/0352_kecleon/kecleon.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0352_kecleon/kecleon_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0352_kecleon/kecleon_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "magnezone",
+    "folder": "0462_magnezone",
+    "model": "cobblemon:magnezone.geo",
+    "original": "cobblemon:textures/pokemon/0462_magnezone/magnezone.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0462_magnezone/magnezone_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_emissive_sakura.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "tynamo",
+    "folder": "0602_tynamo",
+    "model": "cobblemon:tynamo.geo",
+    "original": "cobblemon:textures/pokemon/0602_tynamo/tynamo.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0602_tynamo/tynamo_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0602_tynamo/tynamo_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "eelektrik",
+    "folder": "0603_eelektrik",
+    "model": "cobblemon:eelektrik.geo",
+    "original": "cobblemon:textures/pokemon/0603_eelektrik/eelektrik.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0603_eelektrik/eelektrik_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0603_eelektrik/eelektrik_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "eelektross",
+    "folder": "0604_eelektross",
+    "model": "cobblemon:eelektross.geo",
+    "original": "cobblemon:textures/pokemon/0604_eelektross/eelektross.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "eelektross",
+    "folder": "0604_eelektross",
+    "model": "cobblemon:eelektross_mega.geo",
+    "original": "cobblemon:textures/pokemon/0604_eelektross/eelektross_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0604_eelektross/eelektross_mega_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_emissive_sakura.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "bouffalant",
+    "folder": "0626_bouffalant",
+    "model": "cobblemon:bouffalant.geo",
+    "original": "cobblemon:textures/pokemon/0626_bouffalant/bouffalant.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0626_bouffalant/bouffalant_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "flabebe",
+    "folder": "0669_flabebe",
+    "model": "cobblemon:flabebe.geo",
+    "original": "cobblemon:textures/pokemon/0669_flabebe/flabebe.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0669_flabebe/flabebe_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0669_flabebe/flabebe_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0669_flabebe/flabebe_flower_red_sakura.png",
+        "emissive": false
+      }
+    ]
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0670_floette/floette_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_red_sakura.png",
+        "emissive": false
+      }
+    ]
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette_eternal.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette_eternal.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_sakura.png",
+    "layers": [],
+    "form": "flower-eternal",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "floette",
+    "folder": "0670_floette",
+    "model": "cobblemon:floette_eternal_mega.geo",
+    "original": "cobblemon:textures/pokemon/0670_floette/floette_eternal_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_mega_sakura.png",
+    "layers": [],
+    "form": "flower-eternal_mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "florges",
+    "folder": "0671_florges",
+    "model": "cobblemon:florges.geo",
+    "original": "cobblemon:textures/pokemon/0671_florges/florges.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0671_florges/florges_flower_red.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0671_florges/florges_flower_red_sakura.png",
+        "emissive": false
+      }
+    ]
+  },
+  {
+    "species": "swirlix",
+    "folder": "0684_swirlix",
+    "model": "cobblemon:swirlix.geo",
+    "original": "cobblemon:textures/pokemon/0684_swirlix/swirlix.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0684_swirlix/swirlix_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "slurpuff",
+    "folder": "0685_slurpuff",
+    "model": "cobblemon:slurpuff.geo",
+    "original": "cobblemon:textures/pokemon/0685_slurpuff/slurpuff.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0685_slurpuff/slurpuff_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "bergmite",
+    "folder": "0712_bergmite",
+    "model": "cobblemon:bergmite.geo",
+    "original": "cobblemon:textures/pokemon/0712_bergmite/bergmite.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0712_bergmite/bergmite_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "avalugg",
+    "folder": "0713_avalugg",
+    "model": "cobblemon:avalugg.geo",
+    "original": "cobblemon:textures/pokemon/0713_avalugg/avalugg.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0713_avalugg/avalugg_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "rookidee",
+    "folder": "0821_rookidee",
+    "model": "cobblemon:rookidee.geo",
+    "original": "cobblemon:textures/pokemon/0821_rookidee/rookidee.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0821_rookidee/rookidee_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "corvisquire",
+    "folder": "0822_corvisquire",
+    "model": "cobblemon:corvisquire.geo",
+    "original": "cobblemon:textures/pokemon/0822_corvisquire/corvisquire.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0822_corvisquire/corvisquire_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "corviknight",
+    "folder": "0823_corviknight",
+    "model": "cobblemon:corviknight.geo",
+    "original": "cobblemon:textures/pokemon/0823_corviknight/corviknight.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0823_corviknight/corviknight_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "corviknight",
+    "folder": "0823_corviknight",
+    "model": "cobblemon:gmax_corviknight.geo",
+    "original": "cobblemon:textures/pokemon/0823_corviknight/corviknight_gmax.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0823_corviknight/corviknight_gmax_sakura.png",
+    "layers": [],
+    "form": "gmax",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "cramorant",
+    "folder": "0845_cramorant",
+    "model": "cobblemon:cramorant.geo",
+    "original": "cobblemon:textures/pokemon/0845_cramorant/cramorant.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0845_cramorant/cramorant_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "cramorant",
+    "folder": "0845_cramorant",
+    "model": "cobblemon:cramorant_gulping.geo",
+    "original": "cobblemon:textures/pokemon/0845_cramorant/cramorant_gulping.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_gulping_sakura.png",
+    "layers": [],
+    "form": "gulping-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "cramorant",
+    "folder": "0845_cramorant",
+    "model": "cobblemon:cramorant_pikachu.geo",
+    "original": "cobblemon:textures/pokemon/0845_cramorant/cramorant_pikachu.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_pikachu_sakura.png",
+    "layers": [],
+    "form": "gorging-form",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "stonjourner",
+    "folder": "0874_stonjourner",
+    "model": "cobblemon:stonjourner.geo",
+    "original": "cobblemon:textures/pokemon/0874_stonjourner/stonjourner.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0874_stonjourner/stonjourner_sakura.png",
+    "layers": []
+  },
+  {
+    "species": "nacli",
+    "folder": "0932_nacli",
+    "model": "cobblemon:nacli.geo",
+    "original": "cobblemon:textures/pokemon/0932_nacli/nacli.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0932_nacli/nacli_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0932_nacli/nacli_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0932_nacli/nacli_emissive_sakura.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "naclstack",
+    "folder": "0933_naclstack",
+    "model": "cobblemon:naclstack.geo",
+    "original": "cobblemon:textures/pokemon/0933_naclstack/naclstack.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0933_naclstack/naclstack_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0933_naclstack/naclstack_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0933_naclstack/naclstack_emissive_sakura.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "garganacl",
+    "folder": "0934_garganacl",
+    "model": "cobblemon:garganacl.geo",
+    "original": "cobblemon:textures/pokemon/0934_garganacl/garganacl.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0934_garganacl/garganacl_sakura.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0934_garganacl/garganacl_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0934_garganacl/garganacl_emissive_sakura.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gimmighoul",
+    "folder": "0999_gimmighoul",
+    "model": "cobblemon:gimmighoul_chest.geo",
+    "original": "cobblemon:textures/pokemon/0999_gimmighoul/gimmighoul_chest.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/0999_gimmighoul/gimmighoul_chest_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "gholdengo",
+    "folder": "1000_gholdengo",
+    "model": "cobblemon:gholdengo.geo",
+    "original": "cobblemon:textures/pokemon/1000_gholdengo/gholdengo.png",
+    "retextured": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sakura/1000_gholdengo/gholdengo_sakura_bloom_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "species": "cobblemon:urshifu",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rapid_strike-style",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rapid_strike-style",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_gmax_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "rapid_strike-style",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "rapid_strike-style",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0892_urshifu/urshifu_rapidstrike_gmax_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "species": "cobblemon:tatsugiri",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tatsugiri-texture-curly",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tatsugiri-texture-droopy",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tatsugiri-texture-stretchy",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tatsugiri-texture-curly",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tatsugiri-texture-droopy",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_droopy_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "tatsugiri-texture-stretchy",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_stretchy_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

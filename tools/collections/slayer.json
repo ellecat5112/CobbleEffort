@@ -1,0 +1,61 @@
+{
+  "_comment": "Slayer collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed slayer-breathing` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_slayer.py.",
+  "aspect": "slayer",
+  "feature": "slayer_style",
+  "style": "slayer_checkered",
+  "cosmetic_items": [
+    "minecraft:iron_sword"
+  ],
+  "lines": [
+    "spearow",
+    "bellsprout",
+    "staryu",
+    "natu",
+    "poochyena",
+    "seedot",
+    "spinda",
+    "lileep",
+    "buizel",
+    "maractus",
+    "trubbish",
+    "bruxish",
+    "dreepy",
+    "kubfu",
+    "quaxly",
+    "fidough",
+    "smoliv",
+    "terapagos"
+  ],
+  "line_styles": {
+    "kubfu": "slayer_checkered",
+    "spinda": "slayer_checkered",
+    "fidough": "slayer_checkered",
+    "buizel": "slayer_water",
+    "bruxish": "slayer_water",
+    "quaxly": "slayer_water",
+    "seedot": "slayer_flame",
+    "maractus": "slayer_flame",
+    "spearow": "slayer_flame",
+    "dreepy": "slayer_thunder",
+    "staryu": "slayer_thunder",
+    "poochyena": "slayer_thunder",
+    "lileep": "slayer_insect",
+    "bellsprout": "slayer_insect",
+    "natu": "slayer_insect",
+    "trubbish": "slayer_mist",
+    "terapagos": "slayer_mist",
+    "smoliv": "slayer_mist"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 31,
+    "title": "Slayer",
+    "example": "buizel",
+    "summary": "Pokemon as demon slayers in patterned haori with a breathing style (inspired by the Demon Slayer anime; traditional Japanese patterns).",
+    "looks": [
+      "each line wears one haori over a dark uniform with a white belt: green-and-black checks with fire at the hem (Kubfu, Spinda, Fidough); blue wave scales with flowing water (Buizel, Bruxish, Quaxly); white with flames licking up from the hem (Seedot, Maractus, Spearow); yellow with white triangle scales and crackling lightning (Dreepy, Staryu, Poochyena); a butterfly-wing haori with glowing spots (Lileep, Bellsprout, Natu); mist-white to cyan with drifting mist (Trubbish, Terapagos, Smoliv)",
+      "each breathing style glows in the dark: water rolls, flames flicker, lightning strikes, mist drifts; the eyes keep their own colours",
+      "shiny: the haori's colours turned round the colour wheel"
+    ]
+  }
+}

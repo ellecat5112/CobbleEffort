@@ -1,0 +1,183 @@
+{
+  "species": "cobblemon:terapagos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terastal-form",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terastal-form",
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "stellar-form",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_translucent_slayer.png",
+          "translucent": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "stellar-form",
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_translucent_slayer.png",
+          "translucent": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

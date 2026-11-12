@@ -1,0 +1,162 @@
+{
+  "species": "cobblemon:floette",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "poser": "cobblemon:floette",
+      "model": "cobblemon:floette.geo",
+      "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_sakura.png",
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_red_sakura.png"
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-red",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_red_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-blue",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_blue_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-orange",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_orange_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-yellow",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_yellow_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-white",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_white_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-pink",
+        "sakura"
+      ],
+      "layers": [
+        {
+          "texture": "cobbleeffort:textures/pokemon/sakura/0670_floette/floette_flower_pink_sakura.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "sakura"
+      ],
+      "poser": "cobbleeffort:floette_eternal",
+      "model": "cobbleeffort:floette_eternal.geo",
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "mega",
+        "sakura"
+      ],
+      "poser": "cobbleeffort:floette_eternal_mega",
+      "model": "cobbleeffort:floette_eternal_mega.geo",
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_mega_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "flower-eternal",
+        "mega",
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0670_floette/floette_eternal_mega_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "heat-appliance",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "wash-appliance",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "frost-appliance",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "fan-appliance",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mow-appliance",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "translucent": true,
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_emissive_sunburst.png"
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

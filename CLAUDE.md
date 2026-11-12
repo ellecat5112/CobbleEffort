@@ -64,6 +64,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   not one Cobblemon itself uses as a cosmetic for one of the species (e.g. its dyes: Gengar takes pink dye). #24-28:
   Super Mario `_mario.py` (eyes keep their colours; shiny = the other power-ups), Nimbus `_nimbus.py` (`clouds()`),
   Pajama `_pajama.py`, Pinkan Island `_pinkan.py`, Prismatic `_prism.py` (shiny = black opal).
+  #29-33: Sakura `_sakura.py` (blossoms at least 2.2 px), Shadow `_shadow.py` (Colosseum/XD), Slayer `_slayer.py`
+  (Demon Slayer-inspired haori + breathing), Sunburst `_sunburst.py` (`sun_*`), Toxic Chain `_toxic.py`.
   Patterns must read at u = 1 (one texel per model unit): test the small textures, not just the big ones.
 - `WANTS_HINTS = True` on a style makes the generator pass `hints=` (from the model's `.geo.json`: `tex_size`,
   `head_front`, `head_top`, `torso_front` rects in geo UV units). Many Cobblemon models have separate eye cubes, so

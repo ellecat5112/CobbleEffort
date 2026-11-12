@@ -1,0 +1,126 @@
+{
+  "species": "cobblemon:ampharos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_emissive_sunburst.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_emissive_sunburst.png",
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_emissive_mega_sunburst.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_sunburst.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_emissive_mega_sunburst.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_shiny_mega_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

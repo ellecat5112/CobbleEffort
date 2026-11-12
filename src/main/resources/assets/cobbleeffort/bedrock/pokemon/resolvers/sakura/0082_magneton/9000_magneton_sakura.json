@@ -1,0 +1,58 @@
+{
+  "species": "cobblemon:magneton",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0082_magneton/magneton_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0082_magneton/magneton_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "iono",
+        "sakura"
+      ],
+      "texture": "cobblemon:textures/pokemon/0082_magneton/magneton_iono.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "iono",
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobblemon:textures/pokemon/0082_magneton/magneton_iono_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

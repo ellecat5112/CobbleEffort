@@ -1,0 +1,200 @@
+{
+  "species": "cobblemon:deerling",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "autumn",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "winter",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "autumn",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_autumn_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "summer",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_summer_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "winter",
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_winter_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

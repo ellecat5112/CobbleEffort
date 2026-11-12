@@ -1,0 +1,61 @@
+{
+  "_comment": "Sakura collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed sakura-hanami` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_sakura.py.",
+  "aspect": "sakura",
+  "feature": "sakura_style",
+  "style": "sakura_blossom",
+  "cosmetic_items": [
+    "minecraft:cherry_sapling"
+  ],
+  "lines": [
+    "caterpie",
+    "oddish",
+    "magnemite",
+    "marill",
+    "shuckle",
+    "wurmple",
+    "trapinch",
+    "kecleon",
+    "tynamo",
+    "bouffalant",
+    "flabebe",
+    "swirlix",
+    "bergmite",
+    "rookidee",
+    "cramorant",
+    "stonjourner",
+    "nacli",
+    "gimmighoul"
+  ],
+  "line_styles": {
+    "flabebe": "sakura_blossom",
+    "swirlix": "sakura_blossom",
+    "marill": "sakura_blossom",
+    "oddish": "sakura_hanami",
+    "shuckle": "sakura_hanami",
+    "stonjourner": "sakura_hanami",
+    "gimmighoul": "sakura_yozakura",
+    "kecleon": "sakura_yozakura",
+    "tynamo": "sakura_yozakura",
+    "rookidee": "sakura_kimono",
+    "cramorant": "sakura_kimono",
+    "bouffalant": "sakura_kimono",
+    "caterpie": "sakura_petal_storm",
+    "wurmple": "sakura_petal_storm",
+    "trapinch": "sakura_petal_storm",
+    "nacli": "sakura_spring",
+    "bergmite": "sakura_spring",
+    "magnemite": "sakura_spring"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 29,
+    "title": "Sakura",
+    "example": "marill",
+    "summary": "Pokemon in cherry-blossom season.",
+    "looks": [
+      "each line wears one look: blush pink with white-pink blossoms (Flabebe, Swirlix, Marill); hanami, pale cream with dark cherry branches in bloom (Oddish, Shuckle, Stonjourner); yozakura, night sakura on deep navy with glowing blossoms and paper lanterns (Gimmighoul, Kecleon, Tynamo); a pink sakura kimono with a red obi (Rookidee, Cramorant, Bouffalant); a petal storm drifting across blush pink (Caterpie, Wurmple, Trapinch); spring green dotted with blossom (Nacli, Bergmite, Magnemite)",
+      "the night blossoms and lanterns glow and the petals drift in the dark; the eyes keep their own colours",
+      "shiny: white-and-gold plum blossom"
+    ]
+  }
+}

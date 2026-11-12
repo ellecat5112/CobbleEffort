@@ -103,6 +103,19 @@ made by the Cobblemon team and contributors.
   print and twinkling sparkles.
 * **Prismatic** (`tools/styles/prism_*.py`, `_prism.py`; textures under `.../pokemon/prismatic/`): rainbow foil,
   spectrum, crystal facets, opal, oil-slick and refracted-light patterns, with an emissive layer whose colours cycle.
+* **Sakura** (`tools/styles/sakura_*.py`, `_sakura.py`; textures under `.../pokemon/sakura/`): five-petalled blossoms,
+  branches, kimono silk and an obi, lanterns and drifting petals over pink, cream, navy or green.
+* **Shadow** (`tools/styles/shadow_*.py`, `_shadow.py`; textures under `.../pokemon/shadow/`): the original darkened
+  and tinted, after the shadow Pokémon of Colosseum and XD (no game art copied), with an aura, smoke, cracks or
+  scanlines in a flickering emissive layer.
+* **Slayer** (`tools/styles/slayer_*.py`, `_slayer.py`; textures under `.../pokemon/slayer/`): traditional Japanese
+  patterns (ichimatsu, seigaiha, uroko) and painted haori inspired by the Demon Slayer anime (no art copied), over a
+  dark uniform, with breathing-style effects in an emissive layer.
+* **Sunburst** (`tools/styles/sun_*.py`, `_sunburst.py`; textures under `.../pokemon/sunburst/`): radial rays, sunrise
+  gradients, flares, sunflower petals, art-deco fans and little suns with a shimmering emissive layer.
+* **Toxic Chain** (`tools/styles/toxic_*.py`, `_toxic.py`; textures under `.../pokemon/toxic_chain/`): chain links,
+  mochi gloss, drips, bubbles, veins and gas after Pecharunt's Toxic Chain (no game art copied), glowing and moving
+  in an emissive layer.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

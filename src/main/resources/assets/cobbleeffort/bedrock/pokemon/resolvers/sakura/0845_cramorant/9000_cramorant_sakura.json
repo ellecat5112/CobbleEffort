@@ -1,0 +1,85 @@
+{
+  "species": "cobblemon:cramorant",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0845_cramorant/cramorant_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0845_cramorant/cramorant_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gulping-form",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_gulping_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gulping-form",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_gulping_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gorging-form",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_pikachu_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gorging-form",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0845_cramorant/cramorant_pikachu_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

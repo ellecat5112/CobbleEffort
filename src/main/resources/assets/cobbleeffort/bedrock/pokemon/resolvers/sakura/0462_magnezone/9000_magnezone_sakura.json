@@ -1,0 +1,41 @@
+{
+  "species": "cobblemon:magnezone",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_sakura.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_emissive_sakura.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobbleeffort:textures/pokemon/sakura/0462_magnezone/magnezone_shiny_emissive_sakura.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+[
+  {
+    "species": "nidoranm",
+    "folder": "0032_nidoranm",
+    "model": "cobblemon:nidoranm.geo",
+    "original": "cobblemon:textures/pokemon/0032_nidoranm/nidoranm.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0032_nidoranm/nidoranm_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0032_nidoranm/nidoranm_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "nidorino",
+    "folder": "0033_nidorino",
+    "model": "cobblemon:nidorino.geo",
+    "original": "cobblemon:textures/pokemon/0033_nidorino/nidorino.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0033_nidorino/nidorino_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0033_nidorino/nidorino_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "nidoking",
+    "folder": "0034_nidoking",
+    "model": "cobblemon:nidoking.geo",
+    "original": "cobblemon:textures/pokemon/0034_nidoking/nidoking.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0034_nidoking/nidoking_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0034_nidoking/nidoking_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "ditto",
+    "folder": "0132_ditto",
+    "model": "cobblemon:ditto.geo",
+    "original": "cobblemon:textures/pokemon/0132_ditto/ditto.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0132_ditto/ditto_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "mareep",
+    "folder": "0179_mareep",
+    "model": "cobblemon:mareep.geo",
+    "original": "cobblemon:textures/pokemon/0179_mareep/mareep.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0179_mareep/mareep_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0179_mareep/mareep_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0179_mareep/mareep_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0179_mareep/mareep_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "flaaffy",
+    "folder": "0180_flaaffy",
+    "model": "cobblemon:flaaffy.geo",
+    "original": "cobblemon:textures/pokemon/0180_flaaffy/flaaffy.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0180_flaaffy/flaaffy_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0180_flaaffy/flaaffy_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0180_flaaffy/flaaffy_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0180_flaaffy/flaaffy_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "ampharos",
+    "folder": "0181_ampharos",
+    "model": "cobblemon:ampharos.geo",
+    "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0181_ampharos/ampharos_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "ampharos",
+    "folder": "0181_ampharos",
+    "model": "cobblemon:ampharos_mega.geo",
+    "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0181_ampharos/ampharos_emissive_mega.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_emissive_mega_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0181_ampharos/ampharos_mega_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "skarmory",
+    "folder": "0227_skarmory",
+    "model": "cobblemon:skarmory.geo",
+    "original": "cobblemon:textures/pokemon/0227_skarmory/skarmory.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0227_skarmory/skarmory_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0227_skarmory/skarmory_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "skarmory",
+    "folder": "0227_skarmory",
+    "model": "cobblemon:skarmory_mega.geo",
+    "original": "cobblemon:textures/pokemon/0227_skarmory/skarmory_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0227_skarmory/skarmory_mega_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0227_skarmory/skarmory_mega_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "nosepass",
+    "folder": "0299_nosepass",
+    "model": "cobblemon:nosepass.geo",
+    "original": "cobblemon:textures/pokemon/0299_nosepass/nosepass.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0299_nosepass/nosepass_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0299_nosepass/nosepass_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "seviper",
+    "folder": "0336_seviper",
+    "model": "cobblemon:seviper.geo",
+    "original": "cobblemon:textures/pokemon/0336_seviper/seviper.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "snover",
+    "folder": "0459_snover",
+    "model": "cobblemon:snover_male.geo",
+    "original": "cobblemon:textures/pokemon/0459_snover/snover.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0459_snover/snover_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0459_snover/snover_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "abomasnow",
+    "folder": "0460_abomasnow",
+    "model": "cobblemon:abomasnow_male.geo",
+    "original": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0460_abomasnow/abomasnow_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0460_abomasnow/abomasnow_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "abomasnow",
+    "folder": "0460_abomasnow",
+    "model": "cobblemon:abomasnow_mega.geo",
+    "original": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow_mega.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0460_abomasnow/abomasnow_mega_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0460_abomasnow/abomasnow_mega_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mega",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "probopass",
+    "folder": "0476_probopass",
+    "model": "cobblemon:probopass.geo",
+    "original": "cobblemon:textures/pokemon/0476_probopass/probopass.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0476_probopass/probopass_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0476_probopass/probopass_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/rotom.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/rotom_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/rotom_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_heat.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/heat/rotom_heat_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/heat/rotom_heat_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "heat-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_wash.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/wash/rotom_wash_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/wash/rotom_wash_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "wash-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_frost.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/frost/rotom_frost.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/frost/rotom_frost_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/frost/rotom_frost_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "frost-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_fan.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/fan/rotom_fan_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/fan/rotom_fan_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "fan-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "rotom",
+    "folder": "0479_rotom",
+    "model": "cobblemon:rotom_mow.geo",
+    "original": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/0479_rotom/mow/rotom_mow_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0479_rotom/mow/rotom_mow_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "mow-appliance",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "victini",
+    "folder": "0494_victini",
+    "model": "cobblemon:victini.geo",
+    "original": "cobblemon:textures/pokemon/0494_victini/victini.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0494_victini/victini_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0494_victini/victini_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "deerling",
+    "folder": "0585_deerling",
+    "model": "cobblemon:deerling.geo",
+    "original": "cobblemon:textures/pokemon/0585_deerling/deerling_spring.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0585_deerling/deerling_spring_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "sawsbuck",
+    "folder": "0586_sawsbuck",
+    "model": "cobblemon:sawsbuck_spring.geo",
+    "original": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_spring.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0586_sawsbuck/sawsbuck_spring_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0586_sawsbuck/sawsbuck_spring_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "foongus",
+    "folder": "0590_foongus",
+    "model": "cobblemon:foongus.geo",
+    "original": "cobblemon:textures/pokemon/0590_foongus/foongus.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0590_foongus/foongus_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0590_foongus/foongus_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "amoonguss",
+    "folder": "0591_amoonguss",
+    "model": "cobblemon:amoonguss.geo",
+    "original": "cobblemon:textures/pokemon/0591_amoonguss/amoonguss.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0591_amoonguss/amoonguss_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0591_amoonguss/amoonguss_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "thundurus",
+    "folder": "0642_thundurus",
+    "model": "cobblemon:thundurus.geo",
+    "original": "cobblemon:textures/pokemon/0642_thundurus/thundurus.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0642_thundurus/thundurus_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0642_thundurus/thundurus_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "thundurus",
+    "folder": "0642_thundurus",
+    "model": "cobblemon:thundurus_therian.geo",
+    "original": "cobblemon:textures/pokemon/0642_thundurus/thundurus_therian.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0642_thundurus/thundurus_therian_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0642_thundurus/thundurus_therian_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "therian-forme",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:baile_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_baile.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_baile_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_baile_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:pompom_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pom_pom.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_pom_pom_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "pom-pom-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:pau_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_pau.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_pau_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_pau_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "pau-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "oricorio",
+    "folder": "0741_oricorio",
+    "model": "cobblemon:sensu_oricorio.geo",
+    "original": "cobblemon:textures/pokemon/0741_oricorio/oricorio_sensu.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_sensu_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/0741_oricorio/oricorio_sensu_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ],
+    "form": "sensu-style",
+    "mod": "Mega Showdown"
+  },
+  {
+    "species": "turtonator",
+    "folder": "0776_turtonator",
+    "model": "cobblemon:turtonator.geo",
+    "original": "cobblemon:textures/pokemon/0776_turtonator/turtonator.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0776_turtonator/turtonator_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0776_turtonator/turtonator_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "dracovish",
+    "folder": "0882_dracovish",
+    "model": "cobblemon:dracovish.geo",
+    "original": "cobblemon:textures/pokemon/0882_dracovish/dracovish.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0882_dracovish/dracovish_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0882_dracovish/dracovish_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "tatsugiri",
+    "folder": "0978_tatsugiri",
+    "model": "cobblemon:tatsugiri.geo",
+    "original": "cobblemon:textures/pokemon/0978_tatsugiri/tatsugiri_curly.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/0978_tatsugiri/tatsugiri_curly_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "walkingwake",
+    "folder": "1009_walkingwake",
+    "model": "cobblemon:walkingwake.geo",
+    "original": "cobblemon:textures/pokemon/1009_walkingwake/walkingwake.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/1009_walkingwake/walkingwake_sunburst.png",
+    "layers": [
+      {
+        "original": "cobblemon:textures/pokemon/1009_walkingwake/walkingwake_emissive.png",
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/1009_walkingwake/walkingwake_emissive_sunburst.png",
+        "emissive": true
+      },
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/1009_walkingwake/walkingwake_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  },
+  {
+    "species": "okidogi",
+    "folder": "1014_okidogi",
+    "model": "cobblemon:okidogi.geo",
+    "original": "cobblemon:textures/pokemon/1014_okidogi/okidogi.png",
+    "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/1014_okidogi/okidogi_sunburst.png",
+    "layers": [
+      {
+        "original": null,
+        "retextured": "cobbleeffort:textures/pokemon/sunburst/compat/mega_showdown/1014_okidogi/okidogi_sunburst_sunlight_0.png",
+        "emissive": true
+      }
+    ]
+  }
+]

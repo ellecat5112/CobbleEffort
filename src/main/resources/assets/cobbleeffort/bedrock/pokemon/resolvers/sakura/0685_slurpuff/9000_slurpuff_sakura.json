@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:slurpuff",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "poser": "cobblemon:slurpuff",
+      "model": "cobblemon:slurpuff.geo",
+      "texture": "cobbleeffort:textures/pokemon/sakura/0685_slurpuff/slurpuff_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0685_slurpuff/slurpuff_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

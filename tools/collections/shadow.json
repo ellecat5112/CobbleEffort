@@ -1,0 +1,61 @@
+{
+  "_comment": "Shadow collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed shadow-aura-snag` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_shadow.py.",
+  "aspect": "shadow",
+  "feature": "shadow_style",
+  "style": "shadow_aura",
+  "cosmetic_items": [
+    "minecraft:wither_rose"
+  ],
+  "lines": [
+    "hitmonlee",
+    "lickitung",
+    "totodile",
+    "misdreavus",
+    "unown",
+    "dunsparce",
+    "houndour",
+    "spoink",
+    "spiritomb",
+    "zorua",
+    "karrablast",
+    "druddigon",
+    "diancie",
+    "rowlet",
+    "yamper",
+    "eiscue",
+    "bramblin",
+    "cyclizar"
+  ],
+  "line_styles": {
+    "misdreavus": "shadow_aura",
+    "spiritomb": "shadow_aura",
+    "unown": "shadow_aura",
+    "houndour": "shadow_hyper",
+    "totodile": "shadow_hyper",
+    "druddigon": "shadow_hyper",
+    "zorua": "shadow_eclipse",
+    "diancie": "shadow_eclipse",
+    "rowlet": "shadow_eclipse",
+    "lickitung": "shadow_smoke",
+    "dunsparce": "shadow_smoke",
+    "eiscue": "shadow_smoke",
+    "cyclizar": "shadow_ember",
+    "hitmonlee": "shadow_ember",
+    "yamper": "shadow_ember",
+    "spoink": "shadow_cipher",
+    "karrablast": "shadow_cipher",
+    "bramblin": "shadow_cipher"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 30,
+    "title": "Shadow",
+    "example": "houndour",
+    "summary": "Pokemon whose hearts have been closed, wreathed in a dark aura (after the shadow Pokemon of Colosseum and XD).",
+    "looks": [
+      "each line wears one look: a violet-black body with a purple aura flickering off every edge (Misdreavus, Spiritomb, Unown); hyper mode, crimson-black with a raging red aura and red eyes (Houndour, Totodile, Druddigon); eclipse, near black rimmed with thin violet light (Zorua, Diancie, Rowlet); smoke, grey-black with dark wisps rising (Lickitung, Dunsparce, Eiscue); ember, charred with smouldering crimson cracks (Cyclizar, Hitmonlee, Yamper); cipher, dark violet broken by glitching scanlines (Spoink, Karrablast, Bramblin)",
+      "the aura burns and flickers in the dark",
+      "shiny: the aura's colour turned round the colour wheel"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "species": "cobblemon:castform",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "snowy-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_toxic_chain.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_outter_toxic_chain.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "snowy-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_snowy_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "sunny-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_outter_toxic_chain.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunny-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_sunny_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rainy-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_toxic_chain.png",
+      "layers": [
+        {
+          "name": "outter",
+          "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_outter_toxic_chain.png",
+          "emissive": false,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "rainy-form",
+        "toxic_chain"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_shiny_toxic_chain.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_toxin",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_shiny_toxic_chain_toxin_0.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_shiny_toxic_chain_toxin_1.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_shiny_toxic_chain_toxin_2.png",
+              "cobbleeffort:textures/pokemon/toxic_chain/compat/mega_showdown/0351_castform/castform_rainy_shiny_toxic_chain_toxin_3.png"
+            ],
+            "fps": 5,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:swirlix",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "poser": "cobblemon:swirlix",
+      "model": "cobblemon:swirlix.geo",
+      "texture": "cobbleeffort:textures/pokemon/sakura/0684_swirlix/swirlix_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0684_swirlix/swirlix_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

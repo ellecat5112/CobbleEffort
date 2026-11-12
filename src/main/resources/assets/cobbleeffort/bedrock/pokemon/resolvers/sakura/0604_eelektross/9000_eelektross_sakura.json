@@ -1,0 +1,107 @@
+{
+  "species": "cobblemon:eelektross",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0604_eelektross/eelektross_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_emissive_sakura.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/compat/mega_showdown/0604_eelektross/eelektross_mega_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

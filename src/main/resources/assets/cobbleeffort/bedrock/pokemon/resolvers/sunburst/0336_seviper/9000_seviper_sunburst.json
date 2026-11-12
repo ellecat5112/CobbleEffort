@@ -1,0 +1,55 @@
+{
+  "species": "cobblemon:seviper",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sunburst"
+      ],
+      "poser": "cobbleeffort:seviper",
+      "model": "cobbleeffort:seviper.geo",
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sunburst"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_shiny_sunburst.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_sunlight",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_shiny_sunburst_sunlight_0.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_shiny_sunburst_sunlight_1.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_shiny_sunburst_sunlight_2.png",
+              "cobbleeffort:textures/pokemon/sunburst/0336_seviper/seviper_shiny_sunburst_sunlight_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

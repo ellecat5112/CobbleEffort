@@ -1,0 +1,134 @@
+{
+  "species": "cobblemon:rowlet",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shiny_shadow.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shiny_shadow_darkaura_0.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shiny_shadow_darkaura_1.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shiny_shadow_darkaura_2.png",
+              "cobbleeffort:textures/pokemon/shadow/0722_rowlet/rowlet_shiny_shadow_darkaura_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_hisui_bias.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "duo",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_duo.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ash",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/ash_rowlet.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "region-bias-hisui",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_hisui_bias_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "duo",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_duo_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ash",
+        "shiny",
+        "shadow"
+      ],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/ash_rowlet_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_darkaura",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

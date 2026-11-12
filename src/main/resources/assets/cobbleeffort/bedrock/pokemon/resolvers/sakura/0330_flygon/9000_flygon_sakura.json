@@ -1,0 +1,65 @@
+{
+  "species": "cobblemon:flygon",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_transparency_sakura.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "sakura"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_shiny_sakura.png",
+      "layers": [
+        {
+          "name": "eyes",
+          "texture": "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_transparency_shiny_sakura.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_bloom",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_shiny_sakura_bloom_0.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_shiny_sakura_bloom_1.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_shiny_sakura_bloom_2.png",
+              "cobbleeffort:textures/pokemon/sakura/0330_flygon/flygon_shiny_sakura_bloom_3.png"
+            ],
+            "fps": 3,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

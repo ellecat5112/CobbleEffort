@@ -1,0 +1,1187 @@
+{
+  "species": "cobblemon:spinda",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0327_spinda/spinda_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-none",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-1",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-2",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-3",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-4",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-5",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-6",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-7",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot7_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-8",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot8_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-9",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot9_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-10",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot10_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-11",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot11_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-none",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-1",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot12_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-2",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot13_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-3",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot14_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-4",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot15_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-5",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot16_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-6",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot17_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-7",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot18_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-8",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot19_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-9",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot20_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-10",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot21_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-11",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot22_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-none",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-1",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-2",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-3",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-4",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-5",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-6",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_left6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-none",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-1",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-2",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-3",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-4",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-5",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-6",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_right6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-1",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_special1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-2",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_special2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-3",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_special3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-4",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot_special4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-none",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-1",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-2",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-3",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-4",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-5",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-6",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-7",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot7_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-8",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot8_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-9",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot9_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-10",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot10_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots-11",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot11_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-none",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-1",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot11_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-2",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot12_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-3",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot13_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-4",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot14_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-5",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot15_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-6",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot16_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-7",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot17_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-8",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot18_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-9",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot19_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-10",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot20_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "face-spots2-11",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "facespots2",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot22_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-none",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-1",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-2",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-3",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-4",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-5",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "left-ear-spots-6",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "leftearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_left6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-none",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot0_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-1",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-2",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-3",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-4",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right4_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-5",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right5_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "right-ear-spots-6",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "rightearspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_right6_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-1",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_special1_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-2",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_special2_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-3",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_special3_slayer.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "special-spots-4",
+        "shiny",
+        "slayer"
+      ],
+      "layers": [
+        {
+          "name": "specialspots",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0327_spinda/spots_shiny/spinda_spot_special4_slayer.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

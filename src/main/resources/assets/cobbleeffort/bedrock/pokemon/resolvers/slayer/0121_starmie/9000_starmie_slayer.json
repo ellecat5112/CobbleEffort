@@ -1,0 +1,126 @@
+{
+  "species": "cobblemon:starmie",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_emissive_slayer.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_emissive_slayer.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0121_starmie/starmie_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_emissive_slayer.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_emissive_slayer.png",
+          "emissive": true,
+          "translucent": true
+        },
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/compat/mega_showdown/0121_starmie/starmie_mega_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

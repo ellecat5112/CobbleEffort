@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:mightyena",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "slayer"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_shiny_slayer.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_breath",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_shiny_slayer_breath_0.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_shiny_slayer_breath_1.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_shiny_slayer_breath_2.png",
+              "cobbleeffort:textures/pokemon/slayer/0262_mightyena/mightyena_shiny_slayer_breath_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

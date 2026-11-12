@@ -1,0 +1,61 @@
+{
+  "_comment": "Toxic Chain collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed toxic-chain-mochi` (lines may be shared with other collections since #24), then given a look each (three lines per look). Shared look in styles/_toxic.py.",
+  "aspect": "toxic_chain",
+  "feature": "toxic_chain_style",
+  "style": "toxic_chains",
+  "cosmetic_items": [
+    "minecraft:chain"
+  ],
+  "lines": [
+    "dratini",
+    "teddiursa",
+    "meditite",
+    "volbeat",
+    "castform",
+    "chimecho",
+    "turtwig",
+    "darkrai",
+    "audino",
+    "emolga",
+    "stunfisk",
+    "meloetta",
+    "duraludon",
+    "tadbulb",
+    "orthworm",
+    "flamigo",
+    "dondozo",
+    "poltchageist"
+  ],
+  "line_styles": {
+    "darkrai": "toxic_chains",
+    "duraludon": "toxic_chains",
+    "dondozo": "toxic_chains",
+    "audino": "toxic_mochi",
+    "chimecho": "toxic_mochi",
+    "castform": "toxic_mochi",
+    "tadbulb": "toxic_ooze",
+    "orthworm": "toxic_ooze",
+    "flamigo": "toxic_ooze",
+    "teddiursa": "toxic_sludge",
+    "turtwig": "toxic_sludge",
+    "stunfisk": "toxic_sludge",
+    "dratini": "toxic_venom",
+    "meditite": "toxic_venom",
+    "emolga": "toxic_venom",
+    "meloetta": "toxic_haze",
+    "volbeat": "toxic_haze",
+    "poltchageist": "toxic_haze"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 33,
+    "title": "Toxic Chain",
+    "example": "darkrai",
+    "summary": "Pokemon bound by poisonous chains and mochi (after Pecharunt's Toxic Chain).",
+    "looks": [
+      "each line wears one look: dark violet bound with glowing magenta chains (Darkrai, Duraludon, Dondozo); glossy lilac toxic mochi (Audino, Chimecho, Castform); toxic ooze dripping from the top (Tadbulb, Orthworm, Flamigo); bubbling green-and-purple sludge (Teddiursa, Turtwig, Stunfisk); glowing venom veins that pulse (Dratini, Meditite, Emolga); swirling poison gas (Meloetta, Volbeat, Poltchageist)",
+      "the poison glows in the dark: chains throb, drips run, bubbles pop, veins pulse, gas swirls; glowing magenta eyes",
+      "shiny: the poison turned round the colour wheel"
+    ]
+  }
+}
