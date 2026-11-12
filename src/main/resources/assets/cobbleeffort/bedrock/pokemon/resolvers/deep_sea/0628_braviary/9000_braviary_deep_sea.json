@@ -1,0 +1,130 @@
+{
+  "species": "cobblemon:braviary",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "hisuian",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_deep_sea.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_emissive1_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_emissive2_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_emissive3_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_emissive4_deep_sea.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "hisuian",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "mane",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_emissive1_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_emissive2_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_emissive3_deep_sea.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_emissive4_deep_sea.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0628_braviary/braviary_hisuian_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

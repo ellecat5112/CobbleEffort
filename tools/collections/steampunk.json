@@ -1,0 +1,61 @@
+{
+  "_comment": "Steampunk collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed steampunk-clockwork`, then given a look each (three lines per look; Durant clockwork, Tepig a boiler...). Shared look in styles/_steam.py, one thin module per look (clockwork's texture is animated: its gears turn).",
+  "aspect": "steampunk",
+  "feature": "steampunk",
+  "style": "steam_brass",
+  "cosmetic_items": [
+    "minecraft:copper_ingot"
+  ],
+  "lines": [
+    "clefairy",
+    "tangela",
+    "jynx",
+    "barboach",
+    "bidoof",
+    "mesprit",
+    "tepig",
+    "drilbur",
+    "tynamo",
+    "durant",
+    "hoopa",
+    "pikipek",
+    "crabrawler",
+    "rockruff",
+    "marshadow",
+    "clobbopus",
+    "tinglu",
+    "terapagos"
+  ],
+  "line_styles": {
+    "clefairy": "steam_brass",
+    "tangela": "steam_copper",
+    "jynx": "steam_brass",
+    "barboach": "steam_copper",
+    "bidoof": "steam_airship",
+    "mesprit": "steam_clockwork",
+    "tepig": "steam_boiler",
+    "drilbur": "steam_boiler",
+    "tynamo": "steam_copper",
+    "durant": "steam_clockwork",
+    "hoopa": "steam_clockwork",
+    "pikipek": "steam_airship",
+    "crabrawler": "steam_iron",
+    "rockruff": "steam_airship",
+    "marshadow": "steam_iron",
+    "clobbopus": "steam_iron",
+    "tinglu": "steam_boiler",
+    "terapagos": "steam_brass"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 17,
+    "title": "Steampunk",
+    "example": "durant",
+    "summary": "Pokemon as riveted, gear-driven steampunk contraptions.",
+    "looks": [
+      "riveted metal plates, a gear on the chest, brass goggles with glowing amber lenses, and furnace vents low on the body that glow and flicker",
+      "each line's metal: brass (Clefairy, Jynx, Terapagos), copper gone green with verdigris (Tangela, Barboach, Tynamo), gunmetal iron with brass rivets (Crabrawler, Marshadow, Clobbopus), clockwork with exposed gears that turn (Mesprit, Durant, Hoopa), airship leather with brass straps (Bidoof, Pikipek, Rockruff), black-iron boiler with pipes and many vents (Tepig, Drilbur, Ting-Lu)",
+      "shiny: silver and blued steel instead of brass and copper"
+    ]
+  }
+}

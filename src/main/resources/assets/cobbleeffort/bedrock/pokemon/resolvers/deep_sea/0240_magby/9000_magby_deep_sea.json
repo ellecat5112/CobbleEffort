@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:magby",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0240_magby/magby_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

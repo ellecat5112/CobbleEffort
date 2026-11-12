@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:politoed",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0186_politoed/politoed_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

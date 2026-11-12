@@ -1,0 +1,61 @@
+{
+  "_comment": "Bioluminescent Deep Sea collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed bioluminescent-abyss`, then given a look each (three lines per look; Slowpoke's line the anglerfish, it fishes with its tail). Shared look in styles/_abyss.py, one thin module per look.",
+  "aspect": "deep_sea",
+  "feature": "deep_sea_glow",
+  "style": "abyss_anglerfish",
+  "cosmetic_items": [
+    "minecraft:sea_pickle"
+  ],
+  "lines": [
+    "nidoranf",
+    "paras",
+    "slowpoke",
+    "electabuzz",
+    "magmar",
+    "gligar",
+    "skitty",
+    "spheal",
+    "klink",
+    "rufflet",
+    "clauncher",
+    "bergmite",
+    "grookey",
+    "zarude",
+    "calyrex",
+    "quaxly",
+    "smoliv",
+    "frigibax"
+  ],
+  "line_styles": {
+    "nidoranf": "abyss_firefly_squid",
+    "paras": "abyss_comb_jelly",
+    "slowpoke": "abyss_anglerfish",
+    "electabuzz": "abyss_firefly_squid",
+    "magmar": "abyss_dragonfish",
+    "gligar": "abyss_comb_jelly",
+    "skitty": "abyss_jellyfish",
+    "spheal": "abyss_lanternfish",
+    "klink": "abyss_dragonfish",
+    "rufflet": "abyss_anglerfish",
+    "clauncher": "abyss_comb_jelly",
+    "bergmite": "abyss_lanternfish",
+    "grookey": "abyss_dragonfish",
+    "zarude": "abyss_firefly_squid",
+    "calyrex": "abyss_jellyfish",
+    "quaxly": "abyss_anglerfish",
+    "smoliv": "abyss_jellyfish",
+    "frigibax": "abyss_lanternfish"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 15,
+    "title": "Bioluminescent Deep Sea",
+    "example": "slowpoke",
+    "summary": "Pokemon as glowing creatures of the deep: anglerfish, jellyfish, lanternfish, comb jellies, firefly squid and dragonfish.",
+    "looks": [
+      "each line wears one look on a dark abyssal body: anglerfish lure (Slowpoke, Rufflet, Quaxly), jellyfish canals and rim (Skitty, Calyrex, Smoliv), lanternfish photophores (Spheal, Bergmite, Frigibax), comb jelly rainbow rows (Paras, Gligar, Clauncher), firefly squid speckles (Nidoran F, Elekid, Zarude), dragonfish red lights (Magby, Klink, Grookey)",
+      "the lights glow in the dark and pulse; the comb jellies' rainbow ripples and the firefly squid twinkle; glowing eyes",
+      "shiny: the lights' colours turned round the colour wheel"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_comment": "Stained Glass collection. Each name in 'lines' brings in its WHOLE evolutionary line. The 18 lines were picked with `generate.py pick --count 18 --seed stained-glass-window`, then given a look each (three lines per look). Shared look in styles/_glass.py, one thin module per look.",
+  "aspect": "stained_glass",
+  "feature": "stained_glass",
+  "style": "glass_cathedral",
+  "cosmetic_items": [
+    "minecraft:glass_pane"
+  ],
+  "lines": [
+    "poliwag",
+    "grimer",
+    "totodile",
+    "mudkip",
+    "seedot",
+    "cacnea",
+    "luvdisc",
+    "kricketot",
+    "uxie",
+    "cottonee",
+    "basculin",
+    "solosis",
+    "elgyem",
+    "hawlucha",
+    "klefki",
+    "hatenna",
+    "arctozolt",
+    "cyclizar"
+  ],
+  "line_styles": {
+    "poliwag": "glass_rose_window",
+    "grimer": "glass_grisaille",
+    "totodile": "glass_cathedral",
+    "mudkip": "glass_rose_window",
+    "seedot": "glass_tiffany",
+    "cacnea": "glass_tiffany",
+    "luvdisc": "glass_rose_window",
+    "kricketot": "glass_tiffany",
+    "uxie": "glass_cathedral",
+    "cottonee": "glass_art_nouveau",
+    "basculin": "glass_kaleidoscope",
+    "solosis": "glass_art_nouveau",
+    "elgyem": "glass_art_nouveau",
+    "hawlucha": "glass_kaleidoscope",
+    "klefki": "glass_grisaille",
+    "hatenna": "glass_cathedral",
+    "arctozolt": "glass_grisaille",
+    "cyclizar": "glass_kaleidoscope"
+  },
+  "extra_links": [],
+  "readme": {
+    "number": 16,
+    "title": "Stained Glass",
+    "example": "uxie",
+    "summary": "Pokemon as leaded stained-glass windows, lit from behind.",
+    "looks": [
+      "the body cut into irregular panes of coloured glass with dark lead between them and round every part, each pane coloured from the original's colour there",
+      "each line's glass: cathedral jewels (Totodile, Uxie, Hatenna), Tiffany ambers and greens (Seedot, Cacnea, Kricketot), rose-window blues and reds (Poliwag, Mudkip, Luvdisc), art-nouveau pastels (Cottonee, Solosis, Elgyem), grisaille grey with yellow stain (Grimer, Klefki, Arctozolt), kaleidoscope (Basculin, Hawlucha, Cyclizar)",
+      "the glass glows softly as if lit from behind (it shines in the dark); clear glowing eyes",
+      "shiny: gold came instead of lead, and the glass turned round the colour wheel"
+    ]
+  }
+}

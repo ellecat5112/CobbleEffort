@@ -1,0 +1,53 @@
+{
+  "species": "cobblemon:tangela",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0114_tangela/tangela_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

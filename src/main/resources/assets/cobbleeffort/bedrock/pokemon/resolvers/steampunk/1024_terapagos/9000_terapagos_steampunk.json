@@ -1,0 +1,183 @@
+{
+  "species": "cobblemon:terapagos",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terastal-form",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "terastal-form",
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk.png",
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_terastal_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "stellar-form",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_translucent_steampunk.png",
+          "translucent": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "stellar-form",
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk.png",
+          "emissive": true
+        },
+        {
+          "name": "translucent",
+          "texture": "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_translucent_steampunk.png",
+          "translucent": true,
+          "emissive": true
+        },
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/1024_terapagos/terapagos_stellar_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

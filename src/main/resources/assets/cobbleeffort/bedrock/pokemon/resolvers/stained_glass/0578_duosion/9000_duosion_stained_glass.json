@@ -1,0 +1,47 @@
+{
+  "species": "cobblemon:duosion",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_stained_glass.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_liquid_stained_glass.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "liquid",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_liquid_shiny_stained_glass.png",
+          "translucent": true,
+          "translucent_cull": true
+        },
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0578_duosion/duosion_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

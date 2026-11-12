@@ -1,0 +1,70 @@
+{
+  "species": "cobblemon:hatterene",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stained_glass"
+      ],
+      "poser": "cobbleeffort:hatterene",
+      "model": "cobbleeffort:hatterene.geo",
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0858_hatterene/hatterene_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0858_hatterene/hatterene_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0858_hatterene/hatterene_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0858_hatterene/hatterene_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "stained_glass"
+      ],
+      "poser": "cobbleeffort:hatterene_gmax",
+      "model": "cobbleeffort:hatterene_gmax.geo",
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0858_hatterene/hatterene_gmax_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0858_hatterene/hatterene_gmax_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "gmax",
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0858_hatterene/hatterene_gmax_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

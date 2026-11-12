@@ -1,0 +1,138 @@
+{
+  "species": "cobblemon:hoopa",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "steampunk"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_0.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_1.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_2.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_3.png"
+        ],
+        "fps": 4,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "steampunk"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_0.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_1.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_2.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_3.png"
+        ],
+        "fps": 4,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "unbound",
+        "steampunk"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_0.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_1.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_2.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_3.png"
+        ],
+        "fps": 4,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "unbound",
+        "steampunk"
+      ],
+      "texture": {
+        "frames": [
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_0.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_1.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_2.png",
+          "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_3.png"
+        ],
+        "fps": 4,
+        "loop": true
+      },
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/compat/mega_showdown/0720_hoopa/hoopa_unbound_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

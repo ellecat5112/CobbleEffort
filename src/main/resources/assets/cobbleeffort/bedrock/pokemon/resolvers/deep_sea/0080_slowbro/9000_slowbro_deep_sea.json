@@ -1,0 +1,209 @@
+{
+  "species": "cobblemon:slowbro",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "galarian",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/0080_slowbro/slowbro_galarian_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_shiny_deep_sea.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_shiny_deep_sea_light_0.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_shiny_deep_sea_light_1.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_shiny_deep_sea_light_2.png",
+              "cobbleeffort:textures/pokemon/deep_sea/compat/mega_showdown/0080_slowbro/slowbro_mega_shiny_deep_sea_light_3.png"
+            ],
+            "fps": 4,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "mega_y",
+        "deep_sea"
+      ],
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian_mega.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-mega_y",
+        "galarian",
+        "deep_sea"
+      ],
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian_mega.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "galarian",
+        "mega_y",
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian_mega_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cosmetic_item-mega_y",
+        "galarian",
+        "shiny",
+        "deep_sea"
+      ],
+      "texture": "cobblemon:textures/pokemon/0080_slowbro/slowbro_galarian_mega_shiny.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_light",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

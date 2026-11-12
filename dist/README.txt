@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 14 collections of cosmetic forms (525 Pokemon) to Cobblemon. Each form is a new
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon. Each form is a new
 look for an existing Cobblemon model. Every cosmetic covers whole evolutionary lines: if one stage
 has it, its pre-evolutions and evolutions have it too, and the look stays through evolution, gender,
 regional forms, megas and shinies (shinies get their own version).
@@ -44,6 +44,9 @@ AT A GLANCE
   12  Game Boy Sprites                    Lime Dye                                        gb_sprite
   13  Cosmic Starlight                    Glowstone Dust                                  cosmic
   14  80s Neon Cyberpunk                  Glow Ink Sac                                    neon
+  15  Bioluminescent Deep Sea             Sea Pickle                                      deep_sea
+  16  Stained Glass                       Glass Pane                                      stained_glass
+  17  Steampunk                           Copper Ingot                                    steampunk
 
 ====================================================================================================
 #1  BACKROOMS (STILL LIFES)  (41 Pokemon)
@@ -602,6 +605,120 @@ Pokemon (each line is a whole evolutionary family):
   - Eiscue
   - Tandemaus > Maushold
   - Munkidori
+
+====================================================================================================
+#15  BIOLUMINESCENT DEEP SEA  (44 Pokemon)
+====================================================================================================
+Pokemon as glowing creatures of the deep: anglerfish, jellyfish, lanternfish, comb jellies, firefly
+squid and dragonfish.
+
+Cosmetic item: Sea Pickle
+Command:       /pokegive slowpoke deep_sea   (add 'shiny' for the shiny version)
+
+The look:
+  * each line wears one look on a dark abyssal body: anglerfish lure (Slowpoke, Rufflet, Quaxly),
+    jellyfish canals and rim (Skitty, Calyrex, Smoliv), lanternfish photophores (Spheal, Bergmite,
+    Frigibax), comb jelly rainbow rows (Paras, Gligar, Clauncher), firefly squid speckles (Nidoran
+    F, Elekid, Zarude), dragonfish red lights (Magby, Klink, Grookey)
+  * the lights glow in the dark and pulse; the comb jellies' rainbow ripples and the firefly squid
+    twinkle; glowing eyes
+  * shiny: the lights' colours turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Nidoran-F > Nidorina > Nidoqueen
+  - Paras > Parasect
+  - Slowpoke > Slowbro / Slowking
+  - Elekid > Electabuzz > Electivire
+  - Magby > Magmar > Magmortar
+  - Gligar > Gliscor
+  - Skitty > Delcatty
+  - Spheal > Sealeo > Walrein
+  - Klink > Klang > Klinklang
+  - Rufflet > Braviary
+  - Clauncher > Clawitzer
+  - Bergmite > Avalugg
+  - Grookey > Thwackey > Rillaboom
+  - Zarude
+  - Calyrex
+  - Quaxly > Quaxwell > Quaquaval
+  - Smoliv > Dolliv > Arboliva
+  - Frigibax > Arctibax > Baxcalibur
+
+====================================================================================================
+#16  STAINED GLASS  (37 Pokemon)
+====================================================================================================
+Pokemon as leaded stained-glass windows, lit from behind.
+
+Cosmetic item: Glass Pane
+Command:       /pokegive uxie stained_glass   (add 'shiny' for the shiny version)
+
+The look:
+  * the body cut into irregular panes of coloured glass with dark lead between them and round every
+    part, each pane coloured from the original's colour there
+  * each line's glass: cathedral jewels (Totodile, Uxie, Hatenna), Tiffany ambers and greens
+    (Seedot, Cacnea, Kricketot), rose-window blues and reds (Poliwag, Mudkip, Luvdisc), art-nouveau
+    pastels (Cottonee, Solosis, Elgyem), grisaille grey with yellow stain (Grimer, Klefki,
+    Arctozolt), kaleidoscope (Basculin, Hawlucha, Cyclizar)
+  * the glass glows softly as if lit from behind (it shines in the dark); clear glowing eyes
+  * shiny: gold came instead of lead, and the glass turned round the colour wheel
+
+Pokemon (each line is a whole evolutionary family):
+  - Poliwag > Poliwhirl > Poliwrath / Politoed
+  - Grimer > Muk
+  - Totodile > Croconaw > Feraligatr
+  - Mudkip > Marshtomp > Swampert
+  - Seedot > Nuzleaf > Shiftry
+  - Cacnea > Cacturne
+  - Luvdisc
+  - Kricketot > Kricketune
+  - Uxie
+  - Cottonee > Whimsicott
+  - Basculin > Basculegion
+  - Solosis > Duosion > Reuniclus
+  - Elgyem > Beheeyem
+  - Hawlucha
+  - Klefki
+  - Hatenna > Hattrem > Hatterene
+  - Arctozolt
+  - Cyclizar
+
+====================================================================================================
+#17  STEAMPUNK  (34 Pokemon)
+====================================================================================================
+Pokemon as riveted, gear-driven steampunk contraptions.
+
+Cosmetic item: Copper Ingot
+Command:       /pokegive durant steampunk   (add 'shiny' for the shiny version)
+
+The look:
+  * riveted metal plates, a gear on the chest, brass goggles with glowing amber lenses, and furnace
+    vents low on the body that glow and flicker
+  * each line's metal: brass (Clefairy, Jynx, Terapagos), copper gone green with verdigris (Tangela,
+    Barboach, Tynamo), gunmetal iron with brass rivets (Crabrawler, Marshadow, Clobbopus), clockwork
+    with exposed gears that turn (Mesprit, Durant, Hoopa), airship leather with brass straps
+    (Bidoof, Pikipek, Rockruff), black-iron boiler with pipes and many vents (Tepig, Drilbur, Ting-
+    Lu)
+  * shiny: silver and blued steel instead of brass and copper
+
+Pokemon (each line is a whole evolutionary family):
+  - Cleffa > Clefairy > Clefable
+  - Tangela > Tangrowth
+  - Smoochum > Jynx
+  - Barboach > Whiscash
+  - Bidoof > Bibarel
+  - Mesprit
+  - Tepig > Pignite > Emboar
+  - Drilbur > Excadrill
+  - Tynamo > Eelektrik > Eelektross
+  - Durant
+  - Hoopa
+  - Pikipek > Trumbeak > Toucannon
+  - Crabrawler > Crabominable
+  - Rockruff > Lycanroc
+  - Marshadow
+  - Clobbopus > Grapploct
+  - Ting-Lu
+  - Terapagos
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

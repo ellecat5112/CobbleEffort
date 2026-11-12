@@ -1,0 +1,102 @@
+{
+  "species": "cobblemon:whiscash",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "whiscash_nero",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "whiscash_nero",
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0340_whiscash/whiscash_nero_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

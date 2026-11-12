@@ -59,6 +59,15 @@ made by the Cobblemon team and contributors.
   per look (synthwave, outrun sunset by height on the model, Tron circuit traces, vaporwave pastels and checker floor,
   acid glitch scanlines, chrome horizon), neon outlines round the main parts, glowing visor eyes, and an animated
   emissive neon layer that pulses and flickers; shinies hue-turned.
+* **Bioluminescent Deep Sea** (`tools/styles/abyss_*.py`, `_abyss.py`, `_fx.py`; textures under `.../pokemon/deep_sea/`):
+  colours remapped to dark abyssal tones with mottling, lights added per look (lure, canals and rim, photophores, comb
+  rows, speckles, red lights) and an animated emissive layer where they pulse, ripple or twinkle; shinies hue-turned.
+* **Stained Glass** (`tools/styles/glass_*.py`, `_glass.py`; textures under `.../pokemon/stained_glass/`): the texture
+  cut into Voronoi panes, each recoloured from the original's mean colour there into the look's glass palette, with
+  lead lines, bevel highlights and glass streaks, and a translucent emissive backlight layer; shinies gold came.
+* **Steampunk** (`tools/styles/steam_*.py`, `_steam.py`; textures under `.../pokemon/steampunk/`): colours remapped to
+  each look's metal or leather with riveted plates, pipes, a chest gear (turning in an animated texture for
+  clockwork), goggles and furnace vents with a flickering emissive layer; shinies silver and blued steel.
 
 Cobblemon ships many of its Pokémon models and textures under the **Creative Commons
 Attribution-NonCommercial 3.0** licence (see the `license` files next to the models in Cobblemon's repository,

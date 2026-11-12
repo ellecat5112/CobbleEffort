@@ -4,7 +4,7 @@ A Cobblemon sidemod that adds **extra cosmetic forms** for existing Cobblemon mo
 [CobblemonMoreCosmetics](https://modrinth.com/resourcepack/cobblemonmorecosmetics). It changes no models:
 each form is a new texture applied through Cobblemon's own cosmetic-slot and aspect system.
 
-**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon).
+**Collections so far:** #1 Backrooms (41 Pokémon) · #2 Thanksgiving (37 Pokémon) · #3 Halloween (33 Pokémon) · #4 Christmas (40 Pokémon) · #5 Easter (40 Pokémon) · #6 Five Nights at Freddy's (40 Pokémon) · #7 Ice Sculptures (42 Pokémon) · #8 Stone Statues (41 Pokémon) · #9 Naruto (35 Pokémon + Xurkitree) · #10 Trans Pride (34 Pokémon) · #11 Tarot (41 Pokémon) · #12 Game Boy Sprites (33 Pokémon) · #13 Cosmic Starlight (34 Pokémon) · #14 80s Neon Cyberpunk (34 Pokémon) · #15 Bioluminescent Deep Sea (44 Pokémon) · #16 Stained Glass (37 Pokémon) · #17 Steampunk (34 Pokémon).
 
 **Creative tab (since v0.15.1):** every collection's cosmetic items and the Paradox mega stones are in the
 **CobbleEffort** tab of the creative inventory (the stones show when Mega Showdown is installed).
@@ -532,6 +532,92 @@ Picked with `generate.py pick --count 18 --seed neon-cyberpunk-1985` from the 23
 
 Give a supported Pokémon a **Glow Ink Sac** as its cosmetic item. With commands: `/pokegive pikachu neon`,
 `/pokegive metagross neon shiny`. Pack makers can extend the item tag `#cobbleeffort:neon_cosmetics`.
+
+## Collection #15: Bioluminescent Deep Sea
+
+18 evolutionary lines (**44 Pokémon**) as glowing creatures of the deep, dark abyssal bodies with living light (three
+lines per look):
+
+* **anglerfish** (Slowpoke, Rufflet, Quaxly): near-black and warty, a glowing lure over the forehead
+* **jellyfish** (Skitty, Calyrex, Smoliv): pale violet with glowing radial canals and a glowing rim
+* **lanternfish** (Spheal, Bergmite, Frigibax): dark silver-blue with rows of cyan photophores along the belly
+* **comb jelly** (Paras, Gligar, Clauncher): glassy blue with comb rows of rainbow light that **ripple**
+* **firefly squid** (Nidoran♀, Elekid, Zarude): deep blue speckled with tiny blue lights that **twinkle**
+* **dragonfish** (Magby, Klink, Grookey): velvet black with red lights under the eyes and down the body
+* the lights **glow in the dark** and pulse; glowing eyes
+* other forms (Mega Slowbro, Mega Baxcalibur, Gigantamax Rillaboom, Ice and Shadow Rider Calyrex) glow too
+* shiny: the lights' colours turned round the colour wheel
+
+Nidoran♀ → Nidorina → Nidoqueen · Paras → Parasect · Slowpoke → Slowbro / Slowking (incl. Galarian) ·
+Elekid → Electabuzz → Electivire · Magby → Magmar → Magmortar · Gligar → Gliscor · Skitty → Delcatty ·
+Spheal → Sealeo → Walrein · Klink → Klang → Klinklang · Rufflet → Braviary (incl. Hisuian) · Clauncher → Clawitzer ·
+Bergmite → Avalugg (incl. Hisuian) · Grookey → Thwackey → Rillaboom · Zarude · Calyrex · Quaxly → Quaxwell → Quaquaval ·
+Smoliv → Dolliv → Arboliva · Frigibax → Arctibax → Baxcalibur
+
+Picked with `generate.py pick --count 18 --seed bioluminescent-abyss` from the 217 remaining eligible lines.
+
+![Original vs. deep sea](docs/deep_sea_preview.png)
+
+### How to get one
+
+Give a supported Pokémon a **Sea Pickle** as its cosmetic item. With commands: `/pokegive slowpoke deep_sea`,
+`/pokegive spheal deep_sea shiny`. Pack makers can extend the item tag `#cobbleeffort:deep_sea_cosmetics`.
+
+## Collection #16: Stained Glass
+
+18 evolutionary lines (**37 Pokémon**) as leaded stained-glass windows, lit from behind:
+
+* the body is cut into irregular **panes of glass** with dark **lead came** between them and round every part; each
+  pane takes its colour from the original's colour there, with a bevel highlight and a streaky glass texture
+* each line's glass (three lines each): **cathedral** jewels (Totodile, Uxie, Hatenna), **Tiffany** ambers and greens
+  (Seedot, Cacnea, Kricketot), **rose window** blues and reds (Poliwag, Mudkip, Luvdisc), **art nouveau** pastels
+  (Cottonee, Solosis, Elgyem), **grisaille** grey with yellow stain (Grimer, Klefki, Arctozolt), **kaleidoscope**
+  (Basculin, Hawlucha, Cyclizar)
+* the glass glows softly as if light shines through it, so it **shines in the dark**; clear glowing eyes
+* other forms (Mega Feraligatr, Mega Swampert, Mega Hawlucha, Gigantamax Hatterene) are glass too
+* shiny: **gold came** instead of lead, and the glass turned round the colour wheel
+
+Poliwag → Poliwhirl → Poliwrath / Politoed · Grimer → Muk (incl. Alolan) · Totodile → Croconaw → Feraligatr ·
+Mudkip → Marshtomp → Swampert · Seedot → Nuzleaf → Shiftry · Cacnea → Cacturne · Luvdisc ·
+Kricketot → Kricketune · Uxie · Cottonee → Whimsicott · Basculin → Basculegion · Solosis → Duosion → Reuniclus ·
+Elgyem → Beheeyem · Hawlucha · Klefki · Hatenna → Hattrem → Hatterene · Arctozolt · Cyclizar
+
+Picked with `generate.py pick --count 18 --seed stained-glass-window` from the 199 remaining eligible lines.
+
+![Original vs. stained glass](docs/stained_glass_preview.png)
+
+### How to get one
+
+Give a supported Pokémon a **Glass Pane** as its cosmetic item. With commands: `/pokegive uxie stained_glass`,
+`/pokegive mudkip stained_glass shiny`. Pack makers can extend the item tag `#cobbleeffort:stained_glass_cosmetics`.
+
+## Collection #17: Steampunk
+
+18 evolutionary lines (**34 Pokémon**) as riveted, gear-driven contraptions:
+
+* the body in its metal, cut into **riveted plates**, a **gear** on the chest, **brass goggles** round the eyes with
+  glowing amber lenses, and **furnace vents** low on the body that glow and flicker in the dark
+* each line's metal (three lines each): **brass** (Clefairy, Jynx, Terapagos), **copper** gone green with verdigris
+  (Tangela, Barboach, Tynamo), gunmetal **iron** with brass rivets (Crabrawler, Marshadow, Clobbopus),
+  **clockwork** with exposed gears that **turn** (Mesprit, Durant, Hoopa), **airship** leather with brass straps
+  (Bidoof, Pikipek, Rockruff), black-iron **boiler** with pipes and many vents (Tepig, Drilbur, Ting-Lu)
+* other forms (Mega Clefable, Mega Emboar, Mega Excadrill, Mega Eelektross, Mega Crabominable, Hoopa Unbound,
+  Terastal and Stellar Terapagos) are steampunk too
+* shiny: silver and blued steel instead of brass and copper
+
+Cleffa → Clefairy → Clefable · Tangela → Tangrowth · Smoochum → Jynx · Barboach → Whiscash · Bidoof → Bibarel ·
+Mesprit · Tepig → Pignite → Emboar · Drilbur → Excadrill · Tynamo → Eelektrik → Eelektross · Durant · Hoopa ·
+Pikipek → Trumbeak → Toucannon · Crabrawler → Crabominable · Rockruff → Lycanroc · Marshadow ·
+Clobbopus → Grapploct · Ting-Lu · Terapagos
+
+Picked with `generate.py pick --count 18 --seed steampunk-clockwork` from the 181 remaining eligible lines.
+
+![Original vs. steampunk](docs/steampunk_preview.png)
+
+### How to get one
+
+Give a supported Pokémon a **Copper Ingot** as its cosmetic item. With commands: `/pokegive durant steampunk`,
+`/pokegive tepig steampunk shiny`. Pack makers can extend the item tag `#cobbleeffort:steampunk_cosmetics`.
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

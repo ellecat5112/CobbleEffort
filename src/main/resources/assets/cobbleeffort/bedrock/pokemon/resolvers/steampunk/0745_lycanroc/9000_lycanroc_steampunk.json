@@ -1,0 +1,151 @@
+{
+  "species": "cobblemon:lycanroc",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midday_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "midnight-form",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "midnight-form",
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_midnight_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "dusk-form",
+        "shiny",
+        "steampunk"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_shiny_steampunk.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_boiler",
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_shiny_steampunk_boiler_0.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_shiny_steampunk_boiler_1.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_shiny_steampunk_boiler_2.png",
+              "cobbleeffort:textures/pokemon/steampunk/0745_lycanroc/lycanroc_dusk_shiny_steampunk_boiler_3.png"
+            ],
+            "fps": 6,
+            "loop": true
+          },
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

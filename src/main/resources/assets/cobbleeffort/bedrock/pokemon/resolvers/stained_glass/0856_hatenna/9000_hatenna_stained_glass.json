@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:hatenna",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0856_hatenna/hatenna_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0856_hatenna/hatenna_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0856_hatenna/hatenna_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0856_hatenna/hatenna_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

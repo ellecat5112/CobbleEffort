@@ -1,0 +1,66 @@
+{
+  "species": "cobblemon:feraligatr",
+  "order": 9000,
+  "variations": [
+    {
+      "aspects": [
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0160_feraligatr/feraligatr_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0160_feraligatr/feraligatr_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/0160_feraligatr/feraligatr_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/0160_feraligatr/feraligatr_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0160_feraligatr/feraligatr_mega_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0160_feraligatr/feraligatr_mega_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny",
+        "stained_glass"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0160_feraligatr/feraligatr_mega_shiny_stained_glass.png",
+      "layers": [
+        {
+          "name": "cobbleeffort_backlight",
+          "texture": "cobbleeffort:textures/pokemon/stained_glass/compat/mega_showdown/0160_feraligatr/feraligatr_mega_shiny_stained_glass_backlight.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
