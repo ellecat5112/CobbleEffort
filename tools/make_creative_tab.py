@@ -31,6 +31,9 @@ def main():
                 items.append({"id": item, "count": 1})
     stones = [{"id": "minecraft:amethyst_shard", "count": 1, "components": megas.stone_components(sp)} for sp in megas.built()]
     items += stones
+    fossils = HERE / "newmons" / "creative_items.json"         # CobbleEffort's fossil items (tools/newmons/fossils.py)
+    if fossils.exists():
+        items += json.loads(fossils.read_text())
     # the icon: the first stone's look only (no Mega Showdown components, so it shows without that mod too)
     icon = ({"id": "minecraft:amethyst_shard", "count": 1,
              "components": {"minecraft:custom_model_data": stones[0]["components"]["minecraft:custom_model_data"]}}

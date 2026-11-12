@@ -470,5 +470,115 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3023_rattlebunch/rattlebunch_shiny.png",
   "layers": []
+ },
+ {
+  "species": "petroleodd",
+  "folder": "3024_petroleodd",
+  "model": "cobbleeffort:petroleodd.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3024_petroleodd/petroleodd.png",
+  "layers": []
+ },
+ {
+  "species": "petroleodd_shiny",
+  "folder": "3024_petroleodd",
+  "model": "cobbleeffort:petroleodd.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3024_petroleodd/petroleodd_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "petroleossil",
+  "folder": "3025_petroleossil",
+  "model": "cobbleeffort:petroleossil.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3025_petroleossil/petroleossil.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3025_petroleossil/petroleossil_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "petroleossil_shiny",
+  "folder": "3025_petroleossil",
+  "model": "cobbleeffort:petroleossil.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3025_petroleossil/petroleossil_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3025_petroleossil/petroleossil_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "mycolith",
+  "folder": "3026_mycolith",
+  "model": "cobbleeffort:mycolith.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3026_mycolith/mycolith.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3026_mycolith/mycolith_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "mycolith_shiny",
+  "folder": "3026_mycolith",
+  "model": "cobbleeffort:mycolith.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3026_mycolith/mycolith_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3026_mycolith/mycolith_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "taxitower",
+  "folder": "3027_taxitower",
+  "model": "cobbleeffort:taxitower.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "taxitower_shiny",
+  "folder": "3027_taxitower",
+  "model": "cobbleeffort:taxitower.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3027_taxitower/taxitower_shiny_shell.png"
+   }
+  ]
  }
 ]

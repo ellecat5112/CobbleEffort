@@ -31,6 +31,7 @@ from PIL import Image
 HERE = Path(__file__).resolve().parent
 TOOLS = HERE.parent
 sys.path.insert(0, str(HERE / "models"))
+sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(TOOLS / "megas"))
 sys.path.insert(0, str(TOOLS / "models"))
 from _anim import write_json  # noqa: E402
@@ -575,6 +576,91 @@ SPECIES.update({
 LINES["route_one"] = ["pipider", "blanketula", "shivnymph", "sheathalis", "cutlassfly", "cardling", "rubraptor",
                       "squeakling", "elastigoose", "raddent", "rattlebunch"]
 
+# --- fossils: the tar line and the Prototaxites line (revived at Cobblemon's Restoration Tank; tools/newmons/fossils.py)
+
+TAR_TM = BASIC_TM + ["rockslide", "rocktomb", "stoneedge", "stealthrock", "sandstorm", "ancientpower", "earthquake",
+                     "bulldoze", "mudshot", "sludgebomb", "gunkshot", "bodyslam", "bodypress", "irondefense", "curse",
+                     "painsplit", "spite", "rest"]
+TAR_TM_FINAL = ["dragonclaw", "outrage", "crunch", "gigaimpact", "hyperbeam", "meteorbeam", "heavyslam", "dragontail",
+                "headsmash"]
+TAR_EGG = ["memento", "acidarmor", "stockpile", "swallow", "spitup", "curse"]
+TAR_EARLY = [(1, "tackle"), (1, "harden"), (5, "mudslap"), (9, "rockthrow"), (13, "bonerush"), (17, "tarshot"),
+             (21, "ancientpower"), (25, "headbutt"), (29, "rockslide"), (33, "sludgebomb"), (37, "bonemerang"),
+             (41, "stoneedge")]
+TAR = dict(male=0.875, egg_groups=["amorphous", "mineral"], friendship=50, abilities=["gooey", "stickyhold", "h:rockhead"],
+           ability_names="Gooey / Sticky Hold / Rock Head (hidden)", labels=["fossil"])
+SPIRE_TM = BASIC_TM + ["powergem", "meteorbeam", "sludgebomb", "venoshock", "earthpower", "gigadrain", "energyball",
+                       "stealthrock", "toxicspikes", "irondefense", "rockslide", "stoneedge", "sandstorm", "trickroom",
+                       "solarbeam", "grassknot", "bulldoze", "earthquake", "bodypress", "gyroball", "sludgewave",
+                       "acidspray", "leechseed"]
+SPIRE_TM_FINAL = ["gigaimpact", "hyperbeam", "solarblade"]
+SPIRE_EGG = ["spore", "strengthsap", "ragepowder", "curse", "ingrain"]
+SPIRE_EARLY = [(1, "tackle"), (1, "absorb"), (5, "rockthrow"), (9, "leechseed"), (13, "acid"), (17, "megadrain"),
+               (21, "ancientpower"), (25, "venoshock"), (29, "gigadrain"), (33, "powergem")]
+SPIRE = dict(male=0.5, egg_groups=["mineral", "grass"], friendship=50, abilities=["paleomycelium", "h:effectspore"],
+             ability_names="Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) "
+                           "/ Effect Spore (hidden)", labels=["fossil"])
+
+SPECIES.update({
+    "petroleodd": {
+        "dex": 3024, "name": "Petroleodd", "line": "fossil", "types": ["rock"], **TAR,
+        "stats": stats(70, 60, 80, 55, 65, 30), "ev": evs(defence=1), "catch": 45, "exp": 72,
+        "height": 6, "weight": 410, "shoulder": False, "walk": 0.16,
+        "moves": TAR_EARLY + [(48, "headsmash")], "tm": TAR_TM, "egg": TAR_EGG,
+        "evolve": ("petroleossil", 45, ["dragonrush"], [{"variant": "held_item", "itemCondition": "cobblemon:kings_rock"}]),
+        "consume": True,
+        "drops": [("minecraft:coal", "1-2", None), ("minecraft:bone", "1-2", None), ("minecraft:black_dye", "0-1", None)],
+        "entry": ("A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones of old "
+                  "Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away stuck."),
+        "spawns": [],
+        "how": ["Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel round "
+                "the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava.",
+                "Evolves into Petroleossil at level 45 while holding a King's Rock."],
+    },
+    "petroleossil": {
+        "dex": 3025, "name": "Petroleossil", "line": "fossil", "types": ["rock", "dragon"], **TAR,
+        "stats": stats(110, 115, 110, 75, 90, 40), "ev": evs(hp=1, attack=2), "catch": 45, "exp": 270,
+        "height": 40, "weight": 4200, "shoulder": False, "walk": 0.22,
+        "moves": [(1, "dragonrush")] + TAR_EARLY + [(45, "dragonrush"), (50, "crunch"), (55, "earthquake"),
+                                                   (60, "headsmash"), (66, "gunkshot")],
+        "tm": TAR_TM + TAR_TM_FINAL, "egg": TAR_EGG, "evolve": None,
+        "drops": [("minecraft:coal_block", "0-1", None), ("minecraft:bone", "2-4", None), ("minecraft:bone_block", "0-1", None)],
+        "entry": ("Holding a King's Rock, Petroleodd swallows tar and sludge until it becomes a mountain of it, with "
+                  "the fossil skull of an ancient tyrant floating up through the middle. It roars through its jaws."),
+        "spawns": [],
+        "how": ["Evolve Petroleodd at level 45 while it holds a King's Rock (the King's Rock is used up)."],
+    },
+    "mycolith": {
+        "dex": 3026, "name": "Mycolith", "line": "fossil", "types": ["rock", "poison"], **SPIRE,
+        "stats": stats(80, 50, 90, 65, 60, 20), "ev": evs(defence=1), "catch": 45, "exp": 72,
+        "height": 11, "weight": 839, "shoulder": False, "walk": 0.12,
+        "moves": SPIRE_EARLY + [(34, "devoniandrift")], "tm": SPIRE_TM, "egg": SPIRE_EGG,
+        "evolve": ("taxitower", 38, ["devoniandrift"]),
+        "drops": [("minecraft:tuff", "1-2", None), ("minecraft:brown_mushroom", "0-2", None)],
+        "entry": ("Revived from the Spire Fossil. Over 400 million years ago, fields of Mycolith dominated the barren "
+                  "land before true trees ever took root. Researchers originally mistook its fossilized remains for "
+                  "ancient timber."),
+        "spawns": [],
+        "how": ["Revive a Spire Fossil at a Restoration Tank. Spire Fossils are found by brushing the suspicious gravel "
+                "round petrified spire stumps in forests and swamps.", "Evolves into Taxitower at level 38."],
+    },
+    "taxitower": {
+        "dex": 3027, "name": "Taxitower", "line": "fossil", "types": ["rock", "poison"], **SPIRE,
+        "stats": stats(115, 70, 125, 95, 85, 25), "ev": evs(defence=2, hp=1), "catch": 45, "exp": 265,
+        "height": 80, "weight": 6441, "shoulder": False, "walk": 0.08,
+        "moves": [(1, "devoniandrift")] + SPIRE_EARLY + [(38, "devoniandrift"), (42, "sludgebomb"), (46, "earthpower"),
+                                                        (50, "strengthsap"), (55, "meteorbeam"), (60, "synthesis")],
+        "tm": SPIRE_TM + SPIRE_TM_FINAL, "egg": SPIRE_EGG, "evolve": None,
+        "drops": [("minecraft:tuff", "2-4", None), ("minecraft:brown_mushroom", "1-3", None), ("minecraft:glowstone_dust", "0-2", None)],
+        "entry": ("Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil through miles "
+                  "of underground threads. When threatened, it releases blinding clouds of prehistoric spores that "
+                  "haven't been breathed in eons."),
+        "spawns": [],
+        "how": ["Evolve Mycolith at level 38."],
+    },
+})
+LINES["fossil"] = ["petroleodd", "petroleossil", "mycolith", "taxitower"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -597,6 +683,29 @@ num: -3002
 """,
         "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
                 "accuracy, and even targets that are flying, underground or underwater.",
+    },
+    "paleomycelium": {
+        "name": "Paleomycelium",
+        "js": """{
+onModifyMovePriority: -1,
+onModifyMove(move) {
+  if (move.type === 'Grass') move.forceSTAB = true;
+},
+onTryHitPriority: 1,
+onTryHit(target, source, move) {
+  if (target !== source && (move.flags['powder'] || move.id === 'leechseed')) {
+    this.add('-immune', target, '[from] ability: Paleomycelium');
+    return null;
+  }
+},
+flags: {breakable: 1},
+name: "Paleomycelium",
+rating: 3,
+num: -3004
+}
+""",
+        "lang": "An ancient fungus long mistaken for a plant: its Grass-type moves get the same-type bonus, and it is "
+                "immune to Leech Seed and to powder and spore moves.",
     },
     "pharaohscurse": {
         "name": "Pharaoh's Curse",
@@ -625,6 +734,54 @@ num: -3003
 
 # moves of our own: Cobblemon datapack moves (data/cobbleeffort/moves/<id>.js, read into Showdown at startup)
 CUSTOM_MOVES = {
+    "devoniandrift": {
+        "name": "Devonian Drift",
+        "js": """{
+num: -3004,
+accuracy: true,
+basePower: 0,
+category: "Status",
+name: "Devonian Drift",
+pp: 15,
+priority: 0,
+flags: {reflectable: 1, metronome: 1},
+sideCondition: "devoniandrift",
+condition: {
+  duration: 5,
+  onSideStart(side) {
+    this.add('-sidestart', side, 'move: Devonian Drift');
+  },
+  onResidualOrder: 5,
+  onResidualSubOrder: 1,
+  onResidual(target) {
+    if (target.hasType('Poison') || target.hasType('Steel') || !target.isGrounded()) return;
+    this.damage(target.baseMaxhp / 8, target, null, this.dex.conditions.get('devoniandrift'));
+    this.boost({spe: -1}, target, null, null, true);
+  },
+  onSideResidualOrder: 26,
+  onSideResidualSubOrder: 12,
+  onSideEnd(side) {
+    this.add('-sideend', side, 'move: Devonian Drift');
+  }
+},
+secondary: null,
+target: "foeSide",
+type: "Poison",
+desc: "For 5 turns, heavy ancient spores cover the opposing side: at the end of each turn, every grounded opponent that is not Poison or Steel type loses 1/8 of its maximum HP and its Speed falls by 1 stage.",
+shortDesc: "5 turns: grounded non-Poison/Steel foes lose 1/8 HP and -1 Spe each turn.",
+contestType: "Clever"
+}
+""",
+        "lang": "Scatters heavy, ancient spores over the opposing side for five turns. At the end of each turn they "
+                "hurt every grounded opponent that isn't Poison or Steel type and weigh it down, lowering its Speed.",
+        "battle": {
+            "cobblemon.battle.sidestart.ally.devoniandrift": "Ancient spores drifted down around your team!",
+            "cobblemon.battle.sidestart.opponent.devoniandrift": "Ancient spores drifted down around the opposing team!",
+            "cobblemon.battle.sideend.ally.devoniandrift": "The ancient spores around your team settled!",
+            "cobblemon.battle.sideend.opponent.devoniandrift": "The ancient spores around the opposing team settled!",
+            "cobblemon.battle.damage.devoniandrift": "%1$s is weighed down by the ancient spores!",
+        },
+    },
     "machinegunstinger": {
         "base": "pinmissile", "num": -3001, "name": "Machine Gun Stinger", "type": "Bug", "category": "Physical",
         "basePower": 25, "accuracy": 95, "pp": 15, "multihit": [2, 5],
@@ -730,7 +887,7 @@ def species_json(sp):
         d["secondaryType"] = c["types"][1]
     d.update({
         "maleRatio": c.get("male", 0.5), "height": c["height"], "weight": c["weight"], "pokedex": [f"{MOD}.species.{sp}.desc"],
-        "labels": ["cobbleeffort", "custom"], "aspects": [], "abilities": c["abilities"], "eggGroups": c["egg_groups"],
+        "labels": ["cobbleeffort", "custom"] + c.get("labels", []), "aspects": [], "abilities": c["abilities"], "eggGroups": c["egg_groups"],
         "baseStats": c["stats"], "evYield": c["ev"], "baseExperienceYield": c["exp"], "experienceGroup": "medium_slow",
         "catchRate": c["catch"], "eggCycles": 20, "baseFriendship": c["friendship"],
         "shoulderMountable": c["shoulder"], "baseScale": c["scale"],
@@ -751,7 +908,7 @@ def species_json(sp):
     })
     if c["evolve"]:
         to, lv, learn, *more = c["evolve"]
-        d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": False,
+        d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),
                             "learnableMoves": learn,
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
     pre = [s for s, o in SPECIES.items() if o["evolve"] and o["evolve"][0] == sp]
@@ -825,9 +982,13 @@ def main():
             "stats": [st["hp"], st["attack"], st["defence"], st["special_attack"], st["special_defence"], st["speed"]]})
         readme.append(c)
     for mid, mv in CUSTOM_MOVES.items():
-        fields = {k: v for k, v in mv.items() if k not in ("base", "lang")}
-        fields.update(isNonstandard=None, zMove={"basePower": 140}, maxMove={"basePower": 130})
-        js = f'Object.assign({{}}, Dex.data.Moves["{mv['base']}"], {json.dumps(fields)})\n'
+        if "js" in mv:                                       # a whole move of our own (with its own condition)
+            js = mv["js"]
+        else:                                                # a twist on an existing move
+            fields = {k: v for k, v in mv.items() if k not in ("base", "lang")}
+            fields.update(isNonstandard=None, zMove={"basePower": 140}, maxMove={"basePower": 130})
+            js = f'Object.assign({{}}, Dex.data.Moves["{mv['base']}"], {json.dumps(fields)})\n'
+        lang.update(mv.get("battle", {}))
         (data / "moves").mkdir(parents=True, exist_ok=True)
         (data / "moves" / f"{mid}.js").write_text(js)
         lang[f"cobblemon.move.{mid}"] = mv["name"]
@@ -845,6 +1006,8 @@ def main():
     write_json(data / "starters" / "cobbleeffort.json", {
         "name": name, "order": order, "displayName": "cobbleeffort.starterselection.category.cobbleeffort",
         "pokemon": [f"{m} level=10" for m in mons]})
+    import fossils                                           # fossil items, structures and Cobblemon fossil entries
+    fossils.build(lang)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))

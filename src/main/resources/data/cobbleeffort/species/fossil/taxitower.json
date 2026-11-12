@@ -1,0 +1,157 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3027,
+ "name": "Taxitower",
+ "primaryType": "rock",
+ "secondaryType": "poison",
+ "maleRatio": 0.5,
+ "height": 80,
+ "weight": 6441,
+ "pokedex": [
+  "cobbleeffort.species.taxitower.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "fossil"
+ ],
+ "aspects": [],
+ "abilities": [
+  "paleomycelium",
+  "h:effectspore"
+ ],
+ "eggGroups": [
+  "mineral",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 115,
+  "attack": 70,
+  "defence": 125,
+  "special_attack": 95,
+  "special_defence": 85,
+  "speed": 25
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 2.3,
+ "hitbox": {
+  "width": 2.4,
+  "height": 7.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.08
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:tuff",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:brown_mushroom",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:devoniandrift",
+  "1:tackle",
+  "1:absorb",
+  "5:rockthrow",
+  "9:leechseed",
+  "13:acid",
+  "17:megadrain",
+  "21:ancientpower",
+  "25:venoshock",
+  "29:gigadrain",
+  "33:powergem",
+  "38:devoniandrift",
+  "42:sludgebomb",
+  "46:earthpower",
+  "50:strengthsap",
+  "55:meteorbeam",
+  "60:synthesis",
+  "egg:spore",
+  "egg:strengthsap",
+  "egg:ragepowder",
+  "egg:curse",
+  "egg:ingrain",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:powergem",
+  "tm:meteorbeam",
+  "tm:sludgebomb",
+  "tm:venoshock",
+  "tm:earthpower",
+  "tm:gigadrain",
+  "tm:energyball",
+  "tm:stealthrock",
+  "tm:toxicspikes",
+  "tm:irondefense",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:sandstorm",
+  "tm:trickroom",
+  "tm:solarbeam",
+  "tm:grassknot",
+  "tm:bulldoze",
+  "tm:earthquake",
+  "tm:bodypress",
+  "tm:gyroball",
+  "tm:sludgewave",
+  "tm:acidspray",
+  "tm:leechseed",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:solarblade"
+ ],
+ "preEvolution": "cobbleeffort:mycolith"
+}

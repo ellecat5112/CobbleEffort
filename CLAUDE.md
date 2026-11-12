@@ -121,6 +121,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   wings), Cardling -> Rubraptor (Fairy/Flying, 22), Squeakling -> Elastigoose (Water/Flying, 25, "swims": surface
   spawns), Raddent -> Rattlebunch (Grass/Normal, 20). Plane parts (leaves, blades, feathers) are edge-on from the
   side: tilt them (rotation) so their faces show. Rod boxes run along -z before rotating (`along()`).
+  Fossils (#3024-3027, line "fossil", `tools/newmons/fossils.py`, data only): fossil items are echo shards with
+  custom_data `{cobbleeffort_fossil: <key>}` + name/lore/custom_model_data icon (overrides in
+  `assets/minecraft/models/item/echo_shard.json`); Cobblemon fossil entries match them with the legacy predicate
+  `{"item", "nbt"}`. Found by brushing suspicious gravel (archaeology loot tables) in our structures: `tar_pit`
+  (underground y -34, tar pool by lava) and `spire_stump` (forests/swamps); templates via the Kanto NBT writer.
+  Fossil items join the creative tab via `tools/newmons/creative_items.json`. Petroleodd -> Petroleossil (Rock ->
+  Rock/Dragon, lv 45 holding a King's Rock, `consume`; design by @aalacer398, with permission, names kept); Mycolith ->
+  Taxitower (Rock/Poison, lv 38; Gemini's Prototaxites idea; ability Paleomycelium = Grass forceSTAB + immune to
+  powder/Leech Seed; move Devonian Drift = a foeSide condition, raw JS move with its own `condition` and battle lang
+  `cobblemon.battle.sidestart|sideend.ally|opponent.<id>`, `cobblemon.battle.damage.<id>`). A CUSTOM_MOVES entry
+  with "js" is a whole move; without, it's Object.assign on "base". Real bucket pickup (a tar fluid) would need code.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

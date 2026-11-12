@@ -1,0 +1,166 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3024,
+ "name": "Petroleodd",
+ "primaryType": "rock",
+ "maleRatio": 0.875,
+ "height": 6,
+ "weight": 410,
+ "pokedex": [
+  "cobbleeffort.species.petroleodd.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "fossil"
+ ],
+ "aspects": [],
+ "abilities": [
+  "gooey",
+  "stickyhold",
+  "h:rockhead"
+ ],
+ "eggGroups": [
+  "amorphous",
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 60,
+  "defence": 80,
+  "special_attack": 55,
+  "special_defence": 65,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 72,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.16
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:coal",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:black_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:harden",
+  "5:mudslap",
+  "9:rockthrow",
+  "13:bonerush",
+  "17:tarshot",
+  "21:ancientpower",
+  "25:headbutt",
+  "29:rockslide",
+  "33:sludgebomb",
+  "37:bonemerang",
+  "41:stoneedge",
+  "48:headsmash",
+  "egg:memento",
+  "egg:acidarmor",
+  "egg:stockpile",
+  "egg:swallow",
+  "egg:spitup",
+  "egg:curse",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:stoneedge",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:ancientpower",
+  "tm:earthquake",
+  "tm:bulldoze",
+  "tm:mudshot",
+  "tm:sludgebomb",
+  "tm:gunkshot",
+  "tm:bodyslam",
+  "tm:bodypress",
+  "tm:irondefense",
+  "tm:curse",
+  "tm:painsplit",
+  "tm:spite",
+  "tm:rest"
+ ],
+ "evolutions": [
+  {
+   "id": "petroleodd_petroleossil",
+   "variant": "level_up",
+   "result": "cobbleeffort:petroleossil",
+   "consumeHeldItem": true,
+   "learnableMoves": [
+    "dragonrush"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:kings_rock"
+    }
+   ]
+  }
+ ]
+}

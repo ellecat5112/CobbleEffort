@@ -147,7 +147,10 @@ the user's own design, and the names, Pokédex entries, stats, models, textures,
 CobbleEffort (hand-built from boxes by `tools/newmons/`). No other mod's or game's art is used. The mantis and mummy lines were designed
 from the user's descriptions with free-to-use reference pictures found online (the mummy line's: a fakemon design
 posted on Pinterest by **LAB fakemon**), and the route-one lines from the user's descriptions with free-to-use
-reference pictures found online; none of their pixels are used.
+reference pictures found online; none of their pixels are used. Petroleodd and Petroleossil (names
+and design) are by **@aalacer398** (Instagram), used with their permission; our models are built by hand after their
+art. The Prototaxites line (Mycolith, Taxitower, Paleomycelium, Devonian Drift) is an idea the user brought from
+Google's Gemini; its models are our own.
 
 ## Code and data
 

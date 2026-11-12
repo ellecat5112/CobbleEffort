@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 23 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 27 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -951,6 +951,47 @@ cobbleeffort:cavitot.
   catch them."
   * Evolve Raddent at level 20.
   * Wild: rare in plains and grasslands.
+
+#3024 PETROLEODD  (Rock; Gooey / Sticky Hold / Rock Head (hidden))
+  a lumpy pile of glossy black tar with a cream skull over the top of its head, bones stuck in it
+  and two sleepy white eyes peeking out near the bottom
+  Stats: HP 70  Atk 60  Def 80  SpA 55  SpD 65  Spe 30  (total 360)
+  Pokedex: "A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones
+  of old Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away
+  stuck."
+  * Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel
+    round the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava.
+  * Evolves into Petroleossil at level 45 while holding a King's Rock.
+
+#3025 PETROLEOSSIL  (Rock / Dragon; Gooey / Sticky Hold / Rock Head (hidden))
+  a massive mound of tar and sludge with angry red eyes, a tar column carrying a huge gaping fossil
+  skull of an ancient tyrant, fossil bones and spines floating all over it
+  Stats: HP 110  Atk 115  Def 110  SpA 75  SpD 90  Spe 40  (total 540)
+  Pokedex: "Holding a King's Rock, Petroleodd swallows tar and sludge until it becomes a mountain of
+  it, with the fossil skull of an ancient tyrant floating up through the middle. It roars through
+  its jaws."
+  * Evolve Petroleodd at level 45 while it holds a King's Rock (the King's Rock is used up).
+
+#3026 MYCOLITH  (Rock / Poison; Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden))
+  a stout weathered stone pillar like a petrified stump with rings on its flat top, glowing purple
+  and amber mycelium in its cracks, glowing spore eyes in a hollow near its base and root tendrils
+  Stats: HP 80  Atk 50  Def 90  SpA 65  SpD 60  Spe 20  (total 365)
+  Pokedex: "Revived from the Spire Fossil. Over 400 million years ago, fields of Mycolith dominated
+  the barren land before true trees ever took root. Researchers originally mistook its fossilized
+  remains for ancient timber."
+  * Revive a Spire Fossil at a Restoration Tank. Spire Fossils are found by brushing the suspicious
+    gravel round petrified spire stumps in forests and swamps.
+  * Evolves into Taxitower at level 38.
+
+#3027 TAXITOWER  (Rock / Poison; Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden))
+  a colossal tapering obelisk of banded slate and fungal tissue with glowing mycelium, petrified
+  shelf-fungus armour, buttress roots and a crown split open like a chimney venting a cloud of
+  golden spores
+  Stats: HP 115  Atk 70  Def 125  SpA 95  SpD 85  Spe 25  (total 515)
+  Pokedex: "Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil
+  through miles of underground threads. When threatened, it releases blinding clouds of prehistoric
+  spores that haven't been breathed in eons."
+  * Evolve Mycolith at level 38.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

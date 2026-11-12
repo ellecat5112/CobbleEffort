@@ -667,6 +667,22 @@ levels and early evolutions:
 - **Raddent → Rattlebunch** (Grass/Normal, level 20): a rat whose body is a radish, then a rat king of four radish rats
   with their leafy tops knotted together in twine.
 
+**Fossils** (revived at Cobblemon's Fossil Analyzer and Restoration Tank, like any fossil):
+- **Petroleodd → Petroleossil** (Rock, then Rock/Dragon; design by @aalacer398, used with permission): a pile of
+  ancient tar brought back to life with old Pokémon bones inside, evolving at **level 45 while holding a King's Rock**
+  into a massive mound of tar with a tyrant's fossil skull rising out of it. Its fossil, **Ancient Tar**, comes from
+  **tar pits**: caverns deep underground (around y -30) with a pool of black tar beside pockets of lava. Brush the
+  suspicious gravel round the tar.
+- **Mycolith → Taxitower** (Rock/Poison, level 38; the Prototaxites idea came from Gemini): a petrified fungal
+  stump that grows into an 8-metre spire venting golden spores. Its fossil, the **Spire Fossil**, comes from
+  **petrified spire stumps** in forests and swamps: brush the suspicious gravel round them. Its own ability
+  **Paleomycelium** gives its Grass-type moves the same-type bonus and makes it immune to Leech Seed and to powder and
+  spore moves; its own move **Devonian Drift** (Poison, status, 15 PP) covers the foe's side in ancient spores for five
+  turns, hurting every grounded opponent that isn't Poison or Steel type by 1/8 of its HP each turn and lowering its
+  Speed.
+
+Both fossil items are in the CobbleEffort creative tab.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -693,11 +709,17 @@ levels and early evolutions:
 | 3021 | **Elastigoose** | Water / Flying | Water Veil / Own Tempo / Unaware (hidden) | 80 / 70 / 70 / 80 / 70 / 75 | 4'11" (1.5 m) / 22 kg | Evolve Squeakling at level 25. Wild: uncommon on rivers, ponds and swamps. | Its neck stretches like rubber, letting it snatch food from the riverbed or honk right in a foe's face from far away. Its honk is so loud it can be heard three valleys over. |
 | 3022 | **Raddent** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 35 / 56 / 35 / 25 / 35 / 72 | 0'12" (0.3 m) / 4 kg | Wild: common in plains, grasslands, forests and villages. Evolves into Rattlebunch at level 20. | It plants itself in a vegetable patch and pretends to be a radish until the farmer goes home, then nibbles everything in sight. Pull on its leaves and it squeaks and bolts. |
 | 3023 | **Rattlebunch** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 75 / 88 / 70 / 50 / 70 / 97 | 2'7" (0.8 m) / 18 kg | Evolve Raddent at level 20. Wild: rare in plains and grasslands. | Several Raddent whose leaves grew tangled together in the same patch, tied fast with a farmer's twine. They argue constantly about which way to run, but when they agree, nothing can catch them. |
+| 3024 | **Petroleodd** | Rock | Gooey / Sticky Hold / Rock Head (hidden) | 70 / 60 / 80 / 55 / 65 / 30 | 1'12" (0.6 m) / 41 kg | Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel round the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava. Evolves into Petroleossil at level 45 while holding a King's Rock. | A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones of old Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away stuck. |
+| 3025 | **Petroleossil** | Rock / Dragon | Gooey / Sticky Hold / Rock Head (hidden) | 110 / 115 / 110 / 75 / 90 / 40 | 13'1" (4 m) / 420 kg | Evolve Petroleodd at level 45 while it holds a King's Rock (the King's Rock is used up). | Holding a King's Rock, Petroleodd swallows tar and sludge until it becomes a mountain of it, with the fossil skull of an ancient tyrant floating up through the middle. It roars through its jaws. |
+| 3026 | **Mycolith** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 80 / 50 / 90 / 65 / 60 / 20 | 3'7" (1.1 m) / 83.9 kg | Revive a Spire Fossil at a Restoration Tank. Spire Fossils are found by brushing the suspicious gravel round petrified spire stumps in forests and swamps. Evolves into Taxitower at level 38. | Revived from the Spire Fossil. Over 400 million years ago, fields of Mycolith dominated the barren land before true trees ever took root. Researchers originally mistook its fossilized remains for ancient timber. |
+| 3027 | **Taxitower** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 115 / 70 / 125 / 95 / 85 / 25 | 26'3" (8 m) / 644.1 kg | Evolve Mycolith at level 38. | Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil through miles of underground threads. When threatened, it releases blinding clouds of prehistoric spores that haven't been breathed in eons. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
 
 ![The route-one Pokémon, regular and shiny](docs/newmons_route_one.png)
+
+![The fossil Pokémon, regular and shiny](docs/newmons_fossils.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

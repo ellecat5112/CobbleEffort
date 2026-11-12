@@ -1,0 +1,34 @@
+[
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.ancient_tar\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.ancient_tar.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794801,
+   "minecraft:rarity": "uncommon",
+   "minecraft:max_stack_size": 16,
+   "minecraft:custom_data": {
+    "cobbleeffort_fossil": "tar"
+   }
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.spire_fossil\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.spire_fossil.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794802,
+   "minecraft:rarity": "uncommon",
+   "minecraft:max_stack_size": 16,
+   "minecraft:custom_data": {
+    "cobbleeffort_fossil": "spire"
+   }
+  }
+ }
+]
