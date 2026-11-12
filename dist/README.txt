@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 34 new Pokemon.
+CobbleEffort adds 17 collections of cosmetic forms (640 Pokemon) to Cobblemon, plus 35 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1058,6 +1058,15 @@ cobbleeffort:cavitot.
   out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore."
   * Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves.
   * Wild: very rare on deep oceans at night.
+
+#3035 TYPE: ERROR  (Normal; System Error (its own: makes it Error type in battle))
+  a lean, dark biped with a spiked brown mask and one glaring eye, a white spiky mane, a silver
+  pincer claw with glowing cyan tips on one arm and a huge blue fin club on the other
+  Stats: HP 80  Atk 130  Def 60  SpA 90  SpD 60  Spe 114  (total 534)
+  Pokedex: "A failed experiment built to be faster and deadlier than any other. The mask clamped
+  over its head keeps its corrupted power in check. Its type cannot be read: every attack hits it
+  the same, except the most ordinary ones."
+  * Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

@@ -784,5 +784,33 @@
     "retextured": "cobbleeffort:textures/pokemon/3034_jorminous/jorminous_shiny_shell.png"
    }
   ]
+ },
+ {
+  "species": "typeerror",
+  "folder": "3035_typeerror",
+  "model": "cobbleeffort:typeerror.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3035_typeerror/typeerror.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3035_typeerror/typeerror_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "typeerror_shiny",
+  "folder": "3035_typeerror",
+  "model": "cobbleeffort:typeerror.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3035_typeerror/typeerror_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3035_typeerror/typeerror_shiny_glow_0.png"
+   }
+  ]
  }
 ]

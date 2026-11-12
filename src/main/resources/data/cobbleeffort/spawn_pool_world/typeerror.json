@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "typeerror-deepdark",
+   "pokemon": "cobbleeffort:typeerror",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-60",
+   "weight": 0.5,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_deep_dark"
+    ]
+   }
+  }
+ ]
+}

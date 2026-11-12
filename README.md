@@ -705,6 +705,14 @@ shields along its coils, mast-like spikes and a tail trailing glowing sea mist. 
 Jormbuoy floats on oceans (uncommon, more in cold seas); Jorminous rises on deep oceans at night (very rare).
 Shinies are sea-green with pale birch planks.
 
+**Type: Error** (shown as Normal; genderless, sub-legendary rarity): like Type: Null but bipedal and more evil, built
+for heavy attacks and speed (130 Attack, 114 Speed; low defences). Its own ability **System Error** gives it the
+**Error type** in battle: every move hits it for neutral damage except Normal-type moves, which are super effective, and
+its own Normal-type moves hit everything for neutral damage (ghosts included) and are super effective on Normal types.
+Cobblemon has no way to add a new type, so its summary shows Normal while the ability does the rest. A spiked brown
+mask with one glaring eye, a white mane, a silver pincer claw and a huge blue fin club. Learns Extreme Speed and Close
+Combat. Extremely rare in the Deep Dark. Shiny: violet with a gold mask and a magenta club.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -742,6 +750,7 @@ Shinies are sea-green with pale birch planks.
 | 3032 | **Magmalodon** | Steel / Fire | Rough Skin / Flash Fire / Tough Claws (hidden) | 108 / 135 / 105 / 80 / 85 / 87 | 7'10" (2.4 m) / 350 kg | Evolve Forgnash at level 60. | Its body burns hotter than a smelter, and the smoke pouring off its head hangs down its back like dreadlocks. A single bite from its huge jaws can tear through a steel girder. |
 | 3033 | **Jormbuoy** | Water | Swift Swim / Shell Armor / Cursed Body (hidden) | 60 / 50 / 65 / 60 / 60 / 45 | 2'4" (0.7 m) / 22 kg | Wild: uncommon floating on oceans, especially cold ones. Evolves into Jorminous when a Dusk Stone is used on it at level 45 or higher. | It bobs along on cold seas under a hull of old ship's timbers, shields lined up along its sides. Sailors used to tie their boats to it, mistaking it for a buoy, until it swam away with them. |
 | 3034 | **Jorminous** | Water / Ghost | Swift Swim / Shell Armor / Cursed Body (hidden) | 95 / 90 / 95 / 100 / 90 / 70 | 22'12" (7 m) / 300 kg | Use a Dusk Stone on Jormbuoy at level 45 or higher. It learns Hex when it evolves. Wild: very rare on deep oceans at night. | The ghost of a sunken raiding ship that has become a great sea serpent. When it rises out of the fog with its shields gleaming and its oars beating, whole fleets turn back to shore. |
+| 3035 | **Type: Error** | Normal | System Error (its own: makes it Error type in battle) | 80 / 130 / 60 / 90 / 60 / 114 | 6'3" (1.9 m) / 120.5 kg | Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed. | A failed experiment built to be faster and deadlier than any other. The mask clamped over its head keeps its corrupted power in check. Its type cannot be read: every attack hits it the same, except the most ordinary ones. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -755,6 +764,8 @@ Shinies are sea-green with pale birch planks.
 ![Sharkindle, Forgnash and Magmalodon, regular and shiny](docs/newmons_landshark.png)
 
 ![Jormbuoy and Jorminous, regular and shiny](docs/newmons_jorm.png)
+
+![Type: Error, regular and shiny](docs/newmons_typeerror.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

@@ -816,6 +816,35 @@ SPECIES.update({
 })
 LINES["jorm"] = ["jormbuoy", "jorminous"]
 
+# --- Type: Error: an evil, bipedal Type: Null built for attack and speed, with the "Error" typing ----------------------
+
+ERROR_TM = BASIC_TM + ["gigaimpact", "hyperbeam", "swordsdance", "bulkup", "agility", "uturn", "knockoff", "crunch",
+                       "ironhead", "xscissor", "closecombat", "brickbreak", "shadowclaw", "nightslash", "aerialace",
+                       "rockslide", "earthquake", "irontail", "thief", "taunt", "snarl", "scaryface", "bodyslam",
+                       "doubleedge", "takedown", "facade", "lashout", "throatchop"]
+
+SPECIES.update({
+    "typeerror": {
+        "dex": 3035, "name": "Type: Error", "line": "error", "types": ["normal"],
+        "male": -1, "egg_groups": ["undiscovered"], "friendship": 0, "catch": 3, "labels": ["legendary"],
+        "abilities": ["systemerror", "h:systemerror"],
+        "ability_names": "System Error (its own: makes it Error type in battle)",
+        "stats": stats(80, 130, 60, 90, 60, 114), "ev": evs(attack=2, speed=1), "exp": 218,
+        "height": 19, "weight": 1205, "shoulder": False, "walk": 0.42, "growth": "slow",
+        "moves": [(1, "tackle"), (1, "leer"), (1, "scaryface"), (5, "quickattack"), (10, "pursuit"), (15, "slash"),
+                  (20, "crushclaw"), (25, "nightslash"), (30, "ironhead"), (35, "xscissor"), (40, "doubleedge"),
+                  (45, "swordsdance"), (50, "extremespeed"), (55, "closecombat"), (60, "gigaimpact")],
+        "tm": ERROR_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:iron_ingot", "1-2", None), ("minecraft:redstone", "1-3", None)],
+        "entry": ("A failed experiment built to be faster and deadlier than any other. The mask clamped over its head "
+                  "keeps its corrupted power in check. Its type cannot be read: every attack hits it the same, except "
+                  "the most ordinary ones."),
+        "spawns": [spawn("typeerror-deepdark", "ultra-rare", "50-60", 0.5, dict(UNDERGROUND, biomes=["#cobblemon:is_deep_dark"]))],
+        "how": ["Wild: extremely rare in the Deep Dark (level 50-60). Genderless; it cannot breed."],
+    },
+})
+LINES["error"] = ["typeerror"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -838,6 +867,34 @@ num: -3002
 """,
         "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
                 "accuracy, and even targets that are flying, underground or underwater.",
+    },
+    "systemerror": {
+        "name": "System Error",
+        "js": """{
+onEffectiveness(typeMod, target, type, move) {
+  if (!move || target !== this.effectState.target) return typeMod;
+  return move.type === 'Normal' ? 1 : 0;
+},
+onNegateImmunity(pokemon, type) {
+  if (type === 'Ghost') return false;
+},
+onModifyMovePriority: -2,
+onModifyMove(move) {
+  if (move.type !== 'Normal' || move.category === 'Status') return;
+  move.ignoreImmunity = Object.assign({}, typeof move.ignoreImmunity === 'object' ? move.ignoreImmunity : {}, {Normal: true});
+  move.onEffectiveness = function (typeMod, target, type) {
+    return type === 'Normal' ? 1 : 0;
+  };
+},
+flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
+name: "System Error",
+rating: 4,
+num: -3005
+}
+""",
+        "lang": "The Pokémon's type is Error: every move hits it for neutral damage except Normal-type moves, which "
+                "are super effective. Its own Normal-type moves hit everything for neutral damage, ghosts included, "
+                "and are super effective on Normal types.",
     },
     "paleomycelium": {
         "name": "Paleomycelium",

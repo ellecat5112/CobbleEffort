@@ -1,0 +1,145 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3035,
+ "name": "Type: Error",
+ "primaryType": "normal",
+ "maleRatio": -1,
+ "height": 19,
+ "weight": 1205,
+ "pokedex": [
+  "cobbleeffort.species.typeerror.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "systemerror",
+  "h:systemerror"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 130,
+  "defence": 60,
+  "special_attack": 90,
+  "special_defence": 60,
+  "speed": 114
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 218,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 0.98,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.42
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:redstone",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:scaryface",
+  "5:quickattack",
+  "10:pursuit",
+  "15:slash",
+  "20:crushclaw",
+  "25:nightslash",
+  "30:ironhead",
+  "35:xscissor",
+  "40:doubleedge",
+  "45:swordsdance",
+  "50:extremespeed",
+  "55:closecombat",
+  "60:gigaimpact",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:agility",
+  "tm:uturn",
+  "tm:knockoff",
+  "tm:crunch",
+  "tm:ironhead",
+  "tm:xscissor",
+  "tm:closecombat",
+  "tm:brickbreak",
+  "tm:shadowclaw",
+  "tm:nightslash",
+  "tm:aerialace",
+  "tm:rockslide",
+  "tm:earthquake",
+  "tm:irontail",
+  "tm:thief",
+  "tm:taunt",
+  "tm:snarl",
+  "tm:scaryface",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:facade",
+  "tm:lashout",
+  "tm:throatchop"
+ ]
+}
