@@ -1971,12 +1971,54 @@ def write_model_assets(sp, hand, fold):
     m = hand.build()
     tw, th = m.layout()
     k = getattr(hand, "K", 1)
+    # borrowed heads (BORROW: tools/newmons/borrowed/<src>.json from borrow_heads.py): their footprints go below our
+    # own texture area, their bones are mounted on one of ours (moved to `at`, turned by `rotation`)
+    borrowed, extra_bones, y_off = [], [], th
+    for bi, bw in enumerate(getattr(hand, "BORROW", [])):
+        src = json.loads((HERE / "borrowed" / f"{bw['src']}.json").read_text())
+        W, H = src["texture"]
+        borrowed.append((bw, src, y_off))
+        pre = bw.get("prefix", f"b{bi}_")
+        delta = [t - a for t, a in zip(bw["at"], src["anchor"])]
+        mv = lambda p: [round(v + d, 4) for v, d in zip(p, delta)]
+        extra_bones.append({"name": f"{pre}mount", "parent": bw["parent"], "pivot": [float(v) for v in bw["at"]],
+                            "rotation": [float(v) for v in bw.get("rotation", (0, 0, 0))]})
+        for b in src["bones"]:
+            nb = {"name": pre + b["name"], "parent": pre + (b["parent"] or "mount"), "pivot": mv(b["pivot"])}
+            if b.get("rotation"):
+                nb["rotation"] = b["rotation"]
+            cubes = []
+            for c in b["cubes"]:
+                nc = dict(c, origin=mv(c["origin"]), uv=[c["uv"][0], c["uv"][1] + y_off])
+                if "pivot" in c:
+                    nc["pivot"] = mv(c["pivot"])
+                cubes.append(nc)
+            if cubes:
+                nb["cubes"] = cubes
+            extra_bones.append(nb)
+        y_off += H
+    tw_full, th_full = (max(tw, 256), y_off) if borrowed else (tw, th)
+
+    def with_borrowed(img, key):
+        """Our painted texture on the full-size canvas, with the borrowed footprints (variant `key`) pasted below."""
+        if not borrowed:
+            return img
+        out = Image.new("RGBA", (tw_full * k, th_full * k))
+        out.paste(img, (0, 0))
+        for bw, src, yo in borrowed:
+            f = HERE / "borrowed" / f"{bw['src']}{key}.png"
+            if f.exists():
+                part = Image.open(f).convert("RGBA")
+                out.paste(part.resize((part.size[0] * k, part.size[1] * k), Image.NEAREST), (0, yo * k))
+        return out
     tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / fold
     tex_dir.mkdir(parents=True, exist_ok=True)
     tex = lambda n: f"{MOD}:textures/pokemon/{fold}/{n}.png"
     layers = {"": [], "_shiny": []}                         # resolver layers per variant (glow, translucent shell)
     for variant, sfx in ((None, ""), ("shiny", "_shiny")):
         img, glow = m.paint(tw, th, variant, k=k)
+        img = with_borrowed(img, sfx)
+        glow = with_borrowed(glow, "_emissive" + sfx) if borrowed else glow
         a = np.array(img)
         shell = (a[..., 3] > 0) & (a[..., 3] < 255)        # texels painted part-transparent: the translucent layer
         g = np.array(glow)
@@ -2021,7 +2063,7 @@ def write_model_assets(sp, hand, fold):
     extra = [{"name": "locator_root", "parent": root, "pivot": [0, 0, 0]},
              {"name": "locator_top", "parent": root, "pivot": [0, float(top), 0]}]
     bedrock = RES / "assets" / MOD / "bedrock" / "pokemon"
-    write_json(bedrock / "models" / fold / f"{sp}.geo.json", m.geo(tw, th, f"geometry.{sp}", extra))
+    write_json(bedrock / "models" / fold / f"{sp}.geo.json", m.geo(tw_full, th_full, f"geometry.{sp}", extra + extra_bones))
     write_json(bedrock / "animations" / fold / f"{group_of(sp)}.animation.json",
                animations(group_of(sp), getattr(hand, "KIND", "quadruped"), getattr(hand, "ANIM", {}), names, legs, piv))
     write_json(bedrock / "posers" / fold / f"{sp}.json", poser(group_of(sp), sp, top, hand.SCALE, names))

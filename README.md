@@ -1411,14 +1411,15 @@ Life Dew on evolving, Poison Fang, Endure, Venoshock, Recover, Toxic, Sludge Bom
 
 **Tyrucrab → Crabgron → Primaclaw** (Bug/Rock → Bug/Steel → Bug/Ground, levels 32 and 50), imitator crabs after the art
 by **@dude.dude.art** (Tyrucrab and Crabgron are the art's names; Primaclaw is ours): little crabs whose claws imitate
-the heads of dangerous Pokémon. Tyrucrab is a brown crab with an angry face whose right claw is a tyrannosaur's head
-(orange spikes, a white frill and a huge snapping white jaw); Crabgron is a charcoal crab with glowing blue eyes whose
-claw is a horned steel-helmeted head with jagged teeth; in Primaclaw the claws are nine tenths of it, a tiny spiky crab
-on long white legs holding up a red, plated land-titan head and a blue sea-titan head. Strong Jaw or Shell Armor,
-hidden Intimidate; Primaclaw's own ability **Primal Mimicry** gives its Water-type moves the same-type bonus too.
-Bite, Crunch, X-Scissor and Rock Slide, then Metal Claw, Iron Head and Heavy Slam, then Crabhammer, Earthquake,
-Headlong Rush, Wave Crash and Precipice Blades. Tyrucrab is uncommon on beaches, stony shores, mangrove swamps and in
-badlands, Crabgron rare there. Shiny: slate blue, navy and blued steel, then a golden land-claw and a magenta sea-claw.
+the heads of dangerous Pokémon, and the claws really are those heads, borrowed from the models themselves: Tyrucrab, a
+brown crab with an angry face, holds up **Tyrunt's head** (from Cobblemon's Tyrunt); Crabgron, a charcoal crab with
+glowing blue eyes, holds up **Aggron's head** (from Cobblemon's Aggron) beside a big white pincer; and in Primaclaw the
+claws are nine tenths of it, a tiny spiky crab on long white legs holding up **Groudon's head** and **Kyogre** (from
+Mega Showdown's Groudon and Kyogre). Shinies borrow the real shiny heads (blue Tyrunt, gold Groudon, purple Kyogre).
+Strong Jaw or Shell Armor, hidden Intimidate; Primaclaw's own ability **Primal Mimicry** gives its Water-type moves the
+same-type bonus too. Bite, Crunch, X-Scissor and Rock Slide, then Metal Claw, Iron Head and Heavy Slam, then
+Crabhammer, Earthquake, Headlong Rush, Wave Crash and Precipice Blades. Tyrucrab is uncommon on beaches, stony shores,
+mangrove swamps and in badlands, Crabgron rare there.
 
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |

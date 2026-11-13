@@ -257,7 +257,11 @@ the Lesbeon meme art the user shared (artist not named); its model, stats and Po
 the art by **psychedelic-lemur** that the user shared; its model, stats and Pokédex entry are our own. Tyrucrab and Crabgron
 (their names and designs) and the design of Primaclaw (shown in the art as a variant Crabgron) are after the fakemon art
 by **@dude.dude.art** that the user shared, with the user's idea of crabs whose claws imitate dangerous Pokémon;
-Primaclaw's name, the models, Primal Mimicry and the Pokédex entries are our own.
+Primaclaw's name, the crab bodies, Primal Mimicry and the Pokédex entries are our own. Their claws are **borrowed model
+parts** (bones, cubes and texture pixels, copied unchanged by `tools/newmons/borrow_heads.py`): Tyrunt's and Aggron's
+heads from **Cobblemon**'s models (Tyrucrab, Crabgron), and Groudon's head and Kyogre's body from **Mega Showdown**'s
+models (Primaclaw). Primaclaw's model and textures therefore contain Mega Showdown assets and are shared under
+**CC BY-NC-SA 4.0**, like the other Mega Showdown adaptations below.
 
 ## Code and data
 

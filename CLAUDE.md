@@ -224,8 +224,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   evolution requires `properties: ibuprofeon_ready`. Cone of shame = overlapping rings of plates; blister-pack tail.
   Tyrucrab -> Crabgron -> Primaclaw (#3064-3066, line "mimic_crab", `models/_mimic.py`: crab body/legs/pincer; art by
   @dude.dude.art, Tyrucrab/Crabgron names kept, Primaclaw ours): Bug/Rock -> Bug/Steel -> Bug/Ground at 32/50, claws
-  imitating Tyrunt/Aggron/Groudon+Kyogre heads, built in profile with the snout along +-x (the eyes sit on north/south
-  faces) so they read from the front; ability Primal Mimicry = Water forceSTAB (like Paleomycelium).
+  imitating Tyrunt/Aggron/Groudon+Kyogre heads (the user's suggestion, 0.68.0: the REAL heads, borrowed); ability
+  Primal Mimicry = Water forceSTAB (like Paleomycelium).
+  **Borrowed model parts**: `tools/newmons/borrow_heads.py --cobblemon <res> --msd <MSD jar>` copies a bone subtree
+  (head + ancestors as empty bones for the pose; glow/eyelid/closed/mouth_open/locator bones skipped, per-source `skip`)
+  and packs its cubes' box-UV footprints (plain, shiny, emissive) into committed `tools/newmons/borrowed/<src>.*`.
+  A model module's `BORROW = [{src, parent, at, rotation, prefix}]` mounts it (write_model_assets): footprints go below
+  our texture area (width >= 256), bones get the prefix and move so the anchor (the head bone's pivot) lands on `at`,
+  a `<prefix>mount` bone turns them (rotation y +90 points a -z snout to -x); not animated by the rig. Box UV can't be
+  scaled, so bodies are built around the borrowed parts' native size. Only licences that allow it: Cobblemon (CC
+  BY-NC), Mega Showdown (CC BY-NC-SA: models carrying its parts are shared under it); never no-derivatives mods.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a
