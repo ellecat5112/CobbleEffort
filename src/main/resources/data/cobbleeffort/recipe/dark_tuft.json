@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "minecraft:black_wool"
+  },
+  {
+   "item": "minecraft:ink_sac"
+  }
+ ],
+ "result": {
+  "id": "minecraft:black_wool",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.dark_tuft\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.tuft.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794915,
+   "minecraft:max_stack_size": 16
+  }
+ }
+}

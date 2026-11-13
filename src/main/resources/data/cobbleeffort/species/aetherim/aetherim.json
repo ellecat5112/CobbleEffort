@@ -1,0 +1,302 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3053,
+ "name": "Aetherim",
+ "primaryType": "normal",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.aetherim.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "adaptability",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 80,
+  "defence": 80,
+  "special_attack": 80,
+  "special_defence": 80,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 160,
+ "experienceGroup": "medium_slow",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.7,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:silk_scarf",
+    "percentage": 3.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "5:swift",
+  "9:headbutt",
+  "13:cometpunch",
+  "17:helpinghand",
+  "21:triattack",
+  "25:bulletpunch",
+  "29:calmmind",
+  "33:hypervoice",
+  "38:revelationdance",
+  "44:bodyslam",
+  "50:hyperbeam",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:swift",
+  "tm:hypervoice",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:headbutt",
+  "tm:zenheadbutt",
+  "tm:brickbreak",
+  "tm:icepunch",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:drainpunch",
+  "tm:machpunch",
+  "tm:bulletpunch",
+  "tm:shadowpunch",
+  "tm:rockslide",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:calmmind",
+  "tm:nastyplot",
+  "tm:bulkup",
+  "tm:flamethrower",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:energyball",
+  "tm:psychic",
+  "tm:shadowball",
+  "tm:darkpulse",
+  "tm:dragonpulse",
+  "tm:flashcannon",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:airslash",
+  "tm:bugbuzz",
+  "tm:dazzlinggleam",
+  "tm:powergem",
+  "tm:surf",
+  "tm:triattack",
+  "tm:helpinghand",
+  "tm:trailblaze",
+  "tm:reflect",
+  "tm:lightscreen"
+ ],
+ "forms": [
+  {
+   "name": "Fire",
+   "primaryType": "fire",
+   "aspects": [
+    "fire-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Water",
+   "primaryType": "water",
+   "aspects": [
+    "water-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Grass",
+   "primaryType": "grass",
+   "aspects": [
+    "grass-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Electric",
+   "primaryType": "electric",
+   "aspects": [
+    "electric-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Ice",
+   "primaryType": "ice",
+   "aspects": [
+    "ice-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Fighting",
+   "primaryType": "fighting",
+   "aspects": [
+    "fighting-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Poison",
+   "primaryType": "poison",
+   "aspects": [
+    "poison-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Ground",
+   "primaryType": "ground",
+   "aspects": [
+    "ground-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Flying",
+   "primaryType": "flying",
+   "aspects": [
+    "flying-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Psychic",
+   "primaryType": "psychic",
+   "aspects": [
+    "psychic-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Bug",
+   "primaryType": "bug",
+   "aspects": [
+    "bug-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Rock",
+   "primaryType": "rock",
+   "aspects": [
+    "rock-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Ghost",
+   "primaryType": "ghost",
+   "aspects": [
+    "ghost-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Dragon",
+   "primaryType": "dragon",
+   "aspects": [
+    "dragon-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Dark",
+   "primaryType": "dark",
+   "aspects": [
+    "dark-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Steel",
+   "primaryType": "steel",
+   "aspects": [
+    "steel-tuft"
+   ],
+   "battleOnly": false
+  },
+  {
+   "name": "Fairy",
+   "primaryType": "fairy",
+   "aspects": [
+    "fairy-tuft"
+   ],
+   "battleOnly": false
+  }
+ ]
+}

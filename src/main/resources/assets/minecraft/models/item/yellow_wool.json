@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/yellow_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794904
+   },
+   "model": "cobbleeffort:item/electric_tuft"
+  }
+ ]
+}

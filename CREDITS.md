@@ -240,7 +240,9 @@ aegiro) that the user shared; their names, models and Pokédex entries are our o
 (and the Telson Fossil) follow the eurypterid fossil fakemon art the user shared (a watermarked DeviantArt piece; the
 artist isn't named); their names, types, models and Pokédex entries are our own. Obubby and Mumossum (their
 names and designs) are after the fakemon art by **@Fakemanss** that the user shared; their models, Joey Slingshot
-and Pokédex entries are our own.
+and Pokédex entries are our own. Aetherim (its name and design) is after the fakemon art by **@LMRTRAINER** that the user
+shared, with the user's idea of it taking the type of the tuft of hair it holds; its model, type forms, Tufts and
+Pokédex entry are our own.
 
 ## Code and data
 

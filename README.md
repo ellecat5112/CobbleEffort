@@ -1344,6 +1344,19 @@ or Healer (Mumossum), hidden Friend Guard; Baby-Doll Eyes, Covet, Charm and Wish
 Soft-Boiled and Moonblast. Common (Obubby) and uncommon (Mumossum) in forests and plains at night. Shiny: dusky purple
 ears and a lilac tail.
 
+**Aetherim** (Normal, and any type), a tiny golem of energy: a crest of three curved cream plates over a round head with
+big blue eyes and a glowing pearl, a small body ending in a spike, and two big floating stone fists. Give it a tuft of
+hair in its **cosmetic slot** and it becomes that type (its form changes, in and out of battle): a wool in the type's
+colour (Fire red, Water blue, Grass lime, Electric yellow, Ice light blue, Fighting orange, Poison purple, Ground brown,
+Psychic magenta, Bug green, Rock grey, Ghost white, Dragon cyan, Dark black, Steel light grey, Fairy pink) or a feather
+for Flying. Named **Tufts** (e.g. Fire Tuft) are crafted from that item plus something of the type (shapeless: red wool
++ blaze powder, blue wool + kelp, lime wool + wheat seeds, yellow wool + glowstone dust, light blue wool + snowball,
+orange wool + leather, purple wool + spider eye, brown wool + dirt, two feathers, magenta wool + amethyst shard, green
+wool + string, grey wool + flint, white wool + phantom membrane, cyan wool + chorus fruit, black wool + ink sac, light grey
+wool + iron ingot, pink wool + pink petals). Its pearls and eyes glow in the type's colour. Adaptability, hidden Levitate;
+Swift, Tri Attack, Calm Mind, Hyper Voice and Revelation Dance, which takes its type. Genderless; rare in hills,
+mountains and highlands. Shiny: a pale gold crest and bronze fists.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1399,6 +1412,7 @@ ears and a lilac tail.
 | 3050 | **Pterygant** | Bug / Water | Swift Swim / Battle Armor / Tough Claws (hidden) | 75 / 120 / 100 / 55 / 70 / 75 | 6'3" (1.9 m) / 145 kg | Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves. | The largest sea scorpion that ever lived. It swept its great paddles to chase down prey in the ancient seas, and nothing that swam could outlast it. |
 | 3051 | **Obubby** | Normal | Pickup / Cute Charm / Friend Guard (hidden) | 55 / 40 / 45 / 35 / 45 / 35 | 1'4" (0.4 m) / 3.2 kg | Wild: common in forests and plains at night. Evolves into Mumossum at level 30, and learns Joey Slingshot when it does. | It clings to its mother's back for weeks after it is born, hugging its own long tail when it gets scared. When something startles it, it flops over and plays dead, curl of hair and all. |
 | 3052 | **Mumossum** | Normal / Fairy | Cute Charm / Healer / Friend Guard (hidden) | 105 / 70 / 80 / 75 / 95 / 50 | 4'3" (1.3 m) / 41 kg | Evolve Obubby at level 30. It learns Joey Slingshot when it evolves. Wild: uncommon in forests and plains at night. | It carries a half dozen of its babies wherever it goes. When something threatens them it plucks the bravest ones off its back and slings them at the enemy with its tail; they come straight back to it, very pleased with themselves. |
+| 3053 | **Aetherim** | Normal | Adaptability / Levitate (hidden) | 70 / 80 / 80 / 80 / 80 / 80 | 1'8" (0.5 m) / 12 kg | Wild: rare in hills, mountains and highlands. Give it an elemental Tuft (or the matching wool, or a feather for Flying) in its cosmetic slot and it becomes that type. | A little golem of pure energy that shapes a body around a pearl. Give it a tuft of hair charged with a type's energy and it soaks it up, glowing that type's colour and becoming that type. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1436,6 +1450,8 @@ ears and a lilac tail.
 ![Scorpaddle and Pterygant, regular and shiny](docs/newmons_eurypterid.png)
 
 ![Obubby and Mumossum, regular and shiny](docs/newmons_possum.png)
+
+![Aetherim: normal, shiny and eight of its type forms](docs/newmons_aetherim.png)
 
 ## CobbleEffort regional forms
 

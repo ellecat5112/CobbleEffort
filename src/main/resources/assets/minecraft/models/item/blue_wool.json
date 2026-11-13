@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/blue_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794902
+   },
+   "model": "cobbleeffort:item/water_tuft"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/magenta_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794910
+   },
+   "model": "cobbleeffort:item/psychic_tuft"
+  }
+ ]
+}

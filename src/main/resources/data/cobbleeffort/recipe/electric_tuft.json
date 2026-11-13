@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "minecraft:yellow_wool"
+  },
+  {
+   "item": "minecraft:glowstone_dust"
+  }
+ ],
+ "result": {
+  "id": "minecraft:yellow_wool",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.electric_tuft\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.tuft.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794904,
+   "minecraft:max_stack_size": 16
+  }
+ }
+}

@@ -1118,5 +1118,33 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3052_mumossum/mumossum_shiny.png",
   "layers": []
+ },
+ {
+  "species": "aetherim",
+  "folder": "3053_aetherim",
+  "model": "cobbleeffort:aetherim.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aetherim_shiny",
+  "folder": "3053_aetherim",
+  "model": "cobbleeffort:aetherim.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny_glow_0.png"
+   }
+  ]
  }
 ]

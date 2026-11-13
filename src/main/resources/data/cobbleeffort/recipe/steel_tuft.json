@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "minecraft:light_gray_wool"
+  },
+  {
+   "item": "minecraft:iron_ingot"
+  }
+ ],
+ "result": {
+  "id": "minecraft:light_gray_wool",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.steel_tuft\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.tuft.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794916,
+   "minecraft:max_stack_size": 16
+  }
+ }
+}

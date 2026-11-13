@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/white_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794913
+   },
+   "model": "cobbleeffort:item/ghost_tuft"
+  }
+ ]
+}

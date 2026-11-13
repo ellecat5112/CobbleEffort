@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/lime_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794903
+   },
+   "model": "cobbleeffort:item/grass_tuft"
+  }
+ ]
+}

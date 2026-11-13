@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 55 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 56 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2193,6 +2193,17 @@ cobbleeffort:cavitot.
   straight back to it, very pleased with themselves."
   * Evolve Obubby at level 30. It learns Joey Slingshot when it evolves.
   * Wild: uncommon in forests and plains at night.
+
+#3053 AETHERIM  (Normal; Adaptability / Levitate (hidden))
+  a tiny energy golem with a crest of three curved cream plates, big blue eyes, a glowing pearl on
+  its forehead and two big floating stone fists
+  Stats: HP 70  Atk 80  Def 80  SpA 80  SpD 80  Spe 80  (total 470)
+  Pokedex: "A little golem of pure energy that shapes a body around a pearl. Give it a tuft of hair
+  charged with a type's energy and it soaks it up, glowing that type's colour and becoming that
+  type."
+  * Wild: rare in hills, mountains and highlands.
+  * Give it an elemental Tuft (or the matching wool, or a feather for Flying) in its cosmetic slot
+    and it becomes that type.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

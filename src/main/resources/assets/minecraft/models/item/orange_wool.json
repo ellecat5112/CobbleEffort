@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/orange_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794906
+   },
+   "model": "cobbleeffort:item/fighting_tuft"
+  }
+ ]
+}

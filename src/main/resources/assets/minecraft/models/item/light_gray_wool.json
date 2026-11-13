@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/light_gray_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794916
+   },
+   "model": "cobbleeffort:item/steel_tuft"
+  }
+ ]
+}

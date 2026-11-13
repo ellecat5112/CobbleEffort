@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/pink_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794917
+   },
+   "model": "cobbleeffort:item/fairy_tuft"
+  }
+ ]
+}

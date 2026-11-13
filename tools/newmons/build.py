@@ -1288,6 +1288,42 @@ SPECIES.update({
 })
 LINES["possum"] = ["obubby", "mumossum"]
 
+# --- the energy golem that takes the type of the tuft it holds -------------------------------------------------------------
+
+import tufts as _tufts                                          # noqa: E402
+
+AETHER_TM = BASIC_TM + ["swift", "hypervoice", "bodyslam", "takedown", "doubleedge", "headbutt", "zenheadbutt",
+                        "brickbreak", "icepunch", "firepunch", "thunderpunch", "drainpunch", "machpunch", "bulletpunch",
+                        "shadowpunch", "rockslide", "ironhead", "irondefense", "calmmind", "nastyplot", "bulkup",
+                        "flamethrower", "thunderbolt", "icebeam", "energyball", "psychic", "shadowball", "darkpulse",
+                        "dragonpulse", "flashcannon", "sludgebomb", "earthpower", "airslash", "bugbuzz", "dazzlinggleam",
+                        "powergem", "surf", "triattack", "helpinghand", "trailblaze", "reflect", "lightscreen"]
+
+SPECIES.update({
+    "aetherim": {
+        "dex": 3053, "name": "Aetherim", "line": "aetherim", "types": ["normal"], "male": -1,
+        "egg_groups": ["mineral"], "friendship": 70, "catch": 120,
+        "abilities": ["adaptability", "h:levitate"], "ability_names": "Adaptability / Levitate (hidden)",
+        "stats": stats(70, 80, 80, 80, 80, 80), "ev": evs(hp=1, defence=1, special_defence=1), "exp": 160,
+        "height": 5, "weight": 120, "shoulder": True, "walk": 0.28, "fly": True,
+        "forms": _tufts.forms(),
+        "moves": [(1, "tackle"), (1, "growl"), (5, "swift"), (9, "headbutt"), (13, "cometpunch"), (17, "helpinghand"),
+                  (21, "triattack"), (25, "bulletpunch"), (29, "calmmind"), (33, "hypervoice"), (38, "revelationdance"),
+                  (44, "bodyslam"), (50, "hyperbeam")],
+        "tm": AETHER_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:white_wool", "0-1", None), ("minecraft:amethyst_shard", "0-1", None),
+                  ("cobblemon:silk_scarf", None, 3.0)],
+        "entry": ("A little golem of pure energy that shapes a body around a pearl. Give it a tuft of hair charged "
+                  "with a type's energy and it soaks it up, glowing that type's colour and becoming that type."),
+        "spawns": [route_spawn("aetherim-hills", "rare", "20-40", 1.0, ["#cobblemon:is_hills", "#cobblemon:is_mountain",
+                                                                         "#cobblemon:is_highlands"])],
+        "how": ["Wild: rare in hills, mountains and highlands.",
+                "Give it an elemental Tuft (or the matching wool, or a feather for Flying) in its cosmetic slot and it "
+                "becomes that type."],
+    },
+})
+LINES["aetherim"] = ["aetherim"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1574,6 +1610,20 @@ def build_model(sp):
             layers[sfx].append({"name": "cobbleeffort_shell", "translucent": True, "texture": tex(f"{sp}{sfx}_shell")})
         Image.fromarray(a, "RGBA").save(tex_dir / f"{sp}{sfx}.png", optimize=True)
     cfg["layers"] = layers
+    # forms that only change the texture (e.g. a type form): FORM_VARIANTS = [(aspect, variant key), ...]; each is
+    # painted with variant=<key> and <key>_shiny, with its own glow layer when it glows
+    form_vars = []
+    for aspect, key in getattr(hand, "FORM_VARIANTS", []):
+        for vkey, shiny in ((key, False), (f"{key}_shiny", True)):
+            img, glow = m.paint(tw, th, vkey, k=k)
+            Image.fromarray(np.array(img), "RGBA").save(tex_dir / f"{sp}_{vkey}.png", optimize=True)
+            lay = []
+            g = np.array(glow)
+            if g[..., 3].any():
+                Image.fromarray(g, "RGBA").save(tex_dir / f"{sp}_{vkey}_glow.png", optimize=True)
+                lay.append({"name": "cobbleeffort_glow", "emissive": True, "translucent": True, "texture": tex(f"{sp}_{vkey}_glow")})
+            form_vars.append({"aspects": [aspect] + (["shiny"] if shiny else []), "texture": tex(f"{sp}_{vkey}"),
+                              "layers": lay})
     names = [b["name"] for b in m.bones if b["parent"] is not None]
     piv = {b["name"]: b["pivot"] for b in m.bones}
     legs = [n for n in names if n.startswith("leg")]
@@ -1591,7 +1641,7 @@ def build_model(sp):
         "variations": [
             {"aspects": [], "poser": f"{MOD}:{sp}", "model": f"{MOD}:{sp}.geo", "texture": tex(sp), "layers": layers[""]},
             {"aspects": ["shiny"], "texture": tex(f"{sp}_shiny"), **({"layers": layers["_shiny"]} if layers["_shiny"] else {})},
-        ]})
+        ] + form_vars})
     print(f"{sp}: {len(m.boxes)} cubes, texture {tw}x{th} (x{k}), {top} units tall, bones {names}")
 
 
@@ -1626,6 +1676,8 @@ def species_json(sp):
             for item, q, p in c["drops"]]},
         "moves": [f"{lv}:{mv}" for lv, mv in c["moves"]] + [f"egg:{m}" for m in c["egg"]] + [f"tm:{m}" for m in c["tm"]],
     })
+    if c.get("forms"):                                      # forms picked by aspects (e.g. a type form from a cosmetic)
+        d["forms"] = c["forms"]
     if c.get("evolve_stone"):                               # evolves when an item is used on it (e.g. a Thunder Stone)
         to, item, learn, *more = c["evolve_stone"]
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "item_interact", "result": f"{MOD}:{to}",
@@ -1736,6 +1788,7 @@ def main():
         "pokemon": [f"{m} level=10" for m in mons]})
     import fossils                                           # fossil items, structures and Cobblemon fossil entries
     fossils.build(lang)
+    _tufts.build(lang)                                       # Aetherim's elemental tufts (cosmetic items + named tufts)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))

@@ -1,0 +1,11 @@
+{
+ "parent": "minecraft:block/green_wool",
+ "overrides": [
+  {
+   "predicate": {
+    "custom_model_data": 794911
+   },
+   "model": "cobbleeffort:item/bug_tuft"
+  }
+ ]
+}

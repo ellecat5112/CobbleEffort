@@ -202,6 +202,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   any scale; art by @Fakemanss, names kept): Normal -> Normal/Fairy at 30, female-only (male 0.0); Mumossum carries six
   mini Obubbies as `joey_1..6` bones (they sway); custom move Joey Slingshot (populationbomb base, 15 power,
   `multihit` 6, `multiaccuracy` false; tested: 6 hits, Ghost immune). Ear planes tilt OUTWARD with rotation z = +sx*deg.
+  Aetherim (#3053, `models/aetherim.py`; art by @LMRTRAINER, name kept): Normal; its type follows the tuft in its
+  cosmetic slot (`tools/newmons/tufts.py`, run by build.py): Cobblemon cosmetic items match the ITEM only (no
+  components), so each type uses its own vanilla item (16 wool colours + feather for Flying); named Tufts = that item
+  with name/lore/custom_model_data (overrides on the vanilla item models), shapeless recipes; cosmetic_items/aetherim.json
+  sets aspect `<type>-tuft` -> species form "<Type>" (SPECIES "forms"). Models may declare `FORM_VARIANTS` [(aspect,
+  key)]: build.py paints each as variant key and key_shiny (+ glow layer) and adds resolver variations. Revelation
+  Dance = its type-following attack (Judgment would stay Normal without a plate).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

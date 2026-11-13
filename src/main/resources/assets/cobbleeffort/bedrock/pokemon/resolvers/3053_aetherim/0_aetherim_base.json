@@ -1,0 +1,543 @@
+{
+ "species": "cobbleeffort:aetherim",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:aetherim",
+   "model": "cobbleeffort:aetherim.geo",
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_glow_0.png",
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_glow_1.png",
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fire-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fire.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fire_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fire-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fire_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fire_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "water-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_water.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_water_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "water-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_water_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_water_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "grass-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_grass.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_grass_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "grass-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_grass_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_grass_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "electric-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_electric.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_electric_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "electric-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_electric_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_electric_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ice-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ice.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ice_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ice-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ice_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ice_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fighting-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fighting.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fighting_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fighting-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fighting_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fighting_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "poison-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_poison.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_poison_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "poison-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_poison_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_poison_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ground-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ground.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ground_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ground-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ground_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ground_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "flying-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_flying.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_flying_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "flying-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_flying_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_flying_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "psychic-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_psychic.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_psychic_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "psychic-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_psychic_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_psychic_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "bug-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_bug.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_bug_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "bug-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_bug_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_bug_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "rock-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_rock.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_rock_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "rock-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_rock_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_rock_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ghost-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ghost.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ghost_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "ghost-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ghost_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_ghost_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "dragon-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dragon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dragon_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "dragon-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dragon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dragon_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "dark-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dark.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dark_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "dark-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dark_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_dark_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "steel-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_steel.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_steel_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "steel-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_steel_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_steel_shiny_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fairy-tuft"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fairy.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fairy_glow.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "fairy-tuft",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fairy_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_fairy_shiny_glow.png"
+    }
+   ]
+  }
+ ]
+}
