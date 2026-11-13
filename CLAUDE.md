@@ -190,6 +190,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   of its own (Sirfetch'd style): Mudbray -> `cobbleeffort:ignitemare` (#3057, Dark/Fire, `models/ignitemare.py`, a
   gaunt wendigo-like skeletal fire horse), whose SPECIES `pre` = "mudbray cobbleeffortian" sets its preEvolution.
   Spawns for all regional forms go in `spawn_pool_world/regional.json`.
+  A LINE entry with `box` = a box-model module (`tools/newmons/models/<name>.py`) gets a model of its own:
+  `build.write_model_assets(name, hand, folder)` writes geo/poser/animations/textures (`<sp>_cobbleeffortian`), the
+  form gets the module's baseScale + hitbox, and the resolver pins model + poser and switches off every layer Cobblemon
+  gives the species (`base_layer_names`). Also `moves_drop`, and `spawns` = full rules (position, condition, bucket,
+  level, weight; submerged ones get the "water" preset). Tentacool/Tentacruel (Water/Dark deep-sea squids, `_squid.py`,
+  `tentacool_cobbleeffortian.py`, `tentacruel_cobbleeffortian.py`; the user's art, artist not named): submerged spawns
+  in `#cobblemon:is_deep_ocean` at maxSkyLight 7.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

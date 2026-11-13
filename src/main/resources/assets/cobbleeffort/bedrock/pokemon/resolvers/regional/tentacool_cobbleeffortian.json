@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:tentacool",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "poser": "cobbleeffort:tentacool_cobbleeffortian",
+      "model": "cobbleeffort:tentacool_cobbleeffortian.geo",
+      "texture": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_glow_0.png",
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_glow_1.png",
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cobbleeffortian",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "glow",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

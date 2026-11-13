@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 65 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 67 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1689,6 +1689,26 @@ cobbleeffort:cavitot.
   leaves a bird Pokémon numb for days. Flocks of them drift over jungle canopies, and the trees they
   rest in turn faintly purple."
   * Wild: rare in jungles and flower forests.
+
+#0072 TENTACOOL (COBBLEEFFORT FORM)  (Water / Dark; Illuminate / Suction Cups / Sniper (hidden))
+  a little deep-sea squid: a purple mantle with glowing blue ring photophores and a spiky tip, a
+  yellow head with big slit-pupilled yellow eyes, short arms and two long tentacles with hooked ring
+  clubs
+  Stats: HP 40  Atk 40  Def 35  SpA 50  SpD 100  Spe 70  (total 335)
+  Pokedex: "It lives in the dark of the deep sea, where it lures prey with the blue rings glowing on
+  its mantle. The hooked rings on its two long tentacles never let go of what they catch."
+  * Wild: uncommon in the depths of deep oceans (mostly in the dark, far below the surface).
+  * Evolves into the CobbleEffort Tentacruel at level 30.
+
+#0073 TENTACRUEL (COBBLEEFFORT FORM)  (Water / Dark; Illuminate / Suction Cups / Sniper (hidden))
+  a big deep-sea squid: a long purple mantle with two fins and glowing blue ring photophores, great
+  slit-pupilled yellow eyes, eight arms with glowing blue tips and two long tentacles with hooked
+  clubs
+  Stats: HP 80  Atk 70  Def 65  SpA 80  SpD 120  Spe 100  (total 515)
+  Pokedex: "A giant of the abyss. The tips of its eight arms glow like a swarm of fireflies to
+  dazzle its prey, and it seizes it with the dark hooks on its tentacle clubs. Its eyes are the
+  largest of any Pokémon that lives in the sea."
+  * Wild: rare in the depths of deep oceans (in the dark, far below the surface).
 
 #0749 MUDBRAY (COBBLEEFFORT FORM)  (Dark; Moody / Stamina / Inner Focus (hidden))
   near-black with white skeleton markings, a white skull face, a black side-swept fringe with a

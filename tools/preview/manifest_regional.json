@@ -62,5 +62,61 @@
     "original": "cobblemon:textures/pokemon/0749_mudbray/mudbray_shiny.png",
     "retextured": "cobbleeffort:textures/pokemon/regional/0749_mudbray/mudbray_cobbleeffortian_shiny.png",
     "layers": []
+  },
+  {
+    "species": "tentacool_cobbleeffortian",
+    "folder": "0072_tentacool",
+    "model": "cobbleeffort:tentacool_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0072_tentacool/tentacool.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "tentacool_cobbleeffortian_shiny",
+    "folder": "0072_tentacool",
+    "model": "cobbleeffort:tentacool_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0072_tentacool/tentacool_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0072_tentacool/tentacool_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "tentacruel_cobbleeffortian",
+    "folder": "0073_tentacruel",
+    "model": "cobbleeffort:tentacruel_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0073_tentacruel/tentacruel.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0073_tentacruel/tentacruel_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0073_tentacruel/tentacruel_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "tentacruel_cobbleeffortian_shiny",
+    "folder": "0073_tentacruel",
+    "model": "cobbleeffort:tentacruel_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0073_tentacruel/tentacruel_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0073_tentacruel/tentacruel_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0073_tentacruel/tentacruel_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
   }
 ]

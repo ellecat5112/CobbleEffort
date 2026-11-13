@@ -1779,16 +1779,16 @@ def model_module(sp):
     return mod
 
 
-def build_model(sp):
-    cfg = SPECIES[sp]
-    hand = model_module(sp)
-    cfg.update(scale=hand.SCALE, hitbox=hand.HITBOX, look=hand.LOOK)
+def write_model_assets(sp, hand, fold):
+    """Build a box-model module: its textures (+ glow/shell layers, FORM_VARIANTS), geo, animations and poser, all
+    named `sp` under folder `fold`. Returns what a resolver needs. Also used by regional.py for forms with a model of
+    their own."""
     m = hand.build()
     tw, th = m.layout()
     k = getattr(hand, "K", 1)
-    tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / folder(sp)
+    tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / fold
     tex_dir.mkdir(parents=True, exist_ok=True)
-    tex = lambda n: f"{MOD}:textures/pokemon/{folder(sp)}/{n}.png"
+    tex = lambda n: f"{MOD}:textures/pokemon/{fold}/{n}.png"
     layers = {"": [], "_shiny": []}                         # resolver layers per variant (glow, translucent shell)
     for variant, sfx in ((None, ""), ("shiny", "_shiny")):
         img, glow = m.paint(tw, th, variant, k=k)
@@ -1809,7 +1809,6 @@ def build_model(sp):
             Image.fromarray(s, "RGBA").save(tex_dir / f"{sp}{sfx}_shell.png", optimize=True)
             layers[sfx].append({"name": "cobbleeffort_shell", "translucent": True, "texture": tex(f"{sp}{sfx}_shell")})
         Image.fromarray(a, "RGBA").save(tex_dir / f"{sp}{sfx}.png", optimize=True)
-    cfg["layers"] = layers
     # forms that only change the texture (e.g. a type form): FORM_VARIANTS = [(aspect, variant key), ...]; each is
     # painted with variant=<key> and <key>_shiny, with its own glow layer when it glows
     form_vars = []
@@ -1828,26 +1827,37 @@ def build_model(sp):
     piv = {b["name"]: b["pivot"] for b in m.bones}
     legs = [n for n in names if n.startswith("leg")]
     top = getattr(hand, "HEIGHT", None) or max(b.lo[1] + b.size[1] for b in m.boxes)
-    cfg["model_height"] = top
     # Cobblemon multiplies the hitbox by baseScale: HITBOX is in model units, like the model itself
     model_h, box_h = top * hand.SCALE / 16, hand.HITBOX[1] * hand.SCALE
     if not 0.5 * model_h <= box_h <= max(1.5 * model_h, 0.3):             # (tiny ones may be a bit bigger)
         raise SystemExit(f"{sp}: hitbox {box_h:.2f} blocks tall in game but the model is {model_h:.2f} "
                          f"(HITBOX is scaled by SCALE)")
-    extra = [{"name": "locator_root", "parent": sp, "pivot": [0, 0, 0]},
-             {"name": "locator_top", "parent": sp, "pivot": [0, float(top), 0]}]
+    root = m.bones[0]["name"]
+    extra = [{"name": "locator_root", "parent": root, "pivot": [0, 0, 0]},
+             {"name": "locator_top", "parent": root, "pivot": [0, float(top), 0]}]
     bedrock = RES / "assets" / MOD / "bedrock" / "pokemon"
-    write_json(bedrock / "models" / folder(sp) / f"{sp}.geo.json", m.geo(tw, th, f"geometry.{sp}", extra))
-    write_json(bedrock / "animations" / folder(sp) / f"{group_of(sp)}.animation.json",
+    write_json(bedrock / "models" / fold / f"{sp}.geo.json", m.geo(tw, th, f"geometry.{sp}", extra))
+    write_json(bedrock / "animations" / fold / f"{group_of(sp)}.animation.json",
                animations(group_of(sp), getattr(hand, "KIND", "quadruped"), getattr(hand, "ANIM", {}), names, legs, piv))
-    write_json(bedrock / "posers" / folder(sp) / f"{sp}.json", poser(group_of(sp), sp, top, hand.SCALE, names))
-    write_json(bedrock / "resolvers" / folder(sp) / f"0_{sp}_base.json", {
+    write_json(bedrock / "posers" / fold / f"{sp}.json", poser(group_of(sp), sp, top, hand.SCALE, names))
+    print(f"{sp}: {len(m.boxes)} cubes, texture {tw}x{th} (x{k}), {top} units tall, bones {names}")
+    return {"tex": tex, "layers": layers, "form_vars": form_vars, "top": top, "names": names}
+
+
+def build_model(sp):
+    cfg = SPECIES[sp]
+    hand = model_module(sp)
+    cfg.update(scale=hand.SCALE, hitbox=hand.HITBOX, look=hand.LOOK)
+    r = write_model_assets(sp, hand, folder(sp))
+    tex, layers = r["tex"], r["layers"]
+    cfg["layers"] = layers
+    cfg["model_height"] = r["top"]
+    write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder(sp) / f"0_{sp}_base.json", {
         "species": f"{MOD}:{sp}", "order": 0,
         "variations": [
             {"aspects": [], "poser": f"{MOD}:{sp}", "model": f"{MOD}:{sp}.geo", "texture": tex(sp), "layers": layers[""]},
             {"aspects": ["shiny"], "texture": tex(f"{sp}_shiny"), **({"layers": layers["_shiny"]} if layers["_shiny"] else {})},
-        ] + form_vars})
-    print(f"{sp}: {len(m.boxes)} cubes, texture {tw}x{th} (x{k}), {top} units tall, bones {names}")
+        ] + r["form_vars"]})
 
 
 def species_json(sp):

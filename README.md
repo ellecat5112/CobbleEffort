@@ -1534,6 +1534,18 @@ marks.
 
 ![The CobbleEffort Mudbray: Cobblemon's original, the CobbleEffort form (front and side) and its shiny](docs/regional_mudbray.png)
 
+**The Tentacool line** (Water/Dark), deep-sea squids after the art the user shared, on squid models of their own (the
+first CobbleEffort forms that replace Cobblemon's model). Tentacool is a little squid with a purple mantle dotted with
+glowing blue ring photophores and a spiky tip, a yellow head speckled blue with big slit-pupilled eyes, short arms and two
+long tentacles ending in hooked ring clubs; Tentacruel is a big squid with a long finned mantle, great eyes under heavy
+brows, eight arms whose blue tips glow like a firefly squid's and two long tentacles with hook-lined clubs. Illuminate or
+Suction Cups, hidden Sniper; their poison moves become Bite, Snarl, Sucker Punch, Night Slash, Dark Pulse, Confuse Ray and
+Octazooka (plus Crunch, Foul Play, Taunt and Nasty Plot by TM). They live in the dark depths of deep oceans (underwater,
+mostly where little light reaches): Tentacool uncommon, Tentacruel rare. Tentacool evolves at level 30. Shiny: a crimson
+mantle with a pale peach head and arms.
+
+![The CobbleEffort Tentacool line: Cobblemon's Tentacool, the squid forms (front and back) and their shinies](docs/regional_tentacool.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

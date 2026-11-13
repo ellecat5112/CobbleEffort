@@ -226,6 +226,14 @@ def paint_mudbray(a, shiny, geo):
 
 # ---- forms ------------------------------------------------------------------------------------------------------------
 
+# the deep-sea squid Tentacool line: its poison moves become dark ones, ink and hooks
+SQUID_REPLACE = {"poisonsting": "bite", "acid": "snarl", "acidarmor": "suckerpunch", "poisonjab": "nightslash",
+                 "sludgewave": "darkpulse", "supersonic": "confuseray"}
+SQUID_DROP = ["acidspray", "crosspoison", "gunkshot", "sludgebomb", "toxic", "toxicspikes", "venoshock",
+              "corrosivegas", "venomdrench"]
+SQUID_ADD = ["tm:darkpulse", "tm:nightslash", "tm:crunch", "tm:suckerpunch", "tm:snarl", "tm:foulplay", "tm:taunt",
+             "tm:nastyplot", "28:octazooka"]
+
 LINE = {
     "caterpie": {
         "folder": "0010_caterpie", "paint": paint_caterpie, "types": ("bug", "poison"),
@@ -283,16 +291,66 @@ LINE = {
         "how_where": "dark forests, badlands and spooky biomes",
         "shiny_note": "Shiny: crimson-black with blue marks.",
     },
+    "tentacool": {
+        "folder": "0072_tentacool", "box": "tentacool_cobbleeffortian",
+        "types": ("water", "dark"), "abilities": ["illuminate", "suctioncups", "h:sniper"],
+        "moves_replace": SQUID_REPLACE, "moves_drop": SQUID_DROP, "moves_add": SQUID_ADD,
+        "evolve": ("tentacruel", 30, ["nightslash"]),
+        "entry": ("It lives in the dark of the deep sea, where it lures prey with the blue rings glowing on its "
+                  "mantle. The hooked rings on its two long tentacles never let go of what they catch."),
+        "look": ("a little deep-sea squid: a purple mantle with glowing blue ring photophores and a spiky tip, a yellow "
+                 "head with big slit-pupilled yellow eyes, short arms and two long tentacles with hooked ring clubs"),
+        "spawns": [("submerged", {"biomes": ["#cobblemon:is_deep_ocean"], "maxSkyLight": 7}, "uncommon", "15-34", 6.0),
+                   ("submerged", {"biomes": ["#cobblemon:is_deep_ocean"]}, "rare", "15-34", 1.0)],
+        "how_where": "the depths of deep oceans (mostly in the dark, far below the surface)",
+        "shiny_note": "Shiny: a crimson mantle with a pale peach head and arms.",
+    },
+    "tentacruel": {
+        "folder": "0073_tentacruel", "box": "tentacruel_cobbleeffortian",
+        "types": ("water", "dark"), "abilities": ["illuminate", "suctioncups", "h:sniper"],
+        "moves_replace": SQUID_REPLACE, "moves_drop": SQUID_DROP, "moves_add": SQUID_ADD + ["tm:liquidation"],
+        "evolve": None,
+        "entry": ("A giant of the abyss. The tips of its eight arms glow like a swarm of fireflies to dazzle its prey, "
+                  "and it seizes it with the dark hooks on its tentacle clubs. Its eyes are the largest of any "
+                  "Pokémon that lives in the sea."),
+        "look": ("a big deep-sea squid: a long purple mantle with two fins and glowing blue ring photophores, great "
+                 "slit-pupilled yellow eyes, eight arms with glowing blue tips and two long tentacles with hooked clubs"),
+        "spawns": [("submerged", {"biomes": ["#cobblemon:is_deep_ocean"], "maxSkyLight": 7}, "rare", "30-50", 1.5)],
+        "how_where": "the depths of deep oceans (in the dark, far below the surface)",
+        "shiny_note": "Shiny: a crimson mantle with a pale peach head and arms.",
+    },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
-ABILITY_NAMES = {"poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
+ABILITY_NAMES = {"suctioncups": "Suction Cups", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
                  "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus"}
+
+
+def box_module(name):
+    """One of our box models (tools/newmons/models/<name>.py), for a form with a model of its own."""
+    import importlib.util
+    import build  # noqa: F401  (puts the box-model toolkit on sys.path)
+    spec = importlib.util.spec_from_file_location(f"regional_{name}", HERE / "models" / f"{name}.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def base_layer_names(cob, sp, folder):
+    """Every layer name Cobblemon's resolvers give the species (switched off on a form with its own model, since
+    Cobblemon merges layers by name)."""
+    names = set()
+    for f in (cob / "assets" / "cobblemon" / "bedrock" / "pokemon" / "resolvers" / folder).glob("*.json"):
+        for v in json.loads(f.read_text()).get("variations", []):
+            names |= {l["name"] for l in v.get("layers", [])}
+    return sorted(names)
 
 
 def form_json(sp, species, c):
     moves = list(species["moves"])
     rep = c.get("moves_replace", {})
     moves = [m.split(":")[0] + ":" + rep.get(m.split(":", 1)[1], m.split(":", 1)[1]) for m in moves]
+    drop = set(c.get("moves_drop", []))
+    moves = [m for m in moves if m.split(":", 1)[1] not in drop]
     for m in c.get("moves_add", []):
         if m not in moves:
             moves.append(m)
@@ -306,6 +364,10 @@ def form_json(sp, species, c):
          "pokedex": [f"{MOD}.species.{sp}-{ASPECT}.desc"], "battleOnly": False}
     if len(c["types"]) > 1:
         f["secondaryType"] = c["types"][1]
+    if c.get("box"):                                       # a model of its own: its size and hitbox too
+        hand = box_module(c["box"])
+        f["baseScale"] = hand.SCALE
+        f["hitbox"] = {"width": hand.HITBOX[0], "height": hand.HITBOX[1], "fixed": False}
     if c["evolve"]:
         res, lvl, learn = c["evolve"]
         # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd
@@ -338,22 +400,42 @@ def main():
         write_json(data / "species_additions" / f"{sp}_{ASPECT}.json",
                    {"target": f"cobblemon:{sp}", "forms": [form_json(sp, species, c)]})
         lang[f"{MOD}.species.{sp}-{ASPECT}.desc"] = c["entry"]
-        tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / "regional" / c["folder"]
-        tex_dir.mkdir(parents=True, exist_ok=True)
-        src = cob / "assets" / "cobblemon" / "textures" / "pokemon" / c["folder"]
-        for shiny, sfx in ((False, ""), (True, "_shiny")):
-            img = np.array(Image.open(src / f"{sp}.png").convert("RGBA"))
-            out = c["paint"](img, shiny, geo) if geo else c["paint"](img, shiny)
-            Image.fromarray(out, "RGBA").save(tex_dir / f"{sp}_{ASPECT}{sfx}.png", optimize=True)
         tex = lambda sfx: f"{MOD}:textures/pokemon/regional/{c['folder']}/{sp}_{ASPECT}{sfx}.png"
+        man_layers = {"": [], "_shiny": []}
+        if c.get("box"):                                   # a model of its own (one of our box models)
+            import build as nb
+            name = f"{sp}_{ASPECT}"
+            r = nb.write_model_assets(name, box_module(c["box"]), f"regional/{c['folder']}")
+            off = [{"name": n, "enabled": False} for n in base_layer_names(cob, sp, c["folder"])]
+            variations = [{"aspects": [ASPECT], "poser": f"{MOD}:{name}", "model": f"{MOD}:{name}.geo",
+                           "texture": tex(""), "layers": off + r["layers"][""]},
+                          {"aspects": [ASPECT, "shiny"], "texture": tex("_shiny"), "layers": off + r["layers"]["_shiny"]}]
+            for sfx in man_layers:
+                if r["layers"][sfx]:
+                    man_layers[sfx] = [{"original": None, "emissive": True, "retextured": tex(f"{sfx}_glow_0")}]
+        else:
+            tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / "regional" / c["folder"]
+            tex_dir.mkdir(parents=True, exist_ok=True)
+            src = cob / "assets" / "cobblemon" / "textures" / "pokemon" / c["folder"]
+            for shiny, sfx in ((False, ""), (True, "_shiny")):
+                img = np.array(Image.open(src / f"{sp}.png").convert("RGBA"))
+                out = c["paint"](img, shiny, geo) if geo else c["paint"](img, shiny)
+                Image.fromarray(out, "RGBA").save(tex_dir / f"{sp}_{ASPECT}{sfx}.png", optimize=True)
+            variations = [{"aspects": [ASPECT], "texture": tex("")}, {"aspects": [ASPECT, "shiny"], "texture": tex("_shiny")}]
         write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / "regional" / f"{sp}_{ASPECT}.json", {
-            "species": f"cobblemon:{sp}", "order": 5,
-            "variations": [{"aspects": [ASPECT], "texture": tex("")},
-                           {"aspects": [ASPECT, "shiny"], "texture": tex("_shiny")}]})
-        bucket, level, weight, biomes = c["spawn"]
-        spawns.append({"id": f"{sp}-{ASPECT}", "pokemon": f"{sp} {ASPECT}", "presets": ["natural"], "type": "pokemon",
-                       "spawnablePositionType": "grounded", "bucket": bucket, "level": level, "weight": weight,
-                       "condition": {"canSeeSky": True, "biomes": biomes}})
+            "species": f"cobblemon:{sp}", "order": 5, "variations": variations})
+        if c.get("spawns"):                                # full rules: (position, condition, bucket, level, weight)
+            for i, (pos, cond, bucket, level, weight) in enumerate(c["spawns"]):
+                spawns.append({"id": f"{sp}-{ASPECT}-{i + 1}", "pokemon": f"{sp} {ASPECT}",
+                               "presets": ["water"] if pos == "submerged" else ["natural"], "type": "pokemon",
+                               "spawnablePositionType": pos, "bucket": bucket, "level": level, "weight": weight,
+                               "condition": cond})
+            bucket = c["spawns"][0][2]
+        else:
+            bucket, level, weight, biomes = c["spawn"]
+            spawns.append({"id": f"{sp}-{ASPECT}", "pokemon": f"{sp} {ASPECT}", "presets": ["natural"], "type": "pokemon",
+                           "spawnablePositionType": "grounded", "bucket": bucket, "level": level, "weight": weight,
+                           "condition": {"canSeeSky": True, "biomes": biomes}})
         dex = species["nationalPokedexNumber"]
         s = species["baseStats"]
         write_json(TOOLS / "readme" / f"_new_{sp}_{ASPECT}.json", {
@@ -366,12 +448,13 @@ def main():
                       else f"Evolves into the CobbleEffort {c['evolve'][0].title()} at level {c['evolve'][1]}.")]
                     if c["evolve"] else []),
             "stats": [s["hp"], s["attack"], s["defence"], s["special_attack"], s["special_defence"], s["speed"]]})
-        model = c.get("model", f"cobblemon:{sp}.geo")
+        model = f"{MOD}:{sp}_{ASPECT}.geo" if c.get("box") else c.get("model", f"cobblemon:{sp}.geo")
         manifest.append({"species": f"{sp}_{ASPECT}", "folder": c["folder"], "model": model,
-                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}.png", "retextured": tex(""), "layers": []})
+                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}.png", "retextured": tex(""),
+                         "layers": man_layers[""]})
         manifest.append({"species": f"{sp}_{ASPECT}_shiny", "folder": c["folder"], "model": model,
                          "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}_shiny.png", "retextured": tex("_shiny"),
-                         "layers": []})
+                         "layers": man_layers["_shiny"]})
     old = data / "spawn_pool_world" / "regional_caterpie.json"
     if old.exists():
         old.unlink()
