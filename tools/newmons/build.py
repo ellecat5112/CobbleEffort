@@ -1097,6 +1097,54 @@ SPECIES.update({
 })
 LINES["writhingrot"] = ["writhingrot"]
 
+# --- the pigs in a blanket ----------------------------------------------------------------------------------------------
+
+BLANKET = dict(male=0.5, egg_groups=["field"], friendship=70, abilities=["thickfat", "gluttony", "h:cheekpouch"],
+               ability_names="Thick Fat / Gluttony / Cheek Pouch (hidden)")
+BLANKET_TM = BASIC_TM + ["bodyslam", "takedown", "doubleedge", "headbutt", "zenheadbutt", "mudslap", "mudshot",
+                         "bulldoze", "dig", "yawn", "amnesia", "stockpile", "swallow", "spitup", "rollout",
+                         "defensecurl", "playrough", "charm", "bite", "crunch", "heatwave", "sunnyday", "endeavor",
+                         "hypervoice", "slackoff", "workup"]
+BLANKET_TM_FLY = ["aerialace", "airslash", "acrobatics", "fly", "tailwind", "uturn", "roost", "bravebird",
+                  "hurricane", "dualwingbeat", "gigaimpact", "hyperbeam", "defog"]
+BLANKET_EARLY = [(1, "tackle"), (1, "tailwhip"), (4, "defensecurl"), (7, "mudslap"), (10, "rollout"), (13, "bite"),
+                 (16, "headbutt"), (19, "stockpile"), (19, "swallow"), (22, "yawn")]
+
+SPECIES.update({
+    "wrapiglet": {
+        "dex": 3045, "name": "Wrapiglet", "line": "blanket", "types": ["normal"], **BLANKET,
+        "stats": stats(60, 55, 65, 35, 45, 40), "ev": evs(defence=1), "catch": 190, "exp": 64,
+        "height": 6, "weight": 105, "shoulder": False, "walk": 0.2,
+        "moves": BLANKET_EARLY + [(25, "bodyslam"), (29, "amnesia"), (33, "rest"), (37, "doubleedge")],
+        "tm": BLANKET_TM, "egg": ["bellydrum", "curse", "slackoff", "wish", "counter"],
+        "evolve": ("croissoar", 26, ["gust"]),
+        "drops": [("minecraft:bread", "1-2", None), ("minecraft:porkchop", "0-1", None), ("minecraft:wheat", "0-2", None)],
+        "entry": ("It wraps itself in a soft blanket of dough as soon as it hatches and naps in it the whole day long. "
+                  "The dough bakes golden in the sun, and it smells so good that Pokémon follow it around."),
+        "spawns": [route_spawn("wrapiglet-plains", "common", "4-24", 5.0, ["#cobblemon:is_plains", "#cobblemon:is_grassland"]),
+                   spawn("wrapiglet-village", "uncommon", "4-24", 3.0,
+                         {"canSeeSky": True, "biomes": ["#cobblemon:is_overworld"], "structures": ["#minecraft:village"]})],
+        "how": ["Wild: common in plains and grasslands, uncommon in villages.", "Evolves into Croissoar at level 26."],
+    },
+    "croissoar": {
+        "dex": 3046, "name": "Croissoar", "line": "blanket", "types": ["normal", "flying"], **BLANKET,
+        "stats": stats(90, 90, 80, 60, 70, 95), "ev": evs(speed=2), "catch": 75, "exp": 172,
+        "height": 13, "weight": 380, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "gust")] + BLANKET_EARLY + [(26, "gust"), (30, "wingattack"), (34, "bodyslam"),
+                                                  (38, "airslash"), (42, "tailwind"), (47, "doubleedge"),
+                                                  (52, "bravebird"), (58, "hurricane")],
+        "tm": BLANKET_TM + BLANKET_TM_FLY, "egg": ["bellydrum", "curse", "slackoff", "wish", "counter"], "evolve": None,
+        "drops": [("minecraft:bread", "1-3", None), ("minecraft:porkchop", "1-2", None), ("minecraft:feather", "0-1", None)],
+        "entry": ("Its blanket of dough rises and bakes into a great flaky paraglider. It leaps off hilltops and rides "
+                  "the warm air for miles, steering with its ears, and leaves a trail of buttery crumbs behind it."),
+        "spawns": [route_spawn("croissoar-hills", "uncommon", "26-45", 2.0, ["#cobblemon:is_hills", "#cobblemon:is_plains",
+                                                                              "#cobblemon:is_highlands"])],
+        "how": ["Evolve Wrapiglet at level 26. It learns Gust when it evolves.",
+                "Wild: uncommon in hills, plains and highlands."],
+    },
+})
+LINES["blanket"] = ["wrapiglet", "croissoar"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

@@ -1,0 +1,47 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "wrapiglet-plains",
+   "pokemon": "cobbleeffort:wrapiglet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "4-24",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_grassland"
+    ]
+   }
+  },
+  {
+   "id": "wrapiglet-village",
+   "pokemon": "cobbleeffort:wrapiglet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "4-24",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "structures": [
+     "#minecraft:village"
+    ]
+   }
+  }
+ ]
+}

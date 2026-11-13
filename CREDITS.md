@@ -233,7 +233,8 @@ are our own. The CobbleEffort regional Caterpie line follows the regional Caterp
 user shared (purple, with a pink feeler and a yellow tail curl); its textures are recoloured from Cobblemon's own, and
 the Metapod and Butterfree forms and all Pokédex entries are our own. Writhing Rot (its name, types and design; the art also
 calls it "Infestower") is after the paradox Sudowoodo concept art the user shared (artist not named); its model and
-Pokédex entry are our own.
+Pokédex entry are our own. Wrapiglet and Croissoar follow the pigs-in-a-blanket fakemon art from the r/fakemon
+community that the user shared (artist not named); their names, models and Pokédex entries are our own.
 
 ## Code and data
 

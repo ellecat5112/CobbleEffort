@@ -1312,6 +1312,13 @@ back from the log and a segmented tail trails behind. Protosynthesis; genderless
 Lunge, Dragon Claw, Sucker Punch, Wood Hammer, First Impression, Outrage and Head Smash. Very rare in old-growth
 forests and taigas, dark forests and jungles. Shiny: a pale birch log with mint and lime and a creamy yellow grub.
 
+**Wrapiglet → Croissoar** (Normal → Normal/Flying, level 26), pigs in a blanket taken literally: Wrapiglet is a round
+pink piglet wrapped snugly in a golden crescent roll of dough, its head and trotters poking out of the top; Croissoar is
+a plump dough-coloured pig gliding under a great arched paraglider of layered croissant dough, steering with its pale,
+red-tied ears. Thick Fat or Gluttony, hidden Cheek Pouch; Rollout, Stockpile, Body Slam and Yawn, then Gust (on
+evolving), Air Slash, Tailwind, Brave Bird and Hurricane. Wrapiglet is common in plains and grasslands and uncommon in
+villages; Croissoar is uncommon in hills, plains and highlands. Shiny: pain au chocolat, with a pale cream pig.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1359,6 +1366,8 @@ forests and taigas, dark forests and jungles. Shiny: a pale birch log with mint 
 | 3042 | **Assoulsect** | Bug / Ghost | Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side instead) / Effect Spore (hidden) | 90 / 125 / 95 / 85 / 95 / 70 | 7'3" (2.2 m) / 166.6 kg | Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves and the deep dark. | When thousands of Bug Pokémon perished, a fungus took root in what was left of them and wove their souls into one mind. Their old heads and blades still twitch in its fog; any Bug Pokémon that challenges it is pulled into the hive and turns on its own allies. |
 | 3043 | **Capybrute** | Ground / Fighting | Guts / Thick Fat / Unaware (hidden) | 110 / 120 / 105 / 40 / 75 / 50 | 4'11" (1.5 m) / 152 kg | Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands. | It lounges by rivers as calmly as a boulder and lets other Pokémon nap on its back, but it digs burrows through solid rock with those claws. Rile it and it charges with its head down, shrugging off blows that would flatten a house. |
 | 3044 | **Writhing Rot** | Bug / Dragon | Protosynthesis | 95 / 135 / 105 / 70 / 75 / 90 | 7'10" (2.4 m) / 182 kg | Wild: very rare in old-growth forests and taigas, dark forests and jungles. | An ancient Pokémon said to be the distant past of Sudowoodo, described in an old expedition journal. Its log body is only a shell: the real Pokémon is the pale, writhing thing that lives inside it, and it lunges out on a long neck to snatch prey. |
+| 3045 | **Wrapiglet** | Normal | Thick Fat / Gluttony / Cheek Pouch (hidden) | 60 / 55 / 65 / 35 / 45 / 40 | 2'0" (0.6 m) / 10.5 kg | Wild: common in plains and grasslands, uncommon in villages. Evolves into Croissoar at level 26. | It wraps itself in a soft blanket of dough as soon as it hatches and naps in it the whole day long. The dough bakes golden in the sun, and it smells so good that Pokémon follow it around. |
+| 3046 | **Croissoar** | Normal / Flying | Thick Fat / Gluttony / Cheek Pouch (hidden) | 90 / 90 / 80 / 60 / 70 / 95 | 4'3" (1.3 m) / 38 kg | Evolve Wrapiglet at level 26. It learns Gust when it evolves. Wild: uncommon in hills, plains and highlands. | Its blanket of dough rises and bakes into a great flaky paraglider. It leaps off hilltops and rides the warm air for miles, steering with its ears, and leaves a trail of buttery crumbs behind it. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1388,6 +1397,8 @@ forests and taigas, dark forests and jungles. Shiny: a pale birch log with mint 
 ![Capybrute, regular and shiny](docs/newmons_capybrute.png)
 
 ![Writhing Rot, regular and shiny](docs/newmons_writhingrot.png)
+
+![Wrapiglet and Croissoar, regular and shiny](docs/newmons_blanket.png)
 
 ## CobbleEffort regional forms
 

@@ -1,0 +1,168 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3045,
+ "name": "Wrapiglet",
+ "primaryType": "normal",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 105,
+ "pokedex": [
+  "cobbleeffort.species.wrapiglet.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "thickfat",
+  "gluttony",
+  "h:cheekpouch"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 55,
+  "defence": 65,
+  "special_attack": 35,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 64,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.6,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bread",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:porkchop",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:wheat",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:tailwhip",
+  "4:defensecurl",
+  "7:mudslap",
+  "10:rollout",
+  "13:bite",
+  "16:headbutt",
+  "19:stockpile",
+  "19:swallow",
+  "22:yawn",
+  "25:bodyslam",
+  "29:amnesia",
+  "33:rest",
+  "37:doubleedge",
+  "egg:bellydrum",
+  "egg:curse",
+  "egg:slackoff",
+  "egg:wish",
+  "egg:counter",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:headbutt",
+  "tm:zenheadbutt",
+  "tm:mudslap",
+  "tm:mudshot",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:yawn",
+  "tm:amnesia",
+  "tm:stockpile",
+  "tm:swallow",
+  "tm:spitup",
+  "tm:rollout",
+  "tm:defensecurl",
+  "tm:playrough",
+  "tm:charm",
+  "tm:bite",
+  "tm:crunch",
+  "tm:heatwave",
+  "tm:sunnyday",
+  "tm:endeavor",
+  "tm:hypervoice",
+  "tm:slackoff",
+  "tm:workup"
+ ],
+ "evolutions": [
+  {
+   "id": "wrapiglet_croissoar",
+   "variant": "level_up",
+   "result": "cobbleeffort:croissoar",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "gust"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 26
+    }
+   ]
+  }
+ ]
+}

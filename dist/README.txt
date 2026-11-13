@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 47 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 49 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2116,6 +2116,26 @@ cobbleeffort:cavitot.
   expedition journal. Its log body is only a shell: the real Pokémon is the pale, writhing thing
   that lives inside it, and it lunges out on a long neck to snatch prey."
   * Wild: very rare in old-growth forests and taigas, dark forests and jungles.
+
+#3045 WRAPIGLET  (Normal; Thick Fat / Gluttony / Cheek Pouch (hidden))
+  a round pink piglet wrapped snugly in a golden crescent roll of dough, its head poking out of the
+  top
+  Stats: HP 60  Atk 55  Def 65  SpA 35  SpD 45  Spe 40  (total 300)
+  Pokedex: "It wraps itself in a soft blanket of dough as soon as it hatches and naps in it the
+  whole day long. The dough bakes golden in the sun, and it smells so good that Pokémon follow it
+  around."
+  * Wild: common in plains and grasslands, uncommon in villages.
+  * Evolves into Croissoar at level 26.
+
+#3046 CROISSOAR  (Normal / Flying; Thick Fat / Gluttony / Cheek Pouch (hidden))
+  a plump dough-coloured pig gliding under a great arched paraglider of layered golden croissant
+  dough, its pale tied ears standing up like wings
+  Stats: HP 90  Atk 90  Def 80  SpA 60  SpD 70  Spe 95  (total 485)
+  Pokedex: "Its blanket of dough rises and bakes into a great flaky paraglider. It leaps off
+  hilltops and rides the warm air for miles, steering with its ears, and leaves a trail of buttery
+  crumbs behind it."
+  * Evolve Wrapiglet at level 26. It learns Gust when it evolves.
+  * Wild: uncommon in hills, plains and highlands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
