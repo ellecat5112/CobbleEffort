@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.cobbleeffort.fusion.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["StatProviderMixin", "PokemonTypesMixin", "BattleRegistryMixin"],
+  "client": ["PosableModelMixin"],
+  "injectors": {"defaultRequire": 1}
+}

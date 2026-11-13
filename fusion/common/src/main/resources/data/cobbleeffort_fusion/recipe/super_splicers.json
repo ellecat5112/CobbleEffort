@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "GSG",
+    " G "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "cobbleeffort_fusion:dna_splicers"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_fusion:super_splicers",
+    "count": 1
+  }
+}

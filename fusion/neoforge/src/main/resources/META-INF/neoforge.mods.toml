@@ -1,0 +1,45 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-SA-4.0"
+
+[[mixins]]
+config = "cobbleeffort_fusion.mixins.json"
+
+[[mods]]
+modId = "cobbleeffort_fusion"
+version = "${version}"
+displayName = "CobbleEffort: Fusion"
+authors = "ellecat5112"
+logoFile = "assets/cobbleeffort_fusion/icon.png"
+description = '''
+DNA Splicers for Cobblemon, after Pokémon Infinite Fusion: fuse two Pokémon into one (head and body), with fused stats, types and abilities, a head-on-body look for every pair, and unfusing.
+'''
+
+[[dependencies.cobbleeffort_fusion]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_fusion]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_fusion]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_fusion]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8.4,)"
+ordering = "AFTER"
+side = "BOTH"
+

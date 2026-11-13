@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "ESE",
+    " E "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "S": {
+      "item": "cobbleeffort_fusion:super_splicers"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_fusion:infinite_splicers",
+    "count": 1
+  }
+}

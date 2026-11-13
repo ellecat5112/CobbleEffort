@@ -272,6 +272,27 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   vanilla methods called on Cobblemon classes (`PokemonEntity.level()`, `NPCEntity.moveTo`) stay unmapped and throw
   NoSuchMethodError on Fabric only. Test on a real server: a Fabric server in the scratchpad (loader 0.17.2 launcher,
   loom's cached minecraft-server.jar, owo-lib from maven.wispforest.io) with commands piped through a fifo.
+- **CobbleEffort: Fusion** (`fusion/`, a fourth add-on jar; Infinite Fusion's DNA Splicers and head/body rules, the
+  user's request; built like Kanto: Architectury, requires Cobblemon + Architectury API, recommends CobbleEffort;
+  `./gradlew build` in `fusion/` -> `build/libs/cobbleeffort-fusion-<v>.zip`; `tools/make_assets.py` writes item
+  textures/models, lang, recipes). Items (`SplicerItem`): DNA Splicers (average level, used up), Super Splicers (higher
+  level), Infinite Splicers (never used up), DNA Reversers (swap head/body); picking a fusion with splicers unfuses it.
+  Party picks via `PartySelectCallbacks`; not in battle. The fusion is the BODY's Pokemon object; the head is forced
+  aspects `fusion_head=<species id>` + `fusion_head_aspect=<aspect>` (saved + synced), and the whole head NBT plus the
+  body's ability/nickname sit in `persistentData["cobbleeffort_fusion"]` (`Fusing`: fuse/unfuse/reverse, overloads
+  taking party/PC/registry access so `/fusion selftest` (ops) runs them in a scratch party). Rules (`FusionRules`): HP,
+  SpA, SpD = (2 head + body)/3, Atk, Def, Spe = (2 body + head)/3; types = head's primary (Flying for Normal/Flying
+  heads) + body's secondary or only type, a duplicate becomes the body's primary; name = head's first half + body's
+  last half; ability = body's, clickable choice of the head's (`/fusion ability <uuid> head|body`); the head's moves
+  become benched moves. Stats/types outside battle: mixins on `CobblemonStatProvider.getStatForPokemon` and
+  `Pokemon.getTypes/getPrimaryType/getSecondaryType` (aspects can be null while a Pokemon is constructed: guard).
+  Battle: `FusionEngine` evals JS into the Graal Showdown context by reflection (wraps `Pokemon.prototype.setSpecies`,
+  table `__ceFusion[uuid] = {base, types}`; composes with Distortion's instance script), registered on fuse and in a
+  static HEAD mixin on `BattleRegistry.startBattle`; tested in node (`fusion_sim`-style: Water Gun not super effective
+  on a Bulbasaur-head Charmander). Look (client, `FusionRender` + `PosableModelMixin` on `PosableModel.render`): the
+  body model's `head` bone is hidden and the head species' `head` ModelPart drawn on the body's head joint (bone chain
+  transforms), scaled to the replaced head's size (0.5-2.5x), with the head's own texture/aspects; models without a
+  `head` bone show the plain body. Custom per-pair forms: later (the user's plan).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).
