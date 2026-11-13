@@ -254,7 +254,10 @@ own. Pinlet, Pinnant and Pennacrest follow the pin-tailed bird family art the us
 shared (artist not named); their models and Pokédex entries are our own. The CobbleEffort Foongus and Amoonguss (Phillips-head screw mushrooms) follow the art the
 user shared (artist not named); their models and Pokédex entries are our own. Lesbeon (its name and design) is after
 the Lesbeon meme art the user shared (artist not named); its model, stats and Pokédex entry are our own. Ibuprofeon (its name and design) is after
-the art by **psychedelic-lemur** that the user shared; its model, stats and Pokédex entry are our own.
+the art by **psychedelic-lemur** that the user shared; its model, stats and Pokédex entry are our own. Tyrucrab and Crabgron
+(their names and designs) and the design of Primaclaw (shown in the art as a variant Crabgron) are after the fakemon art
+by **@dude.dude.art** that the user shared, with the user's idea of crabs whose claws imitate dangerous Pokémon;
+Primaclaw's name, the models, Primal Mimicry and the Pokédex entries are our own.
 
 ## Code and data
 

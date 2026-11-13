@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 71 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 74 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2352,6 +2352,36 @@ cobbleeffort:cavitot.
   it."
   * An Eevee that ends a battle on exactly 1 HP gets the chance to evolve into Ibuprofeon (accept it
     with the Evolve button). It learns Life Dew when it evolves.
+
+#3064 TYRUCRAB  (Bug / Rock; Strong Jaw / Shell Armor / Intimidate (hidden))
+  a little brown crab with an angry face and an orange back spike; its right claw is a tyrannosaur-
+  like head with orange spikes, a white frill and a huge white jaw
+  Stats: HP 50  Atk 75  Def 70  SpA 30  SpD 40  Spe 45  (total 310)
+  Pokedex: "To scare off predators it holds up its right claw, which has grown into the shape of a
+  fearsome tyrannosaur's head. The jaw snaps like a pincer, and a Tyrucrab that fools a foe once
+  never stops boasting about it."
+  * Wild: uncommon on beaches, stony shores, mangrove swamps and in badlands.
+  * Evolves into Crabgron at level 32.
+
+#3065 CRABGRON  (Bug / Steel; Strong Jaw / Shell Armor / Intimidate (hidden))
+  a charcoal crab with glowing blue eyes and a spiky shell; its right claw is a white steel-helmeted
+  head with two long horns and jagged teeth, its left a big white pincer
+  Stats: HP 65  Atk 100  Def 100  SpA 40  SpD 55  Spe 55  (total 415)
+  Pokedex: "As it grows, its claw takes on the look of an iron-armoured beast, horns and all.
+  Crabgron bang their helmet-claws on rocks at night so that anything listening believes a whole
+  herd is near."
+  * Evolve Tyrucrab at level 32. It learns Metal Claw when it evolves.
+  * Wild: rare on beaches, stony shores, mangrove swamps and in badlands.
+  * Evolves into Primaclaw at level 50.
+
+#3066 PRIMACLAW  (Bug / Ground; Primal Mimicry (its own: its Water-type moves get the same-type bonus too) / Strong Jaw / Intimidate (hidden))
+  a tiny black spiky crab on long white legs holding up two enormous claws: a red plated land-titan
+  head and a blue sea-titan head, both with jagged teeth
+  Stats: HP 85  Atk 130  Def 115  SpA 65  SpD 75  Spe 65  (total 535)
+  Pokedex: "Its two claws imitate the ancient titans of land and sea so perfectly that the sight of
+  a Primaclaw on the shore once sent whole villages fleeing inland. The crab itself is tiny, hiding
+  between the two great heads."
+  * Evolve Crabgron at level 50. It learns Headlong Rush when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

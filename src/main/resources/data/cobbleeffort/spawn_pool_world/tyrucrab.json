@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tyrucrab-shore",
+   "pokemon": "cobbleeffort:tyrucrab",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "8-24",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_beach",
+     "minecraft:stony_shore",
+     "minecraft:mangrove_swamp",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  }
+ ]
+}

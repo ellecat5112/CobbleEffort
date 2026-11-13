@@ -1621,6 +1621,78 @@ SPECIES.update({
 })
 LINES["ibuprofeon"] = ["ibuprofeon"]
 
+# --- the imitator crabs: claws that imitate the heads of dangerous Pokémon ------------------------------------------------
+
+CRAB = dict(egg_groups=["bug", "water_3"], male=0.5, friendship=50)
+CRAB_TM = BASIC_TM + ["xscissor", "bugbite", "lunge", "pounce", "furycutter", "crunch", "firefang", "icefang",
+                      "thunderfang", "psychicfangs", "rocktomb", "rockslide", "stoneedge", "irondefense", "swordsdance",
+                      "knockoff", "bulldoze", "dig", "surf", "liquidation", "razorshell", "brine", "endure", "scaryface",
+                      "brickbreak"]
+CRAB_EARLY = [(1, "harden"), (1, "bite"), (4, "bugbite"), (8, "rockthrow"), (12, "furycutter"), (16, "rocktomb"),
+              (20, "crunch")]
+CRAB_ROCKY = ["#cobblemon:is_beach", "minecraft:stony_shore", "minecraft:mangrove_swamp", "#cobblemon:is_badlands"]
+
+SPECIES.update({
+    "tyrucrab": {
+        "dex": 3064, "name": "Tyrucrab", "line": "mimic_crab", "types": ["bug", "rock"], **CRAB, "catch": 120,
+        "abilities": ["strongjaw", "shellarmor", "h:intimidate"],
+        "ability_names": "Strong Jaw / Shell Armor / Intimidate (hidden)",
+        "stats": stats(50, 75, 70, 30, 40, 45), "ev": evs(attack=1), "exp": 66,
+        "height": 5, "weight": 120, "shoulder": False, "walk": 0.28,
+        "moves": CRAB_EARLY + [(24, "xscissor"), (28, "rockslide")],
+        "tm": CRAB_TM, "egg": ["dragontail", "ancientpower", "crabhammer", "metalclaw", "rockpolish"],
+        "evolve": ("crabgron", 32, ["metalclaw"]),
+        "drops": [("minecraft:bone", "0-2", None), ("minecraft:orange_dye", "0-1", None)],
+        "entry": ("To scare off predators it holds up its right claw, which has grown into the shape of a fearsome "
+                  "tyrannosaur's head. The jaw snaps like a pincer, and a Tyrucrab that fools a foe once never stops "
+                  "boasting about it."),
+        "spawns": [route_spawn("tyrucrab-shore", "uncommon", "8-24", 3.0, CRAB_ROCKY)],
+        "how": ["Wild: uncommon on beaches, stony shores, mangrove swamps and in badlands.",
+                "Evolves into Crabgron at level 32."],
+    },
+    "crabgron": {
+        "dex": 3065, "name": "Crabgron", "line": "mimic_crab", "types": ["bug", "steel"], **CRAB, "catch": 60,
+        "abilities": ["strongjaw", "shellarmor", "h:intimidate"],
+        "ability_names": "Strong Jaw / Shell Armor / Intimidate (hidden)",
+        "stats": stats(65, 100, 100, 40, 55, 55), "ev": evs(attack=1, defence=1), "exp": 158,
+        "height": 10, "weight": 860, "shoulder": False, "walk": 0.3,
+        "moves": CRAB_EARLY + [(1, "metalclaw"), (24, "xscissor"), (28, "rockslide"), (32, "ironhead"),
+                               (38, "irondefense"), (44, "heavyslam")],
+        "tm": CRAB_TM + ["ironhead", "heavyslam", "flashcannon", "steelbeam", "metalclaw", "smartstrike"],
+        "egg": [], "evolve": ("primaclaw", 50, ["headlongrush"]),
+        "drops": [("minecraft:iron_nugget", "1-4", None), ("cobblemon:metal_coat", None, 2.5)],
+        "entry": ("As it grows, its claw takes on the look of an iron-armoured beast, horns and all. Crabgron bang "
+                  "their helmet-claws on rocks at night so that anything listening believes a whole herd is near."),
+        "spawns": [route_spawn("crabgron-shore", "rare", "32-45", 1.0, CRAB_ROCKY)],
+        "how": ["Evolve Tyrucrab at level 32. It learns Metal Claw when it evolves.",
+                "Wild: rare on beaches, stony shores, mangrove swamps and in badlands.",
+                "Evolves into Primaclaw at level 50."],
+    },
+    "primaclaw": {
+        "dex": 3066, "name": "Primaclaw", "line": "mimic_crab", "types": ["bug", "ground"], **CRAB, "catch": 30,
+        "abilities": ["primalmimicry", "strongjaw", "h:intimidate"],
+        "ability_names": "Primal Mimicry (its own: its Water-type moves get the same-type bonus too) / Strong Jaw / "
+                         "Intimidate (hidden)",
+        "stats": stats(85, 130, 115, 65, 75, 65), "ev": evs(attack=3), "exp": 248, "growth": "medium_slow",
+        "height": 16, "weight": 1800, "shoulder": False, "walk": 0.28,
+        "moves": CRAB_EARLY + [(1, "metalclaw"), (1, "headlongrush"), (24, "xscissor"), (28, "rockslide"),
+                               (32, "ironhead"), (38, "crabhammer"), (44, "earthquake"), (50, "headlongrush"),
+                               (56, "wavecrash"), (62, "precipiceblades")],
+        "tm": CRAB_TM + ["earthquake", "highhorsepower", "earthpower", "stompingtantrum", "wavecrash", "hydropump",
+                         "aquatail", "ironhead", "heavyslam", "gigaimpact", "hyperbeam", "sandstorm", "raindance",
+                         "sunnyday"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:iron_ingot", "0-2", None), ("minecraft:prismarine_shard", "1-3", None),
+                  ("minecraft:red_sand", "1-3", None)],
+        "entry": ("Its two claws imitate the ancient titans of land and sea so perfectly that the sight of a Primaclaw "
+                  "on the shore once sent whole villages fleeing inland. The crab itself is tiny, hiding between the "
+                  "two great heads."),
+        "spawns": [],
+        "how": ["Evolve Crabgron at level 50. It learns Headlong Rush when it evolves."],
+    },
+})
+LINES["mimic_crab"] = ["tyrucrab", "crabgron", "primaclaw"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1747,6 +1819,22 @@ num: -3004
 """,
         "lang": "An ancient fungus long mistaken for a plant: its Grass-type moves get the same-type bonus, and it is "
                 "immune to Leech Seed and to powder and spore moves.",
+    },
+    "primalmimicry": {
+        "name": "Primal Mimicry",
+        "js": """{
+onModifyMovePriority: -1,
+onModifyMove(move) {
+  if (move.type === 'Water') move.forceSTAB = true;
+},
+flags: {},
+name: "Primal Mimicry",
+rating: 3,
+num: -3011
+}
+""",
+        "lang": "One claw imitates the titan of the land, the other the titan of the sea: its Water-type moves get the "
+                "same-type bonus as well.",
     },
     "pharaohscurse": {
         "name": "Pharaoh's Curse",

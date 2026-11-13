@@ -1409,6 +1409,17 @@ the chance to evolve into it** (a battle callback marks it; accept with the Evol
 Life Dew on evolving, Poison Fang, Endure, Venoshock, Recover, Toxic, Sludge Bomb, Heal Bell and Pain Split; a bulky
 110 / 65 / 110 / 60 / 120 / 60. Shiny: a cream coat, a mint cone, pale blue bandages and orange-coated pills.
 
+**Tyrucrab → Crabgron → Primaclaw** (Bug/Rock → Bug/Steel → Bug/Ground, levels 32 and 50), imitator crabs after the art
+by **@dude.dude.art** (Tyrucrab and Crabgron are the art's names; Primaclaw is ours): little crabs whose claws imitate
+the heads of dangerous Pokémon. Tyrucrab is a brown crab with an angry face whose right claw is a tyrannosaur's head
+(orange spikes, a white frill and a huge snapping white jaw); Crabgron is a charcoal crab with glowing blue eyes whose
+claw is a horned steel-helmeted head with jagged teeth; in Primaclaw the claws are nine tenths of it, a tiny spiky crab
+on long white legs holding up a red, plated land-titan head and a blue sea-titan head. Strong Jaw or Shell Armor,
+hidden Intimidate; Primaclaw's own ability **Primal Mimicry** gives its Water-type moves the same-type bonus too.
+Bite, Crunch, X-Scissor and Rock Slide, then Metal Claw, Iron Head and Heavy Slam, then Crabhammer, Earthquake,
+Headlong Rush, Wave Crash and Precipice Blades. Tyrucrab is uncommon on beaches, stony shores, mangrove swamps and in
+badlands, Crabgron rare there. Shiny: slate blue, navy and blued steel, then a golden land-claw and a magenta sea-claw.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1475,6 +1486,9 @@ Life Dew on evolving, Poison Fang, Endure, Venoshock, Recover, Toxic, Sludge Bom
 | 3061 | **Pennacrest** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 90 / 110 / 80 / 60 / 75 / 100 | 6'3" (1.9 m) / 60 kg | Evolve Pinnant at level 36. It learns Brave Bird when it evolves. Wild: rare at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). | The matriarch of a crag-top nest. It broods over the chicks with its broad crest spread like a parasol to shade them, and drives off any intruder with a storm of beating wings and lashing streamers. |
 | 3062 | **Lesbeon** | Fairy / Fighting | Friend Guard / Competitive (hidden) | 75 / 105 / 65 / 100 / 95 / 85 | 2'11" (0.9 m) / 26 kg | Put two female Eevee in your party: both get the chance to evolve into Lesbeon (accept it with the Evolve button; the second can still evolve after the first, with a Lesbeon in the party). It learns Double Kick when it evolves. | Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to its partner and protects her from anything, and the Venus marks that hang from its ears glow when the two are close. |
 | 3063 | **Ibuprofeon** | Poison / Normal | Sturdy / Regenerator (hidden) | 110 / 65 / 110 / 60 / 120 / 60 | 2'11" (0.9 m) / 27 kg | An Eevee that ends a battle on exactly 1 HP gets the chance to evolve into Ibuprofeon (accept it with the Evolve button). It learns Life Dew when it evolves. | An Eevee that hung on at the very edge of fainting evolved into Ibuprofeon. It is never without its bandages, and the pills on its tail ease the pain of any Pokémon that curls up beside it. |
+| 3064 | **Tyrucrab** | Bug / Rock | Strong Jaw / Shell Armor / Intimidate (hidden) | 50 / 75 / 70 / 30 / 40 / 45 | 1'8" (0.5 m) / 12 kg | Wild: uncommon on beaches, stony shores, mangrove swamps and in badlands. Evolves into Crabgron at level 32. | To scare off predators it holds up its right claw, which has grown into the shape of a fearsome tyrannosaur's head. The jaw snaps like a pincer, and a Tyrucrab that fools a foe once never stops boasting about it. |
+| 3065 | **Crabgron** | Bug / Steel | Strong Jaw / Shell Armor / Intimidate (hidden) | 65 / 100 / 100 / 40 / 55 / 55 | 3'3" (1 m) / 86 kg | Evolve Tyrucrab at level 32. It learns Metal Claw when it evolves. Wild: rare on beaches, stony shores, mangrove swamps and in badlands. Evolves into Primaclaw at level 50. | As it grows, its claw takes on the look of an iron-armoured beast, horns and all. Crabgron bang their helmet-claws on rocks at night so that anything listening believes a whole herd is near. |
+| 3066 | **Primaclaw** | Bug / Ground | Primal Mimicry (its own: its Water-type moves get the same-type bonus too) / Strong Jaw / Intimidate (hidden) | 85 / 130 / 115 / 65 / 75 / 65 | 5'3" (1.6 m) / 180 kg | Evolve Crabgron at level 50. It learns Headlong Rush when it evolves. | Its two claws imitate the ancient titans of land and sea so perfectly that the sight of a Primaclaw on the shore once sent whole villages fleeing inland. The crab itself is tiny, hiding between the two great heads. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1528,6 +1542,8 @@ Life Dew on evolving, Poison Fang, Endure, Venoshock, Recover, Toxic, Sludge Bom
 ![Lesbeon: front, side and shiny](docs/newmons_lesbeon.png)
 
 ![Ibuprofeon: front, side and shiny](docs/newmons_ibuprofeon.png)
+
+![Tyrucrab, Crabgron and Primaclaw: front, back and shiny](docs/newmons_mimic_crab.png)
 
 ## CobbleEffort regional forms
 

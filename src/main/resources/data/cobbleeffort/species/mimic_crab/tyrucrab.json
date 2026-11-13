@@ -1,0 +1,160 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3064,
+ "name": "Tyrucrab",
+ "primaryType": "bug",
+ "secondaryType": "rock",
+ "maleRatio": 0.5,
+ "height": 5,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.tyrucrab.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "shellarmor",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_3"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 75,
+  "defence": 70,
+  "special_attack": 30,
+  "special_defence": 40,
+  "speed": 45
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 66,
+ "experienceGroup": "medium_slow",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:orange_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:harden",
+  "1:bite",
+  "4:bugbite",
+  "8:rockthrow",
+  "12:furycutter",
+  "16:rocktomb",
+  "20:crunch",
+  "24:xscissor",
+  "28:rockslide",
+  "egg:dragontail",
+  "egg:ancientpower",
+  "egg:crabhammer",
+  "egg:metalclaw",
+  "egg:rockpolish",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:bugbite",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:furycutter",
+  "tm:crunch",
+  "tm:firefang",
+  "tm:icefang",
+  "tm:thunderfang",
+  "tm:psychicfangs",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:irondefense",
+  "tm:swordsdance",
+  "tm:knockoff",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:surf",
+  "tm:liquidation",
+  "tm:razorshell",
+  "tm:brine",
+  "tm:endure",
+  "tm:scaryface",
+  "tm:brickbreak"
+ ],
+ "evolutions": [
+  {
+   "id": "tyrucrab_crabgron",
+   "variant": "level_up",
+   "result": "cobbleeffort:crabgron",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "metalclaw"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 32
+    }
+   ]
+  }
+ ]
+}

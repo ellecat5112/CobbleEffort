@@ -1,0 +1,166 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3065,
+ "name": "Crabgron",
+ "primaryType": "bug",
+ "secondaryType": "steel",
+ "maleRatio": 0.5,
+ "height": 10,
+ "weight": 860,
+ "pokedex": [
+  "cobbleeffort.species.crabgron.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "shellarmor",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_3"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 100,
+  "defence": 100,
+  "special_attack": 40,
+  "special_defence": 55,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 158,
+ "experienceGroup": "medium_slow",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.62,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-4"
+   },
+   {
+    "item": "cobblemon:metal_coat",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:harden",
+  "1:bite",
+  "4:bugbite",
+  "8:rockthrow",
+  "12:furycutter",
+  "16:rocktomb",
+  "20:crunch",
+  "1:metalclaw",
+  "24:xscissor",
+  "28:rockslide",
+  "32:ironhead",
+  "38:irondefense",
+  "44:heavyslam",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:bugbite",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:furycutter",
+  "tm:crunch",
+  "tm:firefang",
+  "tm:icefang",
+  "tm:thunderfang",
+  "tm:psychicfangs",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:irondefense",
+  "tm:swordsdance",
+  "tm:knockoff",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:surf",
+  "tm:liquidation",
+  "tm:razorshell",
+  "tm:brine",
+  "tm:endure",
+  "tm:scaryface",
+  "tm:brickbreak",
+  "tm:ironhead",
+  "tm:heavyslam",
+  "tm:flashcannon",
+  "tm:steelbeam",
+  "tm:metalclaw",
+  "tm:smartstrike"
+ ],
+ "evolutions": [
+  {
+   "id": "crabgron_primaclaw",
+   "variant": "level_up",
+   "result": "cobbleeffort:primaclaw",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "headlongrush"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:tyrucrab"
+}

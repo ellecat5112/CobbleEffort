@@ -222,6 +222,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `data/cobblemon/callbacks/battle_ended/cobbleeffort_ibuprofeon.molang` (like Cobblemon's burmy one: c.players ->
   battle_pokemon -> original_pokemon; `current_hp == 1` + has_faced_opponents -> `apply('ibuprofeon_ready')`); Eevee's
   evolution requires `properties: ibuprofeon_ready`. Cone of shame = overlapping rings of plates; blister-pack tail.
+  Tyrucrab -> Crabgron -> Primaclaw (#3064-3066, line "mimic_crab", `models/_mimic.py`: crab body/legs/pincer; art by
+  @dude.dude.art, Tyrucrab/Crabgron names kept, Primaclaw ours): Bug/Rock -> Bug/Steel -> Bug/Ground at 32/50, claws
+  imitating Tyrunt/Aggron/Groudon+Kyogre heads, built in profile with the snout along +-x (the eyes sit on north/south
+  faces) so they read from the front; ability Primal Mimicry = Water forceSTAB (like Paleomycelium).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

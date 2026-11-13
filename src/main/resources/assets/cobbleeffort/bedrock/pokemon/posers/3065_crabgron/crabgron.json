@@ -1,0 +1,71 @@
+{
+ "portraitScale": 1.59,
+ "portraitTranslation": [
+  0,
+  0.55,
+  0
+ ],
+ "profileScale": 0.94,
+ "profileTranslation": [
+  0,
+  0.25,
+  0
+ ],
+ "rootBone": "crabgron",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_crabgron', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_crabgron', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_crabgron', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_crabgron', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_crabgron', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_crabgron', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_crabgron', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_crabgron', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_crabgron', 'sleep')"
+   ]
+  }
+ }
+}

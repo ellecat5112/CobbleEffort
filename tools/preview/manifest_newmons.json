@@ -1386,5 +1386,77 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3063_ibuprofeon/ibuprofeon_shiny.png",
   "layers": []
+ },
+ {
+  "species": "tyrucrab",
+  "folder": "3064_tyrucrab",
+  "model": "cobbleeffort:tyrucrab.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3064_tyrucrab/tyrucrab.png",
+  "layers": []
+ },
+ {
+  "species": "tyrucrab_shiny",
+  "folder": "3064_tyrucrab",
+  "model": "cobbleeffort:tyrucrab.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3064_tyrucrab/tyrucrab_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "crabgron",
+  "folder": "3065_crabgron",
+  "model": "cobbleeffort:crabgron.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3065_crabgron/crabgron.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3065_crabgron/crabgron_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "crabgron_shiny",
+  "folder": "3065_crabgron",
+  "model": "cobbleeffort:crabgron.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3065_crabgron/crabgron_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3065_crabgron/crabgron_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "primaclaw",
+  "folder": "3066_primaclaw",
+  "model": "cobbleeffort:primaclaw.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3066_primaclaw/primaclaw.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3066_primaclaw/primaclaw_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "primaclaw_shiny",
+  "folder": "3066_primaclaw",
+  "model": "cobbleeffort:primaclaw.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3066_primaclaw/primaclaw_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3066_primaclaw/primaclaw_shiny_glow_0.png"
+   }
+  ]
  }
 ]

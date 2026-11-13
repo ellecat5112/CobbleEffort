@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "crabgron-shore",
+   "pokemon": "cobbleeffort:crabgron",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "32-45",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_beach",
+     "minecraft:stony_shore",
+     "minecraft:mangrove_swamp",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  }
+ ]
+}
