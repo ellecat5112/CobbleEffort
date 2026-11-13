@@ -1145,6 +1145,50 @@ SPECIES.update({
 })
 LINES["blanket"] = ["wrapiglet", "croissoar"]
 
+# --- the minnow fossil --------------------------------------------------------------------------------------------------
+
+MINNOW = dict(male=0.875, egg_groups=["water_2", "mineral"], friendship=50,
+              abilities=["swiftswim", "shellarmor", "h:rattled"],
+              ability_names="Swift Swim / Shell Armor / Rattled (hidden)", labels=["fossil"])
+MINNOW_TM = BASIC_TM + ["surf", "waterfall", "liquidation", "aquatail", "waterpulse", "chillingwater", "raindance",
+                        "rockslide", "rocktomb", "stoneedge", "rockblast", "ancientpower", "stealthrock", "sandstorm",
+                        "irondefense", "ironhead", "bite", "crunch", "icefang", "takedown", "doubleedge", "uturn",
+                        "flipturn", "dive", "whirlpool", "icywind", "bodypress"]
+MINNOW_EARLY = [(1, "watergun"), (1, "harden"), (5, "bubble"), (9, "rockthrow"), (13, "aquajet"), (17, "bite"),
+                (21, "ancientpower"), (25, "rocktomb"), (29, "aquatail"), (33, "irondefense")]
+
+SPECIES.update({
+    "minnolith": {
+        "dex": 3047, "name": "Minnolith", "line": "minnow", "types": ["rock", "water"], **MINNOW,
+        "stats": stats(45, 50, 70, 35, 45, 55), "ev": evs(defence=1), "catch": 45, "exp": 71,
+        "height": 4, "weight": 75, "shoulder": False, "walk": 0.2, "aquatic": True,
+        "moves": MINNOW_EARLY + [(37, "rockslide"), (41, "liquidation")],
+        "tm": MINNOW_TM, "egg": ["aquaring", "mudshot", "screech", "flail", "brine"],
+        "evolve": ("placofin", 38, ["headsmash"]),
+        "drops": [("minecraft:clay_ball", "1-2", None), ("minecraft:cod", "0-1", None), ("cobblemon:hard_stone", None, 5.0)],
+        "entry": ("A tiny fish that swam in rivers long before any other Pokémon. Its round body is wrapped in thin "
+                  "plates of armour, and schools of them darted through the shallows like scattered pebbles."),
+        "spawns": [],
+        "how": ["Revive a Minnow Fossil at a Restoration Tank. Minnow Fossils are found by brushing the suspicious "
+                "gravel of fossil beds on the bottoms of rivers and swamps.", "Evolves into Placofin at level 38."],
+    },
+    "placofin": {
+        "dex": 3048, "name": "Placofin", "line": "minnow", "types": ["rock", "water"], **MINNOW,
+        "stats": stats(70, 105, 115, 55, 70, 80), "ev": evs(defence=2), "catch": 45, "exp": 173,
+        "height": 14, "weight": 640, "shoulder": False, "walk": 0.25, "aquatic": True,
+        "moves": [(1, "headsmash")] + MINNOW_EARLY + [(38, "headsmash"), (42, "rockslide"), (46, "liquidation"),
+                                                      (51, "stoneedge"), (56, "wavecrash")],
+        "tm": MINNOW_TM + ["gigaimpact", "hyperbeam", "hydropump", "rockpolish"], "egg": ["aquaring", "mudshot", "screech", "flail", "brine"],
+        "evolve": None,
+        "drops": [("minecraft:clay_ball", "1-3", None), ("minecraft:flint", "0-2", None), ("cobblemon:hard_stone", None, 8.0)],
+        "entry": ("Its bullet-shaped head is armoured like a battering ram. It crept along ancient riverbeds on its little "
+                  "legs, and when it charged, the force of it could crack the stones of the riverbank."),
+        "spawns": [],
+        "how": ["Evolve Minnolith at level 38. It learns Head Smash when it evolves."],
+    },
+})
+LINES["minnow"] = ["minnolith", "placofin"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

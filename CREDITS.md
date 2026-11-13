@@ -234,7 +234,9 @@ user shared (purple, with a pink feeler and a yellow tail curl); its textures ar
 the Metapod and Butterfree forms and all Pokédex entries are our own. Writhing Rot (its name, types and design; the art also
 calls it "Infestower") is after the paradox Sudowoodo concept art the user shared (artist not named); its model and
 Pokédex entry are our own. Wrapiglet and Croissoar follow the pigs-in-a-blanket fakemon art from the r/fakemon
-community that the user shared (artist not named); their names, models and Pokédex entries are our own.
+community that the user shared (artist not named); their names, models and Pokédex entries are our own. Minnolith and
+Placofin (and the Minnow Fossil) follow the fossil fish fakemon art by **Fionn Keeley** (@fionnkeeley, @miscfionn,
+aegiro) that the user shared; their names, models and Pokédex entries are our own.
 
 ## Code and data
 

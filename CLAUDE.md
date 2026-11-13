@@ -192,6 +192,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Wrapiglet -> Croissoar (#3045-3046, line "blanket", `models/_blanket.py`; r/fakemon art, artist not named; our
   names): Normal -> Normal/Flying at 26, pigs in a blanket; Croissoar is a floater whose paraglider (`cap` bone) is
   one continuous arch of slabs placed round a circle (each rotated by its angle about its own centre), ears = wings.
+  Minnolith -> Placofin (#3047-3048, line "minnow", `models/_minnow.py`; art by Fionn Keeley, our names): Rock/Water
+  fossils, level 38, aquatic; Minnow Fossil (fossils.py key "minnow", cmd 3) from the `riverbed` structure: a 2-layer
+  bed (only its own blocks set, so the water stays) at OCEAN_FLOOR_WG with start_height -1 in rivers and swamps.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

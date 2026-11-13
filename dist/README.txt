@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 49 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 51 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2136,6 +2136,25 @@ cobbleeffort:cavitot.
   crumbs behind it."
   * Evolve Wrapiglet at level 26. It learns Gust when it evolves.
   * Wild: uncommon in hills, plains and highlands.
+
+#3047 MINNOLITH  (Rock / Water; Swift Swim / Shell Armor / Rattled (hidden))
+  a round pale-blue prehistoric fish with a white face, big dark eyes, brown ear-like fins and a fan
+  of tail fins
+  Stats: HP 45  Atk 50  Def 70  SpA 35  SpD 45  Spe 55  (total 300)
+  Pokedex: "A tiny fish that swam in rivers long before any other Pokémon. Its round body is wrapped
+  in thin plates of armour, and schools of them darted through the shallows like scattered pebbles."
+  * Revive a Minnow Fossil at a Restoration Tank. Minnow Fossils are found by brushing the
+    suspicious gravel of fossil beds on the bottoms of rivers and swamps.
+  * Evolves into Placofin at level 38.
+
+#3048 PLACOFIN  (Rock / Water; Swift Swim / Shell Armor / Rattled (hidden))
+  a long bullet-headed prehistoric fish in pale blue armour plates, with brown dorsal spikes, a fan
+  of brown tail fins and little pale legs underneath
+  Stats: HP 70  Atk 105  Def 115  SpA 55  SpD 70  Spe 80  (total 495)
+  Pokedex: "Its bullet-shaped head is armoured like a battering ram. It crept along ancient
+  riverbeds on its little legs, and when it charged, the force of it could crack the stones of the
+  riverbank."
+  * Evolve Minnolith at level 38. It learns Head Smash when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

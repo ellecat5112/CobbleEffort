@@ -30,5 +30,21 @@
     "cobbleeffort_fossil": "spire"
    }
   }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.minnow_fossil\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.minnow_fossil.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794803,
+   "minecraft:rarity": "uncommon",
+   "minecraft:max_stack_size": 16,
+   "minecraft:custom_data": {
+    "cobbleeffort_fossil": "minnow"
+   }
+  }
  }
 ]

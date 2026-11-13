@@ -1,0 +1,164 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3048,
+ "name": "Placofin",
+ "primaryType": "rock",
+ "secondaryType": "water",
+ "maleRatio": 0.875,
+ "height": 14,
+ "weight": 640,
+ "pokedex": [
+  "cobbleeffort.species.placofin.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "fossil"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "shellarmor",
+  "h:rattled"
+ ],
+ "eggGroups": [
+  "water_2",
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 105,
+  "defence": 115,
+  "special_attack": 55,
+  "special_defence": 70,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 173,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.0,
+  "height": 0.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:hard_stone",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:headsmash",
+  "1:watergun",
+  "1:harden",
+  "5:bubble",
+  "9:rockthrow",
+  "13:aquajet",
+  "17:bite",
+  "21:ancientpower",
+  "25:rocktomb",
+  "29:aquatail",
+  "33:irondefense",
+  "38:headsmash",
+  "42:rockslide",
+  "46:liquidation",
+  "51:stoneedge",
+  "56:wavecrash",
+  "egg:aquaring",
+  "egg:mudshot",
+  "egg:screech",
+  "egg:flail",
+  "egg:brine",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:waterpulse",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:stoneedge",
+  "tm:rockblast",
+  "tm:ancientpower",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:bite",
+  "tm:crunch",
+  "tm:icefang",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:uturn",
+  "tm:flipturn",
+  "tm:dive",
+  "tm:whirlpool",
+  "tm:icywind",
+  "tm:bodypress",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hydropump",
+  "tm:rockpolish"
+ ],
+ "preEvolution": "cobbleeffort:minnolith"
+}

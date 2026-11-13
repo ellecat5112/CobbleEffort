@@ -9,6 +9,8 @@ suspicious gravel in two structures of our own (archaeology loot tables):
                old bones sticking out; brushing the gravel at the tar's edge gives Ancient Tar (Petroleodd)
   spire_stump  in forests and swamps, a petrified Prototaxites stump with rings on its top, glowing froglight
                "mycelium" and a fallen spire segment; brushing the gravel round it gives a Spire Fossil (Mycolith)
+  riverbed     on the bottom of rivers and swamp pools, a patch of gravel, clay and sand with a few stones; brushing
+               its gravel gives a Minnow Fossil (Minnolith)
 
 Structure templates are written with the Kanto add-on's NBT writer (kanto/tools/make_assets.py).
 """
@@ -40,6 +42,10 @@ FOSSILS = {
                  "fossil_name": "Spire Fossil",
                  "lore": "A petrified, ring-banded log that looks like wood, but is a mass of tiny tubes inside. "
                          "Revive it at a Restoration Tank."},
+    "minnolith": {"key": "minnow", "item": "minnow_fossil", "name": "Minnow Fossil", "cmd": 3, "structure": "riverbed",
+                  "fossil_name": "Minnow Fossil",
+                  "lore": "A slab of riverbed stone with a little armoured fish pressed into it. Revive it at a "
+                          "Restoration Tank."},
 }
 
 
@@ -98,6 +104,28 @@ def icon_spire():
             if (x * 7 + y * 13) % 17 == 0 and r < 6:
                 c = (170, 90, 230) if (x + y) % 2 else (250, 170, 60)                # mycelium specks
             px[x, y] = c + (255,)
+    return img
+
+
+def icon_minnow():
+    """A tan stone slab with a little fossil fish pressed into it (lighter), and a few pebbles."""
+    img = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
+    px = img.load()
+    for y in range(16):
+        for x in range(16):
+            edge = 1.5 + 1.2 * math.sin(x * 1.7) + 0.8 * math.cos(y * 2.3)
+            if not (edge < x < 15 - edge * 0.6 and 2 + 0.6 * math.sin(x) < y < 14 - 0.5 * math.cos(x * 1.3)):
+                continue
+            c = (150, 116, 90) if (x * 5 + y * 3) % 7 else (130, 100, 78)
+            if y > 11.5 - 0.5 * math.cos(x * 1.3):
+                c = (108, 82, 62)                                                    # the slab's side
+            px[x, y] = c + (255,)
+    fish = [(4, 9), (5, 8), (5, 9), (6, 8), (6, 9), (7, 7), (7, 8), (7, 9), (8, 7), (8, 8), (9, 7), (9, 8), (10, 6),
+            (10, 7), (11, 5), (11, 6), (12, 4), (12, 7), (11, 8), (8, 6), (6, 7), (7, 10)]
+    for x, y in fish:
+        px[x, y] = (226, 196, 150, 255)                                              # the fish imprint
+    for x, y in ((5, 5), (9, 10), (12, 10)):
+        px[x, y] = (96, 74, 58, 255)                                                 # pebbles
     return img
 
 
@@ -182,6 +210,27 @@ def spire_stump():
     return t
 
 
+def riverbed():
+    """A fossil bed on the bottom of a river or swamp pool: a patch of gravel, clay, sand and mud with a few stones,
+    and suspicious gravel to brush. Only the bed's own blocks are set, so the water above stays."""
+    W = 11
+    c = W // 2
+    t = Template((W, 2, W))
+    for x in range(W):
+        for z in range(W):
+            d = math.hypot(x - c, (z - c) * 1.3)
+            if d > 5.2 + h(x, z) * 0.8:
+                continue
+            r = h(x, z, 7)
+            t.set(x, 0, z, "minecraft:clay" if r < 0.3 else "minecraft:gravel" if r < 0.7 else
+                  "minecraft:sand" if r < 0.88 else "minecraft:mud")
+    for x, z in ((c - 2, c + 1), (c + 3, c), (c, c - 3)):
+        t.set(x, 1, z, "minecraft:cobblestone" if h(x, z) > 0.5 else "minecraft:mossy_cobblestone")
+    for gx, gz in ((c, c), (c - 3, c - 1), (c + 2, c + 2), (c + 1, c - 2)):
+        brushable(t, gx, 0, gz, f"{MOD}:archaeology/riverbed")
+    return t
+
+
 STRUCTURES = {
     "tar_pit": {"build": tar_pit, "biomes": ["#minecraft:is_overworld"], "step": "underground_structures",
                 "adapt": "none", "height": {"absolute": -34}, "project": None, "spacing": 28, "separation": 10,
@@ -191,6 +240,10 @@ STRUCTURES = {
                                                      "minecraft:forest", "minecraft:birch_forest", "minecraft:taiga"],
                     "step": "surface_structures", "adapt": "beard_thin", "height": {"absolute": 0},
                     "project": "WORLD_SURFACE_WG", "spacing": 32, "separation": 12, "salt": 30242},
+    "riverbed": {"build": riverbed, "biomes": ["minecraft:river", "minecraft:frozen_river", "minecraft:swamp",
+                                               "minecraft:mangrove_swamp"],
+                 "step": "underground_structures", "adapt": "none", "height": {"absolute": -1},
+                 "project": "OCEAN_FLOOR_WG", "spacing": 18, "separation": 6, "salt": 30243},
 }
 
 LOOT = {
@@ -198,6 +251,8 @@ LOOT = {
                 ("minecraft:black_dye", 1)],
     "spire_stump": [("fossil:mycolith", 3), ("minecraft:brown_mushroom", 3), ("minecraft:stick", 2),
                     ("minecraft:tuff", 2), ("minecraft:bone_meal", 1)],
+    "riverbed": [("fossil:minnolith", 3), ("minecraft:clay_ball", 3), ("minecraft:flint", 2), ("minecraft:bone_meal", 1),
+                 ("minecraft:prismarine_shard", 1)],
 }
 
 
@@ -212,7 +267,7 @@ def build(lang):
         lang[f"item.{MOD}.{f['item']}.tooltip"] = f["lore"]
         tex = assets / "textures" / "item" / f"{f['item']}.png"
         tex.parent.mkdir(parents=True, exist_ok=True)
-        (icon_tar if f["key"] == "tar" else icon_spire)().save(tex)
+        {"tar": icon_tar, "spire": icon_spire, "minnow": icon_minnow}[f["key"]]().save(tex)
         write_json(assets / "models" / "item" / f"{f['item']}.json",
                    {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/{f['item']}"}})
     write_json(RES / "assets" / "minecraft" / "models" / "item" / "echo_shard.json", {
