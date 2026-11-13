@@ -1396,11 +1396,18 @@ common at the nests, Pinnant uncommon and Pennacrest rare. Shiny: slate blue wit
 
 **Lesbeon** (Fairy/Fighting), a new Eevee evolution after the Lesbeon meme art the user shared: a pink, slender
 Eeveelution with a fierce red-eyed glare, a rainbow mohawk swept over one eye with a dark shaved undercut, tall pointed
-ears, two pink Venus-symbol earrings (together the lesbian double Venus) and a short spiky-tipped tail. Female only. A
-**female Eevee evolves into Lesbeon when it levels up with another female Eevee in the party**, and the second one
-evolves too when it levels up with the first Lesbeon in the party. Friend Guard, hidden Competitive; Double Kick on
+ears, two pink Venus-symbol earrings (together the lesbian double Venus) and a short spiky-tipped tail. Female only.
+**Put two female Eevee in your party and both get the chance to evolve into Lesbeon** (Cobblemon offers it with the
+Evolve button within a second; the second can still evolve after the first, with the Lesbeon in the party). Friend Guard, hidden Competitive; Double Kick on
 evolving, Draining Kiss, Low Sweep, Dazzling Gleam, Brick Break, Bulk Up, Play Rough, Close Combat and Moonblast. Shiny: a
 lilac coat with a mohawk in the colours of the lesbian pride flag.
+
+**Ibuprofeon** (Poison/Normal), a new Eevee evolution after the art by **psychedelic-lemur**: an Eeveelution that
+pulled through, with a white coat patched with tan bandages, a blue-grey cone of shame, one red eye and a round eye
+patch, dark red ear insides and a tail like a blister pack of pills. **An Eevee that ends a battle on exactly 1 HP gets
+the chance to evolve into it** (a battle callback marks it; accept with the Evolve button). Sturdy, hidden Regenerator;
+Life Dew on evolving, Poison Fang, Endure, Venoshock, Recover, Toxic, Sludge Bomb, Heal Bell and Pain Split; a bulky
+110 / 65 / 110 / 60 / 120 / 60. Shiny: a cream coat, a mint cone, pale blue bandages and orange-coated pills.
 
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
@@ -1466,7 +1473,8 @@ lilac coat with a mohawk in the colours of the lesbian pride flag.
 | 3059 | **Pinlet** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 45 / 50 / 40 / 30 / 35 / 60 | 1'4" (0.4 m) / 2 kg | Wild: common at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). Evolves into Pinnant at level 16. | Pinlet chicks wait in the nest with their beaks wide open, shrieking until a Pinnant drops a berry in. The star-shaped glints in their eyes fade as they grow up. |
 | 3060 | **Pinnant** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 65 / 75 / 60 / 45 / 50 / 85 | 2'11" (0.9 m) / 23 kg | Evolve Pinlet at level 16. Wild: uncommon at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). Evolves into Pennacrest at level 36. | It trails its two long streamers like pennants as it flies between the crag and the berry bushes, bringing food back for the chicks. Flocks tell each other apart by the bands on their streamers. |
 | 3061 | **Pennacrest** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 90 / 110 / 80 / 60 / 75 / 100 | 6'3" (1.9 m) / 60 kg | Evolve Pinnant at level 36. It learns Brave Bird when it evolves. Wild: rare at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). | The matriarch of a crag-top nest. It broods over the chicks with its broad crest spread like a parasol to shade them, and drives off any intruder with a storm of beating wings and lashing streamers. |
-| 3062 | **Lesbeon** | Fairy / Fighting | Friend Guard / Competitive (hidden) | 75 / 105 / 65 / 100 / 95 / 85 | 2'11" (0.9 m) / 26 kg | Level up a female Eevee with another female Eevee in the party (the second evolves when it levels up with the first Lesbeon in the party). It learns Double Kick when it evolves. | Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to its partner and protects her from anything, and the Venus marks that hang from its ears glow when the two are close. |
+| 3062 | **Lesbeon** | Fairy / Fighting | Friend Guard / Competitive (hidden) | 75 / 105 / 65 / 100 / 95 / 85 | 2'11" (0.9 m) / 26 kg | Put two female Eevee in your party: both get the chance to evolve into Lesbeon (accept it with the Evolve button; the second can still evolve after the first, with a Lesbeon in the party). It learns Double Kick when it evolves. | Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to its partner and protects her from anything, and the Venus marks that hang from its ears glow when the two are close. |
+| 3063 | **Ibuprofeon** | Poison / Normal | Sturdy / Regenerator (hidden) | 110 / 65 / 110 / 60 / 120 / 60 | 2'11" (0.9 m) / 27 kg | An Eevee that ends a battle on exactly 1 HP gets the chance to evolve into Ibuprofeon (accept it with the Evolve button). It learns Life Dew when it evolves. | An Eevee that hung on at the very edge of fainting evolved into Ibuprofeon. It is never without its bandages, and the pills on its tail ease the pain of any Pokémon that curls up beside it. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1518,6 +1526,8 @@ lilac coat with a mohawk in the colours of the lesbian pride flag.
 ![A pinbird nest: a rocky crag with a hay nest on top](docs/nest_pinbird.png)
 
 ![Lesbeon: front, side and shiny](docs/newmons_lesbeon.png)
+
+![Ibuprofeon: front, side and shiny](docs/newmons_ibuprofeon.png)
 
 ## CobbleEffort regional forms
 

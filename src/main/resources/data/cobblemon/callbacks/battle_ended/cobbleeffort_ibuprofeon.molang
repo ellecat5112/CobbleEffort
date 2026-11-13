@@ -1,0 +1,9 @@
+'An Eevee that ends a battle on exactly 1 HP (having fought) gets the chance to evolve into Ibuprofeon.';
+for_each(t.actor, c.players, {
+  for_each(t.battle_pokemon, t.actor.battle_pokemon, {
+    t.pokemon = t.battle_pokemon.original_pokemon;
+    (t.battle_pokemon.has_faced_opponents && t.pokemon.current_hp == 1 && t.pokemon.matches('eevee')) ? {
+      t.pokemon.apply('ibuprofeon_ready');
+    };
+  });
+});

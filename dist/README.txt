@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 70 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 71 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2339,8 +2339,19 @@ cobbleeffort:cavitot.
   Pokedex: "Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to
   its partner and protects her from anything, and the Venus marks that hang from its ears glow when
   the two are close."
-  * Level up a female Eevee with another female Eevee in the party (the second evolves when it
-    levels up with the first Lesbeon in the party). It learns Double Kick when it evolves.
+  * Put two female Eevee in your party: both get the chance to evolve into Lesbeon (accept it with
+    the Evolve button; the second can still evolve after the first, with a Lesbeon in the party). It
+    learns Double Kick when it evolves.
+
+#3063 IBUPROFEON  (Poison / Normal; Sturdy / Regenerator (hidden))
+  a white Eeveelution with tan bandages, a blue-grey cone of shame, one red eye and an eye patch,
+  dark red ear insides and a tail like a blister pack of pills
+  Stats: HP 110  Atk 65  Def 110  SpA 60  SpD 120  Spe 60  (total 525)
+  Pokedex: "An Eevee that hung on at the very edge of fainting evolved into Ibuprofeon. It is never
+  without its bandages, and the pills on its tail ease the pain of any Pokémon that curls up beside
+  it."
+  * An Eevee that ends a battle on exactly 1 HP gets the chance to evolve into Ibuprofeon (accept it
+    with the Evolve button). It learns Life Dew when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

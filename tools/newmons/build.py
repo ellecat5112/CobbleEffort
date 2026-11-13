@@ -1536,8 +1536,8 @@ SPECIES.update({
         "stats": stats(75, 105, 65, 100, 95, 85), "ev": evs(attack=1, special_attack=1), "exp": 184,
         "height": 9, "weight": 260, "shoulder": False, "walk": 0.34,
         "pre": "cobblemon:eevee",
-        # a female Eevee evolves when it levels up with another female Eevee in the party; the second one then
-        # evolves too, with the first (now a Lesbeon) in the party
+        # a female Eevee with another female Eevee in the party can evolve (Cobblemon checks level-up evolutions
+        # every second and offers them with the Evolve button); the second one can still evolve with a Lesbeon there
         "evolves_from": ("cobblemon:eevee", "eevee_lesbeon", [
             {"id": "eevee_lesbeon", "variant": "level_up", "result": "cobbleeffort:lesbeon", "consumeHeldItem": False,
              "learnableMoves": ["doublekick"],
@@ -1561,11 +1561,65 @@ SPECIES.update({
                   "partner and protects her from anything, and the Venus marks that hang from its ears glow when "
                   "the two are close."),
         "spawns": [],
-        "how": ["Level up a female Eevee with another female Eevee in the party (the second evolves when it levels "
-                "up with the first Lesbeon in the party). It learns Double Kick when it evolves."],
+        "how": ["Put two female Eevee in your party: both get the chance to evolve into Lesbeon (accept it with the "
+                "Evolve button; the second can still evolve after the first, with a Lesbeon in the party). It learns "
+                "Double Kick when it evolves."],
     },
 })
 LINES["lesbeon"] = ["lesbeon"]
+
+# --- Ibuprofeon, an Eevee evolution for an Eevee that survives a fight on 1 HP -------------------------------------------
+
+IBU_CALLBACK = """'An Eevee that ends a battle on exactly 1 HP (having fought) gets the chance to evolve into Ibuprofeon.';
+for_each(t.actor, c.players, {
+  for_each(t.battle_pokemon, t.actor.battle_pokemon, {
+    t.pokemon = t.battle_pokemon.original_pokemon;
+    (t.battle_pokemon.has_faced_opponents && t.pokemon.current_hp == 1 && t.pokemon.matches('eevee')) ? {
+      t.pokemon.apply('ibuprofeon_ready');
+    };
+  });
+});
+"""
+SPECIES.update({
+    "ibuprofeon": {
+        "dex": 3063, "name": "Ibuprofeon", "line": "ibuprofeon", "types": ["poison", "normal"],
+        "male": 0.875, "egg_groups": ["field"], "friendship": 70, "catch": 45,
+        "abilities": ["sturdy", "h:regenerator"],
+        "ability_names": "Sturdy / Regenerator (hidden)",
+        "stats": stats(110, 65, 110, 60, 120, 60), "ev": evs(special_defence=2), "exp": 184,
+        "height": 9, "weight": 270, "shoulder": False, "walk": 0.3,
+        "pre": "cobblemon:eevee",
+        # the battle_ended callback flags an Eevee that survived on 1 HP; Cobblemon checks level-up evolutions every
+        # second and offers them as a choice (the Evolve button), so the flagged Eevee gets the chance to evolve
+        "evolves_from": ("cobblemon:eevee", "eevee_ibuprofeon",
+                         {"id": "eevee_ibuprofeon", "variant": "level_up", "result": "cobbleeffort:ibuprofeon",
+                          "consumeHeldItem": False, "learnableMoves": ["lifedew"],
+                          "requirements": [{"variant": "properties", "target": "ibuprofeon_ready"}]}),
+        "data_files": {
+            "cobbleeffort/species_features/ibuprofeon_ready.json":
+                {"keys": ["ibuprofeon_ready"], "type": "flag", "isAspect": False, "default": False},
+            "cobbleeffort/species_feature_assignments/ibuprofeon_ready.json":
+                {"pokemon": ["eevee"], "features": ["ibuprofeon_ready"]},
+            "cobblemon/callbacks/battle_ended/cobbleeffort_ibuprofeon.molang": IBU_CALLBACK,
+        },
+        "moves": [(1, "tackle"), (1, "tailwhip"), (1, "helpinghand"), (1, "growl"), (1, "covet"), (1, "copycat"),
+                  (1, "swift"), (1, "bite"), (1, "babydolleyes"), (1, "lifedew"), (5, "sandattack"),
+                  (10, "quickattack"), (15, "poisonfang"), (20, "endure"), (25, "venoshock"), (30, "recover"),
+                  (35, "toxic"), (40, "sludgebomb"), (45, "healbell"), (50, "painsplit"), (55, "lastresort")],
+        "tm": BASIC_TM + ["sludgebomb", "venoshock", "toxicspikes", "poisonjab", "gunkshot", "acidspray", "clearsmog",
+                          "recover", "painsplit", "healbell", "wish", "protect", "endure", "reflect", "lightscreen",
+                          "calmmind", "irondefense", "bodyslam", "doubleedge", "takedown", "swift", "shadowball",
+                          "batonpass", "yawn", "haze", "bodypress", "gigaimpact", "hyperbeam"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:paper", "1-2", None), ("cobblemon:potion", None, 10.0), ("cobblemon:full_heal", None, 2.5)],
+        "entry": ("An Eevee that hung on at the very edge of fainting evolved into Ibuprofeon. It is never without its "
+                  "bandages, and the pills on its tail ease the pain of any Pokémon that curls up beside it."),
+        "spawns": [],
+        "how": ["An Eevee that ends a battle on exactly 1 HP gets the chance to evolve into Ibuprofeon (accept it with "
+                "the Evolve button). It learns Life Dew when it evolves."],
+    },
+})
+LINES["ibuprofeon"] = ["ibuprofeon"]
 
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
@@ -1996,6 +2050,13 @@ def main():
     for sp, c in SPECIES.items():
         build_model(sp)
         write_json(data / "species" / c["line"] / f"{sp}.json", species_json(sp))
+        for rel, content in c.get("data_files", {}).items():   # extra data files (features, MoLang callbacks)
+            out = RES / "data" / rel
+            out.parent.mkdir(parents=True, exist_ok=True)
+            if isinstance(content, str):
+                out.write_text(content)
+            else:
+                write_json(out, content)
         if c.get("evolves_from"):                          # another mod's species evolves into ours (Cobblemon appends)
             target, name, evo = c["evolves_from"]
             write_json(data / "species_additions" / f"{name}.json",

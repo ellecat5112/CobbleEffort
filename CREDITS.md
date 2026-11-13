@@ -253,7 +253,8 @@ own. Pinlet, Pinnant and Pennacrest follow the pin-tailed bird family art the us
 (artist not named); their names, models, nest structure and Pokédex entries are our own. The CobbleEffort Tentacool and Tentacruel (deep-sea squids) follow the squid art the user
 shared (artist not named); their models and Pokédex entries are our own. The CobbleEffort Foongus and Amoonguss (Phillips-head screw mushrooms) follow the art the
 user shared (artist not named); their models and Pokédex entries are our own. Lesbeon (its name and design) is after
-the Lesbeon meme art the user shared (artist not named); its model, stats and Pokédex entry are our own.
+the Lesbeon meme art the user shared (artist not named); its model, stats and Pokédex entry are our own. Ibuprofeon (its name and design) is after
+the art by **psychedelic-lemur** that the user shared; its model, stats and Pokédex entry are our own.
 
 ## Code and data
 

@@ -215,6 +215,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   gender=female) with another female Eevee in the party (`party_member`, which skips the Pokémon itself), or with a
   Lesbeon in the party (so the second Eevee evolves too). Venus earrings are boxes >= 1 unit thick (thinner parts
   round to nothing in the texture); ears are triangle planes.
+  **Level-up evolutions are passive**: Cobblemon tests a party's `level_up` evolutions every second and offers the
+  passing ones with the Evolve button (optional), so requirement-only evolutions trigger without levelling.
+  Ibuprofeon (#3063, `models/ibuprofeon.py`; art by psychedelic-lemur, name kept): Poison/Normal Eeveelution; SPECIES
+  `data_files` writes extra data: a flag feature `ibuprofeon_ready` (assigned to Eevee) and a MoLang callback
+  `data/cobblemon/callbacks/battle_ended/cobbleeffort_ibuprofeon.molang` (like Cobblemon's burmy one: c.players ->
+  battle_pokemon -> original_pokemon; `current_hp == 1` + has_faced_opponents -> `apply('ibuprofeon_ready')`); Eevee's
+  evolution requires `properties: ibuprofeon_ready`. Cone of shame = overlapping rings of plates; blister-pack tail.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

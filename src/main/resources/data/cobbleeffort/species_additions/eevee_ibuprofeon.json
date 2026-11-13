@@ -1,0 +1,20 @@
+{
+ "target": "cobblemon:eevee",
+ "evolutions": [
+  {
+   "id": "eevee_ibuprofeon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ibuprofeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "lifedew"
+   ],
+   "requirements": [
+    {
+     "variant": "properties",
+     "target": "ibuprofeon_ready"
+    }
+   ]
+  }
+ ]
+}
