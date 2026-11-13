@@ -120,6 +120,7 @@ public final class Kanto {
 
     public static void init() {
         TABS.register();
+        Tar.register();                                     // the tar fluid (its block and bucket register below)
         BLOCKS.register();
         KantoArmor.MATERIALS.register();
         ITEMS.register();
@@ -129,6 +130,7 @@ public final class Kanto {
             BiomeModifications.addProperties(ctx -> ctx.hasTag(BiomeTags.IS_OVERWORLD),
                     (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, key));
         }
+        Tar.worldgen();
         KantoEvents.init();
         KantoGyms.init();
         KantoCommand.init();

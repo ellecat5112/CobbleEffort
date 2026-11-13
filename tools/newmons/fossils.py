@@ -5,12 +5,11 @@ icon (custom_model_data on the echo shard's model); Cobblemon's fossil entries m
 custom data, so the Fossil Analyzer and Restoration Tank revive it like any fossil. The items are found by brushing
 suspicious gravel in two structures of our own (archaeology loot tables):
 
-  tar_pit      deep underground (y -34), a cavern with a pool of black tar beside lava pockets, bubbling magma and
-               old bones sticking out; brushing the gravel at the tar's edge gives Ancient Tar (Petroleodd)
+  (tar_pit     moved to CobbleEffort: Kanto in 0.69.0 with real tar: Petroleodd is revived from a Bucket of Tar)
   spire_stump  in forests and swamps, a petrified Prototaxites stump with rings on its top, glowing froglight
                "mycelium" and a fallen spire segment; brushing the gravel round it gives a Spire Fossil (Mycolith)
-  riverbed     on the bottom of rivers and swamp pools, a patch of gravel, clay and sand with a few stones; brushing
-               its gravel gives a Minnow Fossil (Minnolith)
+  riverbed     on the bottom of rivers and swamp pools, a patch of gravel, clay and sand with a few stones and old bones
+               poking out; brushing its suspicious gravel (8 blocks) gives a Minnow Fossil (Minnolith)
   seabed       the same kind of bed on the sea floor (any ocean); its gravel gives a Telson Fossil (Scorpaddle)
 
 Structure templates are written with the Kanto add-on's NBT writer (kanto/tools/make_assets.py).
@@ -35,7 +34,9 @@ BASE_ITEM = "minecraft:echo_shard"
 CMD_BASE = 794800
 
 FOSSILS = {
-    "petroleodd": {"key": "tar", "item": "ancient_tar", "name": "Ancient Tar", "cmd": 1, "structure": "tar_pit",
+    # legacy (0.69.0): Petroleodd is revived from a Bucket of Tar now (CobbleEffort: Kanto's tar fluid); Ancient Tar is
+    # no longer found anywhere, but keeps its icon and fossil entry so items players already have still work
+    "petroleodd": {"key": "tar", "item": "ancient_tar", "name": "Ancient Tar", "cmd": 1, "structure": None, "legacy": True,
                    "fossil_name": "Ancient Tar",
                    "lore": "A lump of tar from a pit beside deep lava. Old bones stir inside it. Revive it at a "
                            "Restoration Tank."},
@@ -251,7 +252,10 @@ def riverbed(loot="riverbed"):
                   "minecraft:sand" if r < 0.88 else "minecraft:mud")
     for x, z in ((c - 2, c + 1), (c + 3, c), (c, c - 3)):
         t.set(x, 1, z, "minecraft:cobblestone" if h(x, z) > 0.5 else "minecraft:mossy_cobblestone")
-    for gx, gz in ((c, c), (c - 3, c - 1), (c + 2, c + 2), (c + 1, c - 2)):
+    for x, z, ax in ((c - 1, c + 3, "x"), (c, c + 3, "x"), (c + 3, c - 2, "z"), (c - 3, c - 3, "y")):
+        t.set(x, 1, z, "minecraft:bone_block", {"axis": ax})                     # old bones poking out: a fossil bed
+    for gx, gz in ((c, c), (c - 3, c - 1), (c + 2, c + 2), (c + 1, c - 2), (c - 1, c + 1), (c + 3, c + 1),
+                   (c - 2, c - 2), (c + 1, c + 3)):
         brushable(t, gx, 0, gz, f"{MOD}:archaeology/{loot}")
     return t
 
@@ -262,9 +266,6 @@ def seabed():
 
 
 STRUCTURES = {
-    "tar_pit": {"build": tar_pit, "biomes": ["#minecraft:is_overworld"], "step": "underground_structures",
-                "adapt": "none", "height": {"absolute": -34}, "project": None, "spacing": 28, "separation": 10,
-                "salt": 30241},
     "spire_stump": {"build": spire_stump, "biomes": ["minecraft:swamp", "minecraft:mangrove_swamp", "minecraft:dark_forest",
                                                      "minecraft:old_growth_spruce_taiga", "minecraft:old_growth_pine_taiga",
                                                      "minecraft:forest", "minecraft:birch_forest", "minecraft:taiga"],
@@ -280,14 +281,11 @@ STRUCTURES = {
 }
 
 LOOT = {
-    "tar_pit": [("fossil:petroleodd", 3), ("minecraft:bone", 4), ("minecraft:coal", 3), ("minecraft:bone_meal", 2),
-                ("minecraft:black_dye", 1)],
     "spire_stump": [("fossil:mycolith", 3), ("minecraft:brown_mushroom", 3), ("minecraft:stick", 2),
                     ("minecraft:tuff", 2), ("minecraft:bone_meal", 1)],
-    "riverbed": [("fossil:minnolith", 3), ("minecraft:clay_ball", 3), ("minecraft:flint", 2), ("minecraft:bone_meal", 1),
-                 ("minecraft:prismarine_shard", 1)],
-    "seabed": [("fossil:scorpaddle", 3), ("minecraft:prismarine_shard", 2), ("minecraft:nautilus_shell", 1),
-               ("minecraft:flint", 2), ("minecraft:bone_meal", 1)],
+    "riverbed": [("fossil:minnolith", 5), ("minecraft:clay_ball", 2), ("minecraft:flint", 2), ("minecraft:bone_meal", 1)],
+    "seabed": [("fossil:scorpaddle", 5), ("minecraft:prismarine_shard", 2), ("minecraft:nautilus_shell", 1),
+               ("minecraft:flint", 1), ("minecraft:bone_meal", 1)],
 }
 
 
@@ -347,4 +345,4 @@ def build(lang):
                    {"type": "minecraft:archaeology", "pools": [{"rolls": 1, "entries": pool}]})
     for name, s in STRUCTURES.items():
         write_structure(name, s, "fossil")
-    write_json(HERE / "creative_items.json", [stack(f) for f in FOSSILS.values()])
+    write_json(HERE / "creative_items.json", [stack(f) for f in FOSSILS.values() if not f.get("legacy")])

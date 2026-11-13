@@ -716,6 +716,9 @@ def build():
     import make_leagues                                     # 0.4.0: every region's gyms and Elite Four
     make_leagues.build()
     LANG.update(make_leagues.LANG)
+    import make_tar                                         # 0.6.0: tar, the overworld fluid (Petroleodd's fossil)
+    make_tar.build()
+    LANG.update(make_tar.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

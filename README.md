@@ -1222,9 +1222,11 @@ levels and early evolutions:
 **Fossils** (revived at Cobblemon's Fossil Analyzer and Restoration Tank, like any fossil):
 - **Petroleodd → Petroleossil** (Rock, then Rock/Dragon; design by @aalacer398, used with permission): a pile of
   ancient tar brought back to life with old Pokémon bones inside, evolving at **level 45 while holding a King's Rock**
-  into a massive mound of tar with a tyrant's fossil skull rising out of it. Its fossil, **Ancient Tar**, comes from
-  **tar pits**: caverns deep underground (around y -30) with a pool of black tar beside pockets of lava. Brush the
-  suspicious gravel round the tar.
+  into a massive mound of tar with a tyrant's fossil skull rising out of it (the King's Rock is used up). Since 0.69.0
+  its fossil is a **Bucket of Tar** (needs **CobbleEffort: Kanto** 0.6.0+, which adds tar): a slow, sticky black fluid
+  that pools in **tar lakes** on the surface of badlands, deserts, savannas and swamps and underground, and in **tar
+  pits** deep underground (around y -30). Scoop it up with an empty bucket and put the bucket in the Fossil Analyzer
+  (the bucket goes in with it). Old Ancient Tar items still revive Petroleodd but are no longer found.
 - **Mycolith → Taxitower** (Rock/Poison, level 38; the Prototaxites idea came from Gemini): a petrified fungal
   stump that grows into an 8-metre spire venting golden spores. Its fossil, the **Spire Fossil**, comes from
   **petrified spire stumps** in forests and swamps: brush the suspicious gravel round them. Its own ability
@@ -1233,7 +1235,7 @@ levels and early evolutions:
   turns, hurting every grounded opponent that isn't Poison or Steel type by 1/8 of its HP each turn and lowering its
   Speed.
 
-Both fossil items are in the CobbleEffort creative tab.
+The Spire, Minnow and Telson Fossils are in the CobbleEffort creative tab; the Bucket of Tar is in Kanto's.
 
 **Jerbolt → Mesmerboa** (Electric/Psychic; design by NyonTox, used with permission): CobbleEffort's Pikachu-like
 mice, after desert hopping mice (jerboas). They float, and their excessively long tails curl into a full ring round
@@ -1325,7 +1327,8 @@ Placofin is a long bullet-headed fish in armour plates with brown dorsal spikes,
 legs it walks along riverbeds on. Swift Swim or Shell Armor, hidden Rattled; Aqua Jet, Ancient Power, Aqua Tail and
 Iron Defense, then Head Smash (on evolving), Liquidation, Stone Edge and Wave Crash. Revived from a **Minnow Fossil**,
 found by brushing the suspicious gravel of fossil beds on the bottoms of rivers and swamps (a patch of gravel, clay and
-sand with a few stones). Shiny: goldfish orange with deep red fins.
+sand under the water, marked by bone blocks; since 0.69.0 each bed has eight suspicious gravel and the fossil is the
+likeliest find). Shiny: goldfish orange with deep red fins.
 
 **Scorpaddle → Pterygant** (Bug/Water fossils, level 40), ancient sea scorpions (eurypterids). Scorpaddle is a round
 yellow sea scorpion with a stepped magenta stripe down its ringed shell, big dark eyes, brown swimming paddles and a
@@ -1447,7 +1450,7 @@ mangrove swamps and in badlands, Crabgron rare there.
 | 3021 | **Elastigoose** | Water / Flying | Water Veil / Own Tempo / Unaware (hidden) | 80 / 70 / 70 / 80 / 70 / 75 | 4'11" (1.5 m) / 22 kg | Evolve Squeakling at level 25. Wild: uncommon on rivers, ponds and swamps. | Its neck stretches like rubber, letting it snatch food from the riverbed or honk right in a foe's face from far away. Its honk is so loud it can be heard three valleys over. |
 | 3022 | **Raddent** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 35 / 56 / 35 / 25 / 35 / 72 | 1'0" (0.3 m) / 4 kg | Wild: common in plains, grasslands, forests and villages. Evolves into Rattlebunch at level 20. | It plants itself in a vegetable patch and pretends to be a radish until the farmer goes home, then nibbles everything in sight. Pull on its leaves and it squeaks and bolts. |
 | 3023 | **Rattlebunch** | Grass / Normal | Run Away / Harvest / Guts (hidden) | 75 / 88 / 70 / 50 / 70 / 97 | 2'7" (0.8 m) / 18 kg | Evolve Raddent at level 20. Wild: rare in plains and grasslands. | Several Raddent whose leaves grew tangled together in the same patch, tied fast with a farmer's twine. They argue constantly about which way to run, but when they agree, nothing can catch them. |
-| 3024 | **Petroleodd** | Rock | Gooey / Sticky Hold / Rock Head (hidden) | 70 / 60 / 80 / 55 / 65 / 30 | 2'0" (0.6 m) / 41 kg | Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel round the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava. Evolves into Petroleossil at level 45 while holding a King's Rock. | A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones of old Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away stuck. |
+| 3024 | **Petroleodd** | Rock | Gooey / Sticky Hold / Rock Head (hidden) | 70 / 60 / 80 / 55 / 65 / 30 | 2'0" (0.6 m) / 41 kg | Revive a Bucket of Tar at a Fossil Analyzer (needs CobbleEffort: Kanto). Tar is a sticky black fluid that pools in tar lakes on the surface of badlands, deserts, savannas and swamps, underground, and in tar pits deep underground (around y -30): scoop it up with an empty bucket. Evolves into Petroleossil at level 45 while holding a King's Rock. | A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones of old Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away stuck. |
 | 3025 | **Petroleossil** | Rock / Dragon | Gooey / Sticky Hold / Rock Head (hidden) | 110 / 115 / 110 / 75 / 90 / 40 | 13'1" (4 m) / 420 kg | Evolve Petroleodd at level 45 while it holds a King's Rock (the King's Rock is used up). | Holding a King's Rock, Petroleodd swallows tar and sludge until it becomes a mountain of it, with the fossil skull of an ancient tyrant floating up through the middle. It roars through its jaws. |
 | 3026 | **Mycolith** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 80 / 50 / 90 / 65 / 60 / 20 | 3'7" (1.1 m) / 83.9 kg | Revive a Spire Fossil at a Restoration Tank. Spire Fossils are found by brushing the suspicious gravel round petrified spire stumps in forests and swamps. Evolves into Taxitower at level 38. | Revived from the Spire Fossil. Over 400 million years ago, fields of Mycolith dominated the barren land before true trees ever took root. Researchers originally mistook its fossilized remains for ancient timber. |
 | 3027 | **Taxitower** | Rock / Poison | Paleomycelium (its own: Grass moves get STAB; immune to Leech Seed, powder and spore moves) / Effect Spore (hidden) | 115 / 70 / 125 / 95 / 85 / 25 | 26'3" (8 m) / 644.1 kg | Evolve Mycolith at level 38. | Towering over ancient swamps, Taxitower absorbed nutrients from the surrounding soil through miles of underground threads. When threatened, it releases blinding clouds of prehistoric spores that haven't been breathed in eons. |

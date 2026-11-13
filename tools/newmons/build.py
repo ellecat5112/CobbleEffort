@@ -613,8 +613,9 @@ SPECIES.update({
         "entry": ("A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones of old "
                   "Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away stuck."),
         "spawns": [],
-        "how": ["Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel round "
-                "the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava.",
+        "how": ["Revive a Bucket of Tar at a Fossil Analyzer (needs CobbleEffort: Kanto). Tar is a sticky black fluid "
+                "that pools in tar lakes on the surface of badlands, deserts, savannas and swamps, underground, and in "
+                "tar pits deep underground (around y -30): scoop it up with an empty bucket.",
                 "Evolves into Petroleossil at level 45 while holding a King's Rock."],
     },
     "petroleossil": {
@@ -2130,6 +2131,10 @@ def species_json(sp):
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),
                             "learnableMoves": learn,
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
+        if c.get("consume"):
+            # Cobblemon takes the held item as soon as it OFFERS the evolution (the Evolve button), then drops offers
+            # whose requirements stop passing unless they're permanent: like its own Happiny/Oval Stone evolution
+            d["evolutions"][0]["permanent"] = True
     pre = [s for s, o in SPECIES.items() if (o["evolve"] and o["evolve"][0] == sp)
            or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)]
     if c.get("pre"):                                        # evolves from another mod's form (e.g. a regional one)
@@ -2246,6 +2251,8 @@ def main():
     import nests                                             # nest structures (the pinbirds spawn at theirs)
     nests.build(lang)
     _tufts.build(lang)                                       # Aetherim's elemental tufts (cosmetic items + named tufts)
+    import subprocess                                       # the creative tab's item list (fossils, tufts, collections)
+    subprocess.run([sys.executable, str(HERE.parent / "make_creative_tab.py")], check=True)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))

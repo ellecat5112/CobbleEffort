@@ -1969,8 +1969,9 @@ cobbleeffort:cavitot.
   Pokedex: "A pile of tar from the bottom of an ancient tar pit, brought back to life with the bones
   of old Pokémon still inside it. It is sleepy and slow, and anything that touches it comes away
   stuck."
-  * Revive Ancient Tar at a Restoration Tank. Ancient Tar is found by brushing the suspicious gravel
-    round the tar pools of tar pits, caverns deep underground (around y -30) beside pockets of lava.
+  * Revive a Bucket of Tar at a Fossil Analyzer (needs CobbleEffort: Kanto). Tar is a sticky black
+    fluid that pools in tar lakes on the surface of badlands, deserts, savannas and swamps,
+    underground, and in tar pits deep underground (around y -30): scoop it up with an empty bucket.
   * Evolves into Petroleossil at level 45 while holding a King's Rock.
 
 #3025 PETROLEOSSIL  (Rock / Dragon; Gooey / Sticky Hold / Rock Head (hidden))

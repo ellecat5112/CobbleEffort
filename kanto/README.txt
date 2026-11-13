@@ -131,7 +131,16 @@ HISUI, NOBLES AND TOTEM TRIALS (NEW in 0.5.0)
     Stamp and the type's Z-Crystal from Mega Showdown. Alola's Elite Four still wants all eight stamps.
     (In a world from 0.4.0, Alola's gyms are replaced by the trials the next time someone arrives in Alola.)
 
+TAR (NEW in 0.6.0)
+  - Tar: a slow, sticky black fluid of the overworld. It pools in tar lakes on the surface of badlands, deserts,
+    savannas and swamps, in tar lakes underground (like lava lakes), and in tar pits: caverns deep underground
+    (around y -30) with a tar pool beside pockets of lava (/locate structure cobbleeffort_kanto:tar_pit). Wading
+    through it slows you right down. It spreads like lava but is cold and never makes new source blocks.
+  - Scoop it up with an empty bucket: a Bucket of Tar is the fossil CobbleEffort's Petroleodd is revived from. Put it
+    in Cobblemon's Fossil Analyzer like any fossil (the bucket goes in with it). It's in the Kanto creative tab.
+
 PLEASE TEST AND REPORT
+  0.6.0: find a tar lake or tar pit, fill a bucket, pour it out again, and revive Petroleodd from the bucket.
   0.5.0: find the great mountain and climb to the sculpture; in Hisui, do Pokemon appear in their Hisuian forms,
   and can you battle and calm the Nobles? In Alola, do the totems appear, and do you get the stamp and Z-Crystal?
   0.4.0: travel to another region: do its gyms appear (/kanto gyms), can you battle its leaders, do you get its
@@ -149,6 +158,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.6.0: tar (fluid, Bucket of Tar, tar lakes, tar pits moved here from CobbleEffort); a Bucket of Tar revives
+         CobbleEffort's Petroleodd at the Fossil Analyzer.
   0.5.0: Hisui (dimension, great mountain with the Arceus sculpture, Hisuian forms, five frenzied Noble boss arenas,
          Noble Seals, Hisui Hero Ribbon); Alola's gyms became totem trials (totem bosses, trial stamps, Z-Crystals).
   0.4.0: every region (Johto to Paldea) has its own eight gyms, Elite Four, badges and Champion Ribbon; gym building

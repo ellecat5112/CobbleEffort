@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#cobbleeffort_kanto:has_structure/tar_pit",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "cobbleeffort_kanto:tar_pit",
+  "size": 1,
+  "start_height": {
+    "absolute": -34
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}
