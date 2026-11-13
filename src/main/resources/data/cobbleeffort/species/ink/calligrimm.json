@@ -1,0 +1,174 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3056,
+ "name": "Calligrimm",
+ "primaryType": "dark",
+ "secondaryType": "steel",
+ "maleRatio": 0.5,
+ "height": 70,
+ "weight": 9990,
+ "pokedex": [
+  "cobbleeffort.species.calligrimm.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "liquidooze",
+  "stickyhold",
+  "h:clearbody"
+ ],
+ "eggGroups": [
+  "amorphous",
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 125,
+  "defence": 110,
+  "special_attack": 90,
+  "special_defence": 85,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 25,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 2.2,
+ "hitbox": {
+  "width": 3.6,
+  "height": 6.8,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "4-8"
+   },
+   {
+    "item": "minecraft:glass",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:crunch",
+  "1:watergun",
+  "1:smokescreen",
+  "4:metalclaw",
+  "8:octazooka",
+  "12:pursuit",
+  "16:bite",
+  "20:mirrorshot",
+  "24:nightslash",
+  "28:ironhead",
+  "50:crunch",
+  "55:throatchop",
+  "60:steelbeam",
+  "65:hammerarm",
+  "70:foulplay",
+  "egg:acidarmor",
+  "egg:spite",
+  "egg:memento",
+  "egg:aquaring",
+  "egg:destinybond",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:darkpulse",
+  "tm:snarl",
+  "tm:nightslash",
+  "tm:knockoff",
+  "tm:thief",
+  "tm:taunt",
+  "tm:nastyplot",
+  "tm:foulplay",
+  "tm:suckerpunch",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:metalclaw",
+  "tm:smartstrike",
+  "tm:shadowball",
+  "tm:sludgebomb",
+  "tm:gunkshot",
+  "tm:acidspray",
+  "tm:haze",
+  "tm:toxic",
+  "tm:confuseray",
+  "tm:painsplit",
+  "tm:brickbreak",
+  "tm:xscissor",
+  "tm:earthquake",
+  "tm:hammerarm",
+  "tm:crunch",
+  "tm:throatchop",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hydropump",
+  "tm:outrage",
+  "tm:heavyslam",
+  "tm:stoneedge",
+  "tm:powerwhip"
+ ],
+ "preEvolution": "cobbleeffort:incwell"
+}

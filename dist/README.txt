@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 56 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 59 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2204,6 +2204,32 @@ cobbleeffort:cavitot.
   * Wild: rare in hills, mountains and highlands.
   * Give it an elemental Tuft (or the matching wool, or a feather for Flying) in its cosmetic slot
     and it becomes that type.
+
+#3054 INCL  (Water / Steel; Liquid Ooze / Sticky Hold / Clear Body (hidden))
+  a small glossy blob of ink with glowing yellow eyes and a silver calligraphy pen nib for a face
+  Stats: HP 40  Atk 45  Def 55  SpA 50  SpD 45  Spe 35  (total 270)
+  Pokedex: "A drop of ink that came to life on the page of an old letter. The silver pen nib it
+  wears as a face is sharp, and it scribbles angry lines on anything that bothers it."
+  * Wild: rare at night in villages, and in deep-dark and dripstone caves.
+  * Evolves into Incwell at level 30.
+
+#3055 INCWELL  (Dark / Steel; Liquid Ooze / Sticky Hold / Clear Body (hidden))
+  a column of glossy ink rising out of a glass inkwell, with a big silver pen nib for a head,
+  glowing yellow eyes and two long dripping arms
+  Stats: HP 60  Atk 75  Def 80  SpA 70  SpD 65  Spe 50  (total 400)
+  Pokedex: "It lives in an inkwell it found in an abandoned study and never leaves it. At night it
+  rises out of the well and writes threats on the walls with the tip of its nib."
+  * Evolve Incl at level 30. It learns Dark Pulse when it evolves.
+  * Evolves into Calligrimm at level 50.
+
+#3056 CALLIGRIMM  (Dark / Steel; Liquid Ooze / Sticky Hold / Clear Body (hidden))
+  a gargantuan ink kaiju crowned by a huge pen nib and horns of glowing ink-fire, with pen-nib claws
+  and a gaping maw of broken glass shards in its chest
+  Stats: HP 100  Atk 125  Def 110  SpA 90  SpD 85  Spe 50  (total 560)
+  Pokedex: "A titan of living ink, tall as a castle tower. The shards of its shattered inkwell
+  became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once
+  begged it never to write their names."
+  * Evolve Incwell at level 50. It learns Crunch when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

@@ -1,0 +1,198 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.incl",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "incl",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "incl",
+     "pivot": [
+      0.0,
+      7.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.4,
+        5.5,
+        -2.0
+       ],
+       "size": [
+        7,
+        5,
+        4
+       ],
+       "uv": [
+        20,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -2.2,
+        5.45,
+        -3.2
+       ],
+       "size": [
+        4,
+        5,
+        6
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -2.2,
+        10.2,
+        -1.2
+       ],
+       "size": [
+        4,
+        2,
+        2
+       ],
+       "uv": [
+        12,
+        11
+       ]
+      },
+      {
+       "origin": [
+        -1.4,
+        10.15,
+        -2.0
+       ],
+       "size": [
+        3,
+        2,
+        4
+       ],
+       "uv": [
+        42,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -0.5,
+        13,
+        -0.5
+       ],
+       "size": [
+        1,
+        1,
+        1
+       ],
+       "uv": [
+        24,
+        11
+       ]
+      }
+     ]
+    },
+    {
+     "name": "head",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      6.0,
+      -3.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -2.1,
+        6.6,
+        -3.35
+       ],
+       "size": [
+        1,
+        1,
+        0
+       ],
+       "uv": [
+        28,
+        11
+       ]
+      },
+      {
+       "origin": [
+        0.7,
+        6.6,
+        -3.35
+       ],
+       "size": [
+        1,
+        1,
+        0
+       ],
+       "uv": [
+        30,
+        11
+       ]
+      },
+      {
+       "origin": [
+        -3,
+        0.5,
+        -3.4
+       ],
+       "size": [
+        6,
+        6,
+        0
+       ],
+       "uv": [
+        0,
+        11
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "incl",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "incl",
+     "pivot": [
+      0,
+      14.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

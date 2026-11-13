@@ -1146,5 +1146,109 @@
     "retextured": "cobbleeffort:textures/pokemon/3053_aetherim/aetherim_shiny_glow_0.png"
    }
   ]
+ },
+ {
+  "species": "incl",
+  "folder": "3054_incl",
+  "model": "cobbleeffort:incl.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3054_incl/incl.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3054_incl/incl_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "incl_shiny",
+  "folder": "3054_incl",
+  "model": "cobbleeffort:incl.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3054_incl/incl_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3054_incl/incl_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "incwell",
+  "folder": "3055_incwell",
+  "model": "cobbleeffort:incwell.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "incwell_shiny",
+  "folder": "3055_incwell",
+  "model": "cobbleeffort:incwell.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3055_incwell/incwell_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "calligrimm",
+  "folder": "3056_calligrimm",
+  "model": "cobbleeffort:calligrimm.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "calligrimm_shiny",
+  "folder": "3056_calligrimm",
+  "model": "cobbleeffort:calligrimm.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_shiny_shell.png"
+   }
+  ]
  }
 ]

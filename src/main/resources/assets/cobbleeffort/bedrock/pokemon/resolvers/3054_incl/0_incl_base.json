@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:incl",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:incl",
+   "model": "cobbleeffort:incl.geo",
+   "texture": "cobbleeffort:textures/pokemon/3054_incl/incl.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3054_incl/incl_glow_0.png",
+       "cobbleeffort:textures/pokemon/3054_incl/incl_glow_1.png",
+       "cobbleeffort:textures/pokemon/3054_incl/incl_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3054_incl/incl_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3054_incl/incl_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3054_incl/incl_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3054_incl/incl_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

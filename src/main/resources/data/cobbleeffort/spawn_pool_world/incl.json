@@ -1,0 +1,48 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "incl-village",
+   "pokemon": "cobbleeffort:incl",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "10-30",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "structures": [
+     "#minecraft:village"
+    ],
+    "timeRange": "night"
+   }
+  },
+  {
+   "id": "incl-cave",
+   "pokemon": "cobbleeffort:incl",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "10-30",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": false,
+    "biomes": [
+     "minecraft:deep_dark",
+     "minecraft:dripstone_caves"
+    ]
+   }
+  }
+ ]
+}

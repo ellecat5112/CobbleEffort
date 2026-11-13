@@ -1324,6 +1324,72 @@ SPECIES.update({
 })
 LINES["aetherim"] = ["aetherim"]
 
+# --- the ink line: blot, inkwell, ink titan -----------------------------------------------------------------------------
+
+INK = dict(male=0.5, egg_groups=["amorphous", "mineral"], friendship=50,
+           abilities=["liquidooze", "stickyhold", "h:clearbody"],
+           ability_names="Liquid Ooze / Sticky Hold / Clear Body (hidden)", growth="slow")
+INK_TM = BASIC_TM + ["waterpulse", "surf", "scald", "chillingwater", "raindance", "darkpulse", "snarl", "nightslash",
+                     "knockoff", "thief", "taunt", "nastyplot", "foulplay", "suckerpunch", "flashcannon",
+                     "ironhead", "irondefense", "steelbeam", "metalclaw", "smartstrike", "shadowball", "sludgebomb",
+                     "gunkshot", "acidspray", "haze", "toxic", "confuseray", "painsplit", "brickbreak", "xscissor"]
+INK_TM_BIG = ["earthquake", "hammerarm", "crunch", "throatchop", "gigaimpact", "hyperbeam", "hydropump", "outrage",
+              "heavyslam", "stoneedge", "powerwhip"]
+INK_EARLY = [(1, "watergun"), (1, "smokescreen"), (4, "metalclaw"), (8, "octazooka"), (12, "pursuit"), (16, "bite"),
+             (20, "mirrorshot"), (24, "nightslash"), (28, "ironhead")]
+
+SPECIES.update({
+    "incl": {
+        "dex": 3054, "name": "Incl", "line": "ink", "types": ["water", "steel"], **INK,
+        "stats": stats(40, 45, 55, 50, 45, 35), "ev": evs(defence=1), "catch": 45, "exp": 60,
+        "height": 4, "weight": 30, "shoulder": True, "walk": 0.22,
+        "moves": INK_EARLY + [(32, "darkpulse")],
+        "tm": INK_TM, "egg": ["acidarmor", "spite", "memento", "aquaring", "destinybond"],
+        "evolve": ("incwell", 30, ["darkpulse"]),
+        "drops": [("minecraft:ink_sac", "1-2", None), ("minecraft:iron_nugget", "0-2", None)],
+        "entry": ("A drop of ink that came to life on the page of an old letter. The silver pen nib it wears as a face "
+                  "is sharp, and it scribbles angry lines on anything that bothers it."),
+        "spawns": [route_spawn("incl-village", "rare", "10-30", 1.5, ["#cobblemon:is_overworld"],
+                               structures=["#minecraft:village"], timeRange="night"),
+                   spawn("incl-cave", "rare", "10-30", 1.0, {"canSeeSky": False, "biomes": ["minecraft:deep_dark",
+                                                                                          "minecraft:dripstone_caves"]})],
+        "how": ["Wild: rare at night in villages, and in deep-dark and dripstone caves.",
+                "Evolves into Incwell at level 30."],
+    },
+    "incwell": {
+        "dex": 3055, "name": "Incwell", "line": "ink", "types": ["dark", "steel"], **INK,
+        "stats": stats(60, 75, 80, 70, 65, 50), "ev": evs(attack=1, defence=1), "catch": 45, "exp": 144,
+        "height": 13, "weight": 290, "shoulder": False, "walk": 0.25,
+        "moves": [(1, "darkpulse")] + INK_EARLY + [(30, "darkpulse"), (34, "knockoff"), (38, "flashcannon"),
+                                                   (43, "foulplay"), (48, "nastyplot")],
+        "tm": INK_TM, "egg": ["acidarmor", "spite", "memento", "aquaring", "destinybond"],
+        "evolve": ("calligrimm", 50, ["crunch"]),
+        "drops": [("minecraft:ink_sac", "2-3", None), ("minecraft:glass_bottle", "0-1", None),
+                  ("minecraft:iron_nugget", "1-3", None)],
+        "entry": ("It lives in an inkwell it found in an abandoned study and never leaves it. At night it rises out "
+                  "of the well and writes threats on the walls with the tip of its nib."),
+        "spawns": [],
+        "how": ["Evolve Incl at level 30. It learns Dark Pulse when it evolves.", "Evolves into Calligrimm at level 50."],
+    },
+    "calligrimm": {
+        "dex": 3056, "name": "Calligrimm", "line": "ink", "types": ["dark", "steel"], **INK,
+        "stats": stats(100, 125, 110, 90, 85, 50), "ev": evs(attack=3), "catch": 25, "exp": 270,
+        "height": 70, "weight": 9990, "shoulder": False, "walk": 0.22,
+        "moves": [(1, "crunch")] + INK_EARLY + [(50, "crunch"), (55, "throatchop"), (60, "steelbeam"),
+                                                 (65, "hammerarm"), (70, "foulplay")],
+        "tm": INK_TM + INK_TM_BIG, "egg": ["acidarmor", "spite", "memento", "aquaring", "destinybond"],
+        "evolve": None,
+        "drops": [("minecraft:ink_sac", "4-8", None), ("minecraft:glass", "1-3", None), ("minecraft:iron_ingot", "1-3", None),
+                  ("cobblemon:black_glasses", None, 8.0)],
+        "entry": ("A titan of living ink, tall as a castle tower. The shards of its shattered inkwell became its fangs, "
+                  "and old tales say whatever it writes with its claws comes true, so kingdoms once begged it never "
+                  "to write their names."),
+        "spawns": [],
+        "how": ["Evolve Incwell at level 50. It learns Crunch when it evolves."],
+    },
+})
+LINES["ink"] = ["incl", "incwell", "calligrimm"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

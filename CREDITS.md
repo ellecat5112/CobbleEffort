@@ -242,7 +242,9 @@ artist isn't named); their names, types, models and Pokédex entries are our own
 names and designs) are after the fakemon art by **@Fakemanss** that the user shared; their models, Joey Slingshot
 and Pokédex entries are our own. Aetherim (its name and design) is after the fakemon art by **@LMRTRAINER** that the user
 shared, with the user's idea of it taking the type of the tuft of hair it holds; its model, type forms, Tufts and
-Pokédex entry are our own.
+Pokédex entry are our own. Incl, Incwell and Calligrimm (their names, types and designs) are after the fakemon art the user
+shared (artist not named), with the user's additions (the inkwell, the kaiju size and the glass-shard maw); their
+models and Pokédex entries are our own.
 
 ## Code and data
 

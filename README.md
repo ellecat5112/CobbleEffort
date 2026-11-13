@@ -1357,6 +1357,15 @@ wool + iron ingot, pink wool + pink petals). Its pearls and eyes glow in the typ
 Swift, Tri Attack, Calm Mind, Hyper Voice and Revelation Dance, which takes its type. Genderless; rare in hills,
 mountains and highlands. Shiny: a pale gold crest and bronze fists.
 
+**Incl → Incwell → Calligrimm** (Water/Steel → Dark/Steel, levels 30 and 50), living ink. Incl is a small blob of
+ink with glowing yellow eyes and a calligraphy pen nib for a face; Incwell rises out of a glass inkwell with a big nib for
+a head and two long dripping arms; Calligrimm is a gargantuan ink kaiju (about seven blocks tall) crowned by a huge nib
+and horns of glowing ink-fire, with claws of pen nibs on its two massive arms, ink tentacles spreading over the ground and
+a gaping maw of broken-glass fangs in its chest. Liquid Ooze or Sticky Hold, hidden Clear Body; Octazooka, Mirror Shot,
+Night Slash and Iron Head, then Dark Pulse, Knock Off, Flash Cannon, Foul Play and Nasty Plot, and Crunch, Throat Chop,
+Steel Beam and Hammer Arm. Incl is rare at night in villages and in deep-dark and dripstone caves. Shiny: royal-blue ink
+and gold nibs.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1413,6 +1422,9 @@ mountains and highlands. Shiny: a pale gold crest and bronze fists.
 | 3051 | **Obubby** | Normal | Pickup / Cute Charm / Friend Guard (hidden) | 55 / 40 / 45 / 35 / 45 / 35 | 1'4" (0.4 m) / 3.2 kg | Wild: common in forests and plains at night. Evolves into Mumossum at level 30, and learns Joey Slingshot when it does. | It clings to its mother's back for weeks after it is born, hugging its own long tail when it gets scared. When something startles it, it flops over and plays dead, curl of hair and all. |
 | 3052 | **Mumossum** | Normal / Fairy | Cute Charm / Healer / Friend Guard (hidden) | 105 / 70 / 80 / 75 / 95 / 50 | 4'3" (1.3 m) / 41 kg | Evolve Obubby at level 30. It learns Joey Slingshot when it evolves. Wild: uncommon in forests and plains at night. | It carries a half dozen of its babies wherever it goes. When something threatens them it plucks the bravest ones off its back and slings them at the enemy with its tail; they come straight back to it, very pleased with themselves. |
 | 3053 | **Aetherim** | Normal | Adaptability / Levitate (hidden) | 70 / 80 / 80 / 80 / 80 / 80 | 1'8" (0.5 m) / 12 kg | Wild: rare in hills, mountains and highlands. Give it an elemental Tuft (or the matching wool, or a feather for Flying) in its cosmetic slot and it becomes that type. | A little golem of pure energy that shapes a body around a pearl. Give it a tuft of hair charged with a type's energy and it soaks it up, glowing that type's colour and becoming that type. |
+| 3054 | **Incl** | Water / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 40 / 45 / 55 / 50 / 45 / 35 | 1'4" (0.4 m) / 3 kg | Wild: rare at night in villages, and in deep-dark and dripstone caves. Evolves into Incwell at level 30. | A drop of ink that came to life on the page of an old letter. The silver pen nib it wears as a face is sharp, and it scribbles angry lines on anything that bothers it. |
+| 3055 | **Incwell** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 60 / 75 / 80 / 70 / 65 / 50 | 4'3" (1.3 m) / 29 kg | Evolve Incl at level 30. It learns Dark Pulse when it evolves. Evolves into Calligrimm at level 50. | It lives in an inkwell it found in an abandoned study and never leaves it. At night it rises out of the well and writes threats on the walls with the tip of its nib. |
+| 3056 | **Calligrimm** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 100 / 125 / 110 / 90 / 85 / 50 | 23'0" (7 m) / 999 kg | Evolve Incwell at level 50. It learns Crunch when it evolves. | A titan of living ink, tall as a castle tower. The shards of its shattered inkwell became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once begged it never to write their names. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1452,6 +1464,8 @@ mountains and highlands. Shiny: a pale gold crest and bronze fists.
 ![Obubby and Mumossum, regular and shiny](docs/newmons_possum.png)
 
 ![Aetherim: normal, shiny and eight of its type forms](docs/newmons_aetherim.png)
+
+![Incl, Incwell and Calligrimm: front, side and shiny](docs/newmons_ink.png)
 
 ## CobbleEffort regional forms
 

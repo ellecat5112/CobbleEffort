@@ -1,0 +1,166 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3054,
+ "name": "Incl",
+ "primaryType": "water",
+ "secondaryType": "steel",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 30,
+ "pokedex": [
+  "cobbleeffort.species.incl.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "liquidooze",
+  "stickyhold",
+  "h:clearbody"
+ ],
+ "eggGroups": [
+  "amorphous",
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 45,
+  "defence": 55,
+  "special_attack": 50,
+  "special_defence": 45,
+  "speed": 35
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 60,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.5,
+  "height": 0.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:watergun",
+  "1:smokescreen",
+  "4:metalclaw",
+  "8:octazooka",
+  "12:pursuit",
+  "16:bite",
+  "20:mirrorshot",
+  "24:nightslash",
+  "28:ironhead",
+  "32:darkpulse",
+  "egg:acidarmor",
+  "egg:spite",
+  "egg:memento",
+  "egg:aquaring",
+  "egg:destinybond",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:darkpulse",
+  "tm:snarl",
+  "tm:nightslash",
+  "tm:knockoff",
+  "tm:thief",
+  "tm:taunt",
+  "tm:nastyplot",
+  "tm:foulplay",
+  "tm:suckerpunch",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:metalclaw",
+  "tm:smartstrike",
+  "tm:shadowball",
+  "tm:sludgebomb",
+  "tm:gunkshot",
+  "tm:acidspray",
+  "tm:haze",
+  "tm:toxic",
+  "tm:confuseray",
+  "tm:painsplit",
+  "tm:brickbreak",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "incl_incwell",
+   "variant": "level_up",
+   "result": "cobbleeffort:incwell",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "darkpulse"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ]
+}

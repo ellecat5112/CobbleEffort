@@ -209,6 +209,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   sets aspect `<type>-tuft` -> species form "<Type>" (SPECIES "forms"). Models may declare `FORM_VARIANTS` [(aspect,
   key)]: build.py paints each as variant key and key_shiny (+ glow layer) and adds resolver variations. Revelation
   Dance = its type-following attack (Judgment would stay Normal without a plate).
+  Incl -> Incwell -> Calligrimm (#3054-3056, line "ink", `models/_ink.py`; the art's names, artist not named):
+  Water/Steel -> Dark/Steel -> Dark/Steel at 30/50, growth slow; nibs are cut-out xy planes (`nibf(cx, tip_y, w, h,
+  tip_up)`), ink-fire horns crossed planes (`firef(axis, centre, base, height, width)`), Calligrimm's maw = dark plate
+  + glass-shard spikes (translucent shell) with a `jaw` bone, base tentacles in a `skirt` bone; baseScale 2.2 (kaiju).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat
