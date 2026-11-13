@@ -112,6 +112,7 @@ def main():
         f"{NS}.ability_set": "%s now has %s.",
         f"{NS}.info": "%s: head %s, body %s; %s; base stats %s",
         f"{NS}.info.none": "No fusions in your party.",
+        f"{NS}.design_credit": "Colours from the Pokémon Infinite Fusion sprite by %s (via the Infinite Dex).",
         f"{NS}.error.same": "A Pokémon can't be fused with itself.",
         f"{NS}.error.already": "A fusion can't be fused again: unfuse it first.",
         f"{NS}.error.party": "Both Pokémon must be in your party.",

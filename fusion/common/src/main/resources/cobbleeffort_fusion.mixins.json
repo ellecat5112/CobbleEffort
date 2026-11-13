@@ -4,6 +4,6 @@
   "package": "io.github.cobbleeffort.fusion.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": ["StatProviderMixin", "PokemonTypesMixin", "BattleRegistryMixin"],
-  "client": ["PosableModelMixin"],
+  "client": ["PosableModelMixin", "TextureMixin"],
   "injectors": {"defaultRequire": 1}
 }

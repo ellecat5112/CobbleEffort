@@ -44,6 +44,7 @@ public final class Fusion {
         TABS.register();
         ITEMS.register();
         FusionCommand.init();
+        FusionDesigns.preload();
         if (Platform.getEnvironment() == Env.CLIENT) {
             io.github.cobbleeffort.fusion.client.FusionRender.init();
         }

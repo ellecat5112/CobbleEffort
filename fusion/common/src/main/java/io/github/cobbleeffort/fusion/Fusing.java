@@ -175,6 +175,9 @@ public final class Fusing {
 
     /** The fusion's name: Infinite Fusion style (head's first part + body's last part). */
     public static String fusionName(Pokemon head, Pokemon body) {
+        String game = FusionDesigns.name(FusionDesigns.key(head.getSpecies().getResourceIdentifier(), head.getAspects()),
+                FusionDesigns.key(body.getSpecies().getResourceIdentifier(), FusionRules.withoutFusion(body.getAspects())));
+        if (game != null) return game;                                // Infinite Fusion's own name for the pair
         return FusionRules.fusedName(head.getSpecies().getTranslatedName().getString(), body.getSpecies().getTranslatedName().getString());
     }
 
@@ -200,11 +203,24 @@ public final class Fusing {
         String head = data.getString("head_ability");
         MutableComponent line = Component.translatable("cobbleeffort_fusion.fused", fused.getDisplayName(false)).withStyle(ChatFormatting.LIGHT_PURPLE);
         player.sendSystemMessage(line);
+        Component credit = designCredit(fused);
+        if (credit != null) player.sendSystemMessage(credit);
         if (head.isEmpty() || head.equals(body)) return;
         player.sendSystemMessage(Component.translatable("cobbleeffort_fusion.ability_choice")
                 .append(button(abilityName(body), fused, "body"))
                 .append(Component.literal(" "))
                 .append(button(abilityName(head), fused, "head")));
+    }
+
+    /** "Colours from Infinite Fusion's sprite by <artists>" when the pair has a design, else null. */
+    public static Component designCredit(Pokemon fused) {
+        net.minecraft.resources.ResourceLocation headId = FusionRules.headSpecies(fused.getAspects());
+        if (headId == null) return null;
+        FusionDesigns.Design d = FusionDesigns.find(FusionDesigns.key(headId, FusionRules.headAspects(fused.getAspects())),
+                FusionDesigns.key(fused.getSpecies().getResourceIdentifier(), FusionRules.withoutFusion(fused.getAspects())));
+        if (d == null) return null;
+        return Component.translatable("cobbleeffort_fusion.design_credit", d.artists.isEmpty() ? "?" : d.artists)
+                .withStyle(ChatFormatting.GRAY);
     }
 
     private static Component abilityName(String id) {

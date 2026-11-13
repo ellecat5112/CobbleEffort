@@ -8,11 +8,13 @@ import com.cobblemon.mod.common.client.render.models.blockbench.repository.Varyi
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import io.github.cobbleeffort.fusion.Fusion;
+import io.github.cobbleeffort.fusion.FusionDesigns;
 import io.github.cobbleeffort.fusion.FusionRules;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -45,6 +47,8 @@ public final class FusionRender {
     private static final Deque<Pending> PENDING = new ArrayDeque<>();
     private static final Map<String, FloatingState> STATES = new HashMap<>();
     private static final Map<ModelPart, Float> SIZES = new WeakHashMap<>();
+    /** Each fusion body's species, by its render state (remembered when Cobblemon looks up the body's texture). */
+    private static final Map<PosableState, ResourceLocation> BODIES = new WeakHashMap<>();
     private static boolean warned;
 
     private FusionRender() {
@@ -99,10 +103,62 @@ public final class FusionRender {
         p.bodyHeadVisible = bodyHead.visible;
         p.headModel = headModel;
         p.headPart = headPart;
-        p.texture = VaryingModelRepository.INSTANCE.getTexture(headId, headState);
+        p.texture = headTexture(headId, headState, BODIES.get(state), aspects);
         p.chain = chain;
         bodyHead.visible = false;
         return p;
+    }
+
+    /** Hue turn for a shiny part of a designed fusion (Infinite Fusion turns a shiny fusion's colours round the wheel). */
+    private static float hueTurn(String headKey, String bodyKey, boolean shiny) {
+        if (!shiny) return 0f;
+        return 90f + Math.floorMod((headKey + "/" + bodyKey).hashCode(), 180);
+    }
+
+    private static Set<String> plain(Set<String> aspects) {
+        Set<String> out = new HashSet<>(FusionRules.withoutFusion(aspects));
+        out.remove("shiny");
+        return out;
+    }
+
+    /** The head species' texture, recoloured by the fusion's design when Infinite Fusion has one for the pair. */
+    private static ResourceLocation headTexture(ResourceLocation headId, FloatingState headState, ResourceLocation bodyId, Set<String> bodyAspects) {
+        ResourceLocation tex = VaryingModelRepository.INSTANCE.getTexture(headId, headState);
+        if (bodyId == null) return tex;
+        Set<String> headAspects = headState.getCurrentAspects();
+        String hk = FusionDesigns.key(headId, headAspects), bk = FusionDesigns.key(bodyId, bodyAspects);
+        FusionDesigns.Design d = FusionDesigns.find(hk, bk);
+        if (d == null) return tex;
+        boolean shiny = headAspects.contains("shiny");
+        if (shiny) tex = VaryingModelRepository.INSTANCE.getTexture(headId, stateFor(headId, plain(headAspects)));
+        return FusionColours.recolour(tex, d.headSource, d.headTarget, hueTurn(hk, bk, shiny));
+    }
+
+    /**
+     * Called (by TextureMixin) whenever Cobblemon looks up a texture: for a fusion's body, the body texture recoloured
+     * by the pair's design; null to keep Cobblemon's. Also remembers the body species for the head drawn after it.
+     */
+    public static ResourceLocation bodyTexture(ResourceLocation species, PosableState state, ResourceLocation original) {
+        try {
+            if (state == null) return null;
+            Set<String> aspects = state.getCurrentAspects();
+            ResourceLocation headId = FusionRules.headSpecies(aspects);
+            if (headId == null) return null;
+            BODIES.put(state, species);
+            String hk = FusionDesigns.key(headId, FusionRules.headAspects(aspects)), bk = FusionDesigns.key(species, aspects);
+            FusionDesigns.Design d = FusionDesigns.find(hk, bk);
+            if (d == null) return null;
+            boolean shiny = aspects.contains("shiny");
+            ResourceLocation tex = original;
+            if (shiny) tex = VaryingModelRepository.INSTANCE.getTexture(species, stateFor(species, plain(aspects)));
+            return FusionColours.recolour(tex, d.bodySource, d.bodyTarget, hueTurn(hk, bk, shiny));
+        } catch (Throwable t) {
+            if (!warned) {
+                warned = true;
+                Fusion.LOG.warn("Couldn't recolour a fusion's body", t);
+            }
+            return null;
+        }
     }
 
     /** The bones from root down to target (both included), or false when target isn't under root. */

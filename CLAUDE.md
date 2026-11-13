@@ -293,6 +293,24 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   body model's `head` bone is hidden and the head species' `head` ModelPart drawn on the body's head joint (bone chain
   transforms), scaled to the replaced head's size (0.5-2.5x), with the head's own texture/aspects; models without a
   `head` bone show the plain body. Custom per-pair forms: later (the user's plan).
+  **Fusion designs (0.2.0, the user's call: "use the Infinite Dex to decide the designs")**: colours, names and credits
+  from Pokémon Infinite Fusion's custom sprites via infinitefusiondex.com (hosts allowed in the environment: the site +
+  `ifd-spaces.sfo2.cdn.digitaloceanspaces.com`; the user OK'd reading the sprites). Its API: `/api/filter?page=N&base=0&
+  triple=0&head=<id>` (50 per page; default lists custom art only; `real_id` "head.body", main sprite = `alts` entry
+  with `default_extension`, `/custom/<real_id><ext>.png`, 288 px = 96 px art x3), `/api/initial/dropdown-data` (its
+  576 Pokémon, nat ids). Data goes to a gitignored dex dir in the scratchpad (heads/<id>.json, hist.jsonl = each
+  sprite's colour histogram with outline counts; sprites are never stored or shipped). `fusion/tools/`:
+  `fusion_species.py` (dex id -> Cobblemon key `species[:form]` + base texture; 543 of 576 modelled),
+  `fusion_palette.py` (CIELAB k-means K=8; sprite palette down-weights outline/line-art pixels; assign = per part
+  keep or repaint by lightness rank into the sprite's palette, best fit to the sprite + small change cost; small
+  colours already in the sprite stay; recolour = soft-weighted Lab shift, same maths as `client/FusionColours.java`),
+  `make_designs.py <cobblemon res> <dex dir> [--preview N]` -> gzip `designs.bin` (species palettes + IF name parts,
+  credit strings, per pair 3-byte Lab targets with a changed-mask), CREDITS.txt (all artists) and designs_count.txt
+  (README @DESIGNS@), `preview_fusions.py <res> <dex> out.png Head/Body ...` (3D: `tools/preview/fusion.html` +
+  `render_fusion.js` mimic FusionRender). Runtime: `FusionDesigns` (both sides: `/fusion info` + fuse message credit
+  the artist, `Fusing.fusionName` uses IF's name parts), `TextureMixin` (RETURN of `VaryingModelRepository.getTexture`:
+  fused body -> recoloured DynamicTexture, also remembers body species per render state for the head), head recoloured
+  in `FusionRender.prepare`; shiny parts = designed colours turned by a per-pair hue angle (IF's shiny style).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).

@@ -56,7 +56,8 @@ tasks.register("distZip", Zip) {
     destinationDirectory = layout.buildDirectory.dir("libs")
     from(project(":fabric").tasks.named("remapJar"))
     from(project(":neoforge").tasks.named("remapJar"))
-    from("README.txt") { filter { it.replace("@VERSION@", rootProject.mod_version) } }
+    from("README.txt") { filter { it.replace("@VERSION@", rootProject.mod_version).replace("@DESIGNS@", file("designs_count.txt").text.trim()) } }
     from("LICENSE.txt")
+    from("CREDITS.txt")
 }
 tasks.register("build") { dependsOn "distZip" }

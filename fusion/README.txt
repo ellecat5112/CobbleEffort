@@ -23,14 +23,20 @@ HEAD AND BODY (Infinite Fusion's rules)
     body's other type; a Normal/Flying head gives Flying.
   - Ability: the body's to start with. A clickable choice in chat lets you take the head's instead (or type
     /fusion ability). Moves: the fusion keeps the body's moves, and can relearn the head's.
-  - The fusion keeps the body's nature, IVs, EVs and gender, and gets a fusion name (Bulbasaur + Charmander =
-    Bulbander) unless it has a nickname.
+  - The fusion keeps the body's nature, IVs, EVs and gender, and gets Infinite Fusion's name for the pair
+    (Bulbasaur head + Charmander body = Bulbamander) unless it has a nickname.
   - It battles with the fused stats and types, and its summary shows them. /fusion info lists your fusions.
 
 THE LOOK
   Every pair works automatically: the fusion is the body's model with the head species' head (with its eyes, ears,
-  horns and hair) on its neck, sized to fit, in the head's own colours (shiny or regional too). The head turns and
-  moves with the body. Hand-made fusion forms for favourite pairs may come later.
+  horns and hair) on its neck, sized to fit. The head turns and moves with the body. (A few Pokémon models have no
+  separate head; with those as the body, or as the head, the fusion shows the body's own head.)
+  Colours follow Pokémon Infinite Fusion's custom sprites: for the @DESIGNS@ pairs that have a custom sprite in the
+  game (as listed on the Infinite Dex, infinitefusiondex.com), the head and body are recoloured the way that sprite's
+  artist coloured them, e.g. Bulbamander's Charmander body turns Bulbasaur's teal and green. The artist is credited in
+  chat when you fuse and in /fusion info, and all of them are listed in CREDITS.txt. Pairs without a custom sprite
+  keep each Pokémon's own colours. A shiny part of a designed fusion has its colours turned round the colour wheel,
+  as Infinite Fusion does. Hand-made fusion forms for favourite pairs may come later.
 
 CRAFTING
   DNA Splicers: amethyst shard over iron ingot, redstone, iron ingot, over iron ingot.
@@ -38,5 +44,5 @@ CRAFTING
   Infinite Splicers: nether star over echo shard, Super Splicers, echo shard, over echo shard.
   DNA Reversers: lapis, quartz, lapis over redstone.
 
-Non-commercial, CC BY-NC-SA 4.0 (see LICENSE.txt). Not affiliated with Nintendo, Game Freak, The Pokémon Company,
+Non-commercial, CC BY-NC-SA 4.0 (see LICENSE.txt); fusion colours credited in CREDITS.txt. Not affiliated with Nintendo, Game Freak, The Pokémon Company,
 the Cobblemon team or the Infinite Fusion team.

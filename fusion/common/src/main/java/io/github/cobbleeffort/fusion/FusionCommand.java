@@ -88,6 +88,8 @@ public final class FusionCommand {
                     base.get(Stats.HP) + "/" + base.get(Stats.ATTACK) + "/" + base.get(Stats.DEFENCE) + "/"
                             + base.get(Stats.SPECIAL_ATTACK) + "/" + base.get(Stats.SPECIAL_DEFENCE) + "/" + base.get(Stats.SPEED));
             src.sendSuccess(() -> line.withStyle(ChatFormatting.LIGHT_PURPLE), false);
+            Component credit = Fusing.designCredit(p);
+            if (credit != null) src.sendSuccess(() -> credit, false);
             n++;
         }
         if (n == 0) src.sendSuccess(() -> Component.translatable("cobbleeffort_fusion.info.none"), false);
@@ -121,6 +123,8 @@ public final class FusionCommand {
             if (err != null) throw new IllegalStateException("fuse: " + err.getString());
             say.accept("fused (head Bulbasaur, body Charmander): " + describe(charmander) + " party " + party.occupied());
             FusionEngine.probe(msg -> Fusion.LOG.info("[selftest] {}", msg));
+            Component credit = Fusing.designCredit(charmander);
+            say.accept("design: " + (credit == null ? "none" : credit.getString()));
             err = Fusing.reverse(party, src.registryAccess(), null, charmander);
             if (err != null) throw new IllegalStateException("reverse: " + err.getString());
             Pokemon reversed = null;
