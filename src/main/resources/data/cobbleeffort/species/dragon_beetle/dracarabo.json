@@ -1,0 +1,159 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3069,
+ "name": "Dracarabo",
+ "primaryType": "bug",
+ "secondaryType": "dragon",
+ "maleRatio": 0.5,
+ "height": 18,
+ "weight": 1250,
+ "pokedex": [
+  "cobbleeffort.species.dracarabo.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swarm",
+  "shedskin",
+  "h:strongjaw"
+ ],
+ "eggGroups": [
+  "bug",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 135,
+  "defence": 105,
+  "special_attack": 65,
+  "special_defence": 80,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.93,
+ "hitbox": {
+  "width": 1.9,
+  "height": 1.95,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 5.0
+   },
+   {
+    "item": "minecraft:orange_dye",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:stringshot",
+  "5:bugbite",
+  "9:dragonbreath",
+  "13:bite",
+  "17:strugglebug",
+  "1:harden",
+  "1:dragonrush",
+  "24:irondefense",
+  "28:dragontail",
+  "33:xscissor",
+  "38:crunch",
+  "42:dragonrush",
+  "48:megahorn",
+  "54:dragondance",
+  "60:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:bugbite",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:strugglebug",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:stringshot",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:crunch",
+  "tm:irondefense",
+  "tm:bulldoze",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:bodyslam",
+  "tm:sunnyday",
+  "tm:megahorn",
+  "tm:firstimpression",
+  "tm:outrage",
+  "tm:earthquake",
+  "tm:stoneedge",
+  "tm:dragondance",
+  "tm:swordsdance",
+  "tm:firefang",
+  "tm:thunderfang",
+  "tm:psychicfangs",
+  "tm:dracometeor",
+  "tm:scaryface",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ],
+ "preEvolution": "cobbleeffort:ovarupa"
+}

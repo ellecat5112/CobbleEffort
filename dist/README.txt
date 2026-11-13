@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 74 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 77 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2383,6 +2383,37 @@ cobbleeffort:cavitot.
   a Primaclaw on the shore once sent whole villages fleeing inland. The crab itself is tiny, hiding
   between the two great heads."
   * Evolve Crabgron at level 50. It learns Headlong Rush when it evolves.
+
+#3067 LARVORUB  (Bug; Swarm / Shed Skin / Strong Jaw (hidden))
+  a plump lavender-white grub with a cream-banded back, yellow side spots, a brown head with round
+  cheeks, huge green eyes with clover pupils and two yellow-tipped horns
+  Stats: HP 50  Atk 60  Def 55  SpA 30  SpD 35  Spe 30  (total 260)
+  Pokedex: "It tunnels through rotting logs on the jungle floor and eats anything softer than its
+  horns. When something startles it, it rears up and points those horns, though they are still too
+  soft to hurt."
+  * Wild: common in jungles and savannas.
+  * Evolves into Ovarupa at level 20.
+
+#3068 OVARUPA  (Bug / Dragon; Swarm / Shed Skin / Strong Jaw (hidden))
+  a round orange pupa with a dark base, pale yellow infinity marks and lavender spots, a jagged
+  collar round its brown head, green eyes, a great barbed horn on top and two yellow-tipped side
+  horns
+  Stats: HP 65  Atk 70  Def 115  SpA 45  SpD 75  Spe 30  (total 400)
+  Pokedex: "Inside its hard orange casing its whole body is being rebuilt. The horn grows out
+  through the top first, and anything that pokes the casing gets jabbed with it."
+  * Evolve Larvorub at level 20. It learns Harden when it evolves.
+  * Wild: uncommon in jungles and savannas.
+  * Evolves into Dracarabo at level 42.
+
+#3069 DRACARABO  (Bug / Dragon; Swarm / Shed Skin / Strong Jaw (hidden))
+  a beetle whose great horn is an orange dragon's skull with jagged jaws, a small brown face with a
+  yellow beak and green eyes, a yellow flame-striped abdomen and six spiky dark legs with yellow
+  claws
+  Stats: HP 90  Atk 135  Def 105  SpA 65  SpD 80  Spe 70  (total 545)
+  Pokedex: "The horn on its head grows into the shape of a dragon's skull, jaws and all. It charges
+  with the jaws wide open, and the snap when they close can be heard right across the savanna."
+  * Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves.
+  * Wild: rare in jungles.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

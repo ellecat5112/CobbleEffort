@@ -1694,6 +1694,64 @@ SPECIES.update({
 })
 LINES["mimic_crab"] = ["tyrucrab", "crabgron", "primaclaw"]
 
+# the dragon beetle line (Larvorub, Ovarupa, Dracarabo): art by @artworks218_ (Ozera region), names kept, used with the
+# creator's permission
+SCARAB = dict(egg_groups=["bug", "dragon"], male=0.5, friendship=50, growth="medium_slow",
+              abilities=["swarm", "shedskin", "h:strongjaw"], ability_names="Swarm / Shed Skin / Strong Jaw (hidden)")
+SCARAB_TM = BASIC_TM + ["xscissor", "bugbite", "lunge", "pounce", "strugglebug", "bugbuzz", "uturn", "stringshot",
+                        "dragonclaw", "dragonpulse", "dragontail", "breakingswipe", "scaleshot", "crunch", "irondefense",
+                        "bulldoze", "rocktomb", "rockslide", "bodyslam", "sunnyday"]
+SCARAB_TM_ADULT = ["megahorn", "firstimpression", "outrage", "earthquake", "stoneedge", "dragondance", "swordsdance",
+                   "firefang", "thunderfang", "psychicfangs", "dracometeor", "scaryface", "gigaimpact", "hyperbeam"]
+SCARAB_EARLY = [(1, "tackle"), (1, "stringshot"), (5, "bugbite"), (9, "dragonbreath"), (13, "bite"),
+                (17, "strugglebug")]
+SCARAB_WILD = ["#cobblemon:is_jungle", "#cobblemon:is_savanna"]
+SPECIES.update({
+    "larvorub": {
+        "dex": 3067, "name": "Larvorub", "line": "dragon_beetle", "types": ["bug"], **SCARAB, "catch": 190,
+        "stats": stats(50, 60, 55, 30, 35, 30), "ev": evs(defence=1), "exp": 58,
+        "height": 5, "weight": 62, "shoulder": False, "walk": 0.16,
+        "moves": SCARAB_EARLY + [(20, "harden")],
+        "tm": SCARAB_TM, "egg": ["dragondance", "firstimpression", "stickyweb", "megahorn"],
+        "evolve": ("ovarupa", 20, ["harden"]),
+        "drops": [("minecraft:string", "0-2", None), ("cobblemon:silver_powder", None, 2.5)],
+        "entry": ("It tunnels through rotting logs on the jungle floor and eats anything softer than its horns. When "
+                  "something startles it, it rears up and points those horns, though they are still too soft to hurt."),
+        "spawns": [route_spawn("larvorub-wild", "common", "3-20", 8.0, SCARAB_WILD)],
+        "how": ["Wild: common in jungles and savannas.", "Evolves into Ovarupa at level 20."],
+    },
+    "ovarupa": {
+        "dex": 3068, "name": "Ovarupa", "line": "dragon_beetle", "types": ["bug", "dragon"], **SCARAB, "catch": 90,
+        "stats": stats(65, 70, 115, 45, 75, 30), "ev": evs(defence=2), "exp": 145,
+        "height": 10, "weight": 480, "shoulder": False, "walk": 0.06,
+        "moves": SCARAB_EARLY + [(1, "harden"), (20, "harden"), (24, "irondefense"), (28, "dragontail"),
+                                 (33, "xscissor"), (38, "dragonpulse")],
+        "tm": SCARAB_TM, "egg": [], "evolve": ("dracarabo", 42, ["dragonrush"]),
+        "drops": [("minecraft:orange_dye", "1-2", None), ("minecraft:string", "0-2", None)],
+        "entry": ("Inside its hard orange casing its whole body is being rebuilt. The horn grows out through the top "
+                  "first, and anything that pokes the casing gets jabbed with it."),
+        "spawns": [route_spawn("ovarupa-wild", "uncommon", "20-38", 2.5, SCARAB_WILD)],
+        "how": ["Evolve Larvorub at level 20. It learns Harden when it evolves.",
+                "Wild: uncommon in jungles and savannas.", "Evolves into Dracarabo at level 42."],
+    },
+    "dracarabo": {
+        "dex": 3069, "name": "Dracarabo", "line": "dragon_beetle", "types": ["bug", "dragon"], **SCARAB, "catch": 45,
+        "stats": stats(90, 135, 105, 65, 80, 70), "ev": evs(attack=3), "exp": 270,
+        "height": 18, "weight": 1250, "shoulder": False, "walk": 0.3,
+        "moves": SCARAB_EARLY + [(1, "harden"), (1, "dragonrush"), (24, "irondefense"), (28, "dragontail"),
+                                 (33, "xscissor"), (38, "crunch"), (42, "dragonrush"), (48, "megahorn"),
+                                 (54, "dragondance"), (60, "outrage")],
+        "tm": SCARAB_TM + SCARAB_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("cobblemon:dragon_fang", None, 5.0), ("minecraft:orange_dye", "1-3", None),
+                  ("minecraft:bone", "0-1", None)],
+        "entry": ("The horn on its head grows into the shape of a dragon's skull, jaws and all. It charges with the "
+                  "jaws wide open, and the snap when they close can be heard right across the savanna."),
+        "spawns": [route_spawn("dracarabo-wild", "rare", "42-55", 0.6, ["#cobblemon:is_jungle"])],
+        "how": ["Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves.", "Wild: rare in jungles."],
+    },
+})
+LINES["dragon_beetle"] = ["larvorub", "ovarupa", "dracarabo"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

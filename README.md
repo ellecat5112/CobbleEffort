@@ -1424,6 +1424,17 @@ same-type bonus too. Bite, Crunch, X-Scissor and Rock Slide, then Metal Claw, Ir
 Crabhammer, Earthquake, Headlong Rush, Wave Crash and Precipice Blades. Tyrucrab is uncommon on beaches, stony shores,
 mangrove swamps and in badlands, Crabgron rare there.
 
+**Larvorub → Ovarupa → Dracarabo** (Bug → Bug/Dragon, levels 20 and 42), dragon beetles after the art by
+**@artworks218_** (Ozera region; the art's names, used with the creator's permission). Larvorub is a plump lavender-white
+grub with a cream-banded back, yellow side spots, round brown cheeks, huge green eyes with four-leaf clover pupils and
+two yellow-tipped horns; Ovarupa is a round orange pupa with pale infinity marks and lavender spots, its head peeking
+out of a jagged collar under a great barbed horn; Dracarabo is a beetle whose horn has grown into an orange **dragon's
+skull** with jagged jaws and a tusk, over a small brown face with a yellow beak, a yellow abdomen licked by orange flames
+and six spiky legs with yellow claws. Swarm or Shed Skin, hidden Strong Jaw; Bug Bite, Dragon Breath and Bite, then
+Harden, Iron Defense, Dragon Tail and X-Scissor, then Crunch, Dragon Rush (on evolving), Megahorn, Dragon Dance and
+Outrage. Larvorub is common in jungles and savannas, Ovarupa uncommon there, Dracarabo rare in jungles. Shiny: teal
+with a navy head and pink eyes.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1493,6 +1504,9 @@ mangrove swamps and in badlands, Crabgron rare there.
 | 3064 | **Tyrucrab** | Bug / Rock | Strong Jaw / Shell Armor / Intimidate (hidden) | 50 / 75 / 70 / 30 / 40 / 45 | 1'8" (0.5 m) / 12 kg | Wild: uncommon on beaches, stony shores, mangrove swamps and in badlands. Evolves into Crabgron at level 32. | To scare off predators it holds up its right claw, which has grown into the shape of a fearsome tyrannosaur's head. The jaw snaps like a pincer, and a Tyrucrab that fools a foe once never stops boasting about it. |
 | 3065 | **Crabgron** | Bug / Steel | Strong Jaw / Shell Armor / Intimidate (hidden) | 65 / 100 / 100 / 40 / 55 / 55 | 3'3" (1 m) / 86 kg | Evolve Tyrucrab at level 32. It learns Metal Claw when it evolves. Wild: rare on beaches, stony shores, mangrove swamps and in badlands. Evolves into Primaclaw at level 50. | As it grows, its claw takes on the look of an iron-armoured beast, horns and all. Crabgron bang their helmet-claws on rocks at night so that anything listening believes a whole herd is near. |
 | 3066 | **Primaclaw** | Bug / Ground | Primal Mimicry (its own: its Water-type moves get the same-type bonus too) / Strong Jaw / Intimidate (hidden) | 85 / 130 / 115 / 65 / 75 / 65 | 5'3" (1.6 m) / 180 kg | Evolve Crabgron at level 50. It learns Headlong Rush when it evolves. | Its two claws imitate the ancient titans of land and sea so perfectly that the sight of a Primaclaw on the shore once sent whole villages fleeing inland. The crab itself is tiny, hiding between the two great heads. |
+| 3067 | **Larvorub** | Bug | Swarm / Shed Skin / Strong Jaw (hidden) | 50 / 60 / 55 / 30 / 35 / 30 | 1'8" (0.5 m) / 6.2 kg | Wild: common in jungles and savannas. Evolves into Ovarupa at level 20. | It tunnels through rotting logs on the jungle floor and eats anything softer than its horns. When something startles it, it rears up and points those horns, though they are still too soft to hurt. |
+| 3068 | **Ovarupa** | Bug / Dragon | Swarm / Shed Skin / Strong Jaw (hidden) | 65 / 70 / 115 / 45 / 75 / 30 | 3'3" (1 m) / 48 kg | Evolve Larvorub at level 20. It learns Harden when it evolves. Wild: uncommon in jungles and savannas. Evolves into Dracarabo at level 42. | Inside its hard orange casing its whole body is being rebuilt. The horn grows out through the top first, and anything that pokes the casing gets jabbed with it. |
+| 3069 | **Dracarabo** | Bug / Dragon | Swarm / Shed Skin / Strong Jaw (hidden) | 90 / 135 / 105 / 65 / 80 / 70 | 5'11" (1.8 m) / 125 kg | Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves. Wild: rare in jungles. | The horn on its head grows into the shape of a dragon's skull, jaws and all. It charges with the jaws wide open, and the snap when they close can be heard right across the savanna. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

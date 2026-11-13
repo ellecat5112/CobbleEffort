@@ -1,0 +1,151 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3067,
+ "name": "Larvorub",
+ "primaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 5,
+ "weight": 62,
+ "pokedex": [
+  "cobbleeffort.species.larvorub.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swarm",
+  "shedskin",
+  "h:strongjaw"
+ ],
+ "eggGroups": [
+  "bug",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 60,
+  "defence": 55,
+  "special_attack": 30,
+  "special_defence": 35,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 58,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.75,
+  "height": 1.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.16
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:silver_powder",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:stringshot",
+  "5:bugbite",
+  "9:dragonbreath",
+  "13:bite",
+  "17:strugglebug",
+  "20:harden",
+  "egg:dragondance",
+  "egg:firstimpression",
+  "egg:stickyweb",
+  "egg:megahorn",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:bugbite",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:strugglebug",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:stringshot",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:crunch",
+  "tm:irondefense",
+  "tm:bulldoze",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:bodyslam",
+  "tm:sunnyday"
+ ],
+ "evolutions": [
+  {
+   "id": "larvorub_ovarupa",
+   "variant": "level_up",
+   "result": "cobbleeffort:ovarupa",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "harden"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

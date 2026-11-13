@@ -242,6 +242,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   a `<prefix>mount` bone turns them (rotation y +90 points a -z snout to -x); not animated by the rig. Box UV can't be
   scaled, so bodies are built around the borrowed parts' native size. Only licences that allow it: Cobblemon (CC
   BY-NC), Mega Showdown (CC BY-NC-SA: models carrying its parts are shared under it); never no-derivatives mods.
+  Larvorub -> Ovarupa -> Dracarabo (#3067-3069, line "dragon_beetle", `models/_scarab.py`: palette, `horn()` brown root
+  + chevroned yellow tip, `clover()` pupils, `slab_xy()` = a slab along z rounded in cross-section, `lemniscate()`; art by
+  @artworks218_, Ozera region, creator's permission, names kept): Bug -> Bug/Dragon at 20/42; Ovarupa's ball is 1-unit
+  slices with radii in half units (whole box sizes, so the steps stay symmetric); Dracarabo's dragon-skull horn has a
+  `jaw` bone. Shiny = teal + navy, pink eyes.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

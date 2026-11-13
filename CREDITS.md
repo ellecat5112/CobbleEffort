@@ -261,7 +261,9 @@ Primaclaw's name, the crab bodies, Primal Mimicry and the Pokédex entries are o
 parts** (bones, cubes and texture pixels, copied unchanged by `tools/newmons/borrow_heads.py`): Tyrunt's and Aggron's
 heads from **Cobblemon**'s models (Tyrucrab, Crabgron), and Groudon's head and Kyogre's body from **Mega Showdown**'s
 models (Primaclaw). Primaclaw's model and textures therefore contain Mega Showdown assets and are shared under
-**CC BY-NC-SA 4.0**, like the other Mega Showdown adaptations below.
+**CC BY-NC-SA 4.0**, like the other Mega Showdown adaptations below. Larvorub, Ovarupa and Dracarabo (their names and designs) are after
+the fakemon art by **@artworks218_** (Ozera region, on Instagram), used with the creator's permission; their models,
+stats, moves and Pokédex entries are our own.
 
 ## Code and data
 
