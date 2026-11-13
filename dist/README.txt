@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 69 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 70 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2331,6 +2331,16 @@ cobbleeffort:cavitot.
   * Evolve Pinnant at level 36. It learns Brave Bird when it evolves.
   * Wild: rare at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows,
     savannas and windswept hills).
+
+#3062 LESBEON  (Fairy / Fighting; Friend Guard / Competitive (hidden))
+  a pink Eeveelution with a fierce red-eyed glare, a rainbow mohawk swept over one eye, tall pointed
+  ears, two pink Venus-symbol earrings and a short spiky-tipped tail
+  Stats: HP 75  Atk 105  Def 65  SpA 100  SpD 95  Spe 85  (total 525)
+  Pokedex: "Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to
+  its partner and protects her from anything, and the Venus marks that hang from its ears glow when
+  the two are close."
+  * Level up a female Eevee with another female Eevee in the party (the second evolves when it
+    levels up with the first Lesbeon in the party). It learns Double Kick when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3062,
+ "name": "Lesbeon",
+ "primaryType": "fairy",
+ "secondaryType": "fighting",
+ "maleRatio": 0.0,
+ "height": 9,
+ "weight": 260,
+ "pokedex": [
+  "cobbleeffort.species.lesbeon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "friendguard",
+  "h:competitive"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 105,
+  "defence": 65,
+  "special_attack": 100,
+  "special_defence": 95,
+  "speed": 85
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 184,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.65,
+ "hitbox": {
+  "width": 1.3,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:pink_dye",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "cobblemon:love_sweet",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:tailwhip",
+  "1:helpinghand",
+  "1:growl",
+  "1:covet",
+  "1:copycat",
+  "1:swift",
+  "1:bite",
+  "1:babydolleyes",
+  "1:doublekick",
+  "5:sandattack",
+  "10:quickattack",
+  "15:drainingkiss",
+  "20:lowsweep",
+  "25:dazzlinggleam",
+  "30:brickbreak",
+  "35:bulkup",
+  "40:playrough",
+  "45:lastresort",
+  "50:closecombat",
+  "55:moonblast",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:dazzlinggleam",
+  "tm:playrough",
+  "tm:moonblast",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:charm",
+  "tm:brickbreak",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:bulkup",
+  "tm:lowsweep",
+  "tm:lowkick",
+  "tm:superpower",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:vacuumwave",
+  "tm:helpinghand",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:irontail",
+  "tm:shadowball",
+  "tm:calmmind",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:wish",
+  "tm:batonpass",
+  "tm:alluringvoice",
+  "tm:hypervoice",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ],
+ "preEvolution": "cobblemon:eevee"
+}

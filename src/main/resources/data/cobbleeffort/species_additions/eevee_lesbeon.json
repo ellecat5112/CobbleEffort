@@ -1,0 +1,45 @@
+{
+ "target": "cobblemon:eevee",
+ "evolutions": [
+  {
+   "id": "eevee_lesbeon",
+   "variant": "level_up",
+   "result": "cobbleeffort:lesbeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "doublekick"
+   ],
+   "requirements": [
+    {
+     "variant": "properties",
+     "target": "gender=female"
+    },
+    {
+     "variant": "party_member",
+     "target": "eevee gender=female",
+     "contains": true
+    }
+   ]
+  },
+  {
+   "id": "eevee_lesbeon_pair",
+   "variant": "level_up",
+   "result": "cobbleeffort:lesbeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "doublekick"
+   ],
+   "requirements": [
+    {
+     "variant": "properties",
+     "target": "gender=female"
+    },
+    {
+     "variant": "party_member",
+     "target": "cobbleeffort:lesbeon",
+     "contains": true
+    }
+   ]
+  }
+ ]
+}

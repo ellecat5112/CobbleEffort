@@ -1524,6 +1524,49 @@ SPECIES.update({
 })
 LINES["pinbird"] = ["pinlet", "pinnant", "pennacrest"]
 
+# --- Lesbeon, an Eevee evolution (two female Eevee in a party) ------------------------------------------------------------
+
+LESBEON_REQ = [{"variant": "properties", "target": "gender=female"}]
+SPECIES.update({
+    "lesbeon": {
+        "dex": 3062, "name": "Lesbeon", "line": "lesbeon", "types": ["fairy", "fighting"],
+        "male": 0.0, "egg_groups": ["field"], "friendship": 70, "catch": 45,
+        "abilities": ["friendguard", "h:competitive"],
+        "ability_names": "Friend Guard / Competitive (hidden)",
+        "stats": stats(75, 105, 65, 100, 95, 85), "ev": evs(attack=1, special_attack=1), "exp": 184,
+        "height": 9, "weight": 260, "shoulder": False, "walk": 0.34,
+        "pre": "cobblemon:eevee",
+        # a female Eevee evolves when it levels up with another female Eevee in the party; the second one then
+        # evolves too, with the first (now a Lesbeon) in the party
+        "evolves_from": ("cobblemon:eevee", "eevee_lesbeon", [
+            {"id": "eevee_lesbeon", "variant": "level_up", "result": "cobbleeffort:lesbeon", "consumeHeldItem": False,
+             "learnableMoves": ["doublekick"],
+             "requirements": LESBEON_REQ + [{"variant": "party_member", "target": "eevee gender=female", "contains": True}]},
+            {"id": "eevee_lesbeon_pair", "variant": "level_up", "result": "cobbleeffort:lesbeon", "consumeHeldItem": False,
+             "learnableMoves": ["doublekick"],
+             "requirements": LESBEON_REQ + [{"variant": "party_member", "target": "cobbleeffort:lesbeon", "contains": True}]}]),
+        "moves": [(1, "tackle"), (1, "tailwhip"), (1, "helpinghand"), (1, "growl"), (1, "covet"), (1, "copycat"),
+                  (1, "swift"), (1, "bite"), (1, "babydolleyes"), (1, "doublekick"), (5, "sandattack"),
+                  (10, "quickattack"), (15, "drainingkiss"), (20, "lowsweep"), (25, "dazzlinggleam"),
+                  (30, "brickbreak"), (35, "bulkup"), (40, "playrough"), (45, "lastresort"), (50, "closecombat"),
+                  (55, "moonblast")],
+        "tm": BASIC_TM + ["dazzlinggleam", "playrough", "moonblast", "drainingkiss", "mistyterrain", "charm",
+                          "brickbreak", "closecombat", "drainpunch", "bulkup", "lowsweep", "lowkick", "superpower",
+                          "aurasphere", "focusblast", "vacuumwave", "helpinghand", "swift", "bodyslam", "doubleedge",
+                          "takedown", "irontail", "shadowball", "calmmind", "lightscreen", "reflect", "wish",
+                          "batonpass", "alluringvoice", "hypervoice", "gigaimpact", "hyperbeam"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:pink_dye", "1-2", None), ("cobblemon:love_sweet", None, 5.0)],
+        "entry": ("Two Eevee that love each other evolve together into Lesbeon. It stays fiercely loyal to its "
+                  "partner and protects her from anything, and the Venus marks that hang from its ears glow when "
+                  "the two are close."),
+        "spawns": [],
+        "how": ["Level up a female Eevee with another female Eevee in the party (the second evolves when it levels "
+                "up with the first Lesbeon in the party). It learns Double Kick when it evolves."],
+    },
+})
+LINES["lesbeon"] = ["lesbeon"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1955,7 +1998,8 @@ def main():
         write_json(data / "species" / c["line"] / f"{sp}.json", species_json(sp))
         if c.get("evolves_from"):                          # another mod's species evolves into ours (Cobblemon appends)
             target, name, evo = c["evolves_from"]
-            write_json(data / "species_additions" / f"{name}.json", {"target": target, "evolutions": [evo]})
+            write_json(data / "species_additions" / f"{name}.json",
+                       {"target": target, "evolutions": evo if isinstance(evo, list) else [evo]})
         spawns = [dict(s, pokemon=f"{MOD}:{sp}") for s in c["spawns"]]
         pool = data / "spawn_pool_world" / f"{sp}.json"
         if spawns:

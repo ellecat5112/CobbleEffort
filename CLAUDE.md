@@ -210,6 +210,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   names): Normal/Flying at 16/36; spawn ONLY at the `pinbird_nest` structure (`tools/newmons/nests.py`, run by
   build.py: a rocky crag with ledges and an overhanging hay nest + loot chest `chests/pinbird_nest`; spawn condition
   `structures`). Structures share `fossils.write_structure(name, spec, folder)`.
+  Lesbeon (#3062, `models/lesbeon.py`; the meme art's own name, artist not named): Fairy/Fighting Eeveelution, female
+  only; `evolves_from` may hold a LIST of evolutions: Eevee evolves on level-up when female (`properties`
+  gender=female) with another female Eevee in the party (`party_member`, which skips the Pokémon itself), or with a
+  Lesbeon in the party (so the second Eevee evolves too). Venus earrings are boxes >= 1 unit thick (thinner parts
+  round to nothing in the texture); ears are triangle planes.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a
