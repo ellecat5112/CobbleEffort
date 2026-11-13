@@ -1797,6 +1797,162 @@ SPECIES.update({
 })
 LINES["whip_crab"] = ["whippersnap", "karkuttle"]
 
+# the A. Fakemon starter trio (grass wolves, fire bats, water fish): art of the A. Fakemon fanpage, names kept; their own
+# page on the starter screen (FAKEMON_STARTERS)
+TRIO = dict(male=0.875, catch=45, friendship=50, growth="medium_slow")
+WOLF = dict(TRIO, egg_groups=["field", "grass"], abilities=["overgrow", "h:scrappy"],
+            ability_names="Overgrow / Scrappy (hidden)")
+BAT = dict(TRIO, egg_groups=["flying", "field"], abilities=["blaze", "h:infiltrator"],
+           ability_names="Blaze / Infiltrator (hidden)")
+FISH = dict(TRIO, egg_groups=["water_1", "water_2"], abilities=["torrent", "h:protean"],
+            ability_names="Torrent / Protean (hidden)")
+WOLF_TM = BASIC_TM + ["bulletseed", "seedbomb", "energyball", "gigadrain", "grassknot", "trailblaze", "solarbeam",
+                      "sunnyday", "grassyterrain", "leafblade", "crunch", "firefang", "thunderfang", "icefang",
+                      "bodyslam", "dig", "rockslide", "bulkup", "brickbreak", "roar", "howl", "uturn", "charm"]
+WOLF_TM_ADULT = ["closecombat", "drainpunch", "superpower", "hammerarm", "poweruppunch", "focusblast", "leafstorm",
+                 "woodhammer", "gigaimpact", "hyperbeam", "frenzyplant", "earthquake", "stoneedge"]
+WOLF_EARLY = [(1, "tackle"), (1, "growl"), (4, "leafage"), (8, "bite"), (12, "razorleaf"), (15, "howl")]
+BAT_TM = BASIC_TM + ["ember", "flamecharge", "flamethrower", "fireblast", "willowisp", "sunnyday", "heatwave",
+                     "aerialace", "airslash", "acrobatics", "uturn", "fly", "roost", "defog", "tailwind", "leechlife",
+                     "bite", "crunch", "nastyplot", "shadowball", "darkpulse", "confuseray", "screech"]
+BAT_TM_ADULT = ["overheat", "hurricane", "bravebird", "gigaimpact", "hyperbeam", "blastburn", "mysticalfire",
+                "hex", "nightshade"]
+BAT_EARLY = [(1, "scratch"), (1, "leer"), (4, "ember"), (8, "gust"), (12, "bite"), (15, "flamecharge")]
+FISH_TM = BASIC_TM + ["watergun", "waterpulse", "surf", "raindance", "chillingwater", "liquidation", "icefang",
+                      "icebeam", "icywind", "crunch", "bite", "mudshot", "mudslap", "aquatail", "bulkup", "brickbreak",
+                      "scaryface", "dive", "waterfall"]
+FISH_TM_GROUND = ["bulldoze", "dig", "earthquake", "earthpower", "sandstorm", "stompingtantrum"]
+FISH_TM_ADULT = ["hydropump", "wavecrash", "knockoff", "throatchop", "suckerpunch", "darkpulse", "nightslash",
+                 "gigaimpact", "hyperbeam", "hydrocannon", "taunt", "foulplay"]
+FISH_EARLY = [(1, "tackle"), (1, "leer"), (4, "watergun"), (8, "bite"), (12, "mudslap"), (15, "aquajet")]
+STARTER_HOW = "One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page)."
+SPECIES.update({
+    "wigwoof": {
+        "dex": 3072, "name": "Wigwoof", "line": "afakemon_wolf", "types": ["grass"], **WOLF,
+        "stats": stats(50, 62, 45, 42, 45, 65), "ev": evs(speed=1), "exp": 62,
+        "height": 5, "weight": 123, "shoulder": True, "walk": 0.32,
+        "moves": WOLF_EARLY + [(17, "magicalleaf"), (20, "crunch"), (24, "leafblade"), (28, "bulkup")],
+        "tm": WOLF_TM, "egg": ["playrough", "suckerpunch", "leechseed", "firefang"],
+        "evolve": ("wolfevel", 16, ["doublekick"]),
+        "drops": [("minecraft:wheat_seeds", "1-2", None), ("minecraft:yellow_dye", "0-1", None)],
+        "entry": ("The blond tuft on its head is a clump of dry grass it never stops growing. It hides its eyes under "
+                  "it when it is shy, and fluffs it up to look bigger when it wants to look tough."),
+        "spawns": [route_spawn("wigwoof-wild", "ultra-rare", "5-15", 1.0, ["#cobblemon:is_forest", "#cobblemon:is_plains"])],
+        "how": [STARTER_HOW, "Wild: very rare in forests and plains.", "Evolves into Wolfevel at level 16."],
+    },
+    "wolfevel": {
+        "dex": 3073, "name": "Wolfevel", "line": "afakemon_wolf", "types": ["grass"], **WOLF,
+        "stats": stats(65, 82, 60, 52, 58, 88), "ev": evs(speed=2), "exp": 142,
+        "height": 13, "weight": 170, "shoulder": False, "walk": 0.36,
+        "moves": WOLF_EARLY + [(1, "doublekick"), (16, "doublekick"), (20, "magicalleaf"), (24, "crunch"),
+                               (28, "leafblade"), (32, "bulkup")],
+        "tm": WOLF_TM, "egg": [], "evolve": ("lycanmoon", 36, ["drainpunch"]),
+        "drops": [("minecraft:wheat_seeds", "1-3", None), ("minecraft:orange_dye", "0-1", None)],
+        "entry": ("It has started walking on two legs and picks fights with anything bigger than itself, just to "
+                  "prove it can. Its tail turns redder the angrier it gets."),
+        "spawns": [],
+        "how": ["Evolve Wigwoof at level 16. It learns Double Kick when it evolves.", "Evolves into Lycanmoon at level 36."],
+    },
+    "lycanmoon": {
+        "dex": 3074, "name": "Lycanmoon", "line": "afakemon_wolf", "types": ["grass", "fighting"], **WOLF,
+        "stats": stats(85, 125, 80, 65, 70, 105), "ev": evs(attack=3), "exp": 265,
+        "height": 17, "weight": 1500, "shoulder": False, "walk": 0.38,
+        "moves": WOLF_EARLY + [(1, "drainpunch"), (1, "powerwhip"), (16, "doublekick"), (20, "magicalleaf"),
+                               (24, "crunch"), (28, "leafblade"), (32, "bulkup"), (36, "drainpunch"),
+                               (42, "powerwhip"), (48, "closecombat"), (54, "woodhammer")],
+        "tm": WOLF_TM + WOLF_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:vine", "1-3", None), ("minecraft:wheat_seeds", "1-3", None)],
+        "entry": ("It ropes its opponents with a vine lasso and pulls them into the reach of its fists. Under a full "
+                  "moon it howls so loudly that every Wigwoof for miles answers."),
+        "spawns": [],
+        "how": ["Evolve Wolfevel at level 36. It learns Drain Punch when it evolves."],
+    },
+    "sounflame": {
+        "dex": 3075, "name": "Sounflame", "line": "afakemon_bat", "types": ["fire", "flying"], **BAT,
+        "stats": stats(45, 50, 40, 60, 45, 69), "ev": evs(speed=1), "exp": 62,
+        "height": 3, "weight": 75, "shoulder": True, "walk": 0.3, "fly": True,
+        "moves": BAT_EARLY + [(17, "airslash"), (20, "leechlife"), (24, "flamethrower"), (28, "nastyplot")],
+        "tm": BAT_TM, "egg": ["heatwave", "screech", "hypnosis", "nightshade"],
+        "evolve": ("operbat", 16, ["confuseray"]),
+        "drops": [("minecraft:blaze_powder", "0-1", None), ("minecraft:orange_dye", "0-1", None)],
+        "entry": ("Its huge ears hear the crackle of a campfire from a mile away. It sneaks up to warm its wings by "
+                  "the flames and steals the sparks to feed its own."),
+        "spawns": [route_spawn("sounflame-wild", "ultra-rare", "5-15", 1.0,
+                               ["#cobblemon:is_badlands", "#cobblemon:is_savanna", "#cobblemon:is_desert"])],
+        "how": [STARTER_HOW, "Wild: very rare in badlands, savannas and deserts.", "Evolves into Operbat at level 16."],
+    },
+    "operbat": {
+        "dex": 3076, "name": "Operbat", "line": "afakemon_bat", "types": ["fire", "flying"], **BAT,
+        "stats": stats(60, 64, 55, 82, 60, 84), "ev": evs(special_attack=1, speed=1), "exp": 142,
+        "height": 9, "weight": 100, "shoulder": False, "walk": 0.32, "fly": True,
+        "moves": BAT_EARLY + [(1, "confuseray"), (16, "confuseray"), (20, "airslash"), (24, "leechlife"),
+                              (28, "flamethrower"), (32, "nastyplot")],
+        "tm": BAT_TM, "egg": [], "evolve": ("nosfiretu", 36, ["bitterblade"]),
+        "drops": [("minecraft:blaze_powder", "0-2", None), ("minecraft:white_wool", "0-1", None)],
+        "entry": ("It hides its face behind a golden mask and performs for anyone who will listen, singing in a "
+                  "voice so high that windows crack. It never takes the mask off."),
+        "spawns": [],
+        "how": ["Evolve Sounflame at level 16. It learns Confuse Ray when it evolves.", "Evolves into Nosfiretu at level 36."],
+    },
+    "nosfiretu": {
+        "dex": 3077, "name": "Nosfiretu", "line": "afakemon_bat", "types": ["fire", "flying"], **BAT,
+        "stats": stats(78, 80, 70, 115, 82, 105), "ev": evs(special_attack=3), "exp": 265,
+        "height": 18, "weight": 800, "shoulder": False, "walk": 0.34, "fly": True,
+        "moves": BAT_EARLY + [(1, "bitterblade"), (16, "confuseray"), (20, "airslash"), (24, "leechlife"),
+                              (28, "flamethrower"), (32, "nastyplot"), (36, "bitterblade"), (42, "hurricane"),
+                              (48, "heatwave"), (54, "overheat")],
+        "tm": BAT_TM + BAT_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:blaze_powder", "1-2", None), ("minecraft:gold_nugget", "1-3", None)],
+        "entry": ("It wraps itself in its wings like a cape and stands perfectly still in the dark, until something "
+                  "warm passes by. Then it drinks the heat from its prey, leaving it shivering."),
+        "spawns": [],
+        "how": ["Evolve Operbat at level 36. It learns Bitter Blade when it evolves."],
+    },
+    "fangfosh": {
+        "dex": 3078, "name": "Fangfosh", "line": "afakemon_fish", "types": ["water"], **FISH,
+        "stats": stats(50, 58, 50, 45, 46, 60), "ev": evs(attack=1), "exp": 62,
+        "height": 2, "weight": 23, "shoulder": True, "walk": 0.24,
+        "moves": FISH_EARLY + [(17, "chillingwater"), (20, "crunch"), (24, "aquatail"), (28, "scaryface")],
+        "tm": FISH_TM, "egg": ["suckerpunch", "pursuit", "yawn", "aquaring"],
+        "evolve": ("fishugly", 16, ["mudshot"]),
+        "drops": [("minecraft:cod", "0-1", None), ("minecraft:bone_meal", "0-1", None)],
+        "entry": ("It is always grinning like that, even when it is scared, which makes it very hard to tell what "
+                  "it is feeling. It hops out of the water on its little legs to bite at ankles."),
+        "spawns": [route_spawn("fangfosh-wild", "ultra-rare", "5-15", 1.0, ["#cobblemon:is_river", "#cobblemon:is_swamp"])],
+        "how": [STARTER_HOW, "Wild: very rare by rivers and in swamps.", "Evolves into Fishugly at level 16."],
+    },
+    "fishugly": {
+        "dex": 3079, "name": "Fishugly", "line": "afakemon_fish", "types": ["water", "ground"], **FISH,
+        "stats": stats(68, 80, 72, 55, 60, 70), "ev": evs(attack=1, defence=1), "exp": 142,
+        "height": 8, "weight": 60, "shoulder": False, "walk": 0.3,
+        "moves": FISH_EARLY + [(1, "mudshot"), (16, "mudshot"), (20, "chillingwater"), (24, "crunch"),
+                               (28, "bulldoze"), (32, "liquidation")],
+        "tm": FISH_TM + FISH_TM_GROUND, "egg": [], "evolve": ("creepish", 36, ["throatchop"]),
+        "drops": [("minecraft:cod", "0-2", None), ("minecraft:clay_ball", "0-2", None)],
+        "entry": ("It wanders the riverbanks on its long fin-legs, staring at everything with its unblinking eyes. "
+                  "It buries itself in the mud to sleep, with only its grin showing."),
+        "spawns": [],
+        "how": ["Evolve Fangfosh at level 16. It learns Mud Shot when it evolves.", "Evolves into Creepish at level 36."],
+    },
+    "creepish": {
+        "dex": 3080, "name": "Creepish", "line": "afakemon_fish", "types": ["water", "dark"], **FISH,
+        "stats": stats(88, 115, 85, 70, 75, 97), "ev": evs(attack=2, speed=1), "exp": 265,
+        "height": 15, "weight": 900, "shoulder": False, "walk": 0.34,
+        "moves": FISH_EARLY + [(1, "throatchop"), (16, "mudshot"), (20, "chillingwater"), (24, "crunch"),
+                               (28, "liquidation"), (32, "scaryface"), (36, "throatchop"), (42, "knockoff"),
+                               (48, "wavecrash"), (54, "suckerpunch")],
+        "tm": FISH_TM + FISH_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:cod", "1-2", None), ("minecraft:ink_sac", "1-2", None)],
+        "entry": ("It lurks in dark lagoons with only its frill above the water. When it spreads the frill and raises "
+                  "its arms, even large Pokémon back away."),
+        "spawns": [],
+        "how": ["Evolve Fishugly at level 36. It learns Throat Chop when it evolves."],
+    },
+})
+LINES["afakemon_wolf"] = ["wigwoof", "wolfevel", "lycanmoon"]
+LINES["afakemon_bat"] = ["sounflame", "operbat", "nosfiretu"]
+LINES["afakemon_fish"] = ["fangfosh", "fishugly", "creepish"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -2050,6 +2206,8 @@ STARTER_CATEGORIES = [
     ("Special", -100, "special", ["Pikachu"]),
 ]
 OUR_STARTERS = ("CobbleEffort", -99, ["cobbleeffort:coalarva", "cobbleeffort:mumpillar"])
+# the A. Fakemon trio's own page after ours (the fanpage's grass, fire and water starters)
+FAKEMON_STARTERS = ("A. Fakemon", -98, ["cobbleeffort:wigwoof", "cobbleeffort:sounflame", "cobbleeffort:fangfosh"])
 
 
 
@@ -2345,10 +2503,10 @@ def main():
         write_json(data / "starters" / f"{key}.json", {
             "name": name, "order": order, "displayName": f"cobblemon.starterselection.category.{key}",
             "pokemon": [f"{m} level=10" for m in mons]})
-    name, order, mons = OUR_STARTERS
-    write_json(data / "starters" / "cobbleeffort.json", {
-        "name": name, "order": order, "displayName": "cobbleeffort.starterselection.category.cobbleeffort",
-        "pokemon": [f"{m} level=10" for m in mons]})
+    for key, (name, order, mons) in (("cobbleeffort", OUR_STARTERS), ("afakemon", FAKEMON_STARTERS)):
+        write_json(data / "starters" / f"{key}.json", {
+            "name": name, "order": order, "displayName": f"cobbleeffort.starterselection.category.{key}",
+            "pokemon": [f"{m} level=10" for m in mons]})
     import fossils                                           # fossil items, structures and Cobblemon fossil entries
     fossils.build(lang)
     import nests                                             # nest structures (the pinbirds spawn at theirs)
@@ -2357,6 +2515,7 @@ def main():
     import subprocess                                       # the creative tab's item list (fossils, tufts, collections)
     subprocess.run([sys.executable, str(HERE.parent / "make_creative_tab.py")], check=True)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
+    lang["cobbleeffort.starterselection.category.afakemon"] = "A. Fakemon"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))
     write_json(data / "dexes" / "cobbleeffort.json", {

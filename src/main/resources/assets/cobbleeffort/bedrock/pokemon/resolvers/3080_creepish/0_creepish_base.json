@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:creepish",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:creepish",
+   "model": "cobbleeffort:creepish.geo",
+   "texture": "cobbleeffort:textures/pokemon/3080_creepish/creepish.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3080_creepish/creepish_shiny.png"
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3079,
+ "name": "Fishugly",
+ "primaryType": "water",
+ "secondaryType": "ground",
+ "maleRatio": 0.875,
+ "height": 8,
+ "weight": 60,
+ "pokedex": [
+  "cobbleeffort.species.fishugly.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "torrent",
+  "h:protean"
+ ],
+ "eggGroups": [
+  "water_1",
+  "water_2"
+ ],
+ "baseStats": {
+  "hp": 68,
+  "attack": 80,
+  "defence": 72,
+  "special_attack": 55,
+  "special_defence": 60,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.48,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.65,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "4:watergun",
+  "8:bite",
+  "12:mudslap",
+  "15:aquajet",
+  "1:mudshot",
+  "16:mudshot",
+  "20:chillingwater",
+  "24:crunch",
+  "28:bulldoze",
+  "32:liquidation",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:watergun",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:icefang",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:crunch",
+  "tm:bite",
+  "tm:mudshot",
+  "tm:mudslap",
+  "tm:aquatail",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:scaryface",
+  "tm:dive",
+  "tm:waterfall",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:earthquake",
+  "tm:earthpower",
+  "tm:sandstorm",
+  "tm:stompingtantrum"
+ ],
+ "evolutions": [
+  {
+   "id": "fishugly_creepish",
+   "variant": "level_up",
+   "result": "cobbleeffort:creepish",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "throatchop"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:fangfosh"
+}

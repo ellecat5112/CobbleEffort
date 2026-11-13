@@ -265,7 +265,9 @@ models (Primaclaw). Primaclaw's model and textures therefore contain Mega Showdo
 the fakemon art by **@artworks218_** (Ozera region, on Instagram), used with the creator's permission; their models,
 stats, moves and Pokédex entries are our own. Whippersnap and Karkuttle (their names and designs) are after the
 Zorneo region commission art by **@RedmondJake** (Zorneo region designs are used with the creators' permission); their
-models, stats, moves and Pokédex entries are our own.
+models, stats, moves and Pokédex entries are our own. Wigwoof, Wolfevel, Lycanmoon, Sounflame, Operbat, Nosfiretu, Fangfosh,
+Fishugly and Creepish (their names, designs, types and abilities) are after the fakemon art of the **A. Fakemon**
+fanpage; their models, stats, moves and Pokédex entries are our own.
 
 ## Code and data
 

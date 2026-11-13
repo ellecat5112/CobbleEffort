@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3077,
+ "name": "Nosfiretu",
+ "primaryType": "fire",
+ "secondaryType": "flying",
+ "maleRatio": 0.875,
+ "height": 18,
+ "weight": 800,
+ "pokedex": [
+  "cobbleeffort.species.nosfiretu.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "flying",
+  "field"
+ ],
+ "baseStats": {
+  "hp": 78,
+  "attack": 80,
+  "defence": 70,
+  "special_attack": 115,
+  "special_defence": 82,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.72,
+ "hitbox": {
+  "width": 1.6,
+  "height": 2.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:gold_nugget",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "4:ember",
+  "8:gust",
+  "12:bite",
+  "15:flamecharge",
+  "1:bitterblade",
+  "16:confuseray",
+  "20:airslash",
+  "24:leechlife",
+  "28:flamethrower",
+  "32:nastyplot",
+  "36:bitterblade",
+  "42:hurricane",
+  "48:heatwave",
+  "54:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:ember",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:heatwave",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:fly",
+  "tm:roost",
+  "tm:defog",
+  "tm:tailwind",
+  "tm:leechlife",
+  "tm:bite",
+  "tm:crunch",
+  "tm:nastyplot",
+  "tm:shadowball",
+  "tm:darkpulse",
+  "tm:confuseray",
+  "tm:screech",
+  "tm:overheat",
+  "tm:hurricane",
+  "tm:bravebird",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:blastburn",
+  "tm:mysticalfire",
+  "tm:hex",
+  "tm:nightshade"
+ ],
+ "preEvolution": "cobbleeffort:operbat"
+}

@@ -250,6 +250,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Whippersnap -> Karkuttle (#3070-3071, line "whip_crab", `models/_whip.py`: palette, `sleepy_eye()`, `antenna()` rod
   chains, `leg()` jointed legs, `tipped()` orange-tipped fangs/claws; Zorneo region commission art by @RedmondJake,
   names kept): Bug at 30, Long Reach / Keen Eye / Sniper; long whip antennae arch back over the body.
+  A. Fakemon starters (#3072-3080, art of the A. Fakemon fanpage, names/types/abilities from its cards; `_afake.py`:
+  `round_eye`, `tongues()` edge peaks, `bx()`, `solid_of`/`ramp_of`; palettes `_wolfpup.py`, `_firebat.py` (`membrane()`
+  cut-out wing/cape planes), `_fishface.py` (`grimace()`, `ring_eye()`, `fin()` planes)): Wigwoof -> Wolfevel ->
+  Lycanmoon (Grass, Grass/Fighting; vine lasso on arm_right), Sounflame -> Operbat -> Nosfiretu (Fire/Flying),
+  Fangfosh -> Fishugly -> Creepish (Water, Water/Ground, Water/Dark) at 16/36; their own starter page FAKEMON_STARTERS
+  ("A. Fakemon", order -98, key afakemon).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

@@ -1,0 +1,155 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3073,
+ "name": "Wolfevel",
+ "primaryType": "grass",
+ "maleRatio": 0.875,
+ "height": 13,
+ "weight": 170,
+ "pokedex": [
+  "cobbleeffort.species.wolfevel.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "overgrow",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "field",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 82,
+  "defence": 60,
+  "special_attack": 52,
+  "special_defence": 58,
+  "speed": 88
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.1,
+  "height": 1.85,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.36
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:orange_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:leafage",
+  "8:bite",
+  "12:razorleaf",
+  "15:howl",
+  "1:doublekick",
+  "16:doublekick",
+  "20:magicalleaf",
+  "24:crunch",
+  "28:leafblade",
+  "32:bulkup",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:solarbeam",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:leafblade",
+  "tm:crunch",
+  "tm:firefang",
+  "tm:thunderfang",
+  "tm:icefang",
+  "tm:bodyslam",
+  "tm:dig",
+  "tm:rockslide",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:roar",
+  "tm:howl",
+  "tm:uturn",
+  "tm:charm"
+ ],
+ "evolutions": [
+  {
+   "id": "wolfevel_lycanmoon",
+   "variant": "level_up",
+   "result": "cobbleeffort:lycanmoon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "drainpunch"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:wigwoof"
+}

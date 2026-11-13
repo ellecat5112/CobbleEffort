@@ -1,0 +1,151 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3080,
+ "name": "Creepish",
+ "primaryType": "water",
+ "secondaryType": "dark",
+ "maleRatio": 0.875,
+ "height": 15,
+ "weight": 900,
+ "pokedex": [
+  "cobbleeffort.species.creepish.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "torrent",
+  "h:protean"
+ ],
+ "eggGroups": [
+  "water_1",
+  "water_2"
+ ],
+ "baseStats": {
+  "hp": 88,
+  "attack": 115,
+  "defence": 85,
+  "special_attack": 70,
+  "special_defence": 75,
+  "speed": 97
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.68,
+ "hitbox": {
+  "width": 1.5,
+  "height": 2.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "4:watergun",
+  "8:bite",
+  "12:mudslap",
+  "15:aquajet",
+  "1:throatchop",
+  "16:mudshot",
+  "20:chillingwater",
+  "24:crunch",
+  "28:liquidation",
+  "32:scaryface",
+  "36:throatchop",
+  "42:knockoff",
+  "48:wavecrash",
+  "54:suckerpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:watergun",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:icefang",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:crunch",
+  "tm:bite",
+  "tm:mudshot",
+  "tm:mudslap",
+  "tm:aquatail",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:scaryface",
+  "tm:dive",
+  "tm:waterfall",
+  "tm:hydropump",
+  "tm:wavecrash",
+  "tm:knockoff",
+  "tm:throatchop",
+  "tm:suckerpunch",
+  "tm:darkpulse",
+  "tm:nightslash",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hydrocannon",
+  "tm:taunt",
+  "tm:foulplay"
+ ],
+ "preEvolution": "cobbleeffort:fishugly"
+}

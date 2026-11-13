@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 79 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 88 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2434,6 +2434,89 @@ cobbleeffort:cavitot.
   lengths away."
   * Evolve Whippersnap at level 30. It learns Lunge when it evolves.
   * Wild: rare in swamps, jungles and on beaches.
+
+#3072 WIGWOOF  (Grass; Overgrow / Scrappy (hidden))
+  a light green wolf pup with a big blond bowl of hair like a wig, orange eyes, a brown nose, a
+  little fang and a bushy dark green tail tipped yellow
+  Stats: HP 50  Atk 62  Def 45  SpA 42  SpD 45  Spe 65  (total 309)
+  Pokedex: "The blond tuft on its head is a clump of dry grass it never stops growing. It hides its
+  eyes under it when it is shy, and fluffs it up to look bigger when it wants to look tough."
+  * One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page).
+  * Wild: very rare in forests and plains.
+  * Evolves into Wolfevel at level 16.
+
+#3073 WOLFEVEL  (Grass; Overgrow / Scrappy (hidden))
+  a scrappy green werewolf on two legs with a wild orange mane, red eyes, fangs, spiky orange fur
+  cuffs, green fists with red claws, a leafy vine belt, huge clawed feet and a spiky orange-to-red
+  tail
+  Stats: HP 65  Atk 82  Def 60  SpA 52  SpD 58  Spe 88  (total 405)
+  Pokedex: "It has started walking on two legs and picks fights with anything bigger than itself,
+  just to prove it can. Its tail turns redder the angrier it gets."
+  * Evolve Wigwoof at level 16. It learns Double Kick when it evolves.
+  * Evolves into Lycanmoon at level 36.
+
+#3074 LYCANMOON  (Grass / Fighting; Overgrow / Scrappy (hidden))
+  a towering brown werewolf brawler with a grinning snout, shaggy yellow hair, a leaf-marked chest,
+  spiky yellow shoulder pads, red-brown fists, a green leafy loincloth, a flame-like tail and a vine
+  lasso
+  Stats: HP 85  Atk 125  Def 80  SpA 65  SpD 70  Spe 105  (total 530)
+  Pokedex: "It ropes its opponents with a vine lasso and pulls them into the reach of its fists.
+  Under a full moon it howls so loudly that every Wigwoof for miles answers."
+  * Evolve Wolfevel at level 36. It learns Drain Punch when it evolves.
+
+#3075 SOUNFLAME  (Fire / Flying; Blaze / Infiltrator (hidden))
+  a little red bat with huge pointed ears, a yellow mask and beaky muzzle, magenta eyes and wings of
+  yellow-orange flame
+  Stats: HP 45  Atk 50  Def 40  SpA 60  SpD 45  Spe 69  (total 309)
+  Pokedex: "Its huge ears hear the crackle of a campfire from a mile away. It sneaks up to warm its
+  wings by the flames and steals the sparks to feed its own."
+  * One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page).
+  * Wild: very rare in badlands, savannas and deserts.
+  * Evolves into Operbat at level 16.
+
+#3076 OPERBAT  (Fire / Flying; Blaze / Infiltrator (hidden))
+  a red bat in a golden opera mask with curling horns, half-closed purple eyes, a white ruffled
+  collar, a tattered yellow cloak, raised red wings licked by flames and a flame-tipped tail
+  Stats: HP 60  Atk 64  Def 55  SpA 82  SpD 60  Spe 84  (total 405)
+  Pokedex: "It hides its face behind a golden mask and performs for anyone who will listen, singing
+  in a voice so high that windows crack. It never takes the mask off."
+  * Evolve Sounflame at level 16. It learns Confuse Ray when it evolves.
+  * Evolves into Nosfiretu at level 36.
+
+#3077 NOSFIRETU  (Fire / Flying; Blaze / Infiltrator (hidden))
+  a tall gaunt red vampire bat with crossed arms, a golden horned mask with purple eyes and fangs,
+  silver spikes on its head, a great purple cape of wings lined with gold, and a long segmented tail
+  Stats: HP 78  Atk 80  Def 70  SpA 115  SpD 82  Spe 105  (total 530)
+  Pokedex: "It wraps itself in its wings like a cape and stands perfectly still in the dark, until
+  something warm passes by. Then it drinks the heat from its prey, leaving it shivering."
+  * Evolve Operbat at level 36. It learns Bitter Blade when it evolves.
+
+#3078 FANGFOSH  (Water; Torrent / Protean (hidden))
+  a little pale aqua fish on blue frog legs with a huge grimace of square white teeth, big round
+  blue eyes, a black stripe into a black dorsal fin and a blue tail fin
+  Stats: HP 50  Atk 58  Def 50  SpA 45  SpD 46  Spe 60  (total 309)
+  Pokedex: "It is always grinning like that, even when it is scared, which makes it very hard to
+  tell what it is feeling. It hops out of the water on its little legs to bite at ankles."
+  * One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page).
+  * Wild: very rare by rivers and in swamps.
+  * Evolves into Fishugly at level 16.
+
+#3079 FISHUGLY  (Water / Ground; Torrent / Protean (hidden))
+  a gangly walker on two long blue fin-legs with a big green fish head, a grimace of jagged fangs,
+  black-ringed eyes, a black mop of fins and long blue arm-fins
+  Stats: HP 68  Atk 80  Def 72  SpA 55  SpD 60  Spe 70  (total 405)
+  Pokedex: "It wanders the riverbanks on its long fin-legs, staring at everything with its
+  unblinking eyes. It buries itself in the mud to sleep, with only its grin showing."
+  * Evolve Fangfosh at level 16. It learns Mud Shot when it evolves.
+  * Evolves into Creepish at level 36.
+
+#3080 CREEPISH  (Water / Dark; Torrent / Protean (hidden))
+  a creepy fish-man on bent frog legs with raised clawed blue arms, a green fish face with ringed
+  goggle eyes and a toothy mouth in a great black frill, a scaled blue belly and a dark green back
+  Stats: HP 88  Atk 115  Def 85  SpA 70  SpD 75  Spe 97  (total 530)
+  Pokedex: "It lurks in dark lagoons with only its frill above the water. When it spreads the frill
+  and raises its arms, even large Pokémon back away."
+  * Evolve Fishugly at level 36. It learns Throat Chop when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

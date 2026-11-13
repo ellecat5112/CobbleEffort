@@ -1,0 +1,160 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3076,
+ "name": "Operbat",
+ "primaryType": "fire",
+ "secondaryType": "flying",
+ "maleRatio": 0.875,
+ "height": 9,
+ "weight": 100,
+ "pokedex": [
+  "cobbleeffort.species.operbat.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "flying",
+  "field"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 64,
+  "defence": 55,
+  "special_attack": 82,
+  "special_defence": 60,
+  "speed": 84
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 1.3,
+  "height": 1.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "4:ember",
+  "8:gust",
+  "12:bite",
+  "15:flamecharge",
+  "1:confuseray",
+  "16:confuseray",
+  "20:airslash",
+  "24:leechlife",
+  "28:flamethrower",
+  "32:nastyplot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:ember",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:heatwave",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:fly",
+  "tm:roost",
+  "tm:defog",
+  "tm:tailwind",
+  "tm:leechlife",
+  "tm:bite",
+  "tm:crunch",
+  "tm:nastyplot",
+  "tm:shadowball",
+  "tm:darkpulse",
+  "tm:confuseray",
+  "tm:screech"
+ ],
+ "evolutions": [
+  {
+   "id": "operbat_nosfiretu",
+   "variant": "level_up",
+   "result": "cobbleeffort:nosfiretu",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "bitterblade"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:sounflame"
+}

@@ -1444,6 +1444,24 @@ hidden Sniper; Fury Cutter, Bug Bite, Quick Attack, Feint, Skitter Smack, Night 
 evolving), Leech Life, First Impression, Throat Chop, Swords Dance and Megahorn. Whippersnap is uncommon in swamps,
 jungles and on beaches, Karkuttle rare there. Shiny: violet with slate legs and red eyes.
 
+**The A. Fakemon starters**, after the art of the **A. Fakemon** fanpage (the art's names): three new starter lines on
+their own **A. Fakemon** page of the starter screen (after CobbleEffort's page), evolving at levels 16 and 36. Each
+first stage is also very rarely found in the wild.
+- **Wigwoof → Wolfevel → Lycanmoon** (Grass → Grass → Grass/Fighting; Overgrow, hidden Scrappy): a light green wolf pup
+  with a blond wig of hair over its eyes; a scrappy two-legged werewolf with a wild orange mane, spiky fur cuffs and a
+  red-tipped tail; and a towering brown werewolf brawler in a leafy loincloth, with spiky yellow shoulder pads, red
+  fists, a flame-like tail and a vine lasso. Leafage, Bite, Razor Leaf, Howl, Leaf Blade and Bulk Up, then Drain Punch,
+  Power Whip, Close Combat and Wood Hammer. Shiny: a moonlit night wolf (slate blue, silver hair).
+- **Sounflame → Operbat → Nosfiretu** (Fire/Flying; Blaze, hidden Infiltrator): a little red bat with huge ears, a
+  yellow beaky mask and wings of flame; an opera bat in a golden mask and ruffled collar with a tattered yellow cloak
+  and a flame-tipped tail; and a gaunt vampire bat with crossed arms, a horned golden mask and a great purple cape of
+  wings. Ember, Gust, Flame Charge, Air Slash, Leech Life, Flamethrower and Nasty Plot, then Bitter Blade, Hurricane,
+  Heat Wave and Overheat. Shiny: blue flames and a crimson cape.
+- **Fangfosh → Fishugly → Creepish** (Water → Water/Ground → Water/Dark; Torrent, hidden Protean): a little grimacing
+  fish on frog legs; a gangly fin-legged walker with a fanged fish head; and a creepy lagoon fish-man with raised claws
+  and a great black frill. Water Gun, Bite, Mud-Slap, Aqua Jet, Mud Shot, Crunch and Liquidation, then Throat Chop,
+  Knock Off, Wave Crash and Sucker Punch. Shiny: violet and lilac.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1518,6 +1536,15 @@ jungles and on beaches, Karkuttle rare there. Shiny: violet with slate legs and 
 | 3069 | **Dracarabo** | Bug / Dragon | Swarm / Shed Skin / Strong Jaw (hidden) | 90 / 135 / 105 / 65 / 80 / 70 | 5'11" (1.8 m) / 125 kg | Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves. Wild: rare in jungles. | The horn on its head grows into the shape of a dragon's skull, jaws and all. It charges with the jaws wide open, and the snap when they close can be heard right across the savanna. |
 | 3070 | **Whippersnap** | Bug | Long Reach / Keen Eye / Sniper (hidden) | 45 / 65 / 55 / 30 / 40 / 65 | 1'4" (0.4 m) / 3.8 kg | Wild: uncommon in swamps, jungles and on beaches. Evolves into Karkuttle at level 30. | It looks half asleep, but its whip antennae never stop feeling around it. The moment one brushes prey, its little claws snap shut faster than the eye can follow. |
 | 3071 | **Karkuttle** | Bug | Long Reach / Keen Eye / Sniper (hidden) | 70 / 115 / 85 / 45 / 65 / 105 | 4'11" (1.5 m) / 52 kg | Evolve Whippersnap at level 30. It learns Lunge when it evolves. Wild: rare in swamps, jungles and on beaches. | Its legs are so long it can step over a fallen log without slowing down. It waits with its eyes half shut and its antennae spread wide, then lashes out with its claws from three body lengths away. |
+| 3072 | **Wigwoof** | Grass | Overgrow / Scrappy (hidden) | 50 / 62 / 45 / 42 / 45 / 65 | 1'8" (0.5 m) / 12.3 kg | One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page). Wild: very rare in forests and plains. Evolves into Wolfevel at level 16. | The blond tuft on its head is a clump of dry grass it never stops growing. It hides its eyes under it when it is shy, and fluffs it up to look bigger when it wants to look tough. |
+| 3073 | **Wolfevel** | Grass | Overgrow / Scrappy (hidden) | 65 / 82 / 60 / 52 / 58 / 88 | 4'3" (1.3 m) / 17 kg | Evolve Wigwoof at level 16. It learns Double Kick when it evolves. Evolves into Lycanmoon at level 36. | It has started walking on two legs and picks fights with anything bigger than itself, just to prove it can. Its tail turns redder the angrier it gets. |
+| 3074 | **Lycanmoon** | Grass / Fighting | Overgrow / Scrappy (hidden) | 85 / 125 / 80 / 65 / 70 / 105 | 5'7" (1.7 m) / 150 kg | Evolve Wolfevel at level 36. It learns Drain Punch when it evolves. | It ropes its opponents with a vine lasso and pulls them into the reach of its fists. Under a full moon it howls so loudly that every Wigwoof for miles answers. |
+| 3075 | **Sounflame** | Fire / Flying | Blaze / Infiltrator (hidden) | 45 / 50 / 40 / 60 / 45 / 69 | 1'0" (0.3 m) / 7.5 kg | One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page). Wild: very rare in badlands, savannas and deserts. Evolves into Operbat at level 16. | Its huge ears hear the crackle of a campfire from a mile away. It sneaks up to warm its wings by the flames and steals the sparks to feed its own. |
+| 3076 | **Operbat** | Fire / Flying | Blaze / Infiltrator (hidden) | 60 / 64 / 55 / 82 / 60 / 84 | 2'11" (0.9 m) / 10 kg | Evolve Sounflame at level 16. It learns Confuse Ray when it evolves. Evolves into Nosfiretu at level 36. | It hides its face behind a golden mask and performs for anyone who will listen, singing in a voice so high that windows crack. It never takes the mask off. |
+| 3077 | **Nosfiretu** | Fire / Flying | Blaze / Infiltrator (hidden) | 78 / 80 / 70 / 115 / 82 / 105 | 5'11" (1.8 m) / 80 kg | Evolve Operbat at level 36. It learns Bitter Blade when it evolves. | It wraps itself in its wings like a cape and stands perfectly still in the dark, until something warm passes by. Then it drinks the heat from its prey, leaving it shivering. |
+| 3078 | **Fangfosh** | Water | Torrent / Protean (hidden) | 50 / 58 / 50 / 45 / 46 / 60 | 0'8" (0.2 m) / 2.3 kg | One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page). Wild: very rare by rivers and in swamps. Evolves into Fishugly at level 16. | It is always grinning like that, even when it is scared, which makes it very hard to tell what it is feeling. It hops out of the water on its little legs to bite at ankles. |
+| 3079 | **Fishugly** | Water / Ground | Torrent / Protean (hidden) | 68 / 80 / 72 / 55 / 60 / 70 | 2'7" (0.8 m) / 6 kg | Evolve Fangfosh at level 16. It learns Mud Shot when it evolves. Evolves into Creepish at level 36. | It wanders the riverbanks on its long fin-legs, staring at everything with its unblinking eyes. It buries itself in the mud to sleep, with only its grin showing. |
+| 3080 | **Creepish** | Water / Dark | Torrent / Protean (hidden) | 88 / 115 / 85 / 70 / 75 / 97 | 4'11" (1.5 m) / 90 kg | Evolve Fishugly at level 36. It learns Throat Chop when it evolves. | It lurks in dark lagoons with only its frill above the water. When it spreads the frill and raises its arms, even large Pokémon back away. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

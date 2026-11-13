@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:operbat",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:operbat",
+   "model": "cobbleeffort:operbat.geo",
+   "texture": "cobbleeffort:textures/pokemon/3076_operbat/operbat.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_glow_0.png",
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_glow_1.png",
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3076_operbat/operbat_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3076_operbat/operbat_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

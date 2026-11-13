@@ -1,0 +1,152 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3078,
+ "name": "Fangfosh",
+ "primaryType": "water",
+ "maleRatio": 0.875,
+ "height": 2,
+ "weight": 23,
+ "pokedex": [
+  "cobbleeffort.species.fangfosh.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "torrent",
+  "h:protean"
+ ],
+ "eggGroups": [
+  "water_1",
+  "water_2"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 58,
+  "defence": 50,
+  "special_attack": 45,
+  "special_defence": 46,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.3,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.95,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "4:watergun",
+  "8:bite",
+  "12:mudslap",
+  "15:aquajet",
+  "17:chillingwater",
+  "20:crunch",
+  "24:aquatail",
+  "28:scaryface",
+  "egg:suckerpunch",
+  "egg:pursuit",
+  "egg:yawn",
+  "egg:aquaring",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:watergun",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:icefang",
+  "tm:icebeam",
+  "tm:icywind",
+  "tm:crunch",
+  "tm:bite",
+  "tm:mudshot",
+  "tm:mudslap",
+  "tm:aquatail",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:scaryface",
+  "tm:dive",
+  "tm:waterfall"
+ ],
+ "evolutions": [
+  {
+   "id": "fangfosh_fishugly",
+   "variant": "level_up",
+   "result": "cobbleeffort:fishugly",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "mudshot"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3074,
+ "name": "Lycanmoon",
+ "primaryType": "grass",
+ "secondaryType": "fighting",
+ "maleRatio": 0.875,
+ "height": 17,
+ "weight": 1500,
+ "pokedex": [
+  "cobbleeffort.species.lycanmoon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "overgrow",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "field",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 125,
+  "defence": 80,
+  "special_attack": 65,
+  "special_defence": 70,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.4,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.38
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:vine",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:leafage",
+  "8:bite",
+  "12:razorleaf",
+  "15:howl",
+  "1:drainpunch",
+  "1:powerwhip",
+  "16:doublekick",
+  "20:magicalleaf",
+  "24:crunch",
+  "28:leafblade",
+  "32:bulkup",
+  "36:drainpunch",
+  "42:powerwhip",
+  "48:closecombat",
+  "54:woodhammer",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:solarbeam",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:leafblade",
+  "tm:crunch",
+  "tm:firefang",
+  "tm:thunderfang",
+  "tm:icefang",
+  "tm:bodyslam",
+  "tm:dig",
+  "tm:rockslide",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:roar",
+  "tm:howl",
+  "tm:uturn",
+  "tm:charm",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:superpower",
+  "tm:hammerarm",
+  "tm:poweruppunch",
+  "tm:focusblast",
+  "tm:leafstorm",
+  "tm:woodhammer",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:frenzyplant",
+  "tm:earthquake",
+  "tm:stoneedge"
+ ],
+ "preEvolution": "cobbleeffort:wolfevel"
+}
