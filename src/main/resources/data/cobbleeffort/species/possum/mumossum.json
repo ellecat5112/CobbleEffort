@@ -1,0 +1,161 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3052,
+ "name": "Mumossum",
+ "primaryType": "normal",
+ "secondaryType": "fairy",
+ "maleRatio": 0.0,
+ "height": 13,
+ "weight": 410,
+ "pokedex": [
+  "cobbleeffort.species.mumossum.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "cutecharm",
+  "healer",
+  "h:friendguard"
+ ],
+ "eggGroups": [
+  "field",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 105,
+  "attack": 70,
+  "defence": 80,
+  "special_attack": 75,
+  "special_defence": 95,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 2,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 168,
+ "experienceGroup": "medium_slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 100,
+ "shoulderMountable": false,
+ "baseScale": 0.6,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.3,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.26
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:pink_dye",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:silk_scarf",
+    "percentage": 3.0
+   }
+  ]
+ },
+ "moves": [
+  "1:joeyslingshot",
+  "1:tackle",
+  "1:tailwhip",
+  "4:babydolleyes",
+  "8:quickattack",
+  "12:playnice",
+  "16:covet",
+  "20:charm",
+  "24:takedown",
+  "28:wish",
+  "30:joeyslingshot",
+  "34:lifedew",
+  "38:bodyslam",
+  "42:dazzlinggleam",
+  "46:softboiled",
+  "51:moonblast",
+  "56:doubleedge",
+  "egg:fakeout",
+  "egg:lifedew",
+  "egg:afteryou",
+  "egg:yawn",
+  "egg:followme",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:charm",
+  "tm:playrough",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:headbutt",
+  "tm:bite",
+  "tm:crunch",
+  "tm:uturn",
+  "tm:helpinghand",
+  "tm:endeavor",
+  "tm:faketears",
+  "tm:hypervoice",
+  "tm:swift",
+  "tm:irontail",
+  "tm:thief",
+  "tm:knockoff",
+  "tm:dig",
+  "tm:shadowball",
+  "tm:psychic",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:trailblaze",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:moonblast"
+ ],
+ "preEvolution": "cobbleeffort:obubby"
+}

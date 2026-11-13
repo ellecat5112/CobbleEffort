@@ -198,6 +198,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Scorpaddle -> Pterygant (#3049-3050, line "eurypterid", `models/_eurypterid.py`; the user's art, artist not named; our
   names/types): Bug/Water fossils, level 40, aquatic floaters (paddles = arm bones); Telson Fossil (key "telson", cmd 4)
   from `seabed` (the riverbed builder with its own loot table) on ocean floors (`#minecraft:is_ocean`).
+  Obubby -> Mumossum (#3051-3052, line "possum", `models/_opossum.py` with `baby(m, bone, c, s)` = a whole Obubby at
+  any scale; art by @Fakemanss, names kept): Normal -> Normal/Fairy at 30, female-only (male 0.0); Mumossum carries six
+  mini Obubbies as `joey_1..6` bones (they sway); custom move Joey Slingshot (populationbomb base, 15 power,
+  `multihit` 6, `multiaccuracy` false; tested: 6 hits, Ghost immune). Ear planes tilt OUTWARD with rotation z = +sx*deg.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

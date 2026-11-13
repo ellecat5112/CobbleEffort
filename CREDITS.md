@@ -238,7 +238,9 @@ community that the user shared (artist not named); their names, models and Poké
 Placofin (and the Minnow Fossil) follow the fossil fish fakemon art by **Fionn Keeley** (@fionnkeeley, @miscfionn,
 aegiro) that the user shared; their names, models and Pokédex entries are our own. Scorpaddle and Pterygant
 (and the Telson Fossil) follow the eurypterid fossil fakemon art the user shared (a watermarked DeviantArt piece; the
-artist isn't named); their names, types, models and Pokédex entries are our own.
+artist isn't named); their names, types, models and Pokédex entries are our own. Obubby and Mumossum (their
+names and designs) are after the fakemon art by **@Fakemanss** that the user shared; their models, Joey Slingshot
+and Pokédex entries are our own.
 
 ## Code and data
 

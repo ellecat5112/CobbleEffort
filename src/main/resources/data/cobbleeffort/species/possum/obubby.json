@@ -1,0 +1,163 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3051,
+ "name": "Obubby",
+ "primaryType": "normal",
+ "maleRatio": 0.0,
+ "height": 4,
+ "weight": 32,
+ "pokedex": [
+  "cobbleeffort.species.obubby.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pickup",
+  "cutecharm",
+  "h:friendguard"
+ ],
+ "eggGroups": [
+  "field",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 40,
+  "defence": 45,
+  "special_attack": 35,
+  "special_defence": 45,
+  "speed": 35
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "medium_slow",
+ "catchRate": 200,
+ "eggCycles": 20,
+ "baseFriendship": 100,
+ "shoulderMountable": true,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:pink_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:tailwhip",
+  "4:babydolleyes",
+  "8:quickattack",
+  "12:playnice",
+  "16:covet",
+  "20:charm",
+  "24:takedown",
+  "28:wish",
+  "32:lastresort",
+  "36:playrough",
+  "egg:fakeout",
+  "egg:lifedew",
+  "egg:afteryou",
+  "egg:yawn",
+  "egg:followme",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:charm",
+  "tm:playrough",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:headbutt",
+  "tm:bite",
+  "tm:crunch",
+  "tm:uturn",
+  "tm:helpinghand",
+  "tm:endeavor",
+  "tm:faketears",
+  "tm:hypervoice",
+  "tm:swift",
+  "tm:irontail",
+  "tm:thief",
+  "tm:knockoff",
+  "tm:dig",
+  "tm:shadowball",
+  "tm:psychic",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:trailblaze"
+ ],
+ "evolutions": [
+  {
+   "id": "obubby_mumossum",
+   "variant": "level_up",
+   "result": "cobbleeffort:mumossum",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "joeyslingshot"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ]
+}

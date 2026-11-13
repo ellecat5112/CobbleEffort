@@ -1335,6 +1335,15 @@ Fury Cutter, Aqua Jet, Razor Shell, X-Scissor and Swords Dance, then Crabhammer 
 First Impression and Wave Crash. Revived from a **Telson Fossil**, found by brushing the suspicious gravel of fossil
 beds on the sea floor. Shiny: an aqua shell with orange markings.
 
+**Obubby → Mumossum** (Normal → Normal/Fairy, level 30; always female), a baby opossum and the mother she grows up to
+be. Obubby has a big round white head, huge dark ears, a pink snout and blush, and hugs its long pink tail; Mumossum,
+smiling under a black frilly collar with pink hearts on her belly, carries six little Obubbies (one on her head, one on
+each shoulder, two on her back and one in the curl of her tail). Her own move **Joey Slingshot** (Normal, physical,
+15 power, hits six times) slings her babies at the target one after another. Pickup or Cute Charm (Obubby), Cute Charm
+or Healer (Mumossum), hidden Friend Guard; Baby-Doll Eyes, Covet, Charm and Wish, then Life Dew, Dazzling Gleam,
+Soft-Boiled and Moonblast. Common (Obubby) and uncommon (Mumossum) in forests and plains at night. Shiny: dusky purple
+ears and a lilac tail.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1388,6 +1397,8 @@ beds on the sea floor. Shiny: an aqua shell with orange markings.
 | 3048 | **Placofin** | Rock / Water | Swift Swim / Shell Armor / Rattled (hidden) | 70 / 105 / 115 / 55 / 70 / 80 | 4'7" (1.4 m) / 64 kg | Evolve Minnolith at level 38. It learns Head Smash when it evolves. | Its bullet-shaped head is armoured like a battering ram. It crept along ancient riverbeds on its little legs, and when it charged, the force of it could crack the stones of the riverbank. |
 | 3049 | **Scorpaddle** | Bug / Water | Swift Swim / Battle Armor / Tough Claws (hidden) | 50 / 80 / 70 / 40 / 45 / 70 | 1'4" (0.4 m) / 6.2 kg | Revive a Telson Fossil at a Restoration Tank. Telson Fossils are found by brushing the suspicious gravel of fossil beds on the sea floor. Evolves into Pterygant at level 40. | A sea scorpion from the oldest oceans. It rows along the sea floor with its paddles and holds its tail spike up like a warning, though the spike was only ever for show. |
 | 3050 | **Pterygant** | Bug / Water | Swift Swim / Battle Armor / Tough Claws (hidden) | 75 / 120 / 100 / 55 / 70 / 75 | 6'3" (1.9 m) / 145 kg | Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves. | The largest sea scorpion that ever lived. It swept its great paddles to chase down prey in the ancient seas, and nothing that swam could outlast it. |
+| 3051 | **Obubby** | Normal | Pickup / Cute Charm / Friend Guard (hidden) | 55 / 40 / 45 / 35 / 45 / 35 | 1'4" (0.4 m) / 3.2 kg | Wild: common in forests and plains at night. Evolves into Mumossum at level 30, and learns Joey Slingshot when it does. | It clings to its mother's back for weeks after it is born, hugging its own long tail when it gets scared. When something startles it, it flops over and plays dead, curl of hair and all. |
+| 3052 | **Mumossum** | Normal / Fairy | Cute Charm / Healer / Friend Guard (hidden) | 105 / 70 / 80 / 75 / 95 / 50 | 4'3" (1.3 m) / 41 kg | Evolve Obubby at level 30. It learns Joey Slingshot when it evolves. Wild: uncommon in forests and plains at night. | It carries a half dozen of its babies wherever it goes. When something threatens them it plucks the bravest ones off its back and slings them at the enemy with its tail; they come straight back to it, very pleased with themselves. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1423,6 +1434,8 @@ beds on the sea floor. Shiny: an aqua shell with orange markings.
 ![Minnolith and Placofin, regular and shiny](docs/newmons_minnow.png)
 
 ![Scorpaddle and Pterygant, regular and shiny](docs/newmons_eurypterid.png)
+
+![Obubby and Mumossum, regular and shiny](docs/newmons_possum.png)
 
 ## CobbleEffort regional forms
 

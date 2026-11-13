@@ -1236,6 +1236,58 @@ SPECIES.update({
 })
 LINES["eurypterid"] = ["scorpaddle", "pterygant"]
 
+# --- the opossum mother and her joeys -----------------------------------------------------------------------------------
+
+POSSUM_TM = BASIC_TM + ["charm", "playrough", "dazzlinggleam", "drainingkiss", "mistyterrain", "bodyslam", "takedown",
+                        "doubleedge", "headbutt", "bite", "crunch", "uturn", "helpinghand", "endeavor", "faketears",
+                        "hypervoice", "swift", "irontail", "thief", "knockoff", "dig", "shadowball", "psychic",
+                        "calmmind", "reflect", "lightscreen", "trailblaze"]
+POSSUM_EARLY = [(1, "tackle"), (1, "tailwhip"), (4, "babydolleyes"), (8, "quickattack"), (12, "playnice"),
+                (16, "covet"), (20, "charm"), (24, "takedown"), (28, "wish")]
+
+SPECIES.update({
+    "obubby": {
+        "dex": 3051, "name": "Obubby", "line": "possum", "types": ["normal"], "male": 0.0,
+        "egg_groups": ["field", "fairy"], "friendship": 100, "abilities": ["pickup", "cutecharm", "h:friendguard"],
+        "ability_names": "Pickup / Cute Charm / Friend Guard (hidden)",
+        "stats": stats(55, 40, 45, 35, 45, 35), "ev": evs(hp=1), "catch": 200, "exp": 55,
+        "height": 4, "weight": 32, "shoulder": True, "walk": 0.22,
+        "moves": POSSUM_EARLY + [(32, "lastresort"), (36, "playrough")],
+        "tm": POSSUM_TM, "egg": ["fakeout", "lifedew", "afteryou", "yawn", "followme"],
+        "evolve": ("mumossum", 30, ["joeyslingshot"]),
+        "drops": [("minecraft:white_wool", "0-1", None), ("minecraft:pink_dye", "0-1", None)],
+        "entry": ("It clings to its mother's back for weeks after it is born, hugging its own long tail when it gets "
+                  "scared. When something startles it, it flops over and plays dead, curl of hair and all."),
+        "spawns": [route_spawn("obubby-forest", "common", "3-25", 4.0, ["#cobblemon:is_forest", "#cobblemon:is_plains"],
+                               timeRange="night")],
+        "how": ["Wild: common in forests and plains at night.", "Evolves into Mumossum at level 30, and learns "
+                "Joey Slingshot when it does."],
+    },
+    "mumossum": {
+        "dex": 3052, "name": "Mumossum", "line": "possum", "types": ["normal", "fairy"], "male": 0.0,
+        "egg_groups": ["field", "fairy"], "friendship": 100, "abilities": ["cutecharm", "healer", "h:friendguard"],
+        "ability_names": "Cute Charm / Healer / Friend Guard (hidden)",
+        "stats": stats(105, 70, 80, 75, 95, 50), "ev": evs(hp=2), "catch": 90, "exp": 168,
+        "height": 13, "weight": 410, "shoulder": False, "walk": 0.26,
+        "moves": [(1, "joeyslingshot")] + POSSUM_EARLY + [(30, "joeyslingshot"), (34, "lifedew"),
+                                                          (38, "bodyslam"), (42, "dazzlinggleam"), (46, "softboiled"),
+                                                          (51, "moonblast"), (56, "doubleedge")],
+        "tm": POSSUM_TM + ["gigaimpact", "hyperbeam", "moonblast"], "egg": ["fakeout", "lifedew", "afteryou", "yawn",
+                                                                            "followme"],
+        "evolve": None,
+        "drops": [("minecraft:white_wool", "1-2", None), ("minecraft:pink_dye", "0-2", None),
+                  ("cobblemon:silk_scarf", None, 3.0)],
+        "entry": ("It carries a half dozen of its babies wherever it goes. When something threatens them it plucks "
+                  "the bravest ones off its back and slings them at the enemy with its tail; they come straight back "
+                  "to it, very pleased with themselves."),
+        "spawns": [route_spawn("mumossum-forest", "uncommon", "30-50", 1.5, ["#cobblemon:is_forest", "#cobblemon:is_plains"],
+                               timeRange="night")],
+        "how": ["Evolve Obubby at level 30. It learns Joey Slingshot when it evolves.",
+                "Wild: uncommon in forests and plains at night."],
+    },
+})
+LINES["possum"] = ["obubby", "mumossum"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1437,6 +1489,15 @@ contestType: "Clever"
             "cobblemon.battle.sideend.opponent.devoniandrift": "The ancient spores around the opposing team settled!",
             "cobblemon.battle.damage.devoniandrift": "%1$s is weighed down by the ancient spores!",
         },
+    },
+    "joeyslingshot": {
+        "base": "populationbomb", "num": -3010, "name": "Joey Slingshot", "type": "Normal", "category": "Physical",
+        "basePower": 15, "accuracy": 100, "pp": 10, "multihit": 6, "multiaccuracy": False,
+        "flags": {"protect": 1, "mirror": 1, "metronome": 1}, "contestType": "Cute",
+        "desc": "The user slings its six babies at the target one after another with its tail. Hits six times.",
+        "shortDesc": "Hits 6 times.",
+        "lang": "The user plucks its babies off its back and slingshots them at the target with its tail, one after "
+                "another: six hits in a row.",
     },
     "machinegunstinger": {
         "base": "pinmissile", "num": -3001, "name": "Machine Gun Stinger", "type": "Bug", "category": "Physical",

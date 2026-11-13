@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 53 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 55 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2173,6 +2173,26 @@ cobbleeffort:cavitot.
   Pokedex: "The largest sea scorpion that ever lived. It swept its great paddles to chase down prey
   in the ancient seas, and nothing that swam could outlast it."
   * Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves.
+
+#3051 OBUBBY  (Normal; Pickup / Cute Charm / Friend Guard (hidden))
+  a baby opossum with a big round white head, huge dark ears, a pink snout and blush, and a long
+  pink tail it hugs in front of it
+  Stats: HP 55  Atk 40  Def 45  SpA 35  SpD 45  Spe 35  (total 255)
+  Pokedex: "It clings to its mother's back for weeks after it is born, hugging its own long tail
+  when it gets scared. When something startles it, it flops over and plays dead, curl of hair and
+  all."
+  * Wild: common in forests and plains at night.
+  * Evolves into Mumossum at level 30, and learns Joey Slingshot when it does.
+
+#3052 MUMOSSUM  (Normal / Fairy; Cute Charm / Healer / Friend Guard (hidden))
+  a mother opossum with huge dark ears, a black frilly collar and a pink-hearted belly, smiling,
+  carrying six of her babies on her head, back and tail
+  Stats: HP 105  Atk 70  Def 80  SpA 75  SpD 95  Spe 50  (total 475)
+  Pokedex: "It carries a half dozen of its babies wherever it goes. When something threatens them it
+  plucks the bravest ones off its back and slings them at the enemy with its tail; they come
+  straight back to it, very pleased with themselves."
+  * Evolve Obubby at level 30. It learns Joey Slingshot when it evolves.
+  * Wild: uncommon in forests and plains at night.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
