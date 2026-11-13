@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 62 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 65 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2259,6 +2259,40 @@ cobbleeffort:cavitot.
   seas while it worked. When it walks, mountains shake as if in an earthquake, and the halos round
   its ring shine brighter the longer it has been awake."
   * Use a Nether Star on a Regigigas. It learns Meteor Mash when it evolves.
+
+#3059 PINLET  (Normal / Flying; Keen Eye / Big Pecks / Cheek Pouch (hidden))
+  a round chick with a white face and belly, a red cap and tuft, big grey eyes with star glints, a
+  small yellow beak, little raised brown wings and a stubby banded tail
+  Stats: HP 45  Atk 50  Def 40  SpA 30  SpD 35  Spe 60  (total 260)
+  Pokedex: "Pinlet chicks wait in the nest with their beaks wide open, shrieking until a Pinnant
+  drops a berry in. The star-shaped glints in their eyes fade as they grow up."
+  * Wild: common at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows,
+    savannas and windswept hills).
+  * Evolves into Pinnant at level 16.
+
+#3060 PINNANT  (Normal / Flying; Keen Eye / Big Pecks / Cheek Pouch (hidden))
+  a red-brown bird with a white face and bib, a swept-back red crest, big grey eyes, a hooked yellow
+  beak, half-open brown wings and two long black-and-grey banded tail streamers
+  Stats: HP 65  Atk 75  Def 60  SpA 45  SpD 50  Spe 85  (total 380)
+  Pokedex: "It trails its two long streamers like pennants as it flies between the crag and the
+  berry bushes, bringing food back for the chicks. Flocks tell each other apart by the bands on
+  their streamers."
+  * Evolve Pinlet at level 16.
+  * Wild: uncommon at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows,
+    savannas and windswept hills).
+  * Evolves into Pennacrest at level 36.
+
+#3061 PENNACREST  (Normal / Flying; Keen Eye / Big Pecks / Cheek Pouch (hidden))
+  a great brooding bird with a long white neck striped red, a broad hat-brim red crest, big grey
+  eyes with dark marks, a spiky white chest ruff with black chevrons, folded brown wings and four
+  long banded streamers
+  Stats: HP 90  Atk 110  Def 80  SpA 60  SpD 75  Spe 100  (total 515)
+  Pokedex: "The matriarch of a crag-top nest. It broods over the chicks with its broad crest spread
+  like a parasol to shade them, and drives off any intruder with a storm of beating wings and
+  lashing streamers."
+  * Evolve Pinnant at level 36. It learns Brave Bird when it evolves.
+  * Wild: rare at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows,
+    savannas and windswept hills).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

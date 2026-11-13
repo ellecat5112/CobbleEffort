@@ -195,6 +195,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).
   **HITBOX is in model units**: Cobblemon multiplies it by baseScale (build.py fails when hitbox x SCALE is far from the
   model's height); 20 old models were fixed in 0.61.0 (Calligrimm's was 15 blocks tall, small ones were 0.1).
+  Pinlet -> Pinnant -> Pennacrest (#3059-3061, line "pinbird", `models/_pinbird.py`: `wingf` cut-out feather planes,
+  `streamer()` banded tail streamers, `eye()`; the user's art, artist not named, inspired by pin-tailed whydahs; our
+  names): Normal/Flying at 16/36; spawn ONLY at the `pinbird_nest` structure (`tools/newmons/nests.py`, run by
+  build.py: a rocky crag with ledges and an overhanging hay nest + loot chest `chests/pinbird_nest`; spawn condition
+  `structures`). Structures share `fossils.write_structure(name, spec, folder)`.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

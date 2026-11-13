@@ -1463,6 +1463,67 @@ SPECIES.update({
 })
 LINES["colossus"] = ["regideity"]
 
+# --- the pinbirds (they nest on rocky crags: tools/newmons/nests.py) ------------------------------------------------------
+
+NEST = [f"{MOD}:pinbird_nest"]
+NEST_BIOMES = ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:meadow", "minecraft:savanna",
+               "minecraft:savanna_plateau", "minecraft:windswept_savanna", "minecraft:windswept_hills",
+               "minecraft:windswept_gravelly_hills"]
+PIN = dict(egg_groups=["flying"], male=0.5, friendship=70, abilities=["keeneye", "bigpecks", "h:cheekpouch"],
+           ability_names="Keen Eye / Big Pecks / Cheek Pouch (hidden)")
+PIN_TM = BASIC_TM + ["aerialace", "airslash", "acrobatics", "uturn", "dualwingbeat", "tailwind", "roost", "defog",
+                     "fly", "steelwing", "pluck", "swift", "thief", "agility", "bodyslam", "doubleedge", "hypervoice",
+                     "endeavor", "workup", "sunnyday", "raindance", "takedown", "featherdance"]
+PIN_TM_BIG = ["bravebird", "heatwave", "hurricane", "gigaimpact", "hyperbeam", "skyattack"]
+PIN_EARLY = [(1, "tackle"), (1, "growl"), (4, "peck"), (8, "quickattack"), (12, "gust"), (15, "featherdance")]
+NEST_HOW = "at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills)"
+
+SPECIES.update({
+    "pinlet": {
+        "dex": 3059, "name": "Pinlet", "line": "pinbird", "types": ["normal", "flying"], **PIN,
+        "stats": stats(45, 50, 40, 30, 35, 60), "ev": evs(speed=1), "catch": 255, "exp": 50,
+        "height": 4, "weight": 20, "shoulder": True, "walk": 0.24,
+        "moves": PIN_EARLY + [(18, "pluck"), (21, "wingattack")],
+        "tm": PIN_TM, "egg": ["mirrormove", "bravebird", "pursuit", "uproar", "roost", "doublehit"],
+        "evolve": ("pinnant", 16, ["wingattack"]),
+        "drops": [("minecraft:feather", "1-2", None), ("minecraft:wheat_seeds", "0-2", None)],
+        "entry": ("Pinlet chicks wait in the nest with their beaks wide open, shrieking until a Pinnant drops a berry "
+                  "in. The star-shaped glints in their eyes fade as they grow up."),
+        "spawns": [route_spawn("pinlet-nest", "common", "3-15", 12.0, NEST_BIOMES, structures=NEST)],
+        "how": [f"Wild: common {NEST_HOW}.", "Evolves into Pinnant at level 16."],
+    },
+    "pinnant": {
+        "dex": 3060, "name": "Pinnant", "line": "pinbird", "types": ["normal", "flying"], **PIN,
+        "stats": stats(65, 75, 60, 45, 50, 85), "ev": evs(speed=2), "catch": 120, "exp": 125,
+        "height": 9, "weight": 230, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": PIN_EARLY + [(1, "wingattack"), (20, "pluck"), (24, "agility"), (28, "aerialace"), (32, "roost"),
+                              (36, "airslash")],
+        "tm": PIN_TM, "egg": [], "evolve": ("pennacrest", 36, ["bravebird"]),
+        "drops": [("minecraft:feather", "1-3", None), ("minecraft:sweet_berries", "0-2", None)],
+        "entry": ("It trails its two long streamers like pennants as it flies between the crag and the berry bushes, "
+                  "bringing food back for the chicks. Flocks tell each other apart by the bands on their streamers."),
+        "spawns": [route_spawn("pinnant-nest", "uncommon", "16-32", 6.0, NEST_BIOMES, structures=NEST)],
+        "how": ["Evolve Pinlet at level 16.", f"Wild: uncommon {NEST_HOW}.", "Evolves into Pennacrest at level 36."],
+    },
+    "pennacrest": {
+        "dex": 3061, "name": "Pennacrest", "line": "pinbird", "types": ["normal", "flying"], **PIN,
+        "stats": stats(90, 110, 80, 60, 75, 100), "ev": evs(attack=3), "catch": 45, "exp": 218,
+        "height": 19, "weight": 600, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": PIN_EARLY + [(1, "wingattack"), (1, "bravebird"), (20, "pluck"), (24, "agility"), (28, "aerialace"),
+                              (32, "roost"), (38, "airslash"), (42, "doubleedge"), (47, "tailwind"), (52, "bravebird"),
+                              (58, "hurricane")],
+        "tm": PIN_TM + PIN_TM_BIG, "egg": [], "evolve": None,
+        "drops": [("minecraft:feather", "2-4", None), ("minecraft:hay_block", "0-1", None),
+                  ("cobblemon:sharp_beak", None, 2.5)],
+        "entry": ("The matriarch of a crag-top nest. It broods over the chicks with its broad crest spread like a "
+                  "parasol to shade them, and drives off any intruder with a storm of beating wings and lashing "
+                  "streamers."),
+        "spawns": [route_spawn("pennacrest-nest", "rare", "36-52", 3.0, NEST_BIOMES, structures=NEST)],
+        "how": ["Evolve Pinnant at level 36. It learns Brave Bird when it evolves.", f"Wild: rare {NEST_HOW}."],
+    },
+})
+LINES["pinbird"] = ["pinlet", "pinnant", "pennacrest"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1937,6 +1998,8 @@ def main():
         "pokemon": [f"{m} level=10" for m in mons]})
     import fossils                                           # fossil items, structures and Cobblemon fossil entries
     fossils.build(lang)
+    import nests                                             # nest structures (the pinbirds spawn at theirs)
+    nests.build(lang)
     _tufts.build(lang)                                       # Aetherim's elemental tufts (cosmetic items + named tufts)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"

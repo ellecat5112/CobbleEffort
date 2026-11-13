@@ -1,0 +1,35 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pinlet-nest",
+   "pokemon": "cobbleeffort:pinlet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-15",
+   "weight": 12.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:plains",
+     "minecraft:sunflower_plains",
+     "minecraft:meadow",
+     "minecraft:savanna",
+     "minecraft:savanna_plateau",
+     "minecraft:windswept_savanna",
+     "minecraft:windswept_hills",
+     "minecraft:windswept_gravelly_hills"
+    ],
+    "structures": [
+     "cobbleeffort:pinbird_nest"
+    ]
+   }
+  }
+ ]
+}

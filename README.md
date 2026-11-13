@@ -1383,6 +1383,17 @@ each ending in a huge gold cup with three white fingers. Use a **Nether Star** o
 Meteor Mash). Pressure, hidden Sheer Force; Regigigas's moves plus Comet Punch, Meteor Mash, Headlong Rush and Judgment.
 Shiny: rose gold, blue halos and a blue orb.
 
+**Pinlet → Pinnant → Pennacrest** (Normal/Flying, levels 16 and 36), birds inspired by pin-tailed birds such as the
+pin-tailed whydah, after the bird family art the user shared. They live only at **pinbird nests**, a new structure: a
+rough rocky crag in plains, meadows, savannas and windswept hills, with a spiral of ledges up its side and a great hay
+nest overhanging the top, a chest of berries, feathers and eggs in the middle. Pinlet is a round chick with a red cap,
+a white face, big grey eyes with star glints and little raised wings; Pinnant is a red-brown bird with a white bib, a
+swept-back red crest, half-open brown wings and two long black-and-grey streamers trailing like pennants; Pennacrest
+is the nest's guardian, with a long white neck striped red, a broad red crest like the brim of a hat, a spiky white
+chest ruff with black chevrons and four long streamers tipped red. Keen Eye or Big Pecks, hidden Cheek Pouch; Pluck,
+Wing Attack, Agility, Aerial Ace, Roost, Air Slash, then Brave Bird, Double-Edge, Tailwind and Hurricane. Pinlet is
+common at the nests, Pinnant uncommon and Pennacrest rare. Shiny: slate blue with gold-banded streamers.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1444,6 +1455,9 @@ Shiny: rose gold, blue halos and a blue orb.
 | 3056 | **Calligrimm** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 100 / 125 / 110 / 90 / 85 / 50 | 23'0" (7 m) / 999 kg | Evolve Incwell at level 50. It learns Crunch when it evolves. | A titan of living ink, tall as a castle tower. The shards of its shattered inkwell became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once begged it never to write their names. |
 | 3057 | **Ignitemare** | Dark / Fire | Moody / Flame Body / Intimidate (hidden) | 85 / 120 / 80 / 85 / 75 / 80 | 7'3" (2.2 m) / 145 kg | Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves. | When the CobbleEffort Mudbray's sulking turns to rage, its body burns away to a shadow round its bones. It gallops through badlands at night, snorting fire, and its hollow skull glows red with the grudges it refuses to let go. |
 | 3058 | **Regideity** | Normal | Pressure / Sheer Force (hidden) | 120 / 180 / 130 / 95 / 130 / 105 | 68'11" (21 m) / 999.9 kg | Use a Nether Star on a Regigigas. It learns Meteor Mash when it evolves. | Legends say it towed the continents into place with its six arms and stood astride the seas while it worked. When it walks, mountains shake as if in an earthquake, and the halos round its ring shine brighter the longer it has been awake. |
+| 3059 | **Pinlet** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 45 / 50 / 40 / 30 / 35 / 60 | 1'4" (0.4 m) / 2 kg | Wild: common at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). Evolves into Pinnant at level 16. | Pinlet chicks wait in the nest with their beaks wide open, shrieking until a Pinnant drops a berry in. The star-shaped glints in their eyes fade as they grow up. |
+| 3060 | **Pinnant** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 65 / 75 / 60 / 45 / 50 / 85 | 2'11" (0.9 m) / 23 kg | Evolve Pinlet at level 16. Wild: uncommon at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). Evolves into Pennacrest at level 36. | It trails its two long streamers like pennants as it flies between the crag and the berry bushes, bringing food back for the chicks. Flocks tell each other apart by the bands on their streamers. |
+| 3061 | **Pennacrest** | Normal / Flying | Keen Eye / Big Pecks / Cheek Pouch (hidden) | 90 / 110 / 80 / 60 / 75 / 100 | 6'3" (1.9 m) / 60 kg | Evolve Pinnant at level 36. It learns Brave Bird when it evolves. Wild: rare at pinbird nests (rocky crags topped with a great hay nest, in plains, meadows, savannas and windswept hills). | The matriarch of a crag-top nest. It broods over the chicks with its broad crest spread like a parasol to shade them, and drives off any intruder with a storm of beating wings and lashing streamers. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1489,6 +1503,10 @@ Shiny: rose gold, blue halos and a blue orb.
 ![Ignitemare: front, side and shiny](docs/newmons_steed.png)
 
 ![Regideity: front, side and shiny](docs/newmons_regideity.png)
+
+![Pinlet, Pinnant and Pennacrest: front, back and shiny](docs/newmons_pinbird.png)
+
+![A pinbird nest: a rocky crag with a hay nest on top](docs/nest_pinbird.png)
 
 ## CobbleEffort regional forms
 

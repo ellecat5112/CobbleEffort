@@ -291,6 +291,31 @@ LOOT = {
 }
 
 
+def write_structure(name, s, folder):
+    """A single-piece structure: its template (s["build"]() -> Template), pool, biome tag, structure and set."""
+    data = RES / "data" / MOD
+    nbt = data / "structure" / folder / f"{name}.nbt"
+    nbt.parent.mkdir(parents=True, exist_ok=True)
+    nbt.write_bytes(Nbt.file(s["build"]().data()))
+    write_json(data / "worldgen" / "template_pool" / folder / f"{name}.json", {
+        "fallback": "minecraft:empty",
+        "elements": [{"weight": 1, "element": {"element_type": "minecraft:single_pool_element",
+                                               "location": f"{MOD}:{folder}/{name}", "processors": "minecraft:empty",
+                                               "projection": "rigid"}}]})
+    write_json(data / "tags" / "worldgen" / "biome" / "has_structure" / f"{name}.json",
+               {"replace": False, "values": s["biomes"]})
+    struct = {"type": "minecraft:jigsaw", "biomes": f"#{MOD}:has_structure/{name}", "step": s["step"],
+              "spawn_overrides": {}, "terrain_adaptation": s["adapt"], "start_pool": f"{MOD}:{folder}/{name}",
+              "size": 1, "start_height": s["height"], "max_distance_from_center": 80, "use_expansion_hack": False}
+    if s["project"]:
+        struct["project_start_to_heightmap"] = s["project"]
+    write_json(data / "worldgen" / "structure" / f"{name}.json", struct)
+    write_json(data / "worldgen" / "structure_set" / f"{name}.json", {
+        "structures": [{"structure": f"{MOD}:{name}", "weight": 1}],
+        "placement": {"type": "minecraft:random_spread", "spacing": s["spacing"], "separation": s["separation"],
+                      "salt": s["salt"]}})
+
+
 def build(lang):
     data, assets = RES / "data" / MOD, RES / "assets" / MOD
     for sp, f in FOSSILS.items():
@@ -321,24 +346,5 @@ def build(lang):
         write_json(data / "loot_table" / "archaeology" / f"{name}.json",
                    {"type": "minecraft:archaeology", "pools": [{"rolls": 1, "entries": pool}]})
     for name, s in STRUCTURES.items():
-        nbt = data / "structure" / "fossil" / f"{name}.nbt"
-        nbt.parent.mkdir(parents=True, exist_ok=True)
-        nbt.write_bytes(Nbt.file(s["build"]().data()))
-        write_json(data / "worldgen" / "template_pool" / "fossil" / f"{name}.json", {
-            "fallback": "minecraft:empty",
-            "elements": [{"weight": 1, "element": {"element_type": "minecraft:single_pool_element",
-                                                   "location": f"{MOD}:fossil/{name}", "processors": "minecraft:empty",
-                                                   "projection": "rigid"}}]})
-        write_json(data / "tags" / "worldgen" / "biome" / "has_structure" / f"{name}.json",
-                   {"replace": False, "values": s["biomes"]})
-        struct = {"type": "minecraft:jigsaw", "biomes": f"#{MOD}:has_structure/{name}", "step": s["step"],
-                  "spawn_overrides": {}, "terrain_adaptation": s["adapt"], "start_pool": f"{MOD}:fossil/{name}",
-                  "size": 1, "start_height": s["height"], "max_distance_from_center": 80, "use_expansion_hack": False}
-        if s["project"]:
-            struct["project_start_to_heightmap"] = s["project"]
-        write_json(data / "worldgen" / "structure" / f"{name}.json", struct)
-        write_json(data / "worldgen" / "structure_set" / f"{name}.json", {
-            "structures": [{"structure": f"{MOD}:{name}", "weight": 1}],
-            "placement": {"type": "minecraft:random_spread", "spacing": s["spacing"], "separation": s["separation"],
-                          "salt": s["salt"]}})
+        write_structure(name, s, "fossil")
     write_json(HERE / "creative_items.json", [stack(f) for f in FOSSILS.values()])

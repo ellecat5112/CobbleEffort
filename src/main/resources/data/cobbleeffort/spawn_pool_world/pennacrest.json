@@ -1,0 +1,35 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pennacrest-nest",
+   "pokemon": "cobbleeffort:pennacrest",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "36-52",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:plains",
+     "minecraft:sunflower_plains",
+     "minecraft:meadow",
+     "minecraft:savanna",
+     "minecraft:savanna_plateau",
+     "minecraft:windswept_savanna",
+     "minecraft:windswept_hills",
+     "minecraft:windswept_gravelly_hills"
+    ],
+    "structures": [
+     "cobbleeffort:pinbird_nest"
+    ]
+   }
+  }
+ ]
+}

@@ -249,7 +249,8 @@ the fakemon art by **@wescos_region** that the user shared, with the user's idea
 fire and dark evolution); Mudbray's texture is repainted from Cobblemon's own, and Ignitemare's model and both Pokédex
 entries are our own. Regideity (its name and design) is after the Regigigas evolution fakemon art by
 **@trainer_matz** that the user shared, with the user's idea of its titanic size; its model and Pokédex entry are our
-own.
+own. Pinlet, Pinnant and Pennacrest follow the pin-tailed bird family art the user shared
+(artist not named); their names, models, nest structure and Pokédex entries are our own.
 
 ## Code and data
 

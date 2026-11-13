@@ -1,0 +1,157 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3059,
+ "name": "Pinlet",
+ "primaryType": "normal",
+ "secondaryType": "flying",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 20,
+ "pokedex": [
+  "cobbleeffort.species.pinlet.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "keeneye",
+  "bigpecks",
+  "h:cheekpouch"
+ ],
+ "eggGroups": [
+  "flying"
+ ],
+ "baseStats": {
+  "hp": 45,
+  "attack": 50,
+  "defence": 40,
+  "special_attack": 30,
+  "special_defence": 35,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 50,
+ "experienceGroup": "medium_slow",
+ "catchRate": 255,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:peck",
+  "8:quickattack",
+  "12:gust",
+  "15:featherdance",
+  "18:pluck",
+  "21:wingattack",
+  "egg:mirrormove",
+  "egg:bravebird",
+  "egg:pursuit",
+  "egg:uproar",
+  "egg:roost",
+  "egg:doublehit",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:dualwingbeat",
+  "tm:tailwind",
+  "tm:roost",
+  "tm:defog",
+  "tm:fly",
+  "tm:steelwing",
+  "tm:pluck",
+  "tm:swift",
+  "tm:thief",
+  "tm:agility",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:hypervoice",
+  "tm:endeavor",
+  "tm:workup",
+  "tm:sunnyday",
+  "tm:raindance",
+  "tm:takedown",
+  "tm:featherdance"
+ ],
+ "evolutions": [
+  {
+   "id": "pinlet_pinnant",
+   "variant": "level_up",
+   "result": "cobbleeffort:pinnant",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "wingattack"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ]
+}
