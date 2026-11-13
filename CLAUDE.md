@@ -175,6 +175,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   of the attacker's own side via `this.actions.getDamage(source, victim, move)`; battle lang via the ability's
   "battle" dict); hidden Effect Spore. Fog = `clump()` stacks, translucent soul wisps (shell layer), `cordyceps()`
   stalks with glowing tips; extra head bones `head_top`/`head_mask`/`head_green` sway.
+  Capybrute (#3043, `models/capybrute.py`; art by @Kai_FakemonsR, name kept; capybara/marmot): Ground/Fighting,
+  Guts / Thick Fat / Unaware; a domed back built as front-to-back slices under a dome curve (smoother than stacked
+  tiers), `slash()` markings, low head with buck teeth.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

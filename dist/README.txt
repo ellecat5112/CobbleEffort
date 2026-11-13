@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 42 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 43 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2071,6 +2071,16 @@ cobbleeffort:cavitot.
   Pokémon that challenges it is pulled into the hive and turns on its own allies."
   * Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves
     and the deep dark.
+
+#3043 CAPYBRUTE  (Ground / Fighting; Guts / Thick Fat / Unaware (hidden))
+  a huge hunched brown capybara-marmot with an arched boulder-like back, orange slash markings, a
+  small low head with a tan muzzle, scowling brow and big buck teeth, tan clawed forelegs and dark
+  hind legs
+  Stats: HP 110  Atk 120  Def 105  SpA 40  SpD 75  Spe 50  (total 500)
+  Pokedex: "It lounges by rivers as calmly as a boulder and lets other Pokémon nap on its back, but
+  it digs burrows through solid rock with those claws. Rile it and it charges with its head down,
+  shrugging off blows that would flatten a house."
+  * Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

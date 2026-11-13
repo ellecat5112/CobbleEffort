@@ -1,0 +1,47 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "capybrute-river",
+   "pokemon": "cobbleeffort:capybrute",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "25-45",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_river",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_savanna"
+    ]
+   }
+  },
+  {
+   "id": "capybrute-hills",
+   "pokemon": "cobbleeffort:capybrute",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "25-45",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_hills",
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_highlands"
+    ]
+   }
+  }
+ ]
+}

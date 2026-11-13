@@ -1027,6 +1027,41 @@ SPECIES.update({
 })
 LINES["assoulsect"] = ["assoulsect"]
 
+# --- the brawler rodent -------------------------------------------------------------------------------------------------
+
+CAPY_TM = BASIC_TM + ["earthquake", "bulldoze", "dig", "mudshot", "mudslap", "stompingtantrum", "highhorsepower",
+                      "rockslide", "rocktomb", "stoneedge", "brickbreak", "closecombat", "bodypress", "drainpunch",
+                      "bulkup", "lowkick", "lowsweep", "rocksmash", "superpower", "reversal", "crunch", "bodyslam",
+                      "takedown", "doubleedge", "yawn", "amnesia", "surf", "waterpulse", "chillingwater", "endeavor",
+                      "superfang", "gigaimpact", "hyperbeam", "heavyslam", "ironhead", "zenheadbutt", "bulldoze",
+                      "sandstorm", "sunnyday", "raindance", "slackoff"]
+
+SPECIES.update({
+    "capybrute": {
+        "dex": 3043, "name": "Capybrute", "line": "capybrute", "types": ["ground", "fighting"],
+        "male": 0.5, "egg_groups": ["field"], "friendship": 70, "catch": 60,
+        "abilities": ["guts", "thickfat", "h:unaware"],
+        "ability_names": "Guts / Thick Fat / Unaware (hidden)",
+        "stats": stats(110, 120, 105, 40, 75, 50), "ev": evs(hp=1, attack=2), "exp": 179,
+        "height": 15, "weight": 1520, "shoulder": False, "walk": 0.24,
+        "moves": [(1, "tackle"), (1, "mudslap"), (5, "rocksmash"), (9, "bite"), (13, "bulldoze"), (17, "yawn"),
+                  (21, "brickbreak"), (25, "dig"), (29, "bodyslam"), (33, "superfang"), (37, "drainpunch"),
+                  (41, "bulkup"), (45, "highhorsepower"), (50, "superpower"), (55, "closecombat"), (60, "earthquake")],
+        "tm": CAPY_TM, "egg": ["slackoff", "curse", "rollout", "counter", "wideguard", "headbutt"], "evolve": None,
+        "drops": [("minecraft:leather", "1-2", None), ("minecraft:wheat", "0-2", None), ("cobblemon:soft_sand", None, 4.0),
+                  ("cobblemon:black_belt", None, 2.0)],
+        "entry": ("It lounges by rivers as calmly as a boulder and lets other Pokémon nap on its back, but it digs "
+                  "burrows through solid rock with those claws. Rile it and it charges with its head down, shrugging "
+                  "off blows that would flatten a house."),
+        "spawns": [route_spawn("capybrute-river", "uncommon", "25-45", 3.0, ["#cobblemon:is_river", "#cobblemon:is_swamp",
+                                                                              "#cobblemon:is_savanna"]),
+                   route_spawn("capybrute-hills", "uncommon", "25-45", 2.0, ["#cobblemon:is_hills", "#cobblemon:is_mountain",
+                                                                              "#cobblemon:is_highlands"])],
+        "how": ["Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands."],
+    },
+})
+LINES["capybrute"] = ["capybrute"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

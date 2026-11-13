@@ -1298,6 +1298,13 @@ strikes the foe's own side instead (the attacker, or its partner in a double bat
 fail. Hidden ability Effect Spore. Very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush
 caves and the deep dark. Shiny: the fungus has won (mossy green fog, dark teal armour, silver, red-glowing spores).
 
+**Capybrute** (Ground/Fighting): a huge, hunched rodent after capybaras and marmots, with a great arched back like a
+boulder and two pale-orange slash markings along it, a small low head with a tan muzzle, a scowling orange brow and
+big buck teeth, thick tan forelegs with dark claws, short dark hind legs and spiky fur at the rump and tail. Guts or
+Thick Fat, hidden Unaware (it couldn't care less about your stat boosts); Super Fang, Drain Punch, High Horsepower,
+Close Combat and Earthquake, and it learns Yawn. Uncommon by rivers, in swamps and savannas, and in hills, mountains
+and highlands. Shiny: a silver marmot with icy blue markings.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1343,6 +1350,7 @@ caves and the deep dark. Shiny: the fungus has won (mossy green fog, dark teal a
 | 3040 | **Sensarat** | Normal | Frisk / Anticipation / Hustle (hidden) | 70 / 85 / 65 / 50 / 70 / 105 | 2'0" (0.6 m) / 14 kg | Evolve Mousense at level 22. It learns Sucker Punch when it evolves. Wild: uncommon in plains and forests. | It sweeps its long whiskers through the dark like feelers and senses an attack before it comes, striking first. It never opens its eyes; those who have seen them say they are as bright as stars. |
 | 3041 | **Gigantler** | Normal | Intimidate / Sap Sipper / Sheer Force (hidden) | 105 / 120 / 100 / 50 / 80 / 70 | 7'10" (2.4 m) / 620 kg | Wild: rare in taigas and snowy forests, rarer in swamps and tundra. | The antlers on its head grow back bigger every year, and an old bull's three crowns can span wider than a cabin. Packs of predators turn back the moment it lowers its head, and travellers in the northern woods take a glimpse of one as a sign of good fortune. |
 | 3042 | **Assoulsect** | Bug / Ghost | Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side instead) / Effect Spore (hidden) | 90 / 125 / 95 / 85 / 95 / 70 | 7'3" (2.2 m) / 166.6 kg | Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves and the deep dark. | When thousands of Bug Pokémon perished, a fungus took root in what was left of them and wove their souls into one mind. Their old heads and blades still twitch in its fog; any Bug Pokémon that challenges it is pulled into the hive and turns on its own allies. |
+| 3043 | **Capybrute** | Ground / Fighting | Guts / Thick Fat / Unaware (hidden) | 110 / 120 / 105 / 40 / 75 / 50 | 4'11" (1.5 m) / 152 kg | Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands. | It lounges by rivers as calmly as a boulder and lets other Pokémon nap on its back, but it digs burrows through solid rock with those claws. Rile it and it charges with its head down, shrugging off blows that would flatten a house. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1368,6 +1376,8 @@ caves and the deep dark. Shiny: the fungus has won (mossy green fog, dark teal a
 ![Gigantler, regular and shiny](docs/newmons_gigantler.png)
 
 ![Assoulsect, regular and shiny](docs/newmons_assoulsect.png)
+
+![Capybrute, regular and shiny](docs/newmons_capybrute.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

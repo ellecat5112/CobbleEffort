@@ -1,0 +1,174 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3043,
+ "name": "Capybrute",
+ "primaryType": "ground",
+ "secondaryType": "fighting",
+ "maleRatio": 0.5,
+ "height": 15,
+ "weight": 1520,
+ "pokedex": [
+  "cobbleeffort.species.capybrute.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "guts",
+  "thickfat",
+  "h:unaware"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 110,
+  "attack": 120,
+  "defence": 105,
+  "special_attack": 40,
+  "special_defence": 75,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 179,
+ "experienceGroup": "medium_slow",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.9,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:wheat",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:soft_sand",
+    "percentage": 4.0
+   },
+   {
+    "item": "cobblemon:black_belt",
+    "percentage": 2.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:mudslap",
+  "5:rocksmash",
+  "9:bite",
+  "13:bulldoze",
+  "17:yawn",
+  "21:brickbreak",
+  "25:dig",
+  "29:bodyslam",
+  "33:superfang",
+  "37:drainpunch",
+  "41:bulkup",
+  "45:highhorsepower",
+  "50:superpower",
+  "55:closecombat",
+  "60:earthquake",
+  "egg:slackoff",
+  "egg:curse",
+  "egg:rollout",
+  "egg:counter",
+  "egg:wideguard",
+  "egg:headbutt",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:earthquake",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:mudshot",
+  "tm:mudslap",
+  "tm:stompingtantrum",
+  "tm:highhorsepower",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:stoneedge",
+  "tm:brickbreak",
+  "tm:closecombat",
+  "tm:bodypress",
+  "tm:drainpunch",
+  "tm:bulkup",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:rocksmash",
+  "tm:superpower",
+  "tm:reversal",
+  "tm:crunch",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:yawn",
+  "tm:amnesia",
+  "tm:surf",
+  "tm:waterpulse",
+  "tm:chillingwater",
+  "tm:endeavor",
+  "tm:superfang",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:heavyslam",
+  "tm:ironhead",
+  "tm:zenheadbutt",
+  "tm:bulldoze",
+  "tm:sandstorm",
+  "tm:sunnyday",
+  "tm:raindance",
+  "tm:slackoff"
+ ]
+}
