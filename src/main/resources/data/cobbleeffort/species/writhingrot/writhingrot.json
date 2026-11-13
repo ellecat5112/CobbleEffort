@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3044,
+ "name": "Writhing Rot",
+ "primaryType": "bug",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 24,
+ "weight": 1820,
+ "pokedex": [
+  "cobbleeffort.species.writhingrot.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 135,
+  "defence": 105,
+  "special_attack": 70,
+  "special_defence": 75,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 285,
+ "experienceGroup": "slow",
+ "catchRate": 10,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 0.72,
+ "hitbox": {
+  "width": 1.6,
+  "height": 2.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:stick",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:oak_log",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:bone_meal",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:wrap",
+  "1:leer",
+  "1:infestation",
+  "7:bugbite",
+  "14:dragonbreath",
+  "21:glare",
+  "28:rockslide",
+  "35:lunge",
+  "42:dragonclaw",
+  "49:suckerpunch",
+  "56:coil",
+  "63:woodhammer",
+  "70:firstimpression",
+  "77:outrage",
+  "84:headsmash",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:dragonclaw",
+  "tm:outrage",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:scaleshot",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:leechlife",
+  "tm:bugbuzz",
+  "tm:megahorn",
+  "tm:skittersmack",
+  "tm:woodhammer",
+  "tm:hornleech",
+  "tm:seedbomb",
+  "tm:bulletseed",
+  "tm:trailblaze",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:rocktomb",
+  "tm:earthquake",
+  "tm:bulldoze",
+  "tm:stompingtantrum",
+  "tm:highhorsepower",
+  "tm:suckerpunch",
+  "tm:crunch",
+  "tm:poisonfang",
+  "tm:irontail",
+  "tm:headsmash",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:doubleedge",
+  "tm:coil",
+  "tm:glare",
+  "tm:swordsdance",
+  "tm:taunt",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:sunnyday"
+ ]
+}

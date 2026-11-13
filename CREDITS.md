@@ -231,7 +231,9 @@ cordyceps-bound hive mind of fallen Bug Pokémon; its model, ability and Pokéde
 (its name and design) is after the fakemon art by **@Kai_FakemonsR** that the user shared; its model and Pokédex entry
 are our own. The CobbleEffort regional Caterpie line follows the regional Caterpie art by **@MerphISC** that the
 user shared (purple, with a pink feeler and a yellow tail curl); its textures are recoloured from Cobblemon's own, and
-the Metapod and Butterfree forms and all Pokédex entries are our own.
+the Metapod and Butterfree forms and all Pokédex entries are our own. Writhing Rot (its name, types and design; the art also
+calls it "Infestower") is after the paradox Sudowoodo concept art the user shared (artist not named); its model and
+Pokédex entry are our own.
 
 ## Code and data
 

@@ -1305,6 +1305,13 @@ Thick Fat, hidden Unaware (it couldn't care less about your stat boosts); Super 
 Close Combat and Earthquake, and it learns Yawn. Uncommon by rivers, in swamps and savannas, and in hills, mountains
 and highlands. Shiny: a silver marmot with icy blue markings.
 
+**Writhing Rot** (Bug/Dragon), the ancient paradox of Sudowoodo: a hollow, rotting log on four gnarled root legs, with
+Sudowoodo's orange zigzags, pink wounds and a pink ringed hollow at the front, out of which a long white segmented grub
+of a neck writhes up to a skull-like head with glowing yellow eyes and curved orange mandibles; four white feelers curl
+back from the log and a segmented tail trails behind. Protosynthesis; genderless, labelled paradox. Glare, Coil,
+Lunge, Dragon Claw, Sucker Punch, Wood Hammer, First Impression, Outrage and Head Smash. Very rare in old-growth
+forests and taigas, dark forests and jungles. Shiny: a pale birch log with mint and lime and a creamy yellow grub.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1351,6 +1358,7 @@ and highlands. Shiny: a silver marmot with icy blue markings.
 | 3041 | **Gigantler** | Normal | Intimidate / Sap Sipper / Sheer Force (hidden) | 105 / 120 / 100 / 50 / 80 / 70 | 7'10" (2.4 m) / 620 kg | Wild: rare in taigas and snowy forests, rarer in swamps and tundra. | The antlers on its head grow back bigger every year, and an old bull's three crowns can span wider than a cabin. Packs of predators turn back the moment it lowers its head, and travellers in the northern woods take a glimpse of one as a sign of good fortune. |
 | 3042 | **Assoulsect** | Bug / Ghost | Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side instead) / Effect Spore (hidden) | 90 / 125 / 95 / 85 / 95 / 70 | 7'3" (2.2 m) / 166.6 kg | Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves and the deep dark. | When thousands of Bug Pokémon perished, a fungus took root in what was left of them and wove their souls into one mind. Their old heads and blades still twitch in its fog; any Bug Pokémon that challenges it is pulled into the hive and turns on its own allies. |
 | 3043 | **Capybrute** | Ground / Fighting | Guts / Thick Fat / Unaware (hidden) | 110 / 120 / 105 / 40 / 75 / 50 | 4'11" (1.5 m) / 152 kg | Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands. | It lounges by rivers as calmly as a boulder and lets other Pokémon nap on its back, but it digs burrows through solid rock with those claws. Rile it and it charges with its head down, shrugging off blows that would flatten a house. |
+| 3044 | **Writhing Rot** | Bug / Dragon | Protosynthesis | 95 / 135 / 105 / 70 / 75 / 90 | 7'10" (2.4 m) / 182 kg | Wild: very rare in old-growth forests and taigas, dark forests and jungles. | An ancient Pokémon said to be the distant past of Sudowoodo, described in an old expedition journal. Its log body is only a shell: the real Pokémon is the pale, writhing thing that lives inside it, and it lunges out on a long neck to snatch prey. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1378,6 +1386,8 @@ and highlands. Shiny: a silver marmot with icy blue markings.
 ![Assoulsect, regular and shiny](docs/newmons_assoulsect.png)
 
 ![Capybrute, regular and shiny](docs/newmons_capybrute.png)
+
+![Writhing Rot, regular and shiny](docs/newmons_writhingrot.png)
 
 ## CobbleEffort regional forms
 

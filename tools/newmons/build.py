@@ -1062,6 +1062,41 @@ SPECIES.update({
 })
 LINES["capybrute"] = ["capybrute"]
 
+# --- the ancient paradox of Sudowoodo -----------------------------------------------------------------------------------
+
+ROT_TM = BASIC_TM + ["dragonclaw", "outrage", "dragonpulse", "dragontail", "scaleshot", "breakingswipe", "dracometeor",
+                     "xscissor", "uturn", "lunge", "pounce", "leechlife", "bugbuzz", "megahorn", "skittersmack",
+                     "woodhammer", "hornleech", "seedbomb", "bulletseed", "trailblaze", "energyball", "gigadrain",
+                     "rockslide", "stoneedge", "rocktomb", "earthquake", "bulldoze", "stompingtantrum", "highhorsepower",
+                     "suckerpunch", "crunch", "poisonfang", "irontail", "headsmash", "bodyslam", "takedown",
+                     "doubleedge", "coil", "glare", "swordsdance", "taunt", "gigaimpact", "hyperbeam", "sunnyday"]
+
+SPECIES.update({
+    "writhingrot": {
+        "dex": 3044, "name": "Writhing Rot", "line": "writhingrot", "types": ["bug", "dragon"],
+        "male": -1, "egg_groups": ["undiscovered"], "friendship": 0, "catch": 10, "labels": ["paradox"],
+        "abilities": ["protosynthesis"],
+        "ability_names": "Protosynthesis",
+        "stats": stats(95, 135, 105, 70, 75, 90), "ev": evs(attack=3), "exp": 285, "growth": "slow",
+        "height": 24, "weight": 1820, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "wrap"), (1, "leer"), (1, "infestation"), (7, "bugbite"), (14, "dragonbreath"),
+                  (21, "glare"), (28, "rockslide"), (35, "lunge"), (42, "dragonclaw"), (49, "suckerpunch"),
+                  (56, "coil"), (63, "woodhammer"), (70, "firstimpression"), (77, "outrage"), (84, "headsmash")],
+        "tm": ROT_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:stick", "2-4", None), ("minecraft:oak_log", "0-1", None), ("minecraft:bone_meal", "1-3", None),
+                  ("cobblemon:dragon_fang", None, 5.0)],
+        "entry": ("An ancient Pokémon said to be the distant past of Sudowoodo, described in an old expedition "
+                  "journal. Its log body is only a shell: the real Pokémon is the pale, writhing thing that lives "
+                  "inside it, and it lunges out on a long neck to snatch prey."),
+        "spawns": [spawn("writhingrot-forest", "ultra-rare", "50-70", 1.0,
+                         {"canSeeSky": True, "biomes": ["minecraft:old_growth_birch_forest", "minecraft:old_growth_pine_taiga",
+                                                        "minecraft:old_growth_spruce_taiga", "minecraft:dark_forest",
+                                                        "#cobblemon:is_jungle"]})],
+        "how": ["Wild: very rare in old-growth forests and taigas, dark forests and jungles."],
+    },
+})
+LINES["writhingrot"] = ["writhingrot"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 46 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 47 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2106,6 +2106,16 @@ cobbleeffort:cavitot.
   it digs burrows through solid rock with those claws. Rile it and it charges with its head down,
   shrugging off blows that would flatten a house."
   * Wild: uncommon by rivers, in swamps and savannas, and in hills, mountains and highlands.
+
+#3044 WRITHING ROT  (Bug / Dragon; Protosynthesis)
+  a hollow rotting log on gnarled root legs with Sudowoodo's orange zigzags, a long white segmented
+  grub neck writhing out of the hollow to a skull-like head with glowing yellow eyes and orange
+  mandibles, white feelers and a segmented tail
+  Stats: HP 95  Atk 135  Def 105  SpA 70  SpD 75  Spe 90  (total 570)
+  Pokedex: "An ancient Pokémon said to be the distant past of Sudowoodo, described in an old
+  expedition journal. Its log body is only a shell: the real Pokémon is the pale, writhing thing
+  that lives inside it, and it lunges out on a long neck to snatch prey."
+  * Wild: very rare in old-growth forests and taigas, dark forests and jungles.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

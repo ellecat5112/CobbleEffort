@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "writhingrot-forest",
+   "pokemon": "cobbleeffort:writhingrot",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-70",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:old_growth_birch_forest",
+     "minecraft:old_growth_pine_taiga",
+     "minecraft:old_growth_spruce_taiga",
+     "minecraft:dark_forest",
+     "#cobblemon:is_jungle"
+    ]
+   }
+  }
+ ]
+}

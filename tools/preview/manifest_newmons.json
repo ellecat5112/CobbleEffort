@@ -962,5 +962,33 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3043_capybrute/capybrute_shiny.png",
   "layers": []
+ },
+ {
+  "species": "writhingrot",
+  "folder": "3044_writhingrot",
+  "model": "cobbleeffort:writhingrot.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3044_writhingrot/writhingrot.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3044_writhingrot/writhingrot_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "writhingrot_shiny",
+  "folder": "3044_writhingrot",
+  "model": "cobbleeffort:writhingrot.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3044_writhingrot/writhingrot_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3044_writhingrot/writhingrot_shiny_glow_0.png"
+   }
+  ]
  }
 ]
