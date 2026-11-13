@@ -169,6 +169,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_sense.whisker` = thin whisker ribbons (a 0 x 1 rod cut to a tapering line; plain rods under 1 unit round to nothing).
   Gigantler (#3041, `models/gigantler.py`; art by @rontoregion, name kept): Normal moose, three palmate crown antlers
   (palms = wide flat rods aimed along the palm, `t2` = palm height; lobed `tine`s); LIFT raises all non-leg boxes for long legs.
+  Assoulsect (#3042, `models/assoulsect.py`; art by @mazenta_inku, name kept; the user's idea: fallen Bug Pokémon
+  bound into a hive mind by Ophiocordyceps): Bug/Ghost, genderless, undiscovered, single stage; ability Hive Mind
+  (`onTryHit`: a Bug-type foe's move on it is cancelled with `-activate`; a damaging one hits a random active member
+  of the attacker's own side via `this.actions.getDamage(source, victim, move)`; battle lang via the ability's
+  "battle" dict); hidden Effect Spore. Fog = `clump()` stacks, translucent soul wisps (shell layer), `cordyceps()`
+  stalks with glowing tips; extra head bones `head_top`/`head_mask`/`head_green` sway.
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

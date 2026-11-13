@@ -1289,6 +1289,15 @@ three massive crown-like antlers: a broad palm spreading out to each side and a 
 Intimidate or Sap Sipper, hidden Sheer Force; Horn Leech, Head Charge, Megahorn and High Horsepower. Rare in taigas and
 snowy forests, rarer in swamps and tundra. Shiny: a pale "ghost" moose with golden antlers.
 
+**Assoulsect** (Bug/Ghost): thousands of fallen Bug Pokémon bound into one hive mind by a zombie-ant fungus
+(Ophiocordyceps): a violet fog-cloud of souls on two thin black legs, with the heads of the fallen sunk in it (a red
+horned beetle face, a cricket head with long antennae, a gold ninja mask, a green rock-scaled head), their blades,
+horns, lances and a wing bristling out, cordyceps stalks with glowing spore tips sprouting all over and wisps of souls
+drifting off. Its own ability **Hive Mind**: a Bug-type foe's moves never harm it; the hive seizes them, and the attack
+strikes the foe's own side instead (the attacker, or its partner in a double battle), while its status moves just
+fail. Hidden ability Effect Spore. Very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush
+caves and the deep dark. Shiny: the fungus has won (mossy green fog, dark teal armour, silver, red-glowing spores).
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1333,6 +1342,7 @@ snowy forests, rarer in swamps and tundra. Shiny: a pale "ghost" moose with gold
 | 3039 | **Mousense** | Normal | Frisk / Anticipation / Hustle (hidden) | 40 / 50 / 35 / 35 / 40 / 75 | 1'0" (0.3 m) / 2.5 kg | Wild: common in plains, grasslands, forests and hills. Evolves into Sensarat at level 22. | Its eyes stay shut from the day it hatches. It feels its way about with its long whiskers, which can pick up the flutter of a moth's wings across a meadow, so sneaking up on it is near impossible. |
 | 3040 | **Sensarat** | Normal | Frisk / Anticipation / Hustle (hidden) | 70 / 85 / 65 / 50 / 70 / 105 | 2'0" (0.6 m) / 14 kg | Evolve Mousense at level 22. It learns Sucker Punch when it evolves. Wild: uncommon in plains and forests. | It sweeps its long whiskers through the dark like feelers and senses an attack before it comes, striking first. It never opens its eyes; those who have seen them say they are as bright as stars. |
 | 3041 | **Gigantler** | Normal | Intimidate / Sap Sipper / Sheer Force (hidden) | 105 / 120 / 100 / 50 / 80 / 70 | 7'10" (2.4 m) / 620 kg | Wild: rare in taigas and snowy forests, rarer in swamps and tundra. | The antlers on its head grow back bigger every year, and an old bull's three crowns can span wider than a cabin. Packs of predators turn back the moment it lowers its head, and travellers in the northern woods take a glimpse of one as a sign of good fortune. |
+| 3042 | **Assoulsect** | Bug / Ghost | Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side instead) / Effect Spore (hidden) | 90 / 125 / 95 / 85 / 95 / 70 | 7'3" (2.2 m) / 166.6 kg | Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves and the deep dark. | When thousands of Bug Pokémon perished, a fungus took root in what was left of them and wove their souls into one mind. Their old heads and blades still twitch in its fog; any Bug Pokémon that challenges it is pulled into the hive and turns on its own allies. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1356,6 +1366,8 @@ snowy forests, rarer in swamps and tundra. Shiny: a pale "ghost" moose with gold
 ![Mousense and Sensarat, regular and shiny](docs/newmons_sense.png)
 
 ![Gigantler, regular and shiny](docs/newmons_gigantler.png)
+
+![Assoulsect, regular and shiny](docs/newmons_assoulsect.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

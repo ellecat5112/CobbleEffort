@@ -908,5 +908,43 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3041_gigantler/gigantler_shiny.png",
   "layers": []
+ },
+ {
+  "species": "assoulsect",
+  "folder": "3042_assoulsect",
+  "model": "cobbleeffort:assoulsect.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "assoulsect_shiny",
+  "folder": "3042_assoulsect",
+  "model": "cobbleeffort:assoulsect.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3042_assoulsect/assoulsect_shiny_shell.png"
+   }
+  ]
  }
 ]

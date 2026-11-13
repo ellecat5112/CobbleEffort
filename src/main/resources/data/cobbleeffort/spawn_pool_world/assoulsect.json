@@ -1,0 +1,47 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "assoulsect-forest",
+   "pokemon": "cobbleeffort:assoulsect",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "45-65",
+   "weight": 1.0,
+   "condition": {
+    "timeRange": "night",
+    "biomes": [
+     "minecraft:dark_forest",
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_mushroom"
+    ]
+   }
+  },
+  {
+   "id": "assoulsect-cave",
+   "pokemon": "cobbleeffort:assoulsect",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "45-65",
+   "weight": 0.6,
+   "condition": {
+    "canSeeSky": false,
+    "biomes": [
+     "minecraft:lush_caves",
+     "minecraft:deep_dark"
+    ]
+   }
+  }
+ ]
+}

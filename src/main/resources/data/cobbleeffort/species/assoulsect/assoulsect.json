@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3042,
+ "name": "Assoulsect",
+ "primaryType": "bug",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 22,
+ "weight": 1666,
+ "pokedex": [
+  "cobbleeffort.species.assoulsect.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "hivemind",
+  "h:effectspore"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 125,
+  "defence": 95,
+  "special_attack": 85,
+  "special_defence": 95,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "medium_slow",
+ "catchRate": 25,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.5,
+  "height": 2.3,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:spider_eye",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:brown_mushroom",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:red_mushroom",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:silver_powder",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:spell_tag",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:astonish",
+  "1:infestation",
+  "1:strugglebug",
+  "6:bugbite",
+  "11:shadowsneak",
+  "16:stunspore",
+  "21:leechlife",
+  "26:hex",
+  "31:xscissor",
+  "36:shadowclaw",
+  "41:ragepowder",
+  "46:phantomforce",
+  "51:megahorn",
+  "56:poltergeist",
+  "62:memento",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:bugbuzz",
+  "tm:leechlife",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:skittersmack",
+  "tm:infestation",
+  "tm:strugglebug",
+  "tm:shadowclaw",
+  "tm:shadowball",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:hex",
+  "tm:willowisp",
+  "tm:spite",
+  "tm:curse",
+  "tm:nightshade",
+  "tm:painsplit",
+  "tm:trickroom",
+  "tm:swordsdance",
+  "tm:knockoff",
+  "tm:nightslash",
+  "tm:sludgebomb",
+  "tm:poisonjab",
+  "tm:gigadrain",
+  "tm:energyball",
+  "tm:seedbomb",
+  "tm:stoneedge",
+  "tm:ironhead",
+  "tm:megahorn",
+  "tm:darkpulse",
+  "tm:scaryface",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:ragepowder",
+  "tm:taunt",
+  "tm:brickbreak",
+  "tm:agility",
+  "tm:smartstrike"
+ ]
+}

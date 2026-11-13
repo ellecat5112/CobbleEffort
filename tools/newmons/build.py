@@ -988,6 +988,45 @@ SPECIES.update({
 })
 LINES["gigantler"] = ["gigantler"]
 
+# --- the hive of the fallen ---------------------------------------------------------------------------------------------
+
+HIVE_TM = BASIC_TM + ["xscissor", "uturn", "bugbuzz", "leechlife", "lunge", "pounce", "skittersmack", "infestation",
+                      "strugglebug", "shadowclaw", "shadowball", "phantomforce", "poltergeist", "hex", "willowisp",
+                      "spite", "curse", "nightshade", "painsplit", "trickroom", "swordsdance", "knockoff", "nightslash",
+                      "sludgebomb", "poisonjab", "gigadrain", "energyball", "seedbomb", "stoneedge", "ironhead",
+                      "megahorn", "darkpulse", "scaryface", "gigaimpact", "hyperbeam", "ragepowder", "taunt",
+                      "brickbreak", "agility", "smartstrike"]
+
+SPECIES.update({
+    "assoulsect": {
+        "dex": 3042, "name": "Assoulsect", "line": "assoulsect", "types": ["bug", "ghost"],
+        "male": -1, "egg_groups": ["undiscovered"], "friendship": 0, "catch": 25,
+        "abilities": ["hivemind", "h:effectspore"],
+        "ability_names": "Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side "
+                         "instead) / Effect Spore (hidden)",
+        "stats": stats(90, 125, 95, 85, 95, 70), "ev": evs(attack=2, hp=1), "exp": 270,
+        "height": 22, "weight": 1666, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "astonish"), (1, "infestation"), (1, "strugglebug"), (6, "bugbite"), (11, "shadowsneak"),
+                  (16, "stunspore"), (21, "leechlife"), (26, "hex"), (31, "xscissor"), (36, "shadowclaw"),
+                  (41, "ragepowder"), (46, "phantomforce"), (51, "megahorn"), (56, "poltergeist"), (62, "memento")],
+        "tm": HIVE_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:spider_eye", "1-3", None), ("minecraft:brown_mushroom", "1-2", None),
+                  ("minecraft:red_mushroom", "0-2", None), ("cobblemon:silver_powder", None, 10.0),
+                  ("cobblemon:spell_tag", None, 5.0)],
+        "entry": ("When thousands of Bug Pokémon perished, a fungus took root in what was left of them and wove "
+                  "their souls into one mind. Their old heads and blades still twitch in its fog; any Bug Pokémon "
+                  "that challenges it is pulled into the hive and turns on its own allies."),
+        "spawns": [spawn("assoulsect-forest", "ultra-rare", "45-65", 1.0,
+                         {"timeRange": "night", "biomes": ["minecraft:dark_forest", "#cobblemon:is_jungle",
+                                                           "#cobblemon:is_swamp", "#cobblemon:is_mushroom"]}),
+                   spawn("assoulsect-cave", "ultra-rare", "45-65", 0.6,
+                         {"canSeeSky": False, "biomes": ["minecraft:lush_caves", "minecraft:deep_dark"]})],
+        "how": ["Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves "
+                "and the deep dark."],
+    },
+})
+LINES["assoulsect"] = ["assoulsect"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1010,6 +1049,34 @@ num: -3002
 """,
         "lang": "The Pokémon is blind, yet it senses everything around it: every move it uses hits, whatever its "
                 "accuracy, and even targets that are flying, underground or underwater.",
+    },
+    "hivemind": {
+        "name": "Hive Mind",
+        "js": """{
+onTryHitPriority: 1,
+onTryHit(target, source, move) {
+  if (!source || source === target || source.side === target.side || !source.hasType('Bug')) return;
+  this.add('-activate', target, 'ability: Hive Mind');
+  if (move.category !== 'Status') {
+    const own = source.side.active.filter(p => p && !p.fainted && p.hp > 0);
+    const victim = own.length ? this.sample(own) : source;
+    const damage = this.actions.getDamage(source, victim, move);
+    if (typeof damage === 'number' && damage > 0) this.damage(damage, victim, target, this.effect);
+  }
+  return null;
+},
+flags: {breakable: 1},
+name: "Hive Mind",
+rating: 3.5,
+num: -3007
+}
+""",
+        "lang": "Thousands of fallen Bug Pokémon live on in it, bound by a fungus: a Bug-type foe's moves can never "
+                "harm it. The hive seizes them, and the attack strikes the foe's own side instead.",
+        "battle": {
+            "cobblemon.battle.activate.hivemind": "%1$s's hive mind seized the attack!",
+            "cobblemon.battle.damage.hivemind": "%1$s was struck by its own side's attack!",
+        },
     },
     "insectivore": {
         "name": "Insectivore",
@@ -1388,6 +1455,7 @@ def main():
         (data / "abilities" / f"{aid}.js").write_text(ab["js"])
         lang[f"cobblemon.ability.{aid}"] = ab["name"]
         lang[f"cobblemon.ability.{aid}.desc"] = ab["lang"]
+        lang.update(ab.get("battle", {}))
     for name, order, key, mons in STARTER_CATEGORIES:
         write_json(data / "starters" / f"{key}.json", {
             "name": name, "order": order, "displayName": f"cobblemon.starterselection.category.{key}",

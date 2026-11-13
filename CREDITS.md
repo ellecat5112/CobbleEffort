@@ -225,7 +225,9 @@ idea and the concept art they shared; its model is our own. Tanhyll (its name an
 the concept art the user shared; its model is our own. Tikimp and Tikilla are after the user's idea
 and the concept art they shared; their names and models are our own. Mousense and Sensarat (their names and
 designs) are after the concept art the user shared; their models are our own. Gigantler (its name and design) is
-after the Ronto region fakemon art by **@rontoregion** that the user shared; its model and Pokédex entry are our own.
+after the Ronto region fakemon art by **@rontoregion** that the user shared; its model and Pokédex entry are our own. Assoulsect
+(its name and design) is after the fakemon art by **@mazenta_inku** that the user shared, with the user's idea of a
+cordyceps-bound hive mind of fallen Bug Pokémon; its model, ability and Pokédex entry are our own.
 
 ## Code and data
 

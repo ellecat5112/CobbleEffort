@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 41 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 42 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2061,6 +2061,16 @@ cobbleeffort:cavitot.
   span wider than a cabin. Packs of predators turn back the moment it lowers its head, and
   travellers in the northern woods take a glimpse of one as a sign of good fortune."
   * Wild: rare in taigas and snowy forests, rarer in swamps and tundra.
+
+#3042 ASSOULSECT  (Bug / Ghost; Hive Mind (its own: a Bug-type foe's moves never harm it and strike the foe's side instead) / Effect Spore (hidden))
+  a violet fog-cloud of fallen bug souls on two thin black legs, with bug heads sunk in it and
+  blades, horns, lances and a wing bristling out, overgrown by glowing cordyceps fungus stalks
+  Stats: HP 90  Atk 125  Def 95  SpA 85  SpD 95  Spe 70  (total 560)
+  Pokedex: "When thousands of Bug Pokémon perished, a fungus took root in what was left of them and
+  wove their souls into one mind. Their old heads and blades still twitch in its fog; any Bug
+  Pokémon that challenges it is pulled into the hive and turns on its own allies."
+  * Wild: very rare at night in dark forests, jungles, swamps and mushroom fields, and in lush caves
+    and the deep dark.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
