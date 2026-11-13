@@ -1,0 +1,15 @@
+{
+ "target": "cobblemon:regigigas",
+ "evolutions": [
+  {
+   "id": "regigigas_regideity",
+   "variant": "item_interact",
+   "result": "cobbleeffort:regideity",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "meteormash"
+   ],
+   "requiredContext": "minecraft:nether_star"
+  }
+ ]
+}

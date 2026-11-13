@@ -14,7 +14,7 @@ from _ink import P, eyef, firef, glassf, inkf, nibf
 from _route import tone
 
 SCALE = 2.2
-HITBOX = [3.6, 6.8]
+HITBOX = [1.64, 3.09]
 KIND = "biped"
 K = 3
 HEIGHT = 50

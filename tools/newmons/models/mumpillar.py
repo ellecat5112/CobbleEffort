@@ -13,7 +13,7 @@ from _boxmodel import Model, chain
 from _pharaoh import P, bandage, black, ring_eye, visor
 
 SCALE = 0.4
-HITBOX = [0.5, 0.45]
+HITBOX = [1.25, 1.12]
 KIND = "quadruped"
 K = 6
 LOOK = ("a caterpillar swaddled in bandages like a little mummy, with a black visor face, two big round glowing yellow "

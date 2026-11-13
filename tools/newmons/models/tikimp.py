@@ -15,7 +15,7 @@ from _boxmodel import Model, chain, rod, spike
 from _tiki import P, banded, ribs, skull_face, solid, tiki_fist
 
 SCALE = 0.55
-HITBOX = [0.5, 0.6]
+HITBOX = [0.91, 1.09]
 KIND = "biped"
 K = 5
 HEIGHT = 18

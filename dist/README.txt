@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 61 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 62 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2249,6 +2249,16 @@ cobbleeffort:cavitot.
   round its bones. It gallops through badlands at night, snorting fire, and its hollow skull glows
   red with the grudges it refuses to let go."
   * Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves.
+
+#3058 REGIDEITY  (Normal; Pressure / Sheer Force (hidden))
+  a titanic colossus: two immense black-banded white legs from a glowing green orb, a great gold
+  ring with two horns, gems and dark spikes round a dotted white head, two turning halos, and six
+  arms ending in gold cups with white fingers
+  Stats: HP 120  Atk 180  Def 130  SpA 95  SpD 130  Spe 105  (total 760)
+  Pokedex: "Legends say it towed the continents into place with its six arms and stood astride the
+  seas while it worked. When it walks, mountains shake as if in an earthquake, and the halos round
+  its ring shine brighter the longer it has been awake."
+  * Use a Nether Star on a Regigigas. It learns Meteor Mash when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

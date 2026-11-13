@@ -247,7 +247,9 @@ shared (artist not named), with the user's additions (the inkwell, the kaiju siz
 models and Pokédex entries are our own. The CobbleEffort regional Mudbray and Ignitemare (its name and design) follow
 the fakemon art by **@wescos_region** that the user shared, with the user's ideas (emo culture; an almost wendigo-like
 fire and dark evolution); Mudbray's texture is repainted from Cobblemon's own, and Ignitemare's model and both Pokédex
-entries are our own.
+entries are our own. Regideity (its name and design) is after the Regigigas evolution fakemon art by
+**@trainer_matz** that the user shared, with the user's idea of its titanic size; its model and Pokédex entry are our
+own.
 
 ## Code and data
 

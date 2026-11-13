@@ -10,7 +10,7 @@ from _boxmodel import Model
 from _ink import P, eyef, inkf, nibf
 
 SCALE = 0.5
-HITBOX = [0.5, 0.5]
+HITBOX = [1.0, 1.0]
 KIND = "floater"
 K = 6
 HEIGHT = 14

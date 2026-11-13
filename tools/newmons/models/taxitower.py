@@ -17,7 +17,7 @@ from _fossil import STONE, STONE_SHINY, mycelium_stone
 from _route import pal, tone
 
 SCALE = 2.3
-HITBOX = [2.4, 7.0]
+HITBOX = [1.04, 3.04]
 KIND = "quadruped"
 K = 2
 HEIGHT = 56

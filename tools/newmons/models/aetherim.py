@@ -18,7 +18,7 @@ from _boxmodel import Model, mix, rod
 from _route import tone
 
 SCALE = 0.5
-HITBOX = [0.6, 0.7]
+HITBOX = [1.2, 1.4]
 KIND = "floater"
 K = 6
 HEIGHT = 20

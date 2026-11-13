@@ -15,7 +15,7 @@ from _opossum import P, baby, earf, solid, tailf
 from _route import tone
 
 SCALE = 0.6
-HITBOX = [1.0, 1.3]
+HITBOX = [1.67, 2.17]
 KIND = "biped"
 K = 4
 HEIGHT = 36

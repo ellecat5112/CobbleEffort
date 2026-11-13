@@ -15,7 +15,7 @@ from _jerboa import P, bolt_points, bolt_shader, fur, red, ring
 from _route import dot_eye, tone
 
 SCALE = 0.3
-HITBOX = [0.7, 0.8]
+HITBOX = [2.33, 2.67]
 KIND = "floater"
 K = 5
 HEIGHT = 38

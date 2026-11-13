@@ -15,7 +15,7 @@ from _route import pal, tone
 from _sense import closed_eyes, ear_disc, solid, whisker
 
 SCALE = 0.42
-HITBOX = [0.4, 0.35]
+HITBOX = [0.95, 0.83]
 KIND = "biped"
 K = 6
 HEIGHT = 14

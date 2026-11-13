@@ -12,7 +12,7 @@ from _boxmodel import Model, chain, mix, rod
 from _mantis import P, chitin, frond, striped
 
 SCALE = 0.37
-HITBOX = [0.45, 0.45]
+HITBOX = [1.22, 1.22]
 KIND = "quadruped"
 K = 6
 LOOK = ("a tiny leaf-green baby mantis with no eyes, a wide triangular head, leafy feelers, little forelegs folded "

@@ -12,7 +12,7 @@ from _boxmodel import Model, chain, mix, rod
 from _route import pal, round_eye, tone
 
 SCALE = 0.13
-HITBOX = [0.25, 0.2]
+HITBOX = [1.92, 1.54]
 KIND = "quadruped"
 K = 8
 LOOK = ("a super tiny spider wearing a big glossy seed on its back like a shell, with two big lime-ringed orange "

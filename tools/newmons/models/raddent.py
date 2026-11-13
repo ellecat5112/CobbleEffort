@@ -13,7 +13,7 @@ from _radish import dark, foot, light, nose, radish, snout, tooth, whisker
 from _route import leaf_plane
 
 SCALE = 0.42
-HITBOX = [0.45, 0.35]
+HITBOX = [1.07, 0.83]
 KIND = "quadruped"
 K = 5
 LOOK = ("a rat whose body is a round magenta radish with green veins, a tan face, a pointed snout, a buck tooth and "

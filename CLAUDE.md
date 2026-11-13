@@ -190,6 +190,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   of its own (Sirfetch'd style): Mudbray -> `cobbleeffort:ignitemare` (#3057, Dark/Fire, `models/ignitemare.py`, a
   gaunt wendigo-like skeletal fire horse), whose SPECIES `pre` = "mudbray cobbleeffortian" sets its preEvolution.
   Spawns for all regional forms go in `spawn_pool_world/regional.json`.
+  Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
+  SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
+  another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).
+  **HITBOX is in model units**: Cobblemon multiplies it by baseScale (build.py fails when hitbox x SCALE is far from the
+  model's height); 20 old models were fixed in 0.61.0 (Calligrimm's was 15 blocks tall, small ones were 0.1).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

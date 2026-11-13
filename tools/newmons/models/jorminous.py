@@ -18,7 +18,7 @@ from _jorm import P, mist, oar_blade, planks, segmented, shield, solid
 from _route import round_eye, tone
 
 SCALE = 1.55
-HITBOX = [3.0, 4.2]
+HITBOX = [1.94, 2.71]
 KIND = "floater"
 K = 3
 HEIGHT = 44

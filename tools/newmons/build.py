@@ -1424,6 +1424,45 @@ SPECIES.update({
 })
 LINES["steed"] = ["ignitemare"]
 
+# --- the colossus (Regigigas evolved) -------------------------------------------------------------------------------------
+
+COLOSSUS_TM = BASIC_TM + ["ancientpower", "block", "bulldoze", "drainpunch", "earthpower", "firepunch", "focuspunch",
+                          "gigaimpact", "gravity", "highhorsepower", "hyperbeam", "icepunch", "icywind", "ironhead",
+                          "knockoff", "rockslide", "rocksmash", "shockwave", "stompingtantrum", "stoneedge",
+                          "superpower", "thunderpunch", "earthquake", "bodyslam", "doubleedge", "bodypress",
+                          "heavyslam", "closecombat", "meteormash", "brickbreak", "bulkup", "wideguard", "trickroom",
+                          "megapunch", "megakick", "headlongrush", "hammerarm", "dynamicpunch", "zenheadbutt"]
+
+SPECIES.update({
+    "regideity": {
+        "dex": 3058, "name": "Regideity", "line": "colossus", "types": ["normal"],
+        "male": -1, "egg_groups": ["undiscovered"], "friendship": 0, "catch": 3, "labels": ["legendary"],
+        "abilities": ["pressure", "h:sheerforce"],
+        "ability_names": "Pressure / Sheer Force (hidden)",
+        "stats": stats(120, 180, 130, 95, 130, 105), "ev": evs(attack=3), "exp": 340, "growth": "slow",
+        "height": 210, "weight": 9999, "shoulder": False, "walk": 0.22,
+        "pre": "cobblemon:regigigas",
+        # Regigigas evolves when a Nether Star is used on it (an item worthy of a god of giants)
+        "evolves_from": ("cobblemon:regigigas", "regigigas_regideity",
+                         {"id": "regigigas_regideity", "variant": "item_interact", "result": "cobbleeffort:regideity",
+                          "consumeHeldItem": False, "learnableMoves": ["meteormash"],
+                          "requiredContext": "minecraft:nether_star"}),
+        "moves": [(1, "pound"), (1, "confuseray"), (1, "foresight"), (1, "dizzypunch"), (1, "cometpunch"),
+                  (1, "meteormash"), (6, "payback"), (12, "facade"), (18, "stomp"), (24, "protect"), (30, "knockoff"),
+                  (36, "megapunch"), (42, "bodypress"), (48, "wideguard"), (54, "zenheadbutt"), (60, "heavyslam"),
+                  (66, "hammerarm"), (72, "gigaimpact"), (78, "crushgrip"), (84, "headlongrush"), (90, "judgment")],
+        "tm": COLOSSUS_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:gold_ingot", "2-6", None), ("minecraft:emerald", "1-3", None),
+                  ("minecraft:diamond", "0-2", None), ("cobblemon:hard_stone", None, 25.0)],
+        "entry": ("Legends say it towed the continents into place with its six arms and stood astride the seas while "
+                  "it worked. When it walks, mountains shake as if in an earthquake, and the halos round its ring "
+                  "shine brighter the longer it has been awake."),
+        "spawns": [],
+        "how": ["Use a Nether Star on a Regigigas. It learns Meteor Mash when it evolves."],
+    },
+})
+LINES["colossus"] = ["regideity"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1729,6 +1768,11 @@ def build_model(sp):
     legs = [n for n in names if n.startswith("leg")]
     top = getattr(hand, "HEIGHT", None) or max(b.lo[1] + b.size[1] for b in m.boxes)
     cfg["model_height"] = top
+    # Cobblemon multiplies the hitbox by baseScale: HITBOX is in model units, like the model itself
+    model_h, box_h = top * hand.SCALE / 16, hand.HITBOX[1] * hand.SCALE
+    if not 0.5 * model_h <= box_h <= max(1.5 * model_h, 0.3):             # (tiny ones may be a bit bigger)
+        raise SystemExit(f"{sp}: hitbox {box_h:.2f} blocks tall in game but the model is {model_h:.2f} "
+                         f"(HITBOX is scaled by SCALE)")
     extra = [{"name": "locator_root", "parent": sp, "pivot": [0, 0, 0]},
              {"name": "locator_top", "parent": sp, "pivot": [0, float(top), 0]}]
     bedrock = RES / "assets" / MOD / "bedrock" / "pokemon"
@@ -1838,6 +1882,9 @@ def main():
     for sp, c in SPECIES.items():
         build_model(sp)
         write_json(data / "species" / c["line"] / f"{sp}.json", species_json(sp))
+        if c.get("evolves_from"):                          # another mod's species evolves into ours (Cobblemon appends)
+            target, name, evo = c["evolves_from"]
+            write_json(data / "species_additions" / f"{name}.json", {"target": target, "evolutions": [evo]})
         spawns = [dict(s, pokemon=f"{MOD}:{sp}") for s in c["spawns"]]
         pool = data / "spawn_pool_world" / f"{sp}.json"
         if spawns:

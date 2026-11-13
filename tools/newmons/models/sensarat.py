@@ -17,7 +17,7 @@ from _route import pal, tone
 from _sense import closed_eyes, ear_disc, solid, whisker
 
 SCALE = 0.68
-HITBOX = [0.7, 0.6]
+HITBOX = [1.03, 0.88]
 KIND = "quadruped"
 K = 5
 HEIGHT = 17

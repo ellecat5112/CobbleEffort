@@ -16,7 +16,7 @@ from _radish import dark, foot, light, nose, radish, snout, stem, tooth, twine, 
 from _route import leaf_plane
 
 SCALE = 0.48
-HITBOX = [0.8, 0.8]
+HITBOX = [1.67, 1.67]
 KIND = "quadruped"
 K = 4
 HEIGHT = 26

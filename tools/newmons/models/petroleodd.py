@@ -15,7 +15,7 @@ from _fossil import TAR, TAR_SHINY, bone, tar
 from _route import pal
 
 SCALE = 0.5
-HITBOX = [0.6, 0.6]
+HITBOX = [1.2, 1.2]
 KIND = "quadruped"
 K = 5
 HEIGHT = 20

@@ -1374,6 +1374,15 @@ it), long thin legs cased in white bone armour split by glowing red cracks, huge
 tail with red marks. Moody or Flame Body, hidden Intimidate; Snarl, Fire Fang, Night Slash, Will-O-Wisp, Lash Out,
 Flamethrower, Burning Jealousy, Foul Play, Flare Blitz and Overheat. Evolution only. Shiny: charcoal with blue fire.
 
+**Regideity** (Normal, legendary), after the art by **@trainer_matz**: Regigigas evolved, and titanic: about 23 blocks
+tall, each leg about as long as a huge Onix. Two immense black-banded white legs stride out from a glowing green orb
+under flared gold cuffs; a banded neck climbs to a dotted white dome of a head set in the foot of a great upright gold
+ring with two tall horns, dark spikes on its inner edge and Regigigas's six coloured gems. Two concentric halos of light
+keep turning round it (one inside the ring, one behind), and six arms radiate from the ring like the spokes of a wheel,
+each ending in a huge gold cup with three white fingers. Use a **Nether Star** on a Regigigas to evolve it (it learns
+Meteor Mash). Pressure, hidden Sheer Force; Regigigas's moves plus Comet Punch, Meteor Mash, Headlong Rush and Judgment.
+Shiny: rose gold, blue halos and a blue orb.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1434,6 +1443,7 @@ Flamethrower, Burning Jealousy, Foul Play, Flare Blitz and Overheat. Evolution o
 | 3055 | **Incwell** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 60 / 75 / 80 / 70 / 65 / 50 | 4'3" (1.3 m) / 29 kg | Evolve Incl at level 30. It learns Dark Pulse when it evolves. Evolves into Calligrimm at level 50. | It lives in an inkwell it found in an abandoned study and never leaves it. At night it rises out of the well and writes threats on the walls with the tip of its nib. |
 | 3056 | **Calligrimm** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 100 / 125 / 110 / 90 / 85 / 50 | 23'0" (7 m) / 999 kg | Evolve Incwell at level 50. It learns Crunch when it evolves. | A titan of living ink, tall as a castle tower. The shards of its shattered inkwell became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once begged it never to write their names. |
 | 3057 | **Ignitemare** | Dark / Fire | Moody / Flame Body / Intimidate (hidden) | 85 / 120 / 80 / 85 / 75 / 80 | 7'3" (2.2 m) / 145 kg | Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves. | When the CobbleEffort Mudbray's sulking turns to rage, its body burns away to a shadow round its bones. It gallops through badlands at night, snorting fire, and its hollow skull glows red with the grudges it refuses to let go. |
+| 3058 | **Regideity** | Normal | Pressure / Sheer Force (hidden) | 120 / 180 / 130 / 95 / 130 / 105 | 68'11" (21 m) / 999.9 kg | Use a Nether Star on a Regigigas. It learns Meteor Mash when it evolves. | Legends say it towed the continents into place with its six arms and stood astride the seas while it worked. When it walks, mountains shake as if in an earthquake, and the halos round its ring shine brighter the longer it has been awake. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1477,6 +1487,8 @@ Flamethrower, Burning Jealousy, Foul Play, Flare Blitz and Overheat. Evolution o
 ![Incl, Incwell and Calligrimm: front, side and shiny](docs/newmons_ink.png)
 
 ![Ignitemare: front, side and shiny](docs/newmons_steed.png)
+
+![Regideity: front, side and shiny](docs/newmons_regideity.png)
 
 ## CobbleEffort regional forms
 

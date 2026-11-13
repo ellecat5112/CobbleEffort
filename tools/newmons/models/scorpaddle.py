@@ -14,7 +14,7 @@ from _eurypterid import P, darkf, paddlef, spikef
 from _route import tone
 
 SCALE = 0.55
-HITBOX = [0.6, 0.4]
+HITBOX = [1.09, 0.73]
 KIND = "floater"
 K = 6
 HEIGHT = 14

@@ -13,7 +13,7 @@ from _cardinal import P, feather, grey, plumage
 from _route import dot_eye, tone
 
 SCALE = 0.42
-HITBOX = [0.4, 0.35]
+HITBOX = [0.95, 0.83]
 KIND = "biped"
 K = 6
 LOOK = ("a cute round red cardinal with a pointed crest, a stubby grey beak in a little black mask, big shiny eyes, "

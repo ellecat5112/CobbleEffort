@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:regideity",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:regideity",
+   "model": "cobbleeffort:regideity.geo",
+   "texture": "cobbleeffort:textures/pokemon/3058_regideity/regideity.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_glow_0.png",
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_glow_1.png",
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3058_regideity/regideity_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3058_regideity/regideity_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

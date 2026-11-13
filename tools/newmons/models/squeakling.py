@@ -13,7 +13,7 @@ from _boxmodel import Model, chain, mix
 from _route import dot_eye, pal, tone
 
 SCALE = 0.38
-HITBOX = [0.4, 0.3]
+HITBOX = [1.05, 0.79]
 KIND = "biped"
 K = 6
 LOOK = ("a short, stout glossy yellow rubber ducky with a flat orange bill, little black eyes, a black tuft, stubby "
