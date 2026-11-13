@@ -1,0 +1,177 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3049,
+ "name": "Scorpaddle",
+ "primaryType": "bug",
+ "secondaryType": "water",
+ "maleRatio": 0.875,
+ "height": 4,
+ "weight": 62,
+ "pokedex": [
+  "cobbleeffort.species.scorpaddle.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "fossil"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "battlearmor",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "water_3",
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 80,
+  "defence": 70,
+  "special_attack": 40,
+  "special_defence": 45,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 71,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 4.0
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:watergun",
+  "1:harden",
+  "5:furycutter",
+  "9:bubblebeam",
+  "13:bugbite",
+  "17:aquajet",
+  "21:metalclaw",
+  "25:razorshell",
+  "29:xscissor",
+  "33:swordsdance",
+  "37:liquidation",
+  "41:leechlife",
+  "egg:aquaring",
+  "egg:screech",
+  "egg:flail",
+  "egg:knockoff",
+  "egg:crabhammer",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:leechlife",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:bugbite",
+  "tm:skittersmack",
+  "tm:furycutter",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:waterpulse",
+  "tm:razorshell",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:flipturn",
+  "tm:dive",
+  "tm:whirlpool",
+  "tm:swordsdance",
+  "tm:knockoff",
+  "tm:poisonjab",
+  "tm:rockslide",
+  "tm:ancientpower",
+  "tm:stoneedge",
+  "tm:irondefense",
+  "tm:metalclaw",
+  "tm:crunch",
+  "tm:slash",
+  "tm:brickbreak",
+  "tm:agility"
+ ],
+ "evolutions": [
+  {
+   "id": "scorpaddle_pterygant",
+   "variant": "level_up",
+   "result": "cobbleeffort:pterygant",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "crabhammer"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 40
+    }
+   ]
+  }
+ ]
+}

@@ -1189,6 +1189,53 @@ SPECIES.update({
 })
 LINES["minnow"] = ["minnolith", "placofin"]
 
+# --- the eurypterid fossil (sea scorpions) ------------------------------------------------------------------------------
+
+EURY = dict(male=0.875, egg_groups=["water_3", "bug"], friendship=50,
+            abilities=["swiftswim", "battlearmor", "h:toughclaws"],
+            ability_names="Swift Swim / Battle Armor / Tough Claws (hidden)", labels=["fossil"])
+EURY_TM = BASIC_TM + ["xscissor", "uturn", "leechlife", "lunge", "pounce", "bugbite", "skittersmack", "furycutter",
+                      "surf", "waterfall", "liquidation", "aquatail", "waterpulse", "razorshell", "chillingwater",
+                      "raindance", "flipturn", "dive", "whirlpool", "swordsdance", "knockoff", "poisonjab",
+                      "rockslide", "ancientpower", "stoneedge", "irondefense", "metalclaw", "crunch", "slash",
+                      "brickbreak", "agility"]
+EURY_EARLY = [(1, "scratch"), (1, "watergun"), (1, "harden"), (5, "furycutter"), (9, "bubblebeam"), (13, "bugbite"),
+              (17, "aquajet"), (21, "metalclaw"), (25, "razorshell"), (29, "xscissor"), (33, "swordsdance")]
+
+SPECIES.update({
+    "scorpaddle": {
+        "dex": 3049, "name": "Scorpaddle", "line": "eurypterid", "types": ["bug", "water"], **EURY,
+        "stats": stats(50, 80, 70, 40, 45, 70), "ev": evs(attack=1), "catch": 45, "exp": 71,
+        "height": 4, "weight": 62, "shoulder": False, "walk": 0.22, "aquatic": True,
+        "moves": EURY_EARLY + [(37, "liquidation"), (41, "leechlife")],
+        "tm": EURY_TM, "egg": ["aquaring", "screech", "flail", "knockoff", "crabhammer"],
+        "evolve": ("pterygant", 40, ["crabhammer"]),
+        "drops": [("minecraft:prismarine_shard", "0-1", None), ("minecraft:flint", "0-1", None),
+                  ("cobblemon:mystic_water", None, 4.0)],
+        "entry": ("A sea scorpion from the oldest oceans. It rows along the sea floor with its paddles and holds "
+                  "its tail spike up like a warning, though the spike was only ever for show."),
+        "spawns": [],
+        "how": ["Revive a Telson Fossil at a Restoration Tank. Telson Fossils are found by brushing the suspicious "
+                "gravel of fossil beds on the sea floor.", "Evolves into Pterygant at level 40."],
+    },
+    "pterygant": {
+        "dex": 3050, "name": "Pterygant", "line": "eurypterid", "types": ["bug", "water"], **EURY,
+        "stats": stats(75, 120, 100, 55, 70, 75), "ev": evs(attack=2), "catch": 45, "exp": 173,
+        "height": 19, "weight": 1450, "shoulder": False, "walk": 0.3, "aquatic": True,
+        "moves": [(1, "crabhammer")] + EURY_EARLY + [(40, "crabhammer"), (44, "leechlife"), (48, "liquidation"),
+                                                     (53, "firstimpression"), (58, "wavecrash")],
+        "tm": EURY_TM + ["gigaimpact", "hyperbeam", "hydropump", "megahorn"],
+        "egg": ["aquaring", "screech", "flail", "knockoff", "crabhammer"], "evolve": None,
+        "drops": [("minecraft:prismarine_shard", "1-2", None), ("minecraft:flint", "0-2", None),
+                  ("cobblemon:mystic_water", None, 8.0)],
+        "entry": ("The largest sea scorpion that ever lived. It swept its great paddles to chase down prey in "
+                  "the ancient seas, and nothing that swam could outlast it."),
+        "spawns": [],
+        "how": ["Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves."],
+    },
+})
+LINES["eurypterid"] = ["scorpaddle", "pterygant"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

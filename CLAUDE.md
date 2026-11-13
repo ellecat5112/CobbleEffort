@@ -195,6 +195,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Minnolith -> Placofin (#3047-3048, line "minnow", `models/_minnow.py`; art by Fionn Keeley, our names): Rock/Water
   fossils, level 38, aquatic; Minnow Fossil (fossils.py key "minnow", cmd 3) from the `riverbed` structure: a 2-layer
   bed (only its own blocks set, so the water stays) at OCEAN_FLOOR_WG with start_height -1 in rivers and swamps.
+  Scorpaddle -> Pterygant (#3049-3050, line "eurypterid", `models/_eurypterid.py`; the user's art, artist not named; our
+  names/types): Bug/Water fossils, level 40, aquatic floaters (paddles = arm bones); Telson Fossil (key "telson", cmd 4)
+  from `seabed` (the riverbed builder with its own loot table) on ocean floors (`#minecraft:is_ocean`).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

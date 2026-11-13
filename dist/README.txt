@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 51 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 53 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2155,6 +2155,24 @@ cobbleeffort:cavitot.
   riverbeds on its little legs, and when it charged, the force of it could crack the stones of the
   riverbank."
   * Evolve Minnolith at level 38. It learns Head Smash when it evolves.
+
+#3049 SCORPADDLE  (Bug / Water; Swift Swim / Battle Armor / Tough Claws (hidden))
+  a round yellow sea scorpion with a stepped magenta stripe down its ringed shell, big dark eyes,
+  brown swimming paddles and a pink telson spike
+  Stats: HP 50  Atk 80  Def 70  SpA 40  SpD 45  Spe 70  (total 355)
+  Pokedex: "A sea scorpion from the oldest oceans. It rows along the sea floor with its paddles and
+  holds its tail spike up like a warning, though the spike was only ever for show."
+  * Revive a Telson Fossil at a Restoration Tank. Telson Fossils are found by brushing the
+    suspicious gravel of fossil beds on the sea floor.
+  * Evolves into Pterygant at level 40.
+
+#3050 PTERYGANT  (Bug / Water; Swift Swim / Battle Armor / Tough Claws (hidden))
+  a giant yellow sea scorpion with a spiked head shield and overlapping plates marked magenta, great
+  brown swimming paddles banded pink and a long segmented tail ending in a pink telson spike
+  Stats: HP 75  Atk 120  Def 100  SpA 55  SpD 70  Spe 75  (total 495)
+  Pokedex: "The largest sea scorpion that ever lived. It swept its great paddles to chase down prey
+  in the ancient seas, and nothing that swam could outlast it."
+  * Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

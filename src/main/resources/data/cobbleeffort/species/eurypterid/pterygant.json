@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3050,
+ "name": "Pterygant",
+ "primaryType": "bug",
+ "secondaryType": "water",
+ "maleRatio": 0.875,
+ "height": 19,
+ "weight": 1450,
+ "pokedex": [
+  "cobbleeffort.species.pterygant.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "fossil"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "battlearmor",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "water_3",
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 120,
+  "defence": 100,
+  "special_attack": 55,
+  "special_defence": 70,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 173,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.4,
+  "height": 0.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:crabhammer",
+  "1:scratch",
+  "1:watergun",
+  "1:harden",
+  "5:furycutter",
+  "9:bubblebeam",
+  "13:bugbite",
+  "17:aquajet",
+  "21:metalclaw",
+  "25:razorshell",
+  "29:xscissor",
+  "33:swordsdance",
+  "40:crabhammer",
+  "44:leechlife",
+  "48:liquidation",
+  "53:firstimpression",
+  "58:wavecrash",
+  "egg:aquaring",
+  "egg:screech",
+  "egg:flail",
+  "egg:knockoff",
+  "egg:crabhammer",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:leechlife",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:bugbite",
+  "tm:skittersmack",
+  "tm:furycutter",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:waterpulse",
+  "tm:razorshell",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:flipturn",
+  "tm:dive",
+  "tm:whirlpool",
+  "tm:swordsdance",
+  "tm:knockoff",
+  "tm:poisonjab",
+  "tm:rockslide",
+  "tm:ancientpower",
+  "tm:stoneedge",
+  "tm:irondefense",
+  "tm:metalclaw",
+  "tm:crunch",
+  "tm:slash",
+  "tm:brickbreak",
+  "tm:agility",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hydropump",
+  "tm:megahorn"
+ ],
+ "preEvolution": "cobbleeffort:scorpaddle"
+}

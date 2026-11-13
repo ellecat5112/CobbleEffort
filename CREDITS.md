@@ -236,7 +236,9 @@ calls it "Infestower") is after the paradox Sudowoodo concept art the user share
 Pokédex entry are our own. Wrapiglet and Croissoar follow the pigs-in-a-blanket fakemon art from the r/fakemon
 community that the user shared (artist not named); their names, models and Pokédex entries are our own. Minnolith and
 Placofin (and the Minnow Fossil) follow the fossil fish fakemon art by **Fionn Keeley** (@fionnkeeley, @miscfionn,
-aegiro) that the user shared; their names, models and Pokédex entries are our own.
+aegiro) that the user shared; their names, models and Pokédex entries are our own. Scorpaddle and Pterygant
+(and the Telson Fossil) follow the eurypterid fossil fakemon art the user shared (a watermarked DeviantArt piece; the
+artist isn't named); their names, types, models and Pokédex entries are our own.
 
 ## Code and data
 

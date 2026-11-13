@@ -1327,6 +1327,14 @@ Iron Defense, then Head Smash (on evolving), Liquidation, Stone Edge and Wave Cr
 found by brushing the suspicious gravel of fossil beds on the bottoms of rivers and swamps (a patch of gravel, clay and
 sand with a few stones). Shiny: goldfish orange with deep red fins.
 
+**Scorpaddle → Pterygant** (Bug/Water fossils, level 40), ancient sea scorpions (eurypterids). Scorpaddle is a round
+yellow sea scorpion with a stepped magenta stripe down its ringed shell, big dark eyes, brown swimming paddles and a
+pink telson spike; Pterygant is a giant one with a spiked head shield, overlapping plates marked magenta, great brown
+paddles banded pink and a long segmented tail ending in the telson. Swift Swim or Battle Armor, hidden Tough Claws;
+Fury Cutter, Aqua Jet, Razor Shell, X-Scissor and Swords Dance, then Crabhammer (on evolving), Leech Life, Liquidation,
+First Impression and Wave Crash. Revived from a **Telson Fossil**, found by brushing the suspicious gravel of fossil
+beds on the sea floor. Shiny: an aqua shell with orange markings.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1378,6 +1386,8 @@ sand with a few stones). Shiny: goldfish orange with deep red fins.
 | 3046 | **Croissoar** | Normal / Flying | Thick Fat / Gluttony / Cheek Pouch (hidden) | 90 / 90 / 80 / 60 / 70 / 95 | 4'3" (1.3 m) / 38 kg | Evolve Wrapiglet at level 26. It learns Gust when it evolves. Wild: uncommon in hills, plains and highlands. | Its blanket of dough rises and bakes into a great flaky paraglider. It leaps off hilltops and rides the warm air for miles, steering with its ears, and leaves a trail of buttery crumbs behind it. |
 | 3047 | **Minnolith** | Rock / Water | Swift Swim / Shell Armor / Rattled (hidden) | 45 / 50 / 70 / 35 / 45 / 55 | 1'4" (0.4 m) / 7.5 kg | Revive a Minnow Fossil at a Restoration Tank. Minnow Fossils are found by brushing the suspicious gravel of fossil beds on the bottoms of rivers and swamps. Evolves into Placofin at level 38. | A tiny fish that swam in rivers long before any other Pokémon. Its round body is wrapped in thin plates of armour, and schools of them darted through the shallows like scattered pebbles. |
 | 3048 | **Placofin** | Rock / Water | Swift Swim / Shell Armor / Rattled (hidden) | 70 / 105 / 115 / 55 / 70 / 80 | 4'7" (1.4 m) / 64 kg | Evolve Minnolith at level 38. It learns Head Smash when it evolves. | Its bullet-shaped head is armoured like a battering ram. It crept along ancient riverbeds on its little legs, and when it charged, the force of it could crack the stones of the riverbank. |
+| 3049 | **Scorpaddle** | Bug / Water | Swift Swim / Battle Armor / Tough Claws (hidden) | 50 / 80 / 70 / 40 / 45 / 70 | 1'4" (0.4 m) / 6.2 kg | Revive a Telson Fossil at a Restoration Tank. Telson Fossils are found by brushing the suspicious gravel of fossil beds on the sea floor. Evolves into Pterygant at level 40. | A sea scorpion from the oldest oceans. It rows along the sea floor with its paddles and holds its tail spike up like a warning, though the spike was only ever for show. |
+| 3050 | **Pterygant** | Bug / Water | Swift Swim / Battle Armor / Tough Claws (hidden) | 75 / 120 / 100 / 55 / 70 / 75 | 6'3" (1.9 m) / 145 kg | Evolve Scorpaddle at level 40. It learns Crabhammer when it evolves. | The largest sea scorpion that ever lived. It swept its great paddles to chase down prey in the ancient seas, and nothing that swam could outlast it. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1411,6 +1421,8 @@ sand with a few stones). Shiny: goldfish orange with deep red fins.
 ![Wrapiglet and Croissoar, regular and shiny](docs/newmons_blanket.png)
 
 ![Minnolith and Placofin, regular and shiny](docs/newmons_minnow.png)
+
+![Scorpaddle and Pterygant, regular and shiny](docs/newmons_eurypterid.png)
 
 ## CobbleEffort regional forms
 

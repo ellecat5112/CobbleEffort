@@ -11,6 +11,7 @@ suspicious gravel in two structures of our own (archaeology loot tables):
                "mycelium" and a fallen spire segment; brushing the gravel round it gives a Spire Fossil (Mycolith)
   riverbed     on the bottom of rivers and swamp pools, a patch of gravel, clay and sand with a few stones; brushing
                its gravel gives a Minnow Fossil (Minnolith)
+  seabed       the same kind of bed on the sea floor (any ocean); its gravel gives a Telson Fossil (Scorpaddle)
 
 Structure templates are written with the Kanto add-on's NBT writer (kanto/tools/make_assets.py).
 """
@@ -46,6 +47,10 @@ FOSSILS = {
                   "fossil_name": "Minnow Fossil",
                   "lore": "A slab of riverbed stone with a little armoured fish pressed into it. Revive it at a "
                           "Restoration Tank."},
+    "scorpaddle": {"key": "telson", "item": "telson_fossil", "name": "Telson Fossil", "cmd": 4, "structure": "seabed",
+                   "fossil_name": "Telson Fossil",
+                   "lore": "A dark stone from the sea floor with a long tail spike jutting out of it. Revive it at a "
+                           "Restoration Tank."},
 }
 
 
@@ -126,6 +131,26 @@ def icon_minnow():
         px[x, y] = (226, 196, 150, 255)                                              # the fish imprint
     for x, y in ((5, 5), (9, 10), (12, 10)):
         px[x, y] = (96, 74, 58, 255)                                                 # pebbles
+    return img
+
+
+def icon_telson():
+    """A dark grey rock with a long brown-pink tail spike jutting up out of it at an angle."""
+    img = Image.new("RGBA", (16, 16), (0, 0, 0, 0))
+    px = img.load()
+    for y in range(16):
+        for x in range(16):
+            if 8 <= y <= 14 and 1 + abs(y - 11) * 0.6 <= x <= 14 - abs(y - 10) * 0.5:
+                c = (96, 90, 98) if y < 13 else (64, 60, 68)
+                if (x * 3 + y * 5) % 9 == 0:
+                    c = (80, 74, 82)
+                px[x, y] = c + (255,)
+    for i in range(10):                                                              # the spike
+        x, y = 6 + i * 0.7, 9 - i * 0.9
+        for w in range(max(1, 2 - i // 4)):
+            xi, yi = int(x) + w, int(y)
+            if 0 <= xi < 16 and 0 <= yi < 16:
+                px[xi, yi] = ((150, 120, 110) if i < 6 else (214, 120, 156)) + (255,)
     return img
 
 
@@ -210,7 +235,7 @@ def spire_stump():
     return t
 
 
-def riverbed():
+def riverbed(loot="riverbed"):
     """A fossil bed on the bottom of a river or swamp pool: a patch of gravel, clay, sand and mud with a few stones,
     and suspicious gravel to brush. Only the bed's own blocks are set, so the water above stays."""
     W = 11
@@ -227,8 +252,13 @@ def riverbed():
     for x, z in ((c - 2, c + 1), (c + 3, c), (c, c - 3)):
         t.set(x, 1, z, "minecraft:cobblestone" if h(x, z) > 0.5 else "minecraft:mossy_cobblestone")
     for gx, gz in ((c, c), (c - 3, c - 1), (c + 2, c + 2), (c + 1, c - 2)):
-        brushable(t, gx, 0, gz, f"{MOD}:archaeology/riverbed")
+        brushable(t, gx, 0, gz, f"{MOD}:archaeology/{loot}")
     return t
+
+
+def seabed():
+    """The same kind of fossil bed on the sea floor, its gravel holding Telson Fossils."""
+    return riverbed("seabed")
 
 
 STRUCTURES = {
@@ -244,6 +274,9 @@ STRUCTURES = {
                                                "minecraft:mangrove_swamp"],
                  "step": "underground_structures", "adapt": "none", "height": {"absolute": -1},
                  "project": "OCEAN_FLOOR_WG", "spacing": 18, "separation": 6, "salt": 30243},
+    "seabed": {"build": seabed, "biomes": ["#minecraft:is_ocean"],
+               "step": "underground_structures", "adapt": "none", "height": {"absolute": -1},
+               "project": "OCEAN_FLOOR_WG", "spacing": 24, "separation": 8, "salt": 30244},
 }
 
 LOOT = {
@@ -253,6 +286,8 @@ LOOT = {
                     ("minecraft:tuff", 2), ("minecraft:bone_meal", 1)],
     "riverbed": [("fossil:minnolith", 3), ("minecraft:clay_ball", 3), ("minecraft:flint", 2), ("minecraft:bone_meal", 1),
                  ("minecraft:prismarine_shard", 1)],
+    "seabed": [("fossil:scorpaddle", 3), ("minecraft:prismarine_shard", 2), ("minecraft:nautilus_shell", 1),
+               ("minecraft:flint", 2), ("minecraft:bone_meal", 1)],
 }
 
 
@@ -267,7 +302,7 @@ def build(lang):
         lang[f"item.{MOD}.{f['item']}.tooltip"] = f["lore"]
         tex = assets / "textures" / "item" / f"{f['item']}.png"
         tex.parent.mkdir(parents=True, exist_ok=True)
-        {"tar": icon_tar, "spire": icon_spire, "minnow": icon_minnow}[f["key"]]().save(tex)
+        {"tar": icon_tar, "spire": icon_spire, "minnow": icon_minnow, "telson": icon_telson}[f["key"]]().save(tex)
         write_json(assets / "models" / "item" / f"{f['item']}.json",
                    {"parent": "minecraft:item/generated", "textures": {"layer0": f"{MOD}:item/{f['item']}"}})
     write_json(RES / "assets" / "minecraft" / "models" / "item" / "echo_shard.json", {
