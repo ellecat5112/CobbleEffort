@@ -4,7 +4,6 @@
     {
       "name": "CobbleEffort",
       "primaryType": "bug",
-      "secondaryType": "poison",
       "aspects": [
         "cobbleeffortian"
       ],
@@ -142,6 +141,7 @@
         "cobbleeffort.species.butterfree-cobbleeffortian.desc"
       ],
       "battleOnly": false,
+      "secondaryType": "poison",
       "evolutions": []
     }
   ]

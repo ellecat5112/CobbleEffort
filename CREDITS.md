@@ -244,7 +244,10 @@ and Pokédex entries are our own. Aetherim (its name and design) is after the fa
 shared, with the user's idea of it taking the type of the tuft of hair it holds; its model, type forms, Tufts and
 Pokédex entry are our own. Incl, Incwell and Calligrimm (their names, types and designs) are after the fakemon art the user
 shared (artist not named), with the user's additions (the inkwell, the kaiju size and the glass-shard maw); their
-models and Pokédex entries are our own.
+models and Pokédex entries are our own. The CobbleEffort regional Mudbray and Ignitemare (its name and design) follow
+the fakemon art by **@wescos_region** that the user shared, with the user's ideas (emo culture; an almost wendigo-like
+fire and dark evolution); Mudbray's texture is repainted from Cobblemon's own, and Ignitemare's model and both Pokédex
+entries are our own.
 
 ## Code and data
 

@@ -1,0 +1,137 @@
+{
+  "target": "cobblemon:mudbray",
+  "forms": [
+    {
+      "name": "CobbleEffort",
+      "primaryType": "dark",
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "labels": [
+        "gen7",
+        "cobbleeffort_regional"
+      ],
+      "abilities": [
+        "moody",
+        "stamina",
+        "h:innerfocus"
+      ],
+      "moves": [
+        "1:bite",
+        "1:faketears",
+        "1:leer",
+        "1:rocksmash",
+        "4:irondefense",
+        "8:doublekick",
+        "12:assurance",
+        "16:stomp",
+        "20:nightslash",
+        "24:counter",
+        "28:suckerpunch",
+        "32:heavyslam",
+        "36:darkpulse",
+        "40:foulplay",
+        "44:superpower",
+        "egg:bide",
+        "egg:doubleedge",
+        "egg:endeavor",
+        "egg:fissure",
+        "egg:magnitude",
+        "egg:mudbomb",
+        "egg:roar",
+        "egg:smackdown",
+        "tm:bodyslam",
+        "tm:assurance",
+        "tm:closecombat",
+        "tm:curse",
+        "tm:doubleedge",
+        "tm:earthpower",
+        "tm:darkpulse",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:heavyslam",
+        "tm:suckerpunch",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:foulplay",
+        "tm:bite",
+        "tm:payback",
+        "tm:protect",
+        "tm:rest",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:nightslash",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:takedown",
+        "tm:terablast",
+        "tutor:assurance",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:suckerpunch",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:lowkick",
+        "tutor:bite",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:stompingtantrum",
+        "tutor:stoneedge",
+        "tutor:superpower",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic",
+        "tm:snarl",
+        "tm:taunt",
+        "tm:faketears",
+        "tm:willowisp",
+        "tm:flamecharge",
+        "tm:firefang"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.mudbray-cobbleeffortian.desc"
+      ],
+      "battleOnly": false,
+      "evolutions": [
+        {
+          "id": "mudbray_ignitemare_cobbleeffortian",
+          "variant": "level_up",
+          "result": "cobbleeffort:ignitemare",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flamecharge"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

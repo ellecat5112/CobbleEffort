@@ -1250,5 +1250,33 @@
     "retextured": "cobbleeffort:textures/pokemon/3056_calligrimm/calligrimm_shiny_shell.png"
    }
   ]
+ },
+ {
+  "species": "ignitemare",
+  "folder": "3057_ignitemare",
+  "model": "cobbleeffort:ignitemare.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3057_ignitemare/ignitemare.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3057_ignitemare/ignitemare_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "ignitemare_shiny",
+  "folder": "3057_ignitemare",
+  "model": "cobbleeffort:ignitemare.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3057_ignitemare/ignitemare_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3057_ignitemare/ignitemare_shiny_glow_0.png"
+   }
+  ]
  }
 ]

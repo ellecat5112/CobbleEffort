@@ -1390,6 +1390,40 @@ SPECIES.update({
 })
 LINES["ink"] = ["incl", "incwell", "calligrimm"]
 
+# --- the hollow steed (the CobbleEffort Mudbray's evolution) --------------------------------------------------------------
+
+STEED_TM = BASIC_TM + ["flamethrower", "fireblast", "overheat", "flareblitz", "firefang", "flamecharge", "willowisp",
+                       "heatwave", "burningjealousy", "temperflare", "sunnyday", "darkpulse", "nightslash", "foulplay",
+                       "crunch", "lashout", "suckerpunch", "throatchop", "snarl", "taunt", "torment", "faketears",
+                       "payback", "knockoff", "scaryface", "hex", "highhorsepower", "stompingtantrum", "bodyslam",
+                       "doubleedge", "takedown", "closecombat", "lowkick", "irontail", "bulkup", "roar", "gigaimpact",
+                       "hyperbeam", "endeavor", "agility", "spite"]
+
+SPECIES.update({
+    "ignitemare": {
+        "dex": 3057, "name": "Ignitemare", "line": "steed", "types": ["dark", "fire"],
+        "male": 0.5, "egg_groups": ["field"], "friendship": 50, "catch": 60,
+        "abilities": ["moody", "flamebody", "h:intimidate"],
+        "ability_names": "Moody / Flame Body / Intimidate (hidden)",
+        "stats": stats(85, 120, 80, 85, 75, 80), "ev": evs(attack=2), "exp": 182,
+        "height": 22, "weight": 1450, "shoulder": False, "walk": 0.34,
+        "pre": "mudbray cobbleeffortian",
+        "moves": [(1, "tackle"), (1, "leer"), (1, "bite"), (1, "faketears"), (1, "flamecharge"), (1, "ember"),
+                  (8, "assurance"), (12, "doublekick"), (16, "snarl"), (20, "firefang"), (24, "nightslash"),
+                  (28, "willowisp"), (34, "lashout"), (38, "flamethrower"), (42, "burningjealousy"), (46, "foulplay"),
+                  (51, "flareblitz"), (56, "suckerpunch"), (62, "overheat")],
+        "tm": STEED_TM, "egg": [], "evolve": None,
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:charcoal", "0-2", None),
+                  ("cobblemon:charcoal_stick", None, 5.0), ("cobblemon:black_glasses", None, 2.5)],
+        "entry": ("When the CobbleEffort Mudbray's sulking turns to rage, its body burns away to a shadow round its "
+                  "bones. It gallops through badlands at night, snorting fire, and its hollow skull glows red with "
+                  "the grudges it refuses to let go."),
+        "spawns": [],
+        "how": ["Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves."],
+    },
+})
+LINES["steed"] = ["ignitemare"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -1756,7 +1790,9 @@ def species_json(sp):
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
     pre = [s for s, o in SPECIES.items() if (o["evolve"] and o["evolve"][0] == sp)
            or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)]
-    if pre:
+    if c.get("pre"):                                        # evolves from another mod's form (e.g. a regional one)
+        d["preEvolution"] = c["pre"]
+    elif pre:
         d["preEvolution"] = f"{MOD}:{pre[0]}"
     return d
 

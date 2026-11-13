@@ -4,7 +4,6 @@
     {
       "name": "CobbleEffort",
       "primaryType": "bug",
-      "secondaryType": "poison",
       "aspects": [
         "cobbleeffortian"
       ],
@@ -37,6 +36,7 @@
         "cobbleeffort.species.caterpie-cobbleeffortian.desc"
       ],
       "battleOnly": false,
+      "secondaryType": "poison",
       "evolutions": [
         {
           "id": "caterpie_metapod_cobbleeffortian",

@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3057,
+ "name": "Ignitemare",
+ "primaryType": "dark",
+ "secondaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 22,
+ "weight": 1450,
+ "pokedex": [
+  "cobbleeffort.species.ignitemare.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "moody",
+  "flamebody",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 120,
+  "defence": 80,
+  "special_attack": 85,
+  "special_defence": 75,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 182,
+ "experienceGroup": "medium_slow",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.4,
+  "height": 2.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:charcoal",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:charcoal_stick",
+    "percentage": 5.0
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "1:faketears",
+  "1:flamecharge",
+  "1:ember",
+  "8:assurance",
+  "12:doublekick",
+  "16:snarl",
+  "20:firefang",
+  "24:nightslash",
+  "28:willowisp",
+  "34:lashout",
+  "38:flamethrower",
+  "42:burningjealousy",
+  "46:foulplay",
+  "51:flareblitz",
+  "56:suckerpunch",
+  "62:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:overheat",
+  "tm:flareblitz",
+  "tm:firefang",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:heatwave",
+  "tm:burningjealousy",
+  "tm:temperflare",
+  "tm:sunnyday",
+  "tm:darkpulse",
+  "tm:nightslash",
+  "tm:foulplay",
+  "tm:crunch",
+  "tm:lashout",
+  "tm:suckerpunch",
+  "tm:throatchop",
+  "tm:snarl",
+  "tm:taunt",
+  "tm:torment",
+  "tm:faketears",
+  "tm:payback",
+  "tm:knockoff",
+  "tm:scaryface",
+  "tm:hex",
+  "tm:highhorsepower",
+  "tm:stompingtantrum",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:irontail",
+  "tm:bulkup",
+  "tm:roar",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:endeavor",
+  "tm:agility",
+  "tm:spite"
+ ],
+ "preEvolution": "mudbray cobbleeffortian"
+}

@@ -4,7 +4,6 @@
     {
       "name": "CobbleEffort",
       "primaryType": "bug",
-      "secondaryType": "poison",
       "aspects": [
         "cobbleeffortian"
       ],
@@ -38,6 +37,7 @@
         "cobbleeffort.species.metapod-cobbleeffortian.desc"
       ],
       "battleOnly": false,
+      "secondaryType": "poison",
       "evolutions": [
         {
           "id": "metapod_butterfree_cobbleeffortian",

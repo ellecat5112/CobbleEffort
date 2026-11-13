@@ -1366,6 +1366,14 @@ Night Slash and Iron Head, then Dark Pulse, Knock Off, Flash Cannon, Foul Play a
 Steel Beam and Hammer Arm. Incl is rare at night in villages and in deep-dark and dripstone caves. Shiny: royal-blue ink
 and gold nibs.
 
+**Ignitemare** (Dark/Fire), after the art by **@wescos_region**: the CobbleEffort Mudbray (see the regional forms below)
+evolves at level 30 into an almost wendigo-like steed of shadow and fire. Its white ribs and spine show through a gaunt
+dark navy body as bone plates and spikes; its head is a long bare horse skull with glowing red eyes in hollow sockets and
+short branching black-tipped horns, and it snorts fire. A ragged dark mane with a side-swept forelock (a red streak in
+it), long thin legs cased in white bone armour split by glowing red cracks, huge white hooked claw-hooves and a spiky
+tail with red marks. Moody or Flame Body, hidden Intimidate; Snarl, Fire Fang, Night Slash, Will-O-Wisp, Lash Out,
+Flamethrower, Burning Jealousy, Foul Play, Flare Blitz and Overheat. Evolution only. Shiny: charcoal with blue fire.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1425,6 +1433,7 @@ and gold nibs.
 | 3054 | **Incl** | Water / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 40 / 45 / 55 / 50 / 45 / 35 | 1'4" (0.4 m) / 3 kg | Wild: rare at night in villages, and in deep-dark and dripstone caves. Evolves into Incwell at level 30. | A drop of ink that came to life on the page of an old letter. The silver pen nib it wears as a face is sharp, and it scribbles angry lines on anything that bothers it. |
 | 3055 | **Incwell** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 60 / 75 / 80 / 70 / 65 / 50 | 4'3" (1.3 m) / 29 kg | Evolve Incl at level 30. It learns Dark Pulse when it evolves. Evolves into Calligrimm at level 50. | It lives in an inkwell it found in an abandoned study and never leaves it. At night it rises out of the well and writes threats on the walls with the tip of its nib. |
 | 3056 | **Calligrimm** | Dark / Steel | Liquid Ooze / Sticky Hold / Clear Body (hidden) | 100 / 125 / 110 / 90 / 85 / 50 | 23'0" (7 m) / 999 kg | Evolve Incwell at level 50. It learns Crunch when it evolves. | A titan of living ink, tall as a castle tower. The shards of its shattered inkwell became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once begged it never to write their names. |
+| 3057 | **Ignitemare** | Dark / Fire | Moody / Flame Body / Intimidate (hidden) | 85 / 120 / 80 / 85 / 75 / 80 | 7'3" (2.2 m) / 145 kg | Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves. | When the CobbleEffort Mudbray's sulking turns to rage, its body burns away to a shadow round its bones. It gallops through badlands at night, snorting fire, and its hollow skull glows red with the grudges it refuses to let go. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
@@ -1467,11 +1476,14 @@ and gold nibs.
 
 ![Incl, Incwell and Calligrimm: front, side and shiny](docs/newmons_ink.png)
 
+![Ignitemare: front, side and shiny](docs/newmons_steed.png)
+
 ## CobbleEffort regional forms
 
 Existing Pokémon lines with a form of their own, like Cobblemon's Alolan or Galarian forms: the aspect
 `cobbleeffortian` (e.g. `/pokespawn caterpie cobbleeffortian`), the form "CobbleEffort", on Cobblemon's own models with
-new textures, types, abilities, moves and Pokédex entries. Each evolves into the next CobbleEffort form.
+new textures, types, abilities, moves and Pokédex entries. Each evolves into the next CobbleEffort form, or (like
+Sirfetch'd) into a Pokémon of its own.
 
 **The Caterpie line** (Bug/Poison), after the CobbleEffort Caterpie art by **@MerphISC**: inspired by toxic wild
 caterpillars that wear vibrant colours to warn predators away. Caterpie is purple with a pink forked feeler, a cream
@@ -1482,6 +1494,15 @@ Toxic, Toxic Spikes and Quiver Dance). Caterpie is common in jungles, swamps, fl
 uncommon and Butterfree rare there. Shiny: electric blue with orange.
 
 ![The CobbleEffort Caterpie line: Cobblemon's original, the CobbleEffort form and its shiny](docs/regional_caterpie.png)
+
+**Mudbray** (Dark), after the art by **@wescos_region**: an emo Mudbray. Near-black with white skeleton markings (ribs,
+spine, breastbone and leg bones), a white skull face with red eyes, a black side-swept fringe with a purple streak,
+purple inner ears and a black tail with red X marks. Moody / Stamina, hidden Inner Focus; Bite, Fake Tears, Assurance,
+Night Slash, Sucker Punch, Dark Pulse and Foul Play in place of its Ground moves. Uncommon in dark forests, badlands and
+spooky biomes. At level 30 it evolves into **Ignitemare** (Dark/Fire, #3057, above). Shiny: crimson-black with blue
+marks.
+
+![The CobbleEffort Mudbray: Cobblemon's original, the CobbleEffort form (front and side) and its shiny](docs/regional_mudbray.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

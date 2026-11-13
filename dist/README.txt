@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 59 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 61 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1690,6 +1690,15 @@ cobbleeffort:cavitot.
   rest in turn faintly purple."
   * Wild: rare in jungles and flower forests.
 
+#0749 MUDBRAY (COBBLEEFFORT FORM)  (Dark; Moody / Stamina / Inner Focus (hidden))
+  near-black with white skeleton markings, a white skull face, a black side-swept fringe with a
+  purple streak and a black tail with red X marks
+  Stats: HP 70  Atk 100  Def 70  SpA 45  SpD 55  Spe 45  (total 385)
+  Pokedex: "It dyes its mane black, lets its fringe fall over its eyes and wears the pattern of a
+  skeleton on its hide. It sulks in the shadows and kicks at anyone who calls it a phase."
+  * Wild: uncommon in dark forests, badlands and spooky biomes.
+  * Evolves into Ignitemare at level 30.
+
 #3001 CAVITOT  (Dark; Strong Jaw / Stench / Stakeout (hidden))
   a single cream molar with a rotten black cavity in its top, pale pink diamond eyes, blush and a
   jagged frown, standing on two stubby roots
@@ -2230,6 +2239,16 @@ cobbleeffort:cavitot.
   became its fangs, and old tales say whatever it writes with its claws comes true, so kingdoms once
   begged it never to write their names."
   * Evolve Incwell at level 50. It learns Crunch when it evolves.
+
+#3057 IGNITEMARE  (Dark / Fire; Moody / Flame Body / Intimidate (hidden))
+  a gaunt shadow horse with white ribs and spine showing, a bare horse skull with glowing red eyes
+  and short black-tipped horns, fire snorting from its nostrils, bone-armoured legs split by glowing
+  cracks and huge hooked claw-hooves
+  Stats: HP 85  Atk 120  Def 80  SpA 85  SpD 75  Spe 80  (total 525)
+  Pokedex: "When the CobbleEffort Mudbray's sulking turns to rage, its body burns away to a shadow
+  round its bones. It gallops through badlands at night, snorting fire, and its hollow skull glows
+  red with the grudges it refuses to let go."
+  * Evolve the CobbleEffort Mudbray at level 30. It learns Flame Charge when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

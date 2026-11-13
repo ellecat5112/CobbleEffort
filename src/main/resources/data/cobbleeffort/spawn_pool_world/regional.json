@@ -62,6 +62,26 @@
           "minecraft:flower_forest"
         ]
       }
+    },
+    {
+      "id": "mudbray-cobbleeffortian",
+      "pokemon": "mudbray cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-28",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "minecraft:dark_forest",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_spooky"
+        ]
+      }
     }
   ]
 }

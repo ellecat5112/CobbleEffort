@@ -184,7 +184,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (evolution results "<next> cobbleeffortian"), texture-only resolvers at order 5 in `resolvers/regional/` (Cobblemon's
   models stay; female/regional model swaps below still apply; cosmetics at 9000 win), textures recoloured from
   Cobblemon's by HSV rules + warning `spots()`, spawns in `spawn_pool_world/regional_<line>.json`, README section by
-  hand. Lines: Caterpie/Metapod/Butterfree (Bug/Poison, art by @MerphISC for Caterpie; shiny electric blue + orange).
+  hand. Lines: Caterpie/Metapod/Butterfree (Bug/Poison, art by @MerphISC for Caterpie; shiny electric blue + orange);
+  Mudbray (Dark, emo; art by @wescos_region): LINE entries may set `generation`, one type, `geo` (the painter then gets
+  `geo_rects` box-UV face rects to paint by bone), `model`, `how_where`; an evolve result with a namespace is a species
+  of its own (Sirfetch'd style): Mudbray -> `cobbleeffort:ignitemare` (#3057, Dark/Fire, `models/ignitemare.py`, a
+  gaunt wendigo-like skeletal fire horse), whose SPECIES `pre` = "mudbray cobbleeffortian" sets its preEvolution.
+  Spawns for all regional forms go in `spawn_pool_world/regional.json`.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a
