@@ -312,5 +312,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   fused body -> recoloured DynamicTexture, also remembers body species per render state for the head), head recoloured
   in `FusionRender.prepare`; shiny parts = designed colours turned by a per-pair hue angle (IF's shiny style).
 - Build and check: `./gradlew build` (runs `validateData`). Bump `mod_version` in `gradle.properties` per update.
+- Shareable packages (the user's ask: all mods in zips under 20 MB, e.g. for Discord): `tools/make_share.py --out <dir>
+  --base build/tmp/jar/cobbleeffort-<v>+1.21.1.jar --distortion/--kanto/--fusion <loader jars from their release zips>
+  --readme "<Mod>=<file>" ... [--limit 19.5] [--loader Fabric]`. Repacks every jar (oxipng, >256-colour textures to
+  their best 256, minified JSON; cached by hash), splits CobbleEffort into a core jar + texture-only jars
+  (`cobbleeffort_textures_N`, whole `textures/pokemon/<folder>`s, fabric.mod.json + lowcodefml mods.toml, depend on
+  the exact core version) sized to fill each zip's leftover room, and writes as few zips as fit, each with INSTALL.txt.
+  Boot-test the unzipped jars on the Fabric test server. The Planeta bridge pack is the user's own, never shared.
 - Preview renders: `tools/preview/` (three.js in headless Chromium; `node render.js <cobblemon-res> ../../src/main/resources out manifest_<aspect>.json`;
   `EXTRA_ROOTS=<extracted jar>:...` for other mods' forms; manifest entries with `form` are other-mod forms).
