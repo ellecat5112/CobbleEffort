@@ -1435,6 +1435,15 @@ Harden, Iron Defense, Dragon Tail and X-Scissor, then Crunch, Dragon Rush (on ev
 Outrage. Larvorub is common in jungles and savannas, Ovarupa uncommon there, Dracarabo rare in jungles. Shiny: teal
 with a navy head and pink eyes.
 
+**Whippersnap → Karkuttle** (Bug, level 30), whip crabs from the **Zorneo** region, after the commission art by
+**@RedmondJake** (the art's names). Whippersnap is a low, flat crab with a smooth teal shell over a tan face, sleepy
+heavy-lidded yellow eyes, two little white fangs, very long whip antennae, thin tan legs and short teal arms with hooked
+claws; Karkuttle stands high on very long legs, its teal shell striped with dark chevrons, a tan hood over its sleepy
+eyes, orange-tipped fangs, and huge spiked teal arms ending in hooked orange-tipped claws. Long Reach or Keen Eye,
+hidden Sniper; Fury Cutter, Bug Bite, Quick Attack, Feint, Skitter Smack, Night Slash and X-Scissor, then Lunge (on
+evolving), Leech Life, First Impression, Throat Chop, Swords Dance and Megahorn. Whippersnap is uncommon in swamps,
+jungles and on beaches, Karkuttle rare there. Shiny: violet with slate legs and red eyes.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1507,6 +1516,8 @@ with a navy head and pink eyes.
 | 3067 | **Larvorub** | Bug | Swarm / Shed Skin / Strong Jaw (hidden) | 50 / 60 / 55 / 30 / 35 / 30 | 1'8" (0.5 m) / 6.2 kg | Wild: common in jungles and savannas. Evolves into Ovarupa at level 20. | It tunnels through rotting logs on the jungle floor and eats anything softer than its horns. When something startles it, it rears up and points those horns, though they are still too soft to hurt. |
 | 3068 | **Ovarupa** | Bug / Dragon | Swarm / Shed Skin / Strong Jaw (hidden) | 65 / 70 / 115 / 45 / 75 / 30 | 3'3" (1 m) / 48 kg | Evolve Larvorub at level 20. It learns Harden when it evolves. Wild: uncommon in jungles and savannas. Evolves into Dracarabo at level 42. | Inside its hard orange casing its whole body is being rebuilt. The horn grows out through the top first, and anything that pokes the casing gets jabbed with it. |
 | 3069 | **Dracarabo** | Bug / Dragon | Swarm / Shed Skin / Strong Jaw (hidden) | 90 / 135 / 105 / 65 / 80 / 70 | 5'11" (1.8 m) / 125 kg | Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves. Wild: rare in jungles. | The horn on its head grows into the shape of a dragon's skull, jaws and all. It charges with the jaws wide open, and the snap when they close can be heard right across the savanna. |
+| 3070 | **Whippersnap** | Bug | Long Reach / Keen Eye / Sniper (hidden) | 45 / 65 / 55 / 30 / 40 / 65 | 1'4" (0.4 m) / 3.8 kg | Wild: uncommon in swamps, jungles and on beaches. Evolves into Karkuttle at level 30. | It looks half asleep, but its whip antennae never stop feeling around it. The moment one brushes prey, its little claws snap shut faster than the eye can follow. |
+| 3071 | **Karkuttle** | Bug | Long Reach / Keen Eye / Sniper (hidden) | 70 / 115 / 85 / 45 / 65 / 105 | 4'11" (1.5 m) / 52 kg | Evolve Whippersnap at level 30. It learns Lunge when it evolves. Wild: rare in swamps, jungles and on beaches. | Its legs are so long it can step over a fallen log without slowing down. It waits with its eyes half shut and its antennae spread wide, then lashes out with its claws from three body lengths away. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

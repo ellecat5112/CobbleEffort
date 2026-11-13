@@ -247,6 +247,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   @artworks218_, Ozera region, creator's permission, names kept): Bug -> Bug/Dragon at 20/42; Ovarupa's ball is 1-unit
   slices with radii in half units (whole box sizes, so the steps stay symmetric); Dracarabo's dragon-skull horn has a
   `jaw` bone. Shiny = teal + navy, pink eyes.
+  Whippersnap -> Karkuttle (#3070-3071, line "whip_crab", `models/_whip.py`: palette, `sleepy_eye()`, `antenna()` rod
+  chains, `leg()` jointed legs, `tipped()` orange-tipped fangs/claws; Zorneo region commission art by @RedmondJake,
+  names kept): Bug at 30, Long Reach / Keen Eye / Sniper; long whip antennae arch back over the body.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

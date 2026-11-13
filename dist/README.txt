@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 77 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 79 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2414,6 +2414,26 @@ cobbleeffort:cavitot.
   with the jaws wide open, and the snap when they close can be heard right across the savanna."
   * Evolve Ovarupa at level 42. It learns Dragon Rush when it evolves.
   * Wild: rare in jungles.
+
+#3070 WHIPPERSNAP  (Bug; Long Reach / Keen Eye / Sniper (hidden))
+  a low flat crab with a teal shell over a tan face, sleepy yellow eyes, white fangs, very long whip
+  antennae, thin tan legs and short teal arms with hooked tan claws
+  Stats: HP 45  Atk 65  Def 55  SpA 30  SpD 40  Spe 65  (total 300)
+  Pokedex: "It looks half asleep, but its whip antennae never stop feeling around it. The moment one
+  brushes prey, its little claws snap shut faster than the eye can follow."
+  * Wild: uncommon in swamps, jungles and on beaches.
+  * Evolves into Karkuttle at level 30.
+
+#3071 KARKUTTLE  (Bug; Long Reach / Keen Eye / Sniper (hidden))
+  a big teal crab-spider with dark zigzag stripes, a tan hood over sleepy yellow eyes, orange-tipped
+  white fangs, long arching whip antennae, very long legs and huge spiked teal arms with hooked
+  claws
+  Stats: HP 70  Atk 115  Def 85  SpA 45  SpD 65  Spe 105  (total 485)
+  Pokedex: "Its legs are so long it can step over a fallen log without slowing down. It waits with
+  its eyes half shut and its antennae spread wide, then lashes out with its claws from three body
+  lengths away."
+  * Evolve Whippersnap at level 30. It learns Lunge when it evolves.
+  * Wild: rare in swamps, jungles and on beaches.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

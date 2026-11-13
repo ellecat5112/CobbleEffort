@@ -1752,6 +1752,51 @@ SPECIES.update({
 })
 LINES["dragon_beetle"] = ["larvorub", "ovarupa", "dracarabo"]
 
+# the whip crab line (Whippersnap, Karkuttle): Zorneo region commission art by @RedmondJake, names kept (Zorneo region
+# designs are used with the creators' permission)
+WHIP = dict(egg_groups=["bug", "water_3"], male=0.5, friendship=50, growth="medium_fast",
+            abilities=["longreach", "keeneye", "h:sniper"],
+            ability_names="Long Reach / Keen Eye / Sniper (hidden)")
+WHIP_TM = BASIC_TM + ["xscissor", "bugbite", "lunge", "pounce", "strugglebug", "bugbuzz", "uturn", "furycutter",
+                      "leechlife", "skittersmack", "nightslash", "knockoff", "thief", "falseswipe", "swordsdance",
+                      "agility", "crunch", "poisonjab", "brickbreak", "aerialace", "liquidation", "razorshell"]
+WHIP_TM_ADULT = ["firstimpression", "megahorn", "throatchop", "leechlife", "gigaimpact", "hyperbeam", "crabhammer"]
+WHIP_EARLY = [(1, "leer"), (1, "furycutter"), (5, "bugbite"), (9, "quickattack"), (13, "feint"),
+              (17, "skittersmack"), (21, "nightslash"), (25, "xscissor")]
+WHIP_WILD = ["#cobblemon:is_swamp", "#cobblemon:is_jungle", "#cobblemon:is_beach"]
+SPECIES.update({
+    "whippersnap": {
+        "dex": 3070, "name": "Whippersnap", "line": "whip_crab", "types": ["bug"], **WHIP, "catch": 160,
+        "stats": stats(45, 65, 55, 30, 40, 65), "ev": evs(speed=1), "exp": 62,
+        "height": 4, "weight": 38, "shoulder": False, "walk": 0.3,
+        "moves": WHIP_EARLY + [(29, "agility")],
+        "tm": WHIP_TM, "egg": ["firstimpression", "pounce", "aquajet", "razorshell"],
+        "evolve": ("karkuttle", 30, ["lunge"]),
+        "drops": [("minecraft:string", "0-1", None), ("minecraft:cyan_dye", "0-1", None)],
+        "entry": ("It looks half asleep, but its whip antennae never stop feeling around it. The moment one brushes "
+                  "prey, its little claws snap shut faster than the eye can follow."),
+        "spawns": [route_spawn("whippersnap-wild", "uncommon", "6-28", 4.0, WHIP_WILD)],
+        "how": ["Wild: uncommon in swamps, jungles and on beaches.", "Evolves into Karkuttle at level 30."],
+    },
+    "karkuttle": {
+        "dex": 3071, "name": "Karkuttle", "line": "whip_crab", "types": ["bug"], **WHIP, "catch": 60,
+        "stats": stats(70, 115, 85, 45, 65, 105), "ev": evs(attack=1, speed=1), "exp": 168,
+        "height": 15, "weight": 520, "shoulder": False, "walk": 0.38,
+        "moves": WHIP_EARLY + [(1, "lunge"), (30, "lunge"), (36, "leechlife"), (42, "firstimpression"),
+                               (48, "throatchop"), (54, "swordsdance"), (60, "megahorn")],
+        "tm": WHIP_TM + WHIP_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:string", "1-2", None), ("minecraft:cyan_dye", "1-2", None),
+                  ("minecraft:orange_dye", "0-1", None)],
+        "entry": ("Its legs are so long it can step over a fallen log without slowing down. It waits with its eyes "
+                  "half shut and its antennae spread wide, then lashes out with its claws from three body lengths "
+                  "away."),
+        "spawns": [route_spawn("karkuttle-wild", "rare", "30-45", 1.0, WHIP_WILD)],
+        "how": ["Evolve Whippersnap at level 30. It learns Lunge when it evolves.",
+                "Wild: rare in swamps, jungles and on beaches."],
+    },
+})
+LINES["whip_crab"] = ["whippersnap", "karkuttle"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
