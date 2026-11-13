@@ -1,0 +1,59 @@
+{
+  "target": "cobblemon:caterpie",
+  "forms": [
+    {
+      "name": "CobbleEffort",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "labels": [
+        "gen1",
+        "cobbleeffort_regional"
+      ],
+      "abilities": [
+        "poisonpoint",
+        "h:runaway"
+      ],
+      "moves": [
+        "1:tackle",
+        "1:stringshot",
+        "9:bugbite",
+        "tm:bugbite",
+        "tm:electroweb",
+        "tm:stringshot",
+        "tm:terablast",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:stringshot",
+        "legacy:snore",
+        "5:poisonsting",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:acidspray"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.caterpie-cobbleeffortian.desc"
+      ],
+      "battleOnly": false,
+      "evolutions": [
+        {
+          "id": "caterpie_metapod_cobbleeffortian",
+          "variant": "level_up",
+          "result": "metapod cobbleeffortian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "acidarmor"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

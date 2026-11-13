@@ -1379,6 +1379,22 @@ and highlands. Shiny: a silver marmot with icy blue markings.
 
 ![Capybrute, regular and shiny](docs/newmons_capybrute.png)
 
+## CobbleEffort regional forms
+
+Existing Pokémon lines with a form of their own, like Cobblemon's Alolan or Galarian forms: the aspect
+`cobbleeffortian` (e.g. `/pokespawn caterpie cobbleeffortian`), the form "CobbleEffort", on Cobblemon's own models with
+new textures, types, abilities, moves and Pokédex entries. Each evolves into the next CobbleEffort form.
+
+**The Caterpie line** (Bug/Poison), after the CobbleEffort Caterpie art by **@MerphISC**: inspired by toxic wild
+caterpillars that wear vibrant colours to warn predators away. Caterpie is purple with a pink forked feeler, a cream
+belly and a curled yellow tail tip (Poison Point / Run Away; learns Poison Sting); Metapod's purple shell is studded with
+bright yellow warning spots (Poison Point / Shed Skin; Acid Armor); Butterfree has violet wings with dark veins and
+yellow warning spots, a plum body and yellow eyes (Poison Touch / Tinted Lens; Acid Spray, Venoshock, Sludge Bomb,
+Toxic, Toxic Spikes and Quiver Dance). Caterpie is common in jungles, swamps, flower forests and dark forests, Metapod
+uncommon and Butterfree rare there. Shiny: electric blue with orange.
+
+![The CobbleEffort Caterpie line: Cobblemon's original, the CobbleEffort form and its shiny](docs/regional_caterpie.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

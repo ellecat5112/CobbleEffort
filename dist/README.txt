@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 43 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 46 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1664,6 +1664,31 @@ NEW POKEMON
 CobbleEffort's own Pokemon, each with a model, animations, a shiny and a way to get them. They are
 on the CobbleEffort page of the Pokedex; in commands use the namespaced id, e.g. /pokegive
 cobbleeffort:cavitot.
+
+#0010 CATERPIE (COBBLEEFFORT FORM)  (Bug / Poison; Poison Point / Run Away (hidden))
+  purple with a pink forked feeler, a cream belly and a curled yellow tail tip
+  Stats: HP 45  Atk 30  Def 35  SpA 20  SpD 20  Spe 45  (total 195)
+  Pokedex: "Its purple body warns every bird Pokémon away: it is laced with poison from the toxic
+  leaves it eats. When something comes too close it rears up and flicks out its pink, forked feeler,
+  which oozes a stinging, foul-smelling liquid."
+  * Wild: common in jungles, swamps, flower forests and dark forests.
+  * Evolves into the CobbleEffort Metapod at level 7.
+
+#0011 METAPOD (COBBLEEFFORT FORM)  (Bug / Poison; Poison Point / Shed Skin (hidden))
+  a purple shell studded with bright yellow warning spots
+  Stats: HP 50  Atk 20  Def 55  SpA 25  SpD 25  Spe 30  (total 205)
+  Pokedex: "Its shell is studded with bright yellow spots that shout poison to anything that would
+  eat it. Inside, the toxins it gathered as a Caterpie are being brewed into wing scales."
+  * Wild: uncommon in jungles, swamps and flower forests.
+  * Evolves into the CobbleEffort Butterfree at level 10.
+
+#0012 BUTTERFREE (COBBLEEFFORT FORM)  (Bug / Poison; Poison Touch / Tinted Lens (hidden))
+  violet wings with dark veins and yellow warning spots, a plum body and yellow eyes
+  Stats: HP 60  Atk 45  Def 50  SpA 90  SpD 80  Spe 70  (total 395)
+  Pokedex: "Its wings shine violet and gold so no predator forgets them: one taste of their scales
+  leaves a bird Pokémon numb for days. Flocks of them drift over jungle canopies, and the trees they
+  rest in turn faintly purple."
+  * Wild: rare in jungles and flower forests.
 
 #3001 CAVITOT  (Dark; Strong Jaw / Stench / Stakeout (hidden))
   a single cream molar with a rotten black cavity in its top, pale pink diamond eyes, blush and a

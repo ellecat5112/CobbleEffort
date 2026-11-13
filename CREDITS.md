@@ -229,7 +229,9 @@ after the Ronto region fakemon art by **@rontoregion** that the user shared; its
 (its name and design) is after the fakemon art by **@mazenta_inku** that the user shared, with the user's idea of a
 cordyceps-bound hive mind of fallen Bug Pokémon; its model, ability and Pokédex entry are our own. Capybrute
 (its name and design) is after the fakemon art by **@Kai_FakemonsR** that the user shared; its model and Pokédex entry
-are our own.
+are our own. The CobbleEffort regional Caterpie line follows the regional Caterpie art by **@MerphISC** that the
+user shared (purple, with a pink feeler and a yellow tail curl); its textures are recoloured from Cobblemon's own, and
+the Metapod and Butterfree forms and all Pokédex entries are our own.
 
 ## Code and data
 

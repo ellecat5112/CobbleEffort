@@ -178,6 +178,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Capybrute (#3043, `models/capybrute.py`; art by @Kai_FakemonsR, name kept; capybara/marmot): Ground/Fighting,
   Guts / Thick Fat / Unaware; a domed back built as front-to-back slices under a dome curve (smoother than stacked
   tiers), `slash()` markings, low head with buck teeth.
+  **Regional forms** (`tools/newmons/regional.py --cobblemon <res>`, standalone): aspect `cobbleeffortian` (flag
+  species feature + assignment), form "CobbleEffort" appended via species_additions (Cobblemon appends `forms` and
+  `evolutions`; getForm picks the last form whose aspects all match), types/abilities/moves/pokedex/evolutions per form
+  (evolution results "<next> cobbleeffortian"), texture-only resolvers at order 5 in `resolvers/regional/` (Cobblemon's
+  models stay; female/regional model swaps below still apply; cosmetics at 9000 win), textures recoloured from
+  Cobblemon's by HSV rules + warning `spots()`, spawns in `spawn_pool_world/regional_<line>.json`, README section by
+  hand. Lines: Caterpie/Metapod/Butterfree (Bug/Poison, art by @MerphISC for Caterpie; shiny electric blue + orange).
   Engine tests for our moves/abilities: node scripts against Cobblemon's Showdown (team string field 4 = current HP).
   Egg groups are Cobblemon's ids (`water_1`, not `water1`): a wrong one stops the server at startup; build.py checks them.
   **Reference pictures for new Pokémon** (user's rule): unless the user says a picture is paid for or licensed, treat

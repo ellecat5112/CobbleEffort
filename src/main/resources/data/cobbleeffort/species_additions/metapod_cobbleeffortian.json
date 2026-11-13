@@ -1,0 +1,60 @@
+{
+  "target": "cobblemon:metapod",
+  "forms": [
+    {
+      "name": "CobbleEffort",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "labels": [
+        "gen1",
+        "cobbleeffort_regional"
+      ],
+      "abilities": [
+        "poisonpoint",
+        "h:shedskin"
+      ],
+      "moves": [
+        "1:harden",
+        "1:tackle",
+        "tm:bugbite",
+        "tm:electroweb",
+        "tm:irondefense",
+        "tm:stringshot",
+        "tm:terablast",
+        "tutor:bugbite",
+        "tutor:electroweb",
+        "tutor:irondefense",
+        "tutor:stringshot",
+        "legacy:snore",
+        "1:acidarmor",
+        "1:poisonsting",
+        "tm:toxic",
+        "tm:venoshock"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.metapod-cobbleeffortian.desc"
+      ],
+      "battleOnly": false,
+      "evolutions": [
+        {
+          "id": "metapod_butterfree_cobbleeffortian",
+          "variant": "level_up",
+          "result": "butterfree cobbleeffortian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "acidspray"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

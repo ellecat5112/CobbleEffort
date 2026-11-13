@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "caterpie-cobbleeffortian",
+      "pokemon": "caterpie cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "2-10",
+      "weight": 5.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_swamp",
+          "minecraft:flower_forest",
+          "minecraft:dark_forest"
+        ]
+      }
+    },
+    {
+      "id": "metapod-cobbleeffortian",
+      "pokemon": "metapod cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "7-15",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_swamp",
+          "minecraft:flower_forest"
+        ]
+      }
+    },
+    {
+      "id": "butterfree-cobbleeffortian",
+      "pokemon": "butterfree cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-30",
+      "weight": 0.8,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "minecraft:flower_forest"
+        ]
+      }
+    }
+  ]
+}
