@@ -234,6 +234,12 @@ SQUID_DROP = ["acidspray", "crosspoison", "gunkshot", "sludgebomb", "toxic", "to
 SQUID_ADD = ["tm:darkpulse", "tm:nightslash", "tm:crunch", "tm:suckerpunch", "tm:snarl", "tm:foulplay", "tm:taunt",
              "tm:nastyplot", "28:octazooka"]
 
+# the screw Foongus line: steel in place of poison
+SCREW_REPLACE = {"toxic": "gyroball", "clearsmog": "mirrorshot", "bide": "metalclaw"}
+SCREW_DROP = ["sludgebomb", "venoshock", "toxic", "gastroacid"]
+SCREW_ADD = ["tm:flashcannon", "tm:irondefense", "tm:gyroball", "tm:ironhead", "tm:metalclaw", "tm:drillrun",
+             "tm:metalsound", "tm:smartstrike", "tm:steelroller"]
+
 LINE = {
     "caterpie": {
         "folder": "0010_caterpie", "paint": paint_caterpie, "types": ("bug", "poison"),
@@ -319,9 +325,41 @@ LINE = {
         "how_where": "the depths of deep oceans (in the dark, far below the surface)",
         "shiny_note": "Shiny: a crimson mantle with a pale peach head and arms.",
     },
+    "foongus": {
+        "folder": "0590_foongus", "box": "foongus_cobbleeffortian", "generation": 5,
+        "types": ("grass", "steel"), "abilities": ["effectspore", "ironbarbs", "h:regenerator"],
+        "moves_replace": SCREW_REPLACE, "moves_drop": SCREW_DROP, "moves_add": SCREW_ADD,
+        "evolve": ("amoonguss", 39, ["gyroball"]),
+        "entry": ("It burrows into the ground by spinning on the spot, and pokes up its steel cap looking just like a "
+                  "screw that someone dropped. Miners who try to pick it up get a face full of spores."),
+        "look": ("a little screw mushroom: a steel Phillips-head dome cap with rivets, a round white body with swirly "
+                 "eyes and a cheery mouth, two threaded screw arms and little copper feet"),
+        "spawns": [("grounded", {"canSeeSky": False, "maxY": 40, "biomes": ["#cobblemon:is_overworld"]},
+                    "uncommon", "10-30", 4.0),
+                   ("grounded", {"canSeeSky": False, "biomes": ["#cobblemon:is_overworld"],
+                                 "structures": ["minecraft:mineshaft", "minecraft:mineshaft_mesa"]}, "common", "10-30", 8.0)],
+        "how_where": "caves deep underground and in abandoned mineshafts",
+        "shiny_note": "Shiny: a brass screw.",
+    },
+    "amoonguss": {
+        "folder": "0591_amoonguss", "box": "amoonguss_cobbleeffortian", "generation": 5,
+        "types": ("grass", "steel"), "abilities": ["effectspore", "ironbarbs", "h:regenerator"],
+        "moves_replace": SCREW_REPLACE, "moves_drop": SCREW_DROP, "moves_add": SCREW_ADD + ["tm:heavyslam", "tm:steelbeam"],
+        "evolve": None,
+        "entry": ("It screws itself deep into rock with its two threaded arms and stays there for years. Old mines are "
+                  "held up by colonies of them, and a miner who pulls one out may bring the tunnel down."),
+        "look": ("a big screw mushroom: a broad steel Phillips-head cap over a hex nut collar, a stout white body with "
+                 "swirly eyes and a wide grin, two long threaded screw arms and copper feet"),
+        "spawns": [("grounded", {"canSeeSky": False, "maxY": 30, "biomes": ["#cobblemon:is_overworld"]},
+                    "rare", "39-55", 1.0),
+                   ("grounded", {"canSeeSky": False, "biomes": ["#cobblemon:is_overworld"],
+                                 "structures": ["minecraft:mineshaft", "minecraft:mineshaft_mesa"]}, "uncommon", "39-55", 2.0)],
+        "how_where": "caves deep underground and in abandoned mineshafts",
+        "shiny_note": "Shiny: a brass screw.",
+    },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
-ABILITY_NAMES = {"suctioncups": "Suction Cups", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
+ABILITY_NAMES = {"suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
                  "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus"}
 
 

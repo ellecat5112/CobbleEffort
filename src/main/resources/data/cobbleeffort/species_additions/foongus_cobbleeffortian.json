@@ -1,0 +1,129 @@
+{
+  "target": "cobblemon:foongus",
+  "forms": [
+    {
+      "name": "CobbleEffort",
+      "primaryType": "grass",
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "labels": [
+        "gen5",
+        "cobbleeffort_regional"
+      ],
+      "abilities": [
+        "effectspore",
+        "ironbarbs",
+        "h:regenerator"
+      ],
+      "moves": [
+        "1:absorb",
+        "1:astonish",
+        "1:metalclaw",
+        "4:growth",
+        "8:stunspore",
+        "12:megadrain",
+        "16:synthesis",
+        "20:feintattack",
+        "24:sweetscent",
+        "28:gigadrain",
+        "32:ingrain",
+        "36:gyroball",
+        "40:ragepowder",
+        "44:solarbeam",
+        "48:spore",
+        "egg:mirrorshot",
+        "egg:defensecurl",
+        "egg:poisonpowder",
+        "egg:rollout",
+        "egg:worryseed",
+        "tm:afteryou",
+        "tm:bodyslam",
+        "tm:bulletseed",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:pollenpuff",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rollout",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:terablast",
+        "tm:gyroball",
+        "tm:worryseed",
+        "tutor:afteryou",
+        "tutor:energyball",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:magicalleaf",
+        "tutor:rest",
+        "tutor:rollout",
+        "tutor:seedbomb",
+        "tutor:sleeptalk",
+        "tutor:synthesis",
+        "tutor:worryseed",
+        "legacy:attract",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "tm:flashcannon",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:metalclaw",
+        "tm:drillrun",
+        "tm:metalsound",
+        "tm:smartstrike",
+        "tm:steelroller"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.foongus-cobbleeffortian.desc"
+      ],
+      "battleOnly": false,
+      "secondaryType": "steel",
+      "baseScale": 0.55,
+      "hitbox": {
+        "width": 1.3,
+        "height": 0.9,
+        "fixed": false
+      },
+      "evolutions": [
+        {
+          "id": "foongus_amoonguss_cobbleeffortian",
+          "variant": "level_up",
+          "result": "amoonguss cobbleeffortian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "gyroball"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 39
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

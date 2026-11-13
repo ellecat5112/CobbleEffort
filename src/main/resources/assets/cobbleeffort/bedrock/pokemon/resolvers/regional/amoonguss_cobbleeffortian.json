@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:amoonguss",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "poser": "cobbleeffort:amoonguss_cobbleeffortian",
+      "model": "cobbleeffort:amoonguss_cobbleeffortian.geo",
+      "texture": "cobbleeffort:textures/pokemon/regional/0591_amoonguss/amoonguss_cobbleeffortian.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cobbleeffortian",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/regional/0591_amoonguss/amoonguss_cobbleeffortian_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

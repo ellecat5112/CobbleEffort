@@ -251,7 +251,8 @@ entries are our own. Regideity (its name and design) is after the Regigigas evol
 **@trainer_matz** that the user shared, with the user's idea of its titanic size; its model and Pokédex entry are our
 own. Pinlet, Pinnant and Pennacrest follow the pin-tailed bird family art the user shared
 (artist not named); their names, models, nest structure and Pokédex entries are our own. The CobbleEffort Tentacool and Tentacruel (deep-sea squids) follow the squid art the user
-shared (artist not named); their models and Pokédex entries are our own.
+shared (artist not named); their models and Pokédex entries are our own. The CobbleEffort Foongus and Amoonguss (Phillips-head screw mushrooms) follow the art the
+user shared (artist not named); their models and Pokédex entries are our own.
 
 ## Code and data
 

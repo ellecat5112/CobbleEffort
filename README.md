@@ -1546,6 +1546,16 @@ mantle with a pale peach head and arms.
 
 ![The CobbleEffort Tentacool line: Cobblemon's Tentacool, the squid forms (front and back) and their shinies](docs/regional_tentacool.png)
 
+**The Foongus line** (Grass/Steel), screw mushrooms after the art the user shared, on models of their own. Foongus has
+a steel dome cap like a Phillips head screw (a cross slot on top, notched sides and a ring of rivets), a round white body
+with swirly eyes and a cheery open mouth, two threaded screw shafts for arms and little copper feet; Amoonguss is a big
+one with a broad screw-head cap over a hex nut collar and two long screw arms. Effect Spore or Iron Barbs, hidden
+Regenerator; Toxic and Clear Smog become Gyro Ball and Mirror Shot (plus Metal Claw, Flash Cannon, Iron Defense, Iron
+Head, Drill Run, Metal Sound, Smart Strike and Steel Roller by TM). They live underground: Foongus uncommon in deep
+caves and common in abandoned mineshafts, Amoonguss rarer. Foongus evolves at level 39. Shiny: a brass screw.
+
+![The CobbleEffort Foongus line: Cobblemon's Foongus, the screw forms (front and back) and their shinies](docs/regional_foongus.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

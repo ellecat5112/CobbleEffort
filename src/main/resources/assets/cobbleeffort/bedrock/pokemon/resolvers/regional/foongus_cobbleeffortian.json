@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:foongus",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "poser": "cobbleeffort:foongus_cobbleeffortian",
+      "model": "cobbleeffort:foongus_cobbleeffortian.geo",
+      "texture": "cobbleeffort:textures/pokemon/regional/0590_foongus/foongus_cobbleeffortian.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cobbleeffortian",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/regional/0590_foongus/foongus_cobbleeffortian_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 67 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 69 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1709,6 +1709,24 @@ cobbleeffort:cavitot.
   dazzle its prey, and it seizes it with the dark hooks on its tentacle clubs. Its eyes are the
   largest of any Pokémon that lives in the sea."
   * Wild: rare in the depths of deep oceans (in the dark, far below the surface).
+
+#0590 FOONGUS (COBBLEEFFORT FORM)  (Grass / Steel; Effect Spore / Iron Barbs / Regenerator (hidden))
+  a little screw mushroom: a steel Phillips-head dome cap with rivets, a round white body with
+  swirly eyes and a cheery mouth, two threaded screw arms and little copper feet
+  Stats: HP 69  Atk 55  Def 45  SpA 55  SpD 55  Spe 15  (total 294)
+  Pokedex: "It burrows into the ground by spinning on the spot, and pokes up its steel cap looking
+  just like a screw that someone dropped. Miners who try to pick it up get a face full of spores."
+  * Wild: uncommon in caves deep underground and in abandoned mineshafts.
+  * Evolves into the CobbleEffort Amoonguss at level 39.
+
+#0591 AMOONGUSS (COBBLEEFFORT FORM)  (Grass / Steel; Effect Spore / Iron Barbs / Regenerator (hidden))
+  a big screw mushroom: a broad steel Phillips-head cap over a hex nut collar, a stout white body
+  with swirly eyes and a wide grin, two long threaded screw arms and copper feet
+  Stats: HP 114  Atk 85  Def 70  SpA 85  SpD 80  Spe 30  (total 464)
+  Pokedex: "It screws itself deep into rock with its two threaded arms and stays there for years.
+  Old mines are held up by colonies of them, and a miner who pulls one out may bring the tunnel
+  down."
+  * Wild: rare in caves deep underground and in abandoned mineshafts.
 
 #0749 MUDBRAY (COBBLEEFFORT FORM)  (Dark; Moody / Stamina / Inner Focus (hidden))
   near-black with white skeleton markings, a white skull face, a black side-swept fringe with a

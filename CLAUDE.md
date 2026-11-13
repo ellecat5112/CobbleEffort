@@ -197,6 +197,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   level, weight; submerged ones get the "water" preset). Tentacool/Tentacruel (Water/Dark deep-sea squids, `_squid.py`,
   `tentacool_cobbleeffortian.py`, `tentacruel_cobbleeffortian.py`; the user's art, artist not named): submerged spawns
   in `#cobblemon:is_deep_ocean` at maxSkyLight 7.
+  Foongus/Amoonguss (Grass/Steel Phillips-head screw mushrooms, `_screw.py`: `capf` cross slot + rivets, `threadf`
+  slanted threads, `screw()` tapering threaded shafts, `facef` spiral eyes; the user's art, artist not named):
+  underground (canSeeSky false, maxY) and mineshaft (`structures`) spawns.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

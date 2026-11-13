@@ -135,6 +135,88 @@
         ],
         "maxSkyLight": 7
       }
+    },
+    {
+      "id": "foongus-cobbleeffortian-1",
+      "pokemon": "foongus cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 4.0,
+      "condition": {
+        "canSeeSky": false,
+        "maxY": 40,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "foongus-cobbleeffortian-2",
+      "pokemon": "foongus cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 8.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa"
+        ]
+      }
+    },
+    {
+      "id": "amoonguss-cobbleeffortian-1",
+      "pokemon": "amoonguss cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "39-55",
+      "weight": 1.0,
+      "condition": {
+        "canSeeSky": false,
+        "maxY": 30,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      }
+    },
+    {
+      "id": "amoonguss-cobbleeffortian-2",
+      "pokemon": "amoonguss cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "39-55",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "minecraft:mineshaft",
+          "minecraft:mineshaft_mesa"
+        ]
+      }
     }
   ]
 }
