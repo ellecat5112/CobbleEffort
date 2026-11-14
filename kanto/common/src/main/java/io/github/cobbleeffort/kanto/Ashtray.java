@@ -101,7 +101,17 @@ public final class Ashtray {
 
     /** Smooth value noise in [0, 1] over quart coordinates: two octaves of seeded lattice values. */
     static double noise(int qx, int qz) {
-        return 0.7 * octave(qx, qz, CELL, seed) + 0.3 * octave(qx, qz, CELL / 3, seed ^ 0x5DEECE66DL);
+        return noise(qx, qz, CELL, seed);
+    }
+
+    /** The same noise for any patch size and seed (other patch biomes salt the world seed so patches don't line up). */
+    static double noise(int qx, int qz, int cell, long s) {
+        return 0.7 * octave(qx, qz, cell, s) + 0.3 * octave(qx, qz, cell / 3, s ^ 0x5DEECE66DL);
+    }
+
+    /** The world seed, once the server has started. */
+    static long seed() {
+        return seed;
     }
 
     private static double octave(int qx, int qz, int cell, long s) {

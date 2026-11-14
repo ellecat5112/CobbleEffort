@@ -150,7 +150,20 @@ THE ASHTRAY WASTES (NEW in 0.7.0)
   - Its Pokemon: the Nicodex, 19 Pokemon (one per type) in CobbleEffort 0.78.0 and later, which spawn only here
     (spawn tag #cobbleeffort_kanto:is_ashtray).
 
+THE LIQUOR MEADOWS (NEW in 0.8.0)
+  - A new overworld biome, cheerfully tipsy: extra-vibrant green grass and flowers under clear skies (it never rains
+    there), ponds and lakes of water the colour of whisky, and no trees. Instead, giant bottles stick out of the
+    ground at odd angles: wine (green glass, red wine, cork), champagne (gold foil), beer (brown glass, gold cap),
+    whisky (clear glass, black-and-gold label), vodka (clear, silver cap) and ceramic sake bottles, each with its
+    label band and its drink filled level inside however it leans. Little empties lie about in the grass.
+  - It takes over patches of forests, flower and birch forests, plains and meadows in new chunks (existing land
+    doesn't change): /locate biome cobbleeffort_kanto:liquor_meadows
+  - New blocks: Cork, Bottle Cap and Bottle Label.
+  - Pokemon of its own are coming (spawn tag #cobbleeffort_kanto:is_liquor).
+
 PLEASE TEST AND REPORT
+  0.8.0: find the Liquor Meadows (/locate biome cobbleeffort_kanto:liquor_meadows): bright grass, whisky ponds, giant
+  bottles. Do the bottles and their drinks look right, and does anything look wrong at its edges?
   0.7.0: find the Ashtray Wastes (/locate biome cobbleeffort_kanto:ashtray) and look around: ash ground, tar pools,
   giant cigarettes. Does anything look wrong at its edges?
   0.6.0: find a tar lake or tar pit, fill a bucket, pour it out again, and revive Petroleodd from the bucket.
@@ -171,6 +184,7 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.8.0: the Liquor Meadows biome (vibrant grass, whisky-coloured water, giant bottles) and its three blocks.
   0.7.0: the Ashtray Wastes biome (ash ground, tar for water, giant cigarettes) and its four blocks.
   0.6.0: tar (fluid, Bucket of Tar, tar lakes, tar pits moved here from CobbleEffort); a Bucket of Tar revives
          CobbleEffort's Petroleodd at the Fossil Analyzer.

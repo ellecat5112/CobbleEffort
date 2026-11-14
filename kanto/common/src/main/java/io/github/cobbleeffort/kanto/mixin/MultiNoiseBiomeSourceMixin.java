@@ -1,6 +1,7 @@
 package io.github.cobbleeffort.kanto.mixin;
 
 import io.github.cobbleeffort.kanto.Ashtray;
+import io.github.cobbleeffort.kanto.Liquor;
 import net.minecraft.core.Holder;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.Climate;
@@ -16,7 +17,7 @@ import java.util.stream.Stream;
 
 /**
  * The overworld's biome source (only the vanilla overworld preset, not the Kanto regions' own lists): patches of some
- * host biomes become the Ashtray Wastes, and the biome joins the source's possible biomes so its features generate.
+ * host biomes become the Ashtray Wastes or the Liquor Meadows, and those biomes join the source's possible biomes so its features generate.
  */
 @Mixin(MultiNoiseBiomeSource.class)
 public abstract class MultiNoiseBiomeSourceMixin {
@@ -36,13 +37,14 @@ public abstract class MultiNoiseBiomeSourceMixin {
     private void cobbleeffortKanto$ashtray(int x, int y, int z, Climate.Sampler sampler, CallbackInfoReturnable<Holder<Biome>> cir) {
         if (!cobbleeffortKanto$isOverworld()) return;
         Holder<Biome> swapped = Ashtray.swap(cir.getReturnValue(), x, z);
+        if (swapped == null) swapped = Liquor.swap(cir.getReturnValue(), x, z);
         if (swapped != null) cir.setReturnValue(swapped);
     }
 
     @Inject(method = "collectPossibleBiomes", at = @At("RETURN"), cancellable = true)
     private void cobbleeffortKanto$possible(CallbackInfoReturnable<Stream<Holder<Biome>>> cir) {
-        Holder<Biome> ours = Ashtray.holder();
-        if (ours == null || !cobbleeffortKanto$isOverworld()) return;
-        cir.setReturnValue(Stream.concat(cir.getReturnValue(), Stream.of(ours)));
+        if (!cobbleeffortKanto$isOverworld()) return;
+        Stream<Holder<Biome>> ours = Stream.of(Ashtray.holder(), Liquor.holder()).filter(java.util.Objects::nonNull);
+        cir.setReturnValue(Stream.concat(cir.getReturnValue(), ours));
     }
 }

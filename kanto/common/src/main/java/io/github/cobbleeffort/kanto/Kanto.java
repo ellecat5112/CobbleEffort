@@ -122,6 +122,7 @@ public final class Kanto {
         TABS.register();
         Tar.register();                                     // the tar fluid (its block and bucket register below)
         Ashtray.register();                                 // the Ashtray Wastes: blocks, features, biome patches
+        Liquor.register();                                  // the Liquor Meadows: blocks, features, biome patches
         BLOCKS.register();
         KantoArmor.MATERIALS.register();
         ITEMS.register();

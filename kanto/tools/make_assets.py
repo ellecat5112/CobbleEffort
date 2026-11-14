@@ -722,6 +722,9 @@ def build():
     import make_ashtray                                     # 0.7.0: the Ashtray Wastes biome
     make_ashtray.build()
     LANG.update(make_ashtray.LANG)
+    import make_liquor                                      # 0.8.0: the Liquor Meadows biome
+    make_liquor.build()
+    LANG.update(make_liquor.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

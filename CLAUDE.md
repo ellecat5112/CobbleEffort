@@ -411,6 +411,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   window). Blocks: ash (ColoredFallingBlock), cigarette_paper/filter, cigarette_ember (light 12, smoke particles, hot
   floor). Biome tags: `minecraft:is_overworld` + `cobbleeffort_kanto:is_ashtray` (for its future Pokémon spawns).
   Check worldgen by parsing saved region files (`scratchpad/ashtray/region.py`) and the voxel renderer.
+  0.8.0: the Liquor Meadows (the user's design; `Liquor.java`, `GiantBottleFeature`, `tools/make_liquor.py`): the same
+  patch mechanism as the Ashtray Wastes (`Ashtray.noise(qx, qz, cell, seed ^ SALT)`; the mixin asks Ashtray first,
+  then Liquor), hosts forest/flower/birch/old-growth birch forest, sunflower plains, plains, meadow (NOT rivers: a
+  river strip through a desert became the nearest "meadow"), threshold 0.66; biome = vanilla plains' features in
+  plains' order minus trees + whisky water colour 0xC9802A, grass 0x3FE53A, no precipitation; `liquor_pond`
+  (minecraft:lake, water) makes its whisky water. Bottles: one-block shell (body, smoothstep shoulder, neck, lip, top
+  block), label band + stripe, drink filled below a WORLD-height level (flat however it leans), written via a
+  priority map (top > shell > inside) so overlapping samples never punch holes; kinds wine/champagne/beer/whisky/
+  vodka/sake. Blocks cork, bottle_cap, bottle_label. Spawn tag `cobbleeffort_kanto:is_liquor`.
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.
