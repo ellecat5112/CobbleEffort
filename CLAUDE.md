@@ -237,6 +237,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   crossing chest vines, `hoofed()` split hooves, `horn()` ridged, `ear()` (a rod pointing up shows its local "up" face
   to the front: INNER), `ruff()` leaf lumps round a ring, `sprig()`, `eye()` with lid/slant; the user's art, artist not
   named, our names): Grass/Dark at 16/36, Overgrow / Pickpocket; Ghillope's Bramble Ambush = Grass Sucker Punch (80).
+  CobbleEffortian Slugma (regional.py, Poison/Fire, `slugma_cobbleeffortian.py`; `_petro.py`: palette, glowing
+  oil-slick `sheen()`, `trubbish(m, bone, c, s)` mini Trubbish) -> Petroil (#3154, `pre` "slugma cobbleeffortian";
+  @Kai_FakemonsR's art, name kept): LINE evolve (next, "garbage_bag", learn) = item_interact with the Garbage Bag
+  (`tools/newmons/garbage.py`: echo shard custom_data {cobbleeffort_item: "garbage_bag"}, cmd 11; Garbodor drops it at 3%
+  via species_additions `drops` = Cobblemon's own entries + ours: drop entries take item `components`; Garbodor's
+  table draws 4 times a defeat, so 1% a draw is ~4% a defeat). LINE
+  `spawns_kanto` -> `spawn_pool_world/regional_kanto.json` (neededInstalledMods cobbleeffort_kanto: tar_pit structure,
+  near `cobbleeffort_kanto:tar`). Entourage: herd spawns (`pokemon-herd`, Petroil leader + Trubbish followers) and
+  Trubbish's `behaviour` (species_additions REPLACE it: copied from Cobblemon + Petroil as a tolerated leader).
+  Kanto 0.11.0 `KantoDrops`: `/kanto drops [roll N | give N | force] <pokemon greedy>` (rolls form.drops like a defeat;
+  item names read from the components' translate key) and `/kanto dna [battles]` (Distortion's 3-8 Mew DNA per defeat).
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

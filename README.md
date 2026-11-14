@@ -1598,6 +1598,15 @@ Infernal Parade. Levitate / Flame Body (hidden) for Gastly and Haunter, Cursed B
 Gengar. Gastly evolves at 25, Haunter when traded (like the originals). Found on hot nights in badlands, deserts and
 savannas, and all over the Nether (Gengar ultra-rare there). Shiny: blue with cyan flames.
 
+**CobbleEffortian Slugma and Petroil** (Poison/Fire, after @Kai_FakemonsR's art; Petroil keeps its name): the
+CobbleEffortian Slugma is a slug of oily sludge rising from a lime puddle to a wavy, drippy cap, its edges burning with
+a glowing oil-slick rainbow (Stench / Flame Body / Liquid Ooze (hidden); it learns Poison moves: Smog, Acid Spray,
+Clear Smog, Sludge, Sludge Bomb, Gunk Shot). It lives mostly around tar: common at CobbleEffort: Kanto's tar pits and
+tar lakes, and otherwise rare near lava in badlands and in the Nether's basalt deltas. Use a **Garbage Bag** on it (a
+rare drop from Garbodor, about 1 in 25) and it evolves into **Petroil** (#3154), a tar-black slug hauling a rusty barrel like a
+shell, never without its entourage: a Trubbish rides in the barrel and another trails behind, and wild Petroil lead a
+band of Trubbish (wild Trubbish now follow a Petroil as their leader).
+
 **Chawp, Kiq and the Gi forms** (after @magikdex's Cornera region art; Chawp and Kiq keep their names): **Chawp**
 (#3146, Fighting), a scrappy little fighter with a huge round head, a brow plate, a cheek bandage and barrel shorts, is
 the new pre-evolution of Sawk and Throh. Like Tyrogue it branches at level 20: into **Sawk** when its Attack is higher,
@@ -1777,6 +1786,7 @@ ring on a lime stem.
 | 3151 | **Kidlope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 52 / 60 / 45 / 40 / 48 / 64 | 1'8" (0.5 m) / 8.5 kg | Wild: uncommon in forests at night (dark forests especially). Evolves into Shadelope at level 16. | A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and loves to steal shiny things from travellers, then bound away laughing. |
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |
+| 3154 | **Petroil** | Poison / Fire | Stench / Flame Body / Liquid Ooze (hidden) | 85 / 60 / 110 / 105 / 95 / 30 | 3'11" (1.2 m) / 180 kg | Use a Garbage Bag (a rare drop from Garbodor) on a CobbleEffortian Slugma. Wild: rarely, leading a band of Trubbish, at tar pits (CobbleEffort: Kanto) and near lava in badlands. | It hauls an old barrel on its back like a shell, and a band of Trubbish rides along with it wherever it goes. The oil it leaks catches fire at the slightest spark. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

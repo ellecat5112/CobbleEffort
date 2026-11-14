@@ -1,5 +1,33 @@
 [
   {
+    "species": "slugma_cobbleeffortian",
+    "folder": "0218_slugma",
+    "model": "cobbleeffort:slugma_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0218_slugma/slugma.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0218_slugma/slugma_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0218_slugma/slugma_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "slugma_cobbleeffortian_shiny",
+    "folder": "0218_slugma",
+    "model": "cobbleeffort:slugma_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0218_slugma/slugma_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0218_slugma/slugma_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0218_slugma/slugma_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
     "species": "gastly_cobbleeffortian",
     "folder": "0092_gastly",
     "model": "cobbleeffort:gastly_cobbleeffortian.geo",

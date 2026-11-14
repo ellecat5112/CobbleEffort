@@ -259,6 +259,27 @@ HELLFIRE = [("grounded", {"timeRange": "night", "canSeeSky": True,
             ("grounded", {"dimensions": ["minecraft:the_nether"], "biomes": ["#minecraft:is_nether"]})]
 
 LINE = {
+    "slugma": {
+        "folder": "0218_slugma", "generation": 2, "box": "slugma_cobbleeffortian",
+        "types": ("poison", "fire"), "abilities": ["stench", "flamebody", "h:liquidooze"],
+        "moves_add": ["1:smog", "8:acidspray", "16:clearsmog", "24:sludge", "29:toxic", "36:sludgebomb", "43:gunkshot",
+                      "tm:sludgebomb", "tm:sludgewave", "tm:toxic", "tm:venoshock", "tm:toxicspikes", "tm:acidspray",
+                      "tm:gunkshot", "tm:poisonjab", "tm:corrosivegas"],
+        "evolve": ("cobbleeffort:petroil", "garbage_bag", ["sludgebomb"]),
+        "entry": ("It oozes up out of tar pits, a slug of burning oil. The rainbow sheen on its skin is a film of fuel; "
+                  "it flares up whenever the Pokémon gets angry, and the smell lingers for days."),
+        "look": "a slug of oily sludge rising from a lime puddle to a wavy drippy cap, its edges burning with a glowing oil-slick rainbow",
+        "spawns": [("grounded", {"canSeeSky": True, "biomes": ["#cobblemon:is_badlands"],
+                                 "neededNearbyBlocks": ["minecraft:lava"]}, "rare", "10-30", 1.0),
+                   ("grounded", {"dimensions": ["minecraft:the_nether"], "biomes": ["minecraft:basalt_deltas"]},
+                    "uncommon", "15-35", 2.0)],
+        # around CobbleEffort: Kanto's tar (its tar pit structures and tar lakes): most of them live there
+        "spawns_kanto": [("grounded", {"structures": ["cobbleeffort_kanto:tar_pit"]}, "common", "10-35", 12.0),
+                         ("grounded", {"neededNearbyBlocks": ["cobbleeffort_kanto:tar"]}, "common", "10-35", 8.0)],
+        "how_where": "tar pits and tar lakes (with CobbleEffort: Kanto), rarely near lava in badlands, and in the "
+                     "Nether's basalt deltas",
+        "shiny_note": "Shiny: violet sludge on a gold puddle.",
+    },
     "gastly": {
         "folder": "0092_gastly", "box": "gastly_cobbleeffortian",
         "types": ("ghost", "fire"), "abilities": ["levitate", "h:flamebody"],
@@ -438,7 +459,7 @@ LINE = {
     },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
-ABILITY_NAMES = {"flamebody": "Flame Body", "cursedbody": "Cursed Body", "flashfire": "Flash Fire", "suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
+ABILITY_NAMES = {"stench": "Stench", "liquidooze": "Liquid Ooze", "flamebody": "Flame Body", "cursedbody": "Cursed Body", "flashfire": "Flash Fire", "suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
                  "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus"}
 
 
@@ -490,9 +511,15 @@ def form_json(sp, species, c):
         # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd;
         # lvl "trade" = a trade evolution (Haunter -> Gengar)
         result = res if ":" in res else f"{res} {ASPECT}"
-        f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "trade" if lvl == "trade" else "level_up",
-                            "result": result, "consumeHeldItem": False, "learnableMoves": learn,
-                            "requirements": [] if lvl == "trade" else [{"variant": "level", "minLevel": lvl}]}]
+        if lvl == "garbage_bag":                          # used on it: the Garbage Bag (garbage.py)
+            import garbage
+            f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "item_interact",
+                                "result": result, "consumeHeldItem": False, "learnableMoves": learn,
+                                "requiredContext": garbage.evolution_context()}]
+        else:
+            f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "trade" if lvl == "trade" else "level_up",
+                                "result": result, "consumeHeldItem": False, "learnableMoves": learn,
+                                "requirements": [] if lvl == "trade" else [{"variant": "level", "minLevel": lvl}]}]
     else:
         f["evolutions"] = []
     return f
@@ -565,7 +592,9 @@ def main():
                                   + (" (hidden)" if x.startswith("h:") else "") for x in c["abilities"]),
             "look": c["look"], "entry": c["entry"],
             "how": [f"Wild: {bucket} in {c['how_where']}."] +
-                   ([(f"Evolves into the CobbleEffort {c['evolve'][0].title()} when traded." if c["evolve"][1] == "trade"
+                   ([(f"Evolves into {c['evolve'][0].split(':')[-1].title()} when you use a Garbage Bag on it "
+                      "(a rare drop from Garbodor)." if c["evolve"][1] == "garbage_bag"
+                      else f"Evolves into the CobbleEffort {c['evolve'][0].title()} when traded." if c["evolve"][1] == "trade"
                       else f"Evolves into {c['evolve'][0].split(':')[1].title()} at level {c['evolve'][1]}." if ":" in c["evolve"][0]
                       else f"Evolves into the CobbleEffort {c['evolve'][0].title()} at level {c['evolve'][1]}.")]
                     if c["evolve"] else []),
@@ -577,6 +606,38 @@ def main():
         manifest.append({"species": f"{sp}_{ASPECT}_shiny", "folder": c["folder"], "model": model,
                          "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}_shiny.png", "retextured": tex("_shiny"),
                          "layers": man_layers["_shiny"]})
+    kanto_spawns = []
+    for sp, c in LINE.items():                         # spawns that need CobbleEffort: Kanto (its tar)
+        for i, (pos, cond, bucket, level, weight) in enumerate(c.get("spawns_kanto", [])):
+            kanto_spawns.append({"id": f"{sp}-{ASPECT}-kanto-{i + 1}", "pokemon": f"{sp} {ASPECT}", "presets": ["natural"],
+                                 "type": "pokemon", "spawnablePositionType": pos, "bucket": bucket, "level": level,
+                                 "weight": weight, "condition": cond})
+    trubbish_crew = [{"pokemon": "cobbleeffort:petroil", "weight": 10.0, "levelRange": "38-55", "maxTimes": 1,
+                      "isLeader": True, "isFollower": False},
+                     {"pokemon": "trubbish", "weight": 30.0, "levelRange": "30-45", "levelRangeOffset": "-3-3",
+                      "maxTimes": 4, "isLeader": False, "isFollower": True}]
+    kanto_spawns.append({"id": "petroil-tar-pit-herd", "presets": ["natural"], "type": "pokemon-herd", "bucket": "rare",
+                         "spawnablePositionType": "grounded", "maxHerdSize": 5, "levelRange": "38-55", "weight": 3.0,
+                         "condition": {"structures": ["cobbleeffort_kanto:tar_pit"]}, "herdablePokemon": trubbish_crew})
+    spawns.append({"id": "petroil-badlands-herd", "presets": ["natural"], "type": "pokemon-herd", "bucket": "ultra-rare",
+                   "spawnablePositionType": "grounded", "maxHerdSize": 5, "levelRange": "38-55", "weight": 0.5,
+                   "condition": {"canSeeSky": True, "biomes": ["#cobblemon:is_badlands"],
+                                 "neededNearbyBlocks": ["minecraft:lava"]}, "herdablePokemon": trubbish_crew})
+    write_json(data / "spawn_pool_world" / "regional_kanto.json",
+               {"enabled": True, "neededInstalledMods": ["cobbleeffort_kanto"], "neededUninstalledMods": [],
+                "spawns": kanto_spawns})
+    import garbage
+    gen5 = cob / "data" / "cobblemon" / "species" / "generation5"
+    garbodor = json.loads((gen5 / "garbodor.json").read_text())
+    drops = dict(garbodor["drops"])
+    drops["entries"] = list(drops["entries"]) + [garbage.drop_entry()]
+    write_json(data / "species_additions" / "garbodor_garbage_bag.json", {"target": "cobblemon:garbodor", "drops": drops})
+    trubbish = json.loads((gen5 / "trubbish.json").read_text())
+    behaviour = json.loads(json.dumps(trubbish["behaviour"]))   # Trubbish follow Petroil (its entourage)
+    herd = behaviour.setdefault("herd", {"maxSize": 4, "toleratedLeaders": []})
+    herd["maxSize"] = max(herd.get("maxSize", 2), 4)
+    herd["toleratedLeaders"] = herd.get("toleratedLeaders", []) + [{"pokemon": "cobbleeffort:petroil", "tier": 1}]
+    write_json(data / "species_additions" / "trubbish_petroil.json", {"target": "cobblemon:trubbish", "behaviour": behaviour})
     old = data / "spawn_pool_world" / "regional_caterpie.json"
     if old.exists():
         old.unlink()

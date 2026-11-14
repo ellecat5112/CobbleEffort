@@ -316,6 +316,8 @@ def write_structure(name, s, folder):
 
 def build(lang):
     import gi                                                # the Master's Gi is an echo shard too (its icon, the tab)
+    import garbage                                           # ...and so is the Garbage Bag
+    garbage.build_assets(lang, RES)
     data, assets = RES / "data" / MOD, RES / "assets" / MOD
     for sp, f in FOSSILS.items():
         write_json(data / "fossils" / f"{sp}.json", {
@@ -333,7 +335,7 @@ def build(lang):
         "parent": "minecraft:item/generated", "textures": {"layer0": "minecraft:item/echo_shard"},
         # overrides match custom_model_data >= value and the last match wins: keep them in ascending order
         "overrides": [{"predicate": {"custom_model_data": CMD_BASE + f["cmd"]}, "model": f"{MOD}:item/{f['item']}"}
-                      for f in FOSSILS.values()] + [gi.override()]})
+                      for f in FOSSILS.values()] + [gi.override(), garbage.override()]})
     for name, entries in LOOT.items():
         pool = []
         for item, w in entries:
@@ -347,4 +349,4 @@ def build(lang):
                    {"type": "minecraft:archaeology", "pools": [{"rolls": 1, "entries": pool}]})
     for name, s in STRUCTURES.items():
         write_structure(name, s, "fossil")
-    write_json(HERE / "creative_items.json", [stack(f) for f in FOSSILS.values() if not f.get("legacy")] + [gi.stack()])
+    write_json(HERE / "creative_items.json", [stack(f) for f in FOSSILS.values() if not f.get("legacy")] + [gi.stack(), garbage.stack()])

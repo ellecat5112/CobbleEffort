@@ -175,6 +175,16 @@ TESTING TOOLS (NEW in 0.9.0, creative mode + operator only; in the Kanto creativ
     use it on a block to turn the 65 x 65 area round that block into the biome, with its giant cigarettes or bottles
     and ponds; sneak + use to switch biome. The same as a command (for command blocks too):
       /kanto forcebiome <ashtray|liquor_meadows> [x y z]
+  - Drop testing (NEW in 0.11.0, operators; for testing rare drops like CobbleEffort's Garbage Bag):
+      /kanto drops <pokemon>                rolls the Pokemon's drop table as if you'd defeated it 100 times and
+                                            lists what came up; nothing is given
+      /kanto drops roll <rolls> <pokemon>   the same, for any number of defeats
+      /kanto drops give <rolls> <pokemon>   rolls like real defeats and you really get the items
+      /kanto drops force <pokemon>          gives you one of every item it can drop, chance or no chance
+      /kanto dna [battles]                  simulates winning battles with Mew in your party and gives you the
+                                            Mew DNA they'd drop (CobbleEffort: Distortion's DNA machine)
+    <pokemon> is any Cobblemon properties (the rest of the line): /kanto drops force garbodor,
+    /kanto drops roll 1000 slugma cobbleeffortian
   - Structure Wand: use it to locate the nearest CobbleEffort or Kanto structure of the chosen kind; use it on a block
     to place that structure there; sneak + use to switch structure.
   - Pokemon Spawner and Trainer Spawner: blocks set up like command blocks. Right-click one to open its settings;
@@ -220,6 +230,7 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.11.0: /kanto drops and /kanto dna, to force and simulate Pokemon drops and Mew DNA (testing tools).
   0.10.0: Call of the Den (fuse your party's Hopples into Rabbrute from the interaction wheel).
   0.9.0: the Ashtray Wastes and Liquor Meadows are more common (config/cobbleeffort_kanto.json); Biome and
          Structure Wands, Pokemon and Trainer Spawners, /kanto forcebiome (testing tools for creative operators).

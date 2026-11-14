@@ -63,5 +63,6 @@ public final class KantoCommand {
                                     net.minecraft.commands.arguments.coordinates.BlockPosArgument.getLoadedBlockPos(ctx, "pos")))));
         }
         dispatcher.register(Commands.literal("kanto").then(gyms).then(rebuild).then(force));
+        KantoDrops.register(dispatcher);                           // /kanto drops, /kanto dna (testing)
     }
 }

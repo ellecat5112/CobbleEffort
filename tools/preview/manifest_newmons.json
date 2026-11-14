@@ -3664,6 +3664,34 @@
   "layers": []
  },
  {
+  "species": "petroil",
+  "folder": "3154_petroil",
+  "model": "cobbleeffort:petroil.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3154_petroil/petroil.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3154_petroil/petroil_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "petroil_shiny",
+  "folder": "3154_petroil",
+  "model": "cobbleeffort:petroil.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3154_petroil/petroil_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3154_petroil/petroil_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
   "species": "sawk_gi",
   "folder": "gi/0539_sawk",
   "model": "cobbleeffort:sawk_gi.geo",

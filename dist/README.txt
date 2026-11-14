@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 169 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 171 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1755,6 +1755,16 @@ cobbleeffort:cavitot.
   flares up, and it grins as it chases the shadows of travellers through the badlands."
   * Wild: ultra-rare in the Nether (or trade a CobbleEffortian Haunter).
 
+#0218 SLUGMA (COBBLEEFFORT FORM)  (Poison / Fire; Stench / Flame Body / Liquid Ooze (hidden))
+  a slug of oily sludge rising from a lime puddle to a wavy drippy cap, its edges burning with a
+  glowing oil-slick rainbow
+  Stats: HP 40  Atk 40  Def 40  SpA 70  SpD 40  Spe 20  (total 250)
+  Pokedex: "It oozes up out of tar pits, a slug of burning oil. The rainbow sheen on its skin is a
+  film of fuel; it flares up whenever the Pokémon gets angry, and the smell lingers for days."
+  * Wild: rare in tar pits and tar lakes (with CobbleEffort: Kanto), rarely near lava in badlands,
+    and in the Nether's basalt deltas.
+  * Evolves into Petroil when you use a Garbage Bag on it (a rare drop from Garbodor).
+
 #0538 THROH (GI FORM)  (Fighting / Fire; Guts / Flash Fire / Mold Breaker (hidden))
   a hulking red judoka in a round black gi with white lapels and belt, jagged white trouser hems,
   big open red hands, a black brow band and flames blazing round its head, shoulders and hips
@@ -3301,6 +3311,16 @@ cobbleeffort:cavitot.
   deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs
   empty."
   * Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves.
+
+#3154 PETROIL  (Poison / Fire; Stench / Flame Body / Liquid Ooze (hidden))
+  a tar-black slug hauling a rusty barrel like a shell, its edges burning with a glowing oil-slick
+  rainbow, with a Trubbish riding in the barrel and another trailing behind
+  Stats: HP 85  Atk 60  Def 110  SpA 105  SpD 95  Spe 30  (total 485)
+  Pokedex: "It hauls an old barrel on its back like a shell, and a band of Trubbish rides along with
+  it wherever it goes. The oil it leaks catches fire at the slightest spark."
+  * Use a Garbage Bag (a rare drop from Garbodor) on a CobbleEffortian Slugma.
+  * Wild: rarely, leading a band of Trubbish, at tar pits (CobbleEffort: Kanto) and near lava in
+    badlands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

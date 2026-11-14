@@ -64,6 +64,22 @@
   }
  },
  {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.garbage_bag\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.garbage_bag.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794811,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 16,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "garbage_bag"
+   }
+  }
+ },
+ {
   "id": "minecraft:red_wool",
   "count": 1,
   "components": {

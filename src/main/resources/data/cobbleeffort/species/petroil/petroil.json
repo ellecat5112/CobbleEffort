@@ -1,0 +1,147 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3154,
+ "name": "Petroil",
+ "primaryType": "poison",
+ "secondaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 12,
+ "weight": 1800,
+ "pokedex": [
+  "cobbleeffort.species.petroil.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "stench",
+  "flamebody",
+  "h:liquidooze"
+ ],
+ "eggGroups": [
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 110,
+  "special_attack": 105,
+  "special_defence": 95,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 172,
+ "experienceGroup": "medium_fast",
+ "catchRate": 75,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.9,
+ "hitbox": {
+  "width": 1.7,
+  "height": 1.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.14
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:black_dye",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:black_sludge",
+    "percentage": 5.0
+   },
+   {
+    "item": "minecraft:magma_cream",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:sludgebomb",
+  "1:smog",
+  "1:ember",
+  "1:acidspray",
+  "1:harden",
+  "13:incinerate",
+  "19:clearsmog",
+  "24:sludge",
+  "29:lavaplume",
+  "36:sludgebomb",
+  "42:shellsmash",
+  "48:gunkshot",
+  "54:flamethrower",
+  "60:belch",
+  "egg:acidarmor",
+  "egg:memento",
+  "egg:stockpile",
+  "egg:curse",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:venoshock",
+  "tm:toxicspikes",
+  "tm:acidspray",
+  "tm:gunkshot",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:heatwave",
+  "tm:overheat",
+  "tm:willowisp",
+  "tm:earthpower",
+  "tm:stealthrock",
+  "tm:rockslide",
+  "tm:irondefense",
+  "tm:bodypress",
+  "tm:corrosivegas",
+  "tm:hyperbeam",
+  "tm:gigaimpact",
+  "tm:sunnyday",
+  "tm:clearsmog"
+ ],
+ "preEvolution": "slugma cobbleeffortian"
+}

@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [
+    "cobbleeffort_kanto"
+  ],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "slugma-cobbleeffortian-kanto-1",
+      "pokemon": "slugma cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 12.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:tar_pit"
+        ]
+      }
+    },
+    {
+      "id": "slugma-cobbleeffortian-kanto-2",
+      "pokemon": "slugma cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-35",
+      "weight": 8.0,
+      "condition": {
+        "neededNearbyBlocks": [
+          "cobbleeffort_kanto:tar"
+        ]
+      }
+    },
+    {
+      "id": "petroil-tar-pit-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "rare",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "38-55",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:tar_pit"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "cobbleeffort:petroil",
+          "weight": 10.0,
+          "levelRange": "38-55",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "trubbish",
+          "weight": 30.0,
+          "levelRange": "30-45",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 4,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

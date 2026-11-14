@@ -294,6 +294,8 @@ Sparkling and its Swarm Form are the user's design, after art they shared (artis
 Murmuration and Pokédex entry are our own.
 Kidlope, Shadelope and Ghillope are after art the user shared (artist not named); the names, models, Bramble Ambush
 and Pokédex entries are our own.
+The CobbleEffortian Slugma and Petroil are after @Kai_FakemonsR's art (Petroil keeps its name; the user made them
+Poison/Fire); the models, the Garbage Bag and Pokédex entries are our own.
 
 ## Code and data
 

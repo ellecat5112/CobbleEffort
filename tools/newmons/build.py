@@ -3597,6 +3597,35 @@ SPECIES.update({
 })
 LINES["goatrabbit"] = ["kidlope", "shadelope", "ghillope"]
 
+# --- Petroil (#3154, @Kai_FakemonsR's art, name kept; the user's idea): CobbleEffortian Slugma (regional.py, Poison/Fire)
+# evolves into it when a Garbage Bag (garbage.py: a rare Garbodor drop) is used on it. A tar slug hauling a barrel, never
+# without its Trubbish entourage (in its model, and in the wild: herd spawns led by Petroil, written by regional.py).
+SPECIES.update({
+    "petroil": {
+        "dex": 3154, "name": "Petroil", "line": "petroil", "types": ["poison", "fire"], "friendship": 50,
+        "growth": "medium_fast", "catch": 75, "male": 0.5, "egg_groups": ["amorphous"],
+        "abilities": ["stench", "flamebody", "h:liquidooze"], "ability_names": "Stench / Flame Body / Liquid Ooze (hidden)",
+        "stats": stats(85, 60, 110, 105, 95, 30), "ev": evs(defence=1, special_attack=1), "exp": 172,
+        "height": 12, "weight": 1800, "shoulder": False, "walk": 0.14, "pre": "slugma cobbleeffortian",
+        "moves": [(1, "sludgebomb"), (1, "smog"), (1, "ember"), (1, "acidspray"), (1, "harden"), (13, "incinerate"),
+                  (19, "clearsmog"), (24, "sludge"), (29, "lavaplume"), (36, "sludgebomb"), (42, "shellsmash"),
+                  (48, "gunkshot"), (54, "flamethrower"), (60, "belch")],
+        "tm": BASIC_TM + ["sludgebomb", "sludgewave", "venoshock", "toxicspikes", "acidspray", "gunkshot", "flamethrower",
+                          "fireblast", "heatwave", "overheat", "willowisp", "earthpower", "stealthrock", "rockslide",
+                          "irondefense", "bodypress", "corrosivegas", "hyperbeam", "gigaimpact", "sunnyday", "clearsmog"],
+        "egg": ["acidarmor", "memento", "stockpile", "curse"],
+        "evolve": None,
+        "drops": [("minecraft:black_dye", "0-2", None), ("cobblemon:black_sludge", None, 5.0),
+                  ("minecraft:magma_cream", "0-1", None)],
+        "entry": ("It hauls an old barrel on its back like a shell, and a band of Trubbish rides along with it wherever "
+                  "it goes. The oil it leaks catches fire at the slightest spark."),
+        "spawns": [],
+        "how": ["Use a Garbage Bag (a rare drop from Garbodor) on a CobbleEffortian Slugma.",
+                "Wild: rarely, leading a band of Trubbish, at tar pits (CobbleEffort: Kanto) and near lava in badlands."],
+    },
+})
+LINES["petroil"] = ["petroil"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

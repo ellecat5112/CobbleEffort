@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:garbodor",
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "cobblemon:black_sludge",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:leftovers",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:silk_scarf",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:echo_shard",
+        "percentage": 1.0,
+        "components": {
+          "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.garbage_bag\", \"italic\": false}",
+          "minecraft:lore": [
+            "{\"translate\": \"item.cobbleeffort.garbage_bag.tooltip\", \"color\": \"gray\", \"italic\": false}"
+          ],
+          "minecraft:custom_model_data": 794811,
+          "minecraft:rarity": "rare",
+          "minecraft:max_stack_size": 16,
+          "minecraft:custom_data": {
+            "cobbleeffort_item": "garbage_bag"
+          }
+        }
+      }
+    ]
+  }
+}
