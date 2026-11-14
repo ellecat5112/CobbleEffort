@@ -32,6 +32,28 @@ LANG = {
     f"{MOD}.dna.not_yours": "This isn't your Pokémon.",
     f"{MOD}.dna.retrieved": "%s joined you.",
     f"{MOD}.dna.dropped": "Your Mew left %s Mew DNA behind.",
+    f"block.{MOD}.dna_analyzer": "DNA Analyzer",
+    f"block.{MOD}.dna_purifier": "DNA Purifier",
+    f"{MOD}.dna.station.no_machine": "Place this right beside a DNA machine.",
+    f"{MOD}.dna.analyzer.empty": "DNA Analyzer: the tank is empty. Purifier connected: %s.",
+    f"{MOD}.dna.analyzer.yes": "yes",
+    f"{MOD}.dna.analyzer.no": "no",
+    f"{MOD}.dna.analyzer.subject": "DNA Analyzer: %s, level %s.",
+    f"{MOD}.dna.analyzer.mixed": "Mixed DNA! Upper half: %s (%s). Lower half: %s (%s).",
+    f"{MOD}.dna.analyzer.target": "The Purifier is set to make %s. Sneak and use the Purifier to begin.",
+    f"{MOD}.dna.analyzer.purifying": "Purifying into %s: %s left.",
+    f"{MOD}.dna.analyzer.mew": "Mew's DNA, ready to be grown into Mewtwo.",
+    f"{MOD}.dna.analyzer.stable": "Its DNA is pure and stable.",
+    f"{MOD}.dna.analyzer.shadow": "Shadow aura: none detected.",
+    f"{MOD}.dna.purifier.nothing": "Put a mixed fossil Pokémon (Dracozolt, Arctozolt, Dracovish, Arctovish) in the DNA machine first.",
+    f"{MOD}.dna.purifier.busy": "Purifying... %s left.",
+    f"{MOD}.dna.purifier.target": "Purifier set to: %s",
+    f"{MOD}.dna.purifier.no_analyzer": "The Purifier needs a DNA Analyzer beside the machine too.",
+    f"{MOD}.dna.purifier.no_species": "That pure form needs CobbleEffort installed.",
+    f"{MOD}.dna.purifier.needs_machines": "Mixed fossils need a DNA Analyzer and a DNA Purifier beside the machine.",
+    f"{MOD}.dna.purifier.inserted": "%s floats into the tank. Use the DNA Purifier to pick the pure form, then sneak and use it to purify.",
+    f"{MOD}.dna.purifier.started": "Purifying into %s... Come back in a minute.",
+    f"{MOD}.dna.purifier.done": "The purification is complete: %s has emerged from the tank!",
 }
 
 
@@ -197,6 +219,53 @@ def machine_icon():
 
 
 # --- models ------------------------------------------------------------------------------------------------------------
+def analyzer_front():
+    """A dark console with a green screen showing a turning DNA helix, and a row of buttons."""
+    img = metal().copy()
+    px = img.load()
+    for y in range(2, 11):
+        for x in range(2, 14):
+            px[x, y] = (18, 40, 30, 255) if x in (2, 13) or y in (2, 10) else (24, 70, 48, 255)
+    import math
+    for y in range(3, 10):
+        for strand in (0, math.pi):
+            x = int(round(7.5 + 3.2 * math.sin(y * 0.9 + strand)))
+            px[x, y] = (120, 255, 170, 255)
+        if y % 2 == 1:
+            a = int(round(7.5 + 3.2 * math.sin(y * 0.9))); b = int(round(7.5 + 3.2 * math.sin(y * 0.9 + math.pi)))
+            for x in range(min(a, b) + 1, max(a, b)):
+                px[x, y] = (60, 170, 110, 255)
+    for i, c in enumerate(((230, 70, 60), (240, 200, 60), (80, 200, 90), (80, 150, 240))):
+        px[3 + i * 3, 13] = c + (255,)
+        px[4 + i * 3, 13] = c + (255,)
+    return img
+
+
+def purifier_front():
+    """A glass chamber of glowing cyan purifying fluid with rising bubbles, in a steel frame."""
+    img = metal().copy()
+    px = img.load()
+    for y in range(2, 14):
+        for x in range(3, 13):
+            if x in (3, 12) or y in (2, 13):
+                px[x, y] = (150, 160, 170, 255)
+            else:
+                t = (y - 2) / 11
+                px[x, y] = (int(90 + 60 * t), int(220 - 30 * t), 255, 255)
+    for x, y in ((5, 10), (8, 7), (10, 11), (6, 5), (9, 4)):
+        px[x, y] = (235, 255, 255, 255)
+    return img
+
+
+def purifier_top():
+    img = trim().copy()
+    px = img.load()
+    for y in range(4, 12):
+        for x in range(4, 12):
+            px[x, y] = (110, 200, 235, 255) if (x + y) % 3 else (70, 150, 200, 255)
+    return img
+
+
 def el(frm, to, tex, faces=("north", "south", "east", "west", "up", "down"), **extra):
     return dict({"from": frm, "to": to, "faces": {f: {"texture": f"#{tex}"} for f in faces}}, **extra)
 
@@ -231,6 +300,13 @@ def models():
     write_json(A / "blockstates" / "dna_machine.json", {"variants": {
         f"facing={f},half={half}": dict({"model": f"{MOD}:block/dna_machine_{half}"}, **({"y": r} if r else {}))
         for f, r in rot.items() for half in ("lower", "upper")}})
+    for name in ("dna_analyzer", "dna_purifier"):                  # the two stations beside the machine
+        write_json(A / "models" / "block" / f"{name}.json", {"parent": "minecraft:block/orientable", "textures": {
+            "top": f"{MOD}:block/{'dna_purifier_top' if name == 'dna_purifier' else 'dna_machine_trim'}",
+            "front": f"{MOD}:block/{name}_front", "side": f"{MOD}:block/dna_machine_metal"}})
+        write_json(A / "blockstates" / f"{name}.json", {"variants": {
+            f"facing={f}": dict({"model": f"{MOD}:block/{name}"}, **({"y": r} if r else {})) for f, r in rot.items()}})
+        write_json(A / "models" / "item" / f"{name}.json", {"parent": f"{MOD}:block/{name}"})
     for item in ("dna_machine", "mew_dna"):
         write_json(A / "models" / "item" / f"{item}.json", {"parent": "minecraft:item/generated",
                                                            "textures": {"layer0": f"{MOD}:item/{item}"}})
@@ -247,9 +323,25 @@ def data():
         "key": {"I": {"item": "minecraft:iron_block"}, "G": {"item": "minecraft:glass"}, "D": {"item": "minecraft:diamond"},
                 "R": {"item": "minecraft:redstone_block"}},
         "result": {"id": f"{MOD}:dna_machine", "count": 1}})
+    for name in ("dna_analyzer", "dna_purifier"):
+        write_json(D / "loot_table" / "blocks" / f"{name}.json", {"type": "minecraft:block", "pools": [{
+            "rolls": 1, "entries": [{"type": "minecraft:item", "name": f"{MOD}:{name}"}],
+            "conditions": [{"condition": "minecraft:survives_explosion"}]}]})
+    write_json(D / "recipe" / "dna_analyzer.json", {
+        "type": "minecraft:crafting_shaped", "category": "misc", "pattern": ["IGI", "RSR", "ICI"],
+        "key": {"I": {"item": "minecraft:iron_ingot"}, "G": {"item": "minecraft:glass_pane"}, "R": {"item": "minecraft:redstone"},
+                "S": {"item": f"{MOD}:distortion_shard"}, "C": {"item": "minecraft:comparator"}},
+        "result": {"id": f"{MOD}:dna_analyzer", "count": 1}})
+    write_json(D / "recipe" / "dna_purifier.json", {
+        "type": "minecraft:crafting_shaped", "category": "misc", "pattern": ["IGI", "PDP", "IWI"],
+        "key": {"I": {"item": "minecraft:iron_ingot"}, "G": {"item": "minecraft:glass"},
+                "P": {"item": "minecraft:prismarine_crystals"}, "D": {"item": "minecraft:diamond"},
+                "W": {"item": "minecraft:water_bucket"}},
+        "result": {"id": f"{MOD}:dna_purifier", "count": 1}})
     tag = RES / "data" / "minecraft" / "tags" / "block" / "mineable" / "pickaxe.json"
     old = json.loads(tag.read_text())["values"] if tag.exists() else []
-    write_json(tag, {"replace": False, "values": sorted(set(old) | {f"{MOD}:dna_machine"})})
+    write_json(tag, {"replace": False, "values": sorted(set(old) | {f"{MOD}:dna_machine", f"{MOD}:dna_analyzer",
+                                                                      f"{MOD}:dna_purifier"})})
 
 
 def build():
@@ -257,6 +349,9 @@ def build():
                       ("dna_machine_panel", panel()), ("dna_machine_cable", cable()), ("dna_fluid", fluid())):
         save(img, A / "textures" / "block" / f"{name}.png")
     save(mew_dna_icon(), A / "textures" / "item" / "mew_dna.png")
+    save(analyzer_front(), A / "textures" / "block" / "dna_analyzer_front.png")
+    save(purifier_front(), A / "textures" / "block" / "dna_purifier_front.png")
+    save(purifier_top(), A / "textures" / "block" / "dna_purifier_top.png")
     save(machine_icon(), A / "textures" / "item" / "dna_machine.png")
     models()
     data()

@@ -185,7 +185,7 @@ public class DnaMachineBlock extends BaseEntityBlock {
         if (machine == null) return InteractionResult.PASS;
         if (level.isClientSide) {
             // the party selection lives on the client: tell the server which Pokémon to put in
-            if (!machine.occupied() && machine.full()) DnaMachineClientHook.sendInsert(machine.getBlockPos());
+            if (!machine.occupied()) DnaMachineClientHook.sendInsert(machine.getBlockPos());   // Mew, or a mixed fossil
             return InteractionResult.SUCCESS;
         }
         if (!(player instanceof ServerPlayer serverPlayer)) return InteractionResult.PASS;
@@ -195,7 +195,7 @@ public class DnaMachineBlock extends BaseEntityBlock {
             } catch (Throwable t) {
                 Distortion.LOG.error("Taking a Pokémon out of the DNA machine failed", t);
             }
-        } else if (!machine.full()) {
+        } else if (!machine.full() && !(machine.hasAnalyzer() && machine.hasPurifier())) {
             player.displayClientMessage(Component.translatable(Distortion.MOD_ID + ".dna.needs",
                     DnaMachineBlockEntity.CAPACITY - machine.fillLevel()), true);
         }
@@ -207,7 +207,7 @@ public class DnaMachineBlock extends BaseEntityBlock {
     public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
         if (state.getValue(HALF) != DoubleBlockHalf.LOWER) return;
         DnaMachineBlockEntity machine = machine(level, pos, state);
-        if (machine == null || machine.fillLevel() == 0) return;
+        if (machine == null || (machine.fillLevel() == 0 && !machine.occupied())) return;
         for (int i = 0; i < (machine.occupied() ? 3 : 1); i++) {
             level.addParticle(ParticleTypes.GLOW, pos.getX() + 0.3 + random.nextDouble() * 0.4,
                     pos.getY() + 0.45, pos.getZ() + 0.3 + random.nextDouble() * 0.4, 0, 0.04, 0);

@@ -3626,6 +3626,89 @@ SPECIES.update({
 })
 LINES["petroil"] = ["petroil"]
 
+# --- The pure Galar fossils (#3155-3158, the art the user shared, names kept, artist not named): what the Fossilized
+# Drake, Bird, Dino and Fish really were. Found only by purifying a mixed fossil (Dracozolt, Arctozolt, Dracovish,
+# Arctovish) in CobbleEffort: Distortion's DNA machine with a DNA Analyzer and a DNA Purifier beside it; you pick which
+# of its two halves it becomes.
+PURE = dict(male=0.875, friendship=50, growth="slow", catch=45, exp=177, spawns=[], evolve=None)
+PURE_HOW = ("Put a {mix} in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a DNA Purifier beside it, pick "
+            "{name} at the Purifier and purify it (it keeps its level, nature and moves).")
+SPECIES.update({
+    "dracomizer": {
+        "dex": 3155, "name": "Dracomizer", "line": "pure_fossils", "types": ["dragon"], **PURE,
+        "egg_groups": ["monster", "dragon"],
+        "abilities": ["hustle", "roughskin", "h:sandrush"], "ability_names": "Hustle / Rough Skin / Sand Rush (hidden)",
+        "stats": stats(90, 105, 105, 70, 65, 70), "ev": evs(attack=2), "height": 18, "weight": 1900,
+        "shoulder": False, "walk": 0.24,
+        "moves": [(1, "tackle"), (1, "leer"), (1, "dragonbreath"), (7, "bite"), (14, "ancientpower"), (21, "stomp"),
+                  (28, "dragontail"), (35, "crunch"), (42, "dragonclaw"), (49, "bodyslam"), (56, "dragonrush"),
+                  (63, "outrage"), (70, "headsmash")],
+        "tm": BASIC_TM + ["dragonclaw", "outrage", "dragonpulse", "dracometeor", "earthquake", "stoneedge", "rockslide",
+                          "bulldoze", "irontail", "crunch", "bodyslam", "bodypress", "superpower", "firefang",
+                          "thunderfang", "highhorsepower", "scaleshot", "dragondance", "gigaimpact", "hyperbeam"],
+        "egg": ["dragondance", "dragonhammer"],
+        "drops": [("minecraft:bone", "1-3", None), ("cobblemon:dragon_fang", None, 5.0)],
+        "entry": ("The Fossilized Drake's true owner. Its back is armoured with rows of plates, and it could knock "
+                  "over trees with its tail. Scientists stitched its lower half to other fossils for years."),
+        "how": [PURE_HOW.format(mix="Dracozolt or Dracovish", name="Dracomizer")],
+    },
+    "velozolt": {
+        "dex": 3156, "name": "Velozolt", "line": "pure_fossils", "types": ["electric"], **PURE,
+        "egg_groups": ["flying", "dragon"],
+        "abilities": ["voltabsorb", "static", "h:motordrive"], "ability_names": "Volt Absorb / Static / Motor Drive (hidden)",
+        "stats": stats(70, 100, 60, 90, 65, 120), "ev": evs(speed=2), "height": 16, "weight": 310,
+        "shoulder": False, "walk": 0.5,
+        "moves": [(1, "peck"), (1, "thundershock"), (1, "quickattack"), (7, "charge"), (14, "pluck"),
+                  (21, "electroball"), (28, "ancientpower"), (35, "drillpeck"), (42, "discharge"), (49, "boltbeak"),
+                  (56, "thunder"), (63, "bravebird")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "wildcharge", "thunderfang", "electroball",
+                          "aerialace", "acrobatics", "uturn", "agility", "risingvoltage", "electricterrain",
+                          "bravebird", "dualwingbeat", "gigaimpact", "hyperbeam", "stoneedge"],
+        "egg": ["boltbeak", "featherdance"],
+        "drops": [("minecraft:feather", "1-3", None), ("minecraft:bone", "0-2", None)],
+        "entry": ("The Fossilized Bird's true owner: a swift raptor whose feathers stored static electricity. It ran "
+                  "down its prey across open plains, its crest crackling like a thundercloud."),
+        "how": [PURE_HOW.format(mix="Dracozolt or Arctozolt", name="Velozolt")],
+    },
+    "arctosaur": {
+        "dex": 3157, "name": "Arctosaur", "line": "pure_fossils", "types": ["ice", "water"], **PURE,
+        "egg_groups": ["water_1", "monster"], "aquatic": True,
+        "abilities": ["waterabsorb", "icebody", "h:slushrush"], "ability_names": "Water Absorb / Ice Body / Slush Rush (hidden)",
+        "stats": stats(90, 100, 95, 80, 70, 70), "ev": evs(hp=2), "height": 22, "weight": 2100,
+        "shoulder": False, "walk": 0.2,
+        "moves": [(1, "watergun"), (1, "powdersnow"), (1, "bite"), (7, "aquajet"), (14, "icefang"), (21, "ancientpower"),
+                  (28, "aquatail"), (35, "crunch"), (42, "freezedry"), (49, "iciclecrash"), (56, "blizzard"),
+                  (63, "hydropump")],
+        "tm": BASIC_TM + ["icebeam", "blizzard", "surf", "waterfall", "liquidation", "icefang", "crunch", "aquatail",
+                          "avalanche", "iciclecrash", "chillingwater", "raindance", "snowscape", "hydropump",
+                          "bodyslam", "gigaimpact", "hyperbeam", "freezedry"],
+        "egg": ["fishiousrend", "aquajet"],
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:packed_ice", "0-2", None)],
+        "entry": ("The Fossilized Dino's true owner: a long-necked sea reptile with a shark's head. It hunted beneath "
+                  "the ice of ancient seas and could freeze the water round its prey solid."),
+        "how": [PURE_HOW.format(mix="Arctozolt or Arctovish", name="Arctosaur")],
+    },
+    "dunclovish": {
+        "dex": 3158, "name": "Dunclovish", "line": "pure_fossils", "types": ["water", "steel"], **PURE,
+        "egg_groups": ["water_2"], "aquatic": True,
+        "abilities": ["strongjaw", "waterabsorb", "h:swiftswim"], "ability_names": "Strong Jaw / Water Absorb / Swift Swim (hidden)",
+        "stats": stats(90, 110, 115, 60, 70, 60), "ev": evs(defence=2), "height": 20, "weight": 2600,
+        "shoulder": False, "walk": 0.2,
+        "moves": [(1, "watergun"), (1, "metalclaw"), (1, "bite"), (7, "aquajet"), (14, "irondefense"),
+                  (21, "ancientpower"), (28, "ironhead"), (35, "crunch"), (42, "liquidation"), (49, "fishiousrend"),
+                  (56, "heavyslam"), (63, "wavecrash")],
+        "tm": BASIC_TM + ["surf", "waterfall", "liquidation", "ironhead", "heavyslam", "flashcannon", "crunch",
+                          "psychicfangs", "icefang", "bodypress", "irondefense", "raindance", "hydropump",
+                          "steelbeam", "gigaimpact", "hyperbeam", "chillingwater"],
+        "egg": ["fishiousrend", "jawlock"],
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:iron_nugget", "1-4", None)],
+        "entry": ("The Fossilized Fish's true owner: an armoured fish whose head is one great plate of steel. Its bite "
+                  "could shear through the shells of anything that lived in the ancient seas."),
+        "how": [PURE_HOW.format(mix="Dracovish or Arctovish", name="Dunclovish")],
+    },
+})
+LINES["pure_fossils"] = ["dracomizer", "velozolt", "arctosaur", "dunclovish"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

@@ -296,6 +296,8 @@ Kidlope, Shadelope and Ghillope are after art the user shared (artist not named)
 and Pokédex entries are our own.
 The CobbleEffortian Slugma and Petroil are after @Kai_FakemonsR's art (Petroil keeps its name; the user made them
 Poison/Fire); the models, the Garbage Bag and Pokédex entries are our own.
+Dracomizer, Velozolt, Arctosaur and Dunclovish are after art the user shared (names kept, artist not named); the
+models and Pokédex entries are our own.
 
 ## Code and data
 

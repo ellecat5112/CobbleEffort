@@ -49,6 +49,22 @@ THE DNA MACHINE: MAKING MEWTWO (NEW in 0.11.0)
   The machine can't be broken while a Pokemon is inside. Only the one who put Mew in can take Mewtwo out.
   Note: Mew is used up; it becomes Mewtwo.
 
+THE DNA ANALYZER AND DNA PURIFIER: PURE GALAR FOSSILS (NEW in 0.13.0)
+  Galar's fossil Pokemon (Dracozolt, Arctozolt, Dracovish, Arctovish) are two fossils stitched together. Put a DNA
+  Analyzer and a DNA Purifier right beside the DNA machine (next to either half) and it can pull them apart:
+    DNA Analyzer: iron ingot, glass pane, iron ingot / redstone, Distortion Shard, redstone / iron ingot, comparator,
+                  iron ingot. DNA Purifier: iron ingot, glass, iron ingot / prismarine crystals, diamond, prismarine
+                  crystals / iron ingot, water bucket, iron ingot.
+  1. Select the mixed fossil in your party bar and click the DNA machine with an empty hand: it floats into the tank
+     (no Mew DNA needed).
+  2. Click the DNA Analyzer to read its DNA: its two halves and the pure Pokemon each one really was.
+  3. Click the DNA Purifier to choose which of the two it becomes (Dracozolt: Velozolt or Dracomizer; Arctozolt:
+     Velozolt or Arctosaur; Dracovish: Dunclovish or Dracomizer; Arctovish: Dunclovish or Arctosaur).
+  4. Sneak and click the Purifier to start. One minute later it comes out of the tank as that pure Pokemon (same
+     level, nature, IVs, EVs and moves; its ability is re-picked for the new species). Click the machine to take it.
+  The four pure Pokemon (Dracomizer, Velozolt, Arctosaur, Dunclovish) are CobbleEffort's: install CobbleEffort
+  0.88.0 or later too. The Purifier will purify Shadow Pokemon as well, once they arrive.
+
 DISTORTING WITH THE CRYSTAL (NEW in 0.10.0)
   Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form, look, types, moves
   (their distorted twins) and type-bound ability, kept while it holds the crystal (it enters battle distorted). Take the crystal away and it turns back. No band needed for this;
@@ -212,6 +228,9 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.13.0: the DNA Analyzer and DNA Purifier. Place both beside the DNA machine, put a Dracozolt (or another mixed
+  fossil) in, read it with the Analyzer, pick a form at the Purifier, sneak-click to purify, wait a minute, take
+  it out (is it the pure form, same level, does it show in the tank while purifying?).
   0.12.2 (Fabric fix): on Fabric, Mew DNA never dropped, and the radial menu's Distort/Revert sparkles and Mew's
   display in the DNA machine's tank failed (a build problem: some Minecraft calls on Cobblemon's entities weren't
   translated for Fabric). Try them again on Fabric. NeoForge was not affected.

@@ -248,6 +248,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Trubbish's `behaviour` (species_additions REPLACE it: copied from Cobblemon + Petroil as a tolerated leader).
   Kanto 0.11.0 `KantoDrops`: `/kanto drops [roll N | give N | force] <pokemon greedy>` (rolls form.drops like a defeat;
   item names read from the components' translate key) and `/kanto dna [battles]` (Distortion's 3-8 Mew DNA per defeat).
+  Pure Galar fossils Dracomizer, Velozolt, Arctosaur, Dunclovish (#3155-3158, line "pure_fossils", `models/_purefossil.py`:
+  `slab_z`/`body_along` front-to-back bodies, `plates`, `eye_at`; the user's art, names kept): no spawns; made by
+  Distortion 0.13.0's DNA Purifier (`dna/DnaStationBlock` = Analyzer/Purifier, placed beside either half of the DNA
+  machine; `DnaMachineBlockEntity.MIXED` maps dracozolt/arctozolt/dracovish/arctovish to their two halves; a mixed
+  fossil goes in with no Mew DNA, the Purifier cycles `target`, sneak-use starts PURIFY_TICKS (1 min), then
+  `pokemon.setSpecies(cobbleeffort:<target>)` (keeps level/nature/IVs/moves, re-checks ability)). Synced Target and
+  PurifyStarted; the renderer looks namespaced species up by identifier. Shadow purification: later (Shadow type).
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

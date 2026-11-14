@@ -87,6 +87,18 @@ public final class Distortion {
     @SuppressWarnings("DataFlowIssue")
     public static final RegistrySupplier<BlockEntityType<DnaMachineBlockEntity>> DNA_MACHINE_ENTITY = BLOCK_ENTITIES.register("dna_machine",
             () -> BlockEntityType.Builder.of(DnaMachineBlockEntity::new, DNA_MACHINE.get()).build(null));
+    /** Beside the DNA machine: reads the DNA in the tank (needed to purify). */
+    public static final RegistrySupplier<Block> DNA_ANALYZER = BLOCKS.register("dna_analyzer", () ->
+            new io.github.cobbleeffort.distortion.dna.DnaStationBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL)
+                    .strength(3F, 6F).sound(SoundType.METAL).lightLevel(s -> 4), false));
+    public static final RegistrySupplier<Item> DNA_ANALYZER_ITEM = ITEMS.register("dna_analyzer", () ->
+            new BlockItem(DNA_ANALYZER.get(), new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));
+    /** Beside the DNA machine: turns Galar's mixed fossils into their pure forms (and, later, purifies Shadow Pokémon). */
+    public static final RegistrySupplier<Block> DNA_PURIFIER = BLOCKS.register("dna_purifier", () ->
+            new io.github.cobbleeffort.distortion.dna.DnaStationBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL)
+                    .strength(3F, 6F).sound(SoundType.METAL).lightLevel(s -> 6).noOcclusion(), true));
+    public static final RegistrySupplier<Item> DNA_PURIFIER_ITEM = ITEMS.register("dna_purifier", () ->
+            new BlockItem(DNA_PURIFIER.get(), new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));
     /** Dropped (3-8) when a Pokémon is defeated by a trainer with Mew in their party: the DNA machine's fuel. */
     public static final RegistrySupplier<Item> MEW_DNA = ITEMS.register("mew_dna", () ->
             new Item(new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));

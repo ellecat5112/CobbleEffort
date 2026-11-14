@@ -1,0 +1,138 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3155,
+ "name": "Dracomizer",
+ "primaryType": "dragon",
+ "maleRatio": 0.875,
+ "height": 18,
+ "weight": 1900,
+ "pokedex": [
+  "cobbleeffort.species.dracomizer.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "hustle",
+  "roughskin",
+  "h:sandrush"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 105,
+  "defence": 105,
+  "special_attack": 70,
+  "special_defence": 65,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 177,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.0,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "7:bite",
+  "14:ancientpower",
+  "21:stomp",
+  "28:dragontail",
+  "35:crunch",
+  "42:dragonclaw",
+  "49:bodyslam",
+  "56:dragonrush",
+  "63:outrage",
+  "70:headsmash",
+  "egg:dragondance",
+  "egg:dragonhammer",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:dragonclaw",
+  "tm:outrage",
+  "tm:dragonpulse",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:stoneedge",
+  "tm:rockslide",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:crunch",
+  "tm:bodyslam",
+  "tm:bodypress",
+  "tm:superpower",
+  "tm:firefang",
+  "tm:thunderfang",
+  "tm:highhorsepower",
+  "tm:scaleshot",
+  "tm:dragondance",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ]
+}

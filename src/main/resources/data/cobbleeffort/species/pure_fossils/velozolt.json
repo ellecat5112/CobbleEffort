@@ -1,0 +1,134 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3156,
+ "name": "Velozolt",
+ "primaryType": "electric",
+ "maleRatio": 0.875,
+ "height": 16,
+ "weight": 310,
+ "pokedex": [
+  "cobbleeffort.species.velozolt.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "voltabsorb",
+  "static",
+  "h:motordrive"
+ ],
+ "eggGroups": [
+  "flying",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 100,
+  "defence": 60,
+  "special_attack": 90,
+  "special_defence": 65,
+  "speed": 120
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 177,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.5
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:peck",
+  "1:thundershock",
+  "1:quickattack",
+  "7:charge",
+  "14:pluck",
+  "21:electroball",
+  "28:ancientpower",
+  "35:drillpeck",
+  "42:discharge",
+  "49:boltbeak",
+  "56:thunder",
+  "63:bravebird",
+  "egg:boltbeak",
+  "egg:featherdance",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thunderbolt",
+  "tm:thunder",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:thunderfang",
+  "tm:electroball",
+  "tm:aerialace",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:agility",
+  "tm:risingvoltage",
+  "tm:electricterrain",
+  "tm:bravebird",
+  "tm:dualwingbeat",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:stoneedge"
+ ]
+}

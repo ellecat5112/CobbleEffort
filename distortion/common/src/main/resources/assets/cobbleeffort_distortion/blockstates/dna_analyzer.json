@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleeffort_distortion:block/dna_analyzer"
+    },
+    "facing=east": {
+      "model": "cobbleeffort_distortion:block/dna_analyzer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleeffort_distortion:block/dna_analyzer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleeffort_distortion:block/dna_analyzer",
+      "y": 270
+    }
+  }
+}

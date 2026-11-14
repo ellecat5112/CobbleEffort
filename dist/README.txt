@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 171 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 175 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3321,6 +3321,47 @@ cobbleeffort:cavitot.
   * Use a Garbage Bag (a rare drop from Garbodor) on a CobbleEffortian Slugma.
   * Wild: rarely, leading a band of Trubbish, at tar pits (CobbleEffort: Kanto) and near lava in
     badlands.
+
+#3155 DRACOMIZER  (Dragon; Hustle / Rough Skin / Sand Rush (hidden))
+  a heavy four-legged dragon with dark green hide striped red, rows of tall salmon plates down its
+  back and tail, a small blunt head with a red brow crest and pink claws
+  Stats: HP 90  Atk 105  Def 105  SpA 70  SpD 65  Spe 70  (total 505)
+  Pokedex: "The Fossilized Drake's true owner. Its back is armoured with rows of plates, and it
+  could knock over trees with its tail. Scientists stitched its lower half to other fossils for
+  years."
+  * Put a Dracozolt or Dracovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a
+    DNA Purifier beside it, pick Dracomizer at the Purifier and purify it (it keeps its level,
+    nature and moves).
+
+#3156 VELOZOLT  (Electric; Volt Absorb / Static / Motor Drive (hidden))
+  a lean yellow raptor with a crown of jagged electric feather spikes, red cheeks, spiky plumed arms
+  and a long tail ending in a glowing lightning-bolt plume
+  Stats: HP 70  Atk 100  Def 60  SpA 90  SpD 65  Spe 120  (total 505)
+  Pokedex: "The Fossilized Bird's true owner: a swift raptor whose feathers stored static
+  electricity. It ran down its prey across open plains, its crest crackling like a thundercloud."
+  * Put a Dracozolt or Arctozolt in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a
+    DNA Purifier beside it, pick Velozolt at the Purifier and purify it (it keeps its level, nature
+    and moves).
+
+#3157 ARCTOSAUR  (Ice / Water; Water Absorb / Ice Body / Slush Rush (hidden))
+  a plesiosaur with a shark's head: a deep-blue toothy head, a long body of pale icy shell plates, a
+  tall dorsal fin and four white-tipped paddle flippers
+  Stats: HP 90  Atk 100  Def 95  SpA 80  SpD 70  Spe 70  (total 505)
+  Pokedex: "The Fossilized Dino's true owner: a long-necked sea reptile with a shark's head. It
+  hunted beneath the ice of ancient seas and could freeze the water round its prey solid."
+  * Put a Arctozolt or Arctovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a
+    DNA Purifier beside it, pick Arctosaur at the Purifier and purify it (it keeps its level, nature
+    and moves).
+
+#3158 DUNCLOVISH  (Water / Steel; Strong Jaw / Water Absorb / Swift Swim (hidden))
+  an armoured placoderm fish: a great mottled blue-grey plate over its head and shoulders, a heavy
+  jaw, a long pale-blue body and silver-white fins
+  Stats: HP 90  Atk 110  Def 115  SpA 60  SpD 70  Spe 60  (total 505)
+  Pokedex: "The Fossilized Fish's true owner: an armoured fish whose head is one great plate of
+  steel. Its bite could shear through the shells of anything that lived in the ancient seas."
+  * Put a Dracovish or Arctovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a
+    DNA Purifier beside it, pick Dunclovish at the Purifier and purify it (it keeps its level,
+    nature and moves).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

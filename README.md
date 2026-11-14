@@ -1607,6 +1607,14 @@ rare drop from Garbodor, about 1 in 25) and it evolves into **Petroil** (#3154),
 shell, never without its entourage: a Trubbish rides in the barrel and another trails behind, and wild Petroil lead a
 band of Trubbish (wild Trubbish now follow a Petroil as their leader).
 
+**The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
+fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
+DNA machine, pull them apart. Put a mixed fossil in the tank, pick one of its halves at the Purifier, and a minute later
+it comes out as that pure Pokémon (same level, nature, IVs and moves): **Dracomizer** (#3155, Dragon: a heavy plated
+dragon), **Velozolt** (#3156, Electric: a yellow raptor with an electric crest and a lightning-bolt tail), **Arctosaur**
+(#3157, Ice/Water: a shark-headed plesiosaur with icy shell plates) and **Dunclovish** (#3158, Water/Steel: an
+armoured placoderm fish). They are found nowhere else.
+
 **Chawp, Kiq and the Gi forms** (after @magikdex's Cornera region art; Chawp and Kiq keep their names): **Chawp**
 (#3146, Fighting), a scrappy little fighter with a huge round head, a brow plate, a cheek bandage and barrel shorts, is
 the new pre-evolution of Sawk and Throh. Like Tyrogue it branches at level 20: into **Sawk** when its Attack is higher,
@@ -1787,6 +1795,10 @@ ring on a lime stem.
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |
 | 3154 | **Petroil** | Poison / Fire | Stench / Flame Body / Liquid Ooze (hidden) | 85 / 60 / 110 / 105 / 95 / 30 | 3'11" (1.2 m) / 180 kg | Use a Garbage Bag (a rare drop from Garbodor) on a CobbleEffortian Slugma. Wild: rarely, leading a band of Trubbish, at tar pits (CobbleEffort: Kanto) and near lava in badlands. | It hauls an old barrel on its back like a shell, and a band of Trubbish rides along with it wherever it goes. The oil it leaks catches fire at the slightest spark. |
+| 3155 | **Dracomizer** | Dragon | Hustle / Rough Skin / Sand Rush (hidden) | 90 / 105 / 105 / 70 / 65 / 70 | 5'11" (1.8 m) / 190 kg | Put a Dracozolt or Dracovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a DNA Purifier beside it, pick Dracomizer at the Purifier and purify it (it keeps its level, nature and moves). | The Fossilized Drake's true owner. Its back is armoured with rows of plates, and it could knock over trees with its tail. Scientists stitched its lower half to other fossils for years. |
+| 3156 | **Velozolt** | Electric | Volt Absorb / Static / Motor Drive (hidden) | 70 / 100 / 60 / 90 / 65 / 120 | 5'3" (1.6 m) / 31 kg | Put a Dracozolt or Arctozolt in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a DNA Purifier beside it, pick Velozolt at the Purifier and purify it (it keeps its level, nature and moves). | The Fossilized Bird's true owner: a swift raptor whose feathers stored static electricity. It ran down its prey across open plains, its crest crackling like a thundercloud. |
+| 3157 | **Arctosaur** | Ice / Water | Water Absorb / Ice Body / Slush Rush (hidden) | 90 / 100 / 95 / 80 / 70 / 70 | 7'3" (2.2 m) / 210 kg | Put a Arctozolt or Arctovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a DNA Purifier beside it, pick Arctosaur at the Purifier and purify it (it keeps its level, nature and moves). | The Fossilized Dino's true owner: a long-necked sea reptile with a shark's head. It hunted beneath the ice of ancient seas and could freeze the water round its prey solid. |
+| 3158 | **Dunclovish** | Water / Steel | Strong Jaw / Water Absorb / Swift Swim (hidden) | 90 / 110 / 115 / 60 / 70 / 60 | 6'7" (2 m) / 260 kg | Put a Dracovish or Arctovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a DNA Purifier beside it, pick Dunclovish at the Purifier and purify it (it keeps its level, nature and moves). | The Fossilized Fish's true owner: an armoured fish whose head is one great plate of steel. Its bite could shear through the shells of anything that lived in the ancient seas. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

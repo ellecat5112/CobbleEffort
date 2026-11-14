@@ -47,7 +47,8 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
     @Override
     public void render(DnaMachineBlockEntity be, float partial, PoseStack pose, MultiBufferSource buffers, int light, int overlay) {
         long time = be.getLevel() == null ? 0 : be.getLevel().getGameTime();
-        float level = "mew".equals(be.inside()) ? 1F : be.fillLevel() / (float) DnaMachineBlockEntity.CAPACITY;
+        float level = "mew".equals(be.inside()) || be.purifying() ? 1F
+                : be.mixed() ? 0.6F : be.fillLevel() / (float) DnaMachineBlockEntity.CAPACITY;
         if (be.occupied()) {
             try {
                 renderPokemon(be, partial, pose, buffers, time);
@@ -127,7 +128,9 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
         String key = be.inside() + (be.shiny() ? ":shiny" : "");
         if (!key.equals(keys.get(be)) || !displays.containsKey(be)) {
             keys.put(be, key);
-            Species species = PokemonSpecies.getByName(be.inside());
+            Species species = be.inside().contains(":")
+                    ? PokemonSpecies.getByIdentifier(net.minecraft.resources.ResourceLocation.parse(be.inside()))
+                    : PokemonSpecies.getByName(be.inside());
             if (species == null || be.getLevel() == null) {
                 displays.remove(be);
                 return null;
