@@ -298,6 +298,8 @@ The CobbleEffortian Slugma and Petroil are after @Kai_FakemonsR's art (Petroil k
 Poison/Fire); the models, the Garbage Bag and Pokédex entries are our own.
 Dracomizer, Velozolt, Arctosaur and Dunclovish are after art the user shared (names kept, artist not named); the
 models and Pokédex entries are our own.
+Stackid, Stackoulder and Piloulder are after art the user shared (names kept, artist not named); the models and
+Pokédex entries are our own.
 Ufly and its Swarm Form are after @maumesdex's art (name kept); the models, Neon Swarm and Pokédex entry are our
 own.
 The CobbleEffortian Groudon (Steel/Fire) is after the regional Groudon art by Hoops and Hiphop, and the

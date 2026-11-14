@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "piloulder-ridges",
+   "pokemon": "cobbleeffort:piloulder",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "40-55",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_highlands"
+    ]
+   }
+  }
+ ]
+}

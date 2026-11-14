@@ -243,6 +243,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   translucent oval planes, `mini_bug()`; @maumesdex's art, name kept): Bug/Psychic solo/swarm like Sparkling, Swarm Form
   `ufly_swarm.py` (a ~10-block flying saucer on a stalk planted in an arch, baseScale 3.3); ability Neon Swarm =
   Murmuration's script with Ufly's Showdown names (built from it in build.py). Tested: ufly_sim.js.
+  Stackid -> Stackoulder -> Piloulder (#3160-3162, line "cairn", `models/_cairn.py`: palette, `stone()` with fine
+  wandering cracks (thin ones turn to speckles at low K), `pebble()` = a flattened 3-layer stone, eyes `slit`/`stern`/
+  `angry`; the user's art, artist not named, names kept): pure Rock at 20/40, Sturdy / Rock Head / Stamina; a cairn of
+  faced stones, a boulder balancing stones, an inukshuk with floating standing-stone arms.
   Kidlope -> Shadelope -> Ghillope (#3151-3153, line "goatrabbit", `models/_lope.py`: palette, `furry()` vine bands +
   crossing chest vines, `hoofed()` split hooves, `horn()` ridged, `ear()` (a rod pointing up shows its local "up" face
   to the front: INNER), `ruff()` leaf lumps round a ring, `sprig()`, `eye()` with lid/slant; the user's art, artist not

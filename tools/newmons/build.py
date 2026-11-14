@@ -3573,6 +3573,68 @@ SPECIES.update({
 })
 LINES["ufly"] = ["ufly"]
 
+# --- The cairn line (#3160-3162, the user's art, artist not named, names kept): Stackid -> Stackoulder (20) ->
+# Piloulder (40), pure Rock: a cairn of little faced stones, a boulder balancing stones, an inukshuk golem.
+CAIRN = dict(male=0.5, egg_groups=["mineral"], friendship=50, growth="medium_slow",
+             abilities=["sturdy", "rockhead", "h:stamina"], ability_names="Sturdy / Rock Head / Stamina (hidden)")
+CAIRN_EARLY = [(1, "tackle"), (1, "defensecurl"), (4, "rockthrow"), (8, "harden"), (12, "smackdown"),
+               (16, "rollout"), (20, "rocktomb")]
+CAIRN_TM = BASIC_TM + ["rockslide", "stoneedge", "rocktomb", "rockblast", "stealthrock", "sandstorm", "smackdown",
+                       "rockpolish", "irondefense", "bodypress", "bulldoze", "earthquake", "stompingtantrum",
+                       "highhorsepower", "heavyslam", "ironhead", "brickbreak", "rockslide", "meteorbeam", "powergem",
+                       "earthpower", "selfdestruct", "explosion", "gyroball", "trick", "rollout"]
+SPECIES.update({
+    "stackid": {
+        "dex": 3160, "name": "Stackid", "line": "cairn", "types": ["rock"], **CAIRN,
+        "stats": stats(50, 55, 85, 25, 40, 20), "ev": evs(defence=1), "catch": 190, "exp": 60,
+        "height": 6, "weight": 400, "shoulder": False, "walk": 0.2,
+        "moves": CAIRN_EARLY, "tm": CAIRN_TM, "egg": ["headsmash", "wideguard", "curse", "block", "accelerock"],
+        "evolve": ("stackoulder", 20, ["rockpolish"]),
+        "drops": [("minecraft:cobblestone", "1-3", None), ("minecraft:flint", "0-1", None)],
+        "entry": ("Every stone in its stack has a face and a mood of its own, and they squabble constantly. Travellers "
+                  "who find one standing by a mountain path add a pebble to the top for luck; it pretends not to notice."),
+        "spawns": [route_spawn("stackid-slopes", "common", "3-22", 6.0,
+                               ["#cobblemon:is_mountain", "#cobblemon:is_hills", "#cobblemon:is_highlands",
+                                "minecraft:stony_shore"])],
+        "how": ["Wild: common on mountains, hills, highlands and stony shores.", "Evolves into Stackoulder at level 20."],
+    },
+    "stackoulder": {
+        "dex": 3161, "name": "Stackoulder", "line": "cairn", "types": ["rock"], **CAIRN,
+        "stats": stats(70, 80, 110, 35, 60, 30), "ev": evs(defence=2), "catch": 90, "exp": 137,
+        "height": 11, "weight": 1450, "shoulder": False, "walk": 0.22,
+        "moves": [(1, "rockpolish")] + CAIRN_EARLY + [(20, "rockpolish"), (25, "headbutt"), (30, "rockslide"),
+                                                      (35, "irondefense")],
+        "tm": CAIRN_TM, "egg": ["headsmash", "wideguard", "curse", "block", "accelerock"],
+        "evolve": ("piloulder", 40, ["stoneedge"]),
+        "drops": [("minecraft:cobblestone", "2-4", None), ("minecraft:flint", "0-2", None)],
+        "entry": ("It never drops the stones it balances, not even in battle. Its sense of balance is so fine that it "
+                  "can feel an earthquake coming a whole day before it strikes."),
+        "spawns": [route_spawn("stackoulder-slopes", "uncommon", "20-40", 2.0,
+                               ["#cobblemon:is_mountain", "#cobblemon:is_hills", "#cobblemon:is_highlands"])],
+        "how": ["Evolve Stackid at level 20.", "Wild: uncommon on mountains, hills and highlands.",
+                "Evolves into Piloulder at level 40."],
+    },
+    "piloulder": {
+        "dex": 3162, "name": "Piloulder", "line": "cairn", "types": ["rock"], **CAIRN,
+        "stats": stats(95, 125, 140, 45, 80, 30), "ev": evs(defence=3), "catch": 45, "exp": 241,
+        "height": 25, "weight": 4100, "shoulder": False, "walk": 0.25,
+        "moves": [(1, "stoneedge"), (1, "rockpolish")] + CAIRN_EARLY + [(20, "rockpolish"), (25, "headbutt"),
+                                                                       (30, "rockslide"), (35, "irondefense"),
+                                                                       (40, "stoneedge"), (46, "bodypress"),
+                                                                       (52, "wideguard"), (58, "headsmash")],
+        "tm": CAIRN_TM + ["gigaimpact", "hyperbeam", "hammerarm", "superpower", "stoneaxe"],
+        "egg": ["headsmash", "wideguard", "curse", "block", "accelerock"],
+        "evolve": None,
+        "drops": [("minecraft:cobblestone", "2-5", None), ("minecraft:moss_block", "0-1", None),
+                  ("cobblemon:hard_stone", None, 5.0)],
+        "entry": ("It stands for years on high ridges, so still that it is mistaken for a stone marker. Lost travellers "
+                  "who follow the way its arms point always find their path home."),
+        "spawns": [route_spawn("piloulder-ridges", "rare", "40-55", 1.0, ["#cobblemon:is_mountain", "#cobblemon:is_highlands"])],
+        "how": ["Evolve Stackoulder at level 40.", "Wild: rare on mountains and highlands."],
+    },
+})
+LINES["cairn"] = ["stackid", "stackoulder", "piloulder"]
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.

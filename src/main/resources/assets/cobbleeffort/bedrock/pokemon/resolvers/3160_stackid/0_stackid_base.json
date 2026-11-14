@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:stackid",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:stackid",
+   "model": "cobbleeffort:stackid.geo",
+   "texture": "cobbleeffort:textures/pokemon/3160_stackid/stackid.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3160_stackid/stackid_shiny.png"
+  }
+ ]
+}

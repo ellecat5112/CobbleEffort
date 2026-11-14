@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 179 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 182 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3405,6 +3405,36 @@ cobbleeffort:cavitot.
   * Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Neon Swarm
     calls its swarm and it becomes a ~10-block flying saucer made of thousands of Uflys (like
     Wishiwashi).
+
+#3160 STACKID  (Rock; Sturdy / Rock Head / Stamina (hidden))
+  a little cairn of stones with faces: a grey bottom stone with slit eyes and pebble hands and feet,
+  a grumpy brown stone with a frown, an olive stone with slits, and two pebbles on top
+  Stats: HP 50  Atk 55  Def 85  SpA 25  SpD 40  Spe 20  (total 275)
+  Pokedex: "Every stone in its stack has a face and a mood of its own, and they squabble constantly.
+  Travellers who find one standing by a mountain path add a pebble to the top for luck; it pretends
+  not to notice."
+  * Wild: common on mountains, hills, highlands and stony shores.
+  * Evolves into Stackoulder at level 20.
+
+#3161 STACKOULDER  (Rock; Sturdy / Rock Head / Stamina (hidden))
+  a round grey boulder with big stern eyes and stubby feet, balancing a tower of flat stones on its
+  head and an olive pebble on the flat stone it holds out like a tray
+  Stats: HP 70  Atk 80  Def 110  SpA 35  SpD 60  Spe 30  (total 385)
+  Pokedex: "It never drops the stones it balances, not even in battle. Its sense of balance is so
+  fine that it can feel an earthquake coming a whole day before it strikes."
+  * Evolve Stackid at level 20.
+  * Wild: uncommon on mountains, hills and highlands.
+  * Evolves into Piloulder at level 40.
+
+#3162 PILOULDER  (Rock; Sturdy / Rock Head / Stamina (hidden))
+  a towering inukshuk of stones: stacked stone legs on a mossy slab, a body of tilted flat slabs
+  under a broad slab of shoulders, a small grey head with stern eyes, and two tall standing stones
+  floating beside it as arms
+  Stats: HP 95  Atk 125  Def 140  SpA 45  SpD 80  Spe 30  (total 515)
+  Pokedex: "It stands for years on high ridges, so still that it is mistaken for a stone marker.
+  Lost travellers who follow the way its arms point always find their path home."
+  * Evolve Stackoulder at level 40.
+  * Wild: rare on mountains and highlands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
