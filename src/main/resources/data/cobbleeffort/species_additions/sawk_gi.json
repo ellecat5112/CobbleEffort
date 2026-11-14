@@ -1,0 +1,56 @@
+{
+ "target": "cobblemon:sawk",
+ "evolutions": [
+  {
+   "id": "sawk_gi",
+   "variant": "item_interact",
+   "result": "cobblemon:sawk gi",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "thunderchop"
+   ],
+   "requiredContext": {
+    "item": "minecraft:echo_shard",
+    "nbt": "{cobbleeffort_gi:\"masters_gi\"}"
+   }
+  }
+ ],
+ "forms": [
+  {
+   "name": "Gi",
+   "aspects": [
+    "gi"
+   ],
+   "primaryType": "fighting",
+   "secondaryType": "electric",
+   "abilities": [
+    "sturdy",
+    "motordrive",
+    "h:moldbreaker"
+   ],
+   "baseStats": {
+    "hp": 75,
+    "attack": 150,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 130
+   },
+   "baseScale": 0.62,
+   "hitbox": {
+    "width": 1.3,
+    "height": 2.45,
+    "fixed": false
+   },
+   "labels": [
+    "cobbleeffort_gi"
+   ],
+   "pokedex": [
+    "cobbleeffort.species.sawk-gi.desc"
+   ],
+   "battleOnly": false,
+   "evolutions": []
+  }
+ ],
+ "preEvolution": "cobbleeffort:chawp"
+}

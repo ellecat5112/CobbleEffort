@@ -3386,6 +3386,66 @@ SPECIES.update({
 })
 LINES["den"] = ["hopple", "rabbrute"]
 
+# --- Chawp -> Sawk / Throh / Kiq (#3146-3147, @magikdex's Cornera region art, names kept; the user's idea): a baby
+# fighter that branches like Tyrogue (by Attack vs Defence at level 20) into Sawk, Throh or the new Kiq, the third of
+# their trinity. Each of the three has a Gi form, unlocked by the Master's Gi (gi.py).
+FIGHT_TM = BASIC_TM + ["brickbreak", "bulkup", "lowkick", "lowsweep", "rocksmash", "rocktomb", "rockslide", "bulldoze",
+                       "focusblast", "poisonjab", "drainpunch", "icepunch", "firepunch", "thunderpunch", "aerialace",
+                       "taunt", "swagger", "bodyslam", "endeavor", "reversal", "helpinghand", "coaching", "falseswipe",
+                       "knockoff", "uturn", "vacuumwave", "detect", "counter", "seismictoss"]
+CHAWP_EARLY = [(1, "tackle"), (1, "leer"), (1, "fakeout"), (5, "focusenergy"), (9, "karatechop"), (13, "lowkick"),
+               (17, "seismictoss")]
+SPECIES.update({
+    "chawp": {
+        "dex": 3146, "name": "Chawp", "line": "cornera_fighters", "types": ["fighting"], "friendship": 70,
+        "growth": "medium_fast", "catch": 75, "male": 1.0, "egg_groups": ["undiscovered"],
+        "abilities": ["innerfocus", "guts", "h:scrappy"], "ability_names": "Inner Focus / Guts / Scrappy (hidden)",
+        "stats": stats(40, 50, 45, 25, 45, 45), "ev": evs(attack=1), "exp": 42,
+        "height": 6, "weight": 180, "shoulder": False, "walk": 0.32,
+        "moves": CHAWP_EARLY + [(20, "doublekick"), (24, "revenge"), (28, "brickbreak")],
+        "tm": FIGHT_TM, "egg": ["machpunch", "vacuumwave", "quickguard", "feint", "bulletpunch"],
+        "evolve": ("cobblemon:sawk", 20, ["karatechop"],
+                   [{"variant": "stat_compare", "highStat": "attack", "lowStat": "defence"}]),
+        "evolve_alt": [("cobblemon:throh", 20, ["seismictoss"],
+                        [{"variant": "stat_compare", "highStat": "defence", "lowStat": "attack"}]),
+                       ("kiq", 20, ["doublekick"], [{"variant": "stat_equal", "statOne": "attack", "statTwo": "defence"}])],
+        "drops": [("minecraft:white_wool", "0-1", None), ("minecraft:string", "0-2", None)],
+        "entry": ("It picks fights with anything bigger than itself just to prove how tough it is, and it never stays "
+                  "down. Whether it trains its strikes, its throws or its kicks decides what it becomes."),
+        "spawns": [route_spawn("chawp-hills", "uncommon", "5-20", 3.0,
+                               ["#cobblemon:is_hills", "#cobblemon:is_mountain", "#cobblemon:is_plains"]),
+                   spawn("chawp-dojo", "common", "8-22", 12.0, {"structures": ["cobbleeffort:dojo"]})],
+        "how": ["Wild: uncommon in hills, mountains and plains; common around dojos.",
+                "Evolves at level 20: into Sawk if its Attack is higher than its Defence, into Throh if its Defence is "
+                "higher, and into Kiq if they're equal (like Tyrogue)."],
+    },
+    "kiq": {
+        "dex": 3147, "name": "Kiq", "line": "cornera_fighters", "types": ["fighting"], "friendship": 70,
+        "growth": "medium_fast", "catch": 45, "male": 1.0, "egg_groups": ["human_like"],
+        "abilities": ["limber", "innerfocus", "h:moldbreaker"], "ability_names": "Limber / Inner Focus / Mold Breaker (hidden)",
+        "stats": stats(75, 115, 75, 30, 75, 95), "ev": evs(speed=2), "exp": 163,
+        "height": 14, "weight": 520, "shoulder": False, "walk": 0.42,
+        "moves": [(1, "doublekick")] + CHAWP_EARLY + [(20, "rollingkick"), (24, "revenge"),
+                                                      (28, "lowsweep"), (32, "triplekick"), (36, "bulkup"),
+                                                      (40, "blazekick"), (44, "tropkick"), (48, "highjumpkick"),
+                                                      (52, "closecombat"), (56, "megakick")],
+        "tm": FIGHT_TM + ["closecombat", "highjumpkick", "megakick", "tripleaxel", "blazekick", "tropkick",
+                          "gigaimpact", "superpower", "bodypress", "agility", "throatchop", "stompingtantrum",
+                          "earthquake", "zenheadbutt", "trailblaze"],
+        "egg": ["machpunch", "vacuumwave", "quickguard", "feint", "bulletpunch"],
+        "evolve": None,
+        "drops": [("minecraft:white_wool", "0-2", None), ("cobblemon:black_belt", None, 2.0)],
+        "entry": ("The kickboxer of the trinity it forms with Sawk and Throh. It keeps its guard up at all times and "
+                  "fights only with its legs; one of its kicks can snap a tree trunk clean through."),
+        "spawns": [route_spawn("kiq-mountains", "rare", "25-40", 1.0, ["#cobblemon:is_hills", "#cobblemon:is_mountain"]),
+                   spawn("kiq-dojo", "uncommon", "25-40", 2.0, {"structures": ["cobbleeffort:dojo"]})],
+        "how": ["Evolve Chawp at level 20 when its Attack and Defence are equal.",
+                "Wild: rare in hills and mountains, uncommon around dojos.",
+                "Gi form (Fighting/Ice): use a Master's Gi on it."],
+    },
+})
+LINES["cornera_fighters"] = ["chawp", "kiq"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -3652,8 +3712,10 @@ from liquor_battle import LIQ_ABILITIES, LIQ_MOVES                # the Liquor M
 CUSTOM_ABILITIES.update(LIQ_ABILITIES)
 CUSTOM_MOVES.update(LIQ_MOVES)
 from evo_battle import EVO_ABILITIES, EVO_MOVES                  # the 0.80.0 evolution lines' abilities and moves  # noqa: E402
+import gi                                                        # Gi forms, the Master's Gi, the dojo  # noqa: E402
 CUSTOM_ABILITIES.update(EVO_ABILITIES)
 CUSTOM_MOVES.update(EVO_MOVES)
+CUSTOM_MOVES.update(gi.GI_MOVES)
 
 def ascii_name(name):
     """The species json's name, in plain ASCII like Cobblemon's own ("Flabebe"): Cobblemon builds the lang key and the
@@ -3841,11 +3903,12 @@ def species_json(sp):
                             **({"requirements": more[0]} if more else {})}]
     elif c["evolve"]:
         to, lv, learn, *more = c["evolve"]
-        d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),
+        rid = lambda t: t if ":" in t else f"{MOD}:{t}"       # another mod's species keeps its namespace
+        d["evolutions"] = [{"id": f"{sp}_{to.split(':')[-1]}", "variant": "level_up", "result": rid(to), "consumeHeldItem": bool(c.get("consume")),
                             "learnableMoves": learn,
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
         for n, (to2, lv2, learn2, *more2) in enumerate(c.get("evolve_alt", []), 2):   # other routes (e.g. another item)
-            d["evolutions"].append({"id": f"{sp}_{to2}_{n}", "variant": "level_up", "result": f"{MOD}:{to2}",
+            d["evolutions"].append({"id": f"{sp}_{to2.split(':')[-1]}_{n}", "variant": "level_up", "result": rid(to2),
                                     "consumeHeldItem": bool(c.get("consume")), "learnableMoves": learn2,
                                     "requirements": [{"variant": "level", "minLevel": lv2}] + (more2[0] if more2 else [])})
         if c.get("consume"):
@@ -3854,7 +3917,8 @@ def species_json(sp):
             for e in d["evolutions"]:
                 e["permanent"] = True
     pre = [s for s, o in SPECIES.items() if (o["evolve"] and o["evolve"][0] == sp)
-           or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)]
+           or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)
+           or any(e[0] == sp for e in o.get("evolve_alt", []))]
     if c.get("pre"):                                        # evolves from another mod's form (e.g. a regional one)
         d["preEvolution"] = c["pre"]
     elif pre:
@@ -3972,6 +4036,7 @@ def main():
     fossils.build(lang)
     import nests                                             # nest structures (the pinbirds spawn at theirs)
     nests.build(lang)
+    manifest += gi.build(lang, SPECIES, model_module, write_model_assets)                     # Sawk/Throh/Kiq Gi forms, the Master's Gi, the dojo
     _tufts.build(lang)                                       # Aetherim's elemental tufts (cosmetic items + named tufts)
     import subprocess                                       # the creative tab's item list (fossils, tufts, collections)
     subprocess.run([sys.executable, str(HERE.parent / "make_creative_tab.py")], check=True)

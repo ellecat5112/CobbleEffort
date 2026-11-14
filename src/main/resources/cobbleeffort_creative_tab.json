@@ -574,6 +574,22 @@
    }
   },
   {
+   "id": "minecraft:echo_shard",
+   "count": 1,
+   "components": {
+    "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.masters_gi\", \"italic\": false}",
+    "minecraft:lore": [
+     "{\"translate\": \"item.cobbleeffort.masters_gi.tooltip\", \"color\": \"gray\", \"italic\": false}"
+    ],
+    "minecraft:custom_model_data": 794810,
+    "minecraft:rarity": "rare",
+    "minecraft:max_stack_size": 16,
+    "minecraft:custom_data": {
+     "cobbleeffort_gi": "masters_gi"
+    }
+   }
+  },
+  {
    "id": "minecraft:red_wool",
    "count": 1,
    "components": {

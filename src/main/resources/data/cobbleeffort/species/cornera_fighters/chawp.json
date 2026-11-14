@@ -1,0 +1,208 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3146,
+ "name": "Chawp",
+ "primaryType": "fighting",
+ "maleRatio": 1.0,
+ "height": 6,
+ "weight": 180,
+ "pokedex": [
+  "cobbleeffort.species.chawp.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "innerfocus",
+  "guts",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 50,
+  "defence": 45,
+  "special_attack": 25,
+  "special_defence": 45,
+  "speed": 45
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 42,
+ "experienceGroup": "medium_fast",
+ "catchRate": 75,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.48,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:string",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:fakeout",
+  "5:focusenergy",
+  "9:karatechop",
+  "13:lowkick",
+  "17:seismictoss",
+  "20:doublekick",
+  "24:revenge",
+  "28:brickbreak",
+  "egg:machpunch",
+  "egg:vacuumwave",
+  "egg:quickguard",
+  "egg:feint",
+  "egg:bulletpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:rocksmash",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:bulldoze",
+  "tm:focusblast",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:icepunch",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:aerialace",
+  "tm:taunt",
+  "tm:swagger",
+  "tm:bodyslam",
+  "tm:endeavor",
+  "tm:reversal",
+  "tm:helpinghand",
+  "tm:coaching",
+  "tm:falseswipe",
+  "tm:knockoff",
+  "tm:uturn",
+  "tm:vacuumwave",
+  "tm:detect",
+  "tm:counter",
+  "tm:seismictoss"
+ ],
+ "evolutions": [
+  {
+   "id": "chawp_sawk",
+   "variant": "level_up",
+   "result": "cobblemon:sawk",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "karatechop"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    },
+    {
+     "variant": "stat_compare",
+     "highStat": "attack",
+     "lowStat": "defence"
+    }
+   ]
+  },
+  {
+   "id": "chawp_throh_2",
+   "variant": "level_up",
+   "result": "cobblemon:throh",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "seismictoss"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    },
+    {
+     "variant": "stat_compare",
+     "highStat": "defence",
+     "lowStat": "attack"
+    }
+   ]
+  },
+  {
+   "id": "chawp_kiq_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:kiq",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "doublekick"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    },
+    {
+     "variant": "stat_equal",
+     "statOne": "attack",
+     "statTwo": "defence"
+    }
+   ]
+  }
+ ]
+}

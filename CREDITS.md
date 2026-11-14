@@ -286,6 +286,8 @@ Hopple and Rabbrute (their names and designs) are after the Sundor Region's fake
 stats, moves, Pokédex entries and the Call of the Den fusion are our own (the fusion is the user's idea).
 The CobbleEffortian (Ghost/Fire) Gastly, Haunter and Gengar designs are after @tomats_art's art; their models, moves
 and Pokédex entries are our own.
+Chawp, Kiq and the Gi forms of Sawk, Throh and Kiq are after @magikdex's Cornera region art (Chawp and Kiq keep
+their names); the models, moves, the Master's Gi and the dojo are our own.
 
 ## Code and data
 

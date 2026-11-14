@@ -1,0 +1,170 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3147,
+ "name": "Kiq",
+ "primaryType": "fighting",
+ "maleRatio": 1.0,
+ "height": 14,
+ "weight": 520,
+ "pokedex": [
+  "cobbleeffort.species.kiq.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "limber",
+  "innerfocus",
+  "h:moldbreaker"
+ ],
+ "eggGroups": [
+  "human_like"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 115,
+  "defence": 75,
+  "special_attack": 30,
+  "special_defence": 75,
+  "speed": 95
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 163,
+ "experienceGroup": "medium_fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.61,
+ "hitbox": {
+  "width": 1.0,
+  "height": 2.3,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.42
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:black_belt",
+    "percentage": 2.0
+   }
+  ]
+ },
+ "moves": [
+  "1:doublekick",
+  "1:tackle",
+  "1:leer",
+  "1:fakeout",
+  "5:focusenergy",
+  "9:karatechop",
+  "13:lowkick",
+  "17:seismictoss",
+  "20:rollingkick",
+  "24:revenge",
+  "28:lowsweep",
+  "32:triplekick",
+  "36:bulkup",
+  "40:blazekick",
+  "44:tropkick",
+  "48:highjumpkick",
+  "52:closecombat",
+  "56:megakick",
+  "egg:machpunch",
+  "egg:vacuumwave",
+  "egg:quickguard",
+  "egg:feint",
+  "egg:bulletpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:rocksmash",
+  "tm:rocktomb",
+  "tm:rockslide",
+  "tm:bulldoze",
+  "tm:focusblast",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:icepunch",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:aerialace",
+  "tm:taunt",
+  "tm:swagger",
+  "tm:bodyslam",
+  "tm:endeavor",
+  "tm:reversal",
+  "tm:helpinghand",
+  "tm:coaching",
+  "tm:falseswipe",
+  "tm:knockoff",
+  "tm:uturn",
+  "tm:vacuumwave",
+  "tm:detect",
+  "tm:counter",
+  "tm:seismictoss",
+  "tm:closecombat",
+  "tm:highjumpkick",
+  "tm:megakick",
+  "tm:tripleaxel",
+  "tm:blazekick",
+  "tm:tropkick",
+  "tm:gigaimpact",
+  "tm:superpower",
+  "tm:bodypress",
+  "tm:agility",
+  "tm:throatchop",
+  "tm:stompingtantrum",
+  "tm:earthquake",
+  "tm:zenheadbutt",
+  "tm:trailblaze"
+ ],
+ "preEvolution": "cobbleeffort:chawp"
+}

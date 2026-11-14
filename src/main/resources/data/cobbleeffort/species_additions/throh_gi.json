@@ -1,0 +1,56 @@
+{
+ "target": "cobblemon:throh",
+ "evolutions": [
+  {
+   "id": "throh_gi",
+   "variant": "item_interact",
+   "result": "cobblemon:throh gi",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "infernotoss"
+   ],
+   "requiredContext": {
+    "item": "minecraft:echo_shard",
+    "nbt": "{cobbleeffort_gi:\"masters_gi\"}"
+   }
+  }
+ ],
+ "forms": [
+  {
+   "name": "Gi",
+   "aspects": [
+    "gi"
+   ],
+   "primaryType": "fighting",
+   "secondaryType": "fire",
+   "abilities": [
+    "guts",
+    "flashfire",
+    "h:moldbreaker"
+   ],
+   "baseStats": {
+    "hp": 135,
+    "attack": 130,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 100,
+    "speed": 55
+   },
+   "baseScale": 0.72,
+   "hitbox": {
+    "width": 1.6,
+    "height": 2.0,
+    "fixed": false
+   },
+   "labels": [
+    "cobbleeffort_gi"
+   ],
+   "pokedex": [
+    "cobbleeffort.species.throh-gi.desc"
+   ],
+   "battleOnly": false,
+   "evolutions": []
+  }
+ ],
+ "preEvolution": "cobbleeffort:chawp"
+}

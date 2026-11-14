@@ -212,6 +212,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   translucent puffs, `flames()` fans of flame spikes, `red_spotted()`): FIRE_REPLACE swaps poison moves for fire ones,
   spawns HELLFIRE = hot biomes at night + the Nether (`dimensions` the_nether, `#minecraft:is_nether`). LINE `evolve`
   may be (next, "trade", learn): a trade evolution (Haunter -> Gengar). The preview manifest lists glow and shell layers.
+  Chawp -> Sawk / Throh / Kiq (#3146-3147, line "cornera_fighters", @magikdex's Cornera art, names kept;
+  `models/_gi.py` palette + `seamed()` quilted seams, `fan`, `ring_spikes`, `zigzag`; `_kiq.py` body shared with Kiq's
+  Gi): Tyrogue-style branching at 20 (`stat_compare` / `stat_equal`); `evolve`/`evolve_alt` targets may be namespaced
+  (another mod's species). **Gi forms** (`tools/newmons/gi.py`, run by build.py): flag aspect `gi`; species_additions
+  append a "Gi" form (own empty evolutions) + an item_interact evolution whose result is the SAME species with the
+  aspect (Cobblemon applies it in place; the item unlocks the Evolve button and is used up) + preEvolution Chawp for
+  Sawk/Throh; resolvers order 5 pin `<sp>_gi` box models. The Master's Gi = echo shard custom_data
+  {cobbleeffort_gi: "masters_gi"} (cmd 10; its override is appended last in fossils.build: overrides need ascending
+  custom_model_data), shaped recipe, `dojo` structure (chest loot). Shaders take the face as the keyword `face`.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

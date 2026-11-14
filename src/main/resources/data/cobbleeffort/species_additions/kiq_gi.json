@@ -1,0 +1,141 @@
+{
+ "target": "cobbleeffort:kiq",
+ "evolutions": [
+  {
+   "id": "kiq_gi",
+   "variant": "item_interact",
+   "result": "cobbleeffort:kiq gi",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "frostroundhouse"
+   ],
+   "requiredContext": {
+    "item": "minecraft:echo_shard",
+    "nbt": "{cobbleeffort_gi:\"masters_gi\"}"
+   }
+  }
+ ],
+ "forms": [
+  {
+   "name": "Gi",
+   "aspects": [
+    "gi"
+   ],
+   "primaryType": "fighting",
+   "secondaryType": "ice",
+   "abilities": [
+    "limber",
+    "slushrush",
+    "h:moldbreaker"
+   ],
+   "baseStats": {
+    "hp": 80,
+    "attack": 145,
+    "defence": 85,
+    "special_attack": 40,
+    "special_defence": 85,
+    "speed": 130
+   },
+   "baseScale": 0.66,
+   "hitbox": {
+    "width": 1.3,
+    "height": 2.45,
+    "fixed": false
+   },
+   "labels": [
+    "cobbleeffort_gi"
+   ],
+   "pokedex": [
+    "cobbleeffort.species.kiq-gi.desc"
+   ],
+   "battleOnly": false,
+   "evolutions": [],
+   "moves": [
+    "1:doublekick",
+    "1:tackle",
+    "1:leer",
+    "1:fakeout",
+    "5:focusenergy",
+    "9:karatechop",
+    "13:lowkick",
+    "17:seismictoss",
+    "20:rollingkick",
+    "24:revenge",
+    "28:lowsweep",
+    "32:triplekick",
+    "36:bulkup",
+    "40:blazekick",
+    "44:tropkick",
+    "48:highjumpkick",
+    "52:closecombat",
+    "56:megakick",
+    "egg:machpunch",
+    "egg:vacuumwave",
+    "egg:quickguard",
+    "egg:feint",
+    "egg:bulletpunch",
+    "tm:protect",
+    "tm:rest",
+    "tm:substitute",
+    "tm:facade",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:endure",
+    "tm:terablast",
+    "tm:round",
+    "tm:toxic",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:rockslide",
+    "tm:bulldoze",
+    "tm:focusblast",
+    "tm:poisonjab",
+    "tm:drainpunch",
+    "tm:icepunch",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:aerialace",
+    "tm:taunt",
+    "tm:swagger",
+    "tm:bodyslam",
+    "tm:endeavor",
+    "tm:reversal",
+    "tm:helpinghand",
+    "tm:coaching",
+    "tm:falseswipe",
+    "tm:knockoff",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:detect",
+    "tm:counter",
+    "tm:seismictoss",
+    "tm:closecombat",
+    "tm:highjumpkick",
+    "tm:megakick",
+    "tm:tripleaxel",
+    "tm:blazekick",
+    "tm:tropkick",
+    "tm:gigaimpact",
+    "tm:superpower",
+    "tm:bodypress",
+    "tm:agility",
+    "tm:throatchop",
+    "tm:stompingtantrum",
+    "tm:earthquake",
+    "tm:zenheadbutt",
+    "tm:trailblaze",
+    "1:frostroundhouse",
+    "tm:icespinner",
+    "tm:iciclecrash",
+    "tm:avalanche",
+    "tm:icywind",
+    "tm:snowscape",
+    "tm:auroraveil"
+   ]
+  }
+ ]
+}

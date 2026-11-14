@@ -1,0 +1,35 @@
+{
+ "species": "cobbleeffort:kiq",
+ "order": 5,
+ "variations": [
+  {
+   "aspects": [
+    "gi"
+   ],
+   "poser": "cobbleeffort:kiq_gi",
+   "model": "cobbleeffort:kiq_gi.geo",
+   "texture": "cobbleeffort:textures/pokemon/gi/3147_kiq/kiq_gi.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/gi/3147_kiq/kiq_gi_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "gi",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/gi/3147_kiq/kiq_gi_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/gi/3147_kiq/kiq_gi_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "kiq-mountains",
+   "pokemon": "cobbleeffort:kiq",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "25-40",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_hills",
+     "#cobblemon:is_mountain"
+    ]
+   }
+  },
+  {
+   "id": "kiq-dojo",
+   "pokemon": "cobbleeffort:kiq",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "25-40",
+   "weight": 2.0,
+   "condition": {
+    "structures": [
+     "cobbleeffort:dojo"
+    ]
+   }
+  }
+ ]
+}

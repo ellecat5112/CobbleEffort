@@ -1598,6 +1598,22 @@ Infernal Parade. Levitate / Flame Body (hidden) for Gastly and Haunter, Cursed B
 Gengar. Gastly evolves at 25, Haunter when traded (like the originals). Found on hot nights in badlands, deserts and
 savannas, and all over the Nether (Gengar ultra-rare there). Shiny: blue with cyan flames.
 
+**Chawp, Kiq and the Gi forms** (after @magikdex's Cornera region art; Chawp and Kiq keep their names): **Chawp**
+(#3146, Fighting), a scrappy little fighter with a huge round head, a brow plate, a cheek bandage and barrel shorts, is
+the new pre-evolution of Sawk and Throh. Like Tyrogue it branches at level 20: into **Sawk** when its Attack is higher,
+**Throh** when its Defence is, and **Kiq** (#3147, Fighting, the kickboxer: quilted segments, big shoulder pads, an
+X-shaped mask) when they're equal, completing the Sawk/Throh/Kiq trinity. Each of the three has a **Gi form**, a
+special evolution unlocked by a rare item, the **Master's Gi** (crafted from six White Wool, a Gold Ingot, a Cobblemon
+Black Belt and a Diamond, or found in the chests of **dojos**, small training halls in plains, meadows, cherry groves,
+taigas, savannas, hills, bamboo jungles and snowy plains). Use it on the Pokémon to unlock the Evolve button:
+- **Sawk's Gi** (Fighting/Electric): a great mane of jagged electric spikes, lightning-bolt belt tails; learns
+  **Thunder Chop** (Electric, 90, high critical-hit ratio, 20% paralysis). Sturdy / Motor Drive / Mold Breaker.
+- **Throh's Gi** (Fighting/Fire): a blazing mane and fire at its hips and shoulders; learns **Inferno Toss** (Fire, 80,
+  forces a switch like Circle Throw, 30% burn). Guts / Flash Fire / Mold Breaker.
+- **Kiq's Gi** (Fighting/Ice): frost fur, icicles, a black star mask and icy belt streamers; learns **Frost Roundhouse**
+  (Ice, 85, high critical-hit ratio, 10% freeze). Limber / Slush Rush / Mold Breaker.
+Chawp is uncommon in hills, mountains and plains and common around dojos; Kiq is rare in hills and mountains.
+
 **Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
 solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
 a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).
@@ -1753,6 +1769,8 @@ ring on a lime stem.
 | 3143 | **Alembix** | Steel / Water | Condenser / Heatproof / Water Absorb (hidden) | 70 / 55 / 90 / 90 / 75 / 35 | 3'3" (1 m) / 82 kg | Evolve Copperpot at level 26. It learns Condense when it evolves. Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0). Evolves into Stillforge at level 42 with a Fire-type Pokémon in the party. | It grows a long, gracefully curved swan-neck pipe from its head that coils into a cooling tank on its back. It constantly drips crystal-clear distilled water from its spout, purifying polluted ponds wherever it walks. |
 | 3144 | **Hopple** | Normal | Run Away / Pickup / Friend Guard (hidden) | 45 / 50 / 40 / 30 / 40 / 75 | 1'4" (0.4 m) / 3 kg | Wild: common in plains, grasslands and forests. Family form: with three or more Hopples in your party, open the interaction wheel on a Hopple that knows Call of the Den and choose Call of the Den. Every Hopple in the party fuses into one Rabbrute (needs CobbleEffort: Kanto 0.10.0 or later). | A timid little rabbit that is never far from its den. When one is in danger it thumps the ground, and its whole family comes running. |
 | 3145 | **Rabbrute** | Normal / Fighting | Guts / Iron Fist / Scrappy (hidden) | 125 / 150 / 110 / 40 / 85 / 90 | 262'6" (80 m) / 999.9 kg | Hopple's family form: with three or more Hopples in your party, use Call of the Den from the interaction wheel of a Hopple that knows it (CobbleEffort: Kanto 0.10.0+). All the party's Hopples fuse into one Rabbrute, permanently. It isn't found in the wild. | The family form of Hopple. When a den is threatened, its Hopples pile into one another and fuse into a titan as tall as a mountain; every white tuft on it is a little face, and every red speck an eye watching over the family. |
+| 3146 | **Chawp** | Fighting | Inner Focus / Guts / Scrappy (hidden) | 40 / 50 / 45 / 25 / 45 / 45 | 2'0" (0.6 m) / 18 kg | Wild: uncommon in hills, mountains and plains; common around dojos. Evolves at level 20: into Sawk if its Attack is higher than its Defence, into Throh if its Defence is higher, and into Kiq if they're equal (like Tyrogue). | It picks fights with anything bigger than itself just to prove how tough it is, and it never stays down. Whether it trains its strikes, its throws or its kicks decides what it becomes. |
+| 3147 | **Kiq** | Fighting | Limber / Inner Focus / Mold Breaker (hidden) | 75 / 115 / 75 / 30 / 75 / 95 | 4'7" (1.4 m) / 52 kg | Evolve Chawp at level 20 when its Attack and Defence are equal. Wild: rare in hills and mountains, uncommon around dojos. Gi form (Fighting/Ice): use a Master's Gi on it. | The kickboxer of the trinity it forms with Sawk and Throh. It keeps its guard up at all times and fights only with its legs; one of its kicks can snap a tree trunk clean through. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

@@ -1,0 +1,107 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:echo_shard",
+     "weight": 1,
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.masters_gi\", \"italic\": false}",
+        "minecraft:lore": [
+         "{\"translate\": \"item.cobbleeffort.masters_gi.tooltip\", \"color\": \"gray\", \"italic\": false}"
+        ],
+        "minecraft:custom_model_data": 794810,
+        "minecraft:rarity": "rare",
+        "minecraft:max_stack_size": 16,
+        "minecraft:custom_data": {
+         "cobbleeffort_gi": "masters_gi"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:empty",
+     "weight": 2
+    }
+   ]
+  },
+  {
+   "rolls": {
+    "min": 2,
+    "max": 4
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:protein",
+     "weight": 3
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:x_attack",
+     "weight": 3
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:black_belt",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:muscle_band",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:focus_band",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:power_bracer",
+     "weight": 1
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:white_wool",
+     "weight": 4,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "min": 1,
+        "max": 4
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:bread",
+     "weight": 4,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "min": 1,
+        "max": 3
+       }
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:oran_berry",
+     "weight": 3
+    }
+   ]
+  }
+ ]
+}

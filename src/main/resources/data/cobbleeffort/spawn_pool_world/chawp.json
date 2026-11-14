@@ -1,0 +1,44 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "chawp-hills",
+   "pokemon": "cobbleeffort:chawp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "5-20",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_hills",
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_plains"
+    ]
+   }
+  },
+  {
+   "id": "chawp-dojo",
+   "pokemon": "cobbleeffort:chawp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "8-22",
+   "weight": 12.0,
+   "condition": {
+    "structures": [
+     "cobbleeffort:dojo"
+    ]
+   }
+  }
+ ]
+}

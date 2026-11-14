@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 158 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 163 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1755,6 +1755,28 @@ cobbleeffort:cavitot.
   flares up, and it grins as it chases the shadows of travellers through the badlands."
   * Wild: ultra-rare in the Nether (or trade a CobbleEffortian Haunter).
 
+#0538 THROH (GI FORM)  (Fighting / Fire; Guts / Flash Fire / Mold Breaker (hidden))
+  a hulking red judoka in a round black gi with white lapels and belt, jagged white trouser hems,
+  big open red hands, a black brow band and flames blazing round its head, shoulders and hips
+  Stats: HP 135  Atk 130  Def 105  SpA 40  SpD 100  Spe 55  (total 565)
+  Pokedex: "A Throh that has earned the Master's Gi. Its fighting spirit burns so hot that its gi
+  never catches fire; foes it throws land wreathed in flames."
+  * Use a Master's Gi on a Throh (it unlocks the Evolve button). It learns Inferno Toss when it
+    changes.
+  * Master's Gi: crafted from six White Wool, a Gold Ingot, a Black Belt and a Diamond, or found in
+    dojo chests.
+
+#0539 SAWK (GI FORM)  (Fighting / Electric; Sturdy / Motor Drive / Mold Breaker (hidden))
+  a blue karateka in a black gi with a teal collar and lightning-bolt belt tails, a horned black
+  headband, red eyes and a great white-teal mane of jagged electric spikes
+  Stats: HP 75  Atk 150  Def 80  SpA 50  SpD 80  Spe 130  (total 565)
+  Pokedex: "A Sawk that has earned the Master's Gi. Its focus is so sharp that it crackles: every
+  chop lands with a thunderclap, and its belt and collar spit sparks as it moves."
+  * Use a Master's Gi on a Sawk (it unlocks the Evolve button). It learns Thunder Chop when it
+    changes.
+  * Master's Gi: crafted from six White Wool, a Gold Ingot, a Black Belt and a Diamond, or found in
+    dojo chests.
+
 #0590 FOONGUS (COBBLEEFFORT FORM)  (Grass / Steel; Effect Spore / Iron Barbs / Regenerator (hidden))
   a little screw mushroom: a steel Phillips-head dome cap with rivets, a round white body with
   swirly eyes and a cheery mouth, two threaded screw arms and little copper feet
@@ -3190,6 +3212,37 @@ cobbleeffort:cavitot.
     interaction wheel of a Hopple that knows it (CobbleEffort: Kanto 0.10.0+). All the party's
     Hopples fuse into one Rabbrute, permanently.
   * It isn't found in the wild.
+
+#3146 CHAWP  (Fighting; Inner Focus / Guts / Scrappy (hidden))
+  a little scrapper with a huge round head, big determined eyes, a white plate on its brow, a cheek
+  bandage, grey barrel shorts with black cuffs and raised mitten fists
+  Stats: HP 40  Atk 50  Def 45  SpA 25  SpD 45  Spe 45  (total 250)
+  Pokedex: "It picks fights with anything bigger than itself just to prove how tough it is, and it
+  never stays down. Whether it trains its strikes, its throws or its kicks decides what it becomes."
+  * Wild: uncommon in hills, mountains and plains; common around dojos.
+  * Evolves at level 20: into Sawk if its Attack is higher than its Defence, into Throh if its
+    Defence is higher, and into Kiq if they're equal (like Tyrogue).
+
+#3147 KIQ  (Fighting; Limber / Inner Focus / Mold Breaker (hidden))
+  a tall kickboxer of rounded quilted grey-blue segments with big shoulder pads, a black tunic and
+  white belt, arms raised in a guard and an X-shaped mask across its small round head
+  Stats: HP 75  Atk 115  Def 75  SpA 30  SpD 75  Spe 95  (total 465)
+  Pokedex: "The kickboxer of the trinity it forms with Sawk and Throh. It keeps its guard up at all
+  times and fights only with its legs; one of its kicks can snap a tree trunk clean through."
+  * Evolve Chawp at level 20 when its Attack and Defence are equal.
+  * Wild: rare in hills and mountains, uncommon around dojos.
+  * Gi form (Fighting/Ice): use a Master's Gi on it.
+
+#3147 KIQ (GI FORM)  (Fighting / Ice; Limber / Slush Rush / Mold Breaker (hidden))
+  Kiq with a mane of white-teal frost fur, icicles at its hips, a black star mask round piercing
+  yellow eyes, a teal-panelled black tunic and long icy belt tails streaming behind
+  Stats: HP 80  Atk 145  Def 85  SpA 40  SpD 85  Spe 130  (total 565)
+  Pokedex: "A Kiq that has earned the Master's Gi. Its kicks are so fast the air freezes in their
+  wake; frost grows over its shoulders, and icicles over its hips."
+  * Use a Master's Gi on a Kiq (it unlocks the Evolve button). It learns Frost Roundhouse when it
+    changes.
+  * Master's Gi: crafted from six White Wool, a Gold Ingot, a Black Belt and a Diamond, or found in
+    dojo chests.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

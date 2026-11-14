@@ -1,0 +1,61 @@
+{
+ "species": "cobblemon:throh",
+ "order": 5,
+ "variations": [
+  {
+   "aspects": [
+    "gi"
+   ],
+   "poser": "cobbleeffort:throh_gi",
+   "model": "cobbleeffort:throh_gi.geo",
+   "texture": "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi.png",
+   "layers": [
+    {
+     "name": "alpha_eyes",
+     "enabled": false
+    },
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_glow_0.png",
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_glow_1.png",
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "gi",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_shiny.png",
+   "layers": [
+    {
+     "name": "alpha_eyes",
+     "enabled": false
+    },
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/gi/0538_throh/throh_gi_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}
