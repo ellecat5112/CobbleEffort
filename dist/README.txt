@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 166 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 169 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3273,6 +3273,34 @@ cobbleeffort:cavitot.
   * Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Murmuration
     calls its flock and it becomes a ~20-block-tall bird made of thousands of Sparklings (like
     Wishiwashi).
+
+#3151 KIDLOPE  (Grass / Dark; Overgrow / Pickpocket (hidden))
+  a chibi black goat-kid with long rabbit ears, little horns, huge yellow eyes, a leafy ruff and a
+  sprouting leaf tail
+  Stats: HP 52  Atk 60  Def 45  SpA 40  SpD 48  Spe 64  (total 309)
+  Pokedex: "A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its
+  neck, and loves to steal shiny things from travellers, then bound away laughing."
+  * Wild: uncommon in forests at night (dark forests especially).
+  * Evolves into Shadelope at level 16.
+
+#3152 SHADELOPE  (Grass / Dark; Overgrow / Pickpocket (hidden))
+  a lanky black goat-rabbit with bangs over one eye, one floppy ear, a leafy scarf with dangling
+  vines, green arm bands and a long vine tail
+  Stats: HP 67  Atk 80  Def 60  SpA 52  SpD 60  Spe 86  (total 405)
+  Pokedex: "It hides its face behind its fur and keeps to the shadows, sulking. It only shows its
+  single glaring eye when it springs out of the undergrowth to catch someone off guard."
+  * Evolve Kidlope at level 16.
+  * Wild: rare in forests at night.
+  * Evolves into Ghillope at level 36, learning Bramble Ambush.
+
+#3153 GHILLOPE  (Grass / Dark; Overgrow / Pickpocket (hidden))
+  a tall goat-rabbit hunter in a ghillie cloak of leaves bound with crossing vines, with long
+  upright ears, horns, narrow yellow eyes and huge grey hands
+  Stats: HP 86  Atk 118  Def 82  SpA 66  SpD 78  Spe 100  (total 530)
+  Pokedex: "It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the
+  deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs
+  empty."
+  * Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

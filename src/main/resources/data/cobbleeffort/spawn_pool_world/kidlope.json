@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "kidlope-woods",
+   "pokemon": "cobbleeffort:kidlope",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "3-20",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:dark_forest",
+     "#cobblemon:is_forest"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

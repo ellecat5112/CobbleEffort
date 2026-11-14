@@ -3533,6 +3533,70 @@ SPECIES.update({
 })
 LINES["starling"] = ["sparkling"]
 
+# --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
+# the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
+# Bramble Ambush is a Grass Sucker Punch.
+LOPE = dict(male=0.875, egg_groups=["field", "grass"], friendship=50, growth="medium_slow",
+            abilities=["overgrow", "h:pickpocket"], ability_names="Overgrow / Pickpocket (hidden)")
+LOPE_EARLY = [(1, "tackle"), (1, "leer"), (4, "leafage"), (7, "bite"), (10, "doublekick"), (13, "razorleaf"),
+              (16, "assurance")]
+LOPE_TM = BASIC_TM + ["energyball", "gigadrain", "bulletseed", "seedbomb", "grassknot", "trailblaze", "solarblade",
+                      "leafblade", "darkpulse", "crunch", "thief", "knockoff", "suckerpunch", "snarl", "taunt", "payback",
+                      "foulplay", "lowkick", "lowsweep", "bulkup", "uturn", "bounce", "playrough", "swordsdance",
+                      "sunnyday", "grassyterrain", "throatchop"]
+SPECIES.update({
+    "kidlope": {
+        "dex": 3151, "name": "Kidlope", "line": "goatrabbit", "types": ["grass", "dark"], **LOPE,
+        "stats": stats(52, 60, 45, 40, 48, 64), "ev": evs(speed=1), "catch": 45, "exp": 62,
+        "height": 5, "weight": 85, "shoulder": True, "walk": 0.34,
+        "moves": LOPE_EARLY, "tm": LOPE_TM, "egg": ["headbutt", "jumpkick", "nastyplot", "leechseed", "partingshot"],
+        "evolve": ("shadelope", 16, ["snarl"]),
+        "drops": [("minecraft:oak_leaves", "0-2", None), ("minecraft:black_wool", "0-1", None)],
+        "entry": ("A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and "
+                  "loves to steal shiny things from travellers, then bound away laughing."),
+        "spawns": [route_spawn("kidlope-woods", "uncommon", "3-20", 3.0, ["minecraft:dark_forest", "#cobblemon:is_forest"],
+                               timeRange="night")],
+        "how": ["Wild: uncommon in forests at night (dark forests especially).",
+                "Evolves into Shadelope at level 16."],
+    },
+    "shadelope": {
+        "dex": 3152, "name": "Shadelope", "line": "goatrabbit", "types": ["grass", "dark"], **LOPE,
+        "stats": stats(67, 80, 60, 52, 60, 86), "ev": evs(speed=2), "catch": 45, "exp": 142,
+        "height": 11, "weight": 240, "shoulder": False, "walk": 0.38,
+        "moves": [(1, "snarl")] + LOPE_EARLY + [(16, "snarl"), (20, "leafblade"), (24, "feintattack"),
+                                                (28, "knockoff"), (32, "nastyplot")],
+        "tm": LOPE_TM, "egg": ["headbutt", "jumpkick", "nastyplot", "leechseed", "partingshot"],
+        "evolve": ("ghillope", 36, ["brambleambush"]),
+        "drops": [("minecraft:oak_leaves", "1-2", None), ("minecraft:vine", "0-2", None)],
+        "entry": ("It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single "
+                  "glaring eye when it springs out of the undergrowth to catch someone off guard."),
+        "spawns": [route_spawn("shadelope-woods", "rare", "16-36", 1.0, ["minecraft:dark_forest", "#cobblemon:is_forest"],
+                               timeRange="night")],
+        "how": ["Evolve Kidlope at level 16.", "Wild: rare in forests at night.",
+                "Evolves into Ghillope at level 36, learning Bramble Ambush."],
+    },
+    "ghillope": {
+        "dex": 3153, "name": "Ghillope", "line": "goatrabbit", "types": ["grass", "dark"], **LOPE,
+        "stats": stats(86, 118, 82, 66, 78, 100), "ev": evs(attack=3), "catch": 45, "exp": 239,
+        "height": 18, "weight": 920, "shoulder": False, "walk": 0.4,
+        "moves": [(1, "brambleambush"), (1, "snarl")] + LOPE_EARLY + [(16, "snarl"), (20, "leafblade"),
+                                                                      (24, "feintattack"), (28, "knockoff"),
+                                                                      (32, "nastyplot"), (36, "brambleambush"),
+                                                                      (42, "hornleech"), (48, "nightslash"),
+                                                                      (54, "woodhammer")],
+        "tm": LOPE_TM + ["gigaimpact", "hyperbeam", "closecombat", "leafstorm", "powerwhip", "frenzyplant"],
+        "egg": ["headbutt", "jumpkick", "nastyplot", "leechseed", "partingshot"],
+        "evolve": None,
+        "drops": [("minecraft:oak_leaves", "1-3", None), ("minecraft:vine", "1-2", None),
+                  ("cobblemon:black_glasses", None, 2.0)],
+        "entry": ("It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest "
+                  "part of the woods. Poachers who enter its forest find their traps sprung and their packs empty."),
+        "spawns": [],
+        "how": ["Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves."],
+    },
+})
+LINES["goatrabbit"] = ["kidlope", "shadelope", "ghillope"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -3798,6 +3862,16 @@ contestType: "Clever"
             "cobblemon.battle.sideend.opponent.devoniandrift": "The ancient spores around the opposing team settled!",
             "cobblemon.battle.damage.devoniandrift": "%1$s is weighed down by the ancient spores!",
         },
+    },
+    "brambleambush": {
+        "base": "suckerpunch", "num": -3044, "name": "Bramble Ambush", "type": "Grass", "category": "Physical",
+        "basePower": 80, "accuracy": 100, "pp": 5, "priority": 1,
+        "flags": {"contact": 1, "protect": 1, "mirror": 1, "metronome": 1}, "contestType": "Clever",
+        "desc": "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, "
+                "or if the target moves before the user.",
+        "shortDesc": "Usually goes first. Fails if target is not attacking.",
+        "lang": "The user springs out of the undergrowth and lashes the target with brambles before it can strike. "
+                "This move fails if the target is not readying an attack.",
     },
     "grubvolley": {
         "base": "dragondarts", "num": -3043, "name": "Grub Volley", "type": "Bug", "category": "Physical",

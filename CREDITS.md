@@ -292,6 +292,8 @@ Tardigrub and Aristograd are after @victorious_trainer's Pokémon Victory art (n
 Grub Volley and Pokédex entries are our own.
 Sparkling and its Swarm Form are the user's design, after art they shared (artist not named); the name, models,
 Murmuration and Pokédex entry are our own.
+Kidlope, Shadelope and Ghillope are after art the user shared (artist not named); the names, models, Bramble Ambush
+and Pokédex entries are our own.
 
 ## Code and data
 

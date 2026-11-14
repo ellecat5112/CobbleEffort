@@ -233,6 +233,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   ability Murmuration = Schooling on Showdown names `cobbleeffort:Sparkling[-Swarm]` (ids `cobbleeffortsparkling[swarm]`;
   Cobblemon names form species "<ns>:<Name>-<Form>"). Wings are xy planes swept back (rotation y): xz planes are
   edge-on from the front. `ring_swarm` = a vortex of little birds. Tested: swarm_sim.js.
+  Kidlope -> Shadelope -> Ghillope (#3151-3153, line "goatrabbit", `models/_lope.py`: palette, `furry()` vine bands +
+  crossing chest vines, `hoofed()` split hooves, `horn()` ridged, `ear()` (a rod pointing up shows its local "up" face
+  to the front: INNER), `ruff()` leaf lumps round a ring, `sprig()`, `eye()` with lid/slant; the user's art, artist not
+  named, our names): Grass/Dark at 16/36, Overgrow / Pickpocket; Ghillope's Bramble Ambush = Grass Sucker Punch (80).
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

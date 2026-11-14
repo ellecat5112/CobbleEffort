@@ -1,0 +1,164 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3153,
+ "name": "Ghillope",
+ "primaryType": "grass",
+ "secondaryType": "dark",
+ "maleRatio": 0.875,
+ "height": 18,
+ "weight": 920,
+ "pokedex": [
+  "cobbleeffort.species.ghillope.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "overgrow",
+  "h:pickpocket"
+ ],
+ "eggGroups": [
+  "field",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 86,
+  "attack": 118,
+  "defence": 82,
+  "special_attack": 66,
+  "special_defence": 78,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 239,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.3,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.4
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:oak_leaves",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:vine",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 2.0
+   }
+  ]
+ },
+ "moves": [
+  "1:brambleambush",
+  "1:snarl",
+  "1:tackle",
+  "1:leer",
+  "4:leafage",
+  "7:bite",
+  "10:doublekick",
+  "13:razorleaf",
+  "16:assurance",
+  "16:snarl",
+  "20:leafblade",
+  "24:feintattack",
+  "28:knockoff",
+  "32:nastyplot",
+  "36:brambleambush",
+  "42:hornleech",
+  "48:nightslash",
+  "54:woodhammer",
+  "egg:headbutt",
+  "egg:jumpkick",
+  "egg:nastyplot",
+  "egg:leechseed",
+  "egg:partingshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:solarblade",
+  "tm:leafblade",
+  "tm:darkpulse",
+  "tm:crunch",
+  "tm:thief",
+  "tm:knockoff",
+  "tm:suckerpunch",
+  "tm:snarl",
+  "tm:taunt",
+  "tm:payback",
+  "tm:foulplay",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:bulkup",
+  "tm:uturn",
+  "tm:bounce",
+  "tm:playrough",
+  "tm:swordsdance",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:throatchop",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:closecombat",
+  "tm:leafstorm",
+  "tm:powerwhip",
+  "tm:frenzyplant"
+ ],
+ "preEvolution": "cobbleeffort:shadelope"
+}

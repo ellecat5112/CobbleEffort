@@ -1,0 +1,166 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3152,
+ "name": "Shadelope",
+ "primaryType": "grass",
+ "secondaryType": "dark",
+ "maleRatio": 0.875,
+ "height": 11,
+ "weight": 240,
+ "pokedex": [
+  "cobbleeffort.species.shadelope.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "overgrow",
+  "h:pickpocket"
+ ],
+ "eggGroups": [
+  "field",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 67,
+  "attack": 80,
+  "defence": 60,
+  "special_attack": 52,
+  "special_defence": 60,
+  "speed": 86
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 0.9,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.38
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:oak_leaves",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:vine",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:snarl",
+  "1:tackle",
+  "1:leer",
+  "4:leafage",
+  "7:bite",
+  "10:doublekick",
+  "13:razorleaf",
+  "16:assurance",
+  "16:snarl",
+  "20:leafblade",
+  "24:feintattack",
+  "28:knockoff",
+  "32:nastyplot",
+  "egg:headbutt",
+  "egg:jumpkick",
+  "egg:nastyplot",
+  "egg:leechseed",
+  "egg:partingshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:solarblade",
+  "tm:leafblade",
+  "tm:darkpulse",
+  "tm:crunch",
+  "tm:thief",
+  "tm:knockoff",
+  "tm:suckerpunch",
+  "tm:snarl",
+  "tm:taunt",
+  "tm:payback",
+  "tm:foulplay",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:bulkup",
+  "tm:uturn",
+  "tm:bounce",
+  "tm:playrough",
+  "tm:swordsdance",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:throatchop"
+ ],
+ "evolutions": [
+  {
+   "id": "shadelope_ghillope",
+   "variant": "level_up",
+   "result": "cobbleeffort:ghillope",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "brambleambush"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:kidlope"
+}
