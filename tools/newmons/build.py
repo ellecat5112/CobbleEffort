@@ -2295,6 +2295,397 @@ SPECIES.update({
 })
 LINES["onion"] = ["tearion", "shallorn", "pungallium"]
 
+# --- the Nicodex: 19 Pokémon of the Ashtray Wastes (CobbleEffort: Kanto), one per type; the user's designs, names,
+# concepts and Pokédex entries; signature abilities/moves in nico_battle.py ---------------------------------------
+ASHTRAY = ["#cobbleeffort_kanto:is_ashtray"]
+NICO = dict(friendship=50, growth="medium_fast")
+NICO_HOW = "Wild: {} in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto)."
+
+
+def nico_spawn(sid, bucket, level, weight):
+    return route_spawn(sid, bucket, level, weight, ASHTRAY)
+
+
+SPECIES.update({
+    "nicotiny": {
+        "dex": 3097, "name": "Nicotiny", "line": "nico_seedling", "types": ["grass"], **NICO, "catch": 190,
+        "male": 0.5, "egg_groups": ["grass"],
+        "abilities": ["pestdeterrent", "chlorophyll", "h:effectspore"],
+        "ability_names": "Pest Deterrent / Chlorophyll / Effect Spore (hidden)",
+        "stats": stats(50, 40, 55, 70, 75, 60), "ev": evs(special_defence=1), "exp": 64,
+        "height": 3, "weight": 8, "shoulder": True, "walk": 0.24,
+        "moves": [(1, "absorb"), (1, "growth"), (5, "poisonpowder"), (9, "megadrain"), (13, "stunspore"),
+                  (17, "leechseed"), (21, "gigadrain"), (25, "toxic"), (29, "synthesis"), (33, "energyball"),
+                  (37, "sleeppowder"), (41, "leafstorm")],
+        "tm": BASIC_TM + ["energyball", "gigadrain", "grassknot", "solarbeam", "sunnyday", "grassyterrain",
+                          "sludgebomb", "venoshock", "toxicspikes", "magicalleaf", "charm", "trailblaze"],
+        "egg": ["ingrain", "strengthsap", "spikyshield"], "evolve": None,
+        "drops": [("minecraft:wheat_seeds", "1-2", None), ("minecraft:fern", "0-1", None)],
+        "entry": ("Farmers once planted Nicotiny around their gardens to keep Caterpie away, though touching its "
+                  "leaves gives trainers a sudden dizzy spell."),
+        "spawns": [nico_spawn("nicotiny-ashtray", "common", "4-24", 8.0)],
+        "how": [NICO_HOW.format("common"), "Its ability Pest Deterrent lowers the Attack of Bug-type foes when it "
+                "switches in."],
+    },
+    "emberbutt": {
+        "dex": 3098, "name": "Emberbutt", "line": "nico_ember", "types": ["fire"], **NICO, "catch": 170,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["flamebody", "flashfire", "h:whitesmoke"],
+        "ability_names": "Flame Body / Flash Fire / White Smoke (hidden)",
+        "stats": stats(45, 70, 50, 55, 45, 95), "ev": evs(speed=1), "exp": 66,
+        "height": 3, "weight": 4, "shoulder": True, "walk": 0.3,
+        "moves": [(1, "ember"), (1, "tackle"), (5, "smokescreen"), (9, "cherryflick"), (13, "flamecharge"),
+                  (17, "firefang"), (21, "incinerate"), (25, "willowisp"), (29, "flamewheel"), (33, "lavaplume"),
+                  (39, "flareblitz")],
+        "tm": BASIC_TM + ["flamethrower", "fireblast", "overheat", "willowisp", "flamecharge", "sunnyday", "uturn",
+                          "quickattack", "temperflare", "heatwave", "endeavor"],
+        "egg": ["burnup", "extremespeed", "fireblast"], "evolve": None,
+        "drops": [("minecraft:paper", "1-2", None), ("minecraft:blaze_powder", "0-1", None)],
+        "entry": ("It feeds on dry paper and dry leaves to keep the tip of its snout glowing. If extinguished, it "
+                  "falls into a deep, sluggish sleep."),
+        "spawns": [nico_spawn("emberbutt-ashtray", "common", "4-24", 8.0)],
+        "how": [NICO_HOW.format("common"), "It learns Cherry Flick at level 9."],
+    },
+    "bongwater": {
+        "dex": 3099, "name": "Bongwater", "line": "nico_hookah", "types": ["water", "poison"], **NICO, "catch": 150,
+        "male": 0.5, "egg_groups": ["water_1", "amorphous"],
+        "abilities": ["waterveil", "liquidooze", "h:stench"],
+        "ability_names": "Water Veil / Liquid Ooze / Stench (hidden)",
+        "stats": stats(50, 35, 55, 60, 60, 40), "ev": evs(special_attack=1), "exp": 62,
+        "height": 6, "weight": 40, "shoulder": False, "walk": 0.2,
+        "moves": [(1, "watergun"), (1, "smog"), (5, "bubble"), (9, "acid"), (13, "bubblebeam"), (17, "clearsmog"),
+                  (21, "haze"), (25, "bubblefilter"), (30, "sludge")],
+        "tm": BASIC_TM + ["surf", "scald", "waterpulse", "raindance", "sludgebomb", "venoshock", "acidspray",
+                          "haze", "clearsmog", "toxicspikes", "chillingwater"],
+        "egg": ["aquaring", "mist", "acidarmor"], "evolve": ("hookahdra", 36, ["dragonpulse"]),
+        "drops": [("minecraft:glass_bottle", "1-2", None)],
+        "entry": ("Its belly gurgles with every breath it draws through its glass neck. The water inside slowly turns "
+                  "brown, and it has to swim in clean rivers to rinse itself out."),
+        "spawns": [nico_spawn("bongwater-ashtray", "common", "5-30", 6.0)],
+        "how": [NICO_HOW.format("common"), "It learns Bubble Filter at level 25.", "Evolves into Hookahdra at "
+                "level 36."],
+    },
+    "hookahdra": {
+        "dex": 3100, "name": "Hookahdra", "line": "nico_hookah", "types": ["water", "poison"], **NICO, "catch": 45,
+        "male": 0.5, "egg_groups": ["water_1", "amorphous"],
+        "abilities": ["waterveil", "liquidooze", "h:stench"],
+        "ability_names": "Water Veil / Liquid Ooze / Stench (hidden)",
+        "stats": stats(95, 70, 95, 110, 95, 60), "ev": evs(special_attack=2, hp=1), "exp": 241,
+        "height": 23, "weight": 1650, "shoulder": False, "walk": 0.22,
+        "moves": [(1, "watergun"), (1, "smog"), (1, "dragonpulse"), (5, "bubble"), (9, "acid"), (13, "bubblebeam"),
+                  (17, "clearsmog"), (21, "haze"), (25, "bubblefilter"), (30, "sludge"), (36, "dragonpulse"),
+                  (42, "scald"), (48, "sludgebomb"), (54, "hydropump"), (60, "sludgewave")],
+        "tm": BASIC_TM + ["surf", "scald", "waterpulse", "raindance", "sludgebomb", "venoshock", "acidspray",
+                          "haze", "clearsmog", "toxicspikes", "chillingwater", "hydropump", "sludgewave",
+                          "dragonpulse", "dracometeor", "icebeam", "gigaimpact", "hyperbeam", "calmmind"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:glass_bottle", "1-3", None), ("minecraft:gold_nugget", "2-5", None)],
+        "entry": ("By drawing air through its water-filled belly, Hookahdra cools down its internal furnace, releasing "
+                  "sweet-smelling clouds from its many snouts."),
+        "spawns": [nico_spawn("hookahdra-ashtray", "rare", "36-50", 0.5)],
+        "how": ["Evolve Bongwater at level 36. It learns Dragon Pulse when it evolves.", NICO_HOW.format("rare")],
+    },
+    "vapulon": {
+        "dex": 3101, "name": "Vapulon", "line": "nico_vapor", "types": ["electric", "flying"], **NICO, "catch": 120,
+        "male": 0.5, "egg_groups": ["flying", "mineral"],
+        "abilities": ["cloudchaser", "motordrive", "h:galewings"],
+        "ability_names": "Cloud Chaser / Motor Drive / Gale Wings (hidden)",
+        "stats": stats(60, 55, 60, 100, 70, 120), "ev": evs(speed=2), "exp": 166,
+        "height": 4, "weight": 15, "shoulder": True, "walk": 0.35, "fly": True,
+        "moves": [(1, "thundershock"), (1, "peck"), (5, "charge"), (9, "gust"), (13, "shockwave"), (17, "airslash"),
+                  (21, "electroball"), (25, "mist"), (29, "discharge"), (33, "uturn"), (37, "hurricane"),
+                  (41, "thunder")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "chargebeam", "electricterrain",
+                          "raindance", "airslash", "hurricane", "uturn", "roost", "tailwind", "defog", "acrobatics",
+                          "agility", "thunderwave"],
+        "egg": ["mist", "featherdance"], "evolve": None,
+        "drops": [("minecraft:redstone", "1-3", None), ("minecraft:feather", "0-1", None)],
+        "entry": ("Popular among younger trainers in bustling cities, Vapulon charges itself at wall outlets and "
+                  "exhales massive plumes that smell faintly of artificial berries."),
+        "spawns": [nico_spawn("vapulon-ashtray", "uncommon", "18-40", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "Its ability Cloud Chaser fills the field with fog for 5 turns: Electric "
+                "moves get stronger and non-Electric Pokémon miss more."],
+    },
+    "mentholynx": {
+        "dex": 3102, "name": "Mentholynx", "line": "nico_menthol", "types": ["ice", "dark"], **NICO, "catch": 75,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["icebody", "infiltrator", "h:snowcloak"],
+        "ability_names": "Ice Body / Infiltrator / Snow Cloak (hidden)",
+        "stats": stats(70, 105, 65, 60, 70, 110), "ev": evs(attack=1, speed=1), "exp": 172,
+        "height": 9, "weight": 310, "shoulder": False, "walk": 0.38,
+        "moves": [(1, "scratch"), (1, "powdersnow"), (5, "leer"), (9, "icefang"), (13, "bite"), (17, "iceshard"),
+                  (21, "frostbitedrag"), (25, "nightslash"), (29, "icywind"), (33, "crunch"), (37, "iciclecrash"),
+                  (43, "tripleaxel")],
+        "tm": BASIC_TM + ["icebeam", "blizzard", "iciclespear", "icefang", "crunch", "knockoff", "suckerpunch",
+                          "throatchop", "uturn", "snowscape", "aurorabeam", "honeclaws", "swordsdance", "foulplay"],
+        "egg": ["glare", "suckerpunch"], "evolve": None,
+        "drops": [("minecraft:snowball", "1-3", None), ("minecraft:packed_ice", "0-1", None)],
+        "entry": ("Its icy breath masks the harshness of winter air, lulling lost travelers into staying out in the "
+                  "cold far longer than they should."),
+        "spawns": [nico_spawn("mentholynx-ashtray", "uncommon", "18-40", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "It learns Frostbite Drag at level 21."],
+    },
+    "chawchamp": {
+        "dex": 3103, "name": "Chawchamp", "line": "nico_chaw", "types": ["fighting"], **NICO, "catch": 90,
+        "male": 0.5, "egg_groups": ["water_1", "human_like"],
+        "abilities": ["guts", "thickfat", "h:ironfist"],
+        "ability_names": "Guts / Thick Fat / Iron Fist (hidden)",
+        "stats": stats(95, 115, 85, 45, 70, 55), "ev": evs(attack=2), "exp": 170,
+        "height": 8, "weight": 640, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "pound"), (1, "leer"), (5, "machpunch"), (9, "mudslap"), (13, "brickbreak"),
+                  (17, "spittoonslug"), (21, "bulkup"), (25, "drainpunch"), (29, "bodyslam"), (33, "superpower"),
+                  (37, "closecombat")],
+        "tm": BASIC_TM + ["brickbreak", "drainpunch", "closecombat", "bulkup", "rocktomb", "earthquake", "knockoff",
+                          "icepunch", "thunderpunch", "firepunch", "bodypress", "waterpulse", "gunkshot", "poisonjab"],
+        "egg": ["fakeout", "stockpile", "spitup", "swallow"], "evolve": None,
+        "drops": [("minecraft:slime_ball", "1-2", None), ("minecraft:dried_kelp", "1-2", None)],
+        "entry": ("Chawchamp constantly chews on bitter herbs to stay focused during sparring matches. Its jaw strength "
+                  "can crush a Geodude."),
+        "spawns": [nico_spawn("chawchamp-ashtray", "uncommon", "18-40", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "It learns Spittoon Slug at level 17."],
+    },
+    "tarragon": {
+        "dex": 3104, "name": "Tarragon", "line": "nico_tar", "types": ["poison", "dragon"], **NICO, "catch": 45,
+        "male": 0.5, "egg_groups": ["dragon", "amorphous"],
+        "abilities": ["resincoat", "stickyhold", "h:liquidooze"],
+        "ability_names": "Resin Coat / Sticky Hold / Liquid Ooze (hidden)",
+        "stats": stats(100, 95, 110, 85, 85, 40), "ev": evs(defence=2), "exp": 186,
+        "height": 15, "weight": 1800, "shoulder": False, "walk": 0.2,
+        "moves": [(1, "acid"), (1, "dragonbreath"), (5, "smog"), (9, "mudslap"), (13, "dragontail"),
+                  (17, "sludge"), (21, "toxicspikes"), (25, "dragonclaw"), (29, "poisonjab"), (33, "gunkshot"),
+                  (39, "dragonrush"), (45, "outrage")],
+        "tm": BASIC_TM + ["sludgebomb", "gunkshot", "poisonjab", "toxicspikes", "dragonclaw", "dragonpulse",
+                          "outrage", "earthquake", "stealthrock", "stoneedge", "irontail", "bodypress", "dragontail"],
+        "egg": ["acidarmor", "stickyweb"], "evolve": None,
+        "drops": [("minecraft:coal", "1-3", None), ("minecraft:black_dye", "1-2", None)],
+        "entry": ("Born from the accumulated grime of industrial chimneys, Tarragon's heavy, tar-soaked wings make flight "
+                  "difficult, forcing it to crawl along cavern walls."),
+        "spawns": [nico_spawn("tarragon-ashtray", "rare", "30-50", 0.6)],
+        "how": [NICO_HOW.format("rare"), "Its ability Resin Coat halves damage from contact moves and slows the "
+                "attacker."],
+    },
+    "ashtraylor": {
+        "dex": 3105, "name": "Ashtraylor", "line": "nico_ashtray", "types": ["ground", "rock"], **NICO, "catch": 75,
+        "male": 0.5, "egg_groups": ["monster", "mineral"],
+        "abilities": ["sturdy", "flashfire", "h:shellarmor"],
+        "ability_names": "Sturdy / Flash Fire / Shell Armor (hidden)",
+        "stats": stats(100, 80, 130, 50, 90, 25), "ev": evs(defence=2), "exp": 168,
+        "height": 10, "weight": 2600, "shoulder": False, "walk": 0.14,
+        "moves": [(1, "tackle"), (1, "sandattack"), (5, "withdraw"), (9, "mudslap"), (13, "rocktomb"),
+                  (17, "smother"), (21, "bulldoze"), (25, "rockslide"), (29, "irondefense"), (33, "earthquake"),
+                  (39, "headsmash")],
+        "tm": BASIC_TM + ["earthquake", "bulldoze", "dig", "stealthrock", "rockslide", "stoneedge", "rocktomb",
+                          "sandstorm", "bodypress", "irondefense", "heavyslam", "willowisp", "sandtomb"],
+        "egg": ["shellsmash", "yawn"], "evolve": None,
+        "drops": [("minecraft:gray_dye", "1-3", None), ("minecraft:flint", "1-2", None)],
+        "entry": ("Travelers use Ashtraylor's basin-like back to safely extinguish campfires. It absorbs the leftover "
+                  "cinders to harden its stony shell."),
+        "spawns": [nico_spawn("ashtraylor-ashtray", "common", "10-36", 5.0)],
+        "how": [NICO_HOW.format("common"), "It learns Smother at level 17."],
+    },
+    "wispuff": {
+        "dex": 3106, "name": "Wispuff", "line": "nico_smoke", "types": ["flying", "ghost"], **NICO, "catch": 120,
+        "male": -1, "egg_groups": ["amorphous"],
+        "abilities": ["lingeringscent", "levitate", "h:whitesmoke"],
+        "ability_names": "Lingering Scent / Levitate / White Smoke (hidden)",
+        "stats": stats(60, 45, 55, 95, 80, 95), "ev": evs(special_attack=1, speed=1), "exp": 150,
+        "height": 6, "weight": 1, "shoulder": True, "walk": 0.28, "fly": True,
+        "moves": [(1, "gust"), (1, "astonish"), (5, "smokescreen"), (9, "ominouswind"), (13, "hex"),
+                  (17, "airslash"), (21, "haze"), (25, "shadowball"), (29, "defog"), (33, "hurricane"),
+                  (37, "destinybond")],
+        "tm": BASIC_TM + ["shadowball", "hex", "willowisp", "airslash", "hurricane", "tailwind", "defog", "uturn",
+                          "painsplit", "trick", "nightshade", "confuseray"],
+        "egg": ["memento", "curse"], "evolve": None,
+        "drops": [("minecraft:gunpowder", "0-1", None), ("minecraft:light_gray_dye", "1-2", None)],
+        "entry": ("It clings to curtains and clothing long after leaving a room. You can always tell when a Wispuff has "
+                  "passed through by the stale chill in the air."),
+        "spawns": [nico_spawn("wispuff-ashtray", "common", "8-32", 5.0)],
+        "how": [NICO_HOW.format("common"), "Its ability Lingering Scent leaves a haze for 3 turns after it faints "
+                "that hurts non-Ghost Pokémon."],
+    },
+    "hypnodose": {
+        "dex": 3107, "name": "Hypnodose", "line": "nico_patch", "types": ["psychic"], **NICO, "catch": 120,
+        "male": -1, "egg_groups": ["amorphous"],
+        "abilities": ["steadyrelease", "healer", "h:innerfocus"],
+        "ability_names": "Steady Release / Healer / Inner Focus (hidden)",
+        "stats": stats(80, 40, 75, 85, 105, 65), "ev": evs(special_defence=2), "exp": 158,
+        "height": 4, "weight": 2, "shoulder": True, "walk": 0.24, "fly": True,
+        "moves": [(1, "confusion"), (1, "hypnosis"), (5, "disable"), (9, "psybeam"), (13, "calmmind"),
+                  (17, "healpulse"), (21, "psyshock"), (25, "wish"), (29, "psychic"), (33, "healbell"),
+                  (37, "storedpower")],
+        "tm": BASIC_TM + ["psychic", "psyshock", "calmmind", "lightscreen", "reflect", "trickroom", "storedpower",
+                          "healpulse", "dazzlinggleam", "shadowball", "thunderwave", "psychicterrain"],
+        "egg": ["lifedew", "afteryou"], "evolve": None,
+        "drops": [("minecraft:paper", "1-2", None), ("minecraft:purple_dye", "0-1", None)],
+        "entry": ("Hypnodose latches onto stressed Pokémon, releasing a calm, rhythmic psychic pulse that eases "
+                  "agitation—though removing it causes sudden irritability."),
+        "spawns": [nico_spawn("hypnodose-ashtray", "uncommon", "16-38", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "Its ability Steady Release cures confusion and restores PP on its side "
+                "every turn."],
+    },
+    "hornworm": {
+        "dex": 3108, "name": "Hornworm", "line": "nico_hornworm", "types": ["bug"], **NICO, "catch": 150,
+        "male": 0.5, "egg_groups": ["bug"],
+        "abilities": ["toxingourmet", "shielddust", "h:gluttony"],
+        "ability_names": "Toxin Gourmet / Shield Dust / Gluttony (hidden)",
+        "stats": stats(85, 80, 75, 40, 70, 50), "ev": evs(hp=1, attack=1), "exp": 140,
+        "height": 5, "weight": 60, "shoulder": False, "walk": 0.18,
+        "moves": [(1, "tackle"), (1, "stringshot"), (5, "bugbite"), (9, "poisonsting"), (13, "headbutt"),
+                  (17, "strugglebug"), (21, "hornattack"), (25, "leechlife"), (29, "pinmissile"), (33, "megahorn"),
+                  (38, "firstimpression")],
+        "tm": BASIC_TM + ["xscissor", "uturn", "lunge", "bugbuzz", "pounce", "leechlife", "poisonjab", "bodyslam",
+                          "stickyweb", "irondefense", "skittersmack"],
+        "egg": ["stockpile", "slackoff"], "evolve": None,
+        "drops": [("minecraft:slime_ball", "0-1", None), ("minecraft:lime_dye", "1-2", None)],
+        "entry": ("While most Bug-types avoid Nicotiny, Hornworm devours entire fields of them, storing the bitter "
+                  "alkaloids in its body to deter predators."),
+        "spawns": [nico_spawn("hornworm-ashtray", "common", "6-28", 7.0)],
+        "how": [NICO_HOW.format("common"), "Its ability Toxin Gourmet heals it instead of hurting it when it is hit "
+                "by a Poison- or Grass-type move."],
+    },
+    "meerschaum": {
+        "dex": 3109, "name": "Meerschaum", "line": "nico_pipe", "types": ["rock", "fairy"], **NICO, "catch": 60,
+        "male": 0.5, "egg_groups": ["mineral", "fairy"],
+        "abilities": ["patinapolish", "sturdy", "h:magicguard"],
+        "ability_names": "Patina Polish / Sturdy / Magic Guard (hidden)",
+        "stats": stats(80, 70, 110, 85, 110, 45), "ev": evs(defence=1, special_defence=1), "exp": 178,
+        "height": 9, "weight": 950, "shoulder": False, "walk": 0.24,
+        "moves": [(1, "tackle"), (1, "fairywind"), (5, "defensecurl"), (9, "rockthrow"), (13, "drainingkiss"),
+                  (17, "ancientpower"), (21, "irondefense"), (25, "dazzlinggleam"), (29, "powergem"),
+                  (33, "cosmicpower"), (37, "moonblast")],
+        "tm": BASIC_TM + ["powergem", "rockslide", "stoneedge", "stealthrock", "moonblast", "dazzlinggleam",
+                          "drainingkiss", "calmmind", "irondefense", "bodypress", "meteorbeam", "mistyterrain"],
+        "egg": ["wish", "stealthrock"], "evolve": None,
+        "drops": [("minecraft:quartz", "1-2", None), ("minecraft:calcite", "1-2", None)],
+        "entry": ("Artisans carve Meerschaum into intricate shapes. The darker and richer its golden-brown coloration, "
+                  "the older and more powerful the Pokémon is."),
+        "spawns": [nico_spawn("meerschaum-ashtray", "rare", "26-46", 0.8)],
+        "how": [NICO_HOW.format("rare"), "Its ability Patina Polish raises its Defense and Sp. Def whenever a Fire- or "
+                "Poison-type move hits it."],
+    },
+    "cigarghast": {
+        "dex": 3110, "name": "Cigarghast", "line": "nico_cigar", "types": ["ghost", "fire"], **NICO, "catch": 60,
+        "male": 0.5, "egg_groups": ["amorphous"],
+        "abilities": ["flashfire", "cursedbody", "h:infiltrator"],
+        "ability_names": "Flash Fire / Cursed Body / Infiltrator (hidden)",
+        "stats": stats(70, 60, 75, 110, 90, 85), "ev": evs(special_attack=2), "exp": 180,
+        "height": 8, "weight": 30, "shoulder": False, "walk": 0.24, "fly": True,
+        "moves": [(1, "ember"), (1, "astonish"), (5, "smokescreen"), (9, "hex"), (13, "willowisp"),
+                  (17, "incinerate"), (21, "smokering"), (25, "shadowball"), (29, "flamethrower"), (33, "nastyplot"),
+                  (37, "infernalparade"), (41, "overheat")],
+        "tm": BASIC_TM + ["shadowball", "hex", "flamethrower", "fireblast", "overheat", "willowisp", "nastyplot",
+                          "heatwave", "trick", "painsplit", "darkpulse", "sunnyday"],
+        "egg": ["destinybond", "memento"], "evolve": None,
+        "drops": [("minecraft:brown_dye", "1-2", None), ("minecraft:gold_nugget", "1-3", None)],
+        "entry": ("Said to haunt old study rooms and velvet lounges, Cigarghast's glowing ember eye is often the only "
+                  "thing visible in the dark."),
+        "spawns": [route_spawn("cigarghast-ashtray", "rare", "26-46", 0.8, ASHTRAY, timeRange="night")],
+        "how": [NICO_HOW.format("rare, at night"), "It learns Smoke Ring at level 21."],
+    },
+    "zynx": {
+        "dex": 3111, "name": "Zynx", "line": "nico_pouch", "types": ["fairy", "ice"], **NICO, "catch": 150,
+        "male": 0.5, "egg_groups": ["fairy"],
+        "abilities": ["refrigerate", "pixilate", "h:cutecharm"],
+        "ability_names": "Refrigerate / Pixilate / Cute Charm (hidden)",
+        "stats": stats(55, 45, 60, 90, 70, 110), "ev": evs(speed=2), "exp": 152,
+        "height": 2, "weight": 2, "shoulder": True, "walk": 0.3,
+        "moves": [(1, "pound"), (1, "powdersnow"), (5, "fairywind"), (9, "icywind"), (13, "drainingkiss"),
+                  (17, "liptingle"), (21, "aurorabeam"), (25, "dazzlinggleam"), (29, "icebeam"), (33, "moonblast"),
+                  (37, "blizzard")],
+        "tm": BASIC_TM + ["icebeam", "blizzard", "icywind", "dazzlinggleam", "moonblast", "drainingkiss",
+                          "mistyterrain", "snowscape", "charm", "calmmind", "uturn", "playrough"],
+        "egg": ["fakeout", "sweetkiss"], "evolve": None,
+        "drops": [("minecraft:snowball", "1-2", None), ("minecraft:light_blue_dye", "0-1", None)],
+        "entry": ("Compact and discreet, Zynx hides inside trainers' pockets. A single touch gives an instant jolt of "
+                  "icy clarity and focus."),
+        "spawns": [nico_spawn("zynx-ashtray", "uncommon", "16-38", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "It learns Lip Tingle at level 17."],
+    },
+    "zippolt": {
+        "dex": 3112, "name": "Zippolt", "line": "nico_lighter", "types": ["steel", "electric"], **NICO, "catch": 90,
+        "male": -1, "egg_groups": ["mineral"],
+        "abilities": ["flashfire", "static", "h:lightningrod"],
+        "ability_names": "Flash Fire / Static / Lightning Rod (hidden)",
+        "stats": stats(60, 95, 95, 70, 70, 90), "ev": evs(attack=1, speed=1), "exp": 170,
+        "height": 4, "weight": 70, "shoulder": True, "walk": 0.3,
+        "moves": [(1, "metalclaw"), (1, "thundershock"), (5, "spark"), (9, "mirrorshot"), (13, "shockwave"),
+                  (17, "flintsnap"), (21, "irondefense"), (25, "thunderfang"), (29, "ironhead"), (33, "wildcharge"),
+                  (39, "steelbeam")],
+        "tm": BASIC_TM + ["flashcannon", "ironhead", "thunderbolt", "voltswitch", "wildcharge", "thunderwave",
+                          "irondefense", "steelbeam", "electricterrain", "gyroball", "metalsound", "firefang"],
+        "egg": ["shiftgear", "magnetrise"], "evolve": None,
+        "drops": [("minecraft:iron_nugget", "2-5", None), ("minecraft:flint", "1-2", None)],
+        "entry": ("Celebrated for its signature metallic clink, Zippolt can keep its tiny flame alive even in the "
+                  "middle of a fierce gale."),
+        "spawns": [nico_spawn("zippolt-ashtray", "uncommon", "16-38", 2.0)],
+        "how": [NICO_HOW.format("uncommon"), "It learns Flint Snap at level 17."],
+    },
+    "snuffel": {
+        "dex": 3113, "name": "Snuffel", "line": "nico_snuff", "types": ["normal"], **NICO, "catch": 190,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["pickup", "runaway", "h:aromaveil"],
+        "ability_names": "Pickup / Run Away / Aroma Veil (hidden)",
+        "stats": stats(70, 60, 55, 60, 55, 80), "ev": evs(speed=1), "exp": 72,
+        "height": 3, "weight": 25, "shoulder": True, "walk": 0.3,
+        "moves": [(1, "scratch"), (1, "sandattack"), (5, "quickattack"), (9, "dig"), (13, "headbutt"),
+                  (17, "sneezefit"), (21, "furyswipes"), (25, "yawn"), (29, "bodyslam"), (33, "hypervoice"),
+                  (37, "doubleedge")],
+        "tm": BASIC_TM + ["dig", "bodyslam", "hypervoice", "uturn", "thief", "swift", "yawn", "bulldoze",
+                          "playrough", "facade", "workup"],
+        "egg": ["followme", "covet"], "evolve": None,
+        "drops": [("minecraft:brown_dye", "1-2", None), ("minecraft:sugar", "0-1", None)],
+        "entry": ("Snuffel stores pulverized herbs in tiny pouches near its snout. A single pinch wakes it up instantly "
+                  "from hibernation."),
+        "spawns": [nico_spawn("snuffel-ashtray", "common", "4-26", 8.0)],
+        "how": [NICO_HOW.format("common"), "It learns Sneeze Fit at level 17."],
+    },
+    "cartelord": {
+        "dex": 3114, "name": "Cartelord", "line": "nico_baron", "types": ["dark", "grass"], **NICO, "catch": 45,
+        "male": 0.5, "egg_groups": ["grass", "human_like"],
+        "abilities": ["hooked", "intimidate", "h:prankster"],
+        "ability_names": "Hooked / Intimidate / Prankster (hidden)",
+        "stats": stats(85, 110, 80, 75, 80, 80), "ev": evs(attack=2), "exp": 190,
+        "height": 18, "weight": 520, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "absorb"), (1, "pursuit"), (5, "leechseed"), (9, "bite"), (13, "razorleaf"),
+                  (17, "feintattack"), (21, "seedbomb"), (25, "nastyplot"), (29, "nightslash"), (33, "leafblade"),
+                  (37, "knockoff"), (43, "powerwhip")],
+        "tm": BASIC_TM + ["knockoff", "suckerpunch", "darkpulse", "leafblade", "seedbomb", "energyball", "swordsdance",
+                          "taunt", "torment", "foulplay", "trailblaze", "gigadrain", "throatchop"],
+        "egg": ["spikyshield", "partingshot"], "evolve": None,
+        "drops": [("minecraft:emerald", "0-1", None), ("minecraft:wheat", "1-3", None)],
+        "entry": ("Cartelord controls vast swaths of farmland. Once a Pokémon gets a taste of the sweet nectar it "
+                  "produces, it refuses to eat anything else."),
+        "spawns": [nico_spawn("cartelord-ashtray", "rare", "30-50", 0.6)],
+        "how": [NICO_HOW.format("rare"), "Its ability Hooked keeps any Pokémon that touches it from switching out on "
+                "the next turn."],
+    },
+    "nicodrake": {
+        "dex": 3115, "name": "Nicodrake", "line": "nico_dragon", "types": ["dragon", "poison"],
+        "friendship": 0, "growth": "slow", "catch": 3, "male": -1, "egg_groups": ["undiscovered"],
+        "labels": ["legendary"],
+        "abilities": ["pressure", "h:aromaveil"], "ability_names": "Pressure / Aroma Veil (hidden)",
+        "stats": stats(100, 100, 90, 130, 90, 90), "ev": evs(special_attack=3), "exp": 300,
+        "height": 26, "weight": 900, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "dragonbreath"), (1, "smog"), (1, "safeguard"), (10, "twister"), (20, "venoshock"),
+                  (30, "dragonpulse"), (40, "alkaloidroar"), (50, "sludgewave"), (60, "dragondance"),
+                  (70, "dracometeor"), (80, "toxic")],
+        "tm": BASIC_TM + ["dragonpulse", "dracometeor", "sludgebomb", "sludgewave", "flamethrower", "fireblast",
+                          "calmmind", "roost", "hurricane", "outrage", "dragondance", "hyperbeam", "gigaimpact",
+                          "toxicspikes", "venoshock"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:gold_ingot", "2-4", None), ("minecraft:dragon_breath", "1-2", None)],
+        "entry": ("Ancient murals depict shamans summoning Nicodrake through ceremonial braziers to commune with "
+                  "spirits and sharpen their minds."),
+        "spawns": [nico_spawn("nicodrake-ashtray", "ultra-rare", "60-70", 0.1)],
+        "how": ["Wild: ultra-rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto), level 60-70.",
+                "It learns Alkaloid Roar at level 40."],
+    },
+})
+for _sp in ("nicotiny", "emberbutt", "vapulon", "mentholynx", "chawchamp", "tarragon", "ashtraylor", "wispuff",
+            "hypnodose", "hornworm", "meerschaum", "cigarghast", "zynx", "zippolt", "snuffel", "cartelord", "nicodrake"):
+    LINES[SPECIES[_sp]["line"]] = [_sp]
+LINES["nico_hookah"] = ["bongwater", "hookahdra"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -2553,6 +2944,10 @@ FAKEMON_STARTERS = ("A. Fakemon", -98, ["cobbleeffort:wigwoof", "cobbleeffort:so
 FAKEMON_STARTERS_2 = ("A. Fakemon II", -97, ["cobbleeffort:whissant", "cobbleeffort:flachiko", "cobbleeffort:brenkey"])
 
 
+
+from nico_battle import NICO_ABILITIES, NICO_MOVES                  # the Nicodex's own abilities and moves  # noqa: E402
+CUSTOM_ABILITIES.update(NICO_ABILITIES)
+CUSTOM_MOVES.update(NICO_MOVES)
 
 def folder(sp):
     return f"{SPECIES[sp]['dex']:04d}_{sp}"

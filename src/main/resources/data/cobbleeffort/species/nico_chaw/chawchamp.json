@@ -1,0 +1,132 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3103,
+ "name": "Chawchamp",
+ "primaryType": "fighting",
+ "maleRatio": 0.5,
+ "height": 8,
+ "weight": 640,
+ "pokedex": [
+  "cobbleeffort.species.chawchamp.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "guts",
+  "thickfat",
+  "h:ironfist"
+ ],
+ "eggGroups": [
+  "water_1",
+  "human_like"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 115,
+  "defence": 85,
+  "special_attack": 45,
+  "special_defence": 70,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 170,
+ "experienceGroup": "medium_fast",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.6,
+ "hitbox": {
+  "width": 1.1,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:dried_kelp",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:pound",
+  "1:leer",
+  "5:machpunch",
+  "9:mudslap",
+  "13:brickbreak",
+  "17:spittoonslug",
+  "21:bulkup",
+  "25:drainpunch",
+  "29:bodyslam",
+  "33:superpower",
+  "37:closecombat",
+  "egg:fakeout",
+  "egg:stockpile",
+  "egg:spitup",
+  "egg:swallow",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:brickbreak",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:bulkup",
+  "tm:rocktomb",
+  "tm:earthquake",
+  "tm:knockoff",
+  "tm:icepunch",
+  "tm:thunderpunch",
+  "tm:firepunch",
+  "tm:bodypress",
+  "tm:waterpulse",
+  "tm:gunkshot",
+  "tm:poisonjab"
+ ]
+}

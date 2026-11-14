@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3112,
+ "name": "Zippolt",
+ "primaryType": "steel",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 70,
+ "pokedex": [
+  "cobbleeffort.species.zippolt.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flashfire",
+  "static",
+  "h:lightningrod"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 95,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 70,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 170,
+ "experienceGroup": "medium_fast",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.85,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:metalclaw",
+  "1:thundershock",
+  "5:spark",
+  "9:mirrorshot",
+  "13:shockwave",
+  "17:flintsnap",
+  "21:irondefense",
+  "25:thunderfang",
+  "29:ironhead",
+  "33:wildcharge",
+  "39:steelbeam",
+  "egg:shiftgear",
+  "egg:magnetrise",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:thunderbolt",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:thunderwave",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:electricterrain",
+  "tm:gyroball",
+  "tm:metalsound",
+  "tm:firefang"
+ ]
+}

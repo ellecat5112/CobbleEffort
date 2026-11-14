@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 106 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 125 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2686,6 +2686,181 @@ cobbleeffort:cavitot.
   faint."
   * Evolve Shallorn at level 34. It learns Petal Dance when it evolves.
   * Wild: rare in swamps and forests.
+
+#3097 NICOTINY  (Grass; Pest Deterrent / Chlorophyll / Effect Spore (hidden))
+  a tiny green seedling bud with dewdrop eyes, two broad sticky dew-glistening leaves and a sprout,
+  on root feet
+  Stats: HP 50  Atk 40  Def 55  SpA 70  SpD 75  Spe 60  (total 350)
+  Pokedex: "Farmers once planted Nicotiny around their gardens to keep Caterpie away, though
+  touching its leaves gives trainers a sudden dizzy spell."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Pest Deterrent lowers the Attack of Bug-type foes when it switches in.
+
+#3098 EMBERBUTT  (Fire; Flame Body / Flash Fire / White Smoke (hidden))
+  a little cigarette-butt creature: papery white body, orange filter rear, an ash ring and a glowing
+  ember nose
+  Stats: HP 45  Atk 70  Def 50  SpA 55  SpD 45  Spe 95  (total 360)
+  Pokedex: "It feeds on dry paper and dry leaves to keep the tip of its snout glowing. If
+  extinguished, it falls into a deep, sluggish sleep."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Cherry Flick at level 9.
+
+#3099 BONGWATER  (Water / Poison; Water Veil / Liquid Ooze / Stench (hidden))
+  a little round glass flask half full of water with a tall glass neck, a brass downstem and bowl
+  and big eyes
+  Stats: HP 50  Atk 35  Def 55  SpA 60  SpD 60  Spe 40  (total 300)
+  Pokedex: "Its belly gurgles with every breath it draws through its glass neck. The water inside
+  slowly turns brown, and it has to swim in clean rivers to rinse itself out."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Bubble Filter at level 25.
+  * Evolves into Hookahdra at level 36.
+
+#3100 HOOKAHDRA  (Water / Poison; Water Veil / Liquid Ooze / Stench (hidden))
+  a glass-and-brass hookah sea serpent: a bubbling glass vase body, a brass stem and coal bowl, and
+  three braided teal hose necks ending in serpent heads with brass mouthpiece snouts
+  Stats: HP 95  Atk 70  Def 95  SpA 110  SpD 95  Spe 60  (total 525)
+  Pokedex: "By drawing air through its water-filled belly, Hookahdra cools down its internal
+  furnace, releasing sweet-smelling clouds from its many snouts."
+  * Evolve Bongwater at level 36. It learns Dragon Pulse when it evolves.
+  * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+
+#3101 VAPULON  (Electric / Flying; Cloud Chaser / Motor Drive / Gale Wings (hidden))
+  a sleek metallic hummingbird shaped like a pod vape: a gunmetal pod with a glowing light strip, a
+  long black mouthpiece beak, a silver plug tail, whirring wings and trailing vapor
+  Stats: HP 60  Atk 55  Def 60  SpA 100  SpD 70  Spe 120  (total 465)
+  Pokedex: "Popular among younger trainers in bustling cities, Vapulon charges itself at wall
+  outlets and exhales massive plumes that smell faintly of artificial berries."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Cloud Chaser fills the field with fog for 5 turns: Electric moves get stronger and
+    non-Electric Pokémon miss more.
+
+#3102 MENTHOLYNX  (Ice / Dark; Ice Body / Infiltrator / Snow Cloak (hidden))
+  a sleek dark navy lynx frosted with mint: frost along its back, mint cheek ruffs and ear tufts,
+  icy glowing eyes, a bobtail and crystal shards along its spine
+  Stats: HP 70  Atk 105  Def 65  SpA 60  SpD 70  Spe 110  (total 480)
+  Pokedex: "Its icy breath masks the harshness of winter air, lulling lost travelers into staying
+  out in the cold far longer than they should."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Frostbite Drag at level 21.
+
+#3103 CHAWCHAMP  (Fighting; Guts / Thick Fat / Iron Fist (hidden))
+  a squat bullfrog brawler with one swollen cheek full of chaw, a brass championship belt and taped
+  fists
+  Stats: HP 95  Atk 115  Def 85  SpA 45  SpD 70  Spe 55  (total 465)
+  Pokedex: "Chawchamp constantly chews on bitter herbs to stay focused during sparring matches. Its
+  jaw strength can crush a Geodude."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Spittoon Slug at level 17.
+
+#3104 TARRAGON  (Poison / Dragon; Resin Coat / Sticky Hold / Liquid Ooze (hidden))
+  a sticky black tar wyvern with glossy dripping hide, drip-edged tar sheet wings and amber glowing
+  eyes
+  Stats: HP 100  Atk 95  Def 110  SpA 85  SpD 85  Spe 40  (total 515)
+  Pokedex: "Born from the accumulated grime of industrial chimneys, Tarragon's heavy, tar-soaked
+  wings make flight difficult, forcing it to crawl along cavern walls."
+  * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Resin Coat halves damage from contact moves and slows the attacker.
+
+#3105 ASHTRAYLOR  (Ground / Rock; Sturdy / Flash Fire / Shell Armor (hidden))
+  a heavy tortoise whose shell is a chipped ceramic ashtray basin full of ash, butts and glowing
+  embers
+  Stats: HP 100  Atk 80  Def 130  SpA 50  SpD 90  Spe 25  (total 475)
+  Pokedex: "Travelers use Ashtraylor's basin-like back to safely extinguish campfires. It absorbs
+  the leftover cinders to harden its stony shell."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Smother at level 17.
+
+#3106 WISPUFF  (Flying / Ghost; Lingering Scent / Levitate / White Smoke (hidden))
+  a ghostly plume of soft grey-white smoke puffs with a faint sleepy face and trailing smoke ribbons
+  Stats: HP 60  Atk 45  Def 55  SpA 95  SpD 80  Spe 95  (total 430)
+  Pokedex: "It clings to curtains and clothing long after leaving a room. You can always tell when a
+  Wispuff has passed through by the stale chill in the air."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Lingering Scent leaves a haze for 3 turns after it faints that hurts non-Ghost
+    Pokémon.
+
+#3107 HYPNODOSE  (Psychic; Steady Release / Healer / Inner Focus (hidden))
+  a floating round adhesive patch with a slowly turning purple hypnotic spiral and a peeling edge
+  tab
+  Stats: HP 80  Atk 40  Def 75  SpA 85  SpD 105  Spe 65  (total 450)
+  Pokedex: "Hypnodose latches onto stressed Pokémon, releasing a calm, rhythmic psychic pulse that
+  eases agitation—though removing it causes sudden irritability."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Steady Release cures confusion and restores PP on its side every turn.
+
+#3108 HORNWORM  (Bug; Toxin Gourmet / Shield Dust / Gluttony (hidden))
+  a fat bright green tobacco hornworm caterpillar with white diagonal side stripes and a curved red
+  tail horn
+  Stats: HP 85  Atk 80  Def 75  SpA 40  SpD 70  Spe 50  (total 400)
+  Pokedex: "While most Bug-types avoid Nicotiny, Hornworm devours entire fields of them, storing the
+  bitter alkaloids in its body to deter predators."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Toxin Gourmet heals it instead of hurting it when it is hit by a Poison- or Grass-
+    type move.
+
+#3109 MEERSCHAUM  (Rock / Fairy; Patina Polish / Sturdy / Magic Guard (hidden))
+  a creamy ivory stone gargoyle carved like an ornate meerschaum pipe, with an amber patina, a pipe-
+  bowl back and wings
+  Stats: HP 80  Atk 70  Def 110  SpA 85  SpD 110  Spe 45  (total 500)
+  Pokedex: "Artisans carve Meerschaum into intricate shapes. The darker and richer its golden-brown
+  coloration, the older and more powerful the Pokémon is."
+  * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Patina Polish raises its Defense and Sp. Def whenever a Fire- or Poison-type move
+    hits it.
+
+#3110 CIGARGHAST  (Ghost / Fire; Flash Fire / Cursed Body / Infiltrator (hidden))
+  a phantom shaped like a thick rolled cigar with a gold-and-red band, one glowing ember eye and
+  smoky wraith arms
+  Stats: HP 70  Atk 60  Def 75  SpA 110  SpD 90  Spe 85  (total 490)
+  Pokedex: "Said to haunt old study rooms and velvet lounges, Cigarghast's glowing ember eye is
+  often the only thing visible in the dark."
+  * Wild: rare, at night in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Smoke Ring at level 21.
+
+#3111 ZYNX  (Fairy / Ice; Refrigerate / Pixilate / Cute Charm (hidden))
+  a pastel pillow-pouch sprite with mint cheeks and sparkly eyes, peeking out of a round mint tin,
+  its lid a hat
+  Stats: HP 55  Atk 45  Def 60  SpA 90  SpD 70  Spe 110  (total 430)
+  Pokedex: "Compact and discreet, Zynx hides inside trainers' pockets. A single touch gives an
+  instant jolt of icy clarity and focus."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Lip Tingle at level 17.
+
+#3112 ZIPPOLT  (Steel / Electric; Flash Fire / Static / Lightning Rod (hidden))
+  a polished chrome flip-top lighter with its lid open over a chimney and flame, spark eyes and
+  little steel legs
+  Stats: HP 60  Atk 95  Def 95  SpA 70  SpD 70  Spe 90  (total 480)
+  Pokedex: "Celebrated for its signature metallic clink, Zippolt can keep its tiny flame alive even
+  in the middle of a fierce gale."
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Flint Snap at level 17.
+
+#3113 SNUFFEL  (Normal; Pickup / Run Away / Aroma Veil (hidden))
+  a small round sneezy mole in a velvet waistcoat with a big snuff-dusted pink nose and a snuff box
+  Stats: HP 70  Atk 60  Def 55  SpA 60  SpD 55  Spe 80  (total 380)
+  Pokedex: "Snuffel stores pulverized herbs in tiny pouches near its snout. A single pinch wakes it
+  up instantly from hibernation."
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * It learns Sneeze Fit at level 17.
+
+#3114 CARTELORD  (Dark / Grass; Hooked / Intimidate / Prankster (hidden))
+  a sinister tobacco-bale scarecrow in a pinstriped suit and fedora, red eyes under the brim, a
+  cigar holder
+  Stats: HP 85  Atk 110  Def 80  SpA 75  SpD 80  Spe 80  (total 510)
+  Pokedex: "Cartelord controls vast swaths of farmland. Once a Pokémon gets a taste of the sweet
+  nectar it produces, it refuses to eat anything else."
+  * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Its ability Hooked keeps any Pokémon that touches it from switching out on the next turn.
+
+#3115 NICODRAKE  (Dragon / Poison; Pressure / Aroma Veil (hidden))
+  a majestic serpentine dragon of swirling iridescent smoke with golden ash scales, golden horns,
+  glowing amber eyes and a tobacco-leaf mane
+  Stats: HP 100  Atk 100  Def 90  SpA 130  SpD 90  Spe 90  (total 600)
+  Pokedex: "Ancient murals depict shamans summoning Nicodrake through ceremonial braziers to commune
+  with spirits and sharpen their minds."
+  * Wild: ultra-rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto), level
+    60-70.
+  * It learns Alkaloid Roar at level 40.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

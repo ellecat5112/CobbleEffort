@@ -1,0 +1,131 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3104,
+ "name": "Tarragon",
+ "primaryType": "poison",
+ "secondaryType": "dragon",
+ "maleRatio": 0.5,
+ "height": 15,
+ "weight": 1800,
+ "pokedex": [
+  "cobbleeffort.species.tarragon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "resincoat",
+  "stickyhold",
+  "h:liquidooze"
+ ],
+ "eggGroups": [
+  "dragon",
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 95,
+  "defence": 110,
+  "special_attack": 85,
+  "special_defence": 85,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 186,
+ "experienceGroup": "medium_fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:coal",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:black_dye",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:acid",
+  "1:dragonbreath",
+  "5:smog",
+  "9:mudslap",
+  "13:dragontail",
+  "17:sludge",
+  "21:toxicspikes",
+  "25:dragonclaw",
+  "29:poisonjab",
+  "33:gunkshot",
+  "39:dragonrush",
+  "45:outrage",
+  "egg:acidarmor",
+  "egg:stickyweb",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:sludgebomb",
+  "tm:gunkshot",
+  "tm:poisonjab",
+  "tm:toxicspikes",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:outrage",
+  "tm:earthquake",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:irontail",
+  "tm:bodypress",
+  "tm:dragontail"
+ ]
+}

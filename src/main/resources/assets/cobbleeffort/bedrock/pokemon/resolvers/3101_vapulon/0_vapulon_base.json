@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:vapulon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:vapulon",
+   "model": "cobbleeffort:vapulon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3101_vapulon/vapulon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3101_vapulon/vapulon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

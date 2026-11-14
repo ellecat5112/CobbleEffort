@@ -1,0 +1,126 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3108,
+ "name": "Hornworm",
+ "primaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 5,
+ "weight": 60,
+ "pokedex": [
+  "cobbleeffort.species.hornworm.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "toxingourmet",
+  "shielddust",
+  "h:gluttony"
+ ],
+ "eggGroups": [
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 80,
+  "defence": 75,
+  "special_attack": 40,
+  "special_defence": 70,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 140,
+ "experienceGroup": "medium_fast",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.8,
+  "height": 0.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.18
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:lime_dye",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:stringshot",
+  "5:bugbite",
+  "9:poisonsting",
+  "13:headbutt",
+  "17:strugglebug",
+  "21:hornattack",
+  "25:leechlife",
+  "29:pinmissile",
+  "33:megahorn",
+  "38:firstimpression",
+  "egg:stockpile",
+  "egg:slackoff",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:xscissor",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:bugbuzz",
+  "tm:pounce",
+  "tm:leechlife",
+  "tm:poisonjab",
+  "tm:bodyslam",
+  "tm:stickyweb",
+  "tm:irondefense",
+  "tm:skittersmack"
+ ]
+}

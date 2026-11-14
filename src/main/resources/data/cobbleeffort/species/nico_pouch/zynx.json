@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3111,
+ "name": "Zynx",
+ "primaryType": "fairy",
+ "secondaryType": "ice",
+ "maleRatio": 0.5,
+ "height": 2,
+ "weight": 2,
+ "pokedex": [
+  "cobbleeffort.species.zynx.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "refrigerate",
+  "pixilate",
+  "h:cutecharm"
+ ],
+ "eggGroups": [
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 45,
+  "defence": 60,
+  "special_attack": 90,
+  "special_defence": 70,
+  "speed": 110
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 152,
+ "experienceGroup": "medium_fast",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.4,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.55,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:snowball",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:light_blue_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:pound",
+  "1:powdersnow",
+  "5:fairywind",
+  "9:icywind",
+  "13:drainingkiss",
+  "17:liptingle",
+  "21:aurorabeam",
+  "25:dazzlinggleam",
+  "29:icebeam",
+  "33:moonblast",
+  "37:blizzard",
+  "egg:fakeout",
+  "egg:sweetkiss",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:dazzlinggleam",
+  "tm:moonblast",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:snowscape",
+  "tm:charm",
+  "tm:calmmind",
+  "tm:uturn",
+  "tm:playrough"
+ ]
+}

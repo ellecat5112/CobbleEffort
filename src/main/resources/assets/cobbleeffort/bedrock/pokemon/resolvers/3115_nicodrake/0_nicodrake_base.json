@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:nicodrake",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:nicodrake",
+   "model": "cobbleeffort:nicodrake.geo",
+   "texture": "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_glow_0.png",
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_glow_1.png",
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3115_nicodrake/nicodrake_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

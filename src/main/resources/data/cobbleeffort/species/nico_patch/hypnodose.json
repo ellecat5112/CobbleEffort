@@ -1,0 +1,131 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3107,
+ "name": "Hypnodose",
+ "primaryType": "psychic",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 2,
+ "pokedex": [
+  "cobbleeffort.species.hypnodose.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "steadyrelease",
+  "healer",
+  "h:innerfocus"
+ ],
+ "eggGroups": [
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 40,
+  "defence": 75,
+  "special_attack": 85,
+  "special_defence": 105,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 2,
+  "speed": 0
+ },
+ "baseExperienceYield": 158,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:paper",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:purple_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:confusion",
+  "1:hypnosis",
+  "5:disable",
+  "9:psybeam",
+  "13:calmmind",
+  "17:healpulse",
+  "21:psyshock",
+  "25:wish",
+  "29:psychic",
+  "33:healbell",
+  "37:storedpower",
+  "egg:lifedew",
+  "egg:afteryou",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:trickroom",
+  "tm:storedpower",
+  "tm:healpulse",
+  "tm:dazzlinggleam",
+  "tm:shadowball",
+  "tm:thunderwave",
+  "tm:psychicterrain"
+ ]
+}

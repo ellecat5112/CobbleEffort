@@ -272,6 +272,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `eye_at`, `antenna`, translucent `beam`, `ring()` rainbow rings (Magneton's spins on a `ring_orbit` bone).
   Tearion -> Shallorn -> Pungallium (#3094-3096, line "onion", A. Fakemon art, our names; `_onion.py`: `bulb()`
   stacked slices ~1.8 units thick (thinner reads as brickwork), `teary_eye()`): Grass -> Grass/Poison at 18/34.
+  The Nicodex (#3097-3115, the user's designs: one per type, nicotine/tobacco themed, spawning ONLY in Kanto's
+  Ashtray Wastes via `#cobbleeffort_kanto:is_ashtray`): models on `models/_nico.py` (palette BASE, `tube_z`, `disc_z`,
+  `puff`, `eye_on`, `ring_pts`), one module per species; their 8 abilities + 10 moves live in `tools/newmons/nico_battle.py`
+  (NICO_ABILITIES/NICO_MOVES merged into CUSTOM_*), engine-tested with a node harness (field conditions = an ability's
+  own `condition` started as a pseudoWeather; onFaint works). Bongwater -> Hookahdra (36) is the only evolution.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

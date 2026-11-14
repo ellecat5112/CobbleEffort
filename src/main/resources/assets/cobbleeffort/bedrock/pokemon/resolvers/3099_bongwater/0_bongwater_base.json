@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:bongwater",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bongwater",
+   "model": "cobbleeffort:bongwater.geo",
+   "texture": "cobbleeffort:textures/pokemon/3099_bongwater/bongwater.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3099_bongwater/bongwater_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3099_bongwater/bongwater_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3099_bongwater/bongwater_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

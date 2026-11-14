@@ -147,7 +147,8 @@ THE ASHTRAY WASTES (NEW in 0.7.0)
   - It takes over patches of plains, savannas, deserts and badlands in new chunks (existing land doesn't change):
     /locate biome cobbleeffort_kanto:ashtray
   - New blocks: Ash (falls like sand), Cigarette Paper, Cigarette Filter and Cigarette Ember (glows, smokes, burns).
-  - Pokemon of its own are coming (spawn tag #cobbleeffort_kanto:is_ashtray).
+  - Its Pokemon: the Nicodex, 19 Pokemon (one per type) in CobbleEffort 0.78.0 and later, which spawn only here
+    (spawn tag #cobbleeffort_kanto:is_ashtray).
 
 PLEASE TEST AND REPORT
   0.7.0: find the Ashtray Wastes (/locate biome cobbleeffort_kanto:ashtray) and look around: ash ground, tar pools,

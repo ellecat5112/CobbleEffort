@@ -1,0 +1,126 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3113,
+ "name": "Snuffel",
+ "primaryType": "normal",
+ "maleRatio": 0.5,
+ "height": 3,
+ "weight": 25,
+ "pokedex": [
+  "cobbleeffort.species.snuffel.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pickup",
+  "runaway",
+  "h:aromaveil"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 60,
+  "defence": 55,
+  "special_attack": 60,
+  "special_defence": 55,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 72,
+ "experienceGroup": "medium_fast",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.7,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:brown_dye",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:sugar",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:sandattack",
+  "5:quickattack",
+  "9:dig",
+  "13:headbutt",
+  "17:sneezefit",
+  "21:furyswipes",
+  "25:yawn",
+  "29:bodyslam",
+  "33:hypervoice",
+  "37:doubleedge",
+  "egg:followme",
+  "egg:covet",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:dig",
+  "tm:bodyslam",
+  "tm:hypervoice",
+  "tm:uturn",
+  "tm:thief",
+  "tm:swift",
+  "tm:yawn",
+  "tm:bulldoze",
+  "tm:playrough",
+  "tm:facade",
+  "tm:workup"
+ ]
+}

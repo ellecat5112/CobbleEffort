@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3109,
+ "name": "Meerschaum",
+ "primaryType": "rock",
+ "secondaryType": "fairy",
+ "maleRatio": 0.5,
+ "height": 9,
+ "weight": 950,
+ "pokedex": [
+  "cobbleeffort.species.meerschaum.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "patinapolish",
+  "sturdy",
+  "h:magicguard"
+ ],
+ "eggGroups": [
+  "mineral",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 70,
+  "defence": 110,
+  "special_attack": 85,
+  "special_defence": 110,
+  "speed": 45
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 178,
+ "experienceGroup": "medium_fast",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.65,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.35,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:quartz",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:calcite",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:fairywind",
+  "5:defensecurl",
+  "9:rockthrow",
+  "13:drainingkiss",
+  "17:ancientpower",
+  "21:irondefense",
+  "25:dazzlinggleam",
+  "29:powergem",
+  "33:cosmicpower",
+  "37:moonblast",
+  "egg:wish",
+  "egg:stealthrock",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:powergem",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:stealthrock",
+  "tm:moonblast",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:calmmind",
+  "tm:irondefense",
+  "tm:bodypress",
+  "tm:meteorbeam",
+  "tm:mistyterrain"
+ ]
+}

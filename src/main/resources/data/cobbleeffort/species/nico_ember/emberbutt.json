@@ -1,0 +1,127 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3098,
+ "name": "Emberbutt",
+ "primaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 3,
+ "weight": 4,
+ "pokedex": [
+  "cobbleeffort.species.emberbutt.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flamebody",
+  "flashfire",
+  "h:whitesmoke"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 45,
+  "attack": 70,
+  "defence": 50,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 95
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 66,
+ "experienceGroup": "medium_fast",
+ "catchRate": 170,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.6,
+  "height": 0.62,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:paper",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:tackle",
+  "5:smokescreen",
+  "9:cherryflick",
+  "13:flamecharge",
+  "17:firefang",
+  "21:incinerate",
+  "25:willowisp",
+  "29:flamewheel",
+  "33:lavaplume",
+  "39:flareblitz",
+  "egg:burnup",
+  "egg:extremespeed",
+  "egg:fireblast",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:overheat",
+  "tm:willowisp",
+  "tm:flamecharge",
+  "tm:sunnyday",
+  "tm:uturn",
+  "tm:quickattack",
+  "tm:temperflare",
+  "tm:heatwave",
+  "tm:endeavor"
+ ]
+}

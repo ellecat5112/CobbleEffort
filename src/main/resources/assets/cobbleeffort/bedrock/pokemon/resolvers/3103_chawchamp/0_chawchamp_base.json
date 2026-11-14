@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:chawchamp",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chawchamp",
+   "model": "cobbleeffort:chawchamp.geo",
+   "texture": "cobbleeffort:textures/pokemon/3103_chawchamp/chawchamp.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3103_chawchamp/chawchamp_shiny.png"
+  }
+ ]
+}

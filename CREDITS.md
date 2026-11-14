@@ -274,7 +274,9 @@ Magnalien (its name and design) are after the same fanpage's art; their models, 
 our own. The designs of Tearion, Shallorn and Pungallium are after the same fanpage's
 art; their names, models, stats, moves and Pokédex entries are our own. Phanturn (its design) is after art the user shared (artist not
 named); its name, model, stats, moves and Pokédex entry are our own. Boracle and Sunflare (their designs) are after art the user shared
-(artists not named); their names, models, stats, moves and Pokédex entries are our own.
+(artists not named); their names, models, stats, moves and Pokédex entries are our own. The Nicodex (Nicotiny to Nicodrake, #3097-3115:
+their names, types, concepts, signature moves and abilities and Pokédex entries) is the user's design; Bongwater's name and
+entry, the models, stats and other moves are our own.
 
 ## Code and data
 

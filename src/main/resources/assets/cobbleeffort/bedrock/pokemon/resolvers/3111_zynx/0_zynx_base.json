@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:zynx",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:zynx",
+   "model": "cobbleeffort:zynx.geo",
+   "texture": "cobbleeffort:textures/pokemon/3111_zynx/zynx.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3111_zynx/zynx_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3111_zynx/zynx_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3111_zynx/zynx_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

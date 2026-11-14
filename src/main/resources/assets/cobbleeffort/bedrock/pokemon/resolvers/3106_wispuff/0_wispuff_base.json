@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:wispuff",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:wispuff",
+   "model": "cobbleeffort:wispuff.geo",
+   "texture": "cobbleeffort:textures/pokemon/3106_wispuff/wispuff.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3106_wispuff/wispuff_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3106_wispuff/wispuff_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3106_wispuff/wispuff_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

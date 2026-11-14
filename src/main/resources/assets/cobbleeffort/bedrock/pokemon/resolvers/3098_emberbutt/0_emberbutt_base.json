@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:emberbutt",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:emberbutt",
+   "model": "cobbleeffort:emberbutt.geo",
+   "texture": "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_glow_0.png",
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_glow_1.png",
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3098_emberbutt/emberbutt_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

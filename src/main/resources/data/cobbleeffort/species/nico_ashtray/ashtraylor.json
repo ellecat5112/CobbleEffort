@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3105,
+ "name": "Ashtraylor",
+ "primaryType": "ground",
+ "secondaryType": "rock",
+ "maleRatio": 0.5,
+ "height": 10,
+ "weight": 2600,
+ "pokedex": [
+  "cobbleeffort.species.ashtraylor.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "flashfire",
+  "h:shellarmor"
+ ],
+ "eggGroups": [
+  "monster",
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 80,
+  "defence": 130,
+  "special_attack": 50,
+  "special_defence": 90,
+  "speed": 25
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 168,
+ "experienceGroup": "medium_fast",
+ "catchRate": 75,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.85,
+ "hitbox": {
+  "width": 1.7,
+  "height": 1.15,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.14
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:gray_dye",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:sandattack",
+  "5:withdraw",
+  "9:mudslap",
+  "13:rocktomb",
+  "17:smother",
+  "21:bulldoze",
+  "25:rockslide",
+  "29:irondefense",
+  "33:earthquake",
+  "39:headsmash",
+  "egg:shellsmash",
+  "egg:yawn",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:earthquake",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:stealthrock",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:rocktomb",
+  "tm:sandstorm",
+  "tm:bodypress",
+  "tm:irondefense",
+  "tm:heavyslam",
+  "tm:willowisp",
+  "tm:sandtomb"
+ ]
+}
