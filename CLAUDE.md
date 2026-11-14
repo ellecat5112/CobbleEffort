@@ -266,6 +266,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Water/Fighting; swim ring = rods round a circle), Whissant -> Arpsant -> Violinisant (Grass, Grass/Psychic), Flachiko
   -> Blaxer -> Cerbego (Fire, Fire/Ghost; translucent phantom heads on `ghost_*` bones) at 16/36; starter page
   FAKEMON_STARTERS_2 ("A. Fakemon II", order -97, key afakemon2).
+  UFO Magnemite line (A. Fakemon art): CobbleEffortian Magnemite/Magneton (regional.py, Electric/Psychic, `box`
+  models `*_cobbleeffortian.py`, UFO_REPLACE swaps Steel moves for Psychic ones, night spawns) -> Magnalien (#3093,
+  `models/magnalien.py`, `pre` "magneton cobbleeffortian", lv 45); `_ufo.py`: `hull()` banded running lights,
+  `eye_at`, `antenna`, translucent `beam`, `ring()` rainbow rings (Magneton's spins on a `ring_orbit` bone).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

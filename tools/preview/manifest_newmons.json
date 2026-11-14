@@ -1968,5 +1968,43 @@
     "retextured": "cobbleeffort:textures/pokemon/3092_cerbego/cerbego_shiny_shell.png"
    }
   ]
+ },
+ {
+  "species": "magnalien",
+  "folder": "3093_magnalien",
+  "model": "cobbleeffort:magnalien.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "magnalien_shiny",
+  "folder": "3093_magnalien",
+  "model": "cobbleeffort:magnalien.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3093_magnalien/magnalien_shiny_shell.png"
+   }
+  ]
  }
 ]

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 100 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 103 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1710,6 +1710,25 @@ cobbleeffort:cavitot.
   largest of any Pokémon that lives in the sea."
   * Wild: rare in the depths of deep oceans (in the dark, far below the surface).
 
+#0081 MAGNEMITE (COBBLEEFFORT FORM)  (Electric / Psychic; Levitate / Analytic / Telepathy (hidden))
+  a little silver flying saucer with a domed top, one big glowing green eye, an antenna and a yellow
+  tractor beam
+  Stats: HP 25  Atk 35  Def 70  SpA 95  SpD 55  Spe 45  (total 325)
+  Pokedex: "Lights in the night sky over the desert are often swarms of these little saucers. They
+  hum as they drift, and they lift curious objects up in their tractor beams to study them with
+  their one big eye."
+  * Wild: uncommon in deserts, badlands and plains, at night.
+  * Evolves into the CobbleEffort Magneton at level 30.
+
+#0082 MAGNETON (COBBLEEFFORT FORM)  (Electric / Psychic; Levitate / Analytic / Telepathy (hidden))
+  three linked silver saucers with green eyes and antennae, two magnets in the middle one, and a
+  spinning ring of rainbow light
+  Stats: HP 50  Atk 60  Def 95  SpA 120  SpD 70  Spe 70  (total 465)
+  Pokedex: "Three saucers linked by a ring of light. They talk to each other without a sound, and
+  the ring spins faster the more they agree."
+  * Wild: rare in deserts, badlands and plains, at night.
+  * Evolves into Magnalien at level 45.
+
 #0590 FOONGUS (COBBLEEFFORT FORM)  (Grass / Steel; Effect Spore / Iron Barbs / Regenerator (hidden))
   a little screw mushroom: a steel Phillips-head dome cap with rivets, a round white body with
   swirly eyes and a cheery mouth, two threaded screw arms and little copper feet
@@ -2629,6 +2648,15 @@ cobbleeffort:cavitot.
   Pokedex: "It guards the way to the land of the dead. The souls it has turned back burn beside it
   as purple ghost-fire, and in battle they flare up as two more heads."
   * Evolve Blaxer at level 36. It learns Infernal Parade when it evolves.
+
+#3093 MAGNALIEN  (Electric / Psychic; Levitate / Analytic / Telepathy (hidden))
+  a great silver mothership with a ring of coloured running lights, a ridged dome with one huge
+  green eye, a rainbow halo, four little docked saucer pods and a rainbow tractor beam
+  Stats: HP 75  Atk 60  Def 105  SpA 135  SpD 100  Spe 60  (total 535)
+  Pokedex: "A mothership that carries the little saucers it was formed from docked round its rim. It
+  hovers silently over fields at night, and whatever its rainbow beam touches is never quite where
+  it was left in the morning."
+  * Evolve a CobbleEffortian Magneton at level 45. It learns Psychic when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

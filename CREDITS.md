@@ -269,7 +269,9 @@ models, stats, moves and Pokédex entries are our own. Wigwoof, Wolfevel, Lycanm
 Fishugly and Creepish (their names, designs, types and abilities) are after the fakemon art of the **A. Fakemon**
 fanpage; their models, stats, moves and Pokédex entries are our own. Brenkey, Splakey, Slackey, Whissant, Arpsant, Violinisant,
 Flachiko, Blaxer and Cerbego (their names, designs and types) are after the fakemon art of the same fanpage
-(@a.fakemon); their models, abilities, stats, moves and Pokédex entries are our own. Phanturn (its design) is after art the user shared (artist not
+(@a.fakemon); their models, abilities, stats, moves and Pokédex entries are our own. The CobbleEffortian (UFO) Magnemite and Magneton and
+Magnalien (its name and design) are after the same fanpage's art; their models, stats, moves and Pokédex entries are
+our own. Phanturn (its design) is after art the user shared (artist not
 named); its name, model, stats, moves and Pokédex entry are our own. Boracle and Sunflare (their designs) are after art the user shared
 (artists not named); their names, models, stats, moves and Pokédex entries are our own.
 

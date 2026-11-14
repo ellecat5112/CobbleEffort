@@ -64,6 +64,62 @@
     "layers": []
   },
   {
+    "species": "magnemite_cobbleeffortian",
+    "folder": "0081_magnemite",
+    "model": "cobbleeffort:magnemite_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0081_magnemite/magnemite.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "magnemite_cobbleeffortian_shiny",
+    "folder": "0081_magnemite",
+    "model": "cobbleeffort:magnemite_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0081_magnemite/magnemite_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "magneton_cobbleeffortian",
+    "folder": "0082_magneton",
+    "model": "cobbleeffort:magneton_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0082_magneton/magneton.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0082_magneton/magneton_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0082_magneton/magneton_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "magneton_cobbleeffortian_shiny",
+    "folder": "0082_magneton",
+    "model": "cobbleeffort:magneton_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0082_magneton/magneton_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0082_magneton/magneton_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0082_magneton/magneton_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
     "species": "tentacool_cobbleeffortian",
     "folder": "0072_tentacool",
     "model": "cobbleeffort:tentacool_cobbleeffortian.geo",

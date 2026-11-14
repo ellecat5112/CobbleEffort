@@ -84,6 +84,48 @@
       }
     },
     {
+      "id": "magnemite-cobbleeffortian-1",
+      "pokemon": "magnemite cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-28",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_plains"
+        ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "magneton-cobbleeffortian-1",
+      "pokemon": "magneton cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-44",
+      "weight": 0.8,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert",
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_plains"
+        ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    },
+    {
       "id": "tentacool-cobbleeffortian-1",
       "pokemon": "tentacool cobbleeffortian",
       "presets": [

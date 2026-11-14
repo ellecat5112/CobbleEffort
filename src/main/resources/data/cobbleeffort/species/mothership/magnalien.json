@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3093,
+ "name": "Magnalien",
+ "primaryType": "electric",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 22,
+ "weight": 1900,
+ "pokedex": [
+  "cobbleeffort.species.magnalien.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "levitate",
+  "analytic",
+  "h:telepathy"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 60,
+  "defence": 105,
+  "special_attack": 135,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 268,
+ "experienceGroup": "medium_fast",
+ "catchRate": 30,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.2,
+ "hitbox": {
+  "width": 2.6,
+  "height": 1.85,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.26
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:redstone",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:thundershock",
+  "1:confusion",
+  "1:supersonic",
+  "1:thunderwave",
+  "1:psychic",
+  "1:electricterrain",
+  "12:electroball",
+  "16:psybeam",
+  "20:spark",
+  "24:confuseray",
+  "28:magnetrise",
+  "34:psychic",
+  "40:discharge",
+  "46:futuresight",
+  "52:lightscreen",
+  "58:lockon",
+  "64:zapcannon",
+  "70:expandingforce",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thunderbolt",
+  "tm:thunder",
+  "tm:voltswitch",
+  "tm:electroball",
+  "tm:chargebeam",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:raindance",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:futuresight",
+  "tm:shadowball",
+  "tm:dazzlinggleam",
+  "tm:trickroom",
+  "tm:storedpower",
+  "tm:psychicterrain",
+  "tm:expandingforce",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:triattack",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:magnetrise",
+  "tm:eerieimpulse"
+ ],
+ "preEvolution": "magneton cobbleeffortian"
+}

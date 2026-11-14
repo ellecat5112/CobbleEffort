@@ -2207,6 +2207,37 @@ LINES["afakemon_monkey"] = ["brenkey", "splakey", "slackey"]
 LINES["afakemon_songbird"] = ["whissant", "arpsant", "violinisant"]
 LINES["afakemon_hound"] = ["flachiko", "blaxer", "cerbego"]
 
+# Magnalien: the CobbleEffortian (UFO) Magneton's evolution, after the A. Fakemon fanpage's art (its name)
+SPECIES.update({
+    "magnalien": {
+        "dex": 3093, "name": "Magnalien", "line": "mothership", "types": ["electric", "psychic"],
+        "male": -1, "egg_groups": ["mineral"], "friendship": 50, "catch": 30, "growth": "medium_fast",
+        "abilities": ["levitate", "analytic", "h:telepathy"],
+        "ability_names": "Levitate / Analytic / Telepathy (hidden)",
+        "stats": stats(75, 60, 105, 135, 100, 60), "ev": evs(special_attack=3), "exp": 268,
+        "height": 22, "weight": 1900, "shoulder": False, "walk": 0.26, "fly": True,
+        "pre": "magneton cobbleeffortian",
+        "moves": [(1, "tackle"), (1, "thundershock"), (1, "confusion"), (1, "supersonic"), (1, "thunderwave"),
+                  (1, "psychic"), (1, "electricterrain"), (12, "electroball"), (16, "psybeam"), (20, "spark"),
+                  (24, "confuseray"), (28, "magnetrise"), (34, "psychic"), (40, "discharge"), (46, "futuresight"),
+                  (52, "lightscreen"), (58, "lockon"), (64, "zapcannon"), (70, "expandingforce")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "chargebeam", "discharge",
+                          "electricterrain", "raindance", "psychic", "psyshock", "calmmind", "futuresight",
+                          "shadowball", "dazzlinggleam", "trickroom", "storedpower", "psychicterrain",
+                          "expandingforce", "lightscreen", "reflect", "triattack", "gigaimpact", "hyperbeam",
+                          "magnetrise", "eerieimpulse"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:iron_ingot", "1-3", None), ("minecraft:redstone", "2-4", None),
+                  ("minecraft:glowstone_dust", "1-3", None)],
+        "entry": ("A mothership that carries the little saucers it was formed from docked round its rim. It hovers "
+                  "silently over fields at night, and whatever its rainbow beam touches is never quite where it was "
+                  "left in the morning."),
+        "spawns": [],
+        "how": ["Evolve a CobbleEffortian Magneton at level 45. It learns Psychic when it evolves."],
+    },
+})
+LINES["mothership"] = ["magnalien"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

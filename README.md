@@ -1492,6 +1492,14 @@ or higher while it holds a Twisted Spoon** (the spoon is used up; it learns Futu
 Own Tempo; Psybeam, Zen Headbutt, Power Gem, Psychic, Bounce, Calm Mind, Future Sight, Stored Power, Psyshock and Trick
 Room. Shiny: slate blue with a teal face and a cyan crystal ball.
 
+**CobbleEffortian Magnemite and Magneton → Magnalien** (Electric/Psychic), UFO forms after the A. Fakemon fanpage's art
+(Magnalien is its name): Magnemite is a little silver flying saucer with one big glowing green eye, an antenna and a
+yellow tractor beam; Magneton is three linked saucers in a spinning ring of rainbow light; and at level 45 it evolves
+into **Magnalien** (#3093), a great mothership ringed with coloured running lights, a ridged dome with one huge eye, a
+rainbow halo, four little saucer pods docked round its rim and a rainbow tractor beam. Levitate or Analytic, hidden
+Telepathy; their Steel moves become Psychic ones (Confusion, Psybeam, Psychic, Future Sight). Found at night over
+deserts, badlands and plains. Shiny: gold hulls with violet eyes.
+
 **Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
 solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
 a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).
@@ -1594,6 +1602,7 @@ ring on a lime stem.
 | 3090 | **Flachiko** | Fire | Blaze / Strong Jaw (hidden) | 50 / 64 / 50 / 40 / 45 / 60 | 1'4" (0.4 m) / 7.2 kg | One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II page). Wild: very rare in plains and savannas. Evolves into Blaxer at level 16. | It scowls at everyone it meets, but its flame tail wags uncontrollably when it is happy. Its fur is warm enough to sleep against on cold nights. |
 | 3091 | **Blaxer** | Fire | Blaze / Strong Jaw (hidden) | 64 / 92 / 62 / 48 / 55 / 84 | 3'3" (1 m) / 30 kg | Evolve Flachiko at level 16. It learns Fire Fang when it evolves. Evolves into Cerbego at level 36. | It bounds into battle and boxes with its front paws, faster than the eye can follow. The spiked collar round its neck grows from its own fur. |
 | 3092 | **Cerbego** | Fire / Ghost | Blaze / Strong Jaw (hidden) | 90 / 120 / 85 / 85 / 70 / 80 | 5'11" (1.8 m) / 180 kg | Evolve Blaxer at level 36. It learns Infernal Parade when it evolves. | It guards the way to the land of the dead. The souls it has turned back burn beside it as purple ghost-fire, and in battle they flare up as two more heads. |
+| 3093 | **Magnalien** | Electric / Psychic | Levitate / Analytic / Telepathy (hidden) | 75 / 60 / 105 / 135 / 100 / 60 | 7'3" (2.2 m) / 190 kg | Evolve a CobbleEffortian Magneton at level 45. It learns Psychic when it evolves. | A mothership that carries the little saucers it was formed from docked round its rim. It hovers silently over fields at night, and whatever its rainbow beam touches is never quite where it was left in the morning. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

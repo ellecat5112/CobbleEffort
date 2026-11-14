@@ -240,6 +240,14 @@ SCREW_DROP = ["sludgebomb", "venoshock", "toxic", "gastroacid"]
 SCREW_ADD = ["tm:flashcannon", "tm:irondefense", "tm:gyroball", "tm:ironhead", "tm:metalclaw", "tm:drillrun",
              "tm:metalsound", "tm:smartstrike", "tm:steelroller"]
 
+UFO_REPLACE = {"magnetbomb": "confusion", "gyroball": "psybeam", "flashcannon": "psychic", "metalsound": "futuresight",
+               "mirrorshot": "confuseray"}
+UFO_DROP = ["irondefense", "steelbeam", "heavyslam", "steelroller", "ironhead", "metalclaw", "smartstrike", "mirrorcoat"]
+UFO_ADD = ["tm:psychic", "tm:psyshock", "tm:calmmind", "tm:futuresight", "tm:shadowball", "tm:dazzlinggleam",
+           "tm:trickroom", "tm:storedpower", "tm:psychicterrain", "tm:expandingforce", "tm:psybeam", "tm:confuseray"]
+UFO_NIGHT = {"biomes": ["#cobblemon:is_desert", "#cobblemon:is_badlands", "#cobblemon:is_plains"], "canSeeSky": True,
+             "timeRange": "night"}
+
 LINE = {
     "caterpie": {
         "folder": "0010_caterpie", "paint": paint_caterpie, "types": ("bug", "poison"),
@@ -296,6 +304,31 @@ LINE = {
         "spawn": ("uncommon", "5-28", 2.0, ["minecraft:dark_forest", "#cobblemon:is_badlands", "#cobblemon:is_spooky"]),
         "how_where": "dark forests, badlands and spooky biomes",
         "shiny_note": "Shiny: crimson-black with blue marks.",
+    },
+    "magnemite": {
+        "folder": "0081_magnemite", "box": "magnemite_cobbleeffortian",
+        "types": ("electric", "psychic"), "abilities": ["levitate", "analytic", "h:telepathy"],
+        "moves_replace": UFO_REPLACE, "moves_drop": UFO_DROP, "moves_add": UFO_ADD,
+        "evolve": ("magneton", 30, ["confuseray"]),
+        "entry": ("Lights in the night sky over the desert are often swarms of these little saucers. They hum as they "
+                  "drift, and they lift curious objects up in their tractor beams to study them with their one big eye."),
+        "look": "a little silver flying saucer with a domed top, one big glowing green eye, an antenna and a yellow tractor beam",
+        "spawns": [("grounded", UFO_NIGHT, "uncommon", "5-28", 3.0)],
+        "how_where": "deserts, badlands and plains, at night",
+        "shiny_note": "Shiny: a gold saucer with a violet eye.",
+    },
+    "magneton": {
+        "folder": "0082_magneton", "box": "magneton_cobbleeffortian",
+        "types": ("electric", "psychic"), "abilities": ["levitate", "analytic", "h:telepathy"],
+        "moves_replace": UFO_REPLACE, "moves_drop": UFO_DROP, "moves_add": UFO_ADD,
+        "evolve": ("cobbleeffort:magnalien", 45, ["psychic"]),
+        "entry": ("Three saucers linked by a ring of light. They talk to each other without a sound, and the ring "
+                  "spins faster the more they agree."),
+        "look": ("three linked silver saucers with green eyes and antennae, two magnets in the middle one, and a "
+                 "spinning ring of rainbow light"),
+        "spawns": [("grounded", UFO_NIGHT, "rare", "30-44", 0.8)],
+        "how_where": "deserts, badlands and plains, at night",
+        "shiny_note": "Shiny: gold hulls with violet eyes.",
     },
     "tentacool": {
         "folder": "0072_tentacool", "box": "tentacool_cobbleeffortian",
