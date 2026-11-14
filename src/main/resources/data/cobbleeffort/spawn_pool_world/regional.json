@@ -404,6 +404,119 @@
       }
     },
     {
+      "id": "kyogre-cobbleeffortian-1",
+      "pokemon": "kyogre cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "isRaining": true
+      }
+    },
+    {
+      "id": "kyogre-cobbleeffortian-2",
+      "pokemon": "kyogre cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "isRaining": true
+      }
+    },
+    {
+      "id": "groudon-cobbleeffortian-1",
+      "pokemon": "groudon cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "groudon-cobbleeffortian-2",
+      "pokemon": "groudon cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.3,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "biomes": [
+          "minecraft:basalt_deltas",
+          "minecraft:nether_wastes"
+        ]
+      }
+    },
+    {
+      "id": "rayquaza-cobbleeffortian-1",
+      "pokemon": "rayquaza cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "canSeeSky": true,
+        "minY": 150
+      }
+    },
+    {
+      "id": "rayquaza-cobbleeffortian-2",
+      "pokemon": "rayquaza cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-75",
+      "weight": 0.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
       "id": "petroil-badlands-herd",
       "presets": [
         "natural"

@@ -457,10 +457,72 @@ LINE = {
         "how_where": "caves deep underground and in abandoned mineshafts",
         "shiny_note": "Shiny: a brass screw.",
     },
+    "kyogre": {
+        "folder": "0382_kyogre", "box": "kyogre_cobbleeffortian", "generation": 3,
+        "types": ("ground",), "abilities": ["drizzle", "h:eartheater"],
+        "moves_replace": {"waterpulse": "mudshot", "aquatail": "highhorsepower", "originpulse": "thousandwaves",
+                          "sheercold": "fissure", "aquaring": "shoreup", "hydropump": "earthpower",
+                          "waterspout": "earthquake"},
+        "moves_add": ["1:mudslap", "tm:earthquake", "tm:earthpower", "tm:mudshot", "tm:bulldoze", "tm:stealthrock",
+                      "tm:sandstorm", "tm:spikes", "tm:stompingtantrum", "tm:highhorsepower", "tm:scorchingsands"],
+        "evolve": None,
+        # a mud fish: it drags itself over land on its fins (Mega Showdown's Kyogre avoids land)
+        "behaviour": {"moving": {"walk": {"canWalk": True, "avoidsLand": False}, "swim": {"canBreatheUnderwater": True}}},
+        "entry": ("It sleeps for centuries buried in the mud of the great swamps. When it wakes, its rains turn the land "
+                  "to mire, and it drags itself through the mud it made on its great fins, its veins glowing."),
+        "look": ("a giant mud fish: a broad mud-brown whale body with a khaki belly, a back caked in cracked dried mud, "
+                 "glowing ochre veins along its flanks and fins, a flat catfish head with drooping barbels, mudskipper "
+                 "eyes bulging on top, great pectoral fins it walks on and four tail flukes"),
+        "spawns": [("grounded", {"biomes": ["#cobblemon:is_swamp"], "isRaining": True}, "ultra-rare", "70-75", 0.6),
+                   ("surface", {"biomes": ["#cobblemon:is_swamp"], "isRaining": True}, "ultra-rare", "70-75", 0.3)],
+        "how_where": "swamps and mangroves, only while it rains",
+        "shiny_note": "Shiny: grey clay with teal veins.",
+    },
+    "groudon": {
+        "folder": "0383_groudon", "box": "groudon_cobbleeffortian", "generation": 3,
+        "types": ("steel", "fire"), "abilities": ["drought", "h:steelworker"],
+        "moves_replace": {"mudshot": "metalclaw", "precipiceblades": "gigatonhammer", "earthpower": "flashcannon",
+                          "earthquake": "heavyslam", "fissure": "steelbeam"},
+        "moves_add": ["tm:ironhead", "tm:heavyslam", "tm:flashcannon", "tm:irondefense", "tm:steelbeam", "tm:metalclaw",
+                      "tm:gyroball", "tm:flamethrower", "tm:heatcrash"],
+        "evolve": None,
+        "entry": ("Its body is armour forged in the heat of the earth's core, and magma glows through every seam. When "
+                  "it raises the sun, iron runs molten from the rocks around it, and it swings its tail blade like a "
+                  "smith's hammer."),
+        "look": ("a hunched titan in white steel armour joined by glowing red seams: a slatted steel visor over a red "
+                 "face, black cheek guards, a slate-blue chest, bronze belly bands, white gauntlets with black claws and "
+                 "a bolted bronze tail curling up to a crescent blade"),
+        "spawns": [("grounded", {"biomes": ["#cobblemon:is_badlands"], "canSeeSky": True, "timeRange": "day"},
+                    "ultra-rare", "70-75", 0.5),
+                   ("grounded", {"dimensions": ["minecraft:the_nether"],
+                                 "biomes": ["minecraft:basalt_deltas", "minecraft:nether_wastes"]}, "ultra-rare", "70-75", 0.3)],
+        "how_where": "badlands by day, and the Nether's basalt deltas and wastes",
+        "shiny_note": "Shiny: gunmetal plates with blue-hot seams and a gold tail.",
+    },
+    "rayquaza": {
+        "folder": "0384_rayquaza", "box": "rayquaza_cobbleeffortian", "generation": 3,
+        "types": ("flying",), "abilities": ["airlock", "h:galewings"],
+        "moves_replace": {"twister": "gust", "dragondance": "tailwind", "dragonpulse": "skyattack",
+                          "outrage": "bravebird"},
+        "moves_add": ["tm:bravebird", "tm:hurricane", "tm:tailwind", "tm:roost", "tm:skyattack", "tm:acrobatics",
+                      "tm:aerialace", "tm:airslash", "tm:uturn"],
+        "evolve": None,
+        "entry": ("Far longer than any Rayquaza, it has never once touched the ground. It sleeps coiled on the wind high "
+                  "above the peaks, and when it uncoils, the storms it rides stretch from one horizon to the other."),
+        "look": ("a far longer Rayquaza wound in coils: a white front half traced with glowing red hexagon chains and a "
+                 "fiery chest crack, white blades fanning back from its shoulders, two red ribbons of hexagonal links "
+                 "from its head, and a black rear half ringed with glowing yellow circles and red-rimmed hexagonal fins"),
+        "spawns": [("grounded", {"biomes": ["#cobblemon:is_peak"], "canSeeSky": True, "minY": 150}, "ultra-rare", "70-75", 0.5),
+                   ("grounded", {"biomes": ["#cobblemon:is_sky"], "canSeeSky": True}, "ultra-rare", "70-75", 0.3)],
+        "how_where": "mountain peaks above y 150, and the sky",
+        "shiny_note": "Shiny: the halves swap: a black front with gold chains, white coils with red rings.",
+    },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
 ABILITY_NAMES = {"stench": "Stench", "liquidooze": "Liquid Ooze", "flamebody": "Flame Body", "cursedbody": "Cursed Body", "flashfire": "Flash Fire", "suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
-                 "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus"}
+                 "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus",
+                 "drizzle": "Drizzle", "eartheater": "Earth Eater", "drought": "Drought", "steelworker": "Steelworker",
+                 "airlock": "Air Lock", "galewings": "Gale Wings"}
 
 
 def box_module(name):
@@ -480,6 +542,16 @@ def base_layer_names(cob, sp, folder):
     for f in (cob / "assets" / "cobblemon" / "bedrock" / "pokemon" / "resolvers" / folder).glob("*.json"):
         for v in json.loads(f.read_text()).get("variations", []):
             names |= {l["name"] for l in v.get("layers", [])}
+    import zipfile                                         # and the stack's mods (Mega Showdown: Kyogre, Groudon)
+    for jar in sorted((TOOLS / "compat" / "jars").glob("*.jar")):
+        with zipfile.ZipFile(jar) as z:
+            for n in z.namelist():
+                if n.startswith(f"assets/cobblemon/bedrock/pokemon/resolvers/{folder}/") and n.endswith(".json"):
+                    try:
+                        for v in json.loads(z.read(n)).get("variations", []):
+                            names |= {l["name"] for l in v.get("layers", [])}
+                    except ValueError:
+                        pass
     return sorted(names)
 
 
@@ -506,6 +578,8 @@ def form_json(sp, species, c):
         hand = box_module(c["box"])
         f["baseScale"] = hand.SCALE
         f["hitbox"] = {"width": hand.HITBOX[0], "height": hand.HITBOX[1], "fixed": False}
+    if c.get("behaviour"):                                 # e.g. a mud fish that walks on land
+        f["behaviour"] = c["behaviour"]
     if c["evolve"]:
         res, lvl, learn = c["evolve"]
         # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd;
@@ -600,11 +674,13 @@ def main():
                     if c["evolve"] else []),
             "stats": [s["hp"], s["attack"], s["defence"], s["special_attack"], s["special_defence"], s["speed"]]})
         model = f"{MOD}:{sp}_{ASPECT}.geo" if c.get("box") else c.get("model", f"cobblemon:{sp}.geo")
+        has_orig = (cob / "assets" / "cobblemon" / "textures" / "pokemon" / c["folder"] / f"{sp}.png").exists()
         manifest.append({"species": f"{sp}_{ASPECT}", "folder": c["folder"], "model": model,
-                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}.png", "retextured": tex(""),
+                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}.png" if has_orig else None, "retextured": tex(""),
                          "layers": man_layers[""]})
         manifest.append({"species": f"{sp}_{ASPECT}_shiny", "folder": c["folder"], "model": model,
-                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}_shiny.png", "retextured": tex("_shiny"),
+                         "original": f"cobblemon:textures/pokemon/{c['folder']}/{sp}_shiny.png" if has_orig else None,
+                         "retextured": tex("_shiny"),
                          "layers": man_layers["_shiny"]})
     kanto_spawns = []
     for sp, c in LINE.items():                         # spawns that need CobbleEffort: Kanto (its tar)

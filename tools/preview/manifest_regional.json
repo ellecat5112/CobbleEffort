@@ -338,5 +338,89 @@
     "original": "cobblemon:textures/pokemon/0591_amoonguss/amoonguss_shiny.png",
     "retextured": "cobbleeffort:textures/pokemon/regional/0591_amoonguss/amoonguss_cobbleeffortian_shiny.png",
     "layers": []
+  },
+  {
+    "species": "kyogre_cobbleeffortian",
+    "folder": "0382_kyogre",
+    "model": "cobbleeffort:kyogre_cobbleeffortian.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/regional/0382_kyogre/kyogre_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0382_kyogre/kyogre_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "kyogre_cobbleeffortian_shiny",
+    "folder": "0382_kyogre",
+    "model": "cobbleeffort:kyogre_cobbleeffortian.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/regional/0382_kyogre/kyogre_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0382_kyogre/kyogre_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "groudon_cobbleeffortian",
+    "folder": "0383_groudon",
+    "model": "cobbleeffort:groudon_cobbleeffortian.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/regional/0383_groudon/groudon_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0383_groudon/groudon_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "groudon_cobbleeffortian_shiny",
+    "folder": "0383_groudon",
+    "model": "cobbleeffort:groudon_cobbleeffortian.geo",
+    "original": null,
+    "retextured": "cobbleeffort:textures/pokemon/regional/0383_groudon/groudon_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0383_groudon/groudon_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "rayquaza_cobbleeffortian",
+    "folder": "0384_rayquaza",
+    "model": "cobbleeffort:rayquaza_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0384_rayquaza/rayquaza_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0384_rayquaza/rayquaza_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "rayquaza_cobbleeffortian_shiny",
+    "folder": "0384_rayquaza",
+    "model": "cobbleeffort:rayquaza_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0384_rayquaza/rayquaza_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0384_rayquaza/rayquaza_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
   }
 ]

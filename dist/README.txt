@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 175 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 178 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1764,6 +1764,37 @@ cobbleeffort:cavitot.
   * Wild: rare in tar pits and tar lakes (with CobbleEffort: Kanto), rarely near lava in badlands,
     and in the Nether's basalt deltas.
   * Evolves into Petroil when you use a Garbage Bag on it (a rare drop from Garbodor).
+
+#0382 KYOGRE (COBBLEEFFORT FORM)  (Ground; Drizzle / Earth Eater (hidden))
+  a giant mud fish: a broad mud-brown whale body with a khaki belly, a back caked in cracked dried
+  mud, glowing ochre veins along its flanks and fins, a flat catfish head with drooping barbels,
+  mudskipper eyes bulging on top, great pectoral fins it walks on and four tail flukes
+  Stats: HP 100  Atk 100  Def 90  SpA 150  SpD 140  Spe 90  (total 670)
+  Pokedex: "It sleeps for centuries buried in the mud of the great swamps. When it wakes, its rains
+  turn the land to mire, and it drags itself through the mud it made on its great fins, its veins
+  glowing."
+  * Wild: ultra-rare in swamps and mangroves, only while it rains.
+
+#0383 GROUDON (COBBLEEFFORT FORM)  (Steel / Fire; Drought / Steelworker (hidden))
+  a hunched titan in white steel armour joined by glowing red seams: a slatted steel visor over a
+  red face, black cheek guards, a slate-blue chest, bronze belly bands, white gauntlets with black
+  claws and a bolted bronze tail curling up to a crescent blade
+  Stats: HP 100  Atk 150  Def 140  SpA 100  SpD 90  Spe 90  (total 670)
+  Pokedex: "Its body is armour forged in the heat of the earth's core, and magma glows through every
+  seam. When it raises the sun, iron runs molten from the rocks around it, and it swings its tail
+  blade like a smith's hammer."
+  * Wild: ultra-rare in badlands by day, and the Nether's basalt deltas and wastes.
+
+#0384 RAYQUAZA (COBBLEEFFORT FORM)  (Flying; Air Lock / Gale Wings (hidden))
+  a far longer Rayquaza wound in coils: a white front half traced with glowing red hexagon chains
+  and a fiery chest crack, white blades fanning back from its shoulders, two red ribbons of
+  hexagonal links from its head, and a black rear half ringed with glowing yellow circles and red-
+  rimmed hexagonal fins
+  Stats: HP 105  Atk 150  Def 90  SpA 150  SpD 90  Spe 95  (total 680)
+  Pokedex: "Far longer than any Rayquaza, it has never once touched the ground. It sleeps coiled on
+  the wind high above the peaks, and when it uncoils, the storms it rides stretch from one horizon
+  to the other."
+  * Wild: ultra-rare in mountain peaks above y 150, and the sky.
 
 #0538 THROH (GI FORM)  (Fighting / Fire; Guts / Flash Fire / Mold Breaker (hidden))
   a hulking red judoka in a round black gi with white lapels and belt, jagged white trouser hems,

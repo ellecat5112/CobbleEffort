@@ -1909,6 +1909,33 @@ caves and common in abandoned mineshafts, Amoonguss rarer. Foongus evolves at le
 
 ![The CobbleEffort Foongus line: Cobblemon's Foongus, the screw forms (front and back) and their shinies](docs/regional_foongus.png)
 
+**Kyogre, Groudon and Rayquaza**, the weather trio's CobbleEffort forms, on models of their own (no Primal Reversion or
+Mega Evolution in these forms):
+
+* **Kyogre** (Ground), the user's idea of Kyogre as a giant **mud fish**: a broad mud-brown whale body with a khaki
+  belly, its back caked in dried mud cracked into plates and Kyogre's markings glowing ochre along its flanks and fins; a
+  flat catfish head with long drooping barbels, mudskipper eyes bulging on top, four tail flukes, and great pectoral fins
+  it drags itself over land on (it walks, unlike Kyogre). Drizzle, hidden Earth Eater; Origin Pulse becomes Thousand
+  Waves, Aqua Ring Shore Up, Hydro Pump Earth Power, Water Spout Earthquake (plus Mud Shot, High Horsepower, Stealth
+  Rock, Spikes and more). Ultra-rare in swamps and mangroves, only while it rains. Shiny: grey clay with teal veins.
+* **Groudon** (Steel/Fire), after the regional Groudon art by **Hoops and Hiphop**: a hunched titan in white steel
+  armour joined by glowing red seams, a slatted steel visor over its red face, black cheek guards, a slate-blue chest,
+  white gauntlets with black claws and a bolted bronze tail curling up to a crescent blade. Drought, hidden Steelworker;
+  Precipice Blades becomes Gigaton Hammer, Earthquake Heavy Slam, Earth Power Flash Cannon, Fissure Steel Beam, Mud Shot
+  Metal Claw (plus Iron Head, Iron Defense, Heat Crash and more), and it keeps Eruption and its fire moves. Ultra-rare in
+  badlands by day and in the Nether. Shiny: gunmetal plates with blue-hot seams and a gold tail.
+* **Rayquaza** (Flying), after **Pigeon Chop**'s art and the user's idea: far longer than Rayquaza and wound in coils.
+  Its white front half is traced with glowing red hexagon chains, with a fiery crack across its chest, white blades fanning
+  back from its shoulders and two red ribbons of hexagonal links streaming from its head; its black rear half, ringed with
+  glowing yellow circles and red-rimmed hexagonal fins, coils two turns and more beneath it. Air Lock, hidden Gale Wings;
+  Dragon Pulse becomes Sky Attack, Outrage Brave Bird, Dragon Dance Tailwind, Twister Gust (it keeps Dragon Ascent,
+  Extreme Speed and Hurricane; plus Roost, Acrobatics and U-turn by TM). Ultra-rare on mountain peaks above y 150 and in
+  the sky. Shiny: the halves swap (a black front with gold chains, white coils with red rings).
+
+All three need Mega Showdown (in the mod stack), which adds Kyogre and Groudon to Cobblemon.
+
+![The CobbleEffort Kyogre, Groudon and Rayquaza, and their shinies](docs/regional_hoenn.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

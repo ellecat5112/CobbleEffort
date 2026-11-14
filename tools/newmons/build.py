@@ -4169,6 +4169,8 @@ def write_model_assets(sp, hand, fold):
     root = m.bones[0]["name"]
     extra = [{"name": "locator_root", "parent": root, "pivot": [0, 0, 0]},
              {"name": "locator_top", "parent": root, "pivot": [0, float(top), 0]}]
+    # LOCATORS = {name: (parent bone, pivot)}: e.g. "seat_1" where another mod's riding data seats the rider
+    extra += [{"name": n, "parent": par, "pivot": [float(v) for v in pv]} for n, (par, pv) in getattr(hand, "LOCATORS", {}).items()]
     bedrock = RES / "assets" / MOD / "bedrock" / "pokemon"
     write_json(bedrock / "models" / fold / f"{sp}.geo.json", m.geo(tw_full, th_full, f"geometry.{sp}", extra + extra_bones))
     write_json(bedrock / "animations" / fold / f"{group_of(sp)}.animation.json",
