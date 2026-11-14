@@ -292,6 +292,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   requirements used: time_range + weather (sun), held_item, has_move, biome `#cobblemon:is_freezing`, party_member
   `type=fire`. build.py deletes a species json left in another line's folder (moved species); delete removed species'
   outputs by hand. Showdown's snow weather id is `snow` (not snowscape).
+  Hopple -> Rabbrute (#3144-3145, line "den", Sundor Region art, names kept; `models/_den.py` palette + `dotted()` red-eye
+  fur): a Wishiwashi-like solo/horde. Rabbrute = the permanent "family" form, baseScale 32 (~80 blocks, the user's
+  ask). Fusion lives in CobbleEffort: Kanto (`DenCall` + `client/DenCallWheelOption`, 0.10.0): interaction-wheel
+  option on a Hopple knowing `calloftheden` with 3+ Hopples in the party; the server removes every other Hopple (held
+  items back), applies the `den_called` flag (species feature from SPECIES data_files) and `forceEvolve`s the
+  Hopple's evolution (level_up + properties den_called, so it never triggers by itself). In battle the move is
+  +1 Atk/Def per other Hopple/Rabbrute in the party (max 2; species id regex /hopple|rabbrute/).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

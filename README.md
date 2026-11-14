@@ -1579,6 +1579,16 @@ moves heal it 1/4; *Condense*: clears weather and terrain, +1 Def/Sp. Def) **→
 Fire-type in the party; *High Proof*: Fire moves x1.3 and not resisted by Water). The first stages are now first-stage
 strength; the finals carry the user's stats.
 
+**Hopple → Rabbrute** (#3144-3145, after the Sundor Region's art, names kept; the user's idea), a solo/horde Pokémon
+like Wishiwashi. Hopple (Normal) is a cute grey bunny with huge ears, red eyes, a little fang and a fluffy white
+collar, common in plains, grasslands and forests. With **three or more Hopples in the party**, open the interaction
+wheel on a Hopple that knows **Call of the Den** (it knows it from level 1) and choose Call of the Den: every Hopple in
+the party fuses into that one, which evolves for good into **Rabbrute** (Normal/Fighting, 125/150/110/40/85/90), its
+titanic "family" form: a gorilla-like rabbit monster almost **80 blocks tall**, its fur dotted with the red eyes of
+the little bunny faces it's made of. The others' held items go back to you. This needs CobbleEffort: Kanto 0.10.0 or
+later. In battle, Call of the Den raises the user's Attack and Defense by 1 stage for each other Hopple in its party
+(up to 2). Rabbrute isn't found in the wild.
+
 **Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
 solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
 a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).
@@ -1732,6 +1742,8 @@ ring on a lime stem.
 | 3141 | **Avalanche Hound** | Normal / Fighting | Alpine Spirit / Thick Fat / Liquid Courage (hidden) | 105 / 115 / 90 / 60 / 80 / 70 | 5'11" (1.8 m) / 160 kg | Evolve Kegguard at level 40 in a snowy area. It learns Close Combat when it evolves. Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0). | A massive, heroic canine wearing two heavy oak barrels strapped across its broad shoulders like cannon pods. It charges through ten-foot snowdrifts effortlessly, launching pressurized blasts of warming tonic to shatter ice walls. |
 | 3142 | **Copperpot** | Steel | Heatproof / Light Metal / Water Absorb (hidden) | 55 / 45 / 70 / 60 / 50 / 30 | 1'4" (0.4 m) / 18 kg | Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0). Evolves into Alembix at level 26. | A small, round, riveted copper kettle with stubby legs and a whistling lid. It collects morning dew and rainwater inside its hollow body, keeping it remarkably pure. |
 | 3143 | **Alembix** | Steel / Water | Condenser / Heatproof / Water Absorb (hidden) | 70 / 55 / 90 / 90 / 75 / 35 | 3'3" (1 m) / 82 kg | Evolve Copperpot at level 26. It learns Condense when it evolves. Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0). Evolves into Stillforge at level 42 with a Fire-type Pokémon in the party. | It grows a long, gracefully curved swan-neck pipe from its head that coils into a cooling tank on its back. It constantly drips crystal-clear distilled water from its spout, purifying polluted ponds wherever it walks. |
+| 3144 | **Hopple** | Normal | Run Away / Pickup / Friend Guard (hidden) | 45 / 50 / 40 / 30 / 40 / 75 | 1'4" (0.4 m) / 3 kg | Wild: common in plains, grasslands and forests. Family form: with three or more Hopples in your party, open the interaction wheel on a Hopple that knows Call of the Den and choose Call of the Den. Every Hopple in the party fuses into one Rabbrute (needs CobbleEffort: Kanto 0.10.0 or later). | A timid little rabbit that is never far from its den. When one is in danger it thumps the ground, and its whole family comes running. |
+| 3145 | **Rabbrute** | Normal / Fighting | Guts / Iron Fist / Scrappy (hidden) | 125 / 150 / 110 / 40 / 85 / 90 | 262'6" (80 m) / 999.9 kg | Hopple's family form: with three or more Hopples in your party, use Call of the Den from the interaction wheel of a Hopple that knows it (CobbleEffort: Kanto 0.10.0+). All the party's Hopples fuse into one Rabbrute, permanently. It isn't found in the wild. | The family form of Hopple. When a den is threatened, its Hopples pile into one another and fuse into a titan as tall as a mountain; every white tuft on it is a little face, and every red speck an eye watching over the family. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

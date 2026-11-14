@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 153 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 155 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3140,6 +3140,30 @@ cobbleeffort:cavitot.
   * Evolve Copperpot at level 26. It learns Condense when it evolves.
   * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
   * Evolves into Stillforge at level 42 with a Fire-type Pokémon in the party.
+
+#3144 HOPPLE  (Normal; Run Away / Pickup / Friend Guard (hidden))
+  a cute grey bunny with a big round head, huge ears, big red eyes, a fang in its grin and a fluffy
+  white collar
+  Stats: HP 45  Atk 50  Def 40  SpA 30  SpD 40  Spe 75  (total 280)
+  Pokedex: "A timid little rabbit that is never far from its den. When one is in danger it thumps
+  the ground, and its whole family comes running."
+  * Wild: common in plains, grasslands and forests.
+  * Family form: with three or more Hopples in your party, open the interaction wheel on a Hopple
+    that knows Call of the Den and choose Call of the Den. Every Hopple in the party fuses into one
+    Rabbrute (needs CobbleEffort: Kanto 0.10.0 or later).
+
+#3145 RABBRUTE  (Normal / Fighting; Guts / Iron Fist / Scrappy (hidden))
+  a titanic gorilla-like rabbit monster of many fused Hopples: dark grey fur dotted with little red
+  eyes, a pale belly, a small eared head between huge shoulders, and white bunny-tuft forearms and
+  shins
+  Stats: HP 125  Atk 150  Def 110  SpA 40  SpD 85  Spe 90  (total 600)
+  Pokedex: "The family form of Hopple. When a den is threatened, its Hopples pile into one another
+  and fuse into a titan as tall as a mountain; every white tuft on it is a little face, and every
+  red speck an eye watching over the family."
+  * Hopple's family form: with three or more Hopples in your party, use Call of the Den from the
+    interaction wheel of a Hopple that knows it (CobbleEffort: Kanto 0.10.0+). All the party's
+    Hopples fuse into one Rabbrute, permanently.
+  * It isn't found in the wild.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

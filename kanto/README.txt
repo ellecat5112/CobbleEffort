@@ -188,7 +188,14 @@ TESTING TOOLS (NEW in 0.9.0, creative mode + operator only; in the Kanto creativ
       Battle nearest player, Double battle, Leave after losing and One at a time. Players can also talk to the
       trainer to battle it.
 
+CALL OF THE DEN (NEW in 0.10.0, for CobbleEffort's Hopple)
+  - With three or more Hopples in your party, open the interaction wheel on a Hopple that knows Call of the Den and
+    choose Call of the Den: every Hopple in the party fuses into that one, which evolves for good into Rabbrute, a
+    titanic rabbit monster almost 80 blocks tall. The other Hopples' held items go back to you. Needs CobbleEffort
+    0.81.0 or later (where Hopple lives).
+
 PLEASE TEST AND REPORT
+  0.10.0: gather three Hopples and use Call of the Den from the wheel: do they fuse into Rabbrute?
   0.9.0: set up a Pokemon Spawner and a Trainer Spawner with a button: do they spawn, battle you, and stay uncatchable
   / leave after losing when set to? Try both wands. Are the new biomes easy enough to find now?
   0.8.0: find the Liquor Meadows (/locate biome cobbleeffort_kanto:liquor_meadows): bright grass, whisky ponds, giant
@@ -213,6 +220,7 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.10.0: Call of the Den (fuse your party's Hopples into Rabbrute from the interaction wheel).
   0.9.0: the Ashtray Wastes and Liquor Meadows are more common (config/cobbleeffort_kanto.json); Biome and
          Structure Wands, Pokemon and Trainer Spawners, /kanto forcebiome (testing tools for creative operators).
   0.8.0: the Liquor Meadows biome (vibrant grass, whisky-coloured water, giant bottles) and its three blocks.

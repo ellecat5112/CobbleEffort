@@ -125,6 +125,7 @@ public final class Kanto {
         Liquor.register();                                  // the Liquor Meadows: blocks, features, biome patches
         TestTools.register();                               // 0.9.0: creative Biome/Structure Wands
         Spawners.register();                                // 0.9.0: Pokémon and Trainer Spawners
+        DenCall.register();                                 // 0.10.0: Hopple's Call of the Den (fusing into Rabbrute)
         BLOCKS.register();
         Spawners.BLOCK_ENTITIES.register();
         KantoArmor.MATERIALS.register();

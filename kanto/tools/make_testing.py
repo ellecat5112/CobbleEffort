@@ -101,6 +101,24 @@ def build():
                         "action": ["q.dialogue.close();", "q.npc.start_battle(q.player, 'singles');"]},
                        {"value": "later", "text": "Not yet", "action": ["q.dialogue.close();"]}]}}],
         "speakers": {"npc": {"face": "q.npc.face(false);", "name": {"type": "expression", "expression": "q.npc.name"}}}})
+    # Call of the Den (0.10.0): its wheel icon, a little rabbit head
+    icon = Image.new("RGBA", (32, 32), (0, 0, 0, 0))
+    for y in range(32):
+        for x in range(32):
+            head = (x - 16) ** 2 / 64 + (y - 20) ** 2 / 49 <= 1
+            ear = any(abs(x - ex) <= 2.5 and 3 <= y <= 15 and abs(x - ex) <= 2.5 - (15 - y) * 0.05 for ex in (11, 21))
+            inner = any(abs(x - ex) <= 1 and 5 <= y <= 13 for ex in (11, 21))
+            if head or ear:
+                c = (214, 212, 222) if inner else (122, 120, 140)
+                if head and abs(y - 19) <= 1 and (abs(x - 12) <= 1 or abs(x - 20) <= 1):
+                    c = (214, 64, 64)
+                if head and y == 23 and abs(x - 16) <= 2:
+                    c = (40, 30, 40)
+                icon.putpixel((x, y), c + (255,))
+            elif any((x - cx) ** 2 + (y - cy) ** 2 <= 2 for cx, cy in ((4, 26), (28, 26), (4, 8), (28, 8))):
+                icon.putpixel((x, y), (214, 64, 64, 255))
+    (A / "textures" / "gui" / "interact").mkdir(parents=True, exist_ok=True)
+    icon.save(A / "textures" / "gui" / "interact" / "call_of_the_den.png")
     k = f"{MOD}."
     LANG.update({
         f"item.{MOD}.biome_wand": "Biome Wand", f"item.{MOD}.structure_wand": "Structure Wand",
@@ -133,6 +151,11 @@ def build():
         k + "spawner.one": "One at a time",
         k + "spawner.doubles": "Double battle",
         k + "spawner.despawn": "Leave after losing",
+        k + "ui.call_of_the_den": "Call of the Den",
+        k + "den.in_battle": "Not during a battle.",
+        k + "den.no_move": "%s doesn't know Call of the Den.",
+        k + "den.too_few": "Call of the Den needs %s Hopples in your party.",
+        k + "den.fused": "%s Hopples answered the call and fused into Rabbrute!",
     })
 
 

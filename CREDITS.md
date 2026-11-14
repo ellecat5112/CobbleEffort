@@ -282,6 +282,8 @@ abilities and Pokédex entries) are the user's design; Bootlegger's entry, the m
 The evolution lines of 0.80.0 (Curedrake, Smolderstump, Modwing, Subohmega, Maltwort, Kegguard, Avalanche Hound,
 Copperpot, Alembix: names, types, methods, signature abilities and moves, concepts, final stats) are the user's design;
 the abilities' effects, models and the middle stages' stats are our own.
+Hopple and Rabbrute (their names and designs) are after the Sundor Region's fakemon art (#102, #103); their models,
+stats, moves, Pokédex entries and the Call of the Den fusion are our own (the fusion is the user's idea).
 
 ## Code and data
 

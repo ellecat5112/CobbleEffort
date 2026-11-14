@@ -3450,5 +3450,49 @@
     "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_shiny_shell.png"
    }
   ]
+ },
+ {
+  "species": "hopple",
+  "folder": "3144_hopple",
+  "model": "cobbleeffort:hopple.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3144_hopple/hopple.png",
+  "layers": []
+ },
+ {
+  "species": "hopple_shiny",
+  "folder": "3144_hopple",
+  "model": "cobbleeffort:hopple.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3144_hopple/hopple_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "rabbrute",
+  "folder": "3145_rabbrute",
+  "model": "cobbleeffort:rabbrute.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3145_rabbrute/rabbrute.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3145_rabbrute/rabbrute_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "rabbrute_shiny",
+  "folder": "3145_rabbrute",
+  "model": "cobbleeffort:rabbrute.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3145_rabbrute/rabbrute_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3145_rabbrute/rabbrute_shiny_glow_0.png"
+   }
+  ]
  }
 ]

@@ -3327,6 +3327,65 @@ LINES["nico_vapor"] = ["vapulon", "modwing", "subohmega"]
 LINES["liq_brew"] = ["hopsprout", "maltwort", "brawlerry"]
 LINES["liq_still"] = ["copperpot", "alembix", "stillforge"]
 
+# --- Hopple -> Rabbrute (#3144-3145, Sundor Region art, names kept; the user's idea): a solo/horde Pokémon like
+# Wishiwashi. With 3+ Hopples in the party, a Hopple that knows Call of the Den can use it from the interaction wheel
+# (CobbleEffort: Kanto's DenCall): every Hopple in the party fuses into one Rabbrute, its permanent "family" form, a
+# titanic rabbit monster almost 80 blocks tall. The evolution needs the den_called flag, which only that sets.
+SPECIES.update({
+    "hopple": {
+        "dex": 3144, "name": "Hopple", "line": "den", "types": ["normal"], "friendship": 70, "growth": "medium_fast",
+        "catch": 255, "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["runaway", "pickup", "h:friendguard"], "ability_names": "Run Away / Pickup / Friend Guard (hidden)",
+        "stats": stats(45, 50, 40, 30, 40, 75), "ev": evs(speed=1), "exp": 52,
+        "height": 4, "weight": 30, "shoulder": True, "walk": 0.34,
+        "data_files": {
+            "cobbleeffort/species_features/den_called.json":
+                {"keys": ["den_called"], "type": "flag", "isAspect": False, "default": False},
+            "cobbleeffort/species_feature_assignments/den_called.json":
+                {"pokemon": ["cobbleeffort:hopple"], "features": ["den_called"]},
+        },
+        "moves": [(1, "calloftheden"), (1, "tackle"), (1, "tailwhip"), (4, "quickattack"), (8, "doublekick"),
+                  (12, "bite"), (16, "helpinghand"), (20, "headbutt"), (24, "bounce"), (28, "playrough"),
+                  (32, "superfang"), (36, "highjumpkick")],
+        "tm": BASIC_TM + ["bodyslam", "doublekick", "uturn", "playrough", "dig", "bounce", "helpinghand", "charm",
+                          "swift", "thief", "lowkick", "superfang"],
+        "egg": ["followme", "covet", "endeavor"],
+        "evolve": ("rabbrute", 1, ["closecombat"], [{"variant": "properties", "target": "den_called"}]),
+        "drops": [("minecraft:rabbit_hide", "0-1", None), ("minecraft:rabbit_foot", None, 0.05)],
+        "entry": ("A timid little rabbit that is never far from its den. When one is in danger it thumps the ground, and "
+                  "its whole family comes running."),
+        "spawns": [route_spawn("hopple-wild", "common", "3-25", 9.0,
+                               ["#cobblemon:is_plains", "#cobblemon:is_grassland", "#cobblemon:is_forest"])],
+        "how": ["Wild: common in plains, grasslands and forests.",
+                "Family form: with three or more Hopples in your party, open the interaction wheel on a Hopple that "
+                "knows Call of the Den and choose Call of the Den. Every Hopple in the party fuses into one Rabbrute "
+                "(needs CobbleEffort: Kanto 0.10.0 or later)."],
+    },
+    "rabbrute": {
+        "dex": 3145, "name": "Rabbrute", "line": "den", "types": ["normal", "fighting"], "friendship": 70,
+        "growth": "medium_fast", "catch": 3, "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["guts", "ironfist", "h:scrappy"], "ability_names": "Guts / Iron Fist / Scrappy (hidden)",
+        "stats": stats(125, 150, 110, 40, 85, 90), "ev": evs(attack=3), "exp": 270,
+        "height": 800, "weight": 9999, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "closecombat"), (1, "calloftheden"), (1, "tackle"), (1, "doublekick"), (1, "bite"),
+                  (1, "headbutt"), (1, "superfang"), (1, "highjumpkick"), (40, "hammerarm"), (46, "earthquake"),
+                  (52, "gigaimpact"), (58, "bulkup")],
+        "tm": BASIC_TM + ["bodyslam", "closecombat", "hammerarm", "earthquake", "rockslide", "stoneedge", "bulkup",
+                          "brickbreak", "drainpunch", "icepunch", "firepunch", "thunderpunch", "gigaimpact",
+                          "hyperbeam", "superpower", "bodypress", "knockoff"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:rabbit_hide", "8-16", None), ("minecraft:rabbit_foot", "1-3", None)],
+        "entry": ("The family form of Hopple. When a den is threatened, its Hopples pile into one another and fuse into "
+                  "a titan as tall as a mountain; every white tuft on it is a little face, and every red speck an eye "
+                  "watching over the family."),
+        "spawns": [],
+        "how": ["Hopple's family form: with three or more Hopples in your party, use Call of the Den from the "
+                "interaction wheel of a Hopple that knows it (CobbleEffort: Kanto 0.10.0+). All the party's Hopples "
+                "fuse into one Rabbrute, permanently.", "It isn't found in the wild."],
+    },
+})
+LINES["den"] = ["hopple", "rabbrute"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

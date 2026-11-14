@@ -1,0 +1,133 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3145,
+ "name": "Rabbrute",
+ "primaryType": "normal",
+ "secondaryType": "fighting",
+ "maleRatio": 0.5,
+ "height": 800,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.rabbrute.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "guts",
+  "ironfist",
+  "h:scrappy"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 150,
+  "defence": 110,
+  "special_attack": 40,
+  "special_defence": 85,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "medium_fast",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 32.0,
+ "hitbox": {
+  "width": 1.7,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:rabbit_hide",
+    "quantityRange": "8-16"
+   },
+   {
+    "item": "minecraft:rabbit_foot",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:closecombat",
+  "1:calloftheden",
+  "1:tackle",
+  "1:doublekick",
+  "1:bite",
+  "1:headbutt",
+  "1:superfang",
+  "1:highjumpkick",
+  "40:hammerarm",
+  "46:earthquake",
+  "52:gigaimpact",
+  "58:bulkup",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:closecombat",
+  "tm:hammerarm",
+  "tm:earthquake",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:bulkup",
+  "tm:brickbreak",
+  "tm:drainpunch",
+  "tm:icepunch",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:superpower",
+  "tm:bodypress",
+  "tm:knockoff"
+ ],
+ "preEvolution": "cobbleeffort:hopple"
+}
