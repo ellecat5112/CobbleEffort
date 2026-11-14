@@ -1,5 +1,6 @@
 package io.github.cobbleeffort.distortion.dna;
 
+import io.github.cobbleeffort.distortion.Alignment;
 import com.cobblemon.mod.common.Cobblemon;
 import com.cobblemon.mod.common.api.pokemon.PokemonProperties;
 import com.cobblemon.mod.common.api.pokemon.PokemonSpecies;
@@ -71,6 +72,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
     private long started;                    // game time Mew went in (synced)
     private String target = "";              // the pure form picked at the Purifier (synced)
     private long purifyStarted;              // game time purifying began, 0 = not purifying (synced)
+    private String aligned = "";             // a Shadow or Crystal Pokémon waiting to be purified: its flag (synced)
 
     public DnaMachineBlockEntity(BlockPos pos, BlockState state) {
         super(Distortion.DNA_MACHINE_ENTITY.get(), pos, state);
@@ -103,6 +105,20 @@ public class DnaMachineBlockEntity extends BlockEntity {
     /** A mixed fossil waiting in the tank (not yet purified). */
     public boolean mixed() {
         return MIXED.containsKey(inside);
+    }
+
+    /** A Shadow or Crystal Pokémon waiting in the tank. */
+    public boolean aligned() {
+        return !aligned.isEmpty();
+    }
+
+    public String alignedFlag() {
+        return aligned;
+    }
+
+    /** Mew brewing into Mewtwo (not a Shadow/Crystal Mew waiting to be purified). */
+    private boolean brewing() {
+        return "mew".equals(inside) && aligned.isEmpty();
     }
 
     public boolean purifying() {
@@ -157,12 +173,17 @@ public class DnaMachineBlockEntity extends BlockEntity {
             player.sendSystemMessage(purifying()
                     ? Component.translatable(m + "purifying", speciesName(target), left(PURIFY_TICKS, purifyStarted))
                     : Component.translatable(m + "target", speciesName(target)));
-        } else if ("mew".equals(inside)) {
+        } else if (aligned()) {
+            if (purifying()) player.sendSystemMessage(Component.translatable(m + "purifying", p.getSpecies().getTranslatedName(),
+                    left(PURIFY_TICKS, purifyStarted)));
+        } else if (brewing()) {
             player.sendSystemMessage(Component.translatable(m + "mew"));
         } else {
             player.sendSystemMessage(Component.translatable(m + "stable"));
         }
-        player.sendSystemMessage(Component.translatable(m + "shadow"));
+        if (Alignment.SHADOW_FLAG.equals(aligned)) player.sendSystemMessage(Component.translatable(m + "shadow_yes"));
+        else if (Alignment.CRYSTAL_FLAG.equals(aligned)) player.sendSystemMessage(Component.translatable(m + "crystal_yes"));
+        else player.sendSystemMessage(Component.translatable(m + "shadow"));
     }
 
     private String left(long total, long since) {
@@ -173,6 +194,11 @@ public class DnaMachineBlockEntity extends BlockEntity {
     /** DNA Purifier, plain use: switch which of the two pure forms it will make. */
     void cycleTarget(ServerPlayer player) {
         String m = Distortion.MOD_ID + ".dna.purifier.";
+        if (aligned()) {
+            player.displayClientMessage(Component.translatable(m + "no_choice", Component.translatable(Distortion.MOD_ID
+                    + ".align." + (Alignment.SHADOW_FLAG.equals(aligned) ? "shadow" : "crystal"))), true);
+            return;
+        }
         if (!mixed()) {
             player.displayClientMessage(Component.translatable(m + "nothing"), true);
             return;
@@ -190,7 +216,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
     /** DNA Purifier, sneak + use: start purifying (needs the Analyzer too). */
     void startPurify(ServerPlayer player) {
         String m = Distortion.MOD_ID + ".dna.purifier.";
-        if (!mixed()) {
+        if (!mixed() && !aligned()) {
             player.displayClientMessage(Component.translatable(m + "nothing"), true);
             return;
         }
@@ -206,17 +232,26 @@ public class DnaMachineBlockEntity extends BlockEntity {
             player.displayClientMessage(Component.translatable(m + "no_analyzer"), true);
             return;
         }
-        if (pure(target) == null) {
+        if (mixed() && pure(target) == null) {
             player.displayClientMessage(Component.translatable(m + "no_species"), true);
             return;
         }
         purifyStarted = level.getGameTime();
         changed();
         level.playSound(null, worldPosition, SoundEvents.BEACON_POWER_SELECT, SoundSource.BLOCKS, 1F, 1.2F);
-        player.sendSystemMessage(Component.translatable(m + "started", speciesName(target)));
+        if (aligned()) {
+            Pokemon p = load();
+            player.sendSystemMessage(Component.translatable(m + "aligned_started", p == null ? Component.literal(inside) : p.getDisplayName(false)));
+        } else {
+            player.sendSystemMessage(Component.translatable(m + "started", speciesName(target)));
+        }
     }
 
     private void purify() {
+        if (aligned()) {
+            purifyAligned();
+            return;
+        }
         Pokemon p = load();
         Species to = pure(target);
         if (p == null || to == null) {
@@ -239,6 +274,29 @@ public class DnaMachineBlockEntity extends BlockEntity {
         if (player != null) player.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".dna.purifier.done", to.getTranslatedName()));
     }
 
+    /** A Shadow Pokémon's heart opens (or a Crystal Pokémon's body returns): back to normal, its own moves restored. */
+    private void purifyAligned() {
+        Pokemon p = load();
+        String was = aligned;
+        if (p != null) {
+            Alignment.restore(p);
+            pokemon = p.saveToNBT(level.registryAccess(), new CompoundTag());
+        }
+        aligned = "";
+        purifyStarted = 0;
+        changed();
+        level.playSound(null, worldPosition, SoundEvents.BEACON_ACTIVATE, SoundSource.BLOCKS, 1F, 1.1F);
+        if (level instanceof ServerLevel server) {
+            server.sendParticles(Alignment.SHADOW_FLAG.equals(was) ? ParticleTypes.HEART : ParticleTypes.END_ROD,
+                    worldPosition.getX() + 0.5, worldPosition.getY() + 1.0, worldPosition.getZ() + 0.5, 30, 0.35, 0.6, 0.35, 0.03);
+        }
+        ServerPlayer player = owner == null ? null : server().getPlayerList().getPlayer(owner);
+        if (player != null && p != null) {
+            player.sendSystemMessage(Component.translatable(Distortion.MOD_ID + ".align."
+                    + (Alignment.SHADOW_FLAG.equals(was) ? "purified" : "restored"), p.getDisplayName(false)));
+        }
+    }
+
     /** Pour in up to n DNA; returns how many went in. */
     int fill(int n) {
         int poured = Math.max(0, Math.min(n, CAPACITY - fill));
@@ -259,6 +317,28 @@ public class DnaMachineBlockEntity extends BlockEntity {
         Pokemon mew = party.get(pokemonId);
         if (mew == null) return;
         String path = mew.getSpecies().getResourceIdentifier().getPath();
+        String flag = Alignment.of(mew);
+        if (flag != null) {                                      // a Shadow or Crystal Pokémon, to be purified
+            if (!(hasAnalyzer() && hasPurifier())) {
+                player.displayClientMessage(Component.translatable(Distortion.MOD_ID + ".dna.purifier.needs_machines"), true);
+                return;
+            }
+            if (mew.getEntity() != null) mew.recall();
+            if (!party.remove(mew)) return;
+            pokemon = mew.saveToNBT(level.registryAccess(), new CompoundTag());
+            owner = player.getUUID();
+            shiny = mew.getShiny();
+            ResourceLocation id = mew.getSpecies().getResourceIdentifier();
+            inside = "cobblemon".equals(id.getNamespace()) ? path : id.toString();
+            started = level.getGameTime();
+            target = "";
+            aligned = flag;
+            purifyStarted = 0;
+            changed();
+            level.playSound(null, worldPosition, SoundEvents.BEACON_ACTIVATE, SoundSource.BLOCKS, 1F, 1.4F);
+            player.displayClientMessage(Component.translatable(Distortion.MOD_ID + ".dna.purifier.aligned_inserted", mew.getDisplayName(false)), false);
+            return;
+        }
         boolean isMew = "mew".equals(path);
         boolean isMixed = MIXED.containsKey(path) && "cobblemon".equals(mew.getSpecies().getResourceIdentifier().getNamespace());
         if (isMew && !full()) {
@@ -299,7 +379,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
             }
             return;
         }
-        if (!"mew".equals(inside) || level == null || level.getGameTime() - started < BREW_TICKS) return;
+        if (!brewing() || level == null || level.getGameTime() - started < BREW_TICKS) return;
         try {
             awaken();
         } catch (Throwable t) {
@@ -328,7 +408,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
 
     /** Server: click while a Pokémon is inside. */
     void retrieve(ServerPlayer player) {
-        if ("mew".equals(inside)) {
+        if (brewing()) {
             long left = Math.max(0, BREW_TICKS - (level.getGameTime() - started));
             player.displayClientMessage(Component.translatable(Distortion.MOD_ID + ".dna.working", left / 1200, (left / 20) % 60), true);
             return;
@@ -386,6 +466,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
         shiny = false;
         started = 0;
         target = "";
+        aligned = "";
         purifyStarted = 0;
         changed();
     }
@@ -417,6 +498,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
         started = tag.getLong("Started");
         target = tag.getString("Target");
         purifyStarted = tag.getLong("PurifyStarted");
+        aligned = tag.getString("Aligned");
         pokemon = tag.contains("Pokemon") ? tag.getCompound("Pokemon") : null;
         owner = tag.hasUUID("Owner") ? tag.getUUID("Owner") : null;
     }
@@ -428,6 +510,7 @@ public class DnaMachineBlockEntity extends BlockEntity {
         tag.putLong("Started", started);
         tag.putString("Target", target);
         tag.putLong("PurifyStarted", purifyStarted);
+        tag.putString("Aligned", aligned);
     }
 
     @Override

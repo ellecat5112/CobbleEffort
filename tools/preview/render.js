@@ -52,7 +52,8 @@ const findModel = (id) => {
       const url = dataUrl(texPath(root, e[key]));
       const layers = (e.layers || []).filter(l => l[key]).map(l => ({ url: dataUrl(texPath(root, l[key])), emissive: l.emissive }));
       const geo = tag === 'new' ? geoNew : geoOrig;
-      const png = await page.evaluate(([g, u, ls, sz, yw, up]) => window.renderModel(g, u, sz, yw, ls, up), [geo, url, layers, size, yaw, camUp]);
+      const tl = !!(e.translucent && tag === 'new');
+      const png = await page.evaluate(([g, u, ls, sz, yw, up, t]) => window.renderModel(g, u, sz, yw, ls, up, t), [geo, url, layers, size, yaw, camUp, tl]);
       fs.writeFileSync(path.join(outDir, `${e.species}${e.form ? '_' + e.form : ''}_${tag}.png`), Buffer.from(png.split(',')[1], 'base64'));
     }
   }

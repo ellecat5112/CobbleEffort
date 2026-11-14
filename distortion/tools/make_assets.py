@@ -721,6 +721,8 @@ def lang():
     names.update(make_dna_machine.LANG)                                       # the DNA machine
     import make_ore
     names.update(make_ore.LANG)                                               # the Distortion Crystal ore
+    import make_alignment
+    names.update(make_alignment.LANG)                                         # the Shadow and Crystal types
     names[f"item.{MOD}.distortion_crystal.tooltip"] = "Give it to a Pokémon to distort it. Crafted from Distortion Shards (mined from Distortion Crystal ore) and an amethyst shard."
     path = RES / "assets" / MOD / "lang" / "en_us.json"
     old = json.loads(path.read_text()) if path.exists() else {}
@@ -733,6 +735,8 @@ def main():
     make_dna_machine.build()                                                  # the DNA machine (Mew -> Mewtwo)
     import make_ore
     make_ore.build()                                                          # the ore, shards and recipes
+    import make_alignment
+    make_alignment.build()                                                    # the Shadow and Crystal types
     items()
     slot()
     forms()

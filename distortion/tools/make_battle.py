@@ -624,6 +624,8 @@ def write_lang(new, new_abilities):
         data[f"cobblemon.move.{tid}.desc"] = (f"The distorted twin of {n['orig_name']}: the same move, but {n['type']}-type."
                                               if n["from"] != "judgment" else
                                               "The distorted twin of Judgment: its type is the weakness of Arceus' plate type.")
+    import make_alignment
+    data.update(make_alignment.LANG)                                    # the Shadow and Crystal moves
     path.write_text(json.dumps(dict(sorted(data.items())), indent=2, ensure_ascii=False) + "\n")
 
 

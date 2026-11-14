@@ -4,12 +4,13 @@
 <script type="module">
 import * as THREE from 'three';
 const rad = d => d * Math.PI / 180;
-window.renderModel = async (geo, texUrl, size, yaw, layers = [], up = 15) => {
+window.renderModel = async (geo, texUrl, size, yaw, layers = [], up = 15, translucent = false) => {
   const g = geo['minecraft:geometry'][0];
   const TW = g.description.texture_width, TH = g.description.texture_height;
   const tex = await new THREE.TextureLoader().loadAsync(texUrl);
   tex.magFilter = THREE.NearestFilter; tex.minFilter = THREE.NearestFilter; tex.colorSpace = THREE.SRGBColorSpace;
-  const mat = new THREE.MeshLambertMaterial({ map: tex, transparent: false, alphaTest: 0.1, side: THREE.DoubleSide });
+  const mat = new THREE.MeshLambertMaterial({ map: tex, transparent: translucent, alphaTest: translucent ? 0.02 : 0.1,
+    depthWrite: !translucent, side: THREE.DoubleSide });   // translucent: a see-through body (Distortion's Crystal Pokemon)
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0x3a3a3a);
   scene.add(new THREE.AmbientLight(0xfff6d8, 1.5));

@@ -63,7 +63,41 @@ THE DNA ANALYZER AND DNA PURIFIER: PURE GALAR FOSSILS (NEW in 0.13.0)
   4. Sneak and click the Purifier to start. One minute later it comes out of the tank as that pure Pokemon (same
      level, nature, IVs, EVs and moves; its ability is re-picked for the new species). Click the machine to take it.
   The four pure Pokemon (Dracomizer, Velozolt, Arctosaur, Dunclovish) are CobbleEffort's: install CobbleEffort
-  0.88.0 or later too. The Purifier will purify Shadow Pokemon as well, once they arrive.
+  0.88.0 or later too. The Purifier also purifies Shadow and Crystal Pokemon (see below).
+
+THE SHADOW AND CRYSTAL TYPES (NEW in 0.14.0)
+  Two new types, and EVERY Pokemon has a Shadow and a Crystal counterpart. A counterpart keeps its first type and
+  takes the new one as its second (Charizard: Fire/Shadow, Onix: Rock/Crystal); its colours change and it gets the
+  counterpart's own moves in its first slots (its own moves are kept and come back when it's purified).
+    SHADOW (Pokemon Colosseum / XD): a dark violet Pokemon trailing a dark aura, its heart closed.
+      - Shadow moves are SUPER EFFECTIVE on every Pokemon that isn't a Shadow Pokemon, whatever its types (2x, never
+        4x; Ghost and Normal types aren't immune) and NOT VERY EFFECTIVE on Shadow Pokemon.
+      - Only Crystal moves are super effective on the Shadow type.
+      - Shadow moves (XD's): Shadow Blitz, Rush, Break, End (recoil) - physical; Shadow Wave, Rave, Storm (all foes),
+        Fire, Bolt, Chill (10% burn / paralysis / freeze), Blast (high crit) - special; Shadow Hold (foes can't
+        switch), Mist (foes' evasion -2), Down (foes' Defense -2), Panic (confuses foes), Shed (removes screens,
+        Safeguard and Mist from both sides), Half (every Pokemon in battle loses half its HP).
+      - A Shadow Pokemon gets three: an attack by its stronger attacking stat and level, a second one (Shadow Fire /
+        Bolt / Chill for Fire / Electric / Ice and Water types, else a stronger one) and a status move.
+    CRYSTAL (like the Crystal Onix): a see-through body of pale glass with streaks and glints, sparkling.
+      - Its body refracts special attacks: they deal 3/4 damage.
+      - Weak to Fighting, Ground, Steel and Rock; resists Water, Ice, Electric, Normal and Crystal.
+      - Crystal moves are super effective on Dark, Ghost, Dragon and Shadow; not very effective on Steel, Rock, Fire
+        and Crystal.
+      - Crystal moves: Prism Beam (special, 10% confusion), Shard Volley (2-5 hits), Crystal Crash (recoil),
+        Glass Guard (+1 Defense and Sp. Def), Refraction (returns a special hit at double damage, like Mirror Coat).
+      - A Crystal Pokemon gets two: an attack, and Refraction (special walls) or Glass Guard.
+  Getting them:
+    - Shadow Heart (Distortion Shard x2, echo shard, wither rose; shapeless) and Prism Crystal (Distortion Shard x2,
+      amethyst shard, diamond, glass; shapeless). Send your Pokemon out and use the item on it.
+    - In the wild: 1 spawn in 256 at night under the open sky is a Shadow Pokemon; 1 in 256 underground below y 40 is
+      a Crystal Pokemon.
+    - Commands: /pokegive charizard shadow_pokemon=true (or crystal_pokemon=true): the type and look, but its own
+      moves (only the items and wild spawns swap the moves in).
+  Purifying: put a Shadow or Crystal Pokemon in the DNA machine (DNA Analyzer and DNA Purifier beside it), click
+  the Analyzer to see its aura, sneak-click the Purifier, wait a minute: it's back to normal with its own moves.
+  Operators: /distortion align <shadow|crystal> <pokemon> shows a Pokemon's types and moves as a counterpart and
+  after purifying (nothing is given).
 
 DISTORTING WITH THE CRYSTAL (NEW in 0.10.0)
   Give a distortable Pokemon the Distortion Crystal and it distorts at once: its distorted form, look, types, moves
@@ -228,6 +262,11 @@ INSTALL
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.
 
 PLEASE TEST AND REPORT
+  0.14.0: the Shadow and Crystal types. Craft a Shadow Heart and a Prism Crystal and use them on Pokemon you've
+  sent out. Do the looks show (violet + aura; see-through glass + sparkles), and in the summary, PC and battle? Do
+  the type icons show? In battle: Shadow moves 2x on everything else (a Ghost too), resisted by another Shadow
+  Pokemon; a Crystal Pokemon taking less from special moves. Then purify one in the DNA machine. With CobbleEffort:
+  Fusion, does a Shadow fusion keep its fusion look?
   0.13.0: the DNA Analyzer and DNA Purifier. Place both beside the DNA machine, put a Dracozolt (or another mixed
   fossil) in, read it with the Analyzer, pick a form at the Purifier, sneak-click to purify, wait a minute, take
   it out (is it the pure form, same level, does it show in the tank while purifying?).

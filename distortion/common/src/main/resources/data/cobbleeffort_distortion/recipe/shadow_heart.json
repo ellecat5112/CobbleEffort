@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobbleeffort_distortion:distortion_shard"
+    },
+    {
+      "item": "cobbleeffort_distortion:distortion_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "result": {
+    "id": "cobbleeffort_distortion:shadow_heart",
+    "count": 1
+  }
+}

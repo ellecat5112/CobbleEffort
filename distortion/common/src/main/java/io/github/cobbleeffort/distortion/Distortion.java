@@ -93,7 +93,7 @@ public final class Distortion {
                     .strength(3F, 6F).sound(SoundType.METAL).lightLevel(s -> 4), false));
     public static final RegistrySupplier<Item> DNA_ANALYZER_ITEM = ITEMS.register("dna_analyzer", () ->
             new BlockItem(DNA_ANALYZER.get(), new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));
-    /** Beside the DNA machine: turns Galar's mixed fossils into their pure forms (and, later, purifies Shadow Pokémon). */
+    /** Beside the DNA machine: turns Galar's mixed fossils into their pure forms and purifies Shadow (and Crystal) Pokémon. */
     public static final RegistrySupplier<Block> DNA_PURIFIER = BLOCKS.register("dna_purifier", () ->
             new io.github.cobbleeffort.distortion.dna.DnaStationBlock(BlockBehaviour.Properties.of().mapColor(MapColor.METAL)
                     .strength(3F, 6F).sound(SoundType.METAL).lightLevel(s -> 6).noOcclusion(), true));
@@ -102,6 +102,13 @@ public final class Distortion {
     /** Dropped (3-8) when a Pokémon is defeated by a trainer with Mew in their party: the DNA machine's fuel. */
     public static final RegistrySupplier<Item> MEW_DNA = ITEMS.register("mew_dna", () ->
             new Item(new Item.Properties().rarity(Rarity.RARE).arch$tab(TAB)));
+
+    /** Closes a Pokémon's heart: it becomes its Shadow counterpart (Pokémon XD). */
+    public static final RegistrySupplier<Item> SHADOW_HEART = ITEMS.register("shadow_heart", () ->
+            new Alignment.ConvertItem(new Item.Properties().rarity(Rarity.EPIC).arch$tab(TAB), Alignment.SHADOW_FLAG));
+    /** Turns a Pokémon's body to living crystal: its Crystal counterpart (the Crystal Onix). */
+    public static final RegistrySupplier<Item> PRISM_CRYSTAL = ITEMS.register("prism_crystal", () ->
+            new Alignment.ConvertItem(new Item.Properties().rarity(Rarity.EPIC).arch$tab(TAB), Alignment.CRYSTAL_FLAG));
 
     private Distortion() {
     }
@@ -123,6 +130,9 @@ public final class Distortion {
                     }
                 }));
         MewDna.init();
+        Alignment.init();
+        AlignmentCommand.init();
+        dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTED.register(server -> AlignmentEngine.installNow());
         // the ore in every overworld biome, with the other underground ores
         BiomeModifications.addProperties(ctx -> ctx.hasTag(BiomeTags.IS_OVERWORLD),
                 (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, ORE_PLACED));
@@ -131,6 +141,7 @@ public final class Distortion {
         if (Platform.getEnvironment() == Env.CLIENT) {
             DistortWheelOption.init();
             DnaMachineClient.init();
+            io.github.cobbleeffort.distortion.client.AlignmentLook.init();
         }
     }
 }

@@ -125,7 +125,7 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
     }
 
     private PokemonEntity display(DnaMachineBlockEntity be) {
-        String key = be.inside() + (be.shiny() ? ":shiny" : "");
+        String key = be.inside() + (be.shiny() ? ":shiny" : "") + ":" + be.alignedFlag();
         if (!key.equals(keys.get(be)) || !displays.containsKey(be)) {
             keys.put(be, key);
             Species species = be.inside().contains(":")
@@ -140,6 +140,12 @@ public class DnaMachineRenderer implements BlockEntityRenderer<DnaMachineBlockEn
             pokemon.setSpecies(species);
             pokemon.initialize();
             pokemon.setShiny(be.shiny());
+            if (!be.alignedFlag().isEmpty()) {                 // a Shadow/Crystal Pokémon shows as one while it waits
+                java.util.Set<String> forced = new java.util.HashSet<>(pokemon.getForcedAspects());
+                forced.add(be.alignedFlag());
+                pokemon.setForcedAspects(forced);
+                pokemon.updateAspects();
+            }
             PokemonEntity entity = new PokemonEntity(be.getLevel(), pokemon, CobblemonEntities.POKEMON);
             entity.setNoGravity(true);
             entity.setPos(be.getBlockPos().getX() + 0.5, be.getBlockPos().getY() + 0.5, be.getBlockPos().getZ() + 0.5);

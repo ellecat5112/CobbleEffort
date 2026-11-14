@@ -254,7 +254,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   machine; `DnaMachineBlockEntity.MIXED` maps dracozolt/arctozolt/dracovish/arctovish to their two halves; a mixed
   fossil goes in with no Mew DNA, the Purifier cycles `target`, sneak-use starts PURIFY_TICKS (1 min), then
   `pokemon.setSpecies(cobbleeffort:<target>)` (keeps level/nature/IVs/moves, re-checks ability)). Synced Target and
-  PurifyStarted; the renderer looks namespaced species up by identifier. Shadow purification: later (Shadow type).
+  PurifyStarted; the renderer looks namespaced species up by identifier. It also purifies Shadow/Crystal Pokémon
+  (Distortion 0.14.0, `aligned` synced: `Alignment.restore`).
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).
@@ -425,6 +426,25 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   name Mega Showdown's models (a required dependency), e.g. its Gigantamax models. Test the engine in node against Cobblemon's Showdown + MSD's patches before a build, loading scripts and held items the way MSD does (`content.replace("\n", "")`: lines joined with no separator, so no `//` comments in generated JS; `make_battle.write` strips them).
   Distortion Crystal ore (0.12.0; stone + deepslate, coal heights, 2-4 Distortion Shards, stone pickaxe; worldgen via Architectury BiomeModifications; recipes for crystal and band): `tools/make_ore.py`.
   DNA machine (0.11.0, the user's design: Mew DNA from battles with Mew in the party + Mew -> Mewtwo in 5 min): `dna/` package + `client/DnaMachineRenderer` (display PokemonEntity in the tank) + `tools/make_dna_machine.py` (its assets/data).
+  **Shadow and Crystal types** (0.14.0, the user's design: every Pokémon has both counterparts; Shadow = XD's, Crystal =
+  the Crystal Onix's): `Alignment` registers both ElementalTypes (common init; textureXMultiplier 18/19, never drawn
+  from Cobblemon's sheet), flags `shadow_pokemon`/`crystal_pokemon` are GLOBAL species features (aspects: "shadow" is
+  taken by the core Shadow cosmetic), types = [first type, Shadow|Crystal] (`AlignTypesMixin` RETURN on getTypes /
+  getSecondaryType; Fusion's HEAD cancel wins for fusions), `convert` swaps counterpart moves into the first slots
+  (originals in persistentData `cobbleeffort_alignment`), `restore` (DNA Purifier) undoes it. Items Shadow Heart /
+  Prism Crystal (`ConvertItem.interactLivingEntity` on your sent-out Pokémon), wild 1/256 (Shadow at night under
+  sky, Crystal underground below y 40). Battle: `data/<mod>/distortion/alignment_engine.js`, evaluated in the Graal
+  context like Fusion's (AlignmentEngine; SERVER_STARTED + `AlignBattleMixin` on startBattle): patches every loaded
+  dex's TypeChart (replaces the frozen entries, clears dex.types caches; isNonstandard Custom keeps them out of
+  random type picks), wraps runEffectiveness (a Shadow move = +1 on non-Shadow, -1 on Shadow targets, per Pokémon),
+  setSpecies (types from `__ceAlign[uuid]`; re-wraps when another add-on wrapped since) and BattleActions
+  modifyDamage (special x0.75 on Crystal). Moves/lang/icons/items from `tools/make_alignment.py` (22 moves, nums
+  -4001.. / -4101..; make_battle keeps their lang). Tested: `scratchpad/tools/align_sim.js`, `/distortion align
+  <shadow|crystal> <pokemon>` (ops). Client: `client/AlignmentLook` recolours textures (`AlignTextureMixin` RETURN
+  on VaryingModelRepository.getTexture, priority 1100 so it runs after Fusion's), `AlignRenderTypeMixin`
+  (LivingEntityRenderer.getRenderType -> entityTranslucent for `aligned/crystal_*` textures), aura particles,
+  `TypeIconMixin`/`TypeWidgetMixin` draw our icons (`textures/gui/alignment_types[_small].png`). Preview renders
+  take a manifest `translucent` flag.
   Wheel (radial menu): Cobblemon's `POKEMON_INTERACTION_GUI_CREATION` event (as Mega Showdown does; no mixin) adds
   Distort/Revert, a C2S `DistortPacket` toggles the `distorted` flag feature server-side (`DistortionWheel`); rules shared
   in `DistortionRules`. Phases 1 items/slot/forms, 2 battle gimmick, 3 radial entry: all done.

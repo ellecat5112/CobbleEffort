@@ -1,0 +1,1 @@
+Object.assign({}, Dex.data.Moves["mirrorcoat"], {num: -4105, name: "Refraction", type: "Crystal", isNonstandard: null, zMove: undefined, maxMove: undefined, desc: "The user bends the last special attack that hit it back through its crystal body at twice the power.", shortDesc: "If hit by a special attack, returns double damage."})

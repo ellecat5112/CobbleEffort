@@ -1615,6 +1615,12 @@ dragon), **Velozolt** (#3156, Electric: a yellow raptor with an electric crest a
 (#3157, Ice/Water: a shark-headed plesiosaur with icy shell plates) and **Dunclovish** (#3158, Water/Steel: an
 armoured placoderm fish). They are found nowhere else.
 
+**The Shadow and Crystal types** (CobbleEffort: Distortion 0.14.0): every Pokémon has a **Shadow** counterpart (Pokémon
+XD's: dark violet with a dark aura, Shadow moves that hit every non-Shadow Pokémon super effectively) and a **Crystal**
+counterpart (like the Crystal Onix: a see-through glass body that refracts special attacks). A counterpart keeps its
+first type and takes the new one as its second. Use a **Shadow Heart** or a **Prism Crystal** on your Pokémon, or meet
+them rarely in the wild (Shadow at night, Crystal deep underground); the DNA Purifier turns them back.
+
 **Chawp, Kiq and the Gi forms** (after @magikdex's Cornera region art; Chawp and Kiq keep their names): **Chawp**
 (#3146, Fighting), a scrappy little fighter with a huge round head, a brow plate, a cheek bandage and barrel shorts, is
 the new pre-evolution of Sawk and Throh. Like Tyrogue it branches at level 20: into **Sawk** when its Attack is higher,
