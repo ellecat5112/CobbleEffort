@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "absinthia-liquor",
+   "pokemon": "cobbleeffort:absinthia",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "20-42",
+   "weight": 1.6,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

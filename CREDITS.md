@@ -277,6 +277,9 @@ named); its name, model, stats, moves and Pokédex entry are our own. Boracle an
 (artists not named); their names, models, stats, moves and Pokédex entries are our own. The Nicodex (Nicotiny to Nicodrake, #3097-3115:
 their names, types, concepts, signature moves and abilities and Pokédex entries) is the user's design; Bongwater's name and
 entry, the models, stats and other moves are our own.
+The Liquor Meadows' Pokémon (Hopsprout to Bacchudrake, #3116-3135: their names, types, concepts, signature moves and
+abilities and Pokédex entries) are the user's design; Tavern Hound's and Bootlegger's entries, the models, stats and other
+moves are our own.
 
 ## Code and data
 

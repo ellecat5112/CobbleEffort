@@ -1,0 +1,74 @@
+{
+ "portraitScale": 1.22,
+ "portraitTranslation": [
+  0,
+  0.72,
+  0
+ ],
+ "profileScale": 0.72,
+ "profileTranslation": [
+  0,
+  0.33,
+  0
+ ],
+ "rootBone": "brawlerry",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_brawlerry', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_brawlerry', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_brawlerry', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_brawlerry', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_brawlerry', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_brawlerry', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_brawlerry', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_brawlerry', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_brawlerry', 'sleep')"
+   ]
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tavernhound-liquor",
+   "pokemon": "cobbleeffort:tavernhound",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "30-46",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:meadbee",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:meadbee",
+   "model": "cobbleeffort:meadbee.geo",
+   "texture": "cobbleeffort:textures/pokemon/3126_meadbee/meadbee.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3126_meadbee/meadbee_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3126_meadbee/meadbee_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3126_meadbee/meadbee_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

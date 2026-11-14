@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3118,
+ "name": "Sakekoi",
+ "primaryType": "water",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 110,
+ "pokedex": [
+  "cobbleeffort.species.sakekoi.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "warminfusion",
+  "swiftswim",
+  "h:serenegrace"
+ ],
+ "eggGroups": [
+  "water_2"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 95,
+  "special_defence": 105,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 2,
+  "speed": 0
+ },
+ "baseExperienceYield": 172,
+ "experienceGroup": "medium_fast",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:red_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:watergun",
+  "1:splash",
+  "5:aquajet",
+  "9:bubblebeam",
+  "13:calmmind",
+  "17:waterpulse",
+  "21:aquaring",
+  "25:scald",
+  "29:lifedew",
+  "33:surf",
+  "39:moonblast",
+  "45:hydropump",
+  "egg:flail",
+  "egg:soak",
+  "egg:lifedew",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:scald",
+  "tm:waterpulse",
+  "tm:hydropump",
+  "tm:icebeam",
+  "tm:raindance",
+  "tm:calmmind",
+  "tm:chillingwater",
+  "tm:dazzlinggleam",
+  "tm:psychic",
+  "tm:whirlpool"
+ ]
+}

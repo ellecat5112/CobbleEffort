@@ -1,0 +1,131 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3123,
+ "name": "Agavolem",
+ "primaryType": "ground",
+ "secondaryType": "grass",
+ "maleRatio": -1,
+ "height": 18,
+ "weight": 2900,
+ "pokedex": [
+  "cobbleeffort.species.agavolem.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "roughskin",
+  "sandveil",
+  "h:sapsipper"
+ ],
+ "eggGroups": [
+  "mineral",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 115,
+  "defence": 110,
+  "special_attack": 55,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 182,
+ "experienceGroup": "medium_fast",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.9,
+ "hitbox": {
+  "width": 1.6,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.18
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:terracotta",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:cactus",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:absorb",
+  "5:sandattack",
+  "9:razorleaf",
+  "13:bulldoze",
+  "17:roastpress",
+  "21:spikes",
+  "25:seedbomb",
+  "29:earthquake",
+  "33:woodhammer",
+  "39:headlongrush",
+  "egg:spikyshield",
+  "egg:needlearm",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:earthquake",
+  "tm:bulldoze",
+  "tm:dig",
+  "tm:stealthrock",
+  "tm:spikes",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:seedbomb",
+  "tm:woodhammer",
+  "tm:leafblade",
+  "tm:sandstorm",
+  "tm:sunnyday",
+  "tm:bodypress",
+  "tm:trailblaze"
+ ]
+}

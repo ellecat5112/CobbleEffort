@@ -277,6 +277,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `puff`, `eye_on`, `ring_pts`), one module per species; their 8 abilities + 10 moves live in `tools/newmons/nico_battle.py`
   (NICO_ABILITIES/NICO_MOVES merged into CUSTOM_*), engine-tested with a node harness (field conditions = an ability's
   own `condition` started as a pseudoWeather; onFaint works). Bongwater -> Hookahdra (36) is the only evolution.
+  The Liquor Meadows' Pokémon (#3116-3135, the user's designs: one per type, alcohol-themed, spawning ONLY in Kanto's
+  Liquor Meadows via `#cobbleeffort_kanto:is_liquor`; Sakekoi is aquatic, submerged spawns with the "water" preset):
+  models on `models/_liquor.py` (palette, `tiers()` = solids of revolution, `helix()`, `glow_of`; `_hound.py` dog(m, s,
+  adult), `_raccoon.py`), 7 abilities + 11 moves in `tools/newmons/liquor_battle.py` (LIQ_*), engine-tested (Showdown's
+  `attackedBy` has no turn stamp: Roast & Press checks the LAST attack's type; `target.m` carries per-hit flags).
+  Stumblepup -> Tavern Hound (30), Bootlegger -> Moonshiner (34, night). Names may hold spaces/accents (Tavern Hound, Flambéer).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

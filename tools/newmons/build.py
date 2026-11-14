@@ -2686,6 +2686,417 @@ for _sp in ("nicotiny", "emberbutt", "vapulon", "mentholynx", "chawchamp", "tarr
     LINES[SPECIES[_sp]["line"]] = [_sp]
 LINES["nico_hookah"] = ["bongwater", "hookahdra"]
 
+# --- the Liquor Meadows' 20 Pokémon (CobbleEffort: Kanto 0.8.0's biome), one per type: the user's designs, names,
+# concepts and Pokédex entries; signature abilities/moves in liquor_battle.py -------------------------------------
+LIQUOR = ["#cobbleeffort_kanto:is_liquor"]
+LIQ = dict(friendship=70, growth="medium_fast")
+LIQ_HOW = "Wild: {} in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0)."
+
+
+def liq_spawn(sid, bucket, level, weight, **cond):
+    return route_spawn(sid, bucket, level, weight, LIQUOR, **cond)
+
+
+def liq_water(sid, bucket, level, weight):
+    s = spawn(sid, bucket, level, weight, {"biomes": LIQUOR}, position="submerged")
+    s["presets"] = ["water"]
+    return s
+
+
+SPECIES.update({
+    "hopsprout": {
+        "dex": 3116, "name": "Hopsprout", "line": "liq_hops", "types": ["grass"], **LIQ, "catch": 190,
+        "male": 0.5, "egg_groups": ["grass", "fairy"],
+        "abilities": ["aromaticharvest", "chlorophyll", "h:sweetveil"],
+        "ability_names": "Aromatic Harvest / Chlorophyll / Sweet Veil (hidden)",
+        "stats": stats(65, 55, 70, 85, 85, 70), "ev": evs(special_defence=1), "exp": 140,
+        "height": 4, "weight": 9, "shoulder": True, "walk": 0.26,
+        "moves": [(1, "absorb"), (1, "sweetscent"), (5, "growth"), (9, "megadrain"), (13, "sleeppowder"),
+                  (17, "magicalleaf"), (21, "aromatherapy"), (25, "gigadrain"), (29, "sunnyday"), (33, "energyball"),
+                  (37, "synthesis"), (41, "petalblizzard")],
+        "tm": BASIC_TM + ["energyball", "gigadrain", "grassknot", "solarbeam", "sunnyday", "raindance",
+                          "grassyterrain", "magicalleaf", "charm", "dazzlinggleam", "trailblaze", "seedbomb"],
+        "egg": ["leechseed", "ingrain", "floralhealing"], "evolve": None,
+        "drops": [("minecraft:wheat_seeds", "1-2", None), ("minecraft:lime_dye", "0-1", None)],
+        "entry": ("Brewers prize Hopsprout for the bitter, floral oils on its petals. When frightened, it releases a "
+                  "musky scent that puts predators to sleep."),
+        "spawns": [liq_spawn("hopsprout-liquor", "common", "4-26", 8.0)],
+        "how": [LIQ_HOW.format("common"), "Its ability Aromatic Harvest heals it and its allies a little every turn "
+                "in sun or rain."],
+    },
+    "flambeer": {
+        "dex": 3117, "name": "Flambéer", "line": "liq_spirit", "types": ["fire", "water"], **LIQ, "catch": 90,
+        "male": -1, "egg_groups": ["amorphous"],
+        "abilities": ["flashfire", "waterabsorb", "h:levitate"],
+        "ability_names": "Flash Fire / Water Absorb / Levitate (hidden)",
+        "stats": stats(70, 50, 70, 115, 90, 85), "ev": evs(special_attack=2), "exp": 172,
+        "height": 6, "weight": 40, "shoulder": False, "walk": 0.24, "fly": True,
+        "moves": [(1, "ember"), (1, "watergun"), (5, "willowisp"), (9, "bubblebeam"), (13, "flamecharge"),
+                  (17, "scald"), (20, "blueignition"), (25, "lavaplume"), (29, "steameruption"), (33, "flamethrower"),
+                  (39, "hydropump"), (45, "overheat")],
+        "tm": BASIC_TM + ["flamethrower", "fireblast", "overheat", "willowisp", "heatwave", "scald", "surf",
+                          "hydropump", "waterpulse", "raindance", "sunnyday", "calmmind", "chillingwater"],
+        "egg": ["mist", "acidarmor"], "evolve": None,
+        "drops": [("minecraft:blaze_powder", "1-2", None), ("minecraft:glass_bottle", "0-1", None)],
+        "entry": ("Its liquid body is so pure and volatile that a single spark sets its surface ablaze with a cool, "
+                  "ghost-blue flame."),
+        "spawns": [liq_spawn("flambeer-liquor", "uncommon", "18-40", 2.0)],
+        "how": [LIQ_HOW.format("uncommon"), "It learns Blue Ignition at level 20."],
+    },
+    "sakekoi": {
+        "dex": 3118, "name": "Sakekoi", "line": "liq_koi", "types": ["water"], **LIQ, "catch": 90,
+        "male": 0.5, "egg_groups": ["water_2"],
+        "abilities": ["warminfusion", "swiftswim", "h:serenegrace"],
+        "ability_names": "Warm Infusion / Swift Swim / Serene Grace (hidden)",
+        "stats": stats(80, 60, 75, 95, 105, 75), "ev": evs(special_defence=2), "exp": 172,
+        "height": 6, "weight": 110, "shoulder": False, "walk": 0.3, "aquatic": True,
+        "moves": [(1, "watergun"), (1, "splash"), (5, "aquajet"), (9, "bubblebeam"), (13, "calmmind"),
+                  (17, "waterpulse"), (21, "aquaring"), (25, "scald"), (29, "lifedew"), (33, "surf"), (39, "moonblast"),
+                  (45, "hydropump")],
+        "tm": BASIC_TM + ["surf", "scald", "waterpulse", "hydropump", "icebeam", "raindance", "calmmind",
+                          "chillingwater", "dazzlinggleam", "psychic", "whirlpool"],
+        "egg": ["flail", "soak", "lifedew"], "evolve": None,
+        "drops": [("minecraft:cod", "1-2", None), ("minecraft:red_dye", "0-1", None)],
+        "entry": ("Sakekoi thrives in steaming mountain springs. Locals believe a visit from one brings prosperity, "
+                  "harmony, and a bountiful rice harvest."),
+        "spawns": [liq_water("sakekoi-liquor", "uncommon", "16-40", 3.0)],
+        "how": [LIQ_HOW.format("uncommon, swimming in its whisky-coloured ponds and lakes,"),
+                "Its ability Warm Infusion raises its Sp. Atk when a Fire-type move hits it and thaws its frozen party."],
+    },
+    "joltini": {
+        "dex": 3119, "name": "Joltini", "line": "liq_cocktail", "types": ["electric", "fairy"], **LIQ, "catch": 90,
+        "male": 0.5, "egg_groups": ["fairy", "amorphous"],
+        "abilities": ["motordrive", "static", "h:prankster"],
+        "ability_names": "Motor Drive / Static / Prankster (hidden)",
+        "stats": stats(60, 50, 60, 105, 80, 120), "ev": evs(speed=2), "exp": 168,
+        "height": 6, "weight": 8, "shoulder": True, "walk": 0.3, "fly": True,
+        "moves": [(1, "thundershock"), (1, "fairywind"), (5, "charge"), (9, "drainingkiss"), (13, "shockwave"),
+                  (17, "zestshock"), (21, "dazzlinggleam"), (25, "discharge"), (29, "moonblast"), (33, "thunderbolt"),
+                  (39, "thunder")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "thunderwave", "electricterrain",
+                          "dazzlinggleam", "moonblast", "drainingkiss", "mistyterrain", "calmmind", "charm"],
+        "egg": ["encore", "sweetkiss"], "evolve": None,
+        "drops": [("minecraft:glowstone_dust", "1-2", None), ("minecraft:yellow_dye", "0-1", None)],
+        "entry": ("Joltini vibrates at high frequencies, creating static sparks along its rim. One sip of its "
+                  "electrified nectar can keep a trainer awake for three days."),
+        "spawns": [liq_spawn("joltini-liquor", "uncommon", "18-40", 2.0)],
+        "how": [LIQ_HOW.format("uncommon"), "It learns Zest Shock at level 17."],
+    },
+    "ontherox": {
+        "dex": 3120, "name": "Ontherox", "line": "liq_ice", "types": ["ice", "rock"], **LIQ, "catch": 60,
+        "male": -1, "egg_groups": ["mineral"],
+        "abilities": ["slowmelt", "sturdy", "h:icebody"],
+        "ability_names": "Slow Melt / Sturdy / Ice Body (hidden)",
+        "stats": stats(95, 110, 130, 45, 80, 30), "ev": evs(defence=2), "exp": 178,
+        "height": 13, "weight": 3200, "shoulder": False, "walk": 0.16,
+        "moves": [(1, "tackle"), (1, "powdersnow"), (5, "harden"), (9, "iceshard"), (13, "rocktomb"),
+                  (17, "iceball"), (21, "rockslide"), (25, "irondefense"), (29, "iciclecrash"), (33, "stoneedge"),
+                  (39, "headsmash")],
+        "tm": BASIC_TM + ["avalanche", "iciclespear", "icebeam", "blizzard", "rockslide", "stoneedge", "stealthrock",
+                          "earthquake", "bodypress", "irondefense", "snowscape", "heavyslam", "icepunch"],
+        "egg": ["mirrorcoat", "rapidspin"], "evolve": None,
+        "drops": [("minecraft:ice", "1-3", None), ("minecraft:blue_ice", "0-1", None)],
+        "entry": ("Unlike normal ice, Ontherox is forged under immense pressure, making it so dense that it clinks like "
+                  "solid stone and takes weeks to thaw."),
+        "spawns": [liq_spawn("ontherox-liquor", "rare", "26-46", 0.8)],
+        "how": [LIQ_HOW.format("rare"), "Its ability Slow Melt halves super-effective Fire damage, and a Fire hit "
+                "slicks the ground, lowering its foes' Speed."],
+    },
+    "brawlerry": {
+        "dex": 3121, "name": "Brawlerry", "line": "liq_brawl", "types": ["fighting"], **LIQ, "catch": 90,
+        "male": 0.5, "egg_groups": ["field", "human_like"],
+        "abilities": ["guts", "tangledfeet", "h:ironfist"],
+        "ability_names": "Guts / Tangled Feet / Iron Fist (hidden)",
+        "stats": stats(100, 120, 85, 40, 70, 65), "ev": evs(attack=2), "exp": 172,
+        "height": 14, "weight": 1350, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "tackle"), (1, "leer"), (5, "machpunch"), (9, "swagger"), (13, "brickbreak"),
+                  (17, "barroomblitz"), (21, "bulkup"), (25, "drainpunch"), (29, "hammerarm"), (33, "dynamicpunch"),
+                  (39, "closecombat")],
+        "tm": BASIC_TM + ["brickbreak", "drainpunch", "closecombat", "bulkup", "icepunch", "firepunch",
+                          "thunderpunch", "earthquake", "rockslide", "bodypress", "knockoff", "swagger", "bodyslam"],
+        "egg": ["fakeout", "bellydrum"], "evolve": None,
+        "drops": [("minecraft:wheat", "1-3", None), ("minecraft:leather", "0-1", None)],
+        "entry": ("Brawlerry loves noisy taverns and friendly sparring. Though it stumbles unpredictably when dizzy, "
+                  "its wild haymakers hit with devastating force."),
+        "spawns": [liq_spawn("brawlerry-liquor", "uncommon", "18-40", 2.0)],
+        "how": [LIQ_HOW.format("uncommon"), "It learns Barroom Blitz at level 17."],
+    },
+    "absinthia": {
+        "dex": 3122, "name": "Absinthia", "line": "liq_fairy", "types": ["poison", "psychic"], **LIQ, "catch": 60,
+        "male": 0.0, "egg_groups": ["fairy", "amorphous"],
+        "abilities": ["corrosion", "synchronize", "h:magicbounce"],
+        "ability_names": "Corrosion / Synchronize / Magic Bounce (hidden)",
+        "stats": stats(70, 50, 65, 115, 95, 100), "ev": evs(special_attack=2), "exp": 178,
+        "height": 8, "weight": 30, "shoulder": False, "walk": 0.26, "fly": True,
+        "moves": [(1, "confusion"), (1, "poisonpowder"), (5, "sweetscent"), (9, "psybeam"), (13, "venoshock"),
+                  (17, "greenmuse"), (21, "hypnosis"), (25, "sludgebomb"), (29, "psychic"), (33, "nastyplot"),
+                  (39, "sludgewave")],
+        "tm": BASIC_TM + ["psychic", "psyshock", "calmmind", "sludgebomb", "sludgewave", "venoshock", "toxicspikes",
+                          "dazzlinggleam", "shadowball", "trick", "nastyplot", "psychicterrain", "energyball"],
+        "egg": ["confuseray", "mistyterrain"], "evolve": None,
+        "drops": [("minecraft:green_dye", "1-2", None), ("minecraft:sugar", "1-2", None)],
+        "entry": ("Artists in ancient cities sought out Absinthia for inspiration, though staring too long into its "
+                  "swirling emerald eyes causes vivid hallucinations."),
+        "spawns": [liq_spawn("absinthia-liquor", "uncommon", "20-42", 1.6, timeRange="night")],
+        "how": [LIQ_HOW.format("uncommon, at night,"), "It learns Green Muse at level 17."],
+    },
+    "agavolem": {
+        "dex": 3123, "name": "Agavolem", "line": "liq_agave", "types": ["ground", "grass"], **LIQ, "catch": 60,
+        "male": -1, "egg_groups": ["mineral", "grass"],
+        "abilities": ["roughskin", "sandveil", "h:sapsipper"],
+        "ability_names": "Rough Skin / Sand Veil / Sap Sipper (hidden)",
+        "stats": stats(100, 115, 110, 55, 75, 40), "ev": evs(attack=1, defence=1), "exp": 182,
+        "height": 18, "weight": 2900, "shoulder": False, "walk": 0.18,
+        "moves": [(1, "tackle"), (1, "absorb"), (5, "sandattack"), (9, "razorleaf"), (13, "bulldoze"),
+                  (17, "roastpress"), (21, "spikes"), (25, "seedbomb"), (29, "earthquake"), (33, "woodhammer"),
+                  (39, "headlongrush")],
+        "tm": BASIC_TM + ["earthquake", "bulldoze", "dig", "stealthrock", "spikes", "rockslide", "stoneedge",
+                          "seedbomb", "woodhammer", "leafblade", "sandstorm", "sunnyday", "bodypress", "trailblaze"],
+        "egg": ["spikyshield", "needlearm"], "evolve": None,
+        "drops": [("minecraft:terracotta", "1-3", None), ("minecraft:cactus", "0-1", None)],
+        "entry": ("Agavolem spends decades absorbing desert sunlight into its spiky core. When baked by volcanic heat, "
+                  "its sap turns into a sweet, fiery nectar."),
+        "spawns": [liq_spawn("agavolem-liquor", "uncommon", "22-44", 1.6)],
+        "how": [LIQ_HOW.format("uncommon"), "It learns Roast & Press at level 17."],
+    },
+    "corkscrew": {
+        "dex": 3124, "name": "Corkscrew", "line": "liq_cork", "types": ["flying", "steel"], **LIQ, "catch": 120,
+        "male": -1, "egg_groups": ["mineral", "flying"],
+        "abilities": ["superluck", "skilllink", "h:technician"],
+        "ability_names": "Super Luck / Skill Link / Technician (hidden)",
+        "stats": stats(60, 100, 80, 45, 60, 120), "ev": evs(speed=2), "exp": 166,
+        "height": 5, "weight": 22, "shoulder": True, "walk": 0.34, "fly": True,
+        "moves": [(1, "peck"), (1, "metalclaw"), (5, "focusenergy"), (9, "aerialace"), (13, "drillpeck"),
+                  (17, "popoff"), (21, "steelwing"), (25, "drillrun"), (29, "bravebird"), (33, "ironhead"),
+                  (39, "swordsdance")],
+        "tm": BASIC_TM + ["aerialace", "acrobatics", "bravebird", "drillrun", "ironhead", "steelwing", "uturn",
+                          "swordsdance", "agility", "tailwind", "roost", "flashcannon", "dualwingbeat"],
+        "egg": ["rapidspin", "featherdance"], "evolve": None,
+        "drops": [("minecraft:iron_nugget", "2-5", None), ("minecraft:feather", "0-1", None)],
+        "entry": ("Corkscrew spins rapidly to bore through wooden casks and dense tree bark. The sound of it taking "
+                  "flight echoes like a popping bottle."),
+        "spawns": [liq_spawn("corkscrew-liquor", "uncommon", "18-40", 2.0)],
+        "how": [LIQ_HOW.format("uncommon"), "It learns Pop Off at level 17."],
+    },
+    "sommelgeist": {
+        "dex": 3125, "name": "Sommelgeist", "line": "liq_cellar", "types": ["psychic", "ghost"], **LIQ, "catch": 45,
+        "male": 0.5, "egg_groups": ["amorphous"],
+        "abilities": ["agedvintage", "cursedbody", "h:magicbounce"],
+        "ability_names": "Aged Vintage / Cursed Body / Magic Bounce (hidden)",
+        "stats": stats(65, 45, 65, 95, 95, 75), "ev": evs(special_defence=2), "exp": 174,
+        "height": 14, "weight": 1, "shoulder": False, "walk": 0.24, "fly": True,
+        "moves": [(1, "confusion"), (1, "astonish"), (5, "disable"), (9, "hex"), (13, "psybeam"), (17, "calmmind"),
+                  (21, "shadowball"), (25, "psychic"), (29, "trickroom"), (33, "storedpower"), (39, "futuresight")],
+        "tm": BASIC_TM + ["psychic", "psyshock", "shadowball", "hex", "calmmind", "trickroom", "storedpower",
+                          "willowisp", "nastyplot", "trick", "painsplit", "dazzlinggleam", "darkpulse"],
+        "egg": ["imprison", "destinybond"], "evolve": None,
+        "drops": [("minecraft:sweet_berries", "1-3", None), ("minecraft:red_dye", "0-1", None)],
+        "entry": ("Sommelgeist haunts centuries-old underground cellars, judging the quality of buried casks and "
+                  "guarding rare vintages from thieves."),
+        "spawns": [liq_spawn("sommelgeist-liquor", "rare", "28-48", 0.8, timeRange="night")],
+        "how": [LIQ_HOW.format("rare, at night,"), "Its ability Aged Vintage raises a random stat at the end of every "
+                "turn it stays in battle."],
+    },
+    "meadbee": {
+        "dex": 3126, "name": "Meadbee", "line": "liq_mead", "types": ["bug", "fairy"], **LIQ, "catch": 150,
+        "male": 0.5, "egg_groups": ["bug", "fairy"],
+        "abilities": ["honeygather", "sweetveil", "h:friendguard"],
+        "ability_names": "Honey Gather / Sweet Veil / Friend Guard (hidden)",
+        "stats": stats(75, 80, 65, 60, 80, 90), "ev": evs(speed=1, hp=1), "exp": 156,
+        "height": 4, "weight": 12, "shoulder": True, "walk": 0.3, "fly": True,
+        "moves": [(1, "bugbite"), (1, "sweetscent"), (5, "fairywind"), (9, "strugglebug"), (13, "drainingkiss"),
+                  (17, "pollenpuff"), (21, "nectartoast"), (25, "bugbuzz"), (29, "playrough"), (33, "uturn"),
+                  (39, "quiverdance")],
+        "tm": BASIC_TM + ["bugbuzz", "uturn", "pollenpuff", "playrough", "dazzlinggleam", "drainingkiss", "charm",
+                          "acrobatics", "lunge", "pounce", "mistyterrain", "tailwind"],
+        "egg": ["helpinghand", "attract"], "evolve": None,
+        "drops": [("minecraft:honeycomb", "1-2", None), ("minecraft:honey_bottle", "0-1", None)],
+        "entry": ("Ancient warriors celebrated victories alongside swarms of Meadbee, whose fermented honey was said to "
+                  "grant courage and song."),
+        "spawns": [liq_spawn("meadbee-liquor", "common", "6-30", 6.0, timeRange="day")],
+        "how": [LIQ_HOW.format("common, by day,"), "It learns Nectar Toast at level 21."],
+    },
+    "peatling": {
+        "dex": 3127, "name": "Peatling", "line": "liq_peat", "types": ["rock", "fire"], **LIQ, "catch": 150,
+        "male": 0.5, "egg_groups": ["mineral", "field"],
+        "abilities": ["smokycask", "flamebody", "h:whitesmoke"],
+        "ability_names": "Smoky Cask / Flame Body / White Smoke (hidden)",
+        "stats": stats(75, 85, 105, 80, 70, 40), "ev": evs(defence=2), "exp": 160,
+        "height": 4, "weight": 260, "shoulder": False, "walk": 0.2,
+        "moves": [(1, "ember"), (1, "rockthrow"), (5, "smokescreen"), (9, "smog"), (13, "rocktomb"),
+                  (17, "lavaplume"), (21, "ancientpower"), (25, "willowisp"), (29, "rockslide"), (33, "flamethrower"),
+                  (39, "eruption")],
+        "tm": BASIC_TM + ["rockslide", "stoneedge", "stealthrock", "flamethrower", "fireblast", "willowisp",
+                          "heatwave", "sludgebomb", "sunnyday", "sandstorm", "earthpower", "irondefense"],
+        "egg": ["yawn", "curse"], "evolve": None,
+        "drops": [("minecraft:charcoal", "1-3", None), ("minecraft:moss_block", "0-1", None)],
+        "entry": ("Dug up from ancient coastal bogs, Peatling burns slowly for centuries, infusing nearby water springs "
+                  "with its distinct smoky flavor."),
+        "spawns": [liq_spawn("peatling-liquor", "common", "8-30", 5.0)],
+        "how": [LIQ_HOW.format("common"), "Its ability Smoky Cask powers up its Fire and Poison moves and fills the "
+                "field with smoke that stops stats being lowered."],
+    },
+    "spiritskull": {
+        "dex": 3128, "name": "Spiritskull", "line": "liq_skull", "types": ["ghost", "poison"], **LIQ, "catch": 60,
+        "male": -1, "egg_groups": ["amorphous"],
+        "abilities": ["cursedbody", "levitate", "h:infiltrator"],
+        "ability_names": "Cursed Body / Levitate / Infiltrator (hidden)",
+        "stats": stats(65, 55, 75, 110, 95, 90), "ev": evs(special_attack=2), "exp": 176,
+        "height": 4, "weight": 30, "shoulder": False, "walk": 0.26, "fly": True,
+        "moves": [(1, "astonish"), (1, "acid"), (5, "smog"), (9, "hex"), (13, "venoshock"), (17, "confuseray"),
+                  (21, "hangover"), (25, "sludgebomb"), (29, "shadowball"), (33, "nastyplot"), (39, "sludgewave")],
+        "tm": BASIC_TM + ["shadowball", "hex", "sludgebomb", "sludgewave", "venoshock", "toxicspikes", "willowisp",
+                          "nastyplot", "trick", "painsplit", "darkpulse", "psychic"],
+        "egg": ["memento", "destinybond"], "evolve": None,
+        "drops": [("minecraft:bone", "1-2", None), ("minecraft:amethyst_shard", "0-2", None)],
+        "entry": ("Legend says Spiritskull forms inside abandoned bottles left on sunken ships. Those who drink from it "
+                  "experience vivid memories that aren't their own."),
+        "spawns": [liq_spawn("spiritskull-liquor", "rare", "26-46", 0.8, timeRange="night")],
+        "how": [LIQ_HOW.format("rare, at night,"), "It learns Hangover at level 21."],
+    },
+    "caskade": {
+        "dex": 3129, "name": "Caskade", "line": "liq_cask", "types": ["water", "grass"], **LIQ, "catch": 75,
+        "male": 0.5, "egg_groups": ["monster", "grass"],
+        "abilities": ["oakmaturation", "shellarmor", "h:harvest"],
+        "ability_names": "Oak Maturation / Shell Armor / Harvest (hidden)",
+        "stats": stats(105, 75, 120, 65, 95, 30), "ev": evs(defence=2), "exp": 180,
+        "height": 10, "weight": 2400, "shoulder": False, "walk": 0.14,
+        "moves": [(1, "tackle"), (1, "withdraw"), (5, "watergun"), (9, "absorb"), (13, "bubblebeam"),
+                  (17, "leechseed"), (21, "aquaring"), (25, "gigadrain"), (29, "shellsmash"), (33, "woodhammer"),
+                  (39, "hydropump")],
+        "tm": BASIC_TM + ["surf", "scald", "waterpulse", "gigadrain", "energyball", "seedbomb", "woodhammer",
+                          "bodypress", "irondefense", "raindance", "grassyterrain", "earthquake", "stealthrock"],
+        "egg": ["recycle", "stockpile", "slackoff"], "evolve": None,
+        "drops": [("minecraft:oak_planks", "1-3", None), ("minecraft:sweet_berries", "1-3", None)],
+        "entry": ("Caskade wanders mountain trails for decades, allowing rainwater and wild berries to ferment inside "
+                  "its oaken shell into a prized elixir."),
+        "spawns": [liq_spawn("caskade-liquor", "common", "10-34", 4.0)],
+        "how": [LIQ_HOW.format("common"), "Its ability Oak Maturation doubles the effect of the Berry it holds and "
+                "grows a new one two turns after it eats it."],
+    },
+    "stillforge": {
+        "dex": 3130, "name": "Stillforge", "line": "liq_still", "types": ["steel", "fire"], **LIQ, "catch": 45,
+        "male": -1, "egg_groups": ["mineral"],
+        "abilities": ["heatproof", "steamengine", "h:filter"],
+        "ability_names": "Heatproof / Steam Engine / Filter (hidden)",
+        "stats": stats(90, 75, 110, 110, 85, 40), "ev": evs(special_attack=2), "exp": 190,
+        "height": 26, "weight": 5800, "shoulder": False, "walk": 0.18,
+        "moves": [(1, "ember"), (1, "metalclaw"), (5, "irondefense"), (9, "flamecharge"), (13, "flashcannon"),
+                  (17, "distill"), (21, "lavaplume"), (25, "steelbeam"), (29, "flamethrower"), (33, "shiftgear"),
+                  (39, "overheat")],
+        "tm": BASIC_TM + ["flashcannon", "steelbeam", "ironhead", "heavyslam", "flamethrower", "fireblast",
+                          "overheat", "heatwave", "irondefense", "willowisp", "sunnyday", "bodypress", "scald"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:copper_ingot", "2-4", None), ("minecraft:raw_copper", "1-2", None)],
+        "entry": ("Engineered by master craftsmen, Stillforge boils impure water inside its copper belly and condenses "
+                  "it into pure, elemental energy."),
+        "spawns": [liq_spawn("stillforge-liquor", "rare", "30-50", 0.6)],
+        "how": [LIQ_HOW.format("rare"), "It learns Distill at level 17."],
+    },
+    "stumblepup": {
+        "dex": 3131, "name": "Stumblepup", "line": "liq_hound", "types": ["normal"], **LIQ, "catch": 190,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["liquidcourage", "friendguard", "h:tangledfeet"],
+        "ability_names": "Liquid Courage / Friend Guard / Tangled Feet (hidden)",
+        "stats": stats(60, 65, 55, 35, 50, 45), "ev": evs(hp=1), "exp": 62,
+        "height": 4, "weight": 70, "shoulder": True, "walk": 0.28,
+        "moves": [(1, "tackle"), (1, "tailwhip"), (5, "lick"), (9, "bite"), (13, "headbutt"), (17, "helpinghand"),
+                  (21, "takedown"), (25, "playrough"), (30, "doubleedge")],
+        "tm": BASIC_TM + ["bodyslam", "playrough", "crunch", "icefang", "firefang", "dig", "helpinghand", "swagger",
+                          "facade", "rest", "snowscape"],
+        "egg": ["yawn", "covet", "wish"], "evolve": ("tavernhound", 30, ["superfang"]),
+        "drops": [("minecraft:bone", "0-1", None), ("minecraft:white_wool", "0-1", None)],
+        "entry": ("Trained to rescue lost hikers in snowy passes, Stumblepup carries a warming tonic in its neck "
+                  "barrel—though it often spills half of it tripping over its own paws."),
+        "spawns": [liq_spawn("stumblepup-liquor", "common", "4-26", 7.0)],
+        "how": [LIQ_HOW.format("common"), "Evolves into Tavern Hound at level 30."],
+    },
+    "tavernhound": {
+        "dex": 3132, "name": "Tavern Hound", "line": "liq_hound", "types": ["normal"], **LIQ, "catch": 75,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["liquidcourage", "friendguard", "h:tangledfeet"],
+        "ability_names": "Liquid Courage / Friend Guard / Tangled Feet (hidden)",
+        "stats": stats(110, 115, 90, 50, 85, 50), "ev": evs(hp=2, attack=1), "exp": 186,
+        "height": 14, "weight": 910, "shoulder": False, "walk": 0.24,
+        "moves": [(1, "superfang"), (1, "tackle"), (1, "tailwhip"), (5, "lick"), (9, "bite"), (13, "headbutt"),
+                  (17, "helpinghand"), (21, "takedown"), (25, "playrough"), (30, "superfang"), (34, "bodyslam"),
+                  (40, "doubleedge"), (46, "gigaimpact")],
+        "tm": BASIC_TM + ["bodyslam", "playrough", "crunch", "icefang", "firefang", "dig", "helpinghand", "swagger",
+                          "facade", "earthquake", "gigaimpact", "hyperbeam", "snowscape", "bulkup"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:bone", "1-2", None), ("minecraft:white_wool", "1-2", None)],
+        "entry": ("It strides the snowy passes with a full keg of warm tonic under its chin, and lost hikers who hear "
+                  "it baying know help is coming, slowly but surely."),
+        "spawns": [liq_spawn("tavernhound-liquor", "rare", "30-46", 0.8)],
+        "how": ["Evolve Stumblepup at level 30. It learns Super Fang when it evolves.", LIQ_HOW.format("rare")],
+    },
+    "bootlegger": {
+        "dex": 3133, "name": "Bootlegger", "line": "liq_bandit", "types": ["dark"], **LIQ, "catch": 190,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["pickpocket", "quickfeet", "h:prankster"],
+        "ability_names": "Pickpocket / Quick Feet / Prankster (hidden)",
+        "stats": stats(50, 60, 45, 45, 45, 75), "ev": evs(speed=1), "exp": 62,
+        "height": 4, "weight": 60, "shoulder": True, "walk": 0.32,
+        "moves": [(1, "scratch"), (1, "leer"), (5, "thief"), (9, "bite"), (13, "faketears"), (17, "feintattack"),
+                  (22, "contrabandswap"), (26, "nightslash"), (30, "suckerpunch")],
+        "tm": BASIC_TM + ["thief", "knockoff", "suckerpunch", "crunch", "uturn", "taunt", "torment", "foulplay",
+                          "darkpulse", "dig", "snarl"],
+        "egg": ["covet", "switcheroo", "partingshot"],
+        "evolve": ("moonshiner", 34, ["knockoff"], [{"variant": "time_range", "range": "night"}]),
+        "drops": [("minecraft:glass_bottle", "0-1", None), ("minecraft:gray_dye", "0-1", None)],
+        "entry": ("A little smuggler that hauls a stolen jug through the woods at dusk. If it is caught, it plays dead "
+                  "until whoever caught it looks away, then bolts with whatever it can carry."),
+        "spawns": [liq_spawn("bootlegger-liquor", "common", "4-26", 6.0, timeRange="night")],
+        "how": [LIQ_HOW.format("common, at night,"), "It learns Contraband Swap at level 22.",
+                "Evolves into Moonshiner at level 34 at night."],
+    },
+    "moonshiner": {
+        "dex": 3134, "name": "Moonshiner", "line": "liq_bandit", "types": ["dark"], **LIQ, "catch": 60,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["pickpocket", "quickfeet", "h:prankster"],
+        "ability_names": "Pickpocket / Quick Feet / Prankster (hidden)",
+        "stats": stats(75, 105, 70, 80, 70, 105), "ev": evs(attack=1, speed=2), "exp": 188,
+        "height": 13, "weight": 380, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "knockoff"), (1, "scratch"), (1, "leer"), (5, "thief"), (9, "bite"), (13, "faketears"),
+                  (17, "feintattack"), (22, "contrabandswap"), (26, "nightslash"), (30, "suckerpunch"), (34, "knockoff"),
+                  (40, "nastyplot"), (46, "darkpulse"), (52, "partingshot")],
+        "tm": BASIC_TM + ["thief", "knockoff", "suckerpunch", "crunch", "uturn", "taunt", "torment", "foulplay",
+                          "darkpulse", "dig", "snarl", "nastyplot", "willowisp", "gunkshot", "throatchop"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:glass_bottle", "1-2", None), ("minecraft:leather", "0-1", None)],
+        "entry": ("Moonshiner builds hidden stills deep in mountain forests, using reflective mirrors to hide its "
+                  "campfire smoke from patrolling Ranger Pokémon."),
+        "spawns": [liq_spawn("moonshiner-liquor", "rare", "34-50", 0.6, timeRange="night")],
+        "how": ["Evolve Bootlegger at level 34 at night. It learns Knock Off when it evolves.",
+                LIQ_HOW.format("rare, at night,")],
+    },
+    "bacchudrake": {
+        "dex": 3135, "name": "Bacchudrake", "line": "liq_dragon", "types": ["dragon", "fairy"],
+        "friendship": 100, "growth": "slow", "catch": 3, "male": -1, "egg_groups": ["undiscovered"],
+        "labels": ["legendary"],
+        "abilities": ["serenegrace", "h:sweetveil"], "ability_names": "Serene Grace / Sweet Veil (hidden)",
+        "stats": stats(100, 90, 90, 130, 100, 90), "ev": evs(special_attack=3), "exp": 300,
+        "height": 28, "weight": 1100, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "dragonbreath"), (1, "fairywind"), (1, "safeguard"), (10, "twister"), (20, "drainingkiss"),
+                  (30, "dragonpulse"), (40, "effervescentroar"), (50, "moonblast"), (60, "dragondance"),
+                  (70, "dracometeor"), (80, "lifedew")],
+        "tm": BASIC_TM + ["dragonpulse", "dracometeor", "moonblast", "dazzlinggleam", "calmmind", "roost", "hurricane",
+                          "outrage", "dragondance", "hyperbeam", "gigaimpact", "mistyterrain", "surf"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:glow_berries", "2-4", None), ("minecraft:gold_ingot", "2-4", None)],
+        "entry": ("Said to appear only once a century during the grandest autumn harvest, Bacchudrake's joyous roar "
+                  "turns ordinary river water into sparkling nectar."),
+        "spawns": [liq_spawn("bacchudrake-liquor", "ultra-rare", "60-70", 0.1)],
+        "how": ["Wild: ultra-rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0), level "
+                "60-70.", "It learns Effervescent Roar at level 40."],
+    },
+})
+for _sp in ("hopsprout", "flambeer", "sakekoi", "joltini", "ontherox", "brawlerry", "absinthia", "agavolem", "corkscrew",
+            "sommelgeist", "meadbee", "peatling", "spiritskull", "caskade", "stillforge", "bacchudrake"):
+    LINES[SPECIES[_sp]["line"]] = [_sp]
+LINES["liq_hound"] = ["stumblepup", "tavernhound"]
+LINES["liq_bandit"] = ["bootlegger", "moonshiner"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -2948,6 +3359,17 @@ FAKEMON_STARTERS_2 = ("A. Fakemon II", -97, ["cobbleeffort:whissant", "cobbleeff
 from nico_battle import NICO_ABILITIES, NICO_MOVES                  # the Nicodex's own abilities and moves  # noqa: E402
 CUSTOM_ABILITIES.update(NICO_ABILITIES)
 CUSTOM_MOVES.update(NICO_MOVES)
+from liquor_battle import LIQ_ABILITIES, LIQ_MOVES                # the Liquor Meadows' own abilities and moves  # noqa: E402
+CUSTOM_ABILITIES.update(LIQ_ABILITIES)
+CUSTOM_MOVES.update(LIQ_MOVES)
+
+def ascii_name(name):
+    """The species json's name, in plain ASCII like Cobblemon's own ("Flabebe"): Cobblemon builds the lang key and the
+    Showdown id from it and drops other letters, so "Flambéer" would look for cobbleeffort.species.flamber.name. The
+    accented spelling goes in the lang file."""
+    import unicodedata
+    return unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+
 
 def folder(sp):
     return f"{SPECIES[sp]['dex']:04d}_{sp}"
@@ -3090,7 +3512,7 @@ def build_model(sp):
 def species_json(sp):
     c = SPECIES[sp]
     d = {
-        "implemented": True, "nationalPokedexNumber": c["dex"], "name": c["name"], "primaryType": c["types"][0],
+        "implemented": True, "nationalPokedexNumber": c["dex"], "name": ascii_name(c["name"]), "primaryType": c["types"][0],
     }
     if len(c["types"]) > 1:
         d["secondaryType"] = c["types"][1]

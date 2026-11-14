@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "bootlegger-liquor",
+   "pokemon": "cobbleeffort:bootlegger",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "4-26",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3124,
+ "name": "Corkscrew",
+ "primaryType": "flying",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 22,
+ "pokedex": [
+  "cobbleeffort.species.corkscrew.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "superluck",
+  "skilllink",
+  "h:technician"
+ ],
+ "eggGroups": [
+  "mineral",
+  "flying"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 100,
+  "defence": 80,
+  "special_attack": 45,
+  "special_defence": 60,
+  "speed": 120
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 166,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:peck",
+  "1:metalclaw",
+  "5:focusenergy",
+  "9:aerialace",
+  "13:drillpeck",
+  "17:popoff",
+  "21:steelwing",
+  "25:drillrun",
+  "29:bravebird",
+  "33:ironhead",
+  "39:swordsdance",
+  "egg:rapidspin",
+  "egg:featherdance",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:aerialace",
+  "tm:acrobatics",
+  "tm:bravebird",
+  "tm:drillrun",
+  "tm:ironhead",
+  "tm:steelwing",
+  "tm:uturn",
+  "tm:swordsdance",
+  "tm:agility",
+  "tm:tailwind",
+  "tm:roost",
+  "tm:flashcannon",
+  "tm:dualwingbeat"
+ ]
+}

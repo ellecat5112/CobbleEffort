@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "caskade-liquor",
+   "pokemon": "cobbleeffort:caskade",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "10-34",
+   "weight": 4.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ]
+   }
+  }
+ ]
+}

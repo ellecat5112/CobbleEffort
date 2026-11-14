@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sommelgeist-liquor",
+   "pokemon": "cobbleeffort:sommelgeist",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "28-48",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:sommelgeist",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sommelgeist",
+   "model": "cobbleeffort:sommelgeist.geo",
+   "texture": "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_glow_0.png",
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_glow_1.png",
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3125_sommelgeist/sommelgeist_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

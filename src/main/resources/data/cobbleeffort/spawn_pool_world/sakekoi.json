@@ -1,0 +1,24 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sakekoi-liquor",
+   "pokemon": "cobbleeffort:sakekoi",
+   "presets": [
+    "water"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "submerged",
+   "bucket": "uncommon",
+   "level": "16-40",
+   "weight": 3.0,
+   "condition": {
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ]
+   }
+  }
+ ]
+}

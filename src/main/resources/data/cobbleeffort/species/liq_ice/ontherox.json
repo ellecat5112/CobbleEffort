@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3120,
+ "name": "Ontherox",
+ "primaryType": "ice",
+ "secondaryType": "rock",
+ "maleRatio": -1,
+ "height": 13,
+ "weight": 3200,
+ "pokedex": [
+  "cobbleeffort.species.ontherox.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "slowmelt",
+  "sturdy",
+  "h:icebody"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 110,
+  "defence": 130,
+  "special_attack": 45,
+  "special_defence": 80,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 178,
+ "experienceGroup": "medium_fast",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.65,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.16
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ice",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:blue_ice",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:powdersnow",
+  "5:harden",
+  "9:iceshard",
+  "13:rocktomb",
+  "17:iceball",
+  "21:rockslide",
+  "25:irondefense",
+  "29:iciclecrash",
+  "33:stoneedge",
+  "39:headsmash",
+  "egg:mirrorcoat",
+  "egg:rapidspin",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:avalanche",
+  "tm:iciclespear",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:stealthrock",
+  "tm:earthquake",
+  "tm:bodypress",
+  "tm:irondefense",
+  "tm:snowscape",
+  "tm:heavyslam",
+  "tm:icepunch"
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3125,
+ "name": "Sommelgeist",
+ "primaryType": "psychic",
+ "secondaryType": "ghost",
+ "maleRatio": 0.5,
+ "height": 14,
+ "weight": 1,
+ "pokedex": [
+  "cobbleeffort.species.sommelgeist.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "agedvintage",
+  "cursedbody",
+  "h:magicbounce"
+ ],
+ "eggGroups": [
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 45,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 95,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 2,
+  "speed": 0
+ },
+ "baseExperienceYield": 174,
+ "experienceGroup": "medium_fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.8,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:sweet_berries",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:red_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:confusion",
+  "1:astonish",
+  "5:disable",
+  "9:hex",
+  "13:psybeam",
+  "17:calmmind",
+  "21:shadowball",
+  "25:psychic",
+  "29:trickroom",
+  "33:storedpower",
+  "39:futuresight",
+  "egg:imprison",
+  "egg:destinybond",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:calmmind",
+  "tm:trickroom",
+  "tm:storedpower",
+  "tm:willowisp",
+  "tm:nastyplot",
+  "tm:trick",
+  "tm:painsplit",
+  "tm:dazzlinggleam",
+  "tm:darkpulse"
+ ]
+}

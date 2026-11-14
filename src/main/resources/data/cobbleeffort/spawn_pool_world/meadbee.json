@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "meadbee-liquor",
+   "pokemon": "cobbleeffort:meadbee",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "6-30",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobbleeffort_kanto:is_liquor"
+    ],
+    "timeRange": "day"
+   }
+  }
+ ]
+}

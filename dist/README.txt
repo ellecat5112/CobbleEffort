@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 125 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 145 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2861,6 +2861,191 @@ cobbleeffort:cavitot.
   * Wild: ultra-rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto), level
     60-70.
   * It learns Alkaloid Roar at level 40.
+
+#3116 HOPSPROUT  (Grass; Aromatic Harvest / Chlorophyll / Sweet Veil (hidden))
+  a cheerful cone of overlapping green hop bracts with a smiling face, leafy arms and a curling bine
+  on top
+  Stats: HP 65  Atk 55  Def 70  SpA 85  SpD 85  Spe 70  (total 430)
+  Pokedex: "Brewers prize Hopsprout for the bitter, floral oils on its petals. When frightened, it
+  releases a musky scent that puts predators to sleep."
+  * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Its ability Aromatic Harvest heals it and its allies a little every turn in sun or rain.
+
+#3117 FLAMBÉER  (Fire / Water; Flash Fire / Water Absorb / Levitate (hidden))
+  an amber spirit elemental in a crystal snifter with a calm face and a crown of cool blue flames
+  Stats: HP 70  Atk 50  Def 70  SpA 115  SpD 90  Spe 85  (total 480)
+  Pokedex: "Its liquid body is so pure and volatile that a single spark sets its surface ablaze with
+  a cool, ghost-blue flame."
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Blue Ignition at level 20.
+
+#3118 SAKEKOI  (Water; Warm Infusion / Swift Swim / Serene Grace (hidden))
+  a serene porcelain-white koi with vermilion patches, a vermilion sake cup with a gold rim on its
+  forehead and flowing fins
+  Stats: HP 80  Atk 60  Def 75  SpA 95  SpD 105  Spe 75  (total 490)
+  Pokedex: "Sakekoi thrives in steaming mountain springs. Locals believe a visit from one brings
+  prosperity, harmony, and a bountiful rice harvest."
+  * Wild: uncommon, swimming in its whisky-coloured ponds and lakes, in the Liquor Meadows (an
+    overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Its ability Warm Infusion raises its Sp. Atk when a Fire-type move hits it and thaws its frozen
+    party.
+
+#3119 JOLTINI  (Electric / Fairy; Motor Drive / Static / Prankster (hidden))
+  a V-shaped martini glass full of glowing neon-yellow liqueur with a lightning-bolt lemon twist and
+  an olive antenna
+  Stats: HP 60  Atk 50  Def 60  SpA 105  SpD 80  Spe 120  (total 475)
+  Pokedex: "Joltini vibrates at high frequencies, creating static sparks along its rim. One sip of
+  its electrified nectar can keep a trainer awake for three days."
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Zest Shock at level 17.
+
+#3120 ONTHEROX  (Ice / Rock; Slow Melt / Sturdy / Ice Body (hidden))
+  a hefty golem of crystal-clear ice: a translucent cube body with a frosty core, a cube head and
+  ice-ball fists and feet
+  Stats: HP 95  Atk 110  Def 130  SpA 45  SpD 80  Spe 30  (total 490)
+  Pokedex: "Unlike normal ice, Ontherox is forged under immense pressure, making it so dense that it
+  clinks like solid stone and takes weeks to thaw."
+  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Its ability Slow Melt halves super-effective Fire damage, and a Fire hit slicks the ground,
+    lowering its foes' Speed.
+
+#3121 BRAWLERRY  (Fighting; Guts / Tangled Feet / Iron Fist (hidden))
+  a rowdy bear brawler with a barrel-hooped chest, frothy foam on its shoulders and wooden-stave
+  gauntlets
+  Stats: HP 100  Atk 120  Def 85  SpA 40  SpD 70  Spe 65  (total 480)
+  Pokedex: "Brawlerry loves noisy taverns and friendly sparring. Though it stumbles unpredictably
+  when dizzy, its wild haymakers hit with devastating force."
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Barroom Blitz at level 17.
+
+#3122 ABSINTHIA  (Poison / Psychic; Corrosion / Synchronize / Magic Bounce (hidden))
+  a slender emerald-green fairy wrapped in cloudy louche mist with green wings, glowing eyes and a
+  slotted silver spoon wand
+  Stats: HP 70  Atk 50  Def 65  SpA 115  SpD 95  Spe 100  (total 495)
+  Pokedex: "Artists in ancient cities sought out Absinthia for inspiration, though staring too long
+  into its swirling emerald eyes causes vivid hallucinations."
+  * Wild: uncommon, at night, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+  * It learns Green Muse at level 17.
+
+#3123 AGAVOLEM  (Ground / Grass; Rough Skin / Sand Veil / Sap Sipper (hidden))
+  a rugged cracked-terracotta golem with a huge spiny blue agave heart bursting from its chest
+  Stats: HP 100  Atk 115  Def 110  SpA 55  SpD 75  Spe 40  (total 495)
+  Pokedex: "Agavolem spends decades absorbing desert sunlight into its spiky core. When baked by
+  volcanic heat, its sap turns into a sweet, fiery nectar."
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Roast & Press at level 17.
+
+#3124 CORKSCREW  (Flying / Steel; Super Luck / Skill Link / Technician (hidden))
+  a winged steel wine-opener sprite with lever-arm wings and a spiral drill tail
+  Stats: HP 60  Atk 100  Def 80  SpA 45  SpD 60  Spe 120  (total 465)
+  Pokedex: "Corkscrew spins rapidly to bore through wooden casks and dense tree bark. The sound of
+  it taking flight echoes like a popping bottle."
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Pop Off at level 17.
+
+#3125 SOMMELGEIST  (Psychic / Ghost; Aged Vintage / Cursed Body / Magic Bounce (hidden))
+  a spectral connoisseur in a tattered tuxedo and burgundy bow tie with a swirling wine cape and a
+  ghostly wisp tail
+  Stats: HP 65  Atk 45  Def 65  SpA 95  SpD 95  Spe 75  (total 440)
+  Pokedex: "Sommelgeist haunts centuries-old underground cellars, judging the quality of buried
+  casks and guarding rare vintages from thieves."
+  * Wild: rare, at night, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+  * Its ability Aged Vintage raises a random stat at the end of every turn it stays in battle.
+
+#3126 MEADBEE  (Bug / Fairy; Honey Gather / Sweet Veil / Friend Guard (hidden))
+  a plump golden-amber bumblebee with honeycomb wings hugging a tiny clay amphora of nectar
+  Stats: HP 75  Atk 80  Def 65  SpA 60  SpD 80  Spe 90  (total 450)
+  Pokedex: "Ancient warriors celebrated victories alongside swarms of Meadbee, whose fermented honey
+  was said to grant courage and song."
+  * Wild: common, by day, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+  * It learns Nectar Toast at level 21.
+
+#3127 PEATLING  (Rock / Fire; Smoky Cask / Flame Body / White Smoke (hidden))
+  a compact block of layered bog turf with a mossy top, glowing charcoal cracks and smoky breath
+  Stats: HP 75  Atk 85  Def 105  SpA 80  SpD 70  Spe 40  (total 455)
+  Pokedex: "Dug up from ancient coastal bogs, Peatling burns slowly for centuries, infusing nearby
+  water springs with its distinct smoky flavor."
+  * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Its ability Smoky Cask powers up its Fire and Poison moves and fills the field with smoke that
+    stops stats being lowered.
+
+#3128 SPIRITSKULL  (Ghost / Poison; Cursed Body / Levitate / Infiltrator (hidden))
+  a floating translucent crystal skull full of glowing violet-and-amber liquor with vapour leaking
+  from its eyes
+  Stats: HP 65  Atk 55  Def 75  SpA 110  SpD 95  Spe 90  (total 490)
+  Pokedex: "Legend says Spiritskull forms inside abandoned bottles left on sunken ships. Those who
+  drink from it experience vivid memories that aren't their own."
+  * Wild: rare, at night, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+  * It learns Hangover at level 21.
+
+#3129 CASKADE  (Water / Grass; Oak Maturation / Shell Armor / Harvest (hidden))
+  a sturdy tortoise whose shell is a banded oak barrel overgrown with grapevines and moss
+  Stats: HP 105  Atk 75  Def 120  SpA 65  SpD 95  Spe 30  (total 490)
+  Pokedex: "Caskade wanders mountain trails for decades, allowing rainwater and wild berries to
+  ferment inside its oaken shell into a prized elixir."
+  * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Its ability Oak Maturation doubles the effect of the Berry it holds and grows a new one two
+    turns after it eats it.
+
+#3130 STILLFORGE  (Steel / Fire; Heatproof / Steam Engine / Filter (hidden))
+  a towering copper-and-brass pot-still automaton: a riveted copper belly with a glowing firebox, a
+  swan-neck arm arching into a coiled condenser, pipe arms and piston legs, venting steam
+  Stats: HP 90  Atk 75  Def 110  SpA 110  SpD 85  Spe 40  (total 510)
+  Pokedex: "Engineered by master craftsmen, Stillforge boils impure water inside its copper belly
+  and condenses it into pure, elemental energy."
+  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Distill at level 17.
+
+#3131 STUMBLEPUP  (Normal; Liquid Courage / Friend Guard / Tangled Feet (hidden))
+  a scruffy Saint Bernard puppy with rosy cheeks, droopy ears and a tiny wooden keg on its collar
+  Stats: HP 60  Atk 65  Def 55  SpA 35  SpD 50  Spe 45  (total 310)
+  Pokedex: "Trained to rescue lost hikers in snowy passes, Stumblepup carries a warming tonic in its
+  neck barrel—though it often spills half of it tripping over its own paws."
+  * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Evolves into Tavern Hound at level 30.
+
+#3132 TAVERN HOUND  (Normal; Liquid Courage / Friend Guard / Tangled Feet (hidden))
+  a big burly Saint Bernard with heavy jowls, sleepy eyes, rosy cheeks and a full oak keg under its
+  chin
+  Stats: HP 110  Atk 115  Def 90  SpA 50  SpD 85  Spe 50  (total 500)
+  Pokedex: "It strides the snowy passes with a full keg of warm tonic under its chin, and lost
+  hikers who hear it baying know help is coming, slowly but surely."
+  * Evolve Stumblepup at level 30. It learns Super Fang when it evolves.
+  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+
+#3133 BOOTLEGGER  (Dark; Pickpocket / Quick Feet / Prankster (hidden))
+  a sneaky raccoon kit with a bandit mask, a flat cap, a ringed tail and a ceramic jug on its back
+  Stats: HP 50  Atk 60  Def 45  SpA 45  SpD 45  Spe 75  (total 320)
+  Pokedex: "A little smuggler that hauls a stolen jug through the woods at dusk. If it is caught, it
+  plays dead until whoever caught it looks away, then bolts with whatever it can carry."
+  * Wild: common, at night, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+  * It learns Contraband Swap at level 22.
+  * Evolves into Moonshiner at level 34 at night.
+
+#3134 MOONSHINER  (Dark; Pickpocket / Quick Feet / Prankster (hidden))
+  an upright raccoon bandit in a wide-brimmed hat and trench coat lined with ceramic jugs, with a
+  ringed tail
+  Stats: HP 75  Atk 105  Def 70  SpA 80  SpD 70  Spe 105  (total 505)
+  Pokedex: "Moonshiner builds hidden stills deep in mountain forests, using reflective mirrors to
+  hide its campfire smoke from patrolling Ranger Pokémon."
+  * Evolve Bootlegger at level 34 at night. It learns Knock Off when it evolves.
+  * Wild: rare, at night, in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto
+    0.8.0).
+
+#3135 BACCHUDRAKE  (Dragon / Fairy; Serene Grace / Sweet Veil (hidden))
+  a festive serpentine rose-gold dragon draped in purple grape bunches and golden ivy, trailing
+  ribbons of sparkling rosé
+  Stats: HP 100  Atk 90  Def 90  SpA 130  SpD 100  Spe 90  (total 600)
+  Pokedex: "Said to appear only once a century during the grandest autumn harvest, Bacchudrake's
+  joyous roar turns ordinary river water into sparkling nectar."
+  * Wild: ultra-rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0),
+    level 60-70.
+  * It learns Effervescent Roar at level 40.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

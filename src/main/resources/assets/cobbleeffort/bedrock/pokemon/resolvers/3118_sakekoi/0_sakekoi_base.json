@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:sakekoi",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sakekoi",
+   "model": "cobbleeffort:sakekoi.geo",
+   "texture": "cobbleeffort:textures/pokemon/3118_sakekoi/sakekoi.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3118_sakekoi/sakekoi_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3118_sakekoi/sakekoi_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3118_sakekoi/sakekoi_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

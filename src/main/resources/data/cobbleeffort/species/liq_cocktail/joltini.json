@@ -1,0 +1,133 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3119,
+ "name": "Joltini",
+ "primaryType": "electric",
+ "secondaryType": "fairy",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 8,
+ "pokedex": [
+  "cobbleeffort.species.joltini.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "motordrive",
+  "static",
+  "h:prankster"
+ ],
+ "eggGroups": [
+  "fairy",
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 50,
+  "defence": 60,
+  "special_attack": 105,
+  "special_defence": 80,
+  "speed": 120
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 168,
+ "experienceGroup": "medium_fast",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.9,
+  "height": 1.1,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:yellow_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:fairywind",
+  "5:charge",
+  "9:drainingkiss",
+  "13:shockwave",
+  "17:zestshock",
+  "21:dazzlinggleam",
+  "25:discharge",
+  "29:moonblast",
+  "33:thunderbolt",
+  "39:thunder",
+  "egg:encore",
+  "egg:sweetkiss",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thunderbolt",
+  "tm:thunder",
+  "tm:voltswitch",
+  "tm:electroball",
+  "tm:thunderwave",
+  "tm:electricterrain",
+  "tm:dazzlinggleam",
+  "tm:moonblast",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:calmmind",
+  "tm:charm"
+ ]
+}

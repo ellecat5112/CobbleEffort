@@ -159,7 +159,8 @@ THE LIQUOR MEADOWS (NEW in 0.8.0)
   - It takes over patches of forests, flower and birch forests, plains and meadows in new chunks (existing land
     doesn't change): /locate biome cobbleeffort_kanto:liquor_meadows
   - New blocks: Cork, Bottle Cap and Bottle Label.
-  - Pokemon of its own are coming (spawn tag #cobbleeffort_kanto:is_liquor).
+  - Its Pokemon: 20 Pokemon (one per type) in CobbleEffort 0.79.0 and later, which spawn only here
+    (spawn tag #cobbleeffort_kanto:is_liquor).
 
 PLEASE TEST AND REPORT
   0.8.0: find the Liquor Meadows (/locate biome cobbleeffort_kanto:liquor_meadows): bright grass, whisky ponds, giant

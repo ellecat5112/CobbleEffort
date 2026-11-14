@@ -1,0 +1,146 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3133,
+ "name": "Bootlegger",
+ "primaryType": "dark",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 60,
+ "pokedex": [
+  "cobbleeffort.species.bootlegger.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pickpocket",
+  "quickfeet",
+  "h:prankster"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 50,
+  "attack": 60,
+  "defence": 45,
+  "special_attack": 45,
+  "special_defence": 45,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_fast",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glass_bottle",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:gray_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "5:thief",
+  "9:bite",
+  "13:faketears",
+  "17:feintattack",
+  "22:contrabandswap",
+  "26:nightslash",
+  "30:suckerpunch",
+  "egg:covet",
+  "egg:switcheroo",
+  "egg:partingshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thief",
+  "tm:knockoff",
+  "tm:suckerpunch",
+  "tm:crunch",
+  "tm:uturn",
+  "tm:taunt",
+  "tm:torment",
+  "tm:foulplay",
+  "tm:darkpulse",
+  "tm:dig",
+  "tm:snarl"
+ ],
+ "evolutions": [
+  {
+   "id": "bootlegger_moonshiner",
+   "variant": "level_up",
+   "result": "cobbleeffort:moonshiner",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "knockoff"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 34
+    },
+    {
+     "variant": "time_range",
+     "range": "night"
+    }
+   ]
+  }
+ ]
+}

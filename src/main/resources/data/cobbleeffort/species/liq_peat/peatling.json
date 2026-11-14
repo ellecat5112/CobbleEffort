@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3127,
+ "name": "Peatling",
+ "primaryType": "rock",
+ "secondaryType": "fire",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 260,
+ "pokedex": [
+  "cobbleeffort.species.peatling.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "smokycask",
+  "flamebody",
+  "h:whitesmoke"
+ ],
+ "eggGroups": [
+  "mineral",
+  "field"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 85,
+  "defence": 105,
+  "special_attack": 80,
+  "special_defence": 70,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 160,
+ "experienceGroup": "medium_fast",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.8,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:charcoal",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:moss_block",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:rockthrow",
+  "5:smokescreen",
+  "9:smog",
+  "13:rocktomb",
+  "17:lavaplume",
+  "21:ancientpower",
+  "25:willowisp",
+  "29:rockslide",
+  "33:flamethrower",
+  "39:eruption",
+  "egg:yawn",
+  "egg:curse",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:stealthrock",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:willowisp",
+  "tm:heatwave",
+  "tm:sludgebomb",
+  "tm:sunnyday",
+  "tm:sandstorm",
+  "tm:earthpower",
+  "tm:irondefense"
+ ]
+}

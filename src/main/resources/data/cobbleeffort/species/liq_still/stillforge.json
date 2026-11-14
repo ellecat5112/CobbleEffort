@@ -1,0 +1,127 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3130,
+ "name": "Stillforge",
+ "primaryType": "steel",
+ "secondaryType": "fire",
+ "maleRatio": -1,
+ "height": 26,
+ "weight": 5800,
+ "pokedex": [
+  "cobbleeffort.species.stillforge.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "heatproof",
+  "steamengine",
+  "h:filter"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 75,
+  "defence": 110,
+  "special_attack": 110,
+  "special_defence": 85,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 190,
+ "experienceGroup": "medium_fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.95,
+ "hitbox": {
+  "width": 2.0,
+  "height": 2.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.18
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:raw_copper",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:metalclaw",
+  "5:irondefense",
+  "9:flamecharge",
+  "13:flashcannon",
+  "17:distill",
+  "21:lavaplume",
+  "25:steelbeam",
+  "29:flamethrower",
+  "33:shiftgear",
+  "39:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flashcannon",
+  "tm:steelbeam",
+  "tm:ironhead",
+  "tm:heavyslam",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:overheat",
+  "tm:heatwave",
+  "tm:irondefense",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:bodypress",
+  "tm:scald"
+ ]
+}

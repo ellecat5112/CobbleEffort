@@ -1,0 +1,132 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3128,
+ "name": "Spiritskull",
+ "primaryType": "ghost",
+ "secondaryType": "poison",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 30,
+ "pokedex": [
+  "cobbleeffort.species.spiritskull.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "cursedbody",
+  "levitate",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "amorphous"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 55,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 95,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 176,
+ "experienceGroup": "medium_fast",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.8,
+  "height": 0.85,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.26
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:astonish",
+  "1:acid",
+  "5:smog",
+  "9:hex",
+  "13:venoshock",
+  "17:confuseray",
+  "21:hangover",
+  "25:sludgebomb",
+  "29:shadowball",
+  "33:nastyplot",
+  "39:sludgewave",
+  "egg:memento",
+  "egg:destinybond",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:venoshock",
+  "tm:toxicspikes",
+  "tm:willowisp",
+  "tm:nastyplot",
+  "tm:trick",
+  "tm:painsplit",
+  "tm:darkpulse",
+  "tm:psychic"
+ ]
+}
