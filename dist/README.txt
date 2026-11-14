@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 145 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 153 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2690,20 +2690,22 @@ cobbleeffort:cavitot.
 #3097 NICOTINY  (Grass; Pest Deterrent / Chlorophyll / Effect Spore (hidden))
   a tiny green seedling bud with dewdrop eyes, two broad sticky dew-glistening leaves and a sprout,
   on root feet
-  Stats: HP 50  Atk 40  Def 55  SpA 70  SpD 75  Spe 60  (total 350)
+  Stats: HP 45  Atk 35  Def 45  SpA 60  SpD 60  Spe 55  (total 300)
   Pokedex: "Farmers once planted Nicotiny around their gardens to keep Caterpie away, though
   touching its leaves gives trainers a sudden dizzy spell."
   * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * Its ability Pest Deterrent lowers the Attack of Bug-type foes when it switches in.
+  * Evolves into Curedrake at level 22 in the sun (by day, while it isn't raining).
 
 #3098 EMBERBUTT  (Fire; Flame Body / Flash Fire / White Smoke (hidden))
   a little cigarette-butt creature: papery white body, orange filter rear, an ash ring and a glowing
   ember nose
-  Stats: HP 45  Atk 70  Def 50  SpA 55  SpD 45  Spe 95  (total 360)
+  Stats: HP 40  Atk 55  Def 40  SpA 50  SpD 40  Spe 75  (total 300)
   Pokedex: "It feeds on dry paper and dry leaves to keep the tip of its snout glowing. If
   extinguished, it falls into a deep, sluggish sleep."
   * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * It learns Cherry Flick at level 9.
+  * Evolves into Smolderstump at level 20.
 
 #3099 BONGWATER  (Water / Poison; Water Veil / Liquid Ooze / Stench (hidden))
   a little round glass flask half full of water with a tall glass neck, a brass downstem and bowl
@@ -2727,12 +2729,13 @@ cobbleeffort:cavitot.
 #3101 VAPULON  (Electric / Flying; Cloud Chaser / Motor Drive / Gale Wings (hidden))
   a sleek metallic hummingbird shaped like a pod vape: a gunmetal pod with a glowing light strip, a
   long black mouthpiece beak, a silver plug tail, whirring wings and trailing vapor
-  Stats: HP 60  Atk 55  Def 60  SpA 100  SpD 70  Spe 120  (total 465)
+  Stats: HP 45  Atk 40  Def 45  SpA 75  SpD 55  Spe 90  (total 350)
   Pokedex: "Popular among younger trainers in bustling cities, Vapulon charges itself at wall
   outlets and exhales massive plumes that smell faintly of artificial berries."
-  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * Its ability Cloud Chaser fills the field with fog for 5 turns: Electric moves get stronger and
     non-Electric Pokémon miss more.
+  * Evolves into Modwing at level 25.
 
 #3102 MENTHOLYNX  (Ice / Dark; Ice Body / Infiltrator / Snow Cloak (hidden))
   a sleek dark navy lynx frosted with mint: frost along its back, mint cheek ruffs and ear tufts,
@@ -2808,13 +2811,14 @@ cobbleeffort:cavitot.
   * Its ability Patina Polish raises its Defense and Sp. Def whenever a Fire- or Poison-type move
     hits it.
 
-#3110 CIGARGHAST  (Ghost / Fire; Flash Fire / Cursed Body / Infiltrator (hidden))
+#3110 CIGARGHAST  (Fire / Ghost; Lingering Ember / Flash Fire / Infiltrator (hidden))
   a phantom shaped like a thick rolled cigar with a gold-and-red band, one glowing ember eye and
   smoky wraith arms
-  Stats: HP 70  Atk 60  Def 75  SpA 110  SpD 90  Spe 85  (total 490)
+  Stats: HP 70  Atk 65  Def 75  SpA 120  SpD 105  Spe 80  (total 515)
   Pokedex: "Said to haunt old study rooms and velvet lounges, Cigarghast's glowing ember eye is
   often the only thing visible in the dark."
-  * Wild: rare, at night in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Use a Dusk Stone on Smolderstump.
+  * Wild: rare, at night, in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * It learns Smoke Ring at level 21.
 
 #3111 ZYNX  (Fairy / Ice; Refrigerate / Pixilate / Cute Charm (hidden))
@@ -2843,12 +2847,13 @@ cobbleeffort:cavitot.
   * Wild: common in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * It learns Sneeze Fit at level 17.
 
-#3114 CARTELORD  (Dark / Grass; Hooked / Intimidate / Prankster (hidden))
+#3114 CARTELORD  (Grass / Dark; Hooked / Intimidate / Prankster (hidden))
   a sinister tobacco-bale scarecrow in a pinstriped suit and fedora, red eyes under the brim, a
   cigar holder
-  Stats: HP 85  Atk 110  Def 80  SpA 75  SpD 80  Spe 80  (total 510)
+  Stats: HP 95  Atk 115  Def 90  SpA 85  SpD 80  Spe 65  (total 530)
   Pokedex: "Cartelord controls vast swaths of farmland. Once a Pokémon gets a taste of the sweet
   nectar it produces, it refuses to eat anything else."
+  * Evolve Curedrake at level 38 while it holds a King's Rock or a Relic Coin (the item is used up).
   * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
   * Its ability Hooked keeps any Pokémon that touches it from switching out on the next turn.
 
@@ -2865,11 +2870,12 @@ cobbleeffort:cavitot.
 #3116 HOPSPROUT  (Grass; Aromatic Harvest / Chlorophyll / Sweet Veil (hidden))
   a cheerful cone of overlapping green hop bracts with a smiling face, leafy arms and a curling bine
   on top
-  Stats: HP 65  Atk 55  Def 70  SpA 85  SpD 85  Spe 70  (total 430)
+  Stats: HP 45  Atk 40  Def 50  SpA 60  SpD 60  Spe 50  (total 305)
   Pokedex: "Brewers prize Hopsprout for the bitter, floral oils on its petals. When frightened, it
   releases a musky scent that puts predators to sleep."
   * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
   * Its ability Aromatic Harvest heals it and its allies a little every turn in sun or rain.
+  * Evolves into Maltwort at level 18.
 
 #3117 FLAMBÉER  (Fire / Water; Flash Fire / Water Absorb / Levitate (hidden))
   an amber spirit elemental in a crystal snifter with a calm face and a crown of cool blue flames
@@ -2909,13 +2915,14 @@ cobbleeffort:cavitot.
   * Its ability Slow Melt halves super-effective Fire damage, and a Fire hit slicks the ground,
     lowering its foes' Speed.
 
-#3121 BRAWLERRY  (Fighting; Guts / Tangled Feet / Iron Fist (hidden))
+#3121 BRAWLERRY  (Grass / Fighting; Frothy Guard / Guts / Iron Fist (hidden))
   a rowdy bear brawler with a barrel-hooped chest, frothy foam on its shoulders and wooden-stave
   gauntlets
-  Stats: HP 100  Atk 120  Def 85  SpA 40  SpD 70  Spe 65  (total 480)
+  Stats: HP 110  Atk 120  Def 95  SpA 65  SpD 80  Spe 65  (total 535)
   Pokedex: "Brawlerry loves noisy taverns and friendly sparring. Though it stumbles unpredictably
   when dizzy, its wild haymakers hit with devastating force."
-  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Evolve Maltwort at level 36 while it knows Barroom Blitz.
+  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
   * It learns Barroom Blitz at level 17.
 
 #3122 ABSINTHIA  (Poison / Psychic; Corrosion / Synchronize / Magic Bounce (hidden))
@@ -2991,12 +2998,13 @@ cobbleeffort:cavitot.
   * Its ability Oak Maturation doubles the effect of the Berry it holds and grows a new one two
     turns after it eats it.
 
-#3130 STILLFORGE  (Steel / Fire; Heatproof / Steam Engine / Filter (hidden))
+#3130 STILLFORGE  (Steel / Fire; High Proof / Heatproof / Steam Engine (hidden))
   a towering copper-and-brass pot-still automaton: a riveted copper belly with a glowing firebox, a
   swan-neck arm arching into a coiled condenser, pipe arms and piston legs, venting steam
-  Stats: HP 90  Atk 75  Def 110  SpA 110  SpD 85  Spe 40  (total 510)
+  Stats: HP 90  Atk 75  Def 115  SpA 130  SpD 90  Spe 40  (total 540)
   Pokedex: "Engineered by master craftsmen, Stillforge boils impure water inside its copper belly
   and condenses it into pure, elemental energy."
+  * Evolve Alembix at level 42 with a Fire-type Pokémon in the party.
   * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
   * It learns Distill at level 17.
 
@@ -3006,16 +3014,18 @@ cobbleeffort:cavitot.
   Pokedex: "Trained to rescue lost hikers in snowy passes, Stumblepup carries a warming tonic in its
   neck barrel—though it often spills half of it tripping over its own paws."
   * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
-  * Evolves into Tavern Hound at level 30.
+  * Evolves into Kegguard at level 24.
 
-#3132 TAVERN HOUND  (Normal; Liquid Courage / Friend Guard / Tangled Feet (hidden))
-  a big burly Saint Bernard with heavy jowls, sleepy eyes, rosy cheeks and a full oak keg under its
-  chin
-  Stats: HP 110  Atk 115  Def 90  SpA 50  SpD 85  Spe 50  (total 500)
-  Pokedex: "It strides the snowy passes with a full keg of warm tonic under its chin, and lost
-  hikers who hear it baying know help is coming, slowly but surely."
-  * Evolve Stumblepup at level 30. It learns Super Fang when it evolves.
-  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+#3132 KEGGUARD  (Normal / Ice; Liquid Courage / Thick Fat / Tangled Feet (hidden))
+  a sturdy thick-furred mountain dog with heavy jowls, sleepy eyes, rosy cheeks and an iron-banded
+  cask under its chin
+  Stats: HP 80  Atk 85  Def 75  SpA 45  SpD 65  Spe 50  (total 400)
+  Pokedex: "A sturdy, thick-furred mountain dog carrying a reinforced iron-banded cask under its
+  chin. It braves blizzards to locate stranded travelers, sharing warming sips of its herbal tonic
+  to thaw frozen limbs."
+  * Evolve Stumblepup at level 24. It learns Warming Draught when it evolves.
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Evolves into Avalanche Hound at level 40 in a snowy area.
 
 #3133 BOOTLEGGER  (Dark; Pickpocket / Quick Feet / Prankster (hidden))
   a sneaky raccoon kit with a bandit mask, a flat cap, a ringed tail and a ceramic jug on its back
@@ -3046,6 +3056,90 @@ cobbleeffort:cavitot.
   * Wild: ultra-rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0),
     level 60-70.
   * It learns Effervescent Roar at level 40.
+
+#3136 CUREDRAKE  (Grass / Poison; Alkaloid Sap / Chlorophyll / Stench (hidden))
+  a pendulous bundle of curled golden-amber cured leaves with leaf wings, sleepy eyes and hooked
+  feet on top
+  Stats: HP 65  Atk 70  Def 65  SpA 80  SpD 70  Spe 60  (total 410)
+  Pokedex: "As its leaves mature, they turn a rich, golden-amber hue and curl inward like drying
+  tobacco bundles. It hangs upside down from sturdy branches, slowly fermenting its internal sap
+  into a potent, dizzying toxin."
+  * Evolve Nicotiny at level 22 in the sun (by day, while it isn't raining). It learns Golden Leaf
+    Storm when it evolves.
+  * Wild: uncommon, by day, in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Evolves into Cartelord at level 38 while it holds a King's Rock or a Relic Coin (the item is
+    used up).
+
+#3137 SMOLDERSTUMP  (Fire / Poison; Secondhand Haze / White Smoke / Stench (hidden))
+  a stubby, jagged, ash-crusted burnt cigarette with a charred filter base, a collar of grey smoke
+  and ember eyes
+  Stats: HP 65  Atk 70  Def 70  SpA 85  SpD 80  Spe 60  (total 430)
+  Pokedex: "Its papery armor has burned away almost entirely, leaving a jagged, ash-crusted torso
+  and a thick collar of acrid gray smoke. It becomes grumpy and sluggish when wet, coughing out
+  choking clouds of soot."
+  * Evolve Emberbutt at level 20. It learns Ash Choke when it evolves.
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Evolves into Cigarghast when a Dusk Stone is used on it.
+
+#3138 MODWING  (Electric / Flying; Cloud Chaser / Motor Drive / Gale Wings (hidden))
+  a boxy gunmetal box-mod bird with a glowing face panel, battery cells on its flanks, an airflow
+  ring and a drip-tip beak
+  Stats: HP 60  Atk 50  Def 65  SpA 90  SpD 65  Spe 100  (total 430)
+  Pokedex: "Bulkier and boxier than Vapulon, Modwing sports dual battery cells on its flanks and an
+  adjustable airflow ring around its neck that whistles when it dives."
+  * Evolve Vapulon at level 25. It learns Twin-Coil Surge when it evolves.
+  * Wild: uncommon in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+  * Evolves into Subohmega when a Thunder Stone is used on it.
+
+#3139 SUBOHMEGA  (Electric / Steel; Overclocked Coil / Lightning Rod / Steelworker (hidden))
+  a heavy brushed-steel mechanical falcon with glowing cherry-red coils in its chest, steel feather
+  wings and talons
+  Stats: HP 85  Atk 70  Def 95  SpA 125  SpD 80  Spe 70  (total 525)
+  Pokedex: "A heavy, industrial-grade mechanical falcon constructed from brushed stainless steel and
+  glowing resistance coils. Its chest glows cherry-red before it unleashes colossal, storm-sized
+  plumes of electrified vapor."
+  * Use a Thunder Stone on Modwing. It learns Flash Cannon when it evolves.
+  * Wild: rare in the Ashtray Wastes (an overworld biome added by CobbleEffort: Kanto).
+
+#3140 MALTWORT  (Grass / Fairy; Fermentation / Sweet Veil / Aroma Veil (hidden))
+  a bubbling round copper kettle with barley-ear arms, a spout and a frothy crown of white foam
+  Stats: HP 70  Atk 65  Def 70  SpA 75  SpD 75  Spe 50  (total 405)
+  Pokedex: "A bubbling, copper-kettle-shaped creature with sprouting barley ears for arms and a
+  crown of frothy white foam. It hums softly as it warms its internal sugars, attracting sweet-
+  toothed Pokémon from miles around."
+  * Evolve Hopsprout at level 18. It learns Yeast Bubble when it evolves.
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * It learns Barroom Blitz at level 30, and evolves into Brawlerry at level 36 once it knows it.
+
+#3141 AVALANCHE HOUND  (Normal / Fighting; Alpine Spirit / Thick Fat / Liquid Courage (hidden))
+  a massive heroic mountain dog with two iron-banded oak barrels strapped on its shoulders like
+  cannon pods
+  Stats: HP 105  Atk 115  Def 90  SpA 60  SpD 80  Spe 70  (total 520)
+  Pokedex: "A massive, heroic canine wearing two heavy oak barrels strapped across its broad
+  shoulders like cannon pods. It charges through ten-foot snowdrifts effortlessly, launching
+  pressurized blasts of warming tonic to shatter ice walls."
+  * Evolve Kegguard at level 40 in a snowy area. It learns Close Combat when it evolves.
+  * Wild: rare in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+
+#3142 COPPERPOT  (Steel; Heatproof / Light Metal / Water Absorb (hidden))
+  a small round riveted copper kettle with a cheerful face, a spout, a handle, a whistling lid and
+  stubby legs
+  Stats: HP 55  Atk 45  Def 70  SpA 60  SpD 50  Spe 30  (total 310)
+  Pokedex: "A small, round, riveted copper kettle with stubby legs and a whistling lid. It collects
+  morning dew and rainwater inside its hollow body, keeping it remarkably pure."
+  * Wild: common in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Evolves into Alembix at level 26.
+
+#3143 ALEMBIX  (Steel / Water; Condenser / Heatproof / Water Absorb (hidden))
+  a copper pot still on four legs with a domed head, a swan-neck pipe arching back into a coiled
+  cooling tank
+  Stats: HP 70  Atk 55  Def 90  SpA 90  SpD 75  Spe 35  (total 415)
+  Pokedex: "It grows a long, gracefully curved swan-neck pipe from its head that coils into a
+  cooling tank on its back. It constantly drips crystal-clear distilled water from its spout,
+  purifying polluted ponds wherever it walks."
+  * Evolve Copperpot at level 26. It learns Condense when it evolves.
+  * Wild: uncommon in the Liquor Meadows (an overworld biome added by CobbleEffort: Kanto 0.8.0).
+  * Evolves into Stillforge at level 42 with a Fire-type Pokémon in the party.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

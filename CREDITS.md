@@ -278,8 +278,10 @@ named); its name, model, stats, moves and Pokédex entry are our own. Boracle an
 their names, types, concepts, signature moves and abilities and Pokédex entries) is the user's design; Bongwater's name and
 entry, the models, stats and other moves are our own.
 The Liquor Meadows' Pokémon (Hopsprout to Bacchudrake, #3116-3135: their names, types, concepts, signature moves and
-abilities and Pokédex entries) are the user's design; Tavern Hound's and Bootlegger's entries, the models, stats and other
-moves are our own.
+abilities and Pokédex entries) are the user's design; Bootlegger's entry, the models, stats and other moves are our own.
+The evolution lines of 0.80.0 (Curedrake, Smolderstump, Modwing, Subohmega, Maltwort, Kegguard, Avalanche Hound,
+Copperpot, Alembix: names, types, methods, signature abilities and moves, concepts, final stats) are the user's design;
+the abilities' effects, models and the middle stages' stats are our own.
 
 ## Code and data
 

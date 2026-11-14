@@ -1,0 +1,153 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3132,
+ "name": "Kegguard",
+ "primaryType": "normal",
+ "secondaryType": "ice",
+ "maleRatio": 0.5,
+ "height": 10,
+ "weight": 640,
+ "pokedex": [
+  "cobbleeffort.species.kegguard.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "liquidcourage",
+  "thickfat",
+  "h:tangledfeet"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 85,
+  "defence": 75,
+  "special_attack": 45,
+  "special_defence": 65,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 1.3,
+  "height": 1.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:warmingdraught",
+  "1:tackle",
+  "1:tailwhip",
+  "5:lick",
+  "9:bite",
+  "13:headbutt",
+  "17:helpinghand",
+  "21:takedown",
+  "24:warmingdraught",
+  "28:icefang",
+  "32:playrough",
+  "36:bodyslam",
+  "40:avalanche",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:playrough",
+  "tm:crunch",
+  "tm:icefang",
+  "tm:firefang",
+  "tm:dig",
+  "tm:helpinghand",
+  "tm:swagger",
+  "tm:facade",
+  "tm:icebeam",
+  "tm:avalanche",
+  "tm:iciclespear",
+  "tm:snowscape",
+  "tm:bulkup",
+  "tm:icepunch"
+ ],
+ "evolutions": [
+  {
+   "id": "kegguard_avalanchehound",
+   "variant": "level_up",
+   "result": "cobbleeffort:avalanchehound",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "closecombat"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 40
+    },
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_freezing"
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:stumblepup"
+}

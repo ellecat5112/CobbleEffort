@@ -16,9 +16,9 @@
  ],
  "aspects": [],
  "abilities": [
+  "highproof",
   "heatproof",
-  "steamengine",
-  "h:filter"
+  "h:steamengine"
  ],
  "eggGroups": [
   "mineral"
@@ -26,9 +26,9 @@
  "baseStats": {
   "hp": 90,
   "attack": 75,
-  "defence": 110,
-  "special_attack": 110,
-  "special_defence": 85,
+  "defence": 115,
+  "special_attack": 130,
+  "special_defence": 90,
   "speed": 40
  },
  "evYield": {
@@ -39,7 +39,7 @@
   "special_defence": 0,
   "speed": 0
  },
- "baseExperienceYield": 190,
+ "baseExperienceYield": 250,
  "experienceGroup": "medium_fast",
  "catchRate": 45,
  "eggCycles": 20,
@@ -123,5 +123,6 @@
   "tm:sunnyday",
   "tm:bodypress",
   "tm:scald"
- ]
+ ],
+ "preEvolution": "cobbleeffort:alembix"
 }

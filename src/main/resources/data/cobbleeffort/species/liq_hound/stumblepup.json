@@ -124,17 +124,17 @@
  ],
  "evolutions": [
   {
-   "id": "stumblepup_tavernhound",
+   "id": "stumblepup_kegguard",
    "variant": "level_up",
-   "result": "cobbleeffort:tavernhound",
+   "result": "cobbleeffort:kegguard",
    "consumeHeldItem": false,
    "learnableMoves": [
-    "superfang"
+    "warmingdraught"
    ],
    "requirements": [
     {
      "variant": "level",
-     "minLevel": 30
+     "minLevel": 24
     }
    ]
   }

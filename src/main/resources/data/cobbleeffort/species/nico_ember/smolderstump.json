@@ -1,0 +1,139 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3137,
+ "name": "Smolderstump",
+ "primaryType": "fire",
+ "secondaryType": "poison",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.smolderstump.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "secondhandhaze",
+  "whitesmoke",
+  "h:stench"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 70,
+  "defence": 70,
+  "special_attack": 85,
+  "special_defence": 80,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 144,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.95,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:gunpowder",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:gray_dye",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:ashchoke",
+  "1:ember",
+  "1:tackle",
+  "5:smokescreen",
+  "9:cherryflick",
+  "13:smog",
+  "17:willowisp",
+  "20:ashchoke",
+  "25:incinerate",
+  "30:sludgebomb",
+  "35:lavaplume",
+  "40:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:overheat",
+  "tm:willowisp",
+  "tm:sludgebomb",
+  "tm:venoshock",
+  "tm:clearsmog",
+  "tm:toxicspikes",
+  "tm:heatwave",
+  "tm:sunnyday",
+  "tm:painsplit"
+ ],
+ "evolutions": [
+  {
+   "id": "smolderstump_cigarghast",
+   "variant": "item_interact",
+   "result": "cobbleeffort:cigarghast",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "smokering"
+   ],
+   "requiredContext": "cobblemon:dusk_stone"
+  }
+ ],
+ "preEvolution": "cobbleeffort:emberbutt"
+}

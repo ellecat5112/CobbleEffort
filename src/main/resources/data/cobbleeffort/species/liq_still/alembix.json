@@ -1,0 +1,152 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3143,
+ "name": "Alembix",
+ "primaryType": "steel",
+ "secondaryType": "water",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 820,
+ "pokedex": [
+  "cobbleeffort.species.alembix.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "condenser",
+  "heatproof",
+  "h:waterabsorb"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 55,
+  "defence": 90,
+  "special_attack": 90,
+  "special_defence": 75,
+  "speed": 35
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 148,
+ "experienceGroup": "medium_fast",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.2,
+  "height": 1.35,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.18
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:condense",
+  "1:tackle",
+  "1:watergun",
+  "1:metalclaw",
+  "9:irondefense",
+  "13:bubble",
+  "17:mirrorshot",
+  "21:waterpulse",
+  "26:condense",
+  "30:scald",
+  "34:flashcannon",
+  "38:surf",
+  "42:steelbeam",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flashcannon",
+  "tm:irondefense",
+  "tm:waterpulse",
+  "tm:raindance",
+  "tm:gyroball",
+  "tm:heavyslam",
+  "tm:steelbeam",
+  "tm:scald",
+  "tm:surf",
+  "tm:hydropump",
+  "tm:icebeam",
+  "tm:calmmind",
+  "tm:snowscape"
+ ],
+ "evolutions": [
+  {
+   "id": "alembix_stillforge",
+   "variant": "level_up",
+   "result": "cobbleeffort:stillforge",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "flamethrower"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 42
+    },
+    {
+     "variant": "party_member",
+     "target": "type=fire",
+     "contains": true
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:copperpot"
+}

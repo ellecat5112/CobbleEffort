@@ -3090,19 +3090,19 @@
   "layers": []
  },
  {
-  "species": "tavernhound",
-  "folder": "3132_tavernhound",
-  "model": "cobbleeffort:tavernhound.geo",
+  "species": "kegguard",
+  "folder": "3132_kegguard",
+  "model": "cobbleeffort:kegguard.geo",
   "original": null,
-  "retextured": "cobbleeffort:textures/pokemon/3132_tavernhound/tavernhound.png",
+  "retextured": "cobbleeffort:textures/pokemon/3132_kegguard/kegguard.png",
   "layers": []
  },
  {
-  "species": "tavernhound_shiny",
-  "folder": "3132_tavernhound",
-  "model": "cobbleeffort:tavernhound.geo",
+  "species": "kegguard_shiny",
+  "folder": "3132_kegguard",
+  "model": "cobbleeffort:kegguard.geo",
   "original": null,
-  "retextured": "cobbleeffort:textures/pokemon/3132_tavernhound/tavernhound_shiny.png",
+  "retextured": "cobbleeffort:textures/pokemon/3132_kegguard/kegguard_shiny.png",
   "layers": []
  },
  {
@@ -3196,6 +3196,258 @@
     "original": null,
     "emissive": false,
     "retextured": "cobbleeffort:textures/pokemon/3135_bacchudrake/bacchudrake_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "curedrake",
+  "folder": "3136_curedrake",
+  "model": "cobbleeffort:curedrake.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3136_curedrake/curedrake.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3136_curedrake/curedrake_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "curedrake_shiny",
+  "folder": "3136_curedrake",
+  "model": "cobbleeffort:curedrake.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3136_curedrake/curedrake_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3136_curedrake/curedrake_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "smolderstump",
+  "folder": "3137_smolderstump",
+  "model": "cobbleeffort:smolderstump.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "smolderstump_shiny",
+  "folder": "3137_smolderstump",
+  "model": "cobbleeffort:smolderstump.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3137_smolderstump/smolderstump_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "modwing",
+  "folder": "3138_modwing",
+  "model": "cobbleeffort:modwing.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "modwing_shiny",
+  "folder": "3138_modwing",
+  "model": "cobbleeffort:modwing.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3138_modwing/modwing_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "subohmega",
+  "folder": "3139_subohmega",
+  "model": "cobbleeffort:subohmega.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "subohmega_shiny",
+  "folder": "3139_subohmega",
+  "model": "cobbleeffort:subohmega.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "maltwort",
+  "folder": "3140_maltwort",
+  "model": "cobbleeffort:maltwort.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3140_maltwort/maltwort.png",
+  "layers": []
+ },
+ {
+  "species": "maltwort_shiny",
+  "folder": "3140_maltwort",
+  "model": "cobbleeffort:maltwort.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3140_maltwort/maltwort_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "avalanchehound",
+  "folder": "3141_avalanchehound",
+  "model": "cobbleeffort:avalanchehound.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3141_avalanchehound/avalanchehound.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3141_avalanchehound/avalanchehound_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "avalanchehound_shiny",
+  "folder": "3141_avalanchehound",
+  "model": "cobbleeffort:avalanchehound.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3141_avalanchehound/avalanchehound_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3141_avalanchehound/avalanchehound_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "copperpot",
+  "folder": "3142_copperpot",
+  "model": "cobbleeffort:copperpot.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "copperpot_shiny",
+  "folder": "3142_copperpot",
+  "model": "cobbleeffort:copperpot.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "alembix",
+  "folder": "3143_alembix",
+  "model": "cobbleeffort:alembix.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "alembix_shiny",
+  "folder": "3143_alembix",
+  "model": "cobbleeffort:alembix.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3143_alembix/alembix_shiny_shell.png"
    }
   ]
  }

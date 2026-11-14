@@ -1,0 +1,148 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3140,
+ "name": "Maltwort",
+ "primaryType": "grass",
+ "secondaryType": "fairy",
+ "maleRatio": 0.5,
+ "height": 8,
+ "weight": 320,
+ "pokedex": [
+  "cobbleeffort.species.maltwort.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "fermentation",
+  "sweetveil",
+  "h:aromaveil"
+ ],
+ "eggGroups": [
+  "grass",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 65,
+  "defence": 70,
+  "special_attack": 75,
+  "special_defence": 75,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 144,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.55,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.15,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:yeastbubble",
+  "1:absorb",
+  "1:sweetscent",
+  "5:growth",
+  "9:megadrain",
+  "13:drainingkiss",
+  "18:yeastbubble",
+  "22:gigadrain",
+  "26:aromatherapy",
+  "30:barroomblitz",
+  "34:dazzlinggleam",
+  "38:energyball",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:solarbeam",
+  "tm:sunnyday",
+  "tm:dazzlinggleam",
+  "tm:drainingkiss",
+  "tm:mistyterrain",
+  "tm:grassyterrain",
+  "tm:charm",
+  "tm:bodyslam",
+  "tm:brickbreak"
+ ],
+ "evolutions": [
+  {
+   "id": "maltwort_brawlerry",
+   "variant": "level_up",
+   "result": "cobbleeffort:brawlerry",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    },
+    {
+     "variant": "has_move",
+     "move": "barroomblitz"
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:hopsprout"
+}

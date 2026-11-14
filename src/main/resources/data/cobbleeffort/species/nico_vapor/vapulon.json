@@ -25,12 +25,12 @@
   "mineral"
  ],
  "baseStats": {
-  "hp": 60,
-  "attack": 55,
-  "defence": 60,
-  "special_attack": 100,
-  "special_defence": 70,
-  "speed": 120
+  "hp": 45,
+  "attack": 40,
+  "defence": 45,
+  "special_attack": 75,
+  "special_defence": 55,
+  "speed": 90
  },
  "evYield": {
   "hp": 0,
@@ -40,7 +40,7 @@
   "special_defence": 0,
   "speed": 2
  },
- "baseExperienceYield": 166,
+ "baseExperienceYield": 60,
  "experienceGroup": "medium_fast",
  "catchRate": 120,
  "eggCycles": 20,
@@ -134,5 +134,22 @@
   "tm:acrobatics",
   "tm:agility",
   "tm:thunderwave"
+ ],
+ "evolutions": [
+  {
+   "id": "vapulon_modwing",
+   "variant": "level_up",
+   "result": "cobbleeffort:modwing",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "twincoilsurge"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 25
+    }
+   ]
+  }
  ]
 }

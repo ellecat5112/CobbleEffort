@@ -1,0 +1,175 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3136,
+ "name": "Curedrake",
+ "primaryType": "grass",
+ "secondaryType": "poison",
+ "maleRatio": 0.5,
+ "height": 9,
+ "weight": 140,
+ "pokedex": [
+  "cobbleeffort.species.curedrake.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "alkaloidsap",
+  "chlorophyll",
+  "h:stench"
+ ],
+ "eggGroups": [
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 70,
+  "defence": 65,
+  "special_attack": 80,
+  "special_defence": 70,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.24
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:yellow_dye",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:goldenleafstorm",
+  "1:absorb",
+  "1:growth",
+  "5:poisonpowder",
+  "9:megadrain",
+  "13:stunspore",
+  "17:leechseed",
+  "22:goldenleafstorm",
+  "26:venoshock",
+  "30:gigadrain",
+  "34:toxic",
+  "38:leafstorm",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:solarbeam",
+  "tm:sunnyday",
+  "tm:sludgebomb",
+  "tm:venoshock",
+  "tm:toxicspikes",
+  "tm:magicalleaf",
+  "tm:knockoff",
+  "tm:acrobatics",
+  "tm:airslash",
+  "tm:toxic"
+ ],
+ "evolutions": [
+  {
+   "id": "curedrake_cartelord",
+   "variant": "level_up",
+   "result": "cobbleeffort:cartelord",
+   "consumeHeldItem": true,
+   "learnableMoves": [
+    "knockoff"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 38
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:kings_rock"
+    }
+   ],
+   "permanent": true
+  },
+  {
+   "id": "curedrake_cartelord_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:cartelord",
+   "consumeHeldItem": true,
+   "learnableMoves": [
+    "knockoff"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 38
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:relic_coin"
+    }
+   ],
+   "permanent": true
+  }
+ ],
+ "preEvolution": "cobbleeffort:nicotiny"
+}

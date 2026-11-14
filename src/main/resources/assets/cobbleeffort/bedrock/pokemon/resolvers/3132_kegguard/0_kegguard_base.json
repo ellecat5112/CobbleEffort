@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:kegguard",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:kegguard",
+   "model": "cobbleeffort:kegguard.geo",
+   "texture": "cobbleeffort:textures/pokemon/3132_kegguard/kegguard.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3132_kegguard/kegguard_shiny.png"
+  }
+ ]
+}

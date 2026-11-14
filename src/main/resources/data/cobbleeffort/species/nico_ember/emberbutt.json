@@ -23,12 +23,12 @@
   "field"
  ],
  "baseStats": {
-  "hp": 45,
-  "attack": 70,
-  "defence": 50,
-  "special_attack": 55,
-  "special_defence": 45,
-  "speed": 95
+  "hp": 40,
+  "attack": 55,
+  "defence": 40,
+  "special_attack": 50,
+  "special_defence": 40,
+  "speed": 75
  },
  "evYield": {
   "hp": 0,
@@ -38,7 +38,7 @@
   "special_defence": 0,
   "speed": 1
  },
- "baseExperienceYield": 66,
+ "baseExperienceYield": 56,
  "experienceGroup": "medium_fast",
  "catchRate": 170,
  "eggCycles": 20,
@@ -123,5 +123,22 @@
   "tm:temperflare",
   "tm:heatwave",
   "tm:endeavor"
+ ],
+ "evolutions": [
+  {
+   "id": "emberbutt_smolderstump",
+   "variant": "level_up",
+   "result": "cobbleeffort:smolderstump",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "ashchoke"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
  ]
 }

@@ -1,0 +1,138 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3142,
+ "name": "Copperpot",
+ "primaryType": "steel",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 180,
+ "pokedex": [
+  "cobbleeffort.species.copperpot.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "heatproof",
+  "lightmetal",
+  "h:waterabsorb"
+ ],
+ "eggGroups": [
+  "mineral"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 45,
+  "defence": 70,
+  "special_attack": 60,
+  "special_defence": 50,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 58,
+ "experienceGroup": "medium_fast",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.7,
+  "height": 0.65,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:water_bucket",
+    "percentage": 0.05
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:watergun",
+  "5:metalclaw",
+  "9:irondefense",
+  "13:bubble",
+  "17:mirrorshot",
+  "21:waterpulse",
+  "26:flashcannon",
+  "egg:acidarmor",
+  "egg:aquaring",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flashcannon",
+  "tm:irondefense",
+  "tm:waterpulse",
+  "tm:raindance",
+  "tm:gyroball",
+  "tm:heavyslam",
+  "tm:steelbeam",
+  "tm:scald",
+  "tm:snowscape"
+ ],
+ "evolutions": [
+  {
+   "id": "copperpot_alembix",
+   "variant": "level_up",
+   "result": "cobbleeffort:alembix",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "condense"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 26
+    }
+   ]
+  }
+ ]
+}

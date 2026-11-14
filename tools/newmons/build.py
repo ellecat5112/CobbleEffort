@@ -3004,31 +3004,33 @@ SPECIES.update({
                   (21, "takedown"), (25, "playrough"), (30, "doubleedge")],
         "tm": BASIC_TM + ["bodyslam", "playrough", "crunch", "icefang", "firefang", "dig", "helpinghand", "swagger",
                           "facade", "rest", "snowscape"],
-        "egg": ["yawn", "covet", "wish"], "evolve": ("tavernhound", 30, ["superfang"]),
+        "egg": ["yawn", "covet", "wish"], "evolve": ("kegguard", 24, ["warmingdraught"]),
         "drops": [("minecraft:bone", "0-1", None), ("minecraft:white_wool", "0-1", None)],
         "entry": ("Trained to rescue lost hikers in snowy passes, Stumblepup carries a warming tonic in its neck "
                   "barrel—though it often spills half of it tripping over its own paws."),
         "spawns": [liq_spawn("stumblepup-liquor", "common", "4-26", 7.0)],
-        "how": [LIQ_HOW.format("common"), "Evolves into Tavern Hound at level 30."],
+        "how": [LIQ_HOW.format("common"), "Evolves into Kegguard at level 24."],
     },
-    "tavernhound": {
-        "dex": 3132, "name": "Tavern Hound", "line": "liq_hound", "types": ["normal"], **LIQ, "catch": 75,
+    "kegguard": {
+        "dex": 3132, "name": "Kegguard", "line": "liq_hound", "types": ["normal", "ice"], **LIQ, "catch": 120,
         "male": 0.5, "egg_groups": ["field"],
-        "abilities": ["liquidcourage", "friendguard", "h:tangledfeet"],
-        "ability_names": "Liquid Courage / Friend Guard / Tangled Feet (hidden)",
-        "stats": stats(110, 115, 90, 50, 85, 50), "ev": evs(hp=2, attack=1), "exp": 186,
-        "height": 14, "weight": 910, "shoulder": False, "walk": 0.24,
-        "moves": [(1, "superfang"), (1, "tackle"), (1, "tailwhip"), (5, "lick"), (9, "bite"), (13, "headbutt"),
-                  (17, "helpinghand"), (21, "takedown"), (25, "playrough"), (30, "superfang"), (34, "bodyslam"),
-                  (40, "doubleedge"), (46, "gigaimpact")],
+        "abilities": ["liquidcourage", "thickfat", "h:tangledfeet"],
+        "ability_names": "Liquid Courage / Thick Fat / Tangled Feet (hidden)",
+        "stats": stats(80, 85, 75, 45, 65, 50), "ev": evs(hp=1, attack=1), "exp": 142,
+        "height": 10, "weight": 640, "shoulder": False, "walk": 0.24,
+        "moves": [(1, "warmingdraught"), (1, "tackle"), (1, "tailwhip"), (5, "lick"), (9, "bite"), (13, "headbutt"),
+                  (17, "helpinghand"), (21, "takedown"), (24, "warmingdraught"), (28, "icefang"), (32, "playrough"),
+                  (36, "bodyslam"), (40, "avalanche")],
         "tm": BASIC_TM + ["bodyslam", "playrough", "crunch", "icefang", "firefang", "dig", "helpinghand", "swagger",
-                          "facade", "earthquake", "gigaimpact", "hyperbeam", "snowscape", "bulkup"],
-        "egg": [], "evolve": None,
+                          "facade", "icebeam", "avalanche", "iciclespear", "snowscape", "bulkup", "icepunch"],
+        "egg": [], "evolve": ("avalanchehound", 40, ["closecombat"], [{"variant": "biome",
+                                                                       "biomeCondition": "#cobblemon:is_freezing"}]),
         "drops": [("minecraft:bone", "1-2", None), ("minecraft:white_wool", "1-2", None)],
-        "entry": ("It strides the snowy passes with a full keg of warm tonic under its chin, and lost hikers who hear "
-                  "it baying know help is coming, slowly but surely."),
-        "spawns": [liq_spawn("tavernhound-liquor", "rare", "30-46", 0.8)],
-        "how": ["Evolve Stumblepup at level 30. It learns Super Fang when it evolves.", LIQ_HOW.format("rare")],
+        "entry": ("A sturdy, thick-furred mountain dog carrying a reinforced iron-banded cask under its chin. It braves "
+                  "blizzards to locate stranded travelers, sharing warming sips of its herbal tonic to thaw frozen limbs."),
+        "spawns": [liq_spawn("kegguard-liquor", "uncommon", "24-40", 1.6)],
+        "how": ["Evolve Stumblepup at level 24. It learns Warming Draught when it evolves.", LIQ_HOW.format("uncommon"),
+                "Evolves into Avalanche Hound at level 40 in a snowy area."],
     },
     "bootlegger": {
         "dex": 3133, "name": "Bootlegger", "line": "liq_bandit", "types": ["dark"], **LIQ, "catch": 190,
@@ -3094,8 +3096,236 @@ SPECIES.update({
 for _sp in ("hopsprout", "flambeer", "sakekoi", "joltini", "ontherox", "brawlerry", "absinthia", "agavolem", "corkscrew",
             "sommelgeist", "meadbee", "peatling", "spiritskull", "caskade", "stillforge", "bacchudrake"):
     LINES[SPECIES[_sp]["line"]] = [_sp]
-LINES["liq_hound"] = ["stumblepup", "tavernhound"]
+LINES["liq_hound"] = ["stumblepup", "kegguard", "avalanchehound"]
 LINES["liq_bandit"] = ["bootlegger", "moonshiner"]
+
+# --- the user's nicotine and alcohol evolution lines (0.80.0): Nicotiny -> Curedrake -> Cartelord, Emberbutt ->
+# Smolderstump -> Cigarghast, Vapulon -> Modwing -> Subohmega (Nicodex); Hopsprout -> Maltwort -> Brawlerry,
+# Stumblepup -> Kegguard -> Avalanche Hound, Copperpot -> Alembix -> Stillforge (Liquor Meadows). Names, types,
+# methods, signature abilities/moves, final stats and concepts are the user's; abilities/moves in evo_battle.py.
+# Earlier single-stage species become first stages (weaker) or final stages (the user's stats, new types).
+SUN = [{"variant": "time_range", "range": "day"}, {"variant": "weather", "isRaining": False}]
+SPECIES["nicotiny"].update(
+    line="nico_leaf", stats=stats(45, 35, 45, 60, 60, 55), exp=58,
+    evolve=("curedrake", 22, ["goldenleafstorm"], SUN),
+    how=[NICO_HOW.format("common"), "Its ability Pest Deterrent lowers the Attack of Bug-type foes when it switches in.",
+         "Evolves into Curedrake at level 22 in the sun (by day, while it isn't raining)."])
+SPECIES["cartelord"].update(
+    line="nico_leaf", types=["grass", "dark"], stats=stats(95, 115, 90, 85, 80, 65), exp=245,
+    moves=SPECIES["cartelord"]["moves"] + [(1, "goldenleafstorm")],
+    how=["Evolve Curedrake at level 38 while it holds a King's Rock or a Relic Coin (the item is used up).",
+         NICO_HOW.format("rare"), "Its ability Hooked keeps any Pokémon that touches it from switching out on the next turn."])
+SPECIES["emberbutt"].update(
+    stats=stats(40, 55, 40, 50, 40, 75), exp=56, evolve=("smolderstump", 20, ["ashchoke"]),
+    how=[NICO_HOW.format("common"), "It learns Cherry Flick at level 9.", "Evolves into Smolderstump at level 20."])
+SPECIES["cigarghast"].update(
+    line="nico_ember", types=["fire", "ghost"], stats=stats(70, 65, 75, 120, 105, 80), exp=240,
+    abilities=["lingeringember", "flashfire", "h:infiltrator"],
+    ability_names="Lingering Ember / Flash Fire / Infiltrator (hidden)",
+    how=["Use a Dusk Stone on Smolderstump.", NICO_HOW.format("rare, at night,"), "It learns Smoke Ring at level 21."])
+SPECIES["vapulon"].update(
+    stats=stats(45, 40, 45, 75, 55, 90), exp=60, evolve=("modwing", 25, ["twincoilsurge"]),
+    how=[NICO_HOW.format("common"), "Its ability Cloud Chaser fills the field with fog for 5 turns: Electric moves get "
+         "stronger and non-Electric Pokémon miss more.", "Evolves into Modwing at level 25."])
+SPECIES["vapulon"]["spawns"] = [nico_spawn("vapulon-ashtray", "common", "6-26", 5.0)]
+SPECIES["hopsprout"].update(
+    line="liq_brew", stats=stats(45, 40, 50, 60, 60, 50), exp=56, evolve=("maltwort", 18, ["yeastbubble"]),
+    how=[LIQ_HOW.format("common"), "Its ability Aromatic Harvest heals it and its allies a little every turn in sun or "
+         "rain.", "Evolves into Maltwort at level 18."])
+SPECIES["brawlerry"].update(
+    line="liq_brew", types=["grass", "fighting"], stats=stats(110, 120, 95, 65, 80, 65), exp=250,
+    abilities=["frothyguard", "guts", "h:ironfist"], ability_names="Frothy Guard / Guts / Iron Fist (hidden)",
+    moves=SPECIES["brawlerry"]["moves"] + [(1, "seedbomb"), (42, "woodhammer")],
+    tm=SPECIES["brawlerry"]["tm"] + ["seedbomb", "woodhammer", "leafblade", "bulletseed", "trailblaze", "grassyterrain"],
+    spawns=[liq_spawn("brawlerry-liquor", "rare", "36-50", 0.6)],
+    how=["Evolve Maltwort at level 36 while it knows Barroom Blitz.", LIQ_HOW.format("rare"),
+         "It learns Barroom Blitz at level 17."])
+SPECIES["stillforge"].update(
+    stats=stats(90, 75, 115, 130, 90, 40), exp=250,
+    abilities=["highproof", "heatproof", "h:steamengine"], ability_names="High Proof / Heatproof / Steam Engine (hidden)",
+    spawns=[liq_spawn("stillforge-liquor", "rare", "42-56", 0.4)],
+    how=["Evolve Alembix at level 42 with a Fire-type Pokémon in the party.", LIQ_HOW.format("rare"),
+         "It learns Distill at level 17."])
+
+SPECIES.update({
+    "curedrake": {
+        "dex": 3136, "name": "Curedrake", "line": "nico_leaf", "types": ["grass", "poison"], **NICO, "catch": 120,
+        "male": 0.5, "egg_groups": ["grass"],
+        "abilities": ["alkaloidsap", "chlorophyll", "h:stench"],
+        "ability_names": "Alkaloid Sap / Chlorophyll / Stench (hidden)",
+        "stats": stats(65, 70, 65, 80, 70, 60), "ev": evs(special_attack=2), "exp": 142,
+        "height": 9, "weight": 140, "shoulder": False, "walk": 0.24, "fly": True,
+        "moves": [(1, "goldenleafstorm"), (1, "absorb"), (1, "growth"), (5, "poisonpowder"), (9, "megadrain"),
+                  (13, "stunspore"), (17, "leechseed"), (22, "goldenleafstorm"), (26, "venoshock"), (30, "gigadrain"),
+                  (34, "toxic"), (38, "leafstorm")],
+        "tm": BASIC_TM + ["energyball", "gigadrain", "grassknot", "solarbeam", "sunnyday", "sludgebomb", "venoshock",
+                          "toxicspikes", "magicalleaf", "knockoff", "acrobatics", "airslash", "toxic"],
+        "egg": [], "evolve": ("cartelord", 38, ["knockoff"], [{"variant": "held_item",
+                                                               "itemCondition": "cobblemon:kings_rock"}]),
+        "evolve_alt": [("cartelord", 38, ["knockoff"], [{"variant": "held_item", "itemCondition": "cobblemon:relic_coin"}])],
+        "consume": True,
+        "drops": [("minecraft:wheat", "1-2", None), ("minecraft:yellow_dye", "0-1", None)],
+        "entry": ("As its leaves mature, they turn a rich, golden-amber hue and curl inward like drying tobacco "
+                  "bundles. It hangs upside down from sturdy branches, slowly fermenting its internal sap into a "
+                  "potent, dizzying toxin."),
+        "spawns": [route_spawn("curedrake-ashtray", "uncommon", "22-38", 2.0, ASHTRAY, timeRange="day")],
+        "how": ["Evolve Nicotiny at level 22 in the sun (by day, while it isn't raining). It learns Golden Leaf Storm "
+                "when it evolves.", NICO_HOW.format("uncommon, by day,"),
+                "Evolves into Cartelord at level 38 while it holds a King's Rock or a Relic Coin (the item is used up)."],
+    },
+    "smolderstump": {
+        "dex": 3137, "name": "Smolderstump", "line": "nico_ember", "types": ["fire", "poison"], **NICO, "catch": 120,
+        "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["secondhandhaze", "whitesmoke", "h:stench"],
+        "ability_names": "Secondhand Haze / White Smoke / Stench (hidden)",
+        "stats": stats(65, 70, 70, 85, 80, 60), "ev": evs(special_attack=1, special_defence=1), "exp": 144,
+        "height": 6, "weight": 120, "shoulder": False, "walk": 0.22,
+        "moves": [(1, "ashchoke"), (1, "ember"), (1, "tackle"), (5, "smokescreen"), (9, "cherryflick"), (13, "smog"),
+                  (17, "willowisp"), (20, "ashchoke"), (25, "incinerate"), (30, "sludgebomb"), (35, "lavaplume"),
+                  (40, "overheat")],
+        "tm": BASIC_TM + ["flamethrower", "fireblast", "overheat", "willowisp", "sludgebomb", "venoshock",
+                          "clearsmog", "toxicspikes", "heatwave", "sunnyday", "painsplit"],
+        "egg": [], "evolve": None, "evolve_stone": ("cigarghast", "cobblemon:dusk_stone", ["smokering"]),
+        "drops": [("minecraft:gunpowder", "0-1", None), ("minecraft:gray_dye", "1-2", None)],
+        "entry": ("Its papery armor has burned away almost entirely, leaving a jagged, ash-crusted torso and a thick "
+                  "collar of acrid gray smoke. It becomes grumpy and sluggish when wet, coughing out choking clouds of "
+                  "soot."),
+        "spawns": [nico_spawn("smolderstump-ashtray", "uncommon", "20-40", 2.0)],
+        "how": ["Evolve Emberbutt at level 20. It learns Ash Choke when it evolves.", NICO_HOW.format("uncommon"),
+                "Evolves into Cigarghast when a Dusk Stone is used on it."],
+    },
+    "modwing": {
+        "dex": 3138, "name": "Modwing", "line": "nico_vapor", "types": ["electric", "flying"], **NICO, "catch": 120,
+        "male": 0.5, "egg_groups": ["flying", "mineral"],
+        "abilities": ["cloudchaser", "motordrive", "h:galewings"],
+        "ability_names": "Cloud Chaser / Motor Drive / Gale Wings (hidden)",
+        "stats": stats(60, 50, 65, 90, 65, 100), "ev": evs(speed=2), "exp": 150,
+        "height": 7, "weight": 45, "shoulder": False, "walk": 0.34, "fly": True,
+        "moves": [(1, "twincoilsurge"), (1, "thundershock"), (1, "peck"), (5, "charge"), (9, "gust"), (13, "shockwave"),
+                  (17, "airslash"), (21, "electroball"), (25, "twincoilsurge"), (30, "discharge"), (35, "uturn"),
+                  (40, "hurricane"), (45, "thunder")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "chargebeam", "electricterrain",
+                          "raindance", "airslash", "hurricane", "uturn", "roost", "tailwind", "defog", "acrobatics",
+                          "agility", "thunderwave"],
+        "egg": [], "evolve": None, "evolve_stone": ("subohmega", "cobblemon:thunder_stone", ["flashcannon"]),
+        "drops": [("minecraft:redstone", "2-4", None), ("minecraft:iron_nugget", "1-2", None)],
+        "entry": ("Bulkier and boxier than Vapulon, Modwing sports dual battery cells on its flanks and an adjustable "
+                  "airflow ring around its neck that whistles when it dives."),
+        "spawns": [nico_spawn("modwing-ashtray", "uncommon", "25-42", 2.0)],
+        "how": ["Evolve Vapulon at level 25. It learns Twin-Coil Surge when it evolves.", NICO_HOW.format("uncommon"),
+                "Evolves into Subohmega when a Thunder Stone is used on it."],
+    },
+    "subohmega": {
+        "dex": 3139, "name": "Subohmega", "line": "nico_vapor", "types": ["electric", "steel"], **NICO, "catch": 45,
+        "male": -1, "egg_groups": ["flying", "mineral"],
+        "abilities": ["overclockedcoil", "lightningrod", "h:steelworker"],
+        "ability_names": "Overclocked Coil / Lightning Rod / Steelworker (hidden)",
+        "stats": stats(85, 70, 95, 125, 80, 70), "ev": evs(special_attack=3), "exp": 245,
+        "height": 16, "weight": 1450, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "flashcannon"), (1, "twincoilsurge"), (1, "thundershock"), (1, "metalclaw"), (1, "charge"),
+                  (1, "shockwave"), (1, "airslash"), (1, "discharge"), (50, "steelbeam"), (55, "zapcannon")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "chargebeam", "electricterrain",
+                          "flashcannon", "steelbeam", "irondefense", "heavyslam", "ironhead", "steelwing", "airslash",
+                          "hurricane", "roost", "gigaimpact", "hyperbeam", "thunderwave"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:iron_ingot", "1-3", None), ("minecraft:redstone", "2-4", None)],
+        "entry": ("A heavy, industrial-grade mechanical falcon constructed from brushed stainless steel and glowing "
+                  "resistance coils. Its chest glows cherry-red before it unleashes colossal, storm-sized plumes of "
+                  "electrified vapor."),
+        "spawns": [nico_spawn("subohmega-ashtray", "rare", "40-56", 0.4)],
+        "how": ["Use a Thunder Stone on Modwing. It learns Flash Cannon when it evolves.", NICO_HOW.format("rare")],
+    },
+    "maltwort": {
+        "dex": 3140, "name": "Maltwort", "line": "liq_brew", "types": ["grass", "fairy"], **LIQ, "catch": 120,
+        "male": 0.5, "egg_groups": ["grass", "fairy"],
+        "abilities": ["fermentation", "sweetveil", "h:aromaveil"],
+        "ability_names": "Fermentation / Sweet Veil / Aroma Veil (hidden)",
+        "stats": stats(70, 65, 70, 75, 75, 50), "ev": evs(hp=1, special_attack=1), "exp": 144,
+        "height": 8, "weight": 320, "shoulder": False, "walk": 0.2,
+        "moves": [(1, "yeastbubble"), (1, "absorb"), (1, "sweetscent"), (5, "growth"), (9, "megadrain"),
+                  (13, "drainingkiss"), (18, "yeastbubble"), (22, "gigadrain"), (26, "aromatherapy"),
+                  (30, "barroomblitz"), (34, "dazzlinggleam"), (38, "energyball")],
+        "tm": BASIC_TM + ["energyball", "gigadrain", "grassknot", "solarbeam", "sunnyday", "dazzlinggleam",
+                          "drainingkiss", "mistyterrain", "grassyterrain", "charm", "bodyslam", "brickbreak"],
+        "egg": [], "evolve": ("brawlerry", 36, [], [{"variant": "has_move", "move": "barroomblitz"}]),
+        "drops": [("minecraft:wheat", "1-3", None), ("minecraft:copper_ingot", "0-1", None)],
+        "entry": ("A bubbling, copper-kettle-shaped creature with sprouting barley ears for arms and a crown of frothy "
+                  "white foam. It hums softly as it warms its internal sugars, attracting sweet-toothed Pokémon from "
+                  "miles around."),
+        "spawns": [liq_spawn("maltwort-liquor", "uncommon", "18-36", 2.0)],
+        "how": ["Evolve Hopsprout at level 18. It learns Yeast Bubble when it evolves.", LIQ_HOW.format("uncommon"),
+                "It learns Barroom Blitz at level 30, and evolves into Brawlerry at level 36 once it knows it."],
+    },
+    "avalanchehound": {
+        "dex": 3141, "name": "Avalanche Hound", "line": "liq_hound", "types": ["normal", "fighting"], **LIQ,
+        "catch": 45, "male": 0.5, "egg_groups": ["field"],
+        "abilities": ["alpinespirit", "thickfat", "h:liquidcourage"],
+        "ability_names": "Alpine Spirit / Thick Fat / Liquid Courage (hidden)",
+        "stats": stats(105, 115, 90, 60, 80, 70), "ev": evs(attack=2, hp=1), "exp": 245,
+        "height": 18, "weight": 1600, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "closecombat"), (1, "warmingdraught"), (1, "tackle"), (1, "bite"), (1, "headbutt"),
+                  (1, "icefang"), (40, "closecombat"), (44, "bodyslam"), (48, "avalanche"), (52, "doubleedge"),
+                  (58, "superpower")],
+        "tm": BASIC_TM + ["closecombat", "bodyslam", "playrough", "crunch", "icefang", "firefang", "dig", "avalanche",
+                          "icepunch", "bulkup", "earthquake", "snowscape", "gigaimpact", "hyperbeam", "helpinghand",
+                          "bodypress", "superpower", "drainpunch"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:oak_planks", "1-2", None)],
+        "entry": ("A massive, heroic canine wearing two heavy oak barrels strapped across its broad shoulders like "
+                  "cannon pods. It charges through ten-foot snowdrifts effortlessly, launching pressurized blasts of "
+                  "warming tonic to shatter ice walls."),
+        "spawns": [liq_spawn("avalanchehound-liquor", "rare", "40-56", 0.4)],
+        "how": ["Evolve Kegguard at level 40 in a snowy area. It learns Close Combat when it evolves.",
+                LIQ_HOW.format("rare")],
+    },
+    "copperpot": {
+        "dex": 3142, "name": "Copperpot", "line": "liq_still", "types": ["steel"], **LIQ, "catch": 190,
+        "male": -1, "egg_groups": ["mineral"],
+        "abilities": ["heatproof", "lightmetal", "h:waterabsorb"],
+        "ability_names": "Heatproof / Light Metal / Water Absorb (hidden)",
+        "stats": stats(55, 45, 70, 60, 50, 30), "ev": evs(defence=1), "exp": 58,
+        "height": 4, "weight": 180, "shoulder": True, "walk": 0.2,
+        "moves": [(1, "tackle"), (1, "watergun"), (5, "metalclaw"), (9, "irondefense"), (13, "bubble"),
+                  (17, "mirrorshot"), (21, "waterpulse"), (26, "flashcannon")],
+        "tm": BASIC_TM + ["flashcannon", "irondefense", "waterpulse", "raindance", "gyroball", "heavyslam",
+                          "steelbeam", "scald", "snowscape"],
+        "egg": ["acidarmor", "aquaring"], "evolve": ("alembix", 26, ["condense"]),
+        "drops": [("minecraft:copper_ingot", "1-2", None), ("minecraft:water_bucket", None, 0.05)],
+        "entry": ("A small, round, riveted copper kettle with stubby legs and a whistling lid. It collects morning dew "
+                  "and rainwater inside its hollow body, keeping it remarkably pure."),
+        "spawns": [liq_spawn("copperpot-liquor", "common", "6-26", 5.0)],
+        "how": [LIQ_HOW.format("common"), "Evolves into Alembix at level 26."],
+    },
+    "alembix": {
+        "dex": 3143, "name": "Alembix", "line": "liq_still", "types": ["steel", "water"], **LIQ, "catch": 90,
+        "male": -1, "egg_groups": ["mineral"],
+        "abilities": ["condenser", "heatproof", "h:waterabsorb"],
+        "ability_names": "Condenser / Heatproof / Water Absorb (hidden)",
+        "stats": stats(70, 55, 90, 90, 75, 35), "ev": evs(defence=1, special_attack=1), "exp": 148,
+        "height": 10, "weight": 820, "shoulder": False, "walk": 0.18,
+        "moves": [(1, "condense"), (1, "tackle"), (1, "watergun"), (1, "metalclaw"), (9, "irondefense"),
+                  (13, "bubble"), (17, "mirrorshot"), (21, "waterpulse"), (26, "condense"), (30, "scald"),
+                  (34, "flashcannon"), (38, "surf"), (42, "steelbeam")],
+        "tm": BASIC_TM + ["flashcannon", "irondefense", "waterpulse", "raindance", "gyroball", "heavyslam",
+                          "steelbeam", "scald", "surf", "hydropump", "icebeam", "calmmind", "snowscape"],
+        "egg": [], "evolve": ("stillforge", 42, ["flamethrower"], [{"variant": "party_member", "target": "type=fire",
+                                                                    "contains": True}]),
+        "drops": [("minecraft:copper_ingot", "1-3", None), ("minecraft:glass_bottle", "0-1", None)],
+        "entry": ("It grows a long, gracefully curved swan-neck pipe from its head that coils into a cooling tank on "
+                  "its back. It constantly drips crystal-clear distilled water from its spout, purifying polluted "
+                  "ponds wherever it walks."),
+        "spawns": [liq_spawn("alembix-liquor", "uncommon", "26-42", 1.6)],
+        "how": ["Evolve Copperpot at level 26. It learns Condense when it evolves.", LIQ_HOW.format("uncommon"),
+                "Evolves into Stillforge at level 42 with a Fire-type Pokémon in the party."],
+    },
+})
+for _old in ("nico_seedling", "nico_baron", "nico_cigar", "liq_hops", "liq_brawl"):
+    LINES.pop(_old, None)
+LINES["nico_leaf"] = ["nicotiny", "curedrake", "cartelord"]
+LINES["nico_ember"] = ["emberbutt", "smolderstump", "cigarghast"]
+LINES["nico_vapor"] = ["vapulon", "modwing", "subohmega"]
+LINES["liq_brew"] = ["hopsprout", "maltwort", "brawlerry"]
+LINES["liq_still"] = ["copperpot", "alembix", "stillforge"]
 
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
@@ -3362,6 +3592,9 @@ CUSTOM_MOVES.update(NICO_MOVES)
 from liquor_battle import LIQ_ABILITIES, LIQ_MOVES                # the Liquor Meadows' own abilities and moves  # noqa: E402
 CUSTOM_ABILITIES.update(LIQ_ABILITIES)
 CUSTOM_MOVES.update(LIQ_MOVES)
+from evo_battle import EVO_ABILITIES, EVO_MOVES                  # the 0.80.0 evolution lines' abilities and moves  # noqa: E402
+CUSTOM_ABILITIES.update(EVO_ABILITIES)
+CUSTOM_MOVES.update(EVO_MOVES)
 
 def ascii_name(name):
     """The species json's name, in plain ASCII like Cobblemon's own ("Flabebe"): Cobblemon builds the lang key and the
@@ -3552,10 +3785,15 @@ def species_json(sp):
         d["evolutions"] = [{"id": f"{sp}_{to}", "variant": "level_up", "result": f"{MOD}:{to}", "consumeHeldItem": bool(c.get("consume")),
                             "learnableMoves": learn,
                             "requirements": [{"variant": "level", "minLevel": lv}] + (more[0] if more else [])}]
+        for n, (to2, lv2, learn2, *more2) in enumerate(c.get("evolve_alt", []), 2):   # other routes (e.g. another item)
+            d["evolutions"].append({"id": f"{sp}_{to2}_{n}", "variant": "level_up", "result": f"{MOD}:{to2}",
+                                    "consumeHeldItem": bool(c.get("consume")), "learnableMoves": learn2,
+                                    "requirements": [{"variant": "level", "minLevel": lv2}] + (more2[0] if more2 else [])})
         if c.get("consume"):
             # Cobblemon takes the held item as soon as it OFFERS the evolution (the Evolve button), then drops offers
             # whose requirements stop passing unless they're permanent: like its own Happiny/Oval Stone evolution
-            d["evolutions"][0]["permanent"] = True
+            for e in d["evolutions"]:
+                e["permanent"] = True
     pre = [s for s, o in SPECIES.items() if (o["evolve"] and o["evolve"][0] == sp)
            or (o.get("evolve_stone") and o["evolve_stone"][0] == sp)]
     if c.get("pre"):                                        # evolves from another mod's form (e.g. a regional one)
@@ -3605,6 +3843,9 @@ def main():
     manifest, readme = [], []
     for sp, c in SPECIES.items():
         build_model(sp)
+        for stale in (data / "species").glob(f"*/{sp}.json"):      # a species that moved to another line's folder
+            if stale.parent.name != c["line"]:
+                stale.unlink()
         write_json(data / "species" / c["line"] / f"{sp}.json", species_json(sp))
         for rel, content in c.get("data_files", {}).items():   # extra data files (features, MoLang callbacks)
             out = RES / "data" / rel

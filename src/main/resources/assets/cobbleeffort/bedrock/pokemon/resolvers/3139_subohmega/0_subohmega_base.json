@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:subohmega",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:subohmega",
+   "model": "cobbleeffort:subohmega.geo",
+   "texture": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_glow_0.png",
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_glow_1.png",
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3139_subohmega/subohmega_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

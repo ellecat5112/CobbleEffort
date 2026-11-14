@@ -282,7 +282,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   models on `models/_liquor.py` (palette, `tiers()` = solids of revolution, `helix()`, `glow_of`; `_hound.py` dog(m, s,
   adult), `_raccoon.py`), 7 abilities + 11 moves in `tools/newmons/liquor_battle.py` (LIQ_*), engine-tested (Showdown's
   `attackedBy` has no turn stamp: Roast & Press checks the LAST attack's type; `target.m` carries per-hit flags).
-  Stumblepup -> Tavern Hound (30), Bootlegger -> Moonshiner (34, night). Names may hold spaces/accents (Tavern Hound, Flambéer).
+  Bootlegger -> Moonshiner (34, night). Names may hold spaces/accents (Avalanche Hound, Flambéer): species json names
+  are ASCII (`ascii_name`, like Cobblemon's "Flabebe"), the lang keeps the accent.
+  **Evolution lines (0.80.0, the user's design)**: `tools/newmons/evo_battle.py` (EVO_*: 9 abilities, 6 moves) and a
+  block after the Liquor species that `.update()`s the old entries (first stages weaker, finals = the user's stats/types)
+  and adds Curedrake, Smolderstump, Modwing, Subohmega, Maltwort, Avalanche Hound, Copperpot, Alembix (#3136-3143);
+  Tavern Hound became Kegguard (#3132). Lines nico_leaf/nico_ember/nico_vapor, liq_brew/liq_hound/liq_still. `evolve_alt`
+  = more level-up routes (Curedrake -> Cartelord holding King's Rock OR Relic Coin: no Amulet Coin in Cobblemon 1.8.4);
+  requirements used: time_range + weather (sun), held_item, has_move, biome `#cobblemon:is_freezing`, party_member
+  `type=fire`. build.py deletes a species json left in another line's folder (moved species); delete removed species'
+  outputs by hand. Showdown's snow weather id is `snow` (not snowscape).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

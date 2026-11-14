@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:copperpot",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:copperpot",
+   "model": "cobbleeffort:copperpot.geo",
+   "texture": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3142_copperpot/copperpot_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}
