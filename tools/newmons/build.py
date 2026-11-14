@@ -1953,6 +1953,41 @@ LINES["afakemon_wolf"] = ["wigwoof", "wolfevel", "lycanmoon"]
 LINES["afakemon_bat"] = ["sounflame", "operbat", "nosfiretu"]
 LINES["afakemon_fish"] = ["fangfosh", "fishugly", "creepish"]
 
+# Phanturn: Lanturn's ghostly evolution (the user's art, artist and name not given; the name is ours)
+SPECIES.update({
+    "phanturn": {
+        "dex": 3081, "name": "Phanturn", "line": "phantom_lure", "types": ["ghost", "electric"],
+        "male": 0.5, "egg_groups": ["water_2"], "friendship": 50, "catch": 45, "growth": "slow",
+        "abilities": ["voltabsorb", "cursedbody", "h:illuminate"],
+        "ability_names": "Volt Absorb / Cursed Body / Illuminate (hidden)",
+        "stats": stats(135, 60, 70, 115, 90, 70), "ev": evs(hp=2, special_attack=1), "exp": 250,
+        "height": 16, "weight": 300, "shoulder": False, "walk": 0.3, "fly": True,
+        "pre": "cobblemon:lanturn",
+        # Lanturn evolves when a Reaper Cloth is used on it (Dusclops' ghostly evolution item)
+        "evolves_from": ("cobblemon:lanturn", "lanturn_phanturn",
+                         {"id": "lanturn_phanturn", "variant": "item_interact", "result": "cobbleeffort:phanturn",
+                          "consumeHeldItem": False, "learnableMoves": ["hex"],
+                          "requiredContext": "cobblemon:reaper_cloth"}),
+        "moves": [(1, "astonish"), (1, "hex"), (1, "supersonic"), (1, "thunderwave"), (1, "spark"),
+                  (1, "confuseray"), (6, "electroball"), (12, "bite"), (18, "nightshade"), (24, "charge"),
+                  (30, "shadowball"), (36, "discharge"), (42, "crunch"), (48, "thunderbolt"), (54, "poltergeist"),
+                  (60, "zapcannon")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "electroball", "chargebeam", "discharge",
+                          "wildcharge", "thunderfang", "electricterrain", "raindance", "shadowball", "hex",
+                          "nightshade", "willowisp", "confuseray", "painsplit", "trick", "phantomforce",
+                          "shadowclaw", "darkpulse", "crunch", "icebeam", "scald", "surf", "hydropump",
+                          "dazzlinggleam", "gigaimpact", "hyperbeam"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:glow_ink_sac", "1-2", None), ("minecraft:gold_nugget", "1-3", None),
+                  ("cobblemon:spell_tag", None, 5.0)],
+        "entry": ("It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the light of "
+                  "its little golden lure, thinking it is a lantern on the shore, and are never seen again."),
+        "spawns": [],
+        "how": ["Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves."],
+    },
+})
+LINES["phantom_lure"] = ["phanturn"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

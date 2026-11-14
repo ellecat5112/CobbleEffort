@@ -256,6 +256,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Lycanmoon (Grass, Grass/Fighting; vine lasso on arm_right), Sounflame -> Operbat -> Nosfiretu (Fire/Flying),
   Fangfosh -> Fishugly -> Creepish (Water, Water/Ground, Water/Dark) at 16/36; their own starter page FAKEMON_STARTERS
   ("A. Fakemon", order -98, key afakemon).
+  Phanturn (#3081, `models/phanturn.py`; the user's art, artist and name not given, our name): Ghost/Electric,
+  Lanturn + Reaper Cloth (`evolves_from`, item_interact), a floater; golden pearl lures on swaying `lure_*` bones.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

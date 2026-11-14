@@ -1694,5 +1694,33 @@
   "original": null,
   "retextured": "cobbleeffort:textures/pokemon/3080_creepish/creepish_shiny.png",
   "layers": []
+ },
+ {
+  "species": "phanturn",
+  "folder": "3081_phanturn",
+  "model": "cobbleeffort:phanturn.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3081_phanturn/phanturn.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3081_phanturn/phanturn_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "phanturn_shiny",
+  "folder": "3081_phanturn",
+  "model": "cobbleeffort:phanturn.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3081_phanturn/phanturn_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3081_phanturn/phanturn_shiny_glow_0.png"
+   }
+  ]
  }
 ]

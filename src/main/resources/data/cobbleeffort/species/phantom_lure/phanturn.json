@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3081,
+ "name": "Phanturn",
+ "primaryType": "ghost",
+ "secondaryType": "electric",
+ "maleRatio": 0.5,
+ "height": 16,
+ "weight": 300,
+ "pokedex": [
+  "cobbleeffort.species.phanturn.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "voltabsorb",
+  "cursedbody",
+  "h:illuminate"
+ ],
+ "eggGroups": [
+  "water_2"
+ ],
+ "baseStats": {
+  "hp": 135,
+  "attack": 60,
+  "defence": 70,
+  "special_attack": 115,
+  "special_defence": 90,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 2,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 250,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.9,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.8,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glow_ink_sac",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:gold_nugget",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:spell_tag",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:astonish",
+  "1:hex",
+  "1:supersonic",
+  "1:thunderwave",
+  "1:spark",
+  "1:confuseray",
+  "6:electroball",
+  "12:bite",
+  "18:nightshade",
+  "24:charge",
+  "30:shadowball",
+  "36:discharge",
+  "42:crunch",
+  "48:thunderbolt",
+  "54:poltergeist",
+  "60:zapcannon",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:thunderbolt",
+  "tm:thunder",
+  "tm:voltswitch",
+  "tm:electroball",
+  "tm:chargebeam",
+  "tm:discharge",
+  "tm:wildcharge",
+  "tm:thunderfang",
+  "tm:electricterrain",
+  "tm:raindance",
+  "tm:shadowball",
+  "tm:hex",
+  "tm:nightshade",
+  "tm:willowisp",
+  "tm:confuseray",
+  "tm:painsplit",
+  "tm:trick",
+  "tm:phantomforce",
+  "tm:shadowclaw",
+  "tm:darkpulse",
+  "tm:crunch",
+  "tm:icebeam",
+  "tm:scald",
+  "tm:surf",
+  "tm:hydropump",
+  "tm:dazzlinggleam",
+  "tm:gigaimpact",
+  "tm:hyperbeam"
+ ],
+ "preEvolution": "cobblemon:lanturn"
+}

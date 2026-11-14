@@ -1462,6 +1462,13 @@ first stage is also very rarely found in the wild.
   and a great black frill. Water Gun, Bite, Mud-Slap, Aqua Jet, Mud Shot, Crunch and Liquidation, then Throat Chop,
   Knock Off, Wave Crash and Sucker Punch. Shiny: violet and lilac.
 
+**Phanturn** (Ghost/Electric), Lanturn's ghostly evolution, after the art the user shared (artist not named; the name
+Phanturn is ours): a deep-sea angler gone to the other side, a long blue body hanging like a tattered cloak behind a
+golden cross-marked cap, a red eye, a fanged mouth caged by golden bars, spotted head fins, a swept tail fin and golden
+threads dangling glowing pearls and a little golden ghost-fish lure. **Use a Reaper Cloth on a Lanturn** to evolve it
+(it learns Hex). Volt Absorb or Cursed Body, hidden Illuminate; Spark, Hex, Electro Ball, Night Shade, Shadow Ball,
+Discharge, Thunderbolt, Poltergeist and Zap Cannon. Shiny: violet with silver pearls and a green eye.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1545,6 +1552,7 @@ first stage is also very rarely found in the wild.
 | 3078 | **Fangfosh** | Water | Torrent / Protean (hidden) | 50 / 58 / 50 / 45 / 46 / 60 | 0'8" (0.2 m) / 2.3 kg | One of the A. Fakemon starters: pick it at the starter screen (its own A. Fakemon page). Wild: very rare by rivers and in swamps. Evolves into Fishugly at level 16. | It is always grinning like that, even when it is scared, which makes it very hard to tell what it is feeling. It hops out of the water on its little legs to bite at ankles. |
 | 3079 | **Fishugly** | Water / Ground | Torrent / Protean (hidden) | 68 / 80 / 72 / 55 / 60 / 70 | 2'7" (0.8 m) / 6 kg | Evolve Fangfosh at level 16. It learns Mud Shot when it evolves. Evolves into Creepish at level 36. | It wanders the riverbanks on its long fin-legs, staring at everything with its unblinking eyes. It buries itself in the mud to sleep, with only its grin showing. |
 | 3080 | **Creepish** | Water / Dark | Torrent / Protean (hidden) | 88 / 115 / 85 / 70 / 75 / 97 | 4'11" (1.5 m) / 90 kg | Evolve Fishugly at level 36. It learns Throat Chop when it evolves. | It lurks in dark lagoons with only its frill above the water. When it spreads the frill and raises its arms, even large Pokémon back away. |
+| 3081 | **Phanturn** | Ghost / Electric | Volt Absorb / Cursed Body / Illuminate (hidden) | 135 / 60 / 70 / 115 / 90 / 70 | 5'3" (1.6 m) / 30 kg | Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves. | It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the light of its little golden lure, thinking it is a lantern on the shore, and are never seen again. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

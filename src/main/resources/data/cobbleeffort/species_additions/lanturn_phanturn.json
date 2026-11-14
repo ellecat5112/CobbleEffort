@@ -1,0 +1,15 @@
+{
+ "target": "cobblemon:lanturn",
+ "evolutions": [
+  {
+   "id": "lanturn_phanturn",
+   "variant": "item_interact",
+   "result": "cobbleeffort:phanturn",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "hex"
+   ],
+   "requiredContext": "cobblemon:reaper_cloth"
+  }
+ ]
+}

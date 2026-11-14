@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 88 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 89 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2517,6 +2517,15 @@ cobbleeffort:cavitot.
   Pokedex: "It lurks in dark lagoons with only its frill above the water. When it spreads the frill
   and raises its arms, even large Pokémon back away."
   * Evolve Fishugly at level 36. It learns Throat Chop when it evolves.
+
+#3081 PHANTURN  (Ghost / Electric; Volt Absorb / Cursed Body / Illuminate (hidden))
+  a ghostly blue deep-sea angler with a golden cross-marked cap, a red eye, a fanged mouth caged by
+  golden bars, spotted head fins, a swept tail fin and golden threads dangling glowing pearls and a
+  little ghost-fish lure
+  Stats: HP 135  Atk 60  Def 70  SpA 115  SpD 90  Spe 70  (total 540)
+  Pokedex: "It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the
+  light of its little golden lure, thinking it is a lantern on the shore, and are never seen again."
+  * Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
