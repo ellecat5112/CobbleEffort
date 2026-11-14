@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:pungallium",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pungallium",
+   "model": "cobbleeffort:pungallium.geo",
+   "texture": "cobbleeffort:textures/pokemon/3096_pungallium/pungallium.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3096_pungallium/pungallium_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3096_pungallium/pungallium_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3096_pungallium/pungallium_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

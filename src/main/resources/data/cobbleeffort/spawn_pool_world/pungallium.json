@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pungallium-wild",
+   "pokemon": "cobbleeffort:pungallium",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "34-50",
+   "weight": 0.6,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

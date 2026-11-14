@@ -1,0 +1,151 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3096,
+ "name": "Pungallium",
+ "primaryType": "grass",
+ "secondaryType": "poison",
+ "maleRatio": 0.5,
+ "height": 12,
+ "weight": 480,
+ "pokedex": [
+  "cobbleeffort.species.pungallium.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "stench",
+  "harvest",
+  "h:aftermath"
+ ],
+ "eggGroups": [
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 65,
+  "defence": 90,
+  "special_attack": 110,
+  "special_defence": 95,
+  "speed": 45
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 240,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.65,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.95,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.22
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:purple_dye",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:allium",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:absorb",
+  "1:growl",
+  "4:faketears",
+  "8:poisonpowder",
+  "12:megadrain",
+  "16:acid",
+  "1:petaldance",
+  "18:sludge",
+  "22:stunspore",
+  "26:gigadrain",
+  "30:venoshock",
+  "34:petaldance",
+  "40:sludgebomb",
+  "46:petalblizzard",
+  "52:toxic",
+  "58:sludgewave",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:sludgebomb",
+  "tm:venoshock",
+  "tm:acidspray",
+  "tm:toxicspikes",
+  "tm:faketears",
+  "tm:sleeppowder",
+  "tm:stunspore",
+  "tm:poisonpowder",
+  "tm:synthesis",
+  "tm:charm",
+  "tm:sludgewave",
+  "tm:solarbeam",
+  "tm:leafstorm",
+  "tm:petalblizzard",
+  "tm:gunkshot",
+  "tm:toxic",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:dazzlinggleam"
+ ],
+ "preEvolution": "cobbleeffort:shallorn"
+}

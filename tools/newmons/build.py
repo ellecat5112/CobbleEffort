@@ -2238,6 +2238,63 @@ SPECIES.update({
 })
 LINES["mothership"] = ["magnalien"]
 
+# the onion line (Tearion, Shallorn, Pungallium): after the A. Fakemon fanpage's art, names ours
+ONION = dict(egg_groups=["grass"], male=0.5, friendship=50, growth="medium_slow",
+             abilities=["stench", "harvest", "h:aftermath"], ability_names="Stench / Harvest / Aftermath (hidden)")
+ONION_TM = BASIC_TM + ["bulletseed", "seedbomb", "energyball", "gigadrain", "grassknot", "trailblaze", "sunnyday",
+                       "grassyterrain", "sludgebomb", "venoshock", "acidspray", "toxicspikes", "faketears",
+                       "sleeppowder", "stunspore", "poisonpowder", "synthesis", "charm"]
+ONION_TM_ADULT = ["sludgewave", "solarbeam", "leafstorm", "petalblizzard", "gunkshot", "toxic", "gigaimpact",
+                  "hyperbeam", "dazzlinggleam"]
+ONION_EARLY = [(1, "absorb"), (1, "growl"), (4, "faketears"), (8, "poisonpowder"), (12, "megadrain"),
+               (16, "acid")]
+ONION_WILD = ["#cobblemon:is_plains", "#cobblemon:is_grassland", "#cobblemon:is_forest"]
+SPECIES.update({
+    "tearion": {
+        "dex": 3094, "name": "Tearion", "line": "onion", "types": ["grass"], **ONION, "catch": 190,
+        "stats": stats(40, 35, 45, 45, 40, 30), "ev": evs(special_attack=1), "exp": 52,
+        "height": 4, "weight": 25, "shoulder": True, "walk": 0.24,
+        "moves": ONION_EARLY,
+        "tm": ONION_TM, "egg": ["leechseed", "ingrain", "tearfullook", "strengthsap"],
+        "evolve": ("shallorn", 18, ["sludge"]),
+        "drops": [("minecraft:wheat_seeds", "1-2", None), ("minecraft:white_dye", "0-1", None)],
+        "entry": ("It cries all the time, and so does everyone standing near it. It buries itself up to its leaves in "
+                  "garden soil and sobs quietly when it is pulled up."),
+        "spawns": [route_spawn("tearion-wild", "common", "3-18", 7.0, ONION_WILD)],
+        "how": ["Wild: common in plains, grasslands and forests.", "Evolves into Shallorn at level 18."],
+    },
+    "shallorn": {
+        "dex": 3095, "name": "Shallorn", "line": "onion", "types": ["grass", "poison"], **ONION, "catch": 120,
+        "stats": stats(60, 50, 70, 70, 65, 40), "ev": evs(special_attack=1, special_defence=1), "exp": 138,
+        "height": 9, "weight": 210, "shoulder": False, "walk": 0.2,
+        "moves": ONION_EARLY + [(1, "sludge"), (18, "sludge"), (22, "stunspore"), (26, "gigadrain"),
+                                (30, "venoshock"), (34, "synthesis")],
+        "tm": ONION_TM, "egg": [], "evolve": ("pungallium", 34, ["petaldance"]),
+        "drops": [("minecraft:wheat_seeds", "1-3", None), ("minecraft:brown_dye", "0-1", None)],
+        "entry": ("It has stopped crying and grown gloomy instead, drooping its leaves over its face and sighing "
+                  "into its moustache. The faint stink around it keeps everyone at a polite distance."),
+        "spawns": [route_spawn("shallorn-wild", "uncommon", "18-34", 2.0, ONION_WILD + ["#cobblemon:is_swamp"])],
+        "how": ["Evolve Tearion at level 18. It learns Sludge when it evolves.", "Wild: uncommon in plains, grasslands, "
+                "forests and swamps.", "Evolves into Pungallium at level 34."],
+    },
+    "pungallium": {
+        "dex": 3096, "name": "Pungallium", "line": "onion", "types": ["grass", "poison"], **ONION, "catch": 45,
+        "stats": stats(85, 65, 90, 110, 95, 45), "ev": evs(special_attack=2, special_defence=1), "exp": 240,
+        "height": 12, "weight": 480, "shoulder": False, "walk": 0.22,
+        "moves": ONION_EARLY + [(1, "petaldance"), (18, "sludge"), (22, "stunspore"), (26, "gigadrain"),
+                                (30, "venoshock"), (34, "petaldance"), (40, "sludgebomb"), (46, "petalblizzard"),
+                                (52, "toxic"), (58, "sludgewave")],
+        "tm": ONION_TM + ONION_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:purple_dye", "1-2", None), ("minecraft:wheat_seeds", "1-3", None),
+                  ("minecraft:allium", "1-2", None)],
+        "entry": ("Its great flower-head smells so strongly that its own eyes stream with tears and its tongue hangs "
+                  "out in disgust. Bug Pokémon that come to feed on its nectar fall from the air in a faint."),
+        "spawns": [route_spawn("pungallium-wild", "rare", "34-50", 0.6, ["#cobblemon:is_swamp", "#cobblemon:is_forest"])],
+        "how": ["Evolve Shallorn at level 34. It learns Petal Dance when it evolves.", "Wild: rare in swamps and forests."],
+    },
+})
+LINES["onion"] = ["tearion", "shallorn", "pungallium"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 103 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 106 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2657,6 +2657,35 @@ cobbleeffort:cavitot.
   hovers silently over fields at night, and whatever its rainbow beam touches is never quite where
   it was left in the morning."
   * Evolve a CobbleEffortian Magneton at level 45. It learns Psychic when it evolves.
+
+#3094 TEARION  (Grass; Stench / Harvest / Aftermath (hidden))
+  a little white onion on stubby legs with big watery crying eyes, a wobbly frown and a sprout of
+  green leaves
+  Stats: HP 40  Atk 35  Def 45  SpA 45  SpD 40  Spe 30  (total 235)
+  Pokedex: "It cries all the time, and so does everyone standing near it. It buries itself up to its
+  leaves in garden soil and sobs quietly when it is pulled up."
+  * Wild: common in plains, grasslands and forests.
+  * Evolves into Shallorn at level 18.
+
+#3095 SHALLORN  (Grass / Poison; Stench / Harvest / Aftermath (hidden))
+  a round brown shallot with droopy green leaves like hair, closed forlorn eyes, a drooping orange
+  root moustache and a stalk with a green flower-bud
+  Stats: HP 60  Atk 50  Def 70  SpA 70  SpD 65  Spe 40  (total 355)
+  Pokedex: "It has stopped crying and grown gloomy instead, drooping its leaves over its face and
+  sighing into its moustache. The faint stink around it keeps everyone at a polite distance."
+  * Evolve Tearion at level 18. It learns Sludge when it evolves.
+  * Wild: uncommon in plains, grasslands, forests and swamps.
+  * Evolves into Pungallium at level 34.
+
+#3096 PUNGALLIUM  (Grass / Poison; Stench / Harvest / Aftermath (hidden))
+  a green onion body on thin legs under a great purple allium flower-head, streaming eyes, hands to
+  its face, a long orange tongue and leaf tendrils, a purple puff of stink beside it
+  Stats: HP 85  Atk 65  Def 90  SpA 110  SpD 95  Spe 45  (total 490)
+  Pokedex: "Its great flower-head smells so strongly that its own eyes stream with tears and its
+  tongue hangs out in disgust. Bug Pokémon that come to feed on its nectar fall from the air in a
+  faint."
+  * Evolve Shallorn at level 34. It learns Petal Dance when it evolves.
+  * Wild: rare in swamps and forests.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

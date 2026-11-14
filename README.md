@@ -1500,6 +1500,15 @@ rainbow halo, four little saucer pods docked round its rim and a rainbow tractor
 Telepathy; their Steel moves become Psychic ones (Confusion, Psybeam, Psychic, Future Sight). Found at night over
 deserts, badlands and plains. Shiny: gold hulls with violet eyes.
 
+**Tearion → Shallorn → Pungallium** (Grass → Grass/Poison, levels 18 and 34), an onion line after the A. Fakemon
+fanpage's art (names ours): Tearion is a little white onion with big watery eyes that never stop crying; Shallorn a
+gloomy brown shallot with droopy leaves like hair, a drooping root moustache and a budding stalk; Pungallium a green
+bulb on thin legs under a great purple allium flower-head so pungent its own eyes stream, its tongue lolling out in
+disgust. Stench or Harvest, hidden Aftermath; Fake Tears, Poison Powder, Mega Drain and Acid, then Sludge, Stun Spore,
+Giga Drain, Venoshock and Synthesis, then Petal Dance, Sludge Bomb, Petal Blizzard and Sludge Wave. Tearion is common in
+plains, grasslands and forests, Shallorn uncommon (also swamps), Pungallium rare in swamps and forests. Shiny: a red
+onion line with a golden flower-head.
+
 **Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
 solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
 a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).
@@ -1603,6 +1612,9 @@ ring on a lime stem.
 | 3091 | **Blaxer** | Fire | Blaze / Strong Jaw (hidden) | 64 / 92 / 62 / 48 / 55 / 84 | 3'3" (1 m) / 30 kg | Evolve Flachiko at level 16. It learns Fire Fang when it evolves. Evolves into Cerbego at level 36. | It bounds into battle and boxes with its front paws, faster than the eye can follow. The spiked collar round its neck grows from its own fur. |
 | 3092 | **Cerbego** | Fire / Ghost | Blaze / Strong Jaw (hidden) | 90 / 120 / 85 / 85 / 70 / 80 | 5'11" (1.8 m) / 180 kg | Evolve Blaxer at level 36. It learns Infernal Parade when it evolves. | It guards the way to the land of the dead. The souls it has turned back burn beside it as purple ghost-fire, and in battle they flare up as two more heads. |
 | 3093 | **Magnalien** | Electric / Psychic | Levitate / Analytic / Telepathy (hidden) | 75 / 60 / 105 / 135 / 100 / 60 | 7'3" (2.2 m) / 190 kg | Evolve a CobbleEffortian Magneton at level 45. It learns Psychic when it evolves. | A mothership that carries the little saucers it was formed from docked round its rim. It hovers silently over fields at night, and whatever its rainbow beam touches is never quite where it was left in the morning. |
+| 3094 | **Tearion** | Grass | Stench / Harvest / Aftermath (hidden) | 40 / 35 / 45 / 45 / 40 / 30 | 1'4" (0.4 m) / 2.5 kg | Wild: common in plains, grasslands and forests. Evolves into Shallorn at level 18. | It cries all the time, and so does everyone standing near it. It buries itself up to its leaves in garden soil and sobs quietly when it is pulled up. |
+| 3095 | **Shallorn** | Grass / Poison | Stench / Harvest / Aftermath (hidden) | 60 / 50 / 70 / 70 / 65 / 40 | 2'11" (0.9 m) / 21 kg | Evolve Tearion at level 18. It learns Sludge when it evolves. Wild: uncommon in plains, grasslands, forests and swamps. Evolves into Pungallium at level 34. | It has stopped crying and grown gloomy instead, drooping its leaves over its face and sighing into its moustache. The faint stink around it keeps everyone at a polite distance. |
+| 3096 | **Pungallium** | Grass / Poison | Stench / Harvest / Aftermath (hidden) | 85 / 65 / 90 / 110 / 95 / 45 | 3'11" (1.2 m) / 48 kg | Evolve Shallorn at level 34. It learns Petal Dance when it evolves. Wild: rare in swamps and forests. | Its great flower-head smells so strongly that its own eyes stream with tears and its tongue hangs out in disgust. Bug Pokémon that come to feed on its nectar fall from the air in a faint. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

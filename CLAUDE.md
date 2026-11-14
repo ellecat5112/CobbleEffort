@@ -270,6 +270,8 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   models `*_cobbleeffortian.py`, UFO_REPLACE swaps Steel moves for Psychic ones, night spawns) -> Magnalien (#3093,
   `models/magnalien.py`, `pre` "magneton cobbleeffortian", lv 45); `_ufo.py`: `hull()` banded running lights,
   `eye_at`, `antenna`, translucent `beam`, `ring()` rainbow rings (Magneton's spins on a `ring_orbit` bone).
+  Tearion -> Shallorn -> Pungallium (#3094-3096, line "onion", A. Fakemon art, our names; `_onion.py`: `bulb()`
+  stacked slices ~1.8 units thick (thinner reads as brickwork), `teary_eye()`): Grass -> Grass/Poison at 18/34.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a
