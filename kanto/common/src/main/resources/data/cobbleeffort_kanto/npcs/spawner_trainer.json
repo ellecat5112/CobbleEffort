@@ -1,0 +1,17 @@
+{
+  "names": [
+    "Trainer"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_kanto:spawner_trainer"
+  },
+  "skill": 3,
+  "presets": []
+}

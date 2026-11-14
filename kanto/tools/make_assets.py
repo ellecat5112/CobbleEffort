@@ -725,6 +725,9 @@ def build():
     import make_liquor                                      # 0.8.0: the Liquor Meadows biome
     make_liquor.build()
     LANG.update(make_liquor.LANG)
+    import make_testing                                     # 0.9.0: wands and spawners for testing
+    make_testing.build()
+    LANG.update(make_testing.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

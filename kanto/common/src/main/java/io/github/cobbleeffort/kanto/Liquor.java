@@ -32,8 +32,9 @@ public final class Liquor {
     /** The biomes it takes patches of (plains are shared with the Ashtray Wastes, which are asked first). */
     private static final Set<ResourceKey<Biome>> HOSTS = Set.of(Biomes.FOREST, Biomes.FLOWER_FOREST, Biomes.BIRCH_FOREST,
             Biomes.OLD_GROWTH_BIRCH_FOREST, Biomes.SUNFLOWER_PLAINS, Biomes.PLAINS, Biomes.MEADOW);
-    private static final int CELL = 64;
-    private static final double THRESHOLD = 0.66;
+    /** Patch size (quarts) and noise threshold, from config/cobbleeffort_kanto.json, set when a server starts. */
+    private static volatile int cell = 48;
+    private static volatile double threshold = 0.6;
     private static final long SALT = 0x2545F4914F6CDD1DL;
 
     public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(Kanto.MOD_ID, Registries.FEATURE);
@@ -63,6 +64,8 @@ public final class Liquor {
     static void register() {
         FEATURES.register();
         LifecycleEvent.SERVER_BEFORE_START.register(server -> {
+            cell = KantoConfig.liquor.cell();                // loaded by Ashtray's start hook, registered first
+            threshold = KantoConfig.liquor.threshold();
             holder = server.registryAccess().registryOrThrow(Registries.BIOME).getHolder(KEY).orElse(null);
             if (holder == null) Kanto.LOG.warn("The Liquor Meadows biome is missing from the biome registry");
         });
@@ -79,7 +82,7 @@ public final class Liquor {
         Holder<Biome> ours = holder;
         if (ours == null || biome == null) return null;
         for (ResourceKey<Biome> host : HOSTS) {
-            if (biome.is(host)) return Ashtray.noise(qx, qz, CELL, Ashtray.seed() ^ SALT) > THRESHOLD ? ours : null;
+            if (biome.is(host)) return Ashtray.noise(qx, qz, cell, Ashtray.seed() ^ SALT) > threshold ? ours : null;
         }
         return null;
     }

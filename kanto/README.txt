@@ -162,7 +162,35 @@ THE LIQUOR MEADOWS (NEW in 0.8.0)
   - Its Pokemon: 20 Pokemon (one per type) in CobbleEffort 0.79.0 and later, which spawn only here
     (spawn tag #cobbleeffort_kanto:is_liquor).
 
+BIOME FREQUENCY (NEW in 0.9.0)
+  - The Ashtray Wastes and the Liquor Meadows are now much more common (they used to take about 15% of their host
+    biomes in big, far-apart patches; now 35% in smaller, closer patches).
+  - Server owners can set both in config/cobbleeffort_kanto.json (written on the first start):
+      "frequency": share of the host biomes taken over, 0 (never) to 1 (all of them)
+      "patch_size": roughly how wide a patch is, in blocks
+    Changes apply to chunks generated after the next server start.
+
+TESTING TOOLS (NEW in 0.9.0, creative mode + operator only; in the Kanto creative tab)
+  - Biome Wand: use it to locate the nearest Ashtray Wastes or Liquor Meadows (click the coordinates to teleport);
+    use it on a block to turn the 65 x 65 area round that block into the biome, with its giant cigarettes or bottles
+    and ponds; sneak + use to switch biome. The same as a command (for command blocks too):
+      /kanto forcebiome <ashtray|liquor_meadows> [x y z]
+  - Structure Wand: use it to locate the nearest CobbleEffort or Kanto structure of the chosen kind; use it on a block
+    to place that structure there; sneak + use to switch structure.
+  - Pokemon Spawner and Trainer Spawner: blocks set up like command blocks. Right-click one to open its settings;
+    every time it receives a redstone signal it spawns what you set:
+      Pokemon Spawner: any Cobblemon properties (e.g. "mewtwo level=70 shiny=yes moves=psychic,recover,aurasphere
+      ability=pressure nature=modest"), a name tag, a default level, a size (2 = twice as big), and switches for
+      Uncatchable, Glowing, Battle nearest player (starts the battle at once) and One at a time (no new spawn while
+      the last one is still around). Perfect for scripted legendary encounters.
+      Trainer Spawner: a name, an optional player name for the skin, a team (one Pokemon per line or separated by
+      ";", in the same properties format; members without level= get the Level box), skill 0-5, and switches for
+      Battle nearest player, Double battle, Leave after losing and One at a time. Players can also talk to the
+      trainer to battle it.
+
 PLEASE TEST AND REPORT
+  0.9.0: set up a Pokemon Spawner and a Trainer Spawner with a button: do they spawn, battle you, and stay uncatchable
+  / leave after losing when set to? Try both wands. Are the new biomes easy enough to find now?
   0.8.0: find the Liquor Meadows (/locate biome cobbleeffort_kanto:liquor_meadows): bright grass, whisky ponds, giant
   bottles. Do the bottles and their drinks look right, and does anything look wrong at its edges?
   0.7.0: find the Ashtray Wastes (/locate biome cobbleeffort_kanto:ashtray) and look around: ash ground, tar pools,
@@ -185,6 +213,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.9.0: the Ashtray Wastes and Liquor Meadows are more common (config/cobbleeffort_kanto.json); Biome and
+         Structure Wands, Pokemon and Trainer Spawners, /kanto forcebiome (testing tools for creative operators).
   0.8.0: the Liquor Meadows biome (vibrant grass, whisky-coloured water, giant bottles) and its three blocks.
   0.7.0: the Ashtray Wastes biome (ash ground, tar for water, giant cigarettes) and its four blocks.
   0.6.0: tar (fluid, Bucket of Tar, tar lakes, tar pits moved here from CobbleEffort); a Bucket of Tar revives

@@ -123,7 +123,10 @@ public final class Kanto {
         Tar.register();                                     // the tar fluid (its block and bucket register below)
         Ashtray.register();                                 // the Ashtray Wastes: blocks, features, biome patches
         Liquor.register();                                  // the Liquor Meadows: blocks, features, biome patches
+        TestTools.register();                               // 0.9.0: creative Biome/Structure Wands
+        Spawners.register();                                // 0.9.0: Pokémon and Trainer Spawners
         BLOCKS.register();
+        Spawners.BLOCK_ENTITIES.register();
         KantoArmor.MATERIALS.register();
         ITEMS.register();
         PLACEMENTS.register();
@@ -136,5 +139,8 @@ public final class Kanto {
         KantoEvents.init();
         KantoGyms.init();
         KantoCommand.init();
+        if (dev.architectury.platform.Platform.getEnvironment() == dev.architectury.utils.Env.CLIENT) {
+            io.github.cobbleeffort.kanto.client.KantoClient.init();
+        }
     }
 }

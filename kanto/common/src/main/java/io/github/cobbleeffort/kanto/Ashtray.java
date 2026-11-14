@@ -41,9 +41,10 @@ public final class Ashtray {
     /** The biomes it takes patches of. */
     private static final Set<ResourceKey<Biome>> HOSTS = Set.of(Biomes.DESERT, Biomes.SAVANNA, Biomes.PLAINS,
             Biomes.BADLANDS, Biomes.SAVANNA_PLATEAU);
-    /** Patch size (in quarts, 4 blocks) and how much of a host biome becomes Ashtray Wastes. */
-    private static final int CELL = 64;
-    private static final double THRESHOLD = 0.68;
+    /** Patch size (in quarts, 4 blocks) and the noise value above which a host biome becomes Ashtray Wastes: from
+     * config/cobbleeffort_kanto.json ({@link KantoConfig}), set when a server starts. */
+    private static volatile int cell = 48;
+    private static volatile double threshold = 0.6;
 
     public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(Kanto.MOD_ID, Registries.FEATURE);
 
@@ -77,6 +78,9 @@ public final class Ashtray {
     static void register() {
         FEATURES.register();
         LifecycleEvent.SERVER_BEFORE_START.register(server -> {
+            KantoConfig.load();
+            cell = KantoConfig.ashtray.cell();
+            threshold = KantoConfig.ashtray.threshold();
             seed = server.getWorldData().worldGenOptions().seed();
             holder = server.registryAccess().registryOrThrow(Registries.BIOME).getHolder(KEY).orElse(null);
             if (holder == null) Kanto.LOG.warn("The Ashtray Wastes biome is missing from the biome registry");
@@ -94,14 +98,14 @@ public final class Ashtray {
         Holder<Biome> ours = holder;
         if (ours == null || biome == null) return null;
         for (ResourceKey<Biome> host : HOSTS) {
-            if (biome.is(host)) return noise(qx, qz) > THRESHOLD ? ours : null;
+            if (biome.is(host)) return noise(qx, qz) > threshold ? ours : null;
         }
         return null;
     }
 
     /** Smooth value noise in [0, 1] over quart coordinates: two octaves of seeded lattice values. */
     static double noise(int qx, int qz) {
-        return noise(qx, qz, CELL, seed);
+        return noise(qx, qz, cell, seed);
     }
 
     /** The same noise for any patch size and seed (other patch biomes salt the world seed so patches don't line up). */

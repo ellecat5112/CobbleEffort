@@ -435,6 +435,20 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   block), label band + stripe, drink filled below a WORLD-height level (flat however it leans), written via a
   priority map (top > shell > inside) so overlapping samples never punch holes; kinds wine/champagne/beer/whisky/
   vodka/sake. Blocks cork, bottle_cap, bottle_label. Spawn tag `cobbleeffort_kanto:is_liquor`.
+  0.9.0 (the user's request): `KantoConfig` (config/cobbleeffort_kanto.json, read in Ashtray's SERVER_BEFORE_START,
+  which Liquor's runs after): per biome `frequency` (share of host land; turned into a noise threshold by sampling
+  the noise's quantile) and `patch_size` (blocks; cell = size/4 quarts); defaults 35% / 192 (was ~15% / 256).
+  `TestTools` (creative operators): Biome Wand + Structure Wand (custom_data "target", sneak cycles; use = vanilla
+  `/locate` run as the player at permission 2; on a block = `forceBiome` (fillBiomesFromNoise over a 65-block square +
+  `chunkMap.resendBiomesForChunks`, then the biome's configured features) or vanilla `/place structure`); also
+  `/kanto forcebiome`. `Spawners`: Pokémon/Trainer Spawner blocks (BaseEntityBlock, one BE type `spawner`, config
+  CompoundTag cleaned server-side, synced to the client via getUpdateTag; rising redstone -> scheduleTick -> spawn;
+  C2S `SavePacket`; `client/SpawnerScreen` opened through `Spawners.screenOpener`, set by `client/KantoClient` when
+  Env.CLIENT). Trainers: NPC class `spawner_trainer` WITHOUT a party (NPCEntity.getPartyForChallenge then keeps the
+  NPCPartyStore we set), Cobblemon's standard trainer look, skin via `loadTextureFromGameProfileName`; battles via
+  `BattleBuilder.pvn/pve` 10 ticks after the spawn (own delayed queue); `Leave after losing` = entity tag read in a
+  BATTLE_VICTORY listener. Uncatchable = Cobblemon's `uncatchable` flag property appended. SNBT can't hold \n: test
+  team strings with ";".
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.
