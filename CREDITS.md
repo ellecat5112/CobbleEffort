@@ -284,6 +284,8 @@ Copperpot, Alembix: names, types, methods, signature abilities and moves, concep
 the abilities' effects, models and the middle stages' stats are our own.
 Hopple and Rabbrute (their names and designs) are after the Sundor Region's fakemon art (#102, #103); their models,
 stats, moves, Pokédex entries and the Call of the Den fusion are our own (the fusion is the user's idea).
+The CobbleEffortian (Ghost/Fire) Gastly, Haunter and Gengar designs are after @tomats_art's art; their models, moves
+and Pokédex entries are our own.
 
 ## Code and data
 

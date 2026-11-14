@@ -1,0 +1,43 @@
+{
+  "species": "cobblemon:haunter",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "poser": "cobbleeffort:haunter_cobbleeffortian",
+      "model": "cobbleeffort:haunter_cobbleeffortian.geo",
+      "texture": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cobbleeffortian",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shiny_shell.png"
+        }
+      ]
+    }
+  ]
+}

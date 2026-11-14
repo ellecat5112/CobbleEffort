@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 155 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 158 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1728,6 +1728,32 @@ cobbleeffort:cavitot.
   the ring spins faster the more they agree."
   * Wild: rare in deserts, badlands and plains, at night.
   * Evolves into Magnalien at level 45.
+
+#0092 GASTLY (COBBLEEFFORT FORM)  (Ghost / Fire; Levitate / Flame Body (hidden))
+  a red ball with one horn and yellow spots, a big white cyclops eye and a fanged purple mouth, in a
+  cloud of glowing yellow-orange flame gas
+  Stats: HP 30  Atk 35  Def 30  SpA 100  SpD 35  Spe 80  (total 310)
+  Pokedex: "A cyclops ball of hellfire wrapped in burning gas. It drifts over badlands and deserts
+  on hot nights, and anything that breathes its gas feels faint and feverish for days."
+  * Wild: uncommon in badlands, deserts and savannas at night, and all over the Nether.
+  * Evolves into the CobbleEffort Haunter at level 25.
+
+#0093 HAUNTER (COBBLEEFFORT FORM)  (Ghost / Fire; Levitate / Flame Body (hidden))
+  a round red head with two curved horns, one glaring eye and a jagged mouth trailing a long blue
+  ghost tongue, flame wings and two floating clawed hands
+  Stats: HP 45  Atk 50  Def 45  SpA 115  SpD 55  Spe 95  (total 405)
+  Pokedex: "It licks its prey with its long, ice-cold blue tongue, and the victim shivers even as
+  the flames on its sides scorch the grass. Its floating hands can grab you from across a room."
+  * Wild: rare in badlands, deserts and savannas at night, and the Nether.
+  * Evolves into the CobbleEffort Gengar when traded.
+
+#0094 GENGAR (COBBLEEFFORT FORM)  (Ghost / Fire; Cursed Body / Flash Fire (hidden))
+  a squat orange body with a huge toothy grin, a black bat-winged mask with two yellow eyes and a
+  third on its forehead, two red horns and a wild red-and-yellow flame mane
+  Stats: HP 60  Atk 65  Def 60  SpA 130  SpD 75  Spe 110  (total 500)
+  Pokedex: "Its third eye sees the souls of the living. On the hottest nights its mane of hellfire
+  flares up, and it grins as it chases the shadows of travellers through the badlands."
+  * Wild: ultra-rare in the Nether (or trade a CobbleEffortian Haunter).
 
 #0590 FOONGUS (COBBLEEFFORT FORM)  (Grass / Steel; Effect Spore / Iron Barbs / Regenerator (hidden))
   a little screw mushroom: a steel Phillips-head dome cap with rivets, a round white body with

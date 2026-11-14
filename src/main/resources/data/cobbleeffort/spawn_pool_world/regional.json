@@ -4,6 +4,108 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "gastly-cobbleeffortian-1",
+      "pokemon": "gastly cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-28",
+      "weight": 5.0,
+      "condition": {
+        "timeRange": "night",
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "gastly-cobbleeffortian-2",
+      "pokemon": "gastly cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-30",
+      "weight": 6.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
+      "id": "haunter-cobbleeffortian-1",
+      "pokemon": "haunter cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-40",
+      "weight": 1.0,
+      "condition": {
+        "timeRange": "night",
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_desert",
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "haunter-cobbleeffortian-2",
+      "pokemon": "haunter cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-40",
+      "weight": 2.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
+      "id": "gengar-cobbleeffortian-1",
+      "pokemon": "gengar cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-55",
+      "weight": 0.3,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_nether"
+        ],
+        "biomes": [
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
       "id": "caterpie-cobbleeffortian",
       "pokemon": "caterpie cobbleeffortian",
       "presets": [

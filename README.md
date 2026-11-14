@@ -1589,6 +1589,15 @@ the little bunny faces it's made of. The others' held items go back to you. This
 later. In battle, Call of the Den raises the user's Attack and Defense by 1 stage for each other Hopple in its party
 (up to 2). Rabbrute isn't found in the wild.
 
+**CobbleEffortian Gastly, Haunter and Gengar** (Ghost/Fire regional forms with their own models, after @tomats_art's
+art): Gastly is a red cyclops ball with a horn, yellow spots and fangs in a cloud of glowing flame gas; Haunter a
+horned red head with one glaring eye, a long blue ghost tongue for a tail, flame wings and floating clawed hands;
+Gengar a squat orange grinning demon with a black bat mask, a third eye, two great horns and a mane of red-and-yellow
+flames. Their Poison moves become Fire ones (Flamethrower, Heat Wave, Will-O-Wisp, Flare Blitz...), and they learn
+Infernal Parade. Levitate / Flame Body (hidden) for Gastly and Haunter, Cursed Body / Flash Fire (hidden) for
+Gengar. Gastly evolves at 25, Haunter when traded (like the originals). Found on hot nights in badlands, deserts and
+savannas, and all over the Nether (Gengar ultra-rare there). Shiny: blue with cyan flames.
+
 **Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
 solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
 a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).

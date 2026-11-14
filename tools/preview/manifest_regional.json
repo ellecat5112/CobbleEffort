@@ -1,5 +1,99 @@
 [
   {
+    "species": "gastly_cobbleeffortian",
+    "folder": "0092_gastly",
+    "model": "cobbleeffort:gastly_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0092_gastly/gastly.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "gastly_cobbleeffortian_shiny",
+    "folder": "0092_gastly",
+    "model": "cobbleeffort:gastly_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0092_gastly/gastly_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "haunter_cobbleeffortian",
+    "folder": "0093_haunter",
+    "model": "cobbleeffort:haunter_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0093_haunter/haunter.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "haunter_cobbleeffortian_shiny",
+    "folder": "0093_haunter",
+    "model": "cobbleeffort:haunter_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0093_haunter/haunter_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0093_haunter/haunter_cobbleeffortian_shiny_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "gengar_cobbleeffortian",
+    "folder": "0094_gengar",
+    "model": "cobbleeffort:gengar_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0094_gengar/gengar.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0094_gengar/gengar_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0094_gengar/gengar_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "gengar_cobbleeffortian_shiny",
+    "folder": "0094_gengar",
+    "model": "cobbleeffort:gengar_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0094_gengar/gengar_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0094_gengar/gengar_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0094_gengar/gengar_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
     "species": "caterpie_cobbleeffortian",
     "folder": "0010_caterpie",
     "model": "cobblemon:caterpie.geo",
@@ -74,6 +168,11 @@
         "original": null,
         "emissive": true,
         "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_shell.png"
       }
     ]
   },
@@ -88,6 +187,11 @@
         "original": null,
         "emissive": true,
         "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_shiny_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0081_magnemite/magnemite_cobbleeffortian_shiny_shell.png"
       }
     ]
   },

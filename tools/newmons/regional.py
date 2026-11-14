@@ -248,7 +248,53 @@ UFO_ADD = ["tm:psychic", "tm:psyshock", "tm:calmmind", "tm:futuresight", "tm:sha
 UFO_NIGHT = {"biomes": ["#cobblemon:is_desert", "#cobblemon:is_badlands", "#cobblemon:is_plains"], "canSeeSky": True,
              "timeRange": "night"}
 
+# the hellfire Gastly line (Ghost/Fire, after @tomats_art's art): its poison moves become fire ones
+FIRE_REPLACE = {"sludgebomb": "flamethrower", "sludgewave": "heatwave", "venoshock": "incinerate", "toxic": "willowisp",
+                "clearsmog": "ember", "poisongas": "willowisp", "smog": "ember", "poisonjab": "firepunch",
+                "gunkshot": "flareblitz", "acidspray": "flamecharge", "toxicspikes": "willowisp", "corrosivegas": "heatwave"}
+FIRE_ADD = ["tm:flamethrower", "tm:fireblast", "tm:overheat", "tm:heatwave", "tm:mysticalfire", "tm:flamecharge",
+            "tm:sunnyday", "tm:burningjealousy", "tm:infernalparade", "tm:willowisp", "tm:firespin", "1:ember"]
+HELLFIRE = [("grounded", {"timeRange": "night", "canSeeSky": True,
+                          "biomes": ["#cobblemon:is_badlands", "#cobblemon:is_desert", "#cobblemon:is_savanna"]}),
+            ("grounded", {"dimensions": ["minecraft:the_nether"], "biomes": ["#minecraft:is_nether"]})]
+
 LINE = {
+    "gastly": {
+        "folder": "0092_gastly", "box": "gastly_cobbleeffortian",
+        "types": ("ghost", "fire"), "abilities": ["levitate", "h:flamebody"],
+        "moves_replace": FIRE_REPLACE, "moves_add": FIRE_ADD,
+        "evolve": ("haunter", 25, ["flamecharge"]),
+        "entry": ("A cyclops ball of hellfire wrapped in burning gas. It drifts over badlands and deserts on hot nights, "
+                  "and anything that breathes its gas feels faint and feverish for days."),
+        "look": "a red ball with one horn and yellow spots, a big white cyclops eye and a fanged purple mouth, in a cloud of glowing yellow-orange flame gas",
+        "spawns": [(HELLFIRE[0][0], HELLFIRE[0][1], "uncommon", "10-28", 5.0), (HELLFIRE[1][0], HELLFIRE[1][1], "common", "15-30", 6.0)],
+        "how_where": "badlands, deserts and savannas at night, and all over the Nether",
+        "shiny_note": "Shiny: a blue ball in pale cyan flame.",
+    },
+    "haunter": {
+        "folder": "0093_haunter", "box": "haunter_cobbleeffortian",
+        "types": ("ghost", "fire"), "abilities": ["levitate", "h:flamebody"],
+        "moves_replace": FIRE_REPLACE, "moves_add": FIRE_ADD + ["30:infernalparade"],
+        "evolve": ("gengar", "trade", ["shadowpunch"]),
+        "entry": ("It licks its prey with its long, ice-cold blue tongue, and the victim shivers even as the flames on its "
+                  "sides scorch the grass. Its floating hands can grab you from across a room."),
+        "look": "a round red head with two curved horns, one glaring eye and a jagged mouth trailing a long blue ghost tongue, flame wings and two floating clawed hands",
+        "spawns": [(HELLFIRE[0][0], HELLFIRE[0][1], "rare", "25-40", 1.0), (HELLFIRE[1][0], HELLFIRE[1][1], "uncommon", "25-40", 2.0)],
+        "how_where": "badlands, deserts and savannas at night, and the Nether",
+        "shiny_note": "Shiny: blue with pale cyan flames and a pink tongue.",
+    },
+    "gengar": {
+        "folder": "0094_gengar", "box": "gengar_cobbleeffortian",
+        "types": ("ghost", "fire"), "abilities": ["cursedbody", "h:flashfire"],
+        "moves_replace": FIRE_REPLACE, "moves_add": FIRE_ADD + ["1:infernalparade", "tm:flareblitz"],
+        "evolve": None,
+        "entry": ("Its third eye sees the souls of the living. On the hottest nights its mane of hellfire flares up, and it "
+                  "grins as it chases the shadows of travellers through the badlands."),
+        "look": "a squat orange body with a huge toothy grin, a black bat-winged mask with two yellow eyes and a third on its forehead, two red horns and a wild red-and-yellow flame mane",
+        "spawns": [(HELLFIRE[1][0], HELLFIRE[1][1], "ultra-rare", "40-55", 0.3)],
+        "how_where": "the Nether (or trade a CobbleEffortian Haunter)",
+        "shiny_note": "Shiny: pale blue with cyan flames.",
+    },
     "caterpie": {
         "folder": "0010_caterpie", "paint": paint_caterpie, "types": ("bug", "poison"),
         "abilities": ["poisonpoint", "h:runaway"],
@@ -392,7 +438,7 @@ LINE = {
     },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
-ABILITY_NAMES = {"suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
+ABILITY_NAMES = {"flamebody": "Flame Body", "cursedbody": "Cursed Body", "flashfire": "Flash Fire", "suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
                  "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus"}
 
 
@@ -441,11 +487,12 @@ def form_json(sp, species, c):
         f["hitbox"] = {"width": hand.HITBOX[0], "height": hand.HITBOX[1], "fixed": False}
     if c["evolve"]:
         res, lvl, learn = c["evolve"]
-        # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd
+        # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd;
+        # lvl "trade" = a trade evolution (Haunter -> Gengar)
         result = res if ":" in res else f"{res} {ASPECT}"
-        f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "level_up", "result": result,
-                            "consumeHeldItem": False, "learnableMoves": learn,
-                            "requirements": [{"variant": "level", "minLevel": lvl}]}]
+        f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "trade" if lvl == "trade" else "level_up",
+                            "result": result, "consumeHeldItem": False, "learnableMoves": learn,
+                            "requirements": [] if lvl == "trade" else [{"variant": "level", "minLevel": lvl}]}]
     else:
         f["evolutions"] = []
     return f
@@ -481,9 +528,12 @@ def main():
             variations = [{"aspects": [ASPECT], "poser": f"{MOD}:{name}", "model": f"{MOD}:{name}.geo",
                            "texture": tex(""), "layers": off + r["layers"][""]},
                           {"aspects": [ASPECT, "shiny"], "texture": tex("_shiny"), "layers": off + r["layers"]["_shiny"]}]
-            for sfx in man_layers:
-                if r["layers"][sfx]:
-                    man_layers[sfx] = [{"original": None, "emissive": True, "retextured": tex(f"{sfx}_glow_0")}]
+            for sfx in man_layers:                         # the preview's layers: the glow and/or the translucent shell
+                names = {l["name"] for l in r["layers"][sfx]}
+                man_layers[sfx] = ([{"original": None, "emissive": True, "retextured": tex(f"{sfx}_glow_0")}]
+                                   if "cobbleeffort_glow" in names else []) + \
+                                  ([{"original": None, "emissive": False, "retextured": tex(f"{sfx}_shell")}]
+                                   if "cobbleeffort_shell" in names else [])
         else:
             tex_dir = RES / "assets" / MOD / "textures" / "pokemon" / "regional" / c["folder"]
             tex_dir.mkdir(parents=True, exist_ok=True)
@@ -515,7 +565,8 @@ def main():
                                   + (" (hidden)" if x.startswith("h:") else "") for x in c["abilities"]),
             "look": c["look"], "entry": c["entry"],
             "how": [f"Wild: {bucket} in {c['how_where']}."] +
-                   ([(f"Evolves into {c['evolve'][0].split(':')[1].title()} at level {c['evolve'][1]}." if ":" in c["evolve"][0]
+                   ([(f"Evolves into the CobbleEffort {c['evolve'][0].title()} when traded." if c["evolve"][1] == "trade"
+                      else f"Evolves into {c['evolve'][0].split(':')[1].title()} at level {c['evolve'][1]}." if ":" in c["evolve"][0]
                       else f"Evolves into the CobbleEffort {c['evolve'][0].title()} at level {c['evolve'][1]}.")]
                     if c["evolve"] else []),
             "stats": [s["hp"], s["attack"], s["defence"], s["special_attack"], s["special_defence"], s["speed"]]})

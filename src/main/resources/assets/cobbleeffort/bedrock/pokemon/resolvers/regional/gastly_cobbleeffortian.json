@@ -1,0 +1,71 @@
+{
+  "species": "cobblemon:gastly",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": [
+        "cobbleeffortian"
+      ],
+      "poser": "cobbleeffort:gastly_cobbleeffortian",
+      "model": "cobbleeffort:gastly_cobbleeffortian.geo",
+      "texture": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_glow_0.png",
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_glow_1.png",
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "cobbleeffortian",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/regional/0092_gastly/gastly_cobbleeffortian_shiny_shell.png"
+        }
+      ]
+    }
+  ]
+}

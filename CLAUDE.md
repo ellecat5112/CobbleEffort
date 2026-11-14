@@ -208,6 +208,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Foongus/Amoonguss (Grass/Steel Phillips-head screw mushrooms, `_screw.py`: `capf` cross slot + rivets, `threadf`
   slanted threads, `screw()` tapering threaded shafts, `facef` spiral eyes; the user's art, artist not named):
   underground (canSeeSky false, maxY) and mineshaft (`structures`) spawns.
+  Gastly/Haunter/Gengar (Ghost/Fire hellfire forms, after @tomats_art's art; `_hellfire.py`: palette, `gas()` glowing
+  translucent puffs, `flames()` fans of flame spikes, `red_spotted()`): FIRE_REPLACE swaps poison moves for fire ones,
+  spawns HELLFIRE = hot biomes at night + the Nether (`dimensions` the_nether, `#minecraft:is_nether`). LINE `evolve`
+  may be (next, "trade", learn): a trade evolution (Haunter -> Gengar). The preview manifest lists glow and shell layers.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).
