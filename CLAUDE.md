@@ -221,6 +221,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Sawk/Throh; resolvers order 5 pin `<sp>_gi` box models. The Master's Gi = echo shard custom_data
   {cobbleeffort_gi: "masters_gi"} (cmd 10; its override is appended last in fossils.build: overrides need ascending
   custom_model_data), shaped recipe, `dojo` structure (chest loot). Shaders take the face as the keyword `face`.
+  Tardigrub -> Aristograd (#3148-3149, line "tardigrade", `models/_tardi.py`: palette, `face_ring()` mouth ring in a
+  black X, `grub(m, bone, c, s, P, leg_bone, head_bone)` = a whole Tardigrub at any scale; @victorious_trainer's Pokémon
+  Victory art, names kept): Water/Bug at 35, 8 legs `leg_<n>_<side>`; Aristograd = sliced ball with four pods painted
+  by angle (PODS directions), mini Tardigrubs on `pod_*` bones in two; ability Cryptobiosis (once per battle, a KO hit
+  leaves 1 HP, `target.m.cryptobiosis`); move Grub Volley (dragondarts base, Bug, smartTarget). Tested: tardi_sim.js.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).

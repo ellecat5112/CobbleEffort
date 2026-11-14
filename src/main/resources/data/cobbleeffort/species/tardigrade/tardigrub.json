@@ -1,0 +1,160 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3148,
+ "name": "Tardigrub",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.tardigrub.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "cryptobiosis",
+  "waterveil",
+  "h:shellarmor"
+ ],
+ "eggGroups": [
+  "water_1",
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 45,
+  "defence": 70,
+  "special_attack": 30,
+  "special_defence": 50,
+  "speed": 25
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 58,
+ "experienceGroup": "medium_slow",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.18
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.3
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:moss_block",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:slime_ball",
+    "percentage": 10.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:watergun",
+  "4:defensecurl",
+  "8:bugbite",
+  "12:bubblebeam",
+  "16:rollout",
+  "20:aquaring",
+  "24:lunge",
+  "28:irondefense",
+  "32:liquidation",
+  "egg:curse",
+  "egg:stockpile",
+  "egg:recover",
+  "egg:acidarmor",
+  "egg:mudshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterpulse",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:scald",
+  "tm:bugbuzz",
+  "tm:xscissor",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:bugbite",
+  "tm:strugglebug",
+  "tm:uturn",
+  "tm:irondefense",
+  "tm:bodyslam",
+  "tm:rollout",
+  "tm:icywind",
+  "tm:icebeam",
+  "tm:dig",
+  "tm:bulldoze",
+  "tm:endure",
+  "tm:takedown",
+  "tm:skittersmack"
+ ],
+ "evolutions": [
+  {
+   "id": "tardigrub_aristograd",
+   "variant": "level_up",
+   "result": "cobbleeffort:aristograd",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "grubvolley"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ]
+}

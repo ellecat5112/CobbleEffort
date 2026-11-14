@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "aristograd-wetlands",
+   "pokemon": "cobbleeffort:aristograd",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "35-50",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_river"
+    ]
+   }
+  }
+ ]
+}

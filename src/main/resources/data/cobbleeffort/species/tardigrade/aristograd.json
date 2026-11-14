@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3149,
+ "name": "Aristograd",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": 0.5,
+ "height": 16,
+ "weight": 2650,
+ "pokedex": [
+  "cobbleeffort.species.aristograd.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "cryptobiosis",
+  "waterveil",
+  "h:shellarmor"
+ ],
+ "eggGroups": [
+  "water_1",
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 105,
+  "attack": 95,
+  "defence": 115,
+  "special_attack": 55,
+  "special_defence": 95,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 182,
+ "experienceGroup": "medium_slow",
+ "catchRate": 60,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.16,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.16
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.3
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:moss_block",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:grubvolley",
+  "1:tackle",
+  "1:watergun",
+  "4:defensecurl",
+  "8:bugbite",
+  "12:bubblebeam",
+  "16:rollout",
+  "20:aquaring",
+  "24:lunge",
+  "28:irondefense",
+  "32:liquidation",
+  "35:grubvolley",
+  "40:bodypress",
+  "46:wavecrash",
+  "52:firstimpression",
+  "58:shellsmash",
+  "egg:curse",
+  "egg:stockpile",
+  "egg:recover",
+  "egg:acidarmor",
+  "egg:mudshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterpulse",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:scald",
+  "tm:bugbuzz",
+  "tm:xscissor",
+  "tm:lunge",
+  "tm:pounce",
+  "tm:bugbite",
+  "tm:strugglebug",
+  "tm:uturn",
+  "tm:irondefense",
+  "tm:bodyslam",
+  "tm:rollout",
+  "tm:icywind",
+  "tm:icebeam",
+  "tm:dig",
+  "tm:bulldoze",
+  "tm:endure",
+  "tm:takedown",
+  "tm:skittersmack",
+  "tm:bodypress",
+  "tm:heavyslam",
+  "tm:wavecrash",
+  "tm:hydropump",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:earthquake",
+  "tm:megahorn"
+ ],
+ "preEvolution": "cobbleeffort:tardigrub"
+}

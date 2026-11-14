@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 163 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 165 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3243,6 +3243,24 @@ cobbleeffort:cavitot.
     changes.
   * Master's Gi: crafted from six White Wool, a Gold Ingot, a Black Belt and a Diamond, or found in
     dojo chests.
+
+#3148 TARDIGRUB  (Water / Bug; Cryptobiosis (its own: once per battle, a hit that would knock it out leaves it at 1 HP) / Water Veil / Shell Armor (hidden))
+  a plump glossy teal tardigrade with a segmented back, a red mouth ring in a black X on its blunt
+  face and four pairs of stubby legs
+  Stats: HP 60  Atk 45  Def 70  SpA 30  SpD 50  Spe 25  (total 280)
+  Pokedex: "It lives in damp moss and puddles. When the water dries up it curls into a husk and
+  waits, for years if it must; a single drop of rain brings it back to life."
+  * Wild: common in swamps, rivers and lakes, and in lush caves.
+  * Evolves into Aristograd at level 35, learning Grub Volley.
+
+#3149 ARISTOGRAD  (Water / Bug; Cryptobiosis (its own: once per battle, a hit that would knock it out leaves it at 1 HP) / Water Veil / Shell Armor (hidden))
+  a great round white-and-lavender water bear with a pink mouth ring, eight stubby clawed legs and
+  four pods in its back with Tardigrubs peeking out
+  Stats: HP 105  Atk 95  Def 115  SpA 55  SpD 95  Spe 50  (total 515)
+  Pokedex: "It carries its young in four pods in its back. In battle it fires them at its foes two
+  at a time; the little ones bounce off, scurry back and climb in again, thrilled."
+  * Evolve Tardigrub at level 35. It learns Grub Volley when it evolves.
+  * Wild: rare in swamps and rivers.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

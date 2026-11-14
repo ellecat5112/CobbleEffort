@@ -3446,6 +3446,55 @@ SPECIES.update({
 })
 LINES["cornera_fighters"] = ["chawp", "kiq"]
 
+# --- Tardigrub -> Aristograd (#3148-3149, @victorious_trainer's Pokémon Victory art, names kept; the user's idea): a
+# tardigrade and the great water bear that carries its young in four pods in its back and launches them at its foes
+# like Dragapault's darts (Grub Volley). Ability Cryptobiosis: tardigrades survive almost anything.
+TARDI = dict(male=0.5, egg_groups=["water_1", "bug"], friendship=50, growth="medium_slow",
+             abilities=["cryptobiosis", "waterveil", "h:shellarmor"],
+             ability_names="Cryptobiosis (its own: once per battle, a hit that would knock it out leaves it at 1 HP) / "
+                           "Water Veil / Shell Armor (hidden)")
+TARDI_EARLY = [(1, "tackle"), (1, "watergun"), (4, "defensecurl"), (8, "bugbite"), (12, "bubblebeam"), (16, "rollout"),
+               (20, "aquaring"), (24, "lunge"), (28, "irondefense"), (32, "liquidation")]
+TARDI_TM = BASIC_TM + ["surf", "waterpulse", "raindance", "chillingwater", "liquidation", "scald", "bugbuzz", "xscissor",
+                       "lunge", "pounce", "bugbite", "strugglebug", "uturn", "irondefense", "bodyslam", "rollout",
+                       "icywind", "icebeam", "dig", "bulldoze", "endure", "takedown", "skittersmack"]
+SPECIES.update({
+    "tardigrub": {
+        "dex": 3148, "name": "Tardigrub", "line": "tardigrade", "types": ["water", "bug"], **TARDI,
+        "stats": stats(60, 45, 70, 30, 50, 25), "ev": evs(defence=1), "catch": 190, "exp": 58,
+        "height": 4, "weight": 120, "shoulder": True, "walk": 0.18, "swims": True,
+        "moves": TARDI_EARLY,
+        "tm": TARDI_TM, "egg": ["curse", "stockpile", "recover", "acidarmor", "mudshot"],
+        "evolve": ("aristograd", 35, ["grubvolley"]),
+        "drops": [("minecraft:moss_block", "0-1", None), ("minecraft:slime_ball", None, 10.0)],
+        "entry": ("It lives in damp moss and puddles. When the water dries up it curls into a husk and waits, for years "
+                  "if it must; a single drop of rain brings it back to life."),
+        "spawns": [route_spawn("tardigrub-wetlands", "common", "3-30", 6.0,
+                               ["#cobblemon:is_swamp", "#cobblemon:is_river", "#cobblemon:is_freshwater"]),
+                   spawn("tardigrub-lush", "common", "3-30", 6.0, {"canSeeSky": False, "biomes": ["minecraft:lush_caves"]})],
+        "how": ["Wild: common in swamps, rivers and lakes, and in lush caves.",
+                "Evolves into Aristograd at level 35, learning Grub Volley."],
+    },
+    "aristograd": {
+        "dex": 3149, "name": "Aristograd", "line": "tardigrade", "types": ["water", "bug"], **TARDI,
+        "stats": stats(105, 95, 115, 55, 95, 50), "ev": evs(defence=2), "catch": 60, "exp": 182,
+        "height": 16, "weight": 2650, "shoulder": False, "walk": 0.16, "swims": True,
+        "moves": [(1, "grubvolley")] + TARDI_EARLY + [(35, "grubvolley"), (40, "bodypress"), (46, "wavecrash"),
+                                                      (52, "firstimpression"), (58, "shellsmash")],
+        "tm": TARDI_TM + ["bodypress", "heavyslam", "wavecrash", "hydropump", "gigaimpact", "hyperbeam", "earthquake",
+                          "megahorn"],
+        "egg": ["curse", "stockpile", "recover", "acidarmor", "mudshot"],
+        "evolve": None,
+        "drops": [("minecraft:moss_block", "1-2", None), ("minecraft:slime_ball", "0-2", None)],
+        "entry": ("It carries its young in four pods in its back. In battle it fires them at its foes two at a time; "
+                  "the little ones bounce off, scurry back and climb in again, thrilled."),
+        "spawns": [route_spawn("aristograd-wetlands", "rare", "35-50", 1.0, ["#cobblemon:is_swamp", "#cobblemon:is_river"])],
+        "how": ["Evolve Tardigrub at level 35. It learns Grub Volley when it evolves.",
+                "Wild: rare in swamps and rivers."],
+    },
+})
+LINES["tardigrade"] = ["tardigrub", "aristograd"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -3589,6 +3638,25 @@ num: -3011
         "lang": "One claw imitates the titan of the land, the other the titan of the sea: its Water-type moves get the "
                 "same-type bonus as well.",
     },
+    "cryptobiosis": {
+        "name": "Cryptobiosis",
+        "js": """{
+onDamagePriority: -30,
+onDamage(damage, target, source, effect) {
+  if (!effect || effect.effectType !== 'Move' || damage < target.hp || target.hp <= 1 || target.m.cryptobiosis) return damage;
+  target.m.cryptobiosis = true;
+  this.add('-ability', target, 'Cryptobiosis');
+  return target.hp - 1;
+},
+flags: {breakable: 1},
+name: "Cryptobiosis",
+rating: 3,
+num: -3020
+}
+""",
+        "lang": "Once per battle, when a hit would knock the Pokémon out, it curls up into a dried husk and survives "
+                "with 1 HP, like a tardigrade.",
+    },
     "pharaohscurse": {
         "name": "Pharaoh's Curse",
         "js": """{
@@ -3663,6 +3731,16 @@ contestType: "Clever"
             "cobblemon.battle.sideend.opponent.devoniandrift": "The ancient spores around the opposing team settled!",
             "cobblemon.battle.damage.devoniandrift": "%1$s is weighed down by the ancient spores!",
         },
+    },
+    "grubvolley": {
+        "base": "dragondarts", "num": -3043, "name": "Grub Volley", "type": "Bug", "category": "Physical",
+        "basePower": 50, "accuracy": 100, "pp": 10, "multihit": 2, "smartTarget": True,
+        "flags": {"protect": 1, "mirror": 1, "metronome": 1, "noparentalbond": 1}, "contestType": "Cute",
+        "desc": "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In "
+                "Double Battles, this move is used once against each opponent if possible.",
+        "shortDesc": "Hits 2 times. In Doubles, hits each foe once.",
+        "lang": "The user launches two of its young from the pods in its back at the target. In a Double Battle it "
+                "fires one at each foe.",
     },
     "joeyslingshot": {
         "base": "populationbomb", "num": -3010, "name": "Joey Slingshot", "type": "Normal", "category": "Physical",

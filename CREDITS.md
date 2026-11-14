@@ -288,6 +288,8 @@ The CobbleEffortian (Ghost/Fire) Gastly, Haunter and Gengar designs are after @t
 and Pokédex entries are our own.
 Chawp, Kiq and the Gi forms of Sawk, Throh and Kiq are after @magikdex's Cornera region art (Chawp and Kiq keep
 their names); the models, moves, the Master's Gi and the dojo are our own.
+Tardigrub and Aristograd are after @victorious_trainer's Pokémon Victory art (names kept); the models, Cryptobiosis,
+Grub Volley and Pokédex entries are our own.
 
 ## Code and data
 

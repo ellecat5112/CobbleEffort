@@ -1,0 +1,45 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tardigrub-wetlands",
+   "pokemon": "cobbleeffort:tardigrub",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-30",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_river",
+     "#cobblemon:is_freshwater"
+    ]
+   }
+  },
+  {
+   "id": "tardigrub-lush",
+   "pokemon": "cobbleeffort:tardigrub",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-30",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": false,
+    "biomes": [
+     "minecraft:lush_caves"
+    ]
+   }
+  }
+ ]
+}
