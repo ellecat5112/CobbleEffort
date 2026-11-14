@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 178 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 179 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3393,6 +3393,18 @@ cobbleeffort:cavitot.
   * Put a Dracovish or Arctovish in a CobbleEffort: Distortion DNA machine with a DNA Analyzer and a
     DNA Purifier beside it, pick Dunclovish at the Purifier and purify it (it keeps its level,
     nature and moves).
+
+#3159 UFLY  (Bug / Psychic; Neon Swarm (its own: from level 20, while above a quarter of its HP, it calls its swarm and fights in its Swarm Form))
+  a plump little purple bug with a lime-green back, two big translucent wings standing up like ears,
+  great teal compound eyes and glowing teal spots
+  Stats: HP 40  Atk 25  Def 35  SpA 45  SpD 35  Spe 50  (total 230)
+  Pokedex: "On moonless nights strange lights hover over the fields and vanish: a single Ufly's glow
+  is faint, but when it calls, its swarm gathers into a great humming saucer of neon light."
+  * Wild: common at night in plains, grasslands, swamps and forests, and everywhere on new-moon
+    nights.
+  * Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Neon Swarm
+    calls its swarm and it becomes a ~10-block flying saucer made of thousands of Uflys (like
+    Wishiwashi).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

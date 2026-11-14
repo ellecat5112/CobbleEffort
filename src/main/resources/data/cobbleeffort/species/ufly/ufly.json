@@ -1,0 +1,181 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3159,
+ "name": "Ufly",
+ "primaryType": "bug",
+ "secondaryType": "psychic",
+ "maleRatio": 0.5,
+ "height": 4,
+ "weight": 20,
+ "pokedex": [
+  "cobbleeffort.species.ufly.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "neonswarm",
+  "h:neonswarm"
+ ],
+ "eggGroups": [
+  "bug"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 25,
+  "defence": 35,
+  "special_attack": 45,
+  "special_defence": 35,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 61,
+ "experienceGroup": "fast",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.9,
+  "height": 0.8,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:glow_berries",
+    "percentage": 10.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:confusion",
+  "1:stringshot",
+  "5:supersonic",
+  "9:strugglebug",
+  "13:psybeam",
+  "17:confuseray",
+  "21:lightscreen",
+  "25:psyshock",
+  "29:tailglow",
+  "33:bugbuzz",
+  "37:psychic",
+  "41:quiverdance",
+  "45:futuresight",
+  "49:expandingforce",
+  "egg:tailglow",
+  "egg:pollenpuff",
+  "egg:trick",
+  "egg:moonlight",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:calmmind",
+  "tm:dazzlinggleam",
+  "tm:energyball",
+  "tm:thunderwave",
+  "tm:trickroom",
+  "tm:swift",
+  "tm:strugglebug",
+  "tm:pounce",
+  "tm:lunge",
+  "tm:skittersmack",
+  "tm:futuresight",
+  "tm:expandingforce",
+  "tm:psychicterrain",
+  "tm:hyperbeam",
+  "tm:gigaimpact",
+  "tm:solarbeam",
+  "tm:shadowball",
+  "tm:allyswitch",
+  "tm:imprison"
+ ],
+ "forms": [
+  {
+   "name": "Swarm",
+   "aspects": [
+    "swarm-form"
+   ],
+   "battleOnly": true,
+   "evolutions": [],
+   "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 115,
+    "special_attack": 140,
+    "special_defence": 125,
+    "speed": 75
+   },
+   "baseExperienceYield": 220,
+   "height": 100,
+   "weight": 9999,
+   "labels": [
+    "cobbleeffort",
+    "custom"
+   ],
+   "baseScale": 3.3,
+   "hitbox": {
+    "width": 3.0,
+    "height": 2.6,
+    "fixed": false
+   }
+  }
+ ]
+}

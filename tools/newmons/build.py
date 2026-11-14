@@ -3533,6 +3533,46 @@ SPECIES.update({
 })
 LINES["starling"] = ["sparkling"]
 
+# --- Ufly (#3159, after @maumesdex's art, name kept): another solo/swarm Pokémon, Bug/Psychic. A plump little neon bug;
+# its ability Neon Swarm (Schooling, like Murmuration) turns it, from level 20 and while above a quarter of its HP, into
+# its battle-only Swarm Form: thousands of Uflys as one ~10-block flying saucer on a stalk planted in an arch.
+SPECIES.update({
+    "ufly": {
+        "dex": 3159, "name": "Ufly", "line": "ufly", "types": ["bug", "psychic"], "friendship": 70,
+        "growth": "fast", "catch": 120, "male": 0.5, "egg_groups": ["bug"],
+        "abilities": ["neonswarm", "h:neonswarm"],
+        "ability_names": "Neon Swarm (its own: from level 20, while above a quarter of its HP, it calls its swarm and "
+                         "fights in its Swarm Form)",
+        "stats": stats(40, 25, 35, 45, 35, 50), "ev": evs(special_attack=1), "exp": 61,
+        "height": 4, "weight": 20, "shoulder": True, "walk": 0.3, "fly": True,
+        "forms": [{"name": "Swarm", "aspects": ["swarm-form"], "battleOnly": True, "evolutions": [],
+                   "baseStats": stats(40, 80, 115, 140, 125, 75), "baseExperienceYield": 220,
+                   "height": 100, "weight": 9999, "labels": ["cobbleeffort", "custom"]}],
+        "form_models": [("swarm-form", "ufly_swarm")],
+        "moves": [(1, "tackle"), (1, "confusion"), (1, "stringshot"), (5, "supersonic"), (9, "strugglebug"),
+                  (13, "psybeam"), (17, "confuseray"), (21, "lightscreen"), (25, "psyshock"), (29, "tailglow"),
+                  (33, "bugbuzz"), (37, "psychic"), (41, "quiverdance"), (45, "futuresight"), (49, "expandingforce")],
+        "tm": BASIC_TM + ["psychic", "psyshock", "bugbuzz", "uturn", "lightscreen", "reflect", "calmmind",
+                          "dazzlinggleam", "energyball", "thunderwave", "trickroom", "swift", "strugglebug", "pounce",
+                          "lunge", "skittersmack", "futuresight", "expandingforce", "psychicterrain", "hyperbeam",
+                          "gigaimpact", "solarbeam", "shadowball", "allyswitch", "imprison"],
+        "egg": ["tailglow", "pollenpuff", "trick", "moonlight"],
+        "evolve": None,
+        "drops": [("minecraft:glowstone_dust", "0-2", None), ("minecraft:glow_berries", None, 10.0)],
+        "entry": ("On moonless nights strange lights hover over the fields and vanish: a single Ufly's glow is faint, "
+                  "but when it calls, its swarm gathers into a great humming saucer of neon light."),
+        "spawns": [route_spawn("ufly-fields", "common", "3-30", 8.0,
+                               ["#cobblemon:is_plains", "#cobblemon:is_grassland", "#cobblemon:is_swamp",
+                                "#cobblemon:is_forest"], timeRange="night"),
+                   route_spawn("ufly-new-moon", "common", "10-40", 14.0, ["#cobblemon:is_overworld"],
+                               timeRange="night", moonPhase=4)],
+        "how": ["Wild: common at night in plains, grasslands, swamps and forests, and everywhere on new-moon nights.",
+                "Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Neon Swarm calls its "
+                "swarm and it becomes a ~10-block flying saucer made of thousands of Uflys (like Wishiwashi)."],
+    },
+})
+LINES["ufly"] = ["ufly"]
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.
@@ -4047,6 +4087,15 @@ import gi                                                        # Gi forms, the
 CUSTOM_ABILITIES.update(EVO_ABILITIES)
 CUSTOM_MOVES.update(EVO_MOVES)
 CUSTOM_MOVES.update(gi.GI_MOVES)
+# Neon Swarm (Ufly): Murmuration's Schooling script on Ufly's own Showdown names
+CUSTOM_ABILITIES["neonswarm"] = {
+    "name": "Neon Swarm",
+    "js": CUSTOM_ABILITIES["murmuration"]["js"].replace("cobbleeffort:Sparkling", "cobbleeffort:Ufly")
+          .replace("cobbleeffortsparkling", "cobbleeffortufly").replace("Murmuration", "Neon Swarm")
+          .replace("num: -3021", "num: -3070"),
+    "lang": "When it has a lot of HP, the Pokémon calls its swarm and fights as one great saucer of neon light. It turns "
+            "back into a single Ufly when its HP becomes low. Only works from level 20.",
+}
 
 def ascii_name(name):
     """The species json's name, in plain ASCII like Cobblemon's own ("Flabebe"): Cobblemon builds the lang key and the

@@ -3616,6 +3616,82 @@
   "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny.png"
  },
  {
+  "species": "ufly",
+  "folder": "3159_ufly",
+  "model": "cobbleeffort:ufly.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "ufly_shiny",
+  "folder": "3159_ufly",
+  "model": "cobbleeffort:ufly.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "ufly_swarm",
+  "folder": "3159_ufly",
+  "model": "cobbleeffort:ufly_swarm.geo",
+  "original": null,
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm_shell.png"
+   }
+  ],
+  "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm.png"
+ },
+ {
+  "species": "ufly_swarm_shiny",
+  "folder": "3159_ufly",
+  "model": "cobbleeffort:ufly_swarm.geo",
+  "original": null,
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm_shiny_shell.png"
+   }
+  ],
+  "retextured": "cobbleeffort:textures/pokemon/3159_ufly/ufly_swarm_shiny.png"
+ },
+ {
   "species": "kidlope",
   "folder": "3151_kidlope",
   "model": "cobbleeffort:kidlope.geo",
