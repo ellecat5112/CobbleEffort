@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:sunflare",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sunflare",
+   "model": "cobbleeffort:sunflare.geo",
+   "texture": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_glow_0.png",
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_glow_1.png",
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

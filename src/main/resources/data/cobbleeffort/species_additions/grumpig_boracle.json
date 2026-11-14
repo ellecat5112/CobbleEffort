@@ -1,0 +1,25 @@
+{
+ "target": "cobblemon:grumpig",
+ "evolutions": [
+  {
+   "id": "grumpig_boracle",
+   "variant": "level_up",
+   "result": "cobbleeffort:boracle",
+   "consumeHeldItem": true,
+   "permanent": true,
+   "learnableMoves": [
+    "futuresight"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:twisted_spoon"
+    }
+   ]
+  }
+ ]
+}

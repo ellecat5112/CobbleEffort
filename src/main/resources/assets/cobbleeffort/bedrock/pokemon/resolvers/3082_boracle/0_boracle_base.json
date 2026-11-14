@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:boracle",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:boracle",
+   "model": "cobbleeffort:boracle.geo",
+   "texture": "cobbleeffort:textures/pokemon/3082_boracle/boracle.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

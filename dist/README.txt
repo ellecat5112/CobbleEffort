@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 89 new Pokemon.
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 91 new Pokemon.
 Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
 lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
 through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -2526,6 +2526,23 @@ cobbleeffort:cavitot.
   Pokedex: "It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the
   light of its little golden lure, thinking it is a lantern on the shore, and are never seen again."
   * Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves.
+
+#3082 BORACLE  (Psychic; Forewarn / Thick Fat / Own Tempo (hidden))
+  a heavy charcoal pig seer on a coiled spring with a purple head under a white pointed hood, a pink
+  snout, white tusks, a necklace of black pearls and a pink crystal ball in a dripping veil of light
+  Stats: HP 100  Atk 50  Def 80  SpA 125  SpD 130  Spe 65  (total 550)
+  Pokedex: "It gazes into its crystal ball and tells the fortunes of anyone who brings it food. Its
+  predictions are always right, though it is careful to say only the good ones out loud."
+  * Level up a Grumpig at level 45 or higher while it holds a Twisted Spoon (the spoon is used up).
+    It learns Future Sight when it evolves.
+
+#3083 SUNFLARE  (Grass / Fire; Solar Power / Chlorophyll / Drought (hidden))
+  a great sunflower with flame-shaped orange-red petals, a dark seed-head face with closed happy
+  eyes, a yellow ring of seeds, a hooked green stem, ember-tipped leaves and little green feet
+  Stats: HP 85  Atk 80  Def 70  SpA 130  SpD 95  Spe 65  (total 525)
+  Pokedex: "On the hottest days of summer its petals burst into flame. It turns its burning face to
+  follow the sun across the sky and stores so much heat that it glows all through the night."
+  * Use a Fire Stone on a Sunflora. It learns Heat Wave when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

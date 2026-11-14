@@ -1722,5 +1722,61 @@
     "retextured": "cobbleeffort:textures/pokemon/3081_phanturn/phanturn_shiny_glow_0.png"
    }
   ]
+ },
+ {
+  "species": "boracle",
+  "folder": "3082_boracle",
+  "model": "cobbleeffort:boracle.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3082_boracle/boracle.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "boracle_shiny",
+  "folder": "3082_boracle",
+  "model": "cobbleeffort:boracle.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3082_boracle/boracle_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "sunflare",
+  "folder": "3083_sunflare",
+  "model": "cobbleeffort:sunflare.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "sunflare_shiny",
+  "folder": "3083_sunflare",
+  "model": "cobbleeffort:sunflare.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3083_sunflare/sunflare_shiny_glow_0.png"
+   }
+  ]
  }
 ]

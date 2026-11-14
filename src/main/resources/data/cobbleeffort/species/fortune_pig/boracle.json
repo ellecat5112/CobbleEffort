@@ -1,0 +1,147 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3082,
+ "name": "Boracle",
+ "primaryType": "psychic",
+ "maleRatio": 0.5,
+ "height": 15,
+ "weight": 1450,
+ "pokedex": [
+  "cobbleeffort.species.boracle.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "forewarn",
+  "thickfat",
+  "h:owntempo"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 50,
+  "defence": 80,
+  "special_attack": 125,
+  "special_defence": 130,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 2,
+  "speed": 0
+ },
+ "baseExperienceYield": 250,
+ "experienceGroup": "fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.6,
+ "hitbox": {
+  "width": 1.5,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:porkchop",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "cobblemon:twisted_spoon",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:splash",
+  "1:futuresight",
+  "1:psybeam",
+  "1:teeterdance",
+  "5:confusion",
+  "10:rest",
+  "15:snore",
+  "20:zenheadbutt",
+  "25:powergem",
+  "30:psychic",
+  "35:bounce",
+  "40:calmmind",
+  "45:futuresight",
+  "50:storedpower",
+  "55:psyshock",
+  "60:trickroom",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:trickroom",
+  "tm:shadowball",
+  "tm:powergem",
+  "tm:dazzlinggleam",
+  "tm:energyball",
+  "tm:focusblast",
+  "tm:icywind",
+  "tm:taunt",
+  "tm:trick",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:magicroom",
+  "tm:wonderroom",
+  "tm:nastyplot",
+  "tm:storedpower",
+  "tm:bodyslam",
+  "tm:bounce",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:expandingforce",
+  "tm:psychicterrain"
+ ],
+ "preEvolution": "cobblemon:grumpig"
+}

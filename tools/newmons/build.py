@@ -1988,6 +1988,70 @@ SPECIES.update({
 })
 LINES["phantom_lure"] = ["phanturn"]
 
+# Boracle and Sunflare: evolutions for Grumpig and Sunflora (the user's art, artists and names not given; names ours)
+SPECIES.update({
+    "boracle": {
+        "dex": 3082, "name": "Boracle", "line": "fortune_pig", "types": ["psychic"],
+        "male": 0.5, "egg_groups": ["field"], "friendship": 50, "catch": 45, "growth": "fast",
+        "abilities": ["forewarn", "thickfat", "h:owntempo"],
+        "ability_names": "Forewarn / Thick Fat / Own Tempo (hidden)",
+        "stats": stats(100, 50, 80, 125, 130, 65), "ev": evs(special_attack=1, special_defence=2), "exp": 250,
+        "height": 15, "weight": 1450, "shoulder": False, "walk": 0.3,
+        "pre": "cobblemon:grumpig",
+        # Grumpig evolves at level 45 or more while holding a Twisted Spoon (used up; permanent, like Happiny's)
+        "evolves_from": ("cobblemon:grumpig", "grumpig_boracle",
+                         {"id": "grumpig_boracle", "variant": "level_up", "result": "cobbleeffort:boracle",
+                          "consumeHeldItem": True, "permanent": True, "learnableMoves": ["futuresight"],
+                          "requirements": [{"variant": "level", "minLevel": 45},
+                                           {"variant": "held_item", "itemCondition": "cobblemon:twisted_spoon"}]}),
+        "moves": [(1, "splash"), (1, "futuresight"), (1, "psybeam"), (1, "teeterdance"), (5, "confusion"),
+                  (10, "rest"), (15, "snore"), (20, "zenheadbutt"), (25, "powergem"), (30, "psychic"), (35, "bounce"),
+                  (40, "calmmind"), (45, "futuresight"), (50, "storedpower"), (55, "psyshock"), (60, "trickroom")],
+        "tm": BASIC_TM + ["psychic", "psyshock", "calmmind", "trickroom", "shadowball", "powergem", "dazzlinggleam",
+                          "energyball", "focusblast", "icywind", "taunt", "trick", "lightscreen", "reflect",
+                          "magicroom", "wonderroom", "nastyplot", "storedpower", "bodyslam", "bounce",
+                          "gigaimpact", "hyperbeam", "expandingforce", "psychicterrain"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:amethyst_shard", "1-2", None), ("minecraft:porkchop", "0-1", None),
+                  ("cobblemon:twisted_spoon", None, 2.5)],
+        "entry": ("It gazes into its crystal ball and tells the fortunes of anyone who brings it food. Its "
+                  "predictions are always right, though it is careful to say only the good ones out loud."),
+        "spawns": [],
+        "how": ["Level up a Grumpig at level 45 or higher while it holds a Twisted Spoon (the spoon is used up). "
+                "It learns Future Sight when it evolves."],
+    },
+    "sunflare": {
+        "dex": 3083, "name": "Sunflare", "line": "blaze_bloom", "types": ["grass", "fire"],
+        "male": 0.5, "egg_groups": ["grass"], "friendship": 50, "catch": 60, "growth": "medium_slow",
+        "abilities": ["solarpower", "chlorophyll", "h:drought"],
+        "ability_names": "Solar Power / Chlorophyll / Drought (hidden)",
+        "stats": stats(85, 80, 70, 130, 95, 65), "ev": evs(special_attack=3), "exp": 230,
+        "height": 15, "weight": 220, "shoulder": False, "walk": 0.24,
+        "pre": "cobblemon:sunflora",
+        # Sunflora evolves when a Fire Stone is used on it
+        "evolves_from": ("cobblemon:sunflora", "sunflora_sunflare",
+                         {"id": "sunflora_sunflare", "variant": "item_interact", "result": "cobbleeffort:sunflare",
+                          "consumeHeldItem": False, "learnableMoves": ["heatwave"],
+                          "requiredContext": "cobblemon:fire_stone"}),
+        "moves": [(1, "absorb"), (1, "growth"), (1, "heatwave"), (1, "ember"), (5, "megadrain"), (10, "flamecharge"),
+                  (15, "razorleaf"), (20, "sunnyday"), (25, "gigadrain"), (30, "flamethrower"), (35, "petaldance"),
+                  (40, "synthesis"), (45, "heatwave"), (50, "solarbeam"), (55, "leafstorm"), (60, "overheat")],
+        "tm": BASIC_TM + ["solarbeam", "solarblade", "energyball", "gigadrain", "leafstorm", "grassknot", "sunnyday",
+                          "flamethrower", "fireblast", "heatwave", "overheat", "willowisp", "earthpower",
+                          "weatherball", "grassyterrain", "seedbomb", "bulletseed", "trailblaze", "flamecharge",
+                          "dazzlinggleam", "gigaimpact", "hyperbeam"],
+        "egg": [], "evolve": None,
+        "drops": [("minecraft:sunflower", "1-2", None), ("minecraft:wheat_seeds", "1-3", None),
+                  ("minecraft:blaze_powder", "0-1", None)],
+        "entry": ("On the hottest days of summer its petals burst into flame. It turns its burning face to follow the "
+                  "sun across the sky and stores so much heat that it glows all through the night."),
+        "spawns": [],
+        "how": ["Use a Fire Stone on a Sunflora. It learns Heat Wave when it evolves."],
+    },
+})
+LINES["fortune_pig"] = ["boracle"]
+LINES["blaze_bloom"] = ["sunflare"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {

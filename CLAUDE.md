@@ -258,6 +258,9 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   ("A. Fakemon", order -98, key afakemon).
   Phanturn (#3081, `models/phanturn.py`; the user's art, artist and name not given, our name): Ghost/Electric,
   Lanturn + Reaper Cloth (`evolves_from`, item_interact), a floater; golden pearl lures on swaying `lure_*` bones.
+  Boracle (#3082, Psychic; Grumpig at 45+ holding a Twisted Spoon: level_up, consume + permanent, spring coil of rods,
+  translucent crystal ball/veil = alpha colours) and Sunflare (#3083, Grass/Fire; Sunflora + Fire Stone; `disc()` =
+  a front-facing round disc of crossed boxes, glowing flame petals): the user's art, artists and names not given.
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

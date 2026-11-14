@@ -268,7 +268,8 @@ Zorneo region commission art by **@RedmondJake** (Zorneo region designs are used
 models, stats, moves and Pokédex entries are our own. Wigwoof, Wolfevel, Lycanmoon, Sounflame, Operbat, Nosfiretu, Fangfosh,
 Fishugly and Creepish (their names, designs, types and abilities) are after the fakemon art of the **A. Fakemon**
 fanpage; their models, stats, moves and Pokédex entries are our own. Phanturn (its design) is after art the user shared (artist not
-named); its name, model, stats, moves and Pokédex entry are our own.
+named); its name, model, stats, moves and Pokédex entry are our own. Boracle and Sunflare (their designs) are after art the user shared
+(artists not named); their names, models, stats, moves and Pokédex entries are our own.
 
 ## Code and data
 

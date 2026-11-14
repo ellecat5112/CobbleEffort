@@ -1469,6 +1469,20 @@ threads dangling glowing pearls and a little golden ghost-fish lure. **Use a Rea
 (it learns Hex). Volt Absorb or Cursed Body, hidden Illuminate; Spark, Hex, Electro Ball, Night Shade, Shadow Ball,
 Discharge, Thunderbolt, Poltergeist and Zap Cannon. Shiny: violet with silver pearls and a green eye.
 
+**Boracle** (Psychic), Grumpig's evolution, after art the user shared (artist not named; the name, boar + oracle, is
+ours): a heavy charcoal pig seer bouncing on a coiled spring under stacked white rings, a purple face under a white
+pointed hood, a necklace of black pearls and a pink crystal ball in a dripping veil of light. **Level up a Grumpig at 45
+or higher while it holds a Twisted Spoon** (the spoon is used up; it learns Future Sight). Forewarn or Thick Fat, hidden
+Own Tempo; Psybeam, Zen Headbutt, Power Gem, Psychic, Bounce, Calm Mind, Future Sight, Stored Power, Psyshock and Trick
+Room. Shiny: slate blue with a teal face and a cyan crystal ball.
+
+**Sunflare** (Grass/Fire), Sunflora's evolution, after art the user shared (artist not named; the name, sunflower +
+solar flare, is ours): a great sunflower whose petals have caught fire, a dark seed-head face with closed happy eyes in
+a ring of seeds, a hooked green stem and ember-tipped leaves. **Use a Fire Stone on a Sunflora** (it learns Heat Wave).
+Solar Power or Chlorophyll, hidden Drought; Ember, Mega Drain, Flame Charge, Razor Leaf, Sunny Day, Giga Drain,
+Flamethrower, Petal Dance, Synthesis, Heat Wave, Solar Beam, Leaf Storm and Overheat. Shiny: blue flames round a pale
+ring on a lime stem.
+
 <!-- newmons:start -->
 | # | Pokémon | Types | Abilities | HP / Atk / Def / SpA / SpD / Spe | Height / Weight | How to get it | Pokédex |
 |---|---|---|---|---|---|---|---|
@@ -1553,6 +1567,8 @@ Discharge, Thunderbolt, Poltergeist and Zap Cannon. Shiny: violet with silver pe
 | 3079 | **Fishugly** | Water / Ground | Torrent / Protean (hidden) | 68 / 80 / 72 / 55 / 60 / 70 | 2'7" (0.8 m) / 6 kg | Evolve Fangfosh at level 16. It learns Mud Shot when it evolves. Evolves into Creepish at level 36. | It wanders the riverbanks on its long fin-legs, staring at everything with its unblinking eyes. It buries itself in the mud to sleep, with only its grin showing. |
 | 3080 | **Creepish** | Water / Dark | Torrent / Protean (hidden) | 88 / 115 / 85 / 70 / 75 / 97 | 4'11" (1.5 m) / 90 kg | Evolve Fishugly at level 36. It learns Throat Chop when it evolves. | It lurks in dark lagoons with only its frill above the water. When it spreads the frill and raises its arms, even large Pokémon back away. |
 | 3081 | **Phanturn** | Ghost / Electric | Volt Absorb / Cursed Body / Illuminate (hidden) | 135 / 60 / 70 / 115 / 90 / 70 | 5'3" (1.6 m) / 30 kg | Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves. | It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the light of its little golden lure, thinking it is a lantern on the shore, and are never seen again. |
+| 3082 | **Boracle** | Psychic | Forewarn / Thick Fat / Own Tempo (hidden) | 100 / 50 / 80 / 125 / 130 / 65 | 4'11" (1.5 m) / 145 kg | Level up a Grumpig at level 45 or higher while it holds a Twisted Spoon (the spoon is used up). It learns Future Sight when it evolves. | It gazes into its crystal ball and tells the fortunes of anyone who brings it food. Its predictions are always right, though it is careful to say only the good ones out loud. |
+| 3083 | **Sunflare** | Grass / Fire | Solar Power / Chlorophyll / Drought (hidden) | 85 / 80 / 70 / 130 / 95 / 65 | 4'11" (1.5 m) / 22 kg | Use a Fire Stone on a Sunflora. It learns Heat Wave when it evolves. | On the hottest days of summer its petals burst into flame. It turns its burning face to follow the sun across the sky and stores so much heat that it glows all through the night. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)
