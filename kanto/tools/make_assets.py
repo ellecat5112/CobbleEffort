@@ -719,6 +719,9 @@ def build():
     import make_tar                                         # 0.6.0: tar, the overworld fluid (Petroleodd's fossil)
     make_tar.build()
     LANG.update(make_tar.LANG)
+    import make_ashtray                                     # 0.7.0: the Ashtray Wastes biome
+    make_ashtray.build()
+    LANG.update(make_ashtray.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

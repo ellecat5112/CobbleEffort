@@ -395,6 +395,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   is near, rewards on BATTLE_VICTORY of the wild actor): Hisui's five frenzied Nobles (seals, Hero Ribbon) and
   Alola's eight totem trials (league_teams.json `alola_totems`, trial stamps = the alola badge ids, MSD Z-Crystals).
   Built SavedData has a per-region `layout` (layoutOf): a changed layout rebuilds that region (Alola gyms -> trials).
+  0.7.0: the Ashtray Wastes (the user's design; `Ashtray.java`, `tools/make_ashtray.py`): an overworld biome added
+  WITHOUT touching the overworld's biome list: `MultiNoiseBiomeSourceMixin` (only the vanilla overworld preset,
+  `stable(OVERWORLD)`) swaps host biomes (plains, savanna(+plateau), desert, badlands) for `cobbleeffort_kanto:ashtray`
+  where a seeded value noise (CELL 64 quarts, threshold 0.68) is high, and adds it to `collectPossibleBiomes` (holder
+  + seed captured at SERVER_BEFORE_START, before levels exist) so its features generate. Biome json copies desert's
+  carvers/ores (feature order must stay consistent with other biomes: append new features, never reorder);
+  `AshtraySurfaceFeature` (top_layer_modification, per chunk) turns ground to ash, water to tar, clears plants;
+  `GiantCigaretteFeature` (giant / butt) draws tilted cylinders (reach capped at 12 so writes stay in the 3x3 chunk
+  window). Blocks: ash (ColoredFallingBlock), cigarette_paper/filter, cigarette_ember (light 12, smoke particles, hot
+  floor). Biome tags: `minecraft:is_overworld` + `cobbleeffort_kanto:is_ashtray` (for its future Pokémon spawns).
+  Check worldgen by parsing saved region files (`scratchpad/ashtray/region.py`) and the voxel renderer.
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.

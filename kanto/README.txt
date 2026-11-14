@@ -139,7 +139,19 @@ TAR (NEW in 0.6.0)
   - Scoop it up with an empty bucket: a Bucket of Tar is the fossil CobbleEffort's Petroleodd is revived from. Put it
     in Cobblemon's Fossil Analyzer like any fossil (the bucket goes in with it). It's in the Kanto creative tab.
 
+THE ASHTRAY WASTES (NEW in 0.7.0)
+  - A new overworld biome, nicotine-blighted: its ground is ash, its water is tar, no trees grow there (only the odd
+    dead bush), and giant cigarettes stick out of the ground at odd angles, filters buried, gold-ringed, their tips
+    smouldering (glowing, smoking and hot to stand on) or stubbed out in ash. Cigarette butts litter the ground between
+    them, and tar pools fill the hollows. Grey skies, a haze of drifting ash.
+  - It takes over patches of plains, savannas, deserts and badlands in new chunks (existing land doesn't change):
+    /locate biome cobbleeffort_kanto:ashtray
+  - New blocks: Ash (falls like sand), Cigarette Paper, Cigarette Filter and Cigarette Ember (glows, smokes, burns).
+  - Pokemon of its own are coming (spawn tag #cobbleeffort_kanto:is_ashtray).
+
 PLEASE TEST AND REPORT
+  0.7.0: find the Ashtray Wastes (/locate biome cobbleeffort_kanto:ashtray) and look around: ash ground, tar pools,
+  giant cigarettes. Does anything look wrong at its edges?
   0.6.0: find a tar lake or tar pit, fill a bucket, pour it out again, and revive Petroleodd from the bucket.
   0.5.0: find the great mountain and climb to the sculpture; in Hisui, do Pokemon appear in their Hisuian forms,
   and can you battle and calm the Nobles? In Alola, do the totems appear, and do you get the stamp and Z-Crystal?
@@ -158,6 +170,7 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.7.0: the Ashtray Wastes biome (ash ground, tar for water, giant cigarettes) and its four blocks.
   0.6.0: tar (fluid, Bucket of Tar, tar lakes, tar pits moved here from CobbleEffort); a Bucket of Tar revives
          CobbleEffort's Petroleodd at the Fossil Analyzer.
   0.5.0: Hisui (dimension, great mountain with the Arceus sculpture, Hisuian forms, five frenzied Noble boss arenas,

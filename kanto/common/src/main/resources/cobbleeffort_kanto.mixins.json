@@ -3,6 +3,6 @@
   "minVersion": "0.8",
   "package": "io.github.cobbleeffort.kanto.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["StructureTemplatePoolAccessor"],
+  "mixins": ["StructureTemplatePoolAccessor", "MultiNoiseBiomeSourceMixin"],
   "injectors": {"defaultRequire": 1}
 }
