@@ -290,6 +290,8 @@ Chawp, Kiq and the Gi forms of Sawk, Throh and Kiq are after @magikdex's Cornera
 their names); the models, moves, the Master's Gi and the dojo are our own.
 Tardigrub and Aristograd are after @victorious_trainer's Pokémon Victory art (names kept); the models, Cryptobiosis,
 Grub Volley and Pokédex entries are our own.
+Sparkling and its Swarm Form are the user's design, after art they shared (artist not named); the name, models,
+Murmuration and Pokédex entry are our own.
 
 ## Code and data
 

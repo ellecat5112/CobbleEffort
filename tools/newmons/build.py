@@ -3495,6 +3495,44 @@ SPECIES.update({
 })
 LINES["tardigrade"] = ["tardigrub", "aristograd"]
 
+# --- Sparkling (#3150, the user's design and art, artist not named; our name): a solo/swarm Pokémon like Wishiwashi.
+# A tiny Electric/Flying starling; its ability Murmuration (Schooling for birds) turns it, from level 20 and while above
+# a quarter of its HP, into its battle-only Swarm Form: thousands of Sparklings as one ~20-block-tall bird.
+SPECIES.update({
+    "sparkling": {
+        "dex": 3150, "name": "Sparkling", "line": "starling", "types": ["electric", "flying"], "friendship": 70,
+        "growth": "fast", "catch": 120, "male": 0.5, "egg_groups": ["flying"],
+        "abilities": ["murmuration", "h:murmuration"],
+        "ability_names": "Murmuration (its own: from level 20, while above a quarter of its HP, it calls its flock "
+                         "and fights in its Swarm Form)",
+        "stats": stats(45, 25, 20, 30, 25, 45), "ev": evs(speed=1), "exp": 61,
+        "height": 3, "weight": 30, "shoulder": True, "walk": 0.3, "fly": True,
+        "forms": [{"name": "Swarm", "aspects": ["swarm-form"], "battleOnly": True, "evolutions": [],
+                   "baseStats": stats(45, 120, 100, 145, 100, 110), "baseExperienceYield": 220,
+                   "height": 200, "weight": 9999, "labels": ["cobbleeffort", "custom"]}],
+        "form_models": [("swarm-form", "sparkling_swarm")],
+        "moves": [(1, "peck"), (1, "thundershock"), (1, "growl"), (5, "quickattack"), (9, "charge"), (13, "spark"),
+                  (17, "wingattack"), (21, "uproar"), (25, "airslash"), (29, "discharge"), (33, "acrobatics"),
+                  (37, "thunderbolt"), (41, "hurricane"), (45, "thunder"), (49, "bravebird")],
+        "tm": BASIC_TM + ["thunderbolt", "thunder", "voltswitch", "thunderwave", "electroball", "risingvoltage",
+                          "charge", "airslash", "aerialace", "acrobatics", "uturn", "fly", "roost", "tailwind",
+                          "hurricane", "bravebird", "dualwingbeat", "raindance", "uproar", "hypervoice", "swift",
+                          "electricterrain", "wildcharge", "hyperbeam", "gigaimpact"],
+        "egg": ["mirrormove", "featherdance", "pursuit", "roost", "zingzap"],
+        "evolve": None,
+        "drops": [("minecraft:feather", "0-2", None), ("minecraft:glowstone_dust", None, 10.0)],
+        "entry": ("Alone it is a timid little bird that sparks when startled. When danger comes it calls, and thousands "
+                  "of Sparklings pour out of the sky and fly as one giant bird, crackling with their combined charge."),
+        "spawns": [route_spawn("sparkling-fields", "common", "3-30", 8.0,
+                               ["#cobblemon:is_plains", "#cobblemon:is_grassland", "#cobblemon:is_forest"]),
+                   route_spawn("sparkling-storm", "common", "10-40", 14.0, ["#cobblemon:is_overworld"], isThundering=True)],
+        "how": ["Wild: common in plains, grasslands and forests, and everywhere during thunderstorms.",
+                "Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Murmuration calls "
+                "its flock and it becomes a ~20-block-tall bird made of thousands of Sparklings (like Wishiwashi)."],
+    },
+})
+LINES["starling"] = ["sparkling"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -3637,6 +3675,35 @@ num: -3011
 """,
         "lang": "One claw imitates the titan of the land, the other the titan of the sea: its Water-type moves get the "
                 "same-type bonus as well.",
+    },
+    "murmuration": {
+        "name": "Murmuration",
+        "js": """{
+onStart(pokemon) {
+  if (pokemon.baseSpecies.baseSpecies !== 'cobbleeffort:Sparkling' || pokemon.level < 20 || pokemon.transformed) return;
+  if (pokemon.hp > pokemon.maxhp / 4) {
+    if (pokemon.species.id === 'cobbleeffortsparkling') pokemon.formeChange('cobbleeffort:Sparkling-Swarm');
+  } else if (pokemon.species.id === 'cobbleeffortsparklingswarm') {
+    pokemon.formeChange('cobbleeffort:Sparkling');
+  }
+},
+onResidualOrder: 29,
+onResidual(pokemon) {
+  if (pokemon.baseSpecies.baseSpecies !== 'cobbleeffort:Sparkling' || pokemon.level < 20 || pokemon.transformed || !pokemon.hp) return;
+  if (pokemon.hp > pokemon.maxhp / 4) {
+    if (pokemon.species.id === 'cobbleeffortsparkling') pokemon.formeChange('cobbleeffort:Sparkling-Swarm');
+  } else if (pokemon.species.id === 'cobbleeffortsparklingswarm') {
+    pokemon.formeChange('cobbleeffort:Sparkling');
+  }
+},
+flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1, notransform: 1},
+name: "Murmuration",
+rating: 3,
+num: -3021
+}
+""",
+        "lang": "When it has a lot of HP, the Pokémon calls its flock and fights as one giant swarm. It turns back into "
+                "a single bird when its HP becomes low. Only works from level 20.",
     },
     "cryptobiosis": {
         "name": "Cryptobiosis",
@@ -3939,6 +4006,23 @@ def build_model(sp):
             {"aspects": [], "poser": f"{MOD}:{sp}", "model": f"{MOD}:{sp}.geo", "texture": tex(sp), "layers": layers[""]},
             {"aspects": ["shiny"], "texture": tex(f"{sp}_shiny"), **({"layers": layers["_shiny"]} if layers["_shiny"] else {})},
         ] + r["form_vars"]})
+    # forms with a model of their own (e.g. a battle-only form like Wishiwashi's School): [(aspect, module)], each
+    # written next to the species' own model, its resolver one order up; the form takes the module's size and hitbox
+    cfg["form_layers"] = {}
+    for n, (aspect, mod_name) in enumerate(cfg.get("form_models", []), 1):
+        fhand = model_module(mod_name)
+        fr = write_model_assets(mod_name, fhand, folder(sp))
+        cfg["form_layers"][mod_name] = fr["layers"]
+        for f in cfg.get("forms", []):
+            if aspect in f.get("aspects", []):
+                f["baseScale"] = fhand.SCALE
+                f["hitbox"] = {"width": fhand.HITBOX[0], "height": fhand.HITBOX[1], "fixed": False}
+        write_json(RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder(sp) / f"{n}_{mod_name}.json", {
+            "species": f"{MOD}:{sp}", "order": n,
+            "variations": [
+                {"aspects": [aspect], "poser": f"{MOD}:{mod_name}", "model": f"{MOD}:{mod_name}.geo",
+                 "texture": fr["tex"](mod_name), "layers": fr["layers"][""]},
+                {"aspects": [aspect, "shiny"], "texture": fr["tex"](f"{mod_name}_shiny"), "layers": fr["layers"]["_shiny"]}]})
 
 
 def species_json(sp):
@@ -4076,6 +4160,14 @@ def main():
                    for l in c["layers"][sfx]]
             manifest.append({"species": f"{sp}{sfx}", "folder": folder(sp), "model": f"{MOD}:{sp}.geo", "original": None,
                              "retextured": f"{MOD}:textures/pokemon/{folder(sp)}/{sp}{sfx}.png", "layers": lay})
+        for mod_name, fl in c.get("form_layers", {}).items():     # forms with their own model
+            for sfx in ("", "_shiny"):
+                lay = [{"original": None, "emissive": bool(l.get("emissive")),
+                        "retextured": (l["texture"]["frames"][0] if isinstance(l["texture"], dict) else l["texture"])}
+                       for l in fl[sfx]]
+                manifest.append({"species": f"{mod_name}{sfx}", "folder": folder(sp), "model": f"{MOD}:{mod_name}.geo",
+                                 "original": None, "layers": lay,
+                                 "retextured": f"{MOD}:textures/pokemon/{folder(sp)}/{mod_name}{sfx}.png"})
         types = " / ".join(t.title() for t in c["types"])
         st = c["stats"]
         write_json(TOOLS / "readme" / f"_new_{sp}.json", {

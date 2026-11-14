@@ -1,0 +1,53 @@
+{
+ "species": "cobbleeffort:sparkling",
+ "order": 1,
+ "variations": [
+  {
+   "aspects": [
+    "swarm-form"
+   ],
+   "poser": "cobbleeffort:sparkling_swarm",
+   "model": "cobbleeffort:sparkling_swarm.geo",
+   "texture": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_glow_0.png",
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_glow_1.png",
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "swarm-form",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

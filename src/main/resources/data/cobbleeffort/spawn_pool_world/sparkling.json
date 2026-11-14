@@ -1,0 +1,46 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sparkling-fields",
+   "pokemon": "cobbleeffort:sparkling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-30",
+   "weight": 8.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_grassland",
+     "#cobblemon:is_forest"
+    ]
+   }
+  },
+  {
+   "id": "sparkling-storm",
+   "pokemon": "cobbleeffort:sparkling",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "10-40",
+   "weight": 14.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ],
+    "isThundering": true
+   }
+  }
+ ]
+}

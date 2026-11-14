@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 165 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 166 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3261,6 +3261,18 @@ cobbleeffort:cavitot.
   at a time; the little ones bounce off, scurry back and climb in again, thrilled."
   * Evolve Tardigrub at level 35. It learns Grub Volley when it evolves.
   * Wild: rare in swamps and rivers.
+
+#3150 SPARKLING  (Electric / Flying; Murmuration (its own: from level 20, while above a quarter of its HP, it calls its flock and fights in its Swarm Form))
+  a tiny round black starling with a yellow hood and crest, huge glowing magenta eyes in a dark
+  mask, white wing patches and thin pale legs
+  Stats: HP 45  Atk 25  Def 20  SpA 30  SpD 25  Spe 45  (total 190)
+  Pokedex: "Alone it is a timid little bird that sparks when startled. When danger comes it calls,
+  and thousands of Sparklings pour out of the sky and fly as one giant bird, crackling with their
+  combined charge."
+  * Wild: common in plains, grasslands and forests, and everywhere during thunderstorms.
+  * Swarm Form: in battle, from level 20, while its HP is above a quarter, its ability Murmuration
+    calls its flock and it becomes a ~20-block-tall bird made of thousands of Sparklings (like
+    Wishiwashi).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

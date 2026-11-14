@@ -3560,6 +3560,62 @@
   "layers": []
  },
  {
+  "species": "sparkling",
+  "folder": "3150_sparkling",
+  "model": "cobbleeffort:sparkling.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "sparkling_shiny",
+  "folder": "3150_sparkling",
+  "model": "cobbleeffort:sparkling.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "sparkling_swarm",
+  "folder": "3150_sparkling",
+  "model": "cobbleeffort:sparkling_swarm.geo",
+  "original": null,
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_glow_0.png"
+   }
+  ],
+  "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm.png"
+ },
+ {
+  "species": "sparkling_swarm_shiny",
+  "folder": "3150_sparkling",
+  "model": "cobbleeffort:sparkling_swarm.geo",
+  "original": null,
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny_glow_0.png"
+   }
+  ],
+  "retextured": "cobbleeffort:textures/pokemon/3150_sparkling/sparkling_swarm_shiny.png"
+ },
+ {
   "species": "sawk_gi",
   "folder": "gi/0539_sawk",
   "model": "cobbleeffort:sawk_gi.geo",

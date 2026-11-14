@@ -226,6 +226,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Victory art, names kept): Water/Bug at 35, 8 legs `leg_<n>_<side>`; Aristograd = sliced ball with four pods painted
   by angle (PODS directions), mini Tardigrubs on `pod_*` bones in two; ability Cryptobiosis (once per battle, a KO hit
   leaves 1 HP, `target.m.cryptobiosis`); move Grub Volley (dragondarts base, Bug, smartTarget). Tested: tardi_sim.js.
+  Sparkling (#3150, line "starling", `models/_starling.py`: palette, `eye_on`, `dotted()` = tiny birds' glowing eyes
+  on a jittered grid; the user's design and art, our name): Electric/Flying solo/swarm like Wishiwashi. SPECIES
+  `form_models` [(aspect, module)] (build.py): a form with its own model (`sparkling_swarm.py`, ~20 blocks at baseScale
+  8), resolver one order up, the form gets the module's size/hitbox. Battle-only form "Swarm" (aspect swarm-form);
+  ability Murmuration = Schooling on Showdown names `cobbleeffort:Sparkling[-Swarm]` (ids `cobbleeffortsparkling[swarm]`;
+  Cobblemon names form species "<ns>:<Name>-<Form>"). Wings are xy planes swept back (rotation y): xz planes are
+  edge-on from the front. `ring_swarm` = a vortex of little birds. Tested: swarm_sim.js.
   Regideity (#3058, `models/regideity.py`; art by @trainer_matz): Normal, Regigigas evolved, baseScale 4.4 (~23 blocks);
   SPECIES `evolves_from` = (target, file, evolution) writes `species_additions/<file>.json` adding the evolution to
   another mod's species (Regigigas + a Nether Star, item_interact); halos are `ring_*` bones (always turning).
