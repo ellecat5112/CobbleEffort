@@ -2,10 +2,10 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 91 new Pokemon.
-Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole evolutionary
-lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look stays
-through evolution, gender, regional forms, megas and shinies (shinies get their own version).
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 100 new
+Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
+evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
+stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
 
 INSTALL
 -------
@@ -2543,6 +2543,92 @@ cobbleeffort:cavitot.
   Pokedex: "On the hottest days of summer its petals burst into flame. It turns its burning face to
   follow the sun across the sky and stores so much heat that it glows all through the night."
   * Use a Fire Stone on a Sunflora. It learns Heat Wave when it evolves.
+
+#3084 BRENKEY  (Water; Torrent / Iron Fist (hidden))
+  a squat little blue monkey with a big round head, an orange heart-shaped face, a bored stare, a
+  white chest tuft, a bamboo straw and a spiral tail
+  Stats: HP 48  Atk 60  Def 45  SpA 45  SpD 45  Spe 66  (total 309)
+  Pokedex: "It sips water up through its bamboo straw and squirts it at anyone who bothers it. It
+  acts tough, but it would much rather be napping."
+  * One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II
+    page).
+  * Wild: very rare in jungles and on beaches.
+  * Evolves into Splakey at level 16.
+
+#3085 SPLAKEY  (Water; Torrent / Iron Fist (hidden))
+  a lean wet blue monkey with arms flung up, orange palms, a dark headband with a white tuft, an
+  orange face with white goggle-rings, white fur tufts and dark blue shorts
+  Stats: HP 64  Atk 82  Def 58  SpA 55  SpD 58  Spe 88  (total 405)
+  Pokedex: "It strikes a pose after every splash, dripping and proud. It practises its moves in
+  rivers and waterfalls for hours, then sleeps for the rest of the day."
+  * Evolve Brenkey at level 16. It learns Mach Punch when it evolves.
+  * Evolves into Slackey at level 36.
+
+#3086 SLACKEY  (Water / Fighting; Torrent / Iron Fist (hidden))
+  a huge idle ape lounging in a dark blue and white swim ring, a white-ribbed chest, big orange
+  hands, a heavy orange brow over bored eyes and a slab of dark blue hair
+  Stats: HP 100  Atk 125  Def 90  SpA 60  SpD 75  Spe 80  (total 530)
+  Pokedex: "It spends its days floating in its swim ring and only moves when something gets close
+  enough to punch. One lazy swipe of its arm sends a wave over the whole lake."
+  * Evolve Splakey at level 36. It learns Slack Off when it evolves.
+
+#3087 WHISSANT  (Grass; Overgrow / Punk Rock (hidden))
+  a round green chick with a smug half-lidded eye, a leafy wing over its beak as it whistles, yellow
+  spots on its crown and belly and two small points on its head
+  Stats: HP 45  Atk 45  Def 50  SpA 64  SpD 55  Spe 50  (total 309)
+  Pokedex: "It whistles through its leafy wing all day long. It never plays the same tune twice, and
+  it gets very smug when other Pokémon stop to listen."
+  * One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II
+    page).
+  * Wild: very rare in forests and plains.
+  * Evolves into Arpsant at level 16.
+
+#3088 ARPSANT  (Grass / Psychic; Overgrow / Punk Rock (hidden))
+  a slender green songbird with a white crest tipped orange, a narrow yellow eye, a white feather
+  collar, an orange belly and a lyre of a curved twig strung with orange leaves
+  Stats: HP 60  Atk 55  Def 60  SpA 90  SpD 75  Spe 65  (total 405)
+  Pokedex: "It strings a curved twig with leaves to make a harp. Its music calms angry Pokémon, and
+  the leaves it plays on glow faintly when it is in a good mood."
+  * Evolve Whissant at level 16. It learns Confusion when it evolves.
+  * Evolves into Violinisant at level 36.
+
+#3089 VIOLINISANT  (Grass / Psychic; Overgrow / Punk Rock (hidden))
+  a tall elegant green bird with a white crest and ruff, an orange face mask, a long orange beak it
+  plays like a violin with a twig bow, an orange-flamed chest, a green wing cape and long tail
+  streamers
+  Stats: HP 76  Atk 60  Def 75  SpA 125  SpD 94  Spe 100  (total 530)
+  Pokedex: "It plays its long beak like a violin, drawing a twig across it as a bow. Its
+  performances move listeners to tears, and those who heckle it find themselves unable to stop
+  dancing."
+  * Evolve Arpsant at level 36. It learns Psychic Noise when it evolves.
+
+#3090 FLACHIKO  (Fire; Blaze / Strong Jaw (hidden))
+  a grumpy red-and-white pup with a round head, a yellow face mask, pointed ears, a white flame-
+  licked ruff, dark paws and a flame tail
+  Stats: HP 50  Atk 64  Def 50  SpA 40  SpD 45  Spe 60  (total 309)
+  Pokedex: "It scowls at everyone it meets, but its flame tail wags uncontrollably when it is happy.
+  Its fur is warm enough to sleep against on cold nights."
+  * One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II
+    page).
+  * Wild: very rare in plains and savannas.
+  * Evolves into Blaxer at level 16.
+
+#3091 BLAXER  (Fire; Blaze / Strong Jaw (hidden))
+  a bounding boxer dog with red-and-white fur, long yellow legs, a yellow face with a flat muzzle,
+  droopy flame-tipped ears, a white tuft, a lilac spiked collar and a flame tail
+  Stats: HP 64  Atk 92  Def 62  SpA 48  SpD 55  Spe 84  (total 405)
+  Pokedex: "It bounds into battle and boxes with its front paws, faster than the eye can follow. The
+  spiked collar round its neck grows from its own fur."
+  * Evolve Flachiko at level 16. It learns Fire Fang when it evolves.
+  * Evolves into Cerbego at level 36.
+
+#3092 CERBEGO  (Fire / Ghost; Blaze / Strong Jaw (hidden))
+  a huge lion-like fire dog with a mane of flames, flame horns, a roaring fanged mouth and two
+  translucent purple phantom heads flaring beside its own, purple wisps drifting over its back
+  Stats: HP 90  Atk 120  Def 85  SpA 85  SpD 70  Spe 80  (total 530)
+  Pokedex: "It guards the way to the land of the dead. The souls it has turned back burn beside it
+  as purple ghost-fire, and in battle they flare up as two more heads."
+  * Evolve Blaxer at level 36. It learns Infernal Parade when it evolves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

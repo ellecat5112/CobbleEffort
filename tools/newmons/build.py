@@ -2052,6 +2052,161 @@ SPECIES.update({
 LINES["fortune_pig"] = ["boracle"]
 LINES["blaze_bloom"] = ["sunflare"]
 
+# the second A. Fakemon starter trio (water monkeys, grass songbirds, fire dogs): art of the A. Fakemon fanpage
+# (@a.fakemon), names and types from its art; their own page on the starter screen (FAKEMON_STARTERS_2)
+MONKEY = dict(TRIO, egg_groups=["field", "water_1"], abilities=["torrent", "h:ironfist"],
+              ability_names="Torrent / Iron Fist (hidden)")
+SONG = dict(TRIO, egg_groups=["flying", "grass"], abilities=["overgrow", "h:punkrock"],
+            ability_names="Overgrow / Punk Rock (hidden)")
+DOG = dict(TRIO, egg_groups=["field"], abilities=["blaze", "h:strongjaw"],
+           ability_names="Blaze / Strong Jaw (hidden)")
+MONKEY_TM = BASIC_TM + ["watergun", "waterpulse", "surf", "raindance", "chillingwater", "liquidation", "aquatail",
+                        "brickbreak", "bulkup", "drainpunch", "icepunch", "thunderpunch", "firepunch", "uturn",
+                        "acrobatics", "knockoff", "taunt", "yawn", "bodyslam", "dig"]
+MONKEY_TM_ADULT = ["closecombat", "hydropump", "wavecrash", "hammerarm", "focusblast", "superpower", "gigaimpact",
+                   "hyperbeam", "hydrocannon", "bodypress", "slackoff"]
+MONKEY_EARLY = [(1, "scratch"), (1, "leer"), (4, "watergun"), (8, "furyswipes"), (12, "bubblebeam"), (15, "workup")]
+SONG_TM = BASIC_TM + ["bulletseed", "seedbomb", "energyball", "gigadrain", "grassknot", "trailblaze", "sunnyday",
+                      "grassyterrain", "hypervoice", "round", "echoedvoice", "aerialace", "airslash", "acrobatics",
+                      "uturn", "roost", "tailwind", "psychic", "psyshock", "calmmind", "dazzlinggleam", "charm"]
+SONG_TM_ADULT = ["leafstorm", "solarbeam", "boomburst", "expandingforce", "futuresight", "hurricane", "gigaimpact",
+                 "hyperbeam", "frenzyplant", "psychicterrain", "nastyplot"]
+SONG_EARLY = [(1, "peck"), (1, "growl"), (4, "leafage"), (8, "sing"), (12, "magicalleaf"), (15, "disarmingvoice")]
+DOG_TM = BASIC_TM + ["ember", "flamecharge", "flamethrower", "fireblast", "firefang", "willowisp", "sunnyday",
+                     "crunch", "bite", "thunderfang", "firepunch", "thunderpunch", "bulkup", "roar", "howl",
+                     "bodyslam", "playrough", "wildcharge", "dig", "uturn"]
+DOG_TM_ADULT = ["flareblitz", "overheat", "shadowball", "shadowclaw", "phantomforce", "poltergeist", "hex",
+                "nightshade", "gigaimpact", "hyperbeam", "blastburn", "heatwave", "psychicfangs", "closecombat"]
+DOG_EARLY = [(1, "tackle"), (1, "growl"), (4, "ember"), (8, "bite"), (12, "flamewheel"), (15, "roar")]
+STARTER2_HOW = "One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II page)."
+SPECIES.update({
+    "brenkey": {
+        "dex": 3084, "name": "Brenkey", "line": "afakemon_monkey", "types": ["water"], **MONKEY,
+        "stats": stats(48, 60, 45, 45, 45, 66), "ev": evs(speed=1), "exp": 62,
+        "height": 5, "weight": 98, "shoulder": True, "walk": 0.3,
+        "moves": MONKEY_EARLY + [(17, "aquajet"), (20, "brickbreak"), (24, "waterpulse"), (28, "yawn")],
+        "tm": MONKEY_TM, "egg": ["fakeout", "yawn", "aquaring", "machpunch"],
+        "evolve": ("splakey", 16, ["machpunch"]),
+        "drops": [("minecraft:bamboo", "1-2", None), ("minecraft:kelp", "0-1", None)],
+        "entry": ("It sips water up through its bamboo straw and squirts it at anyone who bothers it. It acts tough, "
+                  "but it would much rather be napping."),
+        "spawns": [route_spawn("brenkey-wild", "ultra-rare", "5-15", 1.0, ["#cobblemon:is_jungle", "#cobblemon:is_beach"])],
+        "how": [STARTER2_HOW, "Wild: very rare in jungles and on beaches.", "Evolves into Splakey at level 16."],
+    },
+    "splakey": {
+        "dex": 3085, "name": "Splakey", "line": "afakemon_monkey", "types": ["water"], **MONKEY,
+        "stats": stats(64, 82, 58, 55, 58, 88), "ev": evs(attack=1, speed=1), "exp": 142,
+        "height": 11, "weight": 290, "shoulder": False, "walk": 0.36,
+        "moves": MONKEY_EARLY + [(1, "machpunch"), (16, "machpunch"), (20, "aquajet"), (24, "brickbreak"),
+                                 (28, "waterpulse"), (32, "bulkup")],
+        "tm": MONKEY_TM, "egg": [], "evolve": ("slackey", 36, ["slackoff"]),
+        "drops": [("minecraft:bamboo", "1-3", None), ("minecraft:kelp", "1-2", None)],
+        "entry": ("It strikes a pose after every splash, dripping and proud. It practises its moves in rivers and "
+                  "waterfalls for hours, then sleeps for the rest of the day."),
+        "spawns": [],
+        "how": ["Evolve Brenkey at level 16. It learns Mach Punch when it evolves.", "Evolves into Slackey at level 36."],
+    },
+    "slackey": {
+        "dex": 3086, "name": "Slackey", "line": "afakemon_monkey", "types": ["water", "fighting"], **MONKEY,
+        "stats": stats(100, 125, 90, 60, 75, 80), "ev": evs(hp=1, attack=2), "exp": 265,
+        "height": 17, "weight": 1600, "shoulder": False, "walk": 0.26,
+        "moves": MONKEY_EARLY + [(1, "slackoff"), (16, "machpunch"), (20, "aquajet"), (24, "brickbreak"),
+                                 (28, "waterpulse"), (32, "bulkup"), (36, "slackoff"), (42, "liquidation"),
+                                 (48, "drainpunch"), (54, "wavecrash"), (60, "closecombat")],
+        "tm": MONKEY_TM + MONKEY_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:kelp", "1-3", None), ("minecraft:sponge", None, 2.5)],
+        "entry": ("It spends its days floating in its swim ring and only moves when something gets close enough to "
+                  "punch. One lazy swipe of its arm sends a wave over the whole lake."),
+        "spawns": [],
+        "how": ["Evolve Splakey at level 36. It learns Slack Off when it evolves."],
+    },
+    "whissant": {
+        "dex": 3087, "name": "Whissant", "line": "afakemon_songbird", "types": ["grass"], **SONG,
+        "stats": stats(45, 45, 50, 64, 55, 50), "ev": evs(special_attack=1), "exp": 62,
+        "height": 4, "weight": 30, "shoulder": True, "walk": 0.26,
+        "moves": SONG_EARLY + [(17, "gigadrain"), (20, "hypervoice"), (24, "synthesis"), (28, "calmmind")],
+        "tm": SONG_TM, "egg": ["perishsong", "teeterdance", "featherdance", "leechseed"],
+        "evolve": ("arpsant", 16, ["confusion"]),
+        "drops": [("minecraft:feather", "1-2", None), ("minecraft:wheat_seeds", "0-1", None)],
+        "entry": ("It whistles through its leafy wing all day long. It never plays the same tune twice, and it gets "
+                  "very smug when other Pokémon stop to listen."),
+        "spawns": [route_spawn("whissant-wild", "ultra-rare", "5-15", 1.0, ["#cobblemon:is_forest", "#cobblemon:is_plains"])],
+        "how": [STARTER2_HOW, "Wild: very rare in forests and plains.", "Evolves into Arpsant at level 16."],
+    },
+    "arpsant": {
+        "dex": 3088, "name": "Arpsant", "line": "afakemon_songbird", "types": ["grass", "psychic"], **SONG,
+        "stats": stats(60, 55, 60, 90, 75, 65), "ev": evs(special_attack=2), "exp": 142,
+        "height": 10, "weight": 140, "shoulder": False, "walk": 0.3,
+        "moves": SONG_EARLY + [(1, "confusion"), (16, "confusion"), (20, "psybeam"), (24, "gigadrain"),
+                               (28, "hypervoice"), (32, "calmmind")],
+        "tm": SONG_TM, "egg": [], "evolve": ("violinisant", 36, ["psychicnoise"]),
+        "drops": [("minecraft:feather", "1-3", None), ("minecraft:stick", "0-2", None)],
+        "entry": ("It strings a curved twig with leaves to make a harp. Its music calms angry Pokémon, and the "
+                  "leaves it plays on glow faintly when it is in a good mood."),
+        "spawns": [],
+        "how": ["Evolve Whissant at level 16. It learns Confusion when it evolves.", "Evolves into Violinisant at level 36."],
+    },
+    "violinisant": {
+        "dex": 3089, "name": "Violinisant", "line": "afakemon_songbird", "types": ["grass", "psychic"], **SONG,
+        "stats": stats(76, 60, 75, 125, 94, 100), "ev": evs(special_attack=3), "exp": 265,
+        "height": 16, "weight": 380, "shoulder": False, "walk": 0.34,
+        "moves": SONG_EARLY + [(1, "psychicnoise"), (16, "confusion"), (20, "psybeam"), (24, "gigadrain"),
+                               (28, "hypervoice"), (32, "calmmind"), (36, "psychicnoise"), (42, "leafstorm"),
+                               (48, "psychic"), (54, "boomburst"), (60, "perishsong")],
+        "tm": SONG_TM + SONG_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:feather", "2-3", None), ("minecraft:stick", "1-2", None),
+                  ("minecraft:note_block", None, 2.0)],
+        "entry": ("It plays its long beak like a violin, drawing a twig across it as a bow. Its performances move "
+                  "listeners to tears, and those who heckle it find themselves unable to stop dancing."),
+        "spawns": [],
+        "how": ["Evolve Arpsant at level 36. It learns Psychic Noise when it evolves."],
+    },
+    "flachiko": {
+        "dex": 3090, "name": "Flachiko", "line": "afakemon_hound", "types": ["fire"], **DOG,
+        "stats": stats(50, 64, 50, 40, 45, 60), "ev": evs(attack=1), "exp": 62,
+        "height": 4, "weight": 72, "shoulder": True, "walk": 0.3,
+        "moves": DOG_EARLY + [(17, "firefang"), (20, "crunch"), (24, "firepunch"), (28, "bulkup")],
+        "tm": DOG_TM, "egg": ["howl", "playrough", "suckerpunch", "thunderfang"],
+        "evolve": ("blaxer", 16, ["firefang"]),
+        "drops": [("minecraft:bone", "0-1", None), ("minecraft:blaze_powder", "0-1", None)],
+        "entry": ("It scowls at everyone it meets, but its flame tail wags uncontrollably when it is happy. Its fur "
+                  "is warm enough to sleep against on cold nights."),
+        "spawns": [route_spawn("flachiko-wild", "ultra-rare", "5-15", 1.0, ["#cobblemon:is_plains", "#cobblemon:is_savanna"])],
+        "how": [STARTER2_HOW, "Wild: very rare in plains and savannas.", "Evolves into Blaxer at level 16."],
+    },
+    "blaxer": {
+        "dex": 3091, "name": "Blaxer", "line": "afakemon_hound", "types": ["fire"], **DOG,
+        "stats": stats(64, 92, 62, 48, 55, 84), "ev": evs(attack=2), "exp": 142,
+        "height": 10, "weight": 300, "shoulder": False, "walk": 0.4,
+        "moves": DOG_EARLY + [(1, "firefang"), (16, "firefang"), (20, "crunch"), (24, "firepunch"),
+                              (28, "thunderpunch"), (32, "bulkup")],
+        "tm": DOG_TM, "egg": [], "evolve": ("cerbego", 36, ["infernalparade"]),
+        "drops": [("minecraft:bone", "0-2", None), ("minecraft:blaze_powder", "0-2", None)],
+        "entry": ("It bounds into battle and boxes with its front paws, faster than the eye can follow. The spiked "
+                  "collar round its neck grows from its own fur."),
+        "spawns": [],
+        "how": ["Evolve Flachiko at level 16. It learns Fire Fang when it evolves.", "Evolves into Cerbego at level 36."],
+    },
+    "cerbego": {
+        "dex": 3092, "name": "Cerbego", "line": "afakemon_hound", "types": ["fire", "ghost"], **DOG,
+        "stats": stats(90, 120, 85, 85, 70, 80), "ev": evs(attack=3), "exp": 265,
+        "height": 18, "weight": 1800, "shoulder": False, "walk": 0.38,
+        "moves": DOG_EARLY + [(1, "infernalparade"), (16, "firefang"), (20, "crunch"), (24, "firepunch"),
+                              (28, "thunderpunch"), (32, "bulkup"), (36, "infernalparade"), (42, "shadowclaw"),
+                              (48, "flareblitz"), (54, "phantomforce"), (60, "overheat")],
+        "tm": DOG_TM + DOG_TM_ADULT, "egg": [], "evolve": None,
+        "drops": [("minecraft:bone", "1-3", None), ("minecraft:blaze_powder", "1-2", None),
+                  ("cobblemon:spell_tag", None, 5.0)],
+        "entry": ("It guards the way to the land of the dead. The souls it has turned back burn beside it as purple "
+                  "ghost-fire, and in battle they flare up as two more heads."),
+        "spawns": [],
+        "how": ["Evolve Blaxer at level 36. It learns Infernal Parade when it evolves."],
+    },
+})
+LINES["afakemon_monkey"] = ["brenkey", "splakey", "slackey"]
+LINES["afakemon_songbird"] = ["whissant", "arpsant", "violinisant"]
+LINES["afakemon_hound"] = ["flachiko", "blaxer", "cerbego"]
+
 # abilities of our own: Cobblemon datapack abilities (data/cobbleeffort/abilities/<id>.js, a Showdown ability object)
 CUSTOM_ABILITIES = {
     "blindsight": {
@@ -2307,6 +2462,7 @@ STARTER_CATEGORIES = [
 OUR_STARTERS = ("CobbleEffort", -99, ["cobbleeffort:coalarva", "cobbleeffort:mumpillar"])
 # the A. Fakemon trio's own page after ours (the fanpage's grass, fire and water starters)
 FAKEMON_STARTERS = ("A. Fakemon", -98, ["cobbleeffort:wigwoof", "cobbleeffort:sounflame", "cobbleeffort:fangfosh"])
+FAKEMON_STARTERS_2 = ("A. Fakemon II", -97, ["cobbleeffort:whissant", "cobbleeffort:flachiko", "cobbleeffort:brenkey"])
 
 
 
@@ -2602,7 +2758,8 @@ def main():
         write_json(data / "starters" / f"{key}.json", {
             "name": name, "order": order, "displayName": f"cobblemon.starterselection.category.{key}",
             "pokemon": [f"{m} level=10" for m in mons]})
-    for key, (name, order, mons) in (("cobbleeffort", OUR_STARTERS), ("afakemon", FAKEMON_STARTERS)):
+    for key, (name, order, mons) in (("cobbleeffort", OUR_STARTERS), ("afakemon", FAKEMON_STARTERS),
+                                      ("afakemon2", FAKEMON_STARTERS_2)):
         write_json(data / "starters" / f"{key}.json", {
             "name": name, "order": order, "displayName": f"cobbleeffort.starterselection.category.{key}",
             "pokemon": [f"{m} level=10" for m in mons]})
@@ -2615,6 +2772,7 @@ def main():
     subprocess.run([sys.executable, str(HERE.parent / "make_creative_tab.py")], check=True)
     lang["cobbleeffort.starterselection.category.cobbleeffort"] = "CobbleEffort"
     lang["cobbleeffort.starterselection.category.afakemon"] = "A. Fakemon"
+    lang["cobbleeffort.starterselection.category.afakemon2"] = "A. Fakemon II"
     lang["cobblemon.ui.pokedex.region.cobbleeffort"] = "CobbleEffort"
     write_json(lang_path, dict(sorted(lang.items())))
     write_json(data / "dexes" / "cobbleeffort.json", {

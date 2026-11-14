@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3089,
+ "name": "Violinisant",
+ "primaryType": "grass",
+ "secondaryType": "psychic",
+ "maleRatio": 0.875,
+ "height": 16,
+ "weight": 380,
+ "pokedex": [
+  "cobbleeffort.species.violinisant.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "overgrow",
+  "h:punkrock"
+ ],
+ "eggGroups": [
+  "flying",
+  "grass"
+ ],
+ "baseStats": {
+  "hp": 76,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 125,
+  "special_defence": 94,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.74,
+ "hitbox": {
+  "width": 1.2,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "2-3"
+   },
+   {
+    "item": "minecraft:stick",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:note_block",
+    "percentage": 2.0
+   }
+  ]
+ },
+ "moves": [
+  "1:peck",
+  "1:growl",
+  "4:leafage",
+  "8:sing",
+  "12:magicalleaf",
+  "15:disarmingvoice",
+  "1:psychicnoise",
+  "16:confusion",
+  "20:psybeam",
+  "24:gigadrain",
+  "28:hypervoice",
+  "32:calmmind",
+  "36:psychicnoise",
+  "42:leafstorm",
+  "48:psychic",
+  "54:boomburst",
+  "60:perishsong",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bulletseed",
+  "tm:seedbomb",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:trailblaze",
+  "tm:sunnyday",
+  "tm:grassyterrain",
+  "tm:hypervoice",
+  "tm:round",
+  "tm:echoedvoice",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:acrobatics",
+  "tm:uturn",
+  "tm:roost",
+  "tm:tailwind",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:dazzlinggleam",
+  "tm:charm",
+  "tm:leafstorm",
+  "tm:solarbeam",
+  "tm:boomburst",
+  "tm:expandingforce",
+  "tm:futuresight",
+  "tm:hurricane",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:frenzyplant",
+  "tm:psychicterrain",
+  "tm:nastyplot"
+ ],
+ "preEvolution": "cobbleeffort:arpsant"
+}

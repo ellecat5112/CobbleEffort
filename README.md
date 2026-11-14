@@ -1462,6 +1462,22 @@ first stage is also very rarely found in the wild.
   and a great black frill. Water Gun, Bite, Mud-Slap, Aqua Jet, Mud Shot, Crunch and Liquidation, then Throat Chop,
   Knock Off, Wave Crash and Sucker Punch. Shiny: violet and lilac.
 
+**The second A. Fakemon trio**, also after the A. Fakemon fanpage's art (@a.fakemon; names and types from its art), on
+their own **A. Fakemon II** page of the starter screen; levels 16 and 36, first stages very rare in the wild too.
+- **Whissant → Arpsant → Violinisant** (Grass → Grass/Psychic; Overgrow, hidden Punk Rock): a round green chick
+  whistling through its wing; a slender harpist bird with a lyre of a twig strung with orange leaves; and a tall
+  violinist bird with a white crest playing its long beak with a twig bow. Sing, Magical Leaf, Disarming Voice,
+  Confusion, Psybeam, Hyper Voice and Calm Mind, then Psychic Noise, Leaf Storm, Psychic, Boomburst and Perish Song.
+  Shiny: rose pink.
+- **Flachiko → Blaxer → Cerbego** (Fire → Fire → Fire/Ghost; Blaze, hidden Strong Jaw): a grumpy red-and-white pup
+  with a flame tail; a bounding boxer dog in a lilac spiked collar; and a hellhound with a mane of flames and two
+  phantom heads of purple ghost-fire. Ember, Bite, Flame Wheel, Fire Fang, Crunch, Fire Punch and Bulk Up, then
+  Infernal Parade, Shadow Claw, Flare Blitz, Phantom Force and Overheat. Shiny: charcoal with green ghost-fire.
+- **Brenkey → Splakey → Slackey** (Water → Water → Water/Fighting; Torrent, hidden Iron Fist): a squat monkey with a
+  bamboo straw and a spiral tail; a lean dripping monkey posing in a headband; and a huge lazy ape lounging in a swim
+  ring. Water Gun, Fury Swipes, Bubble Beam, Mach Punch, Aqua Jet, Brick Break and Bulk Up, then Slack Off,
+  Liquidation, Drain Punch, Wave Crash and Close Combat. Shiny: teal-green and gold.
+
 **Phanturn** (Ghost/Electric), Lanturn's ghostly evolution, after the art the user shared (artist not named; the name
 Phanturn is ours): a deep-sea angler gone to the other side, a long blue body hanging like a tattered cloak behind a
 golden cross-marked cap, a red eye, a fanged mouth caged by golden bars, spotted head fins, a swept tail fin and golden
@@ -1569,6 +1585,15 @@ ring on a lime stem.
 | 3081 | **Phanturn** | Ghost / Electric | Volt Absorb / Cursed Body / Illuminate (hidden) | 135 / 60 / 70 / 115 / 90 / 70 | 5'3" (1.6 m) / 30 kg | Use a Reaper Cloth on a Lanturn. It learns Hex when it evolves. | It drifts up out of the deep at night, trailing glowing pearls. Lost sailors follow the light of its little golden lure, thinking it is a lantern on the shore, and are never seen again. |
 | 3082 | **Boracle** | Psychic | Forewarn / Thick Fat / Own Tempo (hidden) | 100 / 50 / 80 / 125 / 130 / 65 | 4'11" (1.5 m) / 145 kg | Level up a Grumpig at level 45 or higher while it holds a Twisted Spoon (the spoon is used up). It learns Future Sight when it evolves. | It gazes into its crystal ball and tells the fortunes of anyone who brings it food. Its predictions are always right, though it is careful to say only the good ones out loud. |
 | 3083 | **Sunflare** | Grass / Fire | Solar Power / Chlorophyll / Drought (hidden) | 85 / 80 / 70 / 130 / 95 / 65 | 4'11" (1.5 m) / 22 kg | Use a Fire Stone on a Sunflora. It learns Heat Wave when it evolves. | On the hottest days of summer its petals burst into flame. It turns its burning face to follow the sun across the sky and stores so much heat that it glows all through the night. |
+| 3084 | **Brenkey** | Water | Torrent / Iron Fist (hidden) | 48 / 60 / 45 / 45 / 45 / 66 | 1'8" (0.5 m) / 9.8 kg | One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II page). Wild: very rare in jungles and on beaches. Evolves into Splakey at level 16. | It sips water up through its bamboo straw and squirts it at anyone who bothers it. It acts tough, but it would much rather be napping. |
+| 3085 | **Splakey** | Water | Torrent / Iron Fist (hidden) | 64 / 82 / 58 / 55 / 58 / 88 | 3'7" (1.1 m) / 29 kg | Evolve Brenkey at level 16. It learns Mach Punch when it evolves. Evolves into Slackey at level 36. | It strikes a pose after every splash, dripping and proud. It practises its moves in rivers and waterfalls for hours, then sleeps for the rest of the day. |
+| 3086 | **Slackey** | Water / Fighting | Torrent / Iron Fist (hidden) | 100 / 125 / 90 / 60 / 75 / 80 | 5'7" (1.7 m) / 160 kg | Evolve Splakey at level 36. It learns Slack Off when it evolves. | It spends its days floating in its swim ring and only moves when something gets close enough to punch. One lazy swipe of its arm sends a wave over the whole lake. |
+| 3087 | **Whissant** | Grass | Overgrow / Punk Rock (hidden) | 45 / 45 / 50 / 64 / 55 / 50 | 1'4" (0.4 m) / 3 kg | One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II page). Wild: very rare in forests and plains. Evolves into Arpsant at level 16. | It whistles through its leafy wing all day long. It never plays the same tune twice, and it gets very smug when other Pokémon stop to listen. |
+| 3088 | **Arpsant** | Grass / Psychic | Overgrow / Punk Rock (hidden) | 60 / 55 / 60 / 90 / 75 / 65 | 3'3" (1 m) / 14 kg | Evolve Whissant at level 16. It learns Confusion when it evolves. Evolves into Violinisant at level 36. | It strings a curved twig with leaves to make a harp. Its music calms angry Pokémon, and the leaves it plays on glow faintly when it is in a good mood. |
+| 3089 | **Violinisant** | Grass / Psychic | Overgrow / Punk Rock (hidden) | 76 / 60 / 75 / 125 / 94 / 100 | 5'3" (1.6 m) / 38 kg | Evolve Arpsant at level 36. It learns Psychic Noise when it evolves. | It plays its long beak like a violin, drawing a twig across it as a bow. Its performances move listeners to tears, and those who heckle it find themselves unable to stop dancing. |
+| 3090 | **Flachiko** | Fire | Blaze / Strong Jaw (hidden) | 50 / 64 / 50 / 40 / 45 / 60 | 1'4" (0.4 m) / 7.2 kg | One of the second A. Fakemon trio's starters: pick it at the starter screen (its A. Fakemon II page). Wild: very rare in plains and savannas. Evolves into Blaxer at level 16. | It scowls at everyone it meets, but its flame tail wags uncontrollably when it is happy. Its fur is warm enough to sleep against on cold nights. |
+| 3091 | **Blaxer** | Fire | Blaze / Strong Jaw (hidden) | 64 / 92 / 62 / 48 / 55 / 84 | 3'3" (1 m) / 30 kg | Evolve Flachiko at level 16. It learns Fire Fang when it evolves. Evolves into Cerbego at level 36. | It bounds into battle and boxes with its front paws, faster than the eye can follow. The spiked collar round its neck grows from its own fur. |
+| 3092 | **Cerbego** | Fire / Ghost | Blaze / Strong Jaw (hidden) | 90 / 120 / 85 / 85 / 70 / 80 | 5'11" (1.8 m) / 180 kg | Evolve Blaxer at level 36. It learns Infernal Parade when it evolves. | It guards the way to the land of the dead. The souls it has turned back burn beside it as purple ghost-fire, and in battle they flare up as two more heads. |
 <!-- newmons:end -->
 
 ![CobbleEffort's own Pokémon: the dentistry, coal butterfly, mantis and mummy lines, with shinies](docs/newmons_preview.png)

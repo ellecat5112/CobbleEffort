@@ -1,0 +1,151 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3091,
+ "name": "Blaxer",
+ "primaryType": "fire",
+ "maleRatio": 0.875,
+ "height": 10,
+ "weight": 300,
+ "pokedex": [
+  "cobbleeffort.species.blaxer.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:strongjaw"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 64,
+  "attack": 92,
+  "defence": 62,
+  "special_attack": 48,
+  "special_defence": 55,
+  "speed": 84
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.72,
+ "hitbox": {
+  "width": 1.2,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.4
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:ember",
+  "8:bite",
+  "12:flamewheel",
+  "15:roar",
+  "1:firefang",
+  "16:firefang",
+  "20:crunch",
+  "24:firepunch",
+  "28:thunderpunch",
+  "32:bulkup",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:ember",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:crunch",
+  "tm:bite",
+  "tm:thunderfang",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:bulkup",
+  "tm:roar",
+  "tm:howl",
+  "tm:bodyslam",
+  "tm:playrough",
+  "tm:wildcharge",
+  "tm:dig",
+  "tm:uturn"
+ ],
+ "evolutions": [
+  {
+   "id": "blaxer_cerbego",
+   "variant": "level_up",
+   "result": "cobbleeffort:cerbego",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "infernalparade"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:flachiko"
+}

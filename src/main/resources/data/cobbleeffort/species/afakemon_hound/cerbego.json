@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3092,
+ "name": "Cerbego",
+ "primaryType": "fire",
+ "secondaryType": "ghost",
+ "maleRatio": 0.875,
+ "height": 18,
+ "weight": 1800,
+ "pokedex": [
+  "cobbleeffort.species.cerbego.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:strongjaw"
+ ],
+ "eggGroups": [
+  "field"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 120,
+  "defence": 85,
+  "special_attack": 85,
+  "special_defence": 70,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 265,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.98,
+ "hitbox": {
+  "width": 2.0,
+  "height": 1.9,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.38
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "cobblemon:spell_tag",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:ember",
+  "8:bite",
+  "12:flamewheel",
+  "15:roar",
+  "1:infernalparade",
+  "16:firefang",
+  "20:crunch",
+  "24:firepunch",
+  "28:thunderpunch",
+  "32:bulkup",
+  "36:infernalparade",
+  "42:shadowclaw",
+  "48:flareblitz",
+  "54:phantomforce",
+  "60:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:ember",
+  "tm:flamecharge",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:willowisp",
+  "tm:sunnyday",
+  "tm:crunch",
+  "tm:bite",
+  "tm:thunderfang",
+  "tm:firepunch",
+  "tm:thunderpunch",
+  "tm:bulkup",
+  "tm:roar",
+  "tm:howl",
+  "tm:bodyslam",
+  "tm:playrough",
+  "tm:wildcharge",
+  "tm:dig",
+  "tm:uturn",
+  "tm:flareblitz",
+  "tm:overheat",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:hex",
+  "tm:nightshade",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:blastburn",
+  "tm:heatwave",
+  "tm:psychicfangs",
+  "tm:closecombat"
+ ],
+ "preEvolution": "cobbleeffort:blaxer"
+}

@@ -261,6 +261,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Boracle (#3082, Psychic; Grumpig at 45+ holding a Twisted Spoon: level_up, consume + permanent, spring coil of rods,
   translucent crystal ball/veil = alpha colours) and Sunflare (#3083, Grass/Fire; Sunflora + Fire Stone; `disc()` =
   a front-facing round disc of crossed boxes, glowing flame petals): the user's art, artists and names not given.
+  Second A. Fakemon trio (#3084-3092, @a.fakemon art; palettes `_splashmonkey.py`, `_songbird.py`, `_firepup.py`
+  (`flame` glowing flame spikes, translucent `ghost`, `fur()` two-tone)): Brenkey -> Splakey -> Slackey (Water,
+  Water/Fighting; swim ring = rods round a circle), Whissant -> Arpsant -> Violinisant (Grass, Grass/Psychic), Flachiko
+  -> Blaxer -> Cerbego (Fire, Fire/Ghost; translucent phantom heads on `ghost_*` bones) at 16/36; starter page
+  FAKEMON_STARTERS_2 ("A. Fakemon II", order -97, key afakemon2).
   Writhing Rot (#3044, `models/writhingrot.py`; the user's art, artist not named, also "Infestower"): Bug/Dragon
   ancient paradox of Sudowoodo, Protosynthesis, genderless, labels ["paradox"]; hollow log body (`hollowf` ringed
   front), grub neck/feelers/tail from `segment_chain()` (per-rod `segf(az)` seams every 2.2 units), head bone under a

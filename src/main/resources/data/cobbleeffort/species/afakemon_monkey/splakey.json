@@ -1,0 +1,152 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3085,
+ "name": "Splakey",
+ "primaryType": "water",
+ "maleRatio": 0.875,
+ "height": 11,
+ "weight": 290,
+ "pokedex": [
+  "cobbleeffort.species.splakey.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "torrent",
+  "h:ironfist"
+ ],
+ "eggGroups": [
+  "field",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 64,
+  "attack": 82,
+  "defence": 58,
+  "special_attack": 55,
+  "special_defence": 58,
+  "speed": 88
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 142,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 0.58,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.95,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.36
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bamboo",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:kelp",
+    "quantityRange": "1-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "4:watergun",
+  "8:furyswipes",
+  "12:bubblebeam",
+  "15:workup",
+  "1:machpunch",
+  "16:machpunch",
+  "20:aquajet",
+  "24:brickbreak",
+  "28:waterpulse",
+  "32:bulkup",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:watergun",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:drainpunch",
+  "tm:icepunch",
+  "tm:thunderpunch",
+  "tm:firepunch",
+  "tm:uturn",
+  "tm:acrobatics",
+  "tm:knockoff",
+  "tm:taunt",
+  "tm:yawn",
+  "tm:bodyslam",
+  "tm:dig"
+ ],
+ "evolutions": [
+  {
+   "id": "splakey_slackey",
+   "variant": "level_up",
+   "result": "cobbleeffort:slackey",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "slackoff"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:brenkey"
+}

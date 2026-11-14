@@ -1,0 +1,153 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3084,
+ "name": "Brenkey",
+ "primaryType": "water",
+ "maleRatio": 0.875,
+ "height": 5,
+ "weight": 98,
+ "pokedex": [
+  "cobbleeffort.species.brenkey.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "torrent",
+  "h:ironfist"
+ ],
+ "eggGroups": [
+  "field",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 48,
+  "attack": 60,
+  "defence": 45,
+  "special_attack": 45,
+  "special_defence": 45,
+  "speed": 66
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": true,
+ "baseScale": 0.42,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.2,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bamboo",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:kelp",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "4:watergun",
+  "8:furyswipes",
+  "12:bubblebeam",
+  "15:workup",
+  "17:aquajet",
+  "20:brickbreak",
+  "24:waterpulse",
+  "28:yawn",
+  "egg:fakeout",
+  "egg:yawn",
+  "egg:aquaring",
+  "egg:machpunch",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:watergun",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:raindance",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:drainpunch",
+  "tm:icepunch",
+  "tm:thunderpunch",
+  "tm:firepunch",
+  "tm:uturn",
+  "tm:acrobatics",
+  "tm:knockoff",
+  "tm:taunt",
+  "tm:yawn",
+  "tm:bodyslam",
+  "tm:dig"
+ ],
+ "evolutions": [
+  {
+   "id": "brenkey_splakey",
+   "variant": "level_up",
+   "result": "cobbleeffort:splakey",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "machpunch"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 16
+    }
+   ]
+  }
+ ]
+}
