@@ -422,5 +422,109 @@
         "retextured": "cobbleeffort:textures/pokemon/regional/0384_rayquaza/rayquaza_cobbleeffortian_shiny_glow_0.png"
       }
     ]
+  },
+  {
+    "species": "nidoranm_cobbleeffortian",
+    "folder": "0032_nidoranm",
+    "model": "cobbleeffort:nidoranm_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0032_nidoranm/nidoranm.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0032_nidoranm/nidoranm_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0032_nidoranm/nidoranm_cobbleeffortian_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "nidoranm_cobbleeffortian_shiny",
+    "folder": "0032_nidoranm",
+    "model": "cobbleeffort:nidoranm_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0032_nidoranm/nidoranm_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0032_nidoranm/nidoranm_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0032_nidoranm/nidoranm_cobbleeffortian_shiny_glow_0.png"
+      }
+    ]
+  },
+  {
+    "species": "nidorino_cobbleeffortian",
+    "folder": "0033_nidorino",
+    "model": "cobbleeffort:nidorino_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0033_nidorino/nidorino.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "nidorino_cobbleeffortian_shiny",
+    "folder": "0033_nidorino",
+    "model": "cobbleeffort:nidorino_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0033_nidorino/nidorino_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian_shiny_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0033_nidorino/nidorino_cobbleeffortian_shiny_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "nidoking_cobbleeffortian",
+    "folder": "0034_nidoking",
+    "model": "cobbleeffort:nidoking_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0034_nidoking/nidoking.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian_shell.png"
+      }
+    ]
+  },
+  {
+    "species": "nidoking_cobbleeffortian_shiny",
+    "folder": "0034_nidoking",
+    "model": "cobbleeffort:nidoking_cobbleeffortian.geo",
+    "original": "cobblemon:textures/pokemon/0034_nidoking/nidoking_shiny.png",
+    "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian_shiny.png",
+    "layers": [
+      {
+        "original": null,
+        "emissive": true,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian_shiny_glow_0.png"
+      },
+      {
+        "original": null,
+        "emissive": false,
+        "retextured": "cobbleeffort:textures/pokemon/regional/0034_nidoking/nidoking_cobbleeffortian_shiny_shell.png"
+      }
+    ]
   }
 ]

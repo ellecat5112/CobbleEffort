@@ -1946,6 +1946,21 @@ All three need Mega Showdown (in the mod stack), which adds Kyogre and Groudon t
 
 ![The CobbleEffort Kyogre, Groudon and Rayquaza, and their shinies](docs/regional_hoenn.png)
 
+**The Nidoran♂ line** (Fire/Dragon), after the user's "Kiruvian" regional Nidoran♂, Nidorino and Nidoking art (artist
+not named), on models of their own: charcoal-black hides with glowing magma patches, white claws and orange-gold eyes.
+Nidoran♂ has spiky fur, big ears edged in red, a glowing red mark over its eye, little fangs, red dorsal spines and a
+big round magma-red rump; Nidorino a big round peach-lined ear, a translucent quartz horn, an open mouth of white fangs
+and a dark-red chest plate; Nidoking is a huge hunched brute on massive forearms armoured in pale hexagonal stone at the
+shoulders and elbows (and knees), with a row of translucent quartz crystals down its back, cream crescent ears, a
+grimace of cream teeth and a long thick tail curving up. Flame Body / Rivalry, hidden Hustle (Nidoking: Sheer Force);
+their poison moves become fire and dragon ones (Poison Sting Ember, Toxic Spikes Fire Spin, Toxic Will-O-Wisp, Poison
+Jab Fire Fang, Poison Tail Dragon Tail, Sludge Bomb Flamethrower, Venoshock Dragon Breath), plus Dragon Breath, Flame
+Charge, Dragon Claw and Dragon Rush by level and Fire Blast, Outrage, Dragon Pulse, Scale Shot and more by TM. Nidoran♂
+is uncommon in badlands, savannas and volcanic biomes, Nidorino rare and Nidoking ultra-rare there. Nidoran♂ evolves at
+level 16, Nidorino with a Moon Stone. Shiny: midnight blue with azure plates and cyan-glowing patches.
+
+![The CobbleEffort Nidoran♂, Nidorino and Nidoking (top) and their shinies](docs/regional_nidoran.png)
+
 ## Paradox Mega Evolutions (with Mega Showdown)
 
 Every Paradox Pokémon (the 22 the Pokémon Fandom wiki lists: 11 Ancient including Koraidon, 11 Future including

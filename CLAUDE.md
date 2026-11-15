@@ -214,6 +214,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   LINE `behaviour` = a form-level behaviour override (the mud fish walks); model `LOCATORS` {name: (bone, pivot)} adds
   locators (MSD's riding seats `seat_1`/`seat_2`); the preview manifest's `original` is null when Cobblemon has no texture.
   Rayquaza's coil = rods along a helix in chained `coil_*`/`neck_*` bones (they ripple), cut-out hex fins/ribbon links.
+  Nidoran♂/Nidorino/Nidoking (Fire/Dragon, the user's "Kiruvian" art, artist not named; `_nidoflame.py`: `patched()`
+  glowing hex magma patches, `plate()`, `earf()` red-edged ears, `hexplate()` stone armour, translucent `crystal()`
+  quartz): NIDO_REPLACE poison -> fire/dragon moves; LINE evolve lvl "<x>_stone" = item_interact with
+  `cobblemon:<x>_stone` (Nidorino's Moon Stone); badlands/volcanic/savanna spawns.
   Gastly/Haunter/Gengar (Ghost/Fire hellfire forms, after @tomats_art's art; `_hellfire.py`: palette, `gas()` glowing
   translucent puffs, `flames()` fans of flame spikes, `red_spotted()`): FIRE_REPLACE swaps poison moves for fire ones,
   spawns HELLFIRE = hot biomes at night + the Nether (`dimensions` the_nether, `#minecraft:is_nether`). LINE `evolve`

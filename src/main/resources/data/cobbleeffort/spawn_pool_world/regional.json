@@ -517,6 +517,117 @@
       }
     },
     {
+      "id": "nidoranm-cobbleeffortian-1",
+      "pokemon": "nidoranm cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-24",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "nidoranm-cobbleeffortian-2",
+      "pokemon": "nidoranm cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "8-24",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "nidorino-cobbleeffortian-1",
+      "pokemon": "nidorino cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-36",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "nidorino-cobbleeffortian-2",
+      "pokemon": "nidorino cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-36",
+      "weight": 1.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "nidoking-cobbleeffortian-1",
+      "pokemon": "nidoking cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands",
+          "#cobblemon:is_volcanic"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "nidoking-cobbleeffortian-2",
+      "pokemon": "nidoking cobbleeffortian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-55",
+      "weight": 0.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
       "id": "petroil-badlands-herd",
       "presets": [
         "natural"

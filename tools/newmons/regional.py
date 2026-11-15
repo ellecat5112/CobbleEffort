@@ -258,6 +258,21 @@ HELLFIRE = [("grounded", {"timeRange": "night", "canSeeSky": True,
                           "biomes": ["#cobblemon:is_badlands", "#cobblemon:is_desert", "#cobblemon:is_savanna"]}),
             ("grounded", {"dimensions": ["minecraft:the_nether"], "biomes": ["#minecraft:is_nether"]})]
 
+# the Nidoran line (Fire/Dragon, the user's "Kiruvian" art): poison moves become fire and dragon ones
+NIDO_REPLACE = {"poisonsting": "ember", "toxicspikes": "firespin", "toxic": "willowisp", "poisonjab": "firefang",
+                "poisontail": "dragontail", "sludgebomb": "flamethrower", "sludgewave": "heatwave",
+                "venoshock": "dragonbreath", "venomdrench": "scaryface"}
+NIDO_DROP = []
+NIDO_ADD = ["tm:flamethrower", "tm:fireblast", "tm:flamecharge", "tm:dragonclaw", "tm:dragonpulse", "tm:outrage",
+            "tm:willowisp", "tm:firefang", "tm:dragontail", "tm:scaleshot", "tm:heatwave", "tm:breakingswipe"]
+
+
+def NIDO_SPAWNS(bucket, level, weight):
+    return [("grounded", {"biomes": ["#cobblemon:is_badlands", "#cobblemon:is_volcanic"], "canSeeSky": True},
+             bucket, level, weight),
+            ("grounded", {"biomes": ["#cobblemon:is_savanna"], "canSeeSky": True}, bucket, level, weight * 0.5)]
+
+
 LINE = {
     "slugma": {
         "folder": "0218_slugma", "generation": 2, "box": "slugma_cobbleeffortian",
@@ -517,12 +532,56 @@ LINE = {
         "how_where": "mountain peaks above y 150, and the sky",
         "shiny_note": "Shiny: the halves swap: a black front with gold chains, white coils with red rings.",
     },
+    "nidoranm": {
+        "folder": "0032_nidoranm", "box": "nidoranm_cobbleeffortian", "generation": 1,
+        "types": ("fire", "dragon"), "abilities": ["flamebody", "rivalry", "h:hustle"],
+        "moves_replace": NIDO_REPLACE, "moves_drop": NIDO_DROP,
+        "moves_add": NIDO_ADD + ["12:dragonbreath", "32:flamecharge"],
+        "evolve": ("nidorino", 16, ["dragonbreath"]),
+        "entry": ("The magma in its rump keeps it warm through the coldest nights. When it senses danger it raises the "
+                  "red spines on its back, and they glow hot enough to blister a paw that touches them."),
+        "look": ("a little charcoal beast with spiky fur, big red-edged ears, an orange-gold eye under a glowing red "
+                 "mark, small white fangs, red dorsal spines and a big round magma-red rump"),
+        "spawns": NIDO_SPAWNS("uncommon", "8-24", 6.0),
+        "how_where": "badlands, savannas and volcanic biomes",
+        "shiny_note": "Shiny: midnight blue with azure plates and cyan-glowing patches.",
+    },
+    "nidorino": {
+        "folder": "0033_nidorino", "box": "nidorino_cobbleeffortian", "generation": 1,
+        "types": ("fire", "dragon"), "abilities": ["flamebody", "rivalry", "h:hustle"],
+        "moves_replace": NIDO_REPLACE, "moves_drop": NIDO_DROP,
+        "moves_add": NIDO_ADD + ["18:dragonbreath", "40:flamecharge", "60:dragonclaw"],
+        "evolve": ("nidoking", "moon_stone", ["dragonrush"]),
+        "entry": ("Its quartz horn grows from a seam of magma in its skull and glows when it charges. It picks fights "
+                  "with anything bigger than itself, and the scorch marks on the rocks show where it won."),
+        "look": ("a charcoal beast with spiky head fur, a big round peach-lined ear, a translucent quartz horn, an "
+                 "orange-gold eye, an open mouth with white fangs, a dark-red chest plate and glowing magma patches"),
+        "spawns": NIDO_SPAWNS("rare", "18-36", 2.0),
+        "how_where": "badlands, savannas and volcanic biomes",
+        "shiny_note": "Shiny: midnight blue with azure plates and cyan-glowing patches.",
+    },
+    "nidoking": {
+        "folder": "0034_nidoking", "box": "nidoking_cobbleeffortian", "generation": 1,
+        "types": ("fire", "dragon"), "abilities": ["flamebody", "rivalry", "h:sheerforce"],
+        "moves_replace": NIDO_REPLACE, "moves_drop": NIDO_DROP,
+        "moves_add": NIDO_ADD + ["1:dragonrush", "1:dragonclaw", "1:flamecharge", "1:dragonbreath", "tm:dragondance"],
+        "evolve": None,
+        "entry": ("Quartz crystals grow down its back as the magma inside it cools, and the oldest ones are taller than a "
+                  "person. It walks on its stone-armoured fists, and one blow of them splits a boulder in two."),
+        "look": ("a huge hunched charcoal brute on massive forearms armoured in pale hexagonal stone, translucent quartz "
+                 "crystals down its back, a spiky crest, cream crescent ears, a grimace of cream teeth, a grey belly, "
+                 "white claws and a long thick tail curving up"),
+        "spawns": NIDO_SPAWNS("ultra-rare", "36-55", 0.5),
+        "how_where": "badlands and volcanic biomes",
+        "shiny_note": "Shiny: midnight blue with azure plates and cyan-glowing patches.",
+    },
 }
 SHINY_NOTE = "Shiny: electric blue with orange (feeler, spots and eyes) and teal wings."
 ABILITY_NAMES = {"stench": "Stench", "liquidooze": "Liquid Ooze", "flamebody": "Flame Body", "cursedbody": "Cursed Body", "flashfire": "Flash Fire", "suctioncups": "Suction Cups", "effectspore": "Effect Spore", "ironbarbs": "Iron Barbs", "poisonpoint": "Poison Point", "runaway": "Run Away", "shedskin": "Shed Skin",
                  "poisontouch": "Poison Touch", "tintedlens": "Tinted Lens", "innerfocus": "Inner Focus",
                  "drizzle": "Drizzle", "eartheater": "Earth Eater", "drought": "Drought", "steelworker": "Steelworker",
-                 "airlock": "Air Lock", "galewings": "Gale Wings"}
+                 "airlock": "Air Lock", "galewings": "Gale Wings", "rivalry": "Rivalry", "hustle": "Hustle",
+                 "sheerforce": "Sheer Force"}
 
 
 def box_module(name):
@@ -585,7 +644,11 @@ def form_json(sp, species, c):
         # into the next CobbleEffort form, or (a namespaced id) into a species of its own, like Sirfetch'd;
         # lvl "trade" = a trade evolution (Haunter -> Gengar)
         result = res if ":" in res else f"{res} {ASPECT}"
-        if lvl == "garbage_bag":                          # used on it: the Garbage Bag (garbage.py)
+        if isinstance(lvl, str) and lvl.endswith("_stone"):   # an evolution stone used on it (Nidorino's Moon Stone)
+            f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "item_interact",
+                                "result": result, "consumeHeldItem": False, "learnableMoves": learn,
+                                "requiredContext": f"cobblemon:{lvl}"}]
+        elif lvl == "garbage_bag":                        # used on it: the Garbage Bag (garbage.py)
             import garbage
             f["evolutions"] = [{"id": f"{sp}_{res.split(':')[-1]}_{ASPECT}", "variant": "item_interact",
                                 "result": result, "consumeHeldItem": False, "learnableMoves": learn,
@@ -669,6 +732,9 @@ def main():
                    ([(f"Evolves into {c['evolve'][0].split(':')[-1].title()} when you use a Garbage Bag on it "
                       "(a rare drop from Garbodor)." if c["evolve"][1] == "garbage_bag"
                       else f"Evolves into the CobbleEffort {c['evolve'][0].title()} when traded." if c["evolve"][1] == "trade"
+                      else (f"Evolves into the CobbleEffort {c['evolve'][0].title()} when you use a "
+                            f"{c['evolve'][1].replace('_', ' ').title()} on it.")
+                      if isinstance(c["evolve"][1], str) and c["evolve"][1].endswith("_stone")
                       else f"Evolves into {c['evolve'][0].split(':')[1].title()} at level {c['evolve'][1]}." if ":" in c["evolve"][0]
                       else f"Evolves into the CobbleEffort {c['evolve'][0].title()} at level {c['evolve'][1]}.")]
                     if c["evolve"] else []),

@@ -307,6 +307,9 @@ own.
 The CobbleEffortian Groudon (Steel/Fire) is after the regional Groudon art by Hoops and Hiphop, and the
 CobbleEffortian Rayquaza (Flying) after Pigeon Chop's art; the CobbleEffortian Kyogre (Ground mud fish) is the user's
 idea. Their models, moves and Pokédex entries are our own.
+The CobbleEffortian Nidoran♂, Nidorino and Nidoking (Fire/Dragon) are after the user's "Kiruvian" regional art
+(artist not named; its types were set aside for Fire/Dragon at the user's request); models, moves and Pokédex entries
+are our own.
 
 ## Code and data
 

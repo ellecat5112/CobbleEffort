@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 188 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 191 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1689,6 +1689,35 @@ cobbleeffort:cavitot.
   leaves a bird Pokémon numb for days. Flocks of them drift over jungle canopies, and the trees they
   rest in turn faintly purple."
   * Wild: rare in jungles and flower forests.
+
+#0032 NIDORAN-M (COBBLEEFFORT FORM)  (Fire / Dragon; Flame Body / Rivalry / Hustle (hidden))
+  a little charcoal beast with spiky fur, big red-edged ears, an orange-gold eye under a glowing red
+  mark, small white fangs, red dorsal spines and a big round magma-red rump
+  Stats: HP 46  Atk 57  Def 40  SpA 40  SpD 40  Spe 50  (total 273)
+  Pokedex: "The magma in its rump keeps it warm through the coldest nights. When it senses danger it
+  raises the red spines on its back, and they glow hot enough to blister a paw that touches them."
+  * Wild: uncommon in badlands, savannas and volcanic biomes.
+  * Evolves into the CobbleEffort Nidorino at level 16.
+
+#0033 NIDORINO (COBBLEEFFORT FORM)  (Fire / Dragon; Flame Body / Rivalry / Hustle (hidden))
+  a charcoal beast with spiky head fur, a big round peach-lined ear, a translucent quartz horn, an
+  orange-gold eye, an open mouth with white fangs, a dark-red chest plate and glowing magma patches
+  Stats: HP 61  Atk 72  Def 57  SpA 55  SpD 55  Spe 65  (total 365)
+  Pokedex: "Its quartz horn grows from a seam of magma in its skull and glows when it charges. It
+  picks fights with anything bigger than itself, and the scorch marks on the rocks show where it
+  won."
+  * Wild: rare in badlands, savannas and volcanic biomes.
+  * Evolves into the CobbleEffort Nidoking when you use a Moon Stone on it.
+
+#0034 NIDOKING (COBBLEEFFORT FORM)  (Fire / Dragon; Flame Body / Rivalry / Sheer Force (hidden))
+  a huge hunched charcoal brute on massive forearms armoured in pale hexagonal stone, translucent
+  quartz crystals down its back, a spiky crest, cream crescent ears, a grimace of cream teeth, a
+  grey belly, white claws and a long thick tail curving up
+  Stats: HP 81  Atk 102  Def 77  SpA 85  SpD 75  Spe 85  (total 505)
+  Pokedex: "Quartz crystals grow down its back as the magma inside it cools, and the oldest ones are
+  taller than a person. It walks on its stone-armoured fists, and one blow of them splits a boulder
+  in two."
+  * Wild: ultra-rare in badlands and volcanic biomes.
 
 #0072 TENTACOOL (COBBLEEFFORT FORM)  (Water / Dark; Illuminate / Suction Cups / Sniper (hidden))
   a little deep-sea squid: a purple mantle with glowing blue ring photophores and a spiky tip, a
