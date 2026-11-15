@@ -1,0 +1,148 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3168,
+ "name": "Coateary",
+ "primaryType": "normal",
+ "secondaryType": "psychic",
+ "maleRatio": 0.5,
+ "height": 20,
+ "weight": 300,
+ "pokedex": [
+  "cobbleeffort.species.coateary.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "fluffy",
+  "cutecharm",
+  "h:furcoat"
+ ],
+ "eggGroups": [
+  "field",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 55,
+  "defence": 90,
+  "special_attack": 80,
+  "special_defence": 100,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 168,
+ "experienceGroup": "fast",
+ "catchRate": 75,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.7,
+ "hitbox": {
+  "width": 1.8,
+  "height": 2.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:light_blue_wool",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:psybeam",
+  "1:tackle",
+  "1:growl",
+  "4:quickattack",
+  "8:babydolleyes",
+  "12:doublekick",
+  "16:confusion",
+  "20:cottonguard",
+  "20:psybeam",
+  "24:bodyslam",
+  "28:calmmind",
+  "32:psychic",
+  "36:hypervoice",
+  "40:futuresight",
+  "egg:wish",
+  "egg:charm",
+  "egg:healbell",
+  "egg:covet",
+  "egg:endeavor",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:hypervoice",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:icywind",
+  "tm:icebeam",
+  "tm:dazzlinggleam",
+  "tm:playrough",
+  "tm:helpinghand",
+  "tm:charm",
+  "tm:swagger",
+  "tm:tailslap",
+  "tm:uturn",
+  "tm:trick",
+  "tm:futuresight",
+  "tm:snowscape",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:psychicterrain",
+  "tm:expandingforce"
+ ],
+ "preEvolution": "cobbleeffort:fluffear"
+}

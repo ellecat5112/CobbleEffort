@@ -1,0 +1,154 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3165,
+ "name": "Awkwaddle",
+ "primaryType": "ice",
+ "secondaryType": "water",
+ "maleRatio": 0.5,
+ "height": 5,
+ "weight": 120,
+ "pokedex": [
+  "cobbleeffort.species.awkwaddle.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "slushrush",
+  "h:waterveil"
+ ],
+ "eggGroups": [
+  "water_1",
+  "field"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 45,
+  "defence": 50,
+  "special_attack": 50,
+  "special_defence": 50,
+  "speed": 35
+ },
+ "evYield": {
+  "hp": 1,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 62,
+ "experienceGroup": "medium_fast",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 0.9,
+  "height": 1.05,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.2
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.3
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:pound",
+  "1:watergun",
+  "5:powdersnow",
+  "9:aquajet",
+  "13:icywind",
+  "17:waterpulse",
+  "21:iceshard",
+  "25:brine",
+  "29:bellydrum",
+  "egg:slackoff",
+  "egg:mist",
+  "egg:drillpeck",
+  "egg:yawn",
+  "egg:haze",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:liquidation",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:iciclespear",
+  "tm:avalanche",
+  "tm:raindance",
+  "tm:snowscape",
+  "tm:aquatail",
+  "tm:chillingwater",
+  "tm:drillpeck",
+  "tm:brine",
+  "tm:whirlpool",
+  "tm:flipturn",
+  "tm:swordsdance",
+  "tm:bodyslam"
+ ],
+ "evolutions": [
+  {
+   "id": "awkwaddle_waddical",
+   "variant": "level_up",
+   "result": "cobbleeffort:waddical",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "wavecrash"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 33
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3166,
+ "name": "Waddical",
+ "primaryType": "ice",
+ "secondaryType": "water",
+ "maleRatio": 0.5,
+ "height": 18,
+ "weight": 520,
+ "pokedex": [
+  "cobbleeffort.species.waddical.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "slushrush",
+  "h:waterveil"
+ ],
+ "eggGroups": [
+  "water_1",
+  "field"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 80,
+  "special_defence": 70,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 175,
+ "experienceGroup": "medium_fast",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.3,
+  "height": 2.1,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.3
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:cod",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:prismarine_shard",
+    "percentage": 5.0
+   }
+  ]
+ },
+ "moves": [
+  "1:wavecrash",
+  "1:pound",
+  "1:watergun",
+  "5:powdersnow",
+  "9:aquajet",
+  "13:icywind",
+  "17:waterpulse",
+  "21:iceshard",
+  "25:brine",
+  "29:bellydrum",
+  "33:wavecrash",
+  "38:icebeam",
+  "43:liquidation",
+  "48:tripleaxel",
+  "53:hydropump",
+  "egg:slackoff",
+  "egg:mist",
+  "egg:drillpeck",
+  "egg:yawn",
+  "egg:haze",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:surf",
+  "tm:waterfall",
+  "tm:liquidation",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:iciclespear",
+  "tm:avalanche",
+  "tm:raindance",
+  "tm:snowscape",
+  "tm:aquatail",
+  "tm:chillingwater",
+  "tm:drillpeck",
+  "tm:brine",
+  "tm:whirlpool",
+  "tm:flipturn",
+  "tm:swordsdance",
+  "tm:bodyslam",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:hydropump",
+  "tm:wavecrash",
+  "tm:tripleaxel"
+ ],
+ "preEvolution": "cobbleeffort:awkwaddle"
+}

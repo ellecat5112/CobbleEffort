@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "waddical-shores",
+   "pokemon": "cobbleeffort:waddical",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "33-50",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:snowy_beach",
+     "#cobblemon:is_frozen_ocean"
+    ]
+   }
+  }
+ ]
+}

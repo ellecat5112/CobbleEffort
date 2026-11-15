@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "fluffear-snow",
+   "pokemon": "cobbleeffort:fluffear",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-20",
+   "weight": 6.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_snowy_forest",
+     "#cobblemon:is_snowy_taiga",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial"
+    ]
+   }
+  }
+ ]
+}

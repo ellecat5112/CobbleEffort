@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 182 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 188 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3435,6 +3435,63 @@ cobbleeffort:cavitot.
   Lost travellers who follow the way its arms point always find their path home."
   * Evolve Stackoulder at level 40.
   * Wild: rare on mountains and highlands.
+
+#3163 FRIDGIMP  (Ice / Dark; Prankster / Snow Cloak / Slush Rush (hidden))
+  a crouching little blue imp with an icy crest, curled horns, pointed ears, red eyes, a big round
+  red frostbitten nose, a toothy grin, frosty back spikes and a jagged tail
+  Stats: HP 50  Atk 65  Def 45  SpA 55  SpD 45  Spe 75  (total 335)
+  Pokedex: "Its nose is red from frostbite, and it is very proud of it. It creeps into houses on
+  snowy nights to put out the fires and pinch the warm socks drying by the hearth."
+  * Wild: uncommon in snowy biomes at night, and on mountain peaks.
+  * Evolves into Freelzebub at level 45 while it's snowing (rain in a freezing biome).
+
+#3164 FREELZEBUB  (Ice / Dark; Prankster / Snow Cloak / Slush Rush (hidden))
+  a tall lanky blue devil with two great swept horns, yellow slanted eyes and a fanged grimace,
+  spiked shoulders, long thin clawed arms, spiked knees, taloned feet and a long spade-tipped tail
+  Stats: HP 80  Atk 115  Def 75  SpA 95  SpD 75  Spe 105  (total 545)
+  Pokedex: "A frost devil said to ride the first blizzard of winter down from the mountains. Its
+  grin is the last warmth a lost traveller sees; where it walks, ponds freeze solid in a single
+  night."
+  * Evolve Fridgimp at level 45 while it's snowing.
+  * Wild: rare on peaks and glaciers at night.
+
+#3165 AWKWADDLE  (Ice / Water; Swift Swim / Slush Rush / Water Veil (hidden))
+  a chubby navy penguin chick with a white belly, oversized swim goggles, a blue swim ring round its
+  middle, little flippers, yellow feet and nervous sweat drops
+  Stats: HP 55  Atk 45  Def 50  SpA 50  SpD 50  Spe 35  (total 285)
+  Pokedex: "It can't swim yet, so it never takes off its swim ring and goggles. It slips over on the
+  ice all the time, and sweats with nerves even in a blizzard."
+  * Wild: common on snowy beaches, frozen rivers and oceans, and in snowy biomes.
+  * Evolves into Waddical at level 33, learning Wave Crash.
+
+#3166 WADDICAL  (Ice / Water; Swift Swim / Slush Rush / Water Veil (hidden))
+  a tall sleek navy penguin with a white belly, olive-gold bands on its flippers and legs, a long
+  hooked beak, goggles pushed up on its forehead and a see-through surfboard under one flipper
+  Stats: HP 85  Atk 95  Def 70  SpA 80  SpD 70  Spe 100  (total 500)
+  Pokedex: "It rides the freezing waves on a board of clear ice it carves itself, faster than any
+  boat. The more dangerous the swell, the louder it whoops."
+  * Evolve Awkwaddle at level 33.
+  * Wild: rare on snowy beaches and frozen oceans.
+
+#3167 FLUFFEAR  (Normal; Fluffy / Cute Charm / Fur Coat (hidden))
+  a snow-white bunny in a fluffy ruff, tall ears ending in fluffy earmuff puffs, big purple eyes, a
+  pink nose, pale-blue paws and a blue pom-pom tail
+  Stats: HP 60  Atk 40  Def 50  SpA 50  SpD 60  Spe 40  (total 300)
+  Pokedex: "The fluffy puffs on its ears keep out the cold and the noise alike. It burrows into
+  snowdrifts to nap, and only its ear puffs poke out."
+  * Wild: common in snowy biomes.
+  * Evolves into Coateary at level 20, learning Psybeam.
+
+#3168 COATEARY  (Normal / Psychic; Fluffy / Cute Charm / Fur Coat (hidden))
+  a small pale-blue creature with big purple eyes and blue earmuffs, wrapped in an enormous white
+  fur rising in two great loops over its head, wrapping round its middle and ending in a blue pom-
+  pom
+  Stats: HP 95  Atk 55  Def 90  SpA 80  SpD 100  Spe 50  (total 470)
+  Pokedex: "Its fur grows so long that it wraps it round itself like a great coat. It reads the
+  thoughts of those lost in the cold and leads them home, wrapping the smallest in a loop of its
+  fur."
+  * Evolve Fluffear at level 20.
+  * Wild: uncommon in snowy biomes.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

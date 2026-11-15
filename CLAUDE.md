@@ -247,6 +247,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   wandering cracks (thin ones turn to speckles at low K), `pebble()` = a flattened 3-layer stone, eyes `slit`/`stern`/
   `angry`; the user's art, artist not named, names kept): pure Rock at 20/40, Sturdy / Rock Head / Stamina; a cairn of
   faced stones, a boulder balancing stones, an inukshuk with floating standing-stone arms.
+  Snowy Routes (#3163-3168, the user's art, artist not named, names kept): Fridgimp -> Freelzebub (Ice/Dark, line
+  "snow_imp", `models/_snowimp.py`: `frosty()`, `icicle()`, `horn()`, `slant_eye()`; lv 45 while snowing = SNOWING
+  requirements weather isRaining + biome `#cobblemon:is_freezing`), Awkwaddle -> Waddical (Ice/Water, "snow_penguin",
+  `_penguin.py`: `penguin()` oval belly, `lens()` goggles; swim ring = 16 boxes round a circle; translucent cut-out
+  surfboard on arm_right; lv 33), Fluffear -> Coateary (Normal -> Normal/Psychic, "snow_fluff", `_fluff.py`: `fluff()`,
+  `pompom()`, `boa()` thick fur rods; Coateary's fur loops on a `mane` bone, the wrap on `skirt`; lv 20). SNOWY biomes.
   Kidlope -> Shadelope -> Ghillope (#3151-3153, line "goatrabbit", `models/_lope.py`: palette, `furry()` vine bands +
   crossing chest vines, `hoofed()` split hooves, `horn()` ridged, `ear()` (a rod pointing up shows its local "up" face
   to the front: INNER), `ruff()` leaf lumps round a ring, `sprig()`, `eye()` with lid/slant; the user's art, artist not

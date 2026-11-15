@@ -1,0 +1,152 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3167,
+ "name": "Fluffear",
+ "primaryType": "normal",
+ "maleRatio": 0.5,
+ "height": 6,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.fluffear.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "fluffy",
+  "cutecharm",
+  "h:furcoat"
+ ],
+ "eggGroups": [
+  "field",
+  "fairy"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 40,
+  "defence": 50,
+  "special_attack": 50,
+  "special_defence": 60,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 58,
+ "experienceGroup": "fast",
+ "catchRate": 190,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.45,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:white_wool",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:rabbit_hide",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:growl",
+  "4:quickattack",
+  "8:babydolleyes",
+  "12:doublekick",
+  "16:confusion",
+  "20:cottonguard",
+  "egg:wish",
+  "egg:charm",
+  "egg:healbell",
+  "egg:covet",
+  "egg:endeavor",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:hypervoice",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:icywind",
+  "tm:icebeam",
+  "tm:dazzlinggleam",
+  "tm:playrough",
+  "tm:helpinghand",
+  "tm:charm",
+  "tm:swagger",
+  "tm:tailslap",
+  "tm:uturn",
+  "tm:trick",
+  "tm:futuresight",
+  "tm:snowscape"
+ ],
+ "evolutions": [
+  {
+   "id": "fluffear_coateary",
+   "variant": "level_up",
+   "result": "cobbleeffort:coateary",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "psybeam"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

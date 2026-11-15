@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:waddical",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:waddical",
+   "model": "cobbleeffort:waddical.geo",
+   "texture": "cobbleeffort:textures/pokemon/3166_waddical/waddical.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3166_waddical/waddical_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3166_waddical/waddical_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3166_waddical/waddical_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

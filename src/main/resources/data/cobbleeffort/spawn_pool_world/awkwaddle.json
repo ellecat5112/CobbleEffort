@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "awkwaddle-shores",
+   "pokemon": "cobbleeffort:awkwaddle",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-25",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:snowy_beach",
+     "#cobblemon:is_frozen_ocean",
+     "minecraft:frozen_river",
+     "#cobblemon:is_snowy"
+    ]
+   }
+  }
+ ]
+}

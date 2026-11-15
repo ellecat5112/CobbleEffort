@@ -3635,6 +3635,126 @@ SPECIES.update({
 })
 LINES["cairn"] = ["stackid", "stackoulder", "piloulder"]
 
+# --- Snowy Routes (#3163-3168, the user's art, artist not named, names kept): Fridgimp -> Freelzebub (Ice/Dark, level
+# 45 while it snows), Awkwaddle -> Waddical (Ice/Water, 33), Fluffear -> Coateary (Normal -> Normal/Psychic, 20).
+SNOWING = [{"variant": "weather", "isRaining": True}, {"variant": "biome", "biomeCondition": "#cobblemon:is_freezing"}]
+SNOWY = ["#cobblemon:is_snowy", "#cobblemon:is_snowy_forest", "#cobblemon:is_snowy_taiga", "#cobblemon:is_tundra",
+         "#cobblemon:is_glacial"]
+IMP = dict(male=0.5, egg_groups=["human_like"], friendship=35, growth="medium_slow",
+           abilities=["prankster", "snowcloak", "h:slushrush"], ability_names="Prankster / Snow Cloak / Slush Rush (hidden)")
+IMP_EARLY = [(1, "leer"), (1, "powdersnow"), (5, "bite"), (9, "icywind"), (13, "feintattack"), (17, "iceshard"),
+             (21, "snarl"), (25, "frostbreath"), (29, "taunt"), (33, "icefang"), (37, "nightslash"), (41, "nastyplot")]
+IMP_TM = BASIC_TM + ["icebeam", "blizzard", "icywind", "iciclespear", "avalanche", "icepunch", "icefang", "snowscape",
+                     "darkpulse", "crunch", "nightslash", "foulplay", "knockoff", "suckerpunch", "taunt", "thief",
+                     "nastyplot", "snarl", "throatchop", "lashout", "fakeout", "willowisp", "uturn", "shadowclaw"]
+PENGUIN = dict(male=0.5, egg_groups=["water_1", "field"], friendship=70, growth="medium_fast",
+               abilities=["swiftswim", "slushrush", "h:waterveil"], ability_names="Swift Swim / Slush Rush / Water Veil (hidden)")
+PEN_EARLY = [(1, "pound"), (1, "watergun"), (5, "powdersnow"), (9, "aquajet"), (13, "icywind"), (17, "waterpulse"),
+             (21, "iceshard"), (25, "brine"), (29, "bellydrum")]
+PEN_TM = BASIC_TM + ["surf", "waterfall", "liquidation", "icebeam", "blizzard", "icywind", "iciclespear", "avalanche",
+                     "raindance", "snowscape", "aquatail", "chillingwater", "drillpeck", "brine", "whirlpool",
+                     "flipturn", "swordsdance", "bodyslam"]
+FLUFF = dict(male=0.5, egg_groups=["field", "fairy"], friendship=70, growth="fast",
+             abilities=["fluffy", "cutecharm", "h:furcoat"], ability_names="Fluffy / Cute Charm / Fur Coat (hidden)")
+FLUFF_EARLY = [(1, "tackle"), (1, "growl"), (4, "quickattack"), (8, "babydolleyes"), (12, "doublekick"),
+               (16, "confusion"), (20, "cottonguard")]
+FLUFF_TM = BASIC_TM + ["bodyslam", "doubleedge", "hypervoice", "psychic", "psyshock", "calmmind", "lightscreen",
+                       "reflect", "icywind", "icebeam", "dazzlinggleam", "playrough", "helpinghand", "charm",
+                       "swagger", "tailslap", "uturn", "trick", "futuresight", "snowscape"]
+SPECIES.update({
+    "fridgimp": {
+        "dex": 3163, "name": "Fridgimp", "line": "snow_imp", "types": ["ice", "dark"], **IMP,
+        "stats": stats(50, 65, 45, 55, 45, 75), "ev": evs(speed=1), "catch": 120, "exp": 66,
+        "height": 6, "weight": 90, "shoulder": True, "walk": 0.32,
+        "moves": IMP_EARLY, "tm": IMP_TM, "egg": ["fakeout", "partingshot", "icepunch", "beatup", "lashout"],
+        "evolve": ("freelzebub", 45, ["iciclecrash"], SNOWING),
+        "drops": [("minecraft:snowball", "1-3", None), ("minecraft:ice", "0-1", None)],
+        "entry": ("Its nose is red from frostbite, and it is very proud of it. It creeps into houses on snowy nights to "
+                  "put out the fires and pinch the warm socks drying by the hearth."),
+        "spawns": [route_spawn("fridgimp-snow", "uncommon", "5-30", 3.0, SNOWY, timeRange="night"),
+                   route_spawn("fridgimp-peaks", "uncommon", "10-35", 2.0, ["#cobblemon:is_peak"])],
+        "how": ["Wild: uncommon in snowy biomes at night, and on mountain peaks.",
+                "Evolves into Freelzebub at level 45 while it's snowing (rain in a freezing biome)."],
+    },
+    "freelzebub": {
+        "dex": 3164, "name": "Freelzebub", "line": "snow_imp", "types": ["ice", "dark"], **IMP,
+        "stats": stats(80, 115, 75, 95, 75, 105), "ev": evs(attack=2, speed=1), "catch": 45, "exp": 225,
+        "height": 24, "weight": 780, "shoulder": False, "walk": 0.38,
+        "moves": [(1, "iciclecrash"), (1, "leer")] + IMP_EARLY + [(45, "iciclecrash"), (50, "foulplay"),
+                                                               (55, "tripleaxel"), (60, "blizzard")],
+        "tm": IMP_TM + ["gigaimpact", "hyperbeam", "iciclecrash", "tripleaxel", "darkestlariat"],
+        "egg": ["fakeout", "partingshot", "icepunch", "beatup", "lashout"],
+        "evolve": None,
+        "drops": [("minecraft:packed_ice", "1-2", None), ("minecraft:blue_ice", "0-1", None)],
+        "entry": ("A frost devil said to ride the first blizzard of winter down from the mountains. Its grin is the last "
+                  "warmth a lost traveller sees; where it walks, ponds freeze solid in a single night."),
+        "spawns": [route_spawn("freelzebub-peaks", "rare", "45-60", 0.8, ["#cobblemon:is_peak", "#cobblemon:is_glacial"],
+                               timeRange="night")],
+        "how": ["Evolve Fridgimp at level 45 while it's snowing.", "Wild: rare on peaks and glaciers at night."],
+    },
+    "awkwaddle": {
+        "dex": 3165, "name": "Awkwaddle", "line": "snow_penguin", "types": ["ice", "water"], **PENGUIN,
+        "stats": stats(55, 45, 50, 50, 50, 35), "ev": evs(hp=1), "catch": 190, "exp": 62,
+        "height": 5, "weight": 120, "shoulder": True, "walk": 0.2, "swims": True,
+        "moves": PEN_EARLY, "tm": PEN_TM, "egg": ["slackoff", "mist", "drillpeck", "yawn", "haze"],
+        "evolve": ("waddical", 33, ["wavecrash"]),
+        "drops": [("minecraft:feather", "0-2", None), ("minecraft:cod", "0-1", None)],
+        "entry": ("It can't swim yet, so it never takes off its swim ring and goggles. It slips over on the ice all the "
+                  "time, and sweats with nerves even in a blizzard."),
+        "spawns": [route_spawn("awkwaddle-shores", "common", "3-25", 5.0,
+                               ["minecraft:snowy_beach", "#cobblemon:is_frozen_ocean", "minecraft:frozen_river",
+                                "#cobblemon:is_snowy"])],
+        "how": ["Wild: common on snowy beaches, frozen rivers and oceans, and in snowy biomes.",
+                "Evolves into Waddical at level 33, learning Wave Crash."],
+    },
+    "waddical": {
+        "dex": 3166, "name": "Waddical", "line": "snow_penguin", "types": ["ice", "water"], **PENGUIN,
+        "stats": stats(85, 95, 70, 80, 70, 100), "ev": evs(speed=2), "catch": 45, "exp": 175,
+        "height": 18, "weight": 520, "shoulder": False, "walk": 0.34, "swims": True,
+        "moves": [(1, "wavecrash")] + PEN_EARLY + [(33, "wavecrash"), (38, "icebeam"), (43, "liquidation"),
+                                                   (48, "tripleaxel"), (53, "hydropump")],
+        "tm": PEN_TM + ["gigaimpact", "hyperbeam", "hydropump", "wavecrash", "tripleaxel"],
+        "egg": ["slackoff", "mist", "drillpeck", "yawn", "haze"],
+        "evolve": None,
+        "drops": [("minecraft:feather", "1-2", None), ("minecraft:cod", "1-2", None), ("minecraft:prismarine_shard", None, 5.0)],
+        "entry": ("It rides the freezing waves on a board of clear ice it carves itself, faster than any boat. The more "
+                  "dangerous the swell, the louder it whoops."),
+        "spawns": [route_spawn("waddical-shores", "rare", "33-50", 1.0,
+                               ["minecraft:snowy_beach", "#cobblemon:is_frozen_ocean"])],
+        "how": ["Evolve Awkwaddle at level 33.", "Wild: rare on snowy beaches and frozen oceans."],
+    },
+    "fluffear": {
+        "dex": 3167, "name": "Fluffear", "line": "snow_fluff", "types": ["normal"], **FLUFF,
+        "stats": stats(60, 40, 50, 50, 60, 40), "ev": evs(special_defence=1), "catch": 190, "exp": 58,
+        "height": 6, "weight": 40, "shoulder": True, "walk": 0.3,
+        "moves": FLUFF_EARLY, "tm": FLUFF_TM, "egg": ["wish", "charm", "healbell", "covet", "endeavor"],
+        "evolve": ("coateary", 20, ["psybeam"]),
+        "drops": [("minecraft:white_wool", "0-2", None), ("minecraft:rabbit_hide", "0-1", None)],
+        "entry": ("The fluffy puffs on its ears keep out the cold and the noise alike. It burrows into snowdrifts to nap, "
+                  "and only its ear puffs poke out."),
+        "spawns": [route_spawn("fluffear-snow", "common", "3-20", 6.0, SNOWY)],
+        "how": ["Wild: common in snowy biomes.", "Evolves into Coateary at level 20, learning Psybeam."],
+    },
+    "coateary": {
+        "dex": 3168, "name": "Coateary", "line": "snow_fluff", "types": ["normal", "psychic"], **FLUFF,
+        "stats": stats(95, 55, 90, 80, 100, 50), "ev": evs(hp=1, special_defence=1), "catch": 75, "exp": 168,
+        "height": 20, "weight": 300, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "psybeam")] + FLUFF_EARLY + [(20, "psybeam"), (24, "bodyslam"), (28, "calmmind"),
+                                                   (32, "psychic"), (36, "hypervoice"), (40, "futuresight")],
+        "tm": FLUFF_TM + ["gigaimpact", "hyperbeam", "psychicterrain", "expandingforce"],
+        "egg": ["wish", "charm", "healbell", "covet", "endeavor"],
+        "evolve": None,
+        "drops": [("minecraft:white_wool", "1-3", None), ("minecraft:light_blue_wool", "0-1", None)],
+        "entry": ("Its fur grows so long that it wraps it round itself like a great coat. It reads the thoughts of those "
+                  "lost in the cold and leads them home, wrapping the smallest in a loop of its fur."),
+        "spawns": [route_spawn("coateary-snow", "uncommon", "20-40", 1.5, SNOWY)],
+        "how": ["Evolve Fluffear at level 20.", "Wild: uncommon in snowy biomes."],
+    },
+})
+LINES["snow_imp"] = ["fridgimp", "freelzebub"]
+LINES["snow_penguin"] = ["awkwaddle", "waddical"]
+LINES["snow_fluff"] = ["fluffear", "coateary"]
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.

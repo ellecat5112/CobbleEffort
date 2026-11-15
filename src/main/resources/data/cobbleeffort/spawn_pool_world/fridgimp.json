@@ -1,0 +1,48 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "fridgimp-snow",
+   "pokemon": "cobbleeffort:fridgimp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "5-30",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_snowy_forest",
+     "#cobblemon:is_snowy_taiga",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial"
+    ],
+    "timeRange": "night"
+   }
+  },
+  {
+   "id": "fridgimp-peaks",
+   "pokemon": "cobbleeffort:fridgimp",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "10-35",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_peak"
+    ]
+   }
+  }
+ ]
+}
