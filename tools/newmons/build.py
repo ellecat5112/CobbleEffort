@@ -3755,6 +3755,75 @@ LINES["snow_imp"] = ["fridgimp", "freelzebub"]
 LINES["snow_penguin"] = ["awkwaddle", "waddical"]
 LINES["snow_fluff"] = ["fluffear", "coateary"]
 
+# --- The velvet worm line (#3169-3171, after the art of the user's friend on r/fakemon, signed "sno", shared with
+# permission; our names; the user wanted it Bug-type): Squirmlet -> Nozzlurm (Bug/Water, 18) -> Onychydra (Bug/Dragon,
+# 40; Hydrostatic = its Water moves get the same-type bonus). They spray water and glue from their snouts.
+VELVET_WET = ["#cobblemon:is_jungle", "#cobblemon:is_swamp", "#cobblemon:is_bamboo"]
+VELVET = dict(male=0.5, egg_groups=["bug", "water_1"], friendship=50, growth="medium_slow",
+              abilities=["swarm", "hydration", "h:stickyhold"], ability_names="Swarm / Hydration / Sticky Hold (hidden)")
+VEL_EARLY = [(1, "stringshot"), (1, "watergun"), (5, "bugbite"), (9, "strugglebug"), (13, "bubblebeam"),
+             (17, "lunge")]
+VEL_TM = BASIC_TM + ["bugbuzz", "uturn", "lunge", "strugglebug", "stringshot", "bugbite", "stickyweb", "pounce",
+                     "skittersmack", "infestation", "waterpulse", "surf", "liquidation", "chillingwater", "raindance",
+                     "muddywater", "mudshot", "mudslap", "scald", "brine", "whirlpool", "bodyslam", "irontail"]
+SPECIES.update({
+    "squirmlet": {
+        "dex": 3169, "name": "Squirmlet", "line": "velvet_worm", "types": ["bug"], **VELVET,
+        "stats": stats(45, 40, 45, 45, 40, 35), "ev": evs(special_attack=1), "catch": 190, "exp": 56,
+        "height": 3, "weight": 25, "shoulder": True, "walk": 0.22,
+        "moves": VEL_EARLY, "tm": VEL_TM, "egg": ["stickyweb", "aquaring", "acupressure", "mudsport", "bind"],
+        "evolve": ("nozzlurm", 18, ["waterpulse"]),
+        "drops": [("minecraft:slime_ball", "0-2", None), ("minecraft:string", "0-1", None)],
+        "entry": ("It hides in damp leaf litter and only comes out after the rain. When it is startled, it squirts a "
+                  "thread of sticky goo from its little hose of a snout, then scurries away while its attacker struggles."),
+        "spawns": [route_spawn("squirmlet-wet", "common", "3-22", 5.0, VELVET_WET),
+                   route_spawn("squirmlet-rain", "common", "3-22", 4.0, ["#cobblemon:is_forest"], isRaining=True)],
+        "how": ["Wild: common in jungles, swamps and bamboo forests, and in forests while it rains.",
+                "Evolves into Nozzlurm at level 18, learning Water Pulse."],
+    },
+    "nozzlurm": {
+        "dex": 3170, "name": "Nozzlurm", "line": "velvet_worm", "types": ["bug", "water"], **VELVET,
+        "stats": stats(65, 60, 65, 80, 60, 55), "ev": evs(special_attack=2), "catch": 90, "exp": 142,
+        "height": 9, "weight": 210, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "waterpulse")] + VEL_EARLY + [(18, "waterpulse"), (23, "snipeshot"), (28, "stickyweb"),
+                                                    (33, "bugbuzz"), (38, "hydropump")],
+        "tm": VEL_TM + ["hydropump", "snipeshot"],
+        "egg": ["stickyweb", "aquaring", "acupressure", "mudsport", "bind"],
+        "evolve": ("onychydra", 40, ["dragonpulse"]),
+        "drops": [("minecraft:slime_ball", "1-2", None), ("minecraft:string", "0-2", None)],
+        "entry": ("It aims its long nozzle like a hose and sprays jets of water or glue with pinpoint accuracy. A whole "
+                  "swarm can glue a tree's worth of Bug Pokémon in place before they know they have been seen."),
+        "spawns": [route_spawn("nozzlurm-wet", "uncommon", "18-40", 2.0, VELVET_WET)],
+        "how": ["Evolve Squirmlet at level 18.", "Wild: uncommon in jungles, swamps and bamboo forests.",
+                "Evolves into Onychydra at level 40, learning Dragon Pulse."],
+    },
+    "onychydra": {
+        "dex": 3171, "name": "Onychydra", "line": "velvet_worm", "types": ["bug", "dragon"], **VELVET,
+        "abilities": ["hydrostatic", "stickyhold", "h:swarm"],
+        "ability_names": "Hydrostatic (its own: its Water-type moves get the same-type bonus too) / Sticky Hold / "
+                         "Swarm (hidden)",
+        "stats": stats(95, 80, 95, 115, 85, 65), "ev": evs(special_attack=3), "catch": 45, "exp": 250,
+        "height": 24, "weight": 1650, "shoulder": False, "walk": 0.26,
+        "moves": [(1, "dragonpulse"), (1, "dragonbreath")] + VEL_EARLY +
+                 [(18, "waterpulse"), (23, "snipeshot"), (28, "stickyweb"), (33, "bugbuzz"), (40, "dragonpulse"),
+                  (45, "hydropump"), (50, "dracometeor"), (56, "muddywater")],
+        "tm": VEL_TM + ["hydropump", "snipeshot", "dragonpulse", "dracometeor", "dragontail", "outrage", "dragonclaw",
+                        "breakingswipe", "scaleshot", "gigaimpact", "hyperbeam", "earthquake", "dragondance"],
+        "egg": ["stickyweb", "aquaring", "acupressure", "mudsport", "bind"],
+        "evolve": None,
+        "drops": [("minecraft:slime_ball", "2-4", None), ("minecraft:prismarine_crystals", "0-2", None),
+                  ("cobblemon:dragon_fang", None, 2.5)],
+        "entry": ("Its body has no bones: the great water sacs along its neck and legs hold it up, and it fills them at "
+                  "rivers before a fight. One blast from its beak can knock a boulder off a cliff, or glue a flock of "
+                  "Flying Pokémon to the sky."),
+        "spawns": [route_spawn("onychydra-wet", "rare", "40-60", 0.6, ["#cobblemon:is_jungle", "#cobblemon:is_swamp"],
+                               isRaining=True)],
+        "how": ["Evolve Nozzlurm at level 40, learning Dragon Pulse.",
+                "Wild: rare in jungles and swamps while it rains."],
+    },
+})
+LINES["velvet_worm"] = ["squirmlet", "nozzlurm", "onychydra"]
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.
@@ -4270,6 +4339,13 @@ CUSTOM_ABILITIES.update(EVO_ABILITIES)
 CUSTOM_MOVES.update(EVO_MOVES)
 CUSTOM_MOVES.update(gi.GI_MOVES)
 # Neon Swarm (Ufly): Murmuration's Schooling script on Ufly's own Showdown names
+CUSTOM_ABILITIES["hydrostatic"] = {
+    "name": "Hydrostatic",
+    "js": CUSTOM_ABILITIES["primalmimicry"]["js"].replace("Primal Mimicry", "Hydrostatic").replace("num: -3011",
+                                                                                                    "num: -3071"),
+    "lang": "Its boneless body is held up by water pressure, and it sprays that water in battle: its Water-type moves "
+            "get the same-type bonus as well.",
+}
 CUSTOM_ABILITIES["neonswarm"] = {
     "name": "Neon Swarm",
     "js": CUSTOM_ABILITIES["murmuration"]["js"].replace("cobbleeffort:Sparkling", "cobbleeffort:Ufly")

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 191 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 194 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3521,6 +3521,39 @@ cobbleeffort:cavitot.
   fur."
   * Evolve Fluffear at level 20.
   * Wild: uncommon in snowy biomes.
+
+#3169 SQUIRMLET  (Bug; Swarm / Hydration / Sticky Hold (hidden))
+  a tiny chubby grey worm on stubby orange-toed legs, an orange back ring, an orange hood with big
+  round eye discs, a blue face and a short cyan snout drooping like a hose
+  Stats: HP 45  Atk 40  Def 45  SpA 45  SpD 40  Spe 35  (total 250)
+  Pokedex: "It hides in damp leaf litter and only comes out after the rain. When it is startled, it
+  squirts a thread of sticky goo from its little hose of a snout, then scurries away while its
+  attacker struggles."
+  * Wild: common in jungles, swamps and bamboo forests, and in forests while it rains.
+  * Evolves into Nozzlurm at level 18, learning Water Pulse.
+
+#3170 NOZZLURM  (Bug / Water; Swarm / Hydration / Sticky Hold (hidden))
+  a grey velvet worm on stubby legs with orange rings across its back, a blue neck and belly, an
+  orange tail curling up, a grey head under an orange hood, red eye discs with a white slit and a
+  long cyan nozzle snout
+  Stats: HP 65  Atk 60  Def 65  SpA 80  SpD 60  Spe 55  (total 385)
+  Pokedex: "It aims its long nozzle like a hose and sprays jets of water or glue with pinpoint
+  accuracy. A whole swarm can glue a tree's worth of Bug Pokémon in place before they know they have
+  been seen."
+  * Evolve Squirmlet at level 18.
+  * Wild: uncommon in jungles, swamps and bamboo forests.
+  * Evolves into Onychydra at level 40, learning Dragon Pulse.
+
+#3171 ONYCHYDRA  (Bug / Dragon; Hydrostatic (its own: its Water-type moves get the same-type bonus too) / Sticky Hold / Swarm (hidden))
+  a great hunched worm-dragon of red-orange rings joined by glossy cyan jelly bands, a rearing neck
+  fronted by a huge cyan water sac, sacs on its thick legs, dark-red lobed toes, a segmented tail
+  with a grey spike, a red hood with a black band, round orange eye discs and a hooked grey beak
+  Stats: HP 95  Atk 80  Def 95  SpA 115  SpD 85  Spe 65  (total 535)
+  Pokedex: "Its body has no bones: the great water sacs along its neck and legs hold it up, and it
+  fills them at rivers before a fight. One blast from its beak can knock a boulder off a cliff, or
+  glue a flock of Flying Pokémon to the sky."
+  * Evolve Nozzlurm at level 40, learning Dragon Pulse.
+  * Wild: rare in jungles and swamps while it rains.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

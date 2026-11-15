@@ -310,6 +310,9 @@ idea. Their models, moves and Pokédex entries are our own.
 The CobbleEffortian Nidoran♂, Nidorino and Nidoking (Fire/Dragon) are after the user's "Kiruvian" regional art
 (artist not named; its types were set aside for Fire/Dragon at the user's request); models, moves and Pokédex entries
 are our own.
+Squirmlet, Nozzlurm and Onychydra are after the velvet worm art by the user's friend on r/fakemon (signed "sno"),
+used with the artist's permission; names, Bug typing (the user's call), models, Hydrostatic and Pokédex entries are
+our own.
 
 ## Code and data
 

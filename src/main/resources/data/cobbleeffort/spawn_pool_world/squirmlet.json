@@ -1,0 +1,46 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "squirmlet-wet",
+   "pokemon": "cobbleeffort:squirmlet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-22",
+   "weight": 5.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_bamboo"
+    ]
+   }
+  },
+  {
+   "id": "squirmlet-rain",
+   "pokemon": "cobbleeffort:squirmlet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-22",
+   "weight": 4.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_forest"
+    ],
+    "isRaining": true
+   }
+  }
+ ]
+}

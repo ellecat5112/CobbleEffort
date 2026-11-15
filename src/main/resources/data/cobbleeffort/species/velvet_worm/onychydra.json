@@ -1,0 +1,166 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3171,
+ "name": "Onychydra",
+ "primaryType": "bug",
+ "secondaryType": "dragon",
+ "maleRatio": 0.5,
+ "height": 24,
+ "weight": 1650,
+ "pokedex": [
+  "cobbleeffort.species.onychydra.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom"
+ ],
+ "aspects": [],
+ "abilities": [
+  "hydrostatic",
+  "stickyhold",
+  "h:swarm"
+ ],
+ "eggGroups": [
+  "bug",
+  "water_1"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 80,
+  "defence": 95,
+  "special_attack": 115,
+  "special_defence": 85,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 250,
+ "experienceGroup": "medium_slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 50,
+ "shoulderMountable": false,
+ "baseScale": 1.0,
+ "hitbox": {
+  "width": 2.4,
+  "height": 2.3,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.26
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:prismarine_crystals",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 2.5
+   }
+  ]
+ },
+ "moves": [
+  "1:dragonpulse",
+  "1:dragonbreath",
+  "1:stringshot",
+  "1:watergun",
+  "5:bugbite",
+  "9:strugglebug",
+  "13:bubblebeam",
+  "17:lunge",
+  "18:waterpulse",
+  "23:snipeshot",
+  "28:stickyweb",
+  "33:bugbuzz",
+  "40:dragonpulse",
+  "45:hydropump",
+  "50:dracometeor",
+  "56:muddywater",
+  "egg:stickyweb",
+  "egg:aquaring",
+  "egg:acupressure",
+  "egg:mudsport",
+  "egg:bind",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:bugbuzz",
+  "tm:uturn",
+  "tm:lunge",
+  "tm:strugglebug",
+  "tm:stringshot",
+  "tm:bugbite",
+  "tm:stickyweb",
+  "tm:pounce",
+  "tm:skittersmack",
+  "tm:infestation",
+  "tm:waterpulse",
+  "tm:surf",
+  "tm:liquidation",
+  "tm:chillingwater",
+  "tm:raindance",
+  "tm:muddywater",
+  "tm:mudshot",
+  "tm:mudslap",
+  "tm:scald",
+  "tm:brine",
+  "tm:whirlpool",
+  "tm:bodyslam",
+  "tm:irontail",
+  "tm:hydropump",
+  "tm:snipeshot",
+  "tm:dragonpulse",
+  "tm:dracometeor",
+  "tm:dragontail",
+  "tm:outrage",
+  "tm:dragonclaw",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:earthquake",
+  "tm:dragondance"
+ ],
+ "preEvolution": "cobbleeffort:nozzlurm"
+}

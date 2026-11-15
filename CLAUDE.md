@@ -257,6 +257,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_penguin.py`: `penguin()` oval belly, `lens()` goggles; swim ring = 16 boxes round a circle; translucent cut-out
   surfboard on arm_right; lv 33), Fluffear -> Coateary (Normal -> Normal/Psychic, "snow_fluff", `_fluff.py`: `fluff()`,
   `pompom()`, `boa()` thick fur rods; Coateary's fur loops on a `mane` bone, the wrap on `skirt`; lv 20). SNOWY biomes.
+  Squirmlet -> Nozzlurm -> Onychydra (#3169-3171, line "velvet_worm", `models/_velvet.py`: palette, `segf()` rings with
+  a cyan jelly band at the front end + yellow back spots, `jelly` glossy water sacs, `eye_disc`, `toes()` lobed pads;
+  art by the user's friend on r/fakemon, signed "sno", with permission; our names): Bug -> Bug/Water -> Bug/Dragon
+  (the user wanted Bug; the art says Normal / Normal-Water / Dragon-Water) at 18/40; Onychydra's Hydrostatic = Primal
+  Mimicry's script renamed (Water forceSTAB). Jungle/swamp/bamboo spawns (forests in rain).
   Kidlope -> Shadelope -> Ghillope (#3151-3153, line "goatrabbit", `models/_lope.py`: palette, `furry()` vine bands +
   crossing chest vines, `hoofed()` split hooves, `horn()` ridged, `ear()` (a rod pointing up shows its local "up" face
   to the front: INNER), `ruff()` leaf lumps round a ring, `sprig()`, `eye()` with lid/slant; the user's art, artist not
