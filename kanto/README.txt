@@ -5,6 +5,26 @@ A Gen 1 adventure for Cobblemon: Gen 1 Bricks, a Gen 1-styled lab in villages wi
 dimension, where only Gen 1 Pokemon live, with eight gyms, an Elite Four, and Kantonian ore for armor and outfits.
 NEW in 0.3.0: every other region, Johto to Paldea, each with its own dimension and a landmark holding its portal.
 
+THE STARTER KIT (NEW in 0.12.0)
+  When you first join a NEW world you get a Starter Bundle (once per player; config/cobbleeffort_kanto.json
+  "give_starter_kit": false turns it off; operators: /kanto starterkit [players]). Use it to open it: 64 oak logs,
+  32 cobblestone, 32 Poke Balls, 16 Exp. Candy S, 64 cooked porkchops and a Starter Base Token.
+  Use the Starter Base Token on the ground and your starter base is built right in front of you, its door facing you
+  (it needs a space about 34 x 27 blocks; trees and hills there are cleared, gaps underneath filled with dirt):
+    - Ground floor: entrance hall with a healing machine and a PC (and a chest of Poke Balls and potions), kitchen
+      (furnace, smoker, crafting table, barrel of food, water cauldron, composter), dining table, living corner.
+    - First floor: three beds, wardrobes and nightstands, and an enchanting nook with bookshelves.
+    - Second floor: the workshop (anvil, smithing table, grindstone, stonecutter, loom, cartography and fletching
+      tables, brewing stand, lectern) and chests of materials and tools.
+    - Attic under the roof, and a ladder shaft from the lowest basement all the way up.
+    - Basement 1: the storage room, full of chests and barrels (building blocks, light, food, Poke Balls and
+      medicine, tools, seeds, berries, apricorns, coal and ores).
+    - Basement 2: the forge (furnaces, blast furnace, smoker, anvil) and a mine tunnel running out under the farm.
+    - The farm beside the house: ripe wheat on watered farmland, twelve berry bushes ready to pick (Oran, Pecha,
+      Cheri, Chesto, Rawst, Aspear, Persim, Lum, Sitrus, Leppa, Figy, Wiki), seven apricorn trees (one of each colour,
+      apricorns ripe), a composter, a chest of seeds and a scarecrow.
+  Operators can build one anywhere: /kanto starterbase <x y z> [north|south|east|west].
+
 WHAT'S IN IT
   - Gen 1 Bricks in black, white and grey (8 stone bricks around a black, white or grey dye make 8).
   - The lab: a Gen 1-styled research lab of Gen 1 Bricks that can generate in any village (plains, desert, savanna,
@@ -205,6 +225,8 @@ CALL OF THE DEN (NEW in 0.10.0, for CobbleEffort's Hopple)
     0.81.0 or later (where Hopple lives).
 
 PLEASE TEST AND REPORT
+  0.12.0: make a new world: do you get the Starter Bundle? Open it, then use the token on open ground: is the base
+  built facing you, in one piece? Pick the berries and apricorns, check the chests, climb the ladder to the attic.
   0.10.0: gather three Hopples and use Call of the Den from the wheel: do they fuse into Rabbrute?
   0.9.0: set up a Pokemon Spawner and a Trainer Spawner with a button: do they spawn, battle you, and stay uncatchable
   / leave after losing when set to? Try both wands. Are the new biomes easy enough to find now?
@@ -230,6 +252,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.12.0: the starter kit: the Starter Bundle on joining a new world, and the Starter Base Token that builds a
+         stocked starter base with a farm.
   0.11.0: /kanto drops and /kanto dna, to force and simulate Pokemon drops and Mew DNA (testing tools).
   0.10.0: Call of the Den (fuse your party's Hopples into Rabbrute from the interaction wheel).
   0.9.0: the Ashtray Wastes and Liquor Meadows are more common (config/cobbleeffort_kanto.json); Biome and

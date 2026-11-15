@@ -35,6 +35,8 @@ public final class KantoConfig {
 
     public static volatile Patches ashtray = new Patches(DEFAULT_FREQUENCY, DEFAULT_PATCH);
     public static volatile Patches liquor = new Patches(DEFAULT_FREQUENCY, DEFAULT_PATCH);
+    /** Give each player a Starter Bundle the first time they join a world they haven't played in yet. */
+    public static volatile boolean giveStarterKit = true;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
@@ -50,8 +52,11 @@ public final class KantoConfig {
         }
         ashtray = read(root, "ashtray_wastes");
         liquor = read(root, "liquor_meadows");
+        giveStarterKit = !root.has("give_starter_kit") || root.get("give_starter_kit").getAsBoolean();
+        root.addProperty("give_starter_kit", giveStarterKit);
         root.addProperty("_help", "frequency: share of the host biomes each biome takes over (0 = never, 1 = all of them); "
-                + "patch_size: roughly how wide its patches are, in blocks. Changes apply to chunks generated afterwards.");
+                + "patch_size: roughly how wide its patches are, in blocks. Changes apply to chunks generated afterwards. "
+                + "give_starter_kit: give each player a Starter Bundle when they first join a new world.");
         try {
             Files.createDirectories(file.getParent());
             Files.writeString(file, GSON.toJson(root), StandardCharsets.UTF_8);

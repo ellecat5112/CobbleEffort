@@ -537,6 +537,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `BattleBuilder.pvn/pve` 10 ticks after the spawn (own delayed queue); `Leave after losing` = entity tag read in a
   BATTLE_VICTORY listener. Uncatchable = Cobblemon's `uncatchable` flag property appended. SNBT can't hold \n: test
   team strings with ";".
+  0.12.0 starter kit (the user's request; `StarterKit.java`, `tools/make_starter.py`): the Starter Bundle is given once
+  on PLAYER_JOIN (entity tag `cobbleeffort_kanto_starter_kit`; only if the player's PLAY_TIME < 10 min, i.e. a new
+  world; KantoConfig `give_starter_kit`), opened = logs, cobblestone, Poké Balls, Exp. Candy S, porkchops + the Starter
+  Base Token; the token's useOn builds `structure/starter_base.nbt` (34 x 34 x 27, ground = template y 10, anchor
+  (8, 10, -1) on the clicked block, rotated so the door faces the player), clears above, dirt foundation below, then
+  places Cobblemon's `cobblemon:<colour>_apricorn_tree` configured features at TREES and ripens apricorns (age max) and
+  bonemeals the berry bushes until they fruit (berries need farmland: `#cobblemon:berry_soil`). Chests/barrels carry
+  LootTable `chests/starter/*`. `/kanto starterkit [players]`, `/kanto starterbase <pos> [facing]` (ops). Preview:
+  `scratchpad/tools/tpl2vox.py` -> nestprev voxel renderer.
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.

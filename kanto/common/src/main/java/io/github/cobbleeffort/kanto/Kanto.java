@@ -126,6 +126,7 @@ public final class Kanto {
         TestTools.register();                               // 0.9.0: creative Biome/Structure Wands
         Spawners.register();                                // 0.9.0: Pokémon and Trainer Spawners
         DenCall.register();                                 // 0.10.0: Hopple's Call of the Den (fusing into Rabbrute)
+        StarterKit.register();                              // 0.12.0: the Starter Bundle and Starter Base Token
         BLOCKS.register();
         Spawners.BLOCK_ENTITIES.register();
         KantoArmor.MATERIALS.register();
@@ -140,6 +141,7 @@ public final class Kanto {
         KantoEvents.init();
         KantoGyms.init();
         KantoCommand.init();
+        StarterKit.init();
         if (dev.architectury.platform.Platform.getEnvironment() == dev.architectury.utils.Env.CLIENT) {
             io.github.cobbleeffort.kanto.client.KantoClient.init();
         }
