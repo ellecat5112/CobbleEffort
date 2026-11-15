@@ -1,6 +1,6 @@
 """Shareable packages: every CobbleEffort mod for one loader, in zips under a size limit (e.g. Discord's).
 
-usage: make_share.py --out <dir> --base <cobbleeffort jar> [--distortion <jar>] [--kanto <jar>] [--fusion <jar>]
+usage: make_share.py --out <dir> --base <cobbleeffort jar> [--distortion <jar>] [--kanto <jar>] [--fusion <jar>] [--digital <jar>]
                      [--readme Name=<file> ...] [--limit 19.5] [--loader Fabric] [--cache <dir>]
 
 1. Each jar is repacked smaller without changing what the game sees in practice: PNGs re-encoded losslessly by oxipng,
@@ -137,6 +137,7 @@ def main():
     ap.add_argument("--distortion")
     ap.add_argument("--kanto")
     ap.add_argument("--fusion")
+    ap.add_argument("--digital")
     ap.add_argument("--readme", action="append", default=[], help="Mod=path (README/LICENSE files to include)")
     ap.add_argument("--limit", type=float, default=19.5)
     ap.add_argument("--loader", default="Fabric")
@@ -151,7 +152,7 @@ def main():
     z, version, core_path, folders, fsizes = split_base(repack(a.base, cache), work)
     mods = {"CobbleEffort": [("CobbleEffort (core)", core_path)]}
     for key, label in (("distortion", "CobbleEffort: Distortion"), ("kanto", "CobbleEffort: Kanto"),
-                       ("fusion", "CobbleEffort: Fusion")):
+                       ("fusion", "CobbleEffort: Fusion"), ("digital", "CobbleEffort: Digital")):
         src = getattr(a, key)
         if src:
             dst = os.path.join(work, os.path.basename(src))
@@ -160,6 +161,8 @@ def main():
     docs = {}
     for r in a.readme:
         mod, path = r.split("=", 1)
+        if mod != "CobbleEffort" and not mod.startswith("CobbleEffort: "):
+            mod = "CobbleEffort: " + mod                    # "Fusion" names the add-on labelled "CobbleEffort: Fusion"
         docs.setdefault(mod, []).append(path)
     doc_size = {m: sum(os.path.getsize(p) // 3 for p in ps) for m, ps in docs.items()}   # text deflates ~3x
 
@@ -213,7 +216,7 @@ def main():
     lines += ["",
               "Unzip them all and put every .jar in your mods folder (and on the server). CobbleEffort is the core jar",
               "plus its texture jars: install all of them together (a missing texture jar shows some cosmetics with",
-              "Minecraft's missing texture). Distortion, Kanto and Fusion are add-ons; Kanto needs Distortion.",
+              "Minecraft's missing texture). Distortion, Kanto, Fusion and Digital are add-ons; Kanto needs Distortion.",
               "",
               f"Also needed (download separately): {a.loader} Loader" + (", Fabric API" if a.loader == "Fabric" else "") +
               ", Cobblemon 1.8.4, Architectury API; for Distortion and Kanto also Mega Showdown 1.3.3+ and Accessories.",
@@ -221,7 +224,7 @@ def main():
               "These jars are packed smaller for sharing: the same files, with textures that had more than 256 colours",
               "reduced to their best 256 (an invisible change). Each mod's README and licence are included.",
               "Non-commercial (CC BY-NC / CC BY-NC-SA); not affiliated with Nintendo, Game Freak, The Pokémon Company,",
-              "the Cobblemon team or the Infinite Fusion team.", ""]
+              "the Cobblemon team, the Infinite Fusion team, or Bandai / Toei Animation (Digimon).", ""]
     install = "\n".join(lines).encode()
     for name, zp in zip(names, zips):
         path = os.path.join(a.out, name)

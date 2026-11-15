@@ -1,0 +1,1 @@
+Object.assign({}, Dex.data.Moves["ember"], {"num": -3045, "name": "Pepper Breath", "type": "Fire", "category": "Special", "basePower": 50, "accuracy": 100, "pp": 25, "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.", "isNonstandard": null, "zMove": {"basePower": 140}, "maxMove": {"basePower": 130}})

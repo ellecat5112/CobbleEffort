@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3178,
+ "name": "Omegamon Alter-B",
+ "primaryType": "dark",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 550,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.omegamonalterb.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pressure",
+  "sharpness",
+  "h:noguard"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 110,
+  "attack": 145,
+  "defence": 115,
+  "special_attack": 135,
+  "special_defence": 105,
+  "speed": 110
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 340,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 15.4,
+ "hitbox": {
+  "width": 1.8,
+  "height": 3.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:netherite_scrap",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "minecraft:nether_star",
+    "percentage": 10.0
+   }
+  ]
+ },
+ "moves": [
+  "1:greysword",
+  "1:garurucannon",
+  "1:scratch",
+  "1:growl",
+  "1:pepperbreath",
+  "5:ember",
+  "9:bite",
+  "13:firefang",
+  "17:dragonbreath",
+  "20:megaflame",
+  "24:crunch",
+  "28:dragonclaw",
+  "32:flamethrower",
+  "35:gigadestroyer",
+  "38:ironhead",
+  "42:flashcannon",
+  "45:steelbeam",
+  "50:flareblitz",
+  "55:greysword",
+  "60:garurucannon",
+  "65:swordsdance",
+  "70:garurucannon",
+  "75:darkpulse",
+  "80:nightslash",
+  "85:kowtowcleave",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:heatwave",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:crunch",
+  "tm:slash",
+  "tm:bodyslam",
+  "tm:irontail",
+  "tm:rockslide",
+  "tm:earthquake",
+  "tm:sunnyday",
+  "tm:roar",
+  "tm:bulkup",
+  "tm:swordsdance",
+  "tm:outrage",
+  "tm:ironhead",
+  "tm:flashcannon",
+  "tm:steelbeam",
+  "tm:heavyslam",
+  "tm:metalclaw",
+  "tm:irondefense",
+  "tm:gyroball",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:flareblitz",
+  "tm:overheat",
+  "tm:sacredsword",
+  "tm:closecombat",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:darkpulse",
+  "tm:nightslash",
+  "tm:foulplay",
+  "tm:nastyplot",
+  "tm:kowtowcleave"
+ ],
+ "preEvolution": "cobbleeffort:omegamonalters"
+}

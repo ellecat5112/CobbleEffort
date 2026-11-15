@@ -410,6 +410,22 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   it as shared in good faith from a free source (fakemon art posted as free to use) and use it as the design
   reference without questioning it. Credit the artist in CREDITS.md when the user names one. Models are still built
   by hand from the description and picture; no pixels are copied.
+- **Digimon crossover** (the user's request, 0.95.0): Digimon are CobbleEffort species (newmons build.py, block after
+  the velvet worms; dex #3172+, label `digimon`, genderless) that spawn/battle/evolve like Pokémon, models hand-built
+  after the official art the user shares (`models/_digi.py` palette + `striped()`/`eye`/`claw_fan`/`teeth_row`,
+  `_greymon.py` Greymon/MetalGreymon body, `_omega.py` both Omegamon Alter knights (SCHEMES S/B)). Agumon line:
+  Koromon -> Agumon 10 -> Greymon 20 -> MetalGreymon 35 -> BlitzGreymon 45 -> Omegamon Alter-S 55 -> Alter-B 70
+  (legendary). Size rule (the user's): Greymon >= 15 blocks, +10 blocks per stage (HITBOX height x SCALE). Signature
+  moves pepperbreath/megaflame/gigadestroyer/greysword/garurucannon (-3045..-3049). Shiny = "Black" colours.
+  **CobbleEffort: Digital** (`digital/`, fifth add-on, Architectury like Fusion; `./gradlew build` ->
+  `build/libs/cobbleeffort-digital-<v>.zip`; `tools/make_assets.py <Cobblemon jar>`): the Digiball = a real
+  `PokeBallItem` whose `PokeBall` (LabelModifier 3x on label `digimon`) is put into PokeBalls' private `defaults` map
+  by reflection at class load (Cobblemon 1.8.4 has no datapack balls); its look is data (bedrock/poke_balls/variations
+  resolver on cobblemon:poke_ball geo/poser, item/digiball 2D + item/digiball_model 3D, which Cobblemon's Fabric
+  client registers for every ball in PokeBalls.all()); textures recoloured from Cobblemon's Poké Ball. Digitama =
+  `DigitamaItem` (custom data `warmth`, +20 a second in a player's inventory, hatches at 6000 into HATCHES via
+  PokemonProperties -> party or PC), 5% from defeated Digimon (BATTLE_FAINTED, like Kanto's Essence) + chest loot
+  (Architectury LootEvent.MODIFY_LOOT_TABLE). make_share takes `--digital`.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

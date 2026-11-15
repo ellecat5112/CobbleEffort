@@ -1,0 +1,1 @@
+Object.assign({}, Dex.data.Moves["blizzard"], {"num": -3049, "name": "Garuru Cannon", "type": "Ice", "category": "Special", "basePower": 120, "accuracy": 90, "pp": 5, "target": "normal", "desc": "Has a 10% chance to freeze the target.", "shortDesc": "10% chance to freeze the target.", "isNonstandard": null, "zMove": {"basePower": 140}, "maxMove": {"basePower": 130}})

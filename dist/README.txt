@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 194 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 201 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3554,6 +3554,77 @@ cobbleeffort:cavitot.
   glue a flock of Flying Pokémon to the sky."
   * Evolve Nozzlurm at level 40, learning Dragon Pulse.
   * Wild: rare in jungles and swamps while it rains.
+
+#3172 KOROMON  (Normal; Run Away / Hustle / Pickup (hidden))
+  a little pink blob with big red eyes, two tiny fangs and two long wavy ear-stalks streaming back
+  from its head
+  Stats: HP 45  Atk 35  Def 35  SpA 40  SpD 35  Spe 50  (total 240)
+  Pokedex: "A baby Digimon that hatched from a Digitama not long ago. It bounces about on its round
+  body, blowing bubbles at anything it doesn't like the look of."
+  * Hatch one from a Digitama (CobbleEffort: Digital), or find it: common in plains and forests.
+  * Evolves into Agumon at level 10, learning Pepper Breath.
+
+#3173 AGUMON  (Fire; Blaze / Hustle / Tough Claws (hidden))
+  a little yellow-orange dinosaur standing upright: a big head with a rounded snout full of small
+  teeth, bright green eyes, stubby arms and feet with big white claws, and a thick tail
+  Stats: HP 55  Atk 62  Def 50  SpA 58  SpD 50  Spe 60  (total 335)
+  Pokedex: "A brave little dinosaur Digimon with sharp claws. It spits its Pepper Breath at anything
+  that threatens its friends, and it is always, always hungry."
+  * Evolve Koromon at level 10.
+  * Wild: uncommon in plains, forests and savannas.
+  * Evolves into Greymon at level 20, learning Mega Flame.
+
+#3174 GREYMON  (Fire / Dragon; Blaze / Intimidate / Tough Claws (hidden))
+  a hunched orange tyrant with blue tiger stripes, a brown skull helmet with a nose horn and two
+  side horns, an open jaw full of white fangs, big white claws and a long striped tail
+  Stats: HP 80  Atk 95  Def 75  SpA 80  SpD 70  Spe 75  (total 475)
+  Pokedex: "A giant dinosaur Digimon whose skull is armoured with a helmet of hardened bone. Its
+  Mega Flame melts rock; even a herd of the strongest beasts scatters when it roars."
+  * Evolve Agumon at level 20.
+  * Wild: rare in badlands, savannas and hills.
+  * Evolves into MetalGreymon at level 35, learning Giga Destroyer.
+
+#3175 METALGREYMON  (Steel / Dragon; Steelworker / Intimidate / Tough Claws (hidden))
+  Greymon half rebuilt in steel: a steel helmet and horns, a steel chest plate with a glowing hatch,
+  a huge steel Trident Arm with three long claws, tattered purple wings and red spines, its tail
+  still striped
+  Stats: HP 90  Atk 115  Def 95  SpA 95  SpD 80  Spe 80  (total 555)
+  Pokedex: "Half its body has been rebuilt in metal. The hatch on its chest opens to fire Giga
+  Destroyer, two organic missiles that can level a mountain, and its Trident Arm tears through
+  steel."
+  * Evolve Greymon at level 35.
+  * Wild: ultra-rare on mountains, peaks and badlands.
+  * Evolves into BlitzGreymon at level 45, learning Steel Beam.
+
+#3176 BLITZGREYMON  (Steel / Fire; Mega Launcher / Steelworker / Skill Link (hidden))
+  a towering red war-machine: crimson armour with grey joints, two huge shoulder cannon pods,
+  Gatling forearms, a crested red helmet with a yellow visor, three-clawed grey feet and a glowing
+  thruster pack
+  Stats: HP 95  Atk 125  Def 105  SpA 115  SpD 85  Spe 90  (total 615)
+  Pokedex: "A war-machine Digimon armoured in crimson. Its shoulder cannons and Gatling arms fire
+  without pause until nothing in front of it is left standing."
+  * Evolve MetalGreymon at level 45.
+  * Evolves into Omegamon Alter-S at level 55, learning Grey Sword.
+
+#3177 OMEGAMON ALTER-S  (Steel / Fighting; Sharpness / Justified / No Guard (hidden))
+  a towering white knight trimmed in gold: long legs with golden talons, spiked gold pauldrons, a
+  horned crest with a red visor, a tattered black cape, a long golden sword and a red lion-head
+  shield with a great cannon
+  Stats: HP 100  Atk 135  Def 110  SpA 120  SpD 100  Spe 105  (total 670)
+  Pokedex: "A holy knight Digimon in white armour. With the sword on one arm it cuts through
+  anything; with the cannon in the lion's jaws on the other, it fires blasts of absolute cold."
+  * Evolve BlitzGreymon at level 55.
+  * Evolves into Omegamon Alter-B at level 70, learning Garuru Cannon.
+
+#3178 OMEGAMON ALTER-B  (Dark / Steel; Pressure / Sharpness / No Guard (hidden))
+  the knight gone dark: black armour seamed with glowing red, gold trim and talons, a horned crest
+  with a red visor, a vast tattered black cape, a red-black blade and a black lion-head shield with
+  a golden cannon
+  Stats: HP 110  Atk 145  Def 115  SpA 135  SpD 105  Spe 110  (total 720)
+  Pokedex: "Omegamon Alter-S consumed by its own power: its armour has turned black, and red light
+  leaks from every seam. Its Grey Sword and Garuru Cannon are said to be able to erase a whole
+  world."
+  * Evolve Omegamon Alter-S at level 70. It can't be found in the wild.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "CC-BY-NC-4.0"
+
+[[mods]]
+modId = "cobbleeffort_digital"
+version = "${version}"
+displayName = "CobbleEffort: Digital"
+authors = "ellecat5112"
+logoFile = "assets/cobbleeffort_digital/icon.png"
+description = '''
+A Digimon crossover for Cobblemon and CobbleEffort: the Digiball (three times as good on Digimon) and Digitama that warm up in your inventory and hatch a baby Digimon.
+'''
+
+[[dependencies.cobbleeffort_digital]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_digital]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_digital]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cobbleeffort_digital]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8.4,)"
+ordering = "AFTER"
+side = "BOTH"
+

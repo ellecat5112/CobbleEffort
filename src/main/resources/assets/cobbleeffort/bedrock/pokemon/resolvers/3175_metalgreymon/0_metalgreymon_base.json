@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:metalgreymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:metalgreymon",
+   "model": "cobbleeffort:metalgreymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3175_metalgreymon/metalgreymon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

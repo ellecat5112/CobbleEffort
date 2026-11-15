@@ -3824,6 +3824,133 @@ SPECIES.update({
 })
 LINES["velvet_worm"] = ["squirmlet", "nozzlurm", "onychydra"]
 
+# --- Digimon crossover (#3172-3178, CobbleEffort: Digital, the user's request): the Agumon line, built after the official
+# Digimon art the user shared. Label "digimon" (the Digiball's 3x); genderless. Greymon and later are huge (the user's
+# call: Greymon at least 15 blocks, +10 blocks per stage). Alter-B (level 70) is legendary-tier.
+DIGI = dict(male=-1, egg_groups=["monster", "dragon"], friendship=70, growth="slow", labels=["digimon"])
+DIGI_TM = BASIC_TM + ["flamethrower", "fireblast", "firefang", "flamecharge", "willowisp", "heatwave", "dragonclaw",
+                      "dragonpulse", "dragontail", "crunch", "slash", "bodyslam", "irontail", "rockslide",
+                      "earthquake", "sunnyday", "roar", "bulkup", "swordsdance", "outrage"]
+DIGI_STEEL_TM = ["ironhead", "flashcannon", "steelbeam", "heavyslam", "metalclaw", "irondefense", "gyroball",
+                 "gigaimpact", "hyperbeam", "flareblitz", "overheat"]
+AGU_EARLY = [(1, "scratch"), (1, "growl"), (1, "pepperbreath"), (5, "ember"), (9, "bite"), (13, "firefang"),
+             (17, "dragonbreath")]
+GREY_MID = [(20, "megaflame"), (24, "crunch"), (28, "dragonclaw"), (32, "flamethrower")]
+METAL_MID = [(35, "gigadestroyer"), (38, "ironhead"), (42, "flashcannon")]
+BLITZ_MID = [(45, "steelbeam"), (50, "flareblitz")]
+OMEGA_MID = [(55, "greysword"), (60, "garurucannon"), (65, "swordsdance")]
+SPECIES.update({
+    "koromon": {
+        "dex": 3172, "name": "Koromon", "line": "digi_agumon", "types": ["normal"], **DIGI,
+        "abilities": ["runaway", "hustle", "h:pickup"], "ability_names": "Run Away / Hustle / Pickup (hidden)",
+        "stats": stats(45, 35, 35, 40, 35, 50), "ev": evs(speed=1), "catch": 190, "exp": 50,
+        "height": 3, "weight": 20, "shoulder": True, "walk": 0.3,
+        "moves": [(1, "tackle"), (1, "growl"), (4, "bubble"), (7, "bite")],
+        "tm": BASIC_TM + ["bodyslam", "bite", "headbutt"], "egg": [],
+        "evolve": ("agumon", 10, ["pepperbreath"]),
+        "drops": [("minecraft:pink_dye", "0-1", None), ("minecraft:slime_ball", "0-1", None)],
+        "entry": ("A baby Digimon that hatched from a Digitama not long ago. It bounces about on its round body, blowing "
+                  "bubbles at anything it doesn't like the look of."),
+        "spawns": [route_spawn("koromon-plains", "common", "2-12", 4.0, ["#cobblemon:is_plains", "#cobblemon:is_forest"])],
+        "how": ["Hatch one from a Digitama (CobbleEffort: Digital), or find it: common in plains and forests.",
+                "Evolves into Agumon at level 10, learning Pepper Breath."],
+    },
+    "agumon": {
+        "dex": 3173, "name": "Agumon", "line": "digi_agumon", "types": ["fire"], **DIGI,
+        "abilities": ["blaze", "hustle", "h:toughclaws"], "ability_names": "Blaze / Hustle / Tough Claws (hidden)",
+        "stats": stats(55, 62, 50, 58, 50, 60), "ev": evs(attack=1), "catch": 120, "exp": 80,
+        "height": 10, "weight": 300, "shoulder": False, "walk": 0.3,
+        "moves": AGU_EARLY, "tm": DIGI_TM, "egg": [],
+        "evolve": ("greymon", 20, ["megaflame"]),
+        "drops": [("minecraft:blaze_powder", "0-1", None), ("minecraft:bone", "0-1", None)],
+        "entry": ("A brave little dinosaur Digimon with sharp claws. It spits its Pepper Breath at anything that "
+                  "threatens its friends, and it is always, always hungry."),
+        "spawns": [route_spawn("agumon-wild", "uncommon", "10-25", 2.0,
+                               ["#cobblemon:is_plains", "#cobblemon:is_forest", "#cobblemon:is_savanna"])],
+        "how": ["Evolve Koromon at level 10.", "Wild: uncommon in plains, forests and savannas.",
+                "Evolves into Greymon at level 20, learning Mega Flame."],
+    },
+    "greymon": {
+        "dex": 3174, "name": "Greymon", "line": "digi_agumon", "types": ["fire", "dragon"], **DIGI,
+        "abilities": ["blaze", "intimidate", "h:toughclaws"], "ability_names": "Blaze / Intimidate / Tough Claws (hidden)",
+        "stats": stats(80, 95, 75, 80, 70, 75), "ev": evs(attack=2), "catch": 45, "exp": 170,
+        "height": 150, "weight": 9000, "shoulder": False, "walk": 0.32,
+        "moves": [(1, "megaflame")] + AGU_EARLY + GREY_MID, "tm": DIGI_TM + ["gigaimpact", "hyperbeam", "flareblitz"],
+        "egg": [], "evolve": ("metalgreymon", 35, ["gigadestroyer"]),
+        "drops": [("minecraft:bone", "2-5", None), ("minecraft:blaze_rod", "0-2", None)],
+        "entry": ("A giant dinosaur Digimon whose skull is armoured with a helmet of hardened bone. Its Mega Flame melts "
+                  "rock; even a herd of the strongest beasts scatters when it roars."),
+        "spawns": [route_spawn("greymon-wild", "rare", "20-40", 0.6,
+                               ["#cobblemon:is_badlands", "#cobblemon:is_savanna", "#cobblemon:is_hills"])],
+        "how": ["Evolve Agumon at level 20.", "Wild: rare in badlands, savannas and hills.",
+                "Evolves into MetalGreymon at level 35, learning Giga Destroyer."],
+    },
+    "metalgreymon": {
+        "dex": 3175, "name": "MetalGreymon", "line": "digi_agumon", "types": ["steel", "dragon"], **DIGI,
+        "abilities": ["steelworker", "intimidate", "h:toughclaws"],
+        "ability_names": "Steelworker / Intimidate / Tough Claws (hidden)",
+        "stats": stats(90, 115, 95, 95, 80, 80), "ev": evs(attack=3), "catch": 25, "exp": 230,
+        "height": 250, "weight": 9999, "shoulder": False, "walk": 0.3, "fly": True,
+        "moves": [(1, "gigadestroyer")] + AGU_EARLY + GREY_MID + METAL_MID,
+        "tm": DIGI_TM + DIGI_STEEL_TM, "egg": [], "evolve": ("blitzgreymon", 45, ["steelbeam"]),
+        "drops": [("minecraft:iron_ingot", "2-5", None), ("minecraft:bone", "2-4", None)],
+        "entry": ("Half its body has been rebuilt in metal. The hatch on its chest opens to fire Giga Destroyer, two "
+                  "organic missiles that can level a mountain, and its Trident Arm tears through steel."),
+        "spawns": [route_spawn("metalgreymon-wild", "ultra-rare", "35-50", 0.3,
+                               ["#cobblemon:is_mountain", "#cobblemon:is_peak", "#cobblemon:is_badlands"])],
+        "how": ["Evolve Greymon at level 35.", "Wild: ultra-rare on mountains, peaks and badlands.",
+                "Evolves into BlitzGreymon at level 45, learning Steel Beam."],
+    },
+    "blitzgreymon": {
+        "dex": 3176, "name": "BlitzGreymon", "line": "digi_agumon", "types": ["steel", "fire"], **DIGI,
+        "abilities": ["megalauncher", "steelworker", "h:skilllink"],
+        "ability_names": "Mega Launcher / Steelworker / Skill Link (hidden)",
+        "stats": stats(95, 125, 105, 115, 85, 90), "ev": evs(attack=2, special_attack=1), "catch": 15, "exp": 270,
+        "height": 350, "weight": 9999, "shoulder": False, "walk": 0.28,
+        "moves": [(1, "steelbeam")] + AGU_EARLY + GREY_MID + METAL_MID + BLITZ_MID,
+        "tm": DIGI_TM + DIGI_STEEL_TM, "egg": [], "evolve": ("omegamonalters", 55, ["greysword"]),
+        "drops": [("minecraft:iron_ingot", "4-8", None), ("minecraft:redstone", "4-8", None),
+                  ("minecraft:gunpowder", "2-5", None)],
+        "entry": ("A war-machine Digimon armoured in crimson. Its shoulder cannons and Gatling arms fire without pause "
+                  "until nothing in front of it is left standing."),
+        "spawns": [],
+        "how": ["Evolve MetalGreymon at level 45.", "Evolves into Omegamon Alter-S at level 55, learning Grey Sword."],
+    },
+    "omegamonalters": {
+        "dex": 3177, "name": "Omegamon Alter-S", "line": "digi_agumon", "types": ["steel", "fighting"], **DIGI,
+        "abilities": ["sharpness", "justified", "h:noguard"], "ability_names": "Sharpness / Justified / No Guard (hidden)",
+        "stats": stats(100, 135, 110, 120, 100, 105), "ev": evs(attack=3), "catch": 10, "exp": 300,
+        "height": 450, "weight": 9999, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "greysword")] + AGU_EARLY + GREY_MID + METAL_MID + BLITZ_MID + OMEGA_MID,
+        "tm": DIGI_TM + DIGI_STEEL_TM + ["sacredsword", "closecombat", "aurasphere", "icebeam", "blizzard"], "egg": [],
+        "evolve": ("omegamonalterb", 70, ["garurucannon"]),
+        "drops": [("minecraft:gold_ingot", "3-6", None), ("minecraft:diamond", "0-2", None)],
+        "entry": ("A holy knight Digimon in white armour. With the sword on one arm it cuts through anything; with the "
+                  "cannon in the lion's jaws on the other, it fires blasts of absolute cold."),
+        "spawns": [],
+        "how": ["Evolve BlitzGreymon at level 55.", "Evolves into Omegamon Alter-B at level 70, learning Garuru Cannon."],
+    },
+    "omegamonalterb": {
+        "dex": 3178, "name": "Omegamon Alter-B", "line": "digi_agumon", "types": ["dark", "steel"], **DIGI,
+        "labels": ["digimon", "legendary"], "friendship": 0, "growth": "slow",
+        "abilities": ["pressure", "sharpness", "h:noguard"], "ability_names": "Pressure / Sharpness / No Guard (hidden)",
+        "stats": stats(110, 145, 115, 135, 105, 110), "ev": evs(attack=2, special_attack=1), "catch": 3, "exp": 340,
+        "height": 550, "weight": 9999, "shoulder": False, "walk": 0.3,
+        "moves": [(1, "greysword"), (1, "garurucannon")] + AGU_EARLY + GREY_MID + METAL_MID + BLITZ_MID + OMEGA_MID +
+                 [(70, "garurucannon"), (75, "darkpulse"), (80, "nightslash"), (85, "kowtowcleave")],
+        "tm": DIGI_TM + DIGI_STEEL_TM + ["sacredsword", "closecombat", "icebeam", "blizzard", "darkpulse", "nightslash",
+                                         "foulplay", "nastyplot", "kowtowcleave"], "egg": [],
+        "evolve": None,
+        "drops": [("minecraft:netherite_scrap", "1-2", None), ("minecraft:nether_star", None, 10.0)],
+        "entry": ("Omegamon Alter-S consumed by its own power: its armour has turned black, and red light leaks from "
+                  "every seam. Its Grey Sword and Garuru Cannon are said to be able to erase a whole world."),
+        "spawns": [],
+        "how": ["Evolve Omegamon Alter-S at level 70. It can't be found in the wild."],
+    },
+})
+LINES["digi_agumon"] = ["koromon", "agumon", "greymon", "metalgreymon", "blitzgreymon", "omegamonalters",
+                        "omegamonalterb"]
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.
@@ -4285,6 +4412,38 @@ contestType: "Clever"
         "shortDesc": "Hits 2 times. In Doubles, hits each foe once.",
         "lang": "The user launches two of its young from the pods in its back at the target. In a Double Battle it "
                 "fires one at each foe.",
+    },
+    "pepperbreath": {
+        "base": "ember", "num": -3045, "name": "Pepper Breath", "type": "Fire", "category": "Special",
+        "basePower": 50, "accuracy": 100, "pp": 25,
+        "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.",
+        "lang": "The user spits a ball of fire at the target. It may leave the target with a burn.",
+    },
+    "megaflame": {
+        "base": "flamethrower", "num": -3046, "name": "Mega Flame", "type": "Fire", "category": "Special",
+        "basePower": 100, "accuracy": 100, "pp": 10,
+        "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.",
+        "lang": "The user breathes a huge, blazing fireball at the target. It may leave the target with a burn.",
+    },
+    "gigadestroyer": {
+        "base": "flashcannon", "num": -3047, "name": "Giga Destroyer", "type": "Steel", "category": "Special",
+        "basePower": 110, "accuracy": 90, "pp": 5, "secondary": None,
+        "flags": {"protect": 1, "mirror": 1, "metronome": 1, "bullet": 1},
+        "desc": "No additional effect.", "shortDesc": "No additional effect.",
+        "lang": "The hatch on the user's chest opens and fires two great missiles at the target.",
+    },
+    "greysword": {
+        "base": "ironhead", "num": -3048, "name": "Grey Sword", "type": "Steel", "category": "Physical",
+        "basePower": 120, "accuracy": 100, "pp": 5, "critRatio": 2, "secondary": None,
+        "flags": {"contact": 1, "protect": 1, "mirror": 1, "metronome": 1, "slicing": 1},
+        "desc": "Has a higher chance for a critical hit.", "shortDesc": "High critical hit ratio.",
+        "lang": "The user cuts the target with a sword that splits anything. Critical hits land more easily.",
+    },
+    "garurucannon": {
+        "base": "blizzard", "num": -3049, "name": "Garuru Cannon", "type": "Ice", "category": "Special",
+        "basePower": 120, "accuracy": 90, "pp": 5, "target": "normal",
+        "desc": "Has a 10% chance to freeze the target.", "shortDesc": "10% chance to freeze the target.",
+        "lang": "The user fires a blast of absolute cold from the cannon in its lion's jaws. It may freeze the target.",
     },
     "joeyslingshot": {
         "base": "populationbomb", "num": -3010, "name": "Joey Slingshot", "type": "Normal", "category": "Physical",

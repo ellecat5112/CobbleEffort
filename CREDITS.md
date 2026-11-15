@@ -314,6 +314,10 @@ Squirmlet, Nozzlurm and Onychydra are after the velvet worm art by the user's fr
 used with the artist's permission; names, Bug typing (the user's call), models, Hydrostatic and Pokédex entries are
 our own.
 
+The Digimon (Koromon, Agumon, Greymon, MetalGreymon, BlitzGreymon, Omegamon Alter-S and Alter-B) belong to
+Bandai / Toei Animation; their models are built by hand after the official art the user shared (no pixels copied),
+and their moves, stats and Pokédex entries are ours. An unofficial, non-commercial fan crossover.
+
 ## Code and data
 
 The build scripts, generator, data and resolver JSON are licensed under the

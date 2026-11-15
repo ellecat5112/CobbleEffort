@@ -1,0 +1,1 @@
+Object.assign({}, Dex.data.Moves["flamethrower"], {"num": -3046, "name": "Mega Flame", "type": "Fire", "category": "Special", "basePower": 100, "accuracy": 100, "pp": 10, "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.", "isNonstandard": null, "zMove": {"basePower": 140}, "maxMove": {"basePower": 130}})

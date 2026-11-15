@@ -1810,6 +1810,13 @@ ring on a lime stem.
 | 3169 | **Squirmlet** | Bug | Swarm / Hydration / Sticky Hold (hidden) | 45 / 40 / 45 / 45 / 40 / 35 | 1'0" (0.3 m) / 2.5 kg | Wild: common in jungles, swamps and bamboo forests, and in forests while it rains. Evolves into Nozzlurm at level 18, learning Water Pulse. | It hides in damp leaf litter and only comes out after the rain. When it is startled, it squirts a thread of sticky goo from its little hose of a snout, then scurries away while its attacker struggles. |
 | 3170 | **Nozzlurm** | Bug / Water | Swarm / Hydration / Sticky Hold (hidden) | 65 / 60 / 65 / 80 / 60 / 55 | 2'11" (0.9 m) / 21 kg | Evolve Squirmlet at level 18. Wild: uncommon in jungles, swamps and bamboo forests. Evolves into Onychydra at level 40, learning Dragon Pulse. | It aims its long nozzle like a hose and sprays jets of water or glue with pinpoint accuracy. A whole swarm can glue a tree's worth of Bug Pokémon in place before they know they have been seen. |
 | 3171 | **Onychydra** | Bug / Dragon | Hydrostatic (its own: its Water-type moves get the same-type bonus too) / Sticky Hold / Swarm (hidden) | 95 / 80 / 95 / 115 / 85 / 65 | 7'10" (2.4 m) / 165 kg | Evolve Nozzlurm at level 40, learning Dragon Pulse. Wild: rare in jungles and swamps while it rains. | Its body has no bones: the great water sacs along its neck and legs hold it up, and it fills them at rivers before a fight. One blast from its beak can knock a boulder off a cliff, or glue a flock of Flying Pokémon to the sky. |
+| 3172 | **Koromon** | Normal | Run Away / Hustle / Pickup (hidden) | 45 / 35 / 35 / 40 / 35 / 50 | 1'0" (0.3 m) / 2 kg | Hatch one from a Digitama (CobbleEffort: Digital), or find it: common in plains and forests. Evolves into Agumon at level 10, learning Pepper Breath. | A baby Digimon that hatched from a Digitama not long ago. It bounces about on its round body, blowing bubbles at anything it doesn't like the look of. |
+| 3173 | **Agumon** | Fire | Blaze / Hustle / Tough Claws (hidden) | 55 / 62 / 50 / 58 / 50 / 60 | 3'3" (1 m) / 30 kg | Evolve Koromon at level 10. Wild: uncommon in plains, forests and savannas. Evolves into Greymon at level 20, learning Mega Flame. | A brave little dinosaur Digimon with sharp claws. It spits its Pepper Breath at anything that threatens its friends, and it is always, always hungry. |
+| 3174 | **Greymon** | Fire / Dragon | Blaze / Intimidate / Tough Claws (hidden) | 80 / 95 / 75 / 80 / 70 / 75 | 49'3" (15 m) / 900 kg | Evolve Agumon at level 20. Wild: rare in badlands, savannas and hills. Evolves into MetalGreymon at level 35, learning Giga Destroyer. | A giant dinosaur Digimon whose skull is armoured with a helmet of hardened bone. Its Mega Flame melts rock; even a herd of the strongest beasts scatters when it roars. |
+| 3175 | **MetalGreymon** | Steel / Dragon | Steelworker / Intimidate / Tough Claws (hidden) | 90 / 115 / 95 / 95 / 80 / 80 | 82'0" (25 m) / 999.9 kg | Evolve Greymon at level 35. Wild: ultra-rare on mountains, peaks and badlands. Evolves into BlitzGreymon at level 45, learning Steel Beam. | Half its body has been rebuilt in metal. The hatch on its chest opens to fire Giga Destroyer, two organic missiles that can level a mountain, and its Trident Arm tears through steel. |
+| 3176 | **BlitzGreymon** | Steel / Fire | Mega Launcher / Steelworker / Skill Link (hidden) | 95 / 125 / 105 / 115 / 85 / 90 | 114'10" (35 m) / 999.9 kg | Evolve MetalGreymon at level 45. Evolves into Omegamon Alter-S at level 55, learning Grey Sword. | A war-machine Digimon armoured in crimson. Its shoulder cannons and Gatling arms fire without pause until nothing in front of it is left standing. |
+| 3177 | **Omegamon Alter-S** | Steel / Fighting | Sharpness / Justified / No Guard (hidden) | 100 / 135 / 110 / 120 / 100 / 105 | 147'8" (45 m) / 999.9 kg | Evolve BlitzGreymon at level 55. Evolves into Omegamon Alter-B at level 70, learning Garuru Cannon. | A holy knight Digimon in white armour. With the sword on one arm it cuts through anything; with the cannon in the lion's jaws on the other, it fires blasts of absolute cold. |
+| 3178 | **Omegamon Alter-B** | Dark / Steel | Pressure / Sharpness / No Guard (hidden) | 110 / 145 / 115 / 135 / 105 / 110 | 180'5" (55 m) / 999.9 kg | Evolve Omegamon Alter-S at level 70. It can't be found in the wild. | Omegamon Alter-S consumed by its own power: its armour has turned black, and red light leaks from every seam. Its Grey Sword and Garuru Cannon are said to be able to erase a whole world. |
 | 3151 | **Kidlope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 52 / 60 / 45 / 40 / 48 / 64 | 1'8" (0.5 m) / 8.5 kg | Wild: uncommon in forests at night (dark forests especially). Evolves into Shadelope at level 16. | A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and loves to steal shiny things from travellers, then bound away laughing. |
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |
@@ -1963,6 +1970,35 @@ is uncommon in badlands, savannas and volcanic biomes, Nidorino rare and Nidokin
 level 16, Nidorino with a Moon Stone. Shiny: midnight blue with azure plates and cyan-glowing patches.
 
 ![The CobbleEffort Nidoran♂, Nidorino and Nidoking (top) and their shinies](docs/regional_nidoran.png)
+
+## Digimon crossover (with CobbleEffort: Digital)
+
+Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
+the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
+The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks
+tall, 10 blocks more for every stage after it):
+
+| # | Digimon | Type | Evolves | Height |
+|---|---|---|---|---|
+| 3172 | Koromon | Normal | Agumon at level 10 | 0.4 blocks |
+| 3173 | Agumon | Fire | Greymon at 20 | 1 block |
+| 3174 | Greymon | Fire/Dragon | MetalGreymon at 35 | 15 blocks |
+| 3175 | MetalGreymon | Steel/Dragon | BlitzGreymon at 45 | 25 blocks |
+| 3176 | BlitzGreymon | Steel/Fire | Omegamon Alter-S at 55 | 35 blocks |
+| 3177 | Omegamon Alter-S | Steel/Fighting | Omegamon Alter-B at 70 | 45 blocks |
+| 3178 | Omegamon Alter-B | Dark/Steel, legendary | | 55 blocks |
+
+Their signature moves: Pepper Breath (Fire, 50), Mega Flame (Fire, 100), Giga Destroyer (Steel, 110), Grey Sword
+(Steel, 120, high critical-hit ratio) and Garuru Cannon (Ice, 120). Koromon is common in plains and forests, Agumon
+uncommon, Greymon rare in badlands, savannas and hills, MetalGreymon ultra-rare on mountains; the rest only by
+evolving. Shiny: the "Black" colours (charcoal with crimson stripes; the Omegamon swap white and black).
+
+The add-on **CobbleEffort: Digital** (`digital/`, its own zip) adds the **Digiball**, a real Cobblemon Poké Ball
+three times as good on Digimon, and **Digitama** (Digi-Eggs) that warm up in your inventory for 5 minutes and then
+hatch a baby Digimon (a Koromon for now) into your party; they turn up in dungeon, temple, mineshaft and village
+chests, and wild Digimon drop one 5% of the times you defeat them.
+
+![The Agumon line: Koromon, Agumon, Greymon, MetalGreymon, BlitzGreymon, Omegamon Alter-S and Alter-B](docs/digimon_agumon.png)
 
 ## Paradox Mega Evolutions (with Mega Showdown)
 

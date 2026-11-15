@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cobbleeffort_digital",
+  "version": "${version}",
+  "name": "CobbleEffort: Digital",
+  "description": "A Digimon crossover for Cobblemon and CobbleEffort: the Digiball (three times as good on Digimon) and Digitama that warm up in your inventory and hatch a baby Digimon.",
+  "authors": ["ellecat5112"],
+  "contact": {"sources": "https://github.com/ellecat5112/CobbleEffort"},
+  "license": "CC-BY-NC-4.0",
+  "icon": "assets/cobbleeffort_digital/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["io.github.cobbleeffort.digital.fabric.DigitalFabric"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "architectury": ">=13.0.8",
+    "cobblemon": ">=1.8.4"
+  },
+  "recommends": {
+    "cobbleeffort": "*"
+  }
+}
