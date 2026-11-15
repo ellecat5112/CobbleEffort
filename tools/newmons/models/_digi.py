@@ -20,12 +20,18 @@ BASE = {"pink": (246, 178, 200), "pink_dark": (214, 128, 160), "red": (210, 34, 
         "mech": (204, 30, 36), "mech_dark": (130, 16, 24), "mech_light": (240, 90, 90), "joint": (70, 72, 82),
         "knight": (238, 238, 242), "knight_dark": (168, 170, 182), "gold": (226, 180, 56), "gold_dark": (164, 120, 30),
         "cape": (40, 38, 46), "cape_light": (70, 68, 80), "blade": (246, 220, 120), "lion": (214, 36, 40),
-        "cannon": (88, 90, 100), "cannon_dark": (52, 54, 62)}
+        "cannon": (88, 90, 100), "cannon_dark": (52, 54, 62),
+        "char": (66, 64, 72), "char_dark": (44, 42, 50), "char_belly": (92, 90, 98), "xstripe": (200, 36, 44),
+        "chrome": (226, 230, 238), "chrome_dark": (150, 156, 170), "coat": (246, 246, 242), "coat_dark": (200, 204, 210),
+        "cap": (40, 40, 60), "tassel": (226, 180, 56), "burst": (255, 120, 190, 150), "burst_core": (255, 200, 225, 190)}
 SHINY = {"pink": (176, 176, 186), "pink_dark": (130, 130, 140), "orange": (64, 62, 70), "orange_dark": (40, 38, 46),
          "belly": (110, 108, 118), "stripe": (196, 40, 60), "eye": (240, 200, 60), "helmet": (40, 38, 44),
          "helmet_dark": (24, 22, 28), "wing": (60, 60, 70), "wing_dark": (30, 30, 36), "mech": (40, 40, 48),
          "mech_dark": (22, 22, 28), "mech_light": (90, 90, 104), "knight": (44, 42, 50), "knight_dark": (24, 24, 30),
-         "cape": (236, 236, 242), "cape_light": (200, 200, 210)}
+         "cape": (236, 236, 242), "cape_light": (200, 200, 210),
+         "char": (246, 170, 34), "char_dark": (214, 126, 24), "char_belly": (252, 212, 110), "xstripe": (40, 104, 196),
+         "coat": (240, 220, 160), "coat_dark": (200, 180, 120), "burst": (120, 190, 255, 150),
+         "burst_core": (200, 230, 255, 190)}
 
 
 def P(v):
@@ -47,6 +53,13 @@ def striped(key="orange", stripe="stripe", every=5.0, width=1.0, belly=None, see
                 return tone(p[stripe], face), None
         return tone(p[key], face), None
     return s
+
+
+def sized(blocks, height, width=None):
+    """baseScale and hitbox (model units) for a model `height` units tall that should stand `blocks` blocks tall."""
+    scale = round(blocks * 16 / height, 3)
+    h = round(height / 16, 3)
+    return scale, [round(width if width is not None else h * 0.6, 3), h]
 
 
 def eye(p, du, dv, r, iris="eye"):

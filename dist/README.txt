@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 201 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 220 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3563,6 +3563,9 @@ cobbleeffort:cavitot.
   body, blowing bubbles at anything it doesn't like the look of."
   * Hatch one from a Digitama (CobbleEffort: Digital), or find it: common in plains and forests.
   * Evolves into Agumon at level 10, learning Pepper Breath.
+  * Evolves into Agumon (Black) at level 10.
+  * Evolves into Agumon Hakase at level 10.
+  * Evolves into Agumon (X-Antibody) at level 10.
 
 #3173 AGUMON  (Fire; Blaze / Hustle / Tough Claws (hidden))
   a little yellow-orange dinosaur standing upright: a big head with a rounded snout full of small
@@ -3573,6 +3576,8 @@ cobbleeffort:cavitot.
   * Evolve Koromon at level 10.
   * Wild: uncommon in plains, forests and savannas.
   * Evolves into Greymon at level 20, learning Mega Flame.
+  * Evolves into Agnimon at level 20.
+  * Evolves into Agumon -Yuki no Kizuna- at level 50.
 
 #3174 GREYMON  (Fire / Dragon; Blaze / Intimidate / Tough Claws (hidden))
   a hunched orange tyrant with blue tiger stripes, a brown skull helmet with a nose horn and two
@@ -3583,6 +3588,7 @@ cobbleeffort:cavitot.
   * Evolve Agumon at level 20.
   * Wild: rare in badlands, savannas and hills.
   * Evolves into MetalGreymon at level 35, learning Giga Destroyer.
+  * Evolves into Aero V-dramon at level 35.
 
 #3175 METALGREYMON  (Steel / Dragon; Steelworker / Intimidate / Tough Claws (hidden))
   Greymon half rebuilt in steel: a steel helmet and horns, a steel chest plate with a glowing hatch,
@@ -3625,6 +3631,171 @@ cobbleeffort:cavitot.
   leaks from every seam. Its Grey Sword and Garuru Cannon are said to be able to erase a whole
   world."
   * Evolve Omegamon Alter-S at level 70. It can't be found in the wild.
+
+#3301 ABBADOMON  (Dark / Psychic; Pressure / Shadow Tag (hidden))
+  a floating vortex of black ribbons round an empty core, every ribbon studded with staring red
+  eyes, a purple glow and a fanged maw at its heart
+  Stats: HP 100  Atk 70  Def 85  SpA 130  SpD 105  Spe 90  (total 580)
+  Pokedex: "A shape of black ribbons wound round an empty core and covered in staring red eyes. It
+  is said to be made of everything that was ever deleted, and it pulls the light out of any world it
+  drifts into."
+  * Evolves into Abbadomon Core at level 60.
+
+#3302 ABBADOMON CORE  (Dark / Ghost; Pressure / Cursed Body (hidden))
+  a tall cloaked knight of tattered navy eye-ribbons with red eyes staring from the folds, crimson
+  armour beneath and a long crimson blade for an arm
+  Stats: HP 105  Atk 110  Def 90  SpA 110  SpD 90  Spe 75  (total 580)
+  Pokedex: "The core of Abbadomon, unwound: a cloaked knight of tattered eye-ribbons with a crimson
+  blade for an arm. Whatever it cuts is not destroyed but erased, as if it had never been."
+  * Evolve Abbadomon.
+
+#3303 ACHILLESMON  (Fighting / Flying; No Guard / Speed Boost (hidden))
+  a lean warrior in black with golden armour, a tall white-and-purple plumed helmet, a long golden
+  spear and round golden heel-shields flaring cyan wings of light
+  Stats: HP 90  Atk 115  Def 75  SpA 90  SpD 75  Spe 135  (total 580)
+  Pokedex: "A warrior who has never once been struck. It hurls its golden spear faster than sound,
+  and the cyan wings on its heels carry it out of reach before anyone can strike back."
+  * Wild: ultra-rare in mountains and hills.
+
+#3304 AEGIOCHUSMON  (Electric / Fighting; Lightning Rod / Guts (hidden))
+  a red-skinned goat-legged god-man with tattoos, a fur mantle, long white hair, curled horns and
+  white armoured thigh-guards
+  Stats: HP 80  Atk 110  Def 85  SpA 60  SpD 75  Spe 90  (total 500)
+  Pokedex: "A god-man with goat's legs who carries a storm on its back. Its fists come down with the
+  force of a lightning strike, and the ground cracks wherever it plants its hooves."
+  * Evolve Aegiomon.
+  * Wild: rare in hills, plains and mountains.
+
+#3305 AEGIOCHUSMON: BLUE  (Electric / Steel; Lightning Rod / Iron Fist (hidden))
+  Aegiochusmon in blue cyber-armour with a giant blue gauntlet floating beside it
+  Stats: HP 105  Atk 85  Def 110  SpA 60  SpD 90  Spe 50  (total 500)
+  Pokedex: "Aegiochusmon in blue cyber-armour, with a gauntlet many times its own size hovering
+  beside it. The gauntlet can catch a falling meteor and throw it back."
+  * Evolve Aegiomon.
+  * Wild: rare in hills, plains, mountains and badlands.
+
+#3306 AEGIOCHUSMON: DARK  (Electric / Dark; Intimidate / Moxie (hidden))
+  Aegiochusmon gone dark: black fur, black wings, red eyes and a red-bladed scythe
+  Stats: HP 80  Atk 110  Def 85  SpA 60  SpD 75  Spe 90  (total 500)
+  Pokedex: "Aegiochusmon fallen to darkness: black-winged and red-eyed, it reaps its foes with a
+  storm-forged scythe and feeds on their fear."
+  * Evolve Aegiomon.
+  * Wild: rare in hills, plains, spooky biomes and forests.
+
+#3307 AEGIOCHUSMON: GREEN  (Electric / Grass; Grass Pelt / Lightning Rod (hidden))
+  Aegiochusmon in green leaf armour with two vine whips tipped with spiked pink seed-pods
+  Stats: HP 85  Atk 95  Def 80  SpA 95  SpD 80  Spe 65  (total 500)
+  Pokedex: "Aegiochusmon wreathed in living vines. Its whips are tipped with spiked seed-pods that
+  burst into thickets wherever they land, and a forest grows in its footsteps."
+  * Evolve Aegiomon.
+  * Wild: rare in hills, plains, forests and jungles.
+
+#3308 AEGIOCHUSMON: HOLY  (Electric / Fairy; Lightning Rod / Serene Grace (hidden))
+  Aegiochusmon in white and gold holy armour with golden gear gauntlets, a halo and a sun of golden
+  spikes behind it
+  Stats: HP 85  Atk 60  Def 75  SpA 110  SpD 90  Spe 80  (total 500)
+  Pokedex: "Aegiochusmon in holy armour of golden gears, a halo over its horns and a sun blazing
+  behind it. Its light drives off the darkness and heals those who fight beside it."
+  * Evolve Aegiomon.
+  * Wild: rare in hills, plains and forests.
+
+#3309 AEGIOMON  (Electric / Fighting; Static / Iron Fist (hidden))
+  a young god-man with goat's horns and legs, white spiky hair, a red scarf, a black vest and one
+  big white glove
+  Stats: HP 65  Atk 95  Def 70  SpA 50  SpD 65  Spe 75  (total 420)
+  Pokedex: "A young god-man with a goat's horns and legs. It hums a tune through its syrinx that
+  makes anyone who hears it forget everything but Aegiomon, then floors them with a crackling
+  punch."
+  * Wild: uncommon in hills, plains and mountains.
+  * Evolves into Aegiochusmon at level 35.
+  * Evolves into Aegiochusmon: Blue at level 35.
+  * Evolves into Aegiochusmon: Dark at level 35.
+  * Evolves into Aegiochusmon: Green at level 35.
+  * Evolves into Aegiochusmon: Holy at level 35.
+
+#3310 AEGISDRAMON  (Water / Steel; Filter / Mega Launcher (hidden))
+  a golden dragon-ship: a long golden hull with a grey armoured deck, a red eye in its prow, flank
+  cannons, white lances bristling forward and silver claws beneath
+  Stats: HP 125  Atk 95  Def 130  SpA 70  SpD 100  Spe 60  (total 580)
+  Pokedex: "A golden dragon-ship that guards the deep oceans. Its hull bristles with cannons and
+  lances, and its barrier turns back any attack aimed at the ones it protects."
+  * Wild: ultra-rare in beaches, rivers, swamps, mountains and badlands.
+
+#3311 AEQUCEDRAMON  (Ice / Dragon; Snow Cloak / Refrigerate (hidden))
+  a small blue dragon with a fluffy white ruff, spiky horns, wide blue bat wings and pale claws,
+  trailing a ring of frosty wind
+  Stats: HP 70  Atk 50  Def 65  SpA 95  SpD 75  Spe 65  (total 420)
+  Pokedex: "A small blue dragon with a white ruff and wide bat wings. It whips up whirlwinds of
+  frost as it flies, and a hole opens in the sky wherever it goes."
+  * Wild: uncommon in snowy biomes, tundras, glaciers, mountains and peaks.
+
+#3312 AERO V-DRAMON  (Dragon / Flying; Aerilate / Tough Claws (hidden))
+  a blue dragon crouched to pounce, white chest and shoulder armour, a great white snout horn,
+  curved horns, a V on its chest, wide red wings and white claws
+  Stats: HP 80  Atk 110  Def 85  SpA 60  SpD 75  Spe 90  (total 500)
+  Pokedex: "A holy dragon that guards the skies, with red wings and white armour over its blue
+  scales. It strikes with a V-shaped blast of light from its chest."
+  * Evolve Greymon.
+  * Wild: rare in mountains, peaks and hills.
+
+#3313 AGNIMON  (Fire / Fighting; Blaze / Iron Fist (hidden))
+  a warrior of flame in red armour over black, a golden mane streaming back, gold trim and flames at
+  its wrists and ankles
+  Stats: HP 65  Atk 95  Def 70  SpA 50  SpD 65  Spe 75  (total 420)
+  Pokedex: "A warrior of flame in red armour, born from the spirit of fire. It fights with blazing
+  fists and kicks, and its spinning dance of flame burns away any evil."
+  * Evolve Agumon.
+  * Wild: uncommon in badlands, volcanic biomes, savannas, mountains and hills.
+
+#3314 AGUMON (X-ANTIBODY)  (Fire / Dragon; Blaze / Tough Claws (hidden))
+  an X-Antibody Agumon: a fiercer little dinosaur with long chrome claws and a striped tail
+  Stats: HP 55  Atk 70  Def 55  SpA 35  SpD 50  Spe 55  (total 320)
+  Pokedex: "An Agumon awakened by the X-Antibody, with long chrome claws and a fiercer, more
+  dinosaur-like body. Its Baby Flame burns far hotter than any other Agumon's."
+  * Evolve Koromon or Agumon (Black).
+  * Wild: common in badlands, volcanic biomes, savannas, mountains and peaks.
+  * Evolves into Greymon at level 20.
+
+#3315 AGUMON (BLACK)  (Fire / Dark; Blaze / Moxie (hidden))
+  a black-scaled Agumon with white claws and green eyes
+  Stats: HP 55  Atk 70  Def 55  SpA 35  SpD 50  Spe 55  (total 320)
+  Pokedex: "A black-scaled Agumon with a fiercer temper. It picks fights with Digimon far bigger
+  than itself and often wins."
+  * Evolve Koromon.
+  * Wild: common in badlands, volcanic biomes, savannas, spooky biomes and forests.
+  * Evolves into Agumon (X-Antibody) at level 20.
+  * Evolves into Greymon at level 20.
+
+#3316 AGUMON (BLACK) (X-ANTIBODY)  (Fire / Dark; Blaze / Tough Claws (hidden))
+  a black X-Antibody Agumon scarred with red stripes, with long chrome claws
+  Stats: HP 55  Atk 70  Def 55  SpA 35  SpD 50  Spe 55  (total 320)
+  Pokedex: "A black Agumon awakened by the X-Antibody, scarred with red stripes. It breathes a
+  roaring stream of fire and slashes with chrome claws."
+  * Wild: common in badlands, volcanic biomes, savannas, spooky biomes and forests.
+
+#3317 AGUMON -YUKI NO KIZUNA-  (Fire / Fighting; Blaze / Justified (hidden))
+  Agumon as a warrior: orange armour striped blue, a dark horned helmet, long red-hot claws and two
+  wings of fire crossed in an X behind it
+  Stats: HP 100  Atk 130  Def 95  SpA 70  SpD 85  Spe 100  (total 580)
+  Pokedex: "Agumon's courage given a warrior's form by an unbreakable bond. Two great wings of fire
+  cross behind it in an X, and its gauntlet claws shine red-hot."
+  * Evolve Agumon.
+  * Wild: ultra-rare in badlands, volcanic biomes, savannas, mountains and hills.
+
+#3318 AGUMON: BURST MODE  (Fire / Fairy; Flash Fire / Levitate (hidden))
+  an Agumon floating with its arms spread wide, wrapped in a translucent pink glow
+  Stats: HP 55  Atk 35  Def 50  SpA 70  SpD 60  Spe 50  (total 320)
+  Pokedex: "An Agumon that has turned to pure spirit, glowing pink and floating with its arms spread
+  wide. It is said to appear only when a partner's feelings reach their peak."
+  * Wild: common in badlands, volcanic biomes, savannas, plains and forests.
+
+#3319 AGUMON HAKASE  (Fire / Psychic; Forewarn / Analytic (hidden))
+  an Agumon in a mortarboard and a long white lab coat, holding a pointer
+  Stats: HP 55  Atk 35  Def 50  SpA 70  SpD 60  Spe 50  (total 320)
+  Pokedex: "An Agumon in a mortarboard and a lab coat that drags on the ground. It has read every
+  book in the Digital World and lectures anyone who stands still long enough, pointer in hand."
+  * Evolve Koromon.
+  * Wild: common in badlands, volcanic biomes, savannas, plains and forests.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

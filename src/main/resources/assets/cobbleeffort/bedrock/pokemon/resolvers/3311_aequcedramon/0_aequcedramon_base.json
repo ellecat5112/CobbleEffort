@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:aequcedramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:aequcedramon",
+   "model": "cobbleeffort:aequcedramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

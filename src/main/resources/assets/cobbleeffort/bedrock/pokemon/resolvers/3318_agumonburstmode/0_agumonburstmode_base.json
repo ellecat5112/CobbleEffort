@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:agumonburstmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:agumonburstmode",
+   "model": "cobbleeffort:agumonburstmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

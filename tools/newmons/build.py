@@ -3951,6 +3951,12 @@ SPECIES.update({
 LINES["digi_agumon"] = ["koromon", "agumon", "greymon", "metalgreymon", "blitzgreymon", "omegamonalters",
                         "omegamonalterb"]
 
+# --- Digimon from the roster (tools/digimon/roster.py), alphabetical as wikimon.net lists them; stats, moves, spawns,
+# sizes and evolutions by rule from tools/digimon/data/wikimon.json (digimon_gen.py), which also links the hand-built
+# Agumon line above to them.
+import digimon_gen  # noqa: E402
+digimon_gen.generate(SPECIES, LINES)
+
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
 # Bramble Ambush is a Grass Sucker Punch.
@@ -4518,8 +4524,10 @@ def ascii_name(name):
     """The species json's name, in plain ASCII like Cobblemon's own ("Flabebe"): Cobblemon builds the lang key and the
     Showdown id from it and drops other letters, so "Flambéer" would look for cobbleeffort.species.flamber.name. The
     accented spelling goes in the lang file."""
+    import re
     import unicodedata
-    return unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9 '.\-]", "", plain)).strip()   # Digimon: "Aegiochusmon: Blue"
 
 
 def folder(sp):

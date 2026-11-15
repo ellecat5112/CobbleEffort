@@ -4068,6 +4068,474 @@
   ]
  },
  {
+  "species": "abbadomon",
+  "folder": "3301_abbadomon",
+  "model": "cobbleeffort:abbadomon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3301_abbadomon/abbadomon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3301_abbadomon/abbadomon_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "abbadomon_shiny",
+  "folder": "3301_abbadomon",
+  "model": "cobbleeffort:abbadomon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3301_abbadomon/abbadomon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3301_abbadomon/abbadomon_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "abbadomoncore",
+  "folder": "3302_abbadomoncore",
+  "model": "cobbleeffort:abbadomoncore.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "abbadomoncore_shiny",
+  "folder": "3302_abbadomoncore",
+  "model": "cobbleeffort:abbadomoncore.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "achillesmon",
+  "folder": "3303_achillesmon",
+  "model": "cobbleeffort:achillesmon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "achillesmon_shiny",
+  "folder": "3303_achillesmon",
+  "model": "cobbleeffort:achillesmon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3303_achillesmon/achillesmon_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmon",
+  "folder": "3304_aegiochusmon",
+  "model": "cobbleeffort:aegiochusmon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3304_aegiochusmon/aegiochusmon.png",
+  "layers": []
+ },
+ {
+  "species": "aegiochusmon_shiny",
+  "folder": "3304_aegiochusmon",
+  "model": "cobbleeffort:aegiochusmon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3304_aegiochusmon/aegiochusmon_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "aegiochusmonblue",
+  "folder": "3305_aegiochusmonblue",
+  "model": "cobbleeffort:aegiochusmonblue.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3305_aegiochusmonblue/aegiochusmonblue.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3305_aegiochusmonblue/aegiochusmonblue_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmonblue_shiny",
+  "folder": "3305_aegiochusmonblue",
+  "model": "cobbleeffort:aegiochusmonblue.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3305_aegiochusmonblue/aegiochusmonblue_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3305_aegiochusmonblue/aegiochusmonblue_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmondark",
+  "folder": "3306_aegiochusmondark",
+  "model": "cobbleeffort:aegiochusmondark.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3306_aegiochusmondark/aegiochusmondark.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3306_aegiochusmondark/aegiochusmondark_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmondark_shiny",
+  "folder": "3306_aegiochusmondark",
+  "model": "cobbleeffort:aegiochusmondark.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3306_aegiochusmondark/aegiochusmondark_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3306_aegiochusmondark/aegiochusmondark_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmongreen",
+  "folder": "3307_aegiochusmongreen",
+  "model": "cobbleeffort:aegiochusmongreen.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3307_aegiochusmongreen/aegiochusmongreen.png",
+  "layers": []
+ },
+ {
+  "species": "aegiochusmongreen_shiny",
+  "folder": "3307_aegiochusmongreen",
+  "model": "cobbleeffort:aegiochusmongreen.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3307_aegiochusmongreen/aegiochusmongreen_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "aegiochusmonholy",
+  "folder": "3308_aegiochusmonholy",
+  "model": "cobbleeffort:aegiochusmonholy.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3308_aegiochusmonholy/aegiochusmonholy.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3308_aegiochusmonholy/aegiochusmonholy_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiochusmonholy_shiny",
+  "folder": "3308_aegiochusmonholy",
+  "model": "cobbleeffort:aegiochusmonholy.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3308_aegiochusmonholy/aegiochusmonholy_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3308_aegiochusmonholy/aegiochusmonholy_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegiomon",
+  "folder": "3309_aegiomon",
+  "model": "cobbleeffort:aegiomon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3309_aegiomon/aegiomon.png",
+  "layers": []
+ },
+ {
+  "species": "aegiomon_shiny",
+  "folder": "3309_aegiomon",
+  "model": "cobbleeffort:aegiomon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3309_aegiomon/aegiomon_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "aegisdramon",
+  "folder": "3310_aegisdramon",
+  "model": "cobbleeffort:aegisdramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3310_aegisdramon/aegisdramon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3310_aegisdramon/aegisdramon_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aegisdramon_shiny",
+  "folder": "3310_aegisdramon",
+  "model": "cobbleeffort:aegisdramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3310_aegisdramon/aegisdramon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3310_aegisdramon/aegisdramon_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aequcedramon",
+  "folder": "3311_aequcedramon",
+  "model": "cobbleeffort:aequcedramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "aequcedramon_shiny",
+  "folder": "3311_aequcedramon",
+  "model": "cobbleeffort:aequcedramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3311_aequcedramon/aequcedramon_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "aerovdramon",
+  "folder": "3312_aerovdramon",
+  "model": "cobbleeffort:aerovdramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "aerovdramon_shiny",
+  "folder": "3312_aerovdramon",
+  "model": "cobbleeffort:aerovdramon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "agnimon",
+  "folder": "3313_agnimon",
+  "model": "cobbleeffort:agnimon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3313_agnimon/agnimon.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3313_agnimon/agnimon_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "agnimon_shiny",
+  "folder": "3313_agnimon",
+  "model": "cobbleeffort:agnimon.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3313_agnimon/agnimon_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3313_agnimon/agnimon_shiny_glow_0.png"
+   }
+  ]
+ },
+ {
+  "species": "agumonxantibody",
+  "folder": "3314_agumonxantibody",
+  "model": "cobbleeffort:agumonxantibody.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3314_agumonxantibody/agumonxantibody.png",
+  "layers": []
+ },
+ {
+  "species": "agumonxantibody_shiny",
+  "folder": "3314_agumonxantibody",
+  "model": "cobbleeffort:agumonxantibody.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3314_agumonxantibody/agumonxantibody_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "agumonblack",
+  "folder": "3315_agumonblack",
+  "model": "cobbleeffort:agumonblack.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3315_agumonblack/agumonblack.png",
+  "layers": []
+ },
+ {
+  "species": "agumonblack_shiny",
+  "folder": "3315_agumonblack",
+  "model": "cobbleeffort:agumonblack.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3315_agumonblack/agumonblack_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "agumonblackxantibody",
+  "folder": "3316_agumonblackxantibody",
+  "model": "cobbleeffort:agumonblackxantibody.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3316_agumonblackxantibody/agumonblackxantibody.png",
+  "layers": []
+ },
+ {
+  "species": "agumonblackxantibody_shiny",
+  "folder": "3316_agumonblackxantibody",
+  "model": "cobbleeffort:agumonblackxantibody.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3316_agumonblackxantibody/agumonblackxantibody_shiny.png",
+  "layers": []
+ },
+ {
+  "species": "agumonyukinokizuna",
+  "folder": "3317_agumonyukinokizuna",
+  "model": "cobbleeffort:agumonyukinokizuna.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "agumonyukinokizuna_shiny",
+  "folder": "3317_agumonyukinokizuna",
+  "model": "cobbleeffort:agumonyukinokizuna.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": true,
+    "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna_shiny_glow_0.png"
+   },
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3317_agumonyukinokizuna/agumonyukinokizuna_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "agumonburstmode",
+  "folder": "3318_agumonburstmode",
+  "model": "cobbleeffort:agumonburstmode.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "agumonburstmode_shiny",
+  "folder": "3318_agumonburstmode",
+  "model": "cobbleeffort:agumonburstmode.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shiny.png",
+  "layers": [
+   {
+    "original": null,
+    "emissive": false,
+    "retextured": "cobbleeffort:textures/pokemon/3318_agumonburstmode/agumonburstmode_shiny_shell.png"
+   }
+  ]
+ },
+ {
+  "species": "agumonhakase",
+  "folder": "3319_agumonhakase",
+  "model": "cobbleeffort:agumonhakase.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3319_agumonhakase/agumonhakase.png",
+  "layers": []
+ },
+ {
+  "species": "agumonhakase_shiny",
+  "folder": "3319_agumonhakase",
+  "model": "cobbleeffort:agumonhakase.geo",
+  "original": null,
+  "retextured": "cobbleeffort:textures/pokemon/3319_agumonhakase/agumonhakase_shiny.png",
+  "layers": []
+ },
+ {
   "species": "kidlope",
   "folder": "3151_kidlope",
   "model": "cobbleeffort:kidlope.geo",

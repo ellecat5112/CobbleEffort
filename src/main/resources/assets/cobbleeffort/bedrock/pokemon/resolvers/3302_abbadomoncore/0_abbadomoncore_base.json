@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:abbadomoncore",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:abbadomoncore",
+   "model": "cobbleeffort:abbadomoncore.geo",
+   "texture": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_glow_0.png",
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_glow_1.png",
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3302_abbadomoncore/abbadomoncore_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

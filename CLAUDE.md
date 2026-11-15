@@ -426,6 +426,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `DigitamaItem` (custom data `warmth`, +20 a second in a player's inventory, hatches at 6000 into HATCHES via
   PokemonProperties -> party or PC), 5% from defeated Digimon (BATTLE_FAINTED, like Kanto's Essence) + chest loot
   (Architectury LootEvent.MODIFY_LOOT_TABLE). make_share takes `--digital`.
+  **The A-Z roster** (0.96.0, the user's plan: every Digimon in wikimon.net's alphabetical order, batch by batch,
+  wikimon deciding evolutions): `tools/digimon/wikimon.py fetch <letters> | parse | image <names>` (wikimon.net is an
+  allowed host; cache in $WIKIMON_CACHE, never committed; facts -> committed `tools/digimon/data/wikimon.json`: levels,
+  attributes, types, fields, techniques, from/to with `card`/`main`/`with`/`warp`), `tools/digimon/roster.py`
+  (ROSTER in order: name, types, role, abilities, our entry, optional stage/legendary; "(2006 Anime Version)" skipped),
+  `tools/newmons/digimon_gen.py` (called from build.py after the Agumon line: dex 3301 + roster index; STAGE table =
+  evolve level / blocks / BST / catch / spawn; ROLE stat spreads; TYPE_MOVES/TYPE_TM/TYPE_BIOMES/DROPS; links =
+  wikimon to/from between implemented Digimon, minus card-only/DNA/warp, never both in the hand line; same-stage only
+  one-way, +10 levels; several at one level are all offered). Models: one module per species (`models/<slug>.py`,
+  slug = name lower-cased letters+digits), sized by `_digi.sized(blocks, HEIGHT, width)`; shared builders `_agumon.py`
+  (variants), `_aegio.py` (goat-gods), `_digiwar.py` (armoured humanoid warriors). Batch 1 = Abbadomon..Agumon Hakase.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

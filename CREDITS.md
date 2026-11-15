@@ -317,6 +317,9 @@ our own.
 The Digimon (Koromon, Agumon, Greymon, MetalGreymon, BlitzGreymon, Omegamon Alter-S and Alter-B) belong to
 Bandai / Toei Animation; their models are built by hand after the official art the user shared (no pixels copied),
 and their moves, stats and Pokédex entries are ours. An unofficial, non-commercial fan crossover.
+The Digimon roster, levels and evolution links come from wikimon.net (facts only, kept in
+`tools/digimon/data/wikimon.json`; no wikimon text or images are copied or shipped; its art is only looked at to
+build our models by hand).
 
 ## Code and data
 

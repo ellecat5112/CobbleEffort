@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:aerovdramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:aerovdramon",
+   "model": "cobbleeffort:aerovdramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3312_aerovdramon/aerovdramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}
