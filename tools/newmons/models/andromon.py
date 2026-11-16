@@ -58,8 +58,8 @@ def build():
     for j in range(4):                                           # ribbed skull dome
         m.box(hd, -2.7, 59.0 + j * 0.0, -2.4 + j * 1.4, 2.7, 61.6, -1.8 + j * 1.4, PLATE)
     for sx in (-1, 1):                                           # red gem-lights in the chest
-        m.round_box(bd, sx * 2.4, -4.6, 0.8, 0.5, 46.0, 47.8, GEM, cut=1)
-    m.round_box(bd, 0, -4.4, 0.6, 0.4, 41.0, 42.4, GEM, cut=1)
+        m.box(bd, sx * 2.4 - 0.8, 46.0, -4.6 - 0.5, sx * 2.4 + 0.8, 47.8, -4.6 + 0.5, GEM)
+    m.box(bd, 0 - 0.6, 41.0, -4.4 - 0.4, 0 + 0.6, 42.4, -4.4 + 0.4, GEM)
     for i in range(5):                                           # ribbed abdomen plates
         m.box(bd, -3.6, 35.0 + i * 1.5, -3.8, 3.6, 35.8 + i * 1.5, -2.8, PLATE)
     for sx, nm in ((1, "arm_left"), (-1, "arm_right")):

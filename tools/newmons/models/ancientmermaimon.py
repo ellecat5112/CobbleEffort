@@ -68,7 +68,7 @@ def build():
     for i in range(5):                                           # spiny fish crest
         spike(m, hd, (0, 60.0 - i * 0.8, -1.0 + i * 1.2), (0, 1, 0.4), 1.2, 3.6 - i * 0.4, ARMOUR)
     for sx in (-1, 1):
-        m.box(hd, sx * 2.2, 56.0, -1.0, sx * 2.2 + sx * 3.0, 61.0, -1.0, cutout(fin_shape, finf),
+        m.box(hd, min(sx * 2.2, sx * 5.2), 56.0, -1.0, max(sx * 2.2, sx * 5.2), 61.0, -1.0, cutout(fin_shape, finf),
               rotation=(0, sx * 30, 0), pivot=(sx * 2.2, 58.0, -1.0))
     hr = m.bone("mane", hd, (0, 59, 2))
     for i in range(9):                                           # long silver hair down its back
@@ -80,12 +80,13 @@ def build():
         r = 4.6 - i * 0.38
         m.round_box(tl, 0, -0.4 + i * 0.25, r, r * 0.8, y0 - 3.4, y0, TAIL, cut=max(1, round(r * 0.3)))
     for sx in (-1, 1):
-        m.box(tl, 0, 0.0, 2.8, sx * 9.0, 9.0, 2.8, cutout(fin_shape, finf), rotation=(-30, 0, sx * 35),
+        m.box(tl, min(0, sx * 9.0), 0.0, 2.8, max(0, sx * 9.0), 9.0, 2.8, cutout(fin_shape, finf), rotation=(-30, 0, sx * 35),
               pivot=(0, 2.0, 2.8))
     for nm in ("arm_left", "arm_right"):                         # arm fins
         el = a[nm]["elbow"]
         sx = 1 if nm == "arm_left" else -1
-        m.box(a[nm]["bone"], el[0], el[1] - 6.0, el[2] + 1.0, el[0] + sx * 4.0, el[1] + 1.0, el[2] + 1.0,
+        m.box(a[nm]["bone"], min(el[0], el[0] + sx * 4.0), el[1] - 6.0, el[2] + 1.0, max(el[0], el[0] + sx * 4.0),
+              el[1] + 1.0, el[2] + 1.0,
               cutout(fin_shape, finf), rotation=(0, sx * 70, 0), pivot=el)
     ar = a["arm_right"]                                          # the gold trident
     h = ar["hand"]

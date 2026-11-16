@@ -88,7 +88,7 @@ def build():
         wb = m.bone(nm, bd, (sx * 6.0, 46.0, 5.0))
         c = (sx * 16.0, 40.0, 7.0)
         rod(m, wb, (sx * 4.0, 46.0, 4.0), c, 3, GOLD, extend=0.3)
-        m.round_box(wb, c[0], c[2] + 1.0, 8.0, 1.6, c[1] - 8.0, c[1] + 8.0, discf, cut=3)
+        m.round_box(wb, c[0], c[2] + 1.0, 8.0, 1.6, c[1] - 8.0, c[1] + 8.0, discf, cut=1)
         for i in range(13):                                      # ray pipes fanning up and out
             ang = math.radians(-70 + i * 11.5)
             ln = 18.0 + 12.0 * math.cos(math.radians(-70 + i * 11.5) * 1.2)

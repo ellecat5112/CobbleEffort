@@ -65,7 +65,7 @@ def build():
     m.box(bd, -1.4, 26.0, -5.2, 1.4, 29.0, -4.4, GOLD)                                    # gold buckle
     spike(m, bd, (0, 26.0, -4.8), (0, -1, 0), 1.6, 4.0, GOLD)
     for sx in (-1, 1):                                           # gold sun-disc clasps
-        m.round_box(bd, sx * 3.4, -4.8, 1.4, 0.5, 46.0, 48.8, GOLD, cut=1)
+        m.box(bd, sx * 3.4 - 1.4, 46.0, -4.8 - 0.5, sx * 3.4 + 1.4, 48.8, -4.8 + 0.5, GOLD)
     hd = m.bone("head", bd, (0, 54, 0))
     m.round_box(hd, 0, 0, 3.6, 3.6, 52.0, 60.0, cloakf, cut=1)                            # the hood
     m.box(hd, -2.6, 53.0, -3.8, 2.6, 58.6, -3.0, solid(P, "shadow"))

@@ -117,8 +117,8 @@ def build(name="alphamon", ouryuken=False):
         spike(m, hd, (sx * 2.6, 59.5, 0.0), (sx * 0.5, 0.5, 1), 1.0, 3.2, GOLD)
     # breastplate: wrap plate, central red gem, gems at the solar plexus, gold collar ring
     shell(m, bd, (0, 0, 0.6), 5.6, 43.0, 51.0, -80, 80, 9, 1.0, PLATE)
-    m.round_box(bd, 0, -5.6, 1.1, 0.6, 46.0, 48.4, GEM, cut=1)
-    m.round_box(bd, 0, -4.8, 0.8, 0.5, 40.0, 41.8, GEM, cut=1)
+    m.box(bd, 0 - 1.1, 46.0, -5.6 - 0.6, 0 + 1.1, 48.4, -5.6 + 0.6, GEM)
+    m.box(bd, 0 - 0.8, 40.0, -4.8 - 0.5, 0 + 0.8, 41.8, -4.8 + 0.5, GEM)
     shell(m, bd, (0, 0, 0.4), 3.6, 50.8, 52.6, -110, 110, 8, 1.0, GOLD)
     # the huge pauldrons: domes with a broad gold rim that rises behind the head, a triangle plate below
     for sx, nm in ((1, "arm_left"), (-1, "arm_right")):

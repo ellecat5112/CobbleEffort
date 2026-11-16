@@ -65,7 +65,7 @@ def build():
     for sx in (-1, 1):                                           # flame horns and side spikes
         m.box(fl, sx * 4.0 - 3.0, 20.0, -1.0, sx * 4.0 + 3.0, 32.0, -1.0, cutout(flame_inside(2, sx * 0.3, 5), flamef),
               rotation=(0, 0, -sx * 20), pivot=(sx * 4.0, 22.0, -1.0))
-        m.box(bd, sx * 6.0, 8.0, -1.0, sx * 12.0, 20.0, -1.0, cutout(flame_inside(3, sx * 0.4, 7), flamef),
+        m.box(bd, min(sx * 6.0, sx * 12.0), 8.0, -1.0, max(sx * 6.0, sx * 12.0), 20.0, -1.0, cutout(flame_inside(3, sx * 0.4, 7), flamef),
               rotation=(0, 0, -sx * 50), pivot=(sx * 6.0, 12.0, -1.0))
     m.box(bd, -4.0, 0.0, 0, 4.0, 8.0, 0, cutout(flame_inside(3, 0.0, 9), flamef), rotation=(180, 0, 0),
           pivot=(0, 6.0, 0))                                     # wisps trailing below

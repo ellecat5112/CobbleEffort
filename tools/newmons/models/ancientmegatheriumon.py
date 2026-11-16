@@ -61,7 +61,7 @@ def build():
     m.round_box(hd, 0, -18.0, 4.0, 3.4, 20.0, 30.0, skin(P, "face", dark="face_dark"), cut=1)     # long face
     m.box(hd, -3.0, 18.0, -22.0, 3.0, 22.0, -18.0, skin(P, "face", dark="face_dark"))            # muzzle
     ball(m, hd, (0, 31.0, -19.0), 6.0, FUR, layers=4)                                           # fur crown
-    m.round_box(hd, 0, -21.6, 1.4, 0.6, 27.0, 29.6, gem(P, "gem", "gem_light"), cut=1)
+    m.box(hd, 0 - 1.4, 27.0, -21.6 - 0.6, 0 + 1.4, 29.6, -21.6 + 0.6, gem(P, "gem", "gem_light"))
     for sx in (-1, 1):
         m.box(hd, sx * 2.2 - 0.6, 25.0, -21.6, sx * 2.2 + 0.6, 26.0, -21.2, solid(P, "eye"))
         pts = [(sx * 4.0, 28.0, -16.0), (sx * 10.0, 32.0, -17.0), (sx * 16.0, 29.0, -20.0), (sx * 18.0, 22.0, -24.0),

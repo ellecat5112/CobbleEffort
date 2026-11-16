@@ -69,7 +69,7 @@ def build():
               rotation=(0, 0, sx * 8), pivot=(sx * 4.4, 36.0, -17.5))
         spike(m, hd, (sx * 4.0, 37.0, -16.0), (sx * 0.8, 0.8, 0.3), 1.6, 4.6, GOLD, tip=0.8)
     m.box(hd, -4.6, 35.0, -21.0, 4.6, 37.5, -14.0, GOLD)                                 # gold band
-    m.round_box(hd, 0, -21.6, 1.0, 0.6, 35.4, 37.2, gem(P, "red", "red_light"), cut=1)
+    m.box(hd, 0 - 1.0, 35.4, -21.6 - 0.6, 0 + 1.0, 37.2, -21.6 + 0.6, gem(P, "red", "red_light"))
     rod(m, hd, (0, 22.0, -21.0), (0, 18.0, -21.0), 2, GOLD, extend=0.2)                  # pharaoh beard
     for sx, nm in ((1, "wing_left"), (-1, "wing_right")):        # wings of long gold blade-feathers
         wb = m.bone(nm, a["body"], (sx * 5.0, 24.0, -6.0))

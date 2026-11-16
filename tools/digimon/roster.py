@@ -255,4 +255,40 @@ ROSTER = [
      "abilities": ["swiftswim", "h:sharpness"],
      "entry": "Anomalocarimon awakened by the X-Antibody, its shell a rainbow and its head crowned with two great "
               "scythe blades."},
+    {"name": "Anubimon", "types": ["ghost", "psychic"], "role": "special", "stage": "Ultimate",
+     "abilities": ["pressure", "h:cursedbody"],
+     "entry": "The god who guards the gate between the Digital World and the Dark Area. It weighs the data of every "
+              "deleted Digimon and decides whether it will be reborn."},
+    {"name": "Apocalymon", "types": ["dark", "steel"], "role": "special", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:shadowtag"],
+     "entry": "Born from the grudges of every Digimon that was deleted without ever evolving. It can use the "
+              "techniques of any Digimon it has absorbed, and wants only to erase the whole world."},
+    {"name": "Apollomon", "types": ["fire", "fighting"], "role": "physical", "stage": "Ultimate", "legendary": True,
+     "abilities": ["drought", "h:pressure"],
+     "entry": "One of the Olympus Twelve, the god of the sun. Its mane and tail burn with solar flame and its "
+              "fists strike with the heat of a sunrise."},
+    {"name": "Apollomon: Whispered", "types": ["fire", "dark"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["flashfire", "h:pressure"],
+     "entry": "Apollomon after the whispers of darkness turned its flames cold and blue. It still burns, but its "
+              "fire freezes the heart."},
+    {"name": "Apollomon Darkness Mode", "types": ["dark", "fighting"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["moxie", "h:pressure"],
+     "entry": "Apollomon swallowed completely by darkness. Its flames have gone out, and it swings a great black "
+              "axe at anything that shines."},
+    {"name": "Aquilamon", "types": ["flying", "normal"], "role": "speed", "stage": "Adult",
+     "abilities": ["keeneye", "h:bigpecks"],
+     "entry": "A giant eagle that rules the sky over the plains. It rams its foes with its horns at full speed and "
+              "fires rings of energy from its beak."},
+    {"name": "Arbormon", "types": ["grass", "steel"], "role": "tank", "stage": "Adult",
+     "abilities": ["overgrow", "h:sturdy"],
+     "entry": "The warrior of wood, a puppet of carved timber. It fights with stretching arms and legs, and its "
+              "wooden body shrugs off blows that would break stone."},
+    {"name": "Archelomon", "types": ["water", "rock"], "role": "tank", "stage": "Adult",
+     "abilities": ["shellarmor", "h:swiftswim"],
+     "entry": "An ancient sea turtle born from the Digi-Egg of Sincerity. It glides through the water on its "
+              "bladed flippers and ploughs through enemies with its spiked shell."},
+    {"name": "Archnemon", "types": ["bug", "dark"], "role": "special", "stage": "Perfect",
+     "abilities": ["swarm", "h:prankster"],
+     "entry": "A demon beast who spins webs across the Digital World to catch the unwary. She laughs as she toys "
+              "with her prey before striking with her spider legs."},
 ]

@@ -80,7 +80,7 @@ def build():
     m.box(hd, -2.0, 56.8, -3.4, 2.0, 58.2, -2.6, solid(P, "eye", glow=True))            # visor
     rod(m, hd, (0, 60.0, -1.0), (0, 62.5, 2.5), 2, PINK, extend=0.3)
     shell(m, bd, (0, 0, 0.6), 5.6, 42.0, 51.0, -85, 85, 9, 1.2, PINK_TRIM)
-    m.round_box(bd, 0, -6.0, 1.2, 0.6, 45.6, 48.2, GEM, cut=1)
+    m.box(bd, 0 - 1.2, 45.6, -6.0 - 0.6, 0 + 1.2, 48.2, -6.0 + 0.6, GEM)
     for sx, nm in ((1, "arm_left"), (-1, "arm_right")):
         ab = a[nm]["bone"]
         sh = a[nm]["shoulder"]

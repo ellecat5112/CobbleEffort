@@ -40,8 +40,8 @@ def smokef(x, y, z, face, variant, box=None, **k):
 
 
 def build():
-    m = Model("anheinuwashou")
-    top = m.bone("anheinuwashou", None, (0, 0, 0))
+    m = Model("anheinwashou")
+    top = m.bone("anheinwashou", None, (0, 0, 0))
     bd = m.bone("body", top, (0, 30, 0))
     tl = m.bone("tail", bd, (0, 22, 0))
     for i in range(16):                                          # the serpent coil under the body
