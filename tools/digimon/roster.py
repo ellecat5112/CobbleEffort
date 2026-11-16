@@ -147,4 +147,40 @@ ROSTER = [
      "abilities": ["pressure", "h:justified"],
      "entry": "The phantom Royal Knight, said to have stood against the others when they lost their way. It wields "
               "the Holy Sword Grade Alpha, drawn from a magic circle, and its cape is the shadow of a whole army."},
+    {"name": "Alphamon: Ouryuken", "types": ["steel", "dragon"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:toughclaws"],
+     "entry": "Alphamon joined with the spirit of the dragon Ouryumon. Its wings blaze with every colour of flame, "
+              "and the Ouryuken it carries can split the sky from horizon to horizon."},
+    {"name": "Alraumon", "types": ["grass", "poison"], "role": "special", "stage": "Child",
+     "abilities": ["effectspore", "h:chlorophyll"],
+     "entry": "A mandrake Digimon that dozes half buried in the soil. The scent of its lily lulls attackers to sleep, "
+              "and its root claws drink the strength from anything they grip."},
+    {"name": "Amaterasumon", "types": ["fire", "fairy"], "role": "special", "stage": "Ultimate",
+     "abilities": ["drought", "h:magicbounce"],
+     "entry": "The goddess of the sun, who carries two great suns on her back. When she hides herself the whole "
+              "Digital World falls dark, and when she shines no shadow can stand."},
+    {"name": "Ambromon", "types": ["grass", "fairy"], "role": "special", "stage": "Perfect",
+     "abilities": ["naturalcure", "h:serenegrace"],
+     "entry": "A laughing radish spirit that wanders with its sun staff, blessing the harvest wherever it dances. "
+              "Its laughter is said to heal any sickness."},
+    {"name": "Amon", "types": ["fire", "ghost"], "role": "special",
+     "abilities": ["flashfire", "h:cursedbody"],
+     "entry": "A spirit of crimson flame with a demon's face. It burns in the dark places of the network and feeds "
+              "on the anger of those who come near."},
+    {"name": "Amphimon", "types": ["water", "electric"], "role": "mixed", "stage": "Ultimate",
+     "abilities": ["plus", "h:minus"],
+     "entry": "A cyborg that charges the jellyfish orbs on its tendrils with opposite currents. Bringing them "
+              "together releases a blast that leaves no machine still running."},
+    {"name": "Ancient Beatmon", "types": ["bug", "electric"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["lightningrod", "h:pressure"],
+     "entry": "The ancient warrior of thunder, one of the Ten Legendary Warriors who sealed away the Lucemon of old. "
+              "Its scythe horns call down lightning, and its spirit lives on in Beetlemon."},
+    {"name": "Ancient Garurumon", "types": ["ice", "steel"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["justified", "h:pressure"],
+     "entry": "The ancient warrior of light, a wolf knight of the Ten Legendary Warriors. Its blade shines brighter "
+              "than the moon, and its spirit lives on in Wolfmon."},
+    {"name": "Ancient Greymon", "types": ["fire", "dragon"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["blaze", "h:pressure"],
+     "entry": "The ancient warrior of flame and leader of the Ten Legendary Warriors. Its wings of fire scorch the "
+              "earth, and its spirit lives on in Agnimon."},
 ]

@@ -94,7 +94,9 @@ ABILITY_NAMES = {
     "justified": "Justified", "flashfire": "Flash Fire", "levitate": "Levitate", "forewarn": "Forewarn",
     "analytic": "Analytic", "shellarmor": "Shell Armor", "magicguard": "Magic Guard", "sheerforce": "Sheer Force",
     "liquidooze": "Liquid Ooze", "roughskin": "Rough Skin", "synchronize": "Synchronize", "download": "Download",
-    "infiltrator": "Infiltrator", "strongjaw": "Strong Jaw",
+    "infiltrator": "Infiltrator", "strongjaw": "Strong Jaw", "effectspore": "Effect Spore", "chlorophyll":
+    "Chlorophyll", "drought": "Drought", "magicbounce": "Magic Bounce", "naturalcure": "Natural Cure", "plus": "Plus",
+    "minus": "Minus",
 }
 
 
