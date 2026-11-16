@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:algomonperfect",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:algomonperfect",
+   "model": "cobbleeffort:algomonperfect.geo",
+   "texture": "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_glow_0.png",
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_glow_1.png",
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3330_algomonperfect/algomonperfect_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

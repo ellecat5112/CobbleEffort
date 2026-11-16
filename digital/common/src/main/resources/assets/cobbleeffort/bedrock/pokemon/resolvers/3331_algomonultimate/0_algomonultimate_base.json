@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:algomonultimate",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:algomonultimate",
+   "model": "cobbleeffort:algomonultimate.geo",
+   "texture": "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_glow_0.png",
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_glow_1.png",
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3331_algomonultimate/algomonultimate_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

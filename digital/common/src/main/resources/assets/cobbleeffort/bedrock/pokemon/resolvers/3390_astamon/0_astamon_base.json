@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:astamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:astamon",
+   "model": "cobbleeffort:astamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3390_astamon/astamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3390_astamon/astamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3390_astamon/astamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3390_astamon/astamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3390_astamon/astamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

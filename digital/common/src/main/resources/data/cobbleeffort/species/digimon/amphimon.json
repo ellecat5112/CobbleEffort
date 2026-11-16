@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3340,
+ "name": "Amphimon",
+ "primaryType": "water",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.amphimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "plus",
+  "h:minus"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 105,
+  "attack": 110,
+  "defence": 90,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.235,
+ "hitbox": {
+  "width": 2.0,
+  "height": 4.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "5:thundershock",
+  "9:aquajet",
+  "13:spark",
+  "17:waterpulse",
+  "21:shockwave",
+  "25:bubblebeam",
+  "29:thunderfang",
+  "33:aquatail",
+  "37:discharge",
+  "41:surf",
+  "45:thunderbolt",
+  "49:liquidation",
+  "53:wildcharge",
+  "57:hydropump",
+  "61:thunder",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:discharge",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderfang",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge"
+ ]
+}

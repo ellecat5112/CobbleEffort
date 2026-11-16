@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:assaultmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:assaultmon",
+   "model": "cobbleeffort:assaultmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3389_assaultmon/assaultmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3389_assaultmon/assaultmon_shiny.png"
+  }
+ ]
+}

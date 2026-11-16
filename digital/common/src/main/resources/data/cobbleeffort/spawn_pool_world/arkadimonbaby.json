@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "arkadimonbaby-wild",
+   "pokemon": "cobbleeffort:arkadimonbaby",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-10",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_forest",
+     "#cobblemon:is_spooky"
+    ]
+   }
+  }
+ ]
+}

@@ -36,8 +36,11 @@ def ball(m, bone, c, r, shader, layers=6, squash=1.0, ry=None):
         t0, t1 = -1 + 2 * i / layers, -1 + 2 * (i + 1) / layers
         tm = (t0 + t1) / 2
         rr = r * math.sqrt(max(0.04, 1 - tm * tm))
-        m.round_box(bone, cx, cz, rr, rr * squash, cy + ry * t0 - 0.02 * (i % 2), cy + ry * t1, shader,
-                    cut=max(1, round(rr * 0.32)))
+        y0, y1 = cy + ry * t0 - 0.02 * (i % 2), cy + ry * t1
+        if min(rr, rr * squash) < 1.5:                              # too small to round: one plain box
+            m.box(bone, cx - rr, y0, cz - rr * squash, cx + rr, y1, cz + rr * squash, shader)
+        else:
+            m.round_box(bone, cx, cz, rr, rr * squash, y0, y1, shader, cut=max(1, round(rr * 0.32)))
 
 
 def slab_z(m, bone, cx, cy, z0, z1, rx, ry, shader, cut=None):

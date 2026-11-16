@@ -363,4 +363,44 @@ ROSTER = [
      "abilities": ["guts", "h:scrappy"],
      "entry": "A bear-beast huntress who guards the forests. Her spear never misses, and she roars loud enough to "
               "shake the trees bare."},
+    {"name": "Assaultmon", "types": ["steel", "fighting"], "role": "physical", "stage": "Perfect",
+     "abilities": ["megalauncher", "h:skilllink"],
+     "entry": "A cyborg soldier sealed in a heavy mech-suit. It never stops firing its gatling arm, and its gas "
+              "mask lets it fight through any smoke or poison."},
+    {"name": "Astamon", "types": ["dark", "fire"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["intimidate", "h:skilllink"],
+     "entry": "A demon lord who dresses like a gangster and settles every argument with its submachine gun. It is "
+              "said to keep its word, and to expect the same of everyone else."},
+    {"name": "Asuramon", "types": ["fighting", "fire"], "role": "physical", "stage": "Perfect",
+     "abilities": ["ironfist", "h:justified"],
+     "entry": "A wrathful guardian deity with a mane of flame. Its burning fists strike faster than a hundred "
+              "blows a second, and it never retreats."},
+    {"name": "Atamadekachimon", "types": ["dragon", "normal"], "role": "physical", "stage": "Adult",
+     "abilities": ["strongjaw", "h:unaware"],
+     "entry": "A dinosaur whose head is far bigger than the rest of it. It can barely walk without toppling over, "
+              "but anything that ends up in its jaws is never seen again."},
+    {"name": "Atlur Ballistamon", "types": ["bug", "steel"], "role": "physical", "stage": "Perfect",
+     "abilities": ["ironfist", "h:motordrive"],
+     "entry": "A beetle-robot heavyweight that charges its fists with lightning. One punch from its giant right "
+              "hand can knock a mountain flat."},
+    {"name": "Atlur Kabuterimon (Blue)", "types": ["bug", "electric"], "role": "physical", "stage": "Perfect",
+     "abilities": ["swarm", "h:lightningrod"],
+     "entry": "A hulking insect Digimon that fires lightning from its horns. Its six clawed limbs can tear through "
+              "steel plate."},
+    {"name": "Atlur Kabuterimon (Red)", "types": ["bug", "fire"], "role": "physical", "stage": "Perfect",
+     "abilities": ["swarm", "h:flamebody"],
+     "entry": "A crimson Atlur Kabuterimon whose hide burns hot to the touch. It hurls fireballs from its maw and "
+              "never backs down from a fight."},
+    {"name": "Atratusmon", "types": ["dark", "flying"], "role": "special", "stage": "Ultimate",
+     "abilities": ["pressure", "h:magicbounce"],
+     "entry": "A dark swan-knight whose wings blaze with magenta light. Its crystal shields reflect any attack back "
+              "at the one who made it."},
+    {"name": "Avenge Kidmon", "types": ["dark", "dragon"], "role": "special", "stage": "Ultimate",
+     "abilities": ["sniper", "h:pressure"],
+     "entry": "A dragon-man gunslinger who lives only for revenge. It hunts across the network with its gun-blade "
+              "and never forgets a single wrong."},
+    {"name": "Azhdarmon", "types": ["flying", "steel"], "role": "speed", "stage": "Perfect",
+     "abilities": ["sharpness", "h:galewings"],
+     "entry": "A pterosaur whose crest is a great axe-blade. It dives from the clouds at incredible speed, slicing "
+              "anything below with its crest and wing blades."},
 ]

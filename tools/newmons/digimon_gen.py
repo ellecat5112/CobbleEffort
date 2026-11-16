@@ -13,6 +13,7 @@ from __future__ import annotations
 import importlib.util
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 DIGI = Path(__file__).resolve().parents[1] / "digimon"
@@ -101,11 +102,15 @@ ABILITY_NAMES = {
     "sturdy": "Sturdy", "sharpness": "Sharpness", "keeneye": "Keen Eye", "bigpecks": "Big Pecks",
     "overgrow": "Overgrow", "swarm": "Swarm", "prankster": "Prankster", "waterveil": "Water Veil",
     "poisontouch": "Poison Touch", "sandveil": "Sand Veil", "steelworker": "Steelworker", "pickpocket": "Pickpocket",
-    "scrappy": "Scrappy",
+    "scrappy": "Scrappy", "skilllink": "Skill Link", "unaware": "Unaware", "motordrive": "Motor Drive",
+    "flamebody": "Flame Body", "sniper": "Sniper",
 }
 
 
 def slug(name):
+    """Species id: lower-cased letters and digits, accents transliterated (Cobblemon keys the name lang on the ASCII
+    species name, so AnheiNüwashou must be anheinuwashou)."""
+    name = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 

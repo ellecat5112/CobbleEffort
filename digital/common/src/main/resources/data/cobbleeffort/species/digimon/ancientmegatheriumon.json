@@ -1,0 +1,144 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3345,
+ "name": "Ancient Megatheriumon",
+ "primaryType": "ice",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.ancientmegatheriumon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "thickfat",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 10.37,
+ "hitbox": {
+  "width": 3.2,
+  "height": 3.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:snowball",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:powdersnow",
+  "5:tackle",
+  "9:iceshard",
+  "13:quickattack",
+  "17:icywind",
+  "21:headbutt",
+  "25:icefang",
+  "29:slam",
+  "33:aurorabeam",
+  "37:bodyslam",
+  "41:icebeam",
+  "45:doubleedge",
+  "49:iciclecrash",
+  "53:hypervoice",
+  "57:blizzard",
+  "61:gigaimpact",
+  "tm:aurorabeam",
+  "tm:blizzard",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:icebeam",
+  "tm:icefang",
+  "tm:iciclecrash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:snowscape",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "ancientmegatheriumon_apocalymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:apocalymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:astamon"
+}

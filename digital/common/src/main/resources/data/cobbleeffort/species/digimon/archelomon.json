@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3369,
+ "name": "Archelomon",
+ "primaryType": "water",
+ "secondaryType": "rock",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.archelomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "shellarmor",
+  "h:swiftswim"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 50,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.5,
+ "hitbox": {
+  "width": 2.6,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "5:rockthrow",
+  "9:aquajet",
+  "13:rocktomb",
+  "17:waterpulse",
+  "21:ancientpower",
+  "25:bubblebeam",
+  "29:rockslide",
+  "33:aquatail",
+  "37:powergem",
+  "41:surf",
+  "45:stoneedge",
+  "49:liquidation",
+  "53:headsmash",
+  "57:hydropump",
+  "61:rockwrecker",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:headsmash",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:powergem",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:armadimon"
+}

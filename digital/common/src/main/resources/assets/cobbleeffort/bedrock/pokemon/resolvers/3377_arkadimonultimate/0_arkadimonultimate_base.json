@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:arkadimonultimate",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:arkadimonultimate",
+   "model": "cobbleeffort:arkadimonultimate.geo",
+   "texture": "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_glow_0.png",
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_glow_1.png",
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3377_arkadimonultimate/arkadimonultimate_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

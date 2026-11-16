@@ -1976,6 +1976,17 @@ Aldamon. Models stay within the official designs.
 
 ![Digimon batch 2: Aircraft Carrier Whamon, Airdramon, Ajatarmon, Akatorimon, Albatusmon, Aldamon](docs/digimon_a2.png)
 
+**The whole A section (CobbleEffort 0.98.0 / Digital 0.3.0)**: the other 73 Digimon wikimon lists under A, from
+Algomon (Baby I) to Azhdarmon, at the same detail standard: every Algomon and Arkadimon stage, the X-Antibody
+forms, the ten Ancient warriors, the Apollomon modes, all three Arresterdramon and the rest. New shared builders:
+`_digibeast.py` (dinosaurs, quadrupeds, round bodies, feathered and membrane wings, hinged jaws with teeth) and a
+tattered `cape()`. Their evolutions follow wikimon between the Digimon now in the game (e.g. Agumon can now become
+Angemon or Ankylomon, Armadimon becomes Angemon, Ankylomon, Aquilamon, Arbormon or Archelomon). AnheiNüwashou is
+known only from a silhouette, so it is modelled as a shadow. Legendary ones (Royal Knights, the Ancient warriors,
+Apocalymon, Armagemon, the Olympus gods) don't spawn wild; they come by evolution.
+
+![Digimon A section, Algomon (Baby I) to Azhdarmon](docs/digimon_a3.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

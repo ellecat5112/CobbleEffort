@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:azhdarmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:azhdarmon",
+   "model": "cobbleeffort:azhdarmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3398_azhdarmon/azhdarmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3398_azhdarmon/azhdarmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3398_azhdarmon/azhdarmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3398_azhdarmon/azhdarmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

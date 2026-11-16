@@ -1,0 +1,144 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3348,
+ "name": "Ancient Troiamon",
+ "primaryType": "grass",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.ancienttroiamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "megalauncher",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 10.0,
+ "hitbox": {
+  "width": 3.0,
+  "height": 3.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:metalclaw",
+  "9:razorleaf",
+  "13:mirrorshot",
+  "17:bulletseed",
+  "21:ironhead",
+  "25:gigadrain",
+  "29:flashcannon",
+  "33:seedbomb",
+  "37:smartstrike",
+  "41:energyball",
+  "45:meteormash",
+  "49:powerwhip",
+  "53:heavyslam",
+  "57:leafstorm",
+  "61:steelbeam",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:leafstorm",
+  "tm:meteormash",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "ancienttroiamon_apocalymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:apocalymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ]
+}

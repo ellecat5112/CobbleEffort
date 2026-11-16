@@ -450,6 +450,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   twisted vines, riveted, feathers, scales, fabric, leather, flame_inside cut-outs, eye()). Check every model with
   `scratchpad/tools/big.sh <module> "<wikimon name>"` (large front/3-4/side/back next to the art). Official designs
   only: no nude or sexualised anatomy added.
+  The whole A section is in (0.98.0 / Digital 0.3.0, 98 roster entries; the 2006 anime versions skipped). Shared
+  builders: `_digibeast.py` (`theropod()`, `quadruped()`, `ball()`, `slab_z/x`, `feather_wing()`, `bat_wing()`,
+  `jaws()` with lower teeth placed by `rot_x`), `_digibody.cape()` (tattered panels), line palettes `_algo.py`,
+  `_arkadi.py`; variants share one module's `make(name, ...)` (Allomon/X, Alphamon/Ouryuken, Andiramon/Deva,
+  Angewomon/X, Anomalocarimon/X, Apollomon modes, Armamon/Burst, Arresterdramon modes, Atlur Kabuterimon colours).
+  Boxes with x0 > x1 (or round_box with r < cut) come out EMPTY: use sorted()/min/max for mirrored planes;
+  `scratchpad/tools/digicheck.py [start]` builds every roster module and reports errors and negative-size boxes.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

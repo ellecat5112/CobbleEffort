@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "amphimon-wild",
+   "pokemon": "cobbleeffort:amphimon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-65",
+   "weight": 0.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_beach",
+     "#cobblemon:is_river",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_hills",
+     "#cobblemon:is_plains"
+    ]
+   }
+  }
+ ]
+}

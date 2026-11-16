@@ -1,0 +1,184 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3329,
+ "name": "Algomon Adult",
+ "primaryType": "poison",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.algomonadult.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "download",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 80,
+  "defence": 65,
+  "special_attack": 80,
+  "special_defence": 65,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.0,
+ "hitbox": {
+  "width": 2.2,
+  "height": 3.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:spider_eye",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:poisonsting",
+  "5:metalclaw",
+  "9:acid",
+  "13:mirrorshot",
+  "17:poisonfang",
+  "21:ironhead",
+  "25:venoshock",
+  "29:flashcannon",
+  "33:poisonjab",
+  "37:smartstrike",
+  "41:sludgebomb",
+  "45:meteormash",
+  "49:gunkshot",
+  "53:heavyslam",
+  "57:sludgewave",
+  "61:steelbeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gunkshot",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "algomonadult_algomonperfect",
+   "variant": "level_up",
+   "result": "cobbleeffort:algomonperfect",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "algomonadult_andromon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:andromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "algomonadult_anomalocarimon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:anomalocarimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "algomonadult_metalgreymon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

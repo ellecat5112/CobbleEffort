@@ -142,7 +142,33 @@
    ]
   },
   {
-   "id": "airdramon_metalgreymon_2",
+   "id": "airdramon_andiramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:andiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "airdramon_andiramondeva_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:andiramondeva",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "airdramon_metalgreymon_4",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

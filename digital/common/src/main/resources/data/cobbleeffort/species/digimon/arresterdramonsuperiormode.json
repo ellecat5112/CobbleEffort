@@ -1,0 +1,146 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3386,
+ "name": "Arresterdramon Superior Mode",
+ "primaryType": "dragon",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.arresterdramonsuperiormode.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pickpocket",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 75,
+  "attack": 100,
+  "defence": 65,
+  "special_attack": 80,
+  "special_defence": 65,
+  "speed": 115
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 3
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.452,
+ "hitbox": {
+  "width": 1.8,
+  "height": 3.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "5:gust",
+  "9:dragontail",
+  "13:wingattack",
+  "17:dragonclaw",
+  "21:aerialace",
+  "25:breakingswipe",
+  "29:aircutter",
+  "33:dragonpulse",
+  "37:airslash",
+  "41:dragonrush",
+  "45:drillpeck",
+  "49:outrage",
+  "53:bravebird",
+  "57:dracometeor",
+  "61:hurricane",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "arresterdramonsuperiormode_arresterdramonsuperiormodebravesnatcher",
+   "variant": "level_up",
+   "result": "cobbleeffort:arresterdramonsuperiormodebravesnatcher",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:arresterdramon"
+}

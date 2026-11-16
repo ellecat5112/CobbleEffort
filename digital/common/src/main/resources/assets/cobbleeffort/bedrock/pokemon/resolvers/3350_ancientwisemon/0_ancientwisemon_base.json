@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ancientwisemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ancientwisemon",
+   "model": "cobbleeffort:ancientwisemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3350_ancientwisemon/ancientwisemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

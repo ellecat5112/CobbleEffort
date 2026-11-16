@@ -124,5 +124,20 @@
   "tm:taunt",
   "tm:terablast",
   "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "agumonblackxantibody_allomonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
  ]
 }
