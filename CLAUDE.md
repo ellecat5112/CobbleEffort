@@ -437,6 +437,19 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   one-way, +10 levels; several at one level are all offered). Models: one module per species (`models/<slug>.py`,
   slug = name lower-cased letters+digits), sized by `_digi.sized(blocks, HEIGHT, width)`; shared builders `_agumon.py`
   (variants), `_aegio.py` (goat-gods), `_digiwar.py` (armoured humanoid warriors). Batch 1 = Abbadomon..Agumon Hakase.
+  **Digimon live in CobbleEffort: Digital** (0.97.0 / Digital 0.2.0, the user's call): build.py writes every species
+  labelled `digimon` (and CUSTOM_MOVES with `"digital": True`) into `digital/common/src/main/resources` (RES switched
+  per species; `remove_core_copy` clears old core files; ids stay `cobbleeffort:`), lang in
+  `assets/cobbleeffort_digital/lang/en_us.json` (digital/tools/make_assets.py merges into it), own dex `cobbleeffort:
+  digimon` + `data/cobbleeffort_digital/dex_additions/national.json`, `digital_check.py` validates that tree, the
+  Digimon list in `digital/README.txt` between its "-- Digimon (generated) --" markers. make_share splits the Digital
+  jar into "CobbleEffort: Digital Textures N" jars like the core (OWNERS, split_jar).
+  **Detail standard** (the user's ask: much more detailed, from batch 2): ~64-unit humanoids on `_digibody.humanoid`
+  (anatomical pieces, anchors dict; `shell()` curved plates, `dome()` caps), 100-250 boxes, K 3-4, shaders from
+  `_digidetail.py` (skin with Bulge muscles + veins, armour = smooth plates with top/bottom trim, metal, strands,
+  twisted vines, riveted, feathers, scales, fabric, leather, flame_inside cut-outs, eye()). Check every model with
+  `scratchpad/tools/big.sh <module> "<wikimon name>"` (large front/3-4/side/back next to the art). Official designs
+  only: no nude or sexualised anatomy added.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

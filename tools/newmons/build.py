@@ -39,6 +39,11 @@ from _rig import animations, poser  # noqa: E402
 
 ROOT = TOOLS.parent
 RES = ROOT / "src" / "main" / "resources"
+CORE_RES = RES
+# the Digimon (label "digimon") live in the CobbleEffort: Digital add-on's jar (same cobbleeffort ids, so caught ones
+# survive); build.py switches RES to this tree while it writes one
+DIGI_RES = ROOT / "digital" / "common" / "src" / "main" / "resources"
+DIGI_NS = "cobbleeffort_digital"
 MOD = "cobbleeffort"
 
 
@@ -4420,33 +4425,33 @@ contestType: "Clever"
                 "fires one at each foe.",
     },
     "pepperbreath": {
-        "base": "ember", "num": -3045, "name": "Pepper Breath", "type": "Fire", "category": "Special",
+        "digital": True, "base": "ember", "num": -3045, "name": "Pepper Breath", "type": "Fire", "category": "Special",
         "basePower": 50, "accuracy": 100, "pp": 25,
         "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.",
         "lang": "The user spits a ball of fire at the target. It may leave the target with a burn.",
     },
     "megaflame": {
-        "base": "flamethrower", "num": -3046, "name": "Mega Flame", "type": "Fire", "category": "Special",
+        "digital": True, "base": "flamethrower", "num": -3046, "name": "Mega Flame", "type": "Fire", "category": "Special",
         "basePower": 100, "accuracy": 100, "pp": 10,
         "desc": "Has a 10% chance to burn the target.", "shortDesc": "10% chance to burn the target.",
         "lang": "The user breathes a huge, blazing fireball at the target. It may leave the target with a burn.",
     },
     "gigadestroyer": {
-        "base": "flashcannon", "num": -3047, "name": "Giga Destroyer", "type": "Steel", "category": "Special",
+        "digital": True, "base": "flashcannon", "num": -3047, "name": "Giga Destroyer", "type": "Steel", "category": "Special",
         "basePower": 110, "accuracy": 90, "pp": 5, "secondary": None,
         "flags": {"protect": 1, "mirror": 1, "metronome": 1, "bullet": 1},
         "desc": "No additional effect.", "shortDesc": "No additional effect.",
         "lang": "The hatch on the user's chest opens and fires two great missiles at the target.",
     },
     "greysword": {
-        "base": "ironhead", "num": -3048, "name": "Grey Sword", "type": "Steel", "category": "Physical",
+        "digital": True, "base": "ironhead", "num": -3048, "name": "Grey Sword", "type": "Steel", "category": "Physical",
         "basePower": 120, "accuracy": 100, "pp": 5, "critRatio": 2, "secondary": None,
         "flags": {"contact": 1, "protect": 1, "mirror": 1, "metronome": 1, "slicing": 1},
         "desc": "Has a higher chance for a critical hit.", "shortDesc": "High critical hit ratio.",
         "lang": "The user cuts the target with a sword that splits anything. Critical hits land more easily.",
     },
     "garurucannon": {
-        "base": "blizzard", "num": -3049, "name": "Garuru Cannon", "type": "Ice", "category": "Special",
+        "digital": True, "base": "blizzard", "num": -3049, "name": "Garuru Cannon", "type": "Ice", "category": "Special",
         "basePower": 120, "accuracy": 90, "pp": 5, "target": "normal",
         "desc": "Has a 10% chance to freeze the target.", "shortDesc": "10% chance to freeze the target.",
         "lang": "The user fires a blast of absolute cold from the cannon in its lion's jaws. It may freeze the target.",
@@ -4777,6 +4782,27 @@ def check(showdown):
         raise SystemExit("unknown in Showdown: " + ", ".join(bad))
 
 
+def is_digimon(sp):
+    return "digimon" in SPECIES[sp].get("labels", [])
+
+
+def remove_core_copy(sp, core_lang):
+    """Everything a Digimon used to have in the core jar (before it moved to CobbleEffort: Digital)."""
+    import shutil
+    a = CORE_RES / "assets" / MOD
+    for kind in ("textures/pokemon", "bedrock/pokemon/models", "bedrock/pokemon/posers", "bedrock/pokemon/animations",
+                 "bedrock/pokemon/resolvers"):
+        d = a / kind / folder(sp)
+        if d.is_dir():
+            shutil.rmtree(d)
+    d = CORE_RES / "data" / MOD
+    for f in list((d / "species").glob(f"*/{sp}.json")) + [d / "spawn_pool_world" / f"{sp}.json",
+                                                          d / "dex_entries" / "pokemon" / f"{sp}.json"]:
+        f.unlink(missing_ok=True)
+    for k in (f"{MOD}.species.{sp}.name", f"{MOD}.species.{sp}.desc"):
+        core_lang.pop(k, None)
+
+
 def main():
     import argparse
     ap = argparse.ArgumentParser()
@@ -4784,11 +4810,21 @@ def main():
     args = ap.parse_args()
     if args.showdown:
         check(args.showdown)
+    global RES
     data = RES / "data" / MOD
     lang_path = RES / "assets" / MOD / "lang" / "en_us.json"
     lang = json.loads(lang_path.read_text())
+    core_lang = lang
+    dlang_path = DIGI_RES / "assets" / DIGI_NS / "lang" / "en_us.json"
+    dlang = json.loads(dlang_path.read_text())
     manifest, readme = [], []
     for sp, c in SPECIES.items():
+        digi = is_digimon(sp)
+        if digi:
+            remove_core_copy(sp, core_lang)
+        RES = DIGI_RES if digi else CORE_RES
+        data = RES / "data" / MOD
+        lang = dlang if digi else core_lang
         build_model(sp)
         for stale in (data / "species").glob(f"*/{sp}.json"):      # a species that moved to another line's folder
             if stale.parent.name != c["line"]:
@@ -4832,16 +4868,27 @@ def main():
                                  "retextured": f"{MOD}:textures/pokemon/{folder(sp)}/{mod_name}{sfx}.png"})
         types = " / ".join(t.title() for t in c["types"])
         st = c["stats"]
+        if digi:                                             # Digimon are listed in the Digital add-on, not here
+            (TOOLS / "readme" / f"_new_{sp}.json").unlink(missing_ok=True)
+            continue
         write_json(TOOLS / "readme" / f"_new_{sp}.json", {
             "dex": c["dex"], "name": c["name"], "types": types, "ability": c["ability_names"], "look": c["look"],
             "entry": c["entry"], "how": c["how"],
             "stats": [st["hp"], st["attack"], st["defence"], st["special_attack"], st["special_defence"], st["speed"]]})
         readme.append(c)
+    RES, data, lang = CORE_RES, CORE_RES / "data" / MOD, core_lang
     for mid, mv in CUSTOM_MOVES.items():
+        if mv.get("digital"):                                # a Digimon's signature move ships with the Digimon
+            (CORE_RES / "data" / MOD / "moves" / f"{mid}.js").unlink(missing_ok=True)
+            for k in (f"cobblemon.move.{mid}", f"cobblemon.move.{mid}.desc"):
+                core_lang.pop(k, None)
+            data, lang = DIGI_RES / "data" / MOD, dlang
+        else:
+            data, lang = CORE_RES / "data" / MOD, core_lang
         if "js" in mv:                                       # a whole move of our own (with its own condition)
             js = mv["js"]
         else:                                                # a twist on an existing move
-            fields = {k: v for k, v in mv.items() if k not in ("base", "lang")}
+            fields = {k: v for k, v in mv.items() if k not in ("base", "lang", "digital")}
             fields.update(isNonstandard=None, zMove={"basePower": 140}, maxMove={"basePower": 130})
             js = f'Object.assign({{}}, Dex.data.Moves["{mv['base']}"], {json.dumps(fields)})\n'
         lang.update(mv.get("battle", {}))
@@ -4849,6 +4896,7 @@ def main():
         (data / "moves" / f"{mid}.js").write_text(js)
         lang[f"cobblemon.move.{mid}"] = mv["name"]
         lang[f"cobblemon.move.{mid}.desc"] = mv["lang"]
+    data, lang = CORE_RES / "data" / MOD, core_lang
     for aid, ab in CUSTOM_ABILITIES.items():
         (data / "abilities").mkdir(parents=True, exist_ok=True)
         (data / "abilities" / f"{aid}.js").write_text(ab["js"])
@@ -4879,10 +4927,34 @@ def main():
     write_json(lang_path, dict(sorted(lang.items())))
     write_json(data / "dexes" / "cobbleeffort.json", {
         "type": "cobblemon:simple_pokedex_def", "id": f"{MOD}:cobbleeffort", "sortOrder": 30,
-        "entries": [f"{MOD}:{sp}" for sp in sorted(SPECIES, key=lambda s: SPECIES[s]["dex"])]})
+        "entries": [f"{MOD}:{sp}" for sp in sorted(SPECIES, key=lambda s: SPECIES[s]["dex"]) if not is_digimon(sp)]})
+    # the Digimon's own Pokédex, added by the Digital jar (its own dex_additions path, so neither jar overrides the other)
+    ddata = DIGI_RES / "data" / MOD
+    write_json(ddata / "dexes" / "digimon.json", {
+        "type": "cobblemon:simple_pokedex_def", "id": f"{MOD}:digimon", "sortOrder": 31,
+        "entries": [f"{MOD}:{sp}" for sp in sorted(SPECIES, key=lambda s: SPECIES[s]["dex"]) if is_digimon(sp)]})
+    write_json(DIGI_RES / "data" / DIGI_NS / "dex_additions" / "national.json",
+               {"dexId": "cobblemon:national", "entries": [f"{MOD}:digimon"]})
+    dlang["cobblemon.ui.pokedex.region.digimon"] = "Digimon"
+    write_json(dlang_path, dict(sorted(dlang.items())))
+    digital_readme([sp for sp in sorted(SPECIES, key=lambda s: SPECIES[s]["dex"]) if is_digimon(sp)])
+    import digital_check                                     # the Digital tree has no validateData of its own
+    digital_check.run(DIGI_RES, MOD)
     write_json(data / "dex_additions" / "national.json", {"dexId": "cobblemon:national", "entries": [f"{MOD}:cobbleeffort"]})
     write_json(TOOLS / "preview" / "manifest_newmons.json", manifest)
     readme_table(readme)
+
+
+def digital_readme(sps):
+    """The Digimon list in CobbleEffort: Digital's README, between its "-- Digimon --" markers."""
+    path = ROOT / "digital" / "README.txt"
+    text = path.read_text()
+    a, b = "-- Digimon (generated) --", "-- end of the Digimon list --"
+    rows = []
+    for sp in sps:
+        c = SPECIES[sp]
+        rows.append(f"#{c['dex']} {c['name']} ({' / '.join(t.title() for t in c['types'])}): {' '.join(c['how'])}")
+    path.write_text(text[:text.index(a) + len(a)] + "\n" + "\n".join(rows) + "\n" + text[text.index(b):])
 
 
 def readme_table(cfgs):

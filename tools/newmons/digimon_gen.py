@@ -92,7 +92,7 @@ ABILITY_NAMES = {
     "static": "Static", "filter": "Filter", "megalauncher": "Mega Launcher", "snowcloak": "Snow Cloak",
     "refrigerate": "Refrigerate", "aerilate": "Aerilate", "toughclaws": "Tough Claws", "blaze": "Blaze",
     "justified": "Justified", "flashfire": "Flash Fire", "levitate": "Levitate", "forewarn": "Forewarn",
-    "analytic": "Analytic",
+    "analytic": "Analytic", "shellarmor": "Shell Armor", "magicguard": "Magic Guard", "sheerforce": "Sheer Force",
 }
 
 

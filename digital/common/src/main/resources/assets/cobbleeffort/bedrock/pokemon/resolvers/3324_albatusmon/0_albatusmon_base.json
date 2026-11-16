@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:albatusmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:albatusmon",
+   "model": "cobbleeffort:albatusmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3324_albatusmon/albatusmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

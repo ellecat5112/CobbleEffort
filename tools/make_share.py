@@ -80,24 +80,32 @@ def write_jar(path, entries):
 
 # ---- split CobbleEffort ----------------------------------------------------------------------------------------------
 
-def part_meta(n, total, version):
-    mod_id = f"cobbleeffort_textures_{n}"
-    name = f"CobbleEffort Textures {n} of {total}"
-    desc = f"Part {n} of {total} of CobbleEffort's cosmetic textures (split off so the mods share in small files)."
+OWNERS = {  # mods whose jars are split into a main jar + texture jars: id, display name, texture jar file prefix
+    "core": ("cobbleeffort", "CobbleEffort", "cobbleeffort-textures"),
+    "digital": ("cobbleeffort_digital", "CobbleEffort: Digital", "cobbleeffort-digital-textures"),
+}
+
+
+def part_meta(owner, n, total, version):
+    parent, pname, _ = OWNERS[owner]
+    mod_id = f"{parent}_textures_{n}" if owner != "core" else f"cobbleeffort_textures_{n}"
+    name = f"{pname} Textures {n} of {total}"
+    desc = f"Part {n} of {total} of {pname}'s textures (split off so the mods share in small files)."
     fabric = {"schemaVersion": 1, "id": mod_id, "version": version, "name": name, "description": desc,
-              "authors": ["ellecat5112"], "license": "MPL-2.0", "environment": "*",
-              "depends": {"cobbleeffort": f"={version}"}}
+              "authors": ["ellecat5112"], "license": "MPL-2.0" if owner == "core" else "CC-BY-NC-4.0", "environment": "*",
+              "depends": {parent: f"={version}"}}
     neo = "\n".join([
         'modLoader = "lowcodefml"', 'loaderVersion = "[1,)"', 'license = "MPL-2.0"', "",
         "[[mods]]", f'modId = "{mod_id}"', f'version = "{version}"', f'displayName = "{name}"',
         'authors = "ellecat5112"', f"description = '''{desc}'''", "",
-        f"[[dependencies.{mod_id}]]", 'modId = "cobbleeffort"', 'type = "required"',
+        f"[[dependencies.{mod_id}]]", f'modId = "{parent}"', 'type = "required"',
         f'versionRange = "[{version}]"', 'ordering = "NONE"', 'side = "BOTH"', ""])
     return mod_id, json.dumps(fabric, indent=1).encode(), neo.encode()
 
 
-def split_base(jar, out_dir):
-    """The core jar (written now) and the collection texture folders: {folder: [ZipInfo]} with estimated sizes."""
+def split_jar(jar, out_dir, main_name):
+    """The main jar (written now, as out_dir/main_name(version)) and its texture folders: {folder: [ZipInfo]} with
+    estimated sizes."""
     z = zipfile.ZipFile(jar)
     version = json.loads(z.read("fabric.mod.json"))["version"]
     folders, core = {}, []
@@ -109,21 +117,26 @@ def split_base(jar, out_dir):
             folders.setdefault(rest.split("/")[0], []).append(i)
         else:
             core.append(i)
-    core_path = os.path.join(out_dir, f"cobbleeffort-{version}+1.21.1-core.jar")
+    core_path = os.path.join(out_dir, main_name(version))
     write_jar(core_path, [(i.filename, z.read(i.filename), i.date_time) for i in core])
     sizes = {k: sum(i.compress_size + 76 + 2 * len(i.filename) for i in v) for k, v in folders.items()}
     return z, version, core_path, folders, sizes
 
 
-def texture_jar(z, version, folders, keys, n, total, out_dir):
-    mod_id, fabric, neo = part_meta(n, total, version)
+def split_base(jar, out_dir):
+    return split_jar(jar, out_dir, lambda v: f"cobbleeffort-{v}+1.21.1-core.jar")
+
+
+def texture_jar(owner, src, keys, n, total, out_dir, pack_mcmeta, licence):
+    z, version, folders = src
+    mod_id, fabric, neo = part_meta(owner, n, total, version)
     t0 = (1980, 1, 1, 0, 0, 0)
     entries = [("META-INF/MANIFEST.MF", b"Manifest-Version: 1.0\r\n\r\n", t0), ("fabric.mod.json", fabric, t0),
-               ("META-INF/neoforge.mods.toml", neo, t0), ("pack.mcmeta", z.read("pack.mcmeta"), t0),
-               ("LICENSE_" + mod_id, z.read("LICENSE_cobbleeffort"), t0)]
+               ("META-INF/neoforge.mods.toml", neo, t0), ("pack.mcmeta", pack_mcmeta, t0),
+               ("LICENSE_" + mod_id, licence, t0)]
     for k in sorted(keys):
         entries += [(i.filename, z.read(i.filename), i.date_time) for i in folders[k]]
-    path = os.path.join(out_dir, f"cobbleeffort-textures-{n}-{version}+1.21.1.jar")
+    path = os.path.join(out_dir, f"{OWNERS[owner][2]}-{n}-{version}+1.21.1.jar")
     write_jar(path, entries)
     return path
 
@@ -149,15 +162,28 @@ def main():
     for d in (cache, work):
         os.makedirs(d, exist_ok=True)
 
-    z, version, core_path, folders, fsizes = split_base(repack(a.base, cache), work)
+    z, version, core_path, folders, csizes = split_base(repack(a.base, cache), work)
+    srcs = {"core": (z, version, folders)}
+    fsizes = {("core", k): v for k, v in csizes.items()}
+    pack_mcmeta, core_licence = z.read("pack.mcmeta"), z.read("LICENSE_cobbleeffort")
+    licences = {"core": core_licence}
     mods = {"CobbleEffort": [("CobbleEffort (core)", core_path)]}
     for key, label in (("distortion", "CobbleEffort: Distortion"), ("kanto", "CobbleEffort: Kanto"),
                        ("fusion", "CobbleEffort: Fusion"), ("digital", "CobbleEffort: Digital")):
         src = getattr(a, key)
-        if src:
-            dst = os.path.join(work, os.path.basename(src))
-            shutil.copy(repack(src, cache), dst)
-            mods[label] = [(label, dst)]
+        if not src:
+            continue
+        if key == "digital":                                 # the Digimon's textures go in texture jars like the core's
+            dz, dver, dpath, dfolders, dsizes = split_jar(repack(src, cache), work,
+                                                          lambda v, b=os.path.basename(src): b)
+            srcs["digital"] = (dz, dver, dfolders)
+            fsizes.update({("digital", k): v for k, v in dsizes.items()})
+            licences["digital"] = next((dz.read(n) for n in dz.namelist() if n.upper().startswith("LICENSE")), core_licence)
+            mods[label] = [(label, dpath)]
+            continue
+        dst = os.path.join(work, os.path.basename(src))
+        shutil.copy(repack(src, cache), dst)
+        mods[label] = [(label, dst)]
     docs = {}
     for r in a.readme:
         mod, path = r.split("=", 1)
@@ -190,20 +216,22 @@ def main():
                 zips.append(zp)
             zp["size"] += fsizes[k] + (0 if zp["tex"] else 20_000)
             zp["tex"].append(k)
-        total = sum(1 for zp in zips if zp["tex"])
-        n = 0
-        for zp in zips:
-            if zp["tex"]:
-                n += 1
-                path = texture_jar(z, version, folders, zp["tex"], n, total, work)
-                label = f"CobbleEffort Textures {n} of {total} ({len(zp['tex'])} texture folders)"
-                zp["items"].append((label, path, "CobbleEffort"))
+        for owner in srcs:
+            total = sum(1 for zp in zips if any(o == owner for o, _ in zp["tex"]))
+            n = 0
+            for zp in zips:
+                keys = [k for o, k in zp["tex"] if o == owner]
+                if keys:
+                    n += 1
+                    path = texture_jar(owner, srcs[owner], keys, n, total, work, pack_mcmeta, licences[owner])
+                    label = f"{OWNERS[owner][1]} Textures {n} of {total} ({len(keys)} texture folders)"
+                    zp["items"].append((label, path, "CobbleEffort" if owner == "core" else "CobbleEffort: Digital"))
         real = [sum(os.path.getsize(p) for _, p, _ in zp["items"]) + sum(doc_size.get(m, 0) for m in {m for _, _, m in zp["items"]})
                 for zp in zips]
         if max(real) + 60_000 <= limit:
             break
         for f in os.listdir(work):
-            if f.startswith("cobbleeffort-textures-"):
+            if f.startswith("cobbleeffort-textures-") or f.startswith("cobbleeffort-digital-textures-"):
                 os.remove(os.path.join(work, f))
 
     names = [f"CobbleEffort-{a.loader}-{version}-part{n}of{len(zips)}.zip" for n in range(1, len(zips) + 1)]

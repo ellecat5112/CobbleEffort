@@ -117,7 +117,9 @@ def main():
                {"order": 0, "pokeball": f"{NS}:digiball", "variations": [
                    {"aspects": [], "layers": [], "model": "cobblemon:poke_ball.geo", "poser": "cobblemon:poke_ball",
                     "texture": f"{NS}:textures/poke_balls/digiball.png"}]})
-    write_json(A / "lang/en_us.json", {
+    lang_file = A / "lang/en_us.json"
+    lang = json.loads(lang_file.read_text()) if lang_file.exists() else {}   # newmons build.py adds the Digimon here
+    lang.update({
         f"itemGroup.{NS}": "CobbleEffort: Digital",
         f"item.{NS}.digiball": "Digiball",
         f"item.{NS}.digiball.tooltip": "Three times as good as a Poké Ball on Digimon.",
@@ -128,6 +130,7 @@ def main():
         f"{NS}.digitama.hatched": "The Digitama hatched into %s!",
         f"{NS}.digitama.dropped": "The %s left a Digitama behind!",
     })
+    write_json(lang_file, dict(sorted(lang.items())))
     write_json(D / "recipe/digiball.json", {
         "type": "minecraft:crafting_shapeless", "category": "misc",
         "ingredients": [{"item": "cobblemon:poke_ball"}, {"item": "minecraft:redstone"},

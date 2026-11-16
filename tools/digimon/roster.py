@@ -85,4 +85,29 @@ ROSTER = [
      "abilities": ["forewarn", "h:analytic"],
      "entry": "An Agumon in a mortarboard and a lab coat that drags on the ground. It has read every book in the "
               "Digital World and lectures anyone who stands still long enough, pointer in hand."},
+    # --- batch 2 (0.97.0): the detail standard (_digidetail.py / _digibody.py) --------------------------------
+    {"name": "Aircraft Carrier Whamon", "types": ["water", "steel"], "role": "tank", "stage": "Perfect",
+     "abilities": ["shellarmor", "h:megalauncher"],
+     "entry": "A whale that carries a whole flight deck on its back. Smaller Digimon live in its island tower, and it "
+              "launches them into the sky from its runway before charging into battle mouth first."},
+    {"name": "Airdramon", "types": ["dragon", "flying"], "role": "speed",
+     "abilities": ["aerilate", "h:intimidate"],
+     "entry": "A winged serpent said to be a messenger of the gods. It stirs up whirlwinds with a beat of its ragged "
+              "wings and rains spinning needles of wind on anything below."},
+    {"name": "Ajatarmon", "types": ["grass", "fighting"], "role": "physical",
+     "abilities": ["grasspelt", "h:toughclaws"],
+     "entry": "A warrior made of living vines that guards the deep forest. It ties intruders up in thorny ivy, then "
+              "brings its sickle-hatchet down in one swing."},
+    {"name": "Akatorimon", "types": ["fire", "flying"], "role": "physical",
+     "abilities": ["guts", "h:moxie"],
+     "entry": "A giant rooster with a temper as hot as its blazing feathers. One glare from its scarred red eye is "
+              "enough to make most Digimon back away; the rest meet its charging talons."},
+    {"name": "Albatusmon", "types": ["steel", "fairy"], "role": "special",
+     "abilities": ["magicguard", "h:pressure"],
+     "entry": "An armoured angel that judges the wicked. The circle of runes on its staff blazes like the sun, and "
+              "the sphere of light it calls down erases whatever it touches."},
+    {"name": "Aldamon", "types": ["fire", "dragon"], "role": "physical", "stage": "Perfect",
+     "abilities": ["blaze", "h:sheerforce"],
+     "entry": "A warrior who joined the spirits of beast and man into one blazing form. Fire pours from its fists and "
+              "the flames at its back, and its golden ray-blades cut through solid rock."},
 ]

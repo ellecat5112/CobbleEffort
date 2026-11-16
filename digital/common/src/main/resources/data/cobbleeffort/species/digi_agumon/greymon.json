@@ -1,0 +1,184 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3174,
+ "name": "Greymon",
+ "primaryType": "fire",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.greymon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "intimidate",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 95,
+  "defence": 75,
+  "special_attack": 80,
+  "special_defence": 70,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 170,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 1.6,
+  "height": 2.55,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:blaze_rod",
+    "quantityRange": "0-2"
+   }
+  ]
+ },
+ "moves": [
+  "1:megaflame",
+  "1:scratch",
+  "1:growl",
+  "1:pepperbreath",
+  "5:ember",
+  "9:bite",
+  "13:firefang",
+  "17:dragonbreath",
+  "20:megaflame",
+  "24:crunch",
+  "28:dragonclaw",
+  "32:flamethrower",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:heatwave",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:crunch",
+  "tm:slash",
+  "tm:bodyslam",
+  "tm:irontail",
+  "tm:rockslide",
+  "tm:earthquake",
+  "tm:sunnyday",
+  "tm:roar",
+  "tm:bulkup",
+  "tm:swordsdance",
+  "tm:outrage",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:flareblitz"
+ ],
+ "evolutions": [
+  {
+   "id": "greymon_metalgreymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "gigadestroyer"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "greymon_aerovdramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:aerovdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "greymon_aldamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:aldamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

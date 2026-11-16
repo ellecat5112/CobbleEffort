@@ -1,0 +1,188 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3173,
+ "name": "Agumon",
+ "primaryType": "fire",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 300,
+ "pokedex": [
+  "cobbleeffort.species.agumon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "hustle",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 62,
+  "defence": 50,
+  "special_attack": 58,
+  "special_defence": 50,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 120,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.75,
+ "hitbox": {
+  "width": 1.3,
+  "height": 1.4,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "0-1"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "0-1"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:growl",
+  "1:pepperbreath",
+  "5:ember",
+  "9:bite",
+  "13:firefang",
+  "17:dragonbreath",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:snore",
+  "tm:endure",
+  "tm:terablast",
+  "tm:round",
+  "tm:toxic",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:firefang",
+  "tm:flamecharge",
+  "tm:willowisp",
+  "tm:heatwave",
+  "tm:dragonclaw",
+  "tm:dragonpulse",
+  "tm:dragontail",
+  "tm:crunch",
+  "tm:slash",
+  "tm:bodyslam",
+  "tm:irontail",
+  "tm:rockslide",
+  "tm:earthquake",
+  "tm:sunnyday",
+  "tm:roar",
+  "tm:bulkup",
+  "tm:swordsdance",
+  "tm:outrage"
+ ],
+ "evolutions": [
+  {
+   "id": "agumon_greymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "megaflame"
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumon_agnimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:agnimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumon_agumonyukinokizuna_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:agumonyukinokizuna",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "agumon_airdramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:koromon"
+}
