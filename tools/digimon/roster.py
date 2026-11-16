@@ -110,4 +110,41 @@ ROSTER = [
      "abilities": ["blaze", "h:sheerforce"],
      "entry": "A warrior who joined the spirits of beast and man into one blazing form. Fire pours from its fists and "
               "the flames at its back, and its golden ray-blades cut through solid rock."},
+    # --- 0.98.0: the rest of A, at the detail standard ------------------------------------------------------------
+    {"name": "Algomon (Baby I)", "types": ["poison"], "role": "special", "stage": "Baby I",
+     "abilities": ["liquidooze", "h:levitate"],
+     "entry": "A glossy droplet of living code that floats wherever the network takes it. Its one great eye records "
+              "everything it sees, and it was born from a program that rewrote itself."},
+    {"name": "Algomon (Baby II)", "types": ["poison"], "role": "special", "stage": "Baby II",
+     "abilities": ["liquidooze", "h:roughskin"],
+     "entry": "A spiky ball that scuttles about on four thin legs. It copies the moves of anything it watches, though "
+              "it gets most of them a little wrong."},
+    {"name": "Algomon (Child)", "types": ["poison", "psychic"], "role": "special", "stage": "Child",
+     "abilities": ["levitate", "h:synchronize"],
+     "entry": "It floats on a bundle of tentacles and flings bursts of corrupted data from its eye. It learns from "
+              "every battle and never makes the same mistake twice."},
+    {"name": "Algomon (Adult)", "types": ["poison", "steel"], "role": "mixed", "stage": "Adult",
+     "abilities": ["download", "h:levitate"],
+     "entry": "A great violet sphere that drags itself along on a skirt of tentacles. Its mechanical gauntlets were "
+              "built from the programs it swallowed, and its zipped mouth leaks poisonous steam."},
+    {"name": "Algomon (Perfect)", "types": ["poison", "dark"], "role": "special", "stage": "Perfect",
+     "abilities": ["download", "h:infiltrator"],
+     "entry": "A lean hunter whose bodysuit is covered in watching eyes. It whips its tentacles through the network "
+              "and rewrites any Digimon it catches into a copy of itself."},
+    {"name": "Algomon (Ultimate)", "types": ["poison", "dark"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["download", "h:moxie"],
+     "entry": "The final form of the self-rewriting algorithm, armoured and wild-maned. It is said that no system it "
+              "has entered has ever been restored."},
+    {"name": "Allomon", "types": ["dragon", "fire"], "role": "physical", "stage": "Adult",
+     "abilities": ["strongjaw", "h:intimidate"],
+     "entry": "A dinosaur Digimon born from the Digi-Egg of Courage. It bites with a jaw full of fangs and breathes a "
+              "blast of fire hot enough to melt rock."},
+    {"name": "Allomon (X-Antibody)", "types": ["dragon", "fire"], "role": "physical", "stage": "Adult",
+     "abilities": ["strongjaw", "h:toughclaws"],
+     "entry": "An Allomon awakened by the X-Antibody, wrapped in a fur mantle and a feathered war bonnet. Its fire "
+              "breath turns blue-white and its charge can flatten a forest."},
+    {"name": "Alphamon", "types": ["steel", "dark"], "role": "mixed", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:justified"],
+     "entry": "The phantom Royal Knight, said to have stood against the others when they lost their way. It wields "
+              "the Holy Sword Grade Alpha, drawn from a magic circle, and its cape is the shadow of a whole army."},
 ]

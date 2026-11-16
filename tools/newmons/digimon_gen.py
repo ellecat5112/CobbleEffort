@@ -93,6 +93,8 @@ ABILITY_NAMES = {
     "refrigerate": "Refrigerate", "aerilate": "Aerilate", "toughclaws": "Tough Claws", "blaze": "Blaze",
     "justified": "Justified", "flashfire": "Flash Fire", "levitate": "Levitate", "forewarn": "Forewarn",
     "analytic": "Analytic", "shellarmor": "Shell Armor", "magicguard": "Magic Guard", "sheerforce": "Sheer Force",
+    "liquidooze": "Liquid Ooze", "roughskin": "Rough Skin", "synchronize": "Synchronize", "download": "Download",
+    "infiltrator": "Infiltrator", "strongjaw": "Strong Jaw",
 }
 
 

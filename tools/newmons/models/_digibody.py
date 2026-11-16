@@ -115,3 +115,27 @@ def humanoid(m, mats, bulk=1.0, arm_bulk=1.0, leg_bulk=1.0, digitigrade=False, c
                 m.box(lg, tx - 0.5, 0.0, fz - 4.4 * lb, tx + 0.5, 1.4, fz - 3.0 * lb, M("toe"))
         anchors[nm] = {"bone": lg, "hip": hip, "knee": kn, "ankle": ank}
     return anchors
+
+
+def cape(m, bone, top, width, length, shader, z=3.0, flare=0.6, panels=6, sweep=(0.0, 0.0), seed=1):
+    """A cape hanging from the shoulders: `panels` vertical planes side by side, each hanging back at an angle that
+    grows outward (flare) and swept by `sweep` (x, z offset of the hem), with a ragged hem cut out (tattered cloth)."""
+    from _digidetail import cutout, local, noise2
+    top_y = top
+    pw = width / panels
+
+    def torn(x, y, z_, face, box):
+        u, v, W, H = local(x, y, z_, face, box)
+        f = (box.lo[0] + u) * 0.9
+        rag = 0.12 + 0.18 * noise2(f, seed) + 0.1 * abs(math.sin(f * 2.3 + seed))
+        hole = noise2(f * 1.7, (box.lo[1] + v) * 0.6 + seed * 3) > 0.86 and v / max(H, 1e-6) < 0.4
+        return v / max(H, 1e-6) > rag and not hole
+
+    sh = cutout(torn, shader)
+    for i in range(panels):
+        x0 = -width / 2 + i * pw
+        t = (i + 0.5) / panels - 0.5
+        zz = z + abs(t) * 3.0 * flare
+        m.box(bone, x0 - 0.2, top_y - length, zz, x0 + pw + 0.2, top_y, zz, sh,
+              rotation=(8 + 14 * abs(t) * flare * 2 + sweep[1], 0, t * 10 * flare + sweep[0]),
+              pivot=(x0 + pw / 2, top_y, zz))

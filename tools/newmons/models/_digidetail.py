@@ -249,7 +249,7 @@ def skin(P, key, dark=None, bulges=(), vein_rects=(), vein_key=None, var=0.05, b
     return s
 
 
-def scales(P, key, rim, size=1.4, light=None, belly_key=None, belly=lambda x, y, z, face: False, seed=0):
+def scales(P, key, rim, size=1.4, light=None, belly_key=None, belly=lambda x, y, z, face: False, seed=0, rim_mix=1.0):
     """Overlapping scales: each a rounded cell lit at its top, with a darker rim and a lighter centre."""
     def s(x, y, z, face, variant, box=None, **k):
         p = P(variant)
@@ -267,7 +267,7 @@ def scales(P, key, rim, size=1.4, light=None, belly_key=None, belly=lambda x, y,
         d = math.hypot(du, dv * 1.25)
         base = p[key]
         if d > 0.92:
-            col = p[rim]
+            col = mix(base, p[rim], rim_mix)
         else:
             col = mul(base, 1.0 + 0.16 * max(0, dv) * (1 - d) - 0.1 * d)
             if light and d < 0.35 and dv > 0:
