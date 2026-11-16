@@ -97,7 +97,8 @@ ABILITY_NAMES = {
     "infiltrator": "Infiltrator", "strongjaw": "Strong Jaw", "effectspore": "Effect Spore", "chlorophyll":
     "Chlorophyll", "drought": "Drought", "magicbounce": "Magic Bounce", "naturalcure": "Natural Cure", "plus": "Plus",
     "minus": "Minus", "galewings": "Gale Wings", "thickfat": "Thick Fat", "swiftswim": "Swift Swim",
-    "solidrock": "Solid Rock", "innerfocus": "Inner Focus",
+    "solidrock": "Solid Rock", "innerfocus": "Inner Focus", "fluffy": "Fluffy", "cutecharm": "Cute Charm",
+    "sturdy": "Sturdy", "sharpness": "Sharpness",
 }
 
 

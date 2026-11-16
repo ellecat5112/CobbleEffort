@@ -219,4 +219,40 @@ ROSTER = [
      "abilities": ["innerfocus", "h:justified"],
      "entry": "Andiramon serving as one of the Twelve Devas, the guardians of the holy beasts. It wears a lilac "
               "scarf as the mark of its rank."},
+    {"name": "Andromon", "types": ["steel", "electric"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["download", "h:filter"],
+     "entry": "An android built to be the perfect machine, its chrome frame wrapped round artificial muscle. It "
+              "fires spinning missiles from its chest and its drum arm can cut a wall in two."},
+    {"name": "Angemon", "types": ["fairy", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["justified", "h:ironfist"],
+     "entry": "An angel warrior with six shining wings. It never removes its helm, and its Heaven's Knuckle can "
+              "drive any evil back into the dark."},
+    {"name": "Angewomon", "types": ["fairy", "flying"], "role": "special", "stage": "Perfect",
+     "abilities": ["serenegrace", "h:justified"],
+     "entry": "An archangel who shines with holy light. She is gentle with the kind but has no mercy for evil, and "
+              "her Holy Arrow never misses its mark."},
+    {"name": "Angewomon (X-Antibody)", "types": ["fairy", "flying"], "role": "special", "stage": "Perfect",
+     "abilities": ["serenegrace", "h:magicguard"],
+     "entry": "Angewomon awakened by the X-Antibody, crowned with a ring of gold light and twelve rainbow wings. "
+              "Her light alone is enough to drive back the dark."},
+    {"name": "Angoramon", "types": ["normal", "fairy"], "role": "tank", "stage": "Child",
+     "abilities": ["fluffy", "h:cutecharm"],
+     "entry": "A plump angora rabbit that dozes almost all day. Its fur is so soft that attacks sink into it, and "
+              "it can sleep through a whole battle."},
+    {"name": "AnheiNüwashou", "types": ["dark", "dragon"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:shadowtag"],
+     "entry": "A dark goddess seen so far only as a shadow on the edge of the Digital World. It is said to be the "
+              "darkness of the goddess who mended the sky."},
+    {"name": "Ankylomon", "types": ["rock", "steel"], "role": "tank", "stage": "Adult",
+     "abilities": ["sturdy", "h:roughskin"],
+     "entry": "An armoured dinosaur whose spiked shell is harder than diamond. It curls up and rolls at its foes, "
+              "or smashes them with its mace of a tail."},
+    {"name": "Anomalocarimon", "types": ["water", "bug"], "role": "physical", "stage": "Perfect",
+     "abilities": ["swiftswim", "h:shellarmor"],
+     "entry": "An ancient crustacean revived from data of the first seas. It scoops prey in with its curled claws "
+              "and cuts with the blade-fins down its sides."},
+    {"name": "Anomalocarimon (X-Antibody)", "types": ["water", "bug"], "role": "physical", "stage": "Perfect",
+     "abilities": ["swiftswim", "h:sharpness"],
+     "entry": "Anomalocarimon awakened by the X-Antibody, its shell a rainbow and its head crowned with two great "
+              "scythe blades."},
 ]
