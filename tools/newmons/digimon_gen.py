@@ -99,7 +99,7 @@ ABILITY_NAMES = {
     "minus": "Minus", "galewings": "Gale Wings", "thickfat": "Thick Fat", "swiftswim": "Swift Swim",
     "solidrock": "Solid Rock", "innerfocus": "Inner Focus", "fluffy": "Fluffy", "cutecharm": "Cute Charm",
     "sturdy": "Sturdy", "sharpness": "Sharpness", "keeneye": "Keen Eye", "bigpecks": "Big Pecks",
-    "overgrow": "Overgrow", "swarm": "Swarm", "prankster": "Prankster",
+    "overgrow": "Overgrow", "swarm": "Swarm", "prankster": "Prankster", "waterveil": "Water Veil",
 }
 
 

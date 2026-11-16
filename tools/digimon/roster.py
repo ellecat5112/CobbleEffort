@@ -291,4 +291,40 @@ ROSTER = [
      "abilities": ["swarm", "h:prankster"],
      "entry": "A demon beast who spins webs across the Digital World to catch the unwary. She laughs as she toys "
               "with her prey before striking with her spider legs."},
+    {"name": "Arcturusmon", "types": ["dragon", "dark"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["toughclaws", "h:pressure"],
+     "entry": "A dragon-man named for a bright star. It drives its spinning drill lances through anything in its "
+              "way, and its wings blot out the night sky."},
+    {"name": "Ariemon", "types": ["water", "psychic"], "role": "special", "stage": "Ultimate",
+     "abilities": ["waterveil", "h:magicbounce"],
+     "entry": "A sea sorceress who calls the tides with her shell staff. Her robes trail water wherever she goes, "
+              "and her spells can raise the ocean floor."},
+    {"name": "Arkadimon Baby", "types": ["bug", "dark"], "role": "speed", "stage": "Baby II",
+     "abilities": ["swarm", "h:prankster"],
+     "entry": "A small grey creature that skitters on four steel legs. It eats data to grow, and nobody knows what "
+              "made it."},
+    {"name": "Arkadimon Child", "types": ["dark"], "role": "physical", "stage": "Child",
+     "abilities": ["moxie", "h:pressure"],
+     "entry": "A pink imp that slashes with the blades on its arms. Every Digimon it defeats makes it stronger, for "
+              "it absorbs their data."},
+    {"name": "Arkadimon Adult", "types": ["dark", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["moxie", "h:pressure"],
+     "entry": "A gaunt beast that stalks on its huge hands. It grows in leaps by devouring the data of other "
+              "Digimon, and nothing seems to satisfy its hunger."},
+    {"name": "Arkadimon Perfect", "types": ["dark", "poison"], "role": "physical", "stage": "Perfect",
+     "abilities": ["moxie", "h:pressure"],
+     "entry": "Its shoulders sprout masses of crimson tentacles that seize its prey. It has eaten so much data that "
+              "it can mimic the techniques of those it devoured."},
+    {"name": "Arkadimon Ultimate", "types": ["dark", "dragon"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["moxie", "h:pressure"],
+     "entry": "The bewitching beast grown into a winged demon. It has devoured whole armies of Digimon and is said "
+              "to be close to becoming something no one can stop."},
+    {"name": "Arkadimon Super Ultimate", "types": ["dark", "steel"], "role": "tank", "stage": "Super Ultimate",
+     "abilities": ["pressure", "h:moxie"],
+     "entry": "The final form of Arkadimon, a fortress-like head of steel the size of a hill. Its single eye sees "
+              "every Digimon as food."},
+    {"name": "Arkhai Angemon", "types": ["fairy", "fire"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["flashfire", "h:justified"],
+     "entry": "An angel of the rank of Principality, who leads the lesser angels into battle. The flame of its torch "
+              "never goes out, and evil cannot bear to look at it."},
 ]
