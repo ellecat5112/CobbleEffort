@@ -183,4 +183,40 @@ ROSTER = [
      "legendary": True, "abilities": ["blaze", "h:pressure"],
      "entry": "The ancient warrior of flame and leader of the Ten Legendary Warriors. Its wings of fire scorch the "
               "earth, and its spirit lives on in Agnimon."},
+    {"name": "Ancient Irismon", "types": ["flying", "fairy"], "role": "speed", "stage": "Ultimate",
+     "legendary": True, "abilities": ["galewings", "h:pressure"],
+     "entry": "The ancient warrior of wind, one of the Ten Legendary Warriors. Its rainbow wings raise storms, and "
+              "its rapier strikes faster than the eye can follow. Its spirit lives on in Fairymon."},
+    {"name": "Ancient Megatheriumon", "types": ["ice", "normal"], "role": "tank", "stage": "Ultimate",
+     "legendary": True, "abilities": ["thickfat", "h:pressure"],
+     "entry": "The ancient warrior of ice, a beast so vast that glaciers were said to be its sleeping body. Its "
+              "spirit lives on in Chakmon."},
+    {"name": "Ancient Mermaimon", "types": ["water", "fairy"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["swiftswim", "h:pressure"],
+     "entry": "The ancient warrior of water, who ruled the seas with her trident. Her song calms storms and raises "
+              "tidal waves. Her spirit lives on in Ranamon."},
+    {"name": "Ancient Sphinxmon", "types": ["dark", "steel"], "role": "mixed", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:intimidate"],
+     "entry": "The ancient warrior of darkness, a sphinx who guarded the boundary between light and shadow. Its "
+              "spirit lives on in Löwemon."},
+    {"name": "Ancient Troiamon", "types": ["grass", "steel"], "role": "tank", "stage": "Ultimate",
+     "legendary": True, "abilities": ["megalauncher", "h:pressure"],
+     "entry": "The ancient warrior of wood, a war-horse built of living timber and armed with cannons. Its spirit "
+              "lives on in Arbormon."},
+    {"name": "Ancient Volcamon", "types": ["ground", "fire"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["solidrock", "h:pressure"],
+     "entry": "The ancient warrior of earth, a walking volcano with fists like boulders. When it pounds the ground "
+              "the mountains erupt. Its spirit lives on in Grottomon."},
+    {"name": "Ancient Wisemon", "types": ["steel", "psychic"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["magicguard", "h:pressure"],
+     "entry": "The ancient warrior of steel, a sage who weighed the hearts of others on its balance of sun and moon. "
+              "Its spirit lives on in Mercurymon."},
+    {"name": "Andiramon", "types": ["normal", "psychic"], "role": "speed", "stage": "Perfect",
+     "abilities": ["innerfocus", "h:speedboost"],
+     "entry": "A holy beast with enormous ears that hear every whisper across the land. It moves so fast that its "
+              "long sleeves seem to strike from everywhere at once."},
+    {"name": "Andiramon (Deva)", "types": ["normal", "psychic"], "role": "speed", "stage": "Perfect",
+     "abilities": ["innerfocus", "h:justified"],
+     "entry": "Andiramon serving as one of the Twelve Devas, the guardians of the holy beasts. It wears a lilac "
+              "scarf as the mark of its rank."},
 ]
