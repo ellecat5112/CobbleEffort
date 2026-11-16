@@ -100,6 +100,8 @@ ABILITY_NAMES = {
     "solidrock": "Solid Rock", "innerfocus": "Inner Focus", "fluffy": "Fluffy", "cutecharm": "Cute Charm",
     "sturdy": "Sturdy", "sharpness": "Sharpness", "keeneye": "Keen Eye", "bigpecks": "Big Pecks",
     "overgrow": "Overgrow", "swarm": "Swarm", "prankster": "Prankster", "waterveil": "Water Veil",
+    "poisontouch": "Poison Touch", "sandveil": "Sand Veil", "steelworker": "Steelworker", "pickpocket": "Pickpocket",
+    "scrappy": "Scrappy",
 }
 
 

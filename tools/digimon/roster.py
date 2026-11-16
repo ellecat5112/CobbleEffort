@@ -327,4 +327,40 @@ ROSTER = [
      "abilities": ["flashfire", "h:justified"],
      "entry": "An angel of the rank of Principality, who leads the lesser angels into battle. The flame of its torch "
               "never goes out, and evil cannot bear to look at it."},
+    {"name": "Arma Lizamon", "types": ["poison", "rock"], "role": "physical", "stage": "Adult",
+     "abilities": ["roughskin", "h:poisontouch"],
+     "entry": "A lizard covered in overlapping spiked plates. It curls its tail over its back to strike with the "
+              "green spear-tip, and its claws crackle with stored energy."},
+    {"name": "Armadimon", "types": ["ground", "steel"], "role": "tank", "stage": "Child",
+     "abilities": ["shellarmor", "h:sandveil"],
+     "entry": "A cheerful armadillo that rolls into a ball when it is scared, or when it wants to bowl someone over. "
+              "Its claws can dig through solid rock."},
+    {"name": "Armagemon", "types": ["dark", "bug"], "role": "physical", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:moxie"],
+     "entry": "The Armageddon of the Digital World, born when countless Digimon fused into one. It crawls over the "
+              "land on its spindly legs, erasing everything in its path."},
+    {"name": "Armamon", "types": ["steel", "fighting"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["sharpness", "h:steelworker"],
+     "entry": "A living arsenal whose body is made of weapons. Every blade on it can be drawn and thrown, and it "
+              "never runs out of swords."},
+    {"name": "Armamon: Burst Mode", "types": ["steel", "fire"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["sharpness", "h:steelworker"],
+     "entry": "Armamon at the peak of its power, its armour turned to burning bronze. A ring of swords floats round "
+              "it, each ready to strike on its own."},
+    {"name": "Arresterdramon", "types": ["dragon", "dark"], "role": "speed", "stage": "Adult",
+     "abilities": ["pickpocket", "h:speedboost"],
+     "entry": "A sly dragon-man who hunts treasure across the Digital World. Its anchor-hook tail snatches things "
+              "from enemies before they notice."},
+    {"name": "Arresterdramon: Superior Mode", "types": ["dragon", "flying"], "role": "speed", "stage": "Perfect",
+     "abilities": ["pickpocket", "h:speedboost"],
+     "entry": "Arresterdramon at full power. Its great yellow wings carry it faster than sound, and its tail ends "
+              "in a golden trident."},
+    {"name": "Arresterdramon: Superior Mode (Brave Snatcher)", "types": ["dragon", "steel"], "role": "physical",
+     "stage": "Perfect", "abilities": ["toughclaws", "h:pickpocket"],
+     "entry": "Superior Mode armed with the Brave Snatcher, a huge gauntlet that can grab and crush even the "
+              "strongest Digimon. Its gold ring spins faster the harder it grips."},
+    {"name": "Artiomon", "types": ["normal", "fighting"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["guts", "h:scrappy"],
+     "entry": "A bear-beast huntress who guards the forests. Her spear never misses, and she roars loud enough to "
+              "shake the trees bare."},
 ]
