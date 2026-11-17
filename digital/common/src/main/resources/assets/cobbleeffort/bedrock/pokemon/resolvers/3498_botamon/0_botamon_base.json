@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:botamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:botamon",
+   "model": "cobbleeffort:botamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3498_botamon/botamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3498_botamon/botamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3498_botamon/botamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

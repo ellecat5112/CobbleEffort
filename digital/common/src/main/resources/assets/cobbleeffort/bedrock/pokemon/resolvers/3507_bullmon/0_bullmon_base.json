@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:bullmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bullmon",
+   "model": "cobbleeffort:bullmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3507_bullmon/bullmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3507_bullmon/bullmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

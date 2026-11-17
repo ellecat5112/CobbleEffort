@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:battlearmamenttrailmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:battlearmamenttrailmon",
+   "model": "cobbleeffort:battlearmamenttrailmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3428_battlearmamenttrailmon/battlearmamenttrailmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

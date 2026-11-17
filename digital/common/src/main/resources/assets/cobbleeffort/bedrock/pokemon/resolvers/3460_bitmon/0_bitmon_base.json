@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:bitmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bitmon",
+   "model": "cobbleeffort:bitmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3460_bitmon/bitmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3460_bitmon/bitmon_shiny.png"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:baromon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:baromon",
+   "model": "cobbleeffort:baromon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3425_baromon/baromon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3425_baromon/baromon_shiny.png"
+  }
+ ]
+}

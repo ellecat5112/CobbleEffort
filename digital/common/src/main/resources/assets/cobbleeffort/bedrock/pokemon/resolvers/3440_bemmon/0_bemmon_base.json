@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:bemmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bemmon",
+   "model": "cobbleeffort:bemmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3440_bemmon/bemmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3440_bemmon/bemmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

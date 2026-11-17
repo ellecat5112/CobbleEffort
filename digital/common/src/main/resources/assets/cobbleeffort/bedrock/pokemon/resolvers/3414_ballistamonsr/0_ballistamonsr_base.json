@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ballistamonsr",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ballistamonsr",
+   "model": "cobbleeffort:ballistamonsr.geo",
+   "texture": "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_glow_0.png",
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_glow_1.png",
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3414_ballistamonsr/ballistamonsr_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

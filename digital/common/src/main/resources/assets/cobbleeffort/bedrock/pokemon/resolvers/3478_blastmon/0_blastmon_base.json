@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:blastmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:blastmon",
+   "model": "cobbleeffort:blastmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3478_blastmon/blastmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3478_blastmon/blastmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

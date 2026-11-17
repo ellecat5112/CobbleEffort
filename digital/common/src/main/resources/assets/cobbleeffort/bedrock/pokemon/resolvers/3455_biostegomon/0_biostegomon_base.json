@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:biostegomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:biostegomon",
+   "model": "cobbleeffort:biostegomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3455_biostegomon/biostegomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:biothunderbirmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:biothunderbirmon",
+   "model": "cobbleeffort:biothunderbirmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3456_biothunderbirmon/biothunderbirmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

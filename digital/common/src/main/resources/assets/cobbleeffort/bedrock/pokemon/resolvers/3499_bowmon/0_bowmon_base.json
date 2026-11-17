@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:bowmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bowmon",
+   "model": "cobbleeffort:bowmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3499_bowmon/bowmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3499_bowmon/bowmon_shiny.png"
+  }
+ ]
+}

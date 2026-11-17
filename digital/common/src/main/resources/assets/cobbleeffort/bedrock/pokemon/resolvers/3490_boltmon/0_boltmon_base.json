@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:boltmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:boltmon",
+   "model": "cobbleeffort:boltmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3490_boltmon/boltmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3490_boltmon/boltmon_shiny.png"
+  }
+ ]
+}

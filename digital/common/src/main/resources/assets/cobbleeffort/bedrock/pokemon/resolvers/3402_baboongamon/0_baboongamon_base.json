@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:baboongamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:baboongamon",
+   "model": "cobbleeffort:baboongamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3402_baboongamon/baboongamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

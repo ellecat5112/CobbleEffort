@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:bumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bumon",
+   "model": "cobbleeffort:bumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3508_bumon/bumon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3508_bumon/bumon_shiny.png"
+  }
+ ]
+}

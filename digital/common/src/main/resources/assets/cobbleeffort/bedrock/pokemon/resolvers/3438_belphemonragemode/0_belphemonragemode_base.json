@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:belphemonragemode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:belphemonragemode",
+   "model": "cobbleeffort:belphemonragemode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3438_belphemonragemode/belphemonragemode_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

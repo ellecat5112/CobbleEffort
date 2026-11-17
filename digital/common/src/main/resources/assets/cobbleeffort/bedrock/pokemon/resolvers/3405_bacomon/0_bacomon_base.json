@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:bacomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bacomon",
+   "model": "cobbleeffort:bacomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3405_bacomon/bacomon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3405_bacomon/bacomon_shiny.png"
+  }
+ ]
+}

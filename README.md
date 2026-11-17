@@ -1987,6 +1987,17 @@ Apocalymon, Armagemon, the Olympus gods) don't spawn wild; they come by evolutio
 
 ![Digimon A section, Algomon (Baby I) to Azhdarmon](docs/digimon_a3.png)
 
+**The whole B section (CobbleEffort 0.99.0 / Digital 0.4.0)**: all 117 Digimon wikimon lists under B, from Baalmon
+to Butterflamon, at the same detail standard. That covers the Seven Great Demon Lords' Baalmon/Barbamon/Beelzebumon/
+Belphemon forms, the Bancho gang, the Bio Hybrids, every Black recolour (Black War Greymon and its "G" Erosion Mode,
+Black Galgomon line, Black Gaogamon line, Black Guilmon line, Black Tailmon), the babies (Botamon, Bubbmon, Bombmon,
+Bommon...) and giants like Breakdramon and Bryweludramon. Five entries were left out (the user's call): Beelzebumon
+(2010 Anime Version), Beelzebumon + Revolmon, Beelzebumon + Starmons, Black Seraphimon (DW3) and Bun. Blitz Greymon was
+already in the Agumon line. Evolutions again follow wikimon: Botamon can now become Koromon or Budmon, Black Tailmon
+becomes Bastemon or Betsumon, and Bulkmon becomes Boutmon.
+
+![Digimon B section, Baalmon to Butterflamon](docs/digimon_b1.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

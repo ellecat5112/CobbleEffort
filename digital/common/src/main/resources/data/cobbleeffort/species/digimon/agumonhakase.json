@@ -126,5 +126,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "agumonhakase_bakemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:koromon"
 }

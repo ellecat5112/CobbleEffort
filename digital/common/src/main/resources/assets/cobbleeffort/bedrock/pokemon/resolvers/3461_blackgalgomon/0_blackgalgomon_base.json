@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:blackgalgomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:blackgalgomon",
+   "model": "cobbleeffort:blackgalgomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3461_blackgalgomon/blackgalgomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

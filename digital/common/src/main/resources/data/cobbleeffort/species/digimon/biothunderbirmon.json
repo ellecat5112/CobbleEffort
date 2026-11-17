@@ -1,0 +1,145 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3456,
+ "name": "Bio Thunderbirmon",
+ "primaryType": "electric",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.biothunderbirmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "lightningrod",
+  "h:galewings"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 60,
+  "attack": 85,
+  "defence": 55,
+  "special_attack": 65,
+  "special_defence": 55,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 2
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 3.0,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:redstone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:thundershock",
+  "5:gust",
+  "9:spark",
+  "13:wingattack",
+  "17:shockwave",
+  "21:aerialace",
+  "25:thunderfang",
+  "29:aircutter",
+  "33:discharge",
+  "37:airslash",
+  "41:thunderbolt",
+  "45:drillpeck",
+  "49:wildcharge",
+  "53:bravebird",
+  "57:thunder",
+  "61:hurricane",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:discharge",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderfang",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge"
+ ],
+ "evolutions": [
+  {
+   "id": "biothunderbirmon_biodarkdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:biodarkdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ]
+}

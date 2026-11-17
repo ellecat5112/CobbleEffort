@@ -1,0 +1,237 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3457,
+ "name": "Birdramon",
+ "primaryType": "fire",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.birdramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flamebody",
+  "h:galewings"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.455,
+ "hitbox": {
+  "width": 3.0,
+  "height": 2.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "5:gust",
+  "9:flamecharge",
+  "13:wingattack",
+  "17:firefang",
+  "21:aerialace",
+  "25:incinerate",
+  "29:aircutter",
+  "33:flamethrower",
+  "37:airslash",
+  "41:lavaplume",
+  "45:drillpeck",
+  "49:fireblast",
+  "53:bravebird",
+  "57:overheat",
+  "61:hurricane",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:tailwind",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "birdramon_aerovdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:aerovdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "birdramon_agnimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:agnimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "birdramon_airdramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "birdramon_angewomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:angewomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "birdramon_arkhaiangemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:arkhaiangemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "birdramon_atlurkabuterimonblue_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "birdramon_atlurkabuterimonred_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonred",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "birdramon_bluemeramon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:bluemeramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

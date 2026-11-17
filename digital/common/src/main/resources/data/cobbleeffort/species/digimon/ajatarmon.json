@@ -124,5 +124,20 @@
   "tm:sleeptalk",
   "tm:substitute",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "ajatarmon_bloomlordmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:bloomlordmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
  ]
 }

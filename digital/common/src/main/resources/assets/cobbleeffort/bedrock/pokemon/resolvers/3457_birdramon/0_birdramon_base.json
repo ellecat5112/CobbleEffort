@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:birdramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:birdramon",
+   "model": "cobbleeffort:birdramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3457_birdramon/birdramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3457_birdramon/birdramon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

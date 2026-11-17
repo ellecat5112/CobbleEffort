@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:bubbmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bubbmon",
+   "model": "cobbleeffort:bubbmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3504_bubbmon/bubbmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3504_bubbmon/bubbmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3504_bubbmon/bubbmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3504_bubbmon/bubbmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3416,
+ "name": "Bancho Golemon",
+ "primaryType": "rock",
+ "secondaryType": "fighting",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.banchogolemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "solidrock",
+  "h:ironfist"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 2.4,
+  "height": 4.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:rockthrow",
+  "5:lowkick",
+  "9:rocktomb",
+  "13:karatechop",
+  "17:ancientpower",
+  "21:machpunch",
+  "25:rockslide",
+  "29:brickbreak",
+  "33:powergem",
+  "37:drainpunch",
+  "41:stoneedge",
+  "45:aurasphere",
+  "49:headsmash",
+  "53:closecombat",
+  "57:rockwrecker",
+  "61:focusblast",
+  "tm:aurasphere",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:headsmash",
+  "tm:helpinghand",
+  "tm:powergem",
+  "tm:protect",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:terablast"
+ ]
+}

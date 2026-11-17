@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3500,
+ "name": "Brachimon",
+ "primaryType": "rock",
+ "secondaryType": "grass",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.brachimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "h:thickfat"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 105,
+  "attack": 85,
+  "defence": 110,
+  "special_attack": 60,
+  "special_defence": 90,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.143,
+ "hitbox": {
+  "width": 3.0,
+  "height": 3.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:rockthrow",
+  "5:vinewhip",
+  "9:rocktomb",
+  "13:razorleaf",
+  "17:ancientpower",
+  "21:bulletseed",
+  "25:rockslide",
+  "29:gigadrain",
+  "33:powergem",
+  "37:seedbomb",
+  "41:stoneedge",
+  "45:energyball",
+  "49:headsmash",
+  "53:powerwhip",
+  "57:rockwrecker",
+  "61:leafstorm",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:headsmash",
+  "tm:helpinghand",
+  "tm:leafstorm",
+  "tm:powergem",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:ankylomon"
+}

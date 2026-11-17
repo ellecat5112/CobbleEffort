@@ -1,0 +1,170 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3481,
+ "name": "Blitzmon",
+ "primaryType": "electric",
+ "secondaryType": "bug",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.blitzmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "motordrive",
+  "h:ironfist"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 2.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:redstone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:thundershock",
+  "5:bugbite",
+  "9:spark",
+  "13:strugglebug",
+  "17:shockwave",
+  "21:furycutter",
+  "25:thunderfang",
+  "29:signalbeam",
+  "33:discharge",
+  "37:xscissor",
+  "41:thunderbolt",
+  "45:bugbuzz",
+  "49:wildcharge",
+  "53:lunge",
+  "57:thunder",
+  "61:megahorn",
+  "tm:bugbuzz",
+  "tm:discharge",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:protect",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderfang",
+  "tm:thunderwave",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "blitzmon_ancientbeatmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientbeatmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "blitzmon_atlurkabuterimonblue_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "blitzmon_bolgmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:bolgmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ]
+}

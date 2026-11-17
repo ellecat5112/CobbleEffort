@@ -457,6 +457,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Angewomon/X, Anomalocarimon/X, Apollomon modes, Armamon/Burst, Arresterdramon modes, Atlur Kabuterimon colours).
   Boxes with x0 > x1 (or round_box with r < cut) come out EMPTY: use sorted()/min/max for mirrored planes;
   `scratchpad/tools/digicheck.py [start]` builds every roster module and reports errors and negative-size boxes.
+  The whole B section is in (0.99.0 / Digital 0.4.0, 117 entries; Beelzebumon 2010 anime / + Revolmon / + Starmons,
+  Black Seraphimon (DW3) and Bun skipped, the user's call). New line builders `_guilmon.py`, `_gaogamon.py`,
+  `_galgomon.py`, `_tailmon.py`, `_wargreymon.py` (`make(name, ...)` with a black/variant flag: the Black recolours);
+  Bushi Agumon builds on `_agumon.build_agumon`. `_digibeast.jaws` is centred on x = 0 (heads off the centre line,
+  e.g. Breakdramon's two, need their own jaws). Roster slugs NFKD-transliterate accents (Būmon -> `bumon`).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

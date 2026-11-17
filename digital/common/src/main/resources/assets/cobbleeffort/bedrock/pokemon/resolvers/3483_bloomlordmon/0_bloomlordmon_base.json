@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:bloomlordmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bloomlordmon",
+   "model": "cobbleeffort:bloomlordmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3483_bloomlordmon/bloomlordmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

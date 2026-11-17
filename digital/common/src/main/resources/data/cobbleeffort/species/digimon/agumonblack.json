@@ -179,7 +179,33 @@
    ]
   },
   {
-   "id": "agumonblack_greymon_5",
+   "id": "agumonblack_birdramon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumonblack_boarmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:boarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumonblack_greymon_7",
    "variant": "level_up",
    "result": "cobbleeffort:greymon",
    "consumeHeldItem": false,

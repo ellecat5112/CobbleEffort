@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:bakumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:bakumon",
+   "model": "cobbleeffort:bakumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3410_bakumon/bakumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3410_bakumon/bakumon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3410_bakumon/bakumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3410_bakumon/bakumon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

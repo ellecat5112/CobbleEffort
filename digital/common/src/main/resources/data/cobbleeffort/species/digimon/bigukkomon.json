@@ -1,0 +1,127 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3450,
+ "name": "Big Ukkomon",
+ "primaryType": "fairy",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.bigukkomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "levitate",
+  "h:cursedbody"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 70,
+  "defence": 85,
+  "special_attack": 130,
+  "special_defence": 105,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 10.0,
+ "hitbox": {
+  "width": 3.0,
+  "height": 3.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:fairywind",
+  "5:astonish",
+  "9:disarmingvoice",
+  "13:shadowsneak",
+  "17:drainingkiss",
+  "21:hex",
+  "25:dazzlinggleam",
+  "29:shadowclaw",
+  "33:playrough",
+  "37:shadowpunch",
+  "41:moonblast",
+  "45:shadowball",
+  "49:spiritbreak",
+  "53:phantomforce",
+  "57:fleurcannon",
+  "61:poltergeist",
+  "tm:dazzlinggleam",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:moonblast",
+  "tm:phantomforce",
+  "tm:playrough",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:spiritbreak",
+  "tm:substitute",
+  "tm:terablast"
+ ]
+}
