@@ -649,6 +649,9 @@ ROSTER = [
      "abilities": ["static", "h:cutecharm"],
      "entry": "A pink armoured mouse-cat born from a Digi-Egg. Its long ribbon ears sense electric signals, and it "
               "darts away faster than you can blink."},
+    {"name": "Black Galgomon", "types": ["dark", "normal"], "role": "physical", "stage": "Adult",
+     "abilities": ["skilllink", "h:moxie"],
+     "entry": "A dark twin of Galgomon. It sprays its gatling arms wildly and laughs while it does it."},
     {"name": "Black Gaogamon", "types": ["dark", "fighting"], "role": "physical", "stage": "Adult",
      "abilities": ["ironfist", "h:intimidate"],
      "entry": "A dark twin of Gaogamon. It boxes with its red-gloved forelegs and stings with its steel tail."},
@@ -671,4 +674,43 @@ ROSTER = [
      "abilities": ["megalauncher", "h:moxie"],
      "entry": "A dark cyborg twin of Megalo Growmon. Its twin chest cannons fire black fire, and its mechanical "
               "wings let it leap across whole valleys."},
+    {"name": "Black Rapidmon", "types": ["dark", "steel"], "role": "speed", "stage": "Perfect",
+     "abilities": ["speedboost", "h:megalauncher"],
+     "entry": "A dark twin of Rapidmon. Its rocket ears carry it at blinding speed while its arm cannons fire "
+              "homing shots."},
+    {"name": "Black Saint Galgomon", "types": ["dark", "steel"], "role": "mixed", "stage": "Ultimate",
+     "abilities": ["megalauncher", "h:skilllink"],
+     "entry": "A dark twin of Saint Galgomon, a walking arsenal. The warheads on its back can level a city block."},
+    {"name": "Black Seraphimon", "types": ["dark", "fairy"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:cursedbody"],
+     "entry": "A seraph who fell to darkness, spreading ten bat-wings. The violet orbs in its hands swallow the "
+              "light of anything they touch."},
+    {"name": "Black Shoutmon X7", "types": ["dark", "dragon"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:moxie"],
+     "entry": "The dark fusion of seven Digimon, a towering knight with a dragon's head on its shoulder. Its sword "
+              "carries the strength of all seven."},
+    {"name": "Black Tailmon", "types": ["dark", "normal"], "role": "speed", "stage": "Adult",
+     "abilities": ["prankster", "h:limber"],
+     "entry": "A dark twin of Tailmon. Its claws are just as sharp, but it uses them to cause trouble instead of "
+              "stopping it."},
+    {"name": "Black Tailmon Uver.", "types": ["dark", "normal"], "role": "speed", "stage": "Adult",
+     "abilities": ["prankster", "h:pickup"],
+     "entry": "Black Tailmon dressed for a day out with its backpack. It looks sleepy, but nothing escapes its "
+              "notice."},
+    {"name": "Black War Greymon", "types": ["dark", "dragon"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["toughclaws", "h:pressure"],
+     "entry": "A dark twin of War Greymon born from a Control Spire. It searches for a reason to exist, and its "
+              "Dramon Destroyers cut through any armour."},
+    {"name": "Black War Greymon (X-Antibody)", "types": ["dark", "dragon"], "role": "physical",
+     "stage": "Ultimate", "abilities": ["toughclaws", "h:pressure"],
+     "entry": "Black War Greymon awakened by the X-Antibody. Its Brave Shield splits open into blade-wings, and "
+              "red light burns along every seam of its armour."},
+    {"name": "Black War Greymon: \"G\" Erosion Mode", "types": ["dark", "poison"], "role": "physical",
+     "stage": "Ultimate", "legendary": True, "abilities": ["pressure", "h:moxie"],
+     "entry": "Black War Greymon eroded by a monstrous power. Violet spines burst from its back, and it no longer "
+              "remembers anything but destruction."},
+    {"name": "Blade Kuwagamon", "types": ["bug", "steel"], "role": "speed", "stage": "Adult",
+     "abilities": ["sharpness", "h:speedboost"],
+     "entry": "A stag beetle that became a living blade. It slices through the air with a crack of lightning, "
+              "cutting anything in its flight path."},
 ]
