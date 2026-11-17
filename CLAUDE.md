@@ -472,6 +472,21 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_cyberdramon.py`; Chaos Greymon is `_wargreymon.make(..., "chaos")`. `scratchpad/addroster.py <entries.py>` appends
   wrapped ROSTER entries (E = [(name, types, role, stage, abilities, entry[, extra])]). Shields meant to read from the
   front must face -z (a side-facing disc vanishes at the 30° preview).
+  The whole D section is in (1.1.0 / Digital 0.6.0, 111 entries; skipped the "+" combos Dorulumon + Starmons and
+  Dracomon + Cyberdramon; C'mon Digimon manga forms are kept, they aren't anime versions). Aliases: Dark Knightmon
+  (Bagramon) -> "Darkness Bagramon (Dark Knightmon)", Digimon Slingshot -> "Pickmons Slingshot". New helpers:
+  `_variant.clone(src, name, base, shiny)` = a FRESH copy of an existing module with its BASE/SHINY updated and its
+  Model renamed (shaders read the palette at paint time, so never patch the shared module; Death Airdramon, Death
+  Meramon (C'mon), Death Tyranomon); `_dot.make(name, rows, palette, ...)` = a pixel sprite (text rows, one character
+  a pixel, palette keyed by character, left to right as seen from the front) extruded into merged-run boxes, `deep`
+  per character (face pixels deeper than the body or they hide inside it); `_dorbickmon.mount(m, i_box, i_bone, dy,
+  dz, parent)` moves everything built since (i_box, i_bone) onto a mount, renames its bones `rider_*` and wraps each
+  shader so it still reads its original coordinates (Dorbickmon's dragon modes, Dullahamon's seated rider with its legs
+  replaced by thighs). Other builders: `_deathmon`, `_tuwar`, `_doru` (gamon/guremon/goramon, looks "death"/"doru"),
+  `_deckerdramon`, `_demon` (base/x/super), `_diablomon`, `_dobermon`, `_duftmon` (base/x/leopard), `_dukemon`
+  (base/x/crimson), `_dynasmon`, `_dracomon`, `_duramon`, plus `_darkknightmon`, `_darktyranomon`,
+  `_darknessbagramon`. Cut-out `inside` functions take (x, y, z, face, box) and call `local()` themselves. Lances
+  aimed straight along -z vanish from the front: angle them down.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:dynasmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:dynasmon",
+   "model": "cobbleeffort:dynasmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3720_dynasmon/dynasmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -124,5 +124,20 @@
   "tm:substitute",
   "tm:taunt",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "blackseraphimon_demon",
+   "variant": "level_up",
+   "result": "cobbleeffort:demon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
  ]
 }

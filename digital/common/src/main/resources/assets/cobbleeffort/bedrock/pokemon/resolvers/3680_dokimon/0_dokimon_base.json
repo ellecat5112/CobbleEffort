@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:dokimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:dokimon",
+   "model": "cobbleeffort:dokimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3680_dokimon/dokimon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3680_dokimon/dokimon_shiny.png"
+  }
+ ]
+}

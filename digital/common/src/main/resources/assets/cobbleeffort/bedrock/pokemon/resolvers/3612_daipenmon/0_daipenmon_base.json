@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:daipenmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:daipenmon",
+   "model": "cobbleeffort:daipenmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3612_daipenmon/daipenmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3612_daipenmon/daipenmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3612_daipenmon/daipenmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3612_daipenmon/daipenmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

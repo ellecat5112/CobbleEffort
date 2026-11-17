@@ -126,5 +126,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "burgamonadult_digitamamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:burgamon"
 }

@@ -126,5 +126,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "chaosmon_dukemonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:bancholeomon"
 }

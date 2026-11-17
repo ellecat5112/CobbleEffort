@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:deadlytuwarmonhellmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:deadlytuwarmonhellmode",
+   "model": "cobbleeffort:deadlytuwarmonhellmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3633_deadlytuwarmonhellmode/deadlytuwarmonhellmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

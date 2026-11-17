@@ -1,0 +1,126 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3629,
+ "name": "Daxiongmaoshou",
+ "primaryType": "normal",
+ "secondaryType": "grass",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.daxiongmaoshou.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "thickfat",
+  "h:gluttony"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 55,
+  "defence": 70,
+  "special_attack": 40,
+  "special_defence": 55,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 1.2,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:vinewhip",
+  "9:quickattack",
+  "13:razorleaf",
+  "17:headbutt",
+  "21:bulletseed",
+  "25:slam",
+  "29:gigadrain",
+  "33:bodyslam",
+  "37:seedbomb",
+  "41:doubleedge",
+  "45:energyball",
+  "49:hypervoice",
+  "53:powerwhip",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:gigaimpact",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:leafstorm",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ]
+}

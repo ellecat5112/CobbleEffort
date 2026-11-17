@@ -126,5 +126,21 @@
   "tm:steelbeam",
   "tm:substitute",
   "tm:terablast"
- ]
+ ],
+ "evolutions": [
+  {
+   "id": "alphamonouryuken_deathxmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathxmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:doruguremon"
 }

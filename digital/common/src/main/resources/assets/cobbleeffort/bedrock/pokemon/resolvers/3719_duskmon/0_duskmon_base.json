@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:duskmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:duskmon",
+   "model": "cobbleeffort:duskmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3719_duskmon/duskmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3719_duskmon/duskmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

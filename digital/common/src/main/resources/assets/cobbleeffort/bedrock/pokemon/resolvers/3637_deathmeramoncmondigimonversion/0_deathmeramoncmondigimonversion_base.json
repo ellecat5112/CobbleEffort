@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:deathmeramoncmondigimonversion",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:deathmeramoncmondigimonversion",
+   "model": "cobbleeffort:deathmeramoncmondigimonversion.geo",
+   "texture": "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_glow_0.png",
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_glow_1.png",
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3637_deathmeramoncmondigimonversion/deathmeramoncmondigimonversion_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

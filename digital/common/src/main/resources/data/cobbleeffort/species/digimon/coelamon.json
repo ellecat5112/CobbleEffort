@@ -166,7 +166,20 @@
    ]
   },
   {
-   "id": "coelamon_metalgreymon_4",
+   "id": "coelamon_dagomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:dagomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "coelamon_metalgreymon_5",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

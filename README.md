@@ -2010,6 +2010,21 @@ Coredramon (Green), and Commandramon becomes Clockmon or Greymon.
 
 ![Digimon C section, Calamaramon to Cyclomon](docs/digimon_c1.png)
 
+**The whole D section (CobbleEffort 1.1.0 / Digital 0.6.0)**: 111 Digimon from wikimon's D list, Dagomon to Dynasmon
+(X-Antibody), at the same detail standard. That covers the Royal Knights Duftmon (with its X-Antibody form and Leopard
+Mode), Dukemon (X-Antibody and Crimson Mode) and Dynasmon (and X-Antibody); Demon, the Demon Lord of Wrath, in all
+three forms; the whole DORU line with its Death-X counterparts; Dorbickmon and its three Darkness Modes (two of them
+riding golden dragons); the Dot series (pixel sprites turned into block figures, from Dot Agumon to a 35-block Dot
+Shine Greymon); and the shapes Deathmon steals in the C'mon Digimon manga (Death Airdramon, Death Devimon, Death
+Tyranomon, Death Metal Greymon, Death Meramon), which are kept because they are manga forms, not anime versions.
+Danmon is known only from a silhouette, so it is a shadow like Anheinuwashou. Digimon Slingshot is filed on wikimon as
+"Pickmons Slingshot" and reads that page. The standing skip rule (the user's) drops the two "+" combos, Dorulumon +
+Starmons and Dracomon + Cyberdramon. Evolutions again follow wikimon: Dracomon becomes Coredramon (Blue or Green) or
+Dark Tyranomon, DORUmon becomes DORUgamon, Death-X-DORUgamon or any of a dozen other Adults, and Duramon becomes Durandamon,
+Dukemon or Ancient Garurumon.
+
+![Digimon D section, Dagomon to Dynasmon (X-Antibody)](docs/digimon_d1.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:dimetromon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:dimetromon",
+   "model": "cobbleeffort:dimetromon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3669_dimetromon/dimetromon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3669_dimetromon/dimetromon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3669_dimetromon/dimetromon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3669_dimetromon/dimetromon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:darumamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:darumamon",
+   "model": "cobbleeffort:darumamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3628_darumamon/darumamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3628_darumamon/darumamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

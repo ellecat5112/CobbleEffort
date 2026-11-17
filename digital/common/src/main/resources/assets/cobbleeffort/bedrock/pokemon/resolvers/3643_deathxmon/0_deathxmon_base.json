@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:deathxmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:deathxmon",
+   "model": "cobbleeffort:deathxmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3643_deathxmon/deathxmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

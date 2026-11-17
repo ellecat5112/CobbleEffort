@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:diablomonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:diablomonxantibody",
+   "model": "cobbleeffort:diablomonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3661_diablomonxantibody/diablomonxantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

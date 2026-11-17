@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:dinobeemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:dinobeemon",
+   "model": "cobbleeffort:dinobeemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3670_dinobeemon/dinobeemon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

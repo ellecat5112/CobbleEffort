@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:dorbickmondarknessmodehuanglongmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:dorbickmondarknessmodehuanglongmon",
+   "model": "cobbleeffort:dorbickmondarknessmodehuanglongmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3690_dorbickmondarknessmodehuanglongmon/dorbickmondarknessmodehuanglongmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

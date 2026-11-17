@@ -1,0 +1,145 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3639,
+ "name": "Death Tyranomon",
+ "primaryType": "dragon",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.deathtyranomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "h:cursedbody"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.217,
+ "hitbox": {
+  "width": 2.6,
+  "height": 2.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "5:astonish",
+  "9:dragontail",
+  "13:shadowsneak",
+  "17:dragonclaw",
+  "21:hex",
+  "25:breakingswipe",
+  "29:shadowclaw",
+  "33:dragonpulse",
+  "37:shadowpunch",
+  "41:dragonrush",
+  "45:shadowball",
+  "49:outrage",
+  "53:phantomforce",
+  "57:dracometeor",
+  "61:poltergeist",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:outrage",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "deathtyranomon_deathmetalgreymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathmetalgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:deathdevimon"
+}

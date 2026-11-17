@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3630,
+ "name": "Daxuerenshou",
+ "primaryType": "ice",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.daxuerenshou.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "thickfat",
+  "h:snowcloak"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 50,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 4.8,
+ "hitbox": {
+  "width": 3.6,
+  "height": 3.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:snowball",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:powdersnow",
+  "5:tackle",
+  "9:iceshard",
+  "13:quickattack",
+  "17:icywind",
+  "21:headbutt",
+  "25:icefang",
+  "29:slam",
+  "33:aurorabeam",
+  "37:bodyslam",
+  "41:icebeam",
+  "45:doubleedge",
+  "49:iciclecrash",
+  "53:hypervoice",
+  "57:blizzard",
+  "61:gigaimpact",
+  "tm:aurorabeam",
+  "tm:blizzard",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:icebeam",
+  "tm:icefang",
+  "tm:iciclecrash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:snowscape",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ]
+}

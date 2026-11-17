@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3712,
+ "name": "Duftmon Leopard Mode",
+ "primaryType": "steel",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.duftmonleopardmode.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "speedboost",
+  "h:analytic"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 115,
+  "defence": 75,
+  "special_attack": 90,
+  "special_defence": 75,
+  "speed": 135
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 3
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 17.5,
+ "hitbox": {
+  "width": 3.0,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:metalclaw",
+  "5:tackle",
+  "9:mirrorshot",
+  "13:quickattack",
+  "17:ironhead",
+  "21:headbutt",
+  "25:flashcannon",
+  "29:slam",
+  "33:smartstrike",
+  "37:bodyslam",
+  "41:meteormash",
+  "45:doubleedge",
+  "49:heavyslam",
+  "53:hypervoice",
+  "57:steelbeam",
+  "61:gigaimpact",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gigaimpact",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ]
+}

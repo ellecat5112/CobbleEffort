@@ -126,5 +126,20 @@
   "tm:tailwind",
   "tm:terablast",
   "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "akatorimon_delumon",
+   "variant": "level_up",
+   "result": "cobbleeffort:delumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
  ]
 }

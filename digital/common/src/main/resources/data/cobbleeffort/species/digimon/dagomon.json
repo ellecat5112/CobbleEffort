@@ -1,0 +1,157 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3611,
+ "name": "Dagomon",
+ "primaryType": "water",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.dagomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "h:cursedbody"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.667,
+ "hitbox": {
+  "width": 3.0,
+  "height": 3.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "5:astonish",
+  "9:aquajet",
+  "13:shadowsneak",
+  "17:waterpulse",
+  "21:hex",
+  "25:bubblebeam",
+  "29:shadowclaw",
+  "33:aquatail",
+  "37:shadowpunch",
+  "41:surf",
+  "45:shadowball",
+  "49:liquidation",
+  "53:phantomforce",
+  "57:hydropump",
+  "61:poltergeist",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "dagomon_ancientmegatheriumon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientmegatheriumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "dagomon_demon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:demon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:aquilamon"
+}

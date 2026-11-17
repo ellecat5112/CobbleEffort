@@ -1,0 +1,171 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3674,
+ "name": "Dinotigermon",
+ "primaryType": "normal",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.dinotigermon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "strongjaw",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 15.556,
+ "hitbox": {
+  "width": 3.8,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:metalclaw",
+  "9:quickattack",
+  "13:mirrorshot",
+  "17:headbutt",
+  "21:ironhead",
+  "25:slam",
+  "29:flashcannon",
+  "33:bodyslam",
+  "37:smartstrike",
+  "41:doubleedge",
+  "45:meteormash",
+  "49:hypervoice",
+  "53:heavyslam",
+  "57:gigaimpact",
+  "61:steelbeam",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gigaimpact",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "dinotigermon_baihumon",
+   "variant": "level_up",
+   "result": "cobbleeffort:baihumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "dinotigermon_bancholeomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bancholeomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "dinotigermon_craniummonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:craniummonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:angewomonxantibody"
+}

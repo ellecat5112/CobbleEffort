@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:destromon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:destromon",
+   "model": "cobbleeffort:destromon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3656_destromon/destromon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3656_destromon/destromon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3656_destromon/destromon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

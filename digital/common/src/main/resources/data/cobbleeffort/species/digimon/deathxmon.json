@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3643,
+ "name": "Death-X-mon",
+ "primaryType": "dark",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.deathxmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pressure",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 115,
+  "defence": 75,
+  "special_attack": 90,
+  "special_defence": 75,
+  "speed": 135
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 3
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.75,
+ "hitbox": {
+  "width": 3.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:astonish",
+  "9:pursuit",
+  "13:shadowsneak",
+  "17:assurance",
+  "21:hex",
+  "25:nightslash",
+  "29:shadowclaw",
+  "33:crunch",
+  "37:shadowpunch",
+  "41:darkpulse",
+  "45:shadowball",
+  "49:knockoff",
+  "53:phantomforce",
+  "57:foulplay",
+  "61:poltergeist",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:alphamonouryuken"
+}

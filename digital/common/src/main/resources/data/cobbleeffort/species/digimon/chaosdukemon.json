@@ -127,5 +127,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "chaosdukemon_dukemoncrimsonmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemoncrimsonmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:andiramondeva"
 }

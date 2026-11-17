@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:darkvolumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:darkvolumon",
+   "model": "cobbleeffort:darkvolumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3626_darkvolumon/darkvolumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

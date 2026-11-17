@@ -1,0 +1,157 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3647,
+ "name": "Deckerdramon",
+ "primaryType": "steel",
+ "secondaryType": "water",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.deckerdramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "h:megalauncher"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 50,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 9.231,
+ "hitbox": {
+  "width": 3.2,
+  "height": 1.625,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:watergun",
+  "9:mirrorshot",
+  "13:aquajet",
+  "17:ironhead",
+  "21:waterpulse",
+  "25:flashcannon",
+  "29:bubblebeam",
+  "33:smartstrike",
+  "37:aquatail",
+  "41:meteormash",
+  "45:surf",
+  "49:heavyslam",
+  "53:liquidation",
+  "57:steelbeam",
+  "61:hydropump",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:liquidation",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "deckerdramon_deckerdramonfloatmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:deckerdramonfloatmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "deckerdramon_deckergreymon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:deckergreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ]
+}

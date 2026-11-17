@@ -166,7 +166,33 @@
    ]
   },
   {
-   "id": "bokomon_greymon_4",
+   "id": "bokomon_dinohumon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:dinohumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bokomon_dobermon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:dobermon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bokomon_greymon_6",
    "variant": "level_up",
    "result": "cobbleeffort:greymon",
    "consumeHeldItem": false,

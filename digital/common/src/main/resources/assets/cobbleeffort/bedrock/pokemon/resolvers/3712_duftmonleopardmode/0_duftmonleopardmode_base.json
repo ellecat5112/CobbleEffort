@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:duftmonleopardmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:duftmonleopardmode",
+   "model": "cobbleeffort:duftmonleopardmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3712_duftmonleopardmode/duftmonleopardmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

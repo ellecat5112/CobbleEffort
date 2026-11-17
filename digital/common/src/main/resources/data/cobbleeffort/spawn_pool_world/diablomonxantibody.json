@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "diablomonxantibody-wild",
+   "pokemon": "cobbleeffort:diablomonxantibody",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-65",
+   "weight": 0.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_spooky",
+     "#cobblemon:is_forest",
+     "#cobblemon:is_plains"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

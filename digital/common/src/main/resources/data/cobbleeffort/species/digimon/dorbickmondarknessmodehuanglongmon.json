@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3690,
+ "name": "Dorbickmon Darkness Mode Huanglongmon",
+ "primaryType": "dragon",
+ "secondaryType": "ground",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.dorbickmondarknessmodehuanglongmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "intimidate",
+  "h:sturdy"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.0,
+ "hitbox": {
+  "width": 4.0,
+  "height": 5.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "5:mudslap",
+  "9:dragontail",
+  "13:mudshot",
+  "17:dragonclaw",
+  "21:bulldoze",
+  "25:breakingswipe",
+  "29:dig",
+  "33:dragonpulse",
+  "37:drillrun",
+  "41:dragonrush",
+  "45:earthpower",
+  "49:outrage",
+  "53:earthquake",
+  "57:dracometeor",
+  "61:highhorsepower",
+  "tm:breakingswipe",
+  "tm:dig",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:terablast"
+ ]
+}

@@ -122,5 +122,20 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "angoramon_dogmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:dogmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:bosamon"
 }
