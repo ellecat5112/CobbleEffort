@@ -500,4 +500,72 @@ ROSTER = [
      "abilities": ["speedboost", "h:toughclaws"],
      "entry": "A young dragon-knight that dashes across the battlefield on its thrusters. It dreams of joining the "
               "Royal Knights one day."},
+    {"name": "Barbamon", "types": ["dark", "psychic"], "role": "special", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:pickpocket"],
+     "entry": "One of the Seven Great Demon Lords, the Demon Lord of Greed. It hoards every treasure and every soul "
+              "it can find, and trades in nothing but curses."},
+    {"name": "Barbamon (X-Antibody)", "types": ["dark", "psychic"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:magicguard"],
+     "entry": "The Demon Lord of Greed awakened by the X-Antibody. A seal of crimson light burns above it, and its "
+              "greed now reaches into the code of the world itself."},
+    {"name": "Baromon", "types": ["fire", "dark"], "role": "special", "stage": "Adult",
+     "abilities": ["flashfire", "h:intimidate"],
+     "entry": "A demon-masked shaman born from the Digi-Egg of Kindness. Its dances call down fire and its mask is "
+              "said to see the future."},
+    {"name": "Bastemon", "types": ["normal", "psychic"], "role": "speed", "stage": "Perfect",
+     "abilities": ["cutecharm", "h:limber"],
+     "entry": "A cat-goddess who lives like a queen. Its gaze charms anyone who meets it, and its claws strike before "
+              "they know they are in danger."},
+    {"name": "Batterimon", "types": ["electric"], "role": "special", "stage": "Child",
+     "abilities": ["static", "h:voltabsorb"],
+     "entry": "A living battery that dozes until it is fully charged. It shares its spare power with any machine "
+              "Digimon that runs low."},
+    {"name": "Battle Armament Trailmon", "types": ["steel", "normal"], "role": "tank", "stage": "Adult",
+     "abilities": ["megalauncher", "h:heavymetal"],
+     "entry": "An armoured war-train that rolls along its own rails. Its turrets can fire in every direction at "
+              "once, and nothing stops it once it builds up speed."},
+    {"name": "Bearcatmon", "types": ["fighting", "dark"], "role": "speed", "stage": "Perfect",
+     "abilities": ["ironfist", "h:speedboost"],
+     "entry": "A bearcat that skates into battle on jet boots. Its spiked fist hits like a train, and it never "
+              "misses a chance to show off."},
+    {"name": "Bearmon", "types": ["normal", "fighting"], "role": "physical", "stage": "Child",
+     "abilities": ["guts", "h:ironfist"],
+     "entry": "A scrappy bear cub that wears its cap backwards. It practises its punches all day long and dreams of "
+              "becoming the strongest Digimon around."},
+    {"name": "Beel Starmon", "types": ["dark", "steel"], "role": "special", "stage": "Ultimate",
+     "abilities": ["sniper", "h:pressure"],
+     "entry": "A Demon Lord gunslinger who fights alongside her floating Star-bits. Her pistols never miss, and she "
+              "never forgives a broken promise."},
+    {"name": "Beel Starmon (X-Antibody)", "types": ["dark", "flying"], "role": "special", "stage": "Ultimate",
+     "abilities": ["sniper", "h:pressure"],
+     "entry": "Beel Starmon awakened by the X-Antibody, on wings of violet feathers. Her rifle can hit a target on "
+              "the far side of the Digital World."},
+    {"name": "Beelzebumon", "types": ["dark", "steel"], "role": "physical", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:moxie"],
+     "entry": "One of the Seven Great Demon Lords, the Demon Lord of Gluttony. A lone demon biker who answers to no "
+              "one, and fires its twin shotguns faster than the eye can follow."},
+    {"name": "Beelzebumon (X-Antibody)", "types": ["dark", "flying"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:moxie"],
+     "entry": "The Demon Lord of Gluttony awakened by the X-Antibody, on great blue wings. Its arm cannon can "
+              "devour the light of a star."},
+    {"name": "Beelzebumon: Blast Mode", "types": ["dark", "flying"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:megalauncher"],
+     "entry": "Beelzebumon at full power, on ten black wings. Its positron cannon erases anything in its path, and "
+              "its demon claw can tear through any armour."},
+    {"name": "Belial Vamdemon", "types": ["dark", "ghost"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:strongjaw"],
+     "entry": "The final form of Vamdemon's ambition. Its second face in its chest speaks curses while its main head "
+              "devours, and its wings blot out the sun."},
+    {"name": "Belphemon (X-Antibody)", "types": ["dark", "steel"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:toughclaws"],
+     "entry": "The Demon Lord of Sloth awakened by the X-Antibody, armoured in gold and crystal. Its wrath when it "
+              "wakes could level a continent."},
+    {"name": "Belphemon: Rage Mode", "types": ["dark", "fighting"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:moxie"],
+     "entry": "The Demon Lord of Sloth awake at last. It wakes only once in a thousand years, and in its rage it "
+              "destroys everything around it with claws of green fire."},
+    {"name": "Belphemon: Sleep Mode", "types": ["dark", "normal"], "role": "tank", "stage": "Ultimate",
+     "legendary": True, "abilities": ["comatose", "h:pressure"],
+     "entry": "One of the Seven Great Demon Lords, fast asleep. It dozes for a thousand years at a time, and even "
+              "asleep it attacks whatever comes too close."},
 ]

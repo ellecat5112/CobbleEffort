@@ -105,7 +105,8 @@ ABILITY_NAMES = {
     "scrappy": "Scrappy", "skilllink": "Skill Link", "unaware": "Unaware", "motordrive": "Motor Drive",
     "flamebody": "Flame Body", "sniper": "Sniper", "rockhead": "Rock Head", "hydration": "Hydration",
     "gluttony": "Gluttony", "stamina": "Stamina", "pickup": "Pickup", "insomnia": "Insomnia",
-    "technician": "Technician",
+    "technician": "Technician", "limber": "Limber", "voltabsorb": "Volt Absorb", "heavymetal": "Heavy Metal",
+    "comatose": "Comatose",
 }
 
 
