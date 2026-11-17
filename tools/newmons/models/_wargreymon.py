@@ -5,7 +5,8 @@ tail and clawed feet.
 
 Variants: "black" (Black War Greymon: black armour with gold trim, a golden mane), "blackx" (the X-Antibody form: the
 shield halves opened into blade-wings, glowing red seams), "erosion" (Black War Greymon "G" Erosion Mode: violet-black
-corrupted armour with tall glowing violet dorsal spines down its back and a long spined tail).
+corrupted armour with tall glowing violet dorsal spines down its back and a long spined tail), "chaos" (Chaos
+Greymon: grey-white armour, a yellow breastplate, a silver mane and great grey wings in place of the shield).
 """
 from __future__ import annotations
 
@@ -30,10 +31,16 @@ def P(v):
 
 
 EROSION = {"armour": (56, 40, 70), "armour_dark": (18, 10, 26), "armour_light": (150, 120, 180)}
+CHAOS = {"armour": (190, 192, 204), "armour_dark": (100, 102, 116), "armour_light": (250, 250, 255),
+         "gold": (220, 200, 60), "gold_dark": (150, 130, 20), "gold_light": (250, 240, 150), "hair": (200, 204, 216),
+         "hair_dark": (130, 134, 150), "skin": (90, 92, 104), "skin_dark": (50, 52, 60)}
+CHAOS_SHINY = {"armour": (60, 50, 70), "armour_dark": (20, 16, 26), "armour_light": (140, 120, 160)}
 
 
 def make(name, variant="black"):
     def P(v):
+        if variant == "chaos":
+            return pal(dict(BASE, **CHAOS), dict(SHINY, **CHAOS_SHINY), v)
         return pal(dict(BASE, **(EROSION if variant == "erosion" else {})), SHINY, v)
 
     ARM = armour(P, "armour", "armour_dark", light="armour_light", trim="gold", trim_w=0.35,
@@ -66,7 +73,7 @@ def make(name, variant="black"):
             base = (2.6 * math.sin(ang), 60.0 + math.cos(ang), 1.6)
             tip = (base[0] * 2.6, base[1] + 4.0 * math.cos(ang) + 2.0, 8.0 + (i % 3) * 2)
             rod(m, mane, base, tip, 2, HAIR, extend=0.3, t2=2)
-        shell(m, bd, (0, 0, 0.6), 6.0, 41.0, 51.0, -85, 85, 9, 1.3, ARM)
+        shell(m, bd, (0, 0, 0.6), 6.0, 41.0, 51.0, -85, 85, 9, 1.3, GOLD if variant == "chaos" else ARM)
         m.box(bd, -1.4, 44.0, -7.6, 1.4, 48.0, -6.4, gem(P, "red", "gold_light"))          # chest crest
         for sx, nm in ((1, "arm_left"), (-1, "arm_right")):
             ab, sh = a[nm]["bone"], a[nm]["shoulder"]
@@ -78,7 +85,10 @@ def make(name, variant="black"):
                       tip=0.5)
         sb = m.bone("shield", bd, (0, 46, 6))                    # Brave Shield halves on its back
         for sx in (-1, 1):
-            if variant == "blackx":                              # opened into blade-wings
+            if variant == "chaos":                               # great grey wings
+                from _digibeast import bat_wing
+                bat_wing(m, sb, (sx * 3.0, 50.0, 6.0), 22.0, 18.0, 4, ARM_PLAIN, ARM, side=sx, sweep=25)
+            elif variant == "blackx":                            # opened into blade-wings
                 for j in range(3):
                     rod(m, sb, (sx * 3.0, 48.0, 6.0), (sx * (18.0 + j * 2), 58.0 - j * 8, 10.0 + j), 2, CLAW,
                         extend=0.3, t2=5)

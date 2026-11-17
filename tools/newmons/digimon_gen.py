@@ -111,6 +111,7 @@ ABILITY_NAMES = {
     "owntempo": "Own Tempo", "icebody": "Ice Body", "reckless": "Reckless", "flowerveil": "Flower Veil",
     "slushrush": "Slush Rush", "tintedlens": "Tinted Lens", "ripen": "Ripen", "compoundeyes": "Compound Eyes",
     "steadfast": "Steadfast", "hugepower": "Huge Power", "runaway": "Run Away",
+    "grassysurge": "Grassy Surge", "snowwarning": "Snow Warning", "sapsipper": "Sap Sipper", "protean": "Protean",
 }
 
 
