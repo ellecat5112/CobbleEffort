@@ -1175,4 +1175,73 @@ ROSTER = [
     {"name": "Cyclomon", "types": ["dragon", "fighting"], "role": "physical", "stage": "Adult",
      "abilities": ["guts", "h:hugepower"],
      "entry": "A one-eyed brute with enormous arms. It smashes first and never thinks second."},
+    # --- 1.1.0: the D section (anime versions and "+" combos skipped, the user's standing rule)
+    {"name": "Dagomon", "types": ["water", "ghost"], "role": "special", "stage": "Perfect",
+     "abilities": ["swiftswim", "h:cursedbody"],
+     "entry": "A demon god of the deep sea. Its tentacles drag sailors into the dark water, and its prayer beads "
+              "hum with drowned voices."},
+    {"name": "Daipenmon", "types": ["ice", "steel"], "role": "physical", "stage": "Perfect",
+     "abilities": ["icebody", "h:refrigerate"],
+     "entry": "A sleepy penguin that swings giant ice pops like clubs. It is lazy until someone touches its snacks."},
+    {"name": "Dalphomon", "types": ["normal", "fire"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["intimidate", "h:toughclaws"],
+     "entry": "A golden war-beast crowned by a halo of bone. Its claws can split mountains, and its mane burns with "
+              "the will to fight."},
+    {"name": "Damemon", "types": ["steel"], "role": "mixed", "stage": "Adult",
+     "abilities": ["sturdy", "h:ironfist"],
+     "entry": "A clumsy robot that tries its very best. Its punches miss more than they hit, but it never stops "
+              "smiling."},
+    {"name": "Danmon", "types": ["normal"], "role": "special", "stage": "Child",
+     "abilities": ["illusion", "h:shadowtag"],
+     "entry": "A Digimon known only as a shadow. No one has seen it clearly, and every sighting describes something "
+              "different."},
+    {"name": "Darcmon", "types": ["fairy", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["justified", "h:defiant"],
+     "entry": "A warrior angel who fights on the front lines. It leads the charge with staff and sword and never "
+              "retreats."},
+    {"name": "Darkdramon", "types": ["dragon", "dark"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["toughclaws", "h:moxie"],
+     "entry": "A cyborg dragon general that commands armies. Its energy wings carry it across a battlefield in an "
+              "instant."},
+    {"name": "Dark Knightmon", "types": ["dark", "steel"], "role": "physical", "stage": "Perfect",
+     "abilities": ["moxie", "h:pressure"],
+     "entry": "A dark knight made of two Digimon in one armour. Its lance pierces walls, and its shield-wing guards "
+              "its master."},
+    {"name": "Dark Knightmon (Bagramon)", "types": ["dark", "steel"], "role": "physical", "stage": "Ultimate", "wikimon": "Darkness Bagramon (Dark Knightmon)",
+     "abilities": ["guts", "h:intimidate"],
+     "entry": "Dark Knightmon fused with the power of Bagramon. Its huge bone arm crushes anything that stands in "
+              "its lord's way."},
+    {"name": "Dark Knightmon (X-Antibody)", "types": ["dark", "steel"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["moxie", "h:sniper"],
+     "entry": "Dark Knightmon awakened by the X-Antibody. Its skull face grins behind a glowing spear and a "
+              "reaper's scythe."},
+    {"name": "Dark Lizamon", "types": ["fire", "dark"], "role": "physical", "stage": "Adult",
+     "abilities": ["flamebody", "h:intimidate"],
+     "entry": "A lizard whose shaggy fur smoulders like embers. It hides its face behind a bone mask and breathes "
+              "smoke when angry."},
+    {"name": "Dark Maildramon", "types": ["dragon", "dark"], "role": "tank", "stage": "Adult",
+     "abilities": ["battlearmor", "h:intimidate"],
+     "entry": "A dragon sealed in black armour. Its ragged wings were forged in darkness, and its helm never comes "
+              "off."},
+    {"name": "Dark Superstarmon", "types": ["fighting", "dark"], "role": "physical", "stage": "Perfect",
+     "abilities": ["ironfist", "h:moxie"],
+     "entry": "A fallen star that turned to brawling. Its punches leave comet trails, and it boasts about every "
+              "one."},
+    {"name": "Dark Tyranomon", "types": ["dragon", "dark"], "role": "physical", "stage": "Adult",
+     "abilities": ["strongjaw", "h:rockhead"],
+     "entry": "A dark tyrannosaur infected by a virus. It roars at anything that moves and bites before it thinks."},
+    {"name": "Dark Tyranomon (X-Antibody)", "types": ["dragon", "dark"], "role": "speed", "stage": "Adult",
+     "abilities": ["strongjaw", "h:speedboost"],
+     "entry": "Dark Tyranomon awakened by the X-Antibody. Green flames burn at its claws, and it strikes low and "
+              "fast."},
+    {"name": "Dark Volumon", "types": ["steel", "normal"], "role": "special", "stage": "Adult",
+     "abilities": ["punkrock", "h:soundproof"],
+     "entry": "A loudspeaker robot that blasts deafening noise. Its gatling arms fire sound shells that shake the "
+              "ground."},
+    {"name": "Darkness Bagramon", "types": ["dark", "psychic"], "role": "special", "stage": "Ultimate",
+     "abilities": ["pressure", "h:infiltrator"],
+     "entry": "A dark emperor with a skeletal arm that grips the data of the world. Its cape hides an endless void."},
+    {"name": "Darumamon", "types": ["fire", "dragon"], "role": "physical", "stage": "Perfect",
+     "abilities": ["sturdy", "h:flamebody"],
+     "entry": "A grinning daruma carried by a dragon. However often it is knocked down, it pops back up and laughs."},
 ]

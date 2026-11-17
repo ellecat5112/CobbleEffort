@@ -114,6 +114,8 @@ ABILITY_NAMES = {
     "grassysurge": "Grassy Surge", "snowwarning": "Snow Warning", "sapsipper": "Sap Sipper", "protean": "Protean",
     "torrent": "Torrent", "rivalry": "Rivalry", "telepathy": "Telepathy", "ironbarbs": "Iron Barbs",
     "shedskin": "Shed Skin", "adaptability": "Adaptability", "imposter": "Imposter", "healer": "Healer",
+    "punkrock": "Punk Rock", "defiant": "Defiant", "soundproof": "Soundproof", "battlearmor": "Battle Armor",
+    "illusion": "Illusion",
 }
 
 
