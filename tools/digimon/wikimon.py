@@ -60,7 +60,7 @@ def field(t, key):
     m = re.search(r"^\|" + re.escape(key) + r"=([^\n]*)", t, re.M)
     if not m:
         return None
-    v = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>|\{\{[^{}]*\}\}", "", m.group(1)).strip()
+    v = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>|\{\{[^{}]*\}\}", "", m.group(1).split("{{!}}")[0]).strip()
     return v or None
 
 

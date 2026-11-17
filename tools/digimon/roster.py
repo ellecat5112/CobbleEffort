@@ -858,4 +858,68 @@ ROSTER = [
      "abilities": ["tintedlens", "h:compoundeyes"],
      "entry": "A butterfly maiden in golden armour. Its claws strike faster than the eye can follow, and its wings "
               "scatter dazzling scales."},
+    # --- 1.0.0: the C section (anime versions and "+" combos skipped, the user's standing rule)
+    {"name": "Calamaramon", "types": ["water", "dark"], "role": "special", "stage": "Perfect",
+     "abilities": ["swiftswim", "h:infiltrator"],
+     "entry": "A Hybrid of the deep sea that rides a great squid. Its tentacles drag ships beneath the waves, and "
+              "its rider steers them with a gesture."},
+    {"name": "Callismon", "types": ["dark", "normal"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["guts", "h:sniper"],
+     "entry": "A werebear gunslinger with a rotary cannon. It roams lawless lands and settles every argument with a "
+              "single volley."},
+    {"name": "Candmon", "types": ["fire", "ghost"], "role": "special", "stage": "Child",
+     "abilities": ["flashfire", "h:flamebody"],
+     "entry": "A living candle. Its flame head has a mind of its own, and the two often argue about which way to "
+              "go."},
+    {"name": "Cannonbeemon", "types": ["bug", "steel"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["swarm", "h:sniper"],
+     "entry": "A hornet battleship. Its honeycomb pods launch swarms of tiny drones, and its twin cannons cover "
+              "them from above."},
+    {"name": "Cannonbeemon (Aircraft Carrier)", "types": ["bug", "steel"], "role": "tank", "stage": "Perfect",
+     "abilities": ["swarm", "h:sturdy"],
+     "entry": "Cannonbeemon refitted as a flying carrier. Its long deck launches squadrons, and its extra pods hold "
+              "spare drones."},
+    {"name": "Cannondramon", "types": ["steel", "dragon"], "role": "special", "stage": "Ultimate",
+     "abilities": ["megalauncher", "h:sturdy"],
+     "entry": "A walking artillery dragon. Its back cannons can level a mountain, and nothing stands in its line of "
+              "fire for long."},
+    {"name": "Canoweissmon", "types": ["dragon", "flying"], "role": "speed", "stage": "Perfect",
+     "abilities": ["galewings", "h:pressure"],
+     "entry": "A white sky dragon that rides the jet stream. The dark wind trailing behind it shreds anything "
+              "caught in its wake."},
+    {"name": "Caprimon", "types": ["normal"], "role": "special", "stage": "Baby II",
+     "abilities": ["cutecharm", "h:runaway"],
+     "entry": "A baby whose head looks like a little helmet. It wags its fluffy tail whenever someone praises it."},
+    {"name": "Captain Hookmon", "types": ["water", "dark"], "role": "physical", "stage": "Perfect",
+     "abilities": ["moxie", "h:swiftswim"],
+     "entry": "A pirate captain of the digital seas. Its anchor-hook drags whole ships into battle, and its cannon "
+              "arm finishes them."},
+    {"name": "Cardmon C1", "types": ["normal"], "role": "special", "stage": "Child",
+     "abilities": ["levitate", "h:forewarn"],
+     "entry": "A floating head that reads the card above it. Each card it draws changes what it can do in battle."},
+    {"name": "Cardmon C2", "types": ["normal", "water"], "role": "special", "stage": "Child",
+     "abilities": ["levitate", "h:forewarn"],
+     "entry": "A floating head that carries a single grid card. It uses the card as a shield and a sail."},
+    {"name": "Cardmon R1", "types": ["normal", "psychic"], "role": "special", "stage": "Perfect",
+     "abilities": ["levitate", "h:magicguard"],
+     "entry": "A floating head ringed by three cards. It shuffles them faster than the eye can follow."},
+    {"name": "Cardmon R2", "types": ["normal", "psychic"], "role": "special", "stage": "Perfect",
+     "abilities": ["levitate", "h:magicguard"],
+     "entry": "A floating head ringed by four cards. The rarer the card it draws, the stronger its next attack."},
+    {"name": "Cardmon S1", "types": ["normal", "fairy"], "role": "special", "stage": "Ultimate",
+     "abilities": ["levitate", "h:magicbounce"],
+     "entry": "A floating head circled by golden card frames. Its frames trap enemy attacks and send them back."},
+    {"name": "Cardmon S2", "types": ["normal", "dark"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["levitate", "h:sharpness"],
+     "entry": "A dark floating head that turned its cards into weapons. Its grid card blocks and its blade card "
+              "cuts."},
+    {"name": "Cardmon U1", "types": ["normal"], "role": "special", "stage": "Adult",
+     "abilities": ["levitate", "h:forewarn"],
+     "entry": "A floating head with two cards. It holds one card for attack and one for defence."},
+    {"name": "Cardmon U2", "types": ["normal", "water"], "role": "special", "stage": "Adult",
+     "abilities": ["levitate", "h:forewarn"],
+     "entry": "A floating head with two cards that drift like fins. It glides through data streams as if swimming."},
+    {"name": "Cargodramon", "types": ["steel", "flying"], "role": "tank", "stage": "Perfect",
+     "abilities": ["heavymetal", "h:sturdy"],
+     "entry": "A transport-plane dragon that carries troops into battle. Its ribcage hold can fit a whole squadron."},
 ]

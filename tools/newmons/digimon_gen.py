@@ -110,7 +110,7 @@ ABILITY_NAMES = {
     "stickyhold": "Sticky Hold",
     "owntempo": "Own Tempo", "icebody": "Ice Body", "reckless": "Reckless", "flowerveil": "Flower Veil",
     "slushrush": "Slush Rush", "tintedlens": "Tinted Lens", "ripen": "Ripen", "compoundeyes": "Compound Eyes",
-    "steadfast": "Steadfast", "hugepower": "Huge Power",
+    "steadfast": "Steadfast", "hugepower": "Huge Power", "runaway": "Run Away",
 }
 
 
@@ -218,7 +218,7 @@ def generate(SPECIES, LINES):
     gen = {}
     for e in roster:
         sp = slug(e["name"])
-        f = facts.get(e["name"], {})
+        f = facts.get(e.get("wikimon", e["name"]), {})        # "wikimon": the page when it has another title
         stage = stage_of(e, f)
         legendary = bool(e.get("legendary")) or stage == "Super Ultimate"
         lv, blocks, _, catch, _, exp = STAGE[stage]
@@ -250,15 +250,17 @@ def generate(SPECIES, LINES):
     allsp = {**hand, **gen}
     name_of = {slug(n): n for n in facts}
     # evolution links, both directions of wikimon's lists
+    alias = {slug(e["wikimon"]): slug(e["name"]) for e in roster if "wikimon" in e}
+    al = lambda n: alias.get(slug(n), slug(n))
     links = set()
     for n, f in facts.items():
-        a = slug(n)
+        a = al(n)
         for e in f["to"]:
             if not e["card"] and "with" not in e and not e.get("warp"):
-                links.add((a, slug(e["name"])))
+                links.add((a, al(e["name"])))
         for e in f["from"]:
             if not e["card"] and "with" not in e and not e.get("warp"):
-                links.add((slug(e["name"]), a))
+                links.add((al(e["name"]), a))
     for a, b in sorted(links):
         if a not in allsp or b not in allsp or a == b or (a in hand and b in hand):
             continue                                        # the hand-built Agumon line keeps the user's design
