@@ -66,7 +66,7 @@ def build():
         spike(m, hd, (0, top - 0.4, z0 + 1.0 + i * 1.6), (0, 0.6, 1), 1.6, 3.4 + i * 0.6, WHITE)
     for sx in (-1, 1):
         spike(m, hd, (sx * 2.6, top - 0.8, z1 - 1.0), (sx * 0.6, 0.5, 1), 1.2, 6.0, WHITE, tip=0.4)
-        m.box(hd, sx * 3.05, a["eye"][1] - 0.4, a["eye"][2] - 0.8, sx * 3.1, a["eye"][1] + 0.4, a["eye"][2] + 0.8,
+        m.box(hd, min(sx * 2.8, sx * 3.2), a["eye"][1] - 0.4, a["eye"][2] - 0.8, max(sx * 2.8, sx * 3.2), a["eye"][1] + 0.4, a["eye"][2] + 0.8,
               solid(P, "eye", glow=True))
     for side in (1, -1):                                                     # great swept white wings
         bat_wing(m, a["body"], (side * 3.0, 38.0, 3.0), 26.0, 20.0, 4, WHITE, RED, side=side, sweep=30)

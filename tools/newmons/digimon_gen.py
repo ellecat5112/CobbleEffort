@@ -112,6 +112,7 @@ ABILITY_NAMES = {
     "slushrush": "Slush Rush", "tintedlens": "Tinted Lens", "ripen": "Ripen", "compoundeyes": "Compound Eyes",
     "steadfast": "Steadfast", "hugepower": "Huge Power", "runaway": "Run Away",
     "grassysurge": "Grassy Surge", "snowwarning": "Snow Warning", "sapsipper": "Sap Sipper", "protean": "Protean",
+    "torrent": "Torrent", "rivalry": "Rivalry",
 }
 
 
