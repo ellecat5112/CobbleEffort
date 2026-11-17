@@ -15,7 +15,7 @@ import math
 
 from _boxmodel import Model, rod, spike
 from _digibeast import feather_wing, quadruped
-from _digidetail import armour, cutout, feathers, gem, local, metal, riveted, scales, skin, solid
+from _digidetail import armour, cutout, feathers, fur, gem, local, metal, riveted, scales, skin, solid
 from _route import pal, tone
 
 LOOKS = {
@@ -28,6 +28,11 @@ LOOKS = {
               {"hide": (120, 120, 130), "hide_dark": (50, 50, 60), "hide_light": (190, 190, 200),
                "black": (200, 200, 210), "black_dark": (120, 120, 130), "feather": (60, 120, 220),
                "feather_dark": (20, 40, 110), "claw": (240, 190, 40)}),
+    "doru": ({"hide": (70, 70, 120), "hide_dark": (24, 24, 60), "hide_light": (140, 140, 190), "white": (246, 246, 250),
+              "white_dark": (180, 184, 200), "claw": (220, 40, 50), "claw_light": (255, 150, 150),
+              "eye": (230, 40, 40), "mouth": (120, 20, 40), "tooth": (250, 250, 246), "ear": (230, 160, 110),
+              "steel": (200, 204, 216), "steel_dark": (100, 104, 116)},
+             {"hide": (70, 130, 90), "hide_dark": (24, 70, 40), "hide_light": (140, 200, 160)}),
 }
 
 
@@ -41,16 +46,29 @@ def palette(look):
 
 def gamon(name, look="death"):
     P = palette(look)
+    plain = look != "death"
     HIDE = scales(P, "hide", "hide_dark", size=1.6, light="hide_light", rim_mix=0.3)
-    MASK = riveted(P, "steel", "steel_dark")
+    if plain:
+        def zig(x, y, z, face, variant, box=None, **k):
+            p = P(variant)
+            if face in ("east", "west", "up") and abs((y + abs((z * 0.8) % 2.0 - 1.0) * 1.6) % 3.0 - 1.5) < 0.3:
+                return tone(p["hide_dark"], face), None                           # zigzag stripes
+            return HIDE(x, y, z, face, variant, box=box, **k)
+        WHITE = fur(P, "white", "white_dark", length=1.4)
+    MASK = riveted(P, "steel", "steel_dark") if not plain else None
     STEEL = metal(P, "steel", dark="steel_dark")
     CLAW = gem(P, "claw", "claw_light", glow=False)
 
     def build():
         m = Model(name)
-        mats = {"skin": HIDE, "belly": HIDE, "neck": HIDE, "head": HIDE, "snout": MASK, "jaw": MASK,
-                "mouth": solid(P, "mouth"), "tooth": solid(P, "tooth"), "leg_upper": HIDE, "leg_lower": HIDE,
-                "paw": HIDE, "claw": CLAW, "tail": HIDE}
+        if plain:
+            mats = {"skin": zig, "belly": WHITE, "neck": WHITE, "head": zig, "snout": WHITE, "jaw": WHITE,
+                    "mouth": solid(P, "mouth"), "tooth": solid(P, "tooth"), "leg_upper": zig, "leg_lower": WHITE,
+                    "paw": WHITE, "claw": CLAW, "tail": zig}
+        else:
+            mats = {"skin": HIDE, "belly": HIDE, "neck": HIDE, "head": HIDE, "snout": MASK, "jaw": MASK,
+                    "mouth": solid(P, "mouth"), "tooth": solid(P, "tooth"), "leg_upper": HIDE, "leg_lower": HIDE,
+                    "paw": HIDE, "claw": CLAW, "tail": HIDE}
         a = quadruped(m, mats, name, length=30.0, body_y=16.0, body_rx=7.0, body_ry=6.6, chest_bulk=1.3,
                       neck=((0, 20, -14), (0, 23, -18)), head_len=9.0, head_w=4.4, head_h=4.4, snout=0.6,
                       mouth_open=8, teeth=4, leg_bulk=1.5, toes=3,
@@ -59,7 +77,20 @@ def gamon(name, look="death"):
         for sx in (-1, 1):
             m.box(hd, min(sx * 4.4, sx * 4.8), 24.0, -22.0, max(sx * 4.4, sx * 4.8), 25.0, -20.6,
                   solid(P, "eye", glow=True))
+            if plain:                                                            # pointed ears
+                spike(m, hd, (sx * 3.4, 26.0, -18.0), (sx * 0.6, 1, 0.6), 1.6, 5.0, solid(P, "ear"), tip=0.4)
+                continue
             m.round_box(hd, sx * 4.6, -18.0, 1.0, 1.0, 26.0, 28.0, STEEL, cut=0)            # head bolts
+        if plain:                                                                # broad wings, white beneath
+            def wingf(x, y, z, face, variant, box=None, **k):
+                return (WHITE if face == "down" or face == "south" else zig)(x, y, z, face, variant, box=box, **k)
+            for side in (1, -1):
+                wb = m.bone("wing_left" if side > 0 else "wing_right", bd, (side * 4.0, 22.0, -2.0))
+                pts = [(side * 5.0, 22.0, 0.0), (side * 12.0, 30.0, 4.0), (side * 16.0, 40.0, 10.0),
+                       (side * 15.0, 48.0, 16.0)]
+                for j, (p0, p1) in enumerate(zip(pts, pts[1:])):
+                    rod(m, wb, p0, p1, 3, wingf, extend=0.6, t2=10 - j * 3)
+            return m
         for side in (1, -1):                                                     # enormous swept fin-wings
             wb = m.bone("wing_left" if side > 0 else "wing_right", bd, (side * 4.0, 22.0, -2.0))
             pts = [(side * 5.0, 22.0, 0.0), (side * 11.0, 28.0, 6.0), (side * 15.0, 34.0, 13.0),

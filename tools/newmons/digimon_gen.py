@@ -116,7 +116,7 @@ ABILITY_NAMES = {
     "shedskin": "Shed Skin", "adaptability": "Adaptability", "imposter": "Imposter", "healer": "Healer",
     "punkrock": "Punk Rock", "defiant": "Defiant", "soundproof": "Soundproof", "battlearmor": "Battle Armor",
     "illusion": "Illusion", "frisk": "Frisk", "sandforce": "Sand Force", "shielddust": "Shield Dust",
-    "waterabsorb": "Water Absorb", "poisonpoint": "Poison Point", "sandrush": "Sand Rush",
+    "waterabsorb": "Water Absorb", "poisonpoint": "Poison Point", "sandrush": "Sand Rush", "pixilate": "Pixilate",
 }
 
 
