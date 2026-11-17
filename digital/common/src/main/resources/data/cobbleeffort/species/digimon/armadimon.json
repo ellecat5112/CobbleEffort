@@ -202,6 +202,33 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "armadimon_chamelemon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:chamelemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "armadimon_cyclomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyclomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:caprimon"
 }

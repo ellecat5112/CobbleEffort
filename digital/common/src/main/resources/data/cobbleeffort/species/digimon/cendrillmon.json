@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3536,
+ "name": "Cendrillmon",
+ "primaryType": "ice",
+ "secondaryType": "fairy",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.cendrillmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "icebody",
+  "h:cutecharm"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 70,
+  "defence": 85,
+  "special_attack": 130,
+  "special_defence": 105,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.778,
+ "hitbox": {
+  "width": 2.0,
+  "height": 4.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:snowball",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:powdersnow",
+  "5:fairywind",
+  "9:iceshard",
+  "13:disarmingvoice",
+  "17:icywind",
+  "21:drainingkiss",
+  "25:icefang",
+  "29:dazzlinggleam",
+  "33:aurorabeam",
+  "37:playrough",
+  "41:icebeam",
+  "45:moonblast",
+  "49:iciclecrash",
+  "53:spiritbreak",
+  "57:blizzard",
+  "61:fleurcannon",
+  "tm:aurorabeam",
+  "tm:blizzard",
+  "tm:dazzlinggleam",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:helpinghand",
+  "tm:icebeam",
+  "tm:icefang",
+  "tm:iciclecrash",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:snowscape",
+  "tm:spiritbreak",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:chaperomon"
+}

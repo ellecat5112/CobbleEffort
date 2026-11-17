@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:chiropmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chiropmon",
+   "model": "cobbleeffort:chiropmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3573_chiropmon/chiropmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

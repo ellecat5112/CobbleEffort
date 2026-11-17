@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:chackmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chackmon",
+   "model": "cobbleeffort:chackmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3544_chackmon/chackmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3544_chackmon/chackmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3544_chackmon/chackmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3544_chackmon/chackmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3564,
+ "name": "Chibick Sword",
+ "primaryType": "steel",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.chibicksword.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sharpness",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 35,
+  "special_defence": 50,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.364,
+ "hitbox": {
+  "width": 0.4,
+  "height": 2.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:metalclaw",
+  "5:tackle",
+  "9:mirrorshot",
+  "13:quickattack",
+  "17:ironhead",
+  "21:headbutt",
+  "25:flashcannon",
+  "29:slam",
+  "33:smartstrike",
+  "37:bodyslam",
+  "41:meteormash",
+  "45:doubleedge",
+  "49:heavyslam",
+  "53:hypervoice",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gigaimpact",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:chibickmon"
+}

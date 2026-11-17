@@ -126,5 +126,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "boarmon_caturamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:caturamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:agumon"
 }

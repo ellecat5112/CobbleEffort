@@ -117,5 +117,20 @@
   "tm:taunt",
   "tm:terablast",
   "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "bommon_commandramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:commandramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
  ]
 }

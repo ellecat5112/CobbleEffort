@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3551,
+ "name": "Chaos Lord",
+ "primaryType": "steel",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.chaoslord.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "heavymetal",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 12.727,
+ "hitbox": {
+  "width": 4.0,
+  "height": 2.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:bite",
+  "9:mirrorshot",
+  "13:pursuit",
+  "17:ironhead",
+  "21:assurance",
+  "25:flashcannon",
+  "29:nightslash",
+  "33:smartstrike",
+  "37:crunch",
+  "41:meteormash",
+  "45:darkpulse",
+  "49:heavyslam",
+  "53:knockoff",
+  "57:steelbeam",
+  "61:foulplay",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:foulplay",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:knockoff",
+  "tm:meteormash",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ]
+}

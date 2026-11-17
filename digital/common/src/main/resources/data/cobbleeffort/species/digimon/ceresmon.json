@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3541,
+ "name": "Ceresmon",
+ "primaryType": "grass",
+ "secondaryType": "ground",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.ceresmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "grassysurge",
+  "h:thickfat"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 9.333,
+ "hitbox": {
+  "width": 4.0,
+  "height": 3.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:mudslap",
+  "9:razorleaf",
+  "13:mudshot",
+  "17:bulletseed",
+  "21:bulldoze",
+  "25:gigadrain",
+  "29:dig",
+  "33:seedbomb",
+  "37:drillrun",
+  "41:energyball",
+  "45:earthpower",
+  "49:powerwhip",
+  "53:earthquake",
+  "57:leafstorm",
+  "61:highhorsepower",
+  "tm:dig",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:leafstorm",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:blossomon"
+}

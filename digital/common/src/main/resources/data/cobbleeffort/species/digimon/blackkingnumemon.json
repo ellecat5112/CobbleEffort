@@ -125,5 +125,20 @@
   "tm:terablast",
   "tm:toxic",
   "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "blackkingnumemon_cthyllamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:cthyllamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
  ]
 }

@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:cocomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cocomon",
+   "model": "cobbleeffort:cocomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3587_cocomon/cocomon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3587_cocomon/cocomon_shiny.png"
+  }
+ ]
+}

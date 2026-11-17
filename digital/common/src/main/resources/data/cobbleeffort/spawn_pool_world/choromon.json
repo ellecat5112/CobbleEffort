@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "choromon-wild",
+   "pokemon": "cobbleeffort:choromon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "1-5",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_hills",
+     "#cobblemon:is_plains"
+    ]
+   }
+  }
+ ]
+}

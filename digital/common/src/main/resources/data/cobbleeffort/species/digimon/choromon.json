@@ -1,0 +1,136 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3576,
+ "name": "Choromon",
+ "primaryType": "steel",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.choromon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "digimon_hatch"
+ ],
+ "aspects": [],
+ "abilities": [
+  "motordrive",
+  "h:runaway"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 25,
+  "attack": 35,
+  "defence": 25,
+  "special_attack": 30,
+  "special_defence": 25,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 40,
+ "experienceGroup": "slow",
+ "catchRate": 255,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.311,
+ "hitbox": {
+  "width": 0.45,
+  "height": 1.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:thundershock",
+  "9:mirrorshot",
+  "13:spark",
+  "17:ironhead",
+  "21:shockwave",
+  "tm:discharge",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderfang",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge"
+ ],
+ "evolutions": [
+  {
+   "id": "choromon_caprimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:caprimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
+ ]
+}

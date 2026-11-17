@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:chaospiemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chaospiemon",
+   "model": "cobbleeffort:chaospiemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3552_chaospiemon/chaospiemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

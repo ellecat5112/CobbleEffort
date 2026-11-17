@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:caturamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:caturamon",
+   "model": "cobbleeffort:caturamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3535_caturamon/caturamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3535_caturamon/caturamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "cendrillmon-wild",
+   "pokemon": "cobbleeffort:cendrillmon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-65",
+   "weight": 0.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial",
+     "#cobblemon:is_plains",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

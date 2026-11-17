@@ -147,7 +147,20 @@
    ]
   },
   {
-   "id": "botamon_koromon_4",
+   "id": "botamon_candmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:candmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "botamon_koromon_5",
    "variant": "level_up",
    "result": "cobbleeffort:koromon",
    "consumeHeldItem": false,

@@ -127,5 +127,33 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "butenmon_chronomondestroymode",
+   "variant": "level_up",
+   "result": "cobbleeffort:chronomondestroymode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "butenmon_chronomonholymode_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:chronomonholymode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:buraimon"
 }

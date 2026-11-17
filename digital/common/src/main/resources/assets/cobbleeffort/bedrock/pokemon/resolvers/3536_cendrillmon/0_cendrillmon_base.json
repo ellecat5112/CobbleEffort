@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:cendrillmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cendrillmon",
+   "model": "cobbleeffort:cendrillmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3536_cendrillmon/cendrillmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

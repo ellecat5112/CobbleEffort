@@ -1,0 +1,144 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3519,
+ "name": "Cannonbeemon",
+ "primaryType": "bug",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.cannonbeemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swarm",
+  "h:sniper"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 95,
+  "defence": 80,
+  "special_attack": 95,
+  "special_defence": 80,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.667,
+ "hitbox": {
+  "width": 3.6,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bugbite",
+  "5:metalclaw",
+  "9:strugglebug",
+  "13:mirrorshot",
+  "17:furycutter",
+  "21:ironhead",
+  "25:signalbeam",
+  "29:flashcannon",
+  "33:xscissor",
+  "37:smartstrike",
+  "41:bugbuzz",
+  "45:meteormash",
+  "49:lunge",
+  "53:heavyslam",
+  "57:megahorn",
+  "61:steelbeam",
+  "tm:bugbuzz",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "cannonbeemon_alphamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:alphamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3531,
+ "name": "Cardmon U1",
+ "primaryType": "normal",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.cardmonu1.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "levitate",
+  "h:forewarn"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 14.118,
+ "hitbox": {
+  "width": 0.64,
+  "height": 1.062,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "9:quickattack",
+  "17:headbutt",
+  "25:slam",
+  "33:bodyslam",
+  "41:doubleedge",
+  "49:hypervoice",
+  "57:gigaimpact",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "cardmonu1_cardmonr1",
+   "variant": "level_up",
+   "result": "cobbleeffort:cardmonr1",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:cardmonc1"
+}

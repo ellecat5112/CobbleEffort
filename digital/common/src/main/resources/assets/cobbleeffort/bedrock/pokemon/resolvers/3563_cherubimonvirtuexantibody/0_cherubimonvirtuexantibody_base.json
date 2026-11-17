@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:cherubimonvirtuexantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cherubimonvirtuexantibody",
+   "model": "cobbleeffort:cherubimonvirtuexantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3563_cherubimonvirtuexantibody/cherubimonvirtuexantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

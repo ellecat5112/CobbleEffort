@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:chaosdukemoncore",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chaosdukemoncore",
+   "model": "cobbleeffort:chaosdukemoncore.geo",
+   "texture": "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_glow_0.png",
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_glow_1.png",
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3548_chaosdukemoncore/chaosdukemoncore_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

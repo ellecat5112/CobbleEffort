@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:cougarmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cougarmon",
+   "model": "cobbleeffort:cougarmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3596_cougarmon/cougarmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

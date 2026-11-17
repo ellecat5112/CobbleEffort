@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:cresgarurumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:cresgarurumon",
+   "model": "cobbleeffort:cresgarurumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3600_cresgarurumon/cresgarurumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3518,
+ "name": "Candmon",
+ "primaryType": "fire",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.candmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flashfire",
+  "h:flamebody"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 1.0,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "5:astonish",
+  "9:flamecharge",
+  "13:shadowsneak",
+  "17:firefang",
+  "21:hex",
+  "25:incinerate",
+  "29:shadowclaw",
+  "33:flamethrower",
+  "37:shadowpunch",
+  "41:lavaplume",
+  "45:shadowball",
+  "49:fireblast",
+  "53:phantomforce",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "candmon_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "candmon_bakemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "candmon_birdramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "candmon_blackgrowmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackgrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "candmon_chrysalimon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:chrysalimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "candmon_clockmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:clockmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:koromon"
+}

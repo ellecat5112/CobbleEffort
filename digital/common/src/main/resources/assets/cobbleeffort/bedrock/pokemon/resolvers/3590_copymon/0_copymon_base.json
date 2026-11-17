@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:copymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:copymon",
+   "model": "cobbleeffort:copymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3590_copymon/copymon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3590_copymon/copymon_shiny.png"
+  }
+ ]
+}

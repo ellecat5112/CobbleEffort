@@ -1,0 +1,144 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3532,
+ "name": "Cardmon U2",
+ "primaryType": "normal",
+ "secondaryType": "water",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.cardmonu2.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "levitate",
+  "h:forewarn"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 16.0,
+ "hitbox": {
+  "width": 0.56,
+  "height": 0.938,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:watergun",
+  "9:quickattack",
+  "13:aquajet",
+  "17:headbutt",
+  "21:waterpulse",
+  "25:slam",
+  "29:bubblebeam",
+  "33:bodyslam",
+  "37:aquatail",
+  "41:doubleedge",
+  "45:surf",
+  "49:hypervoice",
+  "53:liquidation",
+  "57:gigaimpact",
+  "61:hydropump",
+  "tm:aquatail",
+  "tm:bodyslam",
+  "tm:bubblebeam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:hypervoice",
+  "tm:liquidation",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "cardmonu2_cardmonr2",
+   "variant": "level_up",
+   "result": "cobbleeffort:cardmonr2",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:cardmonc2"
+}

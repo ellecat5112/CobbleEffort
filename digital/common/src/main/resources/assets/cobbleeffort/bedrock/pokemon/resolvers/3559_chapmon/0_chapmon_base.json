@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:chapmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:chapmon",
+   "model": "cobbleeffort:chapmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3559_chapmon/chapmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3559_chapmon/chapmon_shiny.png"
+  }
+ ]
+}

@@ -1998,6 +1998,18 @@ becomes Bastemon or Betsumon, and Bulkmon becomes Boutmon.
 
 ![Digimon B section, Baalmon to Butterflamon](docs/digimon_b1.png)
 
+**The whole C section (CobbleEffort 1.0.0 / Digital 0.5.0)**: 95 Digimon from wikimon's C list, Calamaramon to
+Cyclomon, at the same detail standard. That covers the eight Cardmon, Craniummon and Chaos Dukemon (with its Core),
+the Cherubimon forms of the Three Great Angels, both Chronomon modes, Chaosmon and its Valdur Arm, Ceresmon and
+Ceresmon Medium, the Cerberumon forms, and babies like Chibickmon, Chicomon, Cocomon and Curimon. The standing skip
+rule (the user's) drops anime-version and "+" combo entries: Cyberdramon (2010 Anime Version) and Craniummon +
+Enbarrmon. Cheer Galmon is also missing because wikimon has no picture of it. Chibi Kamemon is wikimon's Japanese-name
+entry for Kamemon, so it uses Kamemon's page and evolutions (K's Kamemon will be skipped as the same Digimon).
+Evolutions again follow wikimon: Chicomon becomes Chibimon, Coronamon becomes Agnimon, Baohuckmon, Birdramon or
+Coredramon (Green), and Commandramon becomes Clockmon or Greymon.
+
+![Digimon C section, Calamaramon to Cyclomon](docs/digimon_c1.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

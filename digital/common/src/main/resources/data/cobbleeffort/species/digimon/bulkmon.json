@@ -139,6 +139,19 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "bulkmon_climbmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:climbmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ]
 }

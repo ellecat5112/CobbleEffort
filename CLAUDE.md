@@ -462,6 +462,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_galgomon.py`, `_tailmon.py`, `_wargreymon.py` (`make(name, ...)` with a black/variant flag: the Black recolours);
   Bushi Agumon builds on `_agumon.build_agumon`. `_digibeast.jaws` is centred on x = 0 (heads off the centre line,
   e.g. Breakdramon's two, need their own jaws). Roster slugs NFKD-transliterate accents (Būmon -> `bumon`).
+  The whole C section is in (1.0.0 / Digital 0.5.0, 95 entries). **Standing skip rule (the user's, "for the foreseeable
+  future")**: skip anime-version entries and "+" combo entries (C: Cyberdramon (2010 Anime Version), Craniummon +
+  Enbarrmon); entries with no picture on wikimon are skipped too (Cheer Galmon). A roster entry may carry `"wikimon":
+  "<page title>"` when the list name differs from the page (Chibi Kamemon -> Kamemon): digimon_gen reads that page's
+  facts and maps its evolution links onto our slug (skip K's Kamemon later as a duplicate). New builders: `_cardmon.py`
+  (floating head + cards on `ring_*` bones that orbit), `_blobbaby.py`, `_cerberumon.py`, `_chaosdukemon.py`,
+  `_cherubimon.py`, `_chaosdramon.py`, `_chaosmon.py`, `_chronomon.py`, `_coredramon.py`, `_craniummon.py`,
+  `_cyberdramon.py`; Chaos Greymon is `_wargreymon.make(..., "chaos")`. `scratchpad/addroster.py <entries.py>` appends
+  wrapped ROSTER entries (E = [(name, types, role, stage, abilities, entry[, extra])]). Shields meant to read from the
+  front must face -z (a side-facing disc vanishes at the 30° preview).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
