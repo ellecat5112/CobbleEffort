@@ -713,4 +713,63 @@ ROSTER = [
      "abilities": ["sharpness", "h:speedboost"],
      "entry": "A stag beetle that became a living blade. It slices through the air with a crack of lightning, "
               "cutting anything in its flight path."},
+    {"name": "Blastmon", "types": ["rock", "ice"], "role": "tank", "stage": "Ultimate",
+     "abilities": ["solidrock", "h:sturdy"],
+     "entry": "The crystal emperor of a mineral kingdom. The crystals on its back grow harder with every battle, and "
+              "its jewelled gauntlet can shatter mountains."},
+    {"name": "Blikmon", "types": ["steel", "normal"], "role": "tank", "stage": "Perfect",
+     "abilities": ["sturdy", "h:heavymetal"],
+     "entry": "A toy robot built to look harmless. Its claws pinch with crushing force, and its visor beeps when it "
+              "finds a new target."},
+    {"name": "Blimpmon", "types": ["steel", "flying"], "role": "mixed", "stage": "Adult",
+     "abilities": ["levitate", "h:sniper"],
+     "entry": "A living airship that patrols the skies. It rams with the spike on its nose and fires its twin guns "
+              "from high above."},
+    {"name": "Blitzmon", "types": ["electric", "bug"], "role": "physical", "stage": "Adult",
+     "abilities": ["motordrive", "h:ironfist"],
+     "entry": "A Hybrid warrior clad in beetle armour. It stores lightning in its body and unleashes it through its "
+              "fists."},
+    {"name": "Blizzarmon", "types": ["ice", "fighting"], "role": "physical", "stage": "Perfect",
+     "abilities": ["thickfat", "h:slushrush"],
+     "entry": "A Hybrid beast-warrior of the frozen peaks. It swings its twin axes through blizzards that would "
+              "freeze any other Digimon solid."},
+    {"name": "Bloom Lordmon", "types": ["grass", "fairy"], "role": "mixed", "stage": "Ultimate",
+     "abilities": ["flowerveil", "h:naturalcure"],
+     "entry": "A flower knight who protects the gardens of the Digital World. Its lance blooms with crimson light, "
+              "and its cape scatters healing petals."},
+    {"name": "Blossomon", "types": ["grass", "poison"], "role": "special", "stage": "Perfect",
+     "abilities": ["chlorophyll", "h:effectspore"],
+     "entry": "A great flower whose face hides a vicious temper. The biting buds on its vines snap at anything that "
+              "comes near."},
+    {"name": "Blucomon", "types": ["ice", "dragon"], "role": "speed", "stage": "Child",
+     "abilities": ["icebody", "h:refrigerate"],
+     "entry": "A little ice dragon born from frozen data. It loves cold weather and grows grumpy when the snow "
+              "melts."},
+    {"name": "Blue Meramon", "types": ["fire", "ice"], "role": "special", "stage": "Perfect",
+     "abilities": ["flamebody", "h:flashfire"],
+     "entry": "A Meramon whose flames burn so hot they turn blue and freezing cold. Whatever it touches burns and "
+              "freezes at once."},
+    {"name": "Boarmon", "types": ["fire", "normal"], "role": "physical", "stage": "Adult",
+     "abilities": ["reckless", "h:flashfire"],
+     "entry": "An Armor boar born from the Digimental of Courage. It charges straight ahead with its back ablaze and "
+              "never turns aside."},
+    {"name": "Bokomon", "types": ["normal", "psychic"], "role": "special", "stage": "Child",
+     "abilities": ["forewarn", "h:owntempo"],
+     "entry": "A scholarly Digimon who carries a book of everything it has learned. It keeps its waistband on, no "
+              "matter what."},
+    {"name": "Bolgmon", "types": ["steel", "dark"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["heavymetal", "h:sniper"],
+     "entry": "A Hybrid war machine of iron. It rolls on its treads and fires every cannon it carries at once."},
+    {"name": "Boltmon", "types": ["electric", "fighting"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["ironfist", "h:guts"],
+     "entry": "A patchwork brute held together by steel bolts. It is surprisingly gentle, though its fists and axe "
+              "can level a castle."},
+    {"name": "Bomber Nanimon", "types": ["fire", "dark"], "role": "physical", "stage": "Adult",
+     "abilities": ["aftermath", "h:ironfist"],
+     "entry": "A bomb with a terrible temper and a heavier punch. Its fuse is always lit, and nobody knows how long "
+              "it is."},
+    {"name": "Bombermon", "types": ["fire", "ghost"], "role": "special", "stage": "Perfect",
+     "abilities": ["aftermath", "h:infiltrator"],
+     "entry": "A tattered bomber that drifts through ruins. The little bomb-spiders on its cords crawl ahead and "
+              "explode on command."},
 ]

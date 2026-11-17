@@ -108,6 +108,8 @@ ABILITY_NAMES = {
     "technician": "Technician", "limber": "Limber", "voltabsorb": "Volt Absorb", "heavymetal": "Heavy Metal",
     "comatose": "Comatose", "angerpoint": "Anger Point", "aftermath": "Aftermath",
     "stickyhold": "Sticky Hold",
+    "owntempo": "Own Tempo", "icebody": "Ice Body", "reckless": "Reckless", "flowerveil": "Flower Veil",
+    "slushrush": "Slush Rush",
 }
 
 
