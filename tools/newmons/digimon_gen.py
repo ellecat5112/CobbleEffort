@@ -103,7 +103,8 @@ ABILITY_NAMES = {
     "overgrow": "Overgrow", "swarm": "Swarm", "prankster": "Prankster", "waterveil": "Water Veil",
     "poisontouch": "Poison Touch", "sandveil": "Sand Veil", "steelworker": "Steelworker", "pickpocket": "Pickpocket",
     "scrappy": "Scrappy", "skilllink": "Skill Link", "unaware": "Unaware", "motordrive": "Motor Drive",
-    "flamebody": "Flame Body", "sniper": "Sniper",
+    "flamebody": "Flame Body", "sniper": "Sniper", "rockhead": "Rock Head", "hydration": "Hydration",
+    "gluttony": "Gluttony", "stamina": "Stamina", "pickup": "Pickup", "insomnia": "Insomnia",
 }
 
 

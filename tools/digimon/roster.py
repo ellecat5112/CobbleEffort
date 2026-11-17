@@ -403,4 +403,53 @@ ROSTER = [
      "abilities": ["sharpness", "h:galewings"],
      "entry": "A pterosaur whose crest is a great axe-blade. It dives from the clouds at incredible speed, slicing "
               "anything below with its crest and wing blades."},
+    # --- 0.99.0: the B section ------------------------------------------------------------------------------------
+    {"name": "Baalmon", "types": ["dark", "fighting"], "role": "physical", "stage": "Perfect",
+     "abilities": ["sharpness", "h:pressure"],
+     "entry": "A wandering demon swordsman who hunts other demons. The talismans on its cape seal away the spirits "
+              "of those it defeats."},
+    {"name": "Baalmon (X-Antibody)", "types": ["dark", "psychic"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["magicguard", "h:pressure"],
+     "entry": "Baalmon awakened by the X-Antibody. It reads curses from its spellbook and strikes with a gauntlet "
+              "that has crushed a thousand demons."},
+    {"name": "Babamon", "types": ["ghost", "psychic"], "role": "special", "stage": "Ultimate",
+     "abilities": ["forewarn", "h:magicguard"],
+     "entry": "An ancient Digimon who looks like a little old woman. She has outlived most of the Digital World and "
+              "still sweeps evil away with her broom."},
+    {"name": "Baboongamon", "types": ["rock", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["rockhead", "h:guts"],
+     "entry": "A baboon armoured in boulders. It swings the stone mace on its tail to crack open anything that "
+              "challenges its troop."},
+    {"name": "Babydmon", "types": ["dragon"], "role": "speed", "stage": "Baby II",
+     "abilities": ["levitate", "h:hydration"],
+     "entry": "A baby dragon that swims through the air with its curled tail. It blows tiny bubbles of fire when it "
+              "is excited."},
+    {"name": "Bacchusmon", "types": ["fairy", "poison"], "role": "special", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:gluttony"],
+     "entry": "One of the Olympus Twelve, the god of wine and revelry. Its grin is wide enough to swallow a feast "
+              "whole, and its parties can last for years."},
+    {"name": "Bacomon", "types": ["normal", "ghost"], "role": "tank", "stage": "Child",
+     "abilities": ["stamina", "h:pickup"],
+     "entry": "A Digimon that lives inside a cardboard box. Nobody has ever seen what is inside, and it gets very "
+              "upset if you try to look."},
+    {"name": "Bagramon", "types": ["dark", "fighting"], "role": "physical", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:ironfist"],
+     "entry": "The emperor of the Bagra Army. Its grafted arm can tear the code out of anything it grips, and it "
+              "dreams of rewriting the whole Digital World."},
+    {"name": "Bagramon (Archangel Form)", "types": ["fairy", "psychic"], "role": "special", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:serenegrace"],
+     "entry": "Bagramon as it was before its fall, one of the archangels who served the Digital World. Its voice "
+              "was said to calm any storm."},
+    {"name": "Baihumon", "types": ["steel", "normal"], "role": "physical", "stage": "Ultimate", "legendary": True,
+     "abilities": ["pressure", "h:toughclaws"],
+     "entry": "The White Tiger, one of the Four Holy Beasts, who guards the west. Its golden orbs hold the power of "
+              "metal, and its roar shakes the mountains."},
+    {"name": "Bakemon", "types": ["ghost"], "role": "special", "stage": "Adult",
+     "abilities": ["cursedbody", "h:levitate"],
+     "entry": "A ghost hiding under a sheet. It loves to scare travellers, and nobody knows what its body looks "
+              "like underneath."},
+    {"name": "Bakumon", "types": ["psychic", "normal"], "role": "special", "stage": "Child",
+     "abilities": ["insomnia", "h:magicguard"],
+     "entry": "A holy beast that eats bad dreams. It wanders into sleeping minds at night and leaves only good "
+              "dreams behind."},
 ]
