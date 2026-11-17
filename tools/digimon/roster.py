@@ -772,4 +772,90 @@ ROSTER = [
      "abilities": ["aftermath", "h:infiltrator"],
      "entry": "A tattered bomber that drifts through ruins. The little bomb-spiders on its cords crawl ahead and "
               "explode on command."},
+    {"name": "Bombmon", "types": ["fire"], "role": "special", "stage": "Baby I",
+     "abilities": ["aftermath", "h:flashfire"],
+     "entry": "A baby bomb with a short fuse and a shorter temper. It giggles right before it pops, which only "
+              "scares it more."},
+    {"name": "Bommon", "types": ["fire", "dark"], "role": "special", "stage": "Baby I",
+     "abilities": ["aftermath", "h:prankster"],
+     "entry": "A baby bomb with cat ears and three mismatched eyes. Its fuse fizzes when it is excited, and it is "
+              "excited often."},
+    {"name": "Boogiemon", "types": ["dark", "fire"], "role": "speed", "stage": "Adult",
+     "abilities": ["prankster", "h:infiltrator"],
+     "entry": "A gangly devil that loves to frighten. It sneaks up on sleeping Digimon and pokes them with its "
+              "trident."},
+    {"name": "Bosamon", "types": ["normal"], "role": "special", "stage": "Baby II",
+     "abilities": ["fluffy", "h:cutecharm"],
+     "entry": "A shaggy baby with a sulky face hidden under its fringe. It hops after anyone who brushes its long "
+              "ears."},
+    {"name": "Boutmon", "types": ["fighting", "electric"], "role": "physical", "stage": "Perfect",
+     "abilities": ["ironfist", "h:motordrive"],
+     "entry": "A kickboxing master whose streamers crackle with lightning. Its prayer beads keep its fury in check, "
+              "until the bell rings."},
+    {"name": "Botamon", "types": ["normal"], "role": "special", "stage": "Baby I",
+     "abilities": ["fluffy", "h:pickup"],
+     "entry": "The first baby Digimon. It is a ball of black fluff that blows bubbles to defend itself."},
+    {"name": "Bowmon", "types": ["normal", "fairy"], "role": "special", "stage": "Baby II",
+     "abilities": ["fluffy", "h:cutecharm"],
+     "entry": "A plump blue puppy that wags its fluffy tail at everyone. Its smile can make even grumpy Digimon "
+              "smile back."},
+    {"name": "Brachimon", "types": ["rock", "grass"], "role": "tank", "stage": "Perfect",
+     "abilities": ["sturdy", "h:thickfat"],
+     "entry": "A gentle long-necked giant. It reaches the highest leaves with ease and only fights to protect its "
+              "herd."},
+    {"name": "Breakdramon", "types": ["steel", "ghost"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["heavymetal", "h:sturdy"],
+     "entry": "A colossal demolition dragon. Its drills grind through mountains, and nothing it rolls over is ever "
+              "rebuilt."},
+    {"name": "Brigadramon", "types": ["steel", "flying"], "role": "mixed", "stage": "Ultimate",
+     "abilities": ["sniper", "h:galewings"],
+     "entry": "A cyborg dragon that drops from the sky on its rotor pack. Its rifle can hit a target beyond the "
+              "horizon."},
+    {"name": "Bryweludramon", "types": ["fire", "dragon"], "role": "special", "stage": "Ultimate",
+     "abilities": ["drought", "h:pressure"],
+     "entry": "An armour dragon with two flaming heads, one orange and one blue. Together their fires can melt any "
+              "metal."},
+    {"name": "Bubbmon", "types": ["water"], "role": "special", "stage": "Baby I",
+     "abilities": ["hydration", "h:stickyhold"],
+     "entry": "A bubbly jelly baby. The soap bubbles it blows float lazily away, and it laughs every time one pops."},
+    {"name": "Budmon", "types": ["grass"], "role": "special", "stage": "Baby II",
+     "abilities": ["chlorophyll", "h:naturalcure"],
+     "entry": "A little bud with a happy smile. Its leaf tail soaks up the sun, and its thorns are softer than they "
+              "look."},
+    {"name": "Bulkmon", "types": ["fighting", "dragon"], "role": "physical", "stage": "Adult",
+     "abilities": ["ironfist", "h:hugepower"],
+     "entry": "A dragon-man bruiser with a giant boxing glove. It trains every day to make its punches even "
+              "heavier."},
+    {"name": "Bullmon", "types": ["normal", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["reckless", "h:intimidate"],
+     "entry": "An armoured fighting bull that charges at anything red. Its horns can toss a tank into the air."},
+    {"name": "Būmon", "types": ["normal"], "role": "special", "stage": "Child",
+     "abilities": ["gluttony", "h:thickfat"],
+     "entry": "A little piglet that snuffles around for snacks. It is happiest asleep on a full stomach."},
+    {"name": "Buraimon", "types": ["flying", "fighting"], "role": "physical", "stage": "Perfect",
+     "abilities": ["sharpness", "h:keeneye"],
+     "entry": "A wandering ronin eagle with two blades. It serves no master and fights only for causes it believes "
+              "in."},
+    {"name": "Burgamon", "types": ["normal", "fairy"], "role": "special", "stage": "Child",
+     "abilities": ["gluttony", "h:cutecharm"],
+     "entry": "A cheerful Digimon that loves serving burgers. It gives a thumbs-up to every customer, hungry or "
+              "not."},
+    {"name": "Burgamon Adult", "types": ["normal", "fire"], "role": "special", "stage": "Adult",
+     "abilities": ["gluttony", "h:ripen"],
+     "entry": "Two burger chefs who always work as a pair. One flips the patties while the other grills giant "
+              "sausages."},
+    {"name": "Burpmon", "types": ["normal", "poison"], "role": "tank", "stage": "Adult",
+     "abilities": ["gluttony", "h:thickfat"],
+     "entry": "A gluttonous pig that eats everything in sight. The bones it leaves behind are licked completely "
+              "clean."},
+    {"name": "Bushi Agumon", "types": ["fire", "fighting"], "role": "physical", "stage": "Child",
+     "abilities": ["sharpness", "h:steadfast"],
+     "entry": "An Agumon who follows the way of the samurai. It practises with its katana from dawn until dusk."},
+    {"name": "Butenmon", "types": ["flying", "dark"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["pressure", "h:galewings"],
+     "entry": "A tengu warlord in lacquered armour. A sweep of its great wings knocks whole armies off their feet."},
+    {"name": "Butterflamon", "types": ["bug", "fairy"], "role": "speed", "stage": "Perfect",
+     "abilities": ["tintedlens", "h:compoundeyes"],
+     "entry": "A butterfly maiden in golden armour. Its claws strike faster than the eye can follow, and its wings "
+              "scatter dazzling scales."},
 ]
