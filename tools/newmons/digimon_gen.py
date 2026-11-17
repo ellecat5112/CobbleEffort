@@ -106,7 +106,7 @@ ABILITY_NAMES = {
     "flamebody": "Flame Body", "sniper": "Sniper", "rockhead": "Rock Head", "hydration": "Hydration",
     "gluttony": "Gluttony", "stamina": "Stamina", "pickup": "Pickup", "insomnia": "Insomnia",
     "technician": "Technician", "limber": "Limber", "voltabsorb": "Volt Absorb", "heavymetal": "Heavy Metal",
-    "comatose": "Comatose",
+    "comatose": "Comatose", "angerpoint": "Anger Point", "aftermath": "Aftermath",
 }
 
 

@@ -568,4 +568,51 @@ ROSTER = [
      "legendary": True, "abilities": ["comatose", "h:pressure"],
      "entry": "One of the Seven Great Demon Lords, fast asleep. It dozes for a thousand years at a time, and even "
               "asleep it attacks whatever comes too close."},
+    {"name": "BEMmon", "types": ["dark", "psychic"], "role": "speed", "stage": "Child",
+     "abilities": ["infiltrator", "h:download"],
+     "entry": "A little alien raider from beyond the network. It sneaks into systems to steal their data, and its "
+              "one green eye can see through walls."},
+    {"name": "Beowolfmon", "types": ["steel", "fairy"], "role": "physical", "stage": "Perfect",
+     "abilities": ["justified", "h:sharpness"],
+     "entry": "The beast warrior of light, a wolf knight wielding a double-ended blade of gold. Its cannon arm "
+              "fires bolts of pure light."},
+    {"name": "Berserk Titamon", "types": ["dark", "rock"], "role": "physical", "stage": "Ultimate",
+     "legendary": True, "abilities": ["pressure", "h:angerpoint"],
+     "entry": "A god of the Titans driven mad. Its armour is rotting away, red rage burns through every crack, and "
+              "its greatsword cuts mountains in half."},
+    {"name": "Beso Bombmon", "types": ["normal"], "role": "mixed", "stage": "Child",
+     "abilities": ["aftermath", "h:pickup"],
+     "entry": "A Digimon known only by its shadow. Nobody has seen it clearly yet, and every sighting tells a "
+              "different story."},
+    {"name": "Betamon", "types": ["water", "electric"], "role": "special", "stage": "Child",
+     "abilities": ["swiftswim", "h:static"],
+     "entry": "An amphibian Digimon that lives in rivers and lakes. Its fin crest stores electricity, and it zaps "
+              "anything that bothers it."},
+    {"name": "Betamon (X-Antibody)", "types": ["water", "electric"], "role": "special", "stage": "Child",
+     "abilities": ["swiftswim", "h:voltabsorb"],
+     "entry": "Betamon awakened by the X-Antibody. Its fin glows red-hot with charge and the spikes along its sides "
+              "spark when it is angry."},
+    {"name": "Betel Gammamon", "types": ["dragon", "fire"], "role": "physical", "stage": "Adult",
+     "abilities": ["blaze", "h:moxie"],
+     "entry": "A red dragon-man of explosive power. Its scarf streams behind it like wings as it dashes in, fists "
+              "wrapped in dark fire."},
+    {"name": "Betsumon", "types": ["normal", "ghost"], "role": "physical", "stage": "Perfect",
+     "abilities": ["prankster", "h:ironfist"],
+     "entry": "A puppet that wears a cat suit and never takes it off. Its smug look never changes, even when its "
+              "huge paw-gloves are pounding a foe flat."},
+    {"name": "Bibimon", "types": ["electric"], "role": "speed", "stage": "Baby II",
+     "abilities": ["static", "h:motordrive"],
+     "entry": "A little ball of spikes that crackles with static. It rolls around so fast that it glows."},
+    {"name": "Big Mamemon", "types": ["steel", "fighting"], "role": "tank", "stage": "Perfect",
+     "abilities": ["ironfist", "h:heavymetal"],
+     "entry": "A Mamemon that just kept growing. It is slow but impossibly heavy, and its boxing-glove fists can "
+              "flatten a fortress."},
+    {"name": "Big Ukkomon", "types": ["fairy", "ghost"], "role": "special", "stage": "Ultimate",
+     "abilities": ["levitate", "h:cursedbody"],
+     "entry": "An ancient fairy spirit that drifts through the clouds. Its laugh echoes for miles, and the orb in "
+              "its belly holds a thousand years of dreams."},
+    {"name": "Bio Coatlmon", "types": ["dragon", "flying"], "role": "special", "stage": "Adult",
+     "abilities": ["flashfire", "h:serenegrace"],
+     "entry": "A feathered serpent born of a Bio Hybrid. It soars on white wings and lights the sky with the torch "
+              "at the end of its tail."},
 ]
