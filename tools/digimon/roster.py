@@ -615,4 +615,60 @@ ROSTER = [
      "abilities": ["flashfire", "h:serenegrace"],
      "entry": "A feathered serpent born of a Bio Hybrid. It soars on white wings and lights the sky with the torch "
               "at the end of its tail."},
+    {"name": "Bio Darkdramon", "types": ["dragon", "electric"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["lightningrod", "h:pressure"],
+     "entry": "A Bio Hybrid dragon-knight charged with lightning. Its lance carries the full strength of the storm, "
+              "and its axe-tail cuts down anything behind it."},
+    {"name": "Bio Lotusmon", "types": ["grass", "psychic"], "role": "special", "stage": "Ultimate",
+     "abilities": ["naturalcure", "h:magicbounce"],
+     "entry": "A Bio Hybrid lotus fairy whose dance calms every storm. Her staff can make a whole forest bloom, or "
+              "wither it in a breath."},
+    {"name": "Bio Spinomon", "types": ["dragon", "steel"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["roughskin", "h:pressure"],
+     "entry": "A Bio Hybrid spinosaur. The steel blades of its sail spin up into a storm of edges that can cut "
+              "through mountains."},
+    {"name": "Bio Stegomon", "types": ["rock", "water"], "role": "tank", "stage": "Adult",
+     "abilities": ["shellarmor", "h:swiftswim"],
+     "entry": "A Bio Hybrid stegosaur. Its back plates channel the power of the sea, and it charges like a tidal "
+              "wave."},
+    {"name": "Bio Thunderbirmon", "types": ["electric", "flying"], "role": "speed", "stage": "Adult",
+     "abilities": ["lightningrod", "h:galewings"],
+     "entry": "A Bio Hybrid thunderbird. Each beat of its wings throws bolts of lightning from the feather tips."},
+    {"name": "Birdramon", "types": ["fire", "flying"], "role": "special", "stage": "Adult",
+     "abilities": ["flamebody", "h:galewings"],
+     "entry": "A giant bird of fire. It soars on wings of living flame and rains fireballs on anything below."},
+    {"name": "Bishop Chessmon (Black)", "types": ["dark", "psychic"], "role": "special", "stage": "Perfect",
+     "abilities": ["magicguard", "h:pressure"],
+     "entry": "The bishop of the black chess army. It moves only on the diagonal, and its staff casts curses on "
+              "anything in its line."},
+    {"name": "Bishop Chessmon (White)", "types": ["fairy", "psychic"], "role": "special", "stage": "Perfect",
+     "abilities": ["magicguard", "h:justified"],
+     "entry": "The bishop of the white chess army. It guards the white king with blessings, and its long neck "
+              "lets it watch the whole battlefield."},
+    {"name": "Bitmon", "types": ["normal", "electric"], "role": "speed", "stage": "Adult",
+     "abilities": ["static", "h:cutecharm"],
+     "entry": "A pink armoured mouse-cat born from a Digi-Egg. Its long ribbon ears sense electric signals, and it "
+              "darts away faster than you can blink."},
+    {"name": "Black Gaogamon", "types": ["dark", "fighting"], "role": "physical", "stage": "Adult",
+     "abilities": ["ironfist", "h:intimidate"],
+     "entry": "A dark twin of Gaogamon. It boxes with its red-gloved forelegs and stings with its steel tail."},
+    {"name": "Black Growmon", "types": ["dark", "dragon"], "role": "physical", "stage": "Adult",
+     "abilities": ["blaze", "h:moxie"],
+     "entry": "A dark twin of Growmon, born from a corrupted Guilmon. Its elbow blades slash with terrible speed, "
+              "and its fire burns black."},
+    {"name": "Black Guilmon", "types": ["dark", "dragon"], "role": "physical", "stage": "Child",
+     "abilities": ["blaze", "h:moxie"],
+     "entry": "A Guilmon whose data turned dark. It carries the same Hazard mark, but its temper is far wilder."},
+    {"name": "Black King Numemon", "types": ["poison", "steel"], "role": "tank", "stage": "Perfect",
+     "abilities": ["stickyhold", "h:heavymetal"],
+     "entry": "A Numemon who became king and never lets anyone forget it. Its silver crown is the heaviest thing in "
+              "the slug kingdom."},
+    {"name": "Black Mach Gaogamon", "types": ["dark", "fighting"], "role": "speed", "stage": "Perfect",
+     "abilities": ["ironfist", "h:speedboost"],
+     "entry": "A dark twin of Mach Gaogamon. It blasts in on its jetpack and strikes with its steel gauntlet before "
+              "the foe can react."},
+    {"name": "Black Megalo Growmon", "types": ["dark", "steel"], "role": "mixed", "stage": "Perfect",
+     "abilities": ["megalauncher", "h:moxie"],
+     "entry": "A dark cyborg twin of Megalo Growmon. Its twin chest cannons fire black fire, and its mechanical "
+              "wings let it leap across whole valleys."},
 ]

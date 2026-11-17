@@ -107,6 +107,7 @@ ABILITY_NAMES = {
     "gluttony": "Gluttony", "stamina": "Stamina", "pickup": "Pickup", "insomnia": "Insomnia",
     "technician": "Technician", "limber": "Limber", "voltabsorb": "Volt Absorb", "heavymetal": "Heavy Metal",
     "comatose": "Comatose", "angerpoint": "Anger Point", "aftermath": "Aftermath",
+    "stickyhold": "Sticky Hold",
 }
 
 
