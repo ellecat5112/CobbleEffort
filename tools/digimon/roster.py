@@ -452,4 +452,52 @@ ROSTER = [
      "abilities": ["insomnia", "h:magicguard"],
      "entry": "A holy beast that eats bad dreams. It wanders into sleeping minds at night and leaves only good "
               "dreams behind."},
+    {"name": "Balli Bastemon", "types": ["normal", "fighting"], "role": "tank",
+     "abilities": ["thickfat", "h:guts"],
+     "entry": "A stout war-beast in tribal regalia. It stamps its clawed feet to a drumbeat only it can hear, and "
+              "charges when the rhythm stops."},
+    {"name": "Ballistamon", "types": ["steel", "bug"], "role": "physical", "stage": "Adult",
+     "abilities": ["ironfist", "h:motordrive"],
+     "entry": "A gentle beetle-robot that loves music. It only fights to protect its friends, but its giant fists can "
+              "punch through a mountain."},
+    {"name": "Ballistamon MC", "types": ["steel", "rock"], "role": "tank", "stage": "Ultimate",
+     "abilities": ["shellarmor", "h:sturdy"],
+     "entry": "Ballistamon grown into a walking fortress. Smaller Digimon shelter in the rooms inside it, and its "
+              "towers fire on anything that threatens them."},
+    {"name": "Ballistamon SR", "types": ["steel", "bug"], "role": "physical", "stage": "Perfect",
+     "abilities": ["ironfist", "h:megalauncher"],
+     "entry": "Ballistamon rebuilt for war, with a drill for a fist and twin cannons on its back. It still hums a "
+              "tune as it fights."},
+    {"name": "Baluchimon", "types": ["normal", "fairy"], "role": "tank", "stage": "Adult",
+     "abilities": ["thickfat", "h:serenegrace"],
+     "entry": "A holy beast of the high plains. The mist that flows from its back hides the traveller it protects, "
+              "and its horn can call down rain."},
+    {"name": "Bancho Golemon", "types": ["rock", "fighting"], "role": "tank", "stage": "Ultimate",
+     "abilities": ["solidrock", "h:ironfist"],
+     "entry": "The delinquent boss of the golems. It wears its torn coat with pride, and its drill-fist settles every "
+              "argument for good."},
+    {"name": "Bancho Leomon", "types": ["fighting", "fire"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["ironfist", "h:justified"],
+     "entry": "The boss of all delinquent Digimon, who fights only for the weak. Its fists are said to be the "
+              "strongest in the Digital World, and it never draws its sword in anger."},
+    {"name": "Bancho Leomon: Burst Mode", "types": ["fighting", "fire"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["ironfist", "h:blaze"],
+     "entry": "Bancho Leomon burning with its full spirit. Its whole body blazes gold, and a single punch can split "
+              "the clouds."},
+    {"name": "Bancho Lilimon", "types": ["grass", "fairy"], "role": "speed", "stage": "Ultimate",
+     "abilities": ["technician", "h:justified"],
+     "entry": "The delinquent boss of the fairies. Her thorned whip and spiked bud flail keep every troublemaker in "
+              "the forest in line."},
+    {"name": "Bancho Mamemon", "types": ["steel", "fighting"], "role": "physical", "stage": "Ultimate",
+     "abilities": ["ironfist", "h:guts"],
+     "entry": "The tiny boss of the Mamemon, with more pride than anyone ten times its size. Its bat and brass club "
+              "have never lost a fight."},
+    {"name": "Bancho Stingmon", "types": ["bug", "fighting"], "role": "speed", "stage": "Ultimate",
+     "abilities": ["swarm", "h:sniper"],
+     "entry": "The delinquent boss of the insects. It strikes faster than sight with its stinger lance, then walks "
+              "off before its foe has fallen."},
+    {"name": "Bao Huckmon", "types": ["dragon", "steel"], "role": "speed", "stage": "Adult",
+     "abilities": ["speedboost", "h:toughclaws"],
+     "entry": "A young dragon-knight that dashes across the battlefield on its thrusters. It dreams of joining the "
+              "Royal Knights one day."},
 ]

@@ -73,7 +73,7 @@ def build():
     for sx in (-1, 1):                                           # open flaps on top
         m.box(hd, min(sx * 5.6, sx * 9.0), 27.0, -5.0, max(sx * 5.6, sx * 9.0), 27.0, 5.0, cardf,
               rotation=(0, 0, sx * 35), pivot=(sx * 5.6, 27.0, 0))
-    m.box(hd, -5.6, 27.0, -5.0, 5.6, 27.0, -8.0, cardf, rotation=(-40, 0, 0), pivot=(0, 27.0, -5.0))
+    m.box(hd, -5.6, 27.0, -8.0, 5.6, 27.0, -5.0, cardf, rotation=(40, 0, 0), pivot=(0, 27.0, -5.0))
     for sx, nm in ((1, "arm_left"), (-1, "arm_right")):
         ab = m.bone(nm, bd, (sx * 4.0, 15.0, 0))
         m.box(ab, min(sx * 4.0, sx * 11.0), 13.6, -1.4, max(sx * 4.0, sx * 11.0), 16.0, 1.4, cardf)
