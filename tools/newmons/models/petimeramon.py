@@ -46,11 +46,11 @@ def build():
     bd = m.bone("body", top, (0, 6, 0))
     ball(m, bd, (0, 8.0, 0), 5.0, bodyf, layers=5, ry=4.6)
     for sx in (-1, 1):
-        ball(m, bd, (sx * 1.8, 9.0, -4.0), 1.2, solid(P, "white"), layers=2, squash=0.5)
-        m.box(bd, sx * 1.8 - 0.6, 8.4, -4.75, sx * 1.8 + 0.6, 9.6, -4.6, solid(P, "eye"))
-    m.box(bd, -2.4, 6.0, -4.9, 2.4, 6.4, -4.75, solid(P, "black"))
+        ball(m, bd, (sx * 1.8, 9.0, -4.8), 1.2, solid(P, "white"), layers=2, squash=0.5)
+        m.box(bd, sx * 1.8 - 0.6, 8.4, -5.55, sx * 1.8 + 0.6, 9.6, -5.4, solid(P, "eye"))
+    m.box(bd, -2.4, 6.0, -5.2, 2.4, 6.4, -5.05, solid(P, "black"))
     for j in range(5):
-        m.box(bd, -2.0 + j * 1.0, 5.6, -4.95, -1.8 + j * 1.0, 6.8, -4.8, solid(P, "black"))
+        m.box(bd, -2.0 + j * 1.0, 5.6, -5.25, -1.8 + j * 1.0, 6.8, -5.1, solid(P, "black"))
     for i in range(5):                                                                   # streaming flames
         c = (-2.0 + i, 8.0 + (i % 2) * 2.0, 3.0)
         for ang in (0, 90):
