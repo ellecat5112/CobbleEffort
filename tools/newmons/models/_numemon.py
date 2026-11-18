@@ -1,15 +1,16 @@
 """Shared builder for the Numemon-type slugs (CobbleEffort: Digital; hand-built after the official art on wikimon.net):
 a glossy blob of slime that pools out at its base into stubby lobes, two bloodshot eyes on long stalks, a huge gaping
 mouth with a row of big square teeth and a long lolling pink tongue. Looks set the colours: Geremon (yellow with
-brown spots), Gigantic Numemon (lime green with blue patches), Gold Numemon (molten gold), plus extras: a crown for
-the Ultimate Gold Numemon.
+brown spots), Gigantic Numemon (lime green with blue patches), Gold Numemon (molten gold), plus extras: golden
+wings and a pearl necklace for the Gold Numemon.
 """
 from __future__ import annotations
 
 import math
 
 from _boxmodel import Model, rod, spike
-from _digidetail import fbm, metal, skin, solid
+from _digibeast import feather_wing
+from _digidetail import fbm, feathers, metal, skin, solid
 from _route import pal, tone
 
 LOOKS = {"geremon": {"slime": (250, 214, 50), "slime_dark": (200, 150, 20), "slime_light": (255, 245, 160),
@@ -23,7 +24,7 @@ COMMON = {"white": (250, 250, 246), "iris": (200, 30, 40), "pupil": (20, 16, 16)
           "gold_dark": (170, 120, 20), "gem": (220, 30, 60)}
 
 
-def make(name, look, crown=False, shiny_look=None):
+def make(name, look, crown=False, shiny_look=None, wings=False):
     base = dict(COMMON, **LOOKS[look])
     shiny = dict(COMMON, **(shiny_look or {"slime": (120, 120, 140), "slime_dark": (60, 60, 76),
                                            "slime_light": (200, 200, 220), "spot": (40, 40, 50)}))
@@ -71,6 +72,15 @@ def make(name, look, crown=False, shiny_look=None):
         for sx in (-1, 1):                                                         # eyes on stalks
             rod(m, hd, (sx * 1.6, 20.0, -2.0), (sx * 3.4, 27.0, -3.0), 1, slimef, extend=0.2, t2=1)
             m.round_box(hd, sx * 3.4, -3.0, 2.0, 2.0, 26.6, 30.6, eyef, cut=1)
+        if wings:                                                                  # golden wings + pearls
+            for side in (1, -1):
+                wb = m.bone("wing_left" if side > 0 else "wing_right", bd, (side * 6.0, 16.0, 4.0))
+                feather_wing(m, wb, (side * 6.0, 16.0, 4.0), 22.0, 9.0, 3,
+                             feathers(P, "gold", "gold_dark", size=(1.6, 2.8)), side=side, sweep=10, droop=-14.0)
+            for j in range(9):
+                ang = math.pi * (0.15 + 0.7 * j / 8)
+                m.round_box(bd, 8.0 * math.cos(ang), -6.6 + 2.0 * math.sin(ang) - 2.0, 0.6, 0.6, 15.0, 16.2,
+                            solid(P, "white"), cut=0)
         if crown:
             m.round_box(hd, 0, 0.4, 3.2, 3.0, 21.4, 23.6, metal(P, "gold", dark="gold_dark"), cut=1)
             for j in range(5):
