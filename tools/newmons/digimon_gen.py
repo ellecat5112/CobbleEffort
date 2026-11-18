@@ -119,7 +119,7 @@ ABILITY_NAMES = {
     "waterabsorb": "Water Absorb", "poisonpoint": "Poison Point", "sandrush": "Sand Rush", "pixilate": "Pixilate", "hustle": "Hustle",
     "harvest": "Harvest", "stall": "Stall", "competitive": "Competitive", "friendguard": "Friend Guard",
     "goodasgold": "Good as Gold", "hypercutter": "Hyper Cutter", "regenerator": "Regenerator", "windrider": "Wind Rider",
-    "corrosion": "Corrosion", "suctioncups": "Suction Cups",
+    "corrosion": "Corrosion", "suctioncups": "Suction Cups", "stench": "Stench",
 }
 
 
