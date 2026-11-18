@@ -2037,6 +2037,17 @@ becomes Erlangmon: Blast Mode.
 
 ![Digimon E section, EBEmon to Eyesmon: Scatter Mode](docs/digimon_e1.png)
 
+**The whole F section (CobbleEffort 1.3.0 / Digital 0.8.0)**: 34 Digimon from wikimon's F list, Fairimon to Fuxishou,
+at the same detail standard. That covers Fenriloogamon (a colossal wolf of blue spirit fire) and Fenriloogamon:
+Takemikazuchi (with thrusters and a thunder sword in its jaws), the frost bird Fros Velgrmon and its glowing tail of
+ice plumes, Fujinmon with its wind-gatling, the Legendary Warriors' Flamon and Fairimon, Fladramon, Flaremon and
+Firamon, Fantomon the reaper, Fumamon the cyborg ninja, Footmon, Frozomon the snowplough beast, the bees Flybeemon,
+Funbeemon and Forgebeemon, and the babies from Fufumon to Fusamon. Falcomon (2006 Anime Version) is left out under the
+anime-version rule. Evolutions follow wikimon: Flamon can become Agnimon or Flare Lizamon, Funbeemon becomes Flymon or
+Forgebeemon, Firamon becomes Flaremon, and Fairimon becomes Ancient Irismon.
+
+![Digimon F section, Fairimon to Fuxishou](docs/digimon_f1.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

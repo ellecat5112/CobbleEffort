@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:frosvelgrmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:frosvelgrmon",
+   "model": "cobbleeffort:frosvelgrmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3774_frosvelgrmon/frosvelgrmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

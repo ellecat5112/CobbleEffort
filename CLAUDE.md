@@ -492,6 +492,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   wings via `panef`, rainbow blades), `_erlangmon` (blast flag), `_examon` (x flag: the quadruped dragon vs the upright
   knight). Seated figures (Enmamon on its throne) use `_dorbickmon.mount()` after dropping the humanoid's leg bones.
   Round masses read better from `_digibeast.ball()` than from one big round_box (Etemon Chaos's cable sphere).
+  The whole F section is in (1.3.0 / Digital 0.8.0, 34 entries; Falcomon (2006 Anime Version) skipped). New builder
+  `_fenriloogamon.make(name, take)` (spirit-fire wolf; `take` adds thrusters + the sword in its jaws); Flare Lizamon is
+  `_variant.clone("darklizamon", ...)`. Fujitsumon (no level on wikimon, an anime still) and Fuxishou (no facts) are
+  Child. `spike(..., tip=t)` tips under ~0.8 units barely show: use tip >= 0.8 where the spike must read (Filmon's quills).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

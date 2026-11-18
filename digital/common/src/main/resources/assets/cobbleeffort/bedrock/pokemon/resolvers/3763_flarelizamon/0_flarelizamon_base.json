@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:flarelizamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:flarelizamon",
+   "model": "cobbleeffort:flarelizamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3763_flarelizamon/flarelizamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

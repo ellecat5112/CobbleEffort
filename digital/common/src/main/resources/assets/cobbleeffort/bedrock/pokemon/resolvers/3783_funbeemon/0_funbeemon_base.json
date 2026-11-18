@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:funbeemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:funbeemon",
+   "model": "cobbleeffort:funbeemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3783_funbeemon/funbeemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3783_funbeemon/funbeemon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3783_funbeemon/funbeemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3783_funbeemon/funbeemon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

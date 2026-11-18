@@ -192,7 +192,33 @@
    ]
   },
   {
-   "id": "bokomon_greymon_6",
+   "id": "bokomon_fladramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:fladramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bokomon_flawizarmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:flawizarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bokomon_greymon_8",
    "variant": "level_up",
    "result": "cobbleeffort:greymon",
    "consumeHeldItem": false,

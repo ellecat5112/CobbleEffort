@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:fujinmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:fujinmon",
+   "model": "cobbleeffort:fujinmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3778_fujinmon/fujinmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

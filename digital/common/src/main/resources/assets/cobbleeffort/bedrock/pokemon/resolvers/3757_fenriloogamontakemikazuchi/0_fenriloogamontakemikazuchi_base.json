@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:fenriloogamontakemikazuchi",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:fenriloogamontakemikazuchi",
+   "model": "cobbleeffort:fenriloogamontakemikazuchi.geo",
+   "texture": "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_glow_0.png",
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_glow_1.png",
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3757_fenriloogamontakemikazuchi/fenriloogamontakemikazuchi_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

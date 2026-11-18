@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:flybeemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:flybeemon",
+   "model": "cobbleeffort:flybeemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3768_flybeemon/flybeemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3768_flybeemon/flybeemon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3768_flybeemon/flybeemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3768_flybeemon/flybeemon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

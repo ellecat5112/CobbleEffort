@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:footmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:footmon",
+   "model": "cobbleeffort:footmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3770_footmon/footmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3770_footmon/footmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3770_footmon/footmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

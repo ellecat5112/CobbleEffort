@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:flymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:flymon",
+   "model": "cobbleeffort:flymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3769_flymon/flymon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3769_flymon/flymon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3769_flymon/flymon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3769_flymon/flymon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

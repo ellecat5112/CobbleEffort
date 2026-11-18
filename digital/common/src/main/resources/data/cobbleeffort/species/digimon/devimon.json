@@ -323,7 +323,20 @@
    ]
   },
   {
-   "id": "devimon_metalgreymon_16",
+   "id": "devimon_fantomon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:fantomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "devimon_metalgreymon_17",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,
