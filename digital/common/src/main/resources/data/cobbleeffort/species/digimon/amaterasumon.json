@@ -124,5 +124,20 @@
   "tm:sunnyday",
   "tm:terablast",
   "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "amaterasumon_enmamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:enmamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
  ]
 }

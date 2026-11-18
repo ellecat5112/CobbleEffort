@@ -2025,6 +2025,18 @@ Dukemon or Ancient Garurumon.
 
 ![Digimon D section, Dagomon to Dynasmon (X-Antibody)](docs/digimon_d1.png)
 
+**The whole E section (CobbleEffort 1.2.0 / Digital 0.7.0)**: 30 Digimon from wikimon's E list, EBEmon to Eyesmon:
+Scatter Mode, at the same detail standard. That covers the Royal Knight Examon (the great crimson dragon, and its
+X-Antibody dragon-knight form), the three Eosmon of Digimon Adventure: Last Evolution Kizuna (crystal cluster, vast
+hexagon-paned wings, rainbow blades), Erlangmon and its Blast Mode, Enmamon judging from its floating throne, El
+Doradimon carrying a city of gold on its shell, Etemon and Etemon Chaos (a sphere of tangled network cables), EBEmon
+and its X-Antibody form, Elecmon and Elecmon (Violet), and the rest from Ebi Burgamon to Ex-Tyranomon. Earthdramon is
+left out because wikimon has no picture of it. Evolutions again follow wikimon: Elecmon can become Angemon or
+Aegiomon, Ebi Burgamon becomes Ebidramon or Burgamon Adult, the Eosmon evolve into each other in turn, and Erlangmon
+becomes Erlangmon: Blast Mode.
+
+![Digimon E section, EBEmon to Eyesmon: Scatter Mode](docs/digimon_e1.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:eldoradimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:eldoradimon",
+   "model": "cobbleeffort:eldoradimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3727_eldoradimon/eldoradimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

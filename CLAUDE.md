@@ -487,6 +487,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (base/x/crimson), `_dynasmon`, `_dracomon`, `_duramon`, plus `_darkknightmon`, `_darktyranomon`,
   `_darknessbagramon`. Cut-out `inside` functions take (x, y, z, face, box) and call `local()` themselves. Lances
   aimed straight along -z vanish from the front: angle them down.
+  The whole E section is in (1.2.0 / Digital 0.7.0, 30 entries; Earthdramon skipped, no picture on wikimon). New
+  builders: `_ebemon`, `_elecmon` (violet flag), `_eosmon` (stage adult/perfect/ultimate: translucent hexagon-paned
+  wings via `panef`, rainbow blades), `_erlangmon` (blast flag), `_examon` (x flag: the quadruped dragon vs the upright
+  knight). Seated figures (Enmamon on its throne) use `_dorbickmon.mount()` after dropping the humanoid's leg bones.
+  Round masses read better from `_digibeast.ball()` than from one big round_box (Etemon Chaos's cable sphere).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

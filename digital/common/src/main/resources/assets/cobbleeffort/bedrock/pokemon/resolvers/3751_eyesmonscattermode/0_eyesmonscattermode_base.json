@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:eyesmonscattermode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:eyesmonscattermode",
+   "model": "cobbleeffort:eyesmonscattermode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3751_eyesmonscattermode/eyesmonscattermode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

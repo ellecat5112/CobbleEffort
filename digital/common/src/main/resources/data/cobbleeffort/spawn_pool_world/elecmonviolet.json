@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "elecmonviolet-wild",
+   "pokemon": "cobbleeffort:elecmonviolet",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "8-22",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_hills",
+     "#cobblemon:is_plains",
+     "#cobblemon:is_spooky",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

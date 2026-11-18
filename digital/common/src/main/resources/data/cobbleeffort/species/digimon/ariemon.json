@@ -127,5 +127,20 @@
   "tm:surf",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "ariemon_enmamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:enmamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:darumamon"
 }

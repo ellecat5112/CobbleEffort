@@ -181,7 +181,20 @@
    ]
   },
   {
-   "id": "deltamon_metalgreymon_5",
+   "id": "deltamon_etemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "deltamon_metalgreymon_6",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

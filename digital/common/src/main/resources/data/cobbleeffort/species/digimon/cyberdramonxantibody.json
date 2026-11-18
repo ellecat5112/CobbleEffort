@@ -126,5 +126,20 @@
   "tm:substitute",
   "tm:taunt",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "cyberdramonxantibody_ebemonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:ebemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
  ]
 }

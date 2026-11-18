@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:elecmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:elecmon",
+   "model": "cobbleeffort:elecmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3728_elecmon/elecmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3728_elecmon/elecmon_shiny.png"
+  }
+ ]
+}

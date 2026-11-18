@@ -1,0 +1,143 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3740,
+ "name": "Espimon",
+ "primaryType": "steel",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.espimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "speedboost",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 40,
+  "attack": 65,
+  "defence": 45,
+  "special_attack": 50,
+  "special_defence": 45,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 1.3,
+  "height": 2.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:gust",
+  "9:mirrorshot",
+  "13:wingattack",
+  "17:ironhead",
+  "21:aerialace",
+  "25:flashcannon",
+  "29:aircutter",
+  "33:smartstrike",
+  "37:airslash",
+  "41:meteormash",
+  "45:drillpeck",
+  "49:heavyslam",
+  "53:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "espimon_blacktailmonuver",
+   "variant": "level_up",
+   "result": "cobbleeffort:blacktailmonuver",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

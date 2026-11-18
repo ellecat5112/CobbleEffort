@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:eosmonultimate",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:eosmonultimate",
+   "model": "cobbleeffort:eosmonultimate.geo",
+   "texture": "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_glow_0.png",
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_glow_1.png",
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3737_eosmonultimate/eosmonultimate_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

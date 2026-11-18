@@ -126,5 +126,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "breakdramon_examon",
+   "variant": "level_up",
+   "result": "cobbleeffort:examon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:doruguremon"
 }
