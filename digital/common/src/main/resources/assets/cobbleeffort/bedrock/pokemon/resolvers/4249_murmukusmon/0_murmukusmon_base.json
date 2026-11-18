@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:murmukusmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:murmukusmon",
+   "model": "cobbleeffort:murmukusmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4249_murmukusmon/murmukusmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

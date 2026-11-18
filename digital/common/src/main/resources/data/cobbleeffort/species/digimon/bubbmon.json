@@ -105,5 +105,20 @@
   "tm:substitute",
   "tm:surf",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "bubbmon_mochimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:mochimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
  ]
 }

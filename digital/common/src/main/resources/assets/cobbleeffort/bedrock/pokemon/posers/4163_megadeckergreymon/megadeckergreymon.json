@@ -1,0 +1,74 @@
+{
+ "portraitScale": 0.04,
+ "portraitTranslation": [
+  0,
+  24.75,
+  0
+ ],
+ "profileScale": 0.02,
+ "profileTranslation": [
+  0,
+  11.25,
+  0
+ ],
+ "rootBone": "megadeckergreymon",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_megadeckergreymon', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_megadeckergreymon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_megadeckergreymon', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_megadeckergreymon', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_megadeckergreymon', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_megadeckergreymon', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_megadeckergreymon', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_megadeckergreymon', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_megadeckergreymon', 'sleep')"
+   ]
+  }
+ }
+}

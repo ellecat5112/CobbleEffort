@@ -1,0 +1,128 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4117,
+ "name": "Mach Leomon",
+ "primaryType": "fighting",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.machleomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "justified",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 110,
+  "defence": 85,
+  "special_attack": 60,
+  "special_defence": 75,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.25,
+ "hitbox": {
+  "width": 3.6,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:lowkick",
+  "5:tackle",
+  "9:karatechop",
+  "13:quickattack",
+  "17:machpunch",
+  "21:headbutt",
+  "25:brickbreak",
+  "29:slam",
+  "33:drainpunch",
+  "37:bodyslam",
+  "41:aurasphere",
+  "45:doubleedge",
+  "49:closecombat",
+  "53:hypervoice",
+  "57:focusblast",
+  "61:gigaimpact",
+  "tm:aurasphere",
+  "tm:bodyslam",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:doubleedge",
+  "tm:drainpunch",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ]
+}

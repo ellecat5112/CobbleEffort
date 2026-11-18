@@ -211,6 +211,19 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "budmon_mushmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:mushmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:botamon"

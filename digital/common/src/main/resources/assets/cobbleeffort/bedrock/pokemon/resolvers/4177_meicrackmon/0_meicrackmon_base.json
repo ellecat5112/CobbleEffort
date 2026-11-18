@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:meicrackmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:meicrackmon",
+   "model": "cobbleeffort:meicrackmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4177_meicrackmon/meicrackmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

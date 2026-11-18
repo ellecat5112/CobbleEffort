@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:mushmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:mushmon",
+   "model": "cobbleeffort:mushmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4251_mushmon/mushmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4251_mushmon/mushmon_shiny.png"
+  }
+ ]
+}

@@ -126,5 +126,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "huanglongmon_master",
+   "variant": "level_up",
+   "result": "cobbleeffort:master",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:baihumon"
 }

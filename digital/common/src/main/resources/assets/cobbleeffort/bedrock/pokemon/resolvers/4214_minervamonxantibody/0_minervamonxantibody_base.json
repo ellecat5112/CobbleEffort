@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:minervamonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:minervamonxantibody",
+   "model": "cobbleeffort:minervamonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4214_minervamonxantibody/minervamonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4214_minervamonxantibody/minervamonxantibody_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4214_minervamonxantibody/minervamonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4214_minervamonxantibody/minervamonxantibody_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

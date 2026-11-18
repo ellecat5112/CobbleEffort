@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:miragegaogamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:miragegaogamon",
+   "model": "cobbleeffort:miragegaogamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4218_miragegaogamon/miragegaogamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

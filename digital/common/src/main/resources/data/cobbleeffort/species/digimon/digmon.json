@@ -203,6 +203,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "digmon_magnamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "digmon_magnamonxantibody_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "digmon_mummymon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:mummymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:armadimon"

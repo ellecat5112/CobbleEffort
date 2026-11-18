@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:mugendramonmfs3mode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:mugendramonmfs3mode",
+   "model": "cobbleeffort:mugendramonmfs3mode.geo",
+   "texture": "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_glow_0.png",
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_glow_1.png",
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4245_mugendramonmfs3mode/mugendramonmfs3mode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

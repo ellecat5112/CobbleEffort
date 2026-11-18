@@ -1,0 +1,156 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4182,
+ "name": "Meramon X-Antibody",
+ "primaryType": "fire",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.meramonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flashfire",
+  "h:toughclaws"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 2.8,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "9:flamecharge",
+  "17:firefang",
+  "25:incinerate",
+  "33:flamethrower",
+  "41:lavaplume",
+  "49:fireblast",
+  "57:overheat",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "meramonxantibody_cyberdramonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyberdramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramonxantibody_grademon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:grademon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramonxantibody_mamemonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:mamemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:blucomon"
+}

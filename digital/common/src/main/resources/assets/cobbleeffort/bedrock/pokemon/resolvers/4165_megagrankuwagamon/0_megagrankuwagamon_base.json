@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:megagrankuwagamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:megagrankuwagamon",
+   "model": "cobbleeffort:megagrankuwagamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4165_megagrankuwagamon/megagrankuwagamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

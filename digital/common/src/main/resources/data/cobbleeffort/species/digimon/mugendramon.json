@@ -1,0 +1,211 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4244,
+ "name": "Mugendramon",
+ "primaryType": "steel",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.mugendramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "heavymetal",
+  "h:megalauncher"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 7.778,
+ "hitbox": {
+  "width": 5.0,
+  "height": 4.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:dragonbreath",
+  "9:mirrorshot",
+  "13:dragontail",
+  "17:ironhead",
+  "21:dragonclaw",
+  "25:flashcannon",
+  "29:breakingswipe",
+  "33:smartstrike",
+  "37:dragonpulse",
+  "41:meteormash",
+  "45:dragonrush",
+  "49:heavyslam",
+  "53:outrage",
+  "57:steelbeam",
+  "61:dracometeor",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "mugendramon_apocalymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:apocalymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "mugendramon_chaosdramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:chaosdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "mugendramon_dukemonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "mugendramon_himugendramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:himugendramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "mugendramon_huanglongmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:huanglongmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "mugendramon_millenniumon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:millenniumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:metalgreymon"
+}

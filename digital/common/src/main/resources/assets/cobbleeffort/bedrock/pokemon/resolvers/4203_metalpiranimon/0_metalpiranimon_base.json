@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:metalpiranimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:metalpiranimon",
+   "model": "cobbleeffort:metalpiranimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4203_metalpiranimon/metalpiranimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

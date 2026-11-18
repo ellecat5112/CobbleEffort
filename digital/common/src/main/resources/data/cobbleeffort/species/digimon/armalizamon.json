@@ -125,5 +125,20 @@
   "tm:toxic",
   "tm:venoshock"
  ],
+ "evolutions": [
+  {
+   "id": "armalizamon_monarchlizamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:monarchlizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:gekkomon"
 }

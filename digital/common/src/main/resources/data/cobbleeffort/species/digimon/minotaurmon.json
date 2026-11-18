@@ -1,0 +1,222 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4217,
+ "name": "Minotaurmon",
+ "primaryType": "fighting",
+ "secondaryType": "ground",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.minotaurmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "guts",
+  "h:hugepower"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 4.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:lowkick",
+  "5:mudslap",
+  "9:karatechop",
+  "13:mudshot",
+  "17:machpunch",
+  "21:bulldoze",
+  "25:brickbreak",
+  "29:dig",
+  "33:drainpunch",
+  "37:drillrun",
+  "41:aurasphere",
+  "45:earthpower",
+  "49:closecombat",
+  "53:earthquake",
+  "57:focusblast",
+  "61:highhorsepower",
+  "tm:aurasphere",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:dig",
+  "tm:drainpunch",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "minotaurmon_callismon",
+   "variant": "level_up",
+   "result": "cobbleeffort:callismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_cyberdramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyberdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_etemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_grappuleomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:grappuleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_loaderleomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:loaderleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_locomon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:locomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "minotaurmon_mammon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:mammon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:evilmon"
+}

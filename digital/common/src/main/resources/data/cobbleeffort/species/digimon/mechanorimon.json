@@ -1,0 +1,312 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4157,
+ "name": "Mechanorimon",
+ "primaryType": "steel",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.mechanorimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "h:download"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 4.8,
+ "hitbox": {
+  "width": 5.0,
+  "height": 3.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "9:mirrorshot",
+  "17:ironhead",
+  "25:flashcannon",
+  "33:smartstrike",
+  "41:meteormash",
+  "49:heavyslam",
+  "57:steelbeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "mechanorimon_andromon",
+   "variant": "level_up",
+   "result": "cobbleeffort:andromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_anomalocarimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:anomalocarimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_bigmamemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:bigmamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_dagomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:dagomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_extyranomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:extyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_fantomon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:fantomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_gigadramon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:gigadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_giromon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:giromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_hangyomon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_locomon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:locomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_maildramon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_mamemon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:mamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_megadramon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:megadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_metalmamemon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalmamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "mechanorimon_metaltyranomon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:metaltyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:betamon"
+}

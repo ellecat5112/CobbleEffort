@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:megamusoknightmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:megamusoknightmon",
+   "model": "cobbleeffort:megamusoknightmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4169_megamusoknightmon/megamusoknightmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

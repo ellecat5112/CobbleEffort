@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:metalfantomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:metalfantomon",
+   "model": "cobbleeffort:metalfantomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4189_metalfantomon/metalfantomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

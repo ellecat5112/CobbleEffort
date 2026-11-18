@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:millenniumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:millenniumon",
+   "model": "cobbleeffort:millenniumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4211_millenniumon/millenniumon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

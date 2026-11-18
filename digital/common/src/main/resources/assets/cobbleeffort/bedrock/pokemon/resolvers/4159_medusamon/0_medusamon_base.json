@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:medusamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:medusamon",
+   "model": "cobbleeffort:medusamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4159_medusamon/medusamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4159_medusamon/medusamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4234,
+ "name": "Monodramon",
+ "primaryType": "dragon",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.monodramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "toughclaws",
+  "h:hustle"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 35,
+  "special_defence": 50,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "9:dragontail",
+  "17:dragonclaw",
+  "25:breakingswipe",
+  "33:dragonpulse",
+  "41:dragonrush",
+  "49:outrage",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "monodramon_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_allomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_chrysalimon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:chrysalimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_coredramonblue_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:coredramonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_cyclomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyclomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_darklizamon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:darklizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_darktyranomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:darktyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_deltamon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:deltamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_depthmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:depthmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_devidramon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:devidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_dinohumon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:dinohumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_dorugamon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:dorugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_eosmonadult_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:eosmonadult",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_geogreymon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:geogreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_greymon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_growmon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:growmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_kabukimon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:kabukimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_kougamon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:kougamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_lowemon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:lowemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_meicoomon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "monodramon_monochromon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:koromon"
+}

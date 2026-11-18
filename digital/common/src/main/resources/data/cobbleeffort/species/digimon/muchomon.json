@@ -1,0 +1,326 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4243,
+ "name": "Muchomon",
+ "primaryType": "fire",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.muchomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:keeneye"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "5:gust",
+  "9:flamecharge",
+  "13:wingattack",
+  "17:firefang",
+  "21:aerialace",
+  "25:incinerate",
+  "29:aircutter",
+  "33:flamethrower",
+  "37:airslash",
+  "41:lavaplume",
+  "45:drillpeck",
+  "49:fireblast",
+  "53:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:tailwind",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "muchomon_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_akatorimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:akatorimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_allomon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_aquilamon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:aquilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_archelomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:archelomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_birdramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_cockatrimon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:cockatrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_diatrymon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:diatrymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_flarelizamon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:flarelizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_fugamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:fugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_golemon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:golemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_guardromon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:guardromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_hyougamon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:hyougamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_ikkakumon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:ikkakumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "muchomon_mugendramon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:mugendramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:chicchimon"
+}

@@ -126,5 +126,20 @@
   "tm:substitute",
   "tm:taunt",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "blackshoutmonx7_megablackshoutmonx7",
+   "variant": "level_up",
+   "result": "cobbleeffort:megablackshoutmonx7",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
  ]
 }

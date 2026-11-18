@@ -1,0 +1,406 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4167,
+ "name": "Megalo Growmon Orange",
+ "primaryType": "fire",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.megalogrowmonorange.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "blaze",
+  "h:sharpness"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 110,
+  "defence": 85,
+  "special_attack": 60,
+  "special_defence": 75,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.692,
+ "hitbox": {
+  "width": 3.4,
+  "height": 3.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "5:metalclaw",
+  "9:flamecharge",
+  "13:mirrorshot",
+  "17:firefang",
+  "21:ironhead",
+  "25:incinerate",
+  "29:flashcannon",
+  "33:flamethrower",
+  "37:smartstrike",
+  "41:lavaplume",
+  "45:meteormash",
+  "49:fireblast",
+  "53:heavyslam",
+  "57:overheat",
+  "61:steelbeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lavaplume",
+  "tm:meteormash",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "megalogrowmonorange_belphemonragemode",
+   "variant": "level_up",
+   "result": "cobbleeffort:belphemonragemode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_blackwargreymon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackwargreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_blackwargreymonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackwargreymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_breakdramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:breakdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_chaosdukemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:chaosdukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_darkdramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:darkdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_demon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:demon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_dinorexmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:dinorexmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_duftmonxantibody_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:duftmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_dukemon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_dukemoncrimsonmode_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemoncrimsonmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_dukemonxantibody_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_examon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:examon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_hiandromon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:hiandromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_imperialdramondragonmode_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:imperialdramondragonmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_medievaldukemon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:medievaldukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_megidramon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:megidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_megidramonxantibody_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:megidramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_metalgarurumonxantibody_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgarurumonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_metalpiranimon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalpiranimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "megalogrowmonorange_mugendramon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:mugendramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:greymon"
+}

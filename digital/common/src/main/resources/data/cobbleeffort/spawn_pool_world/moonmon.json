@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "moonmon-wild",
+   "pokemon": "cobbleeffort:moonmon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-10",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

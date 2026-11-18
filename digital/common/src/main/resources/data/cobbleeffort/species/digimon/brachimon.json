@@ -151,6 +151,45 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "brachimon_megidramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:megidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "brachimon_metalgarurumon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgarurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "brachimon_metalseadramon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalseadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:ankylomon"

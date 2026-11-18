@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "metalpiranimon-wild",
+   "pokemon": "cobbleeffort:metalpiranimon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-65",
+   "weight": 0.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_beach",
+     "#cobblemon:is_river",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  }
+ ]
+}

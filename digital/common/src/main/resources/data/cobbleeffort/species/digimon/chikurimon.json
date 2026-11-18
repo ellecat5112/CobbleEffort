@@ -123,5 +123,20 @@
   "tm:terablast",
   "tm:toxic",
   "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "chikurimon_madleomonarmedmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:madleomonarmedmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
  ]
 }

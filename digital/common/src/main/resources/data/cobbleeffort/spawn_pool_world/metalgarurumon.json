@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "metalgarurumon-wild",
+   "pokemon": "cobbleeffort:metalgarurumon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-65",
+   "weight": 0.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial"
+    ]
+   }
+  }
+ ]
+}

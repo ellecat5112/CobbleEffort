@@ -1,0 +1,251 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4221,
+ "name": "Mistymon",
+ "primaryType": "fire",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.mistymon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flashfire",
+  "h:magicguard"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.714,
+ "hitbox": {
+  "width": 3.6,
+  "height": 4.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "5:confusion",
+  "9:flamecharge",
+  "13:psybeam",
+  "17:firefang",
+  "21:zenheadbutt",
+  "25:incinerate",
+  "29:psyshock",
+  "33:flamethrower",
+  "37:psychocut",
+  "41:lavaplume",
+  "45:psychic",
+  "49:fireblast",
+  "53:futuresight",
+  "57:overheat",
+  "61:expandingforce",
+  "tm:calmmind",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:lightscreen",
+  "tm:overheat",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "mistymon_blackwargreymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackwargreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_chaosdukemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:chaosdukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_cherubimonvice_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:cherubimonvice",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_craniummon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:craniummon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_dynasmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:dynasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_dynasmonxantibody_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:dynasmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_lordknightmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:lordknightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_medievaldukemon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:medievaldukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mistymon_megidramon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:megidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:firamon"
+}

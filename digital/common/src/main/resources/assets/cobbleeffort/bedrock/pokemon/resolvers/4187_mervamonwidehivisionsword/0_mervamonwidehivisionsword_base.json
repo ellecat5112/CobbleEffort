@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:mervamonwidehivisionsword",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:mervamonwidehivisionsword",
+   "model": "cobbleeffort:mervamonwidehivisionsword.geo",
+   "texture": "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_glow_0.png",
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_glow_1.png",
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4187_mervamonwidehivisionsword/mervamonwidehivisionsword_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

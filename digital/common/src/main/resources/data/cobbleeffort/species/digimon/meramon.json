@@ -1,0 +1,507 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4181,
+ "name": "Meramon",
+ "primaryType": "fire",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.meramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "flamebody",
+  "h:flashfire"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 2.8,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:ember",
+  "9:flamecharge",
+  "17:firefang",
+  "25:incinerate",
+  "33:flamethrower",
+  "41:lavaplume",
+  "49:fireblast",
+  "57:overheat",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "meramon_aldamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:aldamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_andromon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:andromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_anomalocarimon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:anomalocarimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_asuramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:asuramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_bigmamemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:bigmamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_blackmegalogrowmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackmegalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_bluemeramon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:bluemeramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_dagomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:dagomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_darksuperstarmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:darksuperstarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_deathmeramon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathmeramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_etemon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_flaremon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:flaremon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_garudamon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:garudamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_garudamonxantibody_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:garudamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_gigasmon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:gigasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_groundramon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:groundramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_hangyomon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_jyagamon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:jyagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_ladydevimon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:ladydevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_lavogaritamon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:lavogaritamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_maildramon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "meramon_mamemon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:mamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_marindevimon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:marindevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_mastertyranomon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:mastertyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_megadramon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:megadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_megalogrowmon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:megalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_mephismon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:mephismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_meramonxantibody_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:meramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "meramon_metalgreymonvirus_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymonvirus",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "meramon_mummymon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:mummymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

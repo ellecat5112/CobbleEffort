@@ -128,5 +128,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "flawizarmon_mistymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:mistymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:bokomon"
 }

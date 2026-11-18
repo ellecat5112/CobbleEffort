@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:matadrmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:matadrmon",
+   "model": "cobbleeffort:matadrmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4156_matadrmon/matadrmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -179,6 +179,32 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "blimpmon_masterblimpmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:masterblimpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "blimpmon_metalmamemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalmamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:gazimon"

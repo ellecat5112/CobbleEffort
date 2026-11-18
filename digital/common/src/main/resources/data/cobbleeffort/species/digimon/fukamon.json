@@ -116,5 +116,20 @@
   "tm:swordsdance",
   "tm:tailwind",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "fukamon_mococomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:mococomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
  ]
 }

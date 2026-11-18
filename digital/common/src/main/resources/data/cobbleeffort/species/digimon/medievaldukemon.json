@@ -1,0 +1,131 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4158,
+ "name": "Medieval Dukemon",
+ "primaryType": "steel",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.medievaldukemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "justified",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 3.0,
+  "height": 4.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:bite",
+  "9:mirrorshot",
+  "13:pursuit",
+  "17:ironhead",
+  "21:assurance",
+  "25:flashcannon",
+  "29:nightslash",
+  "33:smartstrike",
+  "37:crunch",
+  "41:meteormash",
+  "45:darkpulse",
+  "49:heavyslam",
+  "53:knockoff",
+  "57:steelbeam",
+  "61:foulplay",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:foulplay",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:knockoff",
+  "tm:meteormash",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:dukemon"
+}

@@ -110,5 +110,20 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "cougarmon_murasamemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:murasamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:liollmon"
 }

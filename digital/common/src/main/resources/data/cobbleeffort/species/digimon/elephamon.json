@@ -126,5 +126,33 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "elephamon_mastertyranomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:mastertyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "elephamon_megalogrowmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:megalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:armadimon"
 }

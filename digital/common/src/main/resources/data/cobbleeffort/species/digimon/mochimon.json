@@ -1,0 +1,321 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4223,
+ "name": "Mochimon",
+ "primaryType": "normal",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.mochimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "h:cutecharm"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 35,
+  "attack": 30,
+  "defence": 35,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "slow",
+ "catchRate": 220,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 1.2,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "9:quickattack",
+  "17:headbutt",
+  "25:slam",
+  "33:bodyslam",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "mochimon_angoramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:angoramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_candmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:candmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_chibikamemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:chibikamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_dokunemon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:dokunemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_elecmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:elecmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_funbeemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:funbeemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_ganimon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:ganimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_goburimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:goburimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_gottsumon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:gottsumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_hagurumon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:hagurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_huckmon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:huckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_impmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:impmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_kokabuterimon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:kokabuterimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_kunemon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:kunemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_lalamon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:lalamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_morphomon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:morphomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:bubbmon"
+}

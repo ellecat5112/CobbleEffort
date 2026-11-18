@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4192,
+ "name": "Metal Garurumon Red",
+ "primaryType": "steel",
+ "secondaryType": "fire",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.metalgarurumonred.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "megalauncher",
+  "h:flashfire"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 70,
+  "defence": 85,
+  "special_attack": 130,
+  "special_defence": 105,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 15.556,
+ "hitbox": {
+  "width": 4.4,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:ember",
+  "9:mirrorshot",
+  "13:flamecharge",
+  "17:ironhead",
+  "21:firefang",
+  "25:flashcannon",
+  "29:incinerate",
+  "33:smartstrike",
+  "37:flamethrower",
+  "41:meteormash",
+  "45:lavaplume",
+  "49:heavyslam",
+  "53:fireblast",
+  "57:steelbeam",
+  "61:overheat",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lavaplume",
+  "tm:meteormash",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ]
+}

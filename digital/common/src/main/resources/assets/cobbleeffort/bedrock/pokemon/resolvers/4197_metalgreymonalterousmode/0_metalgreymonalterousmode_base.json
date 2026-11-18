@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:metalgreymonalterousmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:metalgreymonalterousmode",
+   "model": "cobbleeffort:metalgreymonalterousmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4197_metalgreymonalterousmode/metalgreymonalterousmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

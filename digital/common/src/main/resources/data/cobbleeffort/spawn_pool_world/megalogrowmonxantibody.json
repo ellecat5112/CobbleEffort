@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "megalogrowmonxantibody-wild",
+   "pokemon": "cobbleeffort:megalogrowmonxantibody",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "35-50",
+   "weight": 0.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_savanna",
+     "#cobblemon:is_mountain"
+    ]
+   }
+  }
+ ]
+}

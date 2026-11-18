@@ -200,6 +200,20 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "lunamon_madleomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:madleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:moonmon"
 }

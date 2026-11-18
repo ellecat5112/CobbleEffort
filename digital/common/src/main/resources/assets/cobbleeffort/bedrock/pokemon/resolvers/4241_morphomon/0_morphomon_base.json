@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:morphomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:morphomon",
+   "model": "cobbleeffort:morphomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4241_morphomon/morphomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4241_morphomon/morphomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4241_morphomon/morphomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4241_morphomon/morphomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

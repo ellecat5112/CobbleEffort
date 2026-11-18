@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "moosemon-wild",
+   "pokemon": "cobbleeffort:moosemon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "20-35",
+   "weight": 1.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial",
+     "#cobblemon:is_plains",
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

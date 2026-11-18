@@ -253,6 +253,46 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "ganimon_monochromon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_monochromonxantibody_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_morishellmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:morishellmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:mochimon"
 }

@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4127,
+ "name": "Magnamon X-Antibody",
+ "primaryType": "steel",
+ "secondaryType": "fairy",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.magnamonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "justified",
+  "h:sturdy"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.75,
+ "hitbox": {
+  "width": 4.6,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:fairywind",
+  "9:mirrorshot",
+  "13:disarmingvoice",
+  "17:ironhead",
+  "21:drainingkiss",
+  "25:flashcannon",
+  "29:dazzlinggleam",
+  "33:smartstrike",
+  "37:playrough",
+  "41:meteormash",
+  "45:moonblast",
+  "49:heavyslam",
+  "53:spiritbreak",
+  "57:steelbeam",
+  "61:fleurcannon",
+  "tm:dazzlinggleam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:fleurcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:spiritbreak",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:cannonbeemon"
+}
