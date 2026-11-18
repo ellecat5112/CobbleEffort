@@ -131,6 +131,7 @@ ABILITY_NAMES = {
     "steamengine": "Steam Engine",
     "triage": "Triage",
     "magnetpull": "Magnet Pull",
+    "moldbreaker": "Mold Breaker",
 }
 
 
