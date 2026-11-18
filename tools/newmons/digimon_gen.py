@@ -123,6 +123,7 @@ ABILITY_NAMES = {
     "multiscale": "Multiscale", "rattled": "Rattled", "galvanize": "Galvanize",
     "lightmetal": "Light Metal",
     "magician": "Magician",
+    "electricsurge": "Electric Surge",
 }
 
 
