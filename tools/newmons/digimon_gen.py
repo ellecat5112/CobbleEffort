@@ -120,7 +120,7 @@ ABILITY_NAMES = {
     "harvest": "Harvest", "stall": "Stall", "competitive": "Competitive", "friendguard": "Friend Guard",
     "goodasgold": "Good as Gold", "hypercutter": "Hyper Cutter", "regenerator": "Regenerator", "windrider": "Wind Rider",
     "corrosion": "Corrosion", "suctioncups": "Suction Cups", "stench": "Stench",
-    "multiscale": "Multiscale", "rattled": "Rattled",
+    "multiscale": "Multiscale", "rattled": "Rattled", "galvanize": "Galvanize",
 }
 
 
