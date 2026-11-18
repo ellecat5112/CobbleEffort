@@ -1,7 +1,8 @@
 """Shared builder for the Numemon-type slugs (CobbleEffort: Digital; hand-built after the official art on wikimon.net):
 a glossy blob of slime that pools out at its base into stubby lobes, two bloodshot eyes on long stalks, a huge gaping
 mouth with a row of big square teeth and a long lolling pink tongue. Looks set the colours: Geremon (yellow with
-brown spots), Gigantic Numemon (lime green with blue patches), Gold Numemon (molten gold), plus extras: golden
+brown spots), Gigantic Numemon (lime green with blue patches), Gold Numemon (molten gold), Numemon (green,
+blue patches), Numemon (X-Antibody) (hot pink), plus extras: golden
 wings and a pearl necklace for the Gold Numemon.
 """
 from __future__ import annotations
@@ -18,7 +19,11 @@ LOOKS = {"geremon": {"slime": (250, 214, 50), "slime_dark": (200, 150, 20), "sli
          "gigantic": {"slime": (150, 220, 60), "slime_dark": (90, 160, 20), "slime_light": (220, 255, 150),
                       "spot": (60, 80, 200)},
          "gold": {"slime": (240, 190, 50), "slime_dark": (170, 120, 20), "slime_light": (255, 240, 160),
-                  "spot": (200, 140, 30)}}
+                  "spot": (200, 140, 30)},
+         "numemon": {"slime": (130, 210, 60), "slime_dark": (70, 150, 20), "slime_light": (210, 250, 150),
+                     "spot": (70, 80, 190)},
+         "x": {"slime": (240, 90, 150), "slime_dark": (170, 40, 100), "slime_light": (255, 190, 220),
+               "spot": (150, 60, 170)}}
 COMMON = {"white": (250, 250, 246), "iris": (200, 30, 40), "pupil": (20, 16, 16), "mouth": (60, 14, 24),
           "tooth": (250, 250, 240), "tongue": (240, 90, 130), "tongue_dark": (170, 40, 90), "gold": (250, 210, 60),
           "gold_dark": (170, 120, 20), "gem": (220, 30, 60)}
