@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:gravimondarknessmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gravimondarknessmode",
+   "model": "cobbleeffort:gravimondarknessmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3879_gravimondarknessmode/gravimondarknessmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

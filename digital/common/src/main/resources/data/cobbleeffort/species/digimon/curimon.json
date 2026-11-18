@@ -105,5 +105,20 @@
   "tm:substitute",
   "tm:swordsdance",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "curimon_gurimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:gurimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
  ]
 }

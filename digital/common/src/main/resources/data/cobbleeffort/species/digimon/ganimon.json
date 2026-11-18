@@ -1,0 +1,245 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3798,
+ "name": "Ganimon",
+ "primaryType": "water",
+ "secondaryType": "bug",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.ganimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "shellarmor",
+  "h:hypercutter"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 35,
+  "special_defence": 50,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 2.2,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "5:bugbite",
+  "9:aquajet",
+  "13:strugglebug",
+  "17:waterpulse",
+  "21:furycutter",
+  "25:bubblebeam",
+  "29:signalbeam",
+  "33:aquatail",
+  "37:xscissor",
+  "41:surf",
+  "45:bugbuzz",
+  "49:liquidation",
+  "53:lunge",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:bugbuzz",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "ganimon_allomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_archelomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:archelomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_coelamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:coelamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_ebidramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:ebidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_galgomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:galgomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_gawappamon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:gawappamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_gekomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:gekomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_gesomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "ganimon_gesomonxantibody_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

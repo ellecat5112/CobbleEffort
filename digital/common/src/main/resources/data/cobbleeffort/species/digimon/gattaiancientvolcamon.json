@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3815,
+ "name": "Gattai Ancient Volcamon",
+ "primaryType": "ground",
+ "secondaryType": "fire",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.gattaiancientvolcamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "solidrock",
+  "h:flamebody"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 125,
+  "attack": 95,
+  "defence": 130,
+  "special_attack": 70,
+  "special_defence": 100,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 3,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 4.4,
+  "height": 4.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:mudslap",
+  "5:ember",
+  "9:mudshot",
+  "13:flamecharge",
+  "17:bulldoze",
+  "21:firefang",
+  "25:dig",
+  "29:incinerate",
+  "33:drillrun",
+  "37:flamethrower",
+  "41:earthpower",
+  "45:lavaplume",
+  "49:earthquake",
+  "53:fireblast",
+  "57:highhorsepower",
+  "61:overheat",
+  "tm:dig",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:overheat",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ]
+}

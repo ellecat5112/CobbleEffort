@@ -153,6 +153,32 @@
      "minLevel": 60
     }
    ]
+  },
+  {
+   "id": "butenmon_gaioumon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:gaioumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "butenmon_griffomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:griffomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:buraimon"

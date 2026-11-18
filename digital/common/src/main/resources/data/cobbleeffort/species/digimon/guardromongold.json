@@ -1,0 +1,183 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3898,
+ "name": "Guardromon Gold",
+ "primaryType": "steel",
+ "secondaryType": "fairy",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.guardromongold.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "heavymetal",
+  "h:goodasgold"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 50,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:fairywind",
+  "9:mirrorshot",
+  "13:disarmingvoice",
+  "17:ironhead",
+  "21:drainingkiss",
+  "25:flashcannon",
+  "29:dazzlinggleam",
+  "33:smartstrike",
+  "37:playrough",
+  "41:meteormash",
+  "45:moonblast",
+  "49:heavyslam",
+  "53:spiritbreak",
+  "57:steelbeam",
+  "61:fleurcannon",
+  "tm:dazzlinggleam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:fleurcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:spiritbreak",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "guardromongold_andromon",
+   "variant": "level_up",
+   "result": "cobbleeffort:andromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "guardromongold_cannonbeemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:cannonbeemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "guardromongold_duramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:duramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "guardromongold_grademon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:grademon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:clearagumon"
+}

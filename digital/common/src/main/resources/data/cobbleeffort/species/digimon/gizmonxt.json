@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3845,
+ "name": "Gizmon XT",
+ "primaryType": "steel",
+ "secondaryType": "poison",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.gizmonxt.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "download",
+  "h:moxie"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 10.0,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:poisonsting",
+  "9:mirrorshot",
+  "13:acid",
+  "17:ironhead",
+  "21:poisonfang",
+  "25:flashcannon",
+  "29:venoshock",
+  "33:smartstrike",
+  "37:poisonjab",
+  "41:meteormash",
+  "45:sludgebomb",
+  "49:heavyslam",
+  "53:gunkshot",
+  "57:steelbeam",
+  "61:sludgewave",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gunkshot",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ],
+ "preEvolution": "cobbleeffort:gizmonat"
+}

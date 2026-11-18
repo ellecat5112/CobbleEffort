@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3889,
+ "name": "Griffomon",
+ "primaryType": "flying",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.griffomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "intimidate",
+  "h:aerilate"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 15.556,
+ "hitbox": {
+  "width": 4.4,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:gust",
+  "5:tackle",
+  "9:wingattack",
+  "13:quickattack",
+  "17:aerialace",
+  "21:headbutt",
+  "25:aircutter",
+  "29:slam",
+  "33:airslash",
+  "37:bodyslam",
+  "41:drillpeck",
+  "45:doubleedge",
+  "49:bravebird",
+  "53:hypervoice",
+  "57:hurricane",
+  "61:gigaimpact",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bodyslam",
+  "tm:bravebird",
+  "tm:doubleedge",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:blossomon"
+}

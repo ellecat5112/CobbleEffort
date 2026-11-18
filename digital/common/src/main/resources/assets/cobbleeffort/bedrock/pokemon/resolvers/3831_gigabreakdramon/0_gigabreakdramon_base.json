@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:gigabreakdramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gigabreakdramon",
+   "model": "cobbleeffort:gigabreakdramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3831_gigabreakdramon/gigabreakdramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

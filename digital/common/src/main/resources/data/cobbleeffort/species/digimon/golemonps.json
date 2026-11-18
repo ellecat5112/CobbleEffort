@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3860,
+ "name": "Golemon PS",
+ "primaryType": "rock",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.golemonps.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sturdy",
+  "h:download"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 70,
+  "defence": 95,
+  "special_attack": 50,
+  "special_defence": 75,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:flint",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:rockthrow",
+  "5:metalclaw",
+  "9:rocktomb",
+  "13:mirrorshot",
+  "17:ancientpower",
+  "21:ironhead",
+  "25:rockslide",
+  "29:flashcannon",
+  "33:powergem",
+  "37:smartstrike",
+  "41:stoneedge",
+  "45:meteormash",
+  "49:headsmash",
+  "53:heavyslam",
+  "57:rockwrecker",
+  "61:steelbeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:headsmash",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:powergem",
+  "tm:protect",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:stealthrock",
+  "tm:steelbeam",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:terablast"
+ ]
+}

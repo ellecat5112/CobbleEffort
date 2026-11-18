@@ -179,7 +179,20 @@
    ]
   },
   {
-   "id": "coelamon_metalgreymon_5",
+   "id": "coelamon_giromon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:giromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "coelamon_metalgreymon_6",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

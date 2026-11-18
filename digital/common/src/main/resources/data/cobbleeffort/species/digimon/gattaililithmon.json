@@ -1,0 +1,129 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3816,
+ "name": "Gattai Lilithmon",
+ "primaryType": "dark",
+ "secondaryType": "poison",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.gattaililithmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "corrosion",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 70,
+  "defence": 85,
+  "special_attack": 130,
+  "special_defence": 105,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.75,
+ "hitbox": {
+  "width": 4.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:poisonsting",
+  "9:pursuit",
+  "13:acid",
+  "17:assurance",
+  "21:poisonfang",
+  "25:nightslash",
+  "29:venoshock",
+  "33:crunch",
+  "37:poisonjab",
+  "41:darkpulse",
+  "45:sludgebomb",
+  "49:knockoff",
+  "53:gunkshot",
+  "57:foulplay",
+  "61:sludgewave",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:gunkshot",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ]
+}

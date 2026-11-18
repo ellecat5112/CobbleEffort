@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:grappuleomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:grappuleomon",
+   "model": "cobbleeffort:grappuleomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3877_grappuleomon/grappuleomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3877_grappuleomon/grappuleomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3877_grappuleomon/grappuleomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3877_grappuleomon/grappuleomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

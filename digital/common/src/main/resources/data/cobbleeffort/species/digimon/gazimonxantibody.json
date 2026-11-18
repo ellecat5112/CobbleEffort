@@ -1,0 +1,376 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3819,
+ "name": "Gazimon X-Antibody",
+ "primaryType": "normal",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.gazimonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "toughclaws",
+  "h:prankster"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 35,
+  "special_defence": 50,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.471,
+ "hitbox": {
+  "width": 1.4,
+  "height": 2.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:bite",
+  "9:quickattack",
+  "13:pursuit",
+  "17:headbutt",
+  "21:assurance",
+  "25:slam",
+  "29:nightslash",
+  "33:bodyslam",
+  "37:crunch",
+  "41:doubleedge",
+  "45:darkpulse",
+  "49:hypervoice",
+  "53:knockoff",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "gazimonxantibody_bitmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:bitmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_blimpmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:blimpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_boarmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:boarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_cyclomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyclomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_darktyranomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:darktyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_deltamon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:deltamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_devidramon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:devidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_devimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:devimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_dobermon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:dobermon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_dobermonxantibody_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:dobermonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_dorugamon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:dorugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_fangmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:fangmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_galgomon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:galgomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_gaogamon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:gaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_gargomon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:gargomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_garurumon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_garurumonxantibody_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_goatmon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:goatmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gazimonxantibody_gryzmon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:gryzmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

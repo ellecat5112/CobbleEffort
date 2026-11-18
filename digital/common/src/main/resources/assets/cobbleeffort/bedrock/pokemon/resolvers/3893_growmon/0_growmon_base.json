@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:growmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:growmon",
+   "model": "cobbleeffort:growmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3893_growmon/growmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3893_growmon/growmon_shiny.png"
+  }
+ ]
+}

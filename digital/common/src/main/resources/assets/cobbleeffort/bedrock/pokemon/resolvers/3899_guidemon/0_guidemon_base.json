@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:guidemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:guidemon",
+   "model": "cobbleeffort:guidemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3899_guidemon/guidemon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3899_guidemon/guidemon_shiny.png"
+  }
+ ]
+}

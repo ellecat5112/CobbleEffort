@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:goatmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:goatmon",
+   "model": "cobbleeffort:goatmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3847_goatmon/goatmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3847_goatmon/goatmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

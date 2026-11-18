@@ -164,6 +164,19 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "commandramon_guardromon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:guardromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bommon"

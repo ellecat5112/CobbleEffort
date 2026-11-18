@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:gummymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gummymon",
+   "model": "cobbleeffort:gummymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3905_gummymon/gummymon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3905_gummymon/gummymon_shiny.png"
+  }
+ ]
+}

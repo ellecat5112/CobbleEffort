@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:grimmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:grimmon",
+   "model": "cobbleeffort:grimmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3890_grimmon/grimmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3890_grimmon/grimmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

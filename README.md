@@ -2048,6 +2048,21 @@ Forgebeemon, Firamon becomes Flaremon, and Fairimon becomes Ancient Irismon.
 
 ![Digimon F section, Fairimon to Fuxishou](docs/digimon_f1.png)
 
+**The whole G section (CobbleEffort 1.4.0 / Digital 0.9.0)**: 125 Digimon from wikimon's G list, G-Cutemon to
+Gyukimon, at the same detail standard. It brings in the Gabumon line (Gabumon and its Black, X-Antibody and
+"Yujo no Kizuna" forms, Garurumon in three looks, Gururumon), the Gaomon line, the Guilmon line (Guilmon and Growmon
+with their Orange and X-Antibody looks), Gammamon, Gurimon and Gulus Gammamon, the Royal Knight Gankoomon (with his
+golden spirit) and its X-Antibody form, Goddramon, Gaioumon and its Itto Mode, Grace Novamon, Grand Dracumon on his
+beast, the Grandis and Gran Kuwagamon, Gravimon and its Darkness Mode, the Ginkakumon pair, the Gizmon war machines,
+Gold Numemon on golden wings, and Greymon in five more colours plus its "G" Erosion Mode (built on the Agumon line's
+own Greymon body). Greymon itself was already in (the Agumon line). Left out: Greymon (2010 Anime Version) and
+Greymon + Skull Knightmon (the anime/combo rule) and Gaiamon (no picture on wikimon). Evolutions follow wikimon:
+Gammamon becomes Gulus Gammamon, Grottomon becomes Gigasmon, Gaomon becomes Gaogamon, and the Greymon colours lead on
+to MetalGreymon.
+
+![Digimon G section, part 1: G-Cutemon to Gold Numemon](docs/digimon_g1.png)
+![Digimon G section, part 2: Gold Numemon (Ultimate) to Gyukimon](docs/digimon_g2.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:gabumonyujonokizuna",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gabumonyujonokizuna",
+   "model": "cobbleeffort:gabumonyujonokizuna.geo",
+   "texture": "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_glow_0.png",
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_glow_1.png",
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3790_gabumonyujonokizuna/gabumonyujonokizuna_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

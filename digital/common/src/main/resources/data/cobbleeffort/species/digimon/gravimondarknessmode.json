@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3879,
+ "name": "Gravimon Darkness Mode",
+ "primaryType": "dark",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.gravimondarknessmode.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "pressure",
+  "h:galvanize"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.061,
+ "hitbox": {
+  "width": 4.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:thundershock",
+  "9:pursuit",
+  "13:spark",
+  "17:assurance",
+  "21:shockwave",
+  "25:nightslash",
+  "29:thunderfang",
+  "33:crunch",
+  "37:discharge",
+  "41:darkpulse",
+  "45:thunderbolt",
+  "49:knockoff",
+  "53:wildcharge",
+  "57:foulplay",
+  "61:thunder",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:discharge",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderfang",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge"
+ ]
+}

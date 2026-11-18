@@ -496,6 +496,17 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_fenriloogamon.make(name, take)` (spirit-fire wolf; `take` adds thrusters + the sword in its jaws); Flare Lizamon is
   `_variant.clone("darklizamon", ...)`. Fujitsumon (no level on wikimon, an anime still) and Fuxishou (no facts) are
   Child. `spike(..., tip=t)` tips under ~0.8 units barely show: use tip >= 0.8 where the spike must read (Filmon's quills).
+  The whole G section is in (1.4.0 / Digital 0.9.0, 125 entries; skipped: Greymon (already the Agumon line's own
+  species), Greymon (2010 Anime Version), Greymon + Skull Knightmon, Gaiamon (no picture)). Aliases: Gargamon ->
+  wikimon "Gaagamon", Grottomon -> "Grottemon" (wikimon's spellings). New builders: `_gabumon` (base/black/x),
+  `_gaioumon` (itto), `_gammamon` (child/adult; Gulus Gammamon clones it black), `_ganimon`, `_gankoomon`,
+  `_garudamon`, `_garurumon` (base/black/x/gururu), `_gazimon`, `_gesomon`, `_numemon` (Geremon, Gigantic and Gold
+  Numemon; `wings`), `_ginkakumon` (promote), `_gizmon` (AT/XT), `_goddramon`, `_gomamon`, `_gottsumon`,
+  `_grademon` (vice), `_kuwaga` (Grandis, Honey Mode, Gran Kuwagamon), `_gravimon` (darkness), `_guardromon` (gold).
+  `_greyvar.make(name, base, shiny)` recolours the Agumon line's Greymon body: Greymon's shaders read the SHARED
+  `_digi` palette, so it loads fresh copies of `_digi` and `_greymon` and rebinds them (the Greymon colour variants,
+  "G" Erosion Mode). `_guilmon.make(..., colours=, shiny_colours=)` for the Guilmon/Growmon colour variants.
+  `_variant.clone` also works on a builder module with its own BASE (`_dukemon` for Gallantmon Chaos Mode, `_gammamon`).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:gaioumonittomode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gaioumonittomode",
+   "model": "cobbleeffort:gaioumonittomode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3792_gaioumonittomode/gaioumonittomode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

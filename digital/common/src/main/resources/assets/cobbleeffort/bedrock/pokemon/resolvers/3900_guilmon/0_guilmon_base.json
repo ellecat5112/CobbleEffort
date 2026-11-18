@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:guilmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:guilmon",
+   "model": "cobbleeffort:guilmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3900_guilmon/guilmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3900_guilmon/guilmon_shiny.png"
+  }
+ ]
+}

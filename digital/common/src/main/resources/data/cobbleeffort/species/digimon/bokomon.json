@@ -218,7 +218,20 @@
    ]
   },
   {
-   "id": "bokomon_greymon_8",
+   "id": "bokomon_galgomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:galgomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bokomon_greymon_9",
    "variant": "level_up",
    "result": "cobbleeffort:greymon",
    "consumeHeldItem": false,
@@ -229,6 +242,20 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "bokomon_growmon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:growmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:gurimon"
 }

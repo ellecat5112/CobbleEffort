@@ -1,0 +1,125 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3822,
+ "name": "Gemmon",
+ "primaryType": "fairy",
+ "secondaryType": "rock",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.gemmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magicbounce",
+  "h:cutecharm"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.615,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.625,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:fairywind",
+  "5:rockthrow",
+  "9:disarmingvoice",
+  "13:rocktomb",
+  "17:drainingkiss",
+  "21:ancientpower",
+  "25:dazzlinggleam",
+  "29:rockslide",
+  "33:playrough",
+  "37:powergem",
+  "41:moonblast",
+  "45:stoneedge",
+  "49:spiritbreak",
+  "53:headsmash",
+  "tm:dazzlinggleam",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:headsmash",
+  "tm:helpinghand",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:powergem",
+  "tm:protect",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:sleeptalk",
+  "tm:spiritbreak",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:terablast"
+ ]
+}

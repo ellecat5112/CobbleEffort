@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:gravimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:gravimon",
+   "model": "cobbleeffort:gravimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3878_gravimon/gravimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3878_gravimon/gravimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}
