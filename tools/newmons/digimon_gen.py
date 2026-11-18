@@ -132,6 +132,7 @@ ABILITY_NAMES = {
     "triage": "Triage",
     "magnetpull": "Magnet Pull",
     "moldbreaker": "Mold Breaker",
+    "magmaarmor": "Magma Armor",
 }
 
 
