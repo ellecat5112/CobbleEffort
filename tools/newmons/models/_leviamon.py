@@ -2,7 +2,7 @@
 the official art on wikimon.net): the Demon Lord of Envy: a colossal crimson crocodile-leviathan with a long armoured
 snout full of teeth, blue-grey belly plates, a row of cyan spines down its back, short clawed legs, two long whip
 antennae and a long tail, breathing rainbow mist. X-Antibody: dark violet armour, huge pink-and-cyan blade fins
-flaring from its back, a jagged tail blade and a magic circle glowing above it. 45 blocks long.
+flaring from its back, a jagged tail blade and a magic circle glowing above it. 35 blocks long.
 """
 from __future__ import annotations
 

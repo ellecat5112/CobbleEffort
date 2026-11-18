@@ -128,6 +128,8 @@ ABILITY_NAMES = {
     "chlorophyll": "Chlorophyll",
     "leafguard": "Leaf Guard",
     "sandstream": "Sand Stream",
+    "steamengine": "Steam Engine",
+    "triage": "Triage",
 }
 
 
