@@ -63,7 +63,7 @@ def build():
         m.box(hd, min(sx * ex, sx * (ex + 0.3)), ey - 0.4, ez - 0.6, max(sx * ex, sx * (ex + 0.3)), ey + 0.4,
               ez + 0.6, solid(P, "eye"))
     hc = a["head_c"]
-    m.round_box(hd, hc[0], hc[2] + 1.0, 5.0, 4.0, ey + 1.0, ey + 4.0, fabric(P, "red", "red_dark"), cut=1)  # red hood
+    m.round_box(hd, hc[0], hc[2] + 3.4, 4.8, 3.0, ey + 1.6, ey + 3.6, fabric(P, "red", "red_dark"), cut=1)  # red hood
     for s in (-1, 1):
         m.box(hd, s * 1.0 - 1.0, ey - 6.0, hc[2] + 3.0, s * 1.0 + 1.0, ey - 1.0, hc[2] + 3.4, fabric(P, "red", "red_dark"),
               rotation=(20, 0, s * 15), pivot=(s * 1.0, ey - 1.0, hc[2] + 3.2))
