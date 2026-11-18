@@ -130,6 +130,7 @@ ABILITY_NAMES = {
     "sandstream": "Sand Stream",
     "steamengine": "Steam Engine",
     "triage": "Triage",
+    "magnetpull": "Magnet Pull",
 }
 
 
