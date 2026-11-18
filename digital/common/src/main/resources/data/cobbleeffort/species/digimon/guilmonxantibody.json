@@ -398,6 +398,46 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "guilmonxantibody_kyubimon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:kyubimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "guilmonxantibody_leomon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "guilmonxantibody_lighdramon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:lighdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:kyokyomon"
 }

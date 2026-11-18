@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:lilimonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:lilimonxantibody",
+   "model": "cobbleeffort:lilimonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4087_lilimonxantibody/lilimonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4087_lilimonxantibody/lilimonxantibody_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4087_lilimonxantibody/lilimonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4087_lilimonxantibody/lilimonxantibody_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

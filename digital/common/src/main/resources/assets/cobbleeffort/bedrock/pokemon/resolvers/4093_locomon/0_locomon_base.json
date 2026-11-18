@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:locomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:locomon",
+   "model": "cobbleeffort:locomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4093_locomon/locomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4093_locomon/locomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4093_locomon/locomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4093_locomon/locomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4093_locomon/locomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -514,6 +514,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   (chunk golems: Icemon, Insekimon), `_imperial` (mode dragon/fighter/paladin, black), `_impmon` (x), `_jesmon`
   (look base/x/gx), `_junomon` (hysteric), `_jupitermon` (wrath; `bolt()`), `_justimon` (arm accel/blitz/critical, x),
   `_jyureimon` (xmas). Translucent parts (alpha flames, crystal shards) DO render in boxprev; tiles are just small.
+  K and L are in (1.6.0 / Digital 0.11.0, 108 entries; Kamemon already in as Chibi Kamemon; Kandoushichaundamon and
+  Kyukanchoumon skipped, no picture). The K..Z worklist is built from the user's pasted list (transcript) minus the
+  skip rules; wikimon pages for all of K..Z are cached and parsed into tools/digimon/data/wikimon.json. Builders:
+  `_rockmon` (chunk golems), `_keramon`, `_knightchess`, `_knightmon` (wise), `_kodoku` (child), `_kekomon` (crest),
+  `_kuwagamon`, `_kuzuha` (miko), `_kyubimon` (silver), `_lavo` (bird), `_ladydevimon`, `_leomon`, `_leviamon`,
+  `_lilimon`, `_lilithmon`, `_lopmon`, `_lordknightmon` (x each). Demon Lords stay at the Ultimate size (35 blocks).
+  Revealing official art (Luminamon Nene Ver., Lilithmon, Jet Mervamon...) is built covered (tunics, robes, armour).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

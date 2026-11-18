@@ -125,5 +125,20 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "bullmon_kumbhiramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:kumbhiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:bakumon"
 }

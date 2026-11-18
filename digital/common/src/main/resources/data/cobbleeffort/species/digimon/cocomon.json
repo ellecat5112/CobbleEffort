@@ -119,6 +119,19 @@
      "minLevel": 5
     }
    ]
+  },
+  {
+   "id": "cocomon_lopmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:lopmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ]
 }

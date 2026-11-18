@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:kokuwamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:kokuwamon",
+   "model": "cobbleeffort:kokuwamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4045_kokuwamon/kokuwamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

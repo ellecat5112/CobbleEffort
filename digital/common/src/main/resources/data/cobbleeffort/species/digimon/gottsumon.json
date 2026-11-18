@@ -512,6 +512,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "gottsumon_knightchessmonblack_32",
+   "variant": "level_up",
+   "result": "cobbleeffort:knightchessmonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gottsumon_knightchessmonwhite_33",
+   "variant": "level_up",
+   "result": "cobbleeffort:knightchessmonwhite",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "gottsumon_leomon_34",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:caprimon"

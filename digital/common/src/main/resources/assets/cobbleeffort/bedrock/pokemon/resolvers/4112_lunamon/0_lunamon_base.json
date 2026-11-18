@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:lunamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:lunamon",
+   "model": "cobbleeffort:lunamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4112_lunamon/lunamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4112_lunamon/lunamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4112_lunamon/lunamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4112_lunamon/lunamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

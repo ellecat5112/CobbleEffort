@@ -133,6 +133,19 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "gurimon_koemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:koemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:curimon"

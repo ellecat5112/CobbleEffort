@@ -189,6 +189,46 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "hudiemon_kongoumon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:kongoumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "hudiemon_lilamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "hudiemon_lilimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:lalamon"
 }

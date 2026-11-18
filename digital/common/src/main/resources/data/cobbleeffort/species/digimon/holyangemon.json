@@ -332,6 +332,45 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "holyangemon_lilithmon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilithmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "holyangemon_lordknightmon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:lordknightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "holyangemon_lucemonfalldownmode_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:lucemonfalldownmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:angemon"

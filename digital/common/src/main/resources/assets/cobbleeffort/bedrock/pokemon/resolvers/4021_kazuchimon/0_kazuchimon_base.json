@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:kazuchimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:kazuchimon",
+   "model": "cobbleeffort:kazuchimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4021_kazuchimon/kazuchimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

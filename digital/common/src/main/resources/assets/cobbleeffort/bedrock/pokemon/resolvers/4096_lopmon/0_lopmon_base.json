@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:lopmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:lopmon",
+   "model": "cobbleeffort:lopmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4096_lopmon/lopmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4096_lopmon/lopmon_shiny.png"
+  }
+ ]
+}

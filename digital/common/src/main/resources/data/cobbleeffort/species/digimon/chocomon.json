@@ -133,6 +133,32 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "chocomon_lopmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:lopmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "chocomon_lopmonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:lopmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:cocomon"

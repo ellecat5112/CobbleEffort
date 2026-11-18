@@ -154,6 +154,45 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "doumon_kuzuhamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuzuhamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "doumon_kuzuhamonmikomode_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuzuhamonmikomode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "doumon_lilithmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilithmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:devimon"

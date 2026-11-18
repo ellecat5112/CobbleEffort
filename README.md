@@ -2075,6 +2075,18 @@ picture on wikimon). Evolutions follow wikimon.
 ![Digimon H to J, part 1](docs/digimon_h1.png)
 ![Digimon H to J, part 2](docs/digimon_h2.png)
 
+**The K and L sections (CobbleEffort 1.6.0 / Digital 0.11.0)**: 108 Digimon from wikimon's K and L lists, Kabukimon
+to Lynxmon, at the same detail standard. They include the chess knights and Knightmon with its Wise form, the Kuwagamon
+and Kabuterimon kin with their X-Antibody forms, Kuzuhamon and its Miko Mode, Kyubimon and its Silver form, the
+Leomon family (Leomon, its X-Antibody form and more), the Demon Lords Leviamon, Lilithmon and Lucemon in all its
+forms (Lucemon and its X-Antibody form, Larva, Falldown Mode, Satan Mode), Lilimon, Lopmon, Lord Knightmon and its X-Antibody form, Lady
+Devimon and the Lavo line. Revealing official art is built covered (tunics, robes, armour). Left out: Kamemon (already
+in as Chibi Kamemon), Kandoushichaundamon and Kyukanchoumon (no picture on wikimon). Evolutions follow wikimon.
+
+![Digimon K and L, part 1: Kabukimon to Kuwagamon (X-Antibody)](docs/digimon_k1.png)
+![Digimon K and L, part 2: Kuzuhamon to Lucemon: Larva](docs/digimon_k2.png)
+![Digimon K and L, part 3: Lucemon: Satan Mode to Lynxmon](docs/digimon_k3.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

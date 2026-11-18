@@ -285,7 +285,33 @@
    ]
   },
   {
-   "id": "airdramon_metalgreymon_13",
+   "id": "airdramon_karatenmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:karatenmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "airdramon_kumbhiramon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:kumbhiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "airdramon_metalgreymon_15",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

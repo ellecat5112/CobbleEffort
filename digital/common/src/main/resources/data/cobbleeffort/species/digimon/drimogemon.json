@@ -193,7 +193,20 @@
    ]
   },
   {
-   "id": "drimogemon_metalgreymon_6",
+   "id": "drimogemon_loaderleomon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:loaderleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "drimogemon_metalgreymon_7",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

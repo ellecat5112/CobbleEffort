@@ -168,7 +168,20 @@
    ]
   },
   {
-   "id": "greymonxantibody_metalgreymon_4",
+   "id": "greymonxantibody_knightmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:knightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "greymonxantibody_metalgreymon_5",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

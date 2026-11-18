@@ -115,5 +115,20 @@
   "tm:substitute",
   "tm:swordsdance",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "cotsucomon_kakkinmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:kakkinmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
  ]
 }

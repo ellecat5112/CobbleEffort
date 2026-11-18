@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:knightmonwiseswordmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:knightmonwiseswordmode",
+   "model": "cobbleeffort:knightmonwiseswordmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4038_knightmonwiseswordmode/knightmonwiseswordmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

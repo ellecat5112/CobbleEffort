@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:knightchessmonwhite",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:knightchessmonwhite",
+   "model": "cobbleeffort:knightchessmonwhite.geo",
+   "texture": "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_glow_0.png",
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_glow_1.png",
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4036_knightchessmonwhite/knightchessmonwhite_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

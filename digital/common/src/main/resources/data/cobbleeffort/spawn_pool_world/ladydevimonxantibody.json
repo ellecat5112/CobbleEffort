@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ladydevimonxantibody-wild",
+   "pokemon": "cobbleeffort:ladydevimonxantibody",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "rare",
+   "level": "35-50",
+   "weight": 0.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_spooky",
+     "#cobblemon:is_forest",
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_badlands"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

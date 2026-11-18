@@ -127,5 +127,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "ancientgreymon_lucemonsatanmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:lucemonsatanmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:metalgreymon"
 }

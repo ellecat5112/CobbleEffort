@@ -293,6 +293,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "guardromon_kenkimon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:kenkimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "guardromon_knightmon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:knightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "guardromon_locomon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:locomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:agumon"

@@ -124,5 +124,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "junkmon_komondomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:komondomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:hopmon"
 }
