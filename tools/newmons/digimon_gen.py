@@ -124,6 +124,8 @@ ABILITY_NAMES = {
     "lightmetal": "Light Metal",
     "magician": "Magician",
     "electricsurge": "Electric Surge",
+    "dancer": "Dancer",
+    "chlorophyll": "Chlorophyll",
 }
 
 
