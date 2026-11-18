@@ -121,6 +121,7 @@ ABILITY_NAMES = {
     "goodasgold": "Good as Gold", "hypercutter": "Hyper Cutter", "regenerator": "Regenerator", "windrider": "Wind Rider",
     "corrosion": "Corrosion", "suctioncups": "Suction Cups", "stench": "Stench",
     "multiscale": "Multiscale", "rattled": "Rattled", "galvanize": "Galvanize",
+    "lightmetal": "Light Metal",
 }
 
 
