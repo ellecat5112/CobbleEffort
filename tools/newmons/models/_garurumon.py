@@ -2,7 +2,7 @@
 wikimon.net): a lean, powerful wolf with white fur striped blue, a shaggy mane of blade-like fur spikes along its
 shoulders and back, a long curling striped tail, red-pink claws and blue fox-fire breath. Looks: "base"; "black" (black
 fur striped white); "x" (the X-Antibody: lavender-grey shaggy fur, a row of great steel spikes along its back bound
-with a red-striped band, steel claws); "gururu" (Gururumon: dark blue-grey fur striped violet, red eyes).
+with a red-striped band, steel claws); "gururu" (Gururumon: white fur striped deep blue, red eyes, violet claws).
 Shiny: base <-> black; x and gururu turn golden.
 """
 from __future__ import annotations
@@ -17,7 +17,7 @@ from _route import pal, tone
 LOOKS = {"base": {"fur": (230, 234, 250), "fur_dark": (160, 170, 210), "stripe": (60, 80, 180)},
          "black": {"fur": (50, 48, 54), "fur_dark": (20, 18, 24), "stripe": (230, 230, 236)},
          "x": {"fur": (190, 190, 220), "fur_dark": (130, 130, 170), "stripe": (150, 150, 190)},
-         "gururu": {"fur": (90, 100, 140), "fur_dark": (40, 46, 80), "stripe": (140, 60, 170)}}
+         "gururu": {"fur": (236, 238, 248), "fur_dark": (170, 176, 206), "stripe": (30, 50, 150)}}
 COMMON = {"claw": (220, 90, 140), "eye": (250, 200, 40), "mouth": (130, 20, 40), "tooth": (250, 250, 246),
           "steel": (200, 206, 220), "steel_dark": (90, 96, 110), "band": (200, 30, 40), "fire": (110, 190, 255, 210),
           "fire_core": (230, 245, 255, 235)}
@@ -31,6 +31,7 @@ def make(name, look="base"):
         shiny = dict(COMMON, **LOOKS["black" if look == "base" else "base"])
     if look == "gururu":
         base["eye"] = (220, 30, 40)
+        base["claw"] = (110, 70, 170)
     if look == "x":
         base["claw"] = (220, 220, 200)
 

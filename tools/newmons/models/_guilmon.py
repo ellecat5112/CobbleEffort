@@ -22,9 +22,11 @@ COMMON = {"belly": (246, 244, 240), "belly_dark": (200, 196, 190), "hazard": (40
           "steel_dark": (100, 104, 116), "glow": (255, 80, 60)}
 
 
-def make(name, stage, black=False):
+def make(name, stage, black=False, colours=None, shiny_colours=None):
     base = dict(COMMON, **(BLACK if black else RED))
     shiny = dict(COMMON, **(RED if black else BLACK))
+    base.update(colours or {})
+    shiny.update(shiny_colours or {})
 
     def P(v):
         return pal(base, shiny, v)
