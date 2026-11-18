@@ -126,6 +126,8 @@ ABILITY_NAMES = {
     "electricsurge": "Electric Surge",
     "dancer": "Dancer",
     "chlorophyll": "Chlorophyll",
+    "leafguard": "Leaf Guard",
+    "sandstream": "Sand Stream",
 }
 
 
