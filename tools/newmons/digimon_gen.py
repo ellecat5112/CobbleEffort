@@ -117,6 +117,7 @@ ABILITY_NAMES = {
     "punkrock": "Punk Rock", "defiant": "Defiant", "soundproof": "Soundproof", "battlearmor": "Battle Armor",
     "illusion": "Illusion", "frisk": "Frisk", "sandforce": "Sand Force", "shielddust": "Shield Dust",
     "waterabsorb": "Water Absorb", "poisonpoint": "Poison Point", "sandrush": "Sand Rush", "pixilate": "Pixilate", "hustle": "Hustle",
+    "harvest": "Harvest", "stall": "Stall",
 }
 
 
