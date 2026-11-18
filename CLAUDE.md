@@ -507,6 +507,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_digi` palette, so it loads fresh copies of `_digi` and `_greymon` and rebinds them (the Greymon colour variants,
   "G" Erosion Mode). `_guilmon.make(..., colours=, shiny_colours=)` for the Guilmon/Growmon colour variants.
   `_variant.clone` also works on a builder module with its own BASE (`_dukemon` for Gallantmon Chaos Mode, `_gammamon`).
+  H, I and J are in (1.5.0 / Digital 0.10.0, 97 entries; Huntermon and Jiko Tyumon skipped: wikimon's "Digimon
+  noimage.jpg" placeholder counts as no picture). The rest of the alphabet (K..Z, the user's "do ALL THE REST") ships
+  in letter chunks the same way. New builders: `_hagurumon` (`disc()`, `cog()`), `_herakle`, `_holyangemon`,
+  `_holydramon`, `_hououmon`, `_huanglong` (ruin: three heads + blue fire), `_icedevimon` (absorbent), `_rockmon`
+  (chunk golems: Icemon, Insekimon), `_imperial` (mode dragon/fighter/paladin, black), `_impmon` (x), `_jesmon`
+  (look base/x/gx), `_junomon` (hysteric), `_jupitermon` (wrath; `bolt()`), `_justimon` (arm accel/blitz/critical, x),
+  `_jyureimon` (xmas). Translucent parts (alpha flames, crystal shards) DO render in boxprev; tiles are just small.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

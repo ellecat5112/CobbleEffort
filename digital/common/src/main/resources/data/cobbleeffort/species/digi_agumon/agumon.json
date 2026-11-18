@@ -650,6 +650,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "agumon_hookmon_41",
+   "variant": "level_up",
+   "result": "cobbleeffort:hookmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumon_icedevimon_42",
+   "variant": "level_up",
+   "result": "cobbleeffort:icedevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "agumon_igamon_43",
+   "variant": "level_up",
+   "result": "cobbleeffort:igamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:koromon"

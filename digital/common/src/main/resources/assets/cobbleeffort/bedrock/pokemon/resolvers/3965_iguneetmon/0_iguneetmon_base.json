@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:iguneetmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:iguneetmon",
+   "model": "cobbleeffort:iguneetmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3965_iguneetmon/iguneetmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

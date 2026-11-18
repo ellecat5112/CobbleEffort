@@ -126,5 +126,20 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "baihumon_huanglongmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:huanglongmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:ancientgarurumon"
 }

@@ -246,7 +246,20 @@
    ]
   },
   {
-   "id": "growmon_metalgreymon_10",
+   "id": "growmon_hangyomon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "growmon_metalgreymon_11",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

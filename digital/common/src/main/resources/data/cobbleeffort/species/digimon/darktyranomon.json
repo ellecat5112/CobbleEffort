@@ -207,7 +207,20 @@
    ]
   },
   {
-   "id": "darktyranomon_metalgreymon_7",
+   "id": "darktyranomon_hangyomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "darktyranomon_metalgreymon_8",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

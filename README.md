@@ -2063,6 +2063,18 @@ to MetalGreymon.
 ![Digimon G section, part 1: G-Cutemon to Gold Numemon](docs/digimon_g1.png)
 ![Digimon G section, part 2: Gold Numemon (Ultimate) to Gyukimon](docs/digimon_g2.png)
 
+**The H, I and J sections (CobbleEffort 1.5.0 / Digital 0.10.0)**: 97 Digimon from wikimon's H to J lists,
+Habakirimon to Jyureimon (Christmas Tree), at the same detail standard. They include the sword god Habakirimon,
+Huckmon, the Holydramon and Herakle Kabuterimon pairs, Hououmon and its X-Antibody form, Huanglongmon and its
+three-headed Ruin Mode, all five Imperialdramon modes (Dragon and Fighter Mode, their Black forms, Paladin Mode),
+Impmon and its X-Antibody form, the JESmon trio, Jet Mervamon and Jet Silphymon, the Olympos gods Junomon, Jupitermon
+and Jougamon (each with its other mode where there is one), Justimon's three arms plus its X-Antibody form, Ice
+Devimon and its absorbent forms, and Jyureimon with its Christmas Tree. Left out: Huntermon and Jiko Tyumon (no
+picture on wikimon). Evolutions follow wikimon.
+
+![Digimon H to J, part 1](docs/digimon_h1.png)
+![Digimon H to J, part 2](docs/digimon_h2.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks

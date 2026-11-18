@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:hououmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:hououmon",
+   "model": "cobbleeffort:hououmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3947_hououmon/hououmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3947_hououmon/hououmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

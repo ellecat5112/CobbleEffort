@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:holyangemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:holyangemon",
+   "model": "cobbleeffort:holyangemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3939_holyangemon/holyangemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

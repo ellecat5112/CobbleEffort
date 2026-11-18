@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:hudiemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:hudiemon",
+   "model": "cobbleeffort:hudiemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3954_hudiemon/hudiemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3954_hudiemon/hudiemon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3954_hudiemon/hudiemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3954_hudiemon/hudiemon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

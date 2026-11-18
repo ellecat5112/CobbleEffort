@@ -127,5 +127,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "dynasmonxantibody_imperialdramonpaladinmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:imperialdramonpaladinmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:angewomon"
 }

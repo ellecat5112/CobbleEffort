@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:habakirimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:habakirimon",
+   "model": "cobbleeffort:habakirimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3911_habakirimon/habakirimon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

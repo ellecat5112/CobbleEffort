@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:imperialdramonpaladinmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:imperialdramonpaladinmode",
+   "model": "cobbleeffort:imperialdramonpaladinmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3971_imperialdramonpaladinmode/imperialdramonpaladinmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

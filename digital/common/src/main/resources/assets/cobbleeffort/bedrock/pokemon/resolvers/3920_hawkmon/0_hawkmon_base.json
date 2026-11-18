@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:hawkmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:hawkmon",
+   "model": "cobbleeffort:hawkmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3920_hawkmon/hawkmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3920_hawkmon/hawkmon_shiny.png"
+  }
+ ]
+}

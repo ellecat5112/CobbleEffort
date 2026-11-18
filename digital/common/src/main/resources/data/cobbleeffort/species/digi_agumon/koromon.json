@@ -305,6 +305,32 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "koromon_huckmon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:huckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "koromon_jazamon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:jazamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:botamon"

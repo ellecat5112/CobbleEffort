@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:hopmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:hopmon",
+   "model": "cobbleeffort:hopmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3946_hopmon/hopmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3946_hopmon/hopmon_shiny.png"
+  }
+ ]
+}

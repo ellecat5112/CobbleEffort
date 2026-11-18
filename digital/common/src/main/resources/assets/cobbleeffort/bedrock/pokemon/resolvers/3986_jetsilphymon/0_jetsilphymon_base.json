@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:jetsilphymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:jetsilphymon",
+   "model": "cobbleeffort:jetsilphymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_glow_0.png",
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_glow_1.png",
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3986_jetsilphymon/jetsilphymon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

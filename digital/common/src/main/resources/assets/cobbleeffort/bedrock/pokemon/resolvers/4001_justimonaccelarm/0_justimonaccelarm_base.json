@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:justimonaccelarm",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:justimonaccelarm",
+   "model": "cobbleeffort:justimonaccelarm.geo",
+   "texture": "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_glow_0.png",
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_glow_1.png",
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4001_justimonaccelarm/justimonaccelarm_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

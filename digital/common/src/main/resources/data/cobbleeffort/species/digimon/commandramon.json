@@ -177,6 +177,32 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "commandramon_hanumon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:hanumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "commandramon_hicommandramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:hicommandramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bommon"

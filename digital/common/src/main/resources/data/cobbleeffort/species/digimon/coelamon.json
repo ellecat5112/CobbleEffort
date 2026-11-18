@@ -192,7 +192,33 @@
    ]
   },
   {
-   "id": "coelamon_metalgreymon_6",
+   "id": "coelamon_hangyomon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "coelamon_hisyaryumon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:hisyaryumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "coelamon_metalgreymon_8",
    "variant": "level_up",
    "result": "cobbleeffort:metalgreymon",
    "consumeHeldItem": false,

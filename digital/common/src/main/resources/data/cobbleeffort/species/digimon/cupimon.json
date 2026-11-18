@@ -118,5 +118,20 @@
   "tm:substitute",
   "tm:tailwind",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "cupimon_impmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:impmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
  ]
 }

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:jupitermonwrathmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:jupitermonwrathmode",
+   "model": "cobbleeffort:jupitermonwrathmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_glow_0.png",
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_glow_1.png",
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3999_jupitermonwrathmode/jupitermonwrathmode_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

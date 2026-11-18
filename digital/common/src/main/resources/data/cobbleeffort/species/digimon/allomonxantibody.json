@@ -127,5 +127,20 @@
   "tm:terablast",
   "tm:willowisp"
  ],
+ "evolutions": [
+  {
+   "id": "allomonxantibody_hisyaryumon",
+   "variant": "level_up",
+   "result": "cobbleeffort:hisyaryumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:agumonblackxantibody"
 }

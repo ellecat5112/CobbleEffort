@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:honeybeemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:honeybeemon",
+   "model": "cobbleeffort:honeybeemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/3944_honeybeemon/honeybeemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3944_honeybeemon/honeybeemon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3944_honeybeemon/honeybeemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3944_honeybeemon/honeybeemon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}
