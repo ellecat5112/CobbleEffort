@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-mt_pyre-0",
+      "pokemon": "shuppet",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-35",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_pyre"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_pyre-1",
+      "pokemon": "duskull",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-35",
+      "weight": 8.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_pyre"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_pyre-2",
+      "pokemon": "vulpix",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "18-30",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_pyre"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_pyre-3",
+      "pokemon": "chimecho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-40",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_pyre"
+        ]
+      }
+    }
+  ]
+}

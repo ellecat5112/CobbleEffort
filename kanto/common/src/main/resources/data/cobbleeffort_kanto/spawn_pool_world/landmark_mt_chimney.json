@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-mt_chimney-0",
+      "pokemon": "numel",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-30",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_chimney"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_chimney-1",
+      "pokemon": "slugma",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-30",
+      "weight": 8.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_chimney"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_chimney-2",
+      "pokemon": "torkoal",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-35",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_chimney"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-mt_chimney-3",
+      "pokemon": "magcargo",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-45",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:mt_chimney"
+        ]
+      }
+    }
+  ]
+}

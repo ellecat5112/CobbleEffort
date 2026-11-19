@@ -89,8 +89,14 @@ public final class KantoCommand {
                         .executes(ctx -> listBadges(ctx.getSource(), EntityArgument.getPlayer(ctx, "player")))
                         .then(badgeGive).then(badgeClear));
         var rules = Commands.literal("rules").executes(ctx -> rules(ctx.getSource()));
+        var shrines = Commands.literal("shrines").requires(src -> src.hasPermission(2)).then(Commands.literal("reset")
+                .then(Commands.argument("player", EntityArgument.player())
+                        .executes(ctx -> shrineReset(ctx.getSource(), EntityArgument.getPlayer(ctx, "player"), null))
+                        .then(Commands.argument("key", com.mojang.brigadier.arguments.StringArgumentType.word())
+                                .executes(ctx -> shrineReset(ctx.getSource(), EntityArgument.getPlayer(ctx, "player"),
+                                        com.mojang.brigadier.arguments.StringArgumentType.getString(ctx, "key"))))));
         dispatcher.register(Commands.literal("kanto").then(gyms).then(rebuild).then(force).then(travel).then(home)
-                .then(badges).then(rules));
+                .then(badges).then(rules).then(shrines));
         KantoDrops.register(dispatcher);                           // /kanto drops, /kanto dna (testing)
     }
 
@@ -143,5 +149,11 @@ public final class KantoCommand {
                     .append(Component.literal(v).withStyle(ChatFormatting.WHITE)), false);
         }
         return KantoRules.ALL.size();
+    }
+
+    private static int shrineReset(CommandSourceStack src, ServerPlayer player, String key) {
+        int n = Shrines.reset(player, key);
+        src.sendSuccess(() -> Component.literal("Cleared " + n + " shrine record(s) for " + player.getScoreboardName() + "."), true);
+        return n;
     }
 }

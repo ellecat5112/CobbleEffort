@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-ss_anne-0",
+      "pokemon": "tentacool",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "10-25",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:ss_anne"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-ss_anne-1",
+      "pokemon": "machop",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-24",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:ss_anne"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-ss_anne-2",
+      "pokemon": "shellder",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-22",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:ss_anne"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-ss_anne-3",
+      "pokemon": "wingull",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-22",
+      "weight": 6.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:ss_anne"
+        ]
+      }
+    }
+  ]
+}

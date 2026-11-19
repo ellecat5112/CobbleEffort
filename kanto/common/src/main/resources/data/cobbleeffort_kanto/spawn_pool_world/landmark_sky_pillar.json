@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-sky_pillar-0",
+      "pokemon": "sableye",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "35-50",
+      "weight": 6.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-sky_pillar-1",
+      "pokemon": "claydol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "40-50",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-sky_pillar-2",
+      "pokemon": "banette",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "38-50",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:sky_pillar"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-sky_pillar-3",
+      "pokemon": "altaria",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-55",
+      "weight": 2.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:sky_pillar"
+        ]
+      }
+    }
+  ]
+}

@@ -100,6 +100,38 @@ EVERY REGION: JOHTO TO PALDEA (NEW in 0.3.0)
   terrain); Unova plains, deserts and dark forests; Kalos flowers and meadows; Alola an archipelago in warm seas;
   Galar wide (large biomes), green to snowy; Paldea wide and varied. Landmarks only appear in NEW chunks.
 
+LANDMARKS OF GENERATIONS 1-3 (0.14.0)
+  Fourteen new overworld structures, original builds inspired by famous places (not copies of the games' maps),
+  each with its own chests and its own Pokemon living in and around it. Find them with /locate structure.
+  Generation 1
+  - Bill's Sea Cottage (beaches): Bill's PC and the Cell Separation System; the console between the pods gives
+    every visitor an Eevee (once each).
+  - S.S. Anne (oceans): a liner afloat with a dining hall, cabins, the bridge and an engine room.
+  - Lavender Town Tower (plains, meadows, taigas): seven floors of graves, Ghost Pokemon and Cubone.
+  - Celadon Rocket Hideout (plains, savannas, forests): a game corner; a hatch behind the prize counter leads down
+    three basement floors with spinner tiles, a lab and the boss's office.
+  - Cinnabar Pokemon Lab (beaches, savannas, deserts, badlands): nearly every machine of Cobblemon, Mega Showdown
+    and CobbleEffort: Distortion in one place: healing machines, PCs, fossil restoration stations, TM machines,
+    display cases, a disc shelf, a lectern, campfire pots, gilded chests and a pasture; the five Rotom appliance
+    units, a reassembly unit, pedestals and a power spot; the DNA machine, analyzer and purifier; and the glitchy PC.
+  Generation 2
+  - Ruins of Alph (plains, savannas, meadows): four chambers of glyphs and puzzle panels spelling A-L-P-H; Unown.
+  - Lake of Rage (forests, taigas): Magikarp and Gyarados in the lake; the shrine at the end of the dock calls the
+    red Gyarados (shiny, level 30).
+  - Mahogany Rocket HQ (taigas, snowy plains): a souvenir shop over a two-floor base with the radio transmitter.
+  Generation 3
+  - Meteor Falls (windswept hills, meadows): a cavern with a waterfall, meteorite chunks and a dragon's den; Bagon,
+    Solrock, Lunatone, Absol.
+  - Mt. Chimney (badlands, savanna plateaus): a volcano with a lava crater, a stair up its face and a lookout.
+  - Mt. Pyre (meadows, windswept hills, taigas): a hall of graves inside the mountain and a stair to the summit
+    shrine, which gives each trainer the Red Orb and the Blue Orb (Mega Showdown's, for Primal Groudon/Kyogre).
+  - Sky Pillar (beaches, stony shores): a ruined tower; at the top the shrine calls Rayquaza (level 70).
+  - Temple of Jirachi (cherry groves, flower forests, meadows): at night the shrine on the dais wakes Jirachi (50).
+  - Deoxys Meteorite (plains, deserts, savannas, snowy plains, badlands): a crater round a meteorite; its four
+    Deoxys meteorites (Mega Showdown's) change your Deoxys's forme, and the shrine calls Deoxys (level 50).
+  Shrines: the legendary and mythical encounters can be called again (after five minutes) until you catch the
+  Pokemon; gifts are once per trainer. Operators: /kanto shrines reset <player> [key].
+
 GAME RULES AND COMMANDS (0.13.0)
   Game rules (/gamerule <name> <value>, per world; /kanto rules lists them):
   kantoRegionSpawns (true): each region's dimension keeps only its own generation (off: anything can spawn there).
@@ -269,6 +301,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.14.0: fourteen landmarks of Generations 1-3 with their own loot and Pokemon, and shrines for Rayquaza,
+         Jirachi, Deoxys, the red Gyarados, the Red and Blue Orbs and Bill's Eevee.
   0.13.0: game rules (region spawns, a one-generation overworld, Essence chance, boss respawns, the Elite Four's
          badge gate) and /kanto travel, home, badges, rules.
   0.12.0: the starter kit: the Starter Bundle on joining a new world, and the Starter Base Token that builds a

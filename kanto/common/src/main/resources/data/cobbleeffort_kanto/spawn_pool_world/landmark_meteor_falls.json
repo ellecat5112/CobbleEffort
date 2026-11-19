@@ -1,0 +1,109 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-0",
+      "pokemon": "bagon",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-30",
+      "weight": 1.5,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-1",
+      "pokemon": "solrock",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-35",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-2",
+      "pokemon": "lunatone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-35",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-3",
+      "pokemon": "zubat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "10-25",
+      "weight": 8.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-4",
+      "pokemon": "golbat",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "22-35",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-meteor_falls-5",
+      "pokemon": "absol",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-40",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:meteor_falls"
+        ]
+      }
+    }
+  ]
+}

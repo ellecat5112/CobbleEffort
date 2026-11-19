@@ -1665,6 +1665,18 @@ Thunder Cage, Iron Duality Dragon Energy, Iron Titan Crush Grip) and Pokédex en
 
 ![The paradox Regis](docs/paradox_regis.png)
 
+**Landmarks of Generations 1-3** (CobbleEffort: Kanto 0.14.0, the user's request): fourteen overworld structures,
+original builds inspired by famous places (not replicas of the games' maps), each with its own loot and Pokémon.
+Gen 1: Bill's Sea Cottage (the Cell Separation System; its console gives each trainer an Eevee), the S.S. Anne (at
+sea), the Lavender Town Tower (seven floors of graves), the Celadon Rocket Hideout (a game corner over a three-floor
+basement) and the Cinnabar Pokémon Lab (nearly every machine of Cobblemon, Mega Showdown and Distortion, from fossil
+restoration to the Rotom units and the DNA machine). Gen 2: the Ruins of Alph (Unown), the Lake of Rage (its shrine
+calls the red Gyarados) and the Mahogany Rocket HQ. Gen 3: Meteor Falls, Mt. Chimney, Mt. Pyre (the Red and Blue
+Orbs at its summit), Sky Pillar (Rayquaza), the Temple of Jirachi (Jirachi wakes at night) and the Deoxys Meteorite
+(Mega Showdown's meteorites change Deoxys's forme; the shrine calls Deoxys). Details in Kanto's README.
+
+![Landmarks of Generations 1-3](docs/kanto_landmarks_gen1-3.png)
+
 **The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
 fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
 DNA machine, pull them apart. Put a mixed fossil in the tank, pick one of its halves at the Purifier, and a minute later

@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-lavender_tower-0",
+      "pokemon": "gastly",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-30",
+      "weight": 10.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lavender_tower"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-lavender_tower-1",
+      "pokemon": "haunter",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-35",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lavender_tower"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-lavender_tower-2",
+      "pokemon": "cubone",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "15-30",
+      "weight": 4.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lavender_tower"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-lavender_tower-3",
+      "pokemon": "gengar",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-45",
+      "weight": 0.5,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lavender_tower"
+        ]
+      }
+    }
+  ]
+}

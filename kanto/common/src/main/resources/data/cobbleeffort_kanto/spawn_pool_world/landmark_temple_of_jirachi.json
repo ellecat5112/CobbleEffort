@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-temple_of_jirachi-0",
+      "pokemon": "clefairy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "15-30",
+      "weight": 8.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:temple_of_jirachi"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-temple_of_jirachi-1",
+      "pokemon": "cleffa",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "5-15",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:temple_of_jirachi"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-temple_of_jirachi-2",
+      "pokemon": "chimecho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-35",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:temple_of_jirachi"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-temple_of_jirachi-3",
+      "pokemon": "togepi",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "5-15",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:temple_of_jirachi"
+        ]
+      }
+    }
+  ]
+}

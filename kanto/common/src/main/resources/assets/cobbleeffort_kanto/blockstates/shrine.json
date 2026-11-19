@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,look=altar": {
+      "model": "cobbleeffort_kanto:block/shrine_altar"
+    },
+    "facing=north,look=terminal": {
+      "model": "cobbleeffort_kanto:block/shrine_terminal"
+    },
+    "facing=south,look=altar": {
+      "model": "cobbleeffort_kanto:block/shrine_altar"
+    },
+    "facing=south,look=terminal": {
+      "model": "cobbleeffort_kanto:block/shrine_terminal"
+    },
+    "facing=east,look=altar": {
+      "model": "cobbleeffort_kanto:block/shrine_altar"
+    },
+    "facing=east,look=terminal": {
+      "model": "cobbleeffort_kanto:block/shrine_terminal"
+    },
+    "facing=west,look=altar": {
+      "model": "cobbleeffort_kanto:block/shrine_altar"
+    },
+    "facing=west,look=terminal": {
+      "model": "cobbleeffort_kanto:block/shrine_terminal"
+    }
+  }
+}

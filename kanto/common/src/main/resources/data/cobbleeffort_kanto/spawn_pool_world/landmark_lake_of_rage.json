@@ -1,0 +1,58 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cobbleeffort_kanto-lake_of_rage-0",
+      "pokemon": "magikarp",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "5-30",
+      "weight": 14.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lake_of_rage"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-lake_of_rage-1",
+      "pokemon": "gyarados",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "25-40",
+      "weight": 1.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lake_of_rage"
+        ]
+      }
+    },
+    {
+      "id": "cobbleeffort_kanto-lake_of_rage-2",
+      "pokemon": "psyduck",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "10-25",
+      "weight": 3.0,
+      "condition": {
+        "structures": [
+          "cobbleeffort_kanto:lake_of_rage"
+        ]
+      }
+    }
+  ]
+}

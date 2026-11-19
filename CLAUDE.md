@@ -785,6 +785,20 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   LootTable `chests/starter/*`. `/kanto starterkit [players]`, `/kanto starterbase <pos> [facing]` (ops). Preview:
   `scratchpad/tools/tpl2vox.py` -> nestprev voxel renderer.
   `/place structure` anchors a piece at the given position (not centred) and needs every chunk it may touch loaded;
+  0.14.0 landmarks of Gens 1-3 (`tools/make_structures.py`, run standalone or by make_assets.py; the user's request,
+  more generations to follow): 14 single-template jigsaw structures (`landmark/<id>`: template pool, structure,
+  random_spread set, `has_structure/<id>` biome tag), loot `chests/landmark/*`, spawn pools
+  `spawn_pool_world/landmark_<id>.json` (condition `structures`), STRUCTURES = (name, builder, biomes, spacing,
+  separation, start_height, heightmap or None, adaptation): buried bases use start_height -G with the ground at template
+  y G; the S.S. Anne has no heightmap (start 56 = its waterline at sea level) and clears the sea inside its hull
+  with explicit air. `Shrines.java`: one block (`look` altar/terminal, `facing` that turns with the structure, so
+  encounter dx/dz offsets turn too) whose block entity `config` comes from the template: mode encounter (props, dx/dy/
+  dz, time night/day, label/hint lang keys; re-callable after 5 min until caught: POKEMON_CAPTURED marks it), gift
+  (items) or pokemon (straight to the party); per-player SavedData `<mod>_shrines`, `/kanto shrines reset`. Machines
+  placed from Cobblemon/MSD/Distortion (Kanto requires Distortion, which requires MSD); two-block machines' top
+  halves log a harmless "failed to load a block entity" on chunk load. MSD's `deoxys_meteorite` block already changes
+  Deoxys's forme. Previews: `scratchpad/tools/lm2vox.py` + `lmshot.sh <id> [cut]` (nestprev). Validate templates'
+  block names/properties and loot items against the jars before a server test.
   `fill ... replace X` with X itself reports nothing changed, so count blocks by replacing them with another block.
   Copying a log's properties (`ofFullCopy(DARK_OAK_LOG)`) copies a map colour that reads `axis`: override mapColor.
   No replicas of the games' maps and no official characters or outfits: original, Kanto-inspired designs only.

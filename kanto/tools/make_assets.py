@@ -733,6 +733,9 @@ def build():
     import make_testing                                     # 0.9.0: wands and spawners for testing
     make_testing.build()
     LANG.update(make_testing.LANG)
+    import make_structures                                  # 0.14.0: Gen 1-3 overworld landmarks and their shrines
+    make_structures.build()
+    LANG.update(make_structures.LANG)
     lang = A / "lang" / "en_us.json"
     write_json(lang, dict(sorted(LANG.items())))
 

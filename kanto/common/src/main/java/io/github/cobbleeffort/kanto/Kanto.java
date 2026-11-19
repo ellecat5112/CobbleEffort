@@ -127,8 +127,10 @@ public final class Kanto {
         Spawners.register();                                // 0.9.0: Pokémon and Trainer Spawners
         DenCall.register();                                 // 0.10.0: Hopple's Call of the Den (fusing into Rabbrute)
         StarterKit.register();                              // 0.12.0: the Starter Bundle and Starter Base Token
+        Shrines.register();                                 // 0.14.0: the landmarks' legendary shrines
         BLOCKS.register();
         Spawners.BLOCK_ENTITIES.register();
+        Shrines.BLOCK_ENTITIES.register();
         KantoArmor.MATERIALS.register();
         ITEMS.register();
         PLACEMENTS.register();
