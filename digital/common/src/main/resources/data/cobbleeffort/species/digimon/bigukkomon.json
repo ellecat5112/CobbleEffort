@@ -5,8 +5,8 @@
  "primaryType": "fairy",
  "secondaryType": "ghost",
  "maleRatio": -1,
- "height": 350,
- "weight": 9999,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.bigukkomon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 10.0,
+ "baseScale": 0.5143,
  "hitbox": {
   "width": 3.0,
   "height": 3.5,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

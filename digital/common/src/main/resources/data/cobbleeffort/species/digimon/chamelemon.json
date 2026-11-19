@@ -5,8 +5,8 @@
  "primaryType": "normal",
  "secondaryType": "grass",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 11,
+ "weight": 48,
  "pokedex": [
   "cobbleeffort.species.chamelemon.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 9.231,
+ "baseScale": 0.6769,
  "hitbox": {
   "width": 2.8,
   "height": 1.625,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:leather",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

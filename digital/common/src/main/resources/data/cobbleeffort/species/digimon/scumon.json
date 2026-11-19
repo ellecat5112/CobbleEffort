@@ -4,8 +4,8 @@
  "name": "Scumon",
  "primaryType": "poison",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 12,
+ "weight": 58,
  "pokedex": [
   "cobbleeffort.species.scumon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 7.059,
+ "baseScale": 0.5647,
  "hitbox": {
   "width": 4.0,
   "height": 2.125,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:spider_eye",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

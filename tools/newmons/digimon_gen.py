@@ -1,5 +1,5 @@
 """Digimon from the roster (tools/digimon/roster.py) + wikimon facts (tools/digimon/data/wikimon.json) -> SPECIES
-entries for build.py. Rules (the user's: wikimon decides evolutions; Greymon >= 15 blocks, +10 per stage, generalised):
+entries for build.py. Rules (the user's: wikimon decides evolutions; heights from tools/digimon/data/sizes.json, the lore sizes):
 
 * stage: the roster's, else wikimon's first standard level (Baby I .. Super Ultimate; Hybrid -> Adult);
 * evolutions: every wikimon Evolves To / Evolves From link between two implemented Digimon (not both in the hand-built
@@ -268,6 +268,7 @@ def where(types, stage, legendary):
 def generate(SPECIES, LINES):
     ability_name = lambda a: ABILITY_NAMES.get(a, a.title())
     facts = json.loads((DIGI / "data" / "wikimon.json").read_text())
+    sizes = json.loads((DIGI / "data" / "sizes.json").read_text())      # lore heights (tools/digimon/sizes.py)
     roster = load_roster()
     hand = {sp: c for sp, c in SPECIES.items() if "digimon" in c.get("labels", [])}
     dex = DEX0                                           # roster order, so dex numbers never move
@@ -278,6 +279,7 @@ def generate(SPECIES, LINES):
         stage = stage_of(e, f)
         legendary = bool(e.get("legendary")) or stage == "Super Ultimate"
         lv, blocks, _, catch, _, exp = STAGE[stage]
+        blocks = sizes.get(sp, {}).get("m", blocks)                    # lore size, metres = blocks
         abil = e["abilities"]
         gen[sp] = {
             "dex": dex, "name": e["name"], "line": "digimon", "types": e["types"],

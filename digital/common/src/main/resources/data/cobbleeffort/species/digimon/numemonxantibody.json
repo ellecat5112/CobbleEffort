@@ -5,8 +5,8 @@
  "primaryType": "poison",
  "secondaryType": "dark",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 12,
+ "weight": 58,
  "pokedex": [
   "cobbleeffort.species.numemonxantibody.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 8.0,
+ "baseScale": 0.64,
  "hitbox": {
   "width": 4.4,
   "height": 1.875,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:spider_eye",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

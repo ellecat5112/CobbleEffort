@@ -5,8 +5,8 @@
  "primaryType": "dragon",
  "secondaryType": "ghost",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.deathxdorugamon.desc"
  ],
@@ -50,7 +50,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 6.0,
+ "baseScale": 0.72,
  "hitbox": {
   "width": 3.0,
   "height": 2.5,
@@ -85,7 +85,7 @@
   "entries": [
    {
     "item": "minecraft:bone",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

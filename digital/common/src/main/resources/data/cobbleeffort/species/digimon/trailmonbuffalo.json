@@ -5,8 +5,8 @@
  "primaryType": "steel",
  "secondaryType": "ground",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 16,
+ "weight": 99,
  "pokedex": [
   "cobbleeffort.species.trailmonbuffalo.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 11.429,
+ "baseScale": 1.1966,
  "hitbox": {
   "width": 3.0,
   "height": 1.312,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:iron_nugget",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

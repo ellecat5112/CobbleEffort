@@ -5,8 +5,8 @@
  "primaryType": "dark",
  "secondaryType": "steel",
  "maleRatio": -1,
- "height": 350,
- "weight": 9999,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.proximamon.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 0,
  "shoulderMountable": false,
- "baseScale": 6.667,
+ "baseScale": 0.3429,
  "hitbox": {
   "width": 6.0,
   "height": 5.25,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:ink_sac",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

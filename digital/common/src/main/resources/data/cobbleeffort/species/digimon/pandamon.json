@@ -5,8 +5,8 @@
  "primaryType": "normal",
  "secondaryType": "fighting",
  "maleRatio": -1,
- "height": 250,
- "weight": 9999,
+ "height": 14,
+ "weight": 78,
  "pokedex": [
   "cobbleeffort.species.pandamon.desc"
  ],
@@ -50,7 +50,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 8.0,
+ "baseScale": 0.448,
  "hitbox": {
   "width": 4.0,
   "height": 3.125,
@@ -85,7 +85,7 @@
   "entries": [
    {
     "item": "minecraft:leather",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

@@ -4,8 +4,8 @@
  "name": "Wormmon",
  "primaryType": "bug",
  "maleRatio": -1,
- "height": 10,
- "weight": 40,
+ "height": 5,
+ "weight": 10,
  "pokedex": [
   "cobbleeffort.species.wormmon.desc"
  ],
@@ -49,8 +49,8 @@
  "catchRate": 150,
  "eggCycles": 20,
  "baseFriendship": 70,
- "shoulderMountable": false,
- "baseScale": 0.727,
+ "shoulderMountable": true,
+ "baseScale": 0.3636,
  "hitbox": {
   "width": 2.0,
   "height": 1.375,

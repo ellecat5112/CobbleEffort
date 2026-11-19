@@ -5,8 +5,8 @@
  "primaryType": "fairy",
  "secondaryType": "dark",
  "maleRatio": -1,
- "height": 350,
- "weight": 9999,
+ "height": 14,
+ "weight": 78,
  "pokedex": [
   "cobbleeffort.species.lucemonxantibody.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 0,
  "shoulderMountable": false,
- "baseScale": 8.75,
+ "baseScale": 0.35,
  "hitbox": {
   "width": 6.0,
   "height": 4.0,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

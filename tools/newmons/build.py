@@ -3961,6 +3961,13 @@ LINES["digi_agumon"] = ["koromon", "agumon", "greymon", "metalgreymon", "blitzgr
 # Agumon line above to them.
 import digimon_gen  # noqa: E402
 digimon_gen.generate(SPECIES, LINES)
+# lore sizes (tools/digimon/sizes.py, the user's call in Digital 0.18.0): every Digimon, the hand-built Agumon line too,
+# stands its lore height in blocks (= metres); build_model rescales the model to it
+DIGI_SIZES = {sp: v["m"] for sp, v in json.loads((ROOT / "tools" / "digimon" / "data" / "sizes.json").read_text()).items()}
+for _sp, _c in SPECIES.items():
+    if "digimon" in _c.get("labels", []) and _sp in DIGI_SIZES:
+        _m = DIGI_SIZES[_sp]
+        _c.update(height=max(1, round(_m * 10)), weight=min(9999, max(10, round(_m ** 2 * 40))), shoulder=_m <= 0.5)
 
 # --- Kidlope -> Shadelope -> Ghillope (#3151-3153, the user's art, artist not named; our names): black goat-rabbits of
 # the deep woods with leafy ruffs; the last wears a ghillie cloak of leaves and vines. Grass/Dark at 16/36; Ghillope's
@@ -4547,6 +4554,11 @@ def model_module(sp):
     spec = importlib.util.spec_from_file_location(f"newmon_{sp}", HERE / "models" / f"{sp}.py")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
+    lore = globals().get("DIGI_SIZES", {}).get(sp)
+    if lore and "digimon" in SPECIES.get(sp, {}).get("labels", []) and getattr(mod, "SCALE", None) and getattr(mod, "HITBOX", None):
+        tall = mod.SCALE * mod.HITBOX[1]                    # the height the module was sized to, in blocks
+        if tall > 0:
+            mod.SCALE = round(mod.SCALE * lore / tall, 4)   # Digimon: the lore height (hitbox follows: it's in model units)
     return mod
 
 
@@ -4685,6 +4697,14 @@ def build_model(sp):
     cfg.update(scale=hand.SCALE, hitbox=hand.HITBOX, look=hand.LOOK)
     if DATA_ONLY:
         reuse_model(sp, cfg)
+        pf = RES / "assets" / MOD / "bedrock" / "pokemon" / "posers" / folder(sp) / f"{sp}.json"
+        if pf.exists():
+            pz = json.loads(pf.read_text())
+            fresh = poser("x", sp, hand.HITBOX[1] * 16, hand.SCALE, [])
+            keys = ("portraitScale", "portraitTranslation", "profileScale", "profileTranslation")
+            if any(pz.get(k) != fresh[k] for k in keys):
+                pz.update({k: fresh[k] for k in keys})
+                write_json(pf, pz)
         return
     r = write_model_assets(sp, hand, folder(sp))
     tex, layers = r["tex"], r["layers"]

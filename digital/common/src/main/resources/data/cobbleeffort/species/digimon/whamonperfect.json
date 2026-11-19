@@ -4,8 +4,8 @@
  "name": "Whamon Perfect",
  "primaryType": "water",
  "maleRatio": -1,
- "height": 250,
- "weight": 9999,
+ "height": 18,
+ "weight": 124,
  "pokedex": [
   "cobbleeffort.species.whamonperfect.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 16.667,
+ "baseScale": 1.1733,
  "hitbox": {
   "width": 8.0,
   "height": 1.5,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:prismarine_shard",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

@@ -5,7 +5,8 @@ A Digimon crossover for Cobblemon. Since 0.2.0 the Digimon themselves live here 
 CobbleEffort; their ids are unchanged, so Digimon you already caught stay as they are). They spawn, battle, level up
 and evolve exactly like Pokémon, on hand-built models, and are added in wikimon.net's alphabetical order a batch at a
 time; wikimon decides who evolves into whom (when several evolutions are possible at once, Cobblemon offers them all
-and you pick). Sizes: Adult 15 blocks tall, Perfect 25, Ultimate 35, Super Ultimate 45.
+and you pick). Sizes (0.18.0): lore sizes, one block = one metre, as each Digimon is shown next to people in the
+anime, manga and games (Agumon 1 block, Greymon 6, WarGreymon 3, Whamon 40 long, Machinedramon 30, VenomVamdemon 50).
 
 * Digiballs: the Digiball is three times as good as a Poké Ball on any Digimon below Ultimate (craft one from a
   Poké Ball, redstone, lapis lazuli and a copper ingot, or four from a Great Ball ringed with redstone, copper and

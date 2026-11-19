@@ -5,8 +5,8 @@
  "primaryType": "dark",
  "secondaryType": "fighting",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.madleomon.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 3.75,
+ "baseScale": 0.45,
  "hitbox": {
   "width": 4.4,
   "height": 4.0,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:ink_sac",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

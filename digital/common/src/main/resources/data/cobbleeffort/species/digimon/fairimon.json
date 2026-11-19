@@ -5,8 +5,8 @@
  "primaryType": "fairy",
  "secondaryType": "flying",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 17,
+ "weight": 116,
  "pokedex": [
   "cobbleeffort.species.fairimon.desc"
  ],
@@ -51,7 +51,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 3.75,
+ "baseScale": 0.425,
  "hitbox": {
   "width": 2.4,
   "height": 4.0,
@@ -86,7 +86,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

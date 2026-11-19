@@ -5,8 +5,8 @@
  "primaryType": "normal",
  "secondaryType": "fairy",
  "maleRatio": -1,
- "height": 350,
- "weight": 9999,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.cardmons1.desc"
  ],
@@ -47,7 +47,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 22.4,
+ "baseScale": 1.1524,
  "hitbox": {
   "width": 0.94,
   "height": 1.562,
@@ -82,7 +82,7 @@
   "entries": [
    {
     "item": "minecraft:leather",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

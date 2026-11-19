@@ -4,8 +4,8 @@
  "name": "Luminamon",
  "primaryType": "fairy",
  "maleRatio": -1,
- "height": 250,
- "weight": 9999,
+ "height": 14,
+ "weight": 78,
  "pokedex": [
   "cobbleeffort.species.luminamon.desc"
  ],
@@ -47,7 +47,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 11.765,
+ "baseScale": 0.6588,
  "hitbox": {
   "width": 3.0,
   "height": 2.125,
@@ -82,7 +82,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

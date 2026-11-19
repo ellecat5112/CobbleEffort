@@ -5,8 +5,8 @@
  "primaryType": "steel",
  "secondaryType": "fairy",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 16,
+ "weight": 97,
  "pokedex": [
   "cobbleeffort.species.xrosupdorulumonpawnchessmonwhite.desc"
  ],
@@ -47,7 +47,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 8.0,
+ "baseScale": 0.832,
  "hitbox": {
   "width": 4.0,
   "height": 1.875,
@@ -82,7 +82,7 @@
   "entries": [
    {
     "item": "minecraft:iron_nugget",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

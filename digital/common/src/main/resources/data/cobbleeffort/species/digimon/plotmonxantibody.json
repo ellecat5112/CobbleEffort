@@ -5,8 +5,8 @@
  "primaryType": "normal",
  "secondaryType": "fairy",
  "maleRatio": -1,
- "height": 10,
- "weight": 40,
+ "height": 4,
+ "weight": 10,
  "pokedex": [
   "cobbleeffort.species.plotmonxantibody.desc"
  ],
@@ -49,8 +49,8 @@
  "catchRate": 150,
  "eggCycles": 20,
  "baseFriendship": 70,
- "shoulderMountable": false,
- "baseScale": 0.8,
+ "shoulderMountable": true,
+ "baseScale": 0.32,
  "hitbox": {
   "width": 1.8,
   "height": 1.25,

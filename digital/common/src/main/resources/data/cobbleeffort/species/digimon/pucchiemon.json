@@ -5,8 +5,8 @@
  "primaryType": "fairy",
  "secondaryType": "fire",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 10,
+ "weight": 40,
  "pokedex": [
   "cobbleeffort.species.pucchiemon.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 7.5,
+ "baseScale": 0.5,
  "hitbox": {
   "width": 2.6,
   "height": 2.0,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

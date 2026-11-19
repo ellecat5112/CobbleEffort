@@ -4,8 +4,8 @@
  "name": "Bakemon",
  "primaryType": "ghost",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 16,
+ "weight": 102,
  "pokedex": [
   "cobbleeffort.species.bakemon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 6.0,
+ "baseScale": 0.64,
  "hitbox": {
   "width": 2.0,
   "height": 2.5,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:phantom_membrane",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

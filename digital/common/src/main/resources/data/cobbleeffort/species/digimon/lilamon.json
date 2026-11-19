@@ -5,8 +5,8 @@
  "primaryType": "grass",
  "secondaryType": "fairy",
  "maleRatio": -1,
- "height": 250,
- "weight": 9999,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.lilamon.desc"
  ],
@@ -51,7 +51,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 6.25,
+ "baseScale": 0.45,
  "hitbox": {
   "width": 3.0,
   "height": 4.0,
@@ -86,7 +86,7 @@
   "entries": [
    {
     "item": "minecraft:wheat_seeds",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

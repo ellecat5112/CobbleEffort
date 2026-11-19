@@ -415,7 +415,13 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   after the official art the user shares (`models/_digi.py` palette + `striped()`/`eye`/`claw_fan`/`teeth_row`,
   `_greymon.py` Greymon/MetalGreymon body, `_omega.py` both Omegamon Alter knights (SCHEMES S/B)). Agumon line:
   Koromon -> Agumon 10 -> Greymon 20 -> MetalGreymon 35 -> BlitzGreymon 45 -> Omegamon Alter-S 55 -> Alter-B 70
-  (legendary). Size rule (the user's): Greymon >= 15 blocks, +10 blocks per stage (HITBOX height x SCALE). Signature
+  (legendary). **Sizes are lore sizes** (the user's call, Digital 0.18.0; the old "Greymon >= 15 blocks, +10 per
+  stage" rule and the 35-block Demon Lords are gone): `tools/digimon/sizes.py` -> committed `data/sizes.json` (slug ->
+  metres = blocks): LORE = heights as drawn next to people in the anime/manga/games (wikimon states a body size only for
+  Valdurmon: 30 m wingspan), variants (X-Antibody, Black, G Erosion...) inherit their base's, everyone else = wikimon
+  type -> body-plan group x level (GROUPS/TYPE_GROUP). build.py's `model_module` rescales a Digimon module's SCALE to
+  it (the `_digi.sized(blocks, ...)` blocks in modules only set the starting point), `--data-only` refreshes the
+  posers' portrait framing, digimon_gen/build.py set Pokédex height/weight from it. Signature
   moves pepperbreath/megaflame/gigadestroyer/greysword/garurucannon (-3045..-3049). Shiny = "Black" colours.
   **CobbleEffort: Digital** (`digital/`, fifth add-on, Architectury like Fusion; `./gradlew build` ->
   `build/libs/cobbleeffort-digital-<v>.zip`; `tools/make_assets.py <Cobblemon jar>`): the Digiball = a real
@@ -519,7 +525,7 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   skip rules; wikimon pages for all of K..Z are cached and parsed into tools/digimon/data/wikimon.json. Builders:
   `_rockmon` (chunk golems), `_keramon`, `_knightchess`, `_knightmon` (wise), `_kodoku` (child), `_kekomon` (crest),
   `_kuwagamon`, `_kuzuha` (miko), `_kyubimon` (silver), `_lavo` (bird), `_ladydevimon`, `_leomon`, `_leviamon`,
-  `_lilimon`, `_lilithmon`, `_lopmon`, `_lordknightmon` (x each). Demon Lords stay at the Ultimate size (35 blocks).
+  `_lilimon`, `_lilithmon`, `_lopmon`, `_lordknightmon` (x each).
   Revealing official art (Luminamon Nene Ver., Lilithmon, Jet Mervamon...) is built covered (tunics, robes, armour).
   **The A-Z roster is complete** (1.7.0 / Digital 0.12.0, M..Z = 748 entries, ROSTER 1563, last Zurumon). Skipped in
   K..Z: Nüwashou (silhouette only) and Xros Up Opossummon (Candmon) (only a wide anime still); "Unnamed ..." pages with

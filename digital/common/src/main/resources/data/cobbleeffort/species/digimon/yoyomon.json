@@ -5,8 +5,8 @@
  "primaryType": "steel",
  "secondaryType": "normal",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 10,
+ "weight": 40,
  "pokedex": [
   "cobbleeffort.species.yoyomon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 6.486,
+ "baseScale": 0.4325,
  "hitbox": {
   "width": 3.0,
   "height": 2.312,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:iron_nugget",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

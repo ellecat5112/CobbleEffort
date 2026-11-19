@@ -2143,18 +2143,17 @@ silhouette on wikimon) and Xros Up Opossummon (Candmon) (only a wide anime still
 
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
-The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks
-tall, 10 blocks more for every stage after it):
+The first run is the Agumon line. Every Digimon stands its **lore size** (one block = one metre; see below):
 
 | # | Digimon | Type | Evolves | Height |
 |---|---|---|---|---|
-| 3172 | Koromon | Normal | Agumon at level 10 | 0.4 blocks |
+| 3172 | Koromon | Normal | Agumon at level 10 | 0.3 blocks |
 | 3173 | Agumon | Fire | Greymon at 20 | 1 block |
-| 3174 | Greymon | Fire/Dragon | MetalGreymon at 35 | 15 blocks |
-| 3175 | MetalGreymon | Steel/Dragon | BlitzGreymon at 45 | 25 blocks |
-| 3176 | BlitzGreymon | Steel/Fire | Omegamon Alter-S at 55 | 35 blocks |
-| 3177 | Omegamon Alter-S | Steel/Fighting | Omegamon Alter-B at 70 | 45 blocks |
-| 3178 | Omegamon Alter-B | Dark/Steel, legendary | | 55 blocks |
+| 3174 | Greymon | Fire/Dragon | MetalGreymon at 35 | 6 blocks |
+| 3175 | MetalGreymon | Steel/Dragon | BlitzGreymon at 45 | 9 blocks |
+| 3176 | BlitzGreymon | Steel/Fire | Omegamon Alter-S at 55 | 8 blocks |
+| 3177 | Omegamon Alter-S | Steel/Fighting | Omegamon Alter-B at 70 | 4 blocks |
+| 3178 | Omegamon Alter-B | Dark/Steel, legendary | | 4.5 blocks |
 
 Their signature moves: Pepper Breath (Fire, 50), Mega Flame (Fire, 100), Giga Destroyer (Steel, 110), Grey Sword
 (Steel, 120, high critical-hit ratio) and Garuru Cannon (Ice, 120). Koromon is common in plains and forests, Agumon
@@ -2172,8 +2171,16 @@ chests, and wild Digimon drop one 5% of the times you defeat them.
 time, and wikimon decides who evolves into whom: every Evolves From/To link between two Digimon in the mod becomes an
 evolution (not card-game-only links, DNA evolutions or Warp Evolutions), at the target's stage level (Child 10, Adult
 20, Perfect 35, Ultimate 50, Super Ultimate 70). When several are possible at once, Cobblemon offers them all and
-you pick. Sizes follow the Agumon line's rule for every Digimon: Adult 15 blocks, Perfect 25, Ultimate 35, Super
-Ultimate 45. Their dex numbers start at #3301.
+you pick. Their dex numbers start at #3301.
+
+**Lore sizes** (Digital 0.18.0, the user's call; they replace the old "Greymon 15 blocks, +10 per stage" rule): one
+block is one metre. Digimon have no official height chart (wikimon states a body size for only one, Valdurmon's 30 m
+wingspan), so `tools/digimon/sizes.py` sizes them as they're drawn next to people and each other in the anime, manga
+and games: hand-picked heights for the well-known ones (Agumon 1 m, Patamon 0.4, Tailmon 0.5, Renamon 1.8, Greymon
+6, Garurumon 2.5, WarGreymon 3, Omegamon and the Royal Knights 3-4, Machinedramon 30, VenomVamdemon 50) and lengths
+for long bodies (Whamon 40 m, Leviamon 60, Examon 40); variants share their base's size; everyone else gets their
+wikimon type's body plan at their level (a Holy Knight stays man-sized, a Dinosaur grows into a giant; upright
+dragon-men like V-dramon count as humanoid). The result is `tools/digimon/data/sizes.json`.
 
 Batch 1 (0.96.0, Abbadomon to Agumon Hakase, 19 Digimon): Abbadomon and Abbadomon Core (legendary), Achillesmon,
 Aegiomon and the five Aegiochusmon (plain, Blue, Dark, Green, Holy), Aegisdramon, Aequcedramon, Aero V-dramon,

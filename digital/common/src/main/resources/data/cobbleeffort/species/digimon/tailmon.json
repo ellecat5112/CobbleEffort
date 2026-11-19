@@ -4,8 +4,8 @@
  "name": "Tailmon",
  "primaryType": "fairy",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 5,
+ "weight": 10,
  "pokedex": [
   "cobbleeffort.species.tailmon.desc"
  ],
@@ -49,8 +49,8 @@
  "catchRate": 90,
  "eggCycles": 20,
  "baseFriendship": 70,
- "shoulderMountable": false,
- "baseScale": 8.0,
+ "shoulderMountable": true,
+ "baseScale": 0.2667,
  "hitbox": {
   "width": 1.6,
   "height": 1.875,
@@ -85,7 +85,7 @@
   "entries": [
    {
     "item": "minecraft:glowstone_dust",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

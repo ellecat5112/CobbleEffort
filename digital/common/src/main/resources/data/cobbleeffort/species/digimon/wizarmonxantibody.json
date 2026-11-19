@@ -5,8 +5,8 @@
  "primaryType": "psychic",
  "secondaryType": "dark",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 15,
+ "weight": 90,
  "pokedex": [
   "cobbleeffort.species.wizarmonxantibody.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 3.529,
+ "baseScale": 0.3529,
  "hitbox": {
   "width": 6.0,
   "height": 4.25,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:amethyst_shard",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

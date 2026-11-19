@@ -5,8 +5,8 @@
  "primaryType": "steel",
  "secondaryType": "fairy",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 19,
+ "weight": 144,
  "pokedex": [
   "cobbleeffort.species.wolfmon.desc"
  ],
@@ -53,7 +53,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 3.75,
+ "baseScale": 0.475,
  "hitbox": {
   "width": 6.0,
   "height": 4.0,
@@ -88,7 +88,7 @@
   "entries": [
    {
     "item": "minecraft:iron_nugget",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

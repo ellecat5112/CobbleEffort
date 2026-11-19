@@ -5,8 +5,8 @@
  "primaryType": "fighting",
  "secondaryType": "fire",
  "maleRatio": -1,
- "height": 250,
- "weight": 9999,
+ "height": 6,
+ "weight": 14,
  "pokedex": [
   "cobbleeffort.species.mamemonxantibody.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 18.182,
+ "baseScale": 0.4364,
  "hitbox": {
   "width": 2.4,
   "height": 1.375,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:leather",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

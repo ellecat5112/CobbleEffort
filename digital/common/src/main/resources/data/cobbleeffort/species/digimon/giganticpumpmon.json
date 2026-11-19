@@ -5,8 +5,8 @@
  "primaryType": "ghost",
  "secondaryType": "grass",
  "maleRatio": -1,
- "height": 350,
- "weight": 9999,
+ "height": 18,
+ "weight": 130,
  "pokedex": [
   "cobbleeffort.species.giganticpumpmon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 0,
  "shoulderMountable": false,
- "baseScale": 10.0,
+ "baseScale": 0.5143,
  "hitbox": {
   "width": 4.4,
   "height": 3.5,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:phantom_membrane",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

@@ -5,8 +5,8 @@
  "primaryType": "ground",
  "secondaryType": "steel",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 17,
+ "weight": 110,
  "pokedex": [
   "cobbleeffort.species.rhinomonxantibody.desc"
  ],
@@ -49,7 +49,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 7.5,
+ "baseScale": 0.83,
  "hitbox": {
   "width": 6.0,
   "height": 2.0,
@@ -84,7 +84,7 @@
   "entries": [
    {
     "item": "minecraft:clay_ball",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },

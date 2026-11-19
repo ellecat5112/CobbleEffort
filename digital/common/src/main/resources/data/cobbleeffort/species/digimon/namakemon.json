@@ -5,8 +5,8 @@
  "primaryType": "normal",
  "secondaryType": "ghost",
  "maleRatio": -1,
- "height": 150,
- "weight": 9000,
+ "height": 10,
+ "weight": 40,
  "pokedex": [
   "cobbleeffort.species.namakemon.desc"
  ],
@@ -48,7 +48,7 @@
  "eggCycles": 20,
  "baseFriendship": 70,
  "shoulderMountable": false,
- "baseScale": 5.455,
+ "baseScale": 0.3636,
  "hitbox": {
   "width": 3.6,
   "height": 2.75,
@@ -83,7 +83,7 @@
   "entries": [
    {
     "item": "minecraft:leather",
-    "quantityRange": "4-8"
+    "quantityRange": "1-3"
    }
   ]
  },
