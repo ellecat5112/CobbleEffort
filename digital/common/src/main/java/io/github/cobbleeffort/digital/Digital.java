@@ -220,6 +220,22 @@ public final class Digital {
                     .of(DigiFarm.TerminalEntity::new, FARM_TERMINAL.get()).build(null));
     public static final RegistrySupplier<Item> HARNESS = item("chest_harness", () -> new PartnerUtility.HarnessItem(props().stacksTo(1)));
 
+    // --- Spirit Evolution and Bio-Merge (0.17.0) ---------------------------------------------------------------------------
+    public static final Map<String, RegistrySupplier<Item>> SPIRIT_ITEMS = new java.util.LinkedHashMap<>();
+
+    static {
+        for (String e : SpiritEvolution.ELEMENTS) {
+            SPIRIT_ITEMS.put(e + "_human", item("human_spirit_of_" + e, () ->
+                    new SpiritEvolution.SpiritItem(props().stacksTo(1).rarity(Rarity.EPIC), e, false)));
+            SPIRIT_ITEMS.put(e + "_beast", item("beast_spirit_of_" + e, () ->
+                    new SpiritEvolution.SpiritItem(props().stacksTo(1).rarity(Rarity.EPIC), e, true)));
+        }
+    }
+
+    /** The spirit's hotbar items (not in the creative tab: they only exist while a spirit is active). */
+    public static final RegistrySupplier<Item> SPIRIT_ATTACK = ITEMS.register("spirit_attack", () ->
+            new SpiritEvolution.SpiritAttack(props().stacksTo(1).rarity(Rarity.EPIC)));
+
     // --- Chrome Digizoid ------------------------------------------------------------------------------------------------
     public static final RegistrySupplier<Block> CHROME_ORE = BLOCKS.register("chrome_digizoid_ore", () ->
             new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
@@ -279,6 +295,7 @@ public final class Digital {
         DigizoidGear.init();
         PartnerUtility.init();
         Tamers.init();
+        SpiritEvolution.init();
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTING.register(s -> server = s);
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STOPPED.register(s -> server = null);
         // the gamerules (registered on class load)

@@ -569,7 +569,18 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   dispenser menu: tethered Digimon at nearby pastures earn goods by the blocks around), `PartnerUtility` (sneak + empty
   hand on your own Digimon: Chest Harness storage in persistentData, Fire = fuel-free blast furnace per player, Ground/
   Rock/Steel = 3-wide mining while out), `Tamers` (wandering themed Tamers, overworld `colosseum` structure with
-  1v1/2v2/3v3 NPCs, Tamer Rank SavedData, `/digital rank`). Spirit Evolution + Bio-Merge work sits in `scratchpad/dig13`.
+  1v1/2v2/3v3 NPCs, Tamer Rank SavedData, `/digital rank`).
+- **Digital 0.17.0, Spirit Evolution + Bio-Merge** (`SpiritEvolution`, `digital/tools/make_spirit.py`: icons, ten
+  `spirit_temple_<element>` structures in ONE structure set (a placement tries each temple until one fits the biome),
+  loot, recipes, lang): no client code. The look = a server-side costume PokemonEntity (noAi, invulnerable, silent,
+  `uncatchable`, forced aspect `cobbleeffort_costume`, scaleModifier to ~2.2 blocks, collision-free scoreboard team)
+  moved onto the player every tick while the player is invisible; `mixin/CostumePickMixin` makes LivingEntity.isPickable
+  false for it on both sides (else the crosshair, punches and the player's own projectiles hit it at distance 0). The
+  hotbar is saved to SavedData `<mod>_spirits` and replaced by `spirit_attack` items (custom_data action attack/dash/
+  revert; never on the ground: EntityEvent.ADD drops them); restored on revert, join and respawn, and on LIVING_DEATH
+  BEFORE the death drops. Leftover costumes (a crash) are refused by EntityEvent.ADD, battles with them cancelled.
+  Bio-Merge = sneak + Digivice on your own Digimon at friendship 255 (50 energy): furthest open evolution up to stage
+  `ultimate`, element from its primary type, partner recalled.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

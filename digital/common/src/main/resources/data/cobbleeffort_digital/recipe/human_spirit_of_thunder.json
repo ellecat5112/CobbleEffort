@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EGE",
+    "GCG",
+    "EGE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:lightning_rod"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:digi_core"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:human_spirit_of_thunder",
+    "count": 1
+  }
+}

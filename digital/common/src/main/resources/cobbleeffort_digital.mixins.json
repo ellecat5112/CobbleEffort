@@ -4,6 +4,7 @@
   "package": "io.github.cobbleeffort.digital.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CostumePickMixin",
     "MoveInstructionMixin"
   ],
   "client": [],

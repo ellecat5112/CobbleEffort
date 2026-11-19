@@ -150,6 +150,27 @@ Tamers and the Colosseum
   Rank points (Colosseum Tamers 25, once a day each; others 10) and Digi-Modify cards. Ranks: Rookie, Champion (100),
   Ultimate (300), Mega (700). /digital rank shows yours.
 
+Spirit Evolution
+  Twenty Spirits, a Human and a Beast Spirit for each of ten elements (Flame: Agnimon/Vritramon, Light: Wolfmon/
+  Garummon, Ice: Chackmon/Blizzarmon, Wind: Fairimon/Shutumon, Thunder: Blitzmon/Bolgmon, Darkness: Duskmon/Velgrmon,
+  Earth: Grottomon/Gigasmon, Wood: Arbormon/Petaldramon, Water: Ranamon/Calamaramon, Steel: Mercurymon/Sephirothmon).
+  Find them in Spirit Temples, small shrines of each element's stone with a chest on a pedestal (Flame in deserts and
+  badlands, Light in meadows and cherry groves, Ice in snowy lands, Wind in windswept hills, Thunder in savannas and
+  plains, Darkness in dark forests, Earth in wooded/eroded badlands and stony shores, Wood in jungles and forests,
+  Water on beaches and in swamps, Steel in taigas; the Digital World has them too), or craft them: a Digi-Core ringed
+  by gold and the element's item for a Human Spirit, by Chrome Digizoid and the element's block for a Beast Spirit.
+  Use a Spirit and you become its Digimon: you look the part, your hotbar becomes the spirit's power (right-click),
+  a Spirit Dash and Release the Spirit, and you get the element's gifts (flight for Wind and Light, fire resistance
+  for Flame, regeneration for Wood, water breathing for Water...). Human Spirits last 60 seconds and add speed and
+  jumps; Beast Spirits last 40 seconds and hit harder (Strength II, absorption). The gauge shows above the hotbar.
+  Your hotbar comes back when the spirit leaves (it's saved with the world, so a logout or a crash can't lose it; die
+  as a spirit and it drops like the rest of your things), then the spirit rests for five minutes. Not in battles.
+
+Bio-Merge
+  Sneak and use the Digivice on your own sent-out Digimon when its friendship is at the maximum (255): you merge with
+  it into its Mega (the furthest digivolution open to it) for 90 seconds, for 50 Tamer Energy. You keep your armor,
+  fly, hit hard and attack with its element (from its type); your partner rests in its ball meanwhile.
+
 Install: Fabric or NeoForge with Architectury API and Cobblemon 1.8.4. Shared as a main jar plus texture jars
 ("CobbleEffort: Digital Textures N"): install all of them.
 

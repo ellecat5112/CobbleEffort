@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BIB",
+    "ICI",
+    "BIB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "I": {
+      "item": "cobbleeffort_digital:chrome_digizoid_ingot"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:digi_core"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:beast_spirit_of_darkness",
+    "count": 1
+  }
+}

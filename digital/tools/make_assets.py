@@ -137,6 +137,8 @@ def main():
     lang.update(make_world.build())
     import make_gear                                                       # 0.16.0: Tamer life
     lang.update(make_gear.build())
+    import make_spirit                                                     # 0.17.0: Spirit Evolution, Bio-Merge
+    lang.update(make_spirit.build())
     write_json(lang_file, dict(sorted(lang.items())))
     write_json(D / "recipe/digiball.json", {
         "type": "minecraft:crafting_shapeless", "category": "misc",

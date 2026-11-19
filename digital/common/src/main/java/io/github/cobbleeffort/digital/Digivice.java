@@ -202,6 +202,10 @@ public class Digivice extends Item implements SimpleBagItemLike {
             sp.displayClientMessage(Component.translatable(Digital.MOD_ID + ".use.not_digimon", p.getDisplayName(false)), true);
             return InteractionResult.FAIL;
         }
+        if (player.isShiftKeyDown() && sp.getUUID().equals(p.getOwnerUUID()) && !entity.isBattling()
+                && SpiritEvolution.bioMerge(sp, entity, stack)) {
+            return InteractionResult.CONSUME;                              // sneak on your own Digimon: Bio-Merge
+        }
         scan(sp, p, sp.getUUID().equals(p.getOwnerUUID()));
         Crests.scanned(sp, p.getSpecies().getResourceIdentifier().toString());
         player.level().playSound(null, entity.blockPosition(), SoundEvents.BEACON_AMBIENT, SoundSource.PLAYERS, 0.8F, 1.8F);

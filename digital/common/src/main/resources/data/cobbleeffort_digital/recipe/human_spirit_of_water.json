@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EGE",
+    "GCG",
+    "EGE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:digi_core"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:human_spirit_of_water",
+    "count": 1
+  }
+}
