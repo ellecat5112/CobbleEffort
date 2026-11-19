@@ -75,11 +75,12 @@ def build():
               strands(P, "white", "white_dark"), tip=0.8)
     h = a["arm_right"]["hand"]                                                          # giant bone sword
     rb = a["arm_right"]["bone"]
-    m.box(rb, h[0] - 0.8, h[1] - 0.8, h[2] - 4.0, h[0] + 0.8, h[1] + 0.8, h[2] + 4.0, metal(P, "gold", dark="gold_dark"))
-    for j in range(6):
-        z0 = h[2] - 4.0 - j * 5.0
-        m.box(rb, h[0] - 0.8, h[1] - 3.0 - j * 0.2, z0 - 5.2, h[0] + 0.8, h[1] + 2.0, z0, BONE)
-        spike(m, rb, (h[0], h[1] + 2.0, z0 - 2.6), (0, 1, -0.3), 1.0, 2.4, BONE, tip=0.8)
+    m.box(rb, h[0] - 4.0, h[1] - 0.8, h[2] - 0.8, h[0] + 4.0, h[1] + 0.8, h[2] + 0.8, metal(P, "gold", dark="gold_dark"))
+    for j in range(6):                                                                  # blade held out sideways, down
+        x0 = h[0] - 4.0 - j * 5.0
+        y0 = h[1] - j * 2.0
+        m.box(rb, x0 - 5.2, y0 - 3.0, h[2] - 0.8, x0, y0 + 2.0, h[2] + 0.8, BONE)
+        spike(m, rb, (x0 - 2.6, y0 + 2.0, h[2]), (-0.3, 1, 0), 1.0, 2.4, BONE, tip=0.8)
     for j in range(4):
-        ball(m, rb, (h[0], h[1] + 2.0 + j, h[2] - 32.0 - j * 2.0), 2.4, solid(P, "smoke"), layers=1)
+        ball(m, rb, (h[0] - 32.0 - j * 2.0, h[1] - 10.0 + j, h[2]), 2.4, solid(P, "smoke"), layers=1)
     return m

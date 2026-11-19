@@ -56,8 +56,8 @@ def build():
               strands(P, "white", "white_dark"), tip=0.8)
     h = a["arm_left"]["hand"]                                                           # square shield-gauntlet
     lb = a["arm_left"]["bone"]
-    m.box(lb, h[0] - 1.0, h[1] - 6.0, h[2] - 7.0, h[0] + 1.6, h[1] + 8.0, h[2] + 7.0, ARM)
-    m.box(lb, h[0] + 1.6, h[1] - 2.0, h[2] - 3.0, h[0] + 2.2, h[1] + 4.0, h[2] + 3.0, solid(P, "ice", glow=True))
+    m.box(lb, h[0] - 5.0, h[1] - 6.0, h[2] - 4.0, h[0] + 6.0, h[1] + 8.0, h[2] - 2.4, ARM)
+    m.box(lb, h[0] - 2.4, h[1] - 2.0, h[2] - 4.6, h[0] + 3.4, h[1] + 4.0, h[2] - 4.0, solid(P, "ice", glow=True))
     h = a["arm_right"]["hand"]                                                          # energy blade
     rb = a["arm_right"]["bone"]
     m.box(rb, h[0] - 0.5, h[1] - 1.0, h[2] - 16.0, h[0] + 0.5, h[1] + 1.6, h[2] - 1.0, solid(P, "ice", glow=True),
