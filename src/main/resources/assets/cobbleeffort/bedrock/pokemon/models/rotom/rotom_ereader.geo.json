@@ -1,0 +1,101 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.rotom_ereader",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "rotom_ereader",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "rotom_ereader",
+     "pivot": [
+      0.0,
+      6.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -7.5,
+        0,
+        -5
+       ],
+       "size": [
+        15,
+        4,
+        10
+       ],
+       "uv": [
+        0,
+        19
+       ]
+      },
+      {
+       "origin": [
+        -6,
+        4.2,
+        -0.8
+       ],
+       "size": [
+        12,
+        17,
+        2
+       ],
+       "uv": [
+        0,
+        0
+       ],
+       "rotation": [
+        -10.0,
+        0.0,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        4.2,
+        0.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "rotom_ereader",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "rotom_ereader",
+     "pivot": [
+      0,
+      22.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

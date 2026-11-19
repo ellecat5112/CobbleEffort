@@ -1,0 +1,270 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.rotom_clippers",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "rotom_clippers",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "rotom_clippers",
+     "pivot": [
+      0.0,
+      10.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.8,
+        2,
+        -1.6
+       ],
+       "size": [
+        8,
+        18,
+        3
+       ],
+       "uv": [
+        22,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -2.6,
+        1.95,
+        -2.8
+       ],
+       "size": [
+        5,
+        18,
+        6
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -4,
+        20.5,
+        -2.2
+       ],
+       "size": [
+        8,
+        3,
+        4
+       ],
+       "uv": [
+        0,
+        24
+       ]
+      },
+      {
+       "origin": [
+        -8,
+        14,
+        -1
+       ],
+       "size": [
+        4,
+        7,
+        0
+       ],
+       "uv": [
+        38,
+        24
+       ]
+      },
+      {
+       "origin": [
+        5,
+        8,
+        -1
+       ],
+       "size": [
+        4,
+        6,
+        0
+       ],
+       "uv": [
+        12,
+        31
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      2.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -0.55,
+        1.95,
+        -4
+       ],
+       "size": [
+        1,
+        1,
+        4
+       ],
+       "uv": [
+        20,
+        31
+       ],
+       "rotation": [
+        71.57,
+        -180.0,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        2.5,
+        0.0
+       ]
+      },
+      {
+       "origin": [
+        -0.55,
+        -1.05,
+        -4
+       ],
+       "size": [
+        1,
+        1,
+        5
+       ],
+       "uv": [
+        46,
+        24
+       ],
+       "rotation": [
+        12.6,
+        153.43,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        -0.5,
+        1.0
+       ]
+      },
+      {
+       "origin": [
+        -2.55,
+        -2.05,
+        -1
+       ],
+       "size": [
+        1,
+        1,
+        6
+       ],
+       "uv": [
+        24,
+        24
+       ],
+       "rotation": [
+        -5.71,
+        -143.13,
+        0.0
+       ],
+       "pivot": [
+        -2.0,
+        -1.5,
+        5.0
+       ]
+      },
+      {
+       "origin": [
+        0.45,
+        -1.55,
+        4
+       ],
+       "size": [
+        1,
+        1,
+        5
+       ],
+       "uv": [
+        0,
+        31
+       ],
+       "rotation": [
+        6.72,
+        -135.0,
+        0.0
+       ],
+       "pivot": [
+        1.0,
+        -1.0,
+        9.0
+       ]
+      },
+      {
+       "origin": [
+        3,
+        -3,
+        12
+       ],
+       "size": [
+        3,
+        3,
+        2
+       ],
+       "uv": [
+        30,
+        31
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "rotom_clippers",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "rotom_clippers",
+     "pivot": [
+      0,
+      24.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

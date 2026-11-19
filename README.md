@@ -1607,6 +1607,52 @@ rare drop from Garbodor, about 1 in 25) and it evolves into **Petroil** (#3154),
 shell, never without its entourage: a Trubbish rides in the barrel and another trails behind, and wild Petroil lead a
 band of Trubbish (wild Trubbish now follow a Petroil as their leader).
 
+**Extra Rotom forms** (1.8.0, the user's request): 32 new appliances for Rotom, each with its own form-change item,
+built after art the user shared: the Joseon Region fakemon cards (Drill, Jetski, ATV, Harvester), The_Aussie_Artist's
+Pokémon Abyss instruments (String, Beat, Brass, Grand), CaligoMilites' Rotom Boy, a smartwatch Rotom and two sheets
+of Rotom doodles (artists not named). Every form has Levitate and the appliance forms' stats, Rotom's learnset and a
+form-change move of its own. With **Mega Showdown** installed (it's in the stack), craft a form's item round a
+**Cell Battery** (pattern: its theme item above and below, its frame item either side) and use it on your Rotom:
+it changes into that form; use it again to change back. Mega Showdown's **Rotom Catalogue** cycles through all of them
+too (with CobbleEffort: Distortion 0.15.0), and its Rotom Units still turn any of them into Heat, Wash and the rest.
+
+| Form | Type | Form-change move | Item |
+|---|---|---|---|
+| Drill Rotom | Electric / Steel | Steel Beam | Drill Engine |
+| Jetski Rotom | Electric / Dragon | Draco Meteor | Jet Ski Engine |
+| ATV Rotom | Electric / Rock | Power Gem | ATV Engine |
+| Harvester Rotom | Electric / Bug | Bug Buzz | Harvester Engine |
+| String Rotom | Ghost / Grass | Energy Ball | Phantom Bow |
+| Beat Rotom | Ghost / Fighting | Aura Sphere | Phantom Drumsticks |
+| Brass Rotom | Ghost / Steel | Flash Cannon | Phantom Mouthpiece |
+| Grand Rotom | Ghost / Psychic | Psychic | Phantom Piano Key |
+| Rotom Boy | Electric / Ghost | Thunder | Retro Cartridge |
+| Watch Rotom | Electric / Psychic | Future Sight | Watch Strap |
+| Charger Rotom | Electric | Zap Cannon | Charging Cable |
+| TV Rotom | Electric / Dark | Night Daze | Remote Control |
+| Vacuum Rotom | Electric / Poison | Sludge Bomb | Vacuum Hose |
+| Toaster Rotom | Electric / Fire | Fire Blast | Toaster Coil |
+| Breaker Rotom | Electric / Ground | Earth Power | Circuit Fuse |
+| Antenna Rotom | Electric / Fairy | Moonblast | Rabbit-Ear Antenna |
+| Earbuds Rotom | Electric / Normal | Hyper Voice | Earbud Case |
+| RC Car Rotom | Electric / Ground | Earth Power | RC Remote |
+| Clippers Rotom | Electric / Steel | Mirror Shot | Clipper Blade |
+| Phantom Rotom | Ghost / Dark | Shadow Ball | Frayed Cord |
+| Mixer Rotom | Electric / Fighting | Focus Blast | Mixer Whisk |
+| Keytar Rotom | Electric / Normal | Boomburst | Keytar Strap |
+| Disc Rotom | Electric / Ice | Ice Beam | Compact Disc |
+| Jet Rotom | Electric / Flying | Hurricane | Jet Turbine |
+| Spider Rotom | Electric / Bug | Pollen Puff | Spider-Bot Core |
+| Lighter Rotom | Electric / Fire | Flamethrower | Lighter Flint |
+| Shredder Rotom | Electric / Dark | Dark Pulse | Shredder Blade |
+| Lamp Rotom | Electric / Fairy | Dazzling Gleam | Light Bulb |
+| Clock Rotom | Electric / Dragon | Roar of Time | Clock Hand |
+| E-Reader Rotom | Electric / Psychic | Psyshock | E-Ink Screen |
+| Curler Rotom | Electric / Fairy | Draining Kiss | Curling Wand |
+| Tonic Rotom | Electric / Poison | Venoshock | Tonic Cap |
+
+![The extra Rotom forms](docs/rotom_forms.png)
+
 **The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
 fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
 DNA machine, pull them apart. Put a mixed fossil in the tank, pick one of its halves at the Purifier, and a minute later

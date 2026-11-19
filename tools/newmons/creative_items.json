@@ -80,6 +80,582 @@
   }
  },
  {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_drill\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_drill.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794820,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_drill"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_drill"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_jetski\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_jetski.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794821,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_jetski"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_jetski"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_atv\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_atv.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794822,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_atv"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_atv"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_harvester\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_harvester.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794823,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_harvester"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_harvester"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_string\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_string.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794824,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_string"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_string"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_beat\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_beat.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794825,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_beat"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_beat"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_brass\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_brass.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794826,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_brass"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_brass"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_grand\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_grand.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794827,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_grand"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_grand"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_rotomboy\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_rotomboy.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794828,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_rotomboy"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_rotomboy"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_watch\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_watch.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794829,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_watch"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_watch"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_charger\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_charger.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794830,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_charger"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_charger"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_tv\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_tv.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794831,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_tv"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_tv"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_vacuum\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_vacuum.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794832,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_vacuum"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_vacuum"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_toaster\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_toaster.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794833,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_toaster"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_toaster"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_breaker\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_breaker.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794834,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_breaker"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_breaker"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_antenna\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_antenna.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794835,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_antenna"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_antenna"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_earbuds\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_earbuds.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794836,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_earbuds"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_earbuds"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_rccar\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_rccar.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794837,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_rccar"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_rccar"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_clippers\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_clippers.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794838,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_clippers"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_clippers"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_phantom\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_phantom.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794839,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_phantom"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_phantom"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_mixer\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_mixer.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794840,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_mixer"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_mixer"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_keytar\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_keytar.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794841,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_keytar"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_keytar"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_disc\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_disc.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794842,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_disc"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_disc"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_jet\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_jet.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794843,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_jet"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_jet"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_spider\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_spider.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794844,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_spider"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_spider"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_lighter\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_lighter.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794845,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_lighter"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_lighter"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_shredder\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_shredder.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794846,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_shredder"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_shredder"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_lamp\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_lamp.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794847,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_lamp"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_lamp"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_clock\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_clock.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794848,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_clock"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_clock"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_ereader\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_ereader.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794849,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_ereader"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_ereader"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_curler\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_curler.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794850,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_curler"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_curler"
+  }
+ },
+ {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_tonic\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_tonic.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794851,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_tonic"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_tonic"
+  }
+ },
+ {
   "id": "minecraft:red_wool",
   "count": 1,
   "components": {

@@ -1,0 +1,2536 @@
+{
+  "species": "cobblemon:rotom",
+  "order": 9001,
+  "variations": [
+    {
+      "aspects": [
+        "drill-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_drill",
+      "model": "cobbleeffort:rotom_drill.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_drill.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "drill-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_drill_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_drill_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jetski-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_jetski",
+      "model": "cobbleeffort:rotom_jetski.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_jetski.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jetski-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_jetski_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jetski_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "atv-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_atv",
+      "model": "cobbleeffort:rotom_atv.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_atv.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "atv-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_atv_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_atv_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "harvester-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_harvester",
+      "model": "cobbleeffort:rotom_harvester.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_harvester.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "harvester-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_harvester_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_harvester_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "string-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_string",
+      "model": "cobbleeffort:rotom_string.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_string.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "string-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_string_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_string_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "beat-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_beat",
+      "model": "cobbleeffort:rotom_beat.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_beat.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "beat-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_beat_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_beat_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "brass-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_brass",
+      "model": "cobbleeffort:rotom_brass.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_brass.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "brass-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_brass_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_brass_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "grand-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_grand",
+      "model": "cobbleeffort:rotom_grand.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_grand.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "grand-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_grand_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_grand_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rotomboy-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_rotomboy",
+      "model": "cobbleeffort:rotom_rotomboy.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rotomboy-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rotomboy_shiny_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "watch-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_watch",
+      "model": "cobbleeffort:rotom_watch.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_watch.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "watch-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_watch_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_watch_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "charger-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_charger",
+      "model": "cobbleeffort:rotom_charger.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_charger.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "charger-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_charger_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_charger_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tv-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_tv",
+      "model": "cobbleeffort:rotom_tv.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_tv.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tv-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_tv_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tv_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vacuum-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_vacuum",
+      "model": "cobbleeffort:rotom_vacuum.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_vacuum.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "vacuum-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_vacuum_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "toaster-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_toaster",
+      "model": "cobbleeffort:rotom_toaster.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_toaster.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "toaster-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_toaster_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_toaster_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "breaker-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_breaker",
+      "model": "cobbleeffort:rotom_breaker.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_breaker.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "breaker-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_breaker_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_breaker_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antenna-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_antenna",
+      "model": "cobbleeffort:rotom_antenna.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_antenna.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "antenna-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_antenna_shiny_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "earbuds-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_earbuds",
+      "model": "cobbleeffort:rotom_earbuds.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_earbuds.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "earbuds-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_earbuds_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rccar-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_rccar",
+      "model": "cobbleeffort:rotom_rccar.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rccar.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "rccar-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_rccar_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_rccar_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clippers-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_clippers",
+      "model": "cobbleeffort:rotom_clippers.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_clippers.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clippers-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_clippers_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clippers_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phantom-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_phantom",
+      "model": "cobbleeffort:rotom_phantom.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_phantom.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "phantom-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_phantom_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_phantom_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mixer-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_mixer",
+      "model": "cobbleeffort:rotom_mixer.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_mixer.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "mixer-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_mixer_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_mixer_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "keytar-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_keytar",
+      "model": "cobbleeffort:rotom_keytar.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_keytar.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "keytar-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_keytar_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_keytar_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "disc-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_disc",
+      "model": "cobbleeffort:rotom_disc.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_disc.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "disc-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_disc_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_disc_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jet-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_jet",
+      "model": "cobbleeffort:rotom_jet.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_jet.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "jet-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_jet_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_jet_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "spider-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_spider",
+      "model": "cobbleeffort:rotom_spider.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_spider.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "spider-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_spider_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_spider_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lighter-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_lighter",
+      "model": "cobbleeffort:rotom_lighter.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lighter.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lighter-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lighter_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lighter_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shredder-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_shredder",
+      "model": "cobbleeffort:rotom_shredder.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_shredder.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shredder-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_shredder_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_shredder_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lamp-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_lamp",
+      "model": "cobbleeffort:rotom_lamp.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lamp.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "lamp-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        },
+        {
+          "name": "cobbleeffort_shell",
+          "translucent": true,
+          "texture": "cobbleeffort:textures/pokemon/rotom/rotom_lamp_shiny_shell.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clock-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_clock",
+      "model": "cobbleeffort:rotom_clock.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_clock.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "clock-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_clock_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_clock_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ereader-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_ereader",
+      "model": "cobbleeffort:rotom_ereader.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_ereader.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "ereader-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_ereader_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_ereader_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "curler-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_curler",
+      "model": "cobbleeffort:rotom_curler.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_curler.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "curler-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_curler_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tonic-appliance"
+      ],
+      "poser": "cobbleeffort:rotom_tonic",
+      "model": "cobbleeffort:rotom_tonic.geo",
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_tonic.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "tonic-appliance",
+        "shiny"
+      ],
+      "texture": "cobbleeffort:textures/pokemon/rotom/rotom_tonic_shiny.png",
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_foxfire",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_sunlight",
+          "enabled": false
+        },
+        {
+          "name": "emissive",
+          "enabled": false
+        },
+        {
+          "name": "cobbleeffort_glow",
+          "emissive": true,
+          "translucent": true,
+          "texture": {
+            "frames": [
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_shiny_glow_0.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_shiny_glow_1.png",
+              "cobbleeffort:textures/pokemon/rotom/rotom_tonic_shiny_glow_2.png"
+            ],
+            "fps": 6,
+            "loop": true
+          }
+        }
+      ]
+    }
+  ]
+}

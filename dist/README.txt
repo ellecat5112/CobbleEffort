@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 194 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 226 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1824,6 +1824,270 @@ cobbleeffort:cavitot.
   the wind high above the peaks, and when it uncoils, the storms it rides stretch from one horizon
   to the other."
   * Wild: ultra-rare in mountain peaks above y 150, and the sky.
+
+#0479 ANTENNA ROTOM (COBBLEEFFORT FORM)  (Electric / Fairy; Levitate)
+  a round orange head with rabbit-ear antennas and braces, over a drippy body of glowing pink plasma
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It wiggles its rabbit-ear antennas to tune in to far-off signals, and grins its braced
+  grin when it catches one."
+  * Use a Rabbit-Ear Antenna on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Moonblast in this form.
+
+#0479 ATV ROTOM (COBBLEEFFORT FORM)  (Electric / Rock; Levitate)
+  an all-terrain quad bike with chunky tyres and a grinning face on its front fender
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "Its huge tyres grip any rock. It loves sneaking up behind hikers on mountain trails and
+  revving its engine until they jump."
+  * Use a ATV Engine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Power Gem in this form.
+
+#0479 BEAT ROTOM (COBBLEEFFORT FORM)  (Ghost / Fighting; Levitate)
+  a haunted drum kit: a bass drum with a stern face, two toms, two cymbals and red plasma arms with
+  drumsticks
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "Its plasma arms drum faster than the eye can follow. Every beat lands like a punch."
+  * Use a Phantom Drumsticks on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Aura Sphere in this form.
+
+#0479 BRASS ROTOM (COBBLEEFFORT FORM)  (Ghost / Steel; Levitate)
+  a haunted dark trumpet whose silver valve caps are its eyes, with pink keys and orange plasma
+  notes
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "Its fanfare is loud enough to rattle windows. It marches through towns at dawn, waking
+  everyone up."
+  * Use a Phantom Mouthpiece on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Flash Cannon in this form.
+
+#0479 BREAKER ROTOM (COBBLEEFFORT FORM)  (Electric / Ground; Levitate)
+  an orange fuse-box cabinet whose open door carries Rotom's grinning face, full of breaker switches
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It lives in fuse boxes and flips its switches for fun. When it trips, every light in the
+  house goes out and it sulks."
+  * Use a Circuit Fuse on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Earth Power in this form.
+
+#0479 CHARGER ROTOM (COBBLEEFFORT FORM)  (Electric; Levitate)
+  an orange wall-charger plug with lens eyes, grey prongs and a long black cable for a tail
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It plugs itself into walls and drinks electricity until it glows. Devices left near it
+  charge in seconds, or burst."
+  * Use a Charging Cable on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Zap Cannon in this form.
+
+#0479 CLIPPERS ROTOM (COBBLEEFFORT FORM)  (Electric / Steel; Levitate)
+  tall orange hair clippers with a worried face, a silver comb blade and a black cord
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It buzzes through fur and hair alike. Fluffy Pokémon flee when they hear it coming."
+  * Use a Clipper Blade on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Mirror Shot in this form.
+
+#0479 CLOCK ROTOM (COBBLEEFFORT FORM)  (Electric / Dragon; Levitate)
+  a round pendulum wall clock with a blue rim, lens eyes on its face, orange hands and a blue
+  pendulum
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It spins its hands back and forth and makes the people who watch it lose track of time."
+  * Use a Clock Hand on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Roar of Time in this form.
+
+#0479 CURLER ROTOM (COBBLEEFFORT FORM)  (Electric / Fairy; Levitate)
+  a bronze curling wand with dizzy spiral eyes, a dotted grin, a hanging loop and a grey spiral
+  heating rod
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It curls the fur of any Pokémon that sits still. Its spiral eyes make onlookers dizzy."
+  * Use a Curling Wand on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Draining Kiss in this form.
+
+#0479 DISC ROTOM (COBBLEEFFORT FORM)  (Electric / Ice; Levitate)
+  a round portable CD player with its teal lid up, pink lens eyes and a W-shaped grin on the lid
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It spins its disc so fast the air around it chills. It only plays the songs it likes."
+  * Use a Compact Disc on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Ice Beam in this form.
+
+#0479 DRILL ROTOM (COBBLEEFFORT FORM)  (Electric / Steel; Levitate)
+  a tracked drilling rig with an orange drill mast and a one-eyed drilling head full of grinding
+  teeth
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "This Rotom has taken over a drilling rig. It chews through bedrock with its grinding
+  teeth and leaves tunnels so neat that miners follow them home."
+  * Use a Drill Engine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Steel Beam in this form.
+
+#0479 EARBUDS ROTOM (COBBLEEFFORT FORM)  (Electric / Normal; Levitate)
+  an open orange earbud case whose two earbuds are its eyes, with a grin of little white charging
+  lights
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It snaps its case shut on anything that gets too close and plays music into the ears of
+  anyone who picks it up."
+  * Use a Earbud Case on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Hyper Voice in this form.
+
+#0479 E-READER ROTOM (COBBLEEFFORT FORM)  (Electric / Psychic; Levitate)
+  an orange e-reader with pink lens eyes in its bezel and "Chapter 6" on its e-ink screen, on a pink
+  book
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It reads every book it can find, up to chapter six, and then forgets them all and starts
+  again."
+  * Use a E-Ink Screen on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Psyshock in this form.
+
+#0479 GRAND ROTOM (COBBLEEFFORT FORM)  (Ghost / Psychic; Levitate)
+  a haunted grand piano with its face above the keys, a pink swirl under the lid and a magenta
+  plasma hand
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It plays an empty concert hall by itself. Listeners say its music shows them memories
+  they had forgotten."
+  * Use a Phantom Piano Key on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Psychic in this form.
+
+#0479 HARVESTER ROTOM (COBBLEEFFORT FORM)  (Electric / Bug; Levitate)
+  a boxy orange tree harvester whose long crane arm ends in Rotom's grinning head
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It can fell and mulch a tree in seconds. Keep one out of your garden, or it will happily
+  chew through every tree it can reach."
+  * Use a Harvester Engine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Bug Buzz in this form.
+
+#0479 JET ROTOM (COBBLEEFFORT FORM)  (Electric / Flying; Levitate)
+  an orange toy jet with lens eyes on its nose, swept wings and a roaring plume of red flame
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It roars across the sky trailing flames. It dives at flocks of bird Pokémon just to
+  scatter them."
+  * Use a Jet Turbine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Hurricane in this form.
+
+#0479 JETSKI ROTOM (COBBLEEFFORT FORM)  (Electric / Dragon; Levitate)
+  a shark-shaped jet ski with an orange hull, a black band with lens eyes and a toothy shark grin
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It skims across lakes pretending to be a shark, and laughs its crackling laugh when
+  swimmers scramble for the shore."
+  * Use a Jet Ski Engine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Draco Meteor in this form.
+
+#0479 KEYTAR ROTOM (COBBLEEFFORT FORM)  (Electric / Normal; Levitate)
+  an orange keytar with a row of keys, a slim neck and Rotom's lens eyes and grin at its end
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It plays power chords at deafening volume. It never stops showing off."
+  * Use a Keytar Strap on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Boomburst in this form.
+
+#0479 LAMP ROTOM (COBBLEEFFORT FORM)  (Electric / Fairy; Levitate)
+  a table lamp whose glowing yellow bulb peers out with lens eyes under a pale shade, shining a cone
+  of light
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It lights the way for lost travellers at night, then switches off just before they get
+  home."
+  * Use a Light Bulb on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Dazzling Gleam in this form.
+
+#0479 LIGHTER ROTOM (COBBLEEFFORT FORM)  (Electric / Fire; Levitate)
+  an orange pocket lighter with a black band, a silver top and a tall pink flame
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It flicks its pink flame on and off to startle people. It lights campfires when it is in
+  a good mood."
+  * Use a Lighter Flint on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Flamethrower in this form.
+
+#0479 MIXER ROTOM (COBBLEEFFORT FORM)  (Electric / Fighting; Levitate)
+  a stand mixer with a white stand, an orange head with Rotom's face, steel whisks and a purple bowl
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It whips cream and beats eggs with startling force. Its whisks have punched holes in
+  kitchen walls."
+  * Use a Mixer Whisk on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Focus Blast in this form.
+
+#0479 PHANTOM ROTOM (COBBLEEFFORT FORM)  (Ghost / Dark; Levitate)
+  a billowing mass of dark purple wisps with Rotom's face peeking from a black hood and an orange
+  cord tail
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "A Rotom that slipped out of its appliance and swelled into a shadow. Only its plug is
+  left to show what it was."
+  * Use a Frayed Cord on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Shadow Ball in this form.
+
+#0479 RC CAR ROTOM (COBBLEEFFORT FORM)  (Electric / Ground; Levitate)
+  a low orange RC racing car with headlight eyes, a grinning grille, teal wheel hubs and boost
+  flames
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It races round courtyards at full speed and flips off ramps. It brings the ball back,
+  but only sometimes."
+  * Use a RC Remote on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Earth Power in this form.
+
+#0479 ROTOM BOY (COBBLEEFFORT FORM)  (Electric / Ghost; Levitate)
+  an orange handheld game console with lens eyes and a fanged grin, hugged by the glowing ghost of a
+  Pikachu
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "This Rotom haunts an old handheld game console. The ghost of a Pikachu it once played as
+  glows round it."
+  * Use a Retro Cartridge on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Thunder in this form.
+
+#0479 SHREDDER ROTOM (COBBLEEFFORT FORM)  (Electric / Dark; Levitate)
+  an orange paper shredder with a grumpy face, a grey cutting head swallowing paper and spilling
+  shredded strips
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It shreds homework, letters and maps. Anything it eats is gone for good."
+  * Use a Shredder Blade on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Dark Pulse in this form.
+
+#0479 SPIDER ROTOM (COBBLEEFFORT FORM)  (Electric / Bug; Levitate)
+  a round orange robot spider with big teal goggle eyes, eight banded legs and a glowing green wire
+  web
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "A Rotom inside a robot spider. It spins wire webs in the corners of rooms and watches
+  through its big lens eyes."
+  * Use a Spider-Bot Core on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Pollen Puff in this form.
+
+#0479 STRING ROTOM (COBBLEEFFORT FORM)  (Ghost / Grass; Levitate)
+  a haunted dark violin with a smiling face on its upper bowl and a bow of green plasma
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It plays haunting melodies on moonlit nights. Plants nearby are said to grow towards the
+  sound."
+  * Use a Phantom Bow on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Energy Ball in this form.
+
+#0479 TOASTER ROTOM (COBBLEEFFORT FORM)  (Electric / Fire; Levitate)
+  a rounded orange toaster with a cheeky face and two slices of toast popping out
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It pops out toast so hot it bursts into flame. It gets grumpy if nobody eats it."
+  * Use a Toaster Coil on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Fire Blast in this form.
+
+#0479 TONIC ROTOM (COBBLEEFFORT FORM)  (Electric / Poison; Levitate)
+  an orange tonic bottle with a white cap, a cross on its label and teal plasma arms, one flexing
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "A Rotom inside a bottle of tonic. It flexes its plasma arm and offers a dose to anyone
+  who looks tired."
+  * Use a Tonic Cap on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Venoshock in this form.
+
+#0479 TV ROTOM (COBBLEEFFORT FORM)  (Electric / Dark; Levitate)
+  a purple flat-screen TV showing a shadowy figure in a hat and dark glasses, with a purple plasma
+  wisp
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It shows only a shadowy figure and the words "this program is unavailable". Viewers
+  cannot look away."
+  * Use a Remote Control on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Night Daze in this form.
+
+#0479 VACUUM ROTOM (COBBLEEFFORT FORM)  (Electric / Poison; Levitate)
+  an orange shop vacuum with a worried face, a black lid and a ribbed hose arching into a floor wand
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It sucks up dust, dirt and the odd small Pokémon. What it cannot digest it blows back
+  out as a choking cloud."
+  * Use a Vacuum Hose on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Sludge Bomb in this form.
+
+#0479 WATCH ROTOM (COBBLEEFFORT FORM)  (Electric / Psychic; Levitate)
+  a red smartwatch whose round screen shows Rotom's lens eyes and smile, with peach buttons and a
+  looped strap
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "It counts its Trainer's steps and buzzes when they sit still too long. It always knows
+  what time it will be."
+  * Use a Watch Strap on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its Rotom
+    Catalogue cycles through this form too. Learns Future Sight in this form.
 
 #0538 THROH (GI FORM)  (Fighting / Fire; Guts / Flash Fire / Mold Breaker (hidden))
   a hulking red judoka in a round black gi with white lapels and belt, jagged white trouser hems,

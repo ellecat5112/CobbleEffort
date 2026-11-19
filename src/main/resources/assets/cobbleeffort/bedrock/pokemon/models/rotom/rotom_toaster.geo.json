@@ -1,0 +1,203 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.rotom_toaster",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "rotom_toaster",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "rotom_toaster",
+     "pivot": [
+      0.0,
+      6.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -6,
+        0,
+        -2.6
+       ],
+       "size": [
+        12,
+        10,
+        5
+       ],
+       "uv": [
+        0,
+        18
+       ]
+      },
+      {
+       "origin": [
+        -4.6,
+        -0.05,
+        -4
+       ],
+       "size": [
+        9,
+        10,
+        8
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -6,
+        10,
+        -2.6
+       ],
+       "size": [
+        12,
+        1,
+        5
+       ],
+       "uv": [
+        0,
+        42
+       ]
+      },
+      {
+       "origin": [
+        -4.6,
+        9.95,
+        -4
+       ],
+       "size": [
+        9,
+        1,
+        8
+       ],
+       "uv": [
+        0,
+        33
+       ]
+      },
+      {
+       "origin": [
+        -4.5,
+        9,
+        -0.7
+       ],
+       "size": [
+        4,
+        6,
+        1
+       ],
+       "uv": [
+        44,
+        33
+       ]
+      },
+      {
+       "origin": [
+        0.9,
+        9,
+        -0.7
+       ],
+       "size": [
+        4,
+        7,
+        1
+       ],
+       "uv": [
+        34,
+        33
+       ]
+      },
+      {
+       "origin": [
+        6,
+        5,
+        -1
+       ],
+       "size": [
+        1,
+        1,
+        2
+       ],
+       "uv": [
+        50,
+        42
+       ]
+      },
+      {
+       "origin": [
+        -9,
+        9,
+        -1
+       ],
+       "size": [
+        4,
+        6,
+        0
+       ],
+       "uv": [
+        34,
+        42
+       ]
+      },
+      {
+       "origin": [
+        6,
+        11,
+        -1
+       ],
+       "size": [
+        4,
+        6,
+        0
+       ],
+       "uv": [
+        42,
+        42
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "rotom_toaster",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "rotom_toaster",
+     "pivot": [
+      0,
+      18.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

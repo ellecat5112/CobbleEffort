@@ -257,6 +257,10 @@ second an accent, and its main colour moves to the new type's colour.
 
 You can still give a distorted-looking Pokemon with a command:   /pokegive giratina distorted
 
+ROTOM CATALOGUE (0.15.0)
+  CobbleEffort 1.8.0 adds 32 more Rotom forms (Drill, Jetski, String, Rotom Boy, TV, Toaster...). With this add-on,
+  Mega Showdown's Rotom Catalogue cycles through them too, between Mow and plain Rotom.
+
 INSTALL
   Unzip and put ONE jar in your mods folder: the -fabric jar on Fabric, the -neoforge jar on NeoForge.
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.

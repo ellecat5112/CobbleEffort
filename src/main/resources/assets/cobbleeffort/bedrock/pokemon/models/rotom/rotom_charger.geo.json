@@ -1,0 +1,312 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.rotom_charger",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "rotom_charger",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "rotom_charger",
+     "pivot": [
+      0.0,
+      8.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -5,
+        4,
+        -3.5
+       ],
+       "size": [
+        10,
+        10,
+        7
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -4,
+        3,
+        -2.5
+       ],
+       "size": [
+        8,
+        1,
+        5
+       ],
+       "uv": [
+        8,
+        17
+       ]
+      },
+      {
+       "origin": [
+        -2.6,
+        14,
+        -0.8
+       ],
+       "size": [
+        1,
+        4,
+        2
+       ],
+       "uv": [
+        54,
+        17
+       ]
+      },
+      {
+       "origin": [
+        1.4,
+        14,
+        -0.8
+       ],
+       "size": [
+        1,
+        4,
+        2
+       ],
+       "uv": [
+        0,
+        24
+       ]
+      },
+      {
+       "origin": [
+        -7,
+        13,
+        -1
+       ],
+       "size": [
+        4,
+        7,
+        0
+       ],
+       "uv": [
+        0,
+        17
+       ]
+      },
+      {
+       "origin": [
+        4,
+        15,
+        -1
+       ],
+       "size": [
+        4,
+        6,
+        0
+       ],
+       "uv": [
+        46,
+        17
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      0.0,
+      3.0,
+      2.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -0.65,
+        2.85,
+        -3
+       ],
+       "size": [
+        1,
+        1,
+        4
+       ],
+       "uv": [
+        6,
+        24
+       ],
+       "rotation": [
+        39.81,
+        -180.0,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        3.5,
+        1.0
+       ]
+      },
+      {
+       "origin": [
+        -0.65,
+        0.35,
+        -2
+       ],
+       "size": [
+        1,
+        1,
+        6
+       ],
+       "uv": [
+        34,
+        0
+       ],
+       "rotation": [
+        5.3,
+        158.2,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        1.0,
+        4.0
+       ]
+      },
+      {
+       "origin": [
+        -2.65,
+        -0.15,
+        4
+       ],
+       "size": [
+        1,
+        1,
+        5
+       ],
+       "uv": [
+        34,
+        17
+       ],
+       "rotation": [
+        -25.88,
+        -165.96,
+        0.0
+       ],
+       "pivot": [
+        -2.0,
+        0.5,
+        9.0
+       ]
+      },
+      {
+       "origin": [
+        -1.65,
+        1.85,
+        7
+       ],
+       "size": [
+        1,
+        1,
+        6
+       ],
+       "uv": [
+        48,
+        0
+       ],
+       "rotation": [
+        11.31,
+        -143.13,
+        0.0
+       ],
+       "pivot": [
+        -1.0,
+        2.5,
+        13.0
+       ]
+      },
+      {
+       "origin": [
+        1.35,
+        0.85,
+        13
+       ],
+       "size": [
+        1,
+        1,
+        4
+       ],
+       "uv": [
+        16,
+        24
+       ],
+       "rotation": [
+        17.55,
+        -161.57,
+        0.0
+       ],
+       "pivot": [
+        2.0,
+        1.5,
+        17.0
+       ]
+      },
+      {
+       "origin": [
+        2,
+        -0.5,
+        20
+       ],
+       "size": [
+        2,
+        2,
+        3
+       ],
+       "uv": [
+        26,
+        24
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "rotom_charger",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "rotom_charger",
+     "pivot": [
+      0,
+      20.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

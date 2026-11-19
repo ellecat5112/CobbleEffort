@@ -1,0 +1,52 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mega_showdown"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mega_showdown"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    "FCF",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:black_concrete"
+    },
+    "C": {
+      "item": "cobblemon:cell_battery"
+    }
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_tv\", \"italic\": false}",
+      "minecraft:lore": [
+        "{\"translate\": \"item.cobbleeffort.rotom_tv.tooltip\", \"color\": \"gray\", \"italic\": false}"
+      ],
+      "minecraft:custom_model_data": 794831,
+      "minecraft:rarity": "rare",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "cobbleeffort_item": "rotom_tv"
+      },
+      "mega_showdown:registry_type_component": "form_change_interact",
+      "mega_showdown:registry_location_component": "cobbleeffort:rotom_tv"
+    }
+  }
+}

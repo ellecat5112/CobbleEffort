@@ -1,0 +1,5252 @@
+{
+  "target": "cobblemon:rotom",
+  "forms": [
+    {
+      "name": "Drill",
+      "primaryType": "electric",
+      "aspects": [
+        "drill-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 18,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:steelbeam"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-drill.desc"
+      ],
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 1.4,
+        "height": 2.0,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "steel"
+    },
+    {
+      "name": "Jetski",
+      "primaryType": "electric",
+      "aspects": [
+        "jetski-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:dracometeor"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-jetski.desc"
+      ],
+      "baseScale": 1.1,
+      "hitbox": {
+        "width": 1.6,
+        "height": 0.8125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "dragon"
+    },
+    {
+      "name": "ATV",
+      "primaryType": "electric",
+      "aspects": [
+        "atv-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 11,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:powergem"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-atv.desc"
+      ],
+      "baseScale": 1.1,
+      "hitbox": {
+        "width": 1.3,
+        "height": 1.0,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "rock"
+    },
+    {
+      "name": "Harvester",
+      "primaryType": "electric",
+      "aspects": [
+        "harvester-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 17,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:bugbuzz"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-harvester.desc"
+      ],
+      "baseScale": 1.007,
+      "hitbox": {
+        "width": 1.4,
+        "height": 1.6875,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "bug"
+    },
+    {
+      "name": "String",
+      "primaryType": "ghost",
+      "aspects": [
+        "string-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 15,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:energyball"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-string.desc"
+      ],
+      "baseScale": 0.706,
+      "hitbox": {
+        "width": 0.9,
+        "height": 2.125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "grass"
+    },
+    {
+      "name": "Beat",
+      "primaryType": "ghost",
+      "aspects": [
+        "beat-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 14,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:aurasphere"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-beat.desc"
+      ],
+      "baseScale": 0.862,
+      "hitbox": {
+        "width": 1.4,
+        "height": 1.625,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "fighting"
+    },
+    {
+      "name": "Brass",
+      "primaryType": "ghost",
+      "aspects": [
+        "brass-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 11,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:flashcannon"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-brass.desc"
+      ],
+      "baseScale": 0.978,
+      "hitbox": {
+        "width": 1.6,
+        "height": 1.125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "steel"
+    },
+    {
+      "name": "Grand",
+      "primaryType": "ghost",
+      "aspects": [
+        "grand-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 15,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:psychic"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-grand.desc"
+      ],
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 1.6,
+        "height": 1.875,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "psychic"
+    },
+    {
+      "name": "RotomBoy",
+      "primaryType": "electric",
+      "aspects": [
+        "rotomboy-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 14,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:thunder"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-rotomboy.desc"
+      ],
+      "baseScale": 0.659,
+      "hitbox": {
+        "width": 1.0,
+        "height": 2.125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "ghost"
+    },
+    {
+      "name": "Watch",
+      "primaryType": "electric",
+      "aspects": [
+        "watch-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:futuresight"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-watch.desc"
+      ],
+      "baseScale": 0.72,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.25,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "psychic"
+    },
+    {
+      "name": "Charger",
+      "primaryType": "electric",
+      "aspects": [
+        "charger-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 8,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:zapcannon"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-charger.desc"
+      ],
+      "baseScale": 0.64,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.25,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      }
+    },
+    {
+      "name": "TV",
+      "primaryType": "electric",
+      "aspects": [
+        "tv-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 11,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:nightdaze"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-tv.desc"
+      ],
+      "baseScale": 0.733,
+      "hitbox": {
+        "width": 1.2,
+        "height": 1.5,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "dark"
+    },
+    {
+      "name": "Vacuum",
+      "primaryType": "electric",
+      "aspects": [
+        "vacuum-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:sludgebomb"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-vacuum.desc"
+      ],
+      "baseScale": 0.667,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.5,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "poison"
+    },
+    {
+      "name": "Toaster",
+      "primaryType": "electric",
+      "aspects": [
+        "toaster-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 8,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:fireblast"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-toaster.desc"
+      ],
+      "baseScale": 0.711,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": true
+      },
+      "secondaryType": "fire"
+    },
+    {
+      "name": "Breaker",
+      "primaryType": "electric",
+      "aspects": [
+        "breaker-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 11,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:earthpower"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-breaker.desc"
+      ],
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.375,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "ground"
+    },
+    {
+      "name": "Antenna",
+      "primaryType": "electric",
+      "aspects": [
+        "antenna-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 12,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:moonblast"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-antenna.desc"
+      ],
+      "baseScale": 0.64,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.875,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "fairy"
+    },
+    {
+      "name": "Earbuds",
+      "primaryType": "electric",
+      "aspects": [
+        "earbuds-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 7,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:hypervoice"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-earbuds.desc"
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.0,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "normal"
+    },
+    {
+      "name": "RCCar",
+      "primaryType": "electric",
+      "aspects": [
+        "rccar-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 7,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:earthpower"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-rccar.desc"
+      ],
+      "baseScale": 0.933,
+      "hitbox": {
+        "width": 1.0,
+        "height": 0.75,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "ground"
+    },
+    {
+      "name": "Clippers",
+      "primaryType": "electric",
+      "aspects": [
+        "clippers-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:mirrorshot"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-clippers.desc"
+      ],
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.5,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "steel"
+    },
+    {
+      "name": "Phantom",
+      "primaryType": "ghost",
+      "aspects": [
+        "phantom-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 12,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:shadowball"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-phantom.desc"
+      ],
+      "baseScale": 0.738,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.625,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "dark"
+    },
+    {
+      "name": "Mixer",
+      "primaryType": "electric",
+      "aspects": [
+        "mixer-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:focusblast"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-mixer.desc"
+      ],
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.5,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "fighting"
+    },
+    {
+      "name": "Keytar",
+      "primaryType": "electric",
+      "aspects": [
+        "keytar-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 7,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:boomburst"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-keytar.desc"
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 1.4,
+        "height": 1.0,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "normal"
+    },
+    {
+      "name": "Disc",
+      "primaryType": "electric",
+      "aspects": [
+        "disc-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 7,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:icebeam"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-disc.desc"
+      ],
+      "baseScale": 0.622,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.125,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "ice"
+    },
+    {
+      "name": "Jet",
+      "primaryType": "electric",
+      "aspects": [
+        "jet-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 8,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:hurricane"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-jet.desc"
+      ],
+      "baseScale": 1.0,
+      "hitbox": {
+        "width": 1.2,
+        "height": 0.75,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "flying"
+    },
+    {
+      "name": "Spider",
+      "primaryType": "electric",
+      "aspects": [
+        "spider-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 8,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:pollenpuff"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-spider.desc"
+      ],
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "bug"
+    },
+    {
+      "name": "Lighter",
+      "primaryType": "electric",
+      "aspects": [
+        "lighter-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 7,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:flamethrower"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-lighter.desc"
+      ],
+      "baseScale": 0.509,
+      "hitbox": {
+        "width": 0.6,
+        "height": 1.375,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": true
+      },
+      "secondaryType": "fire"
+    },
+    {
+      "name": "Shredder",
+      "primaryType": "electric",
+      "aspects": [
+        "shredder-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:darkpulse"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-shredder.desc"
+      ],
+      "baseScale": 0.655,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.375,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "dark"
+    },
+    {
+      "name": "Lamp",
+      "primaryType": "electric",
+      "aspects": [
+        "lamp-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:dazzlinggleam"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-lamp.desc"
+      ],
+      "baseScale": 0.571,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.75,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "fairy"
+    },
+    {
+      "name": "Clock",
+      "primaryType": "electric",
+      "aspects": [
+        "clock-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 10,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:roaroftime"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-clock.desc"
+      ],
+      "baseScale": 0.533,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.875,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "dragon"
+    },
+    {
+      "name": "EReader",
+      "primaryType": "electric",
+      "aspects": [
+        "ereader-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 8,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:psyshock"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-ereader.desc"
+      ],
+      "baseScale": 0.582,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.375,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "psychic"
+    },
+    {
+      "name": "Curler",
+      "primaryType": "electric",
+      "aspects": [
+        "curler-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:drainingkiss"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-curler.desc"
+      ],
+      "baseScale": 0.514,
+      "hitbox": {
+        "width": 0.6,
+        "height": 1.75,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "fairy"
+    },
+    {
+      "name": "Tonic",
+      "primaryType": "electric",
+      "aspects": [
+        "tonic-appliance"
+      ],
+      "labels": [
+        "gen4",
+        "cobbleeffort_rotom"
+      ],
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "maleRatio": -1,
+      "height": 9,
+      "weight": 3,
+      "baseExperienceYield": 182,
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:allyswitch",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:helpinghand",
+        "tm:hex",
+        "tm:hypervoice",
+        "tm:lightscreen",
+        "tm:nastyplot",
+        "tm:nightshade",
+        "tm:ominouswind",
+        "tm:overheat",
+        "tm:painsplit",
+        "tm:poltergeist",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:spite",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:telekinesis",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:trick",
+        "tm:uproar",
+        "tm:voltswitch",
+        "tm:willowisp",
+        "tutor:allyswitch",
+        "tutor:chargebeam",
+        "tutor:darkpulse",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snatch",
+        "tutor:spite",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:telekinesis",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:uproar",
+        "form_change:venoshock"
+      ],
+      "pokedex": [
+        "cobbleeffort.species.rotom-tonic.desc"
+      ],
+      "baseScale": 0.554,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1.625,
+        "fixed": false
+      },
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          },
+          "fly": {
+            "canFly": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": 4,
+          "toleratedLeaders": [
+            {
+              "pokemon": "rotom alpha",
+              "tier": 1
+            }
+          ]
+        },
+        "fireImmune": false
+      },
+      "secondaryType": "poison"
+    }
+  ]
+}

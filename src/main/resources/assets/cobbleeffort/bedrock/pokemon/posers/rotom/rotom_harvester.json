@@ -1,0 +1,74 @@
+{
+ "portraitScale": 0.94,
+ "portraitTranslation": [
+  0,
+  0.93,
+  0
+ ],
+ "profileScale": 0.56,
+ "profileTranslation": [
+  0,
+  0.42,
+  0
+ ],
+ "rootBone": "rotom_harvester",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_rotom_harvester', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_rotom_harvester', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_rotom_harvester', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_rotom_harvester', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_rotom_harvester', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_rotom_harvester', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_rotom_harvester', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_rotom_harvester', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_rotom_harvester', 'sleep')"
+   ]
+  }
+ }
+}

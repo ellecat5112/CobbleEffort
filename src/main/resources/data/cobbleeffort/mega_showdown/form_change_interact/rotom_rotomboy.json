@@ -1,0 +1,33 @@
+{
+  "pokemons": [
+    "Rotom"
+  ],
+  "effect": "mega_showdown:rotom_effect",
+  "consume": 0,
+  "aspect_conditions": {
+    "apply": {
+      "aspects": [
+        "appliance=rotomboy"
+      ],
+      "aspect": {
+        "blacklist_aspects": [
+          [
+            "rotomboy-appliance"
+          ]
+        ]
+      }
+    },
+    "revert": {
+      "aspects": [
+        "appliance=none"
+      ],
+      "aspect": {
+        "required_aspects": [
+          [
+            "rotomboy-appliance"
+          ]
+        ]
+      }
+    }
+  }
+}

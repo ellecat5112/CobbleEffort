@@ -1,0 +1,232 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.rotom_tv",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "rotom_tv",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "rotom_tv",
+     "pivot": [
+      0.0,
+      8.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -10,
+        6,
+        -1.5
+       ],
+       "size": [
+        20,
+        15,
+        3
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -0.7,
+        5.3,
+        -3.5
+       ],
+       "size": [
+        1,
+        1,
+        4
+       ],
+       "uv": [
+        0,
+        26
+       ],
+       "rotation": [
+        90.0,
+        -180.0,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        6.0,
+        0.5
+       ]
+      },
+      {
+       "origin": [
+        -4,
+        0.5,
+        -2
+       ],
+       "size": [
+        8,
+        1,
+        5
+       ],
+       "uv": [
+        32,
+        18
+       ]
+      }
+     ]
+    },
+    {
+     "name": "tail",
+     "parent": "body",
+     "pivot": [
+      -6.0,
+      6.0,
+      2.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -7.1,
+        5.9,
+        -4
+       ],
+       "size": [
+        2,
+        2,
+        6
+       ],
+       "uv": [
+        46,
+        0
+       ],
+       "rotation": [
+        30.96,
+        126.87,
+        0.0
+       ],
+       "pivot": [
+        -6.0,
+        7.0,
+        2.0
+       ]
+      },
+      {
+       "origin": [
+        -10.95,
+        3.05,
+        -1
+       ],
+       "size": [
+        2,
+        2,
+        6
+       ],
+       "uv": [
+        0,
+        18
+       ],
+       "rotation": [
+        -21.8,
+        126.87,
+        0.0
+       ],
+       "pivot": [
+        -10.0,
+        4.0,
+        5.0
+       ]
+      },
+      {
+       "origin": [
+        -14.8,
+        5.2,
+        2
+       ],
+       "size": [
+        2,
+        2,
+        6
+       ],
+       "uv": [
+        16,
+        18
+       ],
+       "rotation": [
+        -74.21,
+        135.0,
+        0.0
+       ],
+       "pivot": [
+        -14.0,
+        6.0,
+        8.0
+       ]
+      },
+      {
+       "origin": [
+        -15.65,
+        10.35,
+        5
+       ],
+       "size": [
+        1,
+        1,
+        4
+       ],
+       "uv": [
+        10,
+        26
+       ],
+       "rotation": [
+        -53.3,
+        -63.43,
+        0.0
+       ],
+       "pivot": [
+        -15.0,
+        11.0,
+        9.0
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "rotom_tv",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "rotom_tv",
+     "pivot": [
+      0,
+      24.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

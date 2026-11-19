@@ -587,6 +587,24 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   BEFORE the death drops. Leftover costumes (a crash) are refused by EntityEvent.ADD, battles with them cancelled.
   Bio-Merge = sneak + Digivice on your own Digimon at friendship 255 (50 energy): furthest open evolution up to stage
   `ultimate`, element from its primary type, partner recalled.
+- **Extra Rotom forms** (1.8.0, the user's request; `tools/newmons/rotom.py --cobblemon <res>`, standalone, then
+  `build.py --data-only` so fossils.build picks up the items): 32 forms (FORMS: name, types, form-change move, item,
+  recipe, entry, credit; Joseon Region, The_Aussie_Artist's Pokémon Abyss, CaligoMilites' Rotom Boy, the user's doodle
+  sheets) on Cobblemon's OWN `appliance` feature: Mega Showdown's AspectUtils sets features as raw StringSpeciesFeatures
+  ("appliance=drill" -> aspect "drill-appliance"; Cobblemon's choice list isn't checked) and Cobblemon loads saved
+  features without validating, so MSD's Rotom Units/Catalogue replace ours naturally. species_additions append the forms
+  (Heat's stats/learnset + `form_change:<move>`), one resolver at order 9001 (above MSD's 0-5 and our cosmetics' 9000,
+  which mirror only vanilla forms) pins model/poser/texture, layers off. Models `models/rotom_<key>.py` on
+  `_rotomform.py` (palette with shiny pink-red, `rotom_eye`, `grin`, `face_on`, `bolt_plane` glowing plasma bolts, `ball`,
+  `tyre`, `cone`, ABYSS palette + `abyss_eye`, `disc_z`, `note_plane`). Items: echo shards cmd 794820+ with MSD's data
+  components `mega_showdown:registry_type_component` = "form_change_interact" + `registry_location_component` =
+  cobbleeffort:rotom_<key> (MSD's ItemStackMixin runs `data/cobbleeffort/mega_showdown/form_change_interact/rotom_<key>.json`
+  on any stack carrying them; a malformed entry stops worlds loading, so keep to its codec), effect = MSD's own
+  `mega_showdown:rotom_effect`; recipes round a Cell Battery with `fabric:load_conditions`/`neoforge:conditions` on
+  mega_showdown; icons `rotom_icons.py` (shapes + auto outline). The Catalogue's cycle is hard-coded in MSD:
+  Distortion 0.15.0's `@Pseudo` `RotomCatalogueMixin` (string target, remap=false, no MSD compile dependency) extends its
+  three lists on first use with every other "<x>-appliance" form Rotom has. Previews: `scratchpad/tools/rprev.sh <key>`
+  / `rbatch.sh <keys...>` next to `scratchpad/rotom/ref_<key>.png`.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
