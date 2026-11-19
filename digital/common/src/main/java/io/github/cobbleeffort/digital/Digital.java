@@ -207,6 +207,19 @@ public final class Digital {
         for (String c : Crests.CRESTS) CRESTS.put(c, item("crest_of_" + c, () -> new Crests.CrestItem(props().stacksTo(1).rarity(Rarity.EPIC), c)));
     }
 
+    // --- Tamer life (0.16.0): Digizoid gear, the Digi-Farm, harnesses ---------------------------------------------------
+    static {
+        DigizoidGear.register(Digital::item);
+    }
+
+    public static final RegistrySupplier<Block> FARM_TERMINAL = block("digi_farm_terminal", () -> new DigiFarm.TerminalBlock(
+            BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3F, 6F).sound(SoundType.METAL).lightLevel(s -> 6)), Rarity.RARE);
+    @SuppressWarnings("DataFlowIssue")
+    public static final RegistrySupplier<net.minecraft.world.level.block.entity.BlockEntityType<DigiFarm.TerminalEntity>> FARM_ENTITY =
+            BLOCK_ENTITIES.register("digi_farm_terminal", () -> net.minecraft.world.level.block.entity.BlockEntityType.Builder
+                    .of(DigiFarm.TerminalEntity::new, FARM_TERMINAL.get()).build(null));
+    public static final RegistrySupplier<Item> HARNESS = item("chest_harness", () -> new PartnerUtility.HarnessItem(props().stacksTo(1)));
+
     // --- Chrome Digizoid ------------------------------------------------------------------------------------------------
     public static final RegistrySupplier<Block> CHROME_ORE = BLOCKS.register("chrome_digizoid_ore", () ->
             new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
@@ -263,6 +276,9 @@ public final class Digital {
         Crests.init();
         Raids.init();
         DigitalCommand.init();
+        DigizoidGear.init();
+        PartnerUtility.init();
+        Tamers.init();
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTING.register(s -> server = s);
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STOPPED.register(s -> server = null);
         // the gamerules (registered on class load)

@@ -562,7 +562,14 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   level-80 Demon Lord/Royal Knight, boss bar, rewards to everyone who battled it, digitization saved in SavedData and
   restored; gamerule digitalDigitization); MoveEffects + mixin `MoveInstructionMixin` (TAIL of Cobblemon's
   MoveInstruction.invoke; gamerule digitalMoveGriefing, off by default); `/digital raid start|stop`, `rift`, `world`,
-  `crest <charge>`. Work for 0.16.0 (Digizoid gear, Digi-Farm, mount utilities, Tamer NPCs) sits in `scratchpad/dig13`.
+  `crest <charge>`.
+- **Digital 0.16.0, Tamer life** (`digital/tools/make_gear.py`, run by make_assets.py): `DigizoidGear` (Red/Blue/Gold/
+  Black Digizoid armor + swords above Netherite: smithing template + coloured ingot on Netherite gear; Red knockback
+  resistance, Blue speed, Gold reflects projectiles (`rehurting` guard), Black sneak-blink), `DigiFarm` (terminal BE +
+  dispenser menu: tethered Digimon at nearby pastures earn goods by the blocks around), `PartnerUtility` (sneak + empty
+  hand on your own Digimon: Chest Harness storage in persistentData, Fire = fuel-free blast furnace per player, Ground/
+  Rock/Steel = 3-wide mining while out), `Tamers` (wandering themed Tamers, overworld `colosseum` structure with
+  1v1/2v2/3v3 NPCs, Tamer Rank SavedData, `/digital rank`). Spirit Evolution + Bio-Merge work sits in `scratchpad/dig13`.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

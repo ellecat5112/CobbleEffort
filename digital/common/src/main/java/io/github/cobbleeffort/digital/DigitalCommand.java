@@ -15,8 +15,8 @@ final class DigitalCommand {
 
     static void init() {
         CommandRegistrationEvent.EVENT.register((dispatcher, registry, selection) -> dispatcher.register(
-                Commands.literal("digital").requires(s -> s.hasPermission(2))
-                        .then(Commands.literal("raid")
+                Commands.literal("digital")
+                        .then(Commands.literal("raid").requires(s -> s.hasPermission(2))
                                 .then(Commands.literal("start").executes(c -> {
                                     ServerPlayer p = c.getSource().getPlayerOrException();
                                     boolean ok = Raids.start(p);
@@ -32,15 +32,22 @@ final class DigitalCommand {
                                     c.getSource().sendSuccess(() -> Component.literal("Raid stopped."), true);
                                     return 1;
                                 })))
-                        .then(Commands.literal("rift").executes(c -> {
+                        .then(Commands.literal("rift").requires(s -> s.hasPermission(2)).executes(c -> {
                             DigitalWorld.openRift(c.getSource().getPlayerOrException());
                             return 1;
                         }))
-                        .then(Commands.literal("world").executes(c -> {
+                        .then(Commands.literal("rank").executes(c -> {
+                            ServerPlayer p = c.getSource().getPlayerOrException();
+                            int pts = Tamers.points(p);
+                            c.getSource().sendSuccess(() -> Component.translatable(Digital.MOD_ID + ".tamer.rank", pts,
+                                    Component.translatable(Digital.MOD_ID + ".rank." + Tamers.RANK_NAMES[Tamers.rankOf(pts)])), false);
+                            return 1;
+                        }))
+                        .then(Commands.literal("world").requires(s -> s.hasPermission(2)).executes(c -> {
                             DigitalWorld.travel(c.getSource().getPlayerOrException());
                             return 1;
                         }))
-                        .then(Commands.literal("crest").then(Commands.argument("charge", IntegerArgumentType.integer(0, 100)).executes(c -> {
+                        .then(Commands.literal("crest").requires(s -> s.hasPermission(2)).then(Commands.argument("charge", IntegerArgumentType.integer(0, 100)).executes(c -> {
                             ServerPlayer p = c.getSource().getPlayerOrException();
                             ItemStack tag = Crests.findTag(p);
                             if (tag.isEmpty()) {

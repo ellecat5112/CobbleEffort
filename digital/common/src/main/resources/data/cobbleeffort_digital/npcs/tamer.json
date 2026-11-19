@@ -1,0 +1,17 @@
+{
+  "names": [
+    "Tamer"
+  ],
+  "hitbox": "player",
+  "canDespawn": false,
+  "autoHealParty": true,
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobbleeffort_digital:tamer"
+  },
+  "skill": 3,
+  "presets": []
+}

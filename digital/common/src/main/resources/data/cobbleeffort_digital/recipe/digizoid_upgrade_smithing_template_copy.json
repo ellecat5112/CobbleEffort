@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DTD",
+    "DBD",
+    "DDD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "cobbleeffort_digital:digizoid_upgrade_smithing_template"
+    },
+    "B": {
+      "item": "cobbleeffort_digital:chrome_digizoid_block"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:digizoid_upgrade_smithing_template",
+    "count": 2
+  }
+}

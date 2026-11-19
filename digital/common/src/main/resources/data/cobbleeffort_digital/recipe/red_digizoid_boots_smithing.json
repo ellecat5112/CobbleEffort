@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobbleeffort_digital:digizoid_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "cobbleeffort_digital:red_digizoid_ingot"
+  },
+  "result": {
+    "id": "cobbleeffort_digital:red_digizoid_boots",
+    "count": 1
+  }
+}

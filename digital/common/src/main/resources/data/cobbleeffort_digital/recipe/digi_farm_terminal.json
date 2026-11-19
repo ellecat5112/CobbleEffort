@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IGI",
+    "HCH",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:digi_core"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:digi_farm_terminal",
+    "count": 1
+  }
+}

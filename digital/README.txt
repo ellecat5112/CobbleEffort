@@ -121,6 +121,35 @@ Digimon attacks in the world
   (off by default) they change the world too: fires catch, sand turns to glass, blasts break blocks, water leaves
   puddles that drain away.
 
+Digizoid gear (above Netherite)
+  Smithing: a Netherite piece + a coloured Digizoid Ingot + the Digizoid Upgrade (diamonds round a Chrome Digizoid
+  Ingot and a Netherite Upgrade; copy it with diamonds and a Chrome Digizoid block). Coloured ingots: a Chrome
+  Digizoid Ingot with a redstone block (Red), a lapis block (Blue), a gold block (Gold), or obsidian and an ender
+  pearl (Black). Red: the heaviest armor and knockback resistance, the hardest-hitting sword. Blue: each piece +4%
+  speed, a quick sword. Gold: two or more pieces reflect a third of projectiles and take a quarter less from magic and
+  blasts. Black: with the full set, sneak while sprinting to phase 6 blocks ahead; the sword blinks you where you
+  look (right-click). Both on a cooldown.
+
+The Digi-Farm
+  Put your PC Pokémon out to pasture with Cobblemon's own Pasture block, then place a Digi-Farm Terminal (iron, a
+  glass pane, hay and a Digi-Core) within 12 blocks. Every minute each tethered Pokémon works, depending on the farm
+  goods within 6 blocks of the terminal: training gym blocks (EXP and EVs in that stat), bookshelves (EXP), Digi-Meat
+  crops or composters (Digi-Meat), circuit blocks or server casings (attribute fragments, Digimon only), chests or
+  barrels (things they scavenge). Collect it all from the terminal.
+
+Partner jobs (sneak and use an empty hand on your own sent-out Digimon)
+  * Storage: give an Adult-or-bigger Digimon a Chest Harness (leather round a chest) and it carries a double chest.
+  * Forge: a Fire Digimon opens a fuel-free blast furnace, your own, which keeps smelting while you're away.
+  * Mining: with a Ground, Rock or Steel Digimon out within 6 blocks, the stone and ore you mine with a pickaxe also
+    takes the blocks behind and beside it (a 3-wide tunnel; broken as you, so claims still apply).
+
+Tamers and the Colosseum
+  Wandering Tamers turn up in villages with themed teams (a Crack Team officer with machines, Nature Spirits, Deep
+  Savers, Nightmare Soldiers, Dragon's Roar, Virus Busters) at your party's level; talk to one to battle. The
+  Colosseum (plains, savannas, deserts, meadows) keeps three Tamers: 1v1, 2v2 (doubles) and 3v3. Wins earn Tamer
+  Rank points (Colosseum Tamers 25, once a day each; others 10) and Digi-Modify cards. Ranks: Rookie, Champion (100),
+  Ultimate (300), Mega (700). /digital rank shows yours.
+
 Install: Fabric or NeoForge with Architectury API and Cobblemon 1.8.4. Shared as a main jar plus texture jars
 ("CobbleEffort: Digital Textures N"): install all of them.
 

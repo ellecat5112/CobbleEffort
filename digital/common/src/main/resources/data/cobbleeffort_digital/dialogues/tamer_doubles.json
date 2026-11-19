@@ -1,0 +1,41 @@
+{
+  "pages": [
+    {
+      "id": "intro",
+      "speaker": "npc",
+      "lines": [
+        "Two on two: you and your best pair against mine!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "value": "battle",
+            "text": "Battle!",
+            "action": [
+              "q.dialogue.close();",
+              "q.npc.start_battle(q.player, 'doubles');"
+            ]
+          },
+          {
+            "value": "later",
+            "text": "Not now",
+            "action": [
+              "q.dialogue.close();"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "speakers": {
+    "npc": {
+      "face": "q.npc.face(false);",
+      "name": {
+        "type": "expression",
+        "expression": "q.npc.name"
+      }
+    }
+  }
+}

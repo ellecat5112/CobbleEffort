@@ -511,12 +511,49 @@ def dark_tower():
     return t
 
 
+def colosseum():
+    """The Colosseum: a round arena of smooth stone ringed by stepped stone-brick stands, with three marked podiums
+    where its Tamers wait (Tamers.java spawns them when someone comes near)."""
+    R = 14
+    W = 2 * R + 1
+    t = Template((W, 8, W))
+    c = R
+    for x in range(W):
+        for z in range(W):
+            d = math.hypot(x - c, z - c)
+            if d > R + 0.5:
+                continue
+            t.set(x, 0, z, "minecraft:smooth_stone" if d < 9.5 else "minecraft:stone_bricks")
+            for y in range(1, 8):
+                t.set(x, y, z, "minecraft:air")
+            if d >= 10.5:
+                step = min(5, int(d - 10.5) + 1)
+                gate = abs(x - c) <= 1 or abs(z - c) <= 1
+                for y in range(1, step + 1):
+                    if not gate:
+                        t.set(x, y, z, "minecraft:stone_brick_stairs" if y == step and d < R else "minecraft:stone_bricks",
+                              {"facing": "north", "half": "bottom", "shape": "straight", "waterlogged": "false"} if y == step and d < R else None)
+            if 9.5 <= d < 10.5:
+                t.set(x, 0, z, "minecraft:chiseled_stone_bricks")
+    for dx, dz, col in ((-5, 0, "minecraft:red_concrete"), (0, -5, "minecraft:blue_concrete"), (5, 0, "minecraft:yellow_concrete")):
+        for ox in (-1, 0, 1):
+            for oz in (-1, 0, 1):
+                t.set(c + dx + ox, 0, c + dz + oz, col)
+    for ang in range(0, 360, 45):
+        x, z = int(round(c + math.cos(math.radians(ang)) * (R - 1))), int(round(c + math.sin(math.radians(ang)) * (R - 1)))
+        t.set(x, 6, z, "minecraft:lantern", {"hanging": "false", "waterlogged": "false"})
+        t.set(x, 5, z, "minecraft:stone_bricks")
+    return t
+
+
 STRUCTURES = {  # name: (builder, biomes, spacing, separation, salt, terrain adaptation, start y)
     "server_terminal": (server_terminal, ["#minecraft:is_forest", "#minecraft:is_taiga", "#minecraft:is_savanna", "#minecraft:is_badlands",
                                           "minecraft:plains", "minecraft:desert", "minecraft:meadow", "minecraft:snowy_plains",
                                           f"#{NS}:is_digital_world"], 36, 12, 7331, "beard_thin", 0),
     "primary_village": (primary_village, [f"{NS}:file_island"], 24, 8, 7332, "beard_thin", 0),
     "socket_cliff": (socket_cliff, [f"{NS}:server_continent"], 10, 4, 7333, "beard_thin", 0),
+    "colosseum": (colosseum, ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:savanna", "minecraft:desert",
+                              "minecraft:meadow"], 56, 20, 7335, "beard_thin", 0),
     "dark_tower": (dark_tower, ["#minecraft:is_forest", "#minecraft:is_taiga", "#minecraft:is_savanna", "#minecraft:is_badlands",
                                 "minecraft:plains", "minecraft:desert", "minecraft:meadow", f"{NS}:dark_area"], 48, 16, 7334, "beard_thin", 0),
 }
@@ -673,6 +710,7 @@ LANG = {
     f"{NS}.merchant.name": "Shady %s",
     f"{NS}.merchant.appears": "Someone shady is lurking nearby...",
     f"{NS}.guard.name": "Primary Village Guard",
+    f"structure.{NS}.colosseum": "Colosseum",
 }
 
 
