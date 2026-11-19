@@ -23,7 +23,8 @@ ANIM = {"leg_amp": 16}
 LOOK = "a white shrine puppy with a black mask, a little gold horn, a blue swirl-patterned bib, a lolling tongue and a huge curling tail"
 BASE = {"white": (248, 248, 252), "white_dark": (200, 200, 214), "black": (40, 38, 46), "black_dark": (14, 14, 18),
         "pink": (240, 140, 170), "gold": (240, 196, 60), "blue": (70, 110, 200), "blue_dark": (30, 50, 120),
-        "red": (210, 40, 40), "eye": (30, 26, 30), "tongue": (240, 120, 140), "grey": (110, 110, 120)}
+        "red": (210, 40, 40), "eye": (30, 26, 30), "tongue": (240, 120, 140), "grey": (110, 110, 120),
+        "pupil": (14, 12, 14), "white": (255, 255, 255)}
 SHINY = {"black": (150, 100, 60), "black_dark": (90, 50, 24), "blue": (60, 160, 110), "blue_dark": (20, 100, 60)}
 
 
