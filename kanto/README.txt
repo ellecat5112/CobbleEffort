@@ -100,6 +100,23 @@ EVERY REGION: JOHTO TO PALDEA (NEW in 0.3.0)
   terrain); Unova plains, deserts and dark forests; Kalos flowers and meadows; Alola an archipelago in warm seas;
   Galar wide (large biomes), green to snowy; Paldea wide and varied. Landmarks only appear in NEW chunks.
 
+GAME RULES AND COMMANDS (0.13.0)
+  Game rules (/gamerule <name> <value>, per world; /kanto rules lists them):
+  kantoRegionSpawns (true): each region's dimension keeps only its own generation (off: anything can spawn there).
+  kantoOverworldGeneration (0): 1-9 makes the overworld that generation only, the way the regions are (every other
+    wild Pokemon becomes one of that generation sharing its type); 0 = off.
+  kantoEssenceDropChance (5): percent chance a defeated Gen 1 Pokemon leaves Essence of Olde.
+  kantoBossRespawnMinutes (3): minutes before a beaten Noble or totem comes back.
+  kantoEliteFourNeedsBadges (true): the Elite Four want all of their region's badges first.
+  Commands (operators unless noted):
+  /kanto travel <region> [players]: straight into a region (Kanto, Johto, ... Paldea, Hisui).
+  /kanto home [players]: back from a region to where they came from.
+  /kanto badges (anyone): your badges and Elite Four progress in every region; /kanto badges <player> for anyone's.
+  /kanto badges <player> give|clear <region>: give all of a region's badges (with the badge items) or clear them
+    (and its Elite Four progress).
+  /kanto rules (anyone). Also /kanto gyms, /kanto rebuild, /kanto forcebiome, /kanto drops, /kanto dna,
+  /kanto starterkit, /kanto starterbase.
+
 INSTALL
   Unzip and put ONE jar in your mods folder: the -fabric jar on Fabric, the -neoforge jar on NeoForge.
   Needs: Cobblemon 1.8.4+, CobbleEffort: Distortion 0.12.0+ (for the Distortion Crystal), Architectury API.
@@ -252,6 +269,8 @@ LICENCE
   the trainers' skins, which are recoloured from Cobblemon's trainer texture (Cobblemon's assets: CC BY-NC).
 
 CHANGES
+  0.13.0: game rules (region spawns, a one-generation overworld, Essence chance, boss respawns, the Elite Four's
+         badge gate) and /kanto travel, home, badges, rules.
   0.12.0: the starter kit: the Starter Bundle on joining a new world, and the Starter Base Token that builds a
          stocked starter base with a farm.
   0.11.0: /kanto drops and /kanto dna, to force and simulate Pokemon drops and Mew DNA (testing tools).

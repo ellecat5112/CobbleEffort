@@ -38,6 +38,15 @@ THE LOOK
   keep each Pokémon's own colours. A shiny part of a designed fusion has its colours turned round the colour wheel,
   as Infinite Fusion does. Hand-made fusion forms for favourite pairs may come later.
 
+GAME RULES AND COMMANDS (0.3.0)
+  Game rules (/gamerule <name> <value>, per world; /fusion rules lists them):
+  fusionInfiniteSplicers (false): DNA Splicers, Super Splicers and DNA Reversers are never used up.
+  fusionHigherLevel (false): DNA Splicers give the higher of the two levels, as Super Splicers do.
+  Commands (operators unless noted):
+  /fusion fuse <player> <head slot> <body slot> [higher]: fuse two party Pokemon, no splicers needed.
+  /fusion unfuse <player> <slot> and /fusion reverse <player> <slot>: split a fusion, or swap its head and body.
+  /fusion info and /fusion rules (anyone); /fusion ability <pokemon> head|body (the fusion's owner).
+
 CRAFTING
   DNA Splicers: amethyst shard over iron ingot, redstone, iron ingot, over iron ingot.
   Super Splicers: diamond over gold ingot, DNA Splicers, gold ingot, over gold ingot.

@@ -587,6 +587,24 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   BEFORE the death drops. Leftover costumes (a crash) are refused by EntityEvent.ADD, battles with them cancelled.
   Bio-Merge = sneak + Digivice on your own Digimon at friendship 255 (50 energy): furthest open evolution up to stage
   `ultimate`, element from its primary type, partner recalled.
+- **Game rules and commands** (the user's request; Digital 0.19.0, Kanto 0.13.0, Distortion 0.16.0, Fusion 0.3.0):
+  each add-on has a rules class (`DigitalRules`, `KantoRules`, `DistortionGameRules`, `FusionGameRules`) registering
+  `GameRules` keys (BooleanValue/IntegerValue.create are public in 1.21.1) into an `ALL` map that `/<mod> rules`
+  lists: declare the map BEFORE the keys (static init order: Digital 0.19.0 first crashed at startup on it). Lang
+  `gamerule.<name>` lives in each add-on's generator (digital make_world.py, kanto make_assets.py LANG, distortion
+  make_alignment.py LANG, fusion make_assets.py) and its en_us.json. Digital: digitalDigimonOnly (ENTITY_SPAWN at
+  Priority.LOW, after Kanto's region swap: a same-type Digimon at a stage by level band, shiny kept),
+  digitalNoWildDigimon (cancels Digimon spawns outside the Digital World), digitalAutoHatch +
+  digitalDigitamaHatchSeconds (the need is copied into the Digitama's custom data "need" so the client bar reads it),
+  digitalDigitamaDropChance, digitalFreeDigivolution, digitalRaids, digitalRifts, digitalDarkTowerAura,
+  digitalStrictCatching; /digital hatch|digitama|energy|attribute|rules. Kanto: kantoRegionSpawns,
+  kantoOverworldGeneration (0-9), kantoEssenceDropChance, kantoBossRespawnMinutes, kantoEliteFourNeedsBadges;
+  /kanto travel|home|badges [give|clear]|rules. Distortion: distortionWildDistort, distortionShadowChance,
+  distortionCrystalChance; /distortion convert|purify|distort|revert|rules (the root is no longer op-only: each
+  child carries its own permission). Fusion: fusionInfiniteSplicers, fusionHigherLevel; /fusion
+  fuse|unfuse|reverse|rules. Client-side checks can't read game rules (not synced), so no rule may loosen a check the
+  client also makes (e.g. Distortion's band/crystal requirement). Player commands and spawn rules need a real client
+  to test: the console test server can't spawn naturally or target players.
 - **Extra Rotom forms** (1.8.0, the user's request; `tools/newmons/rotom.py --cobblemon <res>`, standalone, then
   `build.py --data-only` so fossils.build picks up the items): 32 forms (FORMS: name, types, form-change move, item,
   recipe, entry, credit; Joseon Region, The_Aussie_Artist's Pokémon Abyss, CaligoMilites' Rotom Boy, the user's doodle

@@ -192,7 +192,8 @@ public final class DigitalWorld {
             }
             if (now % 20 == 0) {
                 List<ServerPlayer> players = new ArrayList<>(server.getPlayerList().getPlayers());
-                if (!players.isEmpty() && server.overworld().getRandom().nextInt(RIFT_CHANCE / 20) == 0) {
+                if (!players.isEmpty() && DigitalRules.on(server.overworld(), DigitalRules.RIFTS)
+                        && server.overworld().getRandom().nextInt(RIFT_CHANCE / 20) == 0) {
                     ServerPlayer p = players.get(server.overworld().getRandom().nextInt(players.size()));
                     if (p.level().dimension() == Level.OVERWORLD && !p.isSpectator()) openRift(p);
                 }

@@ -32,8 +32,7 @@ import java.util.Random;
 
 /** The add-on's hooks into Cobblemon and Minecraft: Essence of Olde drops, Gen 1-only Kanto, the lab in villages. */
 public final class KantoEvents {
-    /** One Gen 1 Pokémon defeated in battle: this chance of Essence of Olde. */
-    static final double ESSENCE_CHANCE = 0.05;
+    // One Gen 1 Pokémon defeated in battle: game rule kantoEssenceDropChance (percent, default 5) of Essence of Olde.
     /** The lab's weight among each village's houses (a plains village's houses weigh about 200 in all). */
     static final int LAB_WEIGHT = 3;
     private static final String[] VILLAGES = {"plains", "desert", "savanna", "snowy", "taiga"};
@@ -58,8 +57,14 @@ public final class KantoEvents {
         CobblemonEvents.ENTITY_SPAWN.subscribe(Priority.NORMAL, event -> {
             try {
                 if (event.getEntity() instanceof PokemonEntity pokemon) {
-                    Region region = Region.of(pokemon.level().dimension());
-                    if (region != null) onlyRegion(pokemon, region);
+                    var level = pokemon.level();
+                    Region region = Region.of(level.dimension());
+                    if (region != null) {
+                        if (KantoRules.on(level, KantoRules.REGION_SPAWNS)) onlyRegion(pokemon, region);
+                    } else if (level.dimension() == net.minecraft.world.level.Level.OVERWORLD) {
+                        Region only = KantoRules.overworldRegion(level);       // game rule kantoOverworldGeneration
+                        if (only != null) onlyRegion(pokemon, only);
+                    }
                 }
             } catch (Throwable t) {
                 Kanto.LOG.error("Kanto spawn check failed", t);
@@ -78,7 +83,7 @@ public final class KantoEvents {
         for (BattleActor actor : event.getBattle().getActors()) {
             if (!(actor instanceof PlayerBattleActor player) || actor.getSide() == killed.getActor().getSide()) continue;
             ServerPlayer entity = player.getEntity();
-            if (entity == null || entity.getRandom().nextDouble() >= ESSENCE_CHANCE) continue;
+            if (entity == null || entity.getRandom().nextInt(100) >= KantoRules.value(entity.level(), KantoRules.ESSENCE_CHANCE)) continue;
             ItemStack stack = new ItemStack(Kanto.ESSENCE.get());
             PokemonEntity at = killed.getEntity();
             if (at != null && at.level() == entity.level()) {

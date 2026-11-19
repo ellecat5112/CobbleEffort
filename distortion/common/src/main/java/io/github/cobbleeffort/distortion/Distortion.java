@@ -130,6 +130,7 @@ public final class Distortion {
                     }
                 }));
         MewDna.init();
+        DistortionGameRules.init();
         Alignment.init();
         AlignmentCommand.init();
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTED.register(server -> AlignmentEngine.installNow());

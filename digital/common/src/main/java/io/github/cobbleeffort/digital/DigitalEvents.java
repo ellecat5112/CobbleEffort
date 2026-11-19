@@ -33,8 +33,8 @@ import java.util.Map;
  * attribute table as each battle starts.
  */
 public final class DigitalEvents {
-    /** One Digimon defeated in battle: this chance of a Digitama for each player on the winning side. */
-    static final double DIGITAMA_CHANCE = 0.05;
+    // One Digimon defeated in battle: game rule digitalDigitamaDropChance (percent, default 5) of a Digitama for each
+    // player on the winning side.
     /** ... of attribute fragments (1 for babies and Child, more for higher stages). */
     static final double FRAGMENT_CHANCE = 0.65;
     /** ... of a Digi-Meat (to start a farm). */
@@ -132,7 +132,7 @@ public final class DigitalEvents {
             if (entity == null) continue;
             RandomSource r = entity.getRandom();
             List<ItemStack> loot = new ArrayList<>();
-            if (r.nextDouble() < DIGITAMA_CHANCE) {
+            if (r.nextInt(100) < DigitalRules.value(entity.level(), DigitalRules.DIGITAMA_CHANCE)) {
                 loot.add(new ItemStack(Digital.DIGITAMA.get()));
                 entity.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.dropped",
                         kp.getSpecies().getTranslatedName()), true);

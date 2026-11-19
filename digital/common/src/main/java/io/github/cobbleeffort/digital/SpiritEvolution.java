@@ -481,7 +481,8 @@ public final class SpiritEvolution {
             p.displayClientMessage(Component.translatable(m + "bond", pk.getDisplayName(false), pk.getFriendship()), true);
             return true;
         }
-        if (Digivice.energy(digivice) < MERGE_ENERGY) {
+        boolean freeMerge = DigitalRules.freeEnergy(p);
+        if (!freeMerge && Digivice.energy(digivice) < MERGE_ENERGY) {
             p.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digivice.low_energy", Digivice.energy(digivice), MERGE_ENERGY), true);
             return true;
         }
@@ -494,7 +495,7 @@ public final class SpiritEvolution {
         }
         String element = element(pk.getPrimaryType());
         if (transform(p, mega.getResourceIdentifier().getPath(), element, "merge", MERGE_TICKS)) {
-            if (!p.getAbilities().instabuild) Digivice.setEnergy(digivice, Digivice.energy(digivice) - MERGE_ENERGY);
+            if (!freeMerge) Digivice.setEnergy(digivice, Digivice.energy(digivice) - MERGE_ENERGY);
             entity.recallWithAnimation();
         }
         return true;

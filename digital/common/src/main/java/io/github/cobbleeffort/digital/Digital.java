@@ -280,6 +280,7 @@ public final class Digital {
         });
         BiomeModifications.addProperties(ctx -> ctx.hasTag(BiomeTags.IS_OVERWORLD),
                 (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, CHROME_ORE_PLACED));
+        DigitalRules.init();
         DigitalEvents.init();
         Training.init();
         CatchRules.init();

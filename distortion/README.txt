@@ -261,6 +261,17 @@ ROTOM CATALOGUE (0.15.0)
   CobbleEffort 1.8.0 adds 32 more Rotom forms (Drill, Jetski, String, Rotom Boy, TV, Toaster...). With this add-on,
   Mega Showdown's Rotom Catalogue cycles through them too, between Mow and plain Rotom.
 
+GAME RULES AND COMMANDS (0.16.0)
+  Game rules (/gamerule <name> <value>, per world; /distortion rules lists them):
+  distortionWildDistort (true): wild and NPC Pokemon holding a Distortion Crystal distort in battle.
+  distortionShadowChance (256): wild Shadow Pokemon are 1 in this many night-time spawns under the sky (0 = never).
+  distortionCrystalChance (256): wild Crystal Pokemon are 1 in this many spawns underground below y 40 (0 = never).
+  Commands (operators unless noted):
+  /distortion convert <player> <slot> <shadow|crystal>: turn a party Pokemon into its Shadow or Crystal self.
+  /distortion purify <player> <slot>: undo it (as the DNA Purifier does).
+  /distortion distort|revert <player> <slot>: its Distorted form outside battle (Pokemon that have one).
+  /distortion rules (anyone). Also /distortion align <shadow|crystal> <pokemon> (a test that gives nothing).
+
 INSTALL
   Unzip and put ONE jar in your mods folder: the -fabric jar on Fabric, the -neoforge jar on NeoForge.
   Needs: Cobblemon 1.8.4+, Mega Showdown 1.3.3+, Accessories, Architectury API. Install it on the server too.

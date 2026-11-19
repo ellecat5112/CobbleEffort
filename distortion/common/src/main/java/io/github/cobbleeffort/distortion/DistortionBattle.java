@@ -110,7 +110,7 @@ public final class DistortionBattle {
      */
     public static boolean aiMayDistort(BattleActor actor, ActiveBattlePokemon active) {
         BattlePokemon battlePokemon = active.getBattlePokemon();
-        if (battlePokemon == null) return false;
+        if (battlePokemon == null || !DistortionGameRules.wildDistort()) return false;   // game rule distortionWildDistort
         Pokemon pokemon = battlePokemon.getEffectedPokemon();
         if (!DistortionRules.holdsSource(pokemon) || !DistortionRules.hasDistortedForm(pokemon.getSpecies())) return false;
         UUID battleId = actor.getBattle().getBattleId();

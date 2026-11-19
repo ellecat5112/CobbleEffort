@@ -83,7 +83,8 @@ public class SplicerItem extends Item {
                     List<Pokemon> bodies = new ArrayList<>(mons);
                     PartySelectCallbacks.INSTANCE.createFromPokemon(sp, Component.translatable("cobbleeffort_fusion.pick.body", head.getDisplayName(false)),
                             bodies, b -> b != head && !FusionRules.isFused(b), p -> Unit.INSTANCE, body -> {
-                                Fusing.LevelRule rule = kind == Kind.SUPER ? Fusing.LevelRule.HIGHER : Fusing.LevelRule.AVERAGE;
+                                Fusing.LevelRule rule = kind == Kind.SUPER || sp.level().getGameRules().getBoolean(FusionGameRules.HIGHER_LEVEL)
+                                        ? Fusing.LevelRule.HIGHER : Fusing.LevelRule.AVERAGE;
                                 report(sp, Fusing.fuse(sp, head, body, rule), hand);
                                 return Unit.INSTANCE;
                             });
@@ -98,7 +99,7 @@ public class SplicerItem extends Item {
             player.sendSystemMessage(error.copy().withStyle(ChatFormatting.RED));
             return;
         }
-        if (kind == Kind.INFINITE || player.isCreative()) return;
+        if (kind == Kind.INFINITE || player.isCreative() || player.level().getGameRules().getBoolean(FusionGameRules.INFINITE_SPLICERS)) return;
         ItemStack held = player.getItemInHand(hand);
         if (held.getItem() == this) held.shrink(1);
         else player.getInventory().clearOrCountMatchingItems(s -> s.getItem() == this, 1, player.inventoryMenu.getCraftSlots());

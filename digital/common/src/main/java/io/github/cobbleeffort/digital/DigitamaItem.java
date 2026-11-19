@@ -26,6 +26,8 @@ import java.util.List;
  * A Digitama (Digi-Egg). Carried in a player's inventory it warms up (custom data "warmth", a second at a time, shown
  * by the item bar); once warm, using it hatches a baby Digimon at level 1 into the party, or the PC if the party is
  * full. The Digimon it hatches is its custom data "species" if set, else a random Baby I Digimon (label "digimon_hatch").
+ * How long it takes is game rule digitalDigitamaHatchSeconds (copied into custom data "need" so the client can show
+ * it); with digitalAutoHatch a warm Digitama hatches by itself.
  */
 public class DigitamaItem extends Item {
     /** Ticks in a player's inventory before it can hatch: 5 minutes. */
@@ -43,16 +45,35 @@ public class DigitamaItem extends Item {
         return data == null ? 0 : data.copyTag().getInt("warmth");
     }
 
+    /** Warmth it needs to hatch (the game rule at the time it last warmed; 5 minutes until then). */
+    static int need(ItemStack stack) {
+        CustomData data = stack.get(DataComponents.CUSTOM_DATA);
+        return data == null || !data.copyTag().contains("need") ? HATCH_TICKS : Math.max(0, data.copyTag().getInt("need"));
+    }
+
     static boolean ready(ItemStack stack) {
-        return warmth(stack) >= HATCH_TICKS;
+        return warmth(stack) >= need(stack);
+    }
+
+    static int percent(ItemStack stack) {
+        int n = need(stack);
+        return n <= 0 ? 100 : Math.min(100, warmth(stack) * 100 / n);
     }
 
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slot, boolean selected) {
         if (level.isClientSide || !(entity instanceof Player) || level.getGameTime() % 20 != 0) return;
+        int need = Math.max(0, DigitalRules.value(level, DigitalRules.HATCH_SECONDS)) * 20;
         int w = warmth(stack);
-        if (w >= HATCH_TICKS) return;
-        CustomData.update(DataComponents.CUSTOM_DATA, stack, tag -> tag.putInt("warmth", Math.min(HATCH_TICKS, w + 20)));
+        if (need(stack) != need || w < need) {
+            CustomData.update(DataComponents.CUSTOM_DATA, stack, tag -> {
+                tag.putInt("need", need);
+                tag.putInt("warmth", Math.min(need, w + 20));
+            });
+        }
+        if (entity instanceof ServerPlayer player && ready(stack) && DigitalRules.on(level, DigitalRules.AUTO_HATCH)) {
+            hatchOne(stack, player);                                  // game rule digitalAutoHatch
+        }
     }
 
     @Override
@@ -62,7 +83,7 @@ public class DigitamaItem extends Item {
 
     @Override
     public int getBarWidth(ItemStack stack) {
-        return Math.round(13F * warmth(stack) / HATCH_TICKS);
+        return Math.round(13F * percent(stack) / 100F);
     }
 
     @Override
@@ -80,7 +101,7 @@ public class DigitamaItem extends Item {
         if (ready(stack)) {
             lines.add(Component.translatable(Digital.MOD_ID + ".digitama.ready").withStyle(ChatFormatting.GOLD));
         } else {
-            lines.add(Component.translatable(Digital.MOD_ID + ".digitama.warming", warmth(stack) * 100 / HATCH_TICKS)
+            lines.add(Component.translatable(Digital.MOD_ID + ".digitama.warming", percent(stack))
                     .withStyle(ChatFormatting.GRAY));
         }
     }
@@ -90,22 +111,44 @@ public class DigitamaItem extends Item {
         ItemStack stack = player.getItemInHand(hand);
         if (level.isClientSide || !(player instanceof ServerPlayer server)) return InteractionResultHolder.success(stack);
         if (!ready(stack)) {
-            server.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.not_ready",
-                    warmth(stack) * 100 / HATCH_TICKS), true);
+            server.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.not_ready", percent(stack)), true);
             return InteractionResultHolder.fail(stack);
         }
+        return hatchOne(stack, server) ? InteractionResultHolder.consume(stack) : InteractionResultHolder.fail(stack);
+    }
+
+    /** Hatches one Digitama of the stack for the player (warm or not), with its message and sound. */
+    static boolean hatchOne(ItemStack stack, ServerPlayer player) {
         try {
-            Pokemon baby = hatch(stack, server);
-            Crests.hatched(server);
+            Pokemon baby = hatch(stack, player);
+            Crests.hatched(player);
             stack.shrink(1);
-            level.playSound(null, player.blockPosition(), SoundEvents.SNIFFER_EGG_HATCH, SoundSource.PLAYERS, 1F, 1.2F);
-            server.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.hatched",
+            player.level().playSound(null, player.blockPosition(), SoundEvents.SNIFFER_EGG_HATCH, SoundSource.PLAYERS, 1F, 1.2F);
+            player.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.hatched",
                     baby.getSpecies().getTranslatedName()).withStyle(ChatFormatting.GOLD), false);
-            return InteractionResultHolder.consume(stack);
+            return true;
         } catch (Throwable t) {
             Digital.LOG.error("Digitama hatch failed", t);
-            return InteractionResultHolder.fail(stack);
+            return false;
         }
+    }
+
+    /** Hatches every Digitama in the player's inventory (/digital hatch). */
+    static int hatchAll(ServerPlayer player) {
+        int n = 0;
+        var inv = player.getInventory();
+        for (int i = 0; i < inv.getContainerSize(); i++) {
+            ItemStack stack = inv.getItem(i);
+            while (stack.getItem() instanceof DigitamaItem && !stack.isEmpty() && hatchOne(stack, player)) n++;
+        }
+        return n;
+    }
+
+    /** A Digitama that hatches into this species (any Digimon), or a random baby when species is null. */
+    static ItemStack egg(String species) {
+        ItemStack stack = new ItemStack(Digital.DIGITAMA.get());
+        if (species != null) CustomData.update(DataComponents.CUSTOM_DATA, stack, tag -> tag.putString("species", species));
+        return stack;
     }
 
     static Pokemon hatch(ItemStack stack, ServerPlayer player) {

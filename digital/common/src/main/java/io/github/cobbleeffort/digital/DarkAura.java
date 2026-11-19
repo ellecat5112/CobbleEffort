@@ -41,6 +41,7 @@ public final class DarkAura {
 
     /** True if a core stands within RADIUS of `at` in this level. */
     public static synchronized boolean near(Level level, Vec3 at) {
+        if (!level.getGameRules().getBoolean(DigitalRules.DARK_AURA)) return false;   // game rule digitalDarkTowerAura
         Set<BlockPos> set = CORES.get(level.dimension());
         if (set == null) return false;
         for (BlockPos p : set) {

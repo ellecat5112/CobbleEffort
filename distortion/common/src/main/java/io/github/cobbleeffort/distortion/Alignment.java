@@ -51,7 +51,6 @@ public final class Alignment {
     public static final String CRYSTAL_FLAG = "crystal_pokemon";
     private static final String KEY = "cobbleeffort_alignment";
     /** One wild spawn in this many becomes a Shadow (at night) or Crystal (underground) Pokémon. */
-    private static final int WILD_CHANCE = 256;
 
     public static final ElementalType SHADOW = ElementalTypes.register("Shadow", Component.translatable("cobblemon.type.shadow"),
             0x8A4FC0, 18, 0x3A1E54, 0x9646C8, 18);
@@ -71,9 +70,11 @@ public final class Alignment {
                 if (p.isPlayerOwned() || of(p) != null) return kotlin.Unit.INSTANCE;
                 var pos = event.getSpawnablePosition();
                 var random = pos.getWorld().getRandom();
-                if (pos.getWorld().isNight() && pos.getCanSeeSky() && random.nextInt(WILD_CHANCE) == 0) {
+                var rules = pos.getWorld().getGameRules();                     // 1 in N (game rules; 0 = never)
+                int shadow = rules.getInt(DistortionGameRules.SHADOW_CHANCE), crystal = rules.getInt(DistortionGameRules.CRYSTAL_CHANCE);
+                if (pos.getWorld().isNight() && pos.getCanSeeSky() && shadow > 0 && random.nextInt(shadow) == 0) {
                     convert(p, SHADOW_FLAG);
-                } else if (!pos.getCanSeeSky() && pos.getPosition().getY() < 40 && random.nextInt(WILD_CHANCE) == 0) {
+                } else if (!pos.getCanSeeSky() && pos.getPosition().getY() < 40 && crystal > 0 && random.nextInt(crystal) == 0) {
                     convert(p, CRYSTAL_FLAG);
                 }
             } catch (Throwable t) {

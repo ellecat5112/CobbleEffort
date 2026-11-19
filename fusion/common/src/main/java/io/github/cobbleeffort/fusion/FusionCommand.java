@@ -148,8 +148,74 @@ public final class FusionCommand {
         dispatcher.register(Commands.literal("fusion")
                 .then(Commands.literal("selftest").requires(s -> s.hasPermission(2)).executes(ctx -> selftest(ctx.getSource())))
                 .then(Commands.literal("info").executes(ctx -> info(ctx.getSource())))
+                .then(Commands.literal("rules").executes(ctx -> rules(ctx.getSource())))
+                .then(Commands.literal("fuse").requires(s -> s.hasPermission(2)).then(player()
+                        .then(Commands.argument("head", com.mojang.brigadier.arguments.IntegerArgumentType.integer(1, 6))
+                                .then(Commands.argument("body", com.mojang.brigadier.arguments.IntegerArgumentType.integer(1, 6))
+                                        .executes(ctx -> fuse(ctx, false))
+                                        .then(Commands.literal("higher").executes(ctx -> fuse(ctx, true)))))))
+                .then(Commands.literal("unfuse").requires(s -> s.hasPermission(2)).then(player().then(slot().executes(ctx -> unfuse(ctx, false)))))
+                .then(Commands.literal("reverse").requires(s -> s.hasPermission(2)).then(player().then(slot().executes(ctx -> unfuse(ctx, true)))))
                 .then(Commands.literal("ability").then(Commands.argument("pokemon", StringArgumentType.word())
                         .then(Commands.literal("head").executes(ctx -> ability(ctx.getSource(), StringArgumentType.getString(ctx, "pokemon"), "head")))
                         .then(Commands.literal("body").executes(ctx -> ability(ctx.getSource(), StringArgumentType.getString(ctx, "pokemon"), "body"))))));
+    }
+
+    private static com.mojang.brigadier.builder.RequiredArgumentBuilder<CommandSourceStack, ?> player() {
+        return Commands.argument("player", net.minecraft.commands.arguments.EntityArgument.player());
+    }
+
+    private static com.mojang.brigadier.builder.RequiredArgumentBuilder<CommandSourceStack, Integer> slot() {
+        return Commands.argument("slot", com.mojang.brigadier.arguments.IntegerArgumentType.integer(1, 6));
+    }
+
+    /** /fusion fuse <player> <head slot> <body slot> [higher] (operators): fuse two party Pokémon, no splicers needed. */
+    private static int fuse(com.mojang.brigadier.context.CommandContext<CommandSourceStack> ctx, boolean higher)
+            throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayer player = net.minecraft.commands.arguments.EntityArgument.getPlayer(ctx, "player");
+        PlayerPartyStore party = Cobblemon.INSTANCE.getStorage().getParty(player);
+        Pokemon head = party.get(com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(ctx, "head") - 1);
+        Pokemon body = party.get(com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(ctx, "body") - 1);
+        if (head == null || body == null) {
+            ctx.getSource().sendFailure(Component.literal("Both party slots need a Pokémon."));
+            return 0;
+        }
+        Component error = Fusing.fuse(player, head, body, higher ? Fusing.LevelRule.HIGHER : Fusing.LevelRule.AVERAGE);
+        if (error != null) {
+            ctx.getSource().sendFailure(error);
+            return 0;
+        }
+        ctx.getSource().sendSuccess(() -> Component.literal("Fused into " + body.getDisplayName(false).getString() + "."), true);
+        return 1;
+    }
+
+    /** /fusion unfuse|reverse <player> <slot> (operators). */
+    private static int unfuse(com.mojang.brigadier.context.CommandContext<CommandSourceStack> ctx, boolean reverse)
+            throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayer player = net.minecraft.commands.arguments.EntityArgument.getPlayer(ctx, "player");
+        Pokemon fused = Cobblemon.INSTANCE.getStorage().getParty(player).get(com.mojang.brigadier.arguments.IntegerArgumentType.getInteger(ctx, "slot") - 1);
+        if (fused == null || !FusionRules.isFused(fused)) {
+            ctx.getSource().sendFailure(Component.literal("That party slot isn't a fusion."));
+            return 0;
+        }
+        Component error = reverse ? Fusing.reverse(player, fused) : Fusing.unfuse(player, fused);
+        if (error != null) {
+            ctx.getSource().sendFailure(error);
+            return 0;
+        }
+        ctx.getSource().sendSuccess(() -> Component.literal(reverse ? "Head and body swapped." : "Unfused."), true);
+        return 1;
+    }
+
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    private static int rules(CommandSourceStack src) {
+        var rules = src.getLevel().getGameRules();
+        src.sendSuccess(() -> Component.literal("CobbleEffort: Fusion game rules (/gamerule <name> <value>):").withStyle(ChatFormatting.LIGHT_PURPLE), false);
+        for (var e : FusionGameRules.ALL.entrySet()) {
+            String v = rules.getRule((net.minecraft.world.level.GameRules.Key) e.getValue()).serialize();
+            src.sendSuccess(() -> Component.literal("  " + e.getKey() + " = ").withStyle(ChatFormatting.GRAY)
+                    .append(Component.literal(v).withStyle(ChatFormatting.WHITE)), false);
+        }
+        return FusionGameRules.ALL.size();
     }
 }

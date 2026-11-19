@@ -427,7 +427,8 @@ public final class KantoGyms {
                             ent.getX(), ent.getY() + ent.getBbHeight() * 0.6, ent.getZ(), 10, ent.getBbWidth() * 0.7, ent.getBbHeight() * 0.5,
                             ent.getBbWidth() * 0.7, 0);
                 }
-                if (bosses.isEmpty() && now - DEFEATED.getOrDefault(site.id(), -RESPAWN_TICKS) >= RESPAWN_TICKS) {
+                long respawn = 20L * 60 * Math.max(0, KantoRules.value(level, KantoRules.BOSS_RESPAWN_MINUTES));
+                if (bosses.isEmpty() && now - DEFEATED.getOrDefault(site.id(), -respawn) >= respawn) {
                     for (Boss b : site.bosses()) spawnBoss(level, site, b, at);
                 }
             }
@@ -491,6 +492,10 @@ public final class KantoGyms {
             }
         }
         if (region == null) return;
+        for (BattleActor a : event.getBattle().getActors()) {                 // game rule kantoEliteFourNeedsBadges
+            if (a instanceof PlayerBattleActor p && p.getEntity() != null
+                    && !KantoRules.on(p.getEntity().level(), KantoRules.ELITE_NEEDS_BADGES)) return;
+        }
         List<String> needed = badgesOf(region);
         for (BattleActor a : event.getBattle().getActors()) {
             if (!(a instanceof PlayerBattleActor p) || p.getEntity() == null) continue;
@@ -554,6 +559,55 @@ public final class KantoGyms {
 
     private static void give(ServerPlayer player, ItemStack stack) {
         if (!player.getInventory().add(stack)) player.drop(stack, false);
+    }
+
+    // --- badges for /kanto badges ----------------------------------------------------------------------------------
+
+    /** One line per region: badges held out of its total, and whether its Elite Four are beaten. */
+    static List<Component> badgeSummary(ServerPlayer player) {
+        loadAll();
+        Progress progress = progress(player.server);
+        List<String> have = progress.badges(player);
+        List<String> beaten = progress.list(player, "elite");
+        List<Component> out = new ArrayList<>();
+        for (Region r : Region.values()) {
+            List<String> needed = badgesOf(r);
+            if (needed.isEmpty()) continue;
+            long mine = needed.stream().filter(have::contains).count();
+            long elite = beaten.stream().map(ResourceLocation::tryParse).map(id -> id == null ? null : ROLES.get(id))
+                    .filter(role -> role != null && role.region() == r).count();
+            out.add(Component.literal(nameOf(r) + ": " + mine + "/" + needed.size() + " badges"
+                    + (elite >= 4 ? ", Champion" : elite > 0 ? ", " + elite + "/4 Elite Four" : "")));
+        }
+        return out;
+    }
+
+    /** Gives (with their items) or clears every badge of a region; returns how many changed. */
+    static int setRegionBadges(ServerPlayer player, Region region, boolean give) {
+        loadAll();
+        Progress progress = progress(player.server);
+        List<String> have = progress.badges(player);
+        int n = 0;
+        for (String badge : badgesOf(region)) {
+            if (give && !have.contains(badge)) {
+                have.add(badge);
+                give(player, new ItemStack(BuiltInRegistries.ITEM.get(Kanto.id(badge))));
+                n++;
+            } else if (!give && have.remove(badge)) {
+                n++;
+            }
+        }
+        progress.save(player, "badges", have);
+        if (!give) {
+            List<String> beaten = progress.list(player, "elite");
+            beaten.removeIf(id -> {
+                ResourceLocation rl = ResourceLocation.tryParse(id);
+                Role role = rl == null ? null : ROLES.get(rl);
+                return role != null && role.region() == region;
+            });
+            progress.save(player, "elite", beaten);
+        }
+        return n;
     }
 
     // --- saved state ------------------------------------------------------------------------------------------------

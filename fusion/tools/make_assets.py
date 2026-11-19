@@ -120,6 +120,8 @@ def main():
         f"{NS}.error.no_head": "This fusion's head couldn't be found.",
         f"{NS}.error.battle": "You can't splice DNA during a battle.",
         f"{NS}.error.ability": "That ability couldn't be set.",
+        "gamerule.fusionInfiniteSplicers": "DNA Splicers and Reversers are never used up",
+        "gamerule.fusionHigherLevel": "DNA Splicers give the higher of the two levels (like Super Splicers)",
     })
 
     def shaped(name, pattern, key, count=1):

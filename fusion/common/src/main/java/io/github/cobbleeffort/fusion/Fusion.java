@@ -43,6 +43,7 @@ public final class Fusion {
     public static void init() {
         TABS.register();
         ITEMS.register();
+        FusionGameRules.init();
         FusionCommand.init();
         FusionDesigns.preload();
         if (Platform.getEnvironment() == Env.CLIENT) {

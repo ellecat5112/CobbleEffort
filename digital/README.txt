@@ -172,6 +172,31 @@ Bio-Merge
   it into its Mega (the furthest digivolution open to it) for 90 seconds, for 50 Tamer Energy. You keep your armor,
   fly, hit hard and attack with its element (from its type); your partner rests in its ball meanwhile.
 
+Game rules (0.19.0; /gamerule <name> <value>, per world; /digital rules lists them with their values)
+  digitalDigimonOnly (false): only Digimon in the wild: every wild Pokemon that spawns becomes a Digimon of its
+    primary type where one exists, at the same level, at a stage that suits the level (In-Training below 6,
+    Rookie to 17, Champion to 31, Ultimate to 45, Mega above).
+  digitalNoWildDigimon (false): no wild Digimon outside the Digital World (a Pokemon-only overworld).
+  digitalAutoHatch (false): a warm Digitama hatches by itself in your inventory, no click needed.
+  digitalDigitamaHatchSeconds (300): how long a Digitama must be carried before it can hatch (0 = at once; with
+    digitalAutoHatch, eggs then hatch the moment you pick them up).
+  digitalDigitamaDropChance (5): percent chance a defeated Digimon leaves a Digitama.
+  digitalFreeDigivolution (false): Digivice warps, Jogress and Bio-Merge cost no Tamer Energy.
+  digitalRaids (true): Demon Lord and Royal Knight raids start by themselves (/digital raid start still works).
+  digitalRifts (true): rifts to the Digital World open by themselves now and then.
+  digitalDarkTowerAura (true): Dark Towers stop Digimon digivolving past Rookie nearby.
+  digitalStrictCatching (true): wild Ultimate and Mega Digimon need a Chrome Digizoid Ball (or a Master Ball).
+  digitalDigitization (true) and digitalMoveGriefing (false), from earlier releases: raid bosses digitize the land
+    round their rift; Digimon attacks change the world.
+
+Commands (0.19.0; operators unless noted)
+  /digital hatch [players]: hatch every Digitama in your (or their) inventory now, warm or not.
+  /digital digitama <players> [species] [count]: give Digitama, optionally of one Digimon (e.g. cobbleeffort:agumon).
+  /digital energy <players> <0-100>: set the Tamer Energy on their Digivices.
+  /digital attribute <player> <slot> <vaccine|data|virus|free|variable>: rewrite a party Digimon's attribute.
+  /digital rules (anyone): the game rules above and their values. /digital rank (anyone): your Tamer Rank.
+  Also /digital raid start|stop, /digital rift, /digital world, /digital crest <charge> (testing).
+
 Install: Fabric or NeoForge with Architectury API and Cobblemon 1.8.4. Shared as a main jar plus texture jars
 ("CobbleEffort: Digital Textures N"): install all of them.
 

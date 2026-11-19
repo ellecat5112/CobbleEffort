@@ -138,6 +138,7 @@ public final class Kanto {
                     (ctx, props) -> props.getGenerationProperties().addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, key));
         }
         Tar.worldgen();
+        KantoRules.init();
         KantoEvents.init();
         KantoGyms.init();
         KantoCommand.init();

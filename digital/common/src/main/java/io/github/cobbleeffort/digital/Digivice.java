@@ -398,12 +398,13 @@ public class Digivice extends Item implements SimpleBagItemLike {
             player.sendSystemMessage(Component.translatable(m + (twice ? "no_warp_two" : "no_warp"), p.getDisplayName(false)).withStyle(ChatFormatting.RED));
             return false;
         }
+        if (DigitalRules.freeEnergy(player)) cost = 0;               // game rule digitalFreeDigivolution (or creative)
         if (energy(stack) < cost) {
             player.sendSystemMessage(Component.translatable(m + "low_energy", energy(stack), cost).withStyle(ChatFormatting.RED));
             return false;
         }
         if (crest) Crests.spendForWarp(player);
-        if (!player.getAbilities().instabuild) setEnergy(stack, energy(stack) - cost);
+        if (cost > 0) setEnergy(stack, energy(stack) - cost);
         bp.getActor().forceChoose(new BagItemActionResponse(bagItem, bp, target.showdownId() + " " + target.getResourceIdentifier()
                 + (jogress != null ? " jogress" : "")));
         player.level().playSound(null, player.blockPosition(), SoundEvents.BEACON_ACTIVATE, SoundSource.PLAYERS, 1F, 1.5F);

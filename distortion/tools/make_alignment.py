@@ -147,6 +147,9 @@ def _desc(js):
 
 
 LANG = {
+    "gamerule.distortionWildDistort": "Wild and NPC Pokémon distort in battle",
+    "gamerule.distortionShadowChance": "Wild Shadow Pokémon: 1 in this many night spawns (0 = never)",
+    "gamerule.distortionCrystalChance": "Wild Crystal Pokémon: 1 in this many cave spawns (0 = never)",
     "cobblemon.type.shadow": "Shadow",
     "cobblemon.type.crystal": "Crystal",
     f"item.{MOD}.shadow_heart": "Shadow Heart",

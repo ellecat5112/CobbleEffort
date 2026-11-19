@@ -218,7 +218,9 @@ public final class Raids {
         long now = server.overworld().getGameTime();
         if (nextRaid < 0) nextRaid = now + 20L * 60 * (120 + server.overworld().getRandom().nextInt(60));
         if (active == null) {
-            if (now >= nextRaid) {
+            if (now >= nextRaid && !DigitalRules.on(server.overworld(), DigitalRules.RAIDS)) {
+                nextRaid = now + 20L * 60 * (120 + server.overworld().getRandom().nextInt(60));
+            } else if (now >= nextRaid) {
                 nextRaid = now + 20L * 60 * (120 + server.overworld().getRandom().nextInt(60));
                 List<ServerPlayer> ps = new ArrayList<>();
                 for (ServerPlayer p : server.getPlayerList().getPlayers()) if (p.level().dimension() == Level.OVERWORLD && !p.isSpectator()) ps.add(p);

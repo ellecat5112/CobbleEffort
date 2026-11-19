@@ -704,6 +704,11 @@ def build():
         f"{MOD}.gyms.building": "Kanto's gyms are being built...",
         f"{MOD}.badge.earned": "You earned the %s! (%s of 8)",
         f"{MOD}.elite.locked": "The Elite Four only face trainers with all 8 Kanto badges (you have %s).",
+        "gamerule.kantoRegionSpawns": "Each region's dimension keeps only its own generation's Pokémon",
+        "gamerule.kantoOverworldGeneration": "Only this generation spawns in the overworld (1-9; 0 = off)",
+        "gamerule.kantoEssenceDropChance": "Chance (%) a defeated Gen 1 Pokémon leaves Essence of Olde",
+        "gamerule.kantoBossRespawnMinutes": "Minutes before a beaten Noble or totem comes back",
+        "gamerule.kantoEliteFourNeedsBadges": "The Elite Four want every badge of their region first",
         f"{MOD}.elite.beaten": "%s of the Elite Four defeated (%s of 4).",
         f"{MOD}.champion": "You defeated the whole Elite Four: you're Kanto's Champion!",
     })

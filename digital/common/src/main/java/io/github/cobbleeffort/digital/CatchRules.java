@@ -21,6 +21,7 @@ final class CatchRules {
             try {
                 Pokemon p = event.getPokemonEntity().getPokemon();
                 if (!Attributes.isDigimon(p) || !DigiBall.hasAny(p, DigiBall.MEGA)) return kotlin.Unit.INSTANCE;
+                if (!DigitalRules.on(event.getPokemonEntity().level(), DigitalRules.STRICT_CATCHING)) return kotlin.Unit.INSTANCE;
                 PokeBall ball = event.getPokeBallEntity().getPokeBall();
                 if (ball == Digital.CHROME_BALL || ball.getCatchRateModifier().isGuaranteed()) return kotlin.Unit.INSTANCE;
                 event.setCatchRate(0F);
