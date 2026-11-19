@@ -2087,6 +2087,60 @@ in as Chibi Kamemon), Kandoushichaundamon and Kyukanchoumon (no picture on wikim
 ![Digimon K and L, part 2: Kuzuhamon to Lucemon: Larva](docs/digimon_k2.png)
 ![Digimon K and L, part 3: Lucemon: Satan Mode to Lynxmon](docs/digimon_k3.png)
 
+**The M to Z sections (CobbleEffort 1.7.0 / Digital 0.12.0): the A–Z roster is complete.** 748 more Digimon from
+wikimon's M to Z lists, Mach Gaogamon to Zurumon, at the same detail standard, bring the crossover to 1,563 Digimon:
+every Digimon on wikimon's alphabetical list except the anime versions, the "+" combinations, duplicates and the
+pages with no picture. Evolutions follow wikimon, and entries with no level get one by analogy.
+
+- **M** (138): Mach Gaogamon, the Mamemon and Monzaemon families, Mastemon, Megidramon, Mercurymon, Mervamon, Metal
+  Garurumon, Metal Seadramon, Millenniumon, Minervamon, the Mugendramon pair, Murmukusmon, Musyamon and more.
+- **N and O** (68): Neptunemon, Neo Vamdemon and its Darkness Modes, the Numemon kin, Ogudomon, Olegmon, Omegamon in
+  its many forms, Omega Shoutmon, Ofanimon in all its forms, Orochimon, Owlmon and more.
+- **P and Q** (107): Paildramon, Pharaohmon, Piemon, the Piccolomon and Pico Devimon lines, Pinochimon, Plesiomon,
+  Plutomon and its Fusion, Pteranomon, Pucchiemon, Pyramidimon, Qinglongmon, Quartzmon,
+  Queenbeemon and more.
+- **R** (55): Rafflesimon, Raguelmon, Rapidmon Perfect and Armor, Ravmon and its Burst Mode, Red V-dramon, Regulumon and Regulusmon,
+  Renamon and its X-Antibody form, Rhinomon, Rosemon and its Burst Mode, Ryugumon and more.
+- **S** (165): Sakuyamon in all its forms, Seadramon and Seraphimon, Sethmon, Shine Greymon and its modes, the whole
+  Shoutmon family (its colours, King Ver., every Xros form from X2 to X7 Superior Mode, DX and EX6), the Sistermon,
+  Skull Greymon, the eight Skull Knightmon, Skull Mammon, Slayerdramon, Sleipmon, Splashmon, Starmon and the
+  Starmons, Stingmon, Susanoomon and more.
+- **T and U** (94): Tailmon and its X-Antibody form, Taomon, Takutoumon and its Wrath Mode, the Terriermon trio,
+  Tentomon, the Togemon pair, Toy Agumon, eleven Trailmon (living trains), the Triceramon and Tylomon pairs, Tyranomon
+  and its X-Antibody form, Tuwarmon, Ulforce V-dramon and its forms, Ultimate Brachimon, Ultimate Chaosmon, Unimon,
+  Upamon and more.
+- **V and W** (61): V-mon, V-dramon, Vademon, Vajramon, Valdurmon, Valkyrimon, Vamdemon, Venom Vamdemon and its Undead
+  form, Venusmon, Victory Greymon, Vikemon, Volcanicdramon, Vritramon, Vulcanusmon, War Greymon in three forms, the
+  four Were Garurumon, Whamon, Wisemon, Wizarmon, Wormmon and more.
+- **X, Y and Z** (60): Xiangpengmon, Xingtianmon, nineteen Xros Up forms (Arresterdramon, Astamon, Ballistamon,
+  Dorulumon, Gumdramon, Mervamon, Omega Shoutmon, Shoutmon, Submarimon and Tuwarmon wearing their partners' parts),
+  Xuanwumon, XV-mon, Yatagaramon, Yihumon, Yukinamon, Z'd Garurumon, Zanbamon, Zeed Millenniumon, Zhuqiaomon,
+  Zombie Plutomon, Zudomon and Zurumon.
+
+Revealing official art (Venusmon, Tinkermon, Witchmon...) is built covered. Left out in K to Z: Nüwashou (only a
+silhouette on wikimon) and Xros Up Opossummon (Candmon) (only a wide anime still where the Digimon can't be made out).
+
+![Digimon M, part 1: Mach Gaogamon to Mega Gran Kuwagamon](docs/digimon_m1.png)
+![Digimon M, part 2: Megalo Growmon to Minidekachimon](docs/digimon_m2.png)
+![Digimon M, part 3: Minomon to Musyamon](docs/digimon_m3.png)
+![Digimon N and O, part 1: Namakemon to Omegamon (X-Antibody)](docs/digimon_n1.png)
+![Digimon N and O, part 2: Omegamon Zwart to Owlmon](docs/digimon_n2.png)
+![Digimon P and Q, part 1: Pafumon to Pistmon](docs/digimon_p1.png)
+![Digimon P and Q, part 2: Pitchmon to Pyonmon](docs/digimon_p2.png)
+![Digimon P and Q, part 3: Pyontomon to Queenbeemon](docs/digimon_p3.png)
+![Digimon R, part 1: Rafflesimon to Rukamon](docs/digimon_r1.png)
+![Digimon R, part 2: Runnermon to Ryugumon](docs/digimon_r2.png)
+![Digimon S, part 1: Saberdramon to Shima Unimon](docs/digimon_s1.png)
+![Digimon S, part 2: Shin Monzaemon to Sistermon Ciel (Awakened)](docs/digimon_s2.png)
+![Digimon S, part 3: Sistermon Noir to Styracomon](docs/digimon_s3.png)
+![Digimon S, part 4: Suannishou to Symbare Angoramon](docs/digimon_s4.png)
+![Digimon T and U, part 1: Tactimon to Trailmon Angler](docs/digimon_t1.png)
+![Digimon T and U, part 2: Trailmon Ball to Upamon](docs/digimon_t2.png)
+![Digimon V and W, part 1: V-dramon to Whamon Perfect](docs/digimon_v1.png)
+![Digimon V and W, part 2: White Lopmon to Wormmon](docs/digimon_v2.png)
+![Digimon X, Y and Z, part 1: Xiangpengmon to Zephagamon](docs/digimon_x1.png)
+![Digimon X, Y and Z, part 2: Zerimon to Zurumon](docs/digimon_x2.png)
+
 Digimon in Cobblemon, the user's request: they spawn, battle, level up and evolve exactly like Pokémon (species in
 the `cobbleeffort` namespace with the label `digimon`, dex #3172 on), on hand-built models after the official art.
 The first run is the Agumon line, and from Greymon on they are giants (the user's rule: Greymon at least 15 blocks
