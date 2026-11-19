@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:renamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:renamon",
+   "model": "cobbleeffort:renamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4459_renamon/renamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4459_renamon/renamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4459_renamon/renamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4459_renamon/renamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4459_renamon/renamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

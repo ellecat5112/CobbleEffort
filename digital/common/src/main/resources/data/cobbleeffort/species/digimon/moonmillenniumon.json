@@ -128,5 +128,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "moonmillenniumon_zeedmillenniumon",
+   "variant": "level_up",
+   "result": "cobbleeffort:zeedmillenniumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:chimairamon"
 }

@@ -1,0 +1,182 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4670,
+ "name": "Terriermon X-Antibody",
+ "primaryType": "normal",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.terriermonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "galewings",
+  "h:cutecharm"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.889,
+ "hitbox": {
+  "width": 2.4,
+  "height": 1.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:gust",
+  "9:quickattack",
+  "13:wingattack",
+  "17:headbutt",
+  "21:aerialace",
+  "25:slam",
+  "29:aircutter",
+  "33:bodyslam",
+  "37:airslash",
+  "41:doubleedge",
+  "45:drillpeck",
+  "49:hypervoice",
+  "53:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bodyslam",
+  "tm:bravebird",
+  "tm:doubleedge",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "terriermonxantibody_dorugamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:dorugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "terriermonxantibody_meramonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:meramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "terriermonxantibody_siesamonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:siesamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "terriermonxantibody_togemonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:togemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:gummymon"
+}

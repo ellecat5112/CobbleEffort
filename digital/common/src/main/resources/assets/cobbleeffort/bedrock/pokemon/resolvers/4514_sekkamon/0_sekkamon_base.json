@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:sekkamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sekkamon",
+   "model": "cobbleeffort:sekkamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4514_sekkamon/sekkamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

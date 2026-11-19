@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:rasenmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rasenmon",
+   "model": "cobbleeffort:rasenmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4447_rasenmon/rasenmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

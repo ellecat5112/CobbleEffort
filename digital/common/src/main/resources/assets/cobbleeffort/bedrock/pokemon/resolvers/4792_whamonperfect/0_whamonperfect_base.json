@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:whamonperfect",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:whamonperfect",
+   "model": "cobbleeffort:whamonperfect.geo",
+   "texture": "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_glow_0.png",
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_glow_1.png",
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4792_whamonperfect/whamonperfect_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

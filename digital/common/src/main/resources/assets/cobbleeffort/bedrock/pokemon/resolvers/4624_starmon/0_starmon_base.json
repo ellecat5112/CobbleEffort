@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:starmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:starmon",
+   "model": "cobbleeffort:starmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4624_starmon/starmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4624_starmon/starmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4624_starmon/starmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

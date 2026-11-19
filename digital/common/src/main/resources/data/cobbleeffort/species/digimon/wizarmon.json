@@ -1,0 +1,485 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4797,
+ "name": "Wizarmon",
+ "primaryType": "psychic",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.wizarmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magicguard",
+  "h:synchronize"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.529,
+ "hitbox": {
+  "width": 6.0,
+  "height": 4.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:confusion",
+  "5:bite",
+  "9:psybeam",
+  "13:pursuit",
+  "17:zenheadbutt",
+  "21:assurance",
+  "25:psyshock",
+  "29:nightslash",
+  "33:psychocut",
+  "37:crunch",
+  "41:psychic",
+  "45:darkpulse",
+  "49:futuresight",
+  "53:knockoff",
+  "57:expandingforce",
+  "61:foulplay",
+  "tm:calmmind",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:lightscreen",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "wizarmon_algomonperfect",
+   "variant": "level_up",
+   "result": "cobbleeffort:algomonperfect",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_andiramondeva_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:andiramondeva",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_asuramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:asuramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_baalmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:baalmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_bigmamemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:bigmamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_deathmeramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathmeramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_digitamamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_fantomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:fantomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_flawizarmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:flawizarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_giromon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:giromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_holyangemon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:holyangemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_jokermon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:jokermon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_ladydevimon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:ladydevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_lucemonfalldownmode_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:lucemonfalldownmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_maildramon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_medievaldukemon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:medievaldukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_mephismon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:mephismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_mistymon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:mistymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_mummymon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:mummymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_nanomon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_piccolomon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:piccolomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_ponchomon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:ponchomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_pumpmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:pumpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_vademon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:vademon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_vamdemon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:vamdemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_weregarurumonxantibody_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:weregarurumonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "wizarmon_wisemon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:wisemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

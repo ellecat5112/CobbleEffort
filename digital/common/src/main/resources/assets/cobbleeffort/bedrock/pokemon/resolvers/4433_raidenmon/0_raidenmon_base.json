@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:raidenmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:raidenmon",
+   "model": "cobbleeffort:raidenmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4433_raidenmon/raidenmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

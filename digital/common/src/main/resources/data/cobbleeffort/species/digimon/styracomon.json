@@ -1,0 +1,130 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4633,
+ "name": "Styracomon",
+ "primaryType": "dragon",
+ "secondaryType": "rock",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.styracomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "battlearmor",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.485,
+ "hitbox": {
+  "width": 7.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "5:rockthrow",
+  "9:dragontail",
+  "13:rocktomb",
+  "17:dragonclaw",
+  "21:ancientpower",
+  "25:breakingswipe",
+  "29:rockslide",
+  "33:dragonpulse",
+  "37:powergem",
+  "41:dragonrush",
+  "45:stoneedge",
+  "49:outrage",
+  "53:headsmash",
+  "57:dracometeor",
+  "61:rockwrecker",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:facade",
+  "tm:headsmash",
+  "tm:helpinghand",
+  "tm:outrage",
+  "tm:powergem",
+  "tm:protect",
+  "tm:rest",
+  "tm:rockslide",
+  "tm:rockwrecker",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:stoneedge",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:medusamon"
+}

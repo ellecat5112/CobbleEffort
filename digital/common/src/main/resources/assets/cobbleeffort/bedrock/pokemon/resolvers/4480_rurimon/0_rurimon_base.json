@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:rurimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rurimon",
+   "model": "cobbleeffort:rurimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4480_rurimon/rurimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4480_rurimon/rurimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

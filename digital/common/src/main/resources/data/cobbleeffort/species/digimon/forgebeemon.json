@@ -126,5 +126,20 @@
   "tm:uturn",
   "tm:xscissor"
  ],
+ "evolutions": [
+  {
+   "id": "forgebeemon_vespamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:vespamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:funbeemon"
 }

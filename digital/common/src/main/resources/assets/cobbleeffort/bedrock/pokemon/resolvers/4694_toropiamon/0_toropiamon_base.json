@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:toropiamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:toropiamon",
+   "model": "cobbleeffort:toropiamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4694_toropiamon/toropiamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

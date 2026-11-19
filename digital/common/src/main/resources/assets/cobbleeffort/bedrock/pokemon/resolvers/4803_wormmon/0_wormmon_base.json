@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:wormmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:wormmon",
+   "model": "cobbleeffort:wormmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4803_wormmon/wormmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4803_wormmon/wormmon_shiny.png"
+  }
+ ]
+}

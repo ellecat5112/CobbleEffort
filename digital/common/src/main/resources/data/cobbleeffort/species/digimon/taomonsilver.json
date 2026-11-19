@@ -1,0 +1,251 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4659,
+ "name": "Taomon Silver",
+ "primaryType": "psychic",
+ "secondaryType": "fire",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.taomonsilver.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magicguard",
+  "h:flashfire"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.061,
+ "hitbox": {
+  "width": 5.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:confusion",
+  "5:ember",
+  "9:psybeam",
+  "13:flamecharge",
+  "17:zenheadbutt",
+  "21:firefang",
+  "25:psyshock",
+  "29:incinerate",
+  "33:psychocut",
+  "37:flamethrower",
+  "41:psychic",
+  "45:lavaplume",
+  "49:futuresight",
+  "53:fireblast",
+  "57:expandingforce",
+  "61:overheat",
+  "tm:calmmind",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:lightscreen",
+  "tm:overheat",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "taomonsilver_boltmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:boltmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_dianamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:dianamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_gulfmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:gulfmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_hououmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:hououmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_kuzuhamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuzuhamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_lordknightmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:lordknightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_sakuyamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:sakuyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_sakuyamonmikomode_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:sakuyamonmikomode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "taomonsilver_valkyrimon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:valkyrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:garurumon"
+}

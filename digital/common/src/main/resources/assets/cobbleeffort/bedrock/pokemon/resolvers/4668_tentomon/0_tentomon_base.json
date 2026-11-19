@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:tentomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tentomon",
+   "model": "cobbleeffort:tentomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4668_tentomon/tentomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4668_tentomon/tentomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

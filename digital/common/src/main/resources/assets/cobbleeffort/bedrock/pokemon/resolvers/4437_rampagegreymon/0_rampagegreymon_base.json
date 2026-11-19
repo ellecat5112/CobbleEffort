@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:rampagegreymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rampagegreymon",
+   "model": "cobbleeffort:rampagegreymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4437_rampagegreymon/rampagegreymon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

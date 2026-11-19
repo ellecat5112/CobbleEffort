@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:swimmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:swimmon",
+   "model": "cobbleeffort:swimmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4647_swimmon/swimmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4647_swimmon/swimmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4647_swimmon/swimmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4647_swimmon/swimmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

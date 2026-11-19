@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:trailmonfranken",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:trailmonfranken",
+   "model": "cobbleeffort:trailmonfranken.geo",
+   "texture": "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_glow_0.png",
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_glow_1.png",
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4703_trailmonfranken/trailmonfranken_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -237,6 +237,32 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "caprimon_solarmon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:solarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "caprimon_toyagumon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:toyagumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:choromon"

@@ -1,0 +1,403 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4721,
+ "name": "Tyilinmon",
+ "primaryType": "normal",
+ "secondaryType": "fairy",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.tyilinmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "serenegrace",
+  "h:justified"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 12.121,
+ "hitbox": {
+  "width": 6.0,
+  "height": 2.062,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:fairywind",
+  "9:quickattack",
+  "13:disarmingvoice",
+  "17:headbutt",
+  "21:drainingkiss",
+  "25:slam",
+  "29:dazzlinggleam",
+  "33:bodyslam",
+  "37:playrough",
+  "41:doubleedge",
+  "45:moonblast",
+  "49:hypervoice",
+  "53:spiritbreak",
+  "57:gigaimpact",
+  "61:fleurcannon",
+  "tm:bodyslam",
+  "tm:dazzlinggleam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:spiritbreak",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "tyilinmon_barbamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:barbamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_bolgmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bolgmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_crossmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:crossmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_huanglongmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:huanglongmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_jumbogamemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:jumbogamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_marinangemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:marinangemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_megidramon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:megidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_metalgarurumon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgarurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_miragegaogamon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:miragegaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_mitamamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:mitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_ofanimon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:ofanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_qinglongmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:qinglongmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_raidenmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:raidenmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_ravmon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:ravmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_seraphimon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:seraphimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_shinegreymon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:shinegreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_sleipmon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:sleipmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_sleipmonxantibody_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:sleipmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_tyrantkabuterimon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:tyrantkabuterimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_ulforcevdramonxantibody_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:ulforcevdramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "tyilinmon_valkyrimon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:valkyrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:angemon"
+}

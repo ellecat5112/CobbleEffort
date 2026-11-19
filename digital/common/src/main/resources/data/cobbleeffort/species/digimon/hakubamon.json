@@ -124,5 +124,20 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "hakubamon_sanzomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:sanzomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:chibikamemon"
 }

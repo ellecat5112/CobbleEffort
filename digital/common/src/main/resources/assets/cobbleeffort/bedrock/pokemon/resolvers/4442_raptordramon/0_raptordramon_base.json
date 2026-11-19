@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:raptordramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:raptordramon",
+   "model": "cobbleeffort:raptordramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4442_raptordramon/raptordramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

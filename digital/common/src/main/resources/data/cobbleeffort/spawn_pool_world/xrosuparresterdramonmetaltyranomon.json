@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "xrosuparresterdramonmetaltyranomon-wild",
+   "pokemon": "cobbleeffort:xrosuparresterdramonmetaltyranomon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "20-35",
+   "weight": 1.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_peak",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  }
+ ]
+}

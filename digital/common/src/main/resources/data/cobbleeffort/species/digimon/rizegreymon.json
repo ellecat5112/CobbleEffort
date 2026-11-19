@@ -1,0 +1,458 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4470,
+ "name": "Rize Greymon",
+ "primaryType": "dragon",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.rizegreymon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "megalauncher",
+  "h:blaze"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 9.7,
+ "hitbox": {
+  "width": 1.6,
+  "height": 2.6,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:dragonbreath",
+  "5:metalclaw",
+  "9:dragontail",
+  "13:mirrorshot",
+  "17:dragonclaw",
+  "21:ironhead",
+  "25:breakingswipe",
+  "29:flashcannon",
+  "33:dragonpulse",
+  "37:smartstrike",
+  "41:dragonrush",
+  "45:meteormash",
+  "49:outrage",
+  "53:heavyslam",
+  "57:dracometeor",
+  "61:steelbeam",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:outrage",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "rizegreymon_ancientgreymon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_bancholeomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bancholeomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_demon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:demon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_dotshinegreymon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:dotshinegreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_duftmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:duftmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_dukemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_examon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:examon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_gaioumon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:gaioumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_jumbogamemon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:jumbogamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_kaisergreymon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:kaisergreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_kingchessmon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:kingchessmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_magnakidmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnakidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_miragegaogamon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:miragegaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_qinglongmon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:qinglongmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_ravmon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:ravmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_rizegreymonxantibody_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:rizegreymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_rosemon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:rosemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_seraphimon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:seraphimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_shinegreymon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:shinegreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_shinegreymonburstmode_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:shinegreymonburstmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_slayerdramon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:slayerdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_sleipmon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:sleipmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_victorygreymon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:victorygreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_wargreymon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:wargreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rizegreymon_wargreymonxantibody_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:wargreymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:greymon"
+}

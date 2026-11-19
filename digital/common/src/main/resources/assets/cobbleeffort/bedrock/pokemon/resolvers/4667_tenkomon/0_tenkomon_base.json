@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:tenkomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tenkomon",
+   "model": "cobbleeffort:tenkomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4667_tenkomon/tenkomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4667_tenkomon/tenkomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4667_tenkomon/tenkomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4667_tenkomon/tenkomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

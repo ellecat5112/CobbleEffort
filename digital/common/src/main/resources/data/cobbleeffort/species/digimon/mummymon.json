@@ -373,6 +373,32 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "mummymon_venomvamdemon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:venomvamdemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "mummymon_zanbamon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:zanbamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:algomonadult"

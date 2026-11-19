@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "yukimibotamon-wild",
+   "pokemon": "cobbleeffort:yukimibotamon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "1-5",
+   "weight": 1.5,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_snowy",
+     "#cobblemon:is_tundra",
+     "#cobblemon:is_glacial"
+    ]
+   }
+  }
+ ]
+}

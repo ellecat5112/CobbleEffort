@@ -125,5 +125,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "mercurymon_ulforcevdramonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:ulforcevdramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:andiramon"
 }

@@ -126,5 +126,20 @@
   "tm:toxic",
   "tm:venoshock"
  ],
+ "evolutions": [
+  {
+   "id": "medusamon_styracomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:styracomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:lamiamon"
 }

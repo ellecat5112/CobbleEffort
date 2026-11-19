@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:valdurmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:valdurmon",
+   "model": "cobbleeffort:valdurmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4749_valdurmon/valdurmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

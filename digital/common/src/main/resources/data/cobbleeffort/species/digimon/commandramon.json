@@ -242,6 +242,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "commandramon_sealsdramon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:sealsdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "commandramon_snimon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:snimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "commandramon_thunderbirmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:thunderbirmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bommon"

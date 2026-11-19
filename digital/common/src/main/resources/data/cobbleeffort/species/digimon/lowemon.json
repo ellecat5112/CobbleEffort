@@ -179,6 +179,58 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "lowemon_raihimon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:raihimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "lowemon_skullsatamon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:skullsatamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "lowemon_velgrmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:velgrmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "lowemon_vritramon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:vritramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bakumon"

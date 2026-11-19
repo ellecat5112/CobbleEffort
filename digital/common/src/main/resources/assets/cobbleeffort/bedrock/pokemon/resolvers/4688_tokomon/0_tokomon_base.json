@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:tokomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tokomon",
+   "model": "cobbleeffort:tokomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4688_tokomon/tokomon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4688_tokomon/tokomon_shiny.png"
+  }
+ ]
+}

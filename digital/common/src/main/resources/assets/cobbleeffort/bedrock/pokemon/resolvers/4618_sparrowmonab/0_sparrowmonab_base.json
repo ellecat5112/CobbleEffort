@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:sparrowmonab",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sparrowmonab",
+   "model": "cobbleeffort:sparrowmonab.geo",
+   "texture": "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_glow_0.png",
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_glow_1.png",
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4618_sparrowmonab/sparrowmonab_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

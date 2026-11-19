@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:shoutmonx4",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:shoutmonx4",
+   "model": "cobbleeffort:shoutmonx4.geo",
+   "texture": "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_glow_0.png",
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_glow_1.png",
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4561_shoutmonx4/shoutmonx4_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

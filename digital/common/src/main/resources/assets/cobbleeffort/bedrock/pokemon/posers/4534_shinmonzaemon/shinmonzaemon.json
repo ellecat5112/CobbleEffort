@@ -1,0 +1,74 @@
+{
+ "portraitScale": 0.05,
+ "portraitTranslation": [
+  0,
+  19.25,
+  0
+ ],
+ "profileScale": 0.03,
+ "profileTranslation": [
+  0,
+  8.75,
+  0
+ ],
+ "rootBone": "shinmonzaemon",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_shinmonzaemon', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_shinmonzaemon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_shinmonzaemon', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_shinmonzaemon', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_shinmonzaemon', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_shinmonzaemon', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_shinmonzaemon', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_shinmonzaemon', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_shinmonzaemon', 'sleep')"
+   ]
+  }
+ }
+}

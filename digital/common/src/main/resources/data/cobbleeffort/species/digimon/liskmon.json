@@ -125,5 +125,20 @@
   "tm:toxic",
   "tm:venoshock"
  ],
+ "evolutions": [
+  {
+   "id": "liskmon_reptilimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:reptilimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:gemmon"
 }

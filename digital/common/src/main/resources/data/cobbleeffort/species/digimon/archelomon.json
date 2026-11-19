@@ -125,5 +125,20 @@
   "tm:surf",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "archelomon_zudomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:zudomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:armadimon"
 }

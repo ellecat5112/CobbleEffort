@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:trailmonofdarkness",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:trailmonofdarkness",
+   "model": "cobbleeffort:trailmonofdarkness.geo",
+   "texture": "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_glow_0.png",
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_glow_1.png",
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4706_trailmonofdarkness/trailmonofdarkness_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

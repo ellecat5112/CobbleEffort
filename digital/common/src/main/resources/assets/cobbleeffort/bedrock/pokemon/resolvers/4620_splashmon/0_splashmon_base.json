@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:splashmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:splashmon",
+   "model": "cobbleeffort:splashmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4620_splashmon/splashmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4620_splashmon/splashmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4620_splashmon/splashmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4620_splashmon/splashmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -152,6 +152,19 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "kenkimon_valvemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:valvemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:armadimon"

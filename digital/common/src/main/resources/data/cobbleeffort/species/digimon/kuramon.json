@@ -186,6 +186,32 @@
      "minLevel": 5
     }
    ]
+  },
+  {
+   "id": "kuramon_tsumemon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:tsumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  },
+  {
+   "id": "kuramon_tukaimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:tukaimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ]
 }

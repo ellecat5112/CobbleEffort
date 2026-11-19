@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:snatchmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:snatchmon",
+   "model": "cobbleeffort:snatchmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4608_snatchmon/snatchmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

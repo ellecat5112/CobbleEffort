@@ -105,5 +105,20 @@
   "tm:substitute",
   "tm:swordsdance",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "keemon_yarmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:yarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
+  }
  ]
 }

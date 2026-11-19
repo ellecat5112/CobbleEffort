@@ -271,6 +271,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "clockmon_sephirothmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:sephirothmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "clockmon_wisemon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:wisemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "clockmon_zudomon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:zudomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:candmon"

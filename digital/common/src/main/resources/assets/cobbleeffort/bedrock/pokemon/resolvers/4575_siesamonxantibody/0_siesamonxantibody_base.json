@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:siesamonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:siesamonxantibody",
+   "model": "cobbleeffort:siesamonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4575_siesamonxantibody/siesamonxantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

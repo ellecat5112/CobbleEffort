@@ -1,0 +1,184 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4511,
+ "name": "Searchmon",
+ "primaryType": "bug",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.searchmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "frisk",
+  "h:keeneye"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 6.0,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bugbite",
+  "5:metalclaw",
+  "9:strugglebug",
+  "13:mirrorshot",
+  "17:furycutter",
+  "21:ironhead",
+  "25:signalbeam",
+  "29:flashcannon",
+  "33:xscissor",
+  "37:smartstrike",
+  "41:bugbuzz",
+  "45:meteormash",
+  "49:lunge",
+  "53:heavyslam",
+  "57:megahorn",
+  "61:steelbeam",
+  "tm:bugbuzz",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "searchmon_assaultmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:assaultmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "searchmon_atlurkabuterimonblue_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "searchmon_jewelbeemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:jewelbeemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "searchmon_shadramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:shadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:floramon"
+}

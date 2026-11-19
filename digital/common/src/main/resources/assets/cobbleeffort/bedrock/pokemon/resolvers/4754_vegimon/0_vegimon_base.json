@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:vegimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:vegimon",
+   "model": "cobbleeffort:vegimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4754_vegimon/vegimon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4754_vegimon/vegimon_shiny.png"
+  }
+ ]
+}

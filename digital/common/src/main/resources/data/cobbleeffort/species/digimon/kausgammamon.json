@@ -166,6 +166,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "kausgammamon_regulusmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:regulusmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "kausgammamon_wezengammamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:wezengammamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "kausgammamon_zanmetsumon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:zanmetsumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:betelgammamon"

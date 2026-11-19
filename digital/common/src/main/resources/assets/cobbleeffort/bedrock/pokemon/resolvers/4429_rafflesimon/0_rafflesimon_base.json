@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:rafflesimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rafflesimon",
+   "model": "cobbleeffort:rafflesimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4429_rafflesimon/rafflesimon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -127,5 +127,20 @@
   "tm:tailwind",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "fujinmon_raidenmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:raidenmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:cyberdramon"
 }

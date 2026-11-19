@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:suijinmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:suijinmon",
+   "model": "cobbleeffort:suijinmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4636_suijinmon/suijinmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4678,
+ "name": "Tiger Vespamon",
+ "primaryType": "bug",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.tigervespamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sniper",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.75,
+ "hitbox": {
+  "width": 6.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bugbite",
+  "5:metalclaw",
+  "9:strugglebug",
+  "13:mirrorshot",
+  "17:furycutter",
+  "21:ironhead",
+  "25:signalbeam",
+  "29:flashcannon",
+  "33:xscissor",
+  "37:smartstrike",
+  "41:bugbuzz",
+  "45:meteormash",
+  "49:lunge",
+  "53:heavyslam",
+  "57:megahorn",
+  "61:steelbeam",
+  "tm:bugbuzz",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "tigervespamon_alphamonouryuken",
+   "variant": "level_up",
+   "result": "cobbleeffort:alphamonouryuken",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "tigervespamon_craniummonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:craniummonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "tigervespamon_dukemonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "tigervespamon_magnamonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:andromon"
+}

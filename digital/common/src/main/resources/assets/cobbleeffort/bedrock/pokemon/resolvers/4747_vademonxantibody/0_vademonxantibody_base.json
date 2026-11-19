@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:vademonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:vademonxantibody",
+   "model": "cobbleeffort:vademonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4747_vademonxantibody/vademonxantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:xrosuparresterdramonorgemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:xrosuparresterdramonorgemon",
+   "model": "cobbleeffort:xrosuparresterdramonorgemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4813_xrosuparresterdramonorgemon/xrosuparresterdramonorgemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

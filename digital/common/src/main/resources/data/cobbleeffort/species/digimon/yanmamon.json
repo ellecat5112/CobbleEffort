@@ -1,0 +1,197 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4833,
+ "name": "Yanmamon",
+ "primaryType": "bug",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.yanmamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "speedboost",
+  "h:compoundeyes"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 18.462,
+ "hitbox": {
+  "width": 4.0,
+  "height": 0.812,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:string",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bugbite",
+  "5:gust",
+  "9:strugglebug",
+  "13:wingattack",
+  "17:furycutter",
+  "21:aerialace",
+  "25:signalbeam",
+  "29:aircutter",
+  "33:xscissor",
+  "37:airslash",
+  "41:bugbuzz",
+  "45:drillpeck",
+  "49:lunge",
+  "53:bravebird",
+  "57:megahorn",
+  "61:hurricane",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:bugbuzz",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "yanmamon_atlurkabuterimonred",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonred",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "yanmamon_hangyomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:hangyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "yanmamon_jewelbeemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:jewelbeemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "yanmamon_lilimon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "yanmamon_pumpmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:pumpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:alraumon"
+}

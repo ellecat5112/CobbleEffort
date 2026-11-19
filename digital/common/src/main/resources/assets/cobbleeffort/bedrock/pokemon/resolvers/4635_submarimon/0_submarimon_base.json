@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:submarimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:submarimon",
+   "model": "cobbleeffort:submarimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4635_submarimon/submarimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4635_submarimon/submarimon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4635_submarimon/submarimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4635_submarimon/submarimon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

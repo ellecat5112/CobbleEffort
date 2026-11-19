@@ -1,0 +1,301 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4440,
+ "name": "Rapidmon Armor",
+ "primaryType": "steel",
+ "secondaryType": "normal",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.rapidmonarmor.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "megalauncher",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 50,
+  "defence": 65,
+  "special_attack": 95,
+  "special_defence": 75,
+  "speed": 65
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.0,
+ "hitbox": {
+  "width": 4.0,
+  "height": 3.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:metalclaw",
+  "5:tackle",
+  "9:mirrorshot",
+  "13:quickattack",
+  "17:ironhead",
+  "21:headbutt",
+  "25:flashcannon",
+  "29:slam",
+  "33:smartstrike",
+  "37:bodyslam",
+  "41:meteormash",
+  "45:doubleedge",
+  "49:heavyslam",
+  "53:hypervoice",
+  "57:steelbeam",
+  "61:gigaimpact",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:gigaimpact",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "rapidmonarmor_cyberdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyberdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_deathxdorugoramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathxdorugoramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_duftmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:duftmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_heraklekabuterimon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:heraklekabuterimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_magnamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_magnamonxantibody_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_megalogrowmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:megalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_omegashoutmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegashoutmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_raijinmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:raijinmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_rapidmonperfect_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:rapidmonperfect",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_rapidmonxantibody_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:rapidmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_saintgalgomon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:saintgalgomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "rapidmonarmor_vikemon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:vikemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:devimon"
+}

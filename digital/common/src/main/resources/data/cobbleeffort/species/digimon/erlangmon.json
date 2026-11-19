@@ -139,6 +139,20 @@
      "minLevel": 60
     }
    ]
+  },
+  {
+   "id": "erlangmon_shakamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:shakamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:sanzomon"
 }

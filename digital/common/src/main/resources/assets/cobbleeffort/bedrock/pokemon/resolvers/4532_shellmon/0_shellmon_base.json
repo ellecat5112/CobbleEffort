@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:shellmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:shellmon",
+   "model": "cobbleeffort:shellmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4532_shellmon/shellmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4532_shellmon/shellmon_shiny.png"
+  }
+ ]
+}

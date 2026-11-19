@@ -128,5 +128,33 @@
   "tm:tailwind",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "owlmon_vamdemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:vamdemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "owlmon_warumonzaemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:warumonzaemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:hagurumon"
 }

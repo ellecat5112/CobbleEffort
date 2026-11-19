@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:rapidmonperfect",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rapidmonperfect",
+   "model": "cobbleeffort:rapidmonperfect.geo",
+   "texture": "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_glow_0.png",
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_glow_1.png",
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4441_rapidmonperfect/rapidmonperfect_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

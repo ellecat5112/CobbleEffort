@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:shoutmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:shoutmon",
+   "model": "cobbleeffort:shoutmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4548_shoutmon/shoutmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4548_shoutmon/shoutmon_shiny.png"
+  }
+ ]
+}

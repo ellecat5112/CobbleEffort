@@ -1,0 +1,71 @@
+{
+ "portraitScale": 0.06,
+ "portraitTranslation": [
+  0,
+  13.75,
+  0
+ ],
+ "profileScale": 0.04,
+ "profileTranslation": [
+  0,
+  6.25,
+  0
+ ],
+ "rootBone": "tekkamon",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_tekkamon', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_tekkamon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_tekkamon', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_tekkamon', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_tekkamon', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_tekkamon', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_tekkamon', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_tekkamon', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_tekkamon', 'sleep')"
+   ]
+  }
+ }
+}

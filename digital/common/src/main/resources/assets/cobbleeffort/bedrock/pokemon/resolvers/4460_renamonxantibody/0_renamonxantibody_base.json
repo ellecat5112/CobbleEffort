@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:renamonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:renamonxantibody",
+   "model": "cobbleeffort:renamonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4460_renamonxantibody/renamonxantibody_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

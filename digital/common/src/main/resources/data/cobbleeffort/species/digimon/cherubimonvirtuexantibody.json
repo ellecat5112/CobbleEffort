@@ -125,5 +125,33 @@
   "tm:voltswitch",
   "tm:wildcharge"
  ],
+ "evolutions": [
+  {
+   "id": "cherubimonvirtuexantibody_sleipmonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:sleipmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "cherubimonvirtuexantibody_ulforcevdramonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:ulforcevdramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:anomalocarimonxantibody"
 }

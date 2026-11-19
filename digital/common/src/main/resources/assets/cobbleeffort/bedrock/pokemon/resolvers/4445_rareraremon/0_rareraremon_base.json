@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:rareraremon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rareraremon",
+   "model": "cobbleeffort:rareraremon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4445_rareraremon/rareraremon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

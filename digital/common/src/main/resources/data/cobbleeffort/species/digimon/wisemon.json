@@ -1,0 +1,277 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4795,
+ "name": "Wisemon",
+ "primaryType": "psychic",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.wisemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magicguard",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.061,
+ "hitbox": {
+  "width": 8.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:confusion",
+  "5:bite",
+  "9:psybeam",
+  "13:pursuit",
+  "17:zenheadbutt",
+  "21:assurance",
+  "25:psyshock",
+  "29:nightslash",
+  "33:psychocut",
+  "37:crunch",
+  "41:psychic",
+  "45:darkpulse",
+  "49:futuresight",
+  "53:knockoff",
+  "57:expandingforce",
+  "61:foulplay",
+  "tm:calmmind",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:lightscreen",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "wisemon_ancientbeatmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientbeatmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_ancientwisemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientwisemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_belphemonsleepmode_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:belphemonsleepmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_chaosdukemon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:chaosdukemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_demon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:demon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_duftmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:duftmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_grandiskuwagamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:grandiskuwagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_jijimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:jijimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_murmukusmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:murmukusmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_piemon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:piemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "wisemon_venomvamdemon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:venomvamdemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:bladekuwagamon"
+}

@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:tobiumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tobiumon",
+   "model": "cobbleeffort:tobiumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4682_tobiumon/tobiumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4682_tobiumon/tobiumon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4682_tobiumon/tobiumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4682_tobiumon/tobiumon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

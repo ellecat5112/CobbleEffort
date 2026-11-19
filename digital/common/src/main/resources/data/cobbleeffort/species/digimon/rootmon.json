@@ -1,0 +1,120 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4473,
+ "name": "Rootmon",
+ "primaryType": "grass",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 4,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.rootmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "digimon_hatch"
+ ],
+ "aspects": [],
+ "abilities": [
+  "stench",
+  "h:runaway"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 30,
+  "attack": 20,
+  "defence": 25,
+  "special_attack": 40,
+  "special_defence": 35,
+  "speed": 30
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 40,
+ "experienceGroup": "slow",
+ "catchRate": 255,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.35,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:bite",
+  "9:razorleaf",
+  "13:pursuit",
+  "17:bulletseed",
+  "21:assurance",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:leafstorm",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ]
+}

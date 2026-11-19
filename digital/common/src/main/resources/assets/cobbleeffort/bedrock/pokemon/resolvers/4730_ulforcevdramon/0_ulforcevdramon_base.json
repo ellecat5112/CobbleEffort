@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:ulforcevdramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ulforcevdramon",
+   "model": "cobbleeffort:ulforcevdramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4730_ulforcevdramon/ulforcevdramon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

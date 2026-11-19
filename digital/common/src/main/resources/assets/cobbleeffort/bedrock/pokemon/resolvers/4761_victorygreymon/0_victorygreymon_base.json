@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:victorygreymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:victorygreymon",
+   "model": "cobbleeffort:victorygreymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4761_victorygreymon/victorygreymon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

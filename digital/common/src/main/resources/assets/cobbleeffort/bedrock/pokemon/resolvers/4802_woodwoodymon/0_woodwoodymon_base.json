@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:woodwoodymon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:woodwoodymon",
+   "model": "cobbleeffort:woodwoodymon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4802_woodwoodymon/woodwoodymon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4802_woodwoodymon/woodwoodymon_shiny.png"
+  }
+ ]
+}

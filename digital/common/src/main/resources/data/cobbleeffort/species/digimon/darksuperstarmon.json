@@ -204,6 +204,32 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "darksuperstarmon_ravmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:ravmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "darksuperstarmon_titamon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:titamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:agnimon"

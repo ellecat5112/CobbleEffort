@@ -295,6 +295,45 @@
      "minLevel": 30
     }
    ]
+  },
+  {
+   "id": "galgomon_rapidmonarmor_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:rapidmonarmor",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "galgomon_rapidmonperfect_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:rapidmonperfect",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "galgomon_sinduramon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:sinduramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bearmon"

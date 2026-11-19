@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:zudomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:zudomon",
+   "model": "cobbleeffort:zudomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4862_zudomon/zudomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4862_zudomon/zudomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

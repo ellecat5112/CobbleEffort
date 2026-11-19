@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:splashmondarknessmode",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:splashmondarknessmode",
+   "model": "cobbleeffort:splashmondarknessmode.geo",
+   "texture": "cobbleeffort:textures/pokemon/4622_splashmondarknessmode/splashmondarknessmode.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4622_splashmondarknessmode/splashmondarknessmode_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4622_splashmondarknessmode/splashmondarknessmode_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4622_splashmondarknessmode/splashmondarknessmode_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

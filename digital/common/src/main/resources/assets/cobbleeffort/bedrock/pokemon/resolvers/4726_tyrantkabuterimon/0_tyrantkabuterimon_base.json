@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:tyrantkabuterimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tyrantkabuterimon",
+   "model": "cobbleeffort:tyrantkabuterimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4726_tyrantkabuterimon/tyrantkabuterimon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

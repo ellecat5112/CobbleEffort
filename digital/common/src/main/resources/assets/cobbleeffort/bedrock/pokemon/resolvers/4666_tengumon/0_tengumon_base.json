@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:tengumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tengumon",
+   "model": "cobbleeffort:tengumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4666_tengumon/tengumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4666_tengumon/tengumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

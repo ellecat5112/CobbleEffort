@@ -126,5 +126,33 @@
   "tm:surf",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "jumbogamemon_shinegreymonburstmode",
+   "variant": "level_up",
+   "result": "cobbleeffort:shinegreymonburstmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "jumbogamemon_xuanwumon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:xuanwumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:anomalocarimon"
 }

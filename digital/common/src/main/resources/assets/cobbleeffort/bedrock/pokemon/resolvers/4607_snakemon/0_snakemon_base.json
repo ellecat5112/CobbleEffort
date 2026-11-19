@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:snakemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:snakemon",
+   "model": "cobbleeffort:snakemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4607_snakemon/snakemon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4607_snakemon/snakemon_shiny.png"
+  }
+ ]
+}

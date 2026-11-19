@@ -122,5 +122,33 @@
   "tm:swordsdance",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "cutemon_shoutmonx7superiormode",
+   "variant": "level_up",
+   "result": "cobbleeffort:shoutmonx7superiormode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "cutemon_unimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:unimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:pyocomon"
 }

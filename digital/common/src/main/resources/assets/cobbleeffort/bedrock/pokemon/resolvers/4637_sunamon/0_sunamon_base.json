@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:sunamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sunamon",
+   "model": "cobbleeffort:sunamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4637_sunamon/sunamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4637_sunamon/sunamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4637_sunamon/sunamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4637_sunamon/sunamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

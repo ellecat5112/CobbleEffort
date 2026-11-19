@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:shadramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:shadramon",
+   "model": "cobbleeffort:shadramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4522_shadramon/shadramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4522_shadramon/shadramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

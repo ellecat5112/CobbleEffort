@@ -1,0 +1,197 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4590,
+ "name": "Skull Knightmon",
+ "primaryType": "ghost",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.skullknightmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "sharpness",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.636,
+ "hitbox": {
+  "width": 5.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:phantom_membrane",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:astonish",
+  "5:metalclaw",
+  "9:shadowsneak",
+  "13:mirrorshot",
+  "17:hex",
+  "21:ironhead",
+  "25:shadowclaw",
+  "29:flashcannon",
+  "33:shadowpunch",
+  "37:smartstrike",
+  "41:shadowball",
+  "45:meteormash",
+  "49:phantomforce",
+  "53:heavyslam",
+  "57:poltergeist",
+  "61:steelbeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:meteormash",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "skullknightmon_darkknightmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:darkknightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "skullknightmon_skullknightmonarrowmode_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:skullknightmonarrowmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "skullknightmon_skullknightmonbigaxemode_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:skullknightmonbigaxemode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "skullknightmon_skullknightmoncavaliermode_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:skullknightmoncavaliermode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "skullknightmon_skullknightmonwhite_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:skullknightmonwhite",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:tailmon"
+}

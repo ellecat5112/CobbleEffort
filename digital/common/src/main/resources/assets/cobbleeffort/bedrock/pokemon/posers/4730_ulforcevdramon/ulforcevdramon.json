@@ -1,0 +1,74 @@
+{
+ "portraitScale": 0.05,
+ "portraitTranslation": [
+  0,
+  19.25,
+  0
+ ],
+ "profileScale": 0.03,
+ "profileTranslation": [
+  0,
+  8.75,
+  0
+ ],
+ "rootBone": "ulforcevdramon",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_ulforcevdramon', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_ulforcevdramon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_ulforcevdramon', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_ulforcevdramon', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_ulforcevdramon', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_ulforcevdramon', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_ulforcevdramon', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.look('head')",
+    "q.bedrock('cobbleeffort_ulforcevdramon', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_ulforcevdramon', 'sleep')"
+   ]
+  }
+ }
+}

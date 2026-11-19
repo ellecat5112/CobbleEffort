@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:vipmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:vipmon",
+   "model": "cobbleeffort:vipmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4764_vipmon/vipmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4764_vipmon/vipmon_shiny.png"
+  }
+ ]
+}

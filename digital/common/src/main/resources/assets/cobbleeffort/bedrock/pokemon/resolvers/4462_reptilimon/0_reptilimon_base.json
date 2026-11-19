@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:reptilimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:reptilimon",
+   "model": "cobbleeffort:reptilimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4462_reptilimon/reptilimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

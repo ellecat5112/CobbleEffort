@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:sephirothmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sephirothmon",
+   "model": "cobbleeffort:sephirothmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4515_sephirothmon/sephirothmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

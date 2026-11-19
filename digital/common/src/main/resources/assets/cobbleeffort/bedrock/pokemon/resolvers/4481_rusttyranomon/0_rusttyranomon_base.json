@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:rusttyranomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:rusttyranomon",
+   "model": "cobbleeffort:rusttyranomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4481_rusttyranomon/rusttyranomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

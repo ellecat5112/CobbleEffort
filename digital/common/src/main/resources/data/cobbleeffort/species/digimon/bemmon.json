@@ -152,6 +152,32 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "bemmon_snatchmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:snatchmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bemmon_tyranomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:tyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bowmon"

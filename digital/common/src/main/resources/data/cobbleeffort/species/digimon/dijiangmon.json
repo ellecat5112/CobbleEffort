@@ -126,5 +126,21 @@
   "tm:tailwind",
   "tm:taunt",
   "tm:terablast"
- ]
+ ],
+ "evolutions": [
+  {
+   "id": "dijiangmon_shakamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:shakamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:xingtianmon"
 }

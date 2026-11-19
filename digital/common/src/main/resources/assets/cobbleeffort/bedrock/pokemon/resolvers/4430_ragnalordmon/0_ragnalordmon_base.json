@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:ragnalordmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ragnalordmon",
+   "model": "cobbleeffort:ragnalordmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4430_ragnalordmon/ragnalordmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

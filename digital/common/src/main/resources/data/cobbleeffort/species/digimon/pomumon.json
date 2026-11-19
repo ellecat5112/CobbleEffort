@@ -163,6 +163,19 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "pomumon_vegimon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:vegimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:poromon"

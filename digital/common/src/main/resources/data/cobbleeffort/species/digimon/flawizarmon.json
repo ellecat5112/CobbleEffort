@@ -141,6 +141,32 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "flawizarmon_warumonzaemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:warumonzaemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "flawizarmon_wisemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:wisemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bokomon"

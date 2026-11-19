@@ -152,6 +152,32 @@
      "minLevel": 50
     }
    ]
+  },
+  {
+   "id": "pistmon_shivamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:shivamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "pistmon_shroudmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:shroudmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bulkmon"

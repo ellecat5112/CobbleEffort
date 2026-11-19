@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:regulusmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:regulusmon",
+   "model": "cobbleeffort:regulusmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4457_regulusmon/regulusmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

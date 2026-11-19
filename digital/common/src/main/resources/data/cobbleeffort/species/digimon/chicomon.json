@@ -146,6 +146,32 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "chicomon_vmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:vmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "chicomon_yukiagumon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:yukiagumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ]
 }

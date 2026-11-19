@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:sekiryumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:sekiryumon",
+   "model": "cobbleeffort:sekiryumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4513_sekiryumon/sekiryumon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

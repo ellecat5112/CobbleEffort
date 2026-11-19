@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:yukinamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:yukinamon",
+   "model": "cobbleeffort:yukinamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4843_yukinamon/yukinamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

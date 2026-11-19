@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:troopmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:troopmon",
+   "model": "cobbleeffort:troopmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4711_troopmon/troopmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4711_troopmon/troopmon_shiny.png"
+  }
+ ]
+}

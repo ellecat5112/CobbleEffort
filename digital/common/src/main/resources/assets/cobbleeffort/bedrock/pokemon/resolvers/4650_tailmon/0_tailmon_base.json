@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:tailmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:tailmon",
+   "model": "cobbleeffort:tailmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4650_tailmon/tailmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4650_tailmon/tailmon_shiny.png"
+  }
+ ]
+}

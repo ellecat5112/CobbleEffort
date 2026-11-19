@@ -204,6 +204,19 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "bulkmon_tempomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:tempomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:pulsemon"

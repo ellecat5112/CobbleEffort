@@ -127,5 +127,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "nightchiropmon_scourgechiropmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:scourgechiropmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:chiropmon"
 }

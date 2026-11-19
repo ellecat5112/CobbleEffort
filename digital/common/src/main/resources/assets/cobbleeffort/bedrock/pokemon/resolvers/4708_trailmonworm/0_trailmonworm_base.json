@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:trailmonworm",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:trailmonworm",
+   "model": "cobbleeffort:trailmonworm.geo",
+   "texture": "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_glow_0.png",
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_glow_1.png",
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4708_trailmonworm/trailmonworm_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

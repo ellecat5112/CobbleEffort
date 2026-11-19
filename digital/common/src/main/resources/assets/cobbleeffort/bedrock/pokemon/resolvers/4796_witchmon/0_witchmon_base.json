@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:witchmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:witchmon",
+   "model": "cobbleeffort:witchmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4796_witchmon/witchmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4796_witchmon/witchmon_shiny.png"
+  }
+ ]
+}
