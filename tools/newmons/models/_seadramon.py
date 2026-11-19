@@ -13,12 +13,14 @@ from _digidetail import armour, scales, skin, solid
 from _route import pal, tone
 
 
-def make(name, x=False):
+def make(name, x=False, colours=None, shiny_colours=None):
     base = {"teal": (40, 140, 160) if not x else (40, 80, 200), "teal_dark": (14, 80, 100) if not x else (14, 30, 120),
             "belly": (230, 236, 200) if not x else (150, 200, 240), "red": (210, 40, 40), "gold": (250, 200, 50),
             "gold_dark": (200, 120, 20), "eye": (40, 80, 200) if not x else (250, 60, 60), "mouth": (130, 50, 140),
             "tooth": (250, 250, 240)}
     shiny = {"teal": (180, 40, 60) if not x else (40, 160, 90), "teal_dark": (100, 14, 24) if not x else (14, 90, 40)}
+    base.update(colours or {})
+    shiny.update(shiny_colours or {})
 
     def P(v):
         return pal(base, shiny, v)
