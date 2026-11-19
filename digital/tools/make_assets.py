@@ -133,6 +133,8 @@ def main():
     })
     import make_tamer                                                      # 0.13.0: tamer basics
     lang.update(make_tamer.build(jar))
+    import make_world                                                      # 0.14.0: the Digital World
+    lang.update(make_world.build())
     write_json(lang_file, dict(sorted(lang.items())))
     write_json(D / "recipe/digiball.json", {
         "type": "minecraft:crafting_shapeless", "category": "misc",

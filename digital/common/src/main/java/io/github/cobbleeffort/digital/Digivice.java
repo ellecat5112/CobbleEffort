@@ -203,6 +203,7 @@ public class Digivice extends Item implements SimpleBagItemLike {
             return InteractionResult.FAIL;
         }
         scan(sp, p, sp.getUUID().equals(p.getOwnerUUID()));
+        Crests.scanned(sp, p.getSpecies().getResourceIdentifier().toString());
         player.level().playSound(null, entity.blockPosition(), SoundEvents.BEACON_AMBIENT, SoundSource.PLAYERS, 0.8F, 1.8F);
         PartnerUse.particles(entity, ParticleTypes.GLOW, 16);
         return InteractionResult.CONSUME;
@@ -330,6 +331,20 @@ public class Digivice extends Item implements SimpleBagItemLike {
         return null;
     }
 
+    /** The first evolution of this Digimon open to it by attribute (the Tag's Crest digivolution). */
+    static Evolution openEvolutionOf(Pokemon p) {
+        for (Evolution e : p.getForm().getEvolutions()) {
+            Species r = result(e);
+            if (r == null || !r.getLabels().contains(DigiBall.LABEL) || stageIndex(r) <= stageIndex(p.getSpecies())) continue;
+            boolean ok = true;
+            for (Requirement q : e.getRequirements()) {
+                if (q instanceof PokemonPropertiesRequirement pr && pr.getTarget().getOriginalString().contains("digi_") && !pr.check(p)) ok = false;
+            }
+            if (ok) return e;
+        }
+        return null;
+    }
+
     /** The warp target: one stage up, or two when `twice`. */
     static Species warpTarget(Pokemon p, boolean twice) {
         Species one = openEvolution(p, p.getSpecies());
@@ -363,7 +378,18 @@ public class Digivice extends Item implements SimpleBagItemLike {
         boolean twice = player.isShiftKeyDown();
         Species jogress = twice ? null : Jogress.find(player, bp);
         int cost = jogress != null ? JOGRESS : twice ? WARP_TWO : WARP_ONE;
+        if (Crests.holdsCrest(p)) cost /= 2;                        // a held Crest halves the cost
         Species target = jogress != null ? jogress : warpTarget(p, twice);
+        boolean crest = false;
+        if (jogress == null && twice && target != null) {
+            ItemStack tag = Crests.findTag(player);                // a full Tag: free, and the warp can reach Ultimate
+            crest = !tag.isEmpty() && Crests.socketed(tag) != null && Crests.charge(tag) >= Crests.FULL;
+            if (crest) {
+                Species further = openEvolution(p, target);
+                if (further != null && stageIndex(p.getSpecies()) >= 3) target = further;
+                cost = 0;
+            }
+        }
         if (target == null) {
             player.sendSystemMessage(Component.translatable(m + (twice ? "no_warp_two" : "no_warp"), p.getDisplayName(false)).withStyle(ChatFormatting.RED));
             return false;
@@ -372,6 +398,7 @@ public class Digivice extends Item implements SimpleBagItemLike {
             player.sendSystemMessage(Component.translatable(m + "low_energy", energy(stack), cost).withStyle(ChatFormatting.RED));
             return false;
         }
+        if (crest) Crests.spendForWarp(player);
         if (!player.getAbilities().instabuild) setEnergy(stack, energy(stack) - cost);
         bp.getActor().forceChoose(new BagItemActionResponse(bagItem, bp, target.showdownId() + " " + target.getResourceIdentifier()
                 + (jogress != null ? " jogress" : "")));

@@ -8,4 +8,6 @@ dependencies {
     modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
     modCompileOnly("com.cobblemon:mod:$rootProject.cobblemon_version") { transitive = false }
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib:2.0.21"
+    // Accessories (optional: the Crest Tag's necklace slot; Crests.findTag only touches it when it's installed)
+    modCompileOnly("io.wispforest:accessories-common:$rootProject.accessories_version-mojmap") { transitive = false }
 }

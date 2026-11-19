@@ -3,14 +3,20 @@
   "id": "cobbleeffort_digital",
   "version": "${version}",
   "name": "CobbleEffort: Digital",
-  "description": "A Digimon crossover for Cobblemon and CobbleEffort: 1,563 Digimon, the Tamer's Digivice (scans, warp digivolution, Jogress, Digi-Modify cards), the attribute triangle, field buffs, Digiball tiers, Digitama, Digi-Meat farming, the training gym and Chrome Digizoid.",
-  "authors": ["ellecat5112"],
-  "contact": {"sources": "https://github.com/ellecat5112/CobbleEffort"},
+  "description": "A Digimon crossover for Cobblemon and CobbleEffort: 1,563 Digimon, the Tamer's Digivice (scans, warp digivolution, Jogress, Digi-Modify cards), the attribute triangle, field buffs, Crests, raids, the Digital World, Dark Towers, Digiball tiers, Digitama, Digi-Meat farming, the training gym and Chrome Digizoid.",
+  "authors": [
+    "ellecat5112"
+  ],
+  "contact": {
+    "sources": "https://github.com/ellecat5112/CobbleEffort"
+  },
   "license": "CC-BY-NC-4.0",
   "icon": "assets/cobbleeffort_digital/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["io.github.cobbleeffort.digital.fabric.DigitalFabric"]
+    "main": [
+      "io.github.cobbleeffort.digital.fabric.DigitalFabric"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.16.0",
@@ -22,5 +28,11 @@
   },
   "recommends": {
     "cobbleeffort": "*"
+  },
+  "mixins": [
+    "cobbleeffort_digital.mixins.json"
+  ],
+  "suggests": {
+    "accessories": "*"
   }
 }

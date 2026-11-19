@@ -146,7 +146,10 @@ public final class Training {
             default -> MISS_EVS;
         };
         int got = partner.getEvs().add(s.kind().stat, evs, new SidemodEvSource(Digital.MOD_ID, partner));
-        if (!"miss".equals(grade)) partner.incrementFriendship(1, true);
+        if (!"miss".equals(grade)) {
+            partner.incrementFriendship(1, true);
+            Crests.trained(player);
+        }
         ServerLevel level = player.serverLevel();
         level.playSound(null, s.pos(), s.kind().sound, SoundSource.BLOCKS, 0.8F, "perfect".equals(grade) ? 1.4F : 1F);
         if (!"miss".equals(grade)) {

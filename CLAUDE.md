@@ -546,8 +546,23 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Training/TrainingBlock, DigiBall tiers + CatchRules (Perfect+ only by the Chrome ball), Chrome Digizoid, DarkAura.
   Assets: `digital/tools/make_tamer.py` (run by make_assets.py). Engine test: `scratchpad/tools/digi_sim.js`. Bag items
   are used by right-clicking your battling Pokémon (Cobblemon's own route); custom ones must be added to
-  `BagItems.bagItems` (done at SERVER_STARTING). Work for 0.14.0 (Digital World, Dark Towers, Black Market) sits in
-  `scratchpad/dig13` + `tools/make_world.py` there.
+  `BagItems.bagItems` (done at SERVER_STARTING).
+- **Digital 0.14.0, the Digital World**: `digital/tools/make_world.py` (run by make_assets.py; loads Kanto's `Nbt`/
+  `Template` by path because `digital/tools` has its own make_assets.py): blocks (textures drawn), dimension
+  `cobbleeffort_digital:digital_world` (overworld noise settings + surface rules for server_continent/dark_area, a
+  4-biome multi_noise list, biome features = plains' lists minus trees + ours appended per step), structures
+  (server_terminal, primary_village, socket_cliff, dark_tower; random_spread), chest loot, and
+  `data/cobbleeffort/spawn_pool_world/digital_world.json` read from the species labels (rerun after species data
+  changes). Java: DigitalWorld (Ancient Terminal + Digivice travel, returns SavedData, rifts, data streams), WorldBlocks
+  (Terminal, Cradle; trade cradles keep Elecmon Guards), DarkTower (core BE registers with DarkAura; breaking it spawns
+  the guardian battle), DarkSporeItem, BlackMarket (tagged Vademon/Etemon, vanilla MerchantMenu via a Merchant),
+  DigitalClient (cut-out render types). Structure previews: `scratchpad/tools/world2vox.py` + nestprev.
+- **Digital 0.15.0**: Crests (8) + Tag (`digimon_tag`, in the Accessories `necklace` tag; AccessoriesCompat is a soft
+  dependency, compileOnly), charge from events, full Tag = Crest digivolution / free 2-stage sneak-warp; Raids (3-phase
+  level-80 Demon Lord/Royal Knight, boss bar, rewards to everyone who battled it, digitization saved in SavedData and
+  restored; gamerule digitalDigitization); MoveEffects + mixin `MoveInstructionMixin` (TAIL of Cobblemon's
+  MoveInstruction.invoke; gamerule digitalMoveGriefing, off by default); `/digital raid start|stop`, `rift`, `world`,
+  `crest <charge>`. Work for 0.16.0 (Digizoid gear, Digi-Farm, mount utilities, Tamer NPCs) sits in `scratchpad/dig13`.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

@@ -158,6 +158,55 @@ public final class Digital {
         for (String c : CARDS) CARD_ITEMS.put(c, item(c, () -> new DigiModifyCard(props().stacksTo(16).rarity(Rarity.UNCOMMON), c)));
     }
 
+    // --- the Digital World ---------------------------------------------------------------------------------------------
+    public static final DeferredRegister<net.minecraft.world.level.block.entity.BlockEntityType<?>> BLOCK_ENTITIES =
+            DeferredRegister.create(MOD_ID, Registries.BLOCK_ENTITY_TYPE);
+
+    private static RegistrySupplier<Block> block(String name, Supplier<Block> block, Rarity rarity) {
+        RegistrySupplier<Block> b = BLOCKS.register(name, block);
+        item(name, () -> new BlockItem(b.get(), props().rarity(rarity)));
+        return b;
+    }
+
+    private static BlockBehaviour.Properties stoneLike(MapColor colour) {
+        return BlockBehaviour.Properties.of().mapColor(colour).strength(1.5F, 6F).requiresCorrectToolForDrops().sound(SoundType.METAL);
+    }
+
+    public static final RegistrySupplier<Block> CIRCUIT_BLOCK = block("circuit_block", () -> new Block(stoneLike(MapColor.COLOR_GREEN)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> SERVER_CASING = block("server_casing", () -> new Block(stoneLike(MapColor.METAL)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> SOCKET_BLOCK = block("socket_block", () -> new Block(stoneLike(MapColor.METAL)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> WIREFRAME_BLOCK = block("wireframe_block", () -> new net.minecraft.world.level.block.TransparentBlock(
+            BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).strength(0.6F).sound(SoundType.GLASS).noOcclusion()
+                    .lightLevel(s -> 9).isViewBlocking((s, l, p) -> false).isSuffocating((s, l, p) -> false)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> VOXEL_LOG = block("voxel_log", () -> new net.minecraft.world.level.block.RotatedPillarBlock(
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG).mapColor(MapColor.WOOD)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> VOXEL_LEAVES = block("voxel_leaves", () -> new net.minecraft.world.level.block.LeavesBlock(
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES).mapColor(MapColor.COLOR_LIGHT_GREEN)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> CORRUPTED_DATA = block("corrupted_data", () -> new Block(
+            BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).strength(1.2F, 4F).requiresCorrectToolForDrops().lightLevel(s -> 2)), Rarity.COMMON);
+    public static final RegistrySupplier<Block> TOWER_CORE = block("dark_tower_core", () -> new DarkTower.CoreBlock(
+            BlockBehaviour.Properties.ofFullCopy(Blocks.OBSIDIAN).lightLevel(s -> 7).strength(30F, 1200F)), Rarity.EPIC);
+    @SuppressWarnings("DataFlowIssue")
+    public static final RegistrySupplier<net.minecraft.world.level.block.entity.BlockEntityType<DarkTower.CoreEntity>> TOWER_CORE_ENTITY =
+            BLOCK_ENTITIES.register("dark_tower_core", () -> net.minecraft.world.level.block.entity.BlockEntityType.Builder
+                    .of(DarkTower.CoreEntity::new, TOWER_CORE.get()).build(null));
+    public static final RegistrySupplier<Block> TERMINAL = block("ancient_terminal", () -> new WorldBlocks.Terminal(
+            BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(3F, 9F).sound(SoundType.STONE).lightLevel(s -> 8)), Rarity.RARE);
+    public static final RegistrySupplier<Block> CRADLE = block("digitama_cradle", () -> new WorldBlocks.Cradle(
+            BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).strength(1F).sound(SoundType.WOOD).noOcclusion(), false), Rarity.UNCOMMON);
+    public static final RegistrySupplier<Block> WILD_CRADLE = block("wild_digitama_cradle", () -> new WorldBlocks.Cradle(
+            BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).strength(1F).sound(SoundType.WOOD).noOcclusion(), true), Rarity.UNCOMMON);
+    public static final RegistrySupplier<Item> DARK_SPORE = item("dark_spore", () -> new DarkSporeItem(props().stacksTo(16).rarity(Rarity.EPIC)));
+    public static final RegistrySupplier<Item> DIGI_CORE = item("digi_core", () -> new TooltipItem(props().rarity(Rarity.RARE)));
+
+    // --- Crests and the Tag --------------------------------------------------------------------------------------------
+    public static final RegistrySupplier<Item> TAG = item("digimon_tag", () -> new Crests.TagItem(props().stacksTo(1).rarity(Rarity.RARE)));
+    public static final Map<String, RegistrySupplier<Item>> CRESTS = new java.util.LinkedHashMap<>();
+
+    static {
+        for (String c : Crests.CRESTS) CRESTS.put(c, item("crest_of_" + c, () -> new Crests.CrestItem(props().stacksTo(1).rarity(Rarity.EPIC), c)));
+    }
+
     // --- Chrome Digizoid ------------------------------------------------------------------------------------------------
     public static final RegistrySupplier<Block> CHROME_ORE = BLOCKS.register("chrome_digizoid_ore", () ->
             new DropExperienceBlock(UniformInt.of(3, 7), BlockBehaviour.Properties.ofFullCopy(Blocks.DIAMOND_ORE)));
@@ -176,6 +225,12 @@ public final class Digital {
             ResourceKey.create(Registries.PLACED_FEATURE, ResourceLocation.fromNamespaceAndPath(MOD_ID, "chrome_digizoid_ore"));
 
     private static boolean bagItemsAdded;
+    private static net.minecraft.server.MinecraftServer server;
+
+    /** The running server (null on a client between worlds). */
+    public static net.minecraft.server.MinecraftServer server() {
+        return server;
+    }
 
     private Digital() {
     }
@@ -184,6 +239,7 @@ public final class Digital {
         TABS.register();
         BLOCKS.register();
         ITEMS.register();
+        BLOCK_ENTITIES.register();
         for (RegistrySupplier<Item> i : TAB_ITEMS) CreativeTabRegistry.append(TAB, i);
         // battle bag items (used on your battling Digimon): Cobblemon only lists the items it registers itself
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTING.register(server -> {
@@ -201,6 +257,17 @@ public final class Digital {
         DarkAura.init();
         GlitchLook.init();
         Scheduler.init();
+        DarkTower.init();
+        DigitalWorld.init();
+        BlackMarket.init();
+        Crests.init();
+        Raids.init();
+        DigitalCommand.init();
+        dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTING.register(s -> server = s);
+        dev.architectury.event.events.common.LifecycleEvent.SERVER_STOPPED.register(s -> server = null);
+        // the gamerules (registered on class load)
+        Digital.LOG.debug("gamerules {} {}", Raids.DIGITIZATION, MoveEffects.GRIEFING);
+        if (dev.architectury.platform.Platform.getEnvironment() == dev.architectury.utils.Env.CLIENT) DigitalClient.init();
         dev.architectury.event.events.common.LifecycleEvent.SERVER_STARTED.register(server -> DigitalEngine.installNow());
     }
 }

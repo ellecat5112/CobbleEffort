@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "cobbleeffort_digital:block/voxel_log"
+    },
+    "axis=z": {
+      "model": "cobbleeffort_digital:block/voxel_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "cobbleeffort_digital:block/voxel_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

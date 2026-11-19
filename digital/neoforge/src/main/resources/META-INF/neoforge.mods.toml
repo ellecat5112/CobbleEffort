@@ -2,6 +2,9 @@ modLoader = "javafml"
 loaderVersion = "[4,)"
 license = "CC-BY-NC-4.0"
 
+[[mixins]]
+config = "cobbleeffort_digital.mixins.json"
+
 [[mods]]
 modId = "cobbleeffort_digital"
 version = "${version}"
@@ -9,7 +12,7 @@ displayName = "CobbleEffort: Digital"
 authors = "ellecat5112"
 logoFile = "assets/cobbleeffort_digital/icon.png"
 description = '''
-A Digimon crossover for Cobblemon and CobbleEffort: 1,563 Digimon, the Tamer's Digivice (scans, warp digivolution, Jogress, Digi-Modify cards), the attribute triangle, field buffs, Digiball tiers, Digitama, Digi-Meat farming, the training gym and Chrome Digizoid.
+A Digimon crossover for Cobblemon and CobbleEffort: 1,563 Digimon, the Tamer's Digivice (scans, warp digivolution, Jogress, Digi-Modify cards), the attribute triangle, field buffs, Crests, raids, the Digital World, Dark Towers, Digiball tiers, Digitama, Digi-Meat farming, the training gym and Chrome Digizoid.
 '''
 
 [[dependencies.cobbleeffort_digital]]

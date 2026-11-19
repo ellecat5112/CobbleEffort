@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "S S",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:chain"
+    },
+    "I": {
+      "item": "cobbleeffort_digital:chrome_digizoid_ingot"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:digimon_tag",
+    "count": 1
+  }
+}

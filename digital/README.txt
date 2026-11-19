@@ -75,6 +75,52 @@ The training gym
 Chrome Digizoid: the toughest ore, deep underground (below y 8, a little rarer than diamond; iron pickaxe or
   better). Smelt the raw ore into ingots (9 make a block). It goes into the Digivice and Chrome Digizoid Balls.
 
+The Digital World
+  A dimension of its own: File Island's wireframe plains (glowing wire cubes, cyan data streams), the Voxel Forest's
+  giant 8-bit trees, the Server Continent's circuit-board flats, server racks and plug-in socket cliffs, and the Dark
+  Area, a corrupted black-and-violet land where Virus Digimon, Pico Devimon and Bakemon gather. Only Digimon live
+  there (every Digimon below Ultimate spawns in the biome that suits its type). Its water is data: standing in it
+  refills your Digivice's Tamer Energy and heals your sent-out Pokémon.
+  * The way in: an Ancient Terminal, used holding a Digivice. They stand in Abandoned Server Terminals (ruined server
+    rooms in the overworld and the Digital World, with loot: fragments, chips, Digi-Cores, cards, Digi-Eggs, Chrome
+    Digizoid, and an abandoned Digitama cradle to rescue an egg from), or craft one (smooth stone, a glass pane and a
+    Digi-Core). You arrive on a circuit pad with a terminal for the way home, which takes you back where you left.
+  * Digital Rifts: now and then a rift tears open near someone for three minutes; walk into it to be digitized.
+  * Primary Village (File Island): rows of Digitama cradles watched over by Elecmon. Trade 4 Digi-Meat for an egg
+    (use the meat on a cradle); empty cradles lay new eggs in time.
+  * Dark Towers (overworld and Dark Area): obsidian spires banded with black glass. Within 64 blocks of a standing
+    tower's core no Digimon digivolves past Child (no level-up digivolutions offered, no Digivice warps). Climb the
+    ladder to the top chamber and break the core (diamond pickaxe): its guardian, a strong Virus Digimon, challenges
+    you. Beat it for Chrome Digizoid, Virus data and maybe a Dark Spore.
+  * Dark Spore: use it on your Digimon to rewrite it to Virus and force a Virus digivolution at once.
+  * The black market: at night, underground or in the Dark Area a shady Vademon or Etemon sometimes turns up for ten
+    minutes. Use it to trade Dark Spores, "stolen" Digitama, Virus Chips, Chrome Digizoid and glitch cards for
+    emeralds or Virus Fragments.
+
+Crests and the Tag
+  Raid bosses and server terminals give Crests: Courage, Friendship, Love, Knowledge, Sincerity, Reliability, Hope and
+  Light. Socket one in a Tag (two chains and a Chrome Digizoid Ingot; hold the Tag in your other hand and use the
+  Crest) and wear it in the Accessories necklace slot (or just carry it). It charges as you live by it: Courage when
+  you win with a Pokémon down to a quarter of its HP, Friendship as you feed and train, Love when eggs and Digitama
+  hatch, Knowledge as you scan new species and craft chips and cards, Sincerity as you harvest ripe crops,
+  Reliability when you trade or win beside other players, Hope when you win with one Pokémon left, Light when you win
+  by day. At 100% the Crest unlocks Ultimate and Mega: use the Tag on your Digimon to digivolve it a stage at once,
+  or sneak-warp with the Digivice for free (from Adult, two stages, to Ultimate). A Digimon holding a Crest pays half
+  for warps.
+
+Raids
+  Every two or three hours (with players online) a rift opens near someone and a Demon Lord or Royal Knight comes
+  through: a level 80 boss in three phases, with a boss bar for everyone near. Battle it one after another; everyone
+  who fought it shares the reward (Chrome Digizoid, a Crest, a Digi-Core, maybe a Tag). While it's loose the land round
+  the rift turns to wireframe and circuitry; it all comes back when the raid ends (gamerule digitalDigitization).
+  Operators: /digital raid start [player], /digital raid stop, /digital rift, /digital world.
+
+Digimon attacks in the world
+  In battle, a Digimon's fire attacks burst into flame where they land, its missiles and cannons (Giga Destroyer,
+  Garuru Cannon...) explode and its water attacks splash and put out fires. With the gamerule digitalMoveGriefing on
+  (off by default) they change the world too: fires catch, sand turns to glass, blasts break blocks, water leaves
+  puddles that drain away.
+
 Install: Fabric or NeoForge with Architectury API and Cobblemon 1.8.4. Shared as a main jar plus texture jars
 ("CobbleEffort: Digital Textures N"): install all of them.
 

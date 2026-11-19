@@ -52,6 +52,7 @@ public final class DigiFood {
         for (Map.Entry<Stat, Integer> e : effect.evs().entrySet()) {
             gained += p.getEvs().add(e.getKey(), e.getValue(), new SidemodEvSource(Digital.MOD_ID, p));
         }
+        Crests.fed(player);
         player.level().playSound(null, target.blockPosition(), SoundEvents.GENERIC_EAT, SoundSource.NEUTRAL, 0.8F, 1.1F);
         PartnerUse.particles(target, ParticleTypes.HEART, effect.evs().isEmpty() ? 3 : 6);
         player.displayClientMessage(Component.translatable(m + (gained > 0 ? "fed_evs" : "fed"), p.getDisplayName(false), gained)

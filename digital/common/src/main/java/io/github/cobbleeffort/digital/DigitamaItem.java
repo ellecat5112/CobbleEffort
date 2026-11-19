@@ -96,6 +96,7 @@ public class DigitamaItem extends Item {
         }
         try {
             Pokemon baby = hatch(stack, server);
+            Crests.hatched(server);
             stack.shrink(1);
             level.playSound(null, player.blockPosition(), SoundEvents.SNIFFER_EGG_HATCH, SoundSource.PLAYERS, 1F, 1.2F);
             server.displayClientMessage(Component.translatable(Digital.MOD_ID + ".digitama.hatched",

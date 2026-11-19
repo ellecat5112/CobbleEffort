@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RDR",
+    "DCD",
+    "RDR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "item": "cobbleeffort_digital:data_fragment"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:chrome_digizoid_ingot"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:digi_core",
+    "count": 1
+  }
+}

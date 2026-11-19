@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SGS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "C": {
+      "item": "cobbleeffort_digital:digi_core"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:ancient_terminal",
+    "count": 1
+  }
+}
