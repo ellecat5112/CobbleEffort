@@ -131,7 +131,7 @@ ABILITY_NAMES = {
     "steamengine": "Steam Engine",
     "triage": "Triage",
     "magnetpull": "Magnet Pull",
-    "moldbreaker": "Mold Breaker",
+    "moldbreaker": "Mold Breaker", "solarpower": "Solar Power", "sweetveil": "Sweet Veil", "immunity": "Immunity", "drizzle": "Drizzle", "illuminate": "Illuminate",
     "magmaarmor": "Magma Armor",
     "queenlymajesty": "Queenly Majesty",
 }
