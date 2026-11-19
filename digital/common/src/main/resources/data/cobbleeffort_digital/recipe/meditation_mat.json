@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:purple_carpet"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:meditation_mat",
+    "count": 1
+  }
+}

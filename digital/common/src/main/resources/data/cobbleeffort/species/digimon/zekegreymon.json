@@ -14,7 +14,11 @@
   "cobbleeffort",
   "custom",
   "digimon",
-  "legendary"
+  "legendary",
+  "digimon_ultimate",
+  "digimon_virus",
+  "digimon_field_metal_empire",
+  "digimon_field_virus_busters"
  ],
  "aspects": [],
  "abilities": [
@@ -151,6 +155,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -164,6 +172,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -177,6 +189,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   }

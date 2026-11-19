@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FGF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "cobbleeffort_digital:vaccine_fragment"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:vaccine_chip",
+    "count": 1
+  }
+}

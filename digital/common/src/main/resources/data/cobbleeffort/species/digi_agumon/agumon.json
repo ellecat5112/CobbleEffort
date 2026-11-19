@@ -12,7 +12,20 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_baby2",
+  "digimon_vaccine",
+  "digimon_field_virus_busters",
+  "digimon_child",
+  "digimon_field_deep_savers",
+  "digimon_field_dragons_roar",
+  "digimon_field_metal_empire",
+  "digimon_field_nature_spirits",
+  "digimon_field_nightmare_soldiers",
+  "digimon_adult",
+  "digimon_perfect",
+  "digimon_ultimate",
+  "digimon_virus"
  ],
  "aspects": [],
  "abilities": [
@@ -193,6 +206,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -232,6 +249,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -284,6 +305,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -310,6 +335,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -323,6 +352,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -336,6 +369,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -349,6 +386,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -362,6 +403,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -375,6 +420,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -388,6 +437,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -401,6 +454,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -427,6 +484,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -440,6 +501,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -453,6 +518,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -479,6 +548,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -518,6 +591,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -531,6 +608,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -544,6 +625,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -557,6 +642,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -596,6 +685,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -609,6 +702,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -635,6 +732,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -648,6 +749,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -661,6 +766,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -674,6 +783,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -687,6 +800,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -700,6 +817,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -791,6 +912,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -804,6 +929,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -817,6 +946,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -843,6 +976,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -856,6 +993,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -882,6 +1023,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -908,6 +1053,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -921,6 +1070,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -934,6 +1087,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -947,6 +1104,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -999,6 +1160,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -1025,6 +1190,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -1038,6 +1207,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -1077,6 +1250,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },

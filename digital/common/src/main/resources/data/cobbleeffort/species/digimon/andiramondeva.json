@@ -13,7 +13,12 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_perfect",
+  "digimon_data",
+  "digimon_field_virus_busters",
+  "digimon_field_wind_guardians",
+  "digimon_field_saiyu_warriors"
  ],
  "aspects": [],
  "abilities": [
@@ -138,6 +143,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -151,6 +160,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -164,6 +177,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -177,6 +194,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -190,6 +211,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -242,6 +267,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -255,6 +284,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -268,6 +301,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -281,6 +318,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -294,6 +335,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -320,6 +365,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -333,6 +382,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },

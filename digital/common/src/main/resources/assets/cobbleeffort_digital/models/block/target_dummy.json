@@ -1,0 +1,89 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "target": "cobbleeffort_digital:block/target_dummy",
+    "straw": "cobbleeffort_digital:block/target_straw",
+    "wood": "cobbleeffort_digital:block/training_wood",
+    "particle": "cobbleeffort_digital:block/target_straw"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "down": {
+          "texture": "#wood"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        6,
+        6
+      ],
+      "to": [
+        14,
+        16,
+        10
+      ],
+      "faces": {
+        "east": {
+          "texture": "#straw"
+        },
+        "west": {
+          "texture": "#straw"
+        },
+        "up": {
+          "texture": "#straw"
+        },
+        "down": {
+          "texture": "#straw"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        6,
+        6
+      ],
+      "to": [
+        14,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#target"
+        },
+        "south": {
+          "texture": "#target"
+        }
+      }
+    }
+  ]
+}

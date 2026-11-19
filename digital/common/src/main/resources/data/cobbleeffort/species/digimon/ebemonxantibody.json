@@ -13,7 +13,9 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_ultimate",
+  "digimon_virus"
  ],
  "aspects": [],
  "abilities": [
@@ -139,6 +141,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -152,6 +158,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   }

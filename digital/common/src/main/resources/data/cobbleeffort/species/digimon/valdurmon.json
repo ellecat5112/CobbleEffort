@@ -14,7 +14,10 @@
   "cobbleeffort",
   "custom",
   "digimon",
-  "legendary"
+  "legendary",
+  "digimon_ultimate",
+  "digimon_vaccine",
+  "digimon_field_wind_guardians"
  ],
  "aspects": [],
  "abilities": [
@@ -136,6 +139,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },

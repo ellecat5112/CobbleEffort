@@ -13,7 +13,9 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_perfect",
+  "digimon_data"
  ],
  "aspects": [],
  "abilities": [
@@ -135,6 +137,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -148,6 +154,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -161,6 +171,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -187,6 +201,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },

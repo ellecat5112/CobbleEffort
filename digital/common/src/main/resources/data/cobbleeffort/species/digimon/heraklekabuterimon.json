@@ -14,7 +14,11 @@
   "cobbleeffort",
   "custom",
   "digimon",
-  "legendary"
+  "legendary",
+  "digimon_ultimate",
+  "digimon_vaccine",
+  "digimon_field_jungle_troopers",
+  "digimon_field_nature_spirits"
  ],
  "aspects": [],
  "abilities": [
@@ -150,6 +154,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -163,6 +171,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   }

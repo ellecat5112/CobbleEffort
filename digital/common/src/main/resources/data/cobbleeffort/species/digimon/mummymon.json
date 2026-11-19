@@ -13,7 +13,10 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_perfect",
+  "digimon_virus",
+  "digimon_field_nightmare_soldiers"
  ],
  "aspects": [],
  "abilities": [
@@ -228,6 +231,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -241,6 +248,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -267,6 +278,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -306,6 +321,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -332,6 +351,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -345,6 +368,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },

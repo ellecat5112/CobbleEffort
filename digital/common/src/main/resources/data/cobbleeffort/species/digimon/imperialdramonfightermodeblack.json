@@ -13,7 +13,11 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_ultimate",
+  "digimon_virus",
+  "digimon_field_dragons_roar",
+  "digimon_field_metal_empire"
  ],
  "aspects": [],
  "abilities": [
@@ -138,6 +142,10 @@
     {
      "variant": "level",
      "minLevel": 60
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   }

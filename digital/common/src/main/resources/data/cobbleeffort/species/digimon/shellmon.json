@@ -12,7 +12,10 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_adult",
+  "digimon_data",
+  "digimon_field_deep_savers"
  ],
  "aspects": [],
  "abilities": [
@@ -121,6 +124,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -147,6 +154,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -212,6 +223,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -225,6 +240,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -238,6 +257,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -251,6 +274,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -303,6 +330,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -316,6 +347,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -394,6 +429,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -407,6 +446,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -420,6 +463,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -446,6 +493,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -459,6 +510,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -472,6 +527,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   },
@@ -485,6 +544,10 @@
     {
      "variant": "level",
      "minLevel": 35
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_vaccine"
     }
    ]
   }

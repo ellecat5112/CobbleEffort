@@ -13,7 +13,10 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_child",
+  "digimon_vaccine",
+  "digimon_field_saiyu_warriors"
  ],
  "aspects": [],
  "abilities": [
@@ -147,6 +150,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -160,6 +167,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -173,6 +184,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   }

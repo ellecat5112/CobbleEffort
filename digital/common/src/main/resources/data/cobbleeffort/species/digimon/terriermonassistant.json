@@ -13,7 +13,9 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_child",
+  "digimon_vaccine"
  ],
  "aspects": [],
  "abilities": [
@@ -149,6 +151,10 @@
     {
      "variant": "level",
      "minLevel": 20
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   }

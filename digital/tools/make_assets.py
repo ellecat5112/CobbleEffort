@@ -1,5 +1,6 @@
 """Assets and data for CobbleEffort: Digital: the Digiball's textures (recoloured from Cobblemon's Poké Ball, CC BY-NC),
-its thrown-ball resolver, item models, the Digitama sprite (drawn here), lang and recipes.
+its thrown-ball resolver, item models, the Digitama sprite (drawn here), lang and recipes; make_tamer.py adds the
+tamer items, blocks and Digiball tiers.
 
     python3 digital/tools/make_assets.py <Cobblemon jar>
 """
@@ -130,6 +131,8 @@ def main():
         f"{NS}.digitama.hatched": "The Digitama hatched into %s!",
         f"{NS}.digitama.dropped": "The %s left a Digitama behind!",
     })
+    import make_tamer                                                      # 0.13.0: tamer basics
+    lang.update(make_tamer.build(jar))
     write_json(lang_file, dict(sorted(lang.items())))
     write_json(D / "recipe/digiball.json", {
         "type": "minecraft:crafting_shapeless", "category": "misc",

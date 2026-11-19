@@ -19,6 +19,39 @@ from pathlib import Path
 DIGI = Path(__file__).resolve().parents[1] / "digimon"
 
 ORDER = ["Baby I", "Baby II", "Child", "Adult", "Perfect", "Ultimate", "Super Ultimate"]
+# Digital 0.13.0: species labels the add-on reads (ball tiers, scans, warp digivolution, fragment drops)
+STAGE_LABEL = {"Baby I": "digimon_baby1", "Baby II": "digimon_baby2", "Child": "digimon_child", "Adult": "digimon_adult",
+               "Perfect": "digimon_perfect", "Ultimate": "digimon_ultimate", "Super Ultimate": "digimon_super_ultimate"}
+ATTRIBUTES = ("Vaccine", "Data", "Virus", "Free", "Variable")
+TRIANGLE = ("Vaccine", "Data", "Virus")
+# Armor digivolution: Digi-Eggs (Digimentals) used on a Child (item_interact; the add-on's items)
+DIGIMENTALS = {"courage": [("vmon", "fladramon")], "friendship": [("vmon", "lighdramon")]}
+# Jogress (DNA) pairs the user named, kept even if wikimon's lists miss them
+JOGRESS_MUST = [("xvmon", "stingmon", "paildramon"), ("wargreymon", "metalgarurumon", "omegamon")]
+
+
+FIELDS = {"Nature Spirits", "Deep Savers", "Nightmare Soldiers", "Metal Empire", "Wind Guardians", "Dragon's Roar",
+          "Virus Busters", "Jungle Troopers", "Dark Area", "Saiyu Warriors", "Toho Braves"}
+
+
+def field_labels(facts_entry):
+    """Labels for a Digimon's wikimon fields (field buffs in the Digital add-on)."""
+    out = []
+    for fl in (facts_entry or {}).get("fields") or []:
+        if fl in FIELDS:
+            lab = "digimon_field_" + fl.lower().replace("'", "").replace(" ", "_")
+            if lab not in out:
+                out.append(lab)
+    return out
+
+
+def attribute_of(facts_entry):
+    """A Digimon's attribute: wikimon's first listed one, if it's one of the five."""
+    for a in (facts_entry or {}).get("attributes") or []:
+        if a in ATTRIBUTES:
+            return a
+        break
+    return None
 STAGE = {  # evolve level, blocks tall, base stat total, catch rate, (bucket, weight, levels), exp
     "Baby I": (1, 0.35, 180, 255, ("common", 1.5, "1-5"), 40),
     "Baby II": (5, 0.5, 240, 220, ("common", 2.0, "3-10"), 55),
@@ -250,7 +283,8 @@ def generate(SPECIES, LINES):
             "dex": dex, "name": e["name"], "line": "digimon", "types": e["types"],
             "male": -1, "egg_groups": ["undiscovered"] if legendary else ["monster", "dragon"],
             "friendship": 0 if legendary else 70, "growth": "slow",
-            "labels": ["digimon"] + (["legendary"] if legendary else []) + (["digimon_hatch"] if stage == "Baby I" else []),
+            "labels": ["digimon"] + (["legendary"] if legendary else []) + (["digimon_hatch"] if stage == "Baby I" else [])
+                      + [STAGE_LABEL[stage]] + ([f"digimon_{attribute_of(f).lower()}"] if attribute_of(f) else []) + field_labels(f),
             "abilities": abil,
             "ability_names": " / ".join(ability_name(a.removeprefix("h:")) + (" (hidden)" if a.startswith("h:") else "")
                                         for a in abil),
@@ -263,13 +297,18 @@ def generate(SPECIES, LINES):
             "drops": [(DROPS[e["types"][0]], "1-3" if blocks < 2 else "4-8", None)],
             "entry": e["entry"], "spawns": spawns_for(sp, e["types"], stage, legendary),
             "how": [x for x in [where(e["types"], stage, legendary)] if x],
-            "_stage": stage, "_wikimon": e["name"],
+            "_stage": stage, "_wikimon": e["name"], "_attr": attribute_of(f),
         }
         dex += 1
     for sp, c in hand.items():
         c.setdefault("_stage", {"koromon": "Baby II", "agumon": "Child", "greymon": "Adult", "metalgreymon": "Perfect",
                                 "blitzgreymon": "Ultimate", "omegamonalters": "Ultimate",
                                 "omegamonalterb": "Super Ultimate"}.get(sp, "Adult"))
+        c.setdefault("_attr", attribute_of(facts.get(c.get("name", ""), {})) or "Vaccine")
+        labels = c.setdefault("labels", ["digimon"])
+        for lab in (STAGE_LABEL[c["_stage"]], f"digimon_{c['_attr'].lower()}", *field_labels(facts.get(c.get("name", ""), {}))):
+            if lab not in labels:
+                labels.append(lab)
     allsp = {**hand, **gen}
     name_of = {slug(n): n for n in facts}
     # evolution links, both directions of wikimon's lists
@@ -297,19 +336,50 @@ def generate(SPECIES, LINES):
         else:
             lvl = STAGE[allsp[b]["_stage"]][0]
         c = allsp[a]
+        ta, fa = allsp[b].get("_attr"), allsp[a].get("_attr")
+        # a Vaccine/Data/Virus Digimon needs the target's attribute (fragments, chips) to cross the triangle;
+        # Free, Variable and unknown Digimon are open to every route
+        req = [{"variant": "properties", "target": f"aspect=digi_{ta.lower()}"}] if ta in TRIANGLE and fa in TRIANGLE and ta != fa else []
         have = {c["evolve"][0]} if c.get("evolve") else set()
         have |= {x[0] for x in c.get("evolve_alt", [])}
         if b in have:
             continue
         if c.get("evolve") is None and a in gen:
-            c["evolve"] = (b, lvl, [])
+            c["evolve"] = (b, lvl, [], req)
         else:
-            c.setdefault("evolve_alt", []).append((b, lvl, []))
+            c.setdefault("evolve_alt", []).append((b, lvl, [], req))
         nm = allsp[b]["name"]
-        c["how"] = c.get("how", []) + [f"Evolves into {nm} at level {lvl}."]
+        c["how"] = c.get("how", []) + [f"Evolves into {nm} at level {lvl}" + (f" (with the {ta} attribute)." if req else ".")]
+    jog = set()
+    for n, f in facts.items():
+        r = al(n)
+        if r not in allsp:
+            continue
+        for e in f["from"]:
+            if e["card"] or "with" not in e:
+                continue
+            x, y = al(e["name"]), al(e["with"])
+            if x in allsp and y in allsp and x != y and r not in (x, y) \
+                    and ORDER.index(allsp[x]["_stage"]) < ORDER.index(allsp[r]["_stage"]) \
+                    and ORDER.index(allsp[y]["_stage"]) < ORDER.index(allsp[r]["_stage"]):
+                jog.add((min(x, y), max(x, y), r))
+    for x, y, r in JOGRESS_MUST:
+        if x in allsp and y in allsp and r in allsp:
+            jog.add((min(x, y), max(x, y), r))
+    pairs = [{"a": f"cobbleeffort:{x}", "b": f"cobbleeffort:{y}", "result": f"cobbleeffort:{r}"} for x, y, r in sorted(jog)]
+    for x, y, r in sorted(jog):
+        allsp[r]["how"] = allsp[r].get("how", []) + [f"Jogress (DNA digivolution) of {allsp[x]['name']} and {allsp[y]['name']} in battle, with a Digivice."]
+    host = next(iter(gen))
+    gen[host].setdefault("data_files", {})["cobbleeffort_digital/digital/jogress.json"] = {"pairs": pairs}
+    for egg, routes in DIGIMENTALS.items():
+        for x, r in routes:
+            if x in gen and r in allsp:
+                gen[x].setdefault("evolve_items", []).append((r, f"cobbleeffort_digital:digiegg_of_{egg}", []))
+                gen[x]["how"] = gen[x].get("how", []) + [f"Armor-digivolves into {allsp[r]['name']} with the Digi-Egg of {egg.title()}."]
     for sp, c in allsp.items():
         c.pop("_stage", None)
         c.pop("_wikimon", None)
+        c.pop("_attr", None)
     for sp, c in gen.items():
         froms = [o for o, oc in allsp.items() if (oc.get("evolve") and oc["evolve"][0] == sp)
                  or any(x[0] == sp for x in oc.get("evolve_alt", []))]

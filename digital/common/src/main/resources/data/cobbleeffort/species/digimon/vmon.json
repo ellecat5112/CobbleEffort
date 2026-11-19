@@ -12,7 +12,14 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_child",
+  "digimon_free",
+  "digimon_field_dragons_roar",
+  "digimon_field_metal_empire",
+  "digimon_field_nature_spirits",
+  "digimon_field_virus_busters",
+  "digimon_field_wind_guardians"
  ],
  "aspects": [],
  "abilities": [
@@ -864,6 +871,22 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "vmon_fladramon_50",
+   "variant": "item_interact",
+   "result": "cobbleeffort:fladramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requiredContext": "cobbleeffort_digital:digiegg_of_courage"
+  },
+  {
+   "id": "vmon_lighdramon_51",
+   "variant": "item_interact",
+   "result": "cobbleeffort:lighdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requiredContext": "cobbleeffort_digital:digiegg_of_friendship"
   }
  ],
  "preEvolution": "cobbleeffort:koromon"

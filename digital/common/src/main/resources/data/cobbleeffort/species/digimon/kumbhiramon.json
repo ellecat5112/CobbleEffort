@@ -13,7 +13,10 @@
  "labels": [
   "cobbleeffort",
   "custom",
-  "digimon"
+  "digimon",
+  "digimon_perfect",
+  "digimon_vaccine",
+  "digimon_field_nature_spirits"
  ],
  "aspects": [],
  "abilities": [
@@ -149,6 +152,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -162,6 +169,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -175,6 +186,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_virus"
     }
    ]
   },
@@ -188,6 +203,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },
@@ -201,6 +220,10 @@
     {
      "variant": "level",
      "minLevel": 50
+    },
+    {
+     "variant": "properties",
+     "target": "aspect=digi_data"
     }
    ]
   },

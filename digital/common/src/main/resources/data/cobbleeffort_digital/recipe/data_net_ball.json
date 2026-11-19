@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cobblemon:great_ball"
+    },
+    {
+      "item": "cobbleeffort_digital:vaccine_fragment"
+    },
+    {
+      "item": "cobbleeffort_digital:data_fragment"
+    },
+    {
+      "item": "cobbleeffort_digital:virus_fragment"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "id": "cobbleeffort_digital:data_net_ball",
+    "count": 2
+  }
+}

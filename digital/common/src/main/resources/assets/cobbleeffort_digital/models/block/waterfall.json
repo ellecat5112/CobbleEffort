@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rock": "cobbleeffort_digital:block/waterfall_rock",
+    "water": "cobbleeffort_digital:block/waterfall_water",
+    "particle": "cobbleeffort_digital:block/waterfall_rock"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rock"
+        },
+        "south": {
+          "texture": "#rock"
+        },
+        "east": {
+          "texture": "#rock"
+        },
+        "west": {
+          "texture": "#rock"
+        },
+        "up": {
+          "texture": "#rock"
+        },
+        "down": {
+          "texture": "#rock"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        0,
+        -0.01
+      ],
+      "to": [
+        13,
+        16,
+        0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#water"
+        }
+      }
+    }
+  ]
+}

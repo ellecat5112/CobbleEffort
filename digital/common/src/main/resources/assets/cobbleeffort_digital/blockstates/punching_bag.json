@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleeffort_digital:block/punching_bag"
+    },
+    "facing=east": {
+      "model": "cobbleeffort_digital:block/punching_bag",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleeffort_digital:block/punching_bag",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleeffort_digital:block/punching_bag",
+      "y": 270
+    }
+  }
+}

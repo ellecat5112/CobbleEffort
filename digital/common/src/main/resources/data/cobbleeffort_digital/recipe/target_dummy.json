@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " T ",
+    " H ",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:target"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "cobbleeffort_digital:target_dummy",
+    "count": 1
+  }
+}

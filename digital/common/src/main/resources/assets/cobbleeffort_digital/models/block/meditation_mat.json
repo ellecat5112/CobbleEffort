@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "mat": "cobbleeffort_digital:block/meditation_mat",
+    "particle": "cobbleeffort_digital:block/meditation_mat"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#mat"
+        },
+        "south": {
+          "texture": "#mat"
+        },
+        "east": {
+          "texture": "#mat"
+        },
+        "west": {
+          "texture": "#mat"
+        },
+        "up": {
+          "texture": "#mat"
+        },
+        "down": {
+          "texture": "#mat"
+        }
+      }
+    }
+  ]
+}

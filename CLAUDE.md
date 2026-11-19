@@ -531,6 +531,23 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_jellyhat` (ribbon tentacles, sparks); `_vdramon`/`_seadramon` take colours/shiny_colours; `_digi` has snow keys
   (Yuki Agumon). Checks: `scratchpad/tools/modcheck.py` (errors, NEG boxes, y range vs HEIGHT), `fixh.py` (HEIGHT =
   model top), `paintcheck.py` (paints every texel, plain + shiny: modcheck's sampling missed a missing palette key).
+- **Digital 0.13.0, Tamer basics** (the user's Digivice requests, staged in `/root/.claude/plans/hashed-prancing-clock.md`):
+  `digimon_gen` writes labels `digimon_<stage>` (baby1, baby2, child, adult, perfect, ultimate, super_ultimate),
+  `digimon_<attribute>` (wikimon's first: vaccine/data/virus/free/variable) and `digimon_field_<field>`; a Vaccine/Data/
+  Virus Digimon's route into one of the other two needs `aspect=digi_<attr>` (forced aspect from fragments/chips);
+  Jogress table `data/cobbleeffort_digital/digital/jogress.json` (wikimon DNA links + XV-mon/Stingmon, War Greymon/Metal
+  Garurumon); Digi-Eggs = `evolve_items` (item_interact) in build.py. **`build.py --data-only`** rebuilds species data in
+  ~80 s, reusing the written models/resolvers (use it whenever only data changes). Java (`digital/`): Attributes +
+  AttributeItem, DigitalEngine (`digital/digital_engine.js`: triangle 1.25x/0.8x, field 1.15x, Bug Code inverts;
+  tables `__ceDigi`/`__ceDigiField` by UUID on BATTLE_STARTED_PRE), FieldBuffs, Digivice (SimpleBagItemLike: scan, PC,
+  Tamer Energy on the stack, warp/Jogress via Cobblemon `TransformEffect` + `bag_items/digivolve.js`), DigiModifyCard
+  (`bag_items/digimodify.js`; Dot Virus/Bug Code are datapack moves `moves/dotvirus.js`, `bugcode.js` whose
+  conditions the cards add; GlitchLook shrinks on `-formechange <sp>-Pixelated`/`-Restored`), DigiFood/DigiCropBlock,
+  Training/TrainingBlock, DigiBall tiers + CatchRules (Perfect+ only by the Chrome ball), Chrome Digizoid, DarkAura.
+  Assets: `digital/tools/make_tamer.py` (run by make_assets.py). Engine test: `scratchpad/tools/digi_sim.js`. Bag items
+  are used by right-clicking your battling Pokémon (Cobblemon's own route); custom ones must be added to
+  `BagItems.bagItems` (done at SERVER_STARTING). Work for 0.14.0 (Digital World, Dark Towers, Black Market) sits in
+  `scratchpad/dig13` + `tools/make_world.py` there.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

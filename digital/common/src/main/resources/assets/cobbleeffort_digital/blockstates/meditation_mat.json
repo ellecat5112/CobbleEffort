@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobbleeffort_digital:block/meditation_mat"
+    },
+    "facing=east": {
+      "model": "cobbleeffort_digital:block/meditation_mat",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cobbleeffort_digital:block/meditation_mat",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cobbleeffort_digital:block/meditation_mat",
+      "y": 270
+    }
+  }
+}

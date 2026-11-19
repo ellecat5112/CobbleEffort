@@ -4659,10 +4659,33 @@ def write_model_assets(sp, hand, fold):
     return {"tex": tex, "layers": layers, "form_vars": form_vars, "top": top, "names": names}
 
 
+DATA_ONLY = False      # --data-only: keep the models, textures and resolvers already written; rebuild the data
+
+
+def reuse_model(sp, cfg):
+    """--data-only: take the layers from the resolvers the last full build wrote (models and textures stay)."""
+    rdir = RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder(sp)
+    v = json.loads((rdir / f"0_{sp}_base.json").read_text())["variations"]
+    shiny = lambda vs: next((x.get("layers", []) for x in vs if x.get("aspects") == ["shiny"] or x.get("aspects", [])[-1:] == ["shiny"]), [])
+    cfg["layers"] = {"": v[0].get("layers", []), "_shiny": shiny(v)}
+    cfg["form_layers"] = {}
+    for n, (aspect, mod_name) in enumerate(cfg.get("form_models", []), 1):
+        fhand = model_module(mod_name)
+        for f in cfg.get("forms", []):
+            if aspect in f.get("aspects", []):
+                f["baseScale"] = fhand.SCALE
+                f["hitbox"] = {"width": fhand.HITBOX[0], "height": fhand.HITBOX[1], "fixed": False}
+        fv = json.loads((rdir / f"{n}_{mod_name}.json").read_text())["variations"]
+        cfg["form_layers"][mod_name] = {"": fv[0].get("layers", []), "_shiny": shiny(fv)}
+
+
 def build_model(sp):
     cfg = SPECIES[sp]
     hand = model_module(sp)
     cfg.update(scale=hand.SCALE, hitbox=hand.HITBOX, look=hand.LOOK)
+    if DATA_ONLY:
+        reuse_model(sp, cfg)
+        return
     r = write_model_assets(sp, hand, folder(sp))
     tex, layers = r["tex"], r["layers"]
     cfg["layers"] = layers
@@ -4740,6 +4763,10 @@ def species_json(sp):
             d["evolutions"].append({"id": f"{sp}_{to2.split(':')[-1]}_{n}", "variant": "level_up", "result": rid(to2),
                                     "consumeHeldItem": bool(c.get("consume")), "learnableMoves": learn2,
                                     "requirements": [{"variant": "level", "minLevel": lv2}] + (more2[0] if more2 else [])})
+        for n, (to3, item3, learn3, *more3) in enumerate(c.get("evolve_items", []), 50):   # used items (Digi-Eggs)
+            d["evolutions"].append({"id": f"{sp}_{to3.split(':')[-1]}_{n}", "variant": "item_interact", "result": rid(to3),
+                                    "consumeHeldItem": False, "learnableMoves": learn3, "requiredContext": item3,
+                                    **({"requirements": more3[0]} if more3 else {})})
         if c.get("consume"):
             # Cobblemon takes the held item as soon as it OFFERS the evolution (the Evolve button), then drops offers
             # whose requirements stop passing unless they're permanent: like its own Happiny/Oval Stone evolution
@@ -4807,7 +4834,10 @@ def main():
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--showdown", type=Path, help="Cobblemon's data/cobblemon/showdown.zip: check moves and abilities")
+    ap.add_argument("--data-only", action="store_true", help="keep the written models/textures/resolvers, rebuild data")
     args = ap.parse_args()
+    global DATA_ONLY
+    DATA_ONLY = args.data_only
     if args.showdown:
         check(args.showdown)
     global RES
