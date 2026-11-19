@@ -4698,7 +4698,7 @@ def build_model(sp):
     if DATA_ONLY:
         reuse_model(sp, cfg)
         pf = RES / "assets" / MOD / "bedrock" / "pokemon" / "posers" / folder(sp) / f"{sp}.json"
-        if pf.exists():
+        if sp in DIGI_SIZES and "digimon" in cfg.get("labels", []) and pf.exists():   # Digimon: rescaled to lore size
             pz = json.loads(pf.read_text())
             fresh = poser("x", sp, hand.HITBOX[1] * 16, hand.SCALE, [])
             keys = ("portraitScale", "portraitTranslation", "profileScale", "profileTranslation")
