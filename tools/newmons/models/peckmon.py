@@ -3,7 +3,7 @@ on wikimon.net): the ninja bird: a fiery-crested bird-man in a violet ninja suit
 streaming behind, a blade strapped across its back, a wild red-orange crest of flame-like feathers and big yellow
 taloned feet. 15 blocks tall.
 
-Front is -z, y is up. 50 units tall; Adult stage.
+Front is -z, y is up. 64 units tall; Adult stage.
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ from _digibody import humanoid
 from _digidetail import fabric, feathers, metal, solid
 from _route import pal, tone
 
-HEIGHT = 50
+HEIGHT = 64
 SCALE, HITBOX = sized(15, HEIGHT, 3.6)
 KIND = "biped"
 K = 3

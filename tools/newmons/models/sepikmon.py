@@ -3,7 +3,7 @@ art on wikimon.net): the Armor Digimon of kindness: a tawny monkey-like spirit d
 oval mask-shield of red, blue and green, a crown of red-and-yellow feathers, a green grass ruff, bandaged limbs, and a
 huge painted boomerang. 15 blocks.
 
-Front is -z, y is up. 50 units tall; Adult stage.
+Front is -z, y is up. 66 units tall; Adult stage.
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ from _digibody import humanoid
 from _digidetail import fabric, fur, solid
 from _route import pal, tone
 
-HEIGHT = 50
+HEIGHT = 66
 SCALE, HITBOX = sized(15, HEIGHT, 5.0)
 KIND = "biped"
 K = 3
