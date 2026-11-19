@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:negamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:negamon",
+   "model": "cobbleeffort:negamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4262_negamon/negamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4262_negamon/negamon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4262_negamon/negamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4262_negamon/negamon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

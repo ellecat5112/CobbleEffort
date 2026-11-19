@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:pteranomonxantibody",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pteranomonxantibody",
+   "model": "cobbleeffort:pteranomonxantibody.geo",
+   "texture": "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_glow_0.png",
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_glow_1.png",
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4400_pteranomonxantibody/pteranomonxantibody_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

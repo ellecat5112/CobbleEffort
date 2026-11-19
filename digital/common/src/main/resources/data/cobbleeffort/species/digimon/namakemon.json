@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4254,
+ "name": "Namakemon",
+ "primaryType": "normal",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.namakemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "comatose",
+  "h:stickyhold"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 5.455,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:astonish",
+  "9:quickattack",
+  "13:shadowsneak",
+  "17:headbutt",
+  "21:hex",
+  "25:slam",
+  "29:shadowclaw",
+  "33:bodyslam",
+  "37:shadowpunch",
+  "41:doubleedge",
+  "45:shadowball",
+  "49:hypervoice",
+  "53:phantomforce",
+  "57:gigaimpact",
+  "61:poltergeist",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:hypervoice",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "namakemon_boutmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:boutmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "namakemon_climbmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:climbmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "namakemon_divemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:divemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ]
+}

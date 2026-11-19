@@ -396,6 +396,32 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "koromon_pawnchessmonblack_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:pawnchessmonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "koromon_picodevimon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:picodevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:botamon"

@@ -13,13 +13,15 @@ from _digidetail import skin, solid
 from _route import pal, tone
 
 
-def make(name, red=False):
+def make(name, red=False, colours=None, shiny_colours=None):
     hide = (200, 60, 70) if red else (60, 110, 210)
     hide_dark = (120, 20, 30) if red else (20, 50, 140)
     base = {"hide": hide, "hide_dark": hide_dark, "belly": (240, 230, 200), "belly_dark": (190, 176, 140),
             "claw": (230, 230, 236), "eye": (200, 30, 30), "white": (250, 250, 250), "mouth": (170, 40, 50),
             "tooth": (250, 250, 240), "horn": (230, 230, 236)}
     shiny = {"hide": (70, 160, 80), "hide_dark": (24, 90, 30)} if red else {"hide": (230, 180, 60), "hide_dark": (160, 110, 20)}
+    base.update(colours or {})
+    shiny = dict(shiny, **(shiny_colours or {}))
 
     def P(v):
         return pal(base, shiny, v)

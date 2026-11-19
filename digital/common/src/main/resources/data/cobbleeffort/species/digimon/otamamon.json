@@ -1,0 +1,440 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4317,
+ "name": "Otamamon",
+ "primaryType": "water",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.otamamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "h:waterabsorb"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.667,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "9:aquajet",
+  "17:waterpulse",
+  "25:bubblebeam",
+  "33:aquatail",
+  "41:surf",
+  "49:liquidation",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "otamamon_allomonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_bladekuwagamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bladekuwagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_coelamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:coelamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_depthmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:depthmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_frogmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:frogmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_gekomon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:gekomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_geremon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:geremon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_gesomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_gesomonxantibody_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_gladimon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:gladimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_greymonxantibody_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_hookmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:hookmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_karatukinumemon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:karatukinumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_kuwagamon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuwagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_manbomon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:manbomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_mantaraymon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantaraymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_mantaraymonxantibody_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantaraymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_maquinamon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:maquinamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_meicoomon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_mojyamon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:mojyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_monochromon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_numemon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_octmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:octmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_otamamonxantibody_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:otamamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamon_platinumscumon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:platinumscumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:babydmon"
+}

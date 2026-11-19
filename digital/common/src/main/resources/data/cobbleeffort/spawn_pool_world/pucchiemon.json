@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pucchiemon-wild",
+   "pokemon": "cobbleeffort:pucchiemon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "uncommon",
+   "level": "20-35",
+   "weight": 1.2,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_forest",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_savanna"
+    ]
+   }
+  }
+ ]
+}

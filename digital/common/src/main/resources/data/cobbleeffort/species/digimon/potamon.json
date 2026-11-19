@@ -1,0 +1,143 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4389,
+ "name": "Potamon",
+ "primaryType": "grass",
+ "secondaryType": "ground",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.potamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "gluttony",
+  "h:thickfat"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:mudslap",
+  "9:razorleaf",
+  "13:mudshot",
+  "17:bulletseed",
+  "21:bulldoze",
+  "25:gigadrain",
+  "29:dig",
+  "33:seedbomb",
+  "37:drillrun",
+  "41:energyball",
+  "45:earthpower",
+  "49:powerwhip",
+  "53:earthquake",
+  "57:leafstorm",
+  "61:highhorsepower",
+  "tm:dig",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:leafstorm",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "potamon_jyagamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:jyagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ]
+}

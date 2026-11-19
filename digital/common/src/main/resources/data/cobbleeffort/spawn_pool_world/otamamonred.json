@@ -1,0 +1,30 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "otamamonred-wild",
+   "pokemon": "cobbleeffort:otamamonred",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "8-22",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_beach",
+     "#cobblemon:is_river",
+     "#cobblemon:is_swamp",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_savanna"
+    ]
+   }
+  }
+ ]
+}

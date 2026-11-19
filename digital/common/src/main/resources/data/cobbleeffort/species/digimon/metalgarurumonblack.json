@@ -127,5 +127,33 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "metalgarurumonblack_omegamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "metalgarurumonblack_omegamonzwart_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonzwart",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:catchmamemon"
 }

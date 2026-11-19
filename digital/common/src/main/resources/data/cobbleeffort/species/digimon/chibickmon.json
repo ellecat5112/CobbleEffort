@@ -132,6 +132,19 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "chibickmon_pickmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:pickmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 5
+    }
+   ]
   }
  ]
 }

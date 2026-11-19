@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ordinemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ordinemon",
+   "model": "cobbleeffort:ordinemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4312_ordinemon/ordinemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

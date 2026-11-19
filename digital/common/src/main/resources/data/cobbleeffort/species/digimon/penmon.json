@@ -1,0 +1,454 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4350,
+ "name": "Penmon",
+ "primaryType": "ice",
+ "secondaryType": "water",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.penmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "icebody",
+  "h:swiftswim"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 70,
+  "defence": 55,
+  "special_attack": 35,
+  "special_defence": 50,
+  "speed": 55
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:snowball",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:powdersnow",
+  "5:watergun",
+  "9:iceshard",
+  "13:aquajet",
+  "17:icywind",
+  "21:waterpulse",
+  "25:icefang",
+  "29:bubblebeam",
+  "33:aurorabeam",
+  "37:aquatail",
+  "41:icebeam",
+  "45:surf",
+  "49:iciclecrash",
+  "53:liquidation",
+  "tm:aquatail",
+  "tm:aurorabeam",
+  "tm:blizzard",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:icebeam",
+  "tm:icefang",
+  "tm:iciclecrash",
+  "tm:liquidation",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:snowscape",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "penmon_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_akatorimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:akatorimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_aquilamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:aquilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_bakemon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_birdramon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_buraimon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:buraimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "penmon_chackmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:chackmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_cockatrimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:cockatrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_diatrymon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:diatrymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_dobermon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:dobermon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_ebidramon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:ebidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_garurumon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_gesomon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_greymon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_ikkakumon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:ikkakumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_kiwimon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:kiwimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_leomon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_meramon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:meramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_mojyamon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:mojyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_monochromon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_nanimon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_numemon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_octmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:octmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_orcamon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:orcamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "penmon_peckmon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:chicchimon"
+}

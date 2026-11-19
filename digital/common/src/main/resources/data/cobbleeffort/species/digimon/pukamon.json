@@ -1,0 +1,282 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4405,
+ "name": "Pukamon",
+ "primaryType": "water",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.pukamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "h:flashfire"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 35,
+  "attack": 30,
+  "defence": 35,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "slow",
+ "catchRate": 220,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.444,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "9:aquajet",
+  "17:waterpulse",
+  "25:bubblebeam",
+  "33:aquatail",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:liquidation",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "pukamon_betamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:betamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_chibikamemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:chibikamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_clearagumon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:clearagumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_coronamon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:coronamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_ganimon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:ganimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_gizamon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:gizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_gomamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:gomamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_gumdramon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:gumdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_jellymon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:jellymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_koemon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:koemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_lunamon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:lunamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_otamamon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:otamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pukamon_penmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:penmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:pitchmon"
+}

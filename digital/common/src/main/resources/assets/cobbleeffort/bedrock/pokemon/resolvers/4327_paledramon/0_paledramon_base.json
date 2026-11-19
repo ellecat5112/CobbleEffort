@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:paledramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:paledramon",
+   "model": "cobbleeffort:paledramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4327_paledramon/paledramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4327_paledramon/paledramon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

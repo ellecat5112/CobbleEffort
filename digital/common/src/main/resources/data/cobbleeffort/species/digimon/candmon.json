@@ -449,6 +449,19 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "candmon_peckmon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:koromon"

@@ -1,0 +1,183 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4275,
+ "name": "Noble Pumpmon",
+ "primaryType": "grass",
+ "secondaryType": "ghost",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.noblepumpmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magician",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 70,
+  "defence": 85,
+  "special_attack": 130,
+  "special_defence": 105,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 15,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 4.4,
+  "height": 4.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:astonish",
+  "9:razorleaf",
+  "13:shadowsneak",
+  "17:bulletseed",
+  "21:hex",
+  "25:gigadrain",
+  "29:shadowclaw",
+  "33:seedbomb",
+  "37:shadowpunch",
+  "41:energyball",
+  "45:shadowball",
+  "49:powerwhip",
+  "53:phantomforce",
+  "57:leafstorm",
+  "61:poltergeist",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:hex",
+  "tm:leafstorm",
+  "tm:phantomforce",
+  "tm:poltergeist",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:shadowball",
+  "tm:shadowclaw",
+  "tm:shadowpunch",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "noblepumpmon_duftmonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:duftmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "noblepumpmon_dukemonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:dukemonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "noblepumpmon_lordknightmonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:lordknightmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "noblepumpmon_omegamonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:baalmon"
+}

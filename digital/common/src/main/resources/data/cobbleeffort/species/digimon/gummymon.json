@@ -223,6 +223,20 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "gummymon_palmonxantibody_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:palmonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:poyomon"
 }

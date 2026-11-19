@@ -1,0 +1,352 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4359,
+ "name": "Piccolomon",
+ "primaryType": "fairy",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.piccolomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "prankster",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 11.111,
+ "hitbox": {
+  "width": 3.0,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:glowstone_dust",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:fairywind",
+  "5:gust",
+  "9:disarmingvoice",
+  "13:wingattack",
+  "17:drainingkiss",
+  "21:aerialace",
+  "25:dazzlinggleam",
+  "29:aircutter",
+  "33:playrough",
+  "37:airslash",
+  "41:moonblast",
+  "45:drillpeck",
+  "49:spiritbreak",
+  "53:bravebird",
+  "57:fleurcannon",
+  "61:hurricane",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:dazzlinggleam",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:spiritbreak",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "piccolomon_babamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:babamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_bacchusmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bacchusmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_bloomlordmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:bloomlordmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_bolgmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:bolgmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_bryweludramon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:bryweludramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_cherubimonvirtue_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:cherubimonvirtue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_clavisangemon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:clavisangemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_deathmonblack_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathmonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_devitamamon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:devitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_eldoradimon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:eldoradimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_griffomon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:griffomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_hououmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:hououmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_jijimon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:jijimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_marinangemon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:marinangemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_marsmon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:marsmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_ofanimon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:ofanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "piccolomon_piemon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:piemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:airdramon"
+}

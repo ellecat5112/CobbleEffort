@@ -224,6 +224,58 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "budmon_palmon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:palmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "budmon_pawnchessmonblack_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:pawnchessmonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "budmon_pawnchessmonwhite_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:pawnchessmonwhite",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "budmon_piyomon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:piyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:botamon"

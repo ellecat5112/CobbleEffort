@@ -1,0 +1,301 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4347,
+ "name": "Peckmon",
+ "primaryType": "flying",
+ "secondaryType": "fighting",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.peckmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "infiltrator",
+  "h:speedboost"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 3.6,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:gust",
+  "5:lowkick",
+  "9:wingattack",
+  "13:karatechop",
+  "17:aerialace",
+  "21:machpunch",
+  "25:aircutter",
+  "29:brickbreak",
+  "33:airslash",
+  "37:drainpunch",
+  "41:drillpeck",
+  "45:aurasphere",
+  "49:bravebird",
+  "53:closecombat",
+  "57:hurricane",
+  "61:focusblast",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:aurasphere",
+  "tm:bravebird",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "peckmon_andiramondeva",
+   "variant": "level_up",
+   "result": "cobbleeffort:andiramondeva",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_blossomon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:blossomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_cyberdramon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyberdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_delumon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:delumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_hippogriffomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:hippogriffomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_jazarichmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:jazarichmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_karatenmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:karatenmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_machgaogamon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:machgaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_mammon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:mammon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_megalogrowmon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:megalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_megaseadramon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:megaseadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_parrotmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:parrotmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "peckmon_piccolomon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:piccolomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumonhakase"
+}

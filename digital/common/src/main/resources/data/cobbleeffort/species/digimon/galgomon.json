@@ -256,6 +256,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "galgomon_pajiramon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:pajiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "galgomon_pandamon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:pandamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "galgomon_prairiemon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:prairiemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bearmon"

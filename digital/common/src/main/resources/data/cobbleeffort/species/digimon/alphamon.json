@@ -127,5 +127,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "alphamon_omegamonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:metalgreymon"
 }

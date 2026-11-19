@@ -1,0 +1,223 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4279,
+ "name": "Numemon X-Antibody",
+ "primaryType": "poison",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.numemonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "stench",
+  "h:strongjaw"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 4.4,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:spider_eye",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:poisonsting",
+  "5:bite",
+  "9:acid",
+  "13:pursuit",
+  "17:poisonfang",
+  "21:assurance",
+  "25:venoshock",
+  "29:nightslash",
+  "33:poisonjab",
+  "37:crunch",
+  "41:sludgebomb",
+  "45:darkpulse",
+  "49:gunkshot",
+  "53:knockoff",
+  "57:sludgewave",
+  "61:foulplay",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:gunkshot",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "numemonxantibody_kaiserleomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:kaiserleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_ladydevimonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:ladydevimonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_megaseadramonxantibody_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:megaseadramonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_mephismonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:mephismonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_metalfantomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalfantomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_metalgreymonvirusxantibody_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymonvirusxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemonxantibody_okuwamonxantibody_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:okuwamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumonblackxantibody"
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:pickmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pickmon",
+   "model": "cobbleeffort:pickmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4360_pickmon/pickmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4360_pickmon/pickmon_shiny.png"
+  }
+ ]
+}

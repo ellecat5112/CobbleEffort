@@ -126,5 +126,46 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "metalgarurumonxantibody_omegamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "metalgarurumonxantibody_omegamonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "metalgarurumonxantibody_omegamonzwart_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonzwart",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:metalgreymon"
 }

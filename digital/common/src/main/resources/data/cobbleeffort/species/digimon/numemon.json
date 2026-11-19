@@ -1,0 +1,441 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4278,
+ "name": "Numemon",
+ "primaryType": "poison",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.numemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "stench",
+  "h:stickyhold"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 8.0,
+ "hitbox": {
+  "width": 4.4,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:spider_eye",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:poisonsting",
+  "9:acid",
+  "17:poisonfang",
+  "25:venoshock",
+  "33:poisonjab",
+  "41:sludgebomb",
+  "49:gunkshot",
+  "57:sludgewave",
+  "tm:endure",
+  "tm:facade",
+  "tm:gunkshot",
+  "tm:helpinghand",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "numemon_archnemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:archnemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_blackkingnumemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackkingnumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_caturamon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:caturamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_darksuperstarmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:darksuperstarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_digitamamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_etemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_gerbemon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:gerbemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_giganticnumemon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:giganticnumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "numemon_goldnumemonultimate_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:goldnumemonultimate",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "numemon_hisyaryumon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:hisyaryumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_infermon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:infermon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_jyagamon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:jyagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_karatukinumemon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:karatukinumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "numemon_lilamon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:lilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_machgaogamon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:machgaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_maildramon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "numemon_megadramon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:megadramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_metalgreymon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_mihiramon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:mihiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_monzaemon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:monzaemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_pajiramon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:pajiramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_parrotmon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:parrotmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "numemon_platinumnumemon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:platinumnumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "numemon_platinumscumon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:platinumscumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "numemon_pumpmon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:pumpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

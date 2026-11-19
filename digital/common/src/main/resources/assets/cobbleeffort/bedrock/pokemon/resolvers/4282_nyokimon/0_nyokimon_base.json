@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:nyokimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:nyokimon",
+   "model": "cobbleeffort:nyokimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4282_nyokimon/nyokimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

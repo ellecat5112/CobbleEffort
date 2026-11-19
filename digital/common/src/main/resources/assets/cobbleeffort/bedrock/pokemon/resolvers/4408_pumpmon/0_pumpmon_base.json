@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:pumpmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pumpmon",
+   "model": "cobbleeffort:pumpmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4408_pumpmon/pumpmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:parrotmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:parrotmon",
+   "model": "cobbleeffort:parrotmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4340_parrotmon/parrotmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4340_parrotmon/parrotmon_shiny.png"
+  }
+ ]
+}

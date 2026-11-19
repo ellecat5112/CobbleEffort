@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:panoptemon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:panoptemon",
+   "model": "cobbleeffort:panoptemon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4335_panoptemon/panoptemon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

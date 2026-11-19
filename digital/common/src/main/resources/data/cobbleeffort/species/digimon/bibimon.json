@@ -121,6 +121,19 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "bibimon_pulsemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:pulsemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:dokimon"

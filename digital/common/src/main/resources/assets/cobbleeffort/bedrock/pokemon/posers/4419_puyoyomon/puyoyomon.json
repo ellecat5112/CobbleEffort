@@ -1,0 +1,71 @@
+{
+ "portraitScale": 1.6,
+ "portraitTranslation": [
+  0,
+  0.28,
+  0
+ ],
+ "profileScale": 0.95,
+ "profileTranslation": [
+  0,
+  0.12,
+  0
+ ],
+ "rootBone": "puyoyomon",
+ "animations": {
+  "cry": "q.bedrock_stateful('cobbleeffort_puyoyomon', 'cry')",
+  "physical": "q.bedrock_primary('cobbleeffort_puyoyomon', 'physical', q.curve('symmetrical_wide'))",
+  "special": "q.bedrock_primary('cobbleeffort_puyoyomon', 'special', q.curve('symmetrical_wide'))",
+  "status": "q.bedrock_primary('cobbleeffort_puyoyomon', 'status', q.curve('symmetrical_wide'))",
+  "faint": "q.bedrock_primary('cobbleeffort_puyoyomon', 'faint', q.curve('one'))"
+ },
+ "poses": {
+  "battle_standing": {
+   "poseTypes": [
+    "STAND",
+    "FLOAT",
+    "HOVER"
+   ],
+   "isBattle": true,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_puyoyomon', 'battle_idle')"
+   ]
+  },
+  "standing": {
+   "poseTypes": [
+    "STAND",
+    "NONE",
+    "FLOAT",
+    "HOVER",
+    "PORTRAIT",
+    "PROFILE"
+   ],
+   "isBattle": false,
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_puyoyomon', 'ground_idle')"
+   ]
+  },
+  "walking": {
+   "poseTypes": [
+    "WALK",
+    "SWIM",
+    "FLY"
+   ],
+   "transformTicks": 10,
+   "animations": [
+    "q.bedrock('cobbleeffort_puyoyomon', 'ground_walk')"
+   ]
+  },
+  "sleeping": {
+   "poseTypes": [
+    "SLEEP"
+   ],
+   "transformTicks": 20,
+   "animations": [
+    "q.bedrock('cobbleeffort_puyoyomon', 'sleep')"
+   ]
+  }
+ }
+}

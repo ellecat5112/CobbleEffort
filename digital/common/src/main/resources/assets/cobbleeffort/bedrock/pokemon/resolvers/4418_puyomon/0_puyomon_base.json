@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:puyomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:puyomon",
+   "model": "cobbleeffort:puyomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4418_puyomon/puyomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4418_puyomon/puyomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4418_puyomon/puyomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4418_puyomon/puyomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

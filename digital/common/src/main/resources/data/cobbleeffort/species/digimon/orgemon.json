@@ -1,0 +1,496 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4313,
+ "name": "Orgemon",
+ "primaryType": "dark",
+ "secondaryType": "fighting",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.orgemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "guts",
+  "h:intimidate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 3.75,
+ "hitbox": {
+  "width": 4.0,
+  "height": 4.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:lowkick",
+  "9:pursuit",
+  "13:karatechop",
+  "17:assurance",
+  "21:machpunch",
+  "25:nightslash",
+  "29:brickbreak",
+  "33:crunch",
+  "37:drainpunch",
+  "41:darkpulse",
+  "45:aurasphere",
+  "49:knockoff",
+  "53:closecombat",
+  "57:foulplay",
+  "61:focusblast",
+  "tm:aurasphere",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:drainpunch",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "orgemon_andromon",
+   "variant": "level_up",
+   "result": "cobbleeffort:andromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_anomalocarimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:anomalocarimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_archnemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:archnemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_asuramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:asuramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_atlurkabuterimonred_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:atlurkabuterimonred",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_blackmegalogrowmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackmegalogrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_chimairamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:chimairamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_dagomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:dagomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_deathmeramon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathmeramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_digitamamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_etemon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_gerbemon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:gerbemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_giromon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:giromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_indaramon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:indaramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_jyagamon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:jyagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_knightmon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:knightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_maildramon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "orgemon_mamemon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:mamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_matadrmon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:matadrmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_mephismon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:mephismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_metalgreymon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:metalgreymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_metaltyranomon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:metaltyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_minotaurmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:minotaurmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "orgemon_mummymon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:mummymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_neodevimon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:neodevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_pandamon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:pandamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_piccolomon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:piccolomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "orgemon_platinumscumon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:platinumscumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

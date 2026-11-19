@@ -1,0 +1,257 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4323,
+ "name": "Pagumon",
+ "primaryType": "dark",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.pagumon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "prankster",
+  "h:pickpocket"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 35,
+  "attack": 30,
+  "defence": 35,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "slow",
+ "catchRate": 220,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.571,
+ "hitbox": {
+  "width": 1.6,
+  "height": 0.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "9:pursuit",
+  "17:assurance",
+  "25:nightslash",
+  "33:crunch",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "pagumon_agumonblack",
+   "variant": "level_up",
+   "result": "cobbleeffort:agumonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_bearmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bearmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_gazimon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:gazimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_ghostmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:ghostmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_gizamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:gizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_goburimon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:goburimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_gottsumon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:gottsumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_impmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:impmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_lopmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:lopmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_otamamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:otamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pagumon_picodevimon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:picodevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:botamon"
+}

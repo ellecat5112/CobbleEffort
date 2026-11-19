@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:nefertimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:nefertimon",
+   "model": "cobbleeffort:nefertimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4260_nefertimon/nefertimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

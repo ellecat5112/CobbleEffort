@@ -1,0 +1,29 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "onibimon-wild",
+   "pokemon": "cobbleeffort:onibimon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "3-10",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_spooky",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_savanna"
+    ],
+    "timeRange": "night"
+   }
+  }
+ ]
+}

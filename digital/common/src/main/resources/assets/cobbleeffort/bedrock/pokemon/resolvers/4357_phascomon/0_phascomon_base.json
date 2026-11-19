@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:phascomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:phascomon",
+   "model": "cobbleeffort:phascomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4357_phascomon/phascomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4357_phascomon/phascomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4357_phascomon/phascomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4357_phascomon/phascomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

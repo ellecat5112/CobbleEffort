@@ -487,6 +487,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "elecmon_nanimon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "elecmon_numemon_31",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "elecmon_peckmon_32",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:chapmon"

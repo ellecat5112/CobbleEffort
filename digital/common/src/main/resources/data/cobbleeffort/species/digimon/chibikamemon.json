@@ -293,6 +293,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "chibikamemon_numemon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "chibikamemon_octmon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:octmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "chibikamemon_peckmon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:koromon"

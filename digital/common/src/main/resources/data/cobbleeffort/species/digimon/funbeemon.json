@@ -226,6 +226,19 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "funbeemon_omekamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:omekamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:mochimon"

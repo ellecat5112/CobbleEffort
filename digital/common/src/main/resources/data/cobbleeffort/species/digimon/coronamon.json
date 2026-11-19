@@ -266,6 +266,20 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "coronamon_pidmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:petimeramon"
 }

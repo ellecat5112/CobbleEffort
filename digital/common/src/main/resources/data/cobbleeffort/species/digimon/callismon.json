@@ -126,5 +126,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "callismon_parallelmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:parallelmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:greatgryzmon"
 }

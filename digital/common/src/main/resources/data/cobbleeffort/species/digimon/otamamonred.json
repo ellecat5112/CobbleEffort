@@ -1,0 +1,298 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4318,
+ "name": "Otamamon Red",
+ "primaryType": "water",
+ "secondaryType": "fire",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.otamamonred.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "swiftswim",
+  "h:flashfire"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.667,
+ "hitbox": {
+  "width": 1.6,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_shard",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:watergun",
+  "5:ember",
+  "9:aquajet",
+  "13:flamecharge",
+  "17:waterpulse",
+  "21:firefang",
+  "25:bubblebeam",
+  "29:incinerate",
+  "33:aquatail",
+  "37:flamethrower",
+  "41:surf",
+  "45:lavaplume",
+  "49:liquidation",
+  "53:fireblast",
+  "tm:aquatail",
+  "tm:bubblebeam",
+  "tm:endure",
+  "tm:facade",
+  "tm:fireblast",
+  "tm:flamethrower",
+  "tm:helpinghand",
+  "tm:hydropump",
+  "tm:incinerate",
+  "tm:lavaplume",
+  "tm:liquidation",
+  "tm:overheat",
+  "tm:protect",
+  "tm:raindance",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:sunnyday",
+  "tm:surf",
+  "tm:terablast",
+  "tm:willowisp"
+ ],
+ "evolutions": [
+  {
+   "id": "otamamonred_allomonxantibody",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_depthmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:depthmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_frogmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:frogmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_gekomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:gekomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_gesomonxantibody_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:gesomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_gladimon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:gladimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_greymon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_hookmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:hookmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_manbomon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:manbomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_mantaraymon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantaraymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_mantaraymonxantibody_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantaraymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_mojyamon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:mojyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "otamamonred_octmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:octmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

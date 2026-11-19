@@ -1,0 +1,197 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4351,
+ "name": "Petaldramon",
+ "primaryType": "grass",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.petaldramon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "grassysurge",
+  "h:regenerator"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 13.333,
+ "hitbox": {
+  "width": 5.0,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "5:dragonbreath",
+  "9:razorleaf",
+  "13:dragontail",
+  "17:bulletseed",
+  "21:dragonclaw",
+  "25:gigadrain",
+  "29:breakingswipe",
+  "33:seedbomb",
+  "37:dragonpulse",
+  "41:energyball",
+  "45:dragonrush",
+  "49:powerwhip",
+  "53:outrage",
+  "57:leafstorm",
+  "61:dracometeor",
+  "tm:breakingswipe",
+  "tm:dracometeor",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:dragonrush",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:leafstorm",
+  "tm:outrage",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "petaldramon_ancientirismon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancientirismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "petaldramon_ancienttroiamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:ancienttroiamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "petaldramon_jyureimon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:jyureimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 45
+    }
+   ]
+  },
+  {
+   "id": "petaldramon_lordknightmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:lordknightmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "petaldramon_lotusmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:lotusmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:arbormon"
+}

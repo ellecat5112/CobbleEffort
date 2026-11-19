@@ -1,0 +1,131 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4335,
+ "name": "Panoptemon",
+ "primaryType": "flying",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 250,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.panoptemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "keeneye",
+  "h:forewarn"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 60,
+  "defence": 75,
+  "special_attack": 110,
+  "special_defence": 90,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 210,
+ "experienceGroup": "slow",
+ "catchRate": 45,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.667,
+ "hitbox": {
+  "width": 4.4,
+  "height": 3.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:gust",
+  "5:confusion",
+  "9:wingattack",
+  "13:psybeam",
+  "17:aerialace",
+  "21:zenheadbutt",
+  "25:aircutter",
+  "29:psyshock",
+  "33:airslash",
+  "37:psychocut",
+  "41:drillpeck",
+  "45:psychic",
+  "49:bravebird",
+  "53:futuresight",
+  "57:hurricane",
+  "61:expandingforce",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:calmmind",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:lightscreen",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ]
+}

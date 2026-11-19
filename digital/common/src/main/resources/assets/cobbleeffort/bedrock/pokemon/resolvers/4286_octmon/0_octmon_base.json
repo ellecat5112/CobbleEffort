@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:octmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:octmon",
+   "model": "cobbleeffort:octmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4286_octmon/octmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4286_octmon/octmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4286_octmon/octmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

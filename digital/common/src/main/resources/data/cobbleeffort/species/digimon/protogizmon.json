@@ -1,0 +1,142 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4396,
+ "name": "Proto Gizmon",
+ "primaryType": "steel",
+ "secondaryType": "bug",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.protogizmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "download",
+  "h:levitate"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 2.6,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_nugget",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:metalclaw",
+  "5:bugbite",
+  "9:mirrorshot",
+  "13:strugglebug",
+  "17:ironhead",
+  "21:furycutter",
+  "25:flashcannon",
+  "29:signalbeam",
+  "33:smartstrike",
+  "37:xscissor",
+  "41:meteormash",
+  "45:bugbuzz",
+  "49:heavyslam",
+  "53:lunge",
+  "tm:bugbuzz",
+  "tm:endure",
+  "tm:facade",
+  "tm:flashcannon",
+  "tm:heavyslam",
+  "tm:helpinghand",
+  "tm:irondefense",
+  "tm:ironhead",
+  "tm:lunge",
+  "tm:megahorn",
+  "tm:meteormash",
+  "tm:protect",
+  "tm:rest",
+  "tm:signalbeam",
+  "tm:sleeptalk",
+  "tm:smartstrike",
+  "tm:steelbeam",
+  "tm:substitute",
+  "tm:terablast",
+  "tm:uturn",
+  "tm:xscissor"
+ ],
+ "evolutions": [
+  {
+   "id": "protogizmon_gizmonat",
+   "variant": "level_up",
+   "result": "cobbleeffort:gizmonat",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ]
+}

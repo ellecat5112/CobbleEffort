@@ -343,6 +343,33 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "floramon_numemon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "floramon_ponchomon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:ponchomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:pyocomon"
 }

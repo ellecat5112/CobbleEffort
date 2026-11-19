@@ -1,0 +1,819 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4341,
+ "name": "Patamon",
+ "primaryType": "normal",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.patamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "serenegrace",
+  "h:runaway"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:gust",
+  "9:quickattack",
+  "13:wingattack",
+  "17:headbutt",
+  "21:aerialace",
+  "25:slam",
+  "29:aircutter",
+  "33:bodyslam",
+  "37:airslash",
+  "41:doubleedge",
+  "45:drillpeck",
+  "49:hypervoice",
+  "53:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bodyslam",
+  "tm:bravebird",
+  "tm:doubleedge",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:hypervoice",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "patamon_agnimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:agnimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_airdramon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_angemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:angemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_ankylomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:ankylomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_aquilamon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:aquilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_bakemon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_baromon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:baromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_biostegomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:biostegomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_birdramon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_blacktailmon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:blacktailmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_centalmon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:centalmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_chackmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:chackmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_coatlmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:coatlmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_cockatrimon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:cockatrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_darcmon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:darcmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_deltamon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:deltamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_devidramon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:devidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_devimon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:devimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_diatrymon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:diatrymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_dinohumon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:dinohumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_drimogemon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:drimogemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_fladramon_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:fladramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_garurumon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_geremon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:geremon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_gorimon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:gorimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_greymon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_growmonorange_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:growmonorange",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_icedevimon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:icedevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_igamon_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:igamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_kyubimon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:kyubimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_lekismon_31",
+   "variant": "level_up",
+   "result": "cobbleeffort:lekismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_leomon_32",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_liamon_33",
+   "variant": "level_up",
+   "result": "cobbleeffort:liamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_magnamon_34",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "patamon_manbomon_35",
+   "variant": "level_up",
+   "result": "cobbleeffort:manbomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_mantaraymon_36",
+   "variant": "level_up",
+   "result": "cobbleeffort:mantaraymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_meicoomon_37",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_mimicmon_38",
+   "variant": "level_up",
+   "result": "cobbleeffort:mimicmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_mojyamon_39",
+   "variant": "level_up",
+   "result": "cobbleeffort:mojyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_mothmon_40",
+   "variant": "level_up",
+   "result": "cobbleeffort:mothmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_musyamon_41",
+   "variant": "level_up",
+   "result": "cobbleeffort:musyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_nanimon_42",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_nefertimon_43",
+   "variant": "level_up",
+   "result": "cobbleeffort:nefertimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_nefertimonxantibody_44",
+   "variant": "level_up",
+   "result": "cobbleeffort:nefertimonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_numemon_45",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_orgemon_46",
+   "variant": "level_up",
+   "result": "cobbleeffort:orgemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_pegasmon_47",
+   "variant": "level_up",
+   "result": "cobbleeffort:pegasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_pidmon_48",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "patamon_pipismon_49",
+   "variant": "level_up",
+   "result": "cobbleeffort:pipismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "patamon_ponchomon_50",
+   "variant": "level_up",
+   "result": "cobbleeffort:ponchomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_prairiemon_51",
+   "variant": "level_up",
+   "result": "cobbleeffort:prairiemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_pteranomon_52",
+   "variant": "level_up",
+   "result": "cobbleeffort:pteranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "patamon_pteranomonxantibody_53",
+   "variant": "level_up",
+   "result": "cobbleeffort:pteranomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:cupimon"
+}

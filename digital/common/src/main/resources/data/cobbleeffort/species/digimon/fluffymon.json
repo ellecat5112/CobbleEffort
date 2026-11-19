@@ -119,5 +119,20 @@
   "tm:swordsdance",
   "tm:tailwind",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "fluffymon_pteromon",
+   "variant": "level_up",
+   "result": "cobbleeffort:pteromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
  ]
 }

@@ -1,0 +1,347 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4420,
+ "name": "Pyocomon",
+ "primaryType": "grass",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.pyocomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "chlorophyll",
+  "h:flowerveil"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 35,
+  "attack": 30,
+  "defence": 35,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "slow",
+ "catchRate": 220,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.444,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:wheat_seeds",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:vinewhip",
+  "9:razorleaf",
+  "17:bulletseed",
+  "25:gigadrain",
+  "33:seedbomb",
+  "tm:endure",
+  "tm:energyball",
+  "tm:facade",
+  "tm:gigadrain",
+  "tm:grassknot",
+  "tm:helpinghand",
+  "tm:leafstorm",
+  "tm:powerwhip",
+  "tm:protect",
+  "tm:rest",
+  "tm:seedbomb",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "pyocomon_cutemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:cutemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_elecmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:elecmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_elecmonviolet_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:elecmonviolet",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_floramon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:floramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_gazimon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:gazimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_hawkmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:hawkmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_hyokomon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:hyokomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_jazamon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:jazamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_kunemon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:kunemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_luxmon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:luxmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_muchomon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:muchomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_mushmon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:mushmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_palmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:palmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_penmon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:penmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_phascomon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:phascomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_picodevimon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:picodevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_piyomon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:piyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pyocomon_pteromon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:pteromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:bubbmon"
+}

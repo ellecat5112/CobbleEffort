@@ -123,5 +123,20 @@
   "tm:stoneedge",
   "tm:substitute",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "landramon_proganomon",
+   "variant": "level_up",
+   "result": "cobbleeffort:proganomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
  ]
 }

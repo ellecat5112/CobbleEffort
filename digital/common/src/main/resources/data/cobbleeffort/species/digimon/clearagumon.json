@@ -319,6 +319,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "clearagumon_numemon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "clearagumon_peacockmon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:peacockmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "clearagumon_pidmon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:gummymon"

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:pidmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pidmon",
+   "model": "cobbleeffort:pidmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4362_pidmon/pidmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4362_pidmon/pidmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

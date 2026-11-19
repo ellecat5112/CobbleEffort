@@ -1,0 +1,19 @@
+{
+ "species": "cobbleeffort:penmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:penmon",
+   "model": "cobbleeffort:penmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4350_penmon/penmon.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4350_penmon/penmon_shiny.png"
+  }
+ ]
+}

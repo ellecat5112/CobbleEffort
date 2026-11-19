@@ -121,5 +121,20 @@
   "tm:substitute",
   "tm:swordsdance",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "culumon_plotmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:plotmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
  ]
 }

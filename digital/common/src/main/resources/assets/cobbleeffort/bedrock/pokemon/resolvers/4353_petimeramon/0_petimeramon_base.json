@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:petimeramon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:petimeramon",
+   "model": "cobbleeffort:petimeramon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4353_petimeramon/petimeramon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

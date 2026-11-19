@@ -1,0 +1,158 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4274,
+ "name": "Nise Drimogemon",
+ "primaryType": "ground",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.nisedrimogemon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "moldbreaker",
+  "h:prankster"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 7.059,
+ "hitbox": {
+  "width": 3.4,
+  "height": 2.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:clay_ball",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:mudslap",
+  "5:bite",
+  "9:mudshot",
+  "13:pursuit",
+  "17:bulldoze",
+  "21:assurance",
+  "25:dig",
+  "29:nightslash",
+  "33:drillrun",
+  "37:crunch",
+  "41:earthpower",
+  "45:darkpulse",
+  "49:earthquake",
+  "53:knockoff",
+  "57:highhorsepower",
+  "61:foulplay",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:dig",
+  "tm:drillrun",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:highhorsepower",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:stealthrock",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "nisedrimogemon_digitamamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nisedrimogemon_insekimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:insekimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:dokunemon"
+}

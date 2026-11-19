@@ -126,5 +126,20 @@
   "tm:taunt",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "eyesmon_orochimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:orochimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:eyesmonscattermode"
 }

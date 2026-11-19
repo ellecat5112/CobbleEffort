@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:nightchiropmon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:nightchiropmon",
+   "model": "cobbleeffort:nightchiropmon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4272_nightchiropmon/nightchiropmon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

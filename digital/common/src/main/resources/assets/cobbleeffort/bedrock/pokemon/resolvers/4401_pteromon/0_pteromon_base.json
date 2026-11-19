@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:pteromon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pteromon",
+   "model": "cobbleeffort:pteromon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4401_pteromon/pteromon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4401_pteromon/pteromon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4401_pteromon/pteromon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4401_pteromon/pteromon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

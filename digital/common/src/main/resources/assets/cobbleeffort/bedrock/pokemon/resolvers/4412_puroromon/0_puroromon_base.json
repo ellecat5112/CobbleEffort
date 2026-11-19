@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:puroromon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:puroromon",
+   "model": "cobbleeffort:puroromon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4412_puroromon/puroromon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4412_puroromon/puroromon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4412_puroromon/puroromon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4412_puroromon/puroromon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

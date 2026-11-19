@@ -1,0 +1,230 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4366,
+ "name": "Pinamon",
+ "primaryType": "dark",
+ "secondaryType": "poison",
+ "maleRatio": -1,
+ "height": 5,
+ "weight": 10,
+ "pokedex": [
+  "cobbleeffort.species.pinamon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "prankster",
+  "h:poisontouch"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 35,
+  "attack": 30,
+  "defence": 35,
+  "special_attack": 55,
+  "special_defence": 45,
+  "speed": 40
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 55,
+ "experienceGroup": "slow",
+ "catchRate": 220,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": true,
+ "baseScale": 0.5,
+ "hitbox": {
+  "width": 1.4,
+  "height": 1.0,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:poisonsting",
+  "9:pursuit",
+  "13:acid",
+  "17:assurance",
+  "21:poisonfang",
+  "25:nightslash",
+  "29:venoshock",
+  "33:crunch",
+  "37:poisonjab",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:gunkshot",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:poisonjab",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:sludgebomb",
+  "tm:sludgewave",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast",
+  "tm:toxic",
+  "tm:venoshock"
+ ],
+ "evolutions": [
+  {
+   "id": "pinamon_candmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:candmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_chibikamemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:chibikamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_elecmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:elecmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_gaomon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:gaomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_goburimon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:goburimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_gottsumon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:gottsumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_lalamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:lalamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "pinamon_mushmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:mushmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:botamon"
+}

@@ -1,0 +1,662 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4373,
+ "name": "Piyomon",
+ "primaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.piyomon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "keeneye",
+  "h:galewings"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.571,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:feather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:gust",
+  "9:wingattack",
+  "17:aerialace",
+  "25:aircutter",
+  "33:airslash",
+  "41:drillpeck",
+  "49:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "piyomon_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_akatorimon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:akatorimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_angemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:angemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_aquilamon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:aquilamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_bakemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_birdramon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:birdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_blackgrowmon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackgrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_blacktailmon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:blacktailmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_centalmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:centalmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_cockatrimon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:cockatrimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_diatrymon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:diatrymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_dokugumon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:dokugumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_evilmon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:evilmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_fairimon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:fairimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_fugamon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:fugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_garurumonblack_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumonblack",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_gawappamon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:gawappamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_geremon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:geremon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_goldnumemon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:goldnumemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_golemon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:golemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_greymonblue_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_greymonxantibody_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_holsmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:holsmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_ikkakumon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:ikkakumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_kabuterimon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:kabuterimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_kiwimon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:kiwimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_kuwagamon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuwagamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_kyubimon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:kyubimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_leomon_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_lynxmon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:lynxmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_meicoomon_31",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_meramon_32",
+   "variant": "level_up",
+   "result": "cobbleeffort:meramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_minotaurmon_33",
+   "variant": "level_up",
+   "result": "cobbleeffort:minotaurmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_monochromon_34",
+   "variant": "level_up",
+   "result": "cobbleeffort:monochromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_nanimon_35",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_numemon_36",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_owlmon_37",
+   "variant": "level_up",
+   "result": "cobbleeffort:owlmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_peacockmon_38",
+   "variant": "level_up",
+   "result": "cobbleeffort:peacockmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_peckmon_39",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_pegasmon_40",
+   "variant": "level_up",
+   "result": "cobbleeffort:pegasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "piyomon_pidmon_41",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "piyomon_pteranomon_42",
+   "variant": "level_up",
+   "result": "cobbleeffort:pteranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:budmon"
+}

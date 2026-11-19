@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:panbachimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:panbachimon",
+   "model": "cobbleeffort:panbachimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4330_panbachimon/panbachimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4330_panbachimon/panbachimon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4330_panbachimon/panbachimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4330_panbachimon/panbachimon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

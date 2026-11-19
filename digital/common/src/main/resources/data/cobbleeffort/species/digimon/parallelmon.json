@@ -1,0 +1,132 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4337,
+ "name": "Parallelmon",
+ "primaryType": "psychic",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 350,
+ "weight": 9999,
+ "pokedex": [
+  "cobbleeffort.species.parallelmon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon",
+  "legendary"
+ ],
+ "aspects": [],
+ "abilities": [
+  "magicbounce",
+  "h:pressure"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 130,
+  "defence": 95,
+  "special_attack": 70,
+  "special_defence": 85,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 3,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 270,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 0,
+ "shoulderMountable": false,
+ "baseScale": 8.485,
+ "hitbox": {
+  "width": 5.0,
+  "height": 4.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:confusion",
+  "5:bite",
+  "9:psybeam",
+  "13:pursuit",
+  "17:zenheadbutt",
+  "21:assurance",
+  "25:psyshock",
+  "29:nightslash",
+  "33:psychocut",
+  "37:crunch",
+  "41:psychic",
+  "45:darkpulse",
+  "49:futuresight",
+  "53:knockoff",
+  "57:expandingforce",
+  "61:foulplay",
+  "tm:calmmind",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:endure",
+  "tm:expandingforce",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:futuresight",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:lightscreen",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:psychic",
+  "tm:psychocut",
+  "tm:psyshock",
+  "tm:reflect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "preEvolution": "cobbleeffort:callismon"
+}

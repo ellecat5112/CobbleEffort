@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pawnchessmonwhite-wild",
+   "pokemon": "cobbleeffort:pawnchessmonwhite",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "8-22",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain",
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_plains"
+    ]
+   }
+  }
+ ]
+}

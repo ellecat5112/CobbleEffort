@@ -1,0 +1,612 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4361,
+ "name": "Pico Devimon",
+ "primaryType": "dark",
+ "secondaryType": "flying",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.picodevimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "prankster",
+  "h:infiltrator"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.667,
+ "hitbox": {
+  "width": 2.0,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:bite",
+  "5:gust",
+  "9:pursuit",
+  "13:wingattack",
+  "17:assurance",
+  "21:aerialace",
+  "25:nightslash",
+  "29:aircutter",
+  "33:crunch",
+  "37:airslash",
+  "41:darkpulse",
+  "45:drillpeck",
+  "49:knockoff",
+  "53:bravebird",
+  "tm:aircutter",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:drillpeck",
+  "tm:endure",
+  "tm:facade",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:hurricane",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:roost",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:tailwind",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "picodevimon_angemon",
+   "variant": "level_up",
+   "result": "cobbleeffort:angemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_bakemon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:bakemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_blackgrowmon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:blackgrowmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_blacktailmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:blacktailmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_boogiemon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:boogiemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_chrysalimon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:chrysalimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_coelamon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:coelamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_cyclomon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:cyclomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_darktyranomon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:darktyranomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_deathxdorugamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:deathxdorugamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_deltamon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:deltamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_devidramon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:devidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_devimon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:devimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_dinohumon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:dinohumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_dokugumon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:dokugumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_ebidramon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:ebidramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_evilmon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:evilmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_flawizarmon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:flawizarmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_garurumon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_geremon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:geremon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_greymon_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_greymonblue_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymonblue",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_icedevimon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:icedevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_kabuterimon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:kabuterimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_kyubimon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:kyubimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_lekismon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:lekismon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_lighdramon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:lighdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_magnamon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:magnamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 50
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_meicoomon_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_meramon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:meramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_musyamon_31",
+   "variant": "level_up",
+   "result": "cobbleeffort:musyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_nanimon_32",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_numemon_33",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_orgemon_34",
+   "variant": "level_up",
+   "result": "cobbleeffort:orgemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_owlmon_35",
+   "variant": "level_up",
+   "result": "cobbleeffort:owlmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_pegasmon_36",
+   "variant": "level_up",
+   "result": "cobbleeffort:pegasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "picodevimon_porcupamon_37",
+   "variant": "level_up",
+   "result": "cobbleeffort:porcupamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:koromon"
+}

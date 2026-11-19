@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:pukumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pukumon",
+   "model": "cobbleeffort:pukumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4406_pukumon/pukumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4406_pukumon/pukumon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4406_pukumon/pukumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4406_pukumon/pukumon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

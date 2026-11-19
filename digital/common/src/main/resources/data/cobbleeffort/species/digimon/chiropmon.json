@@ -124,5 +124,20 @@
   "tm:tailwind",
   "tm:taunt",
   "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "chiropmon_nightchiropmon",
+   "variant": "level_up",
+   "result": "cobbleeffort:nightchiropmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  }
  ]
 }

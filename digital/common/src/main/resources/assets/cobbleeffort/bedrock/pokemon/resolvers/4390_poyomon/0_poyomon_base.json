@@ -1,0 +1,32 @@
+{
+ "species": "cobbleeffort:poyomon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:poyomon",
+   "model": "cobbleeffort:poyomon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4390_poyomon/poyomon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4390_poyomon/poyomon_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4390_poyomon/poyomon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4390_poyomon/poyomon_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

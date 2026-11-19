@@ -1,0 +1,223 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4255,
+ "name": "Nanimon",
+ "primaryType": "fighting",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 150,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.nanimon.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "ironfist",
+  "h:angerpoint"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 65,
+  "attack": 95,
+  "defence": 70,
+  "special_attack": 50,
+  "special_defence": 65,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 150,
+ "experienceGroup": "slow",
+ "catchRate": 90,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 6.0,
+ "hitbox": {
+  "width": 3.6,
+  "height": 2.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "4-8"
+   }
+  ]
+ },
+ "moves": [
+  "1:tackle",
+  "1:leer",
+  "1:lowkick",
+  "5:bite",
+  "9:karatechop",
+  "13:pursuit",
+  "17:machpunch",
+  "21:assurance",
+  "25:brickbreak",
+  "29:nightslash",
+  "33:drainpunch",
+  "37:crunch",
+  "41:aurasphere",
+  "45:darkpulse",
+  "49:closecombat",
+  "53:knockoff",
+  "57:focusblast",
+  "61:foulplay",
+  "tm:aurasphere",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:crunch",
+  "tm:darkpulse",
+  "tm:drainpunch",
+  "tm:endure",
+  "tm:facade",
+  "tm:focusblast",
+  "tm:foulplay",
+  "tm:helpinghand",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:nightslash",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:taunt",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "nanimon_chimairamon",
+   "variant": "level_up",
+   "result": "cobbleeffort:chimairamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_digitamamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:digitamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_doumon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:doumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_etemon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:etemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_grappuleomon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:grappuleomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_insekimon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:insekimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "nanimon_mamemon_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:mamemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:agumon"
+}

@@ -269,6 +269,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "blacktailmon_nefertimon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:nefertimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  },
+  {
+   "id": "blacktailmon_neodevimon_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:neodevimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "blacktailmon_pandamon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:pandamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bakumon"

@@ -127,5 +127,20 @@
   "tm:substitute",
   "tm:terablast"
  ],
+ "evolutions": [
+  {
+   "id": "babamon_ofanimon",
+   "variant": "level_up",
+   "result": "cobbleeffort:ofanimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  }
+ ],
  "preEvolution": "cobbleeffort:angewomon"
 }

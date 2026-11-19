@@ -178,6 +178,33 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "bulkmon_omegashoutmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegashoutmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "bulkmon_pistmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:pistmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:pulsemon"
 }

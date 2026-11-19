@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:pucchiemongreen",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:pucchiemongreen",
+   "model": "cobbleeffort:pucchiemongreen.geo",
+   "texture": "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_glow_0.png",
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_glow_1.png",
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/4404_pucchiemongreen/pucchiemongreen_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

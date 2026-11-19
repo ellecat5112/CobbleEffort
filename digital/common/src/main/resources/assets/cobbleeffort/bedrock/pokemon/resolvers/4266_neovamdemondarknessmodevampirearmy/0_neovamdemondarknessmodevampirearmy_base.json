@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:neovamdemondarknessmodevampirearmy",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:neovamdemondarknessmodevampirearmy",
+   "model": "cobbleeffort:neovamdemondarknessmodevampirearmy.geo",
+   "texture": "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_glow_0.png",
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_glow_1.png",
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4266_neovamdemondarknessmodevampirearmy/neovamdemondarknessmodevampirearmy_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

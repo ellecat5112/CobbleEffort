@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ouryumon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ouryumon",
+   "model": "cobbleeffort:ouryumon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4320_ouryumon/ouryumon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

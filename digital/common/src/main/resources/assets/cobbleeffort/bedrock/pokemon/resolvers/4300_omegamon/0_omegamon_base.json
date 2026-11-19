@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:omegamon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:omegamon",
+   "model": "cobbleeffort:omegamon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4300_omegamon/omegamon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4300_omegamon/omegamon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

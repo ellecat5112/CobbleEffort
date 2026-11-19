@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "panbachimon-wild",
+   "pokemon": "cobbleeffort:panbachimon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "common",
+   "level": "8-22",
+   "weight": 3.0,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_jungle",
+     "#cobblemon:is_forest",
+     "#cobblemon:is_plains"
+    ]
+   }
+  }
+ ]
+}

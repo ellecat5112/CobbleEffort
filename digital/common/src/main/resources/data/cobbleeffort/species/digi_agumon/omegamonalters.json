@@ -173,6 +173,45 @@
      "minLevel": 70
     }
    ]
+  },
+  {
+   "id": "omegamonalters_omegamon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "omegamonalters_omegamonmercifulmode_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonmercifulmode",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
+  },
+  {
+   "id": "omegamonalters_omegamonxantibody_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:omegamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 60
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:blitzgreymon"

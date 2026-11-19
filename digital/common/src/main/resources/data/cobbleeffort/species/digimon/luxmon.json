@@ -135,6 +135,20 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "luxmon_pidmon_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:pyocomon"
 }

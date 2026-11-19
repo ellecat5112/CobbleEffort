@@ -1,0 +1,213 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.popomon",
+    "texture_width": 64,
+    "texture_height": 64,
+    "visible_bounds_width": 8,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     3,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "popomon",
+     "parent": null,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "name": "body",
+     "parent": "popomon",
+     "pivot": [
+      0.0,
+      4.0,
+      0.0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -3.043,
+        0.8,
+        -1.586
+       ],
+       "size": [
+        6,
+        2,
+        3
+       ],
+       "uv": [
+        36,
+        18
+       ]
+      },
+      {
+       "origin": [
+        -2.043,
+        0.75,
+        -2.586
+       ],
+       "size": [
+        4,
+        2,
+        5
+       ],
+       "uv": [
+        0,
+        18
+       ]
+      },
+      {
+       "origin": [
+        -4.454,
+        2.88,
+        -2.786
+       ],
+       "size": [
+        9,
+        2,
+        6
+       ],
+       "uv": [
+        0,
+        10
+       ]
+      },
+      {
+       "origin": [
+        -3.454,
+        2.83,
+        -3.786
+       ],
+       "size": [
+        7,
+        2,
+        8
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -4.454,
+        5.0,
+        -2.786
+       ],
+       "size": [
+        9,
+        2,
+        6
+       ],
+       "uv": [
+        30,
+        10
+       ]
+      },
+      {
+       "origin": [
+        -3.454,
+        4.95,
+        -3.786
+       ],
+       "size": [
+        7,
+        2,
+        8
+       ],
+       "uv": [
+        30,
+        0
+       ]
+      },
+      {
+       "origin": [
+        -3.043,
+        7.08,
+        -1.586
+       ],
+       "size": [
+        6,
+        2,
+        3
+       ],
+       "uv": [
+        0,
+        25
+       ]
+      },
+      {
+       "origin": [
+        -2.043,
+        7.03,
+        -2.586
+       ],
+       "size": [
+        4,
+        2,
+        5
+       ],
+       "uv": [
+        18,
+        18
+       ]
+      },
+      {
+       "origin": [
+        -2.4,
+        6.0,
+        4.0
+       ],
+       "size": [
+        5,
+        5,
+        0
+       ],
+       "uv": [
+        18,
+        25
+       ],
+       "rotation": [
+        -35.0,
+        0.0,
+        0.0
+       ],
+       "pivot": [
+        0.0,
+        6.0,
+        3.6
+       ]
+      }
+     ]
+    },
+    {
+     "name": "locator_root",
+     "parent": "popomon",
+     "pivot": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "name": "locator_top",
+     "parent": "popomon",
+     "pivot": [
+      0,
+      12.0,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

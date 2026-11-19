@@ -422,6 +422,59 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "hawkmon_numemon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "hawkmon_orcamon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:orcamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "hawkmon_peacockmon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:peacockmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "hawkmon_peckmon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:peckmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
- ]
+ ],
+ "preEvolution": "cobbleeffort:nyaromon"
 }

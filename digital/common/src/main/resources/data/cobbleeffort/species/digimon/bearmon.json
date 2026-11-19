@@ -461,6 +461,45 @@
      "minLevel": 20
     }
    ]
+  },
+  {
+   "id": "bearmon_numemon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:numemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bearmon_orgemon_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:orgemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "bearmon_ponchomon_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:ponchomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:frimon"

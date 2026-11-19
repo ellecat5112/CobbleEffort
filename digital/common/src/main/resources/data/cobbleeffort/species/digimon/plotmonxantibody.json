@@ -1,0 +1,531 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 4379,
+ "name": "Plotmon X-Antibody",
+ "primaryType": "normal",
+ "secondaryType": "fairy",
+ "maleRatio": -1,
+ "height": 10,
+ "weight": 40,
+ "pokedex": [
+  "cobbleeffort.species.plotmonxantibody.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "digimon"
+ ],
+ "aspects": [],
+ "abilities": [
+  "cutecharm",
+  "h:magicguard"
+ ],
+ "eggGroups": [
+  "monster",
+  "dragon"
+ ],
+ "baseStats": {
+  "hp": 55,
+  "attack": 35,
+  "defence": 50,
+  "special_attack": 70,
+  "special_defence": 60,
+  "speed": 50
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 80,
+ "experienceGroup": "slow",
+ "catchRate": 150,
+ "eggCycles": 20,
+ "baseFriendship": 70,
+ "shoulderMountable": false,
+ "baseScale": 0.8,
+ "hitbox": {
+  "width": 1.8,
+  "height": 1.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:leather",
+    "quantityRange": "1-3"
+   }
+  ]
+ },
+ "moves": [
+  "1:scratch",
+  "1:leer",
+  "1:tackle",
+  "5:fairywind",
+  "9:quickattack",
+  "13:disarmingvoice",
+  "17:headbutt",
+  "21:drainingkiss",
+  "25:slam",
+  "29:dazzlinggleam",
+  "33:bodyslam",
+  "37:playrough",
+  "41:doubleedge",
+  "45:moonblast",
+  "49:hypervoice",
+  "53:spiritbreak",
+  "tm:bodyslam",
+  "tm:dazzlinggleam",
+  "tm:doubleedge",
+  "tm:endure",
+  "tm:facade",
+  "tm:fleurcannon",
+  "tm:gigaimpact",
+  "tm:helpinghand",
+  "tm:hypervoice",
+  "tm:moonblast",
+  "tm:playrough",
+  "tm:protect",
+  "tm:rest",
+  "tm:slam",
+  "tm:sleeptalk",
+  "tm:spiritbreak",
+  "tm:substitute",
+  "tm:swordsdance",
+  "tm:terablast"
+ ],
+ "evolutions": [
+  {
+   "id": "plotmonxantibody_airdramon",
+   "variant": "level_up",
+   "result": "cobbleeffort:airdramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_allomonxantibody_2",
+   "variant": "level_up",
+   "result": "cobbleeffort:allomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_angemon_3",
+   "variant": "level_up",
+   "result": "cobbleeffort:angemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_blacktailmon_4",
+   "variant": "level_up",
+   "result": "cobbleeffort:blacktailmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_blimpmon_5",
+   "variant": "level_up",
+   "result": "cobbleeffort:blimpmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_darcmon_6",
+   "variant": "level_up",
+   "result": "cobbleeffort:darcmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_dobermonxantibody_7",
+   "variant": "level_up",
+   "result": "cobbleeffort:dobermonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_fairimon_8",
+   "variant": "level_up",
+   "result": "cobbleeffort:fairimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_fangmon_9",
+   "variant": "level_up",
+   "result": "cobbleeffort:fangmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_flarelizamon_10",
+   "variant": "level_up",
+   "result": "cobbleeffort:flarelizamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_gaogamon_11",
+   "variant": "level_up",
+   "result": "cobbleeffort:gaogamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_garurumon_12",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_garurumonxantibody_13",
+   "variant": "level_up",
+   "result": "cobbleeffort:garurumonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_goatmon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:goatmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_golemon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:golemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_greymon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:greymon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_guardromon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:guardromon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_icemon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:icemon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_kabukimon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:kabukimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_kenkimon_20",
+   "variant": "level_up",
+   "result": "cobbleeffort:kenkimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_kuwagamonxantibody_21",
+   "variant": "level_up",
+   "result": "cobbleeffort:kuwagamonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_leomonxantibody_22",
+   "variant": "level_up",
+   "result": "cobbleeffort:leomonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_lynxmon_23",
+   "variant": "level_up",
+   "result": "cobbleeffort:lynxmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_maildramon_24",
+   "variant": "level_up",
+   "result": "cobbleeffort:maildramon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_meicoomon_25",
+   "variant": "level_up",
+   "result": "cobbleeffort:meicoomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_musyamon_26",
+   "variant": "level_up",
+   "result": "cobbleeffort:musyamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_nefertimon_27",
+   "variant": "level_up",
+   "result": "cobbleeffort:nefertimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_nefertimonxantibody_28",
+   "variant": "level_up",
+   "result": "cobbleeffort:nefertimonxantibody",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_opossummon_29",
+   "variant": "level_up",
+   "result": "cobbleeffort:opossummon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_pegasmon_30",
+   "variant": "level_up",
+   "result": "cobbleeffort:pegasmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    }
+   ]
+  },
+  {
+   "id": "plotmonxantibody_pidmon_31",
+   "variant": "level_up",
+   "result": "cobbleeffort:pidmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  }
+ ],
+ "preEvolution": "cobbleeffort:plotmon"
+}

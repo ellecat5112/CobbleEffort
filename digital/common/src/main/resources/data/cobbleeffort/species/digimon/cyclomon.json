@@ -295,6 +295,45 @@
      "minLevel": 35
     }
    ]
+  },
+  {
+   "id": "cyclomon_nanomon_14",
+   "variant": "level_up",
+   "result": "cobbleeffort:nanomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "cyclomon_orochimon_15",
+   "variant": "level_up",
+   "result": "cobbleeffort:orochimon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
+  },
+  {
+   "id": "cyclomon_piccolomon_16",
+   "variant": "level_up",
+   "result": "cobbleeffort:piccolomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 35
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:agumon"

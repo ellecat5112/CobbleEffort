@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:orochimon",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:orochimon",
+   "model": "cobbleeffort:orochimon.geo",
+   "texture": "cobbleeffort:textures/pokemon/4316_orochimon/orochimon.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_glow_0.png",
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_glow_1.png",
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/4316_orochimon/orochimon_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

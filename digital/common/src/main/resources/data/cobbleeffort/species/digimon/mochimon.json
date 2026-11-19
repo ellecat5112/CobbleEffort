@@ -315,6 +315,45 @@
      "minLevel": 10
     }
    ]
+  },
+  {
+   "id": "mochimon_otamamon_17",
+   "variant": "level_up",
+   "result": "cobbleeffort:otamamon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_penmon_18",
+   "variant": "level_up",
+   "result": "cobbleeffort:penmon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
+  },
+  {
+   "id": "mochimon_piyomon_19",
+   "variant": "level_up",
+   "result": "cobbleeffort:piyomon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 10
+    }
+   ]
   }
  ],
  "preEvolution": "cobbleeffort:bubbmon"
