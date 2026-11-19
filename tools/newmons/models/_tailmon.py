@@ -19,15 +19,33 @@ COMMON = {"glove": (150, 140, 210), "glove_dark": (90, 80, 160), "violet": (140,
           "black": (30, 30, 36)}
 
 
-def make(name, black=True, uver=False):
+def make(name, black=True, uver=False, colours=None, shiny_colours=None, slit=True, xab=False):
+    """colours / shiny_colours override palette entries (Tailmon's yellow gloves, blue eyes); a "stripe" entry paints
+    zigzag stripes on the gloves; xab = Tailmon (X-Antibody): huge gold paws with red pads, a gold collar ring."""
     base = dict(COMMON, **(BLACK if black else WHITE))
     shiny = dict(COMMON, **(WHITE if black else BLACK))
+    base.update(colours or {})
+    shiny.update(shiny_colours or {})
 
     def P(v):
         return pal(base, shiny, v)
 
     FUR = fur(P, "fur", "fur_dark", length=1.0)
-    GLOVE = fur(P, "glove", "glove_dark", length=0.8)
+    GLOVE0 = fur(P, "glove", "glove_dark", length=0.8)
+
+    def GLOVE(x, y, z, face, variant, box=None, **k):
+        p = P(variant)
+        if "stripe" in p:
+            t = y * 1.2 + 0.6 * math.sin(abs(x) * 2.2 + z * 1.7)
+            if t % 2.6 < 0.7:
+                return tone(p["stripe"], face), None
+        if xab and "xpad" in p and face == "north" and box is not None:
+            cx = box.lo[0] + box.size[0] / 2
+            cy = box.lo[1] + box.size[1] / 2
+            r = math.hypot(x - cx, y - cy - 0.4)
+            if r < 1.3 or any(math.hypot(x - cx - j * 1.1, y - cy - 1.9) < 0.55 for j in (-1, 0, 1)):
+                return tone(p["xpad"], face), None
+        return GLOVE0(x, y, z, face, variant, box=box, **k)
 
     def headf(x, y, z, face, variant, box=None, **k):
         p = P(variant)
@@ -38,7 +56,7 @@ def make(name, black=True, uver=False):
                     if abs(b - 21.6) < 0.35 and abs(a - sx * 2.0) < 1.4:
                         return p["black"], None                  # sleepy eyes
                 else:
-                    c = eye(p, a - sx * 2.0, b - 22.4, 1.2, "eye", slit=True)
+                    c = eye(p, a - sx * 2.0, b - 22.4, 1.2, "eye", slit=slit)
                     if c is not None:
                         return c, None
         return FUR(x, y, z, face, variant, box=box, **k)
@@ -69,13 +87,29 @@ def make(name, black=True, uver=False):
             ab = m.bone(nm, bd, (sx * 3.4, 14.0, 0))
             h = (sx * 6.4, 13.0 if not uver else 10.0, -2.0)
             rod(m, ab, (sx * 3.4, 14.0, 0), h, 2, FUR, extend=0.3)
-            ball(m, ab, h, 2.6, GLOVE, layers=3)
-            for f in range(3):
-                spike(m, ab, (h[0] + (f - 1) * 1.0, h[1] + 2.0, h[2] - 1.6), (0, 0.6, -1), 0.8, 2.0, solid(P, "claw"))
+            if xab:
+                h = (sx * 7.6, 15.0, -2.4)
+                rod(m, ab, (sx * 3.4, 14.0, 0), h, 2, FUR, extend=0.3)
+                ball(m, ab, h, 4.2, GLOVE, layers=4)
+                for f in range(3):
+                    spike(m, ab, (h[0] + sx * 2.0, h[1] + 1.2 - f * 1.4, h[2] + 1.0), (sx, 0.5 - f * 0.4, 0.6), 1.0,
+                          4.0, solid(P, "claw"), tip=0.8)
+            else:
+                ball(m, ab, h, 2.6, GLOVE, layers=3)
+                for f in range(3):
+                    spike(m, ab, (h[0] + (f - 1) * 1.0, h[1] + 2.0, h[2] - 1.6), (0, 0.6, -1), 0.8, 2.0,
+                          solid(P, "claw"))
         for sx, nm in ((1, "leg_left"), (-1, "leg_right")):
             lg = m.bone(nm, top, (sx * 1.8, 7.0, 0))
             rod(m, lg, (sx * 1.8, 7.0, 0), (sx * 2.0, 2.0, 0), 2, FUR, extend=0.3)
             ball(m, lg, (sx * 2.0, 1.6, -0.6), 1.8, FUR, layers=2)
+        if xab:                                                  # the gold collar ring
+            ring = solid(P, "gold")
+            for i in range(14):
+                a0 = i * 2 * math.pi / 14
+                cx, cz = 4.6 * math.sin(a0), 4.0 * math.cos(a0)
+                w = 2.2
+                m.box(bd, cx - w / 2, 15.0, cz - w / 2, cx + w / 2, 17.4, cz + w / 2, ring)
         tl = m.bone("tail", bd, (0, 8, 2))
         pts = [(0, 8.0, 2.0), (3.0, 6.0, 7.0), (7.0, 8.0, 10.0), (10.0, 14.0, 10.0), (11.0, 20.0, 8.0)]
         for p0, p1 in zip(pts, pts[1:]):
