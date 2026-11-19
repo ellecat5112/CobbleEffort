@@ -5,7 +5,8 @@ gatling barrels), buffalo (slate with golden horns and a spiked snow-plough), c8
 white jaw, a red eye, smokestacks and gold pipes), franken (maroon diesel with a grey grille face and green eyes),
 kettle (yellow with an orange skirt, grey side pipes and a red lamp), mole (pink with a big pale snout, whiskers and
 yellow digging claws), darkness (black segmented body with three glowing red eyes joined by green lines), raccoon
-(mint bullet-train nose with a red-brown mask), worm (copper segmented worm with four yellow eyes and huge fangs).
+(mint bullet-train nose with a red-brown mask), next1/next2/next3 (the unnamed bullet trains of Digimon Next: white with a
+huge eye, white with blade fins, grey ribbed with a long beak nose), worm (copper segmented worm with four yellow eyes and huge fangs).
 Shiny: each look's colours turned round the hue wheel."""
 from __future__ import annotations
 
@@ -36,6 +37,12 @@ LOOKS = {
                  "accent": (120, 230, 80)},
     "raccoon": {"body": (120, 200, 160), "body_dark": (60, 130, 100), "lower": (236, 236, 236), "eye": (230, 220, 60),
                 "accent": (150, 60, 40)},
+    "next1": {"body": (236, 238, 244), "body_dark": (150, 156, 170), "lower": (90, 120, 200), "eye": (30, 30, 40),
+              "accent": (60, 60, 70)},
+    "next2": {"body": (240, 242, 248), "body_dark": (160, 166, 180), "lower": (200, 60, 60), "eye": (40, 40, 60),
+              "accent": (180, 186, 200)},
+    "next3": {"body": (110, 116, 130), "body_dark": (50, 54, 66), "lower": (70, 74, 86), "eye": (240, 240, 250),
+              "accent": (40, 44, 56)},
     "worm": {"body": (190, 110, 80), "body_dark": (110, 54, 34), "lower": (60, 56, 60), "eye": (250, 220, 40),
              "accent": (250, 250, 240)},
 }
@@ -187,6 +194,16 @@ def make(name, look):
             for sx in (-1, 1):
                 m.box(hd, min(sx * 1.0, sx * 6.0), 13.0, L0 - 2.6, max(sx * 1.0, sx * 6.0), 15.4, L0 - 1.0,
                       solid(P, "accent"))
+        elif look == "next2":
+            for sx in (-1, 1):
+                m.box(bd, min(sx * 6.0, sx * 11.0), 14.0, L0 + 8.0, max(sx * 6.0, sx * 11.0), 14.8, L0 + 18.0,
+                      solid(P, "accent"), rotation=(0, 0, sx * 15), pivot=(sx * 6.0, 14.4, L0 + 13.0))
+            m.box(bd, -0.5, 17.0, L1 - 10.0, 0.5, 23.0, L1 - 2.0, solid(P, "accent"), rotation=(-25, 0, 0),
+                  pivot=(0, 17.0, L1 - 6.0))
+        elif look == "next3":
+            spike(m, hd, (0, 9.0, L0 - 5.0), (0, 0, -1), 4.0, 12.0, metal(P, "body", dark="body_dark"), tip=0.8)
+            for j in range(6):
+                m.round_box(bd, 0, L0 + 4.0 + j * 7.0, 6.6, 1.0, 16.0, 18.4, metal(P, "body_dark"), cut=1)
         elif look == "worm":
             for j in range(9):
                 spike(m, bd, (0, 17.6, L0 + 2.0 + j * 5.0), (0, 1, 0.3), 1.2, 2.6, solid(P, "body_dark"), tip=0.8)
