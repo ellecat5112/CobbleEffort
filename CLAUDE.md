@@ -521,6 +521,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   `_kuwagamon`, `_kuzuha` (miko), `_kyubimon` (silver), `_lavo` (bird), `_ladydevimon`, `_leomon`, `_leviamon`,
   `_lilimon`, `_lilithmon`, `_lopmon`, `_lordknightmon` (x each). Demon Lords stay at the Ultimate size (35 blocks).
   Revealing official art (Luminamon Nene Ver., Lilithmon, Jet Mervamon...) is built covered (tunics, robes, armour).
+  **The A-Z roster is complete** (1.7.0 / Digital 0.12.0, M..Z = 748 entries, ROSTER 1563, last Zurumon). Skipped in
+  K..Z: Nüwashou (silhouette only) and Xros Up Opossummon (Candmon) (only a wide anime still); "Unnamed ..." pages with
+  pictures are kept under their wikimon titles; the Xros Up forms (`_xrosup.base(src, name, fn, *args)` = a FRESH copy
+  of the base module, root bone renamed, `hand`/`top` find attach points) take the base Digimon's level. New shared
+  builders M..Z include `_trailmon` (looks per Trailmon, `_hue` shiny), `_takutoumon`, `_taomon`, `_tailmon`
+  (colours/xab), `_terriermon`, `_thunderball`, `_togemon`, `_toyagumon`, `_triceramon`, `_tylomon`, `_ulforce`,
+  `_vademon`, `_vamdemon`, `_venomvamdemon`, `_weregarurumon`, `_whamon`, `_wizarmon`, `_xvmon`, `_zubamon`,
+  `_jellyhat` (ribbon tentacles, sparks); `_vdramon`/`_seadramon` take colours/shiny_colours; `_digi` has snow keys
+  (Yuki Agumon). Checks: `scratchpad/tools/modcheck.py` (errors, NEG boxes, y range vs HEIGHT), `fixh.py` (HEIGHT =
+  model top), `paintcheck.py` (paints every texel, plain + shiny: modcheck's sampling missed a missing palette key).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`
