@@ -1,0 +1,183 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3182,
+ "name": "Iron Duality",
+ "primaryType": "dragon",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 21,
+ "weight": 2240,
+ "pokedex": [
+  "cobbleeffort.species.ironduality.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 110,
+  "attack": 100,
+  "defence": 70,
+  "special_attack": 120,
+  "special_defence": 70,
+  "speed": 120
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.781,
+ "hitbox": {
+  "width": 2.2,
+  "height": 2.6875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "cobblemon:dragon_scale",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:twister",
+  "1:rapidspin",
+  "6:bite",
+  "12:electroweb",
+  "18:dragonbreath",
+  "24:thunderwave",
+  "30:crunch",
+  "36:thundercage",
+  "42:dragonclaw",
+  "48:dragondance",
+  "54:extremespeed",
+  "60:thunderbolt",
+  "66:dragonenergy",
+  "72:hyperbeam",
+  "78:explosion",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:explosion",
+  "tm:selfdestruct",
+  "tm:bodypress",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:curse",
+  "tm:block",
+  "tm:headbutt",
+  "tm:rollout",
+  "tm:acrobatics",
+  "tm:agility",
+  "tm:assurance",
+  "tm:bounce",
+  "tm:electroweb",
+  "tm:lightscreen",
+  "tm:raindance",
+  "tm:reflect",
+  "tm:screech",
+  "tm:swift",
+  "tm:breakingswipe",
+  "tm:crunch",
+  "tm:dracometeor",
+  "tm:dragoncheer",
+  "tm:dragonclaw",
+  "tm:dragondance",
+  "tm:dragonpulse",
+  "tm:earthpower",
+  "tm:earthquake",
+  "tm:firefang",
+  "tm:focusenergy",
+  "tm:icefang",
+  "tm:laserfocus",
+  "tm:outrage",
+  "tm:reversal",
+  "tm:scaleshot",
+  "tm:thunderfang",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:thunderpunch",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:magnetrise",
+  "tm:shockwave",
+  "tm:supercellslam",
+  "tm:zapcannon"
+ ]
+}

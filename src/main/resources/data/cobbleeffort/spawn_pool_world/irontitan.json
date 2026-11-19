@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "irontitan-ancient",
+   "pokemon": "cobbleeffort:irontitan",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-75",
+   "weight": 2.0,
+   "condition": {
+    "canSeeSky": false,
+    "structures": [
+     "minecraft:ancient_city"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3184,
+ "name": "Iron Dynamo",
+ "primaryType": "electric",
+ "secondaryType": "ground",
+ "maleRatio": -1,
+ "height": 16,
+ "weight": 1720,
+ "pokedex": [
+  "cobbleeffort.species.irondynamo.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 115,
+  "defence": 75,
+  "special_attack": 115,
+  "special_defence": 65,
+  "speed": 150
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 3
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.674,
+ "hitbox": {
+  "width": 1.3,
+  "height": 2.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:pointed_dripstone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:soft_sand",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 10.0
+   }
+  ]
+ },
+ "moves": [
+  "1:rapidspin",
+  "1:thundershock",
+  "1:mudslap",
+  "6:electroweb",
+  "12:bulldoze",
+  "18:shockwave",
+  "24:thunderwave",
+  "30:extremespeed",
+  "36:thundercage",
+  "42:thunderbolt",
+  "48:drillrun",
+  "54:earthpower",
+  "60:lockon",
+  "66:zapcannon",
+  "72:hyperbeam",
+  "78:explosion",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:explosion",
+  "tm:selfdestruct",
+  "tm:bodypress",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:curse",
+  "tm:block",
+  "tm:headbutt",
+  "tm:rollout",
+  "tm:acrobatics",
+  "tm:agility",
+  "tm:assurance",
+  "tm:bounce",
+  "tm:electroweb",
+  "tm:lightscreen",
+  "tm:raindance",
+  "tm:reflect",
+  "tm:screech",
+  "tm:swift",
+  "tm:earthquake",
+  "tm:earthpower",
+  "tm:dig",
+  "tm:bulldoze",
+  "tm:highhorsepower",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:drillrun",
+  "tm:mudshot",
+  "tm:stompingtantrum",
+  "tm:spikes",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:thunderpunch",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:magnetrise",
+  "tm:shockwave",
+  "tm:supercellslam",
+  "tm:zapcannon"
+ ]
+}

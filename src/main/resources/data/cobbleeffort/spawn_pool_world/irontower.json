@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "irontower-badlands",
+   "pokemon": "cobbleeffort:irontower",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.6,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_peak"
+    ]
+   }
+  }
+ ]
+}

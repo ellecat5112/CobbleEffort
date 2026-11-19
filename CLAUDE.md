@@ -605,6 +605,16 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Distortion 0.15.0's `@Pseudo` `RotomCatalogueMixin` (string target, remap=false, no MSD compile dependency) extends its
   three lists on first use with every other "<x>-appliance" form Rotom has. Previews: `scratchpad/tools/rprev.sh <key>`
   / `rbatch.sh <keys...>` next to `scratchpad/rotom/ref_<key>.png`.
+- **Paradox Regis** (1.9.0, #3179-3184, newmons build.py block after the velvet worms, line "paradox_regis";
+  `models/_regi.py`: dot patterns CROSS/HEX/H + `dot_at`, `speck`/`glowing` white-flecked energy, `ellipsoid` (whole-unit
+  slices, radii to half units), `threads` (drill rings + dark `groove` core), `lit` (even light for sliced balls)):
+  Iron Freeze/Sentry/Tower/Duality after @Alex_LR04's art (names kept), Iron Titan after pixel art (artist not named),
+  Iron Dynamo (Electric/Ground, our name) after an unnamed paradox Regieleki; Quark Drive, labels legendary + paradox,
+  ultra-rare spawns by place (`#cobblemon:is_freezing`/`is_glacial`, `is_badlands`/`is_peak`, structures
+  `minecraft:trial_chambers` / `minecraft:ancient_city`, `isThundering`, `minecraft:dripstone_caves`). Shaders on rods
+  get the box's OWN unrotated coordinates: z runs back from the rod's start, x and y are centred on the start point,
+  not on 0 (teeth/slits drawn as if centred on 0 come out solid). `build.py --data-only` now still builds models for
+  species that have none yet (no resolver), so a new species needs no full rebuild.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

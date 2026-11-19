@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:irontitan",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:irontitan",
+   "model": "cobbleeffort:irontitan.geo",
+   "texture": "cobbleeffort:textures/pokemon/3183_irontitan/irontitan.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_glow_0.png",
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_glow_1.png",
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3183_irontitan/irontitan_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

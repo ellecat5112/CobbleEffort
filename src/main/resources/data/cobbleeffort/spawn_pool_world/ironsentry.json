@@ -1,0 +1,24 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironsentry-trial",
+   "pokemon": "cobbleeffort:ironsentry",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 2.0,
+   "condition": {
+    "structures": [
+     "minecraft:trial_chambers"
+    ]
+   }
+  }
+ ]
+}

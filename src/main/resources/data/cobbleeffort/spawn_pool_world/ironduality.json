@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironduality-storm",
+   "pokemon": "cobbleeffort:ironduality",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.5,
+   "condition": {
+    "canSeeSky": true,
+    "isThundering": true,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  }
+ ]
+}

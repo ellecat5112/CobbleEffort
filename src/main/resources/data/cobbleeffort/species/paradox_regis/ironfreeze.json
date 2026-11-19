@@ -1,0 +1,190 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3179,
+ "name": "Iron Freeze",
+ "primaryType": "ice",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 18,
+ "weight": 1990,
+ "pokedex": [
+  "cobbleeffort.species.ironfreeze.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 60,
+  "defence": 95,
+  "special_attack": 125,
+  "special_defence": 160,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 3,
+  "speed": 0
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.702,
+ "hitbox": {
+  "width": 1.2,
+  "height": 2.5625,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:packed_ice",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:blue_ice",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:never_melt_ice",
+    "percentage": 12.0
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:chargebeam",
+  "1:icywind",
+  "1:thundershock",
+  "6:bulldoze",
+  "12:shockwave",
+  "18:iceshard",
+  "24:icebeam",
+  "30:discharge",
+  "36:amnesia",
+  "42:thunderbolt",
+  "48:blizzard",
+  "54:freezedry",
+  "60:lockon",
+  "66:zapcannon",
+  "72:hyperbeam",
+  "78:explosion",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:explosion",
+  "tm:selfdestruct",
+  "tm:bodypress",
+  "tm:bodyslam",
+  "tm:takedown",
+  "tm:curse",
+  "tm:block",
+  "tm:headbutt",
+  "tm:rollout",
+  "tm:amnesia",
+  "tm:auroraveil",
+  "tm:avalanche",
+  "tm:blizzard",
+  "tm:brickbreak",
+  "tm:bulldoze",
+  "tm:earthquake",
+  "tm:flashcannon",
+  "tm:fling",
+  "tm:focusblast",
+  "tm:focuspunch",
+  "tm:frostbreath",
+  "tm:gravity",
+  "tm:heavyslam",
+  "tm:icebeam",
+  "tm:icepunch",
+  "tm:icespinner",
+  "tm:iciclespear",
+  "tm:icywind",
+  "tm:ironhead",
+  "tm:megakick",
+  "tm:megapunch",
+  "tm:poweruppunch",
+  "tm:raindance",
+  "tm:rockpolish",
+  "tm:rockslide",
+  "tm:rocksmash",
+  "tm:rocktomb",
+  "tm:safeguard",
+  "tm:snowscape",
+  "tm:stompingtantrum",
+  "tm:strength",
+  "tm:superpower",
+  "tm:freezedry",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:thunderpunch",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:magnetrise",
+  "tm:shockwave",
+  "tm:supercellslam",
+  "tm:zapcannon"
+ ]
+}

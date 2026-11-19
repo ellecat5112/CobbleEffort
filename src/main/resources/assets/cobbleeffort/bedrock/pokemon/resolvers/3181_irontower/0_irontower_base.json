@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:irontower",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:irontower",
+   "model": "cobbleeffort:irontower.geo",
+   "texture": "cobbleeffort:textures/pokemon/3181_irontower/irontower.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_glow_0.png",
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_glow_1.png",
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3181_irontower/irontower_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3181_irontower/irontower_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

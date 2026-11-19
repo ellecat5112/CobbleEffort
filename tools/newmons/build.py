@@ -3829,6 +3829,175 @@ SPECIES.update({
 })
 LINES["velvet_worm"] = ["squirmlet", "nozzlurm", "onychydra"]
 
+# --- The paradox Regis (#3179-3184, the user's request): Iron Freeze, Iron Sentry, Iron Tower and Iron Duality after
+# @Alex_LR04's art (names kept), Iron Titan after pixel art the user shared (artist not named; the art also calls it
+# "Regificial"), and Iron Dynamo after an unnamed paradox Regieleki the user shared (artist not named, our name).
+# Future paradoxes: Quark Drive only, legendary + paradox labels, genderless, catch rate 3; very rare spawns, each in a
+# place that suits it (frozen peaks, badlands, trial chambers, thunderstorms, dripstone caves, ancient cities).
+REGI = dict(male=-1, egg_groups=["undiscovered"], friendship=35, catch=3, labels=["legendary", "paradox"],
+            abilities=["quarkdrive"], ability_names="Quark Drive", exp=290, growth="slow", shoulder=False, walk=0.3,
+            egg=[], evolve=None)
+REGI_ELECTRIC_TM = ["thunder", "thunderbolt", "thunderwave", "thunderpunch", "voltswitch", "wildcharge", "discharge",
+                    "electricterrain", "risingvoltage", "eerieimpulse", "electroball", "charge", "chargebeam",
+                    "magnetrise", "shockwave", "supercellslam", "zapcannon"]
+REGI_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "endure", "terablast", "gigaimpact", "hyperbeam",
+           "explosion", "selfdestruct", "bodypress", "bodyslam", "takedown", "curse", "block", "headbutt", "rollout"]
+REGICE_TM = ["amnesia", "auroraveil", "avalanche", "blizzard", "brickbreak", "bulldoze", "earthquake", "flashcannon",
+             "fling", "focusblast", "focuspunch", "frostbreath", "gravity", "heavyslam", "icebeam", "icepunch",
+             "icespinner", "iciclespear", "icywind", "ironhead", "megakick", "megapunch", "poweruppunch", "raindance",
+             "rockpolish", "rockslide", "rocksmash", "rocktomb", "safeguard", "snowscape", "stompingtantrum",
+             "strength", "superpower", "freezedry"]
+REGIROCK_TM = ["brickbreak", "bulldoze", "dig", "doubleedge", "drainpunch", "earthpower", "earthquake", "firepunch",
+               "flashcannon", "fling", "focusblast", "focuspunch", "gravity", "hardpress", "heavyslam", "icepunch",
+               "irondefense", "ironhead", "megakick", "megapunch", "meteorbeam", "powergem", "poweruppunch",
+               "rockblast", "rockpolish", "rockslide", "rocksmash", "rocktomb", "safeguard", "sandstorm", "sandtomb",
+               "smackdown", "stealthrock", "stompingtantrum", "stoneedge", "strength", "sunnyday", "superpower"]
+REGISTEEL_TM = ["amnesia", "brickbreak", "bulldoze", "doubleedge", "earthquake", "flashcannon", "fling", "focusblast",
+                "focuspunch", "gravity", "hardpress", "heavyslam", "honeclaws", "icepunch", "irondefense", "ironhead",
+                "megakick", "megapunch", "metalclaw", "metalsound", "meteorbeam", "poweruppunch", "raindance",
+                "rockpolish", "rockslide", "rocksmash", "rocktomb", "safeguard", "sandstorm", "shadowclaw",
+                "stealthrock", "steelbeam", "steelroller", "stompingtantrum", "strength", "sunnyday", "superpower",
+                "gyroball"]
+REGIELEKI_TM = ["acrobatics", "agility", "assurance", "bounce", "electroweb", "lightscreen", "raindance", "reflect",
+                "screech", "swift"]
+REGIDRAGO_TM = ["breakingswipe", "crunch", "dracometeor", "dragoncheer", "dragonclaw", "dragondance", "dragonpulse",
+                "earthpower", "earthquake", "firefang", "focusenergy", "icefang", "laserfocus", "lightscreen", "outrage",
+                "reflect", "reversal", "scaleshot", "swift", "thunderfang"]
+REGIGIGAS_TM = ["avalanche", "brickbreak", "bulldoze", "darkestlariat", "doubleedge", "drainpunch", "earthpower",
+                "earthquake", "firepunch", "fling", "focusblast", "focuspunch", "gravity", "hardpress", "heatcrash",
+                "heavyslam", "highhorsepower", "icepunch", "icywind", "ironhead", "knockoff", "megakick", "megapunch",
+                "naturepower", "payback", "poweruppunch", "raindance", "retaliate", "revenge", "rockpolish",
+                "rockslide", "rocksmash", "rocktomb", "safeguard", "smackdown", "stompingtantrum", "stoneedge",
+                "strength", "sunnyday", "superpower", "terrainpulse", "zenheadbutt", "closecombat", "bulkup",
+                "aurasphere", "coaching", "thunderpunch", "thunderbolt", "thunder", "thunderwave", "shockwave"]
+REGI_GROUND_TM = ["earthquake", "earthpower", "dig", "bulldoze", "highhorsepower", "stealthrock", "sandstorm",
+                  "drillrun", "mudshot", "stompingtantrum", "spikes", "rockslide", "rocktomb"]
+
+
+def regi_tm(*lists):
+    out = []
+    for lst in lists:
+        out += [m for m in lst if m not in out]
+    return out
+
+
+def regi_spawn(sid, level, weight, condition):
+    return spawn(sid, "ultra-rare", level, weight, condition)
+
+
+SPECIES.update({
+    "ironfreeze": {**REGI,
+        "dex": 3179, "name": "Iron Freeze", "line": "paradox_regis", "types": ["ice", "electric"],
+        "stats": stats(80, 60, 95, 125, 160, 70), "ev": evs(special_defence=3),
+        "height": 18, "weight": 1990, "fly": True,
+        "moves": [(1, "chargebeam"), (1, "icywind"), (1, "thundershock"), (6, "bulldoze"), (12, "shockwave"),
+                  (18, "iceshard"), (24, "icebeam"), (30, "discharge"), (36, "amnesia"), (42, "thunderbolt"),
+                  (48, "blizzard"), (54, "freezedry"), (60, "lockon"), (66, "zapcannon"), (72, "hyperbeam"),
+                  (78, "explosion")],
+        "tm": regi_tm(REGI_TM, REGICE_TM, REGI_ELECTRIC_TM),
+        "drops": [("minecraft:packed_ice", "2-5", None), ("minecraft:blue_ice", "0-2", None),
+                  ("cobblemon:never_melt_ice", None, 12.0), ("cobblemon:magnet", None, 8.0)],
+        "entry": ("A Pokémon resembling Regice, sketched in an expedition report about a glacier that hummed with "
+                  "current. Its crystal body is chilled close to absolute zero by the power racing through it, and the "
+                  "lights on its visor flash in a code no one has deciphered."),
+        "spawns": [regi_spawn("ironfreeze-frozen", "60-70", 0.6,
+                              {"canSeeSky": True, "biomes": ["#cobblemon:is_freezing", "#cobblemon:is_glacial"]})],
+        "how": ["Wild: very rare in frozen biomes (ice spikes, frozen peaks, snowy slopes)."],
+    },
+    "ironsentry": {**REGI,
+        "dex": 3180, "name": "Iron Sentry", "line": "paradox_regis", "types": ["steel", "electric"],
+        "stats": stats(80, 95, 135, 95, 135, 50), "ev": evs(defence=2, special_defence=1),
+        "height": 19, "weight": 2410,
+        "moves": [(1, "chargebeam"), (1, "metalclaw"), (1, "thundershock"), (6, "bulldoze"), (12, "shockwave"),
+                  (18, "stomp"), (24, "flashcannon"), (24, "ironhead"), (30, "discharge"), (36, "irondefense"),
+                  (36, "amnesia"), (42, "thunderpunch"), (48, "heavyslam"), (54, "gyroball"), (60, "lockon"),
+                  (66, "zapcannon"), (72, "steelbeam"), (78, "explosion")],
+        "tm": regi_tm(REGI_TM, REGISTEEL_TM, REGI_ELECTRIC_TM),
+        "drops": [("minecraft:iron_ingot", "2-6", None), ("minecraft:copper_ingot", "1-4", None),
+                  ("cobblemon:metal_coat", None, 12.0), ("cobblemon:magnet", None, 8.0)],
+        "entry": ("A Pokémon resembling Registeel, said to be the guardian described in a report on a sealed vault. "
+                  "Its long red fingers can reach through steel walls, and it patrols the same corridors without rest, "
+                  "as if still following orders given by someone long gone."),
+        "spawns": [regi_spawn("ironsentry-trial", "60-70", 2.0, {"structures": ["minecraft:trial_chambers"]})],
+        "how": ["Wild: very rare inside trial chambers."],
+    },
+    "irontower": {**REGI,
+        "dex": 3181, "name": "Iron Tower", "line": "paradox_regis", "types": ["rock", "electric"],
+        "stats": stats(80, 135, 160, 55, 90, 70), "ev": evs(defence=3),
+        "height": 17, "weight": 2650,
+        "moves": [(1, "chargebeam"), (1, "rockthrow"), (1, "thundershock"), (6, "bulldoze"), (12, "shockwave"),
+                  (18, "stomp"), (24, "rockslide"), (30, "thunderpunch"), (36, "irondefense"), (42, "hammerarm"),
+                  (48, "stoneedge"), (54, "wildcharge"), (60, "lockon"), (66, "zapcannon"), (72, "headsmash"),
+                  (78, "explosion")],
+        "tm": regi_tm(REGI_TM, REGIROCK_TM, REGI_ELECTRIC_TM),
+        "drops": [("minecraft:cobblestone", "4-10", None), ("minecraft:redstone", "2-6", None),
+                  ("cobblemon:hard_stone", None, 12.0), ("cobblemon:magnet", None, 8.0)],
+        "entry": ("A Pokémon resembling Regirock, recorded in an old journal about a canyon that crackled with "
+                  "lightning. The pillars on its back store the charge for its huge fists, and one blow is said to "
+                  "shatter a boulder into glowing sand."),
+        "spawns": [regi_spawn("irontower-badlands", "60-70", 0.6,
+                              {"canSeeSky": True, "biomes": ["#cobblemon:is_badlands", "#cobblemon:is_peak"]})],
+        "how": ["Wild: very rare in badlands and on mountain peaks."],
+    },
+    "ironduality": {**REGI,
+        "dex": 3182, "name": "Iron Duality", "line": "paradox_regis", "types": ["dragon", "electric"],
+        "stats": stats(110, 100, 70, 120, 70, 120), "ev": evs(special_attack=2, speed=1),
+        "height": 21, "weight": 2240, "fly": True,
+        "moves": [(1, "thundershock"), (1, "twister"), (1, "rapidspin"), (6, "bite"), (12, "electroweb"),
+                  (18, "dragonbreath"), (24, "thunderwave"), (30, "crunch"), (36, "thundercage"), (42, "dragonclaw"),
+                  (48, "dragondance"), (54, "extremespeed"), (60, "thunderbolt"), (66, "dragonenergy"),
+                  (72, "hyperbeam"), (78, "explosion")],
+        "tm": regi_tm(REGI_TM, REGIELEKI_TM, REGIDRAGO_TM, REGI_ELECTRIC_TM),
+        "drops": [("minecraft:copper_ingot", "2-5", None), ("cobblemon:dragon_scale", None, 10.0),
+                  ("cobblemon:dragon_fang", None, 10.0), ("cobblemon:magnet", None, 8.0)],
+        "entry": ("A Pokémon that seems to be Regieleki and Regidrago fused into one, described in a strange article "
+                  "about storm clouds that roared like dragons. The core does the thinking; the two heads at its sides "
+                  "do the biting, and they never stop crackling."),
+        "spawns": [regi_spawn("ironduality-storm", "60-70", 0.5,
+                              {"canSeeSky": True, "isThundering": True, "biomes": ["#cobblemon:is_overworld"]})],
+        "how": ["Wild: very rare anywhere outdoors during a thunderstorm."],
+    },
+    "irontitan": {**REGI,
+        "dex": 3183, "name": "Iron Titan", "line": "paradox_regis", "types": ["normal", "fighting"],
+        "friendship": 0, "exp": 335,
+        "stats": stats(110, 150, 110, 70, 100, 110), "ev": evs(attack=3),
+        "height": 37, "weight": 4800,
+        "moves": [(1, "pound"), (1, "foresight"), (1, "dizzypunch"), (1, "confuseray"), (6, "machpunch"),
+                  (12, "facade"), (18, "stomp"), (24, "protect"), (30, "knockoff"), (36, "megapunch"),
+                  (42, "bodypress"), (48, "drainpunch"), (54, "zenheadbutt"), (60, "heavyslam"), (66, "hammerarm"),
+                  (72, "gigaimpact"), (78, "crushgrip"), (84, "closecombat")],
+        "tm": regi_tm(REGI_TM, REGIGIGAS_TM),
+        "drops": [("minecraft:iron_ingot", "4-8", None), ("minecraft:gold_ingot", "1-4", None),
+                  ("minecraft:emerald", "0-2", None), ("cobblemon:black_belt", None, 10.0),
+                  ("cobblemon:expert_belt", None, 6.0)],
+        "entry": ("A Pokémon resembling Regigigas, described in a report about a titan that woke in a city deep under "
+                  "the earth. It needs no warming up: the orb in its hand charges in an instant, and the rings on its "
+                  "chest light up one by one before it throws a punch."),
+        "spawns": [regi_spawn("irontitan-ancient", "70-75", 2.0,
+                              {"canSeeSky": False, "structures": ["minecraft:ancient_city"]})],
+        "how": ["Wild: very rare in ancient cities, deep underground."],
+    },
+    "irondynamo": {**REGI,
+        "dex": 3184, "name": "Iron Dynamo", "line": "paradox_regis", "types": ["electric", "ground"],
+        "stats": stats(70, 115, 75, 115, 65, 150), "ev": evs(speed=3),
+        "height": 16, "weight": 1720, "fly": True,
+        "moves": [(1, "rapidspin"), (1, "thundershock"), (1, "mudslap"), (6, "electroweb"), (12, "bulldoze"),
+                  (18, "shockwave"), (24, "thunderwave"), (30, "extremespeed"), (36, "thundercage"),
+                  (42, "thunderbolt"), (48, "drillrun"), (54, "earthpower"), (60, "lockon"), (66, "zapcannon"),
+                  (72, "hyperbeam"), (78, "explosion")],
+        "tm": regi_tm(REGI_TM, REGIELEKI_TM, REGI_GROUND_TM, REGI_ELECTRIC_TM),
+        "drops": [("minecraft:copper_ingot", "2-5", None), ("minecraft:pointed_dripstone", "1-3", None),
+                  ("cobblemon:soft_sand", None, 10.0), ("cobblemon:magnet", None, 10.0)],
+        "entry": ("A Pokémon resembling Regieleki, pictured in a dubious magazine story about a machine that drilled "
+                  "for lightning. Its drills bore through rock as it charges, and its hands and its little drone fly "
+                  "off on their own to fetch what it digs up."),
+        "spawns": [regi_spawn("irondynamo-dripstone", "60-70", 1.0,
+                              {"canSeeSky": False, "biomes": ["minecraft:dripstone_caves"]})],
+        "how": ["Wild: very rare in dripstone caves."],
+    },
+})
+LINES["paradox_regis"] = ["ironfreeze", "ironsentry", "irontower", "ironduality", "irontitan", "irondynamo"]
+
 # --- Digimon crossover (#3172-3178, CobbleEffort: Digital, the user's request): the Agumon line, built after the official
 # Digimon art the user shared. Label "digimon" (the Digiball's 3x); genderless. Greymon and later are huge (the user's
 # call: Greymon at least 15 blocks, +10 blocks per stage). Alter-B (level 70) is legendary-tier.
@@ -4695,7 +4864,8 @@ def build_model(sp):
     cfg = SPECIES[sp]
     hand = model_module(sp)
     cfg.update(scale=hand.SCALE, hitbox=hand.HITBOX, look=hand.LOOK)
-    if DATA_ONLY:
+    base_res = RES / "assets" / MOD / "bedrock" / "pokemon" / "resolvers" / folder(sp) / f"0_{sp}_base.json"
+    if DATA_ONLY and base_res.exists():                    # (a new species has no model yet: it is built below)
         reuse_model(sp, cfg)
         pf = RES / "assets" / MOD / "bedrock" / "pokemon" / "posers" / folder(sp) / f"{sp}.json"
         if sp in DIGI_SIZES and "digimon" in cfg.get("labels", []) and pf.exists():   # Digimon: rescaled to lore size
@@ -4854,7 +5024,8 @@ def main():
     import argparse
     ap = argparse.ArgumentParser()
     ap.add_argument("--showdown", type=Path, help="Cobblemon's data/cobblemon/showdown.zip: check moves and abilities")
-    ap.add_argument("--data-only", action="store_true", help="keep the written models/textures/resolvers, rebuild data")
+    ap.add_argument("--data-only", action="store_true",
+                    help="keep the written models/textures/resolvers, rebuild data (new species still get models)")
     args = ap.parse_args()
     global DATA_ONLY
     DATA_ONLY = args.data_only

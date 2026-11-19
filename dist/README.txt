@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 226 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 232 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3818,6 +3818,61 @@ cobbleeffort:cavitot.
   glue a flock of Flying Pokémon to the sky."
   * Evolve Nozzlurm at level 40, learning Dragon Pulse.
   * Wild: rare in jungles and swamps while it rains.
+
+#3179 IRON FREEZE  (Ice / Electric; Quark Drive)
+  a faceted ice crystal column with a black visor of glowing yellow dots, huge blocky crystal arms
+  with glowing claws, glowing crystal wings and hovering crystal feet
+  Stats: HP 80  Atk 60  Def 95  SpA 125  SpD 160  Spe 70  (total 590)
+  Pokedex: "A Pokémon resembling Regice, sketched in an expedition report about a glacier that
+  hummed with current. Its crystal body is chilled close to absolute zero by the power racing
+  through it, and the lights on its visor flash in a code no one has deciphered."
+  * Wild: very rare in frozen biomes (ice spikes, frozen peaks, snowy slopes).
+
+#3180 IRON SENTRY  (Steel / Electric; Quark Drive)
+  a wide white armoured sphere with a black face band of glowing red dots, red-banded shoulder
+  spheres, thin black arms with long glowing red fingers, on a round platform and two short legs
+  Stats: HP 80  Atk 95  Def 135  SpA 95  SpD 135  Spe 50  (total 590)
+  Pokedex: "A Pokémon resembling Registeel, said to be the guardian described in a report on a
+  sealed vault. Its long red fingers can reach through steel walls, and it patrols the same
+  corridors without rest, as if still following orders given by someone long gone."
+  * Wild: very rare inside trial chambers.
+
+#3181 IRON TOWER  (Rock / Electric; Quark Drive)
+  a grey armoured golem with a small black-visored helmet of orange dots, two dark back pillars
+  tipped with glowing orange cones and huge forearms ending in glowing orange fists
+  Stats: HP 80  Atk 135  Def 160  SpA 55  SpD 90  Spe 70  (total 590)
+  Pokedex: "A Pokémon resembling Regirock, recorded in an old journal about a canyon that crackled
+  with lightning. The pillars on its back store the charge for its huge fists, and one blow is said
+  to shatter a boulder into glowing sand."
+  * Wild: very rare in badlands and on mountain peaks.
+
+#3182 IRON DUALITY  (Dragon / Electric; Quark Drive)
+  a black core sphere under a zigzag silver crown with glowing pink dots and cyan lightning-bolt
+  legs, flanked by two huge dark dragon heads with gaping jaws of glowing cyan teeth
+  Stats: HP 110  Atk 100  Def 70  SpA 120  SpD 70  Spe 120  (total 590)
+  Pokedex: "A Pokémon that seems to be Regieleki and Regidrago fused into one, described in a
+  strange article about storm clouds that roared like dragons. The core does the thinking; the two
+  heads at its sides do the biting, and they never stop crackling."
+  * Wild: very rare anywhere outdoors during a thunderstorm.
+
+#3183 IRON TITAN  (Normal / Fighting; Quark Drive)
+  a white barrel-bodied titan under a black dome of glowing green crystals, with gold shoulder caps,
+  a black front panel of yellow lights between columns of coloured rings, banded arms and a glowing
+  pink orb in one hand
+  Stats: HP 110  Atk 150  Def 110  SpA 70  SpD 100  Spe 110  (total 650)
+  Pokedex: "A Pokémon resembling Regigigas, described in a report about a titan that woke in a city
+  deep under the earth. It needs no warming up: the orb in its hand charges in an instant, and the
+  rings on its chest light up one by one before it throws a punch."
+  * Wild: very rare in ancient cities, deep underground.
+
+#3184 IRON DYNAMO  (Electric / Ground; Quark Drive)
+  a pale lavender sphere of four blue-grey panels round a face of glowing yellow dots, with threaded
+  drill cones on its sides and below, two floating three-fingered hands and a little spiked drone
+  Stats: HP 70  Atk 115  Def 75  SpA 115  SpD 65  Spe 150  (total 590)
+  Pokedex: "A Pokémon resembling Regieleki, pictured in a dubious magazine story about a machine
+  that drilled for lightning. Its drills bore through rock as it charges, and its hands and its
+  little drone fly off on their own to fetch what it digs up."
+  * Wild: very rare in dripstone caves.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
