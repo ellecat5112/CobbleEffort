@@ -52,8 +52,8 @@ def build():
     for i in range(18):                                                                 # coiled loop body
         a0 = i * 2 * math.pi / 18
         a1 = (i + 1) * 2 * math.pi / 18
-        p0 = (0.0, 24.0 + 12.0 * math.sin(a0), 12.0 * math.cos(a0))
-        p1 = (0.0, 24.0 + 12.0 * math.sin(a1), 12.0 * math.cos(a1))
+        p0 = (12.0 * math.cos(a0), 24.0 + 12.0 * math.sin(a0), 3.0 + 2.0 * math.sin(a0 * 0.5))
+        p1 = (12.0 * math.cos(a1), 24.0 + 12.0 * math.sin(a1), 3.0 + 2.0 * math.sin(a1 * 0.5))
         rod(m, bd, p0, p1, 3, bodyf, extend=0.6)
     nk = m.bone("neck", bd, (0, 36, -4))
     pts = [(0, 34.0, -8.0), (0, 42.0, -12.0), (0, 48.0, -16.0)]
