@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ironcurrent",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ironcurrent",
+   "model": "cobbleeffort:ironcurrent.geo",
+   "texture": "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_glow_0.png",
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_glow_1.png",
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3197_ironcurrent/ironcurrent_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironcurrent-river",
+   "pokemon": "cobbleeffort:ironcurrent",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "#cobblemon:is_river",
+     "#cobblemon:is_freshwater",
+     "#cobblemon:is_beach"
+    ]
+   }
+  }
+ ]
+}

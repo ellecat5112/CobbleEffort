@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:ironcaldera",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ironcaldera",
+   "model": "cobbleeffort:ironcaldera.geo",
+   "texture": "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_glow_0.png",
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_glow_1.png",
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3196_ironcaldera/ironcaldera_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -642,6 +642,10 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   proportions, head, tube and tail. Model +x is the creature's LEFT = the viewer's right in a front preview. Rods that
   point up show their local "down" face to the front (paint throats on "down"). Invasion Rotom (Unknown-Dan's art)
   is the 33rd extra Rotom form (rotom.py, icon in rotom_icons.py).
+  **Gen 2 paradox legends** (1.11.0, #3195-3202, line "paradox_gen2"): future beasts Iron Thunder / Caldera /
+  Current (Cobblemon already has the ancient ones), Proto Lugia (@indigo_region), Iron Storm (@CaligoMilites), Shimmer
+  Wing / Iron Radiance / Tangled Time (@goldmills_). Beasts on `_digibeast.quadruped`; its leg rods need shaders by
+  distance along the rod (`box`), not by y. Flying sea legends spawn with position "surface".
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

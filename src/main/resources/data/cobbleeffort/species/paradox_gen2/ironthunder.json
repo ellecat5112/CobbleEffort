@@ -1,0 +1,169 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3195,
+ "name": "Iron Thunder",
+ "primaryType": "electric",
+ "secondaryType": "steel",
+ "maleRatio": -1,
+ "height": 22,
+ "weight": 2400,
+ "pokedex": [
+  "cobbleeffort.species.ironthunder.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 105,
+  "defence": 85,
+  "special_attack": 125,
+  "special_defence": 80,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.968,
+ "hitbox": {
+  "width": 2.4,
+  "height": 2.375,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.34
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:metal_coat",
+    "percentage": 6.0
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:leer",
+  "1:metalclaw",
+  "6:quickattack",
+  "12:spark",
+  "18:bite",
+  "24:thunderfang",
+  "30:ironhead",
+  "36:discharge",
+  "42:calmmind",
+  "48:flashcannon",
+  "54:thunderbolt",
+  "60:steelbeam",
+  "66:thunder",
+  "72:electroshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:shockwave",
+  "tm:zapcannon",
+  "tm:thunderfang",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:heavyslam",
+  "tm:metalsound",
+  "tm:gyroball",
+  "tm:magnetrise",
+  "tm:steelwing"
+ ]
+}

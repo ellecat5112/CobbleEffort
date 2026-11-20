@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "shimmerwing-blossom",
+   "pokemon": "cobbleeffort:shimmerwing",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-75",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "day",
+    "biomes": [
+     "minecraft:cherry_grove",
+     "minecraft:flower_forest",
+     "minecraft:sunflower_plains"
+    ]
+   }
+  }
+ ]
+}

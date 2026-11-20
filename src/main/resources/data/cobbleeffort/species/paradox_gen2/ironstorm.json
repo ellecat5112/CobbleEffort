@@ -1,0 +1,207 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3199,
+ "name": "Iron Storm",
+ "primaryType": "electric",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 44,
+ "weight": 3300,
+ "pokedex": [
+  "cobbleeffort.species.ironstorm.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 96,
+  "attack": 110,
+  "defence": 120,
+  "special_attack": 130,
+  "special_defence": 110,
+  "speed": 114
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 340,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.257,
+ "hitbox": {
+  "width": 2.6,
+  "height": 3.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:twisted_spoon",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:gust",
+  "1:thundershock",
+  "1:confusion",
+  "8:chargebeam",
+  "16:extrasensory",
+  "24:discharge",
+  "32:psychic",
+  "40:calmmind",
+  "48:thunderbolt",
+  "56:aeroblast",
+  "64:futuresight",
+  "72:electroshot",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:shockwave",
+  "tm:zapcannon",
+  "tm:thunderfang",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:futuresight",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:trick",
+  "tm:psychicterrain",
+  "tm:storedpower",
+  "tm:expandingforce",
+  "tm:allyswitch",
+  "tm:imprison",
+  "tm:skillswap",
+  "tm:magicroom",
+  "tm:trickroom",
+  "tm:wonderroom",
+  "tm:psychicnoise",
+  "tm:gravity",
+  "tm:agility",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:heavyslam",
+  "tm:metalsound",
+  "tm:gyroball",
+  "tm:magnetrise",
+  "tm:steelwing"
+ ]
+}

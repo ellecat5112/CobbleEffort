@@ -1683,6 +1683,23 @@ underground. Their types (where the art gave none), stats, moves and Pokédex en
 
 ![The Gen 1 paradox legends](docs/paradox_gen1.png)
 
+**The Gen 2 paradox legends** (1.11.0, the user's request): #3195-3202. Raikou, Entei and Suicune already have
+Cobblemon's ancient paradoxes (Raging Bolt, Gouging Fire, Walking Wake), so they get future ones: **Iron Thunder**
+(Electric/Steel), a robot Raikou with five missile pods spitting lightning; **Iron Caldera** (Fire/Ground), a robot Entei
+with a mane of fire, smoke and laser beams; and **Iron Current** (Water/Fairy), a glassy robot Suicune with tendrils of
+starry pink light (art the user shared, our names). Lugia gets **Proto Lugia** (ancient, Water/Dragon), a spiny dark
+Lugia after **@indigo_region**'s art, and **Iron Storm** (future, Electric/Psychic), a white-armoured Lugia after
+**@CaligoMilites**' art. Ho-Oh gets **Shimmer Wing** (ancient, Fire/Fairy), a scarlet dinosaur-bird with a golden brush
+tail, and **Iron Radiance** (future, Fire/Psychic), a robot Ho-Oh with glowing wings; Celebi gets **Tangled Time**
+(ancient, Grass/Dragon), with mismatched eyes and wings (all three after **@goldmills_**'s art). Names from the art are
+kept. The beasts, Lugias and Ho-Ohs are legendary paradoxes, Tangled Time a mythical one (genderless, catch rate 3),
+all very rare: Iron Thunder on plains and savannas in thunderstorms, Iron Caldera at night in volcanic biomes, deserts
+and badlands, Iron Current at night by rivers and lakes, Proto Lugia at night over deep oceans, Iron Storm over oceans
+in thunderstorms, Shimmer Wing by day in cherry groves and flower forests, Iron Radiance by day on peaks, and Tangled
+Time in mangrove swamps and dark forests. Types where the art gave none, stats, moves and Pokédex entries are ours.
+
+![The Gen 2 paradox legends](docs/paradox_gen2.png)
+
 **The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
 fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
 DNA machine, pull them apart. Put a mixed fossil in the tank, pick one of its halves at the Purifier, and a minute later
@@ -1902,6 +1919,14 @@ ring on a lime stem.
 | 3192 | **Genesis One** | Psychic / Normal | Protosynthesis | 110 / 100 / 100 / 100 / 100 / 90 | 2'0" (0.6 m) / 6 kg | Wild: very rare in lush caves. | A Pokémon resembling Mew, described in an expedition report about a cave where life itself was said to begin. The strands that spiral from its ring are said to hold the code of every Pokémon that has ever lived. |
 | 3193 | **Iron Blast** | Psychic / Dark | Quark Drive | 96 / 110 / 90 / 150 / 100 / 134 | 5'7" (1.7 m) / 108 kg | Wild: very rare in End cities. | A Pokémon resembling Mewtwo, recorded in a classified report about a weapon built to surpass it. The plasma that drips from its armour is pure psychic power, and the orb on its fist can level a mountain. |
 | 3194 | **Feral Mind** | Psychic / Rock | Protosynthesis | 116 / 140 / 100 / 110 / 94 / 120 | 7'3" (2.2 m) / 136 kg | Wild: very rare deep underground (below y -10). | A Pokémon resembling Mewtwo, described in an old journal about a wild beast that ruled a crystal cavern long before people came. Crystals grow from its fists wherever its power gathers, and its mane bristles when it is angry. |
+| 3195 | **Iron Thunder** | Electric / Steel | Quark Drive | 90 / 105 / 85 / 125 / 80 / 105 | 7'3" (2.2 m) / 240 kg | Wild: very rare on plains and savannas during thunderstorms. | A Pokémon resembling Raikou, recorded in a report about a storm that marched across the plains on four legs. The pods on its back fire bolts of lightning that it steers with a twitch of its shoulders. |
+| 3196 | **Iron Caldera** | Fire / Ground | Quark Drive | 115 / 125 / 95 / 90 / 70 / 95 | 8'6" (2.6 m) / 290 kg | Wild: very rare at night in volcanic biomes, deserts and badlands. | A Pokémon resembling Entei, described in an expedition log about a volcano that walked away from its crater. Lava pools wherever it stands, and the beams that lance from its mane can melt rock. |
+| 3197 | **Iron Current** | Water / Fairy | Quark Drive | 100 / 75 / 120 / 100 / 115 / 80 | 7'3" (2.2 m) / 210 kg | Wild: very rare at night by rivers, lakes and beaches. | A Pokémon resembling Suicune, sketched in a report about a light that ran along a river at night and left the water crystal clear. Its tendrils of light purify anything they touch. |
+| 3198 | **Proto Lugia** | Water / Dragon | Protosynthesis | 106 / 130 / 110 / 110 / 104 / 120 | 14'5" (4.4 m) / 220 kg | Wild: very rare at night over deep oceans. | A Pokémon resembling Lugia, described in an old sailor's log about a spined dragon that rose from the deep before a storm. Its claws are said to be able to tear a ship's hull in two. |
+| 3199 | **Iron Storm** | Electric / Psychic | Quark Drive | 96 / 110 / 120 / 130 / 110 / 114 | 14'5" (4.4 m) / 330 kg | Wild: very rare over oceans during thunderstorms. | A Pokémon resembling Lugia, recorded in a report about a lighthouse that went dark when a machine flew out of a storm. The glowing panels on its armour store lightning for its wings. |
+| 3200 | **Shimmer Wing** | Fire / Fairy | Protosynthesis | 116 / 140 / 90 / 100 / 124 / 110 | 10'6" (3.2 m) / 190 kg | Wild: very rare by day in cherry groves, flower forests and sunflower plains. | A Pokémon resembling Ho-Oh, described in an old book of legends about a rainbow-feathered beast that strutted through blossoming groves. Its plumage shimmers in seven colours in the sun. |
+| 3201 | **Iron Radiance** | Fire / Psychic | Quark Drive | 96 / 110 / 90 / 150 / 110 / 124 | 11'2" (3.4 m) / 220 kg | Wild: very rare by day on mountain peaks and highlands. | A Pokémon resembling Ho-Oh, pictured in a dubious magazine story about a satellite that came down to roost on a mountain. The light from its wings is said to be bright enough to see from space. |
+| 3202 | **Tangled Time** | Grass / Dragon | Protosynthesis | 110 / 110 / 90 / 110 / 90 / 90 | 3'3" (1 m) / 6 kg | Wild: very rare in mangrove swamps and dark forests. | A Pokémon resembling Celebi, described in an expedition journal about a forest where the trees grew in every direction at once. Lost in time, its eyes see two different ages of the world. |
 | 3151 | **Kidlope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 52 / 60 / 45 / 40 / 48 / 64 | 1'8" (0.5 m) / 8.5 kg | Wild: uncommon in forests at night (dark forests especially). Evolves into Shadelope at level 16. | A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and loves to steal shiny things from travellers, then bound away laughing. |
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |

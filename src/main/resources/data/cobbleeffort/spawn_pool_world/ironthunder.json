@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironthunder-storm",
+   "pokemon": "cobbleeffort:ironthunder",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "isThundering": true,
+    "biomes": [
+     "#cobblemon:is_plains",
+     "#cobblemon:is_savanna",
+     "#cobblemon:is_grassland"
+    ]
+   }
+  }
+ ]
+}

@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 243 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 251 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -3976,6 +3976,78 @@ cobbleeffort:cavitot.
   crystal cavern long before people came. Crystals grow from its fists wherever its power gathers,
   and its mane bristles when it is angry."
   * Wild: very rare deep underground (below y -10).
+
+#3195 IRON THUNDER  (Electric / Steel; Quark Drive)
+  a robot Raikou with yellow armour over a grey frame, glowing cyan leg chevrons, a black gem-browed
+  helmet with a red visor and yellow fangs, and five purple missile pods spitting cyan lightning
+  Stats: HP 90  Atk 105  Def 85  SpA 125  SpD 80  Spe 105  (total 590)
+  Pokedex: "A Pokémon resembling Raikou, recorded in a report about a storm that marched across the
+  plains on four legs. The pods on its back fire bolts of lightning that it steers with a twitch of
+  its shoulders."
+  * Wild: very rare on plains and savannas during thunderstorms.
+
+#3196 IRON CALDERA  (Fire / Ground; Quark Drive)
+  a heavy robot Entei of banded brown armour with glowing vents, a grey skull mask under crimson and
+  gold crests, a fan of grey blades, a mane of glowing flame under black smoke and orange laser
+  beams
+  Stats: HP 115  Atk 125  Def 95  SpA 90  SpD 70  Spe 95  (total 590)
+  Pokedex: "A Pokémon resembling Entei, described in an expedition log about a volcano that walked
+  away from its crater. Lava pools wherever it stands, and the beams that lance from its mane can
+  melt rock."
+  * Wild: very rare at night in volcanic biomes, deserts and badlands.
+
+#3197 IRON CURRENT  (Water / Fairy; Quark Drive)
+  a sleek robot Suicune of glassy teal with pale diamond facets, a lavender hood of plates, a
+  glowing pink hexagon crest and four arching tendrils of starry pink light
+  Stats: HP 100  Atk 75  Def 120  SpA 100  SpD 115  Spe 80  (total 590)
+  Pokedex: "A Pokémon resembling Suicune, sketched in a report about a light that ran along a river
+  at night and left the water crystal clear. Its tendrils of light purify anything they touch."
+  * Wild: very rare at night by rivers, lakes and beaches.
+
+#3198 PROTO LUGIA  (Water / Dragon; Protosynthesis)
+  a gaunt dark violet Lugia with a lilac plated belly, bone spikes along its back, flanks and tail,
+  and great wings of four feathered fingers tipped with bone-white claws
+  Stats: HP 106  Atk 130  Def 110  SpA 110  SpD 104  Spe 120  (total 680)
+  Pokedex: "A Pokémon resembling Lugia, described in an old sailor's log about a spined dragon that
+  rose from the deep before a storm. Its claws are said to be able to tear a ship's hull in two."
+  * Wild: very rare at night over deep oceans.
+
+#3199 IRON STORM  (Electric / Psychic; Quark Drive)
+  a chunky white-armoured Lugia with a blocky visored helmet, glowing peach panels on its chest,
+  thighs and massive cylinder wing-arms, peach-tipped spikes and thick legs on black clawed feet
+  Stats: HP 96  Atk 110  Def 120  SpA 130  SpD 110  Spe 114  (total 680)
+  Pokedex: "A Pokémon resembling Lugia, recorded in a report about a lighthouse that went dark when
+  a machine flew out of a storm. The glowing panels on its armour store lightning for its wings."
+  * Wild: very rare over oceans during thunderstorms.
+
+#3200 SHIMMER WING  (Fire / Fairy; Protosynthesis)
+  a shaggy crouching scarlet dinosaur-bird with a curling gold crest, a lime tuft, dark blue claws,
+  a skirt of lime-to-white tail feathers and a long tail ending in a golden brush
+  Stats: HP 116  Atk 140  Def 90  SpA 100  SpD 124  Spe 110  (total 680)
+  Pokedex: "A Pokémon resembling Ho-Oh, described in an old book of legends about a rainbow-
+  feathered beast that strutted through blossoming groves. Its plumage shimmers in seven colours in
+  the sun."
+  * Wild: very rare by day in cherry groves, flower forests and sunflower plains.
+
+#3201 IRON RADIANCE  (Fire / Psychic; Quark Drive)
+  a robot Ho-Oh with a scarlet armoured head under golden curls, a glowing gold-to-peach belly,
+  scarlet wing arms trailing sheets of glowing orange-to-gold feathers and a fan of glowing gold
+  tail feathers
+  Stats: HP 96  Atk 110  Def 90  SpA 150  SpD 110  Spe 124  (total 680)
+  Pokedex: "A Pokémon resembling Ho-Oh, pictured in a dubious magazine story about a satellite that
+  came down to roost on a mountain. The light from its wings is said to be bright enough to see from
+  space."
+  * Wild: very rare by day on mountain peaks and highlands.
+
+#3202 TANGLED TIME  (Grass / Dragon; Protosynthesis)
+  a wild little Celebi with mismatched amber and blue eyes, a vine tangle across its face, red leaf
+  antennae and a white horn, a ragged leafy skirt, one long red-to-gold feather wing and two small
+  blue wings
+  Stats: HP 110  Atk 110  Def 90  SpA 110  SpD 90  Spe 90  (total 600)
+  Pokedex: "A Pokémon resembling Celebi, described in an expedition journal about a forest where the
+  trees grew in every direction at once. Lost in time, its eyes see two different ages of the
+  world."
+  * Wild: very rare in mangrove swamps and dark forests.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)
