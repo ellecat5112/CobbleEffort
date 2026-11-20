@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironascent-end",
+   "pokemon": "cobbleeffort:ironascent",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "75-80",
+   "weight": 1.0,
+   "condition": {
+    "dimensions": [
+     "minecraft:the_end"
+    ],
+    "biomes": [
+     "minecraft:end_highlands",
+     "minecraft:end_midlands"
+    ]
+   }
+  }
+ ]
+}

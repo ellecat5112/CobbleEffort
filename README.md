@@ -1700,6 +1700,23 @@ Time in mangrove swamps and dark forests. Types where the art gave none, stats, 
 
 ![The Gen 2 paradox legends](docs/paradox_gen2.png)
 
+**The Gen 3 paradox legends** (1.12.0, the user's request): #3203-3210 (the Regis already have theirs, #3179-3184).
+The Eon duo get **Iron Eon** (future, Steel/Psychic), a jet of a Latios, and **Eternal Wings** (ancient, Fairy/Psychic),
+a feathered Latias, after **Glowing_Shark**'s art. Kyogre gets **Pristine Aqua** (ancient, Water/Rock), clawed and
+red-marked, after **sub_arashii**'s art (@MadZygardeCore), and **Iron Deluge** (future, Water/Electric), a navy robot
+with pink circuits, a bubble belly and a mechanical neck (signed art, artist not named; our name). Groudon gets
+**Smoldering Crust** (ancient, Ground/Dragon), crawling and spiked with heat pouring from its back (our name), and
+**Iron Magma** (future, Steel/Fire), veined with glowing magma, after **Cupnoodlez**'s art. Rayquaza gets **Ancient
+Rogue** (ancient, Fire/Dragon), a sage serpent with plumes of fire (sub_arashii), and **Iron Ascent** (future,
+Dragon/Steel), a white robot serpent coiled in a ring, after **@pokefeast**'s art. Names from the art are kept; all are
+legendary paradoxes (genderless, catch rate 3), very rare: Iron Eon by day on mountains, Eternal Wings at night on
+tropical islands and meadows, Pristine Aqua in deep oceans in the rain, Iron Deluge at night in warm oceans, Smoldering
+Crust by day in dry badlands and deserts, Iron Magma in the Nether, Ancient Rogue high on peaks (above y 140) and Iron
+Ascent on the End's outer islands. Types where the art gave none, stats, moves and Pokédex entries are ours (Iron
+Eon's and Eternal Wings' follow their art's entries).
+
+![The Gen 3 paradox legends](docs/paradox_gen3.png)
+
 **The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
 fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
 DNA machine, pull them apart. Put a mixed fossil in the tank, pick one of its halves at the Purifier, and a minute later
@@ -1927,6 +1944,14 @@ ring on a lime stem.
 | 3200 | **Shimmer Wing** | Fire / Fairy | Protosynthesis | 116 / 140 / 90 / 100 / 124 / 110 | 10'6" (3.2 m) / 190 kg | Wild: very rare by day in cherry groves, flower forests and sunflower plains. | A Pokémon resembling Ho-Oh, described in an old book of legends about a rainbow-feathered beast that strutted through blossoming groves. Its plumage shimmers in seven colours in the sun. |
 | 3201 | **Iron Radiance** | Fire / Psychic | Quark Drive | 96 / 110 / 90 / 150 / 110 / 124 | 11'2" (3.4 m) / 220 kg | Wild: very rare by day on mountain peaks and highlands. | A Pokémon resembling Ho-Oh, pictured in a dubious magazine story about a satellite that came down to roost on a mountain. The light from its wings is said to be bright enough to see from space. |
 | 3202 | **Tangled Time** | Grass / Dragon | Protosynthesis | 110 / 110 / 90 / 110 / 90 / 90 | 3'3" (1 m) / 6 kg | Wild: very rare in mangrove swamps and dark forests. | A Pokémon resembling Celebi, described in an expedition journal about a forest where the trees grew in every direction at once. Lost in time, its eyes see two different ages of the world. |
+| 3203 | **Iron Eon** | Steel / Psychic | Quark Drive | 80 / 90 / 95 / 130 / 90 / 125 | 6'7" (2 m) / 90 kg | Wild: very rare by day on mountains and peaks. | It flies at speeds almost too fast for the eye to follow, and the sonic boom of its passing clears the clouds from the sky. A report about it says its body makes all the energy it needs. |
+| 3204 | **Eternal Wings** | Fairy / Psychic | Protosynthesis | 90 / 70 / 95 / 120 / 130 / 105 | 8'6" (2.6 m) / 52 kg | Wild: very rare at night on tropical islands and in meadows. | It flies through the sky surrounded by a powerful aura. Its presence is said to draw out good feelings in everyone nearby, and to make people believe whatever they wish to. |
+| 3205 | **Pristine Aqua** | Water / Rock | Protosynthesis | 110 / 140 / 110 / 120 / 100 / 100 | 13'1" (4 m) / 380 kg | Wild: very rare in deep oceans while it rains. | A Pokémon resembling Kyogre, described in a sailor's tale of a clawed beast that churned the primeval seas. Its claws can rake the seabed into new trenches. |
+| 3206 | **Iron Deluge** | Water / Electric | Quark Drive | 100 / 100 / 100 / 150 / 120 / 110 | 13'1" (4 m) / 420 kg | Wild: very rare at night in warm and lukewarm oceans. | A Pokémon resembling Kyogre, recorded in a report about a machine that surfaced in a warm sea and raised a thunderstorm out of a clear sky. Its glowing circuits draw power from the ocean itself. |
+| 3207 | **Smoldering Crust** | Ground / Dragon | Protosynthesis | 110 / 150 / 140 / 90 / 90 / 100 | 9'10" (3 m) / 950 kg | Wild: very rare by day in badlands and deserts when it isn't raining. | A Pokémon resembling Groudon, described in an old explorer's journal about a crawling beast that left scorched furrows across the land. Heat pours from its back in shimmering waves. |
+| 3208 | **Iron Magma** | Steel / Fire | Quark Drive | 100 / 140 / 130 / 120 / 90 / 100 | 11'2" (3.4 m) / 990 kg | Wild: very rare in the Nether's crimson forests and wastes. | A Pokémon resembling Groudon, recorded in a report about a furnace that walked out of the Nether. Magma flows through the seams of its armour, and its crystal claws never melt. |
+| 3209 | **Ancient Rogue** | Fire / Dragon | Protosynthesis | 105 / 150 / 90 / 150 / 90 / 105 | 16'5" (5 m) / 200 kg | Wild: very rare high on mountain peaks (above y 140). | A Pokémon resembling Rayquaza, described in an old book of legends about a serpent of fire that ruled the sky before the ozone. Its fiery plumes leave trails of embers across the clouds. |
+| 3210 | **Iron Ascent** | Dragon / Steel | Quark Drive | 105 / 140 / 110 / 140 / 90 / 105 | 15'9" (4.8 m) / 310 kg | Wild: very rare on the End's outer islands. | A Pokémon resembling Rayquaza, recorded in a report about a satellite that coiled itself into a ring above the world's edge. Its glass fins drink starlight to power its endless flight. |
 | 3151 | **Kidlope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 52 / 60 / 45 / 40 / 48 / 64 | 1'8" (0.5 m) / 8.5 kg | Wild: uncommon in forests at night (dark forests especially). Evolves into Shadelope at level 16. | A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and loves to steal shiny things from travellers, then bound away laughing. |
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |

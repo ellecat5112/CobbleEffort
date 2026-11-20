@@ -1,0 +1,204 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3209,
+ "name": "Ancient Rogue",
+ "primaryType": "fire",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 50,
+ "weight": 2000,
+ "pokedex": [
+  "cobbleeffort.species.ancientrogue.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 105,
+  "attack": 150,
+  "defence": 90,
+  "special_attack": 150,
+  "special_defence": 90,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 1,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 345,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.905,
+ "hitbox": {
+  "width": 2.6,
+  "height": 2.625,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_powder",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "minecraft:emerald",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "cobblemon:dragon_scale",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:charcoal",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:dragonbreath",
+  "1:twister",
+  "8:ancientpower",
+  "16:firefang",
+  "24:dragonclaw",
+  "32:flamethrower",
+  "40:dragondance",
+  "48:flareblitz",
+  "56:dragonascent",
+  "64:outrage",
+  "72:vcreate",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:roost",
+  "tm:skyattack",
+  "tm:steelwing",
+  "tm:tailwind",
+  "tm:agility",
+  "tm:doubleteam",
+  "tm:sunnyday",
+  "tm:raindance",
+  "tm:defog",
+  "tm:dualwingbeat",
+  "tm:pounce",
+  "tm:scaryface",
+  "tm:heatwave",
+  "tm:overheat",
+  "tm:flamecharge",
+  "tm:firespin",
+  "tm:firefang",
+  "tm:incinerate",
+  "tm:temperflare",
+  "tm:burningjealousy",
+  "tm:scorchingsands",
+  "tm:dragonclaw",
+  "tm:outrage",
+  "tm:dragondance",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:dragoncheer",
+  "tm:twister"
+ ]
+}

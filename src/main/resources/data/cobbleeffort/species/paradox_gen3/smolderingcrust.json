@@ -1,0 +1,173 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3207,
+ "name": "Smoldering Crust",
+ "primaryType": "ground",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 30,
+ "weight": 9500,
+ "pokedex": [
+  "cobbleeffort.species.smolderingcrust.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 110,
+  "attack": 150,
+  "defence": 140,
+  "special_attack": 90,
+  "special_defence": 90,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 1,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 340,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.333,
+ "hitbox": {
+  "width": 3.4,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.28
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:magma_block",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "cobblemon:soft_sand",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:mudslap",
+  "1:dragonbreath",
+  "1:scratch",
+  "8:ancientpower",
+  "16:bulldoze",
+  "24:dragonclaw",
+  "32:slash",
+  "40:earthquake",
+  "48:dragonrush",
+  "56:precipiceblades",
+  "64:outrage",
+  "72:headlongrush",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:earthquake",
+  "tm:earthpower",
+  "tm:highhorsepower",
+  "tm:dig",
+  "tm:mudshot",
+  "tm:sandstorm",
+  "tm:stealthrock",
+  "tm:scorchingsands",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:dragonpulse",
+  "tm:dragonclaw",
+  "tm:dracometeor",
+  "tm:outrage",
+  "tm:dragondance",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:dragoncheer",
+  "tm:twister",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:heatwave",
+  "tm:willowisp",
+  "tm:overheat",
+  "tm:flamecharge",
+  "tm:firespin",
+  "tm:firefang",
+  "tm:incinerate",
+  "tm:temperflare",
+  "tm:burningjealousy"
+ ]
+}

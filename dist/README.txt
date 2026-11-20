@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 251 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 259 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -4048,6 +4048,74 @@ cobbleeffort:cavitot.
   trees grew in every direction at once. Lost in time, its eyes see two different ages of the
   world."
   * Wild: very rare in mangrove swamps and dark forests.
+
+#3203 IRON EON  (Steel / Psychic; Quark Drive)
+  a jet-shaped violet-blue Latios with navy bands, a cyan canopy, swept white-tipped delta wings,
+  engine pods, three tall fins in glowing cyan afterburn and long hooked horns at its nose
+  Stats: HP 80  Atk 90  Def 95  SpA 130  SpD 90  Spe 125  (total 610)
+  Pokedex: "It flies at speeds almost too fast for the eye to follow, and the sonic boom of its
+  passing clears the clouds from the sky. A report about it says its body makes all the energy it
+  needs."
+  * Wild: very rare by day on mountains and peaks.
+
+#3204 ETERNAL WINGS  (Fairy / Psychic; Protosynthesis)
+  a feathered violet and white Latias with huge wings of scalloped violet coverts and white eye-
+  spotted flight feathers, a feather fan of a tail and a glowing blue visor over its eye
+  Stats: HP 90  Atk 70  Def 95  SpA 120  SpD 130  Spe 105  (total 610)
+  Pokedex: "It flies through the sky surrounded by a powerful aura. Its presence is said to draw out
+  good feelings in everyone nearby, and to make people believe whatever they wish to."
+  * Wild: very rare at night on tropical islands and in meadows.
+
+#3205 PRISTINE AQUA  (Water / Rock; Protosynthesis)
+  a primeval slate-blue Kyogre with a white mouth, red eyes, a red flank line, red ringed markings
+  on its great fins and rows of heavy black claws
+  Stats: HP 110  Atk 140  Def 110  SpA 120  SpD 100  Spe 100  (total 680)
+  Pokedex: "A Pokémon resembling Kyogre, described in a sailor's tale of a clawed beast that churned
+  the primeval seas. Its claws can rake the seabed into new trenches."
+  * Wild: very rare in deep oceans while it rains.
+
+#3206 IRON DELUGE  (Water / Electric; Quark Drive)
+  a navy robot Kyogre traced with glowing pink circuit rings, white-tipped fins, a translucent
+  bubble belly and a black mechanical neck curling up to a ball head with a pink pixel eye and
+  crackling lightning
+  Stats: HP 100  Atk 100  Def 100  SpA 150  SpD 120  Spe 110  (total 680)
+  Pokedex: "A Pokémon resembling Kyogre, recorded in a report about a machine that surfaced in a
+  warm sea and raised a thunderstorm out of a clear sky. Its glowing circuits draw power from the
+  ocean itself."
+  * Wild: very rare at night in warm and lukewarm oceans.
+
+#3207 SMOLDERING CRUST  (Ground / Dragon; Protosynthesis)
+  a primeval red Groudon crawling on four limbs, ridged with grey bone spikes and traced with dark
+  blue lines, with black claws and jagged yellow heat plumes pouring from its back
+  Stats: HP 110  Atk 150  Def 140  SpA 90  SpD 90  Spe 100  (total 680)
+  Pokedex: "A Pokémon resembling Groudon, described in an old explorer's journal about a crawling
+  beast that left scorched furrows across the land. Heat pours from its back in shimmering waves."
+  * Wild: very rare by day in badlands and deserts when it isn't raining.
+
+#3208 IRON MAGMA  (Steel / Fire; Quark Drive)
+  a crouching robot Groudon of red armour veined with glowing magma, a navy belly, glowing ringed
+  ports, a crown of red spikes over a glowing visor, navy back spikes and icy-blue crystal claws
+  Stats: HP 100  Atk 140  Def 130  SpA 120  SpD 90  Spe 100  (total 680)
+  Pokedex: "A Pokémon resembling Groudon, recorded in a report about a furnace that walked out of
+  the Nether. Magma flows through the seams of its armour, and its crystal claws never melt."
+  * Wild: very rare in the Nether's crimson forests and wastes.
+
+#3209 ANCIENT ROGUE  (Fire / Dragon; Protosynthesis)
+  a primeval sage-grey Rayquaza outlined in red, coiled in an S, with glowing green orbs and plumes
+  of fiery feathers bursting from its head, shoulders and back
+  Stats: HP 105  Atk 150  Def 90  SpA 150  SpD 90  Spe 105  (total 690)
+  Pokedex: "A Pokémon resembling Rayquaza, described in an old book of legends about a serpent of
+  fire that ruled the sky before the ozone. Its fiery plumes leave trails of embers across the
+  clouds."
+  * Wild: very rare high on mountain peaks (above y 140).
+
+#3210 IRON ASCENT  (Dragon / Steel; Quark Drive)
+  a white robot Rayquaza coiled into a great ring, traced with glowing cyan circuits, with floating
+  panes of cyan glass, a white helmet head with a cyan orb eye and two long navy blades
+  Stats: HP 105  Atk 140  Def 110  SpA 140  SpD 90  Spe 105  (total 690)
+  Pokedex: "A Pokémon resembling Rayquaza, recorded in a report about a satellite that coiled itself
+  into a ring above the world's edge. Its glass fins drink starlight to power its endless flight."
+  * Wild: very rare on the End's outer islands.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

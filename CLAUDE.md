@@ -646,6 +646,11 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Current (Cobblemon already has the ancient ones), Proto Lugia (@indigo_region), Iron Storm (@CaligoMilites), Shimmer
   Wing / Iron Radiance / Tangled Time (@goldmills_). Beasts on `_digibeast.quadruped`; its leg rods need shaders by
   distance along the rod (`box`), not by y. Flying sea legends spawn with position "surface".
+  **Gen 3 paradox legends** (1.12.0, #3203-3210, line "paradox_gen3"): Iron Eon / Eternal Wings (Glowing_Shark),
+  Pristine Aqua / Ancient Rogue (sub_arashii), Iron Magma (Cupnoodlez), Iron Ascent (@pokefeast), Iron Deluge and
+  Smoldering Crust (our names). `models/_kyogre.py` (whale body, `fin_box` = flat fin rotated (0, -sx*sweep, sx*down):
+  that sign tilts it down and forward), `_serpent.py` (`serpent` crossed-rod tapering body along a path, `ring_path`,
+  `at`/`tangent`). Kyogres are `aquatic` with surface spawns. Jirachi/Deoxys: no art yet.
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

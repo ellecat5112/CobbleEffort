@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "smolderingcrust-sun",
+   "pokemon": "cobbleeffort:smolderingcrust",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-75",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "day",
+    "isRaining": false,
+    "biomes": [
+     "#cobblemon:is_badlands",
+     "#cobblemon:is_desert"
+    ]
+   }
+  }
+ ]
+}
