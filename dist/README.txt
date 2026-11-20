@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 232 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 243 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -1948,6 +1948,15 @@ cobbleeffort:cavitot.
   * Use a Harvester Engine on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
     Rotom Catalogue cycles through this form too. Learns Bug Buzz in this form.
 
+#0479 INVASION ROTOM (COBBLEEFFORT FORM)  (Electric / Psychic; Levitate)
+  an angry orange Rotom with a tall flame-like crest, black goggle eyes and a toothy grin, riding
+  four long arching silver tentacle legs with three-pronged claw feet
+  Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
+  Pokedex: "A Rotom that slipped into a walker from beyond the sky. It strides over towns on its
+  four long legs, grinning, and nobody knows what it is looking for."
+  * Use a Tripod Beacon on your Rotom (craft it round a Cell Battery; needs Mega Showdown); its
+    Rotom Catalogue cycles through this form too. Learns Psycho Boost in this form.
+
 #0479 JET ROTOM (COBBLEEFFORT FORM)  (Electric / Flying; Levitate)
   an orange toy jet with lens eyes on its nose, swept wings and a roaring plume of red flame
   Stats: HP 50  Atk 65  Def 107  SpA 105  SpD 107  Spe 86  (total 520)
@@ -3873,6 +3882,100 @@ cobbleeffort:cavitot.
   that drilled for lightning. Its drills bore through rock as it charges, and its hands and its
   little drone fly off on their own to fetch what it digs up."
   * Wild: very rare in dripstone caves.
+
+#3185 FRIGID CREST  (Ice / Fairy; Protosynthesis)
+  a long-legged blue feathered raptor with an icy breast, a black-masked head with a hooked beak and
+  a huge swept-back violet crest, icy feather fringes and an enormous looping violet plume of a tail
+  Stats: HP 85  Atk 120  Def 85  SpA 95  SpD 100  Spe 105  (total 590)
+  Pokedex: "A Pokémon resembling Articuno, described in an old field journal about a frozen valley
+  where a feathered beast stalked the snowdrifts. It fans its great plume to frighten rivals, and
+  the air round its crest glitters with frost."
+  * Wild: very rare in snowy forests and snowy taigas.
+
+#3186 SHOCK SPINE  (Electric / Fighting; Protosynthesis)
+  a four-legged spinosaur with a gaping black crocodile snout, a ruff of spiky yellow fur streaked
+  with blue lightning, a huge jagged black sail and black legs with yellow claws
+  Stats: HP 95  Atk 125  Def 90  SpA 85  SpD 80  Spe 115  (total 590)
+  Pokedex: "A Pokémon resembling Zapdos, said to be the beast in a tale of lightning that walked on
+  four legs. When it bristles, its fur and sail crackle with static, and its jaws snap shut with a
+  thunderclap."
+  * Wild: very rare in savannas and badlands while it rains.
+
+#3187 MOLTEN FRILL  (Fire / Dark; Protosynthesis)
+  an upright crested theropod with a crimson gaping head, a huge glowing orange neck frill edged in
+  flame, a cream body with crimson flame stripes and a long tail under a crest of fire
+  Stats: HP 95  Atk 85  Def 85  SpA 125  SpD 105  Spe 95  (total 590)
+  Pokedex: "A Pokémon resembling Moltres, pictured in an occult magazine's story of a lizard that
+  hunted on the slopes of a volcano. It flares its frill to blaze like a bonfire, dazzling prey
+  before it strikes."
+  * Wild: very rare in volcanic biomes and badlands, and in the Nether's basalt deltas.
+
+#3188 IRON AURORA  (Ice / Psychic; Quark Drive)
+  a robot Articuno with a starry cyan glass belly, a grid visor and starry crest, V-raised wings of
+  cyan and deep blue feathers on segmented steel arms and a long starry tail ending in a white
+  banded tip
+  Stats: HP 90  Atk 80  Def 95  SpA 130  SpD 110  Spe 85  (total 590)
+  Pokedex: "A Pokémon resembling Articuno, sketched in a report about lights that danced over a
+  frozen sea on a starless night. A galaxy swirls behind the glass of its belly, and its wings
+  scatter frost that glows like an aurora."
+  * Wild: very rare at night on frozen peaks and glaciers.
+
+#3189 IRON TEMPEST  (Electric / Steel; Quark Drive)
+  a robot Zapdos with huge jagged glowing yellow lightning wings, a gold diamond face with pixel
+  eyes in a steel throwing star under a V of gold spikes, a long brown spear beak and banded orange
+  legs with black claws
+  Stats: HP 85  Atk 100  Def 90  SpA 120  SpD 85  Spe 110  (total 590)
+  Pokedex: "A Pokémon resembling Zapdos, described in an expedition log about a storm that came down
+  to fight. It folds its blazing wings round its prey like a cage, and its spear of a beak can
+  pierce a steel plate."
+  * Wild: very rare on mountains and hills during thunderstorms.
+
+#3190 IRON PYRE  (Fire / Electric; Quark Drive)
+  a lean robot Moltres with a gold egg body, a ringed silver neck, a long silver beak and red grid
+  visor, segmented gold wing arms hung with jagged glowing flame and a tail of fire
+  Stats: HP 90  Atk 120  Def 90  SpA 100  SpD 85  Spe 105  (total 590)
+  Pokedex: "A Pokémon resembling Moltres, pictured in a dubious science magazine beside a story of a
+  furnace that learned to fly. Its wings are hung with sheets of living flame, and its visor glows
+  red as it hunts by heat."
+  * Wild: very rare in the Nether.
+
+#3191 IRON SEQUENCER  (Steel / Psychic; Quark Drive)
+  a seated robot Mew of pink metal with lens-dome eyes, crystal ears, an open chest bay, needle-
+  bristling hands, glowing legs, a fluid-filled tube tail and a long glowing gene-sequencer gun
+  Stats: HP 100  Atk 90  Def 110  SpA 120  SpD 100  Spe 80  (total 600)
+  Pokedex: "A Pokémon resembling Mew, described in a lab notebook about a machine that read the
+  genes of every Pokémon it met. It keeps samples in its chest and fires its sequencer to copy any
+  move it has seen."
+  * Wild: very rare inside strongholds.
+
+#3192 GENESIS ONE  (Psychic / Normal; Protosynthesis)
+  a curled translucent-pink Mew with rib-like bands and a heavy-lidded grey-green eye, floating
+  inside a banded pink ring from which three glowing rainbow DNA helices spiral out
+  Stats: HP 110  Atk 100  Def 100  SpA 100  SpD 100  Spe 90  (total 600)
+  Pokedex: "A Pokémon resembling Mew, described in an expedition report about a cave where life
+  itself was said to begin. The strands that spiral from its ring are said to hold the code of every
+  Pokémon that has ever lived."
+  * Wild: very rare in lush caves.
+
+#3193 IRON BLAST  (Psychic / Dark; Quark Drive)
+  a sleek black armoured Mewtwo with a blade-crested helmet and pink visor, white shoulder pads
+  dripping glowing pink plasma, round white thigh plates, a pink-orb fist and a black tail glowing
+  pink at its end
+  Stats: HP 96  Atk 110  Def 90  SpA 150  SpD 100  Spe 134  (total 680)
+  Pokedex: "A Pokémon resembling Mewtwo, recorded in a classified report about a weapon built to
+  surpass it. The plasma that drips from its armour is pure psychic power, and the orb on its fist
+  can level a mountain."
+  * Wild: very rare in End cities.
+
+#3194 FERAL MIND  (Psychic / Rock; Protosynthesis)
+  a primal white Mewtwo with long swept-back horns, a huge streaming dark teal mane over a mauve fur
+  ruff, mauve belly and tail plates, a pink-finned tail and great fists bristling with glowing green
+  crystals
+  Stats: HP 116  Atk 140  Def 100  SpA 110  SpD 94  Spe 120  (total 680)
+  Pokedex: "A Pokémon resembling Mewtwo, described in an old journal about a wild beast that ruled a
+  crystal cavern long before people came. Crystals grow from its fists wherever its power gathers,
+  and its mane bristles when it is angry."
+  * Wild: very rare deep underground (below y -10).
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

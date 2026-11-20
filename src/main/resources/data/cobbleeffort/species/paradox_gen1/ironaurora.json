@@ -1,0 +1,183 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3188,
+ "name": "Iron Aurora",
+ "primaryType": "ice",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 17,
+ "weight": 640,
+ "pokedex": [
+  "cobbleeffort.species.ironaurora.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 80,
+  "defence": 95,
+  "special_attack": 130,
+  "special_defence": 110,
+  "speed": 85
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.612,
+ "hitbox": {
+  "width": 1.8,
+  "height": 4.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:packed_ice",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:never_melt_ice",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:twisted_spoon",
+    "percentage": 6.0
+   }
+  ]
+ },
+ "moves": [
+  "1:gust",
+  "1:powdersnow",
+  "1:confusion",
+  "6:mist",
+  "12:icywind",
+  "18:psybeam",
+  "24:reflect",
+  "30:icebeam",
+  "36:psychic",
+  "42:freezedry",
+  "48:calmmind",
+  "54:storedpower",
+  "60:blizzard",
+  "66:futuresight",
+  "72:sheercold",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:fly",
+  "tm:hurricane",
+  "tm:roost",
+  "tm:skyattack",
+  "tm:steelwing",
+  "tm:tailwind",
+  "tm:uturn",
+  "tm:agility",
+  "tm:doubleteam",
+  "tm:swift",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:sunnyday",
+  "tm:raindance",
+  "tm:defog",
+  "tm:dualwingbeat",
+  "tm:pounce",
+  "tm:takedown",
+  "tm:scaryface",
+  "tm:helpinghand",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:iceshard",
+  "tm:iciclespear",
+  "tm:avalanche",
+  "tm:frostbreath",
+  "tm:snowscape",
+  "tm:auroraveil",
+  "tm:freezedry",
+  "tm:icefang",
+  "tm:tripleaxel",
+  "tm:haze",
+  "tm:mist",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:futuresight",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:trick",
+  "tm:zenheadbutt",
+  "tm:psychicterrain",
+  "tm:storedpower",
+  "tm:expandingforce",
+  "tm:allyswitch",
+  "tm:imprison",
+  "tm:skillswap",
+  "tm:magicroom",
+  "tm:trickroom",
+  "tm:wonderroom",
+  "tm:psychicnoise",
+  "tm:gravity"
+ ]
+}

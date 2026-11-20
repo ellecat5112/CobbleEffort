@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironaurora-night",
+   "pokemon": "cobbleeffort:ironaurora",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "#cobblemon:is_freezing",
+     "#cobblemon:is_glacial",
+     "#cobblemon:is_peak"
+    ]
+   }
+  }
+ ]
+}

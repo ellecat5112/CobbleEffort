@@ -1,0 +1,203 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3191,
+ "name": "Iron Sequencer",
+ "primaryType": "steel",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 9,
+ "weight": 820,
+ "pokedex": [
+  "cobbleeffort.species.ironsequencer.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "mythical",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 90,
+  "defence": 110,
+  "special_attack": 120,
+  "special_defence": 100,
+  "speed": 80
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 1,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.48,
+ "hitbox": {
+  "width": 0.9,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "1-4"
+   },
+   {
+    "item": "minecraft:glass_bottle",
+    "quantityRange": "1-2"
+   },
+   {
+    "item": "cobblemon:metal_coat",
+    "percentage": 8.0
+   },
+   {
+    "item": "cobblemon:twisted_spoon",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:pound",
+  "1:metalclaw",
+  "1:confusion",
+  "6:transform",
+  "12:psybeam",
+  "18:flashcannon",
+  "24:irondefense",
+  "30:psychic",
+  "36:lightscreen",
+  "42:storedpower",
+  "48:steelbeam",
+  "54:calmmind",
+  "60:lusterpurge",
+  "66:futuresight",
+  "72:doomdesire",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:heavyslam",
+  "tm:metalsound",
+  "tm:gyroball",
+  "tm:magnetrise",
+  "tm:steelwing",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:futuresight",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:trick",
+  "tm:psychicterrain",
+  "tm:storedpower",
+  "tm:expandingforce",
+  "tm:allyswitch",
+  "tm:imprison",
+  "tm:skillswap",
+  "tm:magicroom",
+  "tm:trickroom",
+  "tm:wonderroom",
+  "tm:psychicnoise",
+  "tm:gravity",
+  "tm:agility"
+ ]
+}

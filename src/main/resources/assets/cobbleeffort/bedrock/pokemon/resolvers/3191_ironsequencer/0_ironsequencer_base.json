@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ironsequencer",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ironsequencer",
+   "model": "cobbleeffort:ironsequencer.geo",
+   "texture": "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_glow_0.png",
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_glow_1.png",
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3191_ironsequencer/ironsequencer_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

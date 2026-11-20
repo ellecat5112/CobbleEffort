@@ -3998,6 +3998,238 @@ SPECIES.update({
 })
 LINES["paradox_regis"] = ["ironfreeze", "ironsentry", "irontower", "ironduality", "irontitan", "irondynamo"]
 
+# --- Gen 1 paradox legends (#3185-3194, the user's request): ancient and future paradoxes of Articuno, Zapdos,
+# Moltres, Mew and Mewtwo. Frigid Crest, Shock Spine and Molten Frill keep their art's names (artist not named); the
+# robot birds (artist not named) and the furred Mewtwo (artist not named) have our names; Iron Sequencer after
+# @professorkauri's art, Genesis One after @amalryart's (Brasto region), Iron Blast after Elesteva076's (names kept).
+# Ancient: Protosynthesis; future: Quark Drive. Legendary + paradox labels, genderless, catch rate 3, very rare spawns
+# in places that suit each one.
+G1P_ANCIENT = {**REGI, "abilities": ["protosynthesis"], "ability_names": "Protosynthesis"}
+G1P_FUTURE = dict(REGI)
+G1P_BIRD_TM = ["aerialace", "airslash", "bravebird", "fly", "hurricane", "roost", "skyattack", "steelwing", "tailwind",
+               "uturn", "agility", "doubleteam", "swift", "protect", "rest", "substitute", "facade", "sleeptalk",
+               "endure", "terablast", "gigaimpact", "hyperbeam", "sunnyday", "raindance", "defog", "dualwingbeat",
+               "pounce", "takedown", "scaryface", "helpinghand"]
+G1P_RAPTOR_TM = ["agility", "doubleteam", "swift", "protect", "rest", "substitute", "facade", "sleeptalk", "endure",
+                 "terablast", "gigaimpact", "hyperbeam", "takedown", "bodyslam", "crunch", "bite", "scaryface",
+                 "stompingtantrum", "bulldoze", "irontail", "dragontail", "rockslide", "rocktomb", "outrage",
+                 "dragonclaw", "swordsdance", "doubleedge", "roar", "lowkick", "lowsweep"]
+G1P_ICE_TM = ["icebeam", "blizzard", "icywind", "iceshard", "iciclespear", "avalanche", "frostbreath", "snowscape",
+              "auroraveil", "freezedry", "icefang", "tripleaxel", "haze", "mist"]
+G1P_FAIRY_TM = ["dazzlinggleam", "drainingkiss", "playrough", "moonblast", "charm", "mistyterrain", "alluringvoice"]
+G1P_ELECTRIC_TM = ["thunder", "thunderbolt", "thunderwave", "voltswitch", "wildcharge", "discharge", "electricterrain",
+                   "risingvoltage", "eerieimpulse", "electroball", "charge", "chargebeam", "shockwave", "zapcannon",
+                   "thunderfang"]
+G1P_FIGHT_TM = ["brickbreak", "bulkup", "closecombat", "drainpunch", "focusblast", "lowkick", "reversal",
+                "superpower", "rocksmash", "coaching", "bodypress", "aurasphere"]
+G1P_FIRE_TM = ["flamethrower", "fireblast", "heatwave", "willowisp", "overheat", "flamecharge", "firespin",
+               "firefang", "incinerate", "temperflare", "burningjealousy", "scorchingsands"]
+G1P_DARK_TM = ["darkpulse", "crunch", "foulplay", "knockoff", "nastyplot", "snarl", "suckerpunch", "taunt", "thief",
+               "throatchop", "torment", "payback", "lashout", "faketears"]
+G1P_PSY_TM = ["psychic", "psyshock", "calmmind", "futuresight", "lightscreen", "reflect", "trick", "zenheadbutt",
+              "psychicterrain", "storedpower", "expandingforce", "allyswitch", "imprison", "skillswap", "magicroom",
+              "trickroom", "wonderroom", "psychicnoise", "gravity", "agility"]
+G1P_STEEL_TM = ["flashcannon", "ironhead", "irondefense", "steelbeam", "heavyslam", "metalsound", "gyroball",
+                "magnetrise", "steelwing"]
+G1P_ROCK_TM = ["rockslide", "stoneedge", "rocktomb", "rockblast", "powergem", "meteorbeam", "stealthrock",
+               "sandstorm", "smackdown", "rockpolish", "ancientpower", "earthquake", "earthpower", "bulldoze",
+               "highhorsepower"]
+G1P_MEW_TM = ["protect", "rest", "substitute", "facade", "sleeptalk", "endure", "terablast", "gigaimpact",
+              "hyperbeam", "aurasphere", "focusblast", "shadowball", "energyball", "thunderbolt", "icebeam",
+              "flamethrower", "surf", "fly", "dazzlinggleam", "nastyplot", "swordsdance", "bulkup", "dragonpulse",
+              "darkpulse", "sludgebomb", "earthpower", "irontail", "uturn", "voltswitch", "willowisp", "thunderwave",
+              "encore", "taunt", "toxic", "metronome", "swift", "bodyslam", "doubleedge", "takedown", "helpinghand",
+              "solarbeam", "hydropump", "fireblast", "blizzard", "thunder", "hurricane", "dracometeor", "earthquake",
+              "gunkshot", "leafstorm", "poisonjab", "drainpunch", "closecombat", "lowkick", "zenheadbutt"]
+
+
+def g1p_tm(*lists):
+    out = []
+    for lst in lists:
+        out += [m for m in lst if m not in out]
+    return out
+
+
+SPECIES.update({
+    "frigidcrest": {**G1P_ANCIENT,
+        "dex": 3185, "name": "Frigid Crest", "line": "paradox_gen1", "types": ["ice", "fairy"],
+        "stats": stats(85, 120, 85, 95, 100, 105), "ev": evs(attack=2, speed=1),
+        "height": 20, "weight": 540,
+        "moves": [(1, "peck"), (1, "powdersnow"), (1, "fairywind"), (6, "quickattack"), (12, "iceshard"),
+                  (18, "drainingkiss"), (24, "agility"), (30, "iciclecrash"), (36, "playrough"), (42, "tripleaxel"),
+                  (48, "spiritbreak"), (54, "icehammer"), (60, "moonblast"), (66, "mist"), (72, "sheercold")],
+        "tm": g1p_tm(G1P_RAPTOR_TM, G1P_ICE_TM, G1P_FAIRY_TM, ["bravebird", "roost", "uturn", "acrobatics"]),
+        "drops": [("minecraft:feather", "2-5", None), ("minecraft:packed_ice", "1-3", None),
+                  ("cobblemon:never_melt_ice", None, 10.0), ("cobblemon:pixie_plate", None, 4.0)],
+        "entry": ("A Pokémon resembling Articuno, described in an old field journal about a frozen valley where a "
+                  "feathered beast stalked the snowdrifts. It fans its great plume to frighten rivals, and the air "
+                  "round its crest glitters with frost."),
+        "spawns": [regi_spawn("frigidcrest-snowyforest", "60-70", 0.8,
+                              {"canSeeSky": True, "biomes": ["#cobblemon:is_snowy_forest", "#cobblemon:is_snowy_taiga"]})],
+        "how": ["Wild: very rare in snowy forests and snowy taigas."],
+    },
+    "shockspine": {**G1P_ANCIENT,
+        "dex": 3186, "name": "Shock Spine", "line": "paradox_gen1", "types": ["electric", "fighting"],
+        "stats": stats(95, 125, 90, 85, 80, 115), "ev": evs(attack=2, speed=1),
+        "height": 26, "weight": 2300, "walk": 0.32,
+        "moves": [(1, "thundershock"), (1, "leer"), (1, "rocksmash"), (6, "bite"), (12, "chargebeam"),
+                  (18, "thunderfang"), (24, "brickbreak"), (30, "wildcharge"), (36, "crunch"), (42, "bulkup"),
+                  (48, "closecombat"), (54, "boltbeak"), (60, "superpower"), (66, "thunder"), (72, "gigaimpact")],
+        "tm": g1p_tm(G1P_RAPTOR_TM, G1P_ELECTRIC_TM, G1P_FIGHT_TM),
+        "drops": [("minecraft:copper_ingot", "1-4", None), ("minecraft:bone", "1-3", None),
+                  ("cobblemon:magnet", None, 10.0), ("cobblemon:black_belt", None, 8.0)],
+        "entry": ("A Pokémon resembling Zapdos, said to be the beast in a tale of lightning that walked on four legs. "
+                  "When it bristles, its fur and sail crackle with static, and its jaws snap shut with a thunderclap."),
+        "spawns": [regi_spawn("shockspine-savanna", "60-70", 0.8,
+                              {"canSeeSky": True, "isRaining": True,
+                               "biomes": ["#cobblemon:is_savanna", "#cobblemon:is_badlands"]})],
+        "how": ["Wild: very rare in savannas and badlands while it rains."],
+    },
+    "moltenfrill": {**G1P_ANCIENT,
+        "dex": 3187, "name": "Molten Frill", "line": "paradox_gen1", "types": ["fire", "dark"],
+        "stats": stats(95, 85, 85, 125, 105, 95), "ev": evs(special_attack=2, special_defence=1),
+        "height": 22, "weight": 620,
+        "moves": [(1, "ember"), (1, "leer"), (1, "snarl"), (6, "bite"), (12, "incinerate"), (18, "scaryface"),
+                  (24, "flamethrower"), (30, "darkpulse"), (36, "nastyplot"), (42, "lavaplume"), (48, "fierywrath"),
+                  (54, "heatwave"), (60, "overheat"), (66, "burningjealousy"), (72, "fireblast")],
+        "tm": g1p_tm(G1P_RAPTOR_TM, G1P_FIRE_TM, G1P_DARK_TM),
+        "drops": [("minecraft:blaze_powder", "1-3", None), ("minecraft:magma_cream", "0-2", None),
+                  ("cobblemon:charcoal", None, 10.0), ("cobblemon:black_glasses", None, 6.0)],
+        "entry": ("A Pokémon resembling Moltres, pictured in an occult magazine's story of a lizard that hunted on "
+                  "the slopes of a volcano. It flares its frill to blaze like a bonfire, dazzling prey before it "
+                  "strikes."),
+        "spawns": [regi_spawn("moltenfrill-volcanic", "60-70", 0.8,
+                              {"canSeeSky": True, "biomes": ["#cobblemon:is_volcanic", "#cobblemon:is_badlands"]}),
+                   regi_spawn("moltenfrill-deltas", "60-70", 0.6,
+                              {"dimensions": ["minecraft:the_nether"], "biomes": ["minecraft:basalt_deltas"]})],
+        "how": ["Wild: very rare in volcanic biomes and badlands, and in the Nether's basalt deltas."],
+    },
+    "ironaurora": {**G1P_FUTURE,
+        "dex": 3188, "name": "Iron Aurora", "line": "paradox_gen1", "types": ["ice", "psychic"],
+        "stats": stats(90, 80, 95, 130, 110, 85), "ev": evs(special_attack=2, special_defence=1),
+        "height": 17, "weight": 640, "fly": True,
+        "moves": [(1, "gust"), (1, "powdersnow"), (1, "confusion"), (6, "mist"), (12, "icywind"), (18, "psybeam"),
+                  (24, "reflect"), (30, "icebeam"), (36, "psychic"), (42, "freezedry"), (48, "calmmind"),
+                  (54, "storedpower"), (60, "blizzard"), (66, "futuresight"), (72, "sheercold")],
+        "tm": g1p_tm(G1P_BIRD_TM, G1P_ICE_TM, G1P_PSY_TM),
+        "drops": [("minecraft:packed_ice", "1-3", None), ("minecraft:amethyst_shard", "1-3", None),
+                  ("cobblemon:never_melt_ice", None, 10.0), ("cobblemon:twisted_spoon", None, 6.0)],
+        "entry": ("A Pokémon resembling Articuno, sketched in a report about lights that danced over a frozen sea on a "
+                  "starless night. A galaxy swirls behind the glass of its belly, and its wings scatter frost that "
+                  "glows like an aurora."),
+        "spawns": [regi_spawn("ironaurora-night", "60-70", 0.8,
+                              {"canSeeSky": True, "timeRange": "night",
+                               "biomes": ["#cobblemon:is_freezing", "#cobblemon:is_glacial", "#cobblemon:is_peak"]})],
+        "how": ["Wild: very rare at night on frozen peaks and glaciers."],
+    },
+    "irontempest": {**G1P_FUTURE,
+        "dex": 3189, "name": "Iron Tempest", "line": "paradox_gen1", "types": ["electric", "steel"],
+        "stats": stats(85, 100, 90, 120, 85, 110), "ev": evs(special_attack=2, speed=1),
+        "height": 24, "weight": 820, "fly": True,
+        "moves": [(1, "peck"), (1, "thundershock"), (1, "metalclaw"), (6, "chargebeam"), (12, "drillpeck"),
+                  (18, "flashcannon"), (24, "discharge"), (30, "ironhead"), (36, "thunderbolt"), (42, "agility"),
+                  (48, "steelbeam"), (54, "zapcannon"), (60, "thunder"), (66, "magnetrise"), (72, "electroshot")],
+        "tm": g1p_tm(G1P_BIRD_TM, G1P_ELECTRIC_TM, G1P_STEEL_TM),
+        "drops": [("minecraft:copper_ingot", "2-5", None), ("minecraft:iron_ingot", "1-3", None),
+                  ("cobblemon:magnet", None, 10.0), ("cobblemon:metal_coat", None, 6.0)],
+        "entry": ("A Pokémon resembling Zapdos, described in an expedition log about a storm that came down to fight. "
+                  "It folds its blazing wings round its prey like a cage, and its spear of a beak can pierce a "
+                  "steel plate."),
+        "spawns": [regi_spawn("irontempest-storm", "60-70", 0.6,
+                              {"canSeeSky": True, "isThundering": True,
+                               "biomes": ["#cobblemon:is_mountain", "#cobblemon:is_peak", "#cobblemon:is_hills"]})],
+        "how": ["Wild: very rare on mountains and hills during thunderstorms."],
+    },
+    "ironpyre": {**G1P_FUTURE,
+        "dex": 3190, "name": "Iron Pyre", "line": "paradox_gen1", "types": ["fire", "electric"],
+        "stats": stats(90, 120, 90, 100, 85, 105), "ev": evs(attack=2, speed=1),
+        "height": 28, "weight": 760, "fly": True,
+        "moves": [(1, "ember"), (1, "thundershock"), (1, "wingattack"), (6, "firespin"), (12, "chargebeam"),
+                  (18, "flamecharge"), (24, "discharge"), (30, "flamethrower"), (36, "wildcharge"), (42, "heatwave"),
+                  (48, "flareblitz"), (54, "thunderbolt"), (60, "burnup"), (66, "overheat"), (72, "electroshot")],
+        "tm": g1p_tm(G1P_BIRD_TM, G1P_FIRE_TM, G1P_ELECTRIC_TM),
+        "drops": [("minecraft:blaze_rod", "0-2", None), ("minecraft:copper_ingot", "1-4", None),
+                  ("cobblemon:charcoal", None, 10.0), ("cobblemon:magnet", None, 6.0)],
+        "entry": ("A Pokémon resembling Moltres, pictured in a dubious science magazine beside a story of a furnace "
+                  "that learned to fly. Its wings are hung with sheets of living flame, and its visor glows red as "
+                  "it hunts by heat."),
+        "spawns": [regi_spawn("ironpyre-nether", "60-70", 0.6,
+                              {"dimensions": ["minecraft:the_nether"], "biomes": ["#minecraft:is_nether"]})],
+        "how": ["Wild: very rare in the Nether."],
+    },
+    "ironsequencer": {**G1P_FUTURE,
+        "dex": 3191, "name": "Iron Sequencer", "line": "paradox_gen1", "types": ["steel", "psychic"],
+        "stats": stats(100, 90, 110, 120, 100, 80), "ev": evs(special_attack=2, defence=1),
+        "height": 9, "weight": 820, "fly": True, "labels": ["mythical", "paradox"],
+        "moves": [(1, "pound"), (1, "metalclaw"), (1, "confusion"), (6, "transform"), (12, "psybeam"),
+                  (18, "flashcannon"), (24, "irondefense"), (30, "psychic"), (36, "lightscreen"),
+                  (42, "storedpower"), (48, "steelbeam"), (54, "calmmind"), (60, "lusterpurge"), (66, "futuresight"),
+                  (72, "doomdesire")],
+        "tm": g1p_tm(G1P_MEW_TM, G1P_STEEL_TM, G1P_PSY_TM),
+        "drops": [("minecraft:iron_ingot", "1-4", None), ("minecraft:glass_bottle", "1-2", None),
+                  ("cobblemon:metal_coat", None, 8.0), ("cobblemon:twisted_spoon", None, 8.0)],
+        "entry": ("A Pokémon resembling Mew, described in a lab notebook about a machine that read the genes of "
+                  "every Pokémon it met. It keeps samples in its chest and fires its sequencer to copy any move it "
+                  "has seen."),
+        "spawns": [regi_spawn("ironsequencer-stronghold", "65-70", 1.0,
+                              {"canSeeSky": False, "structures": ["minecraft:stronghold"]})],
+        "how": ["Wild: very rare inside strongholds."],
+    },
+    "genesisone": {**G1P_ANCIENT,
+        "dex": 3192, "name": "Genesis One", "line": "paradox_gen1", "types": ["psychic", "normal"],
+        "stats": stats(110, 100, 100, 100, 100, 90), "ev": evs(hp=3), "labels": ["mythical", "paradox"],
+        "height": 6, "weight": 60, "fly": True,
+        "moves": [(1, "pound"), (1, "reflecttype"), (1, "transform"), (6, "confusion"), (12, "helpinghand"),
+                  (18, "psybeam"), (24, "lifedew"), (30, "psychic"), (36, "metronome"), (42, "amnesia"),
+                  (48, "storedpower"), (54, "recover"), (60, "boomburst"), (66, "psychoboost"), (72, "hyperbeam")],
+        "tm": g1p_tm(G1P_MEW_TM, G1P_PSY_TM, ["hypervoice", "boomburst", "doubleedge", "bodyslam"]),
+        "drops": [("minecraft:glow_berries", "1-3", None), ("minecraft:moss_block", "0-2", None),
+                  ("cobblemon:miracle_seed", None, 8.0), ("cobblemon:silk_scarf", None, 8.0)],
+        "entry": ("A Pokémon resembling Mew, described in an expedition report about a cave where life itself was "
+                  "said to begin. The strands that spiral from its ring are said to hold the code of every Pokémon "
+                  "that has ever lived."),
+        "spawns": [regi_spawn("genesisone-lush", "65-70", 1.0,
+                              {"canSeeSky": False, "biomes": ["minecraft:lush_caves"]})],
+        "how": ["Wild: very rare in lush caves."],
+    },
+    "ironblast": {**G1P_FUTURE,
+        "dex": 3193, "name": "Iron Blast", "line": "paradox_gen1", "types": ["psychic", "dark"],
+        "stats": stats(96, 110, 90, 150, 100, 134), "ev": evs(special_attack=3), "exp": 340,
+        "height": 17, "weight": 1080,
+        "moves": [(1, "confusion"), (1, "disable"), (1, "snarl"), (8, "psybeam"), (16, "nightslash"),
+                  (24, "darkpulse"), (32, "psychocut"), (40, "nastyplot"), (48, "psychic"), (56, "suckerpunch"),
+                  (64, "psystrike"), (72, "ruination")],
+        "tm": g1p_tm(G1P_MEW_TM, G1P_PSY_TM, G1P_DARK_TM),
+        "drops": [("minecraft:obsidian", "1-3", None), ("minecraft:ender_pearl", "1-2", None),
+                  ("cobblemon:twisted_spoon", None, 8.0), ("cobblemon:black_glasses", None, 8.0)],
+        "entry": ("A Pokémon resembling Mewtwo, recorded in a classified report about a weapon built to surpass it. "
+                  "The plasma that drips from its armour is pure psychic power, and the orb on its fist can level a "
+                  "mountain."),
+        "spawns": [regi_spawn("ironblast-endcity", "70-75", 1.0,
+                              {"dimensions": ["minecraft:the_end"], "structures": ["minecraft:end_city"]})],
+        "how": ["Wild: very rare in End cities."],
+    },
+    "feralmind": {**G1P_ANCIENT,
+        "dex": 3194, "name": "Feral Mind", "line": "paradox_gen1", "types": ["psychic", "rock"],
+        "stats": stats(116, 140, 100, 110, 94, 120), "ev": evs(attack=3), "exp": 340,
+        "height": 22, "weight": 1360,
+        "moves": [(1, "confusion"), (1, "rocksmash"), (1, "scratch"), (8, "rockthrow"), (16, "psychocut"),
+                  (24, "rockslide"), (32, "zenheadbutt"), (40, "bulkup"), (48, "stoneedge"), (56, "psychicfangs"),
+                  (64, "diamondstorm"), (72, "psystrike")],
+        "tm": g1p_tm(G1P_MEW_TM, G1P_PSY_TM, G1P_ROCK_TM),
+        "drops": [("minecraft:amethyst_shard", "2-5", None), ("minecraft:emerald", "0-2", None),
+                  ("cobblemon:hard_stone", None, 8.0), ("cobblemon:twisted_spoon", None, 8.0)],
+        "entry": ("A Pokémon resembling Mewtwo, described in an old journal about a wild beast that ruled a crystal "
+                  "cavern long before people came. Crystals grow from its fists wherever its power gathers, and its "
+                  "mane bristles when it is angry."),
+        "spawns": [regi_spawn("feralmind-deep", "70-75", 1.0,
+                              {"canSeeSky": False, "maxY": -10, "biomes": ["#minecraft:is_overworld"]})],
+        "how": ["Wild: very rare deep underground (below y -10)."],
+    },
+})
+LINES["paradox_gen1"] = ["frigidcrest", "shockspine", "moltenfrill", "ironaurora", "irontempest", "ironpyre",
+                         "ironsequencer", "genesisone", "ironblast", "feralmind"]
+
 # --- Digimon crossover (#3172-3178, CobbleEffort: Digital, the user's request): the Agumon line, built after the official
 # Digimon art the user shared. Label "digimon" (the Digiball's 3x); genderless. Greymon and later are huge (the user's
 # call: Greymon at least 15 blocks, +10 blocks per stage). Alter-B (level 70) is legendary-tier.

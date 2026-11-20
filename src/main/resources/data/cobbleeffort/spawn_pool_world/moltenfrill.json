@@ -1,0 +1,46 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "moltenfrill-volcanic",
+   "pokemon": "cobbleeffort:moltenfrill",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_volcanic",
+     "#cobblemon:is_badlands"
+    ]
+   }
+  },
+  {
+   "id": "moltenfrill-deltas",
+   "pokemon": "cobbleeffort:moltenfrill",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-70",
+   "weight": 0.6,
+   "condition": {
+    "dimensions": [
+     "minecraft:the_nether"
+    ],
+    "biomes": [
+     "minecraft:basalt_deltas"
+    ]
+   }
+  }
+ ]
+}

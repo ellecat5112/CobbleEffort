@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "feralmind-deep",
+   "pokemon": "cobbleeffort:feralmind",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-75",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": false,
+    "maxY": -10,
+    "biomes": [
+     "#minecraft:is_overworld"
+    ]
+   }
+  }
+ ]
+}

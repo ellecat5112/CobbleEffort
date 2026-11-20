@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironsequencer-stronghold",
+   "pokemon": "cobbleeffort:ironsequencer",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65-70",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": false,
+    "structures": [
+     "minecraft:stronghold"
+    ]
+   }
+  }
+ ]
+}

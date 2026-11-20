@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironblast-endcity",
+   "pokemon": "cobbleeffort:ironblast",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-75",
+   "weight": 1.0,
+   "condition": {
+    "dimensions": [
+     "minecraft:the_end"
+    ],
+    "structures": [
+     "minecraft:end_city"
+    ]
+   }
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-"""CobbleEffort's extra Rotom forms (the user's request, 1.8.0): 32 new appliances for Rotom, each with its own form-
+"""CobbleEffort's extra Rotom forms (the user's request, 1.8.0): 33 new appliances for Rotom (Invasion added in 1.10.0), each with its own form-
 change item and in Mega Showdown's Rotom Catalogue cycle (the Catalogue part is a mixin in CobbleEffort: Distortion).
 
 * Forms ride on Cobblemon's own `appliance` feature: Mega Showdown sets features as raw strings ("appliance=drill"
@@ -118,6 +118,9 @@ FORMS = {
                "It curls the fur of any Pokémon that sits still. Its spiral eyes make onlookers dizzy.", SHEET),
     "tonic": ("Tonic", ["electric", "poison"], "venoshock", "Tonic Cap", ("minecraft:glass_bottle", "minecraft:glistering_melon_slice"),
               "A Rotom inside a bottle of tonic. It flexes its plasma arm and offers a dose to anyone who looks tired.", SHEET),
+    "invasion": ("Invasion", ["electric", "psychic"], "psychoboost", "Tripod Beacon", ("minecraft:ender_eye", "minecraft:chain"),
+                 "A Rotom that slipped into a walker from beyond the sky. It strides over towns on its four long legs, "
+                 "grinning, and nobody knows what it is looking for.", "Unknown-Dan's art (@unknown__dan)"),
 }
 
 
@@ -283,7 +286,8 @@ def move_name(m):
                "futuresight": "Future Sight", "nightdaze": "Night Daze", "sludgebomb": "Sludge Bomb", "fireblast": "Fire Blast",
                "earthpower": "Earth Power", "hypervoice": "Hyper Voice", "mirrorshot": "Mirror Shot", "shadowball": "Shadow Ball",
                "focusblast": "Focus Blast", "icebeam": "Ice Beam", "pollenpuff": "Pollen Puff", "darkpulse": "Dark Pulse",
-               "dazzlinggleam": "Dazzling Gleam", "roaroftime": "Roar of Time", "drainingkiss": "Draining Kiss"}
+               "dazzlinggleam": "Dazzling Gleam", "roaroftime": "Roar of Time", "drainingkiss": "Draining Kiss",
+               "psychoboost": "Psycho Boost"}
     return special.get(m, m.title())
 
 

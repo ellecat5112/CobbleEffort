@@ -1,0 +1,177 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3190,
+ "name": "Iron Pyre",
+ "primaryType": "fire",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 28,
+ "weight": 760,
+ "pokedex": [
+  "cobbleeffort.species.ironpyre.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 120,
+  "defence": 90,
+  "special_attack": 100,
+  "special_defence": 85,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.689,
+ "hitbox": {
+  "width": 1.8,
+  "height": 4.0625,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:blaze_rod",
+    "quantityRange": "0-2"
+   },
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "1-4"
+   },
+   {
+    "item": "cobblemon:charcoal",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 6.0
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:thundershock",
+  "1:wingattack",
+  "6:firespin",
+  "12:chargebeam",
+  "18:flamecharge",
+  "24:discharge",
+  "30:flamethrower",
+  "36:wildcharge",
+  "42:heatwave",
+  "48:flareblitz",
+  "54:thunderbolt",
+  "60:burnup",
+  "66:overheat",
+  "72:electroshot",
+  "tm:aerialace",
+  "tm:airslash",
+  "tm:bravebird",
+  "tm:fly",
+  "tm:hurricane",
+  "tm:roost",
+  "tm:skyattack",
+  "tm:steelwing",
+  "tm:tailwind",
+  "tm:uturn",
+  "tm:agility",
+  "tm:doubleteam",
+  "tm:swift",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:sunnyday",
+  "tm:raindance",
+  "tm:defog",
+  "tm:dualwingbeat",
+  "tm:pounce",
+  "tm:takedown",
+  "tm:scaryface",
+  "tm:helpinghand",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:heatwave",
+  "tm:willowisp",
+  "tm:overheat",
+  "tm:flamecharge",
+  "tm:firespin",
+  "tm:firefang",
+  "tm:incinerate",
+  "tm:temperflare",
+  "tm:burningjealousy",
+  "tm:scorchingsands",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:shockwave",
+  "tm:zapcannon",
+  "tm:thunderfang"
+ ]
+}

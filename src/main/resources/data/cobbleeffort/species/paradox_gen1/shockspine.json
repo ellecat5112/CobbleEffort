@@ -1,0 +1,172 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3186,
+ "name": "Shock Spine",
+ "primaryType": "electric",
+ "secondaryType": "fighting",
+ "maleRatio": -1,
+ "height": 26,
+ "weight": 2300,
+ "pokedex": [
+  "cobbleeffort.species.shockspine.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 95,
+  "attack": 125,
+  "defence": 90,
+  "special_attack": 85,
+  "special_defence": 80,
+  "speed": 115
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.832,
+ "hitbox": {
+  "width": 3.2,
+  "height": 3.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.32
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:copper_ingot",
+    "quantityRange": "1-4"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:black_belt",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:leer",
+  "1:rocksmash",
+  "6:bite",
+  "12:chargebeam",
+  "18:thunderfang",
+  "24:brickbreak",
+  "30:wildcharge",
+  "36:crunch",
+  "42:bulkup",
+  "48:closecombat",
+  "54:boltbeak",
+  "60:superpower",
+  "66:thunder",
+  "72:gigaimpact",
+  "tm:agility",
+  "tm:doubleteam",
+  "tm:swift",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:dragontail",
+  "tm:rockslide",
+  "tm:rocktomb",
+  "tm:outrage",
+  "tm:dragonclaw",
+  "tm:swordsdance",
+  "tm:doubleedge",
+  "tm:roar",
+  "tm:lowkick",
+  "tm:lowsweep",
+  "tm:thunder",
+  "tm:thunderbolt",
+  "tm:thunderwave",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:shockwave",
+  "tm:zapcannon",
+  "tm:thunderfang",
+  "tm:brickbreak",
+  "tm:bulkup",
+  "tm:closecombat",
+  "tm:drainpunch",
+  "tm:focusblast",
+  "tm:reversal",
+  "tm:superpower",
+  "tm:rocksmash",
+  "tm:coaching",
+  "tm:bodypress",
+  "tm:aurasphere"
+ ]
+}

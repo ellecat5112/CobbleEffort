@@ -1607,7 +1607,7 @@ rare drop from Garbodor, about 1 in 25) and it evolves into **Petroil** (#3154),
 shell, never without its entourage: a Trubbish rides in the barrel and another trails behind, and wild Petroil lead a
 band of Trubbish (wild Trubbish now follow a Petroil as their leader).
 
-**Extra Rotom forms** (1.8.0, the user's request): 32 new appliances for Rotom, each with its own form-change item,
+**Extra Rotom forms** (1.8.0, the user's request; Invasion Rotom 1.10.0): 33 new appliances for Rotom, each with its own form-change item,
 built after art the user shared: the Joseon Region fakemon cards (Drill, Jetski, ATV, Harvester), The_Aussie_Artist's
 Pokémon Abyss instruments (String, Beat, Brass, Grand), CaligoMilites' Rotom Boy, a smartwatch Rotom and two sheets
 of Rotom doodles (artists not named). Every form has Levitate and the appliance forms' stats, Rotom's learnset and a
@@ -1650,6 +1650,7 @@ too (with CobbleEffort: Distortion 0.15.0), and its Rotom Units still turn any o
 | E-Reader Rotom | Electric / Psychic | Psyshock | E-Ink Screen |
 | Curler Rotom | Electric / Fairy | Draining Kiss | Curling Wand |
 | Tonic Rotom | Electric / Poison | Venoshock | Tonic Cap |
+| Invasion Rotom | Electric / Psychic | Psycho Boost | Tripod Beacon |
 
 ![The extra Rotom forms](docs/rotom_forms.png)
 
@@ -1664,6 +1665,23 @@ Iron Titan in ancient cities. Their stats, moves (the Regis' own plus Electric o
 Thunder Cage, Iron Duality Dragon Energy, Iron Titan Crush Grip) and Pokédex entries are ours.
 
 ![The paradox Regis](docs/paradox_regis.png)
+
+**The Gen 1 paradox legends** (1.10.0, the user's request): an ancient and a future paradox for each of Articuno,
+Zapdos, Moltres, Mew and Mewtwo, #3185-3194. Ancient (Protosynthesis): **Frigid Crest** (Ice/Fairy), a feathered raptor
+Articuno with a looping violet plume; **Shock Spine** (Electric/Fighting), a four-legged spinosaur Zapdos with a black
+sail; **Molten Frill** (Fire/Dark), a frilled dinosaur Moltres (these three keep the art's names); **Genesis One**
+(Psychic/Normal), a Mew curled in a ring of rainbow DNA, after **@amalryart**'s art (Brasto region); and **Feral Mind**
+(Psychic/Rock), a wild-maned Mewtwo with crystal fists (our name). Future (Quark Drive): **Iron Aurora** (Ice/Psychic),
+**Iron Tempest** (Electric/Steel) and **Iron Pyre** (Fire/Electric), robot birds with starry wings (our names);
+**Iron Sequencer** (Steel/Psychic), a seated robot Mew with a gene-sequencer gun, after **@professorkauri**'s art; and
+**Iron Blast** (Psychic/Dark), an armoured Mewtwo, after **Elesteva076**'s art (names kept). The birds and Mewtwos are
+legendary paradoxes, the Mews mythical ones (genderless, catch rate 3). Each turns up very rarely where it fits: Frigid
+Crest in snowy forests, Shock Spine in savannas and badlands in the rain, Molten Frill in volcanic biomes and the
+Nether's basalt deltas, Iron Aurora at night on frozen peaks, Iron Tempest on mountains in thunderstorms, Iron Pyre in
+the Nether, Genesis One in lush caves, Iron Sequencer in strongholds, Iron Blast in End cities and Feral Mind deep
+underground. Their types (where the art gave none), stats, moves and Pokédex entries are ours.
+
+![The Gen 1 paradox legends](docs/paradox_gen1.png)
 
 **The pure Galar fossils** (the art the user shared, names kept): Dracozolt, Arctozolt, Dracovish and Arctovish are two
 fossils stitched together; CobbleEffort: Distortion 0.13.0's **DNA Analyzer** and **DNA Purifier**, placed beside its
@@ -1874,6 +1892,16 @@ ring on a lime stem.
 | 3182 | **Iron Duality** | Dragon / Electric | Quark Drive | 110 / 100 / 70 / 120 / 70 / 120 | 6'11" (2.1 m) / 224 kg | Wild: very rare anywhere outdoors during a thunderstorm. | A Pokémon that seems to be Regieleki and Regidrago fused into one, described in a strange article about storm clouds that roared like dragons. The core does the thinking; the two heads at its sides do the biting, and they never stop crackling. |
 | 3183 | **Iron Titan** | Normal / Fighting | Quark Drive | 110 / 150 / 110 / 70 / 100 / 110 | 12'2" (3.7 m) / 480 kg | Wild: very rare in ancient cities, deep underground. | A Pokémon resembling Regigigas, described in a report about a titan that woke in a city deep under the earth. It needs no warming up: the orb in its hand charges in an instant, and the rings on its chest light up one by one before it throws a punch. |
 | 3184 | **Iron Dynamo** | Electric / Ground | Quark Drive | 70 / 115 / 75 / 115 / 65 / 150 | 5'3" (1.6 m) / 172 kg | Wild: very rare in dripstone caves. | A Pokémon resembling Regieleki, pictured in a dubious magazine story about a machine that drilled for lightning. Its drills bore through rock as it charges, and its hands and its little drone fly off on their own to fetch what it digs up. |
+| 3185 | **Frigid Crest** | Ice / Fairy | Protosynthesis | 85 / 120 / 85 / 95 / 100 / 105 | 6'7" (2 m) / 54 kg | Wild: very rare in snowy forests and snowy taigas. | A Pokémon resembling Articuno, described in an old field journal about a frozen valley where a feathered beast stalked the snowdrifts. It fans its great plume to frighten rivals, and the air round its crest glitters with frost. |
+| 3186 | **Shock Spine** | Electric / Fighting | Protosynthesis | 95 / 125 / 90 / 85 / 80 / 115 | 8'6" (2.6 m) / 230 kg | Wild: very rare in savannas and badlands while it rains. | A Pokémon resembling Zapdos, said to be the beast in a tale of lightning that walked on four legs. When it bristles, its fur and sail crackle with static, and its jaws snap shut with a thunderclap. |
+| 3187 | **Molten Frill** | Fire / Dark | Protosynthesis | 95 / 85 / 85 / 125 / 105 / 95 | 7'3" (2.2 m) / 62 kg | Wild: very rare in volcanic biomes and badlands, and in the Nether's basalt deltas. | A Pokémon resembling Moltres, pictured in an occult magazine's story of a lizard that hunted on the slopes of a volcano. It flares its frill to blaze like a bonfire, dazzling prey before it strikes. |
+| 3188 | **Iron Aurora** | Ice / Psychic | Quark Drive | 90 / 80 / 95 / 130 / 110 / 85 | 5'7" (1.7 m) / 64 kg | Wild: very rare at night on frozen peaks and glaciers. | A Pokémon resembling Articuno, sketched in a report about lights that danced over a frozen sea on a starless night. A galaxy swirls behind the glass of its belly, and its wings scatter frost that glows like an aurora. |
+| 3189 | **Iron Tempest** | Electric / Steel | Quark Drive | 85 / 100 / 90 / 120 / 85 / 110 | 7'10" (2.4 m) / 82 kg | Wild: very rare on mountains and hills during thunderstorms. | A Pokémon resembling Zapdos, described in an expedition log about a storm that came down to fight. It folds its blazing wings round its prey like a cage, and its spear of a beak can pierce a steel plate. |
+| 3190 | **Iron Pyre** | Fire / Electric | Quark Drive | 90 / 120 / 90 / 100 / 85 / 105 | 9'2" (2.8 m) / 76 kg | Wild: very rare in the Nether. | A Pokémon resembling Moltres, pictured in a dubious science magazine beside a story of a furnace that learned to fly. Its wings are hung with sheets of living flame, and its visor glows red as it hunts by heat. |
+| 3191 | **Iron Sequencer** | Steel / Psychic | Quark Drive | 100 / 90 / 110 / 120 / 100 / 80 | 2'11" (0.9 m) / 82 kg | Wild: very rare inside strongholds. | A Pokémon resembling Mew, described in a lab notebook about a machine that read the genes of every Pokémon it met. It keeps samples in its chest and fires its sequencer to copy any move it has seen. |
+| 3192 | **Genesis One** | Psychic / Normal | Protosynthesis | 110 / 100 / 100 / 100 / 100 / 90 | 2'0" (0.6 m) / 6 kg | Wild: very rare in lush caves. | A Pokémon resembling Mew, described in an expedition report about a cave where life itself was said to begin. The strands that spiral from its ring are said to hold the code of every Pokémon that has ever lived. |
+| 3193 | **Iron Blast** | Psychic / Dark | Quark Drive | 96 / 110 / 90 / 150 / 100 / 134 | 5'7" (1.7 m) / 108 kg | Wild: very rare in End cities. | A Pokémon resembling Mewtwo, recorded in a classified report about a weapon built to surpass it. The plasma that drips from its armour is pure psychic power, and the orb on its fist can level a mountain. |
+| 3194 | **Feral Mind** | Psychic / Rock | Protosynthesis | 116 / 140 / 100 / 110 / 94 / 120 | 7'3" (2.2 m) / 136 kg | Wild: very rare deep underground (below y -10). | A Pokémon resembling Mewtwo, described in an old journal about a wild beast that ruled a crystal cavern long before people came. Crystals grow from its fists wherever its power gathers, and its mane bristles when it is angry. |
 | 3151 | **Kidlope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 52 / 60 / 45 / 40 / 48 / 64 | 1'8" (0.5 m) / 8.5 kg | Wild: uncommon in forests at night (dark forests especially). Evolves into Shadelope at level 16. | A playful kid of the deep woods. It nibbles leaves until they grow into a ruff round its neck, and loves to steal shiny things from travellers, then bound away laughing. |
 | 3152 | **Shadelope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 67 / 80 / 60 / 52 / 60 / 86 | 3'7" (1.1 m) / 24 kg | Evolve Kidlope at level 16. Wild: rare in forests at night. Evolves into Ghillope at level 36, learning Bramble Ambush. | It hides its face behind its fur and keeps to the shadows, sulking. It only shows its single glaring eye when it springs out of the undergrowth to catch someone off guard. |
 | 3153 | **Ghillope** | Grass / Dark | Overgrow / Pickpocket (hidden) | 86 / 118 / 82 / 66 / 78 / 100 | 5'11" (1.8 m) / 92 kg | Evolve Shadelope at level 36. It learns Bramble Ambush when it evolves. | It wraps itself in a cloak of leaves bound with vines and waits, perfectly still, in the deepest part of the woods. Poachers who enter its forest find their traps sprung and their packs empty. |

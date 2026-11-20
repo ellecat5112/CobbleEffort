@@ -633,6 +633,15 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   get the box's OWN unrotated coordinates: z runs back from the rod's start, x and y are centred on the start point,
   not on 0 (teeth/slits drawn as if centred on 0 come out solid). `build.py --data-only` now still builds models for
   species that have none yet (no resolver), so a new species needs no full rebuild.
+  **Gen 1 paradox legends** (1.10.0, #3185-3194, block after the Regis, line "paradox_gen1"; G1P_ANCIENT/G1P_FUTURE):
+  Frigid Crest / Shock Spine / Molten Frill (ancient birds, art's names), Iron Aurora / Tempest / Pyre (robot birds, our
+  names), Iron Sequencer (@professorkauri) and Genesis One (@amalryart) the Mews (labels mythical + paradox), Iron Blast
+  (Elesteva076) and Feral Mind (our name) the Mewtwos. `models/_pgen1.py`: `Curve2`/`band_wing` (a wing = a band
+  hanging off its arm curve, cut out of an xy plane; u = side * x), `inside`/`scaled` polygon cut-outs, `stars`,
+  `smooth_path` (Catmull-Rom), `ribbon`, `helix` (DNA double helix). `models/_mewtwo.py` = humanoid with Mewtwo's
+  proportions, head, tube and tail. Model +x is the creature's LEFT = the viewer's right in a front preview. Rods that
+  point up show their local "down" face to the front (paint throats on "down"). Invasion Rotom (Unknown-Dan's art)
+  is the 33rd extra Rotom form (rotom.py, icon in rotom_icons.py).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

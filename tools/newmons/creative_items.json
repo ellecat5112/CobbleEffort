@@ -656,6 +656,24 @@
   }
  },
  {
+  "id": "minecraft:echo_shard",
+  "count": 1,
+  "components": {
+   "minecraft:custom_name": "{\"translate\": \"item.cobbleeffort.rotom_invasion\", \"italic\": false}",
+   "minecraft:lore": [
+    "{\"translate\": \"item.cobbleeffort.rotom_invasion.tooltip\", \"color\": \"gray\", \"italic\": false}"
+   ],
+   "minecraft:custom_model_data": 794852,
+   "minecraft:rarity": "rare",
+   "minecraft:max_stack_size": 1,
+   "minecraft:custom_data": {
+    "cobbleeffort_item": "rotom_invasion"
+   },
+   "mega_showdown:registry_type_component": "form_change_interact",
+   "mega_showdown:registry_location_component": "cobbleeffort:rotom_invasion"
+  }
+ },
+ {
   "id": "minecraft:red_wool",
   "count": 1,
   "components": {

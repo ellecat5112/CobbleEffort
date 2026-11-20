@@ -1,0 +1,25 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "genesisone-lush",
+   "pokemon": "cobbleeffort:genesisone",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65-70",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": false,
+    "biomes": [
+     "minecraft:lush_caves"
+    ]
+   }
+  }
+ ]
+}
