@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "irongrace-flowers",
+   "pokemon": "cobbleeffort:irongrace",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-65",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "minecraft:flower_forest"
+    ]
+   }
+  }
+ ]
+}

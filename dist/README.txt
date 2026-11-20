@@ -2,7 +2,7 @@
                      CobbleEffort @VERSION@: extra cosmetic forms for Cobblemon                     
 ====================================================================================================
 
-CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 259 new
+CobbleEffort adds 41 collections of cosmetic forms (1488 Pokemon) to Cobblemon, plus 280 new
 Pokemon. Each form is a new look for an existing Cobblemon model. Every cosmetic covers whole
 evolutionary lines: if one stage has it, its pre-evolutions and evolutions have it too, and the look
 stays through evolution, gender, regional forms, megas and shinies (shinies get their own version).
@@ -4116,6 +4116,183 @@ cobbleeffort:cavitot.
   Pokedex: "A Pokémon resembling Rayquaza, recorded in a report about a satellite that coiled itself
   into a ring above the world's edge. Its glass fins drink starlight to power its endless flight."
   * Wild: very rare on the End's outer islands.
+
+#3211 SCALED ACUITY  (Dragon / Psychic; Protosynthesis)
+  an Uxie whose golden helmet is a great coiled shell of scales with a crest of red and gold scales,
+  closed eyes, a red gem horn, teal spotted shoulder fins and two tails ending in red-gemmed lobes
+  Stats: HP 85  Atk 85  Def 120  SpA 105  SpD 120  Spe 75  (total 590)
+  Pokedex: "A Pokémon resembling Uxie, described in a scholar's notes about a being of coiled scales
+  that slept beneath a frozen lake. Its eyes never open, yet it knows everything that happens around
+  it."
+  * Wild: very rare at night by frozen rivers, among ice spikes and on frozen peaks.
+
+#3212 SPARKLING VERITY  (Fairy / Psychic; Protosynthesis)
+  a Mesprit with a long red gem horn, long drooping pink ears, yellow eyes with red pupils, a teal
+  spotted mantle and two tails sweeping up round its side, ending in red-gemmed lobes
+  Stats: HP 85  Atk 95  Def 95  SpA 115  SpD 95  Spe 105  (total 590)
+  Pokedex: "A Pokémon resembling Mesprit, described in a traveller's diary about a grinning spirit
+  that danced over a lake at dawn. Those it touched could not stop laughing, or weeping, for a whole
+  day."
+  * Wild: very rare by day along rivers.
+
+#3213 SUNKEN VALOR  (Ghost / Psychic; Protosynthesis)
+  an Azelf whose blue head is a long hood curling over to one side, with a red brow gem, yellow
+  eyes, teal spotted shoulder fins and two very long trailing tails ending in red-gemmed lobes
+  Stats: HP 75  Atk 125  Def 75  SpA 125  SpD 75  Spe 115  (total 590)
+  Pokedex: "A Pokémon resembling Azelf, described in a fisher's tale of a drowned spirit that rose
+  from a still swamp. It is said to lend its courage to the lost, and to drag the cowardly down."
+  * Wild: very rare at night in swamps.
+
+#3214 PROTO-DIALGA  (Rock / Dragon; Protosynthesis)
+  a Dialga of glowing blue crystal veined in cyan and flecked with stars, silver armour round a
+  glowing chest diamond and long striped crystal blades fanning from its shoulders like wings
+  Stats: HP 100  Atk 120  Def 130  SpA 140  SpD 110  Spe 90  (total 690)
+  Pokedex: "A Pokémon resembling Dialga, described in an ancient star chart as a dragon of living
+  crystal that walked the mountaintops when time was young. The night sky moves within its body."
+  * Wild: very rare at dawn on mountain peaks.
+
+#3215 IRON EPOCH  (Steel / Electric; Quark Drive)
+  a rose-pink and white robot Dialga before a great translucent clock dial bursting with pink
+  crystal shards and crackling lightning, its lower legs sheathed in many-coloured crystals
+  Stats: HP 100  Atk 110  Def 120  SpA 150  SpD 110  Spe 100  (total 690)
+  Pokedex: "A Pokémon resembling Dialga, recorded in a report about a machine that ticked like a
+  clock at the end of the world. Lightning flies from its dial each time it counts another moment."
+  * Wild: very rare in the End's barrens.
+
+#3216 PROTO-PALKIA  (Water / Psychic; Protosynthesis)
+  a massive Palkia of rose-pink crystal veined in glowing magenta and flecked with stars, glowing
+  shoulder pearls and two jagged fans of translucent magenta crystal spread behind it
+  Stats: HP 90  Atk 120  Def 100  SpA 150  SpD 120  Spe 110  (total 690)
+  Pokedex: "A Pokémon resembling Palkia, described in an ancient star chart as a giant of rose
+  crystal whose wings tore the sky open. Shards of other places drift around it wherever it stands."
+  * Wild: very rare at dusk on mountain peaks.
+
+#3217 IRON EXPANSE  (Water / Steel; Quark Drive)
+  a sleek white robot Palkia banded in violet with gunmetal arms, long striped wing blades and a
+  floating halo of a violet star round a dark starry lens
+  Stats: HP 90  Atk 130  Def 110  SpA 140  SpD 100  Spe 120  (total 690)
+  Pokedex: "A Pokémon resembling Palkia, recorded in a report about a machine that folded space
+  around itself. The halo above it is a window onto a sky no one has ever seen."
+  * Wild: very rare on the End's small islands.
+
+#3218 EXILED SHADE  (Ghost / Rock; Protosynthesis)
+  a long low six-legged beast of grey stone under a vast ragged mound of living shadow pierced by
+  red spikes, with curved gold rib plates, gold-marked feet and Giratina's golden mask on its low
+  head
+  Stats: HP 150  Atk 110  Def 130  SpA 90  SpD 120  Spe 90  (total 690)
+  Pokedex: "A Pokémon resembling Giratina, described in an explorer's journal about a beast that
+  crawled in the deepest caves under a mound of living shadow. Light dies wherever it passes."
+  * Wild: very rare in the deep dark.
+
+#3219 IRON RENEGADE  (Ghost / Steel; Quark Drive)
+  a towering violet robot Giratina striped in black and yellow chevrons, with steel spikes up its
+  neck, six spiked black legs, a golden mask and a jagged pink burst of energy flaring at its back
+  Stats: HP 140  Atk 120  Def 120  SpA 120  SpD 100  Spe 90  (total 690)
+  Pokedex: "A Pokémon resembling Giratina, recorded in a report about a machine that broke out of a
+  dimension where it had been sealed away. Wild energy bursts from its back when it is angered."
+  * Wild: very rare in the Nether's warped forests.
+
+#3220 BURNING VERDURE  (Fire / Grass; Protosynthesis)
+  a Heatran overgrown like a forest floor: lava-splashed rust shell, charred tree-stump legs carved
+  with glowing runes and crowned with moss and white eggs, and bare branches growing from its back,
+  one aflame
+  Stats: HP 100  Atk 100  Def 110  SpA 130  SpD 110  Spe 60  (total 610)
+  Pokedex: "A Pokémon resembling Heatran, described in an old forester's book about a burning beast
+  whose legs were the stumps of a forest it had set alight. Moss and saplings regrow on its back."
+  * Wild: very rare in wooded badlands and windswept savannas.
+
+#3221 IRON FORGE  (Fire / Dark; Quark Drive)
+  a robot Heatran of crimson metal cracked with glowing magma, a bronze-ribbed chest, an angular
+  black helmet with glowing visor lines, spiked black armoured legs and flames roaring from its back
+  Stats: HP 90  Atk 130  Def 110  SpA 120  SpD 90  Spe 70  (total 610)
+  Pokedex: "A Pokémon resembling Heatran, recorded in a report about a furnace that walked out of a
+  valley of souls. Its magma never cools, and its visor glows brighter the longer it fights."
+  * Wild: very rare in the Nether's soul sand valleys.
+
+#3222 CRESCENT DREAM  (Psychic / Fairy; Protosynthesis)
+  a pterosaur Cresselia with immense curved pink crescent wings, a shaggy cream mane tipped with
+  green, a long tan beak and crest under a pink cap, fluffy blue legs and swirling gold crescent
+  ribbons behind it
+  Stats: HP 100  Atk 80  Def 110  SpA 100  SpD 120  Spe 80  (total 590)
+  Pokedex: "A Pokémon resembling Cresselia, described in a cave painting of a great winged reptile
+  that soared under the crescent moon. Sleepers it flew over were said to dream of flight."
+  * Wild: very rare at night in cherry groves and groves.
+
+#3223 IRON CRESCENT  (Psychic / Steel; Quark Drive)
+  a sleek robot Cresselia: a sparkling lilac pod with a pale blue glass dome, a long banded swan
+  neck, a dark visor under a tall cream crescent, three slotted orbit rings and a glowing hover ring
+  Stats: HP 110  Atk 70  Def 130  SpA 90  SpD 130  Spe 60  (total 590)
+  Pokedex: "A Pokémon resembling Cresselia, recorded in a report about a satellite that circled a
+  snowy summit at midnight. Its orbiting rings hum a tune that brings peaceful sleep."
+  * Wild: very rare at midnight on snowy slopes and jagged peaks.
+
+#3224 GLEAMING TIDE  (Water / Rock; Protosynthesis)
+  a deep blue Manaphy studded with red gems, three long antennae tipped with pink heart bulbs, red
+  diamond eyes in yellow stars and stained-glass mosaic fins and tail
+  Stats: HP 100  Atk 100  Def 110  SpA 100  SpD 100  Spe 100  (total 610)
+  Pokedex: "A Pokémon resembling Manaphy, described in a mariner's legend of a sea spirit with fins
+  of coloured glass that guided ships home through the reefs. Its antennae glow with a warm pink
+  light."
+  * Wild: very rare by day in warm oceans.
+
+#3225 IRON ABYSS  (Fairy / Water; Quark Drive)
+  a Manaphy of glassy cyan jelly with yellow-rimmed grid lens eyes, a red chest gem, white circuit
+  fins and two long antennae flowing down to glowing balls, before a faint rainbow ring
+  Stats: HP 100  Atk 80  Def 100  SpA 120  SpD 110  Spe 100  (total 610)
+  Pokedex: "A Pokémon resembling Manaphy, recorded in a report about a jelly-like probe that drifted
+  up from the deepest trench. Anyone it meets feels as though they have known it all their life."
+  * Wild: very rare by day in deep oceans.
+
+#3226 GNASHING NIGHT  (Dark / Dragon; Protosynthesis)
+  a hunched beast of ragged living shadow with a gaping red maw of great white fangs, a teal glow in
+  its throat, a swept-back crest of pale bone, long hooked claws and splayed jagged feet
+  Stats: HP 80  Atk 135  Def 90  SpA 120  SpD 80  Spe 105  (total 610)
+  Pokedex: "A Pokémon resembling Darkrai, described in a village elder's warning about a beast of
+  shadow that prowled the forest on moonless nights. Its jaws were said to swallow dreams whole."
+  * Wild: very rare at night in dark forests.
+
+#3227 IRON NIGHTMARE  (Dark / Electric; Quark Drive)
+  a black robot Darkrai with a bell-shaped body, ball-tipped shoulder antennae, long clawed arms
+  with red joint lights, a white helmet in a red hood and yellow lightning crackling over it
+  Stats: HP 70  Atk 100  Def 90  SpA 140  SpD 90  Spe 120  (total 610)
+  Pokedex: "A Pokémon resembling Darkrai, recorded in a report about a machine that appeared in a
+  thunderstorm and left every sleeper nearby dreaming of static. Lightning arcs between its claws."
+  * Wild: very rare in dark forests and old-growth pine taigas during thunderstorms.
+
+#3228 BRISTLE HORN  (Rock; Protosynthesis)
+  a little armoured hedgehog Shaymin: a pale lavender body under a domed back of red-tipped brown
+  bristles flecked with gold, a grey horn on its white face and a fluffy curled tail
+  Stats: HP 100  Atk 110  Def 120  SpA 80  SpD 100  Spe 100  (total 610)
+  Pokedex: "A Pokémon resembling Shaymin, described in a herbalist's notes about a little horned
+  creature whose bristles turned flowers to stone. Given a sprig of petals, it rose into the sky."
+  * Wild: very rare by day in hills and meadows.
+  * Sky Forme: put Pink Petals in its cosmetic slot (Rock/Flying, faster; take them out to return).
+
+#3229 IRON GRACE  (Grass / Fairy; Quark Drive)
+  a Shaymin sealed in a glass dome: green moss over its back, a pink band, a great pink Gracidea
+  flower among leaves, a dark visor face with pink pixel eyes and a white body on four pink-striped
+  legs
+  Stats: HP 100  Atk 80  Def 110  SpA 120  SpD 110  Spe 90  (total 610)
+  Pokedex: "A Pokémon resembling Shaymin, recorded in a report about a sealed garden that walked out
+  of a flower field at night. Inside its dome, the air is always that of a spring morning."
+  * Wild: very rare at night in flower forests.
+
+#3230 HALLOWED WINGS  (Normal / Flying; Protosynthesis)
+  a white feathered Arceus with its golden wheel, a dark wavy mane, a hooked bird-like face under
+  white crest feathers, great white feathered wings and gold-tipped hooves
+  Stats: HP 120  Atk 125  Def 110  SpA 115  SpD 110  Spe 140  (total 720)
+  Pokedex: "A Pokémon resembling Arceus, described in the oldest of myths as the first being to take
+  wing over the newborn world. Its golden wheel shines like the sun at noon."
+  * Wild: very rare at noon high on mountain peaks (above y 140).
+
+#3231 IRON DEITY  (Normal / Steel; Quark Drive)
+  a towering white robot Arceus before a golden halo, its armour split into spiked navy plates on
+  one side and starry lilac plates with a folded fan of blades on the other
+  Stats: HP 120  Atk 120  Def 130  SpA 120  SpD 130  Spe 100  (total 720)
+  Pokedex: "A Pokémon resembling Arceus, recorded in a report about a machine that stood at the
+  heart of the End and claimed to have built the world. Its halo turns slowly, keeping the cosmos in
+  order."
+  * Wild: very rare on the End's main island.
 
 ====================================================================================================
 PARADOX MEGA EVOLUTIONS (needs Mega Showdown)

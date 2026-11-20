@@ -651,6 +651,12 @@ forms via Cobblemon's cosmetic slot and aspects. Built against Cobblemon 1.8.4 /
   Smoldering Crust (our names). `models/_kyogre.py` (whale body, `fin_box` = flat fin rotated (0, -sx*sweep, sx*down):
   that sign tilts it down and forward), `_serpent.py` (`serpent` crossed-rod tapering body along a path, `ring_path`,
   `at`/`tangent`). Kyogres are `aquatic` with surface spawns. Jirachi/Deoxys: no art yet.
+  **Gen 4 paradox legends** (1.13.0, #3211-3231, line "paradox_gen4"): the lake trio on `models/_lake.py` (`body`,
+  `tail` = a tail ending in a `trident` plane of three gem lobes, `fins`, `brow_gem`, `scallop`), the Dialgas on
+  `_dialga.py`, the Palkias on `_palkia.py` (theropod + shoulder pearls), the Heatrans on `_heatran.py`; mythicals' forms
+  add G4P_MYTH (labels mythical + paradox). Bristle Horn's Sky Forme = SPECIES `forms` "Sky" (aspect sky-forme) +
+  `form_models` [("sky-forme", "bristlehorn_sky")] + `data_files` cosmetic_items (Pink Petals). Cobblemon 1.8.4 has no
+  `cobblemon:charcoal` (it is `charcoal_stick`) and no plates: check drop ids against its lang (1.13.0 fixed Gen 1-3's).
 - Paradox megas: `tools/megas/build.py --cobblemon <res>` (switches off every layer the stack's resolvers give the base
   form, since Cobblemon merges layers by name into the mega; config for all 22 in MEGAS: types, ability, stats = base + 100 with Ancient
   odd / Future even, stone, recipe, dex text). One hand-built box model per mega in `tools/megas/models/<species>.py`

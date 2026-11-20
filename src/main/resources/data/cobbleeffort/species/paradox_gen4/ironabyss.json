@@ -1,0 +1,188 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3225,
+ "name": "Iron Abyss",
+ "primaryType": "fairy",
+ "secondaryType": "water",
+ "maleRatio": -1,
+ "height": 6,
+ "weight": 30,
+ "pokedex": [
+  "cobbleeffort.species.ironabyss.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "mythical",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 80,
+  "defence": 100,
+  "special_attack": 120,
+  "special_defence": 110,
+  "speed": 100
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 300,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.533,
+ "hitbox": {
+  "width": 0.8,
+  "height": 1.6875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": false,
+    "canSwimInWater": true,
+    "swimSpeed": 0.4,
+    "canBreatheUnderwater": true
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:prismarine_crystals",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:slime_ball",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:mystic_water",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:shiny_stone",
+    "percentage": 4.0
+   }
+  ]
+ },
+ "moves": [
+  "1:watergun",
+  "1:tailglow",
+  "1:charm",
+  "9:bubblebeam",
+  "16:drainingkiss",
+  "24:waterpulse",
+  "32:heartswap",
+  "40:dazzlinggleam",
+  "48:moonblast",
+  "56:surf",
+  "64:hydropump",
+  "72:springtidestorm",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:waterpulse",
+  "tm:scald",
+  "tm:liquidation",
+  "tm:aquatail",
+  "tm:raindance",
+  "tm:whirlpool",
+  "tm:chillingwater",
+  "tm:muddywater",
+  "tm:dive",
+  "tm:waterfall",
+  "tm:icywind",
+  "tm:bubblebeam",
+  "tm:drainingkiss",
+  "tm:playrough",
+  "tm:moonblast",
+  "tm:charm",
+  "tm:mistyterrain",
+  "tm:alluringvoice"
+ ]
+}

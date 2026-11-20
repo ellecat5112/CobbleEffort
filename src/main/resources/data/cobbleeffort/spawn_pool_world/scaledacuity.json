@@ -1,0 +1,28 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "scaledacuity-frost",
+   "pokemon": "cobbleeffort:scaledacuity",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "night",
+    "biomes": [
+     "minecraft:frozen_river",
+     "minecraft:ice_spikes",
+     "minecraft:frozen_peaks"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3227,
+ "name": "Iron Nightmare",
+ "primaryType": "dark",
+ "secondaryType": "electric",
+ "maleRatio": -1,
+ "height": 25,
+ "weight": 1100,
+ "pokedex": [
+  "cobbleeffort.species.ironnightmare.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "mythical",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 70,
+  "attack": 100,
+  "defence": 90,
+  "special_attack": 140,
+  "special_defence": 90,
+  "speed": 120
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 2,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 300,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.867,
+ "hitbox": {
+  "width": 1.4,
+  "height": 2.125,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:redstone",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:magnet",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:thundershock",
+  "1:quickattack",
+  "1:disable",
+  "8:shockwave",
+  "16:suckerpunch",
+  "24:discharge",
+  "32:darkvoid",
+  "40:darkpulse",
+  "48:thunderbolt",
+  "56:nastyplot",
+  "64:thunder",
+  "72:risingvoltage",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:crunch",
+  "tm:foulplay",
+  "tm:knockoff",
+  "tm:snarl",
+  "tm:suckerpunch",
+  "tm:thief",
+  "tm:throatchop",
+  "tm:torment",
+  "tm:payback",
+  "tm:lashout",
+  "tm:faketears",
+  "tm:wildcharge",
+  "tm:discharge",
+  "tm:electricterrain",
+  "tm:risingvoltage",
+  "tm:eerieimpulse",
+  "tm:electroball",
+  "tm:charge",
+  "tm:chargebeam",
+  "tm:shockwave",
+  "tm:zapcannon",
+  "tm:thunderfang"
+ ]
+}

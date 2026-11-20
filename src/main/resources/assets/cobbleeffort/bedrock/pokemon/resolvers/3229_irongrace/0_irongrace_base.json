@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:irongrace",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:irongrace",
+   "model": "cobbleeffort:irongrace.geo",
+   "texture": "cobbleeffort:textures/pokemon/3229_irongrace/irongrace.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_glow_0.png",
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_glow_1.png",
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3229_irongrace/irongrace_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:hallowedwings",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:hallowedwings",
+   "model": "cobbleeffort:hallowedwings.geo",
+   "texture": "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_glow_0.png",
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_glow_1.png",
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3230_hallowedwings/hallowedwings_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

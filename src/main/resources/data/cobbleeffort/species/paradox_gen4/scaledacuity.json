@@ -1,0 +1,209 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3211,
+ "name": "Scaled Acuity",
+ "primaryType": "dragon",
+ "secondaryType": "psychic",
+ "maleRatio": -1,
+ "height": 7,
+ "weight": 80,
+ "pokedex": [
+  "cobbleeffort.species.scaledacuity.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 85,
+  "attack": 85,
+  "defence": 120,
+  "special_attack": 105,
+  "special_defence": 120,
+  "speed": 75
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 2,
+  "special_attack": 0,
+  "special_defence": 1,
+  "speed": 0
+ },
+ "baseExperienceYield": 290,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 0.457,
+ "hitbox": {
+  "width": 0.7,
+  "height": 1.75,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   },
+   "fly": {
+    "canFly": true,
+    "flySpeedHorizontal": "0.4"
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:gold_nugget",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:amethyst_shard",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:dragon_scale",
+    "percentage": 8.0
+   },
+   {
+    "item": "cobblemon:twisted_spoon",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:confusion",
+  "1:dragonbreath",
+  "1:rest",
+  "6:yawn",
+  "12:psybeam",
+  "18:dragonpulse",
+  "24:amnesia",
+  "30:extrasensory",
+  "36:calmmind",
+  "42:psychic",
+  "48:flamethrower",
+  "54:futuresight",
+  "60:memento",
+  "66:dracometeor",
+  "72:mysticalpower",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:aurasphere",
+  "tm:focusblast",
+  "tm:shadowball",
+  "tm:energyball",
+  "tm:thunderbolt",
+  "tm:icebeam",
+  "tm:flamethrower",
+  "tm:surf",
+  "tm:fly",
+  "tm:dazzlinggleam",
+  "tm:nastyplot",
+  "tm:swordsdance",
+  "tm:bulkup",
+  "tm:dragonpulse",
+  "tm:darkpulse",
+  "tm:sludgebomb",
+  "tm:earthpower",
+  "tm:irontail",
+  "tm:uturn",
+  "tm:voltswitch",
+  "tm:willowisp",
+  "tm:thunderwave",
+  "tm:encore",
+  "tm:taunt",
+  "tm:toxic",
+  "tm:metronome",
+  "tm:swift",
+  "tm:bodyslam",
+  "tm:doubleedge",
+  "tm:takedown",
+  "tm:helpinghand",
+  "tm:solarbeam",
+  "tm:hydropump",
+  "tm:fireblast",
+  "tm:blizzard",
+  "tm:thunder",
+  "tm:hurricane",
+  "tm:dracometeor",
+  "tm:earthquake",
+  "tm:gunkshot",
+  "tm:leafstorm",
+  "tm:poisonjab",
+  "tm:drainpunch",
+  "tm:closecombat",
+  "tm:lowkick",
+  "tm:zenheadbutt",
+  "tm:psychic",
+  "tm:psyshock",
+  "tm:calmmind",
+  "tm:futuresight",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:trick",
+  "tm:zenheadbutt",
+  "tm:psychicterrain",
+  "tm:storedpower",
+  "tm:expandingforce",
+  "tm:allyswitch",
+  "tm:imprison",
+  "tm:skillswap",
+  "tm:magicroom",
+  "tm:trickroom",
+  "tm:wonderroom",
+  "tm:psychicnoise",
+  "tm:gravity",
+  "tm:agility",
+  "tm:healbell",
+  "tm:uturn",
+  "tm:knockoff",
+  "tm:magiccoat",
+  "tm:recycle",
+  "tm:safeguard",
+  "tm:dragonclaw",
+  "tm:outrage",
+  "tm:dragondance",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:dragoncheer",
+  "tm:twister"
+ ]
+}

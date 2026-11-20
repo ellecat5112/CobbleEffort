@@ -1,0 +1,176 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3226,
+ "name": "Gnashing Night",
+ "primaryType": "dark",
+ "secondaryType": "dragon",
+ "maleRatio": -1,
+ "height": 28,
+ "weight": 1200,
+ "pokedex": [
+  "cobbleeffort.species.gnashingnight.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "mythical",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 80,
+  "attack": 135,
+  "defence": 90,
+  "special_attack": 120,
+  "special_defence": 80,
+  "speed": 105
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 1
+ },
+ "baseExperienceYield": 300,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.143,
+ "hitbox": {
+  "width": 2.0,
+  "height": 2.25,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.3
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:ink_sac",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:bone",
+    "quantityRange": "2-4"
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:dragon_fang",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:bite",
+  "1:dragonbreath",
+  "1:scaryface",
+  "8:nightshade",
+  "16:crunch",
+  "24:dragonclaw",
+  "32:darkvoid",
+  "40:darkpulse",
+  "48:dragonrush",
+  "56:nightdaze",
+  "64:outrage",
+  "72:wickedblow",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:darkpulse",
+  "tm:foulplay",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:suckerpunch",
+  "tm:taunt",
+  "tm:thief",
+  "tm:throatchop",
+  "tm:torment",
+  "tm:payback",
+  "tm:lashout",
+  "tm:faketears",
+  "tm:dragonpulse",
+  "tm:dragonclaw",
+  "tm:dracometeor",
+  "tm:outrage",
+  "tm:dragondance",
+  "tm:dragontail",
+  "tm:breakingswipe",
+  "tm:scaleshot",
+  "tm:dragoncheer",
+  "tm:twister",
+  "tm:shadowclaw",
+  "tm:hex",
+  "tm:poltergeist",
+  "tm:phantomforce",
+  "tm:willowisp",
+  "tm:nightshade",
+  "tm:spite",
+  "tm:confuseray",
+  "tm:curse",
+  "tm:destinybond",
+  "tm:painsplit",
+  "tm:ominouswind"
+ ]
+}

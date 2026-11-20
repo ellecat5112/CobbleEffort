@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "sparklingverity-river",
+   "pokemon": "cobbleeffort:sparklingverity",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65-70",
+   "weight": 0.8,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "day",
+    "biomes": [
+     "#cobblemon:is_river"
+    ]
+   }
+  }
+ ]
+}

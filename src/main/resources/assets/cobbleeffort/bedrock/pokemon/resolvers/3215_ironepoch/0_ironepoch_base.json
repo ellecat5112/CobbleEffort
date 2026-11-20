@@ -1,0 +1,60 @@
+{
+ "species": "cobbleeffort:ironepoch",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ironepoch",
+   "model": "cobbleeffort:ironepoch.geo",
+   "texture": "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_glow_0.png",
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_glow_1.png",
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shell.png"
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    },
+    {
+     "name": "cobbleeffort_shell",
+     "translucent": true,
+     "texture": "cobbleeffort:textures/pokemon/3215_ironepoch/ironepoch_shiny_shell.png"
+    }
+   ]
+  }
+ ]
+}

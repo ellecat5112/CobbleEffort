@@ -1,0 +1,180 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3220,
+ "name": "Burning Verdure",
+ "primaryType": "fire",
+ "secondaryType": "grass",
+ "maleRatio": -1,
+ "height": 20,
+ "weight": 4800,
+ "pokedex": [
+  "cobbleeffort.species.burningverdure.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 100,
+  "attack": 100,
+  "defence": 110,
+  "special_attack": 130,
+  "special_defence": 110,
+  "speed": 60
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 3,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 300,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.095,
+ "hitbox": {
+  "width": 2.8,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:charcoal",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:moss_block",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:miracle_seed",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:leafage",
+  "1:ancientpower",
+  "8:flamecharge",
+  "16:razorleaf",
+  "24:lavaplume",
+  "32:gigadrain",
+  "40:flamethrower",
+  "48:woodhammer",
+  "56:magmastorm",
+  "64:solarbeam",
+  "72:eruption",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:heatwave",
+  "tm:willowisp",
+  "tm:overheat",
+  "tm:flamecharge",
+  "tm:firespin",
+  "tm:firefang",
+  "tm:incinerate",
+  "tm:temperflare",
+  "tm:burningjealousy",
+  "tm:scorchingsands",
+  "tm:energyball",
+  "tm:gigadrain",
+  "tm:leafstorm",
+  "tm:solarbeam",
+  "tm:solarblade",
+  "tm:grassknot",
+  "tm:seedbomb",
+  "tm:bulletseed",
+  "tm:magicalleaf",
+  "tm:grassyterrain",
+  "tm:trailblaze",
+  "tm:leafblade",
+  "tm:synthesis",
+  "tm:synthesis",
+  "tm:leechseed",
+  "tm:worryseed",
+  "tm:grassyterrain",
+  "tm:earthquake",
+  "tm:earthpower",
+  "tm:highhorsepower",
+  "tm:dig",
+  "tm:mudshot",
+  "tm:sandstorm",
+  "tm:stealthrock",
+  "tm:rockslide",
+  "tm:stoneedge"
+ ]
+}

@@ -1,0 +1,175 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3221,
+ "name": "Iron Forge",
+ "primaryType": "fire",
+ "secondaryType": "dark",
+ "maleRatio": -1,
+ "height": 20,
+ "weight": 5600,
+ "pokedex": [
+  "cobbleeffort.species.ironforge.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "quarkdrive"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 90,
+  "attack": 130,
+  "defence": 110,
+  "special_attack": 120,
+  "special_defence": 90,
+  "speed": 70
+ },
+ "evYield": {
+  "hp": 0,
+  "attack": 2,
+  "defence": 0,
+  "special_attack": 1,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 300,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.486,
+ "hitbox": {
+  "width": 2.8,
+  "height": 1.5,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:iron_ingot",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:magma_cream",
+    "quantityRange": "1-3"
+   },
+   {
+    "item": "cobblemon:charcoal_stick",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:black_glasses",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:ember",
+  "1:bite",
+  "1:metalclaw",
+  "8:flamecharge",
+  "16:crunch",
+  "24:firefang",
+  "32:ironhead",
+  "40:flamethrower",
+  "48:darkpulse",
+  "56:magmastorm",
+  "64:heatcrash",
+  "72:eruption",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:flamethrower",
+  "tm:fireblast",
+  "tm:heatwave",
+  "tm:willowisp",
+  "tm:overheat",
+  "tm:flamecharge",
+  "tm:firespin",
+  "tm:firefang",
+  "tm:incinerate",
+  "tm:temperflare",
+  "tm:burningjealousy",
+  "tm:scorchingsands",
+  "tm:darkpulse",
+  "tm:foulplay",
+  "tm:knockoff",
+  "tm:nastyplot",
+  "tm:suckerpunch",
+  "tm:taunt",
+  "tm:thief",
+  "tm:throatchop",
+  "tm:torment",
+  "tm:payback",
+  "tm:lashout",
+  "tm:faketears",
+  "tm:flashcannon",
+  "tm:ironhead",
+  "tm:irondefense",
+  "tm:steelbeam",
+  "tm:heavyslam",
+  "tm:metalsound",
+  "tm:gyroball",
+  "tm:magnetrise",
+  "tm:steelwing"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "species": "cobbleeffort:bristlehorn",
+ "order": 1,
+ "variations": [
+  {
+   "aspects": [
+    "sky-forme"
+   ],
+   "poser": "cobbleeffort:bristlehorn_sky",
+   "model": "cobbleeffort:bristlehorn_sky.geo",
+   "texture": "cobbleeffort:textures/pokemon/3228_bristlehorn/bristlehorn_sky.png",
+   "layers": []
+  },
+  {
+   "aspects": [
+    "sky-forme",
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3228_bristlehorn/bristlehorn_sky_shiny.png",
+   "layers": []
+  }
+ ]
+}

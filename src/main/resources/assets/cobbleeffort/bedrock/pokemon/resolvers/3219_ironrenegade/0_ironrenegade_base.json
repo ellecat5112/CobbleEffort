@@ -1,0 +1,50 @@
+{
+ "species": "cobbleeffort:ironrenegade",
+ "order": 0,
+ "variations": [
+  {
+   "aspects": [],
+   "poser": "cobbleeffort:ironrenegade",
+   "model": "cobbleeffort:ironrenegade.geo",
+   "texture": "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_glow_0.png",
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_glow_1.png",
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  },
+  {
+   "aspects": [
+    "shiny"
+   ],
+   "texture": "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_shiny.png",
+   "layers": [
+    {
+     "name": "cobbleeffort_glow",
+     "emissive": true,
+     "translucent": true,
+     "texture": {
+      "frames": [
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_shiny_glow_0.png",
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_shiny_glow_1.png",
+       "cobbleeffort:textures/pokemon/3219_ironrenegade/ironrenegade_shiny_glow_2.png"
+      ],
+      "fps": 6,
+      "loop": true
+     }
+    }
+   ]
+  }
+ ]
+}

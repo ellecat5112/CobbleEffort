@@ -1,0 +1,168 @@
+{
+ "implemented": true,
+ "nationalPokedexNumber": 3218,
+ "name": "Exiled Shade",
+ "primaryType": "ghost",
+ "secondaryType": "rock",
+ "maleRatio": -1,
+ "height": 50,
+ "weight": 9000,
+ "pokedex": [
+  "cobbleeffort.species.exiledshade.desc"
+ ],
+ "labels": [
+  "cobbleeffort",
+  "custom",
+  "legendary",
+  "paradox"
+ ],
+ "aspects": [],
+ "abilities": [
+  "protosynthesis"
+ ],
+ "eggGroups": [
+  "undiscovered"
+ ],
+ "baseStats": {
+  "hp": 150,
+  "attack": 110,
+  "defence": 130,
+  "special_attack": 90,
+  "special_defence": 120,
+  "speed": 90
+ },
+ "evYield": {
+  "hp": 3,
+  "attack": 0,
+  "defence": 0,
+  "special_attack": 0,
+  "special_defence": 0,
+  "speed": 0
+ },
+ "baseExperienceYield": 340,
+ "experienceGroup": "slow",
+ "catchRate": 3,
+ "eggCycles": 20,
+ "baseFriendship": 35,
+ "shoulderMountable": false,
+ "baseScale": 1.816,
+ "hitbox": {
+  "width": 3.2,
+  "height": 1.875,
+  "fixed": false
+ },
+ "behaviour": {
+  "resting": {
+   "canSleep": true,
+   "willSleepOnBed": true,
+   "times": [
+    "day"
+   ],
+   "drowsyChance": 0.0014,
+   "rouseChance": 0.0042
+  },
+  "moving": {
+   "walk": {
+    "walkSpeed": 0.25
+   },
+   "swim": {
+    "avoidsWater": true,
+    "canSwimInWater": false
+   }
+  },
+  "combat": {
+   "willDefendOwner": true,
+   "willDefendSelf": true
+  }
+ },
+ "drops": {
+  "amount": 2,
+  "entries": [
+   {
+    "item": "minecraft:sculk",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "minecraft:gold_nugget",
+    "quantityRange": "2-5"
+   },
+   {
+    "item": "cobblemon:spell_tag",
+    "percentage": 10.0
+   },
+   {
+    "item": "cobblemon:hard_stone",
+    "percentage": 8.0
+   }
+  ]
+ },
+ "moves": [
+  "1:shadowsneak",
+  "1:ancientpower",
+  "1:scaryface",
+  "8:rocktomb",
+  "16:hex",
+  "24:rockslide",
+  "32:shadowclaw",
+  "40:stealthrock",
+  "48:shadowforce",
+  "56:stoneedge",
+  "64:headsmash",
+  "72:poltergeist",
+  "tm:protect",
+  "tm:rest",
+  "tm:substitute",
+  "tm:facade",
+  "tm:sleeptalk",
+  "tm:endure",
+  "tm:terablast",
+  "tm:gigaimpact",
+  "tm:hyperbeam",
+  "tm:takedown",
+  "tm:bodyslam",
+  "tm:crunch",
+  "tm:bite",
+  "tm:roar",
+  "tm:scaryface",
+  "tm:stompingtantrum",
+  "tm:bulldoze",
+  "tm:irontail",
+  "tm:calmmind",
+  "tm:reflect",
+  "tm:lightscreen",
+  "tm:agility",
+  "tm:swift",
+  "tm:snarl",
+  "tm:doubleedge",
+  "tm:extrasensory",
+  "tm:shadowball",
+  "tm:weatherball",
+  "tm:helpinghand",
+  "tm:shadowclaw",
+  "tm:hex",
+  "tm:poltergeist",
+  "tm:phantomforce",
+  "tm:willowisp",
+  "tm:nightshade",
+  "tm:spite",
+  "tm:confuseray",
+  "tm:curse",
+  "tm:destinybond",
+  "tm:painsplit",
+  "tm:ominouswind",
+  "tm:rockslide",
+  "tm:stoneedge",
+  "tm:rocktomb",
+  "tm:rockblast",
+  "tm:powergem",
+  "tm:meteorbeam",
+  "tm:stealthrock",
+  "tm:sandstorm",
+  "tm:smackdown",
+  "tm:rockpolish",
+  "tm:ancientpower",
+  "tm:earthquake",
+  "tm:earthpower",
+  "tm:highhorsepower"
+ ]
+}

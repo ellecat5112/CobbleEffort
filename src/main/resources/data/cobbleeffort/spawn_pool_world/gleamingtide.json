@@ -1,0 +1,26 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "gleamingtide-reef",
+   "pokemon": "cobbleeffort:gleamingtide",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "surface",
+   "bucket": "ultra-rare",
+   "level": "60-65",
+   "weight": 1.0,
+   "condition": {
+    "canSeeSky": true,
+    "timeRange": "day",
+    "biomes": [
+     "minecraft:warm_ocean"
+    ]
+   }
+  }
+ ]
+}

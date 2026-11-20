@@ -1,0 +1,27 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "ironforge-souls",
+   "pokemon": "cobbleeffort:ironforge",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65-70",
+   "weight": 1.0,
+   "condition": {
+    "dimensions": [
+     "minecraft:the_nether"
+    ],
+    "biomes": [
+     "minecraft:soul_sand_valley"
+    ]
+   }
+  }
+ ]
+}
